@@ -1,10 +1,21 @@
 # Environments
 .env
+.env.*
+*.env
 .venv/
 venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
 
 # Python
 __pycache__/
@@ -12,9 +23,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -30,5 +39,7 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# VS Code
+# VS Code & OS
 .vscode/
+.DS_Store
+*.pem

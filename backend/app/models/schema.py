@@ -73,3 +73,42 @@ class ColdEmailResponse(BaseModel):
     subject: str
     body: str
     tips: List[str] = Field(default_factory=list)
+
+
+class CourseSchema(BaseModel):
+    id: str
+    title_th: str
+    title_en: Optional[str] = None
+    degree_level: str
+    degree_name: Optional[str] = None
+    university: str
+    university_th: str
+    faculty: str
+    faculty_th: str
+    department: Optional[str] = None
+    department_th: Optional[str] = None
+    program_type: Optional[str] = "ภาคปกติ"
+    duration_years: Optional[str] = None
+    total_credits: Optional[str] = None
+    tuition_per_semester: Optional[str] = None
+    tuition_total: Optional[str] = None
+    description: Optional[str] = None
+    curriculum_highlights: List[str] = Field(default_factory=list)
+    career_paths: List[str] = Field(default_factory=list)
+    tags: List[str] = Field(default_factory=list)
+    website_url: Optional[str] = None
+    match_score: Optional[float] = 95.0
+
+
+class CourseSearchRequest(BaseModel):
+    query: Optional[str] = ""
+    university: Optional[str] = None
+    degree_level: Optional[str] = None
+    faculty: Optional[str] = None
+    top_k: int = 20
+
+
+class CourseSearchResponse(BaseModel):
+    query: str
+    total_matched: int
+    results: List[CourseSchema]

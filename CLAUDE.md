@@ -107,8 +107,8 @@
 
 ```text
 Teacher/
-├── AGENTS.md                     # Single authoritative guidelines & architecture (this file)
-├── CLAUDE.md                     # Points to @C:\Users\chaya\Documents\Program\Project\Teacher\AGENTS.md
+├── AGENTS.md                     # Authoritative guidelines & architecture for AI agents
+├── CLAUDE.md                     # Identical guidelines for Claude Code & Anthropic models
 ├── DATA_SOURCES.md               # Documentation of data sources and scraping references
 ├── README.md                     # Project overview and setup instructions
 ├── render.yaml                   # Render deployment configuration
