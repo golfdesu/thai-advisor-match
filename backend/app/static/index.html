@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="th" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thai Advisor Match — ค้นหาอาจารย์ที่ปรึกษาวิทยานิพนธ์ด้วย AI</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '"Bai Jamjuree"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              200: '#bae0fd',
+              500: '#0284c7',
+              600: '#0369a1',
+              700: '#075985',
+              900: '#0c4a6e',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', 'Bai Jamjuree', sans-serif;
+    }
+    .glassmorphism {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .gradient-border {
+      position: relative;
+      border-radius: 1rem;
+      background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc);
+      padding: 1.5px;
+    }
+    .gradient-border-inner {
+      background: white;
+      border-radius: calc(1rem - 1.5px);
+    }
+    @keyframes pulse-slow {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.92; transform: scale(1.01); }
+    }
+    .animate-pulse-slow {
+      animation: pulse-slow 3s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-full flex flex-col antialiased selection:bg-sky-500 selection:text-white">
+
+  <!-- Navigation Bar -->
+  <header class="sticky top-0 z-40 glassmorphism border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-sky-500/20">
+          <i data-lucide="sparkles" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <span class="font-bold text-lg text-slate-900 tracking-tight flex items-center gap-2">
+            Thai Advisor Match
+            <span class="text-[10px] font-semibold uppercase tracking-wider bg-sky-100 text-sky-700 px-2 py-0.5 rounded-full">AI Beta</span>
+          </span>
+          <p class="text-xs text-slate-500 hidden sm:block">ระบบค้นหาและจับคู่อาจารย์ที่ปรึกษาวิทยานิพนธ์ ป.โท - ป.เอก</p>
+        </div>
+      </div>
+      
+      <div class="flex items-center gap-3">
+        <div class="hidden md:flex items-center gap-2 text-xs font-medium text-slate-600 bg-slate-100/80 px-3 py-1.5 rounded-full border border-slate-200">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span>19 คณาจารย์ มช. พร้อมค้นหา</span>
+        </div>
+        <a href="/docs" target="_blank" class="text-xs font-semibold text-sky-600 hover:text-sky-700 bg-sky-50 hover:bg-sky-100 px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1">
+          <i data-lucide="code-2" class="w-3.5 h-3.5"></i>
+          API Docs
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero & Search Container -->
+  <main class="flex-1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+    
+    <!-- Hero Title -->
+    <div class="text-center max-w-3xl mx-auto mb-8 pt-4">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-100/80 text-sky-800 text-xs font-medium mb-4 shadow-sm border border-sky-200">
+        <i data-lucide="graduation-cap" class="w-3.5 h-3.5 text-sky-600"></i>
+        สำหรับผู้สนใจศึกษาต่อปริญญาโท และ ปริญญาเอก ในไทย
+      </div>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
+        ค้นหา <span class="bg-gradient-to-r from-sky-600 to-indigo-600 bg-clip-text text-transparent">อาจารย์ที่ปรึกษา</span><br/>ที่ตรงกับไอเดียวิจัยของคุณที่สุด
+      </h1>
+      <p class="mt-3 text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
+        เพียงพิมพ์หัวข้อหรือคำอธิบายงานวิจัยที่คุณสนใจ ระบบ AI จะวิเคราะห์และจับคู่กับความเชี่ยวชาญและผลงานวิจัยของอาจารย์ให้ทันที
+      </p>
+    </div>
+
+    <!-- AI Search Box -->
+    <div class="max-w-3xl mx-auto mb-8">
+      <div class="gradient-border shadow-xl shadow-sky-500/5">
+        <div class="gradient-border-inner p-4 sm:p-5">
+          <form id="searchForm" class="space-y-4">
+            <div class="relative">
+              <label for="searchInput" class="block text-xs font-semibold uppercase tracking-wider text-slate-500 mb-2 flex items-center gap-1.5">
+                <i data-lucide="sparkle" class="w-3.5 h-3.5 text-sky-500"></i>
+                ระบุหัวข้อ / ไอเดียงานวิจัย หรือความสนใจของคุณ
+              </label>
+              <div class="relative">
+                <textarea 
+                  id="searchInput" 
+                  rows="3" 
+                  class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-sm sm:text-base text-slate-900 placeholder:text-slate-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-transparent transition-all resize-none"
+                  placeholder="ตัวอย่าง: สนใจทำวิจัยเรื่อง ไมโครกริด ยานยนต์ไฟฟ้า (EV) และระบบกักเก็บพลังงานแสงอาทิตย์..."
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- Search Action Row -->
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-1">
+              <!-- Filter Dropdown -->
+              <div class="flex items-center gap-2">
+                <div class="relative flex-1 sm:w-64">
+                  <select id="universityFilter" class="w-full text-xs bg-slate-100 text-slate-700 font-medium py-2 px-3 pr-8 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-500">
+                    <option value="">🏛️ ทุกมหาวิทยาลัย (19 คณาจารย์)</option>
+                    <option value="เชียงใหม่" selected>📍 มหาวิทยาลัยเชียงใหม่ (มช.)</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <button 
+                type="submit" 
+                id="searchBtn"
+                class="bg-gradient-to-r from-sky-600 to-indigo-600 hover:from-sky-700 hover:to-indigo-700 text-white font-semibold text-sm px-6 py-2.5 rounded-xl shadow-md shadow-sky-500/25 transition-all transform active:scale-95 flex items-center justify-center gap-2"
+              >
+                <i data-lucide="search" class="w-4 h-4"></i>
+                <span id="btnText">ค้นหาอาจารย์ที่ปรึกษา</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Quick Example Pills -->
+      <div class="mt-3 flex flex-wrap items-center gap-1.5 text-xs text-slate-500">
+        <span class="font-medium text-slate-600 mr-1 flex items-center gap-1">
+          <i data-lucide="lightbulb" class="w-3.5 h-3.5 text-amber-500"></i>
+          ตัวอย่างหัวข้อวิจัย:
+        </span>
+        <button type="button" class="example-pill bg-white hover:bg-sky-50 hover:text-sky-700 text-slate-600 border border-slate-200/80 px-2.5 py-1 rounded-full transition-colors shadow-2xs">
+          ⚡ ไมโครกริดและยานยนต์ไฟฟ้า (EV)
+        </button>
+        <button type="button" class="example-pill bg-white hover:bg-sky-50 hover:text-sky-700 text-slate-600 border border-slate-200/80 px-2.5 py-1 rounded-full transition-colors shadow-2xs">
+          🧠 AI & การประมวลผลสัญญาณชีวการแพทย์
+        </button>
+        <button type="button" class="example-pill bg-white hover:bg-sky-50 hover:text-sky-700 text-slate-600 border border-slate-200/80 px-2.5 py-1 rounded-full transition-colors shadow-2xs">
+          ⚙️ ระบบควบคุมมอเตอร์ไดรฟ์
+        </button>
+        <button type="button" class="example-pill bg-white hover:bg-sky-50 hover:text-sky-700 text-slate-600 border border-slate-200/80 px-2.5 py-1 rounded-full transition-colors shadow-2xs">
+          📡 โฟโทนิกส์และการสื่อสารใยแก้วนำแสง
+        </button>
+      </div>
+    </div>
+
+    <!-- Results Header -->
+    <div class="flex items-center justify-between mb-4 border-b border-slate-200 pb-3">
+      <div>
+        <h2 id="resultSectionTitle" class="text-lg font-bold text-slate-900 flex items-center gap-2">
+          <i data-lucide="users" class="w-5 h-5 text-sky-600"></i>
+          รายชื่อคณาจารย์และผลการจับคู่
+        </h2>
+        <p id="resultCountText" class="text-xs text-slate-500">กำลังโหลดรายชื่อคณาจารย์ทั้งหมด...</p>
+      </div>
+      
+      <div class="flex items-center gap-2">
+        <button id="showAllBtn" class="text-xs font-semibold text-slate-600 hover:text-slate-900 bg-white border border-slate-200 hover:bg-slate-50 px-3 py-1.5 rounded-lg transition-colors">
+          ดูรายชื่อทั้งหมด
+        </button>
+      </div>
+    </div>
+
+    <!-- Loading State -->
+    <div id="loadingState" class="hidden py-12 text-center">
+      <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-sky-500 border-t-transparent mb-3"></div>
+      <p class="text-sm font-medium text-slate-600">AI กำลังวิเคราะห์และจับคู่อาจารย์ที่ปรึกษาที่ตรงที่สุด...</p>
+    </div>
+
+    <!-- Faculty Cards Grid -->
+    <div id="facultyGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <!-- Dynamic Cards Injected via JS -->
+    </div>
+
+  </main>
+
+  <!-- Cold Email Modal -->
+  <div id="coldEmailModal" class="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-2xl w-full shadow-2xl overflow-hidden border border-slate-200 animate-in fade-in zoom-in duration-150">
+      <div class="px-6 py-4 bg-gradient-to-r from-sky-600 to-indigo-600 text-white flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-lg bg-white/15 flex items-center justify-center">
+            <i data-lucide="mail" class="w-4 h-4 text-white"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-base">AI ร่างอีเมลติดต่องานวิจัย</h3>
+            <p class="text-xs text-sky-100" id="modalProfName">กำลังสร้างอีเมลติดต่อ...</p>
+          </div>
+        </div>
+        <button id="closeEmailModal" class="text-white/80 hover:text-white p-1 rounded-lg hover:bg-white/10 transition-colors">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div class="p-6 space-y-4 max-h-[75vh] overflow-y-auto">
+        <form id="coldEmailForm" class="space-y-3">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-semibold text-slate-600 mb-1">ชื่อ-นามสกุลของคุณ</label>
+              <input type="text" id="studentName" required value="นายกิตติคุณ มุ่งมั่น" class="w-full text-xs bg-slate-50 border border-slate-200 rounded-lg p-2.5 focus:bg-white focus:ring-2 focus:ring-sky-500 focus:outline-none">
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-600 mb-1">ระดับการศึกษาที่ต้องการสมัคร</label>
+              <select id="intendedDegree" class="w-full text-xs bg-slate-50 border border-slate-200 rounded-lg p-2.5 focus:bg-white focus:ring-2 focus:ring-sky-500 focus:outline-none">
+                <option value="ปริญญาโท (Master's Degree)">ปริญญาโท (Master's Degree)</option>
+                <option value="ปริญญาเอก (Ph.D.)">ปริญญาเอก (Ph.D.)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-600 mb-1">ประวัติการศึกษาและพื้นฐานโดยสังเขป</label>
+            <input type="text" id="studentBackground" value="จบการศึกษาระดับปริญญาตรี สาขาวิศวกรรมไฟฟ้า มีพื้นฐานด้าน Power Electronics และ Microcontroller" class="w-full text-xs bg-slate-50 border border-slate-200 rounded-lg p-2.5 focus:bg-white focus:ring-2 focus:ring-sky-500 focus:outline-none">
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-600 mb-1">หัวข้อวิจัยที่ต้องการเสนอ</label>
+            <input type="text" id="studentTopic" value="การพัฒนาระบบควบคุมไมโครกริดสำหรับสถานีชาร์จยานยนต์ไฟฟ้า" class="w-full text-xs bg-slate-50 border border-slate-200 rounded-lg p-2.5 focus:bg-white focus:ring-2 focus:ring-sky-500 focus:outline-none">
+          </div>
+
+          <div class="flex justify-end gap-2 pt-2">
+            <button type="button" id="btnGenTh" class="text-xs bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold px-3 py-2 rounded-lg transition-colors">
+              🇹🇭 ร่างภาษาไทย
+            </button>
+            <button type="button" id="btnGenEn" class="text-xs bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold px-3 py-2 rounded-lg transition-colors">
+              🇬🇧 Draft in English
+            </button>
+          </div>
+        </form>
+
+        <!-- Output Email Preview -->
+        <div class="pt-2 border-t border-slate-200">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold text-slate-700 flex items-center gap-1">
+              <i data-lucide="file-text" class="w-3.5 h-3.5 text-sky-600"></i>
+              หัวข้ออีเมล (Subject)
+            </span>
+            <button id="copySubjectBtn" class="text-[11px] text-sky-600 hover:underline flex items-center gap-1 font-medium">
+              <i data-lucide="copy" class="w-3 h-3"></i> คัดลอกหัวข้อ
+            </button>
+          </div>
+          <input type="text" id="emailSubject" readonly class="w-full text-xs bg-slate-100 text-slate-800 font-semibold p-2 rounded-lg border border-slate-200 mb-3">
+
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-bold text-slate-700 flex items-center gap-1">
+              <i data-lucide="message-square" class="w-3.5 h-3.5 text-sky-600"></i>
+              เนื้อหาอีเมล (Email Body)
+            </span>
+            <button id="copyBodyBtn" class="text-[11px] text-sky-600 hover:underline flex items-center gap-1 font-medium">
+              <i data-lucide="copy" class="w-3 h-3"></i> คัดลอกเนื้อหาทั้งหมด
+            </button>
+          </div>
+          <textarea id="emailBody" rows="9" readonly class="w-full text-xs bg-slate-50 text-slate-800 p-3 rounded-lg border border-slate-200 font-mono leading-relaxed resize-none"></textarea>
+        </div>
+      </div>
+
+      <div class="px-6 py-3 bg-slate-50 border-t border-slate-200 flex items-center justify-between">
+        <span class="text-[11px] text-slate-500" id="recipientEmail">อีเมลอาจารย์: -</span>
+        <a id="openMailtoBtn" href="#" class="bg-sky-600 hover:bg-sky-700 text-white text-xs font-semibold px-4 py-2 rounded-lg transition-colors flex items-center gap-1.5">
+          <i data-lucide="send" class="w-3.5 h-3.5"></i>
+          เปิดในโปรแกรมส่งอีเมล
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-200 mt-12 py-6 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto px-4">
+      <p class="font-medium text-slate-600">Thai Advisor Match — แพลตฟอร์มค้นหาอาจารย์ที่ปรึกษาวิทยานิพนธ์ด้วย AI</p>
+      <p class="mt-1 text-slate-400">พัฒนาขึ้นเพื่อสนับสนุนการศึกษาต่อระดับบัณฑิตศึกษาในประเทศไทย • อ้างอิงข้อมูลสาธารณะจากมหาวิทยาลัยเชียงใหม่</p>
+    </div>
+  </footer>
+
+  <!-- Client-Side App Logic -->
+  <script>
+    let allFaculty = [];
+    let currentSelectedFaculty = null;
+
+    // Initialize Lucide Icons
+    function refreshIcons() {
+      if (window.lucide) {
+        window.lucide.createIcons();
+      }
+    }
+
+    // Fetch all faculty members initially
+    async function loadAllFaculty() {
+      const grid = document.getElementById('facultyGrid');
+      const countText = document.getElementById('resultCountText');
+      const loading = document.getElementById('loadingState');
+      
+      loading.classList.remove('hidden');
+      grid.innerHTML = '';
+
+      try {
+        const res = await fetch('/api/v1/faculty/');
+        if (!res.ok) throw new Error('Network error');
+        allFaculty = await res.json();
+        
+        countText.innerText = `พบทั้งหมด ${allFaculty.length} คณาจารย์ (ภาควิชาวิศวกรรมไฟฟ้า คณะวิศวกรรมศาสตร์ มช.)`;
+        renderFacultyCards(allFaculty.map(f => ({ faculty: f, match_score: null })));
+      } catch (err) {
+        console.error(err);
+        countText.innerText = 'ไม่สามารถโหลดข้อมูลได้ กรุณาตรวจสอบสถานะเซิร์ฟเวอร์';
+      } finally {
+        loading.classList.add('hidden');
+        refreshIcons();
+      }
+    }
+
+    // Render Faculty Card Elements
+    function renderFacultyCards(results) {
+      const grid = document.getElementById('facultyGrid');
+      grid.innerHTML = '';
+
+      if (!results || results.length === 0) {
+        grid.innerHTML = `
+          <div class="col-span-full py-12 text-center text-slate-500">
+            <i data-lucide="search-x" class="w-10 h-10 mx-auto text-slate-400 mb-2"></i>
+            <p class="text-sm font-semibold">ไม่พบผลการจับคู่ที่ตรงกัน</p>
+            <p class="text-xs text-slate-400 mt-1">ลองใช้คำค้นหาที่กว้างขึ้น หรือกด "ดูรายชื่อทั้งหมด"</p>
+          </div>
+        `;
+        refreshIcons();
+        return;
+      }
+
+      results.forEach(item => {
+        const f = item.faculty;
+        const score = item.match_score;
+        const explanation = item.ai_explanation;
+
+        // Color badge based on match score
+        let scoreBadge = '';
+        if (score !== null && score !== undefined) {
+          let badgeColor = 'bg-emerald-50 text-emerald-700 border-emerald-200';
+          if (score < 40) badgeColor = 'bg-slate-100 text-slate-700 border-slate-200';
+          else if (score < 60) badgeColor = 'bg-sky-50 text-sky-700 border-sky-200';
+
+          scoreBadge = `
+            <div class="flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold border ${badgeColor}">
+              <i data-lucide="zap" class="w-3.5 h-3.5"></i>
+              <span>${score}% Match</span>
+            </div>
+          `;
+        }
+
+        const avatarImg = f.image_url 
+          ? `<img src="${f.image_url}" alt="${f.full_name_th}" class="w-16 h-16 rounded-xl object-cover border border-slate-200 shadow-2xs" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(f.full_name_th)}&background=0284c7&color=fff'">`
+          : `<div class="w-16 h-16 rounded-xl bg-gradient-to-tr from-sky-500 to-indigo-500 text-white flex items-center justify-center font-bold text-lg shadow-2xs">${f.first_name ? f.first_name[0] : 'อ'}</div>`;
+
+        const researchBadges = (f.research_interests || []).slice(0, 3).map(interest => 
+          `<span class="inline-block bg-slate-100 hover:bg-slate-200 text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded-md truncate max-w-full" title="${interest}">
+            ${interest}
+          </span>`
+        ).join('');
+
+        const explanationHtml = explanation ? `
+          <div class="mt-3 p-2.5 rounded-lg bg-sky-50/70 border border-sky-100 text-xs text-sky-900 leading-relaxed flex items-start gap-2">
+            <i data-lucide="sparkles" class="w-4 h-4 text-sky-600 shrink-0 mt-0.5"></i>
+            <span>${explanation}</span>
+          </div>
+        ` : '';
+
+        const card = document.createElement('div');
+        card.className = 'bg-white rounded-2xl p-5 border border-slate-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between';
+        card.innerHTML = `
+          <div>
+            <!-- Card Header -->
+            <div class="flex items-start justify-between gap-3 mb-3">
+              <div class="flex items-center gap-3">
+                ${avatarImg}
+                <div>
+                  <h3 class="font-bold text-sm sm:text-base text-slate-900 leading-snug">
+                    ${f.full_name_th}
+                  </h3>
+                  <p class="text-xs text-slate-500 mt-0.5">${f.role || 'อาจารย์ประจำภาควิชา'}</p>
+                  <p class="text-[11px] font-medium text-sky-700 mt-0.5">${f.university_th}</p>
+                </div>
+              </div>
+              ${scoreBadge}
+            </div>
+
+            <!-- AI Explanation if available -->
+            ${explanationHtml}
+
+            <!-- Research Interests -->
+            <div class="mt-3">
+              <span class="block text-[11px] font-semibold uppercase tracking-wider text-slate-400 mb-1.5">ความเชี่ยวชาญ & งานวิจัย</span>
+              <div class="flex flex-wrap gap-1">
+                ${researchBadges || '<span class="text-xs text-slate-400">วิศวกรรมไฟฟ้าและการวิจัยขั้นสูง</span>'}
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Actions -->
+          <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between gap-2">
+            ${f.email ? `
+              <button 
+                onclick="openColdEmailModal('${f.id}')"
+                class="text-xs font-semibold text-sky-600 hover:text-sky-700 bg-sky-50 hover:bg-sky-100 px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1.5"
+              >
+                <i data-lucide="mail-plus" class="w-3.5 h-3.5"></i>
+                ร่างอีเมลติดต่อ
+              </button>
+            ` : `<span class="text-xs text-slate-400">ไม่มีอีเมลระบุ</span>`}
+
+            <div class="flex items-center gap-1">
+              ${f.scholar_url ? `
+                <a href="${f.scholar_url}" target="_blank" class="p-1.5 text-slate-400 hover:text-sky-600 hover:bg-slate-100 rounded-lg transition-colors" title="ดูงานวิจัยใน CMU Scholars">
+                  <i data-lucide="external-link" class="w-4 h-4"></i>
+                </a>
+              ` : ''}
+              ${f.profile_url ? `
+                <a href="${f.profile_url}" target="_blank" class="text-xs text-slate-500 hover:text-slate-800 font-medium px-2 py-1 hover:bg-slate-100 rounded-lg transition-colors">
+                  โปรไฟล์ทางการ &rarr;
+                </a>
+              ` : ''}
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+
+      refreshIcons();
+    }
+
+    // Handle Search Submission
+    document.getElementById('searchForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const query = document.getElementById('searchInput').value.trim();
+      const university = document.getElementById('universityFilter').value;
+      const countText = document.getElementById('resultCountText');
+      const title = document.getElementById('resultSectionTitle');
+      const loading = document.getElementById('loadingState');
+      const btn = document.getElementById('searchBtn');
+      const btnText = document.getElementById('btnText');
+
+      if (!query) {
+        loadAllFaculty();
+        return;
+      }
+
+      loading.classList.remove('hidden');
+      document.getElementById('facultyGrid').innerHTML = '';
+      btnText.innerText = 'กำลังค้นหา...';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch('/api/v1/search/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            query: query,
+            university: university || null,
+            top_k: 15
+          })
+        });
+
+        if (!res.ok) throw new Error('Search failed');
+        const data = await res.json();
+
+        title.innerHTML = `<i data-lucide="sparkles" class="w-5 h-5 text-sky-600"></i> ผลการจับคู่อาจารย์ที่ตรงกับ: "${query}"`;
+        countText.innerText = `พบ ${data.total_matched} อาจารย์ที่ปรึกษาที่ตรงกับหัวข้อวิจัยของคุณ (จัดอันดับตาม % Match Score)`;
+        renderFacultyCards(data.results);
+      } catch (err) {
+        console.error(err);
+        countText.innerText = 'เกิดข้อผิดพลาดในการค้นหา';
+      } finally {
+        loading.classList.add('hidden');
+        btnText.innerText = 'ค้นหาอาจารย์ที่ปรึกษา';
+        btn.disabled = false;
+        refreshIcons();
+      }
+    });
+
+    // Quick Pill Click Handlers
+    document.querySelectorAll('.example-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        const text = pill.innerText.replace(/^[^\wก-๙]+/, '').trim();
+        document.getElementById('searchInput').value = text;
+        document.getElementById('searchForm').dispatchEvent(new Event('submit'));
+      });
+    });
+
+    // Show All Button
+    document.getElementById('showAllBtn').addEventListener('click', () => {
+      document.getElementById('searchInput').value = '';
+      document.getElementById('resultSectionTitle').innerHTML = `<i data-lucide="users" class="w-5 h-5 text-sky-600"></i> รายชื่อคณาจารย์ทั้งหมด`;
+      loadAllFaculty();
+    });
+
+    // Cold Email Generator Logic
+    window.openColdEmailModal = async function(facultyId) {
+      currentSelectedFaculty = allFaculty.find(f => f.id === facultyId);
+      if (!currentSelectedFaculty) return;
+
+      const modal = document.getElementById('coldEmailModal');
+      document.getElementById('modalProfName').innerText = `ส่งหา: ${currentSelectedFaculty.full_name_th} (${currentSelectedFaculty.email || 'ไม่มีอีเมล'})`;
+      document.getElementById('recipientEmail').innerText = `อีเมลอาจารย์: ${currentSelectedFaculty.email || '-'}`;
+      
+      const query = document.getElementById('searchInput').value.trim();
+      if (query) {
+        document.getElementById('studentTopic').value = query;
+      }
+
+      modal.classList.remove('hidden');
+      generateDraftEmail('th');
+      refreshIcons();
+    };
+
+    async function generateDraftEmail(lang = 'th') {
+      if (!currentSelectedFaculty) return;
+
+      const studentName = document.getElementById('studentName').value;
+      const studentBackground = document.getElementById('studentBackground').value;
+      const researchTopic = document.getElementById('studentTopic').value;
+      const intendedDegree = document.getElementById('intendedDegree').value;
+
+      try {
+        const res = await fetch('/api/v1/search/cold-email', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            faculty_id: currentSelectedFaculty.id,
+            student_name: studentName,
+            student_background: studentBackground,
+            research_topic: researchTopic,
+            intended_degree: intendedDegree,
+            language: lang
+          })
+        });
+
+        if (res.ok) {
+          const data = await res.json();
+          document.getElementById('emailSubject').value = data.subject;
+          document.getElementById('emailBody').value = data.body;
+
+          const email = currentSelectedFaculty.email || '';
+          const mailtoUrl = `mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(data.subject)}&body=${encodeURIComponent(data.body)}`;
+          document.getElementById('openMailtoBtn').href = mailtoUrl;
+        }
+      } catch (err) {
+        console.error(err);
+      }
+    }
+
+    document.getElementById('btnGenTh').addEventListener('click', () => generateDraftEmail('th'));
+    document.getElementById('btnGenEn').addEventListener('click', () => generateDraftEmail('en'));
+
+    // Copy to clipboard helpers
+    document.getElementById('copySubjectBtn').addEventListener('click', () => {
+      const subject = document.getElementById('emailSubject').value;
+      navigator.clipboard.writeText(subject);
+      alert('คัดลอกหัวข้ออีเมลแล้ว!');
+    });
+
+    document.getElementById('copyBodyBtn').addEventListener('click', () => {
+      const body = document.getElementById('emailBody').value;
+      navigator.clipboard.writeText(body);
+      alert('คัดลอกเนื้อหาอีเมลเรียบร้อยแล้ว!');
+    });
+
+    document.getElementById('closeEmailModal').addEventListener('click', () => {
+      document.getElementById('coldEmailModal').classList.add('hidden');
+    });
+
+    // Initial Load on Page Startup
+    window.addEventListener('DOMContentLoaded', () => {
+      loadAllFaculty();
+      refreshIcons();
+    });
+  </script>
+</body>
+</html>
