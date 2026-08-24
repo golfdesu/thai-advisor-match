@@ -49,6 +49,15 @@ def serve_home_ui():
     }
 
 
+@app.get("/faculty/{faculty_id}", tags=["UI"])
+def serve_faculty_profile(faculty_id: str):
+    """Serve the individual faculty profile page."""
+    profile_file = STATIC_DIR / "profile.html"
+    if profile_file.exists():
+        return FileResponse(str(profile_file))
+    # Fallback to index if profile.html is not created yet, so they don't get a 404
+    return FileResponse(str(STATIC_DIR / "index.html"))
+
 @app.get("/api/health", tags=["Health"])
 def health_check():
     return {
