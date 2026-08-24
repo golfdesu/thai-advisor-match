@@ -4,7 +4,7 @@
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 1. **AI Semantic Advisor Matching:** Input thesis ideas/topics (in Thai or English) and get ranked professors and universities with a % match score.
 2. **AI Match Explanations:** Automated summaries justifying why each advisor aligns with your research goals.
@@ -14,7 +14,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## ️ Tech Stack
 
 * **Backend:** Python (FastAPI, Pydantic, Requests/BeautifulSoup)
 * **Frontend:** Next.js (App Router, Tailwind CSS, TypeScript, Lucide Icons)
@@ -23,7 +23,7 @@
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Backend Setup (FastAPI)
 
@@ -51,6 +51,6 @@ python -m tests.test_search
 
 ---
 
-## 📂 Project Architecture
+##  Project Architecture
 
 See [`AGENTS.md`](./AGENTS.md) for full architectural guidelines, data schemas, and scraping standards.
