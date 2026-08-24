@@ -54,3 +54,19 @@ python -m tests.test_search
 ##  Project Architecture
 
 See [`AGENTS.md`](./AGENTS.md) for full architectural guidelines, data schemas, and scraping standards.
+
+---
+
+## 🚀 Deployment (Render.com)
+
+The project includes a `render.yaml` configuration file for zero-config deployment.
+
+1. Create a [Render](https://render.com/) account.
+2. Go to your Dashboard and click **New+** -> **Blueprint**.
+3. Connect your GitHub repository containing this code.
+4. Render will automatically detect the `render.yaml` file.
+5. Provide the required Environment Variables in the Render Dashboard when prompted:
+   - `DATABASE_URL`: Your Supabase connection string (PostgreSQL).
+   - `GEMINI_API_KEY`: Your Google Gemini API Key.
+   - `SERPAPI_KEY`: Your SerpApi API Key (for Google Scholar).
+6. Click **Apply** to deploy the FastAPI backend.
