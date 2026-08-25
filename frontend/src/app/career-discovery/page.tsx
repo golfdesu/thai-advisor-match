@@ -114,7 +114,7 @@ const BACKEND_URL = "http://localhost:8000/api/v1";
 
 // Helper function to render clean Lucide icons instead of emojis
 function renderOptionIcon(iconName?: string) {
-  const props = { size: 20, className: "text-indigo-400 flex-shrink-0" };
+  const props = { size: 20, className: "text-indigo-600 flex-shrink-0" };
   switch (iconName) {
     case "code": return <Laptop {...props} />;
     case "palette": return <Palette {...props} />;
@@ -460,19 +460,19 @@ const MASTER_QUESTIONS: QuestionItem[] = [
   }
 ];
 
-// Clean Minimal SVG Radar Chart Component
+// Clean Minimal SVG Radar Chart Component for Light Theme
 function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
   const size = 320;
   const center = size / 2;
   const radius = 105;
 
   const traits = [
-    { key: "realistic", label: "นักปฏิบัติ (R)", code: "R", color: "#f97316" },
-    { key: "investigative", label: "นักสืบค้น (I)", code: "I", color: "#3b82f6" },
-    { key: "artistic", label: "นักสร้างสรรค์ (A)", code: "A", color: "#ec4899" },
-    { key: "social", label: "นักสังคม (S)", code: "S", color: "#10b981" },
-    { key: "enterprising", label: "นักบริหาร (E)", code: "E", color: "#8b5cf6" },
-    { key: "conventional", label: "นักจัดระเบียบ (C)", code: "C", color: "#06b6d4" }
+    { key: "realistic", label: "นักปฏิบัติ (R)", code: "R", color: "#ea580c" },
+    { key: "investigative", label: "นักสืบค้น (I)", code: "I", color: "#2563eb" },
+    { key: "artistic", label: "นักสร้างสรรค์ (A)", code: "A", color: "#db2777" },
+    { key: "social", label: "นักสังคม (S)", code: "S", color: "#059669" },
+    { key: "enterprising", label: "นักบริหาร (E)", code: "E", color: "#7c3aed" },
+    { key: "conventional", label: "นักจัดระเบียบ (C)", code: "C", color: "#0891b2" }
   ];
 
   const totalAxes = traits.length;
@@ -491,19 +491,19 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
   const webRings = [0.25, 0.5, 0.75, 1.0];
 
   return (
-    <div className="flex flex-col items-center justify-center p-6 bg-slate-900/90 rounded-3xl text-white shadow-xl border border-slate-800 relative overflow-hidden">
+    <div className="flex flex-col items-center justify-center p-6 bg-white rounded-3xl text-slate-800 shadow-sm border border-slate-200 relative overflow-hidden">
       <div className="w-full flex items-center justify-between mb-2">
-        <div className="flex items-center gap-2 text-xs font-bold text-slate-300">
-          <ShieldCheck size={16} className="text-indigo-400" />
-          <span>Holland RIASEC Assessment</span>
+        <div className="flex items-center gap-2 text-xs font-bold text-slate-700">
+          <ShieldCheck size={16} className="text-indigo-600" />
+          <span>Holland RIASEC Profile</span>
         </div>
-        <span className="text-[11px] font-mono text-slate-400 bg-slate-800 px-2.5 py-0.5 rounded-full">
+        <span className="text-[11px] font-mono text-slate-600 bg-slate-100 px-2.5 py-0.5 rounded-full border border-slate-200">
           Standardized Metric
         </span>
       </div>
 
       <svg width={size} height={size} className="overflow-visible my-2">
-        {/* Background Grid Rings */}
+        {/* Background Grid Rings (Light Gray) */}
         {webRings.map((scale, i) => {
           const ringPoints = traits.map((_, index) => {
             const angle = index * angleStep - Math.PI / 2;
@@ -517,9 +517,9 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
               key={i}
               points={ringPoints}
               fill="none"
-              stroke="#334155"
+              stroke="#e2e8f0"
               strokeWidth="1"
-              strokeDasharray={scale === 1 ? "none" : "2,2"}
+              strokeDasharray={scale === 1 ? "none" : "3,3"}
             />
           );
         })}
@@ -529,24 +529,24 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
           const angle = index * angleStep - Math.PI / 2;
           const x = center + radius * Math.cos(angle);
           const y = center + radius * Math.sin(angle);
-          return <line key={index} x1={center} y1={center} x2={x} y2={y} stroke="#334155" strokeWidth="1" />;
+          return <line key={index} x1={center} y1={center} x2={x} y2={y} stroke="#e2e8f0" strokeWidth="1" />;
         })}
 
-        {/* Value Polygon with Gradient Fill */}
+        {/* Value Polygon with Light Gradient Fill */}
         <polygon
           points={points}
-          fill="url(#radarGradient)"
-          fillOpacity="0.45"
-          stroke="#6366f1"
-          strokeWidth="2"
+          fill="url(#radarGradientLight)"
+          fillOpacity="0.35"
+          stroke="#4f46e5"
+          strokeWidth="2.5"
           className="transition-all duration-700 ease-out"
         />
 
         <defs>
-          <linearGradient id="radarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.8" />
-            <stop offset="50%" stopColor="#8b5cf6" stopOpacity="0.8" />
-            <stop offset="100%" stopColor="#ec4899" stopOpacity="0.8" />
+          <linearGradient id="radarGradientLight" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.6" />
+            <stop offset="50%" stopColor="#6366f1" stopOpacity="0.6" />
+            <stop offset="100%" stopColor="#ec4899" stopOpacity="0.6" />
           </linearGradient>
         </defs>
 
@@ -564,12 +564,12 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
 
           return (
             <g key={index}>
-              <circle cx={nodeX} cy={nodeY} r="4" fill={trait.color} stroke="#ffffff" strokeWidth="1.5" />
+              <circle cx={nodeX} cy={nodeY} r="4.5" fill={trait.color} stroke="#ffffff" strokeWidth="2" />
               <text
                 x={labelX}
                 y={labelY + 4}
                 textAnchor="middle"
-                fontSize="10"
+                fontSize="10.5"
                 fontWeight="700"
                 fill={trait.color}
                 className="select-none font-sans"
@@ -582,11 +582,11 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
       </svg>
 
       {/* Trait Legend Badges */}
-      <div className="grid grid-cols-3 gap-2 w-full mt-2 pt-3 border-t border-slate-800 text-[11px]">
+      <div className="grid grid-cols-3 gap-2 w-full mt-2 pt-3 border-t border-slate-100 text-[11px]">
         {traits.map((t, idx) => (
-          <div key={idx} className="flex items-center gap-1.5 bg-slate-800/80 px-2.5 py-1 rounded-lg">
+          <div key={idx} className="flex items-center gap-1.5 bg-slate-50 border border-slate-150 px-2.5 py-1 rounded-lg">
             <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: t.color }}></span>
-            <span className="text-slate-300 font-medium truncate">{t.label}</span>
+            <span className="text-slate-700 font-medium truncate">{t.label}</span>
           </div>
         ))}
       </div>
@@ -706,17 +706,17 @@ export default function CareerDiscoveryPage() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col selection:bg-indigo-500 selection:text-white">
+    <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col selection:bg-indigo-500 selection:text-white">
       {/* Top Navbar */}
-      <header className="border-b border-slate-800/80 bg-slate-900/80 backdrop-blur-md sticky top-0 z-50">
+      <header className="border-b border-slate-200 bg-white/90 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2.5 text-white hover:text-indigo-300 transition">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-blue-600 flex items-center justify-center text-white shadow-md">
+          <Link href="/" className="flex items-center gap-2.5 text-slate-900 hover:text-indigo-600 transition">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-blue-600 flex items-center justify-center text-white shadow-md shadow-indigo-500/20">
               <GraduationCap size={19} />
             </div>
             <div>
-              <span className="font-black text-lg tracking-tight">Thai EduCenter</span>
-              <span className="hidden sm:inline-block text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-indigo-300 px-2 py-0.5 rounded-full ml-2 border border-slate-700">
+              <span className="font-black text-lg tracking-tight text-slate-900">Thai EduCenter</span>
+              <span className="hidden sm:inline-block text-[10px] font-bold uppercase tracking-wider bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-full ml-2 border border-indigo-100">
                 Career Profiler
               </span>
             </div>
@@ -725,7 +725,7 @@ export default function CareerDiscoveryPage() {
           <div className="flex items-center gap-3">
             <Link
               href="/"
-              className="text-xs font-semibold text-slate-300 hover:text-white transition flex items-center gap-1.5 bg-slate-850 px-3.5 py-1.5 rounded-xl border border-slate-700"
+              className="text-xs font-semibold text-slate-600 hover:text-slate-900 transition flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-xl border border-slate-200 shadow-xs"
             >
               <HomeIcon size={14} />
               <span>กลับหน้าหลัก</span>
@@ -739,17 +739,17 @@ export default function CareerDiscoveryPage() {
         {/* VIEW 1: Tier Selection Mode */}
         {!tier && !result && (
           <div className="text-center animate-fadeIn">
-            <div className="inline-flex items-center gap-2 bg-indigo-950/60 border border-indigo-500/30 text-indigo-300 px-3.5 py-1 rounded-full text-xs font-semibold mb-6">
-              <Compass size={14} className="text-indigo-400" />
+            <div className="inline-flex items-center gap-2 bg-indigo-50 border border-indigo-200 text-indigo-800 px-3.5 py-1 rounded-full text-xs font-semibold mb-6 shadow-xs">
+              <Compass size={14} className="text-indigo-600" />
               <span>Holland RIASEC Psychometric Assessment</span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight mb-4">
-              ค้นหา <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-sky-400 to-pink-400">ศักยภาพ & สาขาวิชาที่ใช่</span><br />
+            <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight mb-4">
+              ค้นหา <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-blue-600 to-sky-600">ศักยภาพ & สาขาวิชาที่ใช่</span><br />
               ด้วยระบบประเมินจิตวิทยาอาชีพ
             </h1>
 
-            <p className="text-slate-400 text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed">
+            <p className="text-slate-600 text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed font-normal">
               แบบประเมินความถนัดทางการศึกษาและวิชาชีพ ออกแบบตามกรอบจิตวิทยามาตรฐานสากล พร้อมจับคู่กับหลักสูตรระดับปริญญาตรีของมหาวิทยาลัยชั้นนำทั่วประเทศ
             </p>
 
@@ -761,24 +761,24 @@ export default function CareerDiscoveryPage() {
                   setTier("quick");
                   setCurrentStep(0);
                 }}
-                className="group bg-slate-900/90 hover:bg-slate-850 p-6 rounded-3xl border border-slate-800 hover:border-amber-500/50 transition-all shadow-lg flex flex-col justify-between"
+                className="group bg-white hover:bg-slate-50/80 p-6 rounded-3xl border border-slate-200 hover:border-amber-400 transition-all shadow-sm hover:shadow-md flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-11 h-11 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+                  <div className="w-11 h-11 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-amber-100">
                     <Zap size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-amber-400">ระดับเร่งด่วน</span>
-                    <span className="text-[10px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded-full flex items-center gap-1">
+                    <span className="text-xs font-bold uppercase tracking-wider text-amber-600">ระดับเร่งด่วน</span>
+                    <span className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full flex items-center gap-1">
                       <Clock size={10} /> 1 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-2">Quick Scan</h3>
-                  <p className="text-xs text-slate-400 leading-relaxed mb-4">
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Quick Scan</h3>
+                  <p className="text-xs text-slate-500 leading-relaxed mb-4">
                     5 คำถามสำคัญ เพื่อประเมินแนวโน้มความถนัดและภาพรวมในเบื้องต้น
                   </p>
                 </div>
-                <div className="flex items-center text-xs font-bold text-amber-400 group-hover:translate-x-1 transition-transform">
+                <div className="flex items-center text-xs font-bold text-amber-600 group-hover:translate-x-1 transition-transform">
                   <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
                 </div>
               </button>
@@ -789,27 +789,27 @@ export default function CareerDiscoveryPage() {
                   setTier("standard");
                   setCurrentStep(0);
                 }}
-                className="group bg-gradient-to-b from-indigo-950/60 to-slate-900/90 p-6 rounded-3xl border-2 border-indigo-500/60 hover:border-indigo-400 transition-all shadow-xl flex flex-col justify-between relative overflow-hidden scale-[1.02]"
+                className="group bg-gradient-to-b from-indigo-50/70 via-white to-white p-6 rounded-3xl border-2 border-indigo-500 hover:border-indigo-600 transition-all shadow-md hover:shadow-lg flex flex-col justify-between relative overflow-hidden scale-[1.02]"
               >
                 <div className="absolute top-3 right-3 bg-indigo-600 text-white font-bold text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full">
                   แนะนำ
                 </div>
                 <div>
-                  <div className="w-11 h-11 rounded-2xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+                  <div className="w-11 h-11 rounded-2xl bg-indigo-100 text-indigo-600 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-indigo-200">
                     <Target size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">ระดับมาตรฐาน</span>
-                    <span className="text-[10px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded-full flex items-center gap-1">
+                    <span className="text-xs font-bold uppercase tracking-wider text-indigo-700">ระดับมาตรฐาน</span>
+                    <span className="text-[10px] bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded-full flex items-center gap-1 font-medium">
                       <Clock size={10} /> 4 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-2">Standard Match</h3>
-                  <p className="text-xs text-slate-300 leading-relaxed mb-4">
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Standard Match</h3>
+                  <p className="text-xs text-slate-600 leading-relaxed mb-4">
                     20 คำถามครอบคลุมทั้งทักษะเฉพาะด้าน ความคิดสร้างสรรค์ และค่านิยมในการทำงาน
                   </p>
                 </div>
-                <div className="flex items-center text-xs font-bold text-indigo-300 group-hover:translate-x-1 transition-transform">
+                <div className="flex items-center text-xs font-bold text-indigo-600 group-hover:translate-x-1 transition-transform">
                   <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
                 </div>
               </button>
@@ -820,33 +820,33 @@ export default function CareerDiscoveryPage() {
                   setTier("deep");
                   setCurrentStep(0);
                 }}
-                className="group bg-slate-900/90 hover:bg-slate-850 p-6 rounded-3xl border border-slate-800 hover:border-pink-500/50 transition-all shadow-lg flex flex-col justify-between"
+                className="group bg-white hover:bg-slate-50/80 p-6 rounded-3xl border border-slate-200 hover:border-pink-400 transition-all shadow-sm hover:shadow-md flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-11 h-11 rounded-2xl bg-pink-500/10 text-pink-400 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+                  <div className="w-11 h-11 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-pink-100">
                     <Brain size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-pink-400">ระดับเจาะลึก</span>
-                    <span className="text-[10px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded-full flex items-center gap-1">
+                    <span className="text-xs font-bold uppercase tracking-wider text-pink-600">ระดับเจาะลึก</span>
+                    <span className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full flex items-center gap-1">
                       <Clock size={10} /> 10 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-2">Deep Dive DNA</h3>
-                  <p className="text-xs text-slate-400 leading-relaxed mb-4">
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Deep Dive DNA</h3>
+                  <p className="text-xs text-slate-500 leading-relaxed mb-4">
                     30 คำถามเชิงลึก วิเคราะห์สภาวะการทำงาน การรับมือแรงกดดัน และเป้าหมายระยะยาว
                   </p>
                 </div>
-                <div className="flex items-center text-xs font-bold text-pink-400 group-hover:translate-x-1 transition-transform">
+                <div className="flex items-center text-xs font-bold text-pink-600 group-hover:translate-x-1 transition-transform">
                   <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
                 </div>
               </button>
             </div>
 
             <div className="text-xs text-slate-500 flex items-center justify-center gap-4">
-              <span className="flex items-center gap-1"><ShieldCheck size={14} /> ผลการประเมินเพื่อการแนะแนวการศึกษา</span>
+              <span className="flex items-center gap-1"><ShieldCheck size={14} className="text-emerald-600" /> ผลการประเมินเพื่อการแนะแนวการศึกษา</span>
               <span>•</span>
-              <span className="flex items-center gap-1"><Cpu size={14} /> วิเคราะห์ผ่าน AI Semantic Mapping</span>
+              <span className="flex items-center gap-1"><Cpu size={14} className="text-indigo-600" /> วิเคราะห์ผ่าน AI Semantic Mapping</span>
             </div>
           </div>
         )}
@@ -855,12 +855,12 @@ export default function CareerDiscoveryPage() {
         {isSubmitting && (
           <div className="text-center py-20 animate-fadeIn">
             <div className="relative w-16 h-16 mx-auto mb-6">
-              <div className="w-16 h-16 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-indigo-400 shadow-xl animate-pulse">
+              <div className="w-16 h-16 rounded-2xl bg-indigo-50 border border-indigo-200 flex items-center justify-center text-indigo-600 shadow-md animate-pulse">
                 <Sparkles size={28} />
               </div>
             </div>
-            <h2 className="text-2xl font-black text-white mb-2">ระบบกำลังประมวลผลข้อมูลความถนัด...</h2>
-            <p className="text-sm text-slate-400 max-w-md mx-auto">
+            <h2 className="text-2xl font-black text-slate-900 mb-2">ระบบกำลังประมวลผลข้อมูลความถนัด...</h2>
+            <p className="text-sm text-slate-600 max-w-md mx-auto">
               กำลังคำนวณสัดส่วนคะแนน RIASEC และประมวลผลความสอดคล้องกับหลักสูตรมหาวิทยาลัยในฐานข้อมูล
             </p>
           </div>
@@ -871,35 +871,35 @@ export default function CareerDiscoveryPage() {
           <div className="max-w-2xl mx-auto w-full animate-fadeIn">
             {/* Progress Bar & Header */}
             <div className="mb-6">
-              <div className="flex justify-between items-center text-xs font-semibold text-slate-400 mb-2">
-                <span className="flex items-center gap-1.5 text-indigo-400">
+              <div className="flex justify-between items-center text-xs font-semibold text-slate-500 mb-2">
+                <span className="flex items-center gap-1.5 text-indigo-600 font-bold">
                   <Compass size={14} />
                   <span>{currentQ.category}</span>
                 </span>
-                <span className="font-mono text-slate-400">
+                <span className="font-mono text-slate-500">
                   ข้อ {currentStep + 1} / {activeQuestions.length} ({progressPct}%)
                 </span>
               </div>
-              <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+              <div className="w-full bg-slate-200 h-2 rounded-full overflow-hidden">
                 <div
-                  className="bg-gradient-to-r from-indigo-500 via-sky-400 to-pink-500 h-full rounded-full transition-all duration-300"
+                  className="bg-gradient-to-r from-blue-600 via-indigo-600 to-sky-600 h-full rounded-full transition-all duration-300"
                   style={{ width: `${progressPct}%` }}
                 ></div>
               </div>
             </div>
 
             {/* Question Card */}
-            <div className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl backdrop-blur-md mb-6">
-              <span className="inline-block bg-slate-800 text-slate-300 text-[11px] font-mono font-bold px-3 py-1 rounded-full mb-3 border border-slate-700">
+            <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm backdrop-blur-md mb-6">
+              <span className="inline-block bg-slate-100 text-slate-600 text-[11px] font-mono font-bold px-3 py-1 rounded-full mb-3 border border-slate-200">
                 Item {currentStep + 1}
               </span>
 
-              <h2 className="text-xl sm:text-2xl font-bold text-white leading-snug mb-2">
+              <h2 className="text-xl sm:text-2xl font-bold text-slate-900 leading-snug mb-2">
                 {currentQ.question}
               </h2>
 
               {currentQ.subtitle && (
-                <p className="text-xs sm:text-sm text-slate-400 mb-6">{currentQ.subtitle}</p>
+                <p className="text-xs sm:text-sm text-slate-500 mb-6">{currentQ.subtitle}</p>
               )}
 
               {/* INPUT TYPE 1: Single Choice / Multi Choice */}
@@ -918,20 +918,20 @@ export default function CareerDiscoveryPage() {
                         onClick={() => handleSelectOption(currentQ.id, opt.key, currentQ.type === "multi")}
                         className={`w-full text-left p-4 rounded-2xl border transition-all flex items-center justify-between ${
                           isSelected
-                            ? "bg-indigo-600/20 border-indigo-500 text-white shadow-md"
-                            : "bg-slate-800/60 border-slate-750 text-slate-300 hover:border-slate-600 hover:bg-slate-800"
+                            ? "bg-indigo-50/80 border-indigo-500 text-indigo-950 shadow-xs"
+                            : "bg-slate-50/60 border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50"
                         }`}
                       >
                         <div className="flex items-center gap-3">
                           {renderOptionIcon(opt.iconName)}
                           <div>
-                            <div className="font-bold text-sm sm:text-base">{opt.label}</div>
-                            {opt.desc && <div className="text-xs text-slate-400 mt-0.5">{opt.desc}</div>}
+                            <div className="font-bold text-sm sm:text-base text-slate-900">{opt.label}</div>
+                            {opt.desc && <div className="text-xs text-slate-500 mt-0.5">{opt.desc}</div>}
                           </div>
                         </div>
                         <div
                           className={`w-5 h-5 rounded-full flex items-center justify-center border flex-shrink-0 ${
-                            isSelected ? "bg-indigo-500 border-indigo-400 text-white" : "border-slate-600 bg-slate-900"
+                            isSelected ? "bg-indigo-600 border-indigo-600 text-white" : "border-slate-300 bg-white"
                           }`}
                         >
                           {isSelected && <Check size={12} strokeWidth={3} />}
@@ -961,16 +961,18 @@ export default function CareerDiscoveryPage() {
                           onClick={() => handleSelectOption(currentQ.id, item.val, false)}
                           className={`p-3 sm:p-4 rounded-2xl border text-center transition-all flex flex-col items-center justify-between ${
                             isSelected
-                              ? "bg-indigo-600 border-indigo-400 text-white shadow-lg scale-105"
-                              : "bg-slate-800/60 border-slate-750 text-slate-400 hover:border-slate-600 hover:bg-slate-800"
+                              ? "bg-indigo-600 border-indigo-600 text-white shadow-md scale-105"
+                              : "bg-slate-50 border-slate-200 text-slate-600 hover:border-slate-300 hover:bg-slate-100"
                           }`}
                         >
                           <span className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mb-2 border ${
-                            isSelected ? "bg-white text-indigo-900 border-white" : "bg-slate-900 text-slate-400 border-slate-700"
+                            isSelected ? "bg-white text-indigo-900 border-white" : "bg-white text-slate-700 border-slate-200"
                           }`}>
                             {item.num}
                           </span>
-                          <span className="text-[10px] sm:text-xs font-semibold leading-tight line-clamp-2">
+                          <span className={`text-[10px] sm:text-xs font-semibold leading-tight line-clamp-2 ${
+                            isSelected ? "text-white" : "text-slate-700"
+                          }`}>
                             {item.label}
                           </span>
                         </button>
@@ -992,13 +994,13 @@ export default function CareerDiscoveryPage() {
                     value={answers[currentQ.id] || ""}
                     onChange={(e) => handleFreeTextChange(currentQ.id, e.target.value)}
                     placeholder="ระบุคำตอบหรือมุมมองของคุณ..."
-                    className="w-full bg-slate-800 border border-slate-700 rounded-2xl p-4 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
+                    className="w-full bg-slate-50 border border-slate-200 rounded-2xl p-4 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:bg-white focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100"
                   />
 
                   {currentQ.chips && currentQ.chips.length > 0 && (
                     <div>
-                      <div className="text-xs font-bold text-slate-400 mb-2 flex items-center gap-1.5">
-                        <FileCheck2 size={13} className="text-indigo-400" />
+                      <div className="text-xs font-bold text-slate-500 mb-2 flex items-center gap-1.5">
+                        <FileCheck2 size={13} className="text-indigo-600" />
                         <span>หรือเลือกประเด็นที่สอดคล้อง:</span>
                       </div>
                       <div className="flex flex-wrap gap-2">
@@ -1007,7 +1009,7 @@ export default function CareerDiscoveryPage() {
                             key={idx}
                             type="button"
                             onClick={() => handleChipClick(currentQ.id, chip)}
-                            className="bg-slate-800 hover:bg-indigo-950 hover:border-indigo-500 text-slate-300 hover:text-white border border-slate-700 text-xs px-3 py-1.5 rounded-xl transition font-medium text-left"
+                            className="bg-slate-100 hover:bg-indigo-50 hover:border-indigo-200 text-slate-700 hover:text-indigo-900 border border-slate-200 text-xs px-3 py-1.5 rounded-xl transition font-medium text-left"
                           >
                             + {chip}
                           </button>
@@ -1025,7 +1027,7 @@ export default function CareerDiscoveryPage() {
                 type="button"
                 onClick={handlePrev}
                 disabled={currentStep === 0}
-                className="text-xs font-bold text-slate-400 hover:text-white disabled:opacity-30 transition flex items-center gap-1.5 px-4 py-2.5 rounded-xl"
+                className="text-xs font-bold text-slate-500 hover:text-slate-900 disabled:opacity-30 transition flex items-center gap-1.5 px-4 py-2.5 rounded-xl"
               >
                 <ArrowLeft size={16} /> ย้อนกลับ
               </button>
@@ -1034,7 +1036,7 @@ export default function CareerDiscoveryPage() {
                 <button
                   type="button"
                   onClick={resetQuiz}
-                  className="text-xs font-semibold text-slate-500 hover:text-slate-400"
+                  className="text-xs font-semibold text-slate-500 hover:text-slate-700"
                 >
                   เริ่มใหม่
                 </button>
@@ -1042,7 +1044,7 @@ export default function CareerDiscoveryPage() {
                 <button
                   type="button"
                   onClick={handleNext}
-                  className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold px-6 py-3 rounded-2xl shadow-md transition flex items-center gap-2"
+                  className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold px-6 py-3 rounded-2xl shadow-sm hover:shadow transition flex items-center gap-2"
                 >
                   <span>{currentStep === activeQuestions.length - 1 ? "ดูผลการวิเคราะห์" : "ถัดไป"}</span>
                   <ArrowRight size={16} />
@@ -1056,33 +1058,33 @@ export default function CareerDiscoveryPage() {
         {result && (
           <div className="space-y-8 animate-fadeIn max-w-4xl mx-auto w-full">
             {/* Top Shareable Archetype Card */}
-            <div className="bg-gradient-to-tr from-indigo-950 via-slate-900 to-purple-950 border border-indigo-500/40 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+            <div className="bg-gradient-to-tr from-indigo-50 via-white to-blue-50 border border-indigo-200 rounded-3xl p-6 sm:p-10 shadow-sm relative overflow-hidden">
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4">
-                <div className="inline-flex items-center gap-2 bg-indigo-500/20 border border-indigo-400/30 text-indigo-200 px-3 py-1 rounded-full text-xs font-bold font-mono">
-                  <Award size={14} className="text-amber-400" />
+                <div className="inline-flex items-center gap-2 bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-xs font-bold font-mono border border-indigo-200">
+                  <Award size={14} className="text-amber-600" />
                   <span>Holland Code: {result.archetype_code}</span>
                 </div>
 
                 <button
                   onClick={copyShareResult}
-                  className="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 backdrop-blur-xs border border-white/10"
+                  className="bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 border border-slate-200 shadow-xs"
                 >
-                  {copied ? <Check size={14} className="text-emerald-400" /> : <Copy size={14} />}
+                  {copied ? <Check size={14} className="text-emerald-600" /> : <Copy size={14} />}
                   <span>{copied ? "คัดลอกข้อมูลแล้ว" : "คัดลอกผลการประเมิน"}</span>
                 </button>
               </div>
 
-              <h1 className="text-2xl sm:text-4xl font-black text-white tracking-tight mb-2">
+              <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight mb-2">
                 {result.archetype_title}
               </h1>
-              <p className="text-indigo-200/90 text-sm sm:text-base font-medium mb-6 leading-relaxed">
+              <p className="text-slate-600 text-sm sm:text-base font-medium mb-6 leading-relaxed">
                 {result.archetype_description}
               </p>
 
               {/* Share Quote Banner */}
-              <div className="bg-black/40 border border-white/10 p-4 rounded-2xl text-xs sm:text-sm text-slate-300 flex items-center gap-3">
-                <Compass size={18} className="text-indigo-400 flex-shrink-0" />
-                <span className="font-medium">"{result.share_quote}"</span>
+              <div className="bg-white border border-indigo-100 p-4 rounded-2xl text-xs sm:text-sm text-slate-700 flex items-center gap-3 shadow-xs">
+                <Compass size={18} className="text-indigo-600 flex-shrink-0" />
+                <span className="font-medium italic">"{result.share_quote}"</span>
               </div>
             </div>
 
@@ -1092,22 +1094,22 @@ export default function CareerDiscoveryPage() {
               <RiasecRadarChart scores={result.riasec_scores} />
 
               {/* Personality Summary & Strengths */}
-              <div className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col justify-between">
+              <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-sm">
                 <div>
-                  <h3 className="text-base font-bold text-white mb-3 flex items-center gap-2">
-                    <Brain size={18} className="text-indigo-400" />
+                  <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
+                    <Brain size={18} className="text-indigo-600" />
                     <span>บทวิเคราะห์คุณลักษณะและศักยภาพ</span>
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mb-6 font-normal">
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6 font-normal">
                     {result.personality_summary}
                   </p>
 
-                  <div className="text-xs font-bold text-slate-400 mb-2">ทักษะและจุดเด่นหลัก:</div>
+                  <div className="text-xs font-bold text-slate-700 mb-2">ทักษะและจุดเด่นหลัก:</div>
                   <div className="flex flex-wrap gap-2 mb-6">
                     {result.strengths.map((str, idx) => (
                       <span
                         key={idx}
-                        className="bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 text-xs px-3 py-1 rounded-xl font-medium"
+                        className="bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs px-3 py-1 rounded-xl font-medium"
                       >
                         ✓ {str}
                       </span>
@@ -1115,20 +1117,20 @@ export default function CareerDiscoveryPage() {
                   </div>
                 </div>
 
-                <div className="bg-slate-800/60 p-3.5 rounded-2xl border border-slate-750 text-xs text-slate-300">
-                  <span className="font-bold text-indigo-400 block mb-0.5">สภาพแวดล้อมการทำงานที่เหมาะสม:</span>
+                <div className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 text-xs text-slate-700">
+                  <span className="font-bold text-indigo-700 block mb-0.5">สภาพแวดล้อมการทำงานที่เหมาะสม:</span>
                   <span>{result.ideal_work_environment}</span>
                 </div>
               </div>
             </div>
 
             {/* Top Recommended Careers */}
-            <div className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-white mb-1 flex items-center gap-2">
-                <Briefcase size={20} className="text-sky-400" />
+            <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm">
+              <h3 className="text-lg font-bold text-slate-900 mb-1 flex items-center gap-2">
+                <Briefcase size={20} className="text-blue-600" />
                 <span>สาขาวิชาชีพที่สอดคล้อง (Career Alignment)</span>
               </h3>
-              <p className="text-xs text-slate-400 mb-6">
+              <p className="text-xs text-slate-500 mb-6">
                 ประมวลผลจากความสอดคล้องระหว่างคะแนนทักษะและแนวโน้มความต้องการในตลาดงาน
               </p>
 
@@ -1136,24 +1138,24 @@ export default function CareerDiscoveryPage() {
                 {result.top_careers.map((career, idx) => (
                   <div
                     key={idx}
-                    className="bg-slate-800/70 border border-slate-750 p-5 rounded-2xl flex flex-col justify-between hover:border-sky-500/50 transition-colors"
+                    className="bg-slate-50 border border-slate-200 p-5 rounded-2xl flex flex-col justify-between hover:border-blue-300 transition-colors"
                   >
                     <div>
                       <div className="flex justify-between items-center mb-2">
-                        <span className="text-[10px] font-bold bg-sky-500/20 text-sky-300 px-2 py-0.5 rounded-md">
+                        <span className="text-[10px] font-bold bg-blue-100 text-blue-800 px-2 py-0.5 rounded-md">
                           {career.growth_outlook}
                         </span>
-                        <span className="text-xs font-mono font-bold text-emerald-400">{career.match_percentage}% Match</span>
+                        <span className="text-xs font-mono font-bold text-emerald-700">{career.match_percentage}% Match</span>
                       </div>
-                      <h4 className="font-bold text-white text-sm mb-2">{career.title}</h4>
-                      <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed mb-4">
+                      <h4 className="font-bold text-slate-900 text-sm mb-2">{career.title}</h4>
+                      <p className="text-xs text-slate-600 line-clamp-3 leading-relaxed mb-4">
                         {career.description}
                       </p>
                     </div>
 
-                    <div className="flex flex-wrap gap-1 pt-3 border-t border-slate-700">
+                    <div className="flex flex-wrap gap-1 pt-3 border-t border-slate-200">
                       {career.skills.map((skill, sIdx) => (
-                        <span key={sIdx} className="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded-md border border-slate-800">
+                        <span key={sIdx} className="text-[10px] bg-white text-slate-600 px-2 py-0.5 rounded-md border border-slate-200 font-medium">
                           {skill}
                         </span>
                       ))}
@@ -1164,20 +1166,20 @@ export default function CareerDiscoveryPage() {
             </div>
 
             {/* Recommended Undergraduate Programs (Direct Database Match) */}
-            <div className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-8">
+            <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm">
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-6">
                 <div>
-                  <h3 className="text-lg font-bold text-white flex items-center gap-2">
-                    <BookOpen size={20} className="text-pink-400" />
+                  <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
+                    <BookOpen size={20} className="text-indigo-600" />
                     <span>หลักสูตรระดับปริญญาตรีที่แนะนำ</span>
                   </h3>
-                  <p className="text-xs text-slate-400">
+                  <p className="text-xs text-slate-500">
                     ดึงข้อมูลตรงจากหลักสูตรมหาวิทยาลัยในระบบที่สอดคล้องกับเส้นทางอาชีพข้างต้น
                   </p>
                 </div>
                 <Link
                   href="/"
-                  className="text-xs font-bold text-indigo-400 hover:text-indigo-300 flex items-center gap-1"
+                  className="text-xs font-bold text-indigo-600 hover:text-indigo-700 flex items-center gap-1"
                 >
                   <span>สำรวจหลักสูตรทั้งหมด</span> <ChevronRight size={14} />
                 </Link>
@@ -1188,37 +1190,37 @@ export default function CareerDiscoveryPage() {
                   {result.recommended_courses.map((course) => (
                     <div
                       key={course.id}
-                      className="bg-slate-800/60 border border-slate-750 hover:border-pink-500/50 p-5 rounded-2xl flex flex-col justify-between transition-all group"
+                      className="bg-white border border-slate-200 hover:border-indigo-300 p-5 rounded-2xl flex flex-col justify-between transition-all group shadow-xs hover:shadow-sm"
                     >
                       <div>
                         <div className="flex justify-between items-start gap-2 mb-2">
-                          <span className="text-[10px] font-bold bg-pink-500/10 text-pink-300 px-2.5 py-0.5 rounded-full border border-pink-500/20">
+                          <span className="text-[10px] font-bold bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded-full border border-indigo-100">
                             {course.degree_level || "ปริญญาตรี"}
                           </span>
                           {course.match_score && (
-                            <span className="text-xs font-mono font-bold text-emerald-400 flex items-center gap-1">
-                              <Sparkles size={12} /> {course.match_score}% Match
+                            <span className="text-xs font-mono font-bold text-emerald-700 flex items-center gap-1">
+                              <Sparkles size={12} className="text-emerald-600" /> {course.match_score}% Match
                             </span>
                           )}
                         </div>
 
-                        <h4 className="font-bold text-white text-sm sm:text-base group-hover:text-pink-400 transition-colors leading-snug mb-1">
+                        <h4 className="font-bold text-slate-900 text-sm sm:text-base group-hover:text-indigo-600 transition-colors leading-snug mb-1">
                           {course.title_th}
                         </h4>
                         {course.title_en && (
                           <p className="text-[11px] text-slate-400 mb-2 truncate">{course.title_en}</p>
                         )}
 
-                        <div className="text-xs text-slate-300 flex items-center gap-1.5 mb-3 font-medium">
-                          <Building2 size={14} className="text-slate-500 flex-shrink-0" />
+                        <div className="text-xs text-slate-600 flex items-center gap-1.5 mb-3 font-medium">
+                          <Building2 size={14} className="text-slate-400 flex-shrink-0" />
                           <span>{course.university_th}</span>
-                          <span className="text-slate-600">•</span>
-                          <span className="text-slate-400">{course.faculty_th}</span>
+                          <span className="text-slate-300">•</span>
+                          <span className="text-slate-500 font-normal">{course.faculty_th}</span>
                         </div>
                       </div>
 
-                      <div className="pt-3 border-t border-slate-700/80 flex items-center justify-between">
-                        <span className="text-[11px] text-slate-400">
+                      <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
+                        <span className="text-[11px] text-slate-500">
                           {course.tuition_per_semester || "ตามประกาศมหาวิทยาลัย"}
                         </span>
                         {course.website_url ? (
@@ -1226,14 +1228,14 @@ export default function CareerDiscoveryPage() {
                             href={course.website_url}
                             target="_blank"
                             rel="noreferrer"
-                            className="text-xs font-bold text-white bg-slate-700 hover:bg-pink-600 px-3 py-1.5 rounded-xl transition flex items-center gap-1"
+                            className="text-xs font-bold text-white bg-slate-900 hover:bg-indigo-600 px-3 py-1.5 rounded-xl transition flex items-center gap-1"
                           >
                             <span>ดูหลักสูตร</span> <ExternalLink size={12} />
                           </a>
                         ) : (
                           <Link
                             href="/"
-                            className="text-xs font-bold text-white bg-slate-700 hover:bg-pink-600 px-3 py-1.5 rounded-xl transition flex items-center gap-1"
+                            className="text-xs font-bold text-white bg-slate-900 hover:bg-indigo-600 px-3 py-1.5 rounded-xl transition flex items-center gap-1"
                           >
                             <span>ดูในระบบ</span> <ChevronRight size={12} />
                           </Link>
@@ -1243,19 +1245,19 @@ export default function CareerDiscoveryPage() {
                   ))}
                 </div>
               ) : (
-                <div className="text-center py-6 text-xs text-slate-500 bg-slate-800/40 rounded-2xl border border-slate-800">
+                <div className="text-center py-6 text-xs text-slate-500 bg-slate-50 rounded-2xl border border-slate-200">
                   กำลังอัปเดตข้อมูลหลักสูตรที่สอดคล้อง
                 </div>
               )}
             </div>
 
             {/* Growth & Preparation Advice Card */}
-            <div className="bg-gradient-to-r from-indigo-950/40 via-slate-900 to-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8">
-              <h3 className="text-base font-bold text-indigo-300 mb-2 flex items-center gap-2">
-                <TrendingUp size={18} className="text-indigo-400" />
+            <div className="bg-gradient-to-r from-indigo-50/60 via-white to-blue-50/60 border border-indigo-100 rounded-3xl p-6 sm:p-8 shadow-xs">
+              <h3 className="text-base font-bold text-indigo-900 mb-2 flex items-center gap-2">
+                <TrendingUp size={18} className="text-indigo-600" />
                 <span>คำแนะนำเพื่อการเตรียมความพร้อมทางวิชาการ</span>
               </h3>
-              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal">
                 {result.growth_advice}
               </p>
             </div>
@@ -1264,7 +1266,7 @@ export default function CareerDiscoveryPage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
               <button
                 onClick={resetQuiz}
-                className="bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold px-6 py-3.5 rounded-2xl border border-slate-700 transition flex items-center gap-2 w-full sm:w-auto justify-center"
+                className="bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold px-6 py-3.5 rounded-2xl border border-slate-200 shadow-xs transition flex items-center gap-2 w-full sm:w-auto justify-center"
               >
                 <RefreshCw size={15} />
                 <span>ทำแบบประเมินใหม่อีกครั้ง</span>
@@ -1272,7 +1274,7 @@ export default function CareerDiscoveryPage() {
 
               <Link
                 href="/"
-                className="bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold px-8 py-3.5 rounded-2xl shadow-lg transition flex items-center gap-2 w-full sm:w-auto justify-center"
+                className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-bold px-8 py-3.5 rounded-2xl shadow-sm hover:shadow transition flex items-center gap-2 w-full sm:w-auto justify-center"
               >
                 <BookOpen size={15} />
                 <span>สำรวจหลักสูตรมหาวิทยาลัยทั้งหมด</span>
