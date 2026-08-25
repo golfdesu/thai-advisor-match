@@ -19,7 +19,10 @@ THAI_EN_SYNONYMS = {
     "แพทย์": "Medical Biomedical Health",
     "สุขภาพ": "Healthcare Biomedical",
     "แอพ": "Mobile Application Web Technologies",
-    "แอป": "Mobile Application Web Technologies"
+    "แอป": "Mobile Application Web Technologies",
+    "optimize": "optimization operations research",
+    "optimization": "optimize operations research",
+    "ออปติไมซ์": "optimization optimize"
 }
 
 class EmbeddingService:
