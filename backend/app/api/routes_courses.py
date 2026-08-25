@@ -69,7 +69,30 @@ def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
         query = query.filter(CourseDB.degree_level.ilike(f"%{filter_level}%"))
 
     if request.query and len(request.query.strip()) > 0:
-        q = f"%{request.query.strip()}%"
+        query_str = request.query.strip()
+        
+        # Thai academic slang / abbreviation mapping (longest keys first to prevent partial replacements)
+        th_slang_map = {
+            "หมอฟัน": "ทันตแพทยศาสตร์",
+            "หมอสัตว์": "สัตวแพทยศาสตร์",
+            "หมอหมา": "สัตวแพทยศาสตร์",
+            "หมอแมว": "สัตวแพทยศาสตร์",
+            "สถาปัตย์": "สถาปัตยกรรม",
+            "ถาปัตย์": "สถาปัตยกรรม",
+            "วิศวะ": "วิศวกรรม",
+            "วิดวะ": "วิศวกรรม",
+            "หมอ": "แพทยศาสตร์",
+            "แพทย์": "แพทยศาสตร์",
+            "ครู": "ครุศาสตร์",
+            "ไอที": "เทคโนโลยีสารสนเทศ",
+            "นิเทศ": "นิเทศศาสตร์"
+        }
+        
+        for slang, formal in th_slang_map.items():
+            if slang in query_str:
+                query_str = query_str.replace(slang, formal)
+
+        q = f"%{query_str}%"
         query = query.filter(
             CourseDB.title_th.ilike(q) |
             CourseDB.title_en.ilike(q) |
