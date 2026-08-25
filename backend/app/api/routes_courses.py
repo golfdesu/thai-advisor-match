@@ -131,13 +131,26 @@ def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
             elif slang in query_str and formal not in query_str:
                 query_str = query_str.replace(slang, formal)
 
-        q = f"%{query_str}%"
-        query = query.filter(
-            CourseDB.title_th.ilike(q) |
-            CourseDB.title_en.ilike(q) |
-            CourseDB.faculty_th.ilike(q) |
-            CourseDB.description.ilike(q)
-        )
+        # 1. AI Vector Search (Semantic)
+        query_vector = embedding_service.get_embedding(query_str)
+        
+        if query_vector:
+            # Use pgvector cosine_distance. COALESCE to handle courses that don't have embeddings yet (push to bottom)
+            from sqlalchemy.sql.expression import func
+            distance_expr = func.coalesce(CourseDB.embedding.cosine_distance(query_vector), 2.0)
+            
+            # Hybrid approach: We still want to prioritize exact matches slightly.
+            # However, for pure AI semantic search, ordering by distance is enough!
+            query = query.order_by(distance_expr)
+        else:
+            # Fallback if Gemini is down
+            q = f"%{query_str}%"
+            query = query.filter(
+                CourseDB.title_th.ilike(q) |
+                CourseDB.title_en.ilike(q) |
+                CourseDB.faculty_th.ilike(q) |
+                CourseDB.description.ilike(q)
+            )
 
     matched_courses = query.limit(request.top_k).all()
     results = [db_course_to_pydantic(c) for c in matched_courses]
