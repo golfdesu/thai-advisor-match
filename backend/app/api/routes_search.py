@@ -64,7 +64,7 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                         break
                     # Basic English root matching (e.g. optimize -> optimiz, fits optimization)
                     if len(token) >= 5:
-                        stem = token.rstrip('s').rstrip('e').replace('ing', '').replace('ation', '')
+                        stem = token.removesuffix('s').removesuffix('ing').removesuffix('ation').removesuffix('e')
                         if len(stem) >= 4 and stem in corpus:
                             lexical_matched = True
                             break
