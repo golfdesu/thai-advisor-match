@@ -71,25 +71,64 @@ def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
     if request.query and len(request.query.strip()) > 0:
         query_str = request.query.strip()
         
-        # Thai academic slang / abbreviation mapping (longest keys first to prevent partial replacements)
+        # Thai academic slang / abbreviation / misspelling mapping
+        # Longest keys first to prevent partial replacements overlapping incorrectly
         th_slang_map = {
             "หมอฟัน": "ทันตแพทยศาสตร์",
+            "ทันตแพทย์": "ทันตแพทยศาสตร์",
+            "ทันตะ": "ทันตแพทยศาสตร์",
             "หมอสัตว์": "สัตวแพทยศาสตร์",
             "หมอหมา": "สัตวแพทยศาสตร์",
             "หมอแมว": "สัตวแพทยศาสตร์",
-            "สถาปัตย์": "สถาปัตยกรรม",
-            "ถาปัตย์": "สถาปัตยกรรม",
-            "วิศวะ": "วิศวกรรม",
-            "วิดวะ": "วิศวกรรม",
+            "สัตวแพทย์": "สัตวแพทยศาสตร์",
+            "สัตวแพทย์ศาสตร์": "สัตวแพทยศาสตร์",
+            "หมอตา": "ทัศนมาตรศาสตร์",
             "หมอ": "แพทยศาสตร์",
             "แพทย์": "แพทยศาสตร์",
+            "แพทศาสตร์": "แพทยศาสตร์",
+            "พยาบาล": "พยาบาลศาสตร์",
+            "เภสัช": "เภสัชศาสตร์",
+            "เปสัช": "เภสัชศาสตร์",
+            "สาสุข": "สาธารณสุข",
+            "สถาปัตย์": "สถาปัตยกรรม",
+            "ถาปัตย์": "สถาปัตยกรรม",
+            "สถาปัต": "สถาปัตยกรรม",
+            "วิศวะ": "วิศวกรรม",
+            "วิดวะ": "วิศวกรรม",
+            "วิศว": "วิศวกรรม",
+            "วิทย์กีฬา": "วิทยาศาสตร์การกีฬา",
+            "วิดยา": "วิทยาศาสตร์",
+            "วิทย์": "วิทยาศาสตร์",
+            "วิทยา": "วิทยาศาสตร์",
+            "คุรุศาสตร์": "ครุศาสตร์",
             "ครู": "ครุศาสตร์",
+            "ศึกษา": "ศึกษาศาสตร์",
+            "บริหาร": "บริหารธุรกิจ",
+            "บันชี": "บัญชี",
+            "เสดสาด": "เศรษฐศาสตร์",
+            "เศรษฐ": "เศรษฐศาสตร์",
+            "มนุษย์": "มนุษยศาสตร์",
+            "มนุษ": "มนุษยศาสตร์",
+            "มนุส": "มนุษยศาสตร์",
+            "นิติ": "นิติศาสตร์",
+            "กฎหมาย": "นิติศาสตร์",
+            "ศิลปกรรม": "ศิลปกรรมศาสตร์",
+            "สินกำ": "ศิลปกรรมศาสตร์",
+            "นิเทศ": "นิเทศศาสตร์",
+            "แมสคอม": "สื่อสารมวลชน",
             "ไอที": "เทคโนโลยีสารสนเทศ",
-            "นิเทศ": "นิเทศศาสตร์"
+            "it": "เทคโนโลยีสารสนเทศ"
         }
         
-        for slang, formal in th_slang_map.items():
-            if slang in query_str:
+        # We must sort by length descending to ensure longer words are replaced first
+        sorted_slang = sorted(th_slang_map.items(), key=lambda x: len(x[0]), reverse=True)
+        
+        for slang, formal in sorted_slang:
+            # For short English words like 'it', ensure we match exactly or case-insensitive without replacing inside words like 'architecture'
+            if slang == 'it':
+                if 'it' in query_str.lower().split():
+                    query_str = query_str.lower().replace('it', formal)
+            elif slang in query_str and formal not in query_str:
                 query_str = query_str.replace(slang, formal)
 
         q = f"%{query_str}%"
