@@ -26,7 +26,30 @@ import {
   Home as HomeIcon,
   Heart,
   TrendingUp,
-  AlertCircle
+  AlertCircle,
+  Clock,
+  Laptop,
+  Palette,
+  FlaskConical,
+  BookMarked,
+  Wrench,
+  Megaphone,
+  Gamepad2,
+  Camera,
+  Microscope,
+  Coffee,
+  LineChart,
+  ClipboardList,
+  Crown,
+  Hammer,
+  Building,
+  HeartHandshake,
+  Stethoscope,
+  Code2,
+  Cpu,
+  Globe2,
+  FileCheck2,
+  ShieldCheck
 } from "lucide-react";
 
 // Master Question Item Interface
@@ -37,7 +60,7 @@ interface QuestionItem {
   dimension: string;
   question: string;
   subtitle?: string;
-  options?: { key: string; label: string; icon?: string; desc?: string }[];
+  options?: { key: string; label: string; iconName?: string; desc?: string }[];
   chips?: string[]; // Quick suggestion chips for free-text
 }
 
@@ -89,7 +112,34 @@ interface QuizResultData {
 
 const BACKEND_URL = "http://localhost:8000/api/v1";
 
-// 50 Questions Master Bank
+// Helper function to render clean Lucide icons instead of emojis
+function renderOptionIcon(iconName?: string) {
+  const props = { size: 20, className: "text-indigo-400 flex-shrink-0" };
+  switch (iconName) {
+    case "code": return <Laptop {...props} />;
+    case "palette": return <Palette {...props} />;
+    case "flask": return <FlaskConical {...props} />;
+    case "book": return <BookMarked {...props} />;
+    case "wrench": return <Wrench {...props} />;
+    case "megaphone": return <Megaphone {...props} />;
+    case "gamepad": return <Gamepad2 {...props} />;
+    case "camera": return <Camera {...props} />;
+    case "microscope": return <Microscope {...props} />;
+    case "coffee": return <Coffee {...props} />;
+    case "chart": return <LineChart {...props} />;
+    case "clipboard": return <ClipboardList {...props} />;
+    case "crown": return <Crown {...props} />;
+    case "hammer": return <Hammer {...props} />;
+    case "building": return <Building {...props} />;
+    case "heart": return <HeartHandshake {...props} />;
+    case "hospital": return <Stethoscope {...props} />;
+    case "tech": return <Cpu {...props} />;
+    case "global": return <Globe2 {...props} />;
+    default: return <Compass {...props} />;
+  }
+}
+
+// 50 Questions Master Bank (Clean, No Emojis)
 const MASTER_QUESTIONS: QuestionItem[] = [
   // 1-5 (Quick Tier)
   {
@@ -97,15 +147,15 @@ const MASTER_QUESTIONS: QuestionItem[] = [
     category: "วิชาและกิจกรรมที่ชอบ",
     type: "multi",
     dimension: "I+A+R+S+E+C",
-    question: "วิชาหรือกิจกรรมไหนที่คุณทำแล้วรู้สึกสนุกและเวลาผ่านไปไวที่สุด? (เลือกได้หลายข้อ)",
-    subtitle: "เลือกสิ่งที่คุณสนใจจริงจากใจ",
+    question: "วิชาหรือกิจกรรมไหนที่คุณทำแล้วรู้สึกสนุกและมีสมาธิมากที่สุด? (เลือกได้หลายข้อ)",
+    subtitle: "เลือกสิ่งที่ตรงกับความสนใจของคุณมากที่สุด",
     options: [
-      { key: "I", label: "คณิตศาสตร์ / ฟิสิกส์ / เขียนโปรแกรม", icon: "💻", desc: "ชอบตรรกะ ตัวเลข และการแก้โจทย์" },
-      { key: "A", label: "ศิลปะ / ดนตรี / วาดรูป / ออกแบบ", icon: "🎨", desc: "ชอบสร้างสรรค์ จินตนาการ และความสวยงาม" },
-      { key: "I+R", label: "ชีววิทยา / เคมี / การทดลองในแล็บ", icon: "🧪", desc: "ชอบศึกษาสิ่งมีชีวิตและธรรมชาติ" },
-      { key: "S+A", label: "ภาษา / สังคมศึกษา / วรรณกรรม", icon: "📚", desc: "ชอบการสื่อสารและเข้าใจผู้คน" },
-      { key: "R", label: "พละศึกษา / งานช่าง / การลงมือทำจริง", icon: "🛠️", desc: "ชอบกิจกรรมภาคปฏิบัติ ไม่ชอบนั่งนิ่งๆ" },
-      { key: "E+S", label: "กิจกรรมชมรม / สภานักเรียน / วางแผนงาน", icon: "📢", desc: "ชอบเป็นผู้นำ จัดการ และประสานงาน" }
+      { key: "I", label: "คณิตศาสตร์ / ฟิสิกส์ / เขียนโปรแกรม", iconName: "code", desc: "ชอบตรรกะ ตัวเลข และการแก้โจทย์เชิงลึก" },
+      { key: "A", label: "ศิลปะ / ดนตรี / ออกแบบและสื่อดิจิทัล", iconName: "palette", desc: "ชอบสร้างสรรค์ จินตนาการ และการสื่ออารมณ์" },
+      { key: "I+R", label: "ชีววิทยา / เคมี / การทดลองในห้องปฏิบัติการ", iconName: "flask", desc: "ชอบศึกษาสิ่งมีชีวิต กระบวนการทางเคมี และธรรมชาติ" },
+      { key: "S+A", label: "ภาษาต่างประเทศ / สังคมศาสตร์ / มนุษยศาสตร์", iconName: "book", desc: "ชอบการสื่อสาร ภาษา วัฒนธรรม และความเข้าใจมนุษย์" },
+      { key: "R", label: "พลศึกษา / งานช่าง / การลงมือปฏิบัติจริง", iconName: "wrench", desc: "ชอบกิจกรรมภาคปฏิบัติ การลงพื้นที่ และการทดลองจริง" },
+      { key: "E+S", label: "กิจกรรมผู้นำ / สภานักเรียน / การจัดโครงการ", iconName: "megaphone", desc: "ชอบการวางแผน การบริหาร และการขับเคลื่อนเป้าหมายร่วม" }
     ]
   },
   {
@@ -113,14 +163,14 @@ const MASTER_QUESTIONS: QuestionItem[] = [
     category: "เวลาว่างและงานอดิเรก",
     type: "single",
     dimension: "R+A+I+S+E+C",
-    question: "ถ้ามีเวลาว่าง 1 วันเต็มๆ โดยไม่มีการบ้าน คุณอยากทำอะไรมากที่สุด?",
+    question: "หากมีเวลาว่างเพื่อทำกิจกรรมที่ต้องการ คุณมักจะเลือกทำสิ่งใดเป็นอันดับแรก?",
     options: [
-      { key: "R", label: "ประกอบของ / เล่นเกมใช้กลยุทธ์ / ซ่อมอุปกรณ์", icon: "🎮" },
-      { key: "A", label: "วาดรูป / ทำคลิป / แต่งเพลง / ถ่ายรูป", icon: "📷" },
-      { key: "I", label: "ดูคลิปสารคดี / อ่านเรื่องวิทยาศาสตร์ / ศึกษาเทคโนโลยีใหม่ๆ", icon: "🔬" },
-      { key: "S", label: "นัดเจอเพื่อน / ร่วมกิจกรรมอาสา / นั่งคุยแลกเปลี่ยนมุมมอง", icon: "☕" },
-      { key: "E", label: "วางแผนหาเงิน / ขายของ / ศึกษาการลงทุนและธุรกิจ", icon: "📈" },
-      { key: "C", label: "จัดห้อง / วางแพลนเนอร์ / สรุปความรู้และจัดระเบียบชีวิต", icon: "📋" }
+      { key: "R", label: "ประกอบอุปกรณ์ / เล่นเกมวางกลยุทธ์ / ซ่อมแซมสิ่งของ", iconName: "gamepad" },
+      { key: "A", label: "สร้างสรรค์ผลงานภาพ / ผลิตวิดีโอ / แต่งดนตรี / ถ่ายภาพ", iconName: "camera" },
+      { key: "I", label: "รับชมสารคดี / ศึกษาเทคโนโลยีใหม่ / ค้นคว้าเรื่องทางวิทยาศาสตร์", iconName: "microscope" },
+      { key: "S", label: "พบปะเพื่อนฝูง / ร่วมกิจกรรมเพื่อสังคม / แลกเปลี่ยนมุมมองความคิด", iconName: "coffee" },
+      { key: "E", label: "วางแผนโครงการ / ศึกษาการลงทุน / ติดตามข่าวสารเศรษฐกิจและธุรกิจ", iconName: "chart" },
+      { key: "C", label: "จัดระเบียบตารางชีวิต / บันทึกข้อมูลและวางแผนเป้าหมายส่วนตัว", iconName: "clipboard" }
     ]
   },
   {
@@ -128,12 +178,12 @@ const MASTER_QUESTIONS: QuestionItem[] = [
     category: "สไตล์การแก้ปัญหา",
     type: "single",
     dimension: "I+R+S+A",
-    question: "เวลาต้องเผชิญกับปัญหายากๆ ในชีวิต คุณมักจะรับมืออย่างไร?",
+    question: "เมื่อต้องรับมือกับปัญหาที่ซับซ้อน คุณมักใช้แนวทางใดในการจัดการ?",
     options: [
-      { key: "I", label: "นั่งวิเคราะห์หาสาเหตุอย่างเป็นระบบ หาข้อมูลก่อนลงมือ", icon: "🔍" },
-      { key: "R", label: "ลองผิดลองถูกเลย ลงมือแก้ทันที เดี๋ยวก็เห็นทางออก", icon: "⚡" },
-      { key: "S", label: "ปรึกษาเพื่อนหรือคนที่ไว้ใจ รับฟังความคิดเห็นหลายๆ มุม", icon: "🤝" },
-      { key: "A", label: "ใช้ไอเดียสร้างสรรค์ หาวิธีใหม่ๆ ที่ไม่ซ้ำใคร", icon: "💡" }
+      { key: "I", label: "วิเคราะห์หาสาเหตุอย่างเป็นระบบและรวบรวมข้อมูลก่อนลงมือ", iconName: "microscope" },
+      { key: "R", label: "ลงมือทดลองแก้ไขทันทีและปรับปรุงจากข้อผิดพลาดที่เกิดขึ้นจริง", iconName: "wrench" },
+      { key: "S", label: "ปรึกษาผู้เชี่ยวชาญหรือคนรอบข้างเพื่อรับฟังมุมมองที่หลากหลาย", iconName: "heart" },
+      { key: "A", label: "คิดค้นวิธีใหม่ที่แตกต่างและไม่ยึดติดกับกรอบเดิม", iconName: "palette" }
     ]
   },
   {
@@ -141,31 +191,31 @@ const MASTER_QUESTIONS: QuestionItem[] = [
     category: "วิสัยทัศน์ชีวิต (Life Vision)",
     type: "text",
     dimension: "I+S+E",
-    question: "ถ้าคุณมีพลังวิเศษเปลี่ยนแปลงโลกได้ 1 อย่าง คุณอยากแก้ปัญหาอะไรมากที่สุด?",
-    subtitle: "พิมพ์สั้นๆ 1-2 ประโยค หรือแตะเลือกคีย์เวิร์ดแนะนำด้านล่าง",
+    question: "หากคุณสามารถสร้างการเปลี่ยนแปลงในสังคมได้ 1 เรื่อง คุณอยากแก้ปัญหาใดมากที่สุด?",
+    subtitle: "พิมพ์คำตอบสั้นๆ หรือเลือกคีย์เวิร์ดแนะนำด้านล่าง",
     chips: [
-      "แก้ปัญหาโลกร้อนและสิ่งแวดล้อม",
-      "พัฒนาเทคโนโลยี AI ให้ช่วยมนุษย์",
-      "สร้างความเท่าเทียมด้านการศึกษา",
-      "ยกระดับการรักษาพยาบาลให้ทุกคนเข้าถึงได้",
-      "ลดความเหลื่อมล้ำทางเศรษฐกิจ",
-      "สร้างสรรค์ผลงานศิลปะและคอนเทนต์สร้างแรงบันดาลใจ"
+      "การเปลี่ยนแปลงสภาพภูมิอากาศและพลังงานสะอาด",
+      "การพัฒนาปัญญาประดิษฐ์ (AI) เพื่อคุณภาพชีวิตมนุษย์",
+      "การยกระดับความเท่าเทียมด้านการศึกษา",
+      "การพัฒนาระบบสุขภาพและชีวการแพทย์",
+      "การลดความเหลื่อมล้ำทางเศรษฐกิจและการเงิน",
+      "การสร้างสรรค์สื่อและศิลปวัฒนธรรมเพื่อขับเคลื่อนสังคม"
     ]
   },
   {
     id: 5,
-    category: "ตัวตนในสายตาคนอื่น",
+    category: "ลักษณะเด่นของตนเอง",
     type: "text",
     dimension: "A+S+E",
-    question: "ถ้าเพื่อนสนิทต้องอธิบายความเป็นคุณใน 3 คำ เพื่อนจะบอกว่าคุณเป็นคนอย่างไร?",
-    subtitle: "แตะคีย์เวิร์ดหรือพิมพ์เองได้เลย",
+    question: "หากเพื่อนสนิทต้องอธิบายลักษณะเด่นของคุณด้วยคำสำคัญ 3 คำ จะเป็นคำว่าอะไร?",
+    subtitle: "เลือกคีย์เวิร์ดหรือพิมพ์ตามมุมมองของคุณ",
     chips: [
-      "คิดวิเคราะห์ ละเอียด มีเหตุผล",
-      "ใจดี รับฟัง ชอบช่วยเหลือ",
-      "ครีเอทีฟ มีจินตนาการ ขี้เล่น",
-      "มีความเป็นผู้นำ กล้าตัดสินใจ",
-      "ลุยงาน อดทน พึ่งพาได้",
-      "ชอบวางแผน มีระเบียบ รอบคอบ"
+      "มีตรรกะ ละเอียดรอบคอบ คิดเป็นระบบ",
+      "เข้าอกเข้าใจ รับฟัง ชอบช่วยเหลือผู้อื่น",
+      "มีความคิดสร้างสรรค์ มีเอกลักษณ์ จินตนาการสูง",
+      "มีความเป็นผู้นำ กล้าตัดสินใจ มีเป้าหมายชัดเจน",
+      "มุ่งมั่น อดทน ลงมือทำจริง พึ่งพาได้",
+      "มีระเบียบวินัย วางแผนรอบคอบ รักษามาตรฐาน"
     ]
   },
 
@@ -175,242 +225,242 @@ const MASTER_QUESTIONS: QuestionItem[] = [
     category: "บทบาทในการทำงานกลุ่ม",
     type: "single",
     dimension: "E+A+R+S+C",
-    question: "เวลาทำงานกลุ่มในโรงเรียน บทบาทที่เหมาะกับคุณที่สุดคือ?",
+    question: "เมื่อต้องทำงานร่วมกันเป็นทีม บทบาทใดที่คุณทำได้ดีและเป็นธรรมชาติที่สุด?",
     options: [
-      { key: "E", label: "ผู้นำกลุ่ม (Leader) - วางทิศทาง แจกจ่ายงาน และคอยกระตุ้นทีม", icon: "👑" },
-      { key: "A", label: "ฝ่ายสร้างสรรค์ (Creator) - คิดไอเดีย ออกแบบพรีเซนต์ และธีมงาน", icon: "🎨" },
-      { key: "R", label: "ฝ่ายลงมือทำ (Doer) - ทำชิ้นงานจริง ส่วนที่ต้องประดิษฐ์หรือพิมพ์", icon: "🔨" },
-      { key: "S", label: "ฝ่ายประสานงาน (Mediator) - เชื่อมความสัมพันธ์ ดูแลความรู้สึกทุกคน", icon: "💖" },
-      { key: "C", label: "ฝ่ายตรวจสอบ (Checker) - เช็คความถูกต้อง จัดฟอร์แมต ตรวจคำผิด", icon: "✅" }
+      { key: "E", label: "ผู้นำทีม (Team Leader) - วางทิศทางภาพรวมและประสานงาน", iconName: "crown" },
+      { key: "A", label: "ผู้ออกแบบและสร้างสรรค์ (Creative Lead) - คิดแนวคิดและนำเสนอรูปแบบ", iconName: "palette" },
+      { key: "R", label: "ผู้ปฏิบัติการหลัก (Technical Doer) - ผลิตชิ้นงานและลงมือพัฒนาส่วนสำคัญ", iconName: "hammer" },
+      { key: "S", label: "ผู้ประสานงานความสัมพันธ์ (Facilitator) - เชื่อมโยงและดูแลความร่วมมือในทีม", iconName: "heart" },
+      { key: "C", label: "ผู้ตรวจสอบคุณภาพ (Quality Assurance) - ตรวจสอบความถูกต้องและจัดทำเอกสาร", iconName: "clipboard" }
     ]
   },
   {
     id: 7,
-    category: "ความถนัดด้านตรรกะ",
+    category: "ความถนัดด้านตรรกะและการวิเคราะห์",
     type: "likert",
     dimension: "I",
-    question: "ฉันรู้สึกตื่นเต้นและสนุกเวลาได้แก้โจทย์คณิตศาสตร์ ปริศนาตรรกะ หรือเขียนโค้ด"
+    question: "ฉันรู้สึกมีพลังและเพลิดเพลินเมื่อได้แก้ปัญหาเชิงตรรกะ การวิเคราะห์ข้อมูล หรือการเขียนโปรแกรม"
   },
   {
     id: 8,
-    category: "ความเห็นอกเห็นใจ",
+    category: "ความใส่ใจต่อสังคมและเพื่อนมนุษย์",
     type: "likert",
     dimension: "S",
-    question: "ฉันรู้สึกมีความสุขมากเวลาได้เป็นที่ปรึกษา ช่วยเหลือ หรือสอนการบ้านเพื่อน"
+    question: "ฉันมีความสุขอย่างแท้จริงเมื่อได้ถ่ายทอดความรู้ ให้คำปรึกษา หรือช่วยเหลือผู้อื่นให้มีชีวิตที่ดีขึ้น"
   },
   {
     id: 9,
-    category: "ความคิดสร้างสรรค์",
+    category: "ความคิดสร้างสรรค์และศิลปะ",
     type: "likert",
     dimension: "A",
-    question: "ฉันมักจะจินตนาการถึงสิ่งใหม่ๆ และอยากสร้างผลงานที่เป็นเอกลักษณ์ของตัวเอง"
+    question: "ฉันมักคิดถึงสิ่งใหม่ๆ และปรารถนาที่จะสร้างผลงานที่มีเอกลักษณ์ทางความคิดของตนเอง"
   },
   {
     id: 10,
-    category: "ความกล้าเสี่ยงและการตัดสินใจ",
+    category: "ความเป็นผู้นำและการแข่งขัน",
     type: "likert",
     dimension: "E",
-    question: "ฉันชอบความท้าทายและการแข่งขัน กล้าตัดสินใจในสถานการณ์ที่ไม่แน่นอน"
+    question: "ฉันชอบสภาพแวดล้อมที่มีการแข่งขัน กล้าตัดสินใจในสภาวะท้าทาย และชอบผลักดันโครงการให้สำเร็จ"
   },
   {
     id: 11,
-    category: "ความละเอียดรอบคอบ",
+    category: "ความละเอียดรอบคอบและระบบระเบียบ",
     type: "likert",
     dimension: "C",
-    question: "ฉันเป็นคนชอบจัดระเบียบ สังเกตเห็นจุดผิดพลาดเล็กๆ ที่คนอื่นมองข้าม"
+    question: "ฉันให้ความสำคัญกับความถูกต้องแม่นยำ และชอบการจัดวางระบบงานที่มีระเบียบแบบแผนชัดเจน"
   },
   {
     id: 12,
     category: "การลงมือปฏิบัติจริง",
     type: "likert",
     dimension: "R",
-    question: "ฉันชอบเรียนรู้จากการลงมือทำของจริง มากกว่าการนั่งฟังทฤษฎีในห้องเรียน"
+    question: "ฉันเข้าใจเนื้อหาได้ดีที่สุดเมื่อได้ทดลองทำของจริง มากกว่าการรับฟังบรรยายเพียงอย่างเดียว"
   },
   {
     id: 13,
-    category: "ภาพอนาคตในวัยทำงาน",
+    category: "ภาพอนาคตในการประกอบวิชาชีพ",
     type: "single",
     dimension: "E+I+S+A+C",
-    question: "คุณมองเห็นตัวเองทำงานในรูปแบบไหนที่มีความสุขที่สุด?",
+    question: "ในระยะยาว รูปแบบการทำงานลักษณะใดที่สอดคล้องกับความสุขของคุณมากที่สุด?",
     options: [
-      { key: "E", label: "เป็นผู้บริหารหรือเจ้าของธุรกิจของตัวเอง มีอิสระและผลตอบแทนสูง", icon: "💼" },
-      { key: "I", label: "นักวิจัยหรือผู้เชี่ยวชาญเฉพาะทาง ค้นพบนวัตกรรมใหม่ๆ ในแล็บ", icon: "🔬" },
-      { key: "S", label: "ทำงานในโรงพยาบาล โรงเรียน หรือองค์กรที่ได้ยกระดับคุณภาพชีวิตผู้คน", icon: "🏥" },
-      { key: "A", label: "ศิลปิน ครีเอเตอร์ ดีไซเนอร์ หรือฟรีแลนซ์ที่มีอิสระทางความคิด", icon: "🖌️" },
-      { key: "C", label: "ทำงานในองค์กรที่มั่นคง มีระบบระเบียบชัดเจน และสวัสดิการดี", icon: "🏢" }
+      { key: "E", label: "การเป็นผู้บริหาร ผู้ประกอบการ หรือผู้ขับเคลื่อนองค์กรทางธุรกิจ", iconName: "building" },
+      { key: "I", label: "การเป็นนักวิจัย นักวิชาการ หรือผู้เชี่ยวชาญด้านวิทยาการและนวัตกรรม", iconName: "microscope" },
+      { key: "S", label: "การทำงานในสายงานสุขภาพ การศึกษา หรือการพัฒนาสังคมและชุมชน", iconName: "hospital" },
+      { key: "A", label: "การทำงานด้านการออกแบบ สื่อสารสร้างสรรค์ หรืออุตสาหกรรมคอนเทนต์", iconName: "palette" },
+      { key: "C", label: "การทำงานในหน่วยงานที่มีโครงสร้างมั่นคง มีระบบบริหารจัดการที่เป็นมาตรฐาน", iconName: "clipboard" }
     ]
   },
   {
     id: 14,
-    category: "ทักษะการสื่อสาร",
+    category: "ทักษะการสื่อสารและการนำเสนอ",
     type: "likert",
     dimension: "E+S",
-    question: "ฉันชอบการพูดในที่สาธารณะ การนำเสนองาน หรือการโน้มน้าวใจผู้ฟัง"
+    question: "ฉันมีความมั่นใจในการพูดต่อหน้าผู้ฟังจำนวนมาก และชอบการอธิบายเพื่อสร้างความเข้าใจ"
   },
   {
     id: 15,
-    category: "ความสนใจด้านเทคโนโลยี",
+    category: "ความสนใจด้านเทคโนโลยีขั้นสูง",
     type: "likert",
     dimension: "I+R",
-    question: "ฉันติดตามข่าวสารเกี่ยวกับ AI, หุ่นยนต์, ดิจิทัล และอยากเข้าใจเบื้องหลังการทำงานของมัน"
+    question: "ฉันสนใจติดตามการพัฒนาของ AI ระบบอัตโนมัติ และสถาปัตยกรรมดิจิทัลแห่งอนาคต"
   },
   {
     id: 16,
-    category: "สิ่งที่ไม่ชอบอย่างยิ่ง (Anti-Patterns)",
+    category: "ลักษณะงานที่ไม่สอดคล้องกับตัวตน",
     type: "multi",
     dimension: "Anti",
-    question: "สิ่งไหนที่คุณรู้สึกว่า 'ไม่ใช่ตัวฉันเลย' หรือทนทำไม่ได้นานๆ? (เลือกได้หลายข้อ)",
-    subtitle: "การรู้สิ่งที่ไม่ชอบจะช่วยตัดคณะที่ไม่ใช่ออกได้อย่างแม่นยำ",
+    question: "ลักษณะงานในข้อใดที่คุณรู้สึกว่าไม่ตรงกับธรรมชาติและความถนัดของคุณมากที่สุด? (เลือกได้หลายข้อ)",
+    subtitle: "การระบุสิ่งที่ไม่ถนัดจะช่วยให้ระบบคัดกรองหลักสูตรได้อย่างตรงจุดยิ่งขึ้น",
     options: [
-      { key: "Anti-C", label: "งานเอกสารซ้ำซาก กฎระเบียบเคร่งครัด นั่งโต๊ะทั้งวัน", icon: "📑" },
-      { key: "Anti-E", label: "ต้องคอยขายของ โน้มน้าวคน หรือออกไปพูดต่อหน้าคนเยอะๆ", icon: "🗣️" },
-      { key: "Anti-I", label: "ต้องนั่งอ่านงานวิจัยสูตรยากๆ ท่องจำทฤษฎีคนเดียว", icon: "📖" },
-      { key: "Anti-R", label: "งานที่ต้องตากแดด เลอะเทอะ หรือใช้แรงกายหนักๆ", icon: "☀️" },
-      { key: "Anti-S", label: "ต้องรับฟังปัญหาอารมณ์ของคนอื่น หรือรับผิดชอบชีวิตผู้ป่วย", icon: "💔" },
-      { key: "Anti-A", label: "งานที่ไม่มีความแน่นอน ต้องด้นสดตลอดเวลา ไม่มีแบบแผน", icon: "🌀" }
+      { key: "Anti-C", label: "งานเอกสารประจำวันที่มีขั้นตอนเคร่งครัดและไม่เปิดโอกาสให้ปรับเปลี่ยน", iconName: "clipboard" },
+      { key: "Anti-E", label: "งานที่ต้องอาศัยการเจรจาต่อรอง การขาย หรือการพบปะผู้คนแปลกหน้าตลอดเวลา", iconName: "megaphone" },
+      { key: "Anti-I", label: "งานที่ต้องอาศัยการคำนวณสูตรทฤษฎีซับซ้อน หรือการทำงานวิจัยเชิงลึกคนเดียว", iconName: "microscope" },
+      { key: "Anti-R", label: "งานภาคสนามที่ต้องใช้แรงกายหนักหรือเผชิญสภาพแวดล้อมที่สมบุกสมบัน", iconName: "wrench" },
+      { key: "Anti-S", label: "งานที่ต้องแบกรับสภาวะอารมณ์ของผู้อื่น หรือมีความรับผิดชอบต่อชีวิตมนุษย์โดยตรง", iconName: "heart" },
+      { key: "Anti-A", label: "งานที่ไม่มีแบบแผนชัดเจน ต้องใช้การด้นสด และขาดความแน่นอนของกำหนดการ", iconName: "palette" }
     ]
   },
   {
     id: 17,
-    category: "ค่านิยมสูงสุดในการเลือกงาน",
+    category: "ค่านิยมหลักในการประกอบอาชีพ",
     type: "single",
     dimension: "Values",
-    question: "สิ่งที่สำคัญที่สุดสำหรับคุณในการประกอบอาชีพในอนาคตคือ?",
+    question: "ปัจจัยใดที่มีน้ำหนักสำคัญที่สุดในการตัดสินใจเลือกเส้นทางอาชีพของคุณ?",
     options: [
-      { key: "Money", label: "💰 ผลตอบแทนทางการเงินที่สูงและสร้างความมั่งคั่ง", icon: "💵" },
-      { key: "Meaning", label: "❤️ ได้ทำงานที่มีคุณค่าและสร้างประโยชน์ต่อสังคม", icon: "🌱" },
-      { key: "Freedom", label: "🏖️ อิสรภาพในการจัดเวลาชีวิตและไลฟ์สไตล์ (Work-Life Balance)", icon: "✈️" },
-      { key: "Mastery", label: "🏆 ได้เป็นผู้เชี่ยวชาญระดับท็อปในสาขาของตัวเอง", icon: "🌟" }
+      { key: "Money", label: "ผลตอบแทนทางการเงินระดับสูงและความมั่นคงทางเศรษฐกิจ", iconName: "chart" },
+      { key: "Meaning", label: "คุณค่าของงานที่สร้างผลกระทบเชิงบวกต่อสังคมและผู้คน", iconName: "heart" },
+      { key: "Freedom", label: "ความยืดหยุ่นในการจัดสรรเวลาชีวิตและอิสรภาพในการทำงาน", iconName: "global" },
+      { key: "Mastery", label: "โอกาสในการพัฒนาสู่ความเป็นเลิศและผู้เชี่ยวชาญระดับแนวหน้า", iconName: "crown" }
     ]
   },
   {
     id: 18,
-    category: "บุคคลต้นแบบ (Role Model)",
+    category: "บุคคลต้นแบบในการทำงาน",
     type: "text",
     dimension: "E+I+A",
-    question: "มีใครที่คุณชื่นชอบหรือมองเป็นไอดอลในดวงใจไหม? เพราะอะไร?",
-    subtitle: "พิมพ์ชื่อหรือแตะตัวเลือกแนะนำได้เลย",
+    question: "มีบุคคลต้นแบบหรือนักวิชาชีพท่านใดที่คุณชื่นชมเป็นพิเศษหรือไม่ เพราะเหตุใด?",
+    subtitle: "ระบุชื่อหรือแตะเลือกแนวคิดที่สอดคล้องกับคุณ",
     chips: [
-      "Elon Musk - กล้าคิดการใหญ่ สร้างเทคโนโลยีเปลี่ยนโลก",
-      "Steve Jobs - ผสมผสานศิลปะและเทคโนโลยีได้อย่างลงตัว",
-      "หมอ/พยาบาล/บุคคลากรสาธารณสุข - เสียสละเพื่อผู้ป่วย",
-      "ครู/อาจารย์ผู้สร้างแรงบันดาลใจ - ถ่ายทอดความรู้",
-      "ศิลปิน/นักเขียน/ผู้กำกับ - สร้างผลงานสะเทือนอารมณ์",
-      "นักธุรกิจ/Startup Founder - สร้างคุณค่าจากศูนย์"
+      "ผู้สร้างนวัตกรรมเทคโนโลยีระดับโลกที่เปลี่ยนวิถีชีวิตผู้คน",
+      "นักออกแบบและผู้สร้างสรรค์สื่อที่ผสานศิลปะเข้ากับเทคโนโลยี",
+      "บุคลากรทางการแพทย์และสาธารณสุขผู้อุทิศตนเพื่อสังคม",
+      "ครูอาจารย์และนักวิชาการผู้ถ่ายทอดความรู้อย่างมีคุณค่า",
+      "ผู้ประกอบการสตาร์ทอัพที่สร้างธุรกิจขึ้นจากความมุ่งมั่น",
+      "นักวิจัยทางวิทยาศาสตร์ผู้ค้นพบองค์ความรู้ใหม่ของมนุษยชาติ"
     ]
   },
   {
     id: 19,
-    category: "หัวข้อที่หลงใหล (Passion Signal)",
+    category: "สาขาวิชาที่สร้างความหลงใหล",
     type: "text",
     dimension: "I+A",
-    question: "เรื่องอะไรที่คุณสามารถอ่าน ดูคลิป หรือพูดคุยได้เป็นชั่วโมงๆ โดยไม่เบื่อเลย?",
-    subtitle: "หัวข้อนี้คือสัญญาณความถนัดที่แท้จริงของคุณ",
+    question: "หัวข้อหรือประเด็นทางวิชาการใดที่คุณสามารถศึกษาค้นคว้าได้อย่างต่อเนื่องโดยไม่รู้สึกเบื่อหน่าย?",
+    subtitle: "หัวข้อนี้บ่งชี้ถึงศักยภาพการเรียนรู้ระยะยาวของคุณ",
     chips: [
-      "AI & Machine Learning และเทคโนโลยีล้ำยุค",
-      "การเงิน หุ้น คริปโต และการทำธุรกิจ",
-      "จิตวิทยา พฤติกรรมมนุษย์ และการพัฒนาตนเอง",
-      "การแพทย์ พันธุศาสตร์ และสุขภาพ",
-      "ดนตรี ศิลปะ แอนิเมชัน และการออกแบบ",
-      "อวกาศ ฟิสิกส์ดาราศาสตร์ และความลับของจักรวาล"
+      "วิทยาการคอมพิวเตอร์ ปัญญาประดิษฐ์ และระบบข้อมูล",
+      "เศรษฐศาสตร์ การเงิน การลงทุน และการจัดการธุรกิจ",
+      "จิตวิทยา พฤติกรรมศาสตร์ และการพัฒนาศักยภาพมนุษย์",
+      "วิทยาศาสตร์สุขภาพ การแพทย์ ชีวโมเลกุล และพันธุศาสตร์",
+      "สถาปัตยกรรม ศิลปกรรม แอนิเมชัน และการออกแบบสื่อ",
+      "ฟิสิกส์ ดาราศาสตร์ วิศวกรรมศาสตร์ และระบบพลังงานสะอาด"
     ]
   },
   {
     id: 20,
-    category: "ความกังวลในการเลือกคณะ",
+    category: "เป้าหมายและความกังวลในการศึกษาต่อ",
     type: "text",
     dimension: "PainPoint",
-    question: "ความกังวลที่สุดของคุณเกี่ยวกับการเรียนต่อมหาวิทยาลัยในตอนนี้คืออะไร?",
+    question: "ความกังวลสำคัญที่สุดของคุณในการเลือกศึกษาต่อระดับอุดมศึกษาคือเรื่องใด?",
     chips: [
-      "กลัวเลือกคณะแล้วเรียนไม่ไหว/ไม่ชอบ",
-      "กลัวจบมาแล้วตกงาน หรือตลาดงานเปลี่ยนเพราะ AI",
-      "ความคาดหวังของครอบครัวไม่ตรงกับความชอบของตัวเอง",
-      "กังวลเรื่องค่าเทอมและค่าใช้จ่าย",
-      "ยังไม่มั่นใจในจุดเด่นและความสามารถของตัวเอง"
+      "ความกังวลเรื่องความเข้ากันได้กับสาขาวิชาที่เลือกในระยะยาว",
+      "แนวโน้มการเปลี่ยนแปลงของตลาดแรงงานและทักษะในยุค AI",
+      "การปรับสมดุลระหว่างความชอบส่วนตัวกับความคาดหวังของครอบครัว",
+      "การเตรียมตัวด้านพอร์ตโฟลิโอและการสอบคัดเลือก",
+      "การสร้างความมั่นใจในศักยภาพและความถนัดเฉพาะทางของตนเอง"
     ]
   },
 
-  // 21-50 (Deep Dive Tier Sample items)
+  // 21-30 (Deep Dive Sample)
   {
     id: 21,
-    category: "สไตล์การทำงานร่วมกับผู้อื่น",
+    category: "สภาพแวดล้อมการทำงาน",
     type: "likert",
     dimension: "S",
-    question: "ฉันทำงานได้มีประสิทธิภาพและมีความสุขมากกว่าเมื่อได้ทำงานเป็นทีม"
+    question: "ฉันมีสมาธิและประสิทธิภาพสูงสุดเมื่อได้ร่วมแลกเปลี่ยนความคิดเห็นกับทีมงานที่มีความหลากหลาย"
   },
   {
     id: 22,
-    category: "การเดินทางและความตื่นเต้น",
+    category: "การเปิดรับประสบการณ์สากล",
     type: "likert",
     dimension: "E",
-    question: "ฉันใฝ่ฝันอยากทำงานที่ได้เดินทางไปต่างประเทศหรือเปิดรับสิ่งแวดล้อมใหม่ๆ บ่อยๆ"
+    question: "ฉันต้องการประกอบวิชาชีพในสภาพแวดล้อมสากลที่มีโอกาสเดินทางหรือร่วมงานกับต่างประเทศ"
   },
   {
     id: 23,
-    category: "ตารางเวลาการทำงาน",
+    category: "โครงสร้างเวลาการทำงาน",
     type: "likert",
     dimension: "C",
-    question: "ฉันชอบการทำงานที่มีตารางเวลาเข้า-ออกงานชัดเจนแน่นอน มากกว่าเวลาที่ยืดหยุ่นแต่ไม่แน่นอน"
+    question: "ฉันทำงานได้ดีกว่าเมื่อมีกรอบเวลาและเป้าหมายที่ชัดเจน มากกว่าการทำงานแบบไร้กำหนดการ"
   },
   {
     id: 24,
-    category: "สถานที่ทำงานในฝัน",
+    category: "สถานที่ทำงานในอุดมคติ",
     type: "single",
     dimension: "Env",
-    question: "สถานที่ทำงานแบบไหนที่ทำให้คุณรู้สึกมีพลังในการทำงานมากที่สุด?",
+    question: "สภาพแวดล้อมทางกายภาพแบบใดที่ช่วยส่งเสริมให้คุณสร้างสรรค์ผลงานได้ดีที่สุด?",
     options: [
-      { key: "I+E", label: "ออฟฟิศทันสมัย มีคาเฟ่และพื้นที่ระดมสมอง (Tech/Startup)", icon: "🏢" },
-      { key: "I+R", label: "ห้องปฏิบัติการทดลอง ศูนย์วิจัย หรือโรงพยาบาลชั้นนำ", icon: "🔬" },
-      { key: "A", label: "สตูดิโอดีไซน์ พื้นที่ศิลปะ หรือร้านกาแฟบรรยากาศสงบ", icon: "🎨" },
-      { key: "R", label: "พื้นที่กลางแจ้ง ไร่นา ธรรมชาติ หรือไซต์งานวิศวกรรม", icon: "🌲" },
-      { key: "DigitalNomad", label: "ที่ไหนก็ได้ในโลก ขอแค่มีโน้ตบุ๊กกับสัญญาณอินเทอร์เน็ต", icon: "💻" }
+      { key: "I+E", label: "ศูนย์นวัตกรรมและเทคโนโลยีทันสมัย (Modern Tech Hub)", iconName: "tech" },
+      { key: "I+R", label: "ห้องปฏิบัติการวิจัย สถาบันวิทยาศาสตร์ หรือโรงพยาบาลชั้นนำ", iconName: "microscope" },
+      { key: "A", label: "สตูดิโอสร้างสรรค์ สเปซทางศิลปะ หรือสภาพแวดล้อมที่สงบ", iconName: "palette" },
+      { key: "R", label: "พื้นที่ภาคสนาม โครงการพัฒนา หรือไซต์งานวิศวกรรม", iconName: "wrench" },
+      { key: "DigitalNomad", label: "การทำงานระยะไกลแบบยืดหยุ่นผ่านระบบดิจิทัล (Remote Work)", iconName: "code" }
     ]
   },
   {
     id: 25,
-    category: "ความอดทนต่อแรงกดดัน",
+    category: "ความทนทานต่อสภาวะกดดัน",
     type: "likert",
     dimension: "Stress",
-    question: "ฉันสามารถรับมือกับเดดไลน์กระชั้นชิดและสภาวะกดดันสูงได้ดีโดยไม่ตื่นตระหนก"
+    question: "ฉันสามารถจัดลำดับความสำคัญและควบคุมสมาธิได้ดีเมื่อต้องเผชิญกำหนดส่งงานที่กระชั้นชิด"
   },
   {
     id: 26,
-    category: "การเรียนรู้ด้วยตนเอง",
+    category: "การเรียนรู้เชิงรุก",
     type: "likert",
     dimension: "I",
-    question: "ฉันชอบค้นคว้าหาความรู้ด้วยตัวเองผ่านอินเทอร์เน็ตมากกว่ารอให้ครูมาสอน"
+    question: "ฉันชอบค้นคว้าหาคำตอบด้วยตนเองจากแหล่งข้อมูลสากลก่อนที่จะสอบถามผู้อื่น"
   },
   {
     id: 27,
-    category: "ความเป็นผู้ประกอบการ",
+    category: "วิสัยทัศน์ผู้ประกอบการ",
     type: "likert",
     dimension: "E",
-    question: "ฉันมองเห็นโอกาสทางธุรกิจในชีวิตประจำวันเสมอ และอยากสร้างแบรนด์ของตนเอง"
+    question: "ฉันมักมองเห็นโอกาสในการสร้างคุณค่าและพัฒนาบริการใหม่ๆ จากสิ่งรอบตัว"
   },
   {
     id: 28,
-    category: "การใช้ภาษาต่างประเทศ",
+    category: "ความพร้อมด้านภาษาต่างประเทศ",
     type: "likert",
     dimension: "Global",
-    question: "ฉันอยากศึกษาในหลักสูตรนานาชาติหรือทำงานในสภาพแวดล้อมสากลที่ใช้ภาษาอังกฤษเป็นหลัก"
+    question: "ฉันมีความสนใจที่จะศึกษาในหลักสูตรนานาชาติหรือใช้ภาษาอังกฤษเป็นเครื่องมือหลักในการเรียนรู้"
   },
   {
     id: 29,
-    category: "การคิดเชิงกลยุทธ์",
+    category: "การคิดเชิงกลยุทธ์ระยะยาว",
     type: "likert",
     dimension: "I+E",
-    question: "ฉันมักจะวางแผนล่วงหน้าเป็นขั้นเป็นตอนเสมอ ก่อนจะเริ่มต้นทำโปรเจกต์ใดๆ"
+    question: "ฉันชอบการวางแผนระยะยาวและการวิเคราะห์ผลกระทบที่จะเกิดขึ้นในอนาคต"
   },
   {
     id: 30,
-    category: "ความอ่อนไหวต่อความรู้สึกคน",
+    category: "ความฉลาดทางอารมณ์และความเข้าอกเข้าใจ",
     type: "likert",
     dimension: "S",
-    question: "ฉันสามารถรับรู้ความรู้สึกและอารมณ์ของคนรอบข้างได้อย่างรวดเร็วแม้เขาไม่ได้พูดออกมา"
+    question: "ฉันสามารถรับรู้ความรู้สึกและความต้องการของผู้อื่นได้อย่างรวดเร็วและเหมาะสม"
   }
 ];
 
-// Visual Spider/Radar Chart Component in Pure SVG
+// Clean Minimal SVG Radar Chart Component
 function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
   const size = 320;
   const center = size / 2;
@@ -438,17 +488,21 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
     return `${x},${y}`;
   }).join(" ");
 
-  // Background Web Rings
   const webRings = [0.25, 0.5, 0.75, 1.0];
 
   return (
-    <div className="flex flex-col items-center justify-center p-4 bg-slate-900/90 rounded-3xl text-white shadow-xl border border-slate-800 relative overflow-hidden">
-      <div className="absolute top-3 left-4 flex items-center gap-1.5 text-xs font-bold text-slate-400">
-        <Sparkles size={14} className="text-amber-400" />
-        <span>Holland's RIASEC Profile</span>
+    <div className="flex flex-col items-center justify-center p-6 bg-slate-900/90 rounded-3xl text-white shadow-xl border border-slate-800 relative overflow-hidden">
+      <div className="w-full flex items-center justify-between mb-2">
+        <div className="flex items-center gap-2 text-xs font-bold text-slate-300">
+          <ShieldCheck size={16} className="text-indigo-400" />
+          <span>Holland RIASEC Assessment</span>
+        </div>
+        <span className="text-[11px] font-mono text-slate-400 bg-slate-800 px-2.5 py-0.5 rounded-full">
+          Standardized Metric
+        </span>
       </div>
 
-      <svg width={size} height={size} className="overflow-visible mt-2">
+      <svg width={size} height={size} className="overflow-visible my-2">
         {/* Background Grid Rings */}
         {webRings.map((scale, i) => {
           const ringPoints = traits.map((_, index) => {
@@ -482,17 +536,17 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
         <polygon
           points={points}
           fill="url(#radarGradient)"
-          fillOpacity="0.5"
+          fillOpacity="0.45"
           stroke="#6366f1"
-          strokeWidth="2.5"
+          strokeWidth="2"
           className="transition-all duration-700 ease-out"
         />
 
         <defs>
           <linearGradient id="radarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.7" />
-            <stop offset="50%" stopColor="#8b5cf6" stopOpacity="0.7" />
-            <stop offset="100%" stopColor="#ec4899" stopOpacity="0.7" />
+            <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.8" />
+            <stop offset="50%" stopColor="#8b5cf6" stopOpacity="0.8" />
+            <stop offset="100%" stopColor="#ec4899" stopOpacity="0.8" />
           </linearGradient>
         </defs>
 
@@ -504,25 +558,21 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
           const nodeX = center + nodeR * Math.cos(angle);
           const nodeY = center + nodeR * Math.sin(angle);
 
-          // Label placement outside radius
-          const labelR = radius + 24;
+          const labelR = radius + 22;
           const labelX = center + labelR * Math.cos(angle);
           const labelY = center + labelR * Math.sin(angle);
 
           return (
             <g key={index}>
-              {/* Point Circle */}
-              <circle cx={nodeX} cy={nodeY} r="4.5" fill={trait.color} stroke="#ffffff" strokeWidth="1.5" />
-
-              {/* Text Label */}
+              <circle cx={nodeX} cy={nodeY} r="4" fill={trait.color} stroke="#ffffff" strokeWidth="1.5" />
               <text
                 x={labelX}
                 y={labelY + 4}
                 textAnchor="middle"
-                fontSize="10.5"
-                fontWeight="bold"
+                fontSize="10"
+                fontWeight="700"
                 fill={trait.color}
-                className="select-none"
+                className="select-none font-sans"
               >
                 {trait.code}: {Math.round(value)}%
               </text>
@@ -532,10 +582,10 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
       </svg>
 
       {/* Trait Legend Badges */}
-      <div className="grid grid-cols-3 gap-2 w-full mt-3 pt-3 border-t border-slate-800 text-[11px]">
+      <div className="grid grid-cols-3 gap-2 w-full mt-2 pt-3 border-t border-slate-800 text-[11px]">
         {traits.map((t, idx) => (
-          <div key={idx} className="flex items-center gap-1.5 bg-slate-800/80 px-2 py-1 rounded-lg">
-            <span className="w-2 h-2 rounded-full" style={{ backgroundColor: t.color }}></span>
+          <div key={idx} className="flex items-center gap-1.5 bg-slate-800/80 px-2.5 py-1 rounded-lg">
+            <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: t.color }}></span>
             <span className="text-slate-300 font-medium truncate">{t.label}</span>
           </div>
         ))}
@@ -559,7 +609,7 @@ export default function CareerDiscoveryPage() {
     if (!tier) return [];
     if (tier === "quick") return MASTER_QUESTIONS.slice(0, 5);
     if (tier === "standard") return MASTER_QUESTIONS.slice(0, 20);
-    return MASTER_QUESTIONS; // deep dive (up to 30-50)
+    return MASTER_QUESTIONS;
   }, [tier]);
 
   const currentQ = activeQuestions[currentStep];
@@ -607,7 +657,6 @@ export default function CareerDiscoveryPage() {
     setIsSubmitting(true);
     setError(null);
 
-    // Format answers array
     const formattedAnswers = activeQuestions.map((q) => ({
       question_id: q.id,
       dimension: q.dimension,
@@ -641,7 +690,7 @@ export default function CareerDiscoveryPage() {
 
   const copyShareResult = () => {
     if (!result) return;
-    const text = `🎯 ผลวิเคราะห์ตัวตนจาก AI Thai EduCenter:\n✨ ${result.archetype_title}\n"${result.share_quote}"\n\n🔍 ค้นพบตัวเองและหลักสูตรมหาวิทยาลัยที่ใช่ได้ที่: ${window.location.href}`;
+    const text = `ผลวิเคราะห์ความถนัดทางการศึกษาและอาชีพ โดย AI Thai EduCenter:\n- บุคลิกภาพเด่น: ${result.archetype_title} (Holland Code: ${result.archetype_code})\n- คำนิยาม: "${result.share_quote}"\n\nเข้าทำแบบประเมินและค้นหาหลักสูตรมหาวิทยาลัยได้ที่: ${window.location.href}`;
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
@@ -659,22 +708,24 @@ export default function CareerDiscoveryPage() {
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col selection:bg-indigo-500 selection:text-white">
       {/* Top Navbar */}
-      <header className="border-b border-slate-800/80 bg-slate-900/60 backdrop-blur-md sticky top-0 z-50">
+      <header className="border-b border-slate-800/80 bg-slate-900/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2.5 text-white hover:text-indigo-400 transition">
-            <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-indigo-500 to-blue-500 flex items-center justify-center text-white shadow-sm">
-              <GraduationCap size={18} />
+          <Link href="/" className="flex items-center gap-2.5 text-white hover:text-indigo-300 transition">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-blue-600 flex items-center justify-center text-white shadow-md">
+              <GraduationCap size={19} />
             </div>
-            <span className="font-black text-lg tracking-tight">Thai EduCenter</span>
-            <span className="text-[10px] font-bold uppercase bg-indigo-500/20 text-indigo-300 px-2 py-0.5 rounded-full border border-indigo-500/30">
-              Career DNA
-            </span>
+            <div>
+              <span className="font-black text-lg tracking-tight">Thai EduCenter</span>
+              <span className="hidden sm:inline-block text-[10px] font-bold uppercase tracking-wider bg-slate-800 text-indigo-300 px-2 py-0.5 rounded-full ml-2 border border-slate-700">
+                Career Profiler
+              </span>
+            </div>
           </Link>
 
           <div className="flex items-center gap-3">
             <Link
               href="/"
-              className="text-xs font-semibold text-slate-400 hover:text-white transition flex items-center gap-1 bg-slate-800/80 px-3 py-1.5 rounded-xl border border-slate-700"
+              className="text-xs font-semibold text-slate-300 hover:text-white transition flex items-center gap-1.5 bg-slate-850 px-3.5 py-1.5 rounded-xl border border-slate-700"
             >
               <HomeIcon size={14} />
               <span>กลับหน้าหลัก</span>
@@ -688,18 +739,18 @@ export default function CareerDiscoveryPage() {
         {/* VIEW 1: Tier Selection Mode */}
         {!tier && !result && (
           <div className="text-center animate-fadeIn">
-            <div className="inline-flex items-center gap-2 bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 px-4 py-1.5 rounded-full text-xs font-bold mb-6 shadow-sm">
-              <Sparkles size={14} className="text-indigo-400 animate-pulse" />
-              <span>AI-Powered Holland RIASEC Career Discovery</span>
+            <div className="inline-flex items-center gap-2 bg-indigo-950/60 border border-indigo-500/30 text-indigo-300 px-3.5 py-1 rounded-full text-xs font-semibold mb-6">
+              <Compass size={14} className="text-indigo-400" />
+              <span>Holland RIASEC Psychometric Assessment</span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight mb-4">
-              ค้นหา <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-sky-400 to-pink-400">ตัวตน & คณะที่ใช่</span><br />
-              ด้วยแบบประเมินอัจฉริยะ
+              ค้นหา <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-sky-400 to-pink-400">ศักยภาพ & สาขาวิชาที่ใช่</span><br />
+              ด้วยระบบประเมินจิตวิทยาอาชีพ
             </h1>
 
             <p className="text-slate-400 text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed">
-              ยังไม่แน่ใจว่าจะเรียนต่อคณะไหน? ให้ AI ถอดรหัส DNA บุคลิกภาพ ความชอบ และค่านิยมของคุณ พร้อมแนะนำหลักสูตรปริญญาตรีที่ตอบโจทย์อนาคต
+              แบบประเมินความถนัดทางการศึกษาและวิชาชีพ ออกแบบตามกรอบจิตวิทยามาตรฐานสากล พร้อมจับคู่กับหลักสูตรระดับปริญญาตรีของมหาวิทยาลัยชั้นนำทั่วประเทศ
             </p>
 
             {/* 3 Tier Selection Cards */}
@@ -710,23 +761,25 @@ export default function CareerDiscoveryPage() {
                   setTier("quick");
                   setCurrentStep(0);
                 }}
-                className="group bg-slate-900/90 hover:bg-slate-850 p-6 rounded-3xl border border-slate-800 hover:border-amber-500/50 transition-all shadow-lg hover:shadow-amber-500/10 flex flex-col justify-between"
+                className="group bg-slate-900/90 hover:bg-slate-850 p-6 rounded-3xl border border-slate-800 hover:border-amber-500/50 transition-all shadow-lg flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                    <Zap size={24} />
+                  <div className="w-11 h-11 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+                    <Zap size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-amber-400">โหมดด่วน</span>
-                    <span className="text-[10px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded-full">⏱️ ~1 นาที</span>
+                    <span className="text-xs font-bold uppercase tracking-wider text-amber-400">ระดับเร่งด่วน</span>
+                    <span className="text-[10px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded-full flex items-center gap-1">
+                      <Clock size={10} /> 1 นาที
+                    </span>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-2">⚡ Quick Scan</h3>
+                  <h3 className="text-xl font-bold text-white mb-2">Quick Scan</h3>
                   <p className="text-xs text-slate-400 leading-relaxed mb-4">
-                    5 คำถามสายฟ้าแลบ สำหรับคนอยากได้ไอเดียคร่าวๆ แบบเร่งด่วน
+                    5 คำถามสำคัญ เพื่อประเมินแนวโน้มความถนัดและภาพรวมในเบื้องต้น
                   </p>
                 </div>
                 <div className="flex items-center text-xs font-bold text-amber-400 group-hover:translate-x-1 transition-transform">
-                  <span>เริ่มทำเลย</span> <ChevronRight size={14} className="ml-1" />
+                  <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
                 </div>
               </button>
 
@@ -736,22 +789,24 @@ export default function CareerDiscoveryPage() {
                   setTier("standard");
                   setCurrentStep(0);
                 }}
-                className="group bg-gradient-to-b from-indigo-950/60 to-slate-900/90 p-6 rounded-3xl border-2 border-indigo-500/60 hover:border-indigo-400 transition-all shadow-xl hover:shadow-indigo-500/20 flex flex-col justify-between relative overflow-hidden scale-[1.02]"
+                className="group bg-gradient-to-b from-indigo-950/60 to-slate-900/90 p-6 rounded-3xl border-2 border-indigo-500/60 hover:border-indigo-400 transition-all shadow-xl flex flex-col justify-between relative overflow-hidden scale-[1.02]"
               >
-                <div className="absolute top-3 right-3 bg-indigo-500 text-white font-black text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full">
-                  แนะนำ ⭐
+                <div className="absolute top-3 right-3 bg-indigo-600 text-white font-bold text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full">
+                  แนะนำ
                 </div>
                 <div>
-                  <div className="w-12 h-12 rounded-2xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                    <Target size={24} />
+                  <div className="w-11 h-11 rounded-2xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+                    <Target size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">โหมดมาตรฐาน</span>
-                    <span className="text-[10px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded-full">⏱️ ~4 นาที</span>
+                    <span className="text-xs font-bold uppercase tracking-wider text-indigo-400">ระดับมาตรฐาน</span>
+                    <span className="text-[10px] bg-slate-800 text-slate-300 px-2 py-0.5 rounded-full flex items-center gap-1">
+                      <Clock size={10} /> 4 นาที
+                    </span>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-2">🎯 Standard Match</h3>
+                  <h3 className="text-xl font-bold text-white mb-2">Standard Match</h3>
                   <p className="text-xs text-slate-300 leading-relaxed mb-4">
-                    20 คำถามเจาะลึก ผสมความถนัด ความคิดสร้างสรรค์ และค่านิยมการทำงาน
+                    20 คำถามครอบคลุมทั้งทักษะเฉพาะด้าน ความคิดสร้างสรรค์ และค่านิยมในการทำงาน
                   </p>
                 </div>
                 <div className="flex items-center text-xs font-bold text-indigo-300 group-hover:translate-x-1 transition-transform">
@@ -765,31 +820,33 @@ export default function CareerDiscoveryPage() {
                   setTier("deep");
                   setCurrentStep(0);
                 }}
-                className="group bg-slate-900/90 hover:bg-slate-850 p-6 rounded-3xl border border-slate-800 hover:border-pink-500/50 transition-all shadow-lg hover:shadow-pink-500/10 flex flex-col justify-between"
+                className="group bg-slate-900/90 hover:bg-slate-850 p-6 rounded-3xl border border-slate-800 hover:border-pink-500/50 transition-all shadow-lg flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-2xl bg-pink-500/10 text-pink-400 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                    <Brain size={24} />
+                  <div className="w-11 h-11 rounded-2xl bg-pink-500/10 text-pink-400 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform">
+                    <Brain size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-pink-400">สแกนระดับลึก</span>
-                    <span className="text-[10px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded-full">⏱️ ~10 นาที</span>
+                    <span className="text-xs font-bold uppercase tracking-wider text-pink-400">ระดับเจาะลึก</span>
+                    <span className="text-[10px] bg-slate-800 text-slate-400 px-2 py-0.5 rounded-full flex items-center gap-1">
+                      <Clock size={10} /> 10 นาที
+                    </span>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-2">🧠 Deep Dive DNA</h3>
+                  <h3 className="text-xl font-bold text-white mb-2">Deep Dive DNA</h3>
                   <p className="text-xs text-slate-400 leading-relaxed mb-4">
-                    30-50 ข้อ วิเคราะห์จิตวิทยาระดับลึก ค่านิยมชีวิต และความทนทานต่อแรงกดดัน
+                    30 คำถามเชิงลึก วิเคราะห์สภาวะการทำงาน การรับมือแรงกดดัน และเป้าหมายระยะยาว
                   </p>
                 </div>
                 <div className="flex items-center text-xs font-bold text-pink-400 group-hover:translate-x-1 transition-transform">
-                  <span>เริ่มสแกนลึก</span> <ChevronRight size={14} className="ml-1" />
+                  <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
                 </div>
               </button>
             </div>
 
             <div className="text-xs text-slate-500 flex items-center justify-center gap-4">
-              <span>🔒 ไม่มีการเก็บข้อมูลส่วนบุคคล</span>
+              <span className="flex items-center gap-1"><ShieldCheck size={14} /> ผลการประเมินเพื่อการแนะแนวการศึกษา</span>
               <span>•</span>
-              <span>⚡ ประมวลผลด้วย Google Gemini AI</span>
+              <span className="flex items-center gap-1"><Cpu size={14} /> วิเคราะห์ผ่าน AI Semantic Mapping</span>
             </div>
           </div>
         )}
@@ -797,15 +854,14 @@ export default function CareerDiscoveryPage() {
         {/* VIEW 2: Submitting / Loading Screen */}
         {isSubmitting && (
           <div className="text-center py-20 animate-fadeIn">
-            <div className="relative w-20 h-20 mx-auto mb-6">
-              <div className="absolute inset-0 rounded-full border-4 border-indigo-500/20 animate-ping"></div>
-              <div className="w-20 h-20 rounded-full bg-gradient-to-tr from-indigo-600 to-pink-500 flex items-center justify-center text-white shadow-xl shadow-indigo-500/30 animate-spin">
-                <Sparkles size={32} />
+            <div className="relative w-16 h-16 mx-auto mb-6">
+              <div className="w-16 h-16 rounded-2xl bg-indigo-600/20 border border-indigo-500/40 flex items-center justify-center text-indigo-400 shadow-xl animate-pulse">
+                <Sparkles size={28} />
               </div>
             </div>
-            <h2 className="text-2xl font-black text-white mb-2">AI กำลังวิเคราะห์ DNA ตัวตนของคุณ...</h2>
+            <h2 className="text-2xl font-black text-white mb-2">ระบบกำลังประมวลผลข้อมูลความถนัด...</h2>
             <p className="text-sm text-slate-400 max-w-md mx-auto">
-              กำลังคำนวณคะแนน Holland's RIASEC และค้นหาความเข้ากันได้กับหลักสูตรมหาวิทยาลัยกว่า 3,000 แห่ง...
+              กำลังคำนวณสัดส่วนคะแนน RIASEC และประมวลผลความสอดคล้องกับหลักสูตรมหาวิทยาลัยในฐานข้อมูล
             </p>
           </div>
         )}
@@ -815,12 +871,14 @@ export default function CareerDiscoveryPage() {
           <div className="max-w-2xl mx-auto w-full animate-fadeIn">
             {/* Progress Bar & Header */}
             <div className="mb-6">
-              <div className="flex justify-between items-center text-xs font-bold text-slate-400 mb-2">
+              <div className="flex justify-between items-center text-xs font-semibold text-slate-400 mb-2">
                 <span className="flex items-center gap-1.5 text-indigo-400">
                   <Compass size={14} />
                   <span>{currentQ.category}</span>
                 </span>
-                <span>ข้อที่ {currentStep + 1} / {activeQuestions.length} ({progressPct}%)</span>
+                <span className="font-mono text-slate-400">
+                  ข้อ {currentStep + 1} / {activeQuestions.length} ({progressPct}%)
+                </span>
               </div>
               <div className="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
                 <div
@@ -832,8 +890,8 @@ export default function CareerDiscoveryPage() {
 
             {/* Question Card */}
             <div className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl backdrop-blur-md mb-6">
-              <span className="inline-block bg-slate-800 text-slate-300 text-[11px] font-bold px-3 py-1 rounded-full mb-3">
-                Question {currentStep + 1}
+              <span className="inline-block bg-slate-800 text-slate-300 text-[11px] font-mono font-bold px-3 py-1 rounded-full mb-3 border border-slate-700">
+                Item {currentStep + 1}
               </span>
 
               <h2 className="text-xl sm:text-2xl font-bold text-white leading-snug mb-2">
@@ -860,23 +918,23 @@ export default function CareerDiscoveryPage() {
                         onClick={() => handleSelectOption(currentQ.id, opt.key, currentQ.type === "multi")}
                         className={`w-full text-left p-4 rounded-2xl border transition-all flex items-center justify-between ${
                           isSelected
-                            ? "bg-indigo-600/20 border-indigo-500 text-white shadow-md shadow-indigo-500/10"
+                            ? "bg-indigo-600/20 border-indigo-500 text-white shadow-md"
                             : "bg-slate-800/60 border-slate-750 text-slate-300 hover:border-slate-600 hover:bg-slate-800"
                         }`}
                       >
                         <div className="flex items-center gap-3">
-                          {opt.icon && <span className="text-2xl flex-shrink-0">{opt.icon}</span>}
+                          {renderOptionIcon(opt.iconName)}
                           <div>
                             <div className="font-bold text-sm sm:text-base">{opt.label}</div>
                             {opt.desc && <div className="text-xs text-slate-400 mt-0.5">{opt.desc}</div>}
                           </div>
                         </div>
                         <div
-                          className={`w-6 h-6 rounded-full flex items-center justify-center border flex-shrink-0 ${
+                          className={`w-5 h-5 rounded-full flex items-center justify-center border flex-shrink-0 ${
                             isSelected ? "bg-indigo-500 border-indigo-400 text-white" : "border-slate-600 bg-slate-900"
                           }`}
                         >
-                          {isSelected && <Check size={14} />}
+                          {isSelected && <Check size={12} strokeWidth={3} />}
                         </div>
                       </button>
                     );
@@ -884,16 +942,16 @@ export default function CareerDiscoveryPage() {
                 </div>
               )}
 
-              {/* INPUT TYPE 2: Likert 5-point Scale */}
+              {/* INPUT TYPE 2: Likert 5-point Psychometric Scale */}
               {currentQ.type === "likert" && (
                 <div className="mt-8">
                   <div className="grid grid-cols-5 gap-2 sm:gap-3">
                     {[
-                      { val: 1, label: "ไม่เห็นด้วยเลย", emoji: "❌", color: "hover:border-red-500" },
-                      { val: 2, label: "ไม่ค่อยเห็นด้วย", emoji: "👎", color: "hover:border-orange-500" },
-                      { val: 3, label: "ปานกลาง", emoji: "😐", color: "hover:border-slate-400" },
-                      { val: 4, label: "ค่อนข้างเห็นด้วย", emoji: "👍", color: "hover:border-sky-500" },
-                      { val: 5, label: "เห็นด้วยอย่างยิ่ง", emoji: "🔥", color: "hover:border-emerald-500" }
+                      { val: 1, label: "ไม่เห็นด้วยอย่างยิ่ง", num: "1" },
+                      { val: 2, label: "ไม่เห็นด้วย", num: "2" },
+                      { val: 3, label: "ปานกลาง", num: "3" },
+                      { val: 4, label: "เห็นด้วย", num: "4" },
+                      { val: 5, label: "เห็นด้วยอย่างยิ่ง", num: "5" }
                     ].map((item) => {
                       const isSelected = answers[currentQ.id] === item.val;
                       return (
@@ -904,20 +962,24 @@ export default function CareerDiscoveryPage() {
                           className={`p-3 sm:p-4 rounded-2xl border text-center transition-all flex flex-col items-center justify-between ${
                             isSelected
                               ? "bg-indigo-600 border-indigo-400 text-white shadow-lg scale-105"
-                              : `bg-slate-800/60 border-slate-750 text-slate-400 ${item.color} hover:bg-slate-800`
+                              : "bg-slate-800/60 border-slate-750 text-slate-400 hover:border-slate-600 hover:bg-slate-800"
                           }`}
                         >
-                          <span className="text-2xl sm:text-3xl mb-1">{item.emoji}</span>
-                          <span className="text-[10px] sm:text-xs font-bold leading-tight line-clamp-2">
+                          <span className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mb-2 border ${
+                            isSelected ? "bg-white text-indigo-900 border-white" : "bg-slate-900 text-slate-400 border-slate-700"
+                          }`}>
+                            {item.num}
+                          </span>
+                          <span className="text-[10px] sm:text-xs font-semibold leading-tight line-clamp-2">
                             {item.label}
                           </span>
                         </button>
                       );
                     })}
                   </div>
-                  <div className="flex justify-between text-[11px] text-slate-500 mt-3 px-1 font-medium">
-                    <span>⬅️ ไม่ใช่ฉัน</span>
-                    <span>ตรงกับฉันมาก ➡️</span>
+                  <div className="flex justify-between text-[11px] text-slate-500 mt-4 px-1 font-medium">
+                    <span>ระดับ 1 : ไม่ตรงกับข้าพเจ้า</span>
+                    <span>ระดับ 5 : ตรงกับข้าพเจ้าอย่างยิ่ง</span>
                   </div>
                 </div>
               )}
@@ -929,15 +991,15 @@ export default function CareerDiscoveryPage() {
                     rows={3}
                     value={answers[currentQ.id] || ""}
                     onChange={(e) => handleFreeTextChange(currentQ.id, e.target.value)}
-                    placeholder="พิมพ์คำตอบของคุณที่นี่..."
+                    placeholder="ระบุคำตอบหรือมุมมองของคุณ..."
                     className="w-full bg-slate-800 border border-slate-700 rounded-2xl p-4 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500"
                   />
 
                   {currentQ.chips && currentQ.chips.length > 0 && (
                     <div>
-                      <div className="text-xs font-bold text-slate-400 mb-2 flex items-center gap-1">
-                        <Sparkles size={12} className="text-amber-400" />
-                        <span>หรือแตะเพื่อเลือกคีย์เวิร์ดแนะนำ:</span>
+                      <div className="text-xs font-bold text-slate-400 mb-2 flex items-center gap-1.5">
+                        <FileCheck2 size={13} className="text-indigo-400" />
+                        <span>หรือเลือกประเด็นที่สอดคล้อง:</span>
                       </div>
                       <div className="flex flex-wrap gap-2">
                         {currentQ.chips.map((chip, idx) => (
@@ -974,15 +1036,15 @@ export default function CareerDiscoveryPage() {
                   onClick={resetQuiz}
                   className="text-xs font-semibold text-slate-500 hover:text-slate-400"
                 >
-                  ยกเลิก
+                  เริ่มใหม่
                 </button>
 
                 <button
                   type="button"
                   onClick={handleNext}
-                  className="bg-gradient-to-r from-indigo-500 to-blue-600 hover:from-indigo-600 hover:to-blue-700 text-white text-sm font-bold px-6 py-3 rounded-2xl shadow-md hover:shadow-indigo-500/20 transition flex items-center gap-2"
+                  className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold px-6 py-3 rounded-2xl shadow-md transition flex items-center gap-2"
                 >
-                  <span>{currentStep === activeQuestions.length - 1 ? "ดูผลวิเคราะห์" : "ถัดไป"}</span>
+                  <span>{currentStep === activeQuestions.length - 1 ? "ดูผลการวิเคราะห์" : "ถัดไป"}</span>
                   <ArrowRight size={16} />
                 </button>
               </div>
@@ -994,35 +1056,33 @@ export default function CareerDiscoveryPage() {
         {result && (
           <div className="space-y-8 animate-fadeIn max-w-4xl mx-auto w-full">
             {/* Top Shareable Archetype Card */}
-            <div className="bg-gradient-to-tr from-indigo-900 via-slate-900 to-purple-900 border border-indigo-500/40 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
-              <div className="absolute -top-10 -right-10 w-48 h-48 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none"></div>
-
+            <div className="bg-gradient-to-tr from-indigo-950 via-slate-900 to-purple-950 border border-indigo-500/40 rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden">
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4">
-                <div className="inline-flex items-center gap-2 bg-indigo-500/20 border border-indigo-400/30 text-indigo-200 px-3 py-1 rounded-full text-xs font-bold">
+                <div className="inline-flex items-center gap-2 bg-indigo-500/20 border border-indigo-400/30 text-indigo-200 px-3 py-1 rounded-full text-xs font-bold font-mono">
                   <Award size={14} className="text-amber-400" />
                   <span>Holland Code: {result.archetype_code}</span>
                 </div>
 
                 <button
                   onClick={copyShareResult}
-                  className="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 backdrop-blur-xs"
+                  className="bg-white/10 hover:bg-white/20 text-white text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 backdrop-blur-xs border border-white/10"
                 >
                   {copied ? <Check size={14} className="text-emerald-400" /> : <Copy size={14} />}
-                  <span>{copied ? "คัดลอกผลลัพธ์แล้ว!" : "แชร์ผลลัพธ์"}</span>
+                  <span>{copied ? "คัดลอกข้อมูลแล้ว" : "คัดลอกผลการประเมิน"}</span>
                 </button>
               </div>
 
               <h1 className="text-2xl sm:text-4xl font-black text-white tracking-tight mb-2">
                 {result.archetype_title}
               </h1>
-              <p className="text-indigo-200/90 text-sm sm:text-base font-medium mb-6">
+              <p className="text-indigo-200/90 text-sm sm:text-base font-medium mb-6 leading-relaxed">
                 {result.archetype_description}
               </p>
 
               {/* Share Quote Banner */}
-              <div className="bg-black/30 border border-white/10 p-4 rounded-2xl text-xs sm:text-sm text-slate-300 italic flex items-center gap-3">
-                <Sparkles size={18} className="text-amber-400 flex-shrink-0" />
-                <span>"{result.share_quote}"</span>
+              <div className="bg-black/40 border border-white/10 p-4 rounded-2xl text-xs sm:text-sm text-slate-300 flex items-center gap-3">
+                <Compass size={18} className="text-indigo-400 flex-shrink-0" />
+                <span className="font-medium">"{result.share_quote}"</span>
               </div>
             </div>
 
@@ -1036,13 +1096,13 @@ export default function CareerDiscoveryPage() {
                 <div>
                   <h3 className="text-base font-bold text-white mb-3 flex items-center gap-2">
                     <Brain size={18} className="text-indigo-400" />
-                    <span>บทวิเคราะห์ตัวตนและศักยภาพ</span>
+                    <span>บทวิเคราะห์คุณลักษณะและศักยภาพ</span>
                   </h3>
                   <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mb-6 font-normal">
                     {result.personality_summary}
                   </p>
 
-                  <div className="text-xs font-bold text-slate-400 mb-2">จุดเด่นสำคัญของคุณ:</div>
+                  <div className="text-xs font-bold text-slate-400 mb-2">ทักษะและจุดเด่นหลัก:</div>
                   <div className="flex flex-wrap gap-2 mb-6">
                     {result.strengths.map((str, idx) => (
                       <span
@@ -1056,7 +1116,7 @@ export default function CareerDiscoveryPage() {
                 </div>
 
                 <div className="bg-slate-800/60 p-3.5 rounded-2xl border border-slate-750 text-xs text-slate-300">
-                  <span className="font-bold text-indigo-400 block mb-0.5">สภาพแวดล้อมที่เหมาะกับคุณ:</span>
+                  <span className="font-bold text-indigo-400 block mb-0.5">สภาพแวดล้อมการทำงานที่เหมาะสม:</span>
                   <span>{result.ideal_work_environment}</span>
                 </div>
               </div>
@@ -1066,10 +1126,10 @@ export default function CareerDiscoveryPage() {
             <div className="bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-8">
               <h3 className="text-lg font-bold text-white mb-1 flex items-center gap-2">
                 <Briefcase size={20} className="text-sky-400" />
-                <span>3 อาชีพที่เหมาะสมที่สุดในอนาคต (Top Career Matches)</span>
+                <span>สาขาวิชาชีพที่สอดคล้อง (Career Alignment)</span>
               </h3>
               <p className="text-xs text-slate-400 mb-6">
-                คัดเลือกโดย AI จากความสอดคล้องระหว่างคะแนนทักษะและแนวโน้มการเติบโตของตลาดงาน
+                ประมวลผลจากความสอดคล้องระหว่างคะแนนทักษะและแนวโน้มความต้องการในตลาดงาน
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -1083,7 +1143,7 @@ export default function CareerDiscoveryPage() {
                         <span className="text-[10px] font-bold bg-sky-500/20 text-sky-300 px-2 py-0.5 rounded-md">
                           {career.growth_outlook}
                         </span>
-                        <span className="text-xs font-black text-emerald-400">{career.match_percentage}% Match</span>
+                        <span className="text-xs font-mono font-bold text-emerald-400">{career.match_percentage}% Match</span>
                       </div>
                       <h4 className="font-bold text-white text-sm mb-2">{career.title}</h4>
                       <p className="text-xs text-slate-400 line-clamp-3 leading-relaxed mb-4">
@@ -1093,7 +1153,7 @@ export default function CareerDiscoveryPage() {
 
                     <div className="flex flex-wrap gap-1 pt-3 border-t border-slate-700">
                       {career.skills.map((skill, sIdx) => (
-                        <span key={sIdx} className="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded-md">
+                        <span key={sIdx} className="text-[10px] bg-slate-900 text-slate-300 px-2 py-0.5 rounded-md border border-slate-800">
                           {skill}
                         </span>
                       ))}
@@ -1109,17 +1169,17 @@ export default function CareerDiscoveryPage() {
                 <div>
                   <h3 className="text-lg font-bold text-white flex items-center gap-2">
                     <BookOpen size={20} className="text-pink-400" />
-                    <span>หลักสูตรปริญญาตรีที่แนะนำสำหรับคุณ</span>
+                    <span>หลักสูตรระดับปริญญาตรีที่แนะนำ</span>
                   </h3>
                   <p className="text-xs text-slate-400">
-                    ดึงตรงจากฐานข้อมูลหลักสูตรมหาวิทยาลัยชั้นนำที่ตรงกับสายอาชีพข้างต้น
+                    ดึงข้อมูลตรงจากหลักสูตรมหาวิทยาลัยในระบบที่สอดคล้องกับเส้นทางอาชีพข้างต้น
                   </p>
                 </div>
                 <Link
                   href="/"
                   className="text-xs font-bold text-indigo-400 hover:text-indigo-300 flex items-center gap-1"
                 >
-                  <span>ค้นหาหลักสูตรเพิ่มเติม</span> <ChevronRight size={14} />
+                  <span>สำรวจหลักสูตรทั้งหมด</span> <ChevronRight size={14} />
                 </Link>
               </div>
 
@@ -1136,7 +1196,7 @@ export default function CareerDiscoveryPage() {
                             {course.degree_level || "ปริญญาตรี"}
                           </span>
                           {course.match_score && (
-                            <span className="text-xs font-black text-emerald-400 flex items-center gap-1">
+                            <span className="text-xs font-mono font-bold text-emerald-400 flex items-center gap-1">
                               <Sparkles size={12} /> {course.match_score}% Match
                             </span>
                           )}
@@ -1184,16 +1244,16 @@ export default function CareerDiscoveryPage() {
                 </div>
               ) : (
                 <div className="text-center py-6 text-xs text-slate-500 bg-slate-800/40 rounded-2xl border border-slate-800">
-                  กำลังอัปเดตหลักสูตรที่ตรงกับสายอาชีพนี้
+                  กำลังอัปเดตข้อมูลหลักสูตรที่สอดคล้อง
                 </div>
               )}
             </div>
 
             {/* Growth & Preparation Advice Card */}
-            <div className="bg-gradient-to-r from-amber-500/10 via-slate-900 to-indigo-500/10 border border-amber-500/30 rounded-3xl p-6 sm:p-8">
-              <h3 className="text-base font-bold text-amber-300 mb-2 flex items-center gap-2">
-                <Sparkles size={18} className="text-amber-400" />
-                <span>คำแนะนำการเตรียมตัวช่วง ม.ปลาย (Growth Advice)</span>
+            <div className="bg-gradient-to-r from-indigo-950/40 via-slate-900 to-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8">
+              <h3 className="text-base font-bold text-indigo-300 mb-2 flex items-center gap-2">
+                <TrendingUp size={18} className="text-indigo-400" />
+                <span>คำแนะนำเพื่อการเตรียมความพร้อมทางวิชาการ</span>
               </h3>
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-normal">
                 {result.growth_advice}
@@ -1212,7 +1272,7 @@ export default function CareerDiscoveryPage() {
 
               <Link
                 href="/"
-                className="bg-gradient-to-r from-indigo-500 to-blue-600 hover:from-indigo-600 hover:to-blue-700 text-white text-xs font-bold px-8 py-3.5 rounded-2xl shadow-lg hover:shadow-indigo-500/20 transition flex items-center gap-2 w-full sm:w-auto justify-center"
+                className="bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold px-8 py-3.5 rounded-2xl shadow-lg transition flex items-center gap-2 w-full sm:w-auto justify-center"
               >
                 <BookOpen size={15} />
                 <span>สำรวจหลักสูตรมหาวิทยาลัยทั้งหมด</span>

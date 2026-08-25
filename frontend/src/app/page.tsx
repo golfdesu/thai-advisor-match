@@ -695,8 +695,9 @@ export default function Home() {
                     </div>
 
                     <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
-                      <div className="text-xs text-slate-500 font-medium truncate max-w-[120px]">
-                        ✉️ {advisor.email || "ติดต่อผ่านคณะ"}
+                      <div className="text-xs text-slate-500 font-medium truncate max-w-[140px] flex items-center gap-1.5">
+                        <Mail size={13} className="text-slate-400 flex-shrink-0" />
+                        <span className="truncate">{advisor.email || "ติดต่อผ่านคณะ"}</span>
                       </div>
                       <button
                         onClick={() => handleGenerateEmail(advisor)}
