@@ -608,8 +608,8 @@ export default function CareerDiscoveryPage() {
   const activeQuestions = useMemo(() => {
     if (!tier) return [];
     if (tier === "quick") return MASTER_QUESTIONS.slice(0, 5);
-    if (tier === "standard") return MASTER_QUESTIONS.slice(0, 20);
-    return MASTER_QUESTIONS;
+    if (tier === "standard") return MASTER_QUESTIONS.slice(0, 15);
+    return MASTER_QUESTIONS.slice(0, 30);
   }, [tier]);
 
   const currentQ = activeQuestions[currentStep];
@@ -806,7 +806,7 @@ export default function CareerDiscoveryPage() {
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Standard Match</h3>
                   <p className="text-xs text-slate-600 leading-relaxed mb-4">
-                    20 คำถามครอบคลุมทั้งทักษะเฉพาะด้าน ความคิดสร้างสรรค์ และค่านิยมในการทำงาน
+                    15 คำถามครอบคลุมทั้งทักษะเฉพาะด้าน ความคิดสร้างสรรค์ และค่านิยมในการทำงาน
                   </p>
                 </div>
                 <div className="flex items-center text-xs font-bold text-indigo-600 group-hover:translate-x-1 transition-transform">

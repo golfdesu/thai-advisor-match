@@ -28,7 +28,10 @@ def db_to_pydantic(db_model: FacultyDB) -> FacultyMember:
         education=db_model.education,
         research_interests=db_model.research_interests,
         taught_courses=db_model.taught_courses,
-        featured_publications=db_model.featured_publications,
+        featured_publications=[
+            {"title": pub} if isinstance(pub, str) else pub 
+            for pub in (db_model.featured_publications or [])
+        ],
         scholar_url=db_model.scholar_url,
         embedding_text=db_model.embedding_text
     )

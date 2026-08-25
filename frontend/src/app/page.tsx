@@ -408,6 +408,19 @@ export default function Home() {
                   <option value="Chulalongkorn University">จุฬาลงกรณ์มหาวิทยาลัย (CU)</option>
                   <option value="Thammasat University">มหาวิทยาลัยธรรมศาสตร์ (TU)</option>
                   <option value="Mahidol University">มหาวิทยาลัยมหิดล (MU)</option>
+                  <option value="Kasetsart University">มหาวิทยาลัยเกษตรศาสตร์ (KU)</option>
+                  <option value="Khon Kaen University">มหาวิทยาลัยขอนแก่น (KKU)</option>
+                  <option value="Prince of Songkla University">มหาวิทยาลัยสงขลานครินทร์ (PSU)</option>
+                  <option value="King Mongkut's Institute of Technology Ladkrabang">สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (KMITL)</option>
+                  <option value="King Mongkut's University of Technology Thonburi">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี (KMUTT)</option>
+                  <option value="Srinakharinwirot University">มหาวิทยาลัยศรีนครินทรวิโรฒ (SWU)</option>
+                  <option value="Naresuan University">มหาวิทยาลัยนเรศวร (NU)</option>
+                  <option value="Burapha University">มหาวิทยาลัยบูรพา (BUU)</option>
+                  <option value="Mahasarakham University">มหาวิทยาลัยมหาสารคาม (MSU)</option>
+                  <option value="Suranaree University of Technology">มหาวิทยาลัยเทคโนโลยีสุรนารี (SUT)</option>
+                  <option value="Mae Fah Luang University">มหาวิทยาลัยแม่ฟ้าหลวง (MFU)</option>
+                  <option value="National Institute of Development Administration">สถาบันบัณฑิตพัฒนบริหารศาสตร์ (NIDA)</option>
+                  <option value="Silpakorn University">มหาวิทยาลัยศิลปากร (SU)</option>
                 </select>
               </div>
 
@@ -424,6 +437,7 @@ export default function Home() {
                     <option value="bachelor">ปริญญาตรี</option>
                     <option value="master">ปริญญาโท</option>
                     <option value="doctorate">ปริญญาเอก</option>
+                    <option value="certificate">ประกาศนียบัตร</option>
                   </select>
                 </div>
               )}
@@ -655,9 +669,14 @@ export default function Home() {
                           className="w-14 h-14 rounded-2xl object-cover border-2 border-slate-100 shadow-xs flex-shrink-0"
                         />
                         <div>
-                          <h3 className="text-base font-bold text-slate-900 group-hover:text-indigo-600 transition-colors leading-snug">
-                            {advisor.full_name_th}
-                          </h3>
+                          <a 
+                            href={`/advisor/${advisor.id}`} 
+                            className="inline-flex items-center gap-1 hover:opacity-80 transition-opacity group-hover:text-indigo-600"
+                          >
+                            <h3 className="text-base font-bold text-slate-900 transition-colors leading-snug">
+                              {advisor.full_name_th}
+                            </h3>
+                          </a>
                           {advisor.full_name && (
                             <p className="text-[11px] text-slate-400 truncate">{advisor.full_name}</p>
                           )}
@@ -695,10 +714,12 @@ export default function Home() {
                     </div>
 
                     <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
-                      <div className="text-xs text-slate-500 font-medium truncate max-w-[140px] flex items-center gap-1.5">
-                        <Mail size={13} className="text-slate-400 flex-shrink-0" />
-                        <span className="truncate">{advisor.email || "ติดต่อผ่านคณะ"}</span>
-                      </div>
+                      <a
+                        href={`/advisor/${advisor.id}`}
+                        className="text-indigo-600 hover:text-indigo-800 text-xs font-bold flex items-center gap-1 transition"
+                      >
+                        ดูโปรไฟล์เต็ม <ChevronRight size={14} />
+                      </a>
                       <button
                         onClick={() => handleGenerateEmail(advisor)}
                         className="bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1"

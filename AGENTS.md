@@ -10,6 +10,8 @@
 4. **Comprehensive Profiles:** Academic background, research interests, supervised courses, publication links, and official contact channels.
 5. **AI Cold Email Generator:** An AI assistant that drafts professional inquiry emails and research proposals for contacting prospective advisors in Thai and English.
 
+6. **RIASEC Career Discovery Quiz:** A 3-tier psychological assessment (Quick 5, Standard 15, Deep Dive 30 questions) that matches students to suitable academic paths.
+
 ---
 
 ## 2. Tech Stack & Architecture (Monorepo)
@@ -119,6 +121,10 @@ Teacher/
 │   │   └── app/
 │   │       ├── layout.tsx
 │   │       ├── page.tsx          # Dual Search (Courses & Advisors), Cold Email Modal
+│   │       ├── advisor/[id]/     # Dynamic Advisor Profile page
+│   │       │   └── page.tsx
+│   │       ├── career-discovery/ # RIASEC AI Quiz page
+│   │       │   └── page.tsx
 │   │       └── globals.css
 │   ├── package.json
 │   └── .env.local
