@@ -1,0 +1,232 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="../bootstrap/js/jquery-2.0.2.js" type="text/javascript"></script>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../bootstrap/css/bootstrap_new.css" rel="stylesheet" type="text/css" /><link rel="shortcut icon" href="../Images/TQFLogo.png" /><link href="../Styles/YahooGridView.css" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400&amp;display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Bai Jamjuree', sans-serif;
+            /* font-size: 17px;*/
+        }
+    </style>
+    <style type="text/css">
+        .Background {
+            background-color: gray;
+            filter: alpha(opacity=90);
+            opacity: 0.8;
+        }
+
+        .overlay {
+            position: fixed;
+            z-index: 98;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            background-color: #aaa;
+            filter: alpha(opacity=80);
+            opacity: 0.8;
+        }
+
+        .overlayContent {
+            z-index: 99;
+            margin: 250px auto;
+            width: 80px;
+            height: 80px;
+        }
+
+            .overlayContent h2 {
+                font-size: 18px;
+                font-weight: bold;
+                color: #000;
+            }
+
+            .overlayContent img {
+                width: 80px;
+                height: 80px;
+            }
+    </style>
+<title>
+
+</title></head>
+<body>
+    <form method="post" action="./CurriculumPublicList.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/TQF/WebResource.axd?d=Uw15kMmatCRWPt7NEqDfQh4MUuDFjXyMHAkJZDUBb0JVsYiT7HAzBRAcIrkVRXdIKiJtdnnikKbzi2FGNBo58WXfBlirWA9bQVNNMa7tS-A1&amp;t=638901788248157332" type="text/javascript"></script>
+
+
+<script src="/TQF/ScriptResource.axd?d=IbedHBYExK5BEMcDQH7jAWrQMf6m_DKGkal1wkRDhip-N_8mEKMwvRhm-S2ePywgyD0Rk8MvZ-G_Fma2xta3wVuD7--1UcPFFNim06nc2LA_NnVG5Je3OeC8afD7mL210&amp;t=734d43f5" type="text/javascript"></script>
+<script src="/TQF/ScriptResource.axd?d=lMWzYGMpN0PVjVztep0vusHP-mcAiQALBZycdpFtaZk5RzWjG67EbCWz637_PBDucW9saMzFUTKP9BwQGzRX5dzNMYJzKXHbWcCU5p7bF4JfXXPCvgVx220GAnZ_REdxgtz8GRCzluHNdafztD4ynQ2&amp;t=734d43f5" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="32532026" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/tTxJqPObxxtTBBBl7mThfUZyhHbRAjjRmlbE2SG/+ca6kbv0KNH6UycjVdI/2BalRyPl0mMNFwhLclmJ/vB5TNN7C4xVrkLdZO3r4dub8YDcxdTYvx5gVOd5TbmtsQSFEOYxOjqrKN28KYSpLyp8VHP40CiEWPnEMFbheGsouXtank1c33obU5H5zmuK8QxUid5kcDVUvk3aCZ+ltwrxX/MuCAVTxAJJ7lj9Ob7y6Rwb7q6gixIRBofYWrU3CRt2OZOybNgDQcFbG2tTRkNjkI16Ewz9tBvmosanpBZPs2F5mJs3aqS+7DTKjGBdJk68nC1v0RHMumyumJnnTwGLqXaZxSs3+aXPcbnf4LIcpwcT0Gjn5gjl14SJ0e1fwamSHBirK/HgU8VPJjoXcmrXxG3NRvTbdnD6pXDNqVwqPvpVLghpN6VCd/LQWf9xf71sdnmoNIES74fGMxLxl7qWzgtoEO5Lh7Jbouv4Rlz7PJCJpRtxthpJkMHzkHofulwQA/IjMuArlHdcoTBbdfg3PraKvYVcZP23YhscHpMjAIs0+mjcfxZPnMZJ5BVpgBmJpZ9ZfN5UQ3d599RsOtErFty7/eaUwiCv5G2AYyu80r9TT1aBiDgXOA/Lek610wHN11dXIYYMRdk94aenkXDVN9lsJBM9VNFYfgbgZBK9nbmWJv8RBIAFIKIE6PBqrEBCPaPo0QrdFV4SKmZK1t9abh5bjWz8ACmJFUTONXw+41gUU13Rz7t0JCqi/aY1L72uYiipfVm0s8Tf8Hfu/BDPbF+2BQ+NHE4V5yoR44s02AUtcrZSV4MDD2ZtCUVZRuvYxQxQwyO4q+DYj8PiJhBemObqcCTeIMNOkzuIPcFjpbckUDsiPERVPSybaBtU7diNPRy40lKyf3ziSzuUZggasOV1qtvcppivrnN8SL2wchxDh7+Owieb5LyWjg6l6+C1e97QCEybutWba0nGYyIhdGpkVys+o2OWat1Eagmc9e1pKYmuIB0B4RsYsytVf5MlOTQW4xqBCH+bITCGMqHvmEeqBXeKoqPVoS0DnhDLjKwEsKJmgkCNjM7cEd7yZx2fmHKt16T7L7/xkv9H5LDEkz8ymbw8Ofp0wGQKGwCa+lb4UJyhPKacODE8dx8Boca+0moYYquiTsHQ1+62eE1RaEeQsrFx8w6/LDiet9B4993jBGYAwoYfSqE9in11gFKOJz0qhdX4eJrQUQ8znOKWQK296TEWv/qaPkwX0PdZbuoAiVZfVt//WuO4hWcc5ROFOMoxkaAycNyS9VlF51iwn7UjnO7Fe5jfLLf8qAESHRTFTDqbdgATwRDAnlxJV58Dmmbna8EU+rJeiNj0T4A9RGU24QGa6xlN2FLj3ZV3Cmp3863O3qOGf1OxwbXeUIPhj1up5zVm+GqchqNI/tpm/Eqw9ehtcgw4SVm1TvnAxvX5AYpyvXzIiL23quNtuKu" />
+</div>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="brand">
+                    
+                    <strong>
+                        <span id="lblTitle">หลักสูตร</span></strong>
+                </div>
+                <div class="text-right">
+                    <img id="Image1" src="../Images/mislogo.png" style="width:100px;" />
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', [], [], [], 90, '');
+//]]>
+</script>
+
+        <div class="container">
+            <h4 class="text-info">รายการหลักสูตร</h4>
+            <div id="dvMenuHead" class="text-right">
+                <input type="hidden" name="hdfMode" id="hdfMode" />
+                <input type="submit" name="btnCurriculum" value="หลักสูตร" id="btnCurriculum" class="btn btn-primary" style="width:200px;" />
+                <input type="submit" name="btnCourse" value="วิชา" id="btnCourse" class="btn btn-primary" style="width:200px;" />
+                <a id="HplProfessor" class="btn btn-primary" href="CurriculumLecturerPublicList.aspx" target="_blank" style="display:inline-block;width:200px;">อาจารย์ผู้รับผิดชอบหลักสูตร</a>
+                
+            </div>
+            <div class="panels panels-info">
+                <div id="dvYearProfessor" class="panels-heading">
+                    <div class="form-inline">
+
+                        <span id="lblYear">Year</span>
+                        <select name="ddlAcademicYear" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlAcademicYear\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlAcademicYear" style="width:100px;">
+	<option value="2570">2570</option>
+	<option selected="selected" value="2569">2569</option>
+	<option value="2568">2568</option>
+	<option value="2567">2567</option>
+	<option value="2566">2566</option>
+	<option value="2565">2565</option>
+	<option value="2564">2564</option>
+	<option value="2563">2563</option>
+	<option value="2562">2562</option>
+	<option value="2561">2561</option>
+	<option value="2560">2560</option>
+	<option value="2559">2559</option>
+	<option value="2558">2558</option>
+	<option value="2557">2557</option>
+	<option value="2556">2556</option>
+
+</select>
+                        &nbsp;<span id="lblsemester">semester</span>
+                        <select name="ddlAcademicTerm" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlAcademicTerm\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlAcademicTerm" style="width:100px;">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">Summer</option>
+
+</select>
+                        <span id="lblTitleEPlan" style="font-size:Medium;"></span>
+                        <br />
+                        <div id="dvRemark">
+                            <small>Before applying, please choose your semester and academic year.
+                            <br />
+                                กรุณาเลือกข้อมูลภาคการศึกษาและปีการศึกษาของนักศึกษา ก่อนใช้ข้อมูลทุกครั้ง</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <input type="hidden" name="hdfSearchCourseID" id="hdfSearchCourseID" />
+                <div class="panels-body">
+                    <div id="dvFacProfessor" class="form-inline text-left">
+                        Faculty
+                <select name="ddlListFaculty" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlListFaculty\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlListFaculty" style="width:500px;">
+	<option selected="selected" value="00"></option>
+	<option value="01">Faculty of Humanities</option>
+	<option value="02">Faculty of Education</option>
+	<option value="03">Faculty of Fine Arts</option>
+	<option value="04">Faculty of Social Sciences</option>
+	<option value="05">Faculty of Science</option>
+	<option value="06">Faculty of Engineering</option>
+	<option value="07">Faculty of Medicine</option>
+	<option value="08">Faculty of Agriculture</option>
+	<option value="09">Faculty of Dentistry</option>
+	<option value="10">Faculty of Pharmacy</option>
+	<option value="11">Faculty of Associated Medical Sciences</option>
+	<option value="12">Faculty of Nursing</option>
+	<option value="13">Faculty of Agro-Industry</option>
+	<option value="14">Faculty of Veterinary Medicine</option>
+	<option value="15">Faculty of Business Administration</option>
+	<option value="16">Faculty of Economics</option>
+	<option value="17">Faculty of Architecture</option>
+	<option value="18">Faculty of Mass Communication</option>
+	<option value="19">Faculty of Political Science and Public Administration</option>
+	<option value="20">Faculty of Law</option>
+	<option value="21">College of Arts, Media and Technology</option>
+	<option value="26">Biomedical Engineering Institute</option>
+	<option value="30">Multidisciplinary and Interdisciplinary School</option>
+	<option value="37">Research Institute for Health Sciences</option>
+	<option value="49">School of Public Policy</option>
+	<option value="60">Faculty of Public Health</option>
+	<option value="61">International College of Digital Innovation</option>
+	<option value="62">College of Marine Studies and Management</option>
+
+</select>
+
+                        <select name="ddlStudentLevelID" id="ddlStudentLevelID">
+	<option value="0"></option>
+	<option value="2">Bachelor’s degree</option>
+	<option value="3">Graduate certificate</option>
+	<option value="4">Master’s degree</option>
+	<option value="5">High graduate certificate</option>
+	<option value="6">Doctor’s degree</option>
+	<option value="7">Bachelor’s degree - Master’s degree</option>
+	<option value="8">Master’s degree and Doctor’s degree</option>
+
+</select>
+
+                        <input type="submit" name="btnSearch" value="Search" id="btnSearch" class="btn" />
+
+                    </div>
+
+                    <blockquote class="pull-right">
+                        <small>แสดงจำนวน
+                                <span id="lblCountCourse">0</span>
+                            รายการ
+                        </small>
+                    </blockquote>
+                    <div>
+
+</div>
+                </div>
+            </div>
+
+            <div class="text-info">
+                <small>ข้อมูลหลักสูตรนี้นำมาจาก ระบบ มคอ.2 ได้รับการตรวจสอบแล้วจากสำนักพัฒนาคุณภาพการศึกษา และ วิทยาลัยพหุวิทยาการและสหวิทยาการ</small><br />
+                
+                <span id="Label6" class="label label-success">CMU MIS</span>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

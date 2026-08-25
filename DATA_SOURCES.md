@@ -93,7 +93,20 @@ Imported via `seed_wave2a.py` + `seed_wave2b.py`, publications via `pubs_wave2.j
 
 ---
 
-## 2. Academic Publications (Featured Publications)
+## 2. University Curricula / Courses
+
+### 2.1 Chiang Mai University — Full Curriculum Directory (Bachelor → Ph.D.)
+*   **Primary Source:** CMU MIS TQF2 Curriculum Public List (ระบบฐานข้อมูลหลักสูตรของสำนักพัฒนาคุณภาพการศึกษา มช.) — `https://www.mis.cmu.ac.th/TQF/TQF2/CurriculumPublicList.aspx`
+*   **Coverage:** All 28 faculties/colleges/institutes, all levels (ป.ตรี, ป.โท, ป.เอก, ประกาศนียบัตรบัณฑิต/ชั้นสูง) — 336 curricula total.
+*   **Pipeline:**
+    1. `scrape_cmu_courses.py --phase list` — enumerates every curriculum from the central search grid (Thai + English titles, plan/type info).
+    2. `scrape_cmu_courses.py --phase details` — opens each curriculum's TQF2 detail page (ASP.NET postback flow): official curriculum code, degree full/abbreviation, credit structure, study plan.
+    3. `build_cmu_courses_json.py` — maps raw scrape into the project courses schema (`data/cmu_courses.json`), deriving Thai degree abbreviations, total credits, duration, and program type.
+    4. `seed_cmu_courses.py` — upserts into the Supabase `courses` table (`--dry-run` for validation only).
+*   **Known gap:** 46 newly established curricula (mostly B.E. 2568+) have no published มคอ.2 detail in the system yet; they are stored with basic fields from the list phase and can be re-fetched later by re-running `--phase details`.
+*   **Tuition fees:** not published in the TQF2 system — left null pending per-faculty enrichment.
+
+## 3. Academic Publications (Featured Publications)
 To ensure accuracy and recency, research papers and publication records were not manually hardcoded. Instead, they were dynamically fetched from global academic databases.
 
 *   **Primary Source:** Google Scholar (via SerpApi)
@@ -104,7 +117,7 @@ To ensure accuracy and recency, research papers and publication records were not
 
 ---
 
-## 3. Profile Pictures
+## 4. Profile Pictures
 Profile pictures were sourced from multiple platforms due to strict Hotlink Protection (CORS) policies enforced by certain university servers.
 
 *   **Primary Source:** Official university directories.
@@ -116,7 +129,7 @@ Profile pictures were sourced from multiple platforms due to strict Hotlink Prot
 
 ---
 
-## 4. Future Data Pipeline
+## 5. Future Data Pipeline
 Once the backend API is fully deployed to production hosting, scaling the database to include other universities (e.g., Prince of Songkla, Khon Kaen, Chiang Mai additional faculties) will follow this pipeline:
 1. Developing specialized Web Scrapers (using BeautifulSoup / Playwright) tailored to the DOM structure of target university directories.
 2. Importing scraped data using the standardized JSON schema defined in `AGENTS.md`.
