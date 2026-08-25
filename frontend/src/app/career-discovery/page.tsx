@@ -28,41 +28,12 @@ import {
   TrendingUp,
   AlertCircle,
   Clock,
-  Laptop,
-  Palette,
-  FlaskConical,
-  BookMarked,
-  Wrench,
-  Megaphone,
-  Gamepad2,
-  Camera,
-  Microscope,
-  Coffee,
-  LineChart,
-  ClipboardList,
-  Crown,
-  Hammer,
-  Building,
-  HeartHandshake,
-  Stethoscope,
-  Code2,
   Cpu,
-  Globe2,
-  FileCheck2,
   ShieldCheck
 } from "lucide-react";
+import riasecQuestions from "@/data/riasec_questions.json";
+import lifestyleQuestions from "@/data/lifestyle_questions.json";
 
-// Master Question Item Interface
-interface QuestionItem {
-  id: number;
-  category: string;
-  type: "single" | "multi" | "likert" | "text";
-  dimension: string;
-  question: string;
-  subtitle?: string;
-  options?: { key: string; label: string; iconName?: string; desc?: string }[];
-  chips?: string[]; // Quick suggestion chips for free-text
-}
 
 interface RiasecScore {
   realistic: number;
@@ -112,355 +83,7 @@ interface QuizResultData {
 
 const BACKEND_URL = "http://localhost:8000/api/v1";
 
-// Helper function to render clean Lucide icons instead of emojis
-function renderOptionIcon(iconName?: string) {
-  const props = { size: 20, className: "text-indigo-600 flex-shrink-0" };
-  switch (iconName) {
-    case "code": return <Laptop {...props} />;
-    case "palette": return <Palette {...props} />;
-    case "flask": return <FlaskConical {...props} />;
-    case "book": return <BookMarked {...props} />;
-    case "wrench": return <Wrench {...props} />;
-    case "megaphone": return <Megaphone {...props} />;
-    case "gamepad": return <Gamepad2 {...props} />;
-    case "camera": return <Camera {...props} />;
-    case "microscope": return <Microscope {...props} />;
-    case "coffee": return <Coffee {...props} />;
-    case "chart": return <LineChart {...props} />;
-    case "clipboard": return <ClipboardList {...props} />;
-    case "crown": return <Crown {...props} />;
-    case "hammer": return <Hammer {...props} />;
-    case "building": return <Building {...props} />;
-    case "heart": return <HeartHandshake {...props} />;
-    case "hospital": return <Stethoscope {...props} />;
-    case "tech": return <Cpu {...props} />;
-    case "global": return <Globe2 {...props} />;
-    default: return <Compass {...props} />;
-  }
-}
 
-// 50 Questions Master Bank (Clean, No Emojis)
-const MASTER_QUESTIONS: QuestionItem[] = [
-  // 1-5 (Quick Tier)
-  {
-    id: 1,
-    category: "วิชาและกิจกรรมที่ชอบ",
-    type: "multi",
-    dimension: "I+A+R+S+E+C",
-    question: "วิชาหรือกิจกรรมไหนที่คุณทำแล้วรู้สึกสนุกและมีสมาธิมากที่สุด? (เลือกได้หลายข้อ)",
-    subtitle: "เลือกสิ่งที่ตรงกับความสนใจของคุณมากที่สุด",
-    options: [
-      { key: "I", label: "คณิตศาสตร์ / ฟิสิกส์ / เขียนโปรแกรม", iconName: "code", desc: "ชอบตรรกะ ตัวเลข และการแก้โจทย์เชิงลึก" },
-      { key: "A", label: "ศิลปะ / ดนตรี / ออกแบบและสื่อดิจิทัล", iconName: "palette", desc: "ชอบสร้างสรรค์ จินตนาการ และการสื่ออารมณ์" },
-      { key: "I+R", label: "ชีววิทยา / เคมี / การทดลองในห้องปฏิบัติการ", iconName: "flask", desc: "ชอบศึกษาสิ่งมีชีวิต กระบวนการทางเคมี และธรรมชาติ" },
-      { key: "S+A", label: "ภาษาต่างประเทศ / สังคมศาสตร์ / มนุษยศาสตร์", iconName: "book", desc: "ชอบการสื่อสาร ภาษา วัฒนธรรม และความเข้าใจมนุษย์" },
-      { key: "R", label: "พลศึกษา / งานช่าง / การลงมือปฏิบัติจริง", iconName: "wrench", desc: "ชอบกิจกรรมภาคปฏิบัติ การลงพื้นที่ และการทดลองจริง" },
-      { key: "E+S", label: "กิจกรรมผู้นำ / สภานักเรียน / การจัดโครงการ", iconName: "megaphone", desc: "ชอบการวางแผน การบริหาร และการขับเคลื่อนเป้าหมายร่วม" }
-    ]
-  },
-  {
-    id: 2,
-    category: "เวลาว่างและงานอดิเรก",
-    type: "single",
-    dimension: "R+A+I+S+E+C",
-    question: "หากมีเวลาว่างเพื่อทำกิจกรรมที่ต้องการ คุณมักจะเลือกทำสิ่งใดเป็นอันดับแรก?",
-    options: [
-      { key: "R", label: "ประกอบอุปกรณ์ / เล่นเกมวางกลยุทธ์ / ซ่อมแซมสิ่งของ", iconName: "gamepad" },
-      { key: "A", label: "สร้างสรรค์ผลงานภาพ / ผลิตวิดีโอ / แต่งดนตรี / ถ่ายภาพ", iconName: "camera" },
-      { key: "I", label: "รับชมสารคดี / ศึกษาเทคโนโลยีใหม่ / ค้นคว้าเรื่องทางวิทยาศาสตร์", iconName: "microscope" },
-      { key: "S", label: "พบปะเพื่อนฝูง / ร่วมกิจกรรมเพื่อสังคม / แลกเปลี่ยนมุมมองความคิด", iconName: "coffee" },
-      { key: "E", label: "วางแผนโครงการ / ศึกษาการลงทุน / ติดตามข่าวสารเศรษฐกิจและธุรกิจ", iconName: "chart" },
-      { key: "C", label: "จัดระเบียบตารางชีวิต / บันทึกข้อมูลและวางแผนเป้าหมายส่วนตัว", iconName: "clipboard" }
-    ]
-  },
-  {
-    id: 3,
-    category: "สไตล์การแก้ปัญหา",
-    type: "single",
-    dimension: "I+R+S+A",
-    question: "เมื่อต้องรับมือกับปัญหาที่ซับซ้อน คุณมักใช้แนวทางใดในการจัดการ?",
-    options: [
-      { key: "I", label: "วิเคราะห์หาสาเหตุอย่างเป็นระบบและรวบรวมข้อมูลก่อนลงมือ", iconName: "microscope" },
-      { key: "R", label: "ลงมือทดลองแก้ไขทันทีและปรับปรุงจากข้อผิดพลาดที่เกิดขึ้นจริง", iconName: "wrench" },
-      { key: "S", label: "ปรึกษาผู้เชี่ยวชาญหรือคนรอบข้างเพื่อรับฟังมุมมองที่หลากหลาย", iconName: "heart" },
-      { key: "A", label: "คิดค้นวิธีใหม่ที่แตกต่างและไม่ยึดติดกับกรอบเดิม", iconName: "palette" }
-    ]
-  },
-  {
-    id: 4,
-    category: "วิสัยทัศน์ชีวิต (Life Vision)",
-    type: "text",
-    dimension: "I+S+E",
-    question: "หากคุณสามารถสร้างการเปลี่ยนแปลงในสังคมได้ 1 เรื่อง คุณอยากแก้ปัญหาใดมากที่สุด?",
-    subtitle: "พิมพ์คำตอบสั้นๆ หรือเลือกคีย์เวิร์ดแนะนำด้านล่าง",
-    chips: [
-      "การเปลี่ยนแปลงสภาพภูมิอากาศและพลังงานสะอาด",
-      "การพัฒนาปัญญาประดิษฐ์ (AI) เพื่อคุณภาพชีวิตมนุษย์",
-      "การยกระดับความเท่าเทียมด้านการศึกษา",
-      "การพัฒนาระบบสุขภาพและชีวการแพทย์",
-      "การลดความเหลื่อมล้ำทางเศรษฐกิจและการเงิน",
-      "การสร้างสรรค์สื่อและศิลปวัฒนธรรมเพื่อขับเคลื่อนสังคม"
-    ]
-  },
-  {
-    id: 5,
-    category: "ลักษณะเด่นของตนเอง",
-    type: "text",
-    dimension: "A+S+E",
-    question: "หากเพื่อนสนิทต้องอธิบายลักษณะเด่นของคุณด้วยคำสำคัญ 3 คำ จะเป็นคำว่าอะไร?",
-    subtitle: "เลือกคีย์เวิร์ดหรือพิมพ์ตามมุมมองของคุณ",
-    chips: [
-      "มีตรรกะ ละเอียดรอบคอบ คิดเป็นระบบ",
-      "เข้าอกเข้าใจ รับฟัง ชอบช่วยเหลือผู้อื่น",
-      "มีความคิดสร้างสรรค์ มีเอกลักษณ์ จินตนาการสูง",
-      "มีความเป็นผู้นำ กล้าตัดสินใจ มีเป้าหมายชัดเจน",
-      "มุ่งมั่น อดทน ลงมือทำจริง พึ่งพาได้",
-      "มีระเบียบวินัย วางแผนรอบคอบ รักษามาตรฐาน"
-    ]
-  },
-
-  // 6-20 (Standard Tier)
-  {
-    id: 6,
-    category: "บทบาทในการทำงานกลุ่ม",
-    type: "single",
-    dimension: "E+A+R+S+C",
-    question: "เมื่อต้องทำงานร่วมกันเป็นทีม บทบาทใดที่คุณทำได้ดีและเป็นธรรมชาติที่สุด?",
-    options: [
-      { key: "E", label: "ผู้นำทีม (Team Leader) - วางทิศทางภาพรวมและประสานงาน", iconName: "crown" },
-      { key: "A", label: "ผู้ออกแบบและสร้างสรรค์ (Creative Lead) - คิดแนวคิดและนำเสนอรูปแบบ", iconName: "palette" },
-      { key: "R", label: "ผู้ปฏิบัติการหลัก (Technical Doer) - ผลิตชิ้นงานและลงมือพัฒนาส่วนสำคัญ", iconName: "hammer" },
-      { key: "S", label: "ผู้ประสานงานความสัมพันธ์ (Facilitator) - เชื่อมโยงและดูแลความร่วมมือในทีม", iconName: "heart" },
-      { key: "C", label: "ผู้ตรวจสอบคุณภาพ (Quality Assurance) - ตรวจสอบความถูกต้องและจัดทำเอกสาร", iconName: "clipboard" }
-    ]
-  },
-  {
-    id: 7,
-    category: "ความถนัดด้านตรรกะและการวิเคราะห์",
-    type: "likert",
-    dimension: "I",
-    question: "ฉันรู้สึกมีพลังและเพลิดเพลินเมื่อได้แก้ปัญหาเชิงตรรกะ การวิเคราะห์ข้อมูล หรือการเขียนโปรแกรม"
-  },
-  {
-    id: 8,
-    category: "ความใส่ใจต่อสังคมและเพื่อนมนุษย์",
-    type: "likert",
-    dimension: "S",
-    question: "ฉันมีความสุขอย่างแท้จริงเมื่อได้ถ่ายทอดความรู้ ให้คำปรึกษา หรือช่วยเหลือผู้อื่นให้มีชีวิตที่ดีขึ้น"
-  },
-  {
-    id: 9,
-    category: "ความคิดสร้างสรรค์และศิลปะ",
-    type: "likert",
-    dimension: "A",
-    question: "ฉันมักคิดถึงสิ่งใหม่ๆ และปรารถนาที่จะสร้างผลงานที่มีเอกลักษณ์ทางความคิดของตนเอง"
-  },
-  {
-    id: 10,
-    category: "ความเป็นผู้นำและการแข่งขัน",
-    type: "likert",
-    dimension: "E",
-    question: "ฉันชอบสภาพแวดล้อมที่มีการแข่งขัน กล้าตัดสินใจในสภาวะท้าทาย และชอบผลักดันโครงการให้สำเร็จ"
-  },
-  {
-    id: 11,
-    category: "ความละเอียดรอบคอบและระบบระเบียบ",
-    type: "likert",
-    dimension: "C",
-    question: "ฉันให้ความสำคัญกับความถูกต้องแม่นยำ และชอบการจัดวางระบบงานที่มีระเบียบแบบแผนชัดเจน"
-  },
-  {
-    id: 12,
-    category: "การลงมือปฏิบัติจริง",
-    type: "likert",
-    dimension: "R",
-    question: "ฉันเข้าใจเนื้อหาได้ดีที่สุดเมื่อได้ทดลองทำของจริง มากกว่าการรับฟังบรรยายเพียงอย่างเดียว"
-  },
-  {
-    id: 13,
-    category: "ภาพอนาคตในการประกอบวิชาชีพ",
-    type: "single",
-    dimension: "E+I+S+A+C",
-    question: "ในระยะยาว รูปแบบการทำงานลักษณะใดที่สอดคล้องกับความสุขของคุณมากที่สุด?",
-    options: [
-      { key: "E", label: "การเป็นผู้บริหาร ผู้ประกอบการ หรือผู้ขับเคลื่อนองค์กรทางธุรกิจ", iconName: "building" },
-      { key: "I", label: "การเป็นนักวิจัย นักวิชาการ หรือผู้เชี่ยวชาญด้านวิทยาการและนวัตกรรม", iconName: "microscope" },
-      { key: "S", label: "การทำงานในสายงานสุขภาพ การศึกษา หรือการพัฒนาสังคมและชุมชน", iconName: "hospital" },
-      { key: "A", label: "การทำงานด้านการออกแบบ สื่อสารสร้างสรรค์ หรืออุตสาหกรรมคอนเทนต์", iconName: "palette" },
-      { key: "C", label: "การทำงานในหน่วยงานที่มีโครงสร้างมั่นคง มีระบบบริหารจัดการที่เป็นมาตรฐาน", iconName: "clipboard" }
-    ]
-  },
-  {
-    id: 14,
-    category: "ทักษะการสื่อสารและการนำเสนอ",
-    type: "likert",
-    dimension: "E+S",
-    question: "ฉันมีความมั่นใจในการพูดต่อหน้าผู้ฟังจำนวนมาก และชอบการอธิบายเพื่อสร้างความเข้าใจ"
-  },
-  {
-    id: 15,
-    category: "ความสนใจด้านเทคโนโลยีขั้นสูง",
-    type: "likert",
-    dimension: "I+R",
-    question: "ฉันสนใจติดตามการพัฒนาของ AI ระบบอัตโนมัติ และสถาปัตยกรรมดิจิทัลแห่งอนาคต"
-  },
-  {
-    id: 16,
-    category: "ลักษณะงานที่ไม่สอดคล้องกับตัวตน",
-    type: "multi",
-    dimension: "Anti",
-    question: "ลักษณะงานในข้อใดที่คุณรู้สึกว่าไม่ตรงกับธรรมชาติและความถนัดของคุณมากที่สุด? (เลือกได้หลายข้อ)",
-    subtitle: "การระบุสิ่งที่ไม่ถนัดจะช่วยให้ระบบคัดกรองหลักสูตรได้อย่างตรงจุดยิ่งขึ้น",
-    options: [
-      { key: "Anti-C", label: "งานเอกสารประจำวันที่มีขั้นตอนเคร่งครัดและไม่เปิดโอกาสให้ปรับเปลี่ยน", iconName: "clipboard" },
-      { key: "Anti-E", label: "งานที่ต้องอาศัยการเจรจาต่อรอง การขาย หรือการพบปะผู้คนแปลกหน้าตลอดเวลา", iconName: "megaphone" },
-      { key: "Anti-I", label: "งานที่ต้องอาศัยการคำนวณสูตรทฤษฎีซับซ้อน หรือการทำงานวิจัยเชิงลึกคนเดียว", iconName: "microscope" },
-      { key: "Anti-R", label: "งานภาคสนามที่ต้องใช้แรงกายหนักหรือเผชิญสภาพแวดล้อมที่สมบุกสมบัน", iconName: "wrench" },
-      { key: "Anti-S", label: "งานที่ต้องแบกรับสภาวะอารมณ์ของผู้อื่น หรือมีความรับผิดชอบต่อชีวิตมนุษย์โดยตรง", iconName: "heart" },
-      { key: "Anti-A", label: "งานที่ไม่มีแบบแผนชัดเจน ต้องใช้การด้นสด และขาดความแน่นอนของกำหนดการ", iconName: "palette" }
-    ]
-  },
-  {
-    id: 17,
-    category: "ค่านิยมหลักในการประกอบอาชีพ",
-    type: "single",
-    dimension: "Values",
-    question: "ปัจจัยใดที่มีน้ำหนักสำคัญที่สุดในการตัดสินใจเลือกเส้นทางอาชีพของคุณ?",
-    options: [
-      { key: "Money", label: "ผลตอบแทนทางการเงินระดับสูงและความมั่นคงทางเศรษฐกิจ", iconName: "chart" },
-      { key: "Meaning", label: "คุณค่าของงานที่สร้างผลกระทบเชิงบวกต่อสังคมและผู้คน", iconName: "heart" },
-      { key: "Freedom", label: "ความยืดหยุ่นในการจัดสรรเวลาชีวิตและอิสรภาพในการทำงาน", iconName: "global" },
-      { key: "Mastery", label: "โอกาสในการพัฒนาสู่ความเป็นเลิศและผู้เชี่ยวชาญระดับแนวหน้า", iconName: "crown" }
-    ]
-  },
-  {
-    id: 18,
-    category: "บุคคลต้นแบบในการทำงาน",
-    type: "text",
-    dimension: "E+I+A",
-    question: "มีบุคคลต้นแบบหรือนักวิชาชีพท่านใดที่คุณชื่นชมเป็นพิเศษหรือไม่ เพราะเหตุใด?",
-    subtitle: "ระบุชื่อหรือแตะเลือกแนวคิดที่สอดคล้องกับคุณ",
-    chips: [
-      "ผู้สร้างนวัตกรรมเทคโนโลยีระดับโลกที่เปลี่ยนวิถีชีวิตผู้คน",
-      "นักออกแบบและผู้สร้างสรรค์สื่อที่ผสานศิลปะเข้ากับเทคโนโลยี",
-      "บุคลากรทางการแพทย์และสาธารณสุขผู้อุทิศตนเพื่อสังคม",
-      "ครูอาจารย์และนักวิชาการผู้ถ่ายทอดความรู้อย่างมีคุณค่า",
-      "ผู้ประกอบการสตาร์ทอัพที่สร้างธุรกิจขึ้นจากความมุ่งมั่น",
-      "นักวิจัยทางวิทยาศาสตร์ผู้ค้นพบองค์ความรู้ใหม่ของมนุษยชาติ"
-    ]
-  },
-  {
-    id: 19,
-    category: "สาขาวิชาที่สร้างความหลงใหล",
-    type: "text",
-    dimension: "I+A",
-    question: "หัวข้อหรือประเด็นทางวิชาการใดที่คุณสามารถศึกษาค้นคว้าได้อย่างต่อเนื่องโดยไม่รู้สึกเบื่อหน่าย?",
-    subtitle: "หัวข้อนี้บ่งชี้ถึงศักยภาพการเรียนรู้ระยะยาวของคุณ",
-    chips: [
-      "วิทยาการคอมพิวเตอร์ ปัญญาประดิษฐ์ และระบบข้อมูล",
-      "เศรษฐศาสตร์ การเงิน การลงทุน และการจัดการธุรกิจ",
-      "จิตวิทยา พฤติกรรมศาสตร์ และการพัฒนาศักยภาพมนุษย์",
-      "วิทยาศาสตร์สุขภาพ การแพทย์ ชีวโมเลกุล และพันธุศาสตร์",
-      "สถาปัตยกรรม ศิลปกรรม แอนิเมชัน และการออกแบบสื่อ",
-      "ฟิสิกส์ ดาราศาสตร์ วิศวกรรมศาสตร์ และระบบพลังงานสะอาด"
-    ]
-  },
-  {
-    id: 20,
-    category: "เป้าหมายและความกังวลในการศึกษาต่อ",
-    type: "text",
-    dimension: "PainPoint",
-    question: "ความกังวลสำคัญที่สุดของคุณในการเลือกศึกษาต่อระดับอุดมศึกษาคือเรื่องใด?",
-    chips: [
-      "ความกังวลเรื่องความเข้ากันได้กับสาขาวิชาที่เลือกในระยะยาว",
-      "แนวโน้มการเปลี่ยนแปลงของตลาดแรงงานและทักษะในยุค AI",
-      "การปรับสมดุลระหว่างความชอบส่วนตัวกับความคาดหวังของครอบครัว",
-      "การเตรียมตัวด้านพอร์ตโฟลิโอและการสอบคัดเลือก",
-      "การสร้างความมั่นใจในศักยภาพและความถนัดเฉพาะทางของตนเอง"
-    ]
-  },
-
-  // 21-30 (Deep Dive Sample)
-  {
-    id: 21,
-    category: "สภาพแวดล้อมการทำงาน",
-    type: "likert",
-    dimension: "S",
-    question: "ฉันมีสมาธิและประสิทธิภาพสูงสุดเมื่อได้ร่วมแลกเปลี่ยนความคิดเห็นกับทีมงานที่มีความหลากหลาย"
-  },
-  {
-    id: 22,
-    category: "การเปิดรับประสบการณ์สากล",
-    type: "likert",
-    dimension: "E",
-    question: "ฉันต้องการประกอบวิชาชีพในสภาพแวดล้อมสากลที่มีโอกาสเดินทางหรือร่วมงานกับต่างประเทศ"
-  },
-  {
-    id: 23,
-    category: "โครงสร้างเวลาการทำงาน",
-    type: "likert",
-    dimension: "C",
-    question: "ฉันทำงานได้ดีกว่าเมื่อมีกรอบเวลาและเป้าหมายที่ชัดเจน มากกว่าการทำงานแบบไร้กำหนดการ"
-  },
-  {
-    id: 24,
-    category: "สถานที่ทำงานในอุดมคติ",
-    type: "single",
-    dimension: "Env",
-    question: "สภาพแวดล้อมทางกายภาพแบบใดที่ช่วยส่งเสริมให้คุณสร้างสรรค์ผลงานได้ดีที่สุด?",
-    options: [
-      { key: "I+E", label: "ศูนย์นวัตกรรมและเทคโนโลยีทันสมัย (Modern Tech Hub)", iconName: "tech" },
-      { key: "I+R", label: "ห้องปฏิบัติการวิจัย สถาบันวิทยาศาสตร์ หรือโรงพยาบาลชั้นนำ", iconName: "microscope" },
-      { key: "A", label: "สตูดิโอสร้างสรรค์ สเปซทางศิลปะ หรือสภาพแวดล้อมที่สงบ", iconName: "palette" },
-      { key: "R", label: "พื้นที่ภาคสนาม โครงการพัฒนา หรือไซต์งานวิศวกรรม", iconName: "wrench" },
-      { key: "DigitalNomad", label: "การทำงานระยะไกลแบบยืดหยุ่นผ่านระบบดิจิทัล (Remote Work)", iconName: "code" }
-    ]
-  },
-  {
-    id: 25,
-    category: "ความทนทานต่อสภาวะกดดัน",
-    type: "likert",
-    dimension: "Stress",
-    question: "ฉันสามารถจัดลำดับความสำคัญและควบคุมสมาธิได้ดีเมื่อต้องเผชิญกำหนดส่งงานที่กระชั้นชิด"
-  },
-  {
-    id: 26,
-    category: "การเรียนรู้เชิงรุก",
-    type: "likert",
-    dimension: "I",
-    question: "ฉันชอบค้นคว้าหาคำตอบด้วยตนเองจากแหล่งข้อมูลสากลก่อนที่จะสอบถามผู้อื่น"
-  },
-  {
-    id: 27,
-    category: "วิสัยทัศน์ผู้ประกอบการ",
-    type: "likert",
-    dimension: "E",
-    question: "ฉันมักมองเห็นโอกาสในการสร้างคุณค่าและพัฒนาบริการใหม่ๆ จากสิ่งรอบตัว"
-  },
-  {
-    id: 28,
-    category: "ความพร้อมด้านภาษาต่างประเทศ",
-    type: "likert",
-    dimension: "Global",
-    question: "ฉันมีความสนใจที่จะศึกษาในหลักสูตรนานาชาติหรือใช้ภาษาอังกฤษเป็นเครื่องมือหลักในการเรียนรู้"
-  },
-  {
-    id: 29,
-    category: "การคิดเชิงกลยุทธ์ระยะยาว",
-    type: "likert",
-    dimension: "I+E",
-    question: "ฉันชอบการวางแผนระยะยาวและการวิเคราะห์ผลกระทบที่จะเกิดขึ้นในอนาคต"
-  },
-  {
-    id: 30,
-    category: "ความฉลาดทางอารมณ์และความเข้าอกเข้าใจ",
-    type: "likert",
-    dimension: "S",
-    question: "ฉันสามารถรับรู้ความรู้สึกและความต้องการของผู้อื่นได้อย่างรวดเร็วและเหมาะสม"
-  }
-];
-
-// Clean Minimal SVG Radar Chart Component for Light Theme
 function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
   const size = 320;
   const center = size / 2;
@@ -598,7 +221,6 @@ export default function CareerDiscoveryPage() {
   const [tier, setTier] = useState<"quick" | "standard" | "deep" | null>(null);
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState<Record<number, any>>({});
-  const [freeTextAnswers, setFreeTextAnswers] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [result, setResult] = useState<QuizResultData | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -607,9 +229,51 @@ export default function CareerDiscoveryPage() {
   // Filter questions based on chosen Tier
   const activeQuestions = useMemo(() => {
     if (!tier) return [];
-    if (tier === "quick") return MASTER_QUESTIONS.slice(0, 5);
-    if (tier === "standard") return MASTER_QUESTIONS.slice(0, 15);
-    return MASTER_QUESTIONS.slice(0, 30);
+
+    let totalRiasec = 20;
+    let totalLifestyle = 0;
+    if (tier === "quick") { totalRiasec = 10; totalLifestyle = 0; }
+    else if (tier === "standard") { totalRiasec = 15; totalLifestyle = 5; }
+    else if (tier === "deep") { totalRiasec = 45; totalLifestyle = 15; }
+
+    const grouped: Record<string, typeof riasecQuestions> = { R: [], I: [], A: [], S: [], E: [], C: [] };
+    riasecQuestions.forEach(q => {
+      if (grouped[q.dimension]) {
+        grouped[q.dimension].push({ ...q });
+      }
+    });
+
+    const shuffle = <T,>(arr: T[]) => [...arr].sort(() => 0.5 - Math.random());
+    Object.keys(grouped).forEach(key => {
+      grouped[key] = shuffle(grouped[key]);
+    });
+
+    const selectedRiasec: any[] = [];
+    const dimensions = ["R", "I", "A", "S", "E", "C"];
+    let i = 0;
+    while (selectedRiasec.length < totalRiasec) {
+      const dim = dimensions[i % 6];
+      if (grouped[dim] && grouped[dim].length > 0) {
+        const q = grouped[dim].pop()!;
+        selectedRiasec.push({
+          id: q.id,
+          category: `ความสนใจและกิจกรรม (${q.dimension})`,
+          type: "likert" as const,
+          question: q.text,
+          dimension: q.dimension
+        });
+      }
+      i++;
+    }
+
+    const shuffledLifestyle = shuffle(lifestyleQuestions);
+    const selectedLifestyle = shuffledLifestyle.slice(0, totalLifestyle).map(q => ({
+      ...q,
+      question: q.text,
+      category: `Lifestyle`
+    }));
+
+    return [...shuffle(selectedRiasec), ...selectedLifestyle];
   }, [tier]);
 
   const currentQ = activeQuestions[currentStep];
@@ -626,17 +290,6 @@ export default function CareerDiscoveryPage() {
     } else {
       setAnswers({ ...answers, [questionId]: value });
     }
-  };
-
-  const handleFreeTextChange = (questionId: number, text: string) => {
-    setAnswers({ ...answers, [questionId]: text });
-    setFreeTextAnswers({ ...freeTextAnswers, [`q${questionId}`]: text });
-  };
-
-  const handleChipClick = (questionId: number, chipText: string) => {
-    const existing = answers[questionId] || "";
-    const updated = existing ? `${existing}, ${chipText}` : chipText;
-    handleFreeTextChange(questionId, updated);
   };
 
   const handleNext = () => {
@@ -657,12 +310,20 @@ export default function CareerDiscoveryPage() {
     setIsSubmitting(true);
     setError(null);
 
-    const formattedAnswers = activeQuestions.map((q) => ({
-      question_id: q.id,
-      dimension: q.dimension,
-      value: answers[q.id] ?? (q.type === "likert" ? 3 : ""),
-      text: q.type === "text" ? answers[q.id] || "" : undefined
-    }));
+    const formattedAnswers: any[] = [];
+    const freeTextAnswers: Record<string, string> = {};
+
+    activeQuestions.forEach((q) => {
+      if (q.type === "free_text") {
+        freeTextAnswers[q.id.toString()] = answers[q.id] || "";
+      } else {
+        formattedAnswers.push({
+          question_id: q.id,
+          dimension: q.dimension,
+          value: answers[q.id] ?? 3
+        });
+      }
+    });
 
     try {
       const res = await fetch(`${BACKEND_URL}/career-quiz/analyze`, {
@@ -700,7 +361,6 @@ export default function CareerDiscoveryPage() {
     setTier(null);
     setCurrentStep(0);
     setAnswers({});
-    setFreeTextAnswers({});
     setResult(null);
     setError(null);
   };
@@ -770,12 +430,12 @@ export default function CareerDiscoveryPage() {
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-xs font-bold uppercase tracking-wider text-amber-600">ระดับเร่งด่วน</span>
                     <span className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full flex items-center gap-1">
-                      <Clock size={10} /> 1 นาที
+                      <Clock size={10} /> 1-2 นาที
                     </span>
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Quick Scan</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-4">
-                    5 คำถามสำคัญ เพื่อประเมินแนวโน้มความถนัดและภาพรวมในเบื้องต้น
+                    10 ข้อ เพื่อประเมินแนวโน้มความถนัดและภาพรวมในเบื้องต้น
                   </p>
                 </div>
                 <div className="flex items-center text-xs font-bold text-amber-600 group-hover:translate-x-1 transition-transform">
@@ -801,12 +461,12 @@ export default function CareerDiscoveryPage() {
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-xs font-bold uppercase tracking-wider text-indigo-700">ระดับมาตรฐาน</span>
                     <span className="text-[10px] bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded-full flex items-center gap-1 font-medium">
-                      <Clock size={10} /> 4 นาที
+                      <Clock size={10} /> 3-4 นาที
                     </span>
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Standard Match</h3>
                   <p className="text-xs text-slate-600 leading-relaxed mb-4">
-                    15 คำถามครอบคลุมทั้งทักษะเฉพาะด้าน ความคิดสร้างสรรค์ และค่านิยมในการทำงาน
+                    20 ข้อ ครอบคลุมทั้งทักษะเฉพาะด้าน ความคิดสร้างสรรค์ และค่านิยมในการทำงาน
                   </p>
                 </div>
                 <div className="flex items-center text-xs font-bold text-indigo-600 group-hover:translate-x-1 transition-transform">
@@ -829,12 +489,12 @@ export default function CareerDiscoveryPage() {
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-xs font-bold uppercase tracking-wider text-pink-600">ระดับเจาะลึก</span>
                     <span className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full flex items-center gap-1">
-                      <Clock size={10} /> 10 นาที
+                      <Clock size={10} /> 7-10 นาที
                     </span>
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Deep Dive DNA</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-4">
-                    30 คำถามเชิงลึก วิเคราะห์สภาวะการทำงาน การรับมือแรงกดดัน และเป้าหมายระยะยาว
+                    50 ข้อ เชิงลึก วิเคราะห์สภาวะการทำงาน การรับมือแรงกดดัน และเป้าหมายระยะยาว
                   </p>
                 </div>
                 <div className="flex items-center text-xs font-bold text-pink-600 group-hover:translate-x-1 transition-transform">
@@ -898,60 +558,20 @@ export default function CareerDiscoveryPage() {
                 {currentQ.question}
               </h2>
 
-              {currentQ.subtitle && (
-                <p className="text-xs sm:text-sm text-slate-500 mb-6">{currentQ.subtitle}</p>
-              )}
 
-              {/* INPUT TYPE 1: Single Choice / Multi Choice */}
-              {(currentQ.type === "single" || currentQ.type === "multi") && currentQ.options && (
-                <div className="space-y-3 mt-4">
-                  {currentQ.options.map((opt) => {
-                    const isSelected =
-                      currentQ.type === "multi"
-                        ? (answers[currentQ.id] || []).includes(opt.key)
-                        : answers[currentQ.id] === opt.key;
 
-                    return (
-                      <button
-                        key={opt.key}
-                        type="button"
-                        onClick={() => handleSelectOption(currentQ.id, opt.key, currentQ.type === "multi")}
-                        className={`w-full text-left p-4 rounded-2xl border transition-all flex items-center justify-between ${
-                          isSelected
-                            ? "bg-indigo-50/80 border-indigo-500 text-indigo-950 shadow-xs"
-                            : "bg-slate-50/60 border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50"
-                        }`}
-                      >
-                        <div className="flex items-center gap-3">
-                          {renderOptionIcon(opt.iconName)}
-                          <div>
-                            <div className="font-bold text-sm sm:text-base text-slate-900">{opt.label}</div>
-                            {opt.desc && <div className="text-xs text-slate-500 mt-0.5">{opt.desc}</div>}
-                          </div>
-                        </div>
-                        <div
-                          className={`w-5 h-5 rounded-full flex items-center justify-center border flex-shrink-0 ${
-                            isSelected ? "bg-indigo-600 border-indigo-600 text-white" : "border-slate-300 bg-white"
-                          }`}
-                        >
-                          {isSelected && <Check size={12} strokeWidth={3} />}
-                        </div>
-                      </button>
-                    );
-                  })}
-                </div>
-              )}
+
 
               {/* INPUT TYPE 2: Likert 5-point Psychometric Scale */}
               {currentQ.type === "likert" && (
                 <div className="mt-8">
                   <div className="grid grid-cols-5 gap-2 sm:gap-3">
                     {[
-                      { val: 1, label: "ไม่เห็นด้วยอย่างยิ่ง", num: "1" },
-                      { val: 2, label: "ไม่เห็นด้วย", num: "2" },
-                      { val: 3, label: "ปานกลาง", num: "3" },
-                      { val: 4, label: "เห็นด้วย", num: "4" },
-                      { val: 5, label: "เห็นด้วยอย่างยิ่ง", num: "5" }
+                      { val: 1, label: "ไม่ชอบเลย", num: "1" },
+                      { val: 2, label: "ไม่ชอบ", num: "2" },
+                      { val: 3, label: "เฉยๆ", num: "3" },
+                      { val: 4, label: "ชอบ", num: "4" },
+                      { val: 5, label: "ชอบมาก", num: "5" }
                     ].map((item) => {
                       const isSelected = answers[currentQ.id] === item.val;
                       return (
@@ -980,45 +600,60 @@ export default function CareerDiscoveryPage() {
                     })}
                   </div>
                   <div className="flex justify-between text-[11px] text-slate-500 mt-4 px-1 font-medium">
-                    <span>ระดับ 1 : ไม่ตรงกับข้าพเจ้า</span>
-                    <span>ระดับ 5 : ตรงกับข้าพเจ้าอย่างยิ่ง</span>
+                    <span>ระดับ 1 : ไม่ชอบเลย</span>
+                    <span>ระดับ 5 : ชอบมาก</span>
                   </div>
                 </div>
               )}
 
-              {/* INPUT TYPE 3: Free-text with Suggestion Chips */}
-              {currentQ.type === "text" && (
-                <div className="space-y-4 mt-4">
-                  <textarea
-                    rows={3}
-                    value={answers[currentQ.id] || ""}
-                    onChange={(e) => handleFreeTextChange(currentQ.id, e.target.value)}
-                    placeholder="ระบุคำตอบหรือมุมมองของคุณ..."
-                    className="w-full bg-slate-50 border border-slate-200 rounded-2xl p-4 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:bg-white focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100"
-                  />
-
-                  {currentQ.chips && currentQ.chips.length > 0 && (
-                    <div>
-                      <div className="text-xs font-bold text-slate-500 mb-2 flex items-center gap-1.5">
-                        <FileCheck2 size={13} className="text-indigo-600" />
-                        <span>หรือเลือกประเด็นที่สอดคล้อง:</span>
-                      </div>
-                      <div className="flex flex-wrap gap-2">
-                        {currentQ.chips.map((chip, idx) => (
-                          <button
-                            key={idx}
-                            type="button"
-                            onClick={() => handleChipClick(currentQ.id, chip)}
-                            className="bg-slate-100 hover:bg-indigo-50 hover:border-indigo-200 text-slate-700 hover:text-indigo-900 border border-slate-200 text-xs px-3 py-1.5 rounded-xl transition font-medium text-left"
-                          >
-                            + {chip}
-                          </button>
-                        ))}
-                      </div>
-                    </div>
-                  )}
+              {/* INPUT TYPE 3: Single Choice */}
+              {currentQ.type === "single_choice" && currentQ.options && (
+                <div className="mt-8 flex flex-col gap-3">
+                  {currentQ.options.map((opt: any) => {
+                    const isSelected = answers[currentQ.id] === opt.value;
+                    return (
+                      <button
+                        key={opt.value}
+                        type="button"
+                        onClick={() => handleSelectOption(currentQ.id, opt.value, false)}
+                        className={`p-4 rounded-2xl border text-left transition-all flex items-center justify-between ${
+                          isSelected
+                            ? "bg-indigo-600 border-indigo-600 text-white shadow-md scale-[1.01]"
+                            : "bg-white border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50"
+                        }`}
+                      >
+                        <span className="font-semibold text-sm sm:text-base">{opt.text}</span>
+                        {isSelected && <CheckCircle2 size={20} className="text-white" />}
+                      </button>
+                    );
+                  })}
                 </div>
               )}
+
+              {/* INPUT TYPE 4: Free Text */}
+              {currentQ.type === "free_text" && (
+                <div className="mt-8">
+                  <textarea
+                    rows={4}
+                    value={answers[currentQ.id] || ""}
+                    onChange={(e) => {
+                      setAnswers(prev => ({ ...prev, [currentQ.id]: e.target.value }));
+                    }}
+                    placeholder="พิมพ์ความฝันของคุณที่นี่ได้เลย..."
+                    className="w-full p-4 rounded-2xl border border-slate-300 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100 text-slate-900 transition-all resize-none font-medium"
+                  />
+                  <div className="mt-3 flex justify-end">
+                     <button
+                        type="button"
+                        onClick={() => handleSelectOption(currentQ.id, answers[currentQ.id], false)}
+                        className="bg-indigo-100 text-indigo-700 hover:bg-indigo-200 font-bold px-4 py-2 rounded-xl text-sm transition"
+                     >
+                       บันทึกคำตอบ
+                     </button>
+                  </div>
+                </div>
+              )}
+
             </div>
 
             {/* Bottom Actions */}

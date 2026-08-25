@@ -1,5 +1,7 @@
+import os
 import json
 import logging
+import threading
 from typing import Dict, Any, List
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
@@ -17,9 +19,72 @@ from app.models.quiz_schema import (
 )
 from google import genai
 from google.genai import types
+import time
 
 logger = logging.getLogger("CareerQuizRouter")
 router = APIRouter(prefix="/career-quiz", tags=["Career & Faculty Discovery Quiz"])
+
+# --- Key Rotation System (17 keys) ---
+API_KEYS = [k.strip() for k in os.getenv("GEMINI_API_KEYS", "").split(",")] if os.getenv("GEMINI_API_KEYS") else [os.getenv("GEMINI_API_KEY")]
+_key_lock = threading.Lock()
+_current_key_idx = 0
+
+def _get_client():
+    global _current_key_idx
+    with _key_lock:
+        return genai.Client(api_key=API_KEYS[_current_key_idx])
+
+def _rotate_key():
+    global _current_key_idx
+    with _key_lock:
+        _current_key_idx = (_current_key_idx + 1) % len(API_KEYS)
+
+def _call_gemini_with_retry(prompt: str, max_retries: int = 10):
+    """Call Gemini generate_content with key rotation and retry on 429."""
+    for attempt in range(max_retries):
+        try:
+            client = _get_client()
+            response = client.models.generate_content(
+                model="gemini-3.6-flash",
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    temperature=0.5
+                )
+            )
+            return json.loads(response.text)
+        except Exception as e:
+            err_str = str(e)
+            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
+                _rotate_key()
+                time.sleep(0.5)
+                continue
+            logger.error(f"Gemini call error (attempt {attempt+1}): {e}")
+            _rotate_key()
+            time.sleep(0.5)
+    return None
+
+def _get_embedding_with_retry(text: str, max_retries: int = 10):
+    """Get embedding vector with key rotation and retry on 429."""
+    for attempt in range(max_retries):
+        try:
+            client = _get_client()
+            response = client.models.embed_content(
+                model='gemini-embedding-2',
+                contents=text,
+                config={'output_dimensionality': 768}
+            )
+            return response.embeddings[0].values
+        except Exception as e:
+            err_str = str(e)
+            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
+                _rotate_key()
+                time.sleep(0.5)
+                continue
+            logger.error(f"Embedding error (attempt {attempt+1}): {e}")
+            _rotate_key()
+            time.sleep(0.5)
+    return None
 
 
 def calculate_riasec_scores(answers: List[Any]) -> Dict[str, float]:
@@ -73,8 +138,8 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
     """
     AI Career & Course Discovery Engine:
     1. Computes Holland's RIASEC scores.
-    2. Synthesizes psychometric profile & ideal career paths using Gemini.
-    3. Semantically matches recommended undergraduate courses from the database.
+    2. Synthesizes psychometric profile & ideal career paths using Gemini (with key rotation).
+    3. Semantically matches recommended undergraduate courses from the database via pgvector.
     """
     riasec_pct = calculate_riasec_scores(request.answers)
 
@@ -112,6 +177,8 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
 
     [Task]
     Generate an insightful, encouraging, and highly specific Career & University Profile in Thai.
+    The "search_keywords" MUST be highly relevant Thai academic keywords based on the student's RIASEC profile AND their free-text answers. Include faculty names, department names, and field names in Thai that match the student's interests. For example, if a student likes art and nature, suggest "ศิลปกรรมศาสตร์", "จิตรกรรม", "การออกแบบ". If they like business, suggest "บริหารธุรกิจ", "การตลาด", "การจัดการ". If they like medicine, suggest "แพทยศาสตร์", "สาธารณสุข", "เภสัชศาสตร์".
+    
     Return a strict JSON object with this exact schema:
     {{
         "archetype_title": "ฉายาตัวตนเท่ๆ เช่น นักคิดค้นนวัตกรรมและเทคโนโลยีเปลี่ยนโลก (The Tech Innovator)",
@@ -144,30 +211,24 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
                 "growth_outlook": "เป็นที่ต้องการสูง"
             }}
         ],
-        "search_keywords": ["คีย์เวิร์ดคณะที่ 1 เช่น วิศวกรรมคอมพิวเตอร์", "วิทยาการข้อมูล", "เทคโนโลยีสารสนเทศ", "นิเทศศาสตร์", "บริหารธุรกิจ"]
+        "search_keywords": ["คีย์เวิร์ดคณะภาษาไทยที่ 1", "คีย์เวิร์ดสาขาวิชาภาษาไทยที่ 2", "คีย์เวิร์ดที่ 3", "คีย์เวิร์ดที่ 4", "คีย์เวิร์ดที่ 5"]
     }}
     """
 
-    # Call Gemini API
-    gemini_data = None
-    if settings.GEMINI_API_KEY:
-        try:
-            client = genai.Client(api_key=settings.GEMINI_API_KEY)
-            response = client.models.generate_content(
-                model="gemini-3.6-flash",
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                    temperature=0.4
-                )
-            )
-            gemini_data = json.loads(response.text)
-        except Exception as e:
-            logger.error(f"Gemini career analysis failed: {e}")
+    # Call Gemini API with key rotation
+    gemini_data = _call_gemini_with_retry(prompt)
 
-    # Fallback if Gemini fails
+    # Fallback if Gemini fails completely
     if not gemini_data:
         top_name = trait_names.get(sorted_traits[0][0], "นักคิดค้น")
+        # Extract keywords from free_text for smarter fallback
+        fallback_keywords = []
+        for v in request.free_text_answers.values():
+            if v:
+                fallback_keywords.extend(v.split()[:5])
+        if not fallback_keywords:
+            fallback_keywords = ["วิทยาการ", "วิศวกรรม", "เทคโนโลยี", "บริหาร"]
+        
         gemini_data = {
             "archetype_title": f"ผู้บุกเบิกสาย {top_name}",
             "archetype_description": f"คุณเป็นคนที่มีความโดดเด่นด้าน {top_name} และมุ่งมั่นที่จะพัฒนาตนเอง",
@@ -178,29 +239,22 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
             "share_quote": "ค้นพบตัวตนและเส้นทางที่ใช่ ก้าวสู่อนาคตอย่างมั่นใจ 🌟",
             "top_careers": [
                 {
-                    "title": "Data Scientist & AI Specialist",
-                    "description": "ผู้นำข้อมูลและเทคโนโลยีมาแก้ปัญหาเชิงลึกและสร้างนวัตกรรมใหม่",
-                    "match_percentage": 95,
-                    "skills": ["Python", "Machine Learning", "Critical Thinking"],
-                    "growth_outlook": "เติบโตสูงมาก"
-                },
-                {
-                    "title": "Software & System Engineer",
-                    "description": "ออกแบบและพัฒนาโครงสร้างระบบดิจิทัลแห่งอนาคต",
+                    "title": f"สายอาชีพที่เหมาะกับ {top_name}",
+                    "description": f"อาชีพที่ตรงกับบุคลิกภาพแบบ {top_code}",
                     "match_percentage": 90,
-                    "skills": ["Coding", "System Design", "Problem Solving"],
-                    "growth_outlook": "เป็นที่ต้องการสูง"
+                    "skills": ["ทักษะเฉพาะทาง", "การวิเคราะห์", "การสื่อสาร"],
+                    "growth_outlook": "เติบโตสูง"
                 }
             ],
-            "search_keywords": ["คอมพิวเตอร์", "ข้อมูล", "วิศวกรรม", "วิทยาการ", "เทคโนโลยี"]
+            "search_keywords": fallback_keywords
         }
 
-    # Query Undergraduate Courses from DB based on search keywords
-    search_kws = gemini_data.get("search_keywords", ["วิทยาการ", "วิศวกรรม", "เทคโนโลยี", "บริหาร"])
+    # --- Query Undergraduate Courses from DB ---
+    search_kws = gemini_data.get("search_keywords", [])
     recommended_courses = []
 
     try:
-        query = db.query(CourseDB).filter(
+        base_query = db.query(CourseDB).filter(
             or_(
                 CourseDB.degree_level.ilike("%ปริญญาตรี%"),
                 CourseDB.degree_level.ilike("%Bachelor%"),
@@ -208,21 +262,40 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
             )
         )
 
-        filters = []
-        for kw in search_kws:
-            pattern = f"%{kw}%"
-            filters.append(CourseDB.title_th.ilike(pattern))
-            filters.append(CourseDB.faculty_th.ilike(pattern))
-            filters.append(CourseDB.description.ilike(pattern))
+        matched_db = []
+        
+        # 1. Try pgvector semantic search if there's free text input
+        if request.free_text_answers and any(request.free_text_answers.values()):
+            # Build a rich query from free text + archetype
+            query_parts = list(request.free_text_answers.values())
+            query_parts.append(gemini_data.get("archetype_description", ""))
+            query_parts.extend(search_kws)
+            query_text = " ".join([p for p in query_parts if p])
+            
+            embedding = _get_embedding_with_retry(query_text)
+            if embedding and len(embedding) == 768:
+                # Semantic search using pgvector cosine_distance
+                matched_db = base_query.order_by(
+                    CourseDB.embedding.cosine_distance(embedding)
+                ).limit(6).all()
+        
+        # 2. Fallback to keyword matching if pgvector fails or no free text
+        if not matched_db:
+            filters = []
+            for kw in search_kws:
+                pattern = f"%{kw}%"
+                filters.append(CourseDB.title_th.ilike(pattern))
+                filters.append(CourseDB.faculty_th.ilike(pattern))
+                filters.append(CourseDB.description.ilike(pattern))
 
-        if filters:
-            matched_db = query.filter(or_(*filters)).limit(6).all()
-        else:
-            matched_db = query.limit(6).all()
+            if filters:
+                matched_db = base_query.filter(or_(*filters)).limit(6).all()
+            else:
+                matched_db = base_query.limit(6).all()
 
         # Fallback if no specific matched undergraduate courses
         if not matched_db or len(matched_db) < 3:
-            fallback_db = query.limit(6).all()
+            fallback_db = base_query.limit(6).all()
             matched_db = list({c.id: c for c in (matched_db + fallback_db)}.values())[:6]
 
         for i, c in enumerate(matched_db):
@@ -263,3 +336,4 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
         ],
         recommended_courses=recommended_courses
     )
+

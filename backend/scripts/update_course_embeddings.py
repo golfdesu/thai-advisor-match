@@ -6,21 +6,42 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.core.database import SessionLocal
 from app.models.db_models import CourseDB
-from app.core.config import settings
+API_KEYS = [k.strip() for k in os.getenv("GEMINI_API_KEYS", "").split(",")] if os.getenv("GEMINI_API_KEYS") else [os.getenv("GEMINI_API_KEY")]
 from google import genai
+import threading
+key_lock = threading.Lock()
+current_key_idx = 0
 
-client = genai.Client(api_key=settings.GEMINI_API_KEY)
+def get_client():
+    global current_key_idx
+    with key_lock:
+        return genai.Client(api_key=API_KEYS[current_key_idx])
+
+def rotate_key():
+    global current_key_idx
+    with key_lock:
+        current_key_idx = (current_key_idx + 1) % len(API_KEYS)
+        print(f"Rotated to API Key {current_key_idx+1}/{len(API_KEYS)}")
 
 def generate_embedding_for_course(course_id, text):
-    try:
-        response = client.models.embed_content(
-            model='gemini-embedding-2',
-            contents=text,
-            config={'output_dimensionality': 768}
-        )
-        return (course_id, response.embeddings[0].values, None)
-    except Exception as e:
-        return (course_id, None, str(e))
+    max_retries = 25
+    for attempt in range(max_retries):
+        try:
+            client = get_client()
+            response = client.models.embed_content(
+                model='gemini-embedding-2',
+                contents=text,
+                config={'output_dimensionality': 768}
+            )
+            return (course_id, response.embeddings[0].values, None)
+        except Exception as e:
+            error_str = str(e)
+            if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str or "401" in error_str or "UNAUTHENTICATED" in error_str:
+                rotate_key()
+                time.sleep(1)
+            else:
+                return (course_id, None, error_str)
+    return (course_id, None, "Max retries exceeded across keys")
 
 def main():
     db = SessionLocal()
@@ -51,35 +72,38 @@ def main():
         
     db.close()
 
-    BATCH_SIZE = 15
+    from concurrent.futures import ThreadPoolExecutor, as_completed
     completed = 0
+    total = len(tasks)
     
-    for i in range(0, len(tasks), BATCH_SIZE):
-        batch = tasks[i:i+BATCH_SIZE]
+    # Use 50 concurrent workers to blast through the requests using all 17 keys
+    # When a key hits 429 (100 RPM limit), it instantly rotates to the next key.
+    # 17 keys * 100 RPM = 1,700 RPM capacity!
+    with ThreadPoolExecutor(max_workers=50) as executor:
+        future_to_id = {executor.submit(generate_embedding_for_course, tid, txt): tid for tid, txt in tasks}
+        
         db = SessionLocal()
-        
-        with ThreadPoolExecutor(max_workers=BATCH_SIZE) as executor:
-            future_to_id = {executor.submit(generate_embedding_for_course, tid, txt): tid for tid, txt in batch}
-            
-            for future in as_completed(future_to_id):
-                course_id, vector, err = future.result()
-                if vector:
-                    c = db.query(CourseDB).filter(CourseDB.id == course_id).first()
-                    if c:
-                        c.embedding = vector
-                        c.embedding_text = [t for cid, t in batch if cid == course_id][0]
-                        completed += 1
-                else:
-                    print(f"Failed {course_id}: {err}")
-        
+        for future in as_completed(future_to_id):
+            course_id, vector, err = future.result()
+            if vector:
+                c = db.query(CourseDB).filter(CourseDB.id == course_id).first()
+                if c:
+                    c.embedding = vector
+                    c.embedding_text = [t for cid, t in tasks if cid == course_id][0]
+                    completed += 1
+                    
+                    # Commit every 50 records to not lock the DB too long
+                    if completed % 50 == 0:
+                        db.commit()
+                        print(f"Progress: {completed} / {total}", flush=True)
+            else:
+                print(f"Failed {course_id}: {err}", flush=True)
+                
         db.commit()
         db.close()
-        print(f"Progress: {completed} / {len(tasks)}")
-        
-        # Sleep slightly to avoid 1500 RPM / rate limits
-        time.sleep(1)
 
-    print("Embedding generation complete!")
+    print(f"Final Progress: {completed} / {total}", flush=True)
+    print("Embedding generation complete!", flush=True)
 
 if __name__ == '__main__':
     main()

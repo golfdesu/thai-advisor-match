@@ -1,0 +1,798 @@
+[
+  {
+    "id": "chula_eng_cpe_beng",
+    "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์",
+    "title_en": "Bachelor of Engineering Program in Computer Engineering",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "วศ.บ. (วิศวกรรมคอมพิวเตอร์)",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Engineering",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department": "Department of Computer Engineering",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "program_type": "ภาคปกติ",
+    "duration_years": "4 ปี",
+    "total_credits": "136 หน่วยกิต",
+    "tuition_per_semester": "25,500 บาท",
+    "tuition_total": "204,000 บาท",
+    "description": "เน้นการพัฒนาซอฟต์แวร์ขั้นสูง ระบบสมองกลฝังตัว สถาปัตยกรรมคอมพิวเตอร์ ความมั่นคงปลอดภัยไซเบอร์ และปัญญาประดิษฐ์ประยุกต์สำหรับอุตสาหกรรมดิจิทัล",
+    "curriculum_highlights": [
+      "Data Structures & Algorithms",
+      "Operating Systems & Distributed Systems",
+      "Computer Architecture & Hardware Design",
+      "Software Engineering & Agile Methodologies",
+      "Applied Artificial Intelligence & Machine Learning"
+    ],
+    "career_paths": [
+      "Software Engineer",
+      "Backend / Frontend Developer",
+      "Systems Architect",
+      "Cybersecurity Specialist",
+      "DevOps Engineer"
+    ],
+    "tags": [
+      "Computer Engineering",
+      "Software Engineering",
+      "AI",
+      "Cybersecurity",
+      "Bachelor"
+    ],
+    "website_url": "https://www.cp.eng.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Engineering คณะวิศวกรรมศาสตร์ | Program: หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (Bachelor of Engineering Program in Computer Engineering) | Level: ปริญญาตรี | Degree Name: วศ.บ. (วิศวกรรมคอมพิวเตอร์) | Tuition: 25,500 บาท per semester (Total: 204,000 บาท) | Highlights: Data Structures & Algorithms, Operating Systems & Distributed Systems, Computer Architecture & Hardware Design, Software Engineering & Agile Methodologies, Applied Artificial Intelligence & Machine Learning | Careers: Software Engineer, Backend / Frontend Developer, Systems Architect, Cybersecurity Specialist, DevOps Engineer | Tags: Computer Engineering, Software Engineering, AI, Cybersecurity, Bachelor | Description: เน้นการพัฒนาซอฟต์แวร์ขั้นสูง ระบบสมองกลฝังตัว สถาปัตยกรรมคอมพิวเตอร์ ความมั่นคงปลอดภัยไซเบอร์ และปัญญาประดิษฐ์ประยุกต์สำหรับอุตสาหกรรมดิจิทัล"
+  },
+  {
+    "id": "chula_eng_ise_ai_beng",
+    "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์ (นานาชาติ)",
+    "title_en": "Bachelor of Engineering in Robotics and Artificial Intelligence Engineering (ISE)",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "วศ.บ.",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Engineering",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department": "International School of Engineering (ISE)",
+    "department_th": "สำนักบริหารหลักสูตรวิศวกรรมนานาชาติ (ISE)",
+    "program_type": "นานาชาติ (International Program)",
+    "duration_years": "4 ปี",
+    "total_credits": "140 หน่วยกิต",
+    "tuition_per_semester": "86,000 บาท",
+    "tuition_total": "688,000 บาท",
+    "description": "International curriculum preparing future roboticists and AI engineers with cross-disciplinary expertise in robotics mechanics, computer vision, deep learning, and autonomous systems.",
+    "curriculum_highlights": [
+      "Robotics Kinematics & Dynamics",
+      "Computer Vision & Deep Learning",
+      "Autonomous Mobile Robots & Control",
+      "Machine Learning for Robotics",
+      "Embedded AI & Sensor Fusion"
+    ],
+    "career_paths": [
+      "Robotics Engineer",
+      "Autonomous Vehicle Engineer",
+      "Computer Vision Engineer",
+      "AI Research Scientist"
+    ],
+    "tags": [
+      "Robotics",
+      "Artificial Intelligence",
+      "ISE",
+      "International",
+      "Bachelor"
+    ],
+    "website_url": "https://www.ise.eng.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Engineering คณะวิศวกรรมศาสตร์ | Program: หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์ (นานาชาติ) (Bachelor of Engineering in Robotics and Artificial Intelligence Engineering (ISE)) | Level: ปริญญาตรี | Degree Name: วศ.บ. | Tuition: 86,000 บาท per semester (Total: 688,000 บาท) | Highlights: Robotics Kinematics & Dynamics, Computer Vision & Deep Learning, Autonomous Mobile Robots & Control, Machine Learning for Robotics, Embedded AI & Sensor Fusion | Careers: Robotics Engineer, Autonomous Vehicle Engineer, Computer Vision Engineer, AI Research Scientist | Tags: Robotics, Artificial Intelligence, ISE, International, Bachelor | Description: International curriculum preparing future roboticists and AI engineers with cross-disciplinary expertise in robotics mechanics, computer vision, deep learning, and autonomous systems."
+  },
+  {
+    "id": "chula_eng_ee_beng",
+    "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมไฟฟ้า",
+    "title_en": "Bachelor of Engineering Program in Electrical Engineering",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "วศ.บ. (วิศวกรรมไฟฟ้า)",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Engineering",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department": "Department of Electrical Engineering",
+    "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+    "program_type": "ภาคปกติ",
+    "duration_years": "4 ปี",
+    "total_credits": "140 หน่วยกิต",
+    "tuition_per_semester": "25,500 บาท",
+    "tuition_total": "204,000 บาท",
+    "description": "ผลิตวิศวกรไฟฟ้าที่มีความรู้ลึกซึ้งด้านระบบไฟฟ้ากำลัง ระบบสื่อสารโทรคมนาคม อิเล็กทรอนิกส์ และพลังงานหมุนเวียน",
+    "curriculum_highlights": [
+      "Electric Power Systems & Smart Grids",
+      "Signals & Communication Systems",
+      "Power Electronics & Energy Conversion",
+      "Control Systems & Automation"
+    ],
+    "career_paths": [
+      "Power Systems Engineer",
+      "Renewable Energy Consultant",
+      "Electronics Engineer",
+      "Telecom Specialist"
+    ],
+    "tags": [
+      "Electrical Engineering",
+      "Smart Grid",
+      "Power Electronics",
+      "Bachelor"
+    ],
+    "website_url": "https://www.ee.eng.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Engineering คณะวิศวกรรมศาสตร์ | Program: หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมไฟฟ้า (Bachelor of Engineering Program in Electrical Engineering) | Level: ปริญญาตรี | Degree Name: วศ.บ. (วิศวกรรมไฟฟ้า) | Tuition: 25,500 บาท per semester (Total: 204,000 บาท) | Highlights: Electric Power Systems & Smart Grids, Signals & Communication Systems, Power Electronics & Energy Conversion, Control Systems & Automation | Careers: Power Systems Engineer, Renewable Energy Consultant, Electronics Engineer, Telecom Specialist | Tags: Electrical Engineering, Smart Grid, Power Electronics, Bachelor | Description: ผลิตวิศวกรไฟฟ้าที่มีความรู้ลึกซึ้งด้านระบบไฟฟ้ากำลัง ระบบสื่อสารโทรคมนาคม อิเล็กทรอนิกส์ และพลังงานหมุนเวียน"
+  },
+  {
+    "id": "chula_eng_cp_meng",
+    "title_th": "หลักสูตรวิศวกรรมศาสตรมหาบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์",
+    "title_en": "Master of Engineering Program in Computer Engineering",
+    "degree_level": "ปริญญาโท",
+    "degree_name": "วศ.ม. (วิศวกรรมคอมพิวเตอร์)",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Engineering",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department": "Department of Computer Engineering",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "program_type": "ภาคปกติ / นานาชาติ",
+    "duration_years": "2 ปี",
+    "total_credits": "36 หน่วยกิต",
+    "tuition_per_semester": "33,500 บาท",
+    "tuition_total": "134,000 บาท",
+    "description": "มุ่งเน้นการวิจัยระดับสูงด้านปัญญาประดิษฐ์ การประมวลผลภาษาธรรมชาติ คอมพิวเตอร์วิทัศน์ การวิเคราะห์ข้อมูลขนาดใหญ่ และระบบคลาวด์",
+    "curriculum_highlights": [
+      "Advanced Machine Learning & Deep Learning",
+      "Natural Language Processing & LLMs",
+      "Cloud Computing Architecture & Big Data",
+      "Advanced Cybersecurity & Cryptography"
+    ],
+    "career_paths": [
+      "Senior AI Engineer",
+      "Data Scientist",
+      "Research Scientist",
+      "Cloud Solution Architect"
+    ],
+    "tags": [
+      "Computer Engineering",
+      "Master",
+      "AI",
+      "NLP",
+      "Machine Learning",
+      "Cloud"
+    ],
+    "website_url": "https://www.cp.eng.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Engineering คณะวิศวกรรมศาสตร์ | Program: หลักสูตรวิศวกรรมศาสตรมหาบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (Master of Engineering Program in Computer Engineering) | Level: ปริญญาโท | Degree Name: วศ.ม. (วิศวกรรมคอมพิวเตอร์) | Tuition: 33,500 บาท per semester (Total: 134,000 บาท) | Highlights: Advanced Machine Learning & Deep Learning, Natural Language Processing & LLMs, Cloud Computing Architecture & Big Data, Advanced Cybersecurity & Cryptography | Careers: Senior AI Engineer, Data Scientist, Research Scientist, Cloud Solution Architect | Tags: Computer Engineering, Master, AI, NLP, Machine Learning, Cloud | Description: มุ่งเน้นการวิจัยระดับสูงด้านปัญญาประดิษฐ์ การประมวลผลภาษาธรรมชาติ คอมพิวเตอร์วิทัศน์ การวิเคราะห์ข้อมูลขนาดใหญ่ และระบบคลาวด์"
+  },
+  {
+    "id": "chula_eng_cp_phd",
+    "title_th": "หลักสูตรวิศวกรรมศาสตรดุษฎีบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์",
+    "title_en": "Doctor of Philosophy Program in Computer Engineering",
+    "degree_level": "ปริญญาเอก",
+    "degree_name": "วศ.ด. (วิศวกรรมคอมพิวเตอร์)",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Engineering",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department": "Department of Computer Engineering",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "program_type": "วิจัยเข้มข้น (Doctoral Research)",
+    "duration_years": "3 ปี",
+    "total_credits": "48 หน่วยกิต",
+    "tuition_per_semester": "38,000 บาท",
+    "tuition_total": "228,000 บาท",
+    "description": "สร้างนักวิจัยและคณาจารย์ระดับแนวหน้า ผู้สร้างสรรค์องค์ความรู้ใหม่และนวัตกรรมทางวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ระดับสากล",
+    "curriculum_highlights": [
+      "Doctoral Dissertation & Frontier Research",
+      "Advanced Seminar in AI & Computational Science",
+      "International Journal Publications"
+    ],
+    "career_paths": [
+      "University Professor",
+      "Principal AI Scientist",
+      "R&D Director",
+      "Chief Technology Officer"
+    ],
+    "tags": [
+      "Doctorate",
+      "Ph.D.",
+      "Computer Engineering",
+      "AI Research"
+    ],
+    "website_url": "https://www.cp.eng.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Engineering คณะวิศวกรรมศาสตร์ | Program: หลักสูตรวิศวกรรมศาสตรดุษฎีบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (Doctor of Philosophy Program in Computer Engineering) | Level: ปริญญาเอก | Degree Name: วศ.ด. (วิศวกรรมคอมพิวเตอร์) | Tuition: 38,000 บาท per semester (Total: 228,000 บาท) | Highlights: Doctoral Dissertation & Frontier Research, Advanced Seminar in AI & Computational Science, International Journal Publications | Careers: University Professor, Principal AI Scientist, R&D Director, Chief Technology Officer | Tags: Doctorate, Ph.D., Computer Engineering, AI Research | Description: สร้างนักวิจัยและคณาจารย์ระดับแนวหน้า ผู้สร้างสรรค์องค์ความรู้ใหม่และนวัตกรรมทางวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ระดับสากล"
+  },
+  {
+    "id": "chula_cbs_bba",
+    "title_th": "หลักสูตรบริหารธุรกิจบัณฑิต (นานาชาติ - BBA Chula)",
+    "title_en": "Bachelor of Business Administration (BBA International Program)",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "บธ.บ.",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Commerce and Accountancy",
+    "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+    "department": "Bachelor of Business Administration (BBA International Program)",
+    "department_th": "หลักสูตรบริหารธุรกิจบัณฑิต (นานาชาติ)",
+    "program_type": "นานาชาติ (International Program)",
+    "duration_years": "4 ปี",
+    "total_credits": "134 หน่วยกิต",
+    "tuition_per_semester": "86,000 บาท",
+    "tuition_total": "688,000 บาท",
+    "description": "Thailand's premier international business program offering majors in International Business, Financial Analysis, and Marketing with global university exchange networks.",
+    "curriculum_highlights": [
+      "Corporate Finance & Valuation",
+      "Strategic Management in Global Context",
+      "Consumer Behavior & Digital Marketing",
+      "Financial Modeling & Investment Analysis"
+    ],
+    "career_paths": [
+      "Investment Banker",
+      "Management Consultant",
+      "Brand Manager",
+      "Venture Capitalist"
+    ],
+    "tags": [
+      "BBA",
+      "Business",
+      "Finance",
+      "Marketing",
+      "International",
+      "Bachelor"
+    ],
+    "website_url": "https://bba.cbs.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Commerce and Accountancy คณะพาณิชยศาสตร์และการบัญชี | Program: หลักสูตรบริหารธุรกิจบัณฑิต (นานาชาติ - BBA Chula) (Bachelor of Business Administration (BBA International Program)) | Level: ปริญญาตรี | Degree Name: บธ.บ. | Tuition: 86,000 บาท per semester (Total: 688,000 บาท) | Highlights: Corporate Finance & Valuation, Strategic Management in Global Context, Consumer Behavior & Digital Marketing, Financial Modeling & Investment Analysis | Careers: Investment Banker, Management Consultant, Brand Manager, Venture Capitalist | Tags: BBA, Business, Finance, Marketing, International, Bachelor | Description: Thailand's premier international business program offering majors in International Business, Financial Analysis, and Marketing with global university exchange networks."
+  },
+  {
+    "id": "chula_cbs_datasci_msc",
+    "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาการข้อมูลและการวิเคราะห์ธุรกิจ",
+    "title_en": "Master of Science Program in Data Science and Business Analytics (MSDS)",
+    "degree_level": "ปริญญาโท",
+    "degree_name": "วท.ม. (วิทยาการข้อมูลและการวิเคราะห์ธุรกิจ)",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Commerce and Accountancy",
+    "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+    "department": "Department of Statistics",
+    "department_th": "ภาควิชาสถิติ",
+    "program_type": "ภาคพิเศษ / เสาร์-อาทิตย์",
+    "duration_years": "2 ปี",
+    "total_credits": "36 หน่วยกิต",
+    "tuition_per_semester": "24,500 บาท",
+    "tuition_total": "98,000 บาท",
+    "description": "บูรณาการศาสตร์ด้านสถิติประยุกต์ วิทยาการคอมพิวเตอร์ และกลยุทธ์ธุรกิจ เพื่อสร้างผู้นำการเปลี่ยนแปลงด้วยการวิเคราะห์ข้อมูลและ Machine Learning",
+    "curriculum_highlights": [
+      "Statistical Modeling & Predictive Analytics",
+      "Big Data Technologies & Cloud Warehousing",
+      "Machine Learning for Business Decision",
+      "Data Storytelling & Executive Visual Analytics"
+    ],
+    "career_paths": [
+      "Data Scientist",
+      "Lead Business Analyst",
+      "Chief Data Officer",
+      "Analytics Consultant"
+    ],
+    "tags": [
+      "Data Science",
+      "Business Analytics",
+      "Statistics",
+      "Machine Learning",
+      "Master"
+    ],
+    "website_url": "https://datasci.cbs.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Commerce and Accountancy คณะพาณิชยศาสตร์และการบัญชี | Program: หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาการข้อมูลและการวิเคราะห์ธุรกิจ (Master of Science Program in Data Science and Business Analytics (MSDS)) | Level: ปริญญาโท | Degree Name: วท.ม. (วิทยาการข้อมูลและการวิเคราะห์ธุรกิจ) | Tuition: 24,500 บาท per semester (Total: 98,000 บาท) | Highlights: Statistical Modeling & Predictive Analytics, Big Data Technologies & Cloud Warehousing, Machine Learning for Business Decision, Data Storytelling & Executive Visual Analytics | Careers: Data Scientist, Lead Business Analyst, Chief Data Officer, Analytics Consultant | Tags: Data Science, Business Analytics, Statistics, Machine Learning, Master | Description: บูรณาการศาสตร์ด้านสถิติประยุกต์ วิทยาการคอมพิวเตอร์ และกลยุทธ์ธุรกิจ เพื่อสร้างผู้นำการเปลี่ยนแปลงด้วยการวิเคราะห์ข้อมูลและ Machine Learning"
+  },
+  {
+    "id": "chula_cbs_mba",
+    "title_th": "หลักสูตรบริหารธุรกิจมหาบัณฑิต (MBA Chula)",
+    "title_en": "Master of Business Administration (MBA Chula)",
+    "degree_level": "ปริญญาโท",
+    "degree_name": "บธ.ม.",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Commerce and Accountancy",
+    "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+    "department": "MBA Program",
+    "department_th": "โครงการบริหารธุรกิจมหาบัณฑิต",
+    "program_type": "ภาคปกติ / ภาคค่ำ / Executive",
+    "duration_years": "2 ปี",
+    "total_credits": "42 หน่วยกิต",
+    "tuition_per_semester": "24,500 บาท",
+    "tuition_total": "98,000 บาท",
+    "description": "หลักสูตร MBA ระดับท็อปของประเทศ พัฒนาทักษะการบริหารเชิงกลยุทธ์ ภาวะผู้นำ นวัตกรรมองค์กร และการเงินธุรกิจยุคดิจิทัล",
+    "curriculum_highlights": [
+      "Strategic Leadership & Organizational Change",
+      "Corporate Finance & Venture Creation",
+      "Digital Business Transformation",
+      "Global Supply Chain & Operations Strategy"
+    ],
+    "career_paths": [
+      "Business Development Director",
+      "C-Level Executive",
+      "Strategy Consultant",
+      "Entrepreneur"
+    ],
+    "tags": [
+      "MBA",
+      "Business Administration",
+      "Leadership",
+      "Management",
+      "Master"
+    ],
+    "website_url": "https://mba.cbs.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Commerce and Accountancy คณะพาณิชยศาสตร์และการบัญชี | Program: หลักสูตรบริหารธุรกิจมหาบัณฑิต (MBA Chula) (Master of Business Administration (MBA Chula)) | Level: ปริญญาโท | Degree Name: บธ.ม. | Tuition: 24,500 บาท per semester (Total: 98,000 บาท) | Highlights: Strategic Leadership & Organizational Change, Corporate Finance & Venture Creation, Digital Business Transformation, Global Supply Chain & Operations Strategy | Careers: Business Development Director, C-Level Executive, Strategy Consultant, Entrepreneur | Tags: MBA, Business Administration, Leadership, Management, Master | Description: หลักสูตร MBA ระดับท็อปของประเทศ พัฒนาทักษะการบริหารเชิงกลยุทธ์ ภาวะผู้นำ นวัตกรรมองค์กร และการเงินธุรกิจยุคดิจิทัล"
+  },
+  {
+    "id": "chula_sci_cs_bsc",
+    "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์",
+    "title_en": "Bachelor of Science Program in Computer Science",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "วท.บ. (วิทยาการคอมพิวเตอร์)",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Science",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department": "Department of Mathematics and Computer Science",
+    "department_th": "ภาควิชาคณิตศาสตร์และวิทยาการคอมพิวเตอร์",
+    "program_type": "ภาคปกติ",
+    "duration_years": "4 ปี",
+    "total_credits": "134 หน่วยกิต",
+    "tuition_per_semester": "25,500 บาท",
+    "tuition_total": "204,000 บาท",
+    "description": "เน้นทฤษฎีการคำนวณขั้นสูง อัลกอริทึม ระบบฐานข้อมูล ปัญญาประดิษฐ์ และการประมวลผลข้อมูลทางวิทยาศาสตร์",
+    "curriculum_highlights": [
+      "Algorithms & Complexity Theory",
+      "Artificial Intelligence & Machine Learning",
+      "Data Science & Statistical Learning",
+      "Database Systems & Cloud Infrastructures"
+    ],
+    "career_paths": [
+      "Software Developer",
+      "Algorithm Specialist",
+      "Data Engineer",
+      "Data Scientist"
+    ],
+    "tags": [
+      "Computer Science",
+      "Algorithms",
+      "Science",
+      "Bachelor"
+    ],
+    "website_url": "https://www.math.sc.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Science คณะวิทยาศาสตร์ | Program: หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ (Bachelor of Science Program in Computer Science) | Level: ปริญญาตรี | Degree Name: วท.บ. (วิทยาการคอมพิวเตอร์) | Tuition: 25,500 บาท per semester (Total: 204,000 บาท) | Highlights: Algorithms & Complexity Theory, Artificial Intelligence & Machine Learning, Data Science & Statistical Learning, Database Systems & Cloud Infrastructures | Careers: Software Developer, Algorithm Specialist, Data Engineer, Data Scientist | Tags: Computer Science, Algorithms, Science, Bachelor | Description: เน้นทฤษฎีการคำนวณขั้นสูง อัลกอริทึม ระบบฐานข้อมูล ปัญญาประดิษฐ์ และการประมวลผลข้อมูลทางวิทยาศาสตร์"
+  },
+  {
+    "id": "chula_sci_biotech_phd",
+    "title_th": "หลักสูตรวิทยาศาสตรดุษฎีบัณฑิต สาขาวิชาเทคโนโลยีชีวภาพ",
+    "title_en": "Doctor of Philosophy Program in Biotechnology",
+    "degree_level": "ปริญญาเอก",
+    "degree_name": "วท.ด. (เทคโนโลยีชีวภาพ)",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Science",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department": "Department of Biotechnology",
+    "department_th": "ภาควิชาเทคโนโลยีชีวภาพ",
+    "program_type": "วิจัยเต็มเวลา (Full Research)",
+    "duration_years": "3 ปี",
+    "total_credits": "48 หน่วยกิต",
+    "tuition_per_semester": "38,000 บาท",
+    "tuition_total": "228,000 บาท",
+    "description": "การวิจัยเชิงลึกด้านชีววิทยาสังเคราะห์ เทคโนโลยีชีวภาพอุตสาหกรรม การแพทย์ และการเกษตรแม่นยำสูง",
+    "curriculum_highlights": [
+      "Advanced Synthetic Biology",
+      "Metabolic Engineering & Bioprocessing",
+      "Omics Technologies & Bioinformatics"
+    ],
+    "career_paths": [
+      "Biotech Scientist",
+      "R&D Specialist",
+      "University Professor",
+      "Bio-Entrepreneur"
+    ],
+    "tags": [
+      "Biotechnology",
+      "Bioinformatics",
+      "Doctorate",
+      "Science"
+    ],
+    "website_url": "https://www.biotech.sc.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Science คณะวิทยาศาสตร์ | Program: หลักสูตรวิทยาศาสตรดุษฎีบัณฑิต สาขาวิชาเทคโนโลยีชีวภาพ (Doctor of Philosophy Program in Biotechnology) | Level: ปริญญาเอก | Degree Name: วท.ด. (เทคโนโลยีชีวภาพ) | Tuition: 38,000 บาท per semester (Total: 228,000 บาท) | Highlights: Advanced Synthetic Biology, Metabolic Engineering & Bioprocessing, Omics Technologies & Bioinformatics | Careers: Biotech Scientist, R&D Specialist, University Professor, Bio-Entrepreneur | Tags: Biotechnology, Bioinformatics, Doctorate, Science | Description: การวิจัยเชิงลึกด้านชีววิทยาสังเคราะห์ เทคโนโลยีชีวภาพอุตสาหกรรม การแพทย์ และการเกษตรแม่นยำสูง"
+  },
+  {
+    "id": "chula_med_md",
+    "title_th": "หลักสูตรแพทยศาสตรบัณฑิต",
+    "title_en": "Doctor of Medicine Program (M.D.)",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "พ.บ.",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Faculty of Medicine",
+    "department_th": "คณะแพทยศาสตร์",
+    "program_type": "ภาคปกติ / นานาชาติ (CU-MEDi)",
+    "duration_years": "6 ปี",
+    "total_credits": "252 หน่วยกิต",
+    "tuition_per_semester": "34,000 บาท",
+    "tuition_total": "408,000 บาท",
+    "description": "ผลิตแพทย์ที่มีคุณธรรม จริยธรรม และความเชี่ยวชาญทางการแพทย์ระดับสากล พร้อมทักษะการวิจัยทางคลินิกและนวัตกรรมการแพทย์",
+    "curriculum_highlights": [
+      "Gross Anatomy & Physiology",
+      "Pathology & Pharmacology",
+      "Internal Medicine & Clinical Clerkship",
+      "Surgery, Pediatrics & Obstetrics-Gynecology",
+      "Medical AI & Precision Healthcare"
+    ],
+    "career_paths": [
+      "Medical Doctor (Physician)",
+      "Medical Specialist",
+      "Clinical Researcher",
+      "Hospital Administrator"
+    ],
+    "tags": [
+      "Medicine",
+      "Doctor",
+      "Healthcare",
+      "Bachelor"
+    ],
+    "website_url": "https://www.med.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Medicine คณะแพทยศาสตร์ | Program: หลักสูตรแพทยศาสตรบัณฑิต (Doctor of Medicine Program (M.D.)) | Level: ปริญญาตรี | Degree Name: พ.บ. | Tuition: 34,000 บาท per semester (Total: 408,000 บาท) | Highlights: Gross Anatomy & Physiology, Pathology & Pharmacology, Internal Medicine & Clinical Clerkship, Surgery, Pediatrics & Obstetrics-Gynecology, Medical AI & Precision Healthcare | Careers: Medical Doctor (Physician), Medical Specialist, Clinical Researcher, Hospital Administrator | Tags: Medicine, Doctor, Healthcare, Bachelor | Description: ผลิตแพทย์ที่มีคุณธรรม จริยธรรม และความเชี่ยวชาญทางการแพทย์ระดับสากล พร้อมทักษะการวิจัยทางคลินิกและนวัตกรรมการแพทย์"
+  },
+  {
+    "id": "chula_med_biomed_msc",
+    "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาศาสตร์การแพทย์และชีวการแพทย์",
+    "title_en": "Master of Science Program in Medical Sciences & Biomedical Innovation",
+    "degree_level": "ปริญญาโท",
+    "degree_name": "วท.ม. (วิทยาศาสตร์การแพทย์และชีวการแพทย์)",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Interdisciplinary Program",
+    "department_th": "หลักสูตรสหสาขาวิชา",
+    "program_type": "ภาคปกติ / นานาชาติ",
+    "duration_years": "2 ปี",
+    "total_credits": "36 หน่วยกิต",
+    "tuition_per_semester": "41,000 บาท",
+    "tuition_total": "164,000 บาท",
+    "description": "เน้นการวิจัยทางชีวการแพทย์ สเต็มเซลล์ พันธุวิศวกรรม มะเร็งวิทยา และเวชศาสตร์แม่นยำ (Precision Medicine)",
+    "curriculum_highlights": [
+      "Molecular Oncology & Stem Cell Biology",
+      "Translational Medicine & Clinical AI",
+      "Immunotherapy & Vaccine Technology"
+    ],
+    "career_paths": [
+      "Biomedical Researcher",
+      "Clinical Trial Manager",
+      "Biotech Consultant"
+    ],
+    "tags": [
+      "Medical Sciences",
+      "Biomedical",
+      "Precision Medicine",
+      "Master"
+    ],
+    "website_url": "https://grad.med.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Medicine คณะแพทยศาสตร์ | Program: หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาศาสตร์การแพทย์และชีวการแพทย์ (Master of Science Program in Medical Sciences & Biomedical Innovation) | Level: ปริญญาโท | Degree Name: วท.ม. (วิทยาศาสตร์การแพทย์และชีวการแพทย์) | Tuition: 41,000 บาท per semester (Total: 164,000 บาท) | Highlights: Molecular Oncology & Stem Cell Biology, Translational Medicine & Clinical AI, Immunotherapy & Vaccine Technology | Careers: Biomedical Researcher, Clinical Trial Manager, Biotech Consultant | Tags: Medical Sciences, Biomedical, Precision Medicine, Master | Description: เน้นการวิจัยทางชีวการแพทย์ สเต็มเซลล์ พันธุวิศวกรรม มะเร็งวิทยา และเวชศาสตร์แม่นยำ (Precision Medicine)"
+  },
+  {
+    "id": "chula_scii_bascii",
+    "title_th": "หลักสูตรศิลปศาสตรและวิทยาศาสตรบัณฑิต สาขานวัตกรรมบูรณาการ (นานาชาติ - BAScii)",
+    "title_en": "Bachelor of Arts and Science in Integrated Innovation (BAScii)",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "วท.บ.",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Chulalongkorn School of Integrated Innovation (ScII)",
+    "faculty_th": "สถาบันนวัตกรรมบูรณาการแห่งจุฬาลงกรณ์มหาวิทยาลัย",
+    "department": "Chulalongkorn School of Integrated Innovation (ScII)",
+    "department_th": "สถาบันนวัตกรรมบูรณาการแห่งจุฬาลงกรณ์มหาวิทยาลัย",
+    "program_type": "นานาชาติ (International Program)",
+    "duration_years": "4 ปี",
+    "total_credits": "132 หน่วยกิต",
+    "tuition_per_semester": "86,000 บาท",
+    "tuition_total": "688,000 บาท",
+    "description": "Cutting-edge transdisciplinary degree blending AI/digital technologies with entrepreneurship, social innovation, and sustainable development.",
+    "curriculum_highlights": [
+      "AI & Emerging Technology Trends",
+      "Venture Creation & Lean Startup",
+      "Human-Centered Design Thinking",
+      "Sustainability & Global Challenges"
+    ],
+    "career_paths": [
+      "Tech Entrepreneur",
+      "Innovation Consultant",
+      "Product Lead",
+      "Venture Builder"
+    ],
+    "tags": [
+      "BAScii",
+      "Innovation",
+      "Entrepreneurship",
+      "Tech Startup",
+      "International",
+      "Bachelor"
+    ],
+    "website_url": "https://scii.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Chulalongkorn School of Integrated Innovation (ScII) สถาบันนวัตกรรมบูรณาการแห่งจุฬาลงกรณ์มหาวิทยาลัย | Program: หลักสูตรศิลปศาสตรและวิทยาศาสตรบัณฑิต สาขานวัตกรรมบูรณาการ (นานาชาติ - BAScii) (Bachelor of Arts and Science in Integrated Innovation (BAScii)) | Level: ปริญญาตรี | Degree Name: วท.บ. | Tuition: 86,000 บาท per semester (Total: 688,000 บาท) | Highlights: AI & Emerging Technology Trends, Venture Creation & Lean Startup, Human-Centered Design Thinking, Sustainability & Global Challenges | Careers: Tech Entrepreneur, Innovation Consultant, Product Lead, Venture Builder | Tags: BAScii, Innovation, Entrepreneurship, Tech Startup, International, Bachelor | Description: Cutting-edge transdisciplinary degree blending AI/digital technologies with entrepreneurship, social innovation, and sustainable development."
+  },
+  {
+    "id": "chula_econ_ebe_b_econ",
+    "title_th": "หลักสูตรเศรษฐศาสตรบัณฑิต (หลักสูตรนานาชาติ - EBA)",
+    "title_en": "Bachelor of Arts Program in Economics (EBA International Program)",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "ศ.บ.",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Economics",
+    "faculty_th": "คณะเศรษฐศาสตร์",
+    "department": "Faculty of Economics",
+    "department_th": "คณะเศรษฐศาสตร์",
+    "program_type": "นานาชาติ (International Program)",
+    "duration_years": "4 ปี",
+    "total_credits": "128 หน่วยกิต",
+    "tuition_per_semester": "86,000 บาท",
+    "tuition_total": "688,000 บาท",
+    "description": "World-class economics education emphasizing quantitative analytics, micro/macro economics, financial economics, and public policy formulation.",
+    "curriculum_highlights": [
+      "Advanced Econometrics & Data Analysis",
+      "Financial Economics & Derivatives",
+      "Game Theory & Behavioral Economics",
+      "International Trade & Development Policy"
+    ],
+    "career_paths": [
+      "Economic Analyst",
+      "Policy Consultant",
+      "Quantitative Financial Strategist",
+      "Investment Banker"
+    ],
+    "tags": [
+      "Economics",
+      "EBA",
+      "Finance",
+      "Econometrics",
+      "International",
+      "Bachelor"
+    ],
+    "website_url": "https://www.eba.econ.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Economics คณะเศรษฐศาสตร์ | Program: หลักสูตรเศรษฐศาสตรบัณฑิต (หลักสูตรนานาชาติ - EBA) (Bachelor of Arts Program in Economics (EBA International Program)) | Level: ปริญญาตรี | Degree Name: ศ.บ. | Tuition: 86,000 บาท per semester (Total: 688,000 บาท) | Highlights: Advanced Econometrics & Data Analysis, Financial Economics & Derivatives, Game Theory & Behavioral Economics, International Trade & Development Policy | Careers: Economic Analyst, Policy Consultant, Quantitative Financial Strategist, Investment Banker | Tags: Economics, EBA, Finance, Econometrics, International, Bachelor | Description: World-class economics education emphasizing quantitative analytics, micro/macro economics, financial economics, and public policy formulation."
+  },
+  {
+    "id": "chula_econ_msc",
+    "title_th": "หลักสูตรศิลปศาสตรมหาบัณฑิต สาขาวิชาเศรษฐศาสตร์การเงินและการประยุกต์",
+    "title_en": "Master of Arts Program in Applied Economics & Financial Analysis",
+    "degree_level": "ปริญญาโท",
+    "degree_name": "ศศ.ม. (เศรษฐศาสตร์การเงินและการประยุกต์)",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Economics",
+    "faculty_th": "คณะเศรษฐศาสตร์",
+    "department": "Faculty of Economics",
+    "department_th": "คณะเศรษฐศาสตร์",
+    "program_type": "ภาคปกติ / โครงการพิเศษ",
+    "duration_years": "2 ปี",
+    "total_credits": "36 หน่วยกิต",
+    "tuition_per_semester": "24,500 บาท",
+    "tuition_total": "98,000 บาท",
+    "description": "เน้นการวิเคราะห์เศรษฐมิติขั้นสูง เศรษฐศาสตร์การเงิน การบริหารความเสี่ยง และการวิเคราะห์นโยบายเศรษฐกิจมหภาค",
+    "curriculum_highlights": [
+      "Time Series Econometrics with Python/R",
+      "Financial Risk Management & Portfolio Optimization",
+      "Macroeconomic Forecasting & Policy Evaluation"
+    ],
+    "career_paths": [
+      "Chief Economist",
+      "Risk Analyst",
+      "Central Bank Strategist",
+      "Asset Portfolio Manager"
+    ],
+    "tags": [
+      "Economics",
+      "Finance",
+      "Econometrics",
+      "Master"
+    ],
+    "website_url": "https://www.econ.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Economics คณะเศรษฐศาสตร์ | Program: หลักสูตรศิลปศาสตรมหาบัณฑิต สาขาวิชาเศรษฐศาสตร์การเงินและการประยุกต์ (Master of Arts Program in Applied Economics & Financial Analysis) | Level: ปริญญาโท | Degree Name: ศศ.ม. (เศรษฐศาสตร์การเงินและการประยุกต์) | Tuition: 24,500 บาท per semester (Total: 98,000 บาท) | Highlights: Time Series Econometrics with Python/R, Financial Risk Management & Portfolio Optimization, Macroeconomic Forecasting & Policy Evaluation | Careers: Chief Economist, Risk Analyst, Central Bank Strategist, Asset Portfolio Manager | Tags: Economics, Finance, Econometrics, Master | Description: เน้นการวิเคราะห์เศรษฐมิติขั้นสูง เศรษฐศาสตร์การเงิน การบริหารความเสี่ยง และการวิเคราะห์นโยบายเศรษฐกิจมหภาค"
+  },
+  {
+    "id": "chula_law_llb",
+    "title_th": "หลักสูตรนิติศาสตรบัณฑิต",
+    "title_en": "Bachelor of Laws Program (LL.B.)",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "น.บ.",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Law",
+    "faculty_th": "คณะนิติศาสตร์",
+    "department": "Faculty of Law",
+    "department_th": "คณะนิติศาสตร์",
+    "program_type": "ภาคปกติ / ภาคบัณฑิต",
+    "duration_years": "4 ปี",
+    "total_credits": "140 หน่วยกิต",
+    "tuition_per_semester": "21,000 บาท",
+    "tuition_total": "168,000 บาท",
+    "description": "สร้างนักกฎหมายที่มีความรู้รอบด้านทั้งกฎหมายแพ่ง พาณิชย์ อาญา มหาชน กฎหมายเทคโนโลยีและทรัพย์สินทางปัญญา",
+    "curriculum_highlights": [
+      "Civil and Commercial Law",
+      "Constitutional and Administrative Law",
+      "Intellectual Property & Cyber Law",
+      "International Trade Law"
+    ],
+    "career_paths": [
+      "Attorney at Law",
+      "Legal Counsel",
+      "Public Prosecutor",
+      "Judge",
+      "Compliance Officer"
+    ],
+    "tags": [
+      "Law",
+      "Legal",
+      "Cyber Law",
+      "Bachelor"
+    ],
+    "website_url": "https://www.law.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Law คณะนิติศาสตร์ | Program: หลักสูตรนิติศาสตรบัณฑิต (Bachelor of Laws Program (LL.B.)) | Level: ปริญญาตรี | Degree Name: น.บ. | Tuition: 21,000 บาท per semester (Total: 168,000 บาท) | Highlights: Civil and Commercial Law, Constitutional and Administrative Law, Intellectual Property & Cyber Law, International Trade Law | Careers: Attorney at Law, Legal Counsel, Public Prosecutor, Judge, Compliance Officer | Tags: Law, Legal, Cyber Law, Bachelor | Description: สร้างนักกฎหมายที่มีความรู้รอบด้านทั้งกฎหมายแพ่ง พาณิชย์ อาญา มหาชน กฎหมายเทคโนโลยีและทรัพย์สินทางปัญญา"
+  },
+  {
+    "id": "chula_law_llm_business",
+    "title_th": "หลักสูตรนิติศาสตรมหาบัณฑิต สาขากฎหมายธุรกิจและการค้าระหว่างประเทศ",
+    "title_en": "Master of Laws Program in Business & International Trade Law (LL.M.)",
+    "degree_level": "ปริญญาโท",
+    "degree_name": "น.ม.",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Law",
+    "faculty_th": "คณะนิติศาสตร์",
+    "department": "Faculty of Law",
+    "department_th": "คณะนิติศาสตร์",
+    "program_type": "ภาคพิเศษ / นานาชาติ",
+    "duration_years": "2 ปี",
+    "total_credits": "36 หน่วยกิต",
+    "tuition_per_semester": "24,500 บาท",
+    "tuition_total": "98,000 บาท",
+    "description": "เน้นกฎหมายการค้าระหว่างประเทศ การควบรวมกิจการ (M&A) การระงับข้อพิพาทอนุญาโตตุลาการ และกฎหมายสินทรัพย์ดิจิทัล",
+    "curriculum_highlights": [
+      "Cross-Border Mergers & Acquisitions",
+      "International Commercial Arbitration",
+      "FinTech & Digital Asset Regulations"
+    ],
+    "career_paths": [
+      "Senior Legal Advisor",
+      "Partner at International Law Firm",
+      "In-House General Counsel"
+    ],
+    "tags": [
+      "Law",
+      "LL.M.",
+      "Business Law",
+      "FinTech Regulation",
+      "Master"
+    ],
+    "website_url": "https://www.law.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Law คณะนิติศาสตร์ | Program: หลักสูตรนิติศาสตรมหาบัณฑิต สาขากฎหมายธุรกิจและการค้าระหว่างประเทศ (Master of Laws Program in Business & International Trade Law (LL.M.)) | Level: ปริญญาโท | Degree Name: น.ม. | Tuition: 24,500 บาท per semester (Total: 98,000 บาท) | Highlights: Cross-Border Mergers & Acquisitions, International Commercial Arbitration, FinTech & Digital Asset Regulations | Careers: Senior Legal Advisor, Partner at International Law Firm, In-House General Counsel | Tags: Law, LL.M., Business Law, FinTech Regulation, Master | Description: เน้นกฎหมายการค้าระหว่างประเทศ การควบรวมกิจการ (M&A) การระงับข้อพิพาทอนุญาโตตุลาการ และกฎหมายสินทรัพย์ดิจิทัล"
+  },
+  {
+    "id": "chula_comm_commde_ba",
+    "title_th": "หลักสูตรศิลปศาสตรบัณฑิต สาขาการออกแบบการสื่อสาร (นานาชาติ - CommDe)",
+    "title_en": "Bachelor of Fine and Applied Arts in Communication Design (CommDe International)",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "ศศ.บ.",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Communication Arts",
+    "faculty_th": "คณะนิเทศศาสตร์",
+    "department": "International Program in Communication Design (CommDe)",
+    "department_th": "หลักสูตรนานาชาติด้านการออกแบบการสื่อสาร",
+    "program_type": "นานาชาติ (International Program)",
+    "duration_years": "4 ปี",
+    "total_credits": "136 หน่วยกิต",
+    "tuition_per_semester": "86,000 บาท",
+    "tuition_total": "688,000 บาท",
+    "description": "International curriculum fusing media communication, UX/UI interactive design, visual storytelling, and brand experience design.",
+    "curriculum_highlights": [
+      "UI/UX Design & Human-Computer Interaction",
+      "Motion Graphics & Visual Storytelling",
+      "Brand Identity & Creative Strategy",
+      "Digital Media Production"
+    ],
+    "career_paths": [
+      "UX/UI Designer",
+      "Creative Director",
+      "Digital Brand Strategist",
+      "Visual Designer"
+    ],
+    "tags": [
+      "CommDe",
+      "Design",
+      "UX/UI",
+      "Media",
+      "International",
+      "Bachelor"
+    ],
+    "website_url": "https://commde.com",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Communication Arts คณะนิเทศศาสตร์ | Program: หลักสูตรศิลปศาสตรบัณฑิต สาขาการออกแบบการสื่อสาร (นานาชาติ - CommDe) (Bachelor of Fine and Applied Arts in Communication Design (CommDe International)) | Level: ปริญญาตรี | Degree Name: ศศ.บ. | Tuition: 86,000 บาท per semester (Total: 688,000 บาท) | Highlights: UI/UX Design & Human-Computer Interaction, Motion Graphics & Visual Storytelling, Brand Identity & Creative Strategy, Digital Media Production | Careers: UX/UI Designer, Creative Director, Digital Brand Strategist, Visual Designer | Tags: CommDe, Design, UX/UI, Media, International, Bachelor | Description: International curriculum fusing media communication, UX/UI interactive design, visual storytelling, and brand experience design."
+  },
+  {
+    "id": "chula_arch_inda_barch",
+    "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาการออกแบบสถาปัตยกรรม (นานาชาติ - INDA)",
+    "title_en": "Bachelor of Science in Architectural Design (INDA International Program)",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "วท.บ. (การออกแบบสถาปัตยกรรม)",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Architecture",
+    "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+    "department": "International Program in Design and Architecture (INDA)",
+    "department_th": "หลักสูตรการออกแบบสถาปัตยกรรม (นานาชาติ)",
+    "program_type": "นานาชาติ (International Program)",
+    "duration_years": "4 ปี",
+    "total_credits": "136 หน่วยกิต",
+    "tuition_per_semester": "86,000 บาท",
+    "tuition_total": "688,000 บาท",
+    "description": "Preeminent international architecture studio curriculum cultivating critical design thinking, computational fabrication, and sustainable urban environments.",
+    "curriculum_highlights": [
+      "Architectural Design Studios (I-VIII)",
+      "Parametric Design & Digital Fabrication",
+      "Sustainable Urbanism & Building Technology",
+      "History & Theory of Spatial Design"
+    ],
+    "career_paths": [
+      "Architectural Designer",
+      "Urban Planner",
+      "Spatial Designer",
+      "Creative Project Director"
+    ],
+    "tags": [
+      "INDA",
+      "Architecture",
+      "Design",
+      "Urbanism",
+      "International",
+      "Bachelor"
+    ],
+    "website_url": "https://inda.chula.ac.th",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Architecture คณะสถาปัตยกรรมศาสตร์ | Program: หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาการออกแบบสถาปัตยกรรม (นานาชาติ - INDA) (Bachelor of Science in Architectural Design (INDA International Program)) | Level: ปริญญาตรี | Degree Name: วท.บ. (การออกแบบสถาปัตยกรรม) | Tuition: 86,000 บาท per semester (Total: 688,000 บาท) | Highlights: Architectural Design Studios (I-VIII), Parametric Design & Digital Fabrication, Sustainable Urbanism & Building Technology, History & Theory of Spatial Design | Careers: Architectural Designer, Urban Planner, Spatial Designer, Creative Project Director | Tags: INDA, Architecture, Design, Urbanism, International, Bachelor | Description: Preeminent international architecture studio curriculum cultivating critical design thinking, computational fabrication, and sustainable urban environments."
+  },
+  {
+    "id": "chula_arts_balac_ba",
+    "title_th": "หลักสูตรศิลปศาสตรบัณฑิต สาขาภาษาและวัฒนธรรม (นานาชาติ - BALAC)",
+    "title_en": "Bachelor of Arts in Language and Culture (BALAC International Program)",
+    "degree_level": "ปริญญาตรี",
+    "degree_name": "ศศ.บ.",
+    "university": "Chulalongkorn University",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty": "Faculty of Arts",
+    "faculty_th": "คณะอักษรศาสตร์",
+    "department": "Bachelor of Arts in Language and Culture (BALAC)",
+    "department_th": "หลักสูตรภาษาและวัฒนธรรม (นานาชาติ)",
+    "program_type": "นานาชาติ (International Program)",
+    "duration_years": "4 ปี",
+    "total_credits": "126 หน่วยกิต",
+    "tuition_per_semester": "86,000 บาท",
+    "tuition_total": "688,000 บาท",
+    "description": "Multilingual global studies program specializing in global cultures, international literature, digital humanities, and cross-cultural communication.",
+    "curriculum_highlights": [
+      "Global Cultural Studies & Critical Theory",
+      "Advanced Language Proficiency (French/German/Spanish/Japanese/Chinese/Italian)",
+      "Digital Humanities & Global Media"
+    ],
+    "career_paths": [
+      "Diplomat / Foreign Affairs Officer",
+      "Global Communications Lead",
+      "Content Strategist",
+      "Cultural Curator"
+    ],
+    "tags": [
+      "BALAC",
+      "Arts",
+      "Language",
+      "Culture",
+      "International",
+      "Bachelor"
+    ],
+    "website_url": "https://www.balacarts.com",
+    "embedding_text": "University: Chulalongkorn University จุฬาลงกรณ์มหาวิทยาลัย | Faculty: Faculty of Arts คณะอักษรศาสตร์ | Program: หลักสูตรศิลปศาสตรบัณฑิต สาขาภาษาและวัฒนธรรม (นานาชาติ - BALAC) (Bachelor of Arts in Language and Culture (BALAC International Program)) | Level: ปริญญาตรี | Degree Name: ศศ.บ. | Tuition: 86,000 บาท per semester (Total: 688,000 บาท) | Highlights: Global Cultural Studies & Critical Theory, Advanced Language Proficiency (French/German/Spanish/Japanese/Chinese/Italian), Digital Humanities & Global Media | Careers: Diplomat / Foreign Affairs Officer, Global Communications Lead, Content Strategist, Cultural Curator | Tags: BALAC, Arts, Language, Culture, International, Bachelor | Description: Multilingual global studies program specializing in global cultures, international literature, digital humanities, and cross-cultural communication."
+  }
+]

@@ -8,27 +8,46 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.core.database import SessionLocal
 from app.models.db_models import FacultyDB
-from app.core.config import settings
-from google import genai
 
-client = genai.Client(api_key=settings.GEMINI_API_KEY)
+API_KEYS = [k.strip() for k in os.getenv("GEMINI_API_KEYS", "").split(",")] if os.getenv("GEMINI_API_KEYS") else [os.getenv("GEMINI_API_KEY")]
+
+import threading
+from google import genai
+key_lock = threading.Lock()
+current_key_idx = 0
+
+def get_client():
+    global current_key_idx
+    with key_lock:
+        return genai.Client(api_key=API_KEYS[current_key_idx])
+
+def rotate_key():
+    global current_key_idx
+    with key_lock:
+        current_key_idx = (current_key_idx + 1) % len(API_KEYS)
+        print(f"Rotated to API Key {current_key_idx+1}/{len(API_KEYS)}")
 
 def generate_faculty_embedding(fac_id, text):
-    try:
-        response = client.models.embed_content(
-            model='gemini-embedding-2',
-            contents=text,
-            config={'output_dimensionality': 768}
-        )
-        return (fac_id, response.embeddings[0].values, None)
-    except Exception as e:
-        return (fac_id, None, str(e))
+    max_retries = 25
+    for attempt in range(max_retries):
+        try:
+            client = get_client()
+            response = client.models.embed_content(
+                model='gemini-embedding-2',
+                contents=text,
+                config={'output_dimensionality': 768}
+            )
+            return (fac_id, response.embeddings[0].values, None)
+        except Exception as e:
+            error_str = str(e)
+            if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str or "401" in error_str or "UNAUTHENTICATED" in error_str:
+                rotate_key()
+                time.sleep(1)
+            else:
+                return (fac_id, None, error_str)
+    return (fac_id, None, "Max retries exceeded across keys")
 
 def recompute_embeddings():
-    if not settings.GEMINI_API_KEY:
-        print("GEMINI_API_KEY not found!")
-        return
-
     db = SessionLocal()
     # Process only faculties without embeddings
     faculties = db.query(FacultyDB).filter(FacultyDB.embedding == None).all()
@@ -45,7 +64,6 @@ def recompute_embeddings():
         interests = ", ".join(f.research_interests) if f.research_interests else ""
         courses = ", ".join(f.taught_courses) if f.taught_courses else ""
         
-        # Handle publications depending on if it's a list of dicts or strings
         if f.featured_publications:
             if isinstance(f.featured_publications[0], dict):
                 pubs = " | ".join([p.get("title", "") for p in f.featured_publications])
@@ -60,18 +78,19 @@ def recompute_embeddings():
         text += f"Taught Courses: {courses}. "
         text += f"Publications: {pubs}."
         
-        text = text[:6000] # Safe limit
+        text = text[:6000]
         tasks.append((f.id, text))
         
     db.close()
     
-    BATCH_SIZE = 15
+    BATCH_SIZE = 25
     completed = 0
     
     for i in range(0, len(tasks), BATCH_SIZE):
         batch = tasks[i:i+BATCH_SIZE]
         db = SessionLocal()
         
+        from concurrent.futures import ThreadPoolExecutor, as_completed
         with ThreadPoolExecutor(max_workers=BATCH_SIZE) as executor:
             future_to_id = {executor.submit(generate_faculty_embedding, tid, txt): tid for tid, txt in batch}
             
@@ -89,7 +108,7 @@ def recompute_embeddings():
         db.commit()
         db.close()
         print(f"Progress: {completed} / {len(tasks)}")
-        time.sleep(1)
+        time.sleep(0.5)
 
     print("All faculty embeddings updated!")
 

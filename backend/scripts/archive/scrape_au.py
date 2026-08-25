@@ -1,0 +1,751 @@
+"""
+Scraper and Catalog Builder for Assumption University (AU / ABAC) Curricula & Tuition Fees.
+Target Sources:
+- Assumption University Academics & Programs (https://www.au.edu/)
+- AU Central Admissions Center (https://admissions.au.edu/)
+- Graduate Studies (https://www.grad.au.edu/)
+
+Schema:
+CourseDB(id, title_th, title_en, degree_level, degree_name, university, university_th,
+         faculty, faculty_th, department, department_th, program_type, duration_years,
+         total_credits, tuition_per_semester, tuition_total, description,
+         curriculum_highlights, career_paths, tags, website_url)
+"""
+
+import argparse
+import json
+import logging
+import os
+import re
+import sys
+from pathlib import Path
+from typing import Any, Dict, List, Optional
+import requests
+from bs4 import BeautifulSoup
+
+# Add backend root to sys.path
+BACKEND_ROOT = Path(__file__).resolve().parent.parent
+sys.path.append(str(BACKEND_ROOT))
+
+DATA_DIR = Path(__file__).resolve().parent / "data"
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+DEFAULT_OUTPUT_FILE = DATA_DIR / "au_courses.json"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logger = logging.getLogger("scrape_au")
+
+try:
+    from app.core.database import SessionLocal, engine, Base
+    from app.models.db_models import CourseDB
+    DB_AVAILABLE = True
+except ImportError:
+    DB_AVAILABLE = False
+
+AU_COURSES: List[Dict[str, Any]] = [
+    # --- Martin de Tours School of Management and Economics (MSME) ---
+    {
+        "id": "au_msme_dbm",
+        "title_th": "หลักสูตรบริหารธุรกิจบัณฑิต สาขาวิชาการจัดการธุรกิจดิจิทัล (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Business Administration in Digital Business Management (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.B.A. (Digital Business Management)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Martin de Tours School of Management and Economics",
+        "faculty_th": "คณะบริหารธุรกิจและเศรษฐศาสตร์ (MSME)",
+        "department": "Department of Digital Business Management",
+        "department_th": "ภาควิชาการจัดการธุรกิจดิจิทัล",
+        "program_type": "นานาชาติ",
+        "duration_years": "3.5 ปี",
+        "total_credits": "133 หน่วยกิต",
+        "tuition_per_semester": "72,800 บาท",
+        "tuition_total": "583,050 บาท",
+        "description": "หลักสูตรนานาชาติชั้นนำที่ผสมผสานกลยุทธ์การบริหารธุรกิจระดับสากลเข้ากับเทคโนโลยีดิจิทัล แพลตฟอร์มอีคอมเมิร์ซ และการวิเคราะห์ข้อมูลธุรกิจ",
+        "curriculum_highlights": [
+            "Digital Transformation Strategy",
+            "Business Data Analytics & AI for Business",
+            "E-Commerce & Omnichannel Operations",
+            "Fintech & Digital Platform Architecture"
+        ],
+        "career_paths": [
+            "Digital Business Consultant",
+            "E-Commerce Strategy Manager",
+            "Business Transformation Specialist",
+            "Product Manager (Tech/Digital)",
+            "Global Entrepreneur"
+        ],
+        "tags": ["International", "Business", "Digital Business", "Management", "MSME", "ABAC"],
+        "website_url": "https://www.au.edu/academics/undergraduate/msme/digital-business-management.html"
+    },
+    {
+        "id": "au_msme_mkt",
+        "title_th": "หลักสูตรบริหารธุรกิจบัณฑิต สาขาวิชาการตลาด (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Business Administration in Marketing (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.B.A. (Marketing)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Martin de Tours School of Management and Economics",
+        "faculty_th": "คณะบริหารธุรกิจและเศรษฐศาสตร์ (MSME)",
+        "department": "Department of Marketing",
+        "department_th": "ภาควิชาการตลาด",
+        "program_type": "นานาชาติ",
+        "duration_years": "3.5 ปี",
+        "total_credits": "133 หน่วยกิต",
+        "tuition_per_semester": "72,800 บาท",
+        "tuition_total": "583,050 บาท",
+        "description": "เน้นกลยุทธ์การตลาดสากล การสร้างแบรนด์ระดับโลก การวิเคราะห์พฤติกรรมผู้บริโภคข้ามวัฒนธรรม และการตลาดดิจิทัลเชิงรุก",
+        "curriculum_highlights": [
+            "Global Brand Strategy & Marketing Management",
+            "Consumer Behavior & Neuro-marketing Insights",
+            "Integrated Marketing Communications (IMC)",
+            "Digital & Social Media Marketing Strategies"
+        ],
+        "career_paths": [
+            "Global Brand Manager",
+            "International Marketing Strategist",
+            "Market Research Consultant",
+            "Digital Marketing Director",
+            "Key Account Executive"
+        ],
+        "tags": ["International", "Marketing", "Branding", "Business", "ABAC"],
+        "website_url": "https://www.au.edu/academics/undergraduate/msme/marketing.html"
+    },
+    {
+        "id": "au_msme_fin",
+        "title_th": "หลักสูตรบริหารธุรกิจบัณฑิต สาขาวิชาการเงิน (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Business Administration in Finance (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.B.A. (Finance)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Martin de Tours School of Management and Economics",
+        "faculty_th": "คณะบริหารธุรกิจและเศรษฐศาสตร์ (MSME)",
+        "department": "Department of Finance",
+        "department_th": "ภาควิชาการเงิน",
+        "program_type": "นานาชาติ",
+        "duration_years": "3.5 ปี",
+        "total_credits": "133 หน่วยกิต",
+        "tuition_per_semester": "73,500 บาท",
+        "tuition_total": "588,000 บาท",
+        "description": "สร้างนักการเงินระดับโลกด้วยการวิเคราะห์การลงทุนระดับสากล การบริหารความเสี่ยง ตลาดทุน และการประเมินมูลค่าสินทรัพย์ รองรับการสอบ CFA",
+        "curriculum_highlights": [
+            "Corporate Finance & Valuation Modeling",
+            "Investment Analysis & Portfolio Management",
+            "Financial Derivatives & Risk Management",
+            "International Financial Markets & FinTech"
+        ],
+        "career_paths": [
+            "Investment Banker",
+            "Equity Research Analyst",
+            "Portfolio / Fund Manager",
+            "Financial Risk Manager",
+            "Corporate Financial Analyst"
+        ],
+        "tags": ["International", "Finance", "Investment", "CFA", "Banking", "ABAC"],
+        "website_url": "https://www.au.edu/academics/undergraduate/msme/finance.html"
+    },
+    {
+        "id": "au_msme_acc",
+        "title_th": "หลักสูตรบัญชีบัณฑิต (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Accountancy (B.Acc. International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.Acc.",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Martin de Tours School of Management and Economics",
+        "faculty_th": "คณะบริหารธุรกิจและเศรษฐศาสตร์ (MSME)",
+        "department": "Department of Accounting",
+        "department_th": "ภาควิชาการบัญชี",
+        "program_type": "นานาชาติ",
+        "duration_years": "4 ปี",
+        "total_credits": "138 หน่วยกิต",
+        "tuition_per_semester": "74,000 บาท",
+        "tuition_total": "592,000 บาท",
+        "description": "หลักสูตรบัญชีมาตรฐานสากล IFRS และ US GAAP รับรองโดยสภาวิชาชีพบัญชีและ ACCA/CPA ระดับสากล พร้อมการวิเคราะห์ข้อมูลทางบัญชีด้วยเทคโนโลยีสมัยใหม่",
+        "curriculum_highlights": [
+            "International Financial Reporting Standards (IFRS)",
+            "Auditing & Assurance Services",
+            "Strategic Management Accounting",
+            "Accounting Information Systems & Data Analytics"
+        ],
+        "career_paths": [
+            "Auditor in Big 4 Accounting Firms",
+            "Certified Public Accountant (CPA / ACCA)",
+            "Financial Controller",
+            "Tax Consultant",
+            "Forensic Accountant"
+        ],
+        "tags": ["International", "Accounting", "Audit", "Big 4", "CPA", "ACCA"],
+        "website_url": "https://www.au.edu/academics/undergraduate/msme/accountancy.html"
+    },
+    {
+        "id": "au_msme_ibm",
+        "title_th": "หลักสูตรบริหารธุรกิจบัณฑิต สาขาวิชาการจัดการธุรกิจระหว่างประเทศ (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Business Administration in International Business Management (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.B.A. (International Business Management)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Martin de Tours School of Management and Economics",
+        "faculty_th": "คณะบริหารธุรกิจและเศรษฐศาสตร์ (MSME)",
+        "department": "Department of International Business Management",
+        "department_th": "ภาควิชาการจัดการธุรกิจระหว่างประเทศ",
+        "program_type": "นานาชาติ",
+        "duration_years": "3.5 ปี",
+        "total_credits": "133 หน่วยกิต",
+        "tuition_per_semester": "73,000 บาท",
+        "tuition_total": "584,000 บาท",
+        "description": "เน้นการบริหารจัดการองค์กรข้ามชาติ (MNCs) การค้าระหว่างประเทศ การเจรจาต่อรองทางธุรกิจสากล และยุทธศาสตร์การขยายตลาดสู่สากล",
+        "curriculum_highlights": [
+            "Multinational Enterprise Management",
+            "International Trade Strategy & Policy",
+            "Cross-Cultural Management & Negotiation",
+            "Global Supply Chain & Logistics Integration"
+        ],
+        "career_paths": [
+            "International Business Manager",
+            "Global Supply Chain Executive",
+            "Diplomatic & Trade Representative",
+            "Foreign Market Expansion Consultant",
+            "Import/Export Operations Director"
+        ],
+        "tags": ["International", "Business", "Trade", "Global", "MNC"],
+        "website_url": "https://www.au.edu/academics/undergraduate/msme/international-business.html"
+    },
+
+    # --- Vincent Mary School of Engineering, Science and Technology (VME) ---
+    {
+        "id": "au_vme_ceng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Engineering in Computer Engineering and AI (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.Eng. (Computer Engineering and AI)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Vincent Mary School of Engineering, Science and Technology",
+        "faculty_th": "คณะวิศวกรรมศาสตร์ วิทยาศาสตร์ และเทคโนโลยี (VME)",
+        "department": "Department of Computer Engineering",
+        "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+        "program_type": "นานาชาติ",
+        "duration_years": "4 ปี",
+        "total_credits": "140 หน่วยกิต",
+        "tuition_per_semester": "83,890 บาท",
+        "tuition_total": "671,150 บาท",
+        "description": "หลักสูตรวิศวกรรมคอมพิวเตอร์ระดับสากล เน้น AI, Deep Learning, Edge Computing, Computer Systems และ Cyber-Physical Systems พร้อมโครงการความร่วมมือกับบริษัทไอทีระดับโลก",
+        "curriculum_highlights": [
+            "Artificial Intelligence & Neural Networks",
+            "Embedded Systems & IoT Hardware Design",
+            "Cloud Infrastructure & Distributed Computing",
+            "Software Engineering & System Architecture"
+        ],
+        "career_paths": [
+            "AI/Machine Learning Engineer",
+            "Computer Systems Engineer",
+            "Cloud Infrastructure Architect",
+            "Embedded Firmware Developer",
+            "Cybersecurity Solutions Engineer"
+        ],
+        "tags": ["International", "Engineering", "Computer Engineering", "AI", "VME", "IoT"],
+        "website_url": "https://www.au.edu/academics/undergraduate/vme/computer-engineering.html"
+    },
+    {
+        "id": "au_vme_mceai",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมเมคคาทรอนิกส์และหุ่นยนต์ (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Engineering in Mechatronics Engineering and Artificial Intelligence (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.Eng. (Mechatronics Engineering and AI)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Vincent Mary School of Engineering, Science and Technology",
+        "faculty_th": "คณะวิศวกรรมศาสตร์ วิทยาศาสตร์ และเทคโนโลยี (VME)",
+        "department": "Department of Mechatronics Engineering",
+        "department_th": "ภาควิชาวิศวกรรมเมคคาทรอนิกส์",
+        "program_type": "นานาชาติ",
+        "duration_years": "4 ปี",
+        "total_credits": "142 หน่วยกิต",
+        "tuition_per_semester": "84,000 บาท",
+        "tuition_total": "672,000 บาท",
+        "description": "บูรณาการเครื่องกล ไฟฟ้า อิเล็กทรอนิกส์ และ AI เพื่อพัฒนาระบบหุ่นยนต์อัตโนมัติ ยานยนต์ไร้คนขับ และระบบอัตโนมัติในโรงงานอัจฉริยะ",
+        "curriculum_highlights": [
+            "Robotics Kinematics & Autonomous Navigation",
+            "Industrial Automation & PLC/SCADA",
+            "Sensors & Signal Processing",
+            "AI in Robotic Control Systems"
+        ],
+        "career_paths": [
+            "Robotics & Automation Engineer",
+            "Mechatronics Design Specialist",
+            "Autonomous Vehicles System Engineer",
+            "Smart Factory Automation Lead",
+            "Control Systems Architect"
+        ],
+        "tags": ["International", "Mechatronics", "Robotics", "AI", "Automation", "Engineering"],
+        "website_url": "https://www.au.edu/academics/undergraduate/vme/mechatronics.html"
+    },
+    {
+        "id": "au_vme_aero",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมการบิน (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Engineering in Aeronautic Engineering (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.Eng. (Aeronautic Engineering)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Vincent Mary School of Engineering, Science and Technology",
+        "faculty_th": "คณะวิศวกรรมศาสตร์ วิทยาศาสตร์ และเทคโนโลยี (VME)",
+        "department": "Department of Aeronautic Engineering",
+        "department_th": "ภาควิชาวิศวกรรมการบิน",
+        "program_type": "นานาชาติ",
+        "duration_years": "4 ปี",
+        "total_credits": "144 หน่วยกิต",
+        "tuition_per_semester": "115,000 บาท",
+        "tuition_total": "920,000 บาท",
+        "description": "เรียนรู้หลักอากาศพลศาสตร์ โครงสร้างอากาศยาน ระบบขับดัน และการบำรุงรักษาอากาศยานตามมาตรฐานสากล EASA และ FAA พร้อมโอกาสฝึกบินจริง",
+        "curriculum_highlights": [
+            "Aerodynamics & Flight Mechanics",
+            "Aircraft Propulsion & Powerplants",
+            "Avionics & Flight Navigation Systems",
+            "Aircraft Structural Design & Maintenance"
+        ],
+        "career_paths": [
+            "Aeronautical Engineer",
+            "Commercial Airline Pilot (with Flight Training)",
+            "Aircraft Maintenance Engineer (AME)",
+            "Flight Operations Specialist",
+            "Aviation Safety Auditor"
+        ],
+        "tags": ["International", "Aeronautic", "Aviation", "Pilot", "Engineering"],
+        "website_url": "https://www.au.edu/academics/undergraduate/vme/aeronautic-engineering.html"
+    },
+    {
+        "id": "au_vme_cs",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Science in Computer Science (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.S. (Computer Science)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Vincent Mary School of Engineering, Science and Technology",
+        "faculty_th": "คณะวิศวกรรมศาสตร์ วิทยาศาสตร์ และเทคโนโลยี (VME)",
+        "department": "Department of Computer Science",
+        "department_th": "ภาควิชาวิทยาการคอมพิวเตอร์",
+        "program_type": "นานาชาติ",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "76,500 บาท",
+        "tuition_total": "612,000 บาท",
+        "description": "หลักสูตรวิทยาการคอมพิวเตอร์ภาษาอังกฤษที่ครอบคลุม Algorithms, Software Engineering, Big Data, Machine Learning และ Cybersecurity",
+        "curriculum_highlights": [
+            "Advanced Data Structures & Algorithms",
+            "Machine Learning & Big Data Analytics",
+            "Web & Mobile Application Architecture",
+            "Network Security & Cryptography"
+        ],
+        "career_paths": [
+            "Software Development Engineer",
+            "Data Scientist",
+            "Full Stack Developer",
+            "Cybersecurity Analyst",
+            "Machine Learning Engineer"
+        ],
+        "tags": ["International", "Computer Science", "Software", "Data Science", "Cybersecurity"],
+        "website_url": "https://www.au.edu/academics/undergraduate/vme/computer-science.html"
+    },
+
+    # --- Theodore Maria School of Arts ---
+    {
+        "id": "au_arts_beng",
+        "title_th": "หลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาภาษาอังกฤษธุรกิจ (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Arts in Business English (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.A. (Business English)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Theodore Maria School of Arts",
+        "faculty_th": "คณะศิลปศาสตร์ (Arts)",
+        "department": "Department of Business English",
+        "department_th": "ภาควิชาภาษาอังกฤษธุรกิจ",
+        "program_type": "นานาชาติ",
+        "duration_years": "3.5 ปี",
+        "total_credits": "132 หน่วยกิต",
+        "tuition_per_semester": "72,780 บาท",
+        "tuition_total": "582,250 บาท",
+        "description": "ฝึกฝนการสื่อสารภาษาอังกฤษเชิงธุรกิจระดับสูง การเจรจาต่อรอง การแปลและการล่าม การเขียนเชิงธุรกิจระหว่างประเทศ และการสื่อสารข้ามวัฒนธรรม",
+        "curriculum_highlights": [
+            "International Business Communication",
+            "Translation & Consecutive Interpretation",
+            "Professional Public Speaking & Debate",
+            "Cross-Cultural Strategic Communication"
+        ],
+        "career_paths": [
+            "International Corporate Communicator",
+            "Translator & Professional Interpreter",
+            "Foreign Affairs & Protocol Officer",
+            "PR & Media Relations Specialist",
+            "Flight Attendant"
+        ],
+        "tags": ["International", "Business English", "Languages", "Translation", "Arts"],
+        "website_url": "https://www.au.edu/academics/undergraduate/arts/business-english.html"
+    },
+    {
+        "id": "au_arts_bchi",
+        "title_th": "หลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาภาษาจีนธุรกิจ (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Arts in Business Chinese (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.A. (Business Chinese)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Theodore Maria School of Arts",
+        "faculty_th": "คณะศิลปศาสตร์ (Arts)",
+        "department": "Department of Business Chinese",
+        "department_th": "ภาควิชาภาษาจีนธุรกิจ",
+        "program_type": "นานาชาติ",
+        "duration_years": "3.5 ปี",
+        "total_credits": "132 หน่วยกิต",
+        "tuition_per_semester": "73,000 บาท",
+        "tuition_total": "584,000 บาท",
+        "description": "หลักสูตร 3 ภาษา (อังกฤษ-จีน-ไทย) เน้นการสื่อสารและการทำธุรกิจกับจีน การค้าข้ามพรมแดน กฎหมายการค้าจีน พร้อมโอกาสแลกเปลี่ยนมหาวิทยาลัยชั้นนำในจีน",
+        "curriculum_highlights": [
+            "Advanced Business Chinese Communication",
+            "Chinese Commercial Law & Trade Practices",
+            "Chinese-English Translation & Interpretation",
+            "Contemporary Chinese Society & Business Economy"
+        ],
+        "career_paths": [
+            "China-ASEAN Trade Specialist",
+            "Bilingual Business Coordinator (Chinese-English)",
+            "Chinese Corporate Relations Executive",
+            "International Sourcing Specialist",
+            "Interpreter / Translator"
+        ],
+        "tags": ["International", "Chinese", "Business Chinese", "Trilingual", "Arts"],
+        "website_url": "https://www.au.edu/academics/undergraduate/arts/business-chinese.html"
+    },
+
+    # --- Albert Laurence School of Communication Arts ---
+    {
+        "id": "au_ca_ad",
+        "title_th": "หลักสูตรนิเทศศาสตรบัณฑิต สาขาวิชาการสื่อสารแบรนด์และการโฆษณาเชิงสร้างสรรค์ (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Communication Arts in Advertising and Brand Communications (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.Com.Arts (Advertising and Brand Communications)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Albert Laurence School of Communication Arts",
+        "faculty_th": "คณะนิเทศศาสตร์ (Albert Laurence)",
+        "department": "Department of Advertising",
+        "department_th": "ภาควิชาการโฆษณา",
+        "program_type": "นานาชาติ",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "71,500 บาท",
+        "tuition_total": "572,000 บาท",
+        "description": "เน้นการคิดเชิงสร้างสรรค์ระดับสากล การวางกลยุทธ์การสื่อสารแบรนด์ดิจิทัล ครีเอทีฟแคมเปญ และการสื่อสารการตลาดข้ามชาติด้วยคอนเซ็ปต์ PLEARN",
+        "curriculum_highlights": [
+            "Creative Strategic Planning & Brand Storytelling",
+            "Digital Advertising Campaign & Media Strategy",
+            "Creative Art Direction & Copywriting",
+            "Global Advertising Showcase & Portfolio Development"
+        ],
+        "career_paths": [
+            "Advertising Creative Director",
+            "Strategic Brand Planner",
+            "Art Director / Copywriter",
+            "Digital Campaign Strategist",
+            "Account Executive in Global Agencies"
+        ],
+        "tags": ["International", "Advertising", "Branding", "Creative", "Communication Arts"],
+        "website_url": "https://www.au.edu/academics/undergraduate/commarts/advertising.html"
+    },
+    {
+        "id": "au_ca_cgi",
+        "title_th": "หลักสูตรศิลปบัณฑิต สาขาวิชาการออกแบบภาพคอมพิวเตอร์กราฟิกและแอนิเมชัน (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Fine and Applied Arts in Computer Generated Imagery (CGI International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.F.A. (Computer Generated Imagery)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Albert Laurence School of Communication Arts",
+        "faculty_th": "คณะนิเทศศาสตร์ (Albert Laurence)",
+        "department": "Department of CGI",
+        "department_th": "ภาควิชาคอมพิวเตอร์กราฟิกและภาพจำลอง",
+        "program_type": "นานาชาติ",
+        "duration_years": "4 ปี",
+        "total_credits": "132 หน่วยกิต",
+        "tuition_per_semester": "78,000 บาท",
+        "tuition_total": "624,000 บาท",
+        "description": "เน้นการสร้างสรรค์ 3D Animation, CGI, Visual Effects (VFX) และ Game Asset Creation ด้วยมาตรฐานโปรดักชันระดับสากล",
+        "curriculum_highlights": [
+            "3D Modeling, Rigging & Character Animation",
+            "Visual Effects (VFX) & Compositing",
+            "Digital Cinematography & Lighting",
+            "Real-time CGI & Virtual Assets"
+        ],
+        "career_paths": [
+            "CGI Artist / Technical Director",
+            "3D Animator / Modeler",
+            "VFX Specialist",
+            "Game Asset Designer",
+            "Digital Compositor"
+        ],
+        "tags": ["International", "CGI", "3D", "Animation", "VFX", "Fine Arts"],
+        "website_url": "https://www.au.edu/academics/undergraduate/commarts/cgi.html"
+    },
+
+    # --- Montfort del Rosario School of Architecture and Design ---
+    {
+        "id": "au_arch_barch",
+        "title_th": "หลักสูตรสถาปัตยกรรมศาสตรบัณฑิต (หลักสูตรนานาชาติ 5 ปี)",
+        "title_en": "Bachelor of Architecture (5-Year International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.Arch.",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Montfort del Rosario School of Architecture and Design",
+        "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการออกแบบ",
+        "department": "Department of Architecture",
+        "department_th": "ภาควิชาสถาปัตยกรรม",
+        "program_type": "นานาชาติ",
+        "duration_years": "5 ปี",
+        "total_credits": "168 หน่วยกิต",
+        "tuition_per_semester": "89,115 บาท",
+        "tuition_total": "891,150 บาท",
+        "description": "หลักสูตรสถาปัตยกรรมนานาชาติ 5 ปี เน้นสถาปัตยกรรมร่วมสมัย ยั่งยืน นวัตกรรมโครงสร้าง และการออกแบบที่ผสานเทคโนโลยี BIM และวัฒนธรรมสากล มีสิทธิ์สอบใบประกอบวิชาชีพ",
+        "curriculum_highlights": [
+            "Architectural Design Studio I-X",
+            "Sustainable & Climate-Responsive Architecture",
+            "Building Information Modeling (BIM) & Computational Design",
+            "Architectural History, Theory & Urban Context"
+        ],
+        "career_paths": [
+            "Licensed Architect",
+            "International Architectural Consultant",
+            "BIM Specialist / Design Director",
+            "Urban Design Consultant",
+            "Sustainable Building Specialist"
+        ],
+        "tags": ["International", "Architecture", "B.Arch", "Design", "BIM", "Sustainable"],
+        "website_url": "https://www.au.edu/academics/undergraduate/arch/architecture.html"
+    },
+
+    # --- Theophane Venard School of Biotechnology ---
+    {
+        "id": "au_bio_foodtech",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีอาหาร (หลักสูตรนานาชาติ)",
+        "title_en": "Bachelor of Science in Food Technology (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.S. (Food Technology)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Theophane Venard School of Biotechnology",
+        "faculty_th": "คณะเทคโนโลยีชีวภาพ",
+        "department": "Department of Food Technology",
+        "department_th": "ภาควิชาเทคโนโลยีอาหาร",
+        "program_type": "นานาชาติ",
+        "duration_years": "4 ปี",
+        "total_credits": "135 หน่วยกิต",
+        "tuition_per_semester": "69,500 บาท",
+        "tuition_total": "556,000 บาท",
+        "description": "เน้นนวัตกรรมอาหารแห่งอนาคต (Future Food), อาหารฟังก์ชัน (Functional Food), มาตรฐานความปลอดภัยอาหารสากล (HACCP/ISO) และการเป็นผู้ประกอบการอาหารชีวภาพ",
+        "curriculum_highlights": [
+            "Food Chemistry & Microbiology",
+            "Novel Food Product Development & Sensory Evaluation",
+            "Food Quality Assurance & Global Safety Standards",
+            "Bio-Entrepreneurship & Agro-Industry Innovations"
+        ],
+        "career_paths": [
+            "Food Product Development Scientist (R&D)",
+            "Quality Assurance / Quality Control (QA/QC) Manager",
+            "Food Safety Auditor (International Standards)",
+            "Food Industry Entrepreneur",
+            "Biotechnology Specialist"
+        ],
+        "tags": ["International", "Food Technology", "Biotechnology", "Future Food", "R&D"],
+        "website_url": "https://www.au.edu/academics/undergraduate/biotech/food-technology.html"
+    },
+
+    # --- Thomas Aquinas School of Law ---
+    {
+        "id": "au_law_llb",
+        "title_th": "หลักสูตรนิติศาสตรบัณฑิต (หลักสูตรสองภาษา/นานาชาติ)",
+        "title_en": "Bachelor of Laws Program (LL.B. Bilingual / International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "LL.B. (น.บ.)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Thomas Aquinas School of Law",
+        "faculty_th": "คณะนิติศาสตร์ (Thomas Aquinas)",
+        "department": "Department of Law",
+        "department_th": "ภาควิชานิติศาสตร์",
+        "program_type": "นานาชาติ",
+        "duration_years": "4 ปี",
+        "total_credits": "140 หน่วยกิต",
+        "tuition_per_semester": "69,418 บาท",
+        "tuition_total": "555,350 บาท",
+        "description": "หลักสูตรนิติศาสตร์สองภาษาที่เน้นกฎหมายธุรกิจระหว่างประเทศ กฎหมายพาณิชย์สากล กฎหมายทรัพย์สินทางปัญญา และกฎหมายธุรกรรมดิจิทัล พร้อมการแข่งขัน Moot Court ระดับสากล",
+        "curriculum_highlights": [
+            "International Business Law & Arbitration",
+            "Intellectual Property & IT Law",
+            "International Moot Court Practice & Advocacy",
+            "Corporate Law & Mergers and Acquisitions (M&A)"
+        ],
+        "career_paths": [
+            "International Corporate Lawyer",
+            "Legal Counsel in Multinational Companies",
+            "International Arbitrator",
+            "Public Prosecutor / Judge Track",
+            "Compliance & Regulatory Counsel"
+        ],
+        "tags": ["International", "Law", "LL.B", "Corporate Law", "Arbitration", "Moot Court"],
+        "website_url": "https://www.au.edu/academics/undergraduate/law.html"
+    },
+
+    # --- Graduate School of Business (AU) ---
+    {
+        "id": "au_grad_mba",
+        "title_th": "หลักสูตรบริหารธุรกิจมหาบัณฑิต (หลักสูตรนานาชาติ)",
+        "title_en": "Master of Business Administration (MBA International Program)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "MBA",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Graduate School of Business and Advanced Technology Management",
+        "faculty_th": "บัณฑิตวิทยาลัยบริหารธุรกิจและเทคโนโลยีขั้นสูง",
+        "department": "MBA Program",
+        "department_th": "สาขาวิชาบริหารธุรกิจ",
+        "program_type": "นานาชาติ",
+        "duration_years": "2 ปี",
+        "total_credits": "42 หน่วยกิต",
+        "tuition_per_semester": "95,000 บาท",
+        "tuition_total": "380,000 บาท",
+        "description": "หลักสูตร MBA นานาชาติแห่งแรกในประเทศไทย เน้นภาวะผู้นำระดับโลก การวางแผนกลยุทธ์ธุรกิจดิจิทัล และเครือข่ายศิษย์เก่าผู้บริหารทั่วโลก",
+        "curriculum_highlights": [
+            "Global Strategic Management",
+            "Corporate Financial Strategy & Valuation",
+            "Digital Leadership & Organization Transformation",
+            "Global Supply Chain & Innovation Management"
+        ],
+        "career_paths": [
+            "C-Level Executive (CEO / COO / CMO)",
+            "Management Consultant (Tier-1 Firms)",
+            "Global Business Director",
+            "Venture Capital & Private Equity Principal",
+            "Serial Entrepreneur"
+        ],
+        "tags": ["MBA", "International", "Executive", "Graduate", "Business", "ABAC"],
+        "website_url": "https://www.grad.au.edu/programs/mba.html"
+    },
+    {
+        "id": "au_grad_phd_ba",
+        "title_th": "หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาบริหารธุรกิจ (หลักสูตรนานาชาติ)",
+        "title_en": "Doctor of Philosophy in Business Administration (Ph.D. International Program)",
+        "degree_level": "ปริญญาเอก",
+        "degree_name": "Ph.D. (Business Administration)",
+        "university": "Assumption University",
+        "university_th": "มหาวิทยาลัยอัสสัมชัญ",
+        "faculty": "Graduate School of Business and Advanced Technology Management",
+        "faculty_th": "บัณฑิตวิทยาลัยบริหารธุรกิจและเทคโนโลยีขั้นสูง",
+        "department": "Ph.D. Program in Business Administration",
+        "department_th": "สาขาวิชาบริหารธุรกิจดุษฎีบัณฑิต",
+        "program_type": "นานาชาติ",
+        "duration_years": "3 ปี",
+        "total_credits": "54 หน่วยกิต",
+        "tuition_per_semester": "135,000 บาท",
+        "tuition_total": "810,000 บาท",
+        "description": "หลักสูตรปริญญาเอกระดับสากล มุ่งเน้นการสร้างองค์ความรู้ใหม่ งานวิจัยระดับตีพิมพ์ในวารสาร Scopus/SSCI และการพัฒนาทฤษฎีการบริหารจัดการระดับโลก",
+        "curriculum_highlights": [
+            "Advanced Quantitative & Qualitative Research Methodologies",
+            "Seminar in Advanced Strategic Management",
+            "Doctoral Dissertation Research & Publications",
+            "Global Economics & Emerging Market Dynamics"
+        ],
+        "career_paths": [
+            "University Professor / Academic Researcher",
+            "Chief Strategy Officer / Economic Advisor",
+            "Senior Think-Tank Policy Fellow",
+            "Principal Management Consultant",
+            "Director of Research and Innovation"
+        ],
+        "tags": ["PhD", "Doctorate", "International", "Research", "Graduate", "Business"],
+        "website_url": "https://www.grad.au.edu/programs/phd-ba.html"
+    }
+]
+
+def fetch_au_live_announcements() -> List[Dict[str, str]]:
+    """Helper to scrape live admissions pages from au.edu."""
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+    urls = [
+        "https://www.au.edu/academics/undergraduate.html",
+        "https://admissions.au.edu/"
+    ]
+    results = []
+    for u in urls:
+        try:
+            resp = requests.get(u, headers=headers, timeout=10, verify=False)
+            if resp.status_code == 200:
+                soup = BeautifulSoup(resp.content, "html.parser")
+                title = soup.title.string if soup.title else u
+                results.append({"url": u, "title": title.strip()})
+        except Exception as e:
+            logger.warning(f"Could not reach {u}: {e}")
+    return results
+
+def save_to_json(courses: List[Dict[str, Any]], filepath: Path):
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(courses, f, ensure_ascii=False, indent=2)
+    logger.info(f"Saved {len(courses)} Assumption University courses to {filepath}")
+
+def seed_database(courses: List[Dict[str, Any]]):
+    if not DB_AVAILABLE:
+        logger.error("Database connection unavailable. Skipping seeding.")
+        return
+    Base.metadata.create_all(bind=engine)
+    session = SessionLocal()
+    inserted = 0
+    updated = 0
+    for c in courses:
+        try:
+            existing = session.query(CourseDB).filter_by(id=c["id"]).first()
+            if existing:
+                for k, v in c.items():
+                    setattr(existing, k, v)
+                updated += 1
+            else:
+                session.add(CourseDB(**c))
+                inserted += 1
+            session.commit()
+        except Exception as e:
+            session.rollback()
+            logger.error(f"Error seeding {c['id']}: {e}")
+    session.close()
+    logger.info(f"Successfully seeded Assumption University to DB: {inserted} inserted, {updated} updated.")
+
+def main():
+    import urllib3
+    urllib3.disable_warnings()
+    parser = argparse.ArgumentParser(description="Assumption University (AU) Course Scraper & Catalog")
+    parser.add_argument("--output", type=str, default=str(DEFAULT_OUTPUT_FILE), help="Output JSON path")
+    parser.add_argument("--seed-db", action="store_true", help="Seed courses directly to Database")
+    parser.add_argument("--level", type=str, default="all", choices=["all", "bachelor", "master", "doctorate"], help="Filter degree level")
+    args = parser.parse_args()
+
+    courses = AU_COURSES
+    if args.level == "bachelor":
+        courses = [c for c in courses if c["degree_level"] == "ปริญญาตรี"]
+    elif args.level == "master":
+        courses = [c for c in courses if c["degree_level"] == "ปริญญาโท"]
+    elif args.level == "doctorate":
+        courses = [c for c in courses if c["degree_level"] == "ปริญญาเอก"]
+
+    out_path = Path(args.output)
+    save_to_json(courses, out_path)
+
+    if args.seed_db:
+        seed_database(courses)
+
+if __name__ == "__main__":
+    main()
