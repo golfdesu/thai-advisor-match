@@ -278,21 +278,25 @@ export default function Home() {
             >
               <Users size={16} /> ค้นหาอาจารย์ที่ปรึกษา
             </button>
+            <a
+              href="/career-discovery"
+              className="text-indigo-600 hover:text-indigo-700 font-bold transition-colors flex items-center gap-1.5 bg-indigo-50 px-3 py-1.5 rounded-xl border border-indigo-100"
+            >
+              <Sparkles size={15} className="text-indigo-500" />
+              <span>ค้นหาตัวตน & คณะที่ใช่ (Quiz)</span>
+            </a>
             <a href="https://github.com/golfdesu/thai-advisor-match" target="_blank" className="hover:text-blue-600 transition-colors flex items-center gap-1.5">
               <School size={16} /> สถาบันในระบบ
             </a>
           </nav>
 
           <div className="flex items-center gap-3">
-            <button
-              onClick={() => {
-                setActiveTab("advisors");
-                handleSearch();
-              }}
-              className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-bold px-4 py-2.5 rounded-xl shadow-sm hover:shadow transition flex items-center gap-1.5"
+            <a
+              href="/career-discovery"
+              className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:opacity-95 text-white text-xs font-bold px-4 py-2.5 rounded-xl shadow-md hover:shadow-lg transition flex items-center gap-1.5"
             >
-              <Sparkles size={14} /> AI Advisor Match
-            </button>
+              <Sparkles size={14} /> AI ค้นหาตัวตน
+            </a>
           </div>
         </div>
       </header>
@@ -313,9 +317,32 @@ export default function Home() {
             และอาจารย์ที่ปรึกษาวิทยานิพนธ์ทั่วไทย
           </h1>
 
-          <p className="text-slate-600 text-base sm:text-lg max-w-3xl mx-auto mb-10 leading-relaxed font-normal">
+          <p className="text-slate-600 text-base sm:text-lg max-w-3xl mx-auto mb-6 leading-relaxed font-normal">
             ค้นหาหลักสูตรระดับปริญญาตรี โท และเอก หรือใช้ AI แมตช์หัวข้อวิจัยกับอาจารย์ผู้เชี่ยวชาญจากมหาวิทยาลัยชั้นนำทั่วประเทศไทยได้อย่างแม่นยำ
           </p>
+
+          {/* New Interactive Quiz Callout Banner */}
+          <div className="max-w-2xl mx-auto mb-8 bg-gradient-to-r from-indigo-900 via-purple-900 to-slate-900 text-white p-4 sm:p-5 rounded-3xl shadow-lg border border-indigo-500/30 flex flex-col sm:flex-row items-center justify-between gap-4 text-left">
+            <div className="flex items-center gap-3.5">
+              <div className="w-12 h-12 rounded-2xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center flex-shrink-0">
+                <Compass size={24} className="animate-spin" style={{ animationDuration: "12s" }} />
+              </div>
+              <div>
+                <div className="flex items-center gap-2">
+                  <span className="font-bold text-sm sm:text-base text-white">ยังไม่รู้จะเรียนต่อคณะไหนดี?</span>
+                  <span className="text-[10px] font-black bg-pink-500 text-white px-2 py-0.5 rounded-full uppercase tracking-wider">ใหม่</span>
+                </div>
+                <p className="text-xs text-indigo-200 mt-0.5">ทำแบบประเมิน AI Career Quiz เพื่อค้นพบอาชีพและคณะที่ใช่ตามหลักจิตวิทยา</p>
+              </div>
+            </div>
+            <a
+              href="/career-discovery"
+              className="bg-white hover:bg-indigo-50 text-indigo-900 text-xs font-black px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-1.5 flex-shrink-0 w-full sm:w-auto justify-center"
+            >
+              <span>เริ่มทำแบบประเมิน</span>
+              <ArrowRight size={14} />
+            </a>
+          </div>
 
           {/* Dual Tab Switcher */}
           <div className="inline-flex p-1.5 bg-slate-200/80 rounded-2xl mb-6 shadow-inner border border-slate-300/60">

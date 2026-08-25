@@ -4,6 +4,7 @@ from app.core.config import settings
 from app.api.routes_search import router as search_router
 from app.api.routes_faculty import router as faculty_router
 from app.api.routes_courses import router as courses_router
+from app.api.routes_career_quiz import router as career_quiz_router
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -26,6 +27,7 @@ app.add_middleware(
 app.include_router(search_router, prefix="/api/v1")
 app.include_router(faculty_router, prefix="/api/v1")
 app.include_router(courses_router, prefix="/api/v1")
+app.include_router(career_quiz_router, prefix="/api/v1")
 
 
 from pathlib import Path

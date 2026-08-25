@@ -115,23 +115,12 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
 
 @router.post("/cold-email", response_model=ColdEmailResponse)
 def generate_cold_email(req: ColdEmailRequest, db: Session = Depends(get_db)):
-    # ... keep existing cold email logic ...
     db_faculty = db.query(FacultyDB).filter(FacultyDB.id == req.faculty_id).first()
     if not db_faculty:
         raise HTTPException(status_code=404, detail="Faculty member not found")
         
     target_faculty = db_to_pydantic(db_faculty)
     
-    faculty_name = target_faculty.full_name_th if target_faculty else "อาจารย์"
-    dept_name = target_faculty.department_th if target_faculty else "ภาควิชา"
-    
-    if req.language == "th":
-        subject = f"ขอรับคำปรึกษาและสอบถามโอกาสในการทำวิทยานิพนธ์ระดับ{req.intended_degree} - {req.student_name}"
-        body = f"""เรียน {faculty_name} ที่เคารพ\n\nผม/ดิฉัน {req.student_name} มีความสนใจอย่างยิ่งที่จะศึกษาต่อระดับ{req.intended_degree} ใน{dept_name}\n\nจากการศึกษาผลงานวิชาการของอาจารย์พบว่ามีความสอดคล้องกับความสนใจของผม/ดิฉัน โดยเฉพาะในด้าน {", ".join(target_faculty.research_interests[:2]) if target_faculty.research_interests else 'งานวิจัยของท่าน'} ผม/ดิฉันจึงอยากขอคำปรึกษาเกี่ยวกับการทำวิจัยในหัวข้อ "{req.research_topic}"\n\nประวัติโดยย่อ:\n{req.student_background}\n\nผม/ดิฉันได้แนบประวัติการศึกษา (CV) และโครงร่างงานวิจัยเบื้องต้น (Research Proposal) มาพร้อมกับอีเมลฉบับนี้\n\nขอแสดงความนับถือ\n{req.student_name}\n"""
-        tips = ["แนบไฟล์ CV (PDF) และ Transcripts", "ปรับแก้เนื้อหาให้ตรงกับสไตล์ของตนเอง", "ตรวจสอบความถูกต้องของชื่ออาจารย์ก่อนส่ง"]
-    else:
-        subject = f"Inquiry regarding {req.intended_degree} Thesis Advising - {req.student_name}"
-        body = f"""Dear {faculty_name},\n\nMy name is {req.student_name}, and I am writing to express my strong interest in pursuing a {req.intended_degree} under your supervision at {dept_name}.\n\nI have reviewed your published research in {", ".join(target_faculty.research_interests[:2]) if target_faculty.research_interests else 'your research area'}, and I am particularly passionate about conducting research on "{req.research_topic}".\n\nBrief Background:\n{req.student_background}\n\nI have attached my CV and a brief research concept note for your review. I would be honored to discuss potential advising opportunities.\n\nThank you very much for your time and consideration.\n\nSincerely,\n{req.student_name}\n"""
-        tips = ["Attach a concise 1-2 page CV (PDF format)", "Be clear and specific about why this professor's lab is the best fit", "Follow up politely after 7-10 business days if no reply"]
+    subject, body, tips = embedding_service.generate_cold_email_ai(req.model_dump(), target_faculty)
 
     return ColdEmailResponse(subject=subject, body=body, tips=tips)
