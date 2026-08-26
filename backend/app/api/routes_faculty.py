@@ -9,6 +9,9 @@ from app.core.database import get_db
 router = APIRouter(prefix="/faculty", tags=["Faculty"])
 
 def db_to_pydantic(db_model: FacultyDB) -> FacultyMember:
+    eng_parts = [p for p in [db_model.first_name, db_model.last_name] if p]
+    constructed_full_name = " ".join(eng_parts) if eng_parts else None
+
     return FacultyMember(
         id=db_model.id,
         university=db_model.university,
@@ -20,6 +23,7 @@ def db_to_pydantic(db_model: FacultyDB) -> FacultyMember:
         academic_title_th=db_model.academic_title_th,
         first_name=db_model.first_name,
         last_name=db_model.last_name,
+        full_name=constructed_full_name,
         full_name_th=db_model.full_name_th,
         role=db_model.role,
         email=db_model.email,

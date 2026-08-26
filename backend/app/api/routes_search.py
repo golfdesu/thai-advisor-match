@@ -9,6 +9,56 @@ import math
 
 router = APIRouter(prefix="/search", tags=["Semantic Search & Match"])
 
+def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[SearchMatchResult]:
+    """Fallback ranking algorithm based on lexical keyword matching when AI embedding is unavailable."""
+    expanded_query = embedding_service.expand_query(query_str).lower()
+    raw_tokens = [t.strip() for t in expanded_query.split() if len(t.strip()) >= 2]
+    
+    faculties = query_db.all()
+    scored_list = []
+    
+    for db_fac in faculties:
+        corpus_list = (db_fac.research_interests or []) + (db_fac.taught_courses or [])
+        corpus_text = " ".join(corpus_list).lower()
+        full_text = f"{corpus_text} {(db_fac.department_th or '').lower()} {(db_fac.full_name_th or '').lower()} {(db_fac.embedding_text or '').lower()}"
+        
+        hit_count = 0
+        matched_kws = []
+        for token in raw_tokens:
+            if token in full_text:
+                hit_count += 1
+                if token not in matched_kws:
+                    matched_kws.append(token)
+                    
+        # Calculate dynamic score between 50% and 92% based on matches
+        if hit_count > 0:
+            score = min(92.0, 65.0 + (hit_count * 7.0))
+        else:
+            score = 45.0
+            
+        scored_list.append((db_fac, score, matched_kws))
+        
+    # Sort by score descending
+    scored_list.sort(key=lambda x: x[1], reverse=True)
+    
+    results = []
+    for db_fac, score, matched_kws in scored_list[:top_k]:
+        fac_model = db_to_pydantic(db_fac)
+        if matched_kws:
+            interests_matched = [i for i in (fac_model.research_interests or []) if any(k in i.lower() for k in matched_kws)]
+            int_str = ", ".join(interests_matched[:2]) if interests_matched else (fac_model.research_interests[0] if fac_model.research_interests else "หัวข้อที่เกี่ยวข้อง")
+            explanation = f"อาจารย์มีความเชี่ยวชาญด้าน {int_str} ซึ่งตรงกับคำค้นหาของคุณ"
+        else:
+            explanation = "อาจารย์ในสาขาวิชาที่เกี่ยวข้องกับหัวข้อที่คุณค้นหา"
+            
+        results.append(SearchMatchResult(
+            faculty=fac_model,
+            match_score=round(score, 1),
+            ai_explanation=explanation,
+            matched_keywords=matched_kws[:3]
+        ))
+    return results
+
 @router.post("/", response_model=SearchResponse)
 def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_db)):
     """
@@ -30,16 +80,6 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
     ranked_results = []
 
     if query_vector:
-        # 2. Use pgvector to calculate cosine distance
-        # distance = 0 (identical) to 2 (opposite). Similarity = 1 - distance
-        faculties = query_db.all() # Fetch all matching filters
-        
-        # Calculate scores in python since sqlite fallback might be used if pgvector fails in local dev, 
-        # but the db schema uses Vector(768). Let's use sqlalchemy!
-        
-        # We can use order_by(FacultyDB.embedding.cosine_distance(query_vector))
-        # But for compatibility across DBs in testing, we can do python dot product if we fetched them.
-        # Since we use Supabase production, let's use the DB!
         try:
             results = db.query(
                 FacultyDB,
@@ -48,7 +88,6 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
             
             for db_fac, dist in results:
                 # 1. Lexical Keyword Boost
-                # Expand the query first to catch English equivalents of Thai words
                 expanded_query = embedding_service.expand_query(request.query).lower()
                 query_tokens = expanded_query.split()
                 
@@ -57,12 +96,10 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                 final_dist = dist
                 lexical_matched = False
                 
-                # Check if any significant word from expanded query is exactly in corpus
                 for token in query_tokens:
                     if len(token) >= 2 and token in corpus:
                         lexical_matched = True
                         break
-                    # Basic English root matching (e.g. optimize -> optimiz, fits optimization)
                     if len(token) >= 5:
                         stem = token.removesuffix('s').removesuffix('ing').removesuffix('ation').removesuffix('e')
                         if len(stem) >= 4 and stem in corpus:
@@ -79,7 +116,6 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                 fac_model = db_to_pydantic(db_fac)
                 explanation = embedding_service._generate_explanation(request.query, fac_model, ux_score)
                 
-                # Highlight keyword if there was a lexical match
                 matched_kws = [request.query] if lexical_matched else []
                 
                 ranked_results.append(SearchMatchResult(
@@ -89,28 +125,11 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                     matched_keywords=matched_kws
                 ))
         except Exception as e:
-            print(f"Vector search failed: {e}")
-            # Fallback if DB vector search fails
-            db_faculties = query_db.limit(request.top_k).all()
-            for db_fac in db_faculties:
-                fac_model = db_to_pydantic(db_fac)
-                ranked_results.append(SearchMatchResult(
-                    faculty=fac_model,
-                    match_score=50.0,
-                    ai_explanation="Fallback match",
-                    matched_keywords=[]
-                ))
+            print(f"Vector search failed, using smart keyword fallback: {e}")
+            ranked_results = keyword_fallback_search(request.query, query_db, request.top_k)
     else:
-        # Fallback if Gemini fails
-        db_faculties = query_db.limit(request.top_k).all()
-        for db_fac in db_faculties:
-            fac_model = db_to_pydantic(db_fac)
-            ranked_results.append(SearchMatchResult(
-                faculty=fac_model,
-                match_score=50.0,
-                ai_explanation="ระบบ AI ไม่สามารถประมวลผลได้ในขณะนี้",
-                matched_keywords=[]
-            ))
+        # Fallback if Gemini vector embedding is rate-limited or unavailable
+        ranked_results = keyword_fallback_search(request.query, query_db, request.top_k)
 
     return SearchResponse(
         query=request.query,

@@ -29,7 +29,9 @@ import {
   AlertCircle,
   Clock,
   Cpu,
-  ShieldCheck
+  ShieldCheck,
+  MapPin,
+  Coffee
 } from "lucide-react";
 import riasecQuestions from "@/data/riasec_questions.json";
 import lifestyleQuestions from "@/data/lifestyle_questions.json";
@@ -75,6 +77,9 @@ interface QuizResultData {
   personality_summary: string;
   strengths: string[];
   ideal_work_environment: string;
+  campus_vibe_match?: string;
+  learning_style_match?: string;
+  lifestyle_highlights?: string[];
   growth_advice: string;
   share_quote: string;
   top_careers: CareerItem[];
@@ -220,7 +225,7 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
 export default function CareerDiscoveryPage() {
   const [tier, setTier] = useState<"quick" | "standard" | "deep" | null>(null);
   const [currentStep, setCurrentStep] = useState(0);
-  const [answers, setAnswers] = useState<Record<number, any>>({});
+  const [answers, setAnswers] = useState<Record<any, any>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [result, setResult] = useState<QuizResultData | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -230,11 +235,11 @@ export default function CareerDiscoveryPage() {
   const activeQuestions = useMemo(() => {
     if (!tier) return [];
 
-    let totalRiasec = 20;
-    let totalLifestyle = 0;
-    if (tier === "quick") { totalRiasec = 10; totalLifestyle = 0; }
-    else if (tier === "standard") { totalRiasec = 15; totalLifestyle = 5; }
-    else if (tier === "deep") { totalRiasec = 45; totalLifestyle = 15; }
+    let totalRiasec = 18;
+    let totalLifestyle = 6;
+    if (tier === "quick") { totalRiasec = 12; totalLifestyle = 0; }
+    else if (tier === "standard") { totalRiasec = 18; totalLifestyle = 6; }
+    else if (tier === "deep") { totalRiasec = 36; totalLifestyle = 14; }
 
     const grouped: Record<string, typeof riasecQuestions> = { R: [], I: [], A: [], S: [], E: [], C: [] };
     riasecQuestions.forEach(q => {
@@ -266,11 +271,14 @@ export default function CareerDiscoveryPage() {
       i++;
     }
 
-    const shuffledLifestyle = shuffle(lifestyleQuestions);
+    const validLifestyleQuestions = (lifestyleQuestions as any[]).filter(
+      (q) => q.type !== "free_text" && Array.isArray(q.options) && q.options.length > 0
+    );
+    const shuffledLifestyle = shuffle(validLifestyleQuestions);
     const selectedLifestyle = shuffledLifestyle.slice(0, totalLifestyle).map(q => ({
       ...q,
       question: q.text,
-      category: `Lifestyle`
+      category: `ไลฟ์สไตล์ & บริบทมหาวิทยาลัย (${q.category})`
     }));
 
     return [...shuffle(selectedRiasec), ...selectedLifestyle];
@@ -279,7 +287,7 @@ export default function CareerDiscoveryPage() {
   const currentQ = activeQuestions[currentStep];
   const progressPct = activeQuestions.length > 0 ? Math.round(((currentStep + 1) / activeQuestions.length) * 100) : 0;
 
-  const handleSelectOption = (questionId: number, value: any, isMulti: boolean = false) => {
+  const handleSelectOption = (questionId: any, value: any, isMulti: boolean = false) => {
     if (isMulti) {
       const currentList: string[] = answers[questionId] || [];
       if (currentList.includes(value)) {
@@ -317,10 +325,19 @@ export default function CareerDiscoveryPage() {
       if (q.type === "free_text") {
         freeTextAnswers[q.id.toString()] = answers[q.id] || "";
       } else {
+        const val = answers[q.id] ?? (q.type === "likert" ? 3 : (q.options?.[0]?.value || ""));
+        let optionLabel: string | undefined = undefined;
+        if (q.options && Array.isArray(q.options)) {
+          const matchedOpt = q.options.find((opt: any) => opt.value === val);
+          if (matchedOpt) optionLabel = matchedOpt.text;
+        }
+
         formattedAnswers.push({
           question_id: q.id,
           dimension: q.dimension,
-          value: answers[q.id] ?? 3
+          category: q.category,
+          value: val,
+          label: optionLabel
         });
       }
     });
@@ -435,7 +452,7 @@ export default function CareerDiscoveryPage() {
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Quick Scan</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-4">
-                    10 ข้อ เพื่อประเมินแนวโน้มความถนัดและภาพรวมในเบื้องต้น
+                    12 ข้อ (RIASEC 6 มิติ) ประเมินแนวโน้มความถนัดอย่างรวดเร็ว
                   </p>
                 </div>
                 <div className="flex items-center text-xs font-bold text-amber-600 group-hover:translate-x-1 transition-transform">
@@ -466,7 +483,7 @@ export default function CareerDiscoveryPage() {
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Standard Match</h3>
                   <p className="text-xs text-slate-600 leading-relaxed mb-4">
-                    20 ข้อ ครอบคลุมทั้งทักษะเฉพาะด้าน ความคิดสร้างสรรค์ และค่านิยมในการทำงาน
+                    24 ข้อ (RIASEC 18 ข้อ + Lifestyle 6 ข้อ) วิเคราะห์ความถนัดคู่กับสไตล์การใช้ชีวิตในรั้วมหาวิทยาลัย
                   </p>
                 </div>
                 <div className="flex items-center text-xs font-bold text-indigo-600 group-hover:translate-x-1 transition-transform">
@@ -494,7 +511,7 @@ export default function CareerDiscoveryPage() {
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-2">Deep Dive DNA</h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-4">
-                    50 ข้อ เชิงลึก วิเคราะห์สภาวะการทำงาน การรับมือแรงกดดัน และเป้าหมายระยะยาว
+                    50 ข้อ (RIASEC 36 ข้อ + Lifestyle 14 ข้อ) วิเคราะห์เจาะลึกครอบคลุมทุกมิติชีวิตและการศึกษา
                   </p>
                 </div>
                 <div className="flex items-center text-xs font-bold text-pink-600 group-hover:translate-x-1 transition-transform">
@@ -758,6 +775,65 @@ export default function CareerDiscoveryPage() {
                 </div>
               </div>
             </div>
+
+            {/* NEW: Lifestyle & Campus Life Alignment Card */}
+            {(result.campus_vibe_match || result.learning_style_match) && (
+              <div className="bg-gradient-to-br from-emerald-50/70 via-teal-50/40 to-sky-50/60 border border-emerald-200/80 rounded-3xl p-6 sm:p-8 shadow-sm">
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="w-8 h-8 rounded-xl bg-emerald-600 text-white flex items-center justify-center shadow-xs">
+                    <Compass size={18} />
+                  </div>
+                  <div>
+                    <h3 className="text-base sm:text-lg font-bold text-slate-900">
+                      สไตล์ชีวิตมหาวิทยาลัยที่ใช่คุณ (Campus & Lifestyle Match)
+                    </h3>
+                    <p className="text-xs text-slate-500">
+                      วิเคราะห์จากความต้องการด้านทำเล บรรยากาศแคมปัส และสไตล์การเรียนรู้ที่คุณเลือก
+                    </p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+                  {result.campus_vibe_match && (
+                    <div className="bg-white/80 backdrop-blur-sm p-4 rounded-2xl border border-emerald-100 shadow-2xs">
+                      <div className="flex items-center gap-2 text-emerald-800 font-bold text-xs mb-1.5">
+                        <MapPin size={15} className="text-emerald-600" />
+                        <span>บรรยากาศ & ภูมิภาคมหาวิทยาลัยในฝัน</span>
+                      </div>
+                      <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        {result.campus_vibe_match}
+                      </p>
+                    </div>
+                  )}
+
+                  {result.learning_style_match && (
+                    <div className="bg-white/80 backdrop-blur-sm p-4 rounded-2xl border border-teal-100 shadow-2xs">
+                      <div className="flex items-center gap-2 text-teal-800 font-bold text-xs mb-1.5">
+                        <Coffee size={15} className="text-teal-600" />
+                        <span>รูปแบบการเรียนรู้ที่ทำให้คุณเปล่งประกาย</span>
+                      </div>
+                      <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                        {result.learning_style_match}
+                      </p>
+                    </div>
+                  )}
+                </div>
+
+                {result.lifestyle_highlights && result.lifestyle_highlights.length > 0 && (
+                  <div className="mt-4 pt-3 border-t border-emerald-200/50 flex flex-wrap items-center gap-2">
+                    <span className="text-[11px] font-bold text-emerald-900">ค่านิยมไลฟ์สไตล์:</span>
+                    {result.lifestyle_highlights.map((hl, hIdx) => (
+                      <span
+                        key={hIdx}
+                        className="bg-white text-emerald-800 text-[11px] font-medium px-2.5 py-0.5 rounded-lg border border-emerald-200"
+                      >
+                        ✨ {hl}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
 
             {/* Top Recommended Careers */}
             <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm">

@@ -6,10 +6,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL")
-# Supabase Postgres connection pooler issues sometimes occur with SQLAlchemy without the correct dialect or ssl parameters
-# Standard format should work for most basic uses
+if not DATABASE_URL:
+    DATABASE_URL = "sqlite:///:memory:"
 
-engine = create_engine(DATABASE_URL, pool_pre_ping=True)
+engine = create_engine(
+    DATABASE_URL,
+    pool_pre_ping=True if not DATABASE_URL.startswith("sqlite") else False
+)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()

@@ -34,6 +34,34 @@ def db_course_to_pydantic(db_course: CourseDB, match_score: float = 95.0) -> Cou
         match_score=match_score
     )
 
+from sqlalchemy import or_
+
+def build_degree_level_filter(degree_level: Optional[str]):
+    """
+    Returns an OR filter condition for degree_level covering Thai and English representations:
+    - Bachelor: ปริญญาตรี, Bachelor, Bachelor's Degree, undergrad, etc.
+    - Master: ปริญญาโท, Master, Master's Degree, etc.
+    - Doctorate: ปริญญาเอก, Doctor, Ph.D, Ph.D., Doctoral, Doctorate, PhD, etc.
+    - Certificate: ประกาศนียบัตร, Certificate, Diploma, Graduate Diploma, cert, etc.
+    """
+    if not degree_level or degree_level.strip().lower() == "all":
+        return None
+    
+    raw = degree_level.strip().lower()
+    
+    if any(k in raw for k in ["ตรี", "bachelor", "undergrad"]):
+        targets = ["ปริญญาตรี", "bachelor"]
+    elif any(k in raw for k in ["โท", "master"]):
+        targets = ["ปริญญาโท", "master"]
+    elif any(k in raw for k in ["เอก", "doctor", "ph.d", "phd", "doctoral", "doctorate"]):
+        targets = ["ปริญญาเอก", "doctor", "ph.d", "phd", "doctoral", "doctorate"]
+    elif any(k in raw for k in ["ประกาศนียบัตร", "certificate", "diploma", "cert"]):
+        targets = ["ประกาศนียบัตร", "certificate", "diploma"]
+    else:
+        targets = [degree_level.strip()]
+        
+    return or_(*[CourseDB.degree_level.ilike(f"%{t}%") for t in targets])
+
 @router.get("/", response_model=List[CourseSchema])
 def list_courses(
     university: Optional[str] = None,
@@ -44,8 +72,10 @@ def list_courses(
     query = db.query(CourseDB)
     if university and university != "all":
         query = query.filter(CourseDB.university.ilike(f"%{university}%") | CourseDB.university_th.ilike(f"%{university}%"))
-    if degree_level and degree_level != "all":
-        query = query.filter(CourseDB.degree_level.ilike(f"%{degree_level}%"))
+    
+    degree_filter = build_degree_level_filter(degree_level)
+    if degree_filter is not None:
+        query = query.filter(degree_filter)
     
     courses = query.limit(limit).all()
     return [db_course_to_pydantic(c) for c in courses]
@@ -57,16 +87,9 @@ def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
     if request.university and request.university != "all":
         query = query.filter(CourseDB.university.ilike(f"%{request.university}%") | CourseDB.university_th.ilike(f"%{request.university}%"))
     
-    if request.degree_level and request.degree_level != "all":
-        # Map common keys
-        level_map = {
-            "bachelor": "ปริญญาตรี",
-            "master": "ปริญญาโท",
-            "doctorate": "ปริญญาเอก",
-            "certificate": "ประกาศนียบัตร"
-        }
-        filter_level = level_map.get(request.degree_level.lower(), request.degree_level)
-        query = query.filter(CourseDB.degree_level.ilike(f"%{filter_level}%"))
+    degree_filter = build_degree_level_filter(request.degree_level)
+    if degree_filter is not None:
+        query = query.filter(degree_filter)
 
     if request.query and len(request.query.strip()) > 0:
         query_str = request.query.strip()
@@ -143,14 +166,25 @@ def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
             # However, for pure AI semantic search, ordering by distance is enough!
             query = query.order_by(distance_expr)
         else:
-            # Fallback if Gemini is down
-            q = f"%{query_str}%"
-            query = query.filter(
-                CourseDB.title_th.ilike(q) |
-                CourseDB.title_en.ilike(q) |
-                CourseDB.faculty_th.ilike(q) |
-                CourseDB.description.ilike(q)
-            )
+            # Fallback if Gemini vector embedding is unavailable
+            tokens = [t.strip() for t in query_str.split() if len(t.strip()) >= 2]
+            if tokens:
+                token_filters = [
+                    CourseDB.title_th.ilike(f"%{t}%") |
+                    CourseDB.title_en.ilike(f"%{t}%") |
+                    CourseDB.faculty_th.ilike(f"%{t}%") |
+                    CourseDB.description.ilike(f"%{t}%")
+                    for t in tokens
+                ]
+                query = query.filter(or_(*token_filters))
+            else:
+                q = f"%{query_str}%"
+                query = query.filter(
+                    CourseDB.title_th.ilike(q) |
+                    CourseDB.title_en.ilike(q) |
+                    CourseDB.faculty_th.ilike(q) |
+                    CourseDB.description.ilike(q)
+                )
 
     matched_courses = query.limit(request.top_k).all()
     results = [db_course_to_pydantic(c) for c in matched_courses]

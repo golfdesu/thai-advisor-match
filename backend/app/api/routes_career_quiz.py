@@ -24,26 +24,39 @@ import time
 logger = logging.getLogger("CareerQuizRouter")
 router = APIRouter(prefix="/career-quiz", tags=["Career & Faculty Discovery Quiz"])
 
-# --- Key Rotation System (17 keys) ---
-API_KEYS = [k.strip() for k in os.getenv("GEMINI_API_KEYS", "").split(",")] if os.getenv("GEMINI_API_KEYS") else [os.getenv("GEMINI_API_KEY")]
+from app.core.embedding_service import load_all_gemini_keys
+
+def _get_api_keys() -> List[str]:
+    return load_all_gemini_keys()
+
 _key_lock = threading.Lock()
 _current_key_idx = 0
 
 def _get_client():
     global _current_key_idx
+    keys = _get_api_keys()
+    if not keys:
+        return None
     with _key_lock:
-        return genai.Client(api_key=API_KEYS[_current_key_idx])
+        key = keys[_current_key_idx % len(keys)]
+        return genai.Client(api_key=key)
 
 def _rotate_key():
     global _current_key_idx
+    keys = _get_api_keys()
+    if not keys:
+        return
     with _key_lock:
-        _current_key_idx = (_current_key_idx + 1) % len(API_KEYS)
+        _current_key_idx = (_current_key_idx + 1) % len(keys)
 
 def _call_gemini_with_retry(prompt: str, max_retries: int = 10):
     """Call Gemini generate_content with key rotation and retry on 429."""
     for attempt in range(max_retries):
         try:
             client = _get_client()
+            if not client:
+                logger.error("No Gemini API key available")
+                return None
             response = client.models.generate_content(
                 model="gemini-3.6-flash",
                 contents=prompt,
@@ -69,6 +82,8 @@ def _get_embedding_with_retry(text: str, max_retries: int = 10):
     for attempt in range(max_retries):
         try:
             client = _get_client()
+            if not client:
+                return None
             response = client.models.embed_content(
                 model='gemini-embedding-2',
                 contents=text,
@@ -158,6 +173,21 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
 
     free_text_context = "\n".join([f"- {k}: {v}" for k, v in request.free_text_answers.items() if v])
 
+    # Extract Lifestyle preferences from answers
+    lifestyle_items = []
+    for item in request.answers:
+        cat = getattr(item, "category", None) or (item.get("category") if isinstance(item, dict) else None)
+        lbl = getattr(item, "label", None) or (item.get("label") if isinstance(item, dict) else None)
+        val = getattr(item, "value", None) if not isinstance(item, dict) else item.get("value")
+        txt = getattr(item, "text", None) or (item.get("text") if isinstance(item, dict) else None)
+
+        if cat and not cat.startswith("ความสนใจและกิจกรรม"):
+            val_str = lbl or (str(val) if val is not None else "") or (txt if txt else "")
+            if val_str and val_str not in ["1", "2", "3", "4", "5"]:
+                lifestyle_items.append(f"- {cat}: {val_str}")
+
+    lifestyle_context = "\n".join(lifestyle_items) if lifestyle_items else "ไม่มีข้อมูลไลฟ์สไตล์เพิ่มเติม"
+
     prompt = f"""
     You are an empathetic, top-tier Thai Educational Psychologist and Career Counselor helping a Thai High School student discover their ideal career path and university major.
 
@@ -172,12 +202,15 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
     - Enterprising (นักบริหาร/ผู้นำ): {riasec_pct.get('E')}%
     - Conventional (นักจัดระเบียบ/ระบบ): {riasec_pct.get('C')}%
 
+    Student's Lifestyle & University Preferences:
+    {lifestyle_context}
+
     Student's Open-Ended Passions & Free-Text Responses:
     {free_text_context or 'ไม่ได้ระบุข้อความเพิ่มเติม'}
 
     [Task]
     Generate an insightful, encouraging, and highly specific Career & University Profile in Thai.
-    The "search_keywords" MUST be highly relevant Thai academic keywords based on the student's RIASEC profile AND their free-text answers. Include faculty names, department names, and field names in Thai that match the student's interests. For example, if a student likes art and nature, suggest "ศิลปกรรมศาสตร์", "จิตรกรรม", "การออกแบบ". If they like business, suggest "บริหารธุรกิจ", "การตลาด", "การจัดการ". If they like medicine, suggest "แพทยศาสตร์", "สาธารณสุข", "เภสัชศาสตร์".
+    The "search_keywords" MUST be highly relevant Thai academic keywords based on the student's RIASEC profile, lifestyle preferences, and free-text answers. Include faculty names, department names, and field names in Thai that match the student's interests.
     
     Return a strict JSON object with this exact schema:
     {{
@@ -186,6 +219,9 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
         "personality_summary": "ย่อหน้าวิเคราะห์เจาะลึกบุคลิกภาพ สไตล์การเรียนรู้ จุดเด่น และสิ่งที่ขับเคลื่อนจิตวิญญาณของน้อง (ความยาว 3-4 ประโยค ภาษาอบอุ่นและสร้างแรงบันดาลใจ)",
         "strengths": ["จุดเด่นที่ 1", "จุดเด่นที่ 2", "จุดเด่นที่ 3", "จุดเด่นที่ 4"],
         "ideal_work_environment": "สภาพแวดล้อมการทำงานที่ทำให้น้องเปล่งประกายที่สุด",
+        "campus_vibe_match": "สไตล์และบรรยากาศมหาวิทยาลัยที่ตรงกับไลฟ์สไตล์และภูมิภาคที่น้องสนใจ (1 ประโยค)",
+        "learning_style_match": "สไตล์การเรียนรู้ในรั้วมหาวิทยาลัยที่เข้ากับน้องที่สุด (1 ประโยค)",
+        "lifestyle_highlights": ["ไฮไลต์ด้านไลฟ์สไตล์/กิจกรรมที่ 1", "ไฮไลต์ที่ 2", "ไฮไลต์ที่ 3"],
         "growth_advice": "คำแนะนำสั้นๆ ในการเตรียมตัวช่วง ม.ปลาย (เช่น การทำพอร์ต การหาประสบการณ์)",
         "share_quote": "ประโยคคมๆ สั้นๆ 1 ประโยค สำหรับแคปแชร์ลง Instagram Story / Twitter",
         "top_careers": [
@@ -229,23 +265,59 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
         if not fallback_keywords:
             fallback_keywords = ["วิทยาการ", "วิศวกรรม", "เทคโนโลยี", "บริหาร"]
         
+        # Rich career mapping per Holland dimension
+        dim_careers_map = {
+            "R": [
+                {"title": "วิศวกรและนักพัฒนานวัตกรรมทางเทคนิค", "description": "ออกแบบและพัฒนาเทคโนโลยี เครื่องจักร หรือระบบคอมพิวเตอร์ที่ใช้งานได้จริง", "match_percentage": 94, "skills": ["การแก้ปัญหาทางเทคนิค", "การลงมือปฏิบัติ", "ทักษะวิศวกรรม"], "growth_outlook": "เติบโตสูงมาก"},
+                {"title": "ผู้เชี่ยวชาญด้านระบบอัตโนมัติและหุ่นยนต์", "description": "สร้างและควบคุมระบบปฏิบัติการอัตโนมัติในภาคอุตสาหกรรม", "match_percentage": 90, "skills": ["ระบบสมองกล", "การเขียนโปรแกรมควบคุม", "การวิเคราะห์โครงสร้าง"], "growth_outlook": "เติบโตสูง"},
+                {"title": "นักวิเคราะห์และทดสอบระบบ (System & QA Engineer)", "description": "ตรวจสอบความถูกต้องและประสิทธิภาพของระบบเทคโนโลยีและเครื่องมือ", "match_percentage": 86, "skills": ["การทดสอบระบบ", "การแก้ปัญหาเฉพาะหน้า", "ความละเอียดรอบคอบ"], "growth_outlook": "เป็นที่ต้องการสูง"}
+            ],
+            "I": [
+                {"title": "นักวิทยาศาสตร์ข้อมูลและนักวิจัย AI", "description": "วิเคราะห์ข้อมูลเชิงลึกและพัฒนาแบบจำลองปัญญาประดิษฐ์เพื่อแก้ไขปัญหาที่ซับซ้อน", "match_percentage": 95, "skills": ["Machine Learning", "Data Analysis", "Critical Thinking"], "growth_outlook": "เติบโตสูงมาก"},
+                {"title": "นักวิจัยและผู้เชี่ยวชาญด้านวิทยาศาสตร์สุขภาพ", "description": "ค้นคว้า วิจัย และพัฒนาองค์ความรู้ทางการแพทย์และสาธารณสุข", "match_percentage": 91, "skills": ["การวิจัยทางวิทยาศาสตร์", "การทดลอง", "การคิดเชิงตรรกะ"], "growth_outlook": "เติบโตสูง"},
+                {"title": "นักวิเคราะห์ระบบและกลยุทธ์เชิงปริมาณ", "description": "สร้างแบบจำลองทางคณิตศาสตร์และสถิติเพื่อการคาดการณ์และวางแผน", "match_percentage": 87, "skills": ["สถิติขั้นสูง", "การสร้างแบบจำลอง", "การสืบค้นข้อมูล"], "growth_outlook": "เป็นที่ต้องการสูง"}
+            ],
+            "A": [
+                {"title": "นักออกแบบสื่อดิจิทัลและประสบการณ์ผู้ใช้ (UX/UI Designer)", "description": "สร้างสรรค์งานออกแบบที่ผสานความสวยงามและการใช้งานที่ตอบโจทย์ผู้คน", "match_percentage": 93, "skills": ["UI/UX Design", "Creative Problem Solving", "Visual Storytelling"], "growth_outlook": "เติบโตสูง"},
+                {"title": "นักสร้างสรรค์เนื้อหาและผู้กำกับศิลป์ (Creative Director)", "description": "วางแนวคิดและขับเคลื่อนโปรเจกต์เชิงสร้างสรรค์ในอุตสาหกรรมคอนเทนต์", "match_percentage": 89, "skills": ["การเล่าเรื่อง", "การกำกับงานศิลป์", "นวัตกรรมสื่อ"], "growth_outlook": "เติบโตต่อเนื่อง"},
+                {"title": "สถาปนิกและนักออกแบบพื้นที่ (Architect & Spatial Designer)", "description": "ออกแบบพื้นที่และสิ่งแวดล้อมที่เชื่อมโยงศิลปะและฟังก์ชันการใช้งาน", "match_percentage": 86, "skills": ["การออกแบบสถาปัตยกรรม", "การมองมิติสัมพันธ์", "การออกแบบเชิงแนวคิด"], "growth_outlook": "เติบโตมั่นคง"}
+            ],
+            "S": [
+                {"title": "ผู้เชี่ยวชาญด้านจิตวิทยาและการให้คำปรึกษา", "description": "ให้คำปรึกษาและส่งเสริมสุขภาวะทางจิตใจแก่บุคคลและองค์กร", "match_percentage": 94, "skills": ["จิตวิทยาการปรึกษา", "Empathy", "Active Listening"], "growth_outlook": "เติบโตสูงมาก"},
+                {"title": "บุคลากรทางการแพทย์และสาธารณสุขชุมชน", "description": "ดูแลรักษา ฟื้นฟู และยกระดับคุณภาพชีวิตของผู้คนในสังคม", "match_percentage": 90, "skills": ["การดูแลผู้ป่วย", "การสื่อสารเพื่อการบำบัด", "การทำงานเป็นทีม"], "growth_outlook": "เป็นที่ต้องการสูง"},
+                {"title": "นักพัฒนาทรัพยากรมนุษย์และการศึกษา (HR Specialist)", "description": "ออกแบบโปรแกรมการเรียนรู้และพัฒนาศักยภาพของคนในองค์กร", "match_percentage": 86, "skills": ["การฝึกอบรม", "การโค้ช", "การสื่อสารระหว่างบุคคล"], "growth_outlook": "เติบโตต่อเนื่อง"}
+            ],
+            "E": [
+                {"title": "ผู้ประกอบการสตาร์ทอัพและผู้นำธุรกิจดิจิทัล (Startup Founder)", "description": "สร้างและขยายธุรกิจนวัตกรรมเพื่อตอบสนองโอกาสใหม่ในตลาด", "match_percentage": 95, "skills": ["ภาวะผู้นำ", "Business Strategy", "การระดมทุนและการเจรจา"], "growth_outlook": "เติบโตสูงมาก"},
+                {"title": "ผู้จัดการฝ่ายกลยุทธ์และการตลาดดิจิทัล (Growth Marketer)", "description": "ขับเคลื่อนยอดขายและการเติบโตของแบรนด์ผ่านช่องทางดิจิทัล", "match_percentage": 91, "skills": ["Digital Marketing", "Data-Driven Strategy", "การตลาดเชิงรุก"], "growth_outlook": "เติบโตสูง"},
+                {"title": "ที่ปรึกษาด้านการจัดการและการลงทุน (Management Consultant)", "description": "ให้คำปรึกษาเชิงกลยุทธ์เพื่อเพิ่มประสิทธิภาพและผลกำไรขององค์กร", "match_percentage": 87, "skills": ["การวิเคราะห์ธุรกิจ", "การนำเสนอ", "การตัดสินใจเชิงกลยุทธ์"], "growth_outlook": "เป็นที่ต้องการสูง"}
+            ],
+            "C": [
+                {"title": "นักวิเคราะห์การเงินและการลงทุน (Financial Analyst)", "description": "วิเคราะห์ข้อมูลทางการเงิน ประเมินความเสี่ยง และวางแผนการลงทุน", "match_percentage": 94, "skills": ["Financial Modeling", "Risk Management", "การวิเคราะห์งบการเงิน"], "growth_outlook": "เติบโตสูง"},
+                {"title": "ผู้ตรวจสอบบัญชีและนักวางระบบการเงิน (Auditor & FinTech)", "description": "ตรวจสอบและจัดระเบียบระบบบัญชีและการเงินให้มีความโปร่งใสและถูกต้อง", "match_percentage": 90, "skills": ["การสอบบัญชี", "กฎหมายภาษี", "ความละเอียดแม่นยำ"], "growth_outlook": "มั่นคงสูง"},
+                {"title": "ผู้จัดการข้อมูลและกระบวนการทางธุรกิจ (Business Process Analyst)", "description": "ออกแบบและปรับปรุงขั้นตอนการดำเนินงานในองค์กรให้มีประสิทธิภาพสูงสุด", "match_percentage": 86, "skills": ["Data Governance", "Process Optimization", "การจัดการฐานข้อมูล"], "growth_outlook": "เติบโตต่อเนื่อง"}
+            ]
+        }
+
+        top_dim = sorted_traits[0][0]
+        second_dim = sorted_traits[1][0] if len(sorted_traits) > 1 else top_dim
+        fallback_careers = list(dim_careers_map.get(top_dim, dim_careers_map["I"])[:2])
+        if len(fallback_careers) < 3:
+            second_career = dim_careers_map.get(second_dim, dim_careers_map["E"])[0]
+            fallback_careers.append(second_career)
+
         gemini_data = {
             "archetype_title": f"ผู้บุกเบิกสาย {top_name}",
             "archetype_description": f"คุณเป็นคนที่มีความโดดเด่นด้าน {top_name} และมุ่งมั่นที่จะพัฒนาตนเอง",
             "personality_summary": f"คุณมีคะแนนโดดเด่นในกลุ่ม {top_code} ซึ่งสะท้อนถึงความเป็นคนชอบเรียนรู้ ลงมือทำ และมีวิสัยทัศน์ที่ชัดเจนในการแก้ปัญหา เหมาะอย่างยิ่งกับสาขาวิชาที่ได้ใช้ทั้งความคิดเชิงวิเคราะห์และความคิดสร้างสรรค์",
             "strengths": ["การคิดวิเคราะห์อย่างเป็นระบบ", "ความมุ่งมั่นในการเรียนรู้", "ความสามารถในการปรับตัว"],
             "ideal_work_environment": "สภาพแวดล้อมที่เปิดกว้าง มีพื้นที่ให้ได้คิดและสร้างสรรค์สิ่งใหม่",
+            "campus_vibe_match": "มหาวิทยาลัยที่มีบรรยากาศส่งเสริมการเรียนรู้และมีสิ่งอำนวยความสะดวกครบครัน",
+            "learning_style_match": "การเรียนที่ผสมผสานทฤษฎีกับการลงมือทำโครงงานจริง",
+            "lifestyle_highlights": ["ชอบบรรยากาศที่เปิดกว้าง", "ให้ความสำคัญกับสมดุลการเรียนและการใช้ชีวิต"],
             "growth_advice": "เริ่มสะสมผลงาน (Portfolio) และหาโอกาสเข้าร่วมค่ายกิจกรรมหรืออบรมทักษะที่เกี่ยวข้อง",
             "share_quote": "ค้นพบตัวตนและเส้นทางที่ใช่ ก้าวสู่อนาคตอย่างมั่นใจ 🌟",
-            "top_careers": [
-                {
-                    "title": f"สายอาชีพที่เหมาะกับ {top_name}",
-                    "description": f"อาชีพที่ตรงกับบุคลิกภาพแบบ {top_code}",
-                    "match_percentage": 90,
-                    "skills": ["ทักษะเฉพาะทาง", "การวิเคราะห์", "การสื่อสาร"],
-                    "growth_outlook": "เติบโตสูง"
-                }
-            ],
+            "top_careers": fallback_careers,
             "search_keywords": fallback_keywords
         }
 
@@ -264,13 +336,17 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
 
         matched_db = []
         
-        # 1. Try pgvector semantic search if there's free text input
+        # 1. Try pgvector semantic search if there's free text input or lifestyle context
+        query_parts = []
         if request.free_text_answers and any(request.free_text_answers.values()):
-            # Build a rich query from free text + archetype
-            query_parts = list(request.free_text_answers.values())
+            query_parts.extend(list(request.free_text_answers.values()))
+        if lifestyle_items:
+            query_parts.extend(lifestyle_items)
+            
+        if query_parts or search_kws:
             query_parts.append(gemini_data.get("archetype_description", ""))
             query_parts.extend(search_kws)
-            query_text = " ".join([p for p in query_parts if p])
+            query_text = " ".join([str(p) for p in query_parts if p])
             
             embedding = _get_embedding_with_retry(query_text)
             if embedding and len(embedding) == 768:
@@ -279,7 +355,7 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
                     CourseDB.embedding.cosine_distance(embedding)
                 ).limit(6).all()
         
-        # 2. Fallback to keyword matching if pgvector fails or no free text
+        # 2. Fallback to keyword matching if pgvector fails or returns empty
         if not matched_db:
             filters = []
             for kw in search_kws:
@@ -322,6 +398,9 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
         personality_summary=gemini_data.get("personality_summary", ""),
         strengths=gemini_data.get("strengths", []),
         ideal_work_environment=gemini_data.get("ideal_work_environment", ""),
+        campus_vibe_match=gemini_data.get("campus_vibe_match", "มหาวิทยาลัยที่มีบรรยากาศส่งเสริมการเรียนรู้และมีสิ่งอำนวยความสะดวกครบครัน"),
+        learning_style_match=gemini_data.get("learning_style_match", "การเรียนที่ผสมผสานทฤษฎีกับการลงมือทำโครงงานจริง"),
+        lifestyle_highlights=gemini_data.get("lifestyle_highlights", ["เปิดรับสิ่งใหม่", "มุ่งมั่นพัฒนาตนเอง"]),
         growth_advice=gemini_data.get("growth_advice", ""),
         share_quote=gemini_data.get("share_quote", ""),
         top_careers=[

@@ -4,14 +4,16 @@ from app.models.schema import CourseSchema
 
 
 class QuizAnswerItem(BaseModel):
-    question_id: int
+    question_id: Any
     dimension: Optional[str] = None  # R, I, A, S, E, C or custom
+    category: Optional[str] = None  # Location, Vibe, Budget, etc.
     value: Any  # Likert score (1-5), single string, array of strings
+    label: Optional[str] = None  # Text of selected option
     text: Optional[str] = None  # Free text response
 
 
 class CareerQuizSubmitRequest(BaseModel):
-    tier: str = Field("standard", description="'quick' (5 questions), 'standard' (20 questions), or 'deep' (50 questions)")
+    tier: str = Field("standard", description="'quick' (12 questions), 'standard' (24 questions), or 'deep' (50 questions)")
     answers: List[QuizAnswerItem] = Field(default_factory=list)
     free_text_answers: Dict[str, str] = Field(default_factory=dict)
 
@@ -42,6 +44,9 @@ class CareerProfileResponse(BaseModel):
     personality_summary: str
     strengths: List[str] = Field(default_factory=list)
     ideal_work_environment: str
+    campus_vibe_match: Optional[str] = None
+    learning_style_match: Optional[str] = None
+    lifestyle_highlights: List[str] = Field(default_factory=list)
     growth_advice: str
     share_quote: str
     top_careers: List[CareerRecommendation] = Field(default_factory=list)
