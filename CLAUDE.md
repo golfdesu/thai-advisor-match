@@ -189,4 +189,14 @@ To ensure sub-second response times (< 500ms for searches, < 1.5s for AI generat
 - **Environment-based URLs:** Always reference `process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1"`. Never hardcode `http://localhost:8000`.
 - **Image Resilience:** Always add `loading="lazy"`, `decoding="async"`, and `onError` fallback handlers (e.g. UI-Avatars) to external university images to prevent layout shifts and broken states.
 - **Instant Search on Interaction:** Clicking popular chips or quick tags must immediately trigger the search action rather than requiring an extra click.
+- **Enforce Query Limits:** Always apply reasonable default pagination limits (`limit=24..50`) on list queries to keep frontend DOM node counts and memory lightweight.
+
+### 5. Data Ingestion, Scraping & Batch Processing Rules
+- **Multi-threaded Scraping:** Always use `ThreadPoolExecutor(max_workers=6..8)` when fetching faculty detail pages over HTTP instead of sequential blocking requests.
+- **Immediate Embedding on Seeding:** Always compute and persist `embedding_text` and `embedding` vector (768-dim) directly during course seeding scripts so new records are instantly searchable via pgvector.
+- **Batch Database Updates:** In automation scripts, use `Model.id.in_(batch_ids)` and commit once per batch to eliminate N+1 roundtrips to the database.
+- **Targeted Scholar Enrichment:** Only process records missing publication data (`featured_publications == None | []`) and commit in chunks to avoid redundant SerpApi queries.
+
+### 6. Fallback Search & Query Protection Rules
+- **SQL Pre-filtering for Fallbacks:** In lexical/keyword fallback algorithms, always apply `filter(or_(*filters)).limit(...)` at the SQL level. NEVER call `.all()` on an unconstrained table to loop over in Python memory.
 

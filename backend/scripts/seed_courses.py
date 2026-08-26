@@ -157,19 +157,43 @@ INITIAL_COURSES = [
     }
 ]
 
+from app.core.embedding_service import embedding_service
+
+def build_course_embedding_text(c: dict) -> str:
+    highlights_text = ", ".join(c.get("curriculum_highlights", []))
+    careers_text = ", ".join(c.get("career_paths", []))
+    tags_text = ", ".join(c.get("tags", []))
+    return (
+        f"{c['title_th']} {c.get('title_en', '')}. "
+        f"University: {c['university']} {c['university_th']}. "
+        f"Faculty: {c['faculty']} {c['faculty_th']}. "
+        f"Department: {c.get('department', '')} {c.get('department_th', '')}. "
+        f"Degree: {c['degree_level']} {c.get('degree_name', '')}. "
+        f"Description: {c.get('description', '')}. "
+        f"Highlights: {highlights_text}. "
+        f"Careers: {careers_text}. "
+        f"Tags: {tags_text}."
+    )
+
 def seed_courses():
     logger.info("Initializing courses table...")
     Base.metadata.create_all(bind=engine)
     
     with Session(engine) as session:
         for c in INITIAL_COURSES:
+            emb_text = build_course_embedding_text(c)
+            emb_vector = embedding_service.get_embedding(emb_text)
+            
             existing = session.query(CourseDB).filter_by(id=c["id"]).first()
             if existing:
                 logger.info(f"Course {c['id']} already exists. Updating...")
                 for key, value in c.items():
                     setattr(existing, key, value)
+                existing.embedding_text = emb_text
+                if emb_vector and len(emb_vector) == 768:
+                    existing.embedding = emb_vector
             else:
-                logger.info(f"Inserting new course: {c['title_th']}")
+                logger.info(f"Inserting new course with vector embedding: {c['title_th']}")
                 course_db = CourseDB(
                     id=c["id"],
                     title_th=c["title_th"],
@@ -191,11 +215,13 @@ def seed_courses():
                     curriculum_highlights=c.get("curriculum_highlights", []),
                     career_paths=c.get("career_paths", []),
                     tags=c.get("tags", []),
-                    website_url=c.get("website_url")
+                    website_url=c.get("website_url"),
+                    embedding_text=emb_text,
+                    embedding=emb_vector if (emb_vector and len(emb_vector) == 768) else None
                 )
                 session.add(course_db)
         session.commit()
-        logger.info("Course seeding completed successfully! 🎉")
+        logger.info("Course seeding completed successfully with vector embeddings! 🎉")
 
 if __name__ == "__main__":
     seed_courses()

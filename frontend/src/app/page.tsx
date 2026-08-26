@@ -122,7 +122,7 @@ export default function Home() {
   const fetchInitialCourses = async () => {
     try {
       setLoading(true);
-      const res = await fetch(`${BACKEND_URL}/courses/`);
+      const res = await fetch(`${BACKEND_URL}/courses/?limit=24`);
       if (res.ok) {
         const data = await res.json();
         setCourses(data);

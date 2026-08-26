@@ -90,20 +90,26 @@ def recompute_embeddings():
         batch = tasks[i:i+BATCH_SIZE]
         db = SessionLocal()
         
-        from concurrent.futures import ThreadPoolExecutor, as_completed
+        results_map = {}
         with ThreadPoolExecutor(max_workers=BATCH_SIZE) as executor:
             future_to_id = {executor.submit(generate_faculty_embedding, tid, txt): tid for tid, txt in batch}
             
             for future in as_completed(future_to_id):
                 fac_id, vector, err = future.result()
                 if vector:
-                    f = db.query(FacultyDB).filter(FacultyDB.id == fac_id).first()
-                    if f:
-                        f.embedding = vector
-                        f.embedding_text = [t for i, t in batch if i == fac_id][0]
-                        completed += 1
+                    results_map[fac_id] = vector
                 else:
                     print(f"Failed {fac_id}: {err}")
+
+        if results_map:
+            batch_ids = list(results_map.keys())
+            batch_text_map = dict(batch)
+            fac_records = db.query(FacultyDB).filter(FacultyDB.id.in_(batch_ids)).all()
+            for f in fac_records:
+                if f.id in results_map:
+                    f.embedding = results_map[f.id]
+                    f.embedding_text = batch_text_map.get(f.id, "")
+                    completed += 1
         
         db.commit()
         db.close()

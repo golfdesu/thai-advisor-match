@@ -1,5 +1,6 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session, defer
+from sqlalchemy import or_
 from app.models.schema import SearchRequest, SearchResponse, ColdEmailRequest, ColdEmailResponse, SearchMatchResult
 from app.models.db_models import FacultyDB
 from app.api.routes_faculty import db_to_pydantic
@@ -14,7 +15,22 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
     expanded_query = embedding_service.expand_query(query_str).lower()
     raw_tokens = [t.strip() for t in expanded_query.split() if len(t.strip()) >= 2]
     
-    faculties = query_db.options(defer(FacultyDB.embedding)).all()
+    # 1. SQL-level candidate pre-filtering to prevent loading entire database into RAM
+    candidate_query = query_db.options(defer(FacultyDB.embedding))
+    if raw_tokens:
+        filters = []
+        for token in raw_tokens[:5]:
+            pattern = f"%{token}%"
+            filters.append(FacultyDB.full_name_th.ilike(pattern))
+            filters.append(FacultyDB.department_th.ilike(pattern))
+            filters.append(FacultyDB.faculty_th.ilike(pattern))
+            filters.append(FacultyDB.embedding_text.ilike(pattern))
+        
+        faculties = candidate_query.filter(or_(*filters)).limit(max(top_k * 4, 30)).all()
+        if not faculties:
+            faculties = candidate_query.limit(max(top_k * 2, 20)).all()
+    else:
+        faculties = candidate_query.limit(top_k).all()
     scored_list = []
     
     for db_fac in faculties:

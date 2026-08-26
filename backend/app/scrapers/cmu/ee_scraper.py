@@ -210,6 +210,8 @@ class CMUElectricalEngineeringScraper(BaseScraper):
             soup = BeautifulSoup(response.text, "html.parser")
             member_cards = soup.select(".member")
 
+            # 1. Parse basic member card data first
+            raw_members = []
             for card in member_cards:
                 name_elem = card.select_one(".member-info a")
                 if not name_elem:
@@ -254,42 +256,55 @@ class CMUElectricalEngineeringScraper(BaseScraper):
                 first_name = name_parts[0] if name_parts else ""
                 last_name = " ".join(name_parts[1:]) if len(name_parts) > 1 else ""
 
-                # Scrape detailed bio and research interests
-                education, research_interests, taught_courses, featured_publications, scholar_url = self._scrape_details(profile_url, first_name)
+                raw_members.append({
+                    "id": member_id,
+                    "title_th": title_th,
+                    "first_name": first_name,
+                    "last_name": last_name,
+                    "full_name_th": full_name_th,
+                    "email": email,
+                    "image_url": image_url,
+                    "profile_url": profile_url
+                })
 
-                embedding_text = (
-                    f"{full_name_th} {self.university_name_th} {self.university_name} "
+            # 2. Fetch detailed profile info concurrently using ThreadPoolExecutor
+            def process_member(m_data):
+                edu, interests, courses, pubs, scholar = self._scrape_details(m_data["profile_url"], m_data["first_name"])
+                emb_text = (
+                    f"{m_data['full_name_th']} {self.university_name_th} {self.university_name} "
                     f"{self.faculty_name_th} {self.faculty_name} "
                     f"{self.department_name_th} {self.department_name}. "
-                    f"งานวิจัย: {', '.join(research_interests)}. "
-                    f"วิชาที่สอน: {', '.join(taught_courses)}. "
-                    f"การศึกษา: {', '.join(education)}."
+                    f"งานวิจัย: {', '.join(interests)}. "
+                    f"วิชาที่สอน: {', '.join(courses)}. "
+                    f"การศึกษา: {', '.join(edu)}."
                 )
-
-                member = FacultyMember(
-                    id=member_id,
+                return FacultyMember(
+                    id=m_data["id"],
                     university=self.university_name,
                     university_th=self.university_name_th,
                     faculty=self.faculty_name,
                     faculty_th=self.faculty_name_th,
                     department=self.department_name,
                     department_th=self.department_name_th,
-                    academic_title_th=title_th,
-                    first_name=first_name,
-                    last_name=last_name,
-                    full_name_th=full_name_th,
+                    academic_title_th=m_data["title_th"],
+                    first_name=m_data["first_name"],
+                    last_name=m_data["last_name"],
+                    full_name_th=m_data["full_name_th"],
                     role="คณาจารย์ประจำภาควิชา",
-                    email=email,
-                    image_url=image_url,
-                    profile_url=profile_url,
-                    education=education,
-                    research_interests=research_interests,
-                    taught_courses=taught_courses,
-                    featured_publications=featured_publications,
-                    scholar_url=scholar_url,
-                    embedding_text=embedding_text
+                    email=m_data["email"],
+                    image_url=m_data["image_url"],
+                    profile_url=m_data["profile_url"],
+                    education=edu,
+                    research_interests=interests,
+                    taught_courses=courses,
+                    featured_publications=pubs,
+                    scholar_url=scholar,
+                    embedding_text=emb_text
                 )
-                faculty_members.append(member)
+
+            from concurrent.futures import ThreadPoolExecutor
+            with ThreadPoolExecutor(max_workers=8) as executor:
+                faculty_members = list(executor.map(process_member, raw_members))
 
         except Exception as e:
             print(f"[CMUScraper] Unexpected error: {e}")
