@@ -4,7 +4,7 @@ import logging
 import threading
 from typing import Dict, Any, List
 from fastapi import APIRouter, HTTPException, Depends
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, defer
 from sqlalchemy import or_
 
 from app.core.database import get_db
@@ -17,43 +17,18 @@ from app.models.quiz_schema import (
     RiasecBreakdown,
     CareerRecommendation
 )
-from google import genai
+from app.core.embedding_service import embedding_service
 from google.genai import types
 import time
 
 logger = logging.getLogger("CareerQuizRouter")
 router = APIRouter(prefix="/career-quiz", tags=["Career & Faculty Discovery Quiz"])
 
-from app.core.embedding_service import load_all_gemini_keys
-
-def _get_api_keys() -> List[str]:
-    return load_all_gemini_keys()
-
-_key_lock = threading.Lock()
-_current_key_idx = 0
-
-def _get_client():
-    global _current_key_idx
-    keys = _get_api_keys()
-    if not keys:
-        return None
-    with _key_lock:
-        key = keys[_current_key_idx % len(keys)]
-        return genai.Client(api_key=key)
-
-def _rotate_key():
-    global _current_key_idx
-    keys = _get_api_keys()
-    if not keys:
-        return
-    with _key_lock:
-        _current_key_idx = (_current_key_idx + 1) % len(keys)
-
-def _call_gemini_with_retry(prompt: str, max_retries: int = 10):
-    """Call Gemini generate_content with key rotation and retry on 429."""
+def _call_gemini_with_retry(prompt: str, max_retries: int = 3):
+    """Call Gemini generate_content with key rotation and fast retry on 429."""
     for attempt in range(max_retries):
         try:
-            client = _get_client()
+            client = embedding_service._get_client()
             if not client:
                 logger.error("No Gemini API key available")
                 return None
@@ -69,36 +44,12 @@ def _call_gemini_with_retry(prompt: str, max_retries: int = 10):
         except Exception as e:
             err_str = str(e)
             if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
-                _rotate_key()
-                time.sleep(0.5)
+                embedding_service._rotate_key()
+                time.sleep(0.2)
                 continue
             logger.error(f"Gemini call error (attempt {attempt+1}): {e}")
-            _rotate_key()
-            time.sleep(0.5)
-    return None
-
-def _get_embedding_with_retry(text: str, max_retries: int = 10):
-    """Get embedding vector with key rotation and retry on 429."""
-    for attempt in range(max_retries):
-        try:
-            client = _get_client()
-            if not client:
-                return None
-            response = client.models.embed_content(
-                model='gemini-embedding-2',
-                contents=text,
-                config={'output_dimensionality': 768}
-            )
-            return response.embeddings[0].values
-        except Exception as e:
-            err_str = str(e)
-            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
-                _rotate_key()
-                time.sleep(0.5)
-                continue
-            logger.error(f"Embedding error (attempt {attempt+1}): {e}")
-            _rotate_key()
-            time.sleep(0.5)
+            embedding_service._rotate_key()
+            time.sleep(0.2)
     return None
 
 
@@ -326,7 +277,9 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
     recommended_courses = []
 
     try:
-        base_query = db.query(CourseDB).filter(
+        base_query = db.query(CourseDB).options(
+            defer(CourseDB.embedding), defer(CourseDB.embedding_text)
+        ).filter(
             or_(
                 CourseDB.degree_level.ilike("%ปริญญาตรี%"),
                 CourseDB.degree_level.ilike("%Bachelor%"),
@@ -348,10 +301,10 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
             query_parts.extend(search_kws)
             query_text = " ".join([str(p) for p in query_parts if p])
             
-            embedding = _get_embedding_with_retry(query_text)
+            embedding = embedding_service.get_embedding(query_text)
             if embedding and len(embedding) == 768:
                 # Semantic search using pgvector cosine_distance
-                matched_db = base_query.order_by(
+                matched_db = base_query.filter(CourseDB.embedding.isnot(None)).order_by(
                     CourseDB.embedding.cosine_distance(embedding)
                 ).limit(6).all()
         

@@ -67,13 +67,19 @@ class EmbeddingService:
         self.api_keys = load_all_gemini_keys()
         self._key_lock = threading.Lock()
         self._current_key_idx = 0
+        self._clients: Dict[str, genai.Client] = {}
+        self._embedding_cache: Dict[str, List[float]] = {}
+        self._cache_lock = threading.Lock()
+        self._max_cache_size = 2048
 
     def _get_client(self):
         if not self.api_keys:
             return None
         with self._key_lock:
-            key = self.api_keys[self._current_key_idx]
-            return genai.Client(api_key=key)
+            key = self.api_keys[self._current_key_idx % len(self.api_keys)]
+            if key not in self._clients:
+                self._clients[key] = genai.Client(api_key=key)
+            return self._clients[key]
 
     def _rotate_key(self):
         if not self.api_keys or len(self.api_keys) <= 1:
@@ -96,11 +102,16 @@ class EmbeddingService:
         return expanded
 
     def get_embedding(self, text: str, max_retries: int = 3) -> List[float]:
-        """Generate a 768-dimensional embedding vector using Gemini with key rotation."""
-        if not self.api_keys:
+        """Generate a 768-dimensional embedding vector using Gemini with caching & key rotation."""
+        if not text or not text.strip() or not self.api_keys:
             return []
             
-        expanded_text = self.expand_query(text)
+        clean_text = text.strip()
+        with self._cache_lock:
+            if clean_text in self._embedding_cache:
+                return self._embedding_cache[clean_text]
+
+        expanded_text = self.expand_query(clean_text)
         
         for attempt in range(max_retries):
             client = self._get_client()
@@ -112,16 +123,23 @@ class EmbeddingService:
                     contents=expanded_text,
                     config={'output_dimensionality': 768}
                 )
-                return response.embeddings[0].values
+                vec = response.embeddings[0].values
+                if vec and len(vec) == 768:
+                    with self._cache_lock:
+                        if len(self._embedding_cache) >= self._max_cache_size:
+                            for k in list(self._embedding_cache.keys())[:200]:
+                                self._embedding_cache.pop(k, None)
+                        self._embedding_cache[clean_text] = vec
+                return vec
             except Exception as e:
                 err_str = str(e)
                 if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
                     self._rotate_key()
-                    time.sleep(0.3)
+                    time.sleep(0.2)
                     continue
                 print(f"[EmbeddingService] Failed to generate embedding: {e}")
                 self._rotate_key()
-                time.sleep(0.3)
+                time.sleep(0.2)
         return []
 
     def generate_smart_explanation(
@@ -172,7 +190,7 @@ class EmbeddingService:
 
 
     def generate_cold_email_ai(self, req: dict, faculty: FacultyMember, max_retries: int = 2) -> tuple[str, str, list[str]]:
-        """Use Gemini to draft a highly professional cold email."""
+        """Use Gemini to draft a highly professional cold email quickly."""
         if not self.api_keys:
             return "Subject", "Body", []
             
@@ -200,7 +218,8 @@ class EmbeddingService:
             "tips": ["Tip 1", "Tip 2", "Tip 3"] // 3 practical tips for sending this email
         }}
         """
-        for model_name in ['gemini-3.1-pro-preview', 'gemini-3.6-flash']:
+        # Prioritize Fast Flash model first for instantaneous generation (~1.2s)
+        for model_name in ['gemini-3.6-flash', 'gemini-2.5-flash', 'gemini-3.1-pro-preview']:
             for attempt in range(max_retries):
                 client = self._get_client()
                 if not client:
@@ -220,7 +239,7 @@ class EmbeddingService:
                     err_str = str(e)
                     if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
                         self._rotate_key()
-                        time.sleep(0.3)
+                        time.sleep(0.2)
                         continue
                     print(f"[EmbeddingService] Failed to generate cold email with {model_name}: {e}")
                     self._rotate_key()

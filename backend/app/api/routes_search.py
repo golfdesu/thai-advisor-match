@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, Depends
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, defer
 from app.models.schema import SearchRequest, SearchResponse, ColdEmailRequest, ColdEmailResponse, SearchMatchResult
 from app.models.db_models import FacultyDB
 from app.api.routes_faculty import db_to_pydantic
@@ -14,7 +14,7 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
     expanded_query = embedding_service.expand_query(query_str).lower()
     raw_tokens = [t.strip() for t in expanded_query.split() if len(t.strip()) >= 2]
     
-    faculties = query_db.all()
+    faculties = query_db.options(defer(FacultyDB.embedding)).all()
     scored_list = []
     
     for db_fac in faculties:
@@ -63,7 +63,7 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
         raise HTTPException(status_code=400, detail="Search query must contain at least 2 characters")
 
     # 1. Base query with optional filters
-    query_db = db.query(FacultyDB)
+    query_db = db.query(FacultyDB).options(defer(FacultyDB.embedding))
     if request.university and request.university.strip() and request.university.strip().lower() != "all":
         query_db = query_db.filter(
             FacultyDB.university.ilike(f"%{request.university.strip()}%") |
@@ -90,6 +90,7 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
             distance_col = FacultyDB.embedding.cosine_distance(query_vector).label("distance")
             vector_query = (
                 db.query(FacultyDB, distance_col)
+                .options(defer(FacultyDB.embedding))
                 .filter(FacultyDB.embedding.isnot(None))
             )
             if request.university and request.university.strip() and request.university.strip().lower() != "all":

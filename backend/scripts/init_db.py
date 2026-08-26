@@ -52,6 +52,17 @@ def init_db():
     Base.metadata.create_all(bind=engine)
     logger.info("Tables created successfully.")
 
+    # Create HNSW vector indexes for ultra-fast cosine similarity search on pgvector
+    if not str(engine.url).startswith("sqlite"):
+        with engine.connect() as conn:
+            try:
+                conn.execute(text("CREATE INDEX IF NOT EXISTS idx_faculties_embedding_hnsw ON faculties USING hnsw (embedding vector_cosine_ops);"))
+                conn.execute(text("CREATE INDEX IF NOT EXISTS idx_courses_embedding_hnsw ON courses USING hnsw (embedding vector_cosine_ops);"))
+                conn.commit()
+                logger.info("HNSW Vector Indexes verified/created successfully.")
+            except Exception as ex:
+                logger.warning(f"Could not create HNSW indexes (may already exist or not supported): {ex}")
+
     # Seed data
     data_file = Path(__file__).resolve().parent.parent.parent / "cmu_ee_faculty.json"
     if data_file.exists():

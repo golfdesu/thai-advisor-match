@@ -1,7 +1,7 @@
 import json
 from typing import List, Optional
 from fastapi import APIRouter, HTTPException, Query, Depends
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, defer
 from app.models.schema import FacultyMember
 from app.models.db_models import FacultyDB
 from app.core.database import get_db
@@ -37,7 +37,7 @@ def db_to_pydantic(db_model: FacultyDB) -> FacultyMember:
             for pub in (db_model.featured_publications or [])
         ],
         scholar_url=db_model.scholar_url,
-        embedding_text=db_model.embedding_text
+        embedding_text=getattr(db_model, "embedding_text", None)
     )
 
 @router.get("/", response_model=List[FacultyMember])
@@ -48,7 +48,7 @@ def list_faculty(
     db: Session = Depends(get_db)
 ):
     """Retrieve all faculty members with optional filtering from PostgreSQL Database."""
-    query = db.query(FacultyDB)
+    query = db.query(FacultyDB).options(defer(FacultyDB.embedding))
     
     if university:
         query = query.filter(FacultyDB.university.ilike(f"%{university}%") | FacultyDB.university_th.ilike(f"%{university}%"))
@@ -62,7 +62,7 @@ def list_faculty(
 @router.get("/{faculty_id}", response_model=FacultyMember)
 def get_faculty_profile(faculty_id: str, db: Session = Depends(get_db)):
     """Retrieve a specific faculty member by ID from PostgreSQL Database."""
-    db_faculty = db.query(FacultyDB).filter(FacultyDB.id == faculty_id).first()
+    db_faculty = db.query(FacultyDB).options(defer(FacultyDB.embedding)).filter(FacultyDB.id == faculty_id).first()
     if not db_faculty:
         raise HTTPException(status_code=404, detail="Faculty member not found")
     return db_to_pydantic(db_faculty)
