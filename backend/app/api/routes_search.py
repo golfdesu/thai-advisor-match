@@ -44,13 +44,7 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
     results = []
     for db_fac, score, matched_kws in scored_list[:top_k]:
         fac_model = db_to_pydantic(db_fac)
-        if matched_kws:
-            interests_matched = [i for i in (fac_model.research_interests or []) if any(k in i.lower() for k in matched_kws)]
-            int_str = ", ".join(interests_matched[:2]) if interests_matched else (fac_model.research_interests[0] if fac_model.research_interests else "หัวข้อที่เกี่ยวข้อง")
-            explanation = f"อาจารย์มีความเชี่ยวชาญด้าน {int_str} ซึ่งตรงกับคำค้นหาของคุณ"
-        else:
-            explanation = "อาจารย์ในสาขาวิชาที่เกี่ยวข้องกับหัวข้อที่คุณค้นหา"
-            
+        explanation = embedding_service.generate_smart_explanation(query_str, fac_model, score, matched_kws)
         results.append(SearchMatchResult(
             faculty=fac_model,
             match_score=round(score, 1),
@@ -68,43 +62,76 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
     if not request.query or len(request.query.strip()) < 2:
         raise HTTPException(status_code=400, detail="Search query must contain at least 2 characters")
 
-    # 1. Get query embedding
-    query_vector = embedding_service.get_embedding(request.query)
-
+    # 1. Base query with optional filters
     query_db = db.query(FacultyDB)
-    if request.university:
-        query_db = query_db.filter(FacultyDB.university.ilike(f"%{request.university}%") | FacultyDB.university_th.ilike(f"%{request.university}%"))
-    if request.department:
-        query_db = query_db.filter(FacultyDB.department.ilike(f"%{request.department}%") | FacultyDB.department_th.ilike(f"%{request.department}%"))
+    if request.university and request.university.strip() and request.university.strip().lower() != "all":
+        query_db = query_db.filter(
+            FacultyDB.university.ilike(f"%{request.university.strip()}%") |
+            FacultyDB.university_th.ilike(f"%{request.university.strip()}%")
+        )
+    if request.faculty and request.faculty.strip() and request.faculty.strip().lower() != "all":
+        query_db = query_db.filter(
+            FacultyDB.faculty.ilike(f"%{request.faculty.strip()}%") |
+            FacultyDB.faculty_th.ilike(f"%{request.faculty.strip()}%")
+        )
+    if request.department and request.department.strip() and request.department.strip().lower() != "all":
+        query_db = query_db.filter(
+            FacultyDB.department.ilike(f"%{request.department.strip()}%") |
+            FacultyDB.department_th.ilike(f"%{request.department.strip()}%")
+        )
+
+    # 2. Get query embedding
+    query_vector = embedding_service.get_embedding(request.query)
 
     ranked_results = []
 
     if query_vector:
         try:
-            results = db.query(
-                FacultyDB,
-                FacultyDB.embedding.cosine_distance(query_vector).label("distance")
-            ).filter(FacultyDB.id.in_([f.id for f in query_db.all()])).order_by("distance").limit(request.top_k).all()
+            distance_col = FacultyDB.embedding.cosine_distance(query_vector).label("distance")
+            vector_query = (
+                db.query(FacultyDB, distance_col)
+                .filter(FacultyDB.embedding.isnot(None))
+            )
+            if request.university and request.university.strip() and request.university.strip().lower() != "all":
+                vector_query = vector_query.filter(
+                    FacultyDB.university.ilike(f"%{request.university.strip()}%") |
+                    FacultyDB.university_th.ilike(f"%{request.university.strip()}%")
+                )
+            if request.faculty and request.faculty.strip() and request.faculty.strip().lower() != "all":
+                vector_query = vector_query.filter(
+                    FacultyDB.faculty.ilike(f"%{request.faculty.strip()}%") |
+                    FacultyDB.faculty_th.ilike(f"%{request.faculty.strip()}%")
+                )
+            if request.department and request.department.strip() and request.department.strip().lower() != "all":
+                vector_query = vector_query.filter(
+                    FacultyDB.department.ilike(f"%{request.department.strip()}%") |
+                    FacultyDB.department_th.ilike(f"%{request.department.strip()}%")
+                )
+
+            results = vector_query.order_by(distance_col).limit(request.top_k).all()
+            
+            expanded_query = embedding_service.expand_query(request.query).lower()
+            query_tokens = [t for t in expanded_query.split() if len(t) >= 2]
             
             for db_fac, dist in results:
                 # 1. Lexical Keyword Boost
-                expanded_query = embedding_service.expand_query(request.query).lower()
-                query_tokens = expanded_query.split()
-                
                 corpus = " ".join((db_fac.research_interests or []) + (db_fac.taught_courses or [])).lower()
                 
                 final_dist = dist
                 lexical_matched = False
+                matched_kws = []
                 
                 for token in query_tokens:
-                    if len(token) >= 2 and token in corpus:
+                    if token in corpus:
                         lexical_matched = True
-                        break
-                    if len(token) >= 5:
+                        if token not in matched_kws:
+                            matched_kws.append(token)
+                    elif len(token) >= 5:
                         stem = token.removesuffix('s').removesuffix('ing').removesuffix('ation').removesuffix('e')
                         if len(stem) >= 4 and stem in corpus:
                             lexical_matched = True
-                            break
+                            if token not in matched_kws:
+                                matched_kws.append(token)
                         
                 if lexical_matched:
                     final_dist -= 0.04  # Strong boost for exact keyword match
@@ -114,15 +141,15 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                 ux_score = normalized * 100.0
                 
                 fac_model = db_to_pydantic(db_fac)
-                explanation = embedding_service._generate_explanation(request.query, fac_model, ux_score)
-                
-                matched_kws = [request.query] if lexical_matched else []
+                explanation = embedding_service.generate_smart_explanation(
+                    request.query, fac_model, ux_score, matched_kws
+                )
                 
                 ranked_results.append(SearchMatchResult(
                     faculty=fac_model,
                     match_score=round(ux_score, 1),
                     ai_explanation=explanation,
-                    matched_keywords=matched_kws
+                    matched_keywords=matched_kws[:3] if matched_kws else ([request.query] if lexical_matched else [])
                 ))
         except Exception as e:
             print(f"Vector search failed, using smart keyword fallback: {e}")

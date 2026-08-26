@@ -124,43 +124,52 @@ class EmbeddingService:
                 time.sleep(0.3)
         return []
 
-    def _generate_explanation(self, query: str, faculty: FacultyMember, score: float, max_retries: int = 2) -> str:
-        """Use Gemini Flash to create a human-readable AI explanation of why this faculty member matches."""
-        interests_str = ", ".join(faculty.research_interests[:3]) if faculty.research_interests else "หัวข้อวิจัยที่เกี่ยวข้อง"
-        fallback_exp = f"อาจารย์มีความเชี่ยวชาญด้าน {interests_str} ซึ่งสอดคล้องกับความสนใจของคุณ"
+    def generate_smart_explanation(
+        self,
+        query: str,
+        faculty: FacultyMember,
+        score: float,
+        matched_keywords: Optional[List[str]] = None
+    ) -> str:
+        """Instantly generate a contextual, high-quality match explanation in Thai without synchronous API latency."""
+        interests = faculty.research_interests or []
+        dept = faculty.department_th or faculty.department or faculty.faculty_th or ""
 
-        if not self.api_keys:
-            return fallback_exp
-            
-        prompt = f"""
-        Student's Thesis Idea: "{query}"
-        Professor's Name: {faculty.full_name_th or faculty.full_name}
-        Professor's Department: {faculty.department_th or faculty.department}
-        Professor's Research Interests: {', '.join(faculty.research_interests or [])}
-        
-        Write a concise, convincing 2-sentence explanation in Thai (max 40 words) for the student, explaining exactly WHY this professor is a great fit for their thesis idea. Tone: Professional, encouraging.
-        """
-        for attempt in range(max_retries):
-            client = self._get_client()
-            if not client:
-                return fallback_exp
-            try:
-                response = client.models.generate_content(
-                    model='gemini-3.6-flash',
-                    contents=prompt,
-                )
-                if response.text:
-                    return response.text.strip()
-            except Exception as e:
-                err_str = str(e)
-                if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str:
-                    self._rotate_key()
-                    time.sleep(0.3)
-                    continue
-                print(f"[EmbeddingService] Failed to generate explanation: {e}")
-                self._rotate_key()
-                
-        return fallback_exp
+        # Extract tokens from expanded query
+        expanded_tokens = [t.lower() for t in self.expand_query(query).split() if len(t) >= 2]
+        matched_interests = []
+        for interest in interests:
+            interest_lower = interest.lower()
+            if any(t in interest_lower for t in expanded_tokens):
+                matched_interests.append(interest)
+
+        if matched_keywords:
+            for kw in matched_keywords:
+                for interest in interests:
+                    if kw.lower() in interest.lower() and interest not in matched_interests:
+                        matched_interests.append(interest)
+
+        if matched_interests:
+            focus_str = ", ".join(matched_interests[:2])
+            if score >= 80:
+                return f"อาจารย์มีความเชี่ยวชาญและผลงานวิจัยด้าน {focus_str} ซึ่งตรงกับหัวข้อวิจัยที่คุณสนใจอย่างยิ่ง"
+            return f"อาจารย์มีความเชี่ยวชาญด้าน {focus_str} สอดคล้องกับแนวทางการทำวิจัยของคุณ"
+
+        if interests:
+            focus_str = ", ".join(interests[:2])
+            if dept:
+                return f"อาจารย์ประจำ{dept} มีความเชี่ยวชาญหลักด้าน {focus_str} สอดคล้องกับหัวข้อวิจัยของคุณ"
+            return f"อาจารย์มีความเชี่ยวชาญหลักด้าน {focus_str} ซึ่งมีความใกล้เคียงกับขอบเขตที่คุณต้องการศึกษา"
+
+        if dept:
+            return f"อาจารย์ประจำ{dept} มีความเชี่ยวชาญในสาขาวิชาที่เกี่ยวข้องกับหัวข้องานวิจัยของคุณ"
+
+        return "อาจารย์ในสาขาวิชาที่สอดคล้องกับหัวข้อวิจัยที่คุณสนใจ"
+
+    def _generate_explanation(self, query: str, faculty: FacultyMember, score: float, max_retries: int = 1) -> str:
+        """Fast explanation generator for advisor match."""
+        return self.generate_smart_explanation(query, faculty, score)
+
 
     def generate_cold_email_ai(self, req: dict, faculty: FacultyMember, max_retries: int = 2) -> tuple[str, str, list[str]]:
         """Use Gemini to draft a highly professional cold email."""
