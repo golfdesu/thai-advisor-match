@@ -45,7 +45,7 @@ interface FacultyMember {
   scholar_url?: string;
 }
 
-const BACKEND_URL = "http://localhost:8000/api/v1";
+const BACKEND_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1";
 
 export default function AdvisorProfilePage() {
   const params = useParams();
@@ -129,6 +129,11 @@ export default function AdvisorProfilePage() {
             <img 
               src={advisor.image_url || `https://ui-avatars.com/api/?name=${encodeURIComponent(advisor.full_name_th)}&background=4F46E5&color=fff&size=256`} 
               alt={advisor.full_name_th}
+              loading="lazy"
+              decoding="async"
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(advisor.full_name_th)}&background=4F46E5&color=fff&size=256`;
+              }}
               className="w-32 h-32 md:w-40 md:h-40 rounded-3xl object-cover border-4 border-white shadow-lg flex-shrink-0 bg-slate-100"
             />
             <div className="flex-1 w-full">

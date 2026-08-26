@@ -159,3 +159,34 @@ Teacher/
    * Implement Query Expansion (translating Thai terms to English academic equivalents) before generating embeddings to ensure cross-language semantic accuracy.
 3. **Clean Architecture:**
    * Keep frontend UI logic in `frontend/src/app` and API/database logic in `backend/app`.
+
+---
+
+## 6. High-Performance & Anti-Bottleneck Architecture Standards
+
+To ensure sub-second response times (< 500ms for searches, < 1.5s for AI generation) and zero bottlenecks across the stack, all agents and developers MUST strictly follow these design patterns:
+
+### 1. AI & LLM Performance Rules
+- **No Sequential LLM Loops:** NEVER call LLM APIs (Gemini) inside a loop across search candidate lists. Use intelligent contextual template generators (0ms latency), single-batch prompts, or on-demand loading.
+- **In-Memory Embedding Caching:** Always cache query vector embeddings in an in-memory LRU cache (`_embedding_cache`) to achieve 0.001ms response times on frequent/repeated queries.
+- **Client Pooling & Reuse:** Cache `genai.Client` instances by API key in a pool rather than instantiating new clients per HTTP request.
+- **Fast Model Hierarchy:** Default to `gemini-3.6-flash` or `gemini-2.5-flash` for user-facing interactive endpoints (e.g. Cold Email, Quiz). Reserve Pro models strictly for offline tasks.
+- **Parallel AI Execution:** In multi-step pipelines (such as the Career Discovery Quiz), execute LLM psychometric generation and course embedding concurrently using `ThreadPoolExecutor`.
+
+### 2. Database & pgvector Optimization Rules
+- **HNSW Vector Indexes:** Ensure `hnsw (embedding vector_cosine_ops)` indexes exist on `faculties` and `courses` tables.
+- **Direct Vector Distance Ordering:** Use direct `ORDER BY embedding.cosine_distance(query_vector)` with `filter(embedding.isnot(None))` to activate PostgreSQL HNSW index scans. Never wrap distances in `func.coalesce()` or other expressions that force Full Table Scans.
+- **GIN Trigram Indexing for Text:** Utilize the `pg_trgm` extension with GIN indexes on `title_th`, `faculty_th`, `full_name_th`, and `department_th` to accelerate `ILIKE '%...%'` queries.
+- **Heavy Column Deferral:** Always apply `defer(Model.embedding)` and `defer(Model.embedding_text)` on search and list endpoints to avoid transferring 768-float arrays over the network.
+- **Supabase Connection Pooling:** Configure SQLAlchemy with `pool_size=10, max_overflow=20, pool_recycle=300, pool_timeout=15, pool_pre_ping=True` to prevent idle connection drops and cold start penalties.
+
+### 3. Backend & API Rules
+- **Response Compression:** Always enable `GZipMiddleware(minimum_size=1000)` on FastAPI to compress JSON payloads by 70–85%.
+- **Pre-compiled Regex:** Compile dictionary transformations and slang replacements (`re.compile`) once at module level for single-pass processing.
+- **Concurrency Safety:** Define database/blocking endpoints as standard `def` to allow FastAPI/AnyIO to dispatch them to worker thread pools without blocking the main event loop.
+
+### 4. Frontend & UI Performance Rules
+- **Environment-based URLs:** Always reference `process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1"`. Never hardcode `http://localhost:8000`.
+- **Image Resilience:** Always add `loading="lazy"`, `decoding="async"`, and `onError` fallback handlers (e.g. UI-Avatars) to external university images to prevent layout shifts and broken states.
+- **Instant Search on Interaction:** Clicking popular chips or quick tags must immediately trigger the search action rather than requiring an extra click.
+

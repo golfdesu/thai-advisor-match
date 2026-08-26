@@ -86,7 +86,7 @@ interface QuizResultData {
   recommended_courses: RecommendedCourse[];
 }
 
-const BACKEND_URL = "http://localhost:8000/api/v1";
+const BACKEND_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1";
 
 
 function RiasecRadarChart({ scores }: { scores: RiasecScore }) {

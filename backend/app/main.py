@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.middleware.gzip import GZipMiddleware
 from app.core.config import settings
 from app.api.routes_search import router as search_router
 from app.api.routes_faculty import router as faculty_router
@@ -13,6 +14,9 @@ app = FastAPI(
     docs_url="/docs",
     redoc_url="/redoc"
 )
+
+# Enable GZip Compression for all responses > 1KB (reduces network payload by 70-85%)
+app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 # Enable CORS for Next.js Frontend
 app.add_middleware(

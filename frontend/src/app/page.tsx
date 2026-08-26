@@ -89,7 +89,7 @@ interface Course {
   match_score?: number;
 }
 
-const BACKEND_URL = "http://localhost:8000/api/v1";
+const BACKEND_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<"courses" | "advisors">("courses");
@@ -134,8 +134,8 @@ export default function Home() {
     }
   };
 
-  const handleSearch = async (e?: React.FormEvent) => {
-    if (e) e.preventDefault();
+  const executeSearch = async (queryText?: string) => {
+    const queryToUse = queryText !== undefined ? queryText : searchQuery;
     setLoading(true);
     setErrorMsg(null);
     setSearchExecuted(true);
@@ -146,7 +146,7 @@ export default function Home() {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            query: searchQuery,
+            query: queryToUse,
             university: selectedUni === "all" ? null : selectedUni,
             degree_level: selectedDegree === "all" ? null : selectedDegree,
             top_k: 20
@@ -162,7 +162,7 @@ export default function Home() {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            query: searchQuery || "Computer Science and AI",
+            query: queryToUse || "Computer Science and AI",
             university: selectedUni === "all" ? null : selectedUni,
             top_k: 12
           })
@@ -178,6 +178,16 @@ export default function Home() {
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleSearch = async (e?: React.FormEvent) => {
+    if (e) e.preventDefault();
+    executeSearch();
+  };
+
+  const handleQuickTagClick = (tag: string) => {
+    setSearchQuery(tag);
+    executeSearch(tag);
   };
 
   const handleGenerateEmail = async (advisor: FacultyMember) => {
@@ -462,9 +472,7 @@ export default function Home() {
                 <button
                   key={idx}
                   type="button"
-                  onClick={() => {
-                    setSearchQuery(tag);
-                  }}
+                  onClick={() => handleQuickTagClick(tag)}
                   className="bg-slate-100 hover:bg-blue-50 hover:text-blue-600 text-slate-600 px-2.5 py-1 rounded-lg transition font-medium"
                 >
                   #{tag}
@@ -666,6 +674,11 @@ export default function Home() {
                         <img
                           src={advisor.image_url || `https://ui-avatars.com/api/?name=${encodeURIComponent(advisor.full_name_th)}&background=0D8ABC&color=fff&size=128`}
                           alt={advisor.full_name_th}
+                          loading="lazy"
+                          decoding="async"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(advisor.full_name_th)}&background=0D8ABC&color=fff&size=128`;
+                          }}
                           className="w-14 h-14 rounded-2xl object-cover border-2 border-slate-100 shadow-xs flex-shrink-0"
                         />
                         <div>

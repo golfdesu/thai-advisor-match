@@ -43,25 +43,38 @@ def generate_embedding(text_content: str):
 def init_db():
     logger.info("Initializing database...")
     
-    # Create pgvector extension
+    # Create pgvector & pg_trgm extensions
     with engine.connect() as conn:
         conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector;"))
+        if not str(engine.url).startswith("sqlite"):
+            try:
+                conn.execute(text("CREATE EXTENSION IF NOT EXISTS pg_trgm;"))
+            except Exception as e:
+                logger.warning(f"Could not create pg_trgm extension: {e}")
         conn.commit()
     
     # Create tables
     Base.metadata.create_all(bind=engine)
     logger.info("Tables created successfully.")
 
-    # Create HNSW vector indexes for ultra-fast cosine similarity search on pgvector
+    # Create HNSW vector & GIN Trigram indexes for ultra-fast vector & ILIKE text search
     if not str(engine.url).startswith("sqlite"):
         with engine.connect() as conn:
             try:
+                # Vector HNSW Indexes
                 conn.execute(text("CREATE INDEX IF NOT EXISTS idx_faculties_embedding_hnsw ON faculties USING hnsw (embedding vector_cosine_ops);"))
                 conn.execute(text("CREATE INDEX IF NOT EXISTS idx_courses_embedding_hnsw ON courses USING hnsw (embedding vector_cosine_ops);"))
+                
+                # Trigram GIN Indexes for fast ILIKE substring searches
+                conn.execute(text("CREATE INDEX IF NOT EXISTS idx_courses_title_th_trgm ON courses USING gin (title_th gin_trgm_ops);"))
+                conn.execute(text("CREATE INDEX IF NOT EXISTS idx_courses_faculty_th_trgm ON courses USING gin (faculty_th gin_trgm_ops);"))
+                conn.execute(text("CREATE INDEX IF NOT EXISTS idx_faculties_name_th_trgm ON faculties USING gin (full_name_th gin_trgm_ops);"))
+                conn.execute(text("CREATE INDEX IF NOT EXISTS idx_faculties_dept_th_trgm ON faculties USING gin (department_th gin_trgm_ops);"))
+                
                 conn.commit()
-                logger.info("HNSW Vector Indexes verified/created successfully.")
+                logger.info("HNSW Vector & GIN Trigram Indexes verified/created successfully.")
             except Exception as ex:
-                logger.warning(f"Could not create HNSW indexes (may already exist or not supported): {ex}")
+                logger.warning(f"Could not create advanced indexes (may already exist or not supported): {ex}")
 
     # Seed data
     data_file = Path(__file__).resolve().parent.parent.parent / "cmu_ee_faculty.json"

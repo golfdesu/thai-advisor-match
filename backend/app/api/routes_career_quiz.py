@@ -202,8 +202,25 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
     }}
     """
 
-    # Call Gemini API with key rotation
-    gemini_data = _call_gemini_with_retry(prompt)
+    # Compose student profile context for parallel course embedding
+    course_query_parts = []
+    if request.free_text_answers and any(request.free_text_answers.values()):
+        course_query_parts.extend([str(v) for v in request.free_text_answers.values() if v])
+    if lifestyle_items:
+        course_query_parts.extend(lifestyle_items)
+    course_query_parts.append(f"ความสนใจด้าน {trait_names.get(top_code[0], '')}")
+    if len(top_code) > 1:
+        course_query_parts.append(f"{trait_names.get(top_code[1], '')}")
+    initial_course_query_text = " ".join(course_query_parts)
+
+    # 1. Parallel execution: run Gemini psychometric profiling and course embedding concurrently
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        future_gemini = executor.submit(_call_gemini_with_retry, prompt)
+        future_embedding = executor.submit(embedding_service.get_embedding, initial_course_query_text)
+        
+        gemini_data = future_gemini.result()
+        pre_embedding = future_embedding.result()
 
     # Fallback if Gemini fails completely
     if not gemini_data:
@@ -289,24 +306,16 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
 
         matched_db = []
         
-        # 1. Try pgvector semantic search if there's free text input or lifestyle context
-        query_parts = []
-        if request.free_text_answers and any(request.free_text_answers.values()):
-            query_parts.extend(list(request.free_text_answers.values()))
-        if lifestyle_items:
-            query_parts.extend(lifestyle_items)
-            
-        if query_parts or search_kws:
-            query_parts.append(gemini_data.get("archetype_description", ""))
-            query_parts.extend(search_kws)
-            query_text = " ".join([str(p) for p in query_parts if p])
-            
-            embedding = embedding_service.get_embedding(query_text)
-            if embedding and len(embedding) == 768:
-                # Semantic search using pgvector cosine_distance
-                matched_db = base_query.filter(CourseDB.embedding.isnot(None)).order_by(
-                    CourseDB.embedding.cosine_distance(embedding)
-                ).limit(6).all()
+        # Use pre-computed embedding from parallel executor or compute on expanded search_kws
+        embedding = pre_embedding
+        if (not embedding or len(embedding) != 768) and search_kws:
+            combined_text = f"{initial_course_query_text} {' '.join(search_kws)}"
+            embedding = embedding_service.get_embedding(combined_text)
+
+        if embedding and len(embedding) == 768:
+            matched_db = base_query.filter(CourseDB.embedding.isnot(None)).order_by(
+                CourseDB.embedding.cosine_distance(embedding)
+            ).limit(6).all()
         
         # 2. Fallback to keyword matching if pgvector fails or returns empty
         if not matched_db:
