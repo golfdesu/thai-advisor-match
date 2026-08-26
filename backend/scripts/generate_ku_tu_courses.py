@@ -1,0 +1,2226 @@
+# -*- coding: utf-8 -*-
+"""
+Curriculum Data Generator & Validator for Kasetsart University (KU) and Thammasat University (TU).
+Collects, structures, and validates official undergraduate and graduate curricula matching the AGENTS.md schema.
+"""
+
+import json
+import sys
+import os
+from pathlib import Path
+
+# Ensure UTF-8 output
+sys.stdout.reconfigure(encoding='utf-8')
+
+COURSES_DATA = [
+    # =========================================================================
+    # KASETSART UNIVERSITY (มหาวิทยาลัยเกษตรศาสตร์)
+    # =========================================================================
+    # --- 1. Faculty of Engineering (คณะวิศวกรรมศาสตร์ มก.) ---
+    {
+        "id": "ku_eng_cpe_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์",
+        "title_en": "Bachelor of Engineering Program in Computer Engineering",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมคอมพิวเตอร์)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Computer Engineering",
+        "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "138 หน่วยกิต",
+        "tuition_per_semester": "17,300 บาท",
+        "tuition_total": "138,400 บาท",
+        "description": "มุ่งเน้นการสร้างวิศวกรคอมพิวเตอร์ที่มีความรู้ความเชี่ยวชาญทั้งด้านสถาปัตยกรรมคอมพิวเตอร์ วิศวกรรมซอฟต์แวร์ ปัญญาประดิษฐ์ ระบบเครือข่าย และระบบสมองกลฝังตัวเพื่อตอบโจทย์อุตสาหกรรมดิจิทัลแห่งอนาคต",
+        "curriculum_highlights": [
+            "Data Structures & Algorithms Analysis",
+            "Artificial Intelligence & Machine Learning Systems",
+            "Computer Networks & Cyber Security",
+            "Cloud Computing & Distributed Systems",
+            "Software Architecture & Full-Stack Development"
+        ],
+        "career_paths": [
+            "Software Engineer",
+            "AI/ML Engineer",
+            "Cloud Architect",
+            "DevOps Engineer",
+            "Cybersecurity Specialist"
+        ],
+        "tags": [
+            "Computer Engineering",
+            "Software Engineering",
+            "AI",
+            "Cloud",
+            "Cybersecurity"
+        ],
+        "website_url": "https://cpe.ku.ac.th"
+    },
+    {
+        "id": "ku_eng_cpe_meng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรมหาบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์",
+        "title_en": "Master of Engineering Program in Computer Engineering",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วศ.ม. (วิศวกรรมคอมพิวเตอร์)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Computer Engineering",
+        "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "24,000 บาท",
+        "tuition_total": "96,000 บาท",
+        "description": "เน้นการวิจัยเชิงลึกด้าน Advanced AI, Big Data Analytics, Edge Computing, Computer Vision และ Internet of Things เพื่อพัฒนาองค์ความรู้ใหม่และนวัตกรรมระดับสากล",
+        "curriculum_highlights": [
+            "Advanced Artificial Intelligence & Deep Learning",
+            "Big Data Technologies & Analytics",
+            "Advanced Computer Architecture & Parallel Computing",
+            "Internet of Things and Edge Computing Research",
+            "Thesis Research & Innovation Project"
+        ],
+        "career_paths": [
+            "Senior AI Researcher",
+            "Principal Software Engineer",
+            "Data Platform Architect",
+            "University Lecturer / Academic Researcher"
+        ],
+        "tags": [
+            "Computer Engineering",
+            "AI Research",
+            "Big Data",
+            "Deep Learning",
+            "IoT"
+        ],
+        "website_url": "https://cpe.ku.ac.th/grad"
+    },
+    {
+        "id": "ku_eng_ske_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมซอฟต์แวร์และความรู้ (หลักสูตรนานาชาติ SKE)",
+        "title_en": "Bachelor of Engineering Program in Software and Knowledge Engineering (International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมซอฟต์แวร์และความรู้)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Computer Engineering",
+        "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "4 ปี",
+        "total_credits": "134 หน่วยกิต",
+        "tuition_per_semester": "65,000 บาท",
+        "tuition_total": "520,000 บาท",
+        "description": "หลักสูตรนานาชาติที่มุ่งเน้นการสร้างสรรค์วิศวกรซอฟต์แวร์ระดับสากล ผสานความเชี่ยวชาญด้าน Software Architecture, Knowledge Engineering, Web/Mobile Technologies และนวัตกรรมดิจิทัลระดับองค์กร",
+        "curriculum_highlights": [
+            "Software Design Patterns & Clean Code",
+            "Knowledge Engineering & Semantic Web",
+            "Full Stack Cloud Native Application Development",
+            "Agile Software Engineering & DevOps",
+            "Mobile Application Engineering"
+        ],
+        "career_paths": [
+            "Senior Software Engineer",
+            "Full-Stack Developer",
+            "Solutions Architect",
+            "Technical Product Manager"
+        ],
+        "tags": [
+            "Software Engineering",
+            "Knowledge Engineering",
+            "International Program",
+            "DevOps",
+            "Web Development"
+        ],
+        "website_url": "https://ske.cpe.ku.ac.th"
+    },
+    {
+        "id": "ku_eng_ai_iot_meng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรมหาบัณฑิต สาขาวิชาปัญญาประดิษฐ์และอินเทอร์เน็ตของสรรพสิ่ง (หลักสูตรนานาชาติ)",
+        "title_en": "Master of Engineering Program in Artificial Intelligence and Internet of Things (International Program)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วศ.ม. (ปัญญาประดิษฐ์และอินเทอร์เน็ตของสรรพสิ่ง)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Computer Engineering",
+        "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "55,000 บาท",
+        "tuition_total": "220,000 บาท",
+        "description": "หลักสูตรปริญญาโทนานาชาติชั้นแนวหน้าที่บูรณาการระบบปัญญาประดิษฐ์ (AI) เข้ากับอุปกรณ์เชื่อมต่ออัจฉริยะ (IoT) สำหรับ Smart Agriculture, Smart Cities, Industrial Automation และ Healthcare Analytics",
+        "curriculum_highlights": [
+            "Applied Machine Learning & Deep Learning Architectures",
+            "Industrial Internet of Things (IIoT) & Sensor Networks",
+            "Autonomous Systems & Robotics Integration",
+            "Edge AI & Embedded Intelligence",
+            "AI Project Development and Deployment"
+        ],
+        "career_paths": [
+            "AI System Architect",
+            "IoT Solution Specialist",
+            "Robotics & Smart Automation Engineer",
+            "AI Product Specialist"
+        ],
+        "tags": [
+            "AI",
+            "IoT",
+            "Machine Learning",
+            "Smart Cities",
+            "Robotics"
+        ],
+        "website_url": "https://www.eng.ku.ac.th"
+    },
+    {
+        "id": "ku_eng_ee_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมไฟฟ้า",
+        "title_en": "Bachelor of Engineering Program in Electrical Engineering",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมไฟฟ้า)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Electrical Engineering",
+        "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "140 หน่วยกิต",
+        "tuition_per_semester": "17,300 บาท",
+        "tuition_total": "138,400 บาท",
+        "description": "ผลิตวิศวกรไฟฟ้าที่มีความรู้ความสามารถในระบบไฟฟ้ากำลัง ระบบควบคุมอัตโนมัติ พลังงานหมุนเวียน ยานยนต์ไฟฟ้า (EV) และระบบโทรคมนาคมความเร็วสูง",
+        "curriculum_highlights": [
+            "Power Systems Engineering & Smart Grids",
+            "Control Systems & Automation",
+            "Renewable Energy & Energy Storage",
+            "Electric Vehicle Powertrain & Battery Systems",
+            "Signals, Systems and Communication"
+        ],
+        "career_paths": [
+            "Electrical Power Engineer",
+            "Control & Automation Engineer",
+            "Smart Grid & Renewable Energy Engineer",
+            "EV System Engineer"
+        ],
+        "tags": [
+            "Electrical Engineering",
+            "Power Systems",
+            "Smart Grid",
+            "EV",
+            "Renewable Energy"
+        ],
+        "website_url": "https://ee.eng.ku.ac.th"
+    },
+    {
+        "id": "ku_eng_ee_meng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรมหาบัณฑิต สาขาวิชาวิศวกรรมไฟฟ้า",
+        "title_en": "Master of Engineering Program in Electrical Engineering",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วศ.ม. (วิศวกรรมไฟฟ้า)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Electrical Engineering",
+        "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "24,000 บาท",
+        "tuition_total": "96,000 บาท",
+        "description": "มุ่งเน้นการวิจัยเชิงลึกด้านระบบโครงข่ายไฟฟ้าอัจฉริยะ (Smart Grid), Power Electronics ประสิทธิภาพสูง, ระบบควบคุมยานยนต์ไร้คนขับ และเทคโนโลยีไมโครกริด",
+        "curriculum_highlights": [
+            "Advanced Power Electronics & Motor Drives",
+            "Modern Control Theory & Intelligent Control",
+            "Smart Grid Optimization & Energy Management",
+            "Microgrid Integration & Grid Modernization",
+            "High Voltage Engineering Research"
+        ],
+        "career_paths": [
+            "Lead Power Systems Engineer",
+            "Smart Grid Consultant",
+            "Senior Control Systems Specialist",
+            "R&D Electrical Engineer"
+        ],
+        "tags": [
+            "Electrical Engineering",
+            "Power Electronics",
+            "Smart Grid",
+            "Control Systems",
+            "Research"
+        ],
+        "website_url": "https://ee.eng.ku.ac.th"
+    },
+    {
+        "id": "ku_eng_me_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมเครื่องกล",
+        "title_en": "Bachelor of Engineering Program in Mechanical Engineering",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมเครื่องกล)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Mechanical Engineering",
+        "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "142 หน่วยกิต",
+        "tuition_per_semester": "17,300 บาท",
+        "tuition_total": "138,400 บาท",
+        "description": "เน้นการเรียนการสอนด้านการออกแบบเครื่องจักรกล พลศาสตร์ของไหล การถ่ายเทความร้อน ระบบพลังงาน หุ่นยนต์ และยานยนต์สมัยใหม่",
+        "curriculum_highlights": [
+            "Thermodynamics & Heat Transfer",
+            "Fluid Mechanics & Aerodynamics",
+            "Mechanical Design & Computer-Aided Engineering (CAE)",
+            "Robotics, Mechatronics & Automation",
+            "Automotive Engineering & Electric Vehicles"
+        ],
+        "career_paths": [
+            "Mechanical Design Engineer",
+            "Automotive Engineer",
+            "HVAC & Energy Systems Engineer",
+            "Robotics & Automation Specialist"
+        ],
+        "tags": [
+            "Mechanical Engineering",
+            "Robotics",
+            "Automotive",
+            "Energy",
+            "CAE"
+        ],
+        "website_url": "https://me.eng.ku.ac.th"
+    },
+    {
+        "id": "ku_eng_me_rail_meng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรมหาบัณฑิต สาขาวิชาวิศวกรรมเครื่องกล (ระบบรางและยานยนต์)",
+        "title_en": "Master of Engineering Program in Mechanical Engineering (Rail Transit and Automotive)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วศ.ม. (วิศวกรรมเครื่องกล)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Mechanical Engineering",
+        "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "28,000 บาท",
+        "tuition_total": "112,000 บาท",
+        "description": "หลักสูตรปริญญาโทที่มุ่งเน้นการวิจัยและพัฒนาเทคโนโลยีระบบราง รถไฟความเร็วสูง ยานยนต์ไฟฟ้า และการวิเคราะห์โครงสร้างพลศาสตร์ขั้นสูง",
+        "curriculum_highlights": [
+            "Advanced Dynamics & Vibration in Rail Systems",
+            "Rail Vehicle Dynamics & Track Mechanics",
+            "Advanced Finite Element Analysis (FEA)",
+            "Energy Efficiency in Transportation Systems",
+            "Thesis Research in Rail & Automotive Systems"
+        ],
+        "career_paths": [
+            "Rail Systems Specialist",
+            "Railway Infrastructure Engineer",
+            "Automotive R&D Engineer",
+            "Dynamic Simulation Specialist"
+        ],
+        "tags": [
+            "Mechanical Engineering",
+            "Rail Transit",
+            "Automotive",
+            "FEA",
+            "High Speed Rail"
+        ],
+        "website_url": "https://me.eng.ku.ac.th"
+    },
+    {
+        "id": "ku_eng_ce_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมโยธา",
+        "title_en": "Bachelor of Engineering Program in Civil Engineering",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมโยธา)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Civil Engineering",
+        "department_th": "ภาควิชาวิศวกรรมโยธา",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "142 หน่วยกิต",
+        "tuition_per_semester": "17,300 บาท",
+        "tuition_total": "138,400 บาท",
+        "description": "มุ่งผลิตวิศวกรโยธาที่มีความรู้ด้านการออกแบบโครงสร้าง วิศวกรรมปฐพี วิศวกรรมการขนส่ง และการบริหารงานก่อสร้างอาคารขนาดใหญ่และโครงสร้างพื้นฐานระดับชาติ",
+        "curriculum_highlights": [
+            "Structural Analysis & Reinforced Concrete Design",
+            "Soil Mechanics & Geotechnical Engineering",
+            "Transportation & Highway Engineering",
+            "Construction Project Management & BIM",
+            "Hydraulic Engineering & Water Resources"
+        ],
+        "career_paths": [
+            "Civil Engineer",
+            "Structural Design Engineer",
+            "Construction Project Manager",
+            "Geotechnical Consultant"
+        ],
+        "tags": [
+            "Civil Engineering",
+            "Structural Engineering",
+            "Construction Management",
+            "BIM",
+            "Infrastructure"
+        ],
+        "website_url": "https://ce.eng.ku.ac.th"
+    },
+    {
+        "id": "ku_eng_ie_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมอุตสาหการ",
+        "title_en": "Bachelor of Engineering Program in Industrial Engineering",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมอุตสาหการ)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Industrial Engineering",
+        "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "140 หน่วยกิต",
+        "tuition_per_semester": "17,300 บาท",
+        "tuition_total": "138,400 บาท",
+        "description": "เน้นการเพิ่มประสิทธิภาพกระบวนการผลิต การจัดการโลจิสติกส์และห่วงโซ่อุปทาน สถิติวิเคราะห์คุณภาพ และการบริหารจัดการอุตสาหกรรม 4.0",
+        "curriculum_highlights": [
+            "Operations Research & Optimization",
+            "Supply Chain & Logistics Engineering",
+            "Quality Control & Six Sigma Quality Management",
+            "Smart Manufacturing & Factory Automation",
+            "Work Design & Ergonomics"
+        ],
+        "career_paths": [
+            "Industrial Engineer",
+            "Supply Chain Analyst",
+            "Production Manager",
+            "Quality Assurance Specialist",
+            "Operations Consultant"
+        ],
+        "tags": [
+            "Industrial Engineering",
+            "Supply Chain",
+            "Logistics",
+            "Industry 4.0",
+            "Quality Management"
+        ],
+        "website_url": "https://ie.eng.ku.ac.th"
+    },
+    {
+        "id": "ku_eng_che_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมเคมี",
+        "title_en": "Bachelor of Engineering Program in Chemical Engineering",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมเคมี)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Chemical Engineering",
+        "department_th": "ภาควิชาวิศวกรรมเคมี",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "142 หน่วยกิต",
+        "tuition_per_semester": "17,300 บาท",
+        "tuition_total": "138,400 บาท",
+        "description": "ผลิตวิศวกรเคมีที่มีความสามารถในการออกแบบกระบวนการผลิตทางเคมี ปิโตรเคมี พลังงานชีวภาพ และเทคโนโลยีเพื่อความยั่งยืน",
+        "curriculum_highlights": [
+            "Chemical Engineering Thermodynamics",
+            "Transport Phenomena & Unit Operations",
+            "Chemical Reaction Engineering & Catalysis",
+            "Process Dynamics, Simulation & Control",
+            "Sustainable Green Process Engineering"
+        ],
+        "career_paths": [
+            "Chemical Process Engineer",
+            "Petrochemical & Refinery Engineer",
+            "Plant Safety Engineer",
+            "Environmental Process Engineer"
+        ],
+        "tags": [
+            "Chemical Engineering",
+            "Process Design",
+            "Petrochemical",
+            "Thermodynamics",
+            "Green Energy"
+        ],
+        "website_url": "https://chem.eng.ku.ac.th"
+    },
+    {
+        "id": "ku_eng_aero_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมการบินและอวกาศ",
+        "title_en": "Bachelor of Engineering Program in Aerospace Engineering",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมการบินและอวกาศ)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Aerospace Engineering",
+        "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+        "program_type": "นานาชาติ / ภาคพิเศษ (IDTs)",
+        "duration_years": "4 ปี",
+        "total_credits": "144 หน่วยกิต",
+        "tuition_per_semester": "65,000 บาท",
+        "tuition_total": "520,000 บาท",
+        "description": "เน้นการออกแบบและสร้างอากาศยาน ระบบขับดัน อากาศพลศาสตร์ ดาวเทียม และเทคโนโลยีอวกาศตามมาตรฐานสากล",
+        "curriculum_highlights": [
+            "Aerodynamics & Computational Fluid Dynamics (CFD)",
+            "Aircraft Structures & Propulsion Systems",
+            "Flight Mechanics, Stability & Control",
+            "Spacecraft Systems Engineering & Satellite Technology",
+            "Unmanned Aerial Vehicle (UAV) Design"
+        ],
+        "career_paths": [
+            "Aerospace Engineer",
+            "Aviation Maintenance Engineer",
+            "UAV / Drone Systems Specialist",
+            "Satellite Systems Engineer"
+        ],
+        "tags": [
+            "Aerospace Engineering",
+            "Aviation",
+            "Satellite",
+            "UAV",
+            "Aerodynamics"
+        ],
+        "website_url": "https://ase.eng.ku.ac.th"
+    },
+
+    # --- 2. Faculty of Business Administration (คณะบริหารธุรกิจ มก.) ---
+    {
+        "id": "ku_bus_fin_bba",
+        "title_th": "หลักสูตรบริหารธุรกิจบัณฑิต สาขาวิชาการเงิน",
+        "title_en": "Bachelor of Business Administration Program in Finance",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "บธ.บ. (การเงิน)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Business Administration",
+        "faculty_th": "คณะบริหารธุรกิจ",
+        "department": "Department of Finance",
+        "department_th": "ภาควิชาการเงิน",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "13,900 บาท",
+        "tuition_total": "111,200 บาท",
+        "description": "มุ่งเน้นการวางแผนยุทธศาสตร์ทางการเงิน การวิเคราะห์หลักทรัพย์ การบริหารพอร์ตการลงทุน นวัตกรรมฟินเทค (FinTech) และการบริหารความเสี่ยงทางการเงิน",
+        "curriculum_highlights": [
+            "Corporate Financial Strategy",
+            "Security Analysis & Portfolio Management",
+            "Financial Modeling & Valuation",
+            "FinTech & Digital Banking Innovations",
+            "Financial Risk Management & Derivatives"
+        ],
+        "career_paths": [
+            "Financial Analyst",
+            "Investment Banker",
+            "Portfolio Manager",
+            "Wealth Management Advisor",
+            "Corporate Finance Specialist"
+        ],
+        "tags": [
+            "Finance",
+            "Investment",
+            "FinTech",
+            "Banking",
+            "Wealth Management"
+        ],
+        "website_url": "https://fin.bus.ku.ac.th"
+    },
+    {
+        "id": "ku_bus_mkt_bba",
+        "title_th": "หลักสูตรบริหารธุรกิจบัณฑิต สาขาวิชาการตลาด",
+        "title_en": "Bachelor of Business Administration Program in Marketing",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "บธ.บ. (การตลาด)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Business Administration",
+        "faculty_th": "คณะบริหารธุรกิจ",
+        "department": "Department of Marketing",
+        "department_th": "ภาควิชาการตลาด",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "13,900 บาท",
+        "tuition_total": "111,200 บาท",
+        "description": "เน้นกลยุทธ์การตลาดดิจิทัล การวิเคราะห์พฤติกรรมผู้บริโภคยุคใหม่ การสร้างแบรนด์ การตลาดข้อมูลขนาดใหญ่ (Marketing Data Analytics) และการสื่อสารการตลาดครบวงจร",
+        "curriculum_highlights": [
+            "Digital Marketing & Social Media Strategy",
+            "Consumer Insights & Behavioral Analysis",
+            "Brand Equity Management & Content Strategy",
+            "Marketing Analytics & Customer Data Platform (CDP)",
+            "Integrated Marketing Communication (IMC)"
+        ],
+        "career_paths": [
+            "Digital Marketing Strategist",
+            "Brand Manager",
+            "Marketing Analytics Specialist",
+            "Product Marketing Manager",
+            "Content Strategist"
+        ],
+        "tags": [
+            "Marketing",
+            "Digital Marketing",
+            "Brand Management",
+            "Data Analytics",
+            "Consumer Behavior"
+        ],
+        "website_url": "https://mkt.bus.ku.ac.th"
+    },
+    {
+        "id": "ku_bus_mgmt_bba",
+        "title_th": "หลักสูตรบริหารธุรกิจบัณฑิต สาขาวิชาการจัดการ",
+        "title_en": "Bachelor of Business Administration Program in Management",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "บธ.บ. (การจัดการ)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Business Administration",
+        "faculty_th": "คณะบริหารธุรกิจ",
+        "department": "Department of Management",
+        "department_th": "ภาควิชาการจัดการ",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "13,900 บาท",
+        "tuition_total": "111,200 บาท",
+        "description": "สร้างผู้นำและผู้ประกอบการยุคดิจิทัลที่มีทักษะการบริหารจัดการองค์กรเชิงกลยุทธ์ การจัดการนวัตกรรม และการพัฒนาองค์กรสู่ความยั่งยืน",
+        "curriculum_highlights": [
+            "Strategic Management & Organizational Leadership",
+            "Entrepreneurship & Startup Innovation",
+            "Human Resource Analytics & Talent Management",
+            "Business Process Innovation & Agile Management",
+            "Sustainable Business Development (ESG)"
+        ],
+        "career_paths": [
+            "Management Consultant",
+            "Operations Manager",
+            "Entrepreneur / Startup Founder",
+            "HR Strategy & People Operations Specialist",
+            "Business Development Executive"
+        ],
+        "tags": [
+            "Management",
+            "Entrepreneurship",
+            "Leadership",
+            "Strategy",
+            "ESG"
+        ],
+        "website_url": "https://mgt.bus.ku.ac.th"
+    },
+    {
+        "id": "ku_bus_acct_bacc",
+        "title_th": "หลักสูตรบัญชีบัณฑิต",
+        "title_en": "Bachelor of Accountancy Program",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "บช.บ. (การบัญชี)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Business Administration",
+        "faculty_th": "คณะบริหารธุรกิจ",
+        "department": "Department of Accountancy",
+        "department_th": "ภาควิชาการบัญชี",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "132 หน่วยกิต",
+        "tuition_per_semester": "13,900 บาท",
+        "tuition_total": "111,200 บาท",
+        "description": "ผลิตนักบัญชีมืออาชีพตามมาตรฐานสากล พร้อมทักษะการใช้ระบบสารสนเทศทางการบัญชี (ERP) การตรวจสอบข้อมูลดิจิทัล และการวิเคราะห์ข้อมูลทางการบัญชีและการเงิน",
+        "curriculum_highlights": [
+            "Financial Accounting & Reporting Standards (IFRS)",
+            "Auditing & Forensic Accounting in Digital Age",
+            "Managerial Accounting & Cost Management",
+            "Accounting Information Systems & ERP Systems",
+            "Tax Planning & International Taxation"
+        ],
+        "career_paths": [
+            "Certified Public Accountant (CPA)",
+            "Auditor",
+            "Tax Specialist",
+            "Financial Controller",
+            "Forensic Accountant"
+        ],
+        "tags": [
+            "Accounting",
+            "Auditing",
+            "CPA",
+            "Taxation",
+            "ERP"
+        ],
+        "website_url": "https://acc.bus.ku.ac.th"
+    },
+    {
+        "id": "ku_bus_mba_young_exec",
+        "title_th": "หลักสูตรบริหารธุรกิจมหาบัณฑิต (โครงการสำหรับผู้บริหารรุ่นใหม่ Young Executive MBA)",
+        "title_en": "Master of Business Administration Program (Young Executive MBA)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "บธ.ม. (บริหารธุรกิจ)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Business Administration",
+        "faculty_th": "คณะบริหารธุรกิจ",
+        "department": "MBA Program",
+        "department_th": "โครงการบริหารธุรกิจมหาบัณฑิต",
+        "program_type": "ภาคพิเศษ (Special Program)",
+        "duration_years": "2 ปี",
+        "total_credits": "39 หน่วยกิต",
+        "tuition_per_semester": "55,000 บาท",
+        "tuition_total": "220,000 บาท",
+        "description": "หลักสูตรระดับแนวหน้าที่ออกแบบมาเพื่อบ่มเพาะทักษะการตัดสินใจเชิงกลยุทธ์ การเป็นผู้นำองค์กรยุค AI-driven และการวิเคราะห์ธุรกิจขั้นสูงสำหรับผู้บริหารรุ่นใหม่",
+        "curriculum_highlights": [
+            "Strategic Decision Making & Business Simulation",
+            "Corporate Financial Strategy & Valuation",
+            "Digital Transformation & AI Strategy for Business",
+            "Global Supply Chain & Operations Leadership",
+            "Independent Study & Strategic Consultation"
+        ],
+        "career_paths": [
+            "Chief Executive / Senior Manager",
+            "Business Unit Director",
+            "Strategic Planning Director",
+            "Corporate Innovation Lead"
+        ],
+        "tags": [
+            "MBA",
+            "Young Executive",
+            "Leadership",
+            "Digital Transformation",
+            "Strategic Management"
+        ],
+        "website_url": "https://mba.bus.ku.ac.th"
+    },
+    {
+        "id": "ku_bus_fin_msc",
+        "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาการเงินประยุกต์",
+        "title_en": "Master of Science Program in Applied Finance",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วท.ม. (การเงินประยุกต์)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Business Administration",
+        "faculty_th": "คณะบริหารธุรกิจ",
+        "department": "Department of Finance",
+        "department_th": "ภาควิชาการเงิน",
+        "program_type": "ภาคพิเศษ (Special Program)",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "50,000 บาท",
+        "tuition_total": "200,000 บาท",
+        "description": "เน้นการวิเคราะห์เชิงปริมาณขั้นสูง (Quantitative Finance), การสร้างแบบจำลองทางการเงิน, การเงินคณิตศาสตร์ และการลงทุนในสินทรัพย์ดิจิทัลและตราสารอนุพันธ์",
+        "curriculum_highlights": [
+            "Quantitative Analysis & Econometrics for Finance",
+            "Advanced Derivatives & Risk Modeling",
+            "Algorithmic Trading & Financial Engineering",
+            "Fixed Income & Credit Risk Analytics",
+            "Master's Thesis / Applied Financial Project"
+        ],
+        "career_paths": [
+            "Quantitative Analyst (Quant)",
+            "Risk Manager",
+            "Structured Products Specialist",
+            "Derivatives Trader"
+        ],
+        "tags": [
+            "Applied Finance",
+            "Quantitative Finance",
+            "Risk Modeling",
+            "FinTech",
+            "Financial Engineering"
+        ],
+        "website_url": "https://fin.bus.ku.ac.th"
+    },
+
+    # --- 3. Faculty of Agro-Industry (คณะอุตสาหกรรมเกษตร มก.) ---
+    {
+        "id": "ku_agro_foodsci_bsc",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+        "title_en": "Bachelor of Science Program in Food Science and Technology",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วท.บ. (วิทยาศาสตร์และเทคโนโลยีการอาหาร)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Agro-Industry",
+        "faculty_th": "คณะอุตสาหกรรมเกษตร",
+        "department": "Department of Food Science and Technology",
+        "department_th": "ภาควิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "136 หน่วยกิต",
+        "tuition_per_semester": "15,300 บาท",
+        "tuition_total": "122,400 บาท",
+        "description": "ผลิตนักวิทยาศาสตร์และผู้เชี่ยวชาญด้านวิทยาศาสตร์อาหาร เคมีและจุลชีววิทยาทางอาหาร วิศวกรรมแปรรูปอาหาร การประกันคุณภาพ และมาตรฐานความปลอดภัยทางอาหารระดับสากล",
+        "curriculum_highlights": [
+            "Food Chemistry & Instrumental Analysis",
+            "Food Microbiology & Food Safety Standards (HACCP, ISO)",
+            "Food Processing & Preservation Engineering",
+            "Sensory Evaluation & Quality Assurance",
+            "Future Food & Functional Food Development"
+        ],
+        "career_paths": [
+            "Food Scientist",
+            "Quality Assurance (QA/QC) Manager",
+            "Food R&D Specialist",
+            "Food Production Plant Manager",
+            "Food Safety Auditor"
+        ],
+        "tags": [
+            "Food Science",
+            "Food Technology",
+            "Food Safety",
+            "Future Food",
+            "QA/QC"
+        ],
+        "website_url": "https://foodsci.agro.ku.ac.th"
+    },
+    {
+        "id": "ku_agro_foodsci_msc",
+        "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+        "title_en": "Master of Science Program in Food Science and Technology",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วท.ม. (วิทยาศาสตร์และเทคโนโลยีการอาหาร)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Agro-Industry",
+        "faculty_th": "คณะอุตสาหกรรมเกษตร",
+        "department": "Department of Food Science and Technology",
+        "department_th": "ภาควิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "22,000 บาท",
+        "tuition_total": "88,000 บาท",
+        "description": "เน้นงานวิจัยขั้นสูงด้านเคมีอาหารเชิงลึก ชีวเคมี โภชนาการศาสตร์ อาหารเพื่อสุขภาพ สารสกัดชีวภาพ และกระบวนการแปรรูปอาหารขั้นสูง",
+        "curriculum_highlights": [
+            "Advanced Food Chemistry & Lipid/Protein Structure",
+            "Advanced Food Processing & Emerging Technologies",
+            "Bioactive Compounds & Functional Foods Research",
+            "Food Rheology and Texture Analysis",
+            "Thesis Research in Food Science Innovation"
+        ],
+        "career_paths": [
+            "Senior Food R&D Scientist",
+            "Food Innovation Consultant",
+            "Academic Researcher / Lecturer",
+            "Regulatory Affairs Director in Food Industry"
+        ],
+        "tags": [
+            "Food Science",
+            "Food Innovation",
+            "Bioactive Compounds",
+            "Functional Food",
+            "Research"
+        ],
+        "website_url": "https://foodsci.agro.ku.ac.th"
+    },
+    {
+        "id": "ku_agro_biotech_bsc",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีชีวภาพ",
+        "title_en": "Bachelor of Science Program in Biotechnology",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วท.บ. (เทคโนโลยีชีวภาพ)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Agro-Industry",
+        "faculty_th": "คณะอุตสาหกรรมเกษตร",
+        "department": "Department of Biotechnology",
+        "department_th": "ภาควิชาเทคโนโลยีชีวภาพ",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "136 หน่วยกิต",
+        "tuition_per_semester": "15,300 บาท",
+        "tuition_total": "122,400 บาท",
+        "description": "เรียนรู้การนำสิ่งมีชีวิต จุลินทรีย์ และเอนไซม์มาประยุกต์ใช้ในกระบวนการผลิตทางชีวภาพ อุตสาหกรรมชีวเภสัชกรรม พลังงานชีวภาพ และการเกษตรแม่นยำสูง",
+        "curriculum_highlights": [
+            "Genetic Engineering & Molecular Biology",
+            "Bioprocess Engineering & Fermentation Technology",
+            "Enzyme Technology & Applied Biocatalysis",
+            "Biofuel & Bio-circular-green (BCG) Technology",
+            "Bio-entrepreneurship & Innovation"
+        ],
+        "career_paths": [
+            "Biotechnologist",
+            "Bioprocess Engineer",
+            "Fermentation Specialist",
+            "Molecular Biology Researcher",
+            "Bio-industry Consultant"
+        ],
+        "tags": [
+            "Biotechnology",
+            "Bioprocess",
+            "Fermentation",
+            "Genetic Engineering",
+            "BCG Economy"
+        ],
+        "website_url": "https://biotech.agro.ku.ac.th"
+    },
+    {
+        "id": "ku_agro_proddev_bsc",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาพัฒนาผลิตภัณฑ์อุตสาหกรรมเกษตร",
+        "title_en": "Bachelor of Science Program in Agro-Industrial Product Development",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วท.บ. (พัฒนาผลิตภัณฑ์อุตสาหกรรมเกษตร)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Agro-Industry",
+        "faculty_th": "คณะอุตสาหกรรมเกษตร",
+        "department": "Department of Product Development",
+        "department_th": "ภาควิชาพัฒนาผลิตภัณฑ์",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "134 หน่วยกิต",
+        "tuition_per_semester": "15,300 บาท",
+        "tuition_total": "122,400 บาท",
+        "description": "บูรณาการศาสตร์ด้านวิทยาศาสตร์อาหาร เทคโนโลยี การตลาด และการออกแบบ เพื่อสร้างสรรค์ผลิตภัณฑ์อาหารและเกษตรแปรรูปใหม่ที่ตอบโจทย์ความต้องการของผู้บริโภค",
+        "curriculum_highlights": [
+            "Product Concept Generation & Design Thinking",
+            "Sensory Science & Consumer Testing Methodologies",
+            "Packaging & Shelf-life Estimation",
+            "Food Product Commercialization & Entrepreneurship",
+            "Agro-Industrial Value Chain Development"
+        ],
+        "career_paths": [
+            "Product Development Scientist (NPD)",
+            "Sensory Scientist",
+            "Food Product Commercialization Manager",
+            "Agro-Business Entrepreneur"
+        ],
+        "tags": [
+            "Product Development",
+            "Sensory Science",
+            "NPD",
+            "Design Thinking",
+            "Consumer Research"
+        ],
+        "website_url": "https://pd.agro.ku.ac.th"
+    },
+
+    # --- 4. Faculty of Science (คณะวิทยาศาสตร์ มก.) ---
+    {
+        "id": "ku_sci_cs_bsc",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์",
+        "title_en": "Bachelor of Science Program in Computer Science",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วท.บ. (วิทยาการคอมพิวเตอร์)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Science",
+        "faculty_th": "คณะวิทยาศาสตร์",
+        "department": "Department of Computer Science",
+        "department_th": "ภาควิชาวิทยาการคอมพิวเตอร์",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "15,300 บาท",
+        "tuition_total": "122,400 บาท",
+        "description": "เน้นทฤษฎีวิทยาการคอมพิวเตอร์ การออกแบบอัลกอริทึม ปัญญาประดิษฐ์ วิทยาการข้อมูล การพัฒนาซอฟต์แวร์ และความมั่นคงปลอดภัยไซเบอร์",
+        "curriculum_highlights": [
+            "Data Structures & Algorithm Design",
+            "Machine Learning & Data Mining",
+            "Operating Systems & Distributed Systems",
+            "Cybersecurity & Cryptography",
+            "Cloud Native Software Architecture"
+        ],
+        "career_paths": [
+            "Software Developer",
+            "Data Scientist",
+            "Machine Learning Engineer",
+            "Cybersecurity Analyst",
+            "Systems Architect"
+        ],
+        "tags": [
+            "Computer Science",
+            "Algorithms",
+            "Machine Learning",
+            "Software Engineering",
+            "Data Science"
+        ],
+        "website_url": "https://cs.sci.ku.ac.th"
+    },
+    {
+        "id": "ku_sci_cs_msc",
+        "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์",
+        "title_en": "Master of Science Program in Computer Science",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วท.ม. (วิทยาการคอมพิวเตอร์)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Science",
+        "faculty_th": "คณะวิทยาศาสตร์",
+        "department": "Department of Computer Science",
+        "department_th": "ภาควิชาวิทยาการคอมพิวเตอร์",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "22,000 บาท",
+        "tuition_total": "88,000 บาท",
+        "description": "มุ่งเน้นการวิจัยทางวิทยาการคอมพิวเตอร์ขั้นสูง เช่น Deep Learning, Natural Language Processing (NLP), Computer Vision, Big Data Infrastructure และ Quantum Computing",
+        "curriculum_highlights": [
+            "Advanced Machine Learning & Deep Neural Networks",
+            "Natural Language Processing & LLMs",
+            "Advanced Computer Vision & Pattern Recognition",
+            "High Performance Distributed Computing",
+            "Graduate Research & Thesis Innovation"
+        ],
+        "career_paths": [
+            "AI Research Scientist",
+            "Lead Data Scientist",
+            "Computer Vision Engineer",
+            "University Lecturer / Postdoctoral Researcher"
+        ],
+        "tags": [
+            "Computer Science",
+            "Deep Learning",
+            "NLP",
+            "Computer Vision",
+            "Big Data"
+        ],
+        "website_url": "https://cs.sci.ku.ac.th"
+    },
+    {
+        "id": "ku_sci_stat_datasci_bsc",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาสถิติศาสตร์และการวิเคราะห์ข้อมูล",
+        "title_en": "Bachelor of Science Program in Statistics and Data Analytics",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วท.บ. (สถิติศาสตร์)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Science",
+        "faculty_th": "คณะวิทยาศาสตร์",
+        "department": "Department of Statistics",
+        "department_th": "ภาควิชาสถิติ",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "15,300 บาท",
+        "tuition_total": "122,400 บาท",
+        "description": "เรียนรู้ระเบียบวิธีทางสถิติ การวิเคราะห์ข้อมูลเชิงทำนาย (Predictive Analytics) การสร้างโมเดลความน่าจะเป็น สถิติธุรกิจ และวิทยาการข้อมูลสมัยใหม่",
+        "curriculum_highlights": [
+            "Mathematical Statistics & Probability Theory",
+            "Applied Regression & Time Series Analysis",
+            "Statistical Machine Learning & Predictive Modeling",
+            "Big Data Analytics & Business Intelligence (BI)",
+            "Data Visualization & Storytelling"
+        ],
+        "career_paths": [
+            "Data Analyst",
+            "Business Intelligence Specialist",
+            "Statistician",
+            "Risk & Actuarial Analyst",
+            "Marketing Analytics Specialist"
+        ],
+        "tags": [
+            "Statistics",
+            "Data Analytics",
+            "Business Intelligence",
+            "Predictive Modeling",
+            "Time Series"
+        ],
+        "website_url": "https://stat.sci.ku.ac.th"
+    },
+    {
+        "id": "ku_sci_chem_bsc",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเคมี",
+        "title_en": "Bachelor of Science Program in Chemistry",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วท.บ. (เคมี)",
+        "university": "Kasetsart University",
+        "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+        "faculty": "Faculty of Science",
+        "faculty_th": "คณะวิทยาศาสตร์",
+        "department": "Department of Chemistry",
+        "department_th": "ภาควิชาเคมี",
+        "program_type": "ภาคปกติ",
+        "duration_years": "4 ปี",
+        "total_credits": "134 หน่วยกิต",
+        "tuition_per_semester": "15,300 บาท",
+        "tuition_total": "122,400 บาท",
+        "description": "ครอบคลุมองค์ความรู้เคมีอินทรีย์ เคมีอนินทรีย์ เคมีเชิงฟิสิกส์ เคมีวิเคราะห์ และเคมีอุตสาหกรรม พร้อมการปฏิบัติการในห้องทดลองวิจัยระดับมาตรฐานสากล",
+        "curriculum_highlights": [
+            "Organic Chemistry & Synthetic Methodologies",
+            "Analytical Chemistry & Modern Instrumentation",
+            "Physical Chemistry & Quantum Chemistry",
+            "Inorganic & Materials Chemistry",
+            "Green Chemistry & Nanotechnology"
+        ],
+        "career_paths": [
+            "Chemist",
+            "Analytical Lab Specialist",
+            "Chemical R&D Scientist",
+            "Petrochemical Laboratory Analyst"
+        ],
+        "tags": [
+            "Chemistry",
+            "Analytical Chemistry",
+            "Organic Chemistry",
+            "Materials Science",
+            "R&D"
+        ],
+        "website_url": "https://chem.sci.ku.ac.th"
+    },
+
+    # =========================================================================
+    # THAMMASAT UNIVERSITY (มหาวิทยาลัยธรรมศาสตร์)
+    # =========================================================================
+    # --- 1. Sirindhorn International Institute of Technology (SIIT) ---
+    {
+        "id": "tu_siit_cpe_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (หลักสูตรนานาชาติ SIIT)",
+        "title_en": "Bachelor of Engineering Program in Computer Engineering (SIIT International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมคอมพิวเตอร์ - นานาชาติ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Sirindhorn International Institute of Technology",
+        "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร",
+        "department": "School of Information, Computer, and Communication Technology",
+        "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ คอมพิวเตอร์ และการสื่อสาร",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "4 ปี",
+        "total_credits": "136 หน่วยกิต",
+        "tuition_per_semester": "85,000 บาท",
+        "tuition_total": "680,000 บาท",
+        "description": "หลักสูตรวิศวกรรมคอมพิวเตอร์นานาชาติชั้นนำ สอนเป็นภาษาอังกฤษ 100% ครอบคลุมทั้งฮาร์ดแวร์ ซอฟต์แวร์ ปัญญาประดิษฐ์ (AI), คลาวด์คอมพิวติ้ง และความมั่นคงปลอดภัยไซเบอร์ ได้รับการรับรองมาตรฐานสากล ABET",
+        "curriculum_highlights": [
+            "Artificial Intelligence & Machine Learning Track",
+            "Cloud Computing & Cyber Security Track",
+            "Computer Architecture & Hardware Design",
+            "Internet of Things (IoT) & Smart Embedded Systems",
+            "Senior Capstone Engineering Project"
+        ],
+        "career_paths": [
+            "Computer Engineer",
+            "AI System Developer",
+            "Cloud Infrastructure Engineer",
+            "Cybersecurity Consultant",
+            "Embedded Systems Engineer"
+        ],
+        "tags": [
+            "SIIT",
+            "Computer Engineering",
+            "International Program",
+            "AI",
+            "Cybersecurity",
+            "ABET"
+        ],
+        "website_url": "https://www.siit.tu.ac.th/academics/undergraduate/cpe"
+    },
+    {
+        "id": "tu_siit_de_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมดิจิทัล (หลักสูตรนานาชาติ SIIT)",
+        "title_en": "Bachelor of Engineering Program in Digital Engineering (SIIT International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมดิจิทัล - นานาชาติ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Sirindhorn International Institute of Technology",
+        "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร",
+        "department": "School of Information, Computer, and Communication Technology",
+        "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ คอมพิวเตอร์ และการสื่อสาร",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "4 ปี",
+        "total_credits": "136 หน่วยกิต",
+        "tuition_per_semester": "85,000 บาท",
+        "tuition_total": "680,000 บาท",
+        "description": "หลักสูตรที่ตอบโจทย์ยุคการปฏิวัติดิจิทัล มุ่งเน้นการพัฒนาแอปพลิเคชันซอฟต์แวร์ วิทยาการข้อมูล (Data Science) การสร้างแบบจำลองข้อมูลขนาดใหญ่ และนวัตกรรมดิจิทัลสำหรับองค์กรระดับโลก",
+        "curriculum_highlights": [
+            "Application Software Development Track",
+            "Data Science & Big Data Modeling Track",
+            "Full-Stack Web & Mobile Engineering",
+            "Modern Database Technologies & Analytics",
+            "Human-Computer Interaction & UX/UI Architecture"
+        ],
+        "career_paths": [
+            "Digital Software Engineer",
+            "Data Scientist",
+            "Big Data Analytics Specialist",
+            "Application Developer",
+            "Digital Transformation Consultant"
+        ],
+        "tags": [
+            "SIIT",
+            "Digital Engineering",
+            "Data Science",
+            "Software Development",
+            "International Program"
+        ],
+        "website_url": "https://www.siit.tu.ac.th/academics/undergraduate/de"
+    },
+    {
+        "id": "tu_siit_ee_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมไฟฟ้า (หลักสูตรนานาชาติ SIIT)",
+        "title_en": "Bachelor of Engineering Program in Electrical Engineering (SIIT International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมไฟฟ้า - นานาชาติ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Sirindhorn International Institute of Technology",
+        "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร",
+        "department": "School of Information, Computer, and Communication Technology",
+        "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ คอมพิวเตอร์ และการสื่อสาร",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "4 ปี",
+        "total_credits": "136 หน่วยกิต",
+        "tuition_per_semester": "85,000 บาท",
+        "tuition_total": "680,000 บาท",
+        "description": "เน้นวิศวกรรมไฟฟ้าสื่อสาร ระบบสื่อสารไร้สาย 5G/6G การประมวลผลสัญญาณดิจิทัล และระบบพลังงานไฟฟ้าอัจฉริยะ (Smart Power Systems) และระบบสมองกลควบคุม",
+        "curriculum_highlights": [
+            "Wireless Communication Systems & 5G/6G Tech",
+            "Digital Signal & Image Processing",
+            "Smart Grid & Renewable Energy Systems",
+            "Electronic Circuit Design & Microelectronics",
+            "Autonomous Control Systems"
+        ],
+        "career_paths": [
+            "Telecommunications Engineer",
+            "RF/Wireless Engineer",
+            "Signal Processing Specialist",
+            "Electrical Systems Engineer"
+        ],
+        "tags": [
+            "SIIT",
+            "Electrical Engineering",
+            "Telecommunications",
+            "Smart Grid",
+            "Signal Processing"
+        ],
+        "website_url": "https://www.siit.tu.ac.th/academics/undergraduate/ee"
+    },
+    {
+        "id": "tu_siit_ie_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมอุตสาหการและโลจิสติกส์อัจฉริยะ (หลักสูตรนานาชาติ SIIT)",
+        "title_en": "Bachelor of Engineering Program in Industrial Engineering and Smart Logistics (SIIT International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมอุตสาหการและโลจิสติกส์อัจฉริยะ - นานาชาติ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Sirindhorn International Institute of Technology",
+        "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร",
+        "department": "School of Manufacturing Systems and Mechanical Engineering",
+        "department_th": "สาขาวิชาระบบการผลิตและวิศวกรรมเครื่องกล",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "4 ปี",
+        "total_credits": "136 หน่วยกิต",
+        "tuition_per_semester": "85,000 บาท",
+        "tuition_total": "680,000 บาท",
+        "description": "ผสมผสานวิศวกรรมอุตสาหการเข้ากับเทคโนโลยีโลจิสติกส์อัจฉริยะ การสร้างแบบจำลองห่วงโซ่อุปทานอัตโนมัติ การบริหารจัดการข้อมูลอุตสาหกรรม และการเพิ่มผลผลิตในโรงงานอัจฉริยะ",
+        "curriculum_highlights": [
+            "Smart Logistics & Global Supply Chain Management",
+            "Data-Driven Operations Research & Optimization",
+            "Smart Factory & Manufacturing Automation",
+            "Quality Engineering & Lean Six Sigma",
+            "Simulation Modeling for Industrial Systems"
+        ],
+        "career_paths": [
+            "Supply Chain & Logistics Engineer",
+            "Industrial Systems Optimization Specialist",
+            "Smart Factory Consultant",
+            "Operations Strategy Lead"
+        ],
+        "tags": [
+            "SIIT",
+            "Industrial Engineering",
+            "Smart Logistics",
+            "Supply Chain",
+            "Industry 4.0"
+        ],
+        "website_url": "https://www.siit.tu.ac.th/academics/undergraduate/ie"
+    },
+    {
+        "id": "tu_siit_me_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมเครื่องกล (หลักสูตรนานาชาติ SIIT)",
+        "title_en": "Bachelor of Engineering Program in Mechanical Engineering (SIIT International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมเครื่องกล - นานาชาติ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Sirindhorn International Institute of Technology",
+        "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร",
+        "department": "School of Manufacturing Systems and Mechanical Engineering",
+        "department_th": "สาขาวิชาระบบการผลิตและวิศวกรรมเครื่องกล",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "4 ปี",
+        "total_credits": "136 หน่วยกิต",
+        "tuition_per_semester": "85,000 บาท",
+        "tuition_total": "680,000 บาท",
+        "description": "เน้นการออกแบบระบบเชิงกล พลังงานทดแทน เทคโนโลยีหุ่นยนต์ และระบบยานยนต์ไฟฟ้าที่ได้มาตรฐานสากล พร้อมการฝึกปฏิบัติการวิจัยร่วมกับมหาวิทยาลัยชั้นนำในต่างประเทศ",
+        "curriculum_highlights": [
+            "Robotics & Mechatronics Systems",
+            "Renewable & Sustainable Energy Engineering",
+            "Automotive Technology & Electric Vehicles",
+            "Advanced Mechanics of Materials & Simulation",
+            "Thermo-Fluids Engineering"
+        ],
+        "career_paths": [
+            "Mechanical Engineer",
+            "Robotics Engineer",
+            "Energy Consultant",
+            "Automotive R&D Engineer"
+        ],
+        "tags": [
+            "SIIT",
+            "Mechanical Engineering",
+            "Robotics",
+            "Energy",
+            "Automotive"
+        ],
+        "website_url": "https://www.siit.tu.ac.th/academics/undergraduate/me"
+    },
+    {
+        "id": "tu_siit_ce_beng",
+        "title_th": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมโยธา (หลักสูตรนานาชาติ SIIT)",
+        "title_en": "Bachelor of Engineering Program in Civil Engineering (SIIT International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วศ.บ. (วิศวกรรมโยธา - นานาชาติ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Sirindhorn International Institute of Technology",
+        "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร",
+        "department": "School of Civil Engineering and Technology",
+        "department_th": "สาขาวิชาวิศวกรรมโยธาและเทคโนโลยี",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "4 ปี",
+        "total_credits": "136 หน่วยกิต",
+        "tuition_per_semester": "85,000 บาท",
+        "tuition_total": "680,000 บาท",
+        "description": "สร้างวิศวกรโยธาสากลที่มีความเชี่ยวชาญด้านการออกแบบโครงสร้างต้านทานภัยพิบัติ วิศวกรรมการก่อสร้างโครงสร้างพื้นฐานขนาดใหญ่ และการประยุกต์ใช้เทคโนโลยีดิจิทัลในการบริหารงานก่อสร้าง",
+        "curriculum_highlights": [
+            "Structural Analysis & Earthquake Resistant Design",
+            "Geotechnical & Foundation Engineering",
+            "Construction Technology & BIM Integration",
+            "Water Resources & Environmental Infrastructure",
+            "Transportation Systems & Highway Design"
+        ],
+        "career_paths": [
+            "International Civil Engineer",
+            "Structural Design Engineer",
+            "Mega-Project Construction Manager",
+            "Infrastructure Consultant"
+        ],
+        "tags": [
+            "SIIT",
+            "Civil Engineering",
+            "Structural Design",
+            "BIM",
+            "Infrastructure"
+        ],
+        "website_url": "https://www.siit.tu.ac.th/academics/undergraduate/ce"
+    },
+    {
+        "id": "tu_siit_engtech_msc",
+        "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิศวกรรมและเทคโนโลยี (หลักสูตรนานาชาติ SIIT)",
+        "title_en": "Master of Science Program in Engineering and Technology (SIIT International Program)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วท.ม. (วิศวกรรมและเทคโนโลยี - นานาชาติ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Sirindhorn International Institute of Technology",
+        "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร",
+        "department": "Graduate Studies Division",
+        "department_th": "ฝ่ายบัณฑิตศึกษา SIIT",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "75,000 บาท",
+        "tuition_total": "300,000 บาท",
+        "description": "หลักสูตรมหาบัณฑิตนานาชาติเน้นงานวิจัยระดับสูง (Research-oriented) ร่วมกับเครือข่ายมหาวิทยาลัยและสถาบันวิจัยชั้นนำทั่วโลก ครอบคลุม AI, วิศวกรรมวัสดุ, พลังงานสะอาด, และระบบดิจิทัล",
+        "curriculum_highlights": [
+            "Advanced Engineering Mathematics & Research Methodologies",
+            "Interdisciplinary Emerging Technology Electives",
+            "High-Impact International Journal Publication",
+            "Graduate Thesis Defense and Global Collaboration"
+        ],
+        "career_paths": [
+            "R&D Engineering Specialist",
+            "University Lecturer / Academic Researcher",
+            "Senior Technology Consultant",
+            "Doctoral Candidate in World-Class Universities"
+        ],
+        "tags": [
+            "SIIT",
+            "Graduate Studies",
+            "Engineering Research",
+            "International Program",
+            "M.Sc."
+        ],
+        "website_url": "https://www.siit.tu.ac.th/academics/graduate"
+    },
+
+    # --- 2. Thammasat Business School - TBS (คณะพาณิชยศาสตร์และการบัญชี มธ.) ---
+    {
+        "id": "tu_tbs_bba_inter",
+        "title_th": "หลักสูตรบริหารธุรกิจบัณฑิต (หลักสูตรนานาชาติ BBA)",
+        "title_en": "Bachelor of Business Administration (BBA International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.B.A. (International Program)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Thammasat Business School",
+        "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+        "department": "BBA International Program",
+        "department_th": "โครงการปริญญาตรีบริหารธุรกิจภาคภาษาอังกฤษ",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "95,000 บาท",
+        "tuition_total": "760,000 บาท",
+        "description": "หลักสูตรบริหารธุรกิจนานาชาติแห่งแรกและชั้นนำของประเทศไทยที่ได้รับการรับรองมาตรฐาน Triple Crown (AACSB, EQUIS, AMBA) เปิดสอน 3 สาขาวิชาหลัก: การเงิน (Finance), การตลาด (Marketing), และการบัญชี (Accounting)",
+        "curriculum_highlights": [
+            "Global Business Strategy & Case Competitions",
+            "Advanced Corporate Finance & Valuation",
+            "Strategic Marketing in Global Markets",
+            "Financial Reporting & Auditing Standards",
+            "International Student Exchange at Top Global Business Schools"
+        ],
+        "career_paths": [
+            "Investment Banking Analyst",
+            "Management Consultant (MBB, Big 4)",
+            "Brand Strategist in Multinational Corporations",
+            "Global Financial Planner"
+        ],
+        "tags": [
+            "BBA",
+            "TBS",
+            "Triple Crown",
+            "AACSB",
+            "EQUIS",
+            "AMBA",
+            "International Program"
+        ],
+        "website_url": "https://bba.tbs.tu.ac.th"
+    },
+    {
+        "id": "tu_tbs_bba_thai",
+        "title_th": "หลักสูตรบริหารธุรกิจบัณฑิต (บธ.บ.)",
+        "title_en": "Bachelor of Business Administration Program (B.B.A.)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "บธ.บ. (บริหารธุรกิจ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Thammasat Business School",
+        "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+        "department": "Department of Business Administration",
+        "department_th": "ภาควิชาบริหารธุรกิจ",
+        "program_type": "ภาคปกติ",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "14,800 บาท",
+        "tuition_total": "118,400 บาท",
+        "description": "มุ่งเน้นสร้างผู้นำธุรกิจยุคใหม่ที่มีความเชี่ยวชาญด้านการเงิน การตลาด การจัดการธุรกิจระหว่างประเทศ และการจัดการโลจิสติกส์ พร้อมการรับรองมาตรฐานสากลระดับโลก",
+        "curriculum_highlights": [
+            "Financial Modeling & Investment Analysis",
+            "Digital Marketing & Brand Management",
+            "International Business Strategy & Trade",
+            "Supply Chain & Operations Analytics"
+        ],
+        "career_paths": [
+            "Business Analyst",
+            "Marketing Strategist",
+            "Financial Consultant",
+            "Operations Manager",
+            "Entrepreneur"
+        ],
+        "tags": [
+            "Business",
+            "Finance",
+            "Marketing",
+            "Management",
+            "AACSB",
+            "Triple Crown"
+        ],
+        "website_url": "https://www.tbs.tu.ac.th"
+    },
+    {
+        "id": "tu_tbs_acct_bacc",
+        "title_th": "หลักสูตรบัญชีบัณฑิต (บช.บ.)",
+        "title_en": "Bachelor of Accounting Program (B.Acc.)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "บช.บ. (การบัญชี)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Thammasat Business School",
+        "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+        "department": "Department of Accounting",
+        "department_th": "ภาควิชาการบัญชี",
+        "program_type": "ภาคปกติ",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "14,800 บาท",
+        "tuition_total": "118,400 บาท",
+        "description": "หลักสูตรวิชาชีพบัญชีอันดับหนึ่งของประเทศไทย มุ่งผลิตนักบัญชี ผู้สอบบัญชีรับอนุญาต และผู้เชี่ยวชาญด้านภาษีและระบบสารสนเทศทางการบัญชีที่ได้รับการยอมรับในระดับสากล",
+        "curriculum_highlights": [
+            "Financial Accounting & Advanced Auditing",
+            "Managerial Cost Accounting & Analytics",
+            "Accounting Information Systems (SAP & ERP)",
+            "Corporate Governance & Business Ethics",
+            "Tax Law & Planning for Corporations"
+        ],
+        "career_paths": [
+            "Certified Public Accountant (CPA)",
+            "Internal Auditor & Risk Consultant",
+            "Tax Advisor",
+            "Financial Controller",
+            "Chief Financial Officer (CFO)"
+        ],
+        "tags": [
+            "Accounting",
+            "Auditing",
+            "CPA",
+            "Tax",
+            "TBS",
+            "Finance"
+        ],
+        "website_url": "https://www.tbs.tu.ac.th"
+    },
+    {
+        "id": "tu_tbs_mba",
+        "title_th": "หลักสูตรบริหารธุรกิจมหาบัณฑิต (MBA Thammasat)",
+        "title_en": "Master of Business Administration Program (MBA Thammasat)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "บธ.ม. (บริหารธุรกิจ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Thammasat Business School",
+        "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+        "department": "MBA Program",
+        "department_th": "โครงการปริญญาโททางบริหารธุรกิจ",
+        "program_type": "ภาคพิเศษ / เสาร์-อาทิตย์",
+        "duration_years": "2 ปี",
+        "total_credits": "48 หน่วยกิต",
+        "tuition_per_semester": "60,000 บาท",
+        "tuition_total": "240,000 บาท",
+        "description": "พัฒนาผู้นำองค์กรและผู้บริหารยุคใหม่ด้วยกรณีศึกษาเชิงปฏิบัติ (Case Study Method) บูรณาการกลยุทธ์ การเงิน การตลาด นวัตกรรมดิจิทัล และการพัฒนาธุรกิจอย่างยั่งยืน",
+        "curriculum_highlights": [
+            "Corporate Strategy & Competitive Advantage",
+            "Managerial Economics & Financial Decision",
+            "Strategic Marketing & Brand Value Creation",
+            "Operations Management & Digital Transformation",
+            "Business Consulting Project & Case Competition"
+        ],
+        "career_paths": [
+            "C-Level Executive (CEO, COO)",
+            "Strategy & Operations Director",
+            "Management Consultant",
+            "Business Owner / Venture Partner"
+        ],
+        "tags": [
+            "MBA",
+            "Executive",
+            "Strategy",
+            "Leadership",
+            "Business School"
+        ],
+        "website_url": "https://mba.tbs.tu.ac.th"
+    },
+    {
+        "id": "tu_tbs_msf",
+        "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาการเงิน (MSF)",
+        "title_en": "Master of Science Program in Finance (MSF)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วท.ม. (การเงิน)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Thammasat Business School",
+        "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+        "department": "Master of Science in Finance Program",
+        "department_th": "โครงการปริญญาโททางการเงิน",
+        "program_type": "ภาคค่ำ / ภาคพิเศษ",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "65,000 บาท",
+        "tuition_total": "260,000 บาท",
+        "description": "หลักสูตรปริญญาโททางการเงินชั้นนำของประเทศ มุ่งเน้นการวิเคราะห์การเงินเชิงลึก ตราสารอนุพันธ์ การบริหารความเสี่ยง การประเมินมูลค่ากิจการ และการเตรียมพร้อมสำหรับคุณวุฒิ CFA",
+        "curriculum_highlights": [
+            "Advanced Corporate Finance & Valuation Modeling",
+            "Derivatives & Financial Engineering",
+            "Fixed Income Securities & Portfolio Theory",
+            "Quantitative Methods for Financial Analysis",
+            "Applied Financial Research & Independent Study"
+        ],
+        "career_paths": [
+            "Chartered Financial Analyst (CFA)",
+            "Equity Research Analyst",
+            "Fund Manager / Asset Allocator",
+            "Financial Risk Manager (FRM)",
+            "M&A Advisor"
+        ],
+        "tags": [
+            "Finance",
+            "MSF",
+            "CFA",
+            "Valuation",
+            "Investment Banking",
+            "Risk Management"
+        ],
+        "website_url": "https://msf.tbs.tu.ac.th"
+    },
+    {
+        "id": "tu_tbs_mim_inter",
+        "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาการตลาด (หลักสูตรนานาชาติ MIM)",
+        "title_en": "Master of Science Program in Marketing (MIM International Program)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วท.ม. (การตลาด - นานาชาติ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Thammasat Business School",
+        "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+        "department": "MIM International Program",
+        "department_th": "โครงการปริญญาโทการตลาดภาคภาษาอังกฤษ",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "110,000 บาท",
+        "tuition_total": "440,000 บาท",
+        "description": "หลักสูตรปริญญาโทด้านการตลาดหลักสูตรแรกของประเทศไทย เจ้าของรางวัลระดับโลกด้าน Business Plan Competition เน้นกลยุทธ์การตลาดสากล แบรนด์ระดับโลก และนวัตกรรมการตลาดดิจิทัล",
+        "curriculum_highlights": [
+            "Strategic Global Marketing & Brand Strategy",
+            "New Venture Planning & Business Plan Competition",
+            "Consumer Insights in the Digital Age",
+            "Marketing Metrics & Return on Marketing Investment (ROMI)",
+            "Strategic Sales & Omnichannel Distribution"
+        ],
+        "career_paths": [
+            "Chief Marketing Officer (CMO)",
+            "Global Brand Director",
+            "Strategic Marketing Consultant",
+            "New Venture Lead"
+        ],
+        "tags": [
+            "MIM",
+            "Marketing",
+            "International Program",
+            "Brand Strategy",
+            "Business Plan",
+            "TBS"
+        ],
+        "website_url": "https://mim.tbs.tu.ac.th"
+    },
+    {
+        "id": "tu_tbs_msmis_msc",
+        "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาระบบสารสนเทศเพื่อการจัดการและวิทยาการวิเคราะห์ธุรกิจ (MSMIS)",
+        "title_en": "Master of Science Program in Management Information Systems and Business Analytics (MSMIS)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วท.ม. (ระบบสารสนเทศเพื่อการจัดการ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Thammasat Business School",
+        "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+        "department": "Department of Management Information Systems",
+        "department_th": "ภาควิชาระบบสารสนเทศเพื่อการจัดการ",
+        "program_type": "ภาคพิเศษ / ภาคค่ำ",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "60,000 บาท",
+        "tuition_total": "240,000 บาท",
+        "description": "ผสานกลยุทธ์ธุรกิจเข้ากับวิทยาการข้อมูล เทคโนโลยีคลาวด์ และปัญญาประดิษฐ์เพื่อการตัดสินใจทางธุรกิจ มุ่งสร้างผู้นำการเปลี่ยนแปลงทางดิจิทัล (Digital Transformation Leader)",
+        "curriculum_highlights": [
+            "Enterprise Architecture & Digital Transformation",
+            "Business Analytics & Data-Driven Decision Making",
+            "Cloud Computing & AI Solutions in Business",
+            "IT Governance, Cybersecurity & Risk Management",
+            "Applied Business Intelligence Project"
+        ],
+        "career_paths": [
+            "Chief Information Officer (CIO) / CTO",
+            "Business Analytics Manager",
+            "Enterprise Digital Consultant",
+            "IT Strategist"
+        ],
+        "tags": [
+            "MIS",
+            "Business Analytics",
+            "Digital Transformation",
+            "Data Analytics",
+            "IT Strategy"
+        ],
+        "website_url": "https://msmis.tbs.tu.ac.th"
+    },
+
+    # --- 3. Faculty of Economics (คณะเศรษฐศาสตร์ มธ.) ---
+    {
+        "id": "tu_econ_be_inter",
+        "title_th": "หลักสูตรเศรษฐศาสตรบัณฑิต (หลักสูตรนานาชาติ BE)",
+        "title_en": "Bachelor of Economics (BE International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "B.Econ. (International Program)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Economics",
+        "faculty_th": "คณะเศรษฐศาสตร์",
+        "department": "Bachelor of Economics International Program",
+        "department_th": "โครงการเศรษฐศาสตรบัณฑิตภาคภาษาอังกฤษ",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "4 ปี",
+        "total_credits": "128 หน่วยกิต",
+        "tuition_per_semester": "75,000 บาท",
+        "tuition_total": "600,000 บาท",
+        "description": "หลักสูตรเศรษฐศาสตร์นานาชาติชั้นนำ สอนเป็นภาษาอังกฤษ 100% ครอบคลุมเศรษฐศาสตร์มหภาคและจุลภาคเชิงลึก เศรษฐมิติ การเงินระหว่างประเทศ และนโยบายสาธารณะ",
+        "curriculum_highlights": [
+            "Advanced Microeconomic & Macroeconomic Theory",
+            "Econometrics & Quantitative Data Analysis",
+            "International Trade & Financial Architecture",
+            "Development Economics & Public Policy",
+            "Financial Economics & Corporate Strategy"
+        ],
+        "career_paths": [
+            "Economic Policy Analyst (BOT, NESDC)",
+            "Financial Market Strategist",
+            "International Organization Economist (World Bank, IMF, UN)",
+            "Risk & Quantitative Analyst"
+        ],
+        "tags": [
+            "Economics",
+            "BE",
+            "International Program",
+            "Econometrics",
+            "Finance",
+            "Public Policy"
+        ],
+        "website_url": "https://be.econ.tu.ac.th"
+    },
+    {
+        "id": "tu_econ_thai_be",
+        "title_th": "หลักสูตรเศรษฐศาสตรบัณฑิต (ศ.บ.)",
+        "title_en": "Bachelor of Economics Program (B.Econ.)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "ศ.บ. (เศรษฐศาสตร์)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Economics",
+        "faculty_th": "คณะเศรษฐศาสตร์",
+        "department": "Department of Economics",
+        "department_th": "ภาควิชาเศรษฐศาสตร์",
+        "program_type": "ภาคปกติ",
+        "duration_years": "4 ปี",
+        "total_credits": "128 หน่วยกิต",
+        "tuition_per_semester": "14,800 บาท",
+        "tuition_total": "118,400 บาท",
+        "description": "หลักสูตรเศรษฐศาสตร์ระดับตำนานของไทย บ่มเพาะนักเศรษฐศาสตร์ที่มีทักษะการคิดวิเคราะห์เชิงระบบ การประเมินนโยบายภาครัฐ การวิเคราะห์เศรษฐกิจมหภาค และเศรษฐศาสตร์การเงิน",
+        "curriculum_highlights": [
+            "Microeconomic & Macroeconomic Foundations",
+            "Introductory and Applied Econometrics",
+            "Money, Banking and Monetary Policy",
+            "Industrial Organization & Regulatory Policy",
+            "Behavioral Economics & Public Choice"
+        ],
+        "career_paths": [
+            "Economist",
+            "Policy & Planning Officer",
+            "Financial Analyst",
+            "Researcher in Economic Think Tanks"
+        ],
+        "tags": [
+            "Economics",
+            "Monetary Policy",
+            "Econometrics",
+            "Public Policy",
+            "Macroeconomics"
+        ],
+        "website_url": "https://www.econ.tu.ac.th"
+    },
+    {
+        "id": "tu_econ_mecon_inter",
+        "title_th": "หลักสูตรเศรษฐศาสตรมหาบัณฑิต (หลักสูตรนานาชาติ)",
+        "title_en": "Master of Economics Program (International Program)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "ศ.ม. (เศรษฐศาสตร์ - นานาชาติ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Economics",
+        "faculty_th": "คณะเศรษฐศาสตร์",
+        "department": "Master of Economics International Program",
+        "department_th": "โครงการเศรษฐศาสตรมหาบัณฑิตภาคภาษาอังกฤษ",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "80,000 บาท",
+        "tuition_total": "320,000 บาท",
+        "description": "เน้นการวิจัยเชิงลึกด้าน Advanced Microeconomics, Dynamic Macroeconomics, Advanced Econometrics, Financial Econometrics และการประเมินนโยบายการพัฒนาเศรษฐกิจระดับโลก",
+        "curriculum_highlights": [
+            "Advanced Microeconomic Theory & Game Theory",
+            "Advanced Macroeconomic Modeling & DSGE",
+            "Advanced Econometric Methods & Causal Inference",
+            "International Finance & Open Economy Macroeconomics",
+            "Master's Thesis Research in Economic Analysis"
+        ],
+        "career_paths": [
+            "Senior Economist at Central Bank",
+            "Economic Researcher in Global Institutions",
+            "Investment Strategist",
+            "Doctoral Student in Economics"
+        ],
+        "tags": [
+            "Economics",
+            "Advanced Econometrics",
+            "Macroeconomic Modeling",
+            "International Program",
+            "Master"
+        ],
+        "website_url": "https://www.econ.tu.ac.th/master"
+    },
+
+    # --- 4. Faculty of Law (คณะนิติศาสตร์ มธ.) ---
+    {
+        "id": "tu_law_llb_thai",
+        "title_th": "หลักสูตรนิติศาสตรบัณฑิต (น.บ.)",
+        "title_en": "Bachelor of Laws Program (LL.B.)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "น.บ. (นิติศาสตร์)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Law",
+        "faculty_th": "คณะนิติศาสตร์",
+        "department": "Faculty of Law",
+        "department_th": "คณะนิติศาสตร์ (ศูนย์รังสิต/ศูนย์ท่าพระจันทร์)",
+        "program_type": "ภาคปกติ",
+        "duration_years": "4 ปี",
+        "total_credits": "136 หน่วยกิต",
+        "tuition_per_semester": "14,300 บาท",
+        "tuition_total": "114,400 บาท",
+        "description": "สถาบันผลิตนักกฎหมายชั้นนำระดับประเทศ มุ่งเน้นการสอนหลักนิติธรรม นิติทัศนะ กฎหมายแพ่งและพาณิชย์ กฎหมายอาญา กฎหมายมหาชน และกฎหมายวิธีสบัญญัติ",
+        "curriculum_highlights": [
+            "Civil and Commercial Law Codes",
+            "Criminal Law & Criminology",
+            "Constitutional & Administrative Law (Public Law)",
+            "Civil & Criminal Procedure Laws",
+            "Legal Ethics & Moot Court Advocacy"
+        ],
+        "career_paths": [
+            "Judge / Public Prosecutor",
+            "Attorney at Law (Litigation & Corporate)",
+            "Legal Advisor / In-house Counsel",
+            "Government Legal Officer (กฤษฎีกา / ข้าราชการ)"
+        ],
+        "tags": [
+            "Law",
+            "LL.B.",
+            "Civil Law",
+            "Criminal Law",
+            "Public Law",
+            "Legal Advocacy"
+        ],
+        "website_url": "https://www.law.tu.ac.th"
+    },
+    {
+        "id": "tu_law_llb_inter_bus",
+        "title_th": "หลักสูตรนิติศาสตรบัณฑิต สาขากฎหมายธุรกิจ (หลักสูตรนานาชาติ LL.B.)",
+        "title_en": "Bachelor of Laws Program in Business Law (LL.B. International Program)",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "LL.B. (Business Law - International)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Law",
+        "faculty_th": "คณะนิติศาสตร์",
+        "department": "LL.B. International Business Law Program",
+        "department_th": "โครงการนิติศาสตรบัณฑิตสาขากฎหมายธุรกิจ (หลักสูตรนานาชาติ)",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "4 ปี",
+        "total_credits": "132 หน่วยกิต",
+        "tuition_per_semester": "85,000 บาท",
+        "tuition_total": "680,000 บาท",
+        "description": "หลักสูตรปริญญาตรีด้านกฎหมายธุรกิจนานาชาติแห่งแรกในไทย สอนเป็นภาษาอังกฤษ เน้นกฎหมายการค้าระหว่างประเทศ ทรัพย์สินทางปัญญา ธุรกรรมทางอิเล็กทรอนิกส์ และการอนุญาโตตุลาการระหว่างประเทศ",
+        "curriculum_highlights": [
+            "International Trade Law & WTO Framework",
+            "Cross-Border Mergers & Acquisitions Law",
+            "Intellectual Property & Digital Asset Law",
+            "International Commercial Arbitration",
+            "Corporate Governance & Financial Regulation Law"
+        ],
+        "career_paths": [
+            "International Corporate Lawyer",
+            "Cross-Border M&A Legal Consultant",
+            "In-House Counsel for Multinational Corporations",
+            "International Arbitration Specialist"
+        ],
+        "tags": [
+            "Business Law",
+            "LL.B.",
+            "International Law",
+            "M&A",
+            "Arbitration",
+            "Corporate Law"
+        ],
+        "website_url": "https://llb.law.tu.ac.th"
+    },
+    {
+        "id": "tu_law_llm_business",
+        "title_th": "หลักสูตรนิติศาสตรมหาบัณฑิต สาขากฎหมายธุรกิจและทรัพย์สินทางปัญญา (LL.M.)",
+        "title_en": "Master of Laws Program in Business Law and Intellectual Property (LL.M.)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "น.ม. (กฎหมายธุรกิจ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Law",
+        "faculty_th": "คณะนิติศาสตร์",
+        "department": "Graduate Program in Law",
+        "department_th": "โครงการบัณฑิตศึกษาทางกฎหมาย",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "30,000 บาท",
+        "tuition_total": "120,000 บาท",
+        "description": "มุ่งเน้นการค้นคว้าวิจัยขั้นสูงด้านกฎหมายธุรกิจ กฎหมายการแข่งขันทางการค้า กฎหมายตลาดทุน ทรัพย์สินทางปัญญา และกฎหมายเทคโนโลยีดิจิทัล (FinTech & AI Law)",
+        "curriculum_highlights": [
+            "Advanced Corporate and Securities Regulation",
+            "Competition and Antitrust Law",
+            "Digital Technology & Cyberlaw Innovations",
+            "Advanced Intellectual Property Strategies",
+            "Master of Laws Thesis Research"
+        ],
+        "career_paths": [
+            "Senior Legal Counsel",
+            "Partner in International Law Firm",
+            "Public Prosecutor / Judge specializing in Business Disputes",
+            "Academic Law Lecturer"
+        ],
+        "tags": [
+            "Law",
+            "LL.M.",
+            "Business Law",
+            "Intellectual Property",
+            "Securities Law"
+        ],
+        "website_url": "https://www.law.tu.ac.th/postgrad"
+    },
+
+    # --- 5. Faculty of Allied Health Sciences (คณะสหเวชศาสตร์ มธ.) ---
+    {
+        "id": "tu_allhealth_medtech_bsc",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคนิคการแพทย์",
+        "title_en": "Bachelor of Science Program in Medical Technology",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วท.บ. (เทคนิคการแพทย์)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Allied Health Sciences",
+        "faculty_th": "คณะสหเวชศาสตร์",
+        "department": "Department of Medical Technology",
+        "department_th": "ภาควิชาเทคนิคการแพทย์",
+        "program_type": "ภาคปกติ",
+        "duration_years": "4 ปี",
+        "total_credits": "138 หน่วยกิต",
+        "tuition_per_semester": "17,100 บาท",
+        "tuition_total": "136,800 บาท",
+        "description": "ผลิตนักเทคนิคการแพทย์ที่มีความรู้ความเชี่ยวชาญด้านการตรวจวิเคราะห์ทางห้องปฏิบัติการทางการแพทย์ โลหิตวิทยา เคมีคลินิก ภูมิคุ้มกันวิทยา และการวินิจฉัยระดับโมเลกุล",
+        "curriculum_highlights": [
+            "Clinical Chemistry & Laboratory Automation",
+            "Hematology & Transfusion Medicine",
+            "Clinical Immunology & Serology",
+            "Molecular Diagnostics & Genetic Testing",
+            "Clinical Microscopy & Parasitology"
+        ],
+        "career_paths": [
+            "Medical Technologist (นักเทคนิคการแพทย์)",
+            "Clinical Laboratory Specialist",
+            "Molecular Diagnostic Specialist",
+            "Medical Equipment Application Specialist",
+            "Health Researcher"
+        ],
+        "tags": [
+            "Medical Technology",
+            "Clinical Chemistry",
+            "Diagnostics",
+            "Allied Health",
+            "Molecular Biology"
+        ],
+        "website_url": "https://allied.tu.ac.th/medtech"
+    },
+    {
+        "id": "tu_allhealth_pt_bsc",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชากายภาพบำบัด",
+        "title_en": "Bachelor of Science Program in Physical Therapy",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วท.บ. (กายภาพบำบัด)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Allied Health Sciences",
+        "faculty_th": "คณะสหเวชศาสตร์",
+        "department": "Department of Physical Therapy",
+        "department_th": "ภาควิชากายภาพบำบัด",
+        "program_type": "ภาคปกติ",
+        "duration_years": "4 ปี",
+        "total_credits": "138 หน่วยกิต",
+        "tuition_per_semester": "17,100 บาท",
+        "tuition_total": "136,800 บาท",
+        "description": "มุ่งเน้นการตรวจประเมิน การรักษา และการฟื้นฟูสมรรถภาพทางกายภาพบำบัดในผู้ป่วยระบบกระดูกและกล้ามเนื้อ ระบบประสาท ระบบทางเดินหายใจ และการบาดเจ็บจากการเล่นกีฬา",
+        "curriculum_highlights": [
+            "Musculoskeletal Physical Therapy & Manual Therapy",
+            "Neurological Rehabilitation & Gait Analysis",
+            "Cardiopulmonary Physical Therapy",
+            "Sports Physical Therapy & Injury Prevention",
+            "Clinical Internship in Tertiary Hospitals"
+        ],
+        "career_paths": [
+            "Licensed Physical Therapist (นักกายภาพบำบัด)",
+            "Sports Physical Therapist in Pro Athletic Teams",
+            "Rehabilitation Clinic Founder",
+            "Ergonomic Consultant"
+        ],
+        "tags": [
+            "Physical Therapy",
+            "Rehabilitation",
+            "Sports Medicine",
+            "Neurology",
+            "Allied Health"
+        ],
+        "website_url": "https://allied.tu.ac.th/pt"
+    },
+    {
+        "id": "tu_allhealth_radtech_bsc",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชารังสีเทคนิค",
+        "title_en": "Bachelor of Science Program in Radiological Technology",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วท.บ. (รังสีเทคนิค)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Allied Health Sciences",
+        "faculty_th": "คณะสหเวชศาสตร์",
+        "department": "Department of Radiological Technology",
+        "department_th": "สาขาวิชารังสีเทคนิค",
+        "program_type": "ภาคปกติ",
+        "duration_years": "4 ปี",
+        "total_credits": "136 หน่วยกิต",
+        "tuition_per_semester": "17,100 บาท",
+        "tuition_total": "136,800 บาท",
+        "description": "เน้นการสร้างภาพทางการแพทย์ขั้นสูง เช่น MRI, CT Scan, รังสีวินิจฉัย, รังสีรักษาสำหรับโรคมะเร็ง, และเวชศาสตร์นิวเคลียร์ พร้อมการคุ้มครองความปลอดภัยทางรังสี",
+        "curriculum_highlights": [
+            "Diagnostic Radiography & Fluoroscopy",
+            "Computed Tomography (CT) & Magnetic Resonance Imaging (MRI)",
+            "Radiation Therapy & Treatment Planning for Oncology",
+            "Nuclear Medicine Imaging & Radiopharmaceuticals",
+            "Radiation Safety & Quality Assurance"
+        ],
+        "career_paths": [
+            "Radiological Technologist (นักรังสีเทคนิค)",
+            "MRI / CT Specialist",
+            "Radiation Therapy Technologist",
+            "Medical Imaging Product Specialist"
+        ],
+        "tags": [
+            "Radiological Technology",
+            "MRI",
+            "CT Scan",
+            "Radiation Therapy",
+            "Medical Imaging"
+        ],
+        "website_url": "https://allied.tu.ac.th/radtech"
+    },
+    {
+        "id": "tu_allhealth_sportsci_bsc",
+        "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาศาสตร์การกีฬาและการออกกำลังกาย",
+        "title_en": "Bachelor of Science Program in Sports and Exercise Science",
+        "degree_level": "ปริญญาตรี",
+        "degree_name": "วท.บ. (วิทยาศาสตร์การกีฬาและการออกกำลังกาย)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Allied Health Sciences",
+        "faculty_th": "คณะสหเวชศาสตร์",
+        "department": "Department of Sports Science and Sports Development",
+        "department_th": "สาขาวิชาวิทยาศาสตร์การกีฬาและการพัฒนากีฬา",
+        "program_type": "ภาคปกติ",
+        "duration_years": "4 ปี",
+        "total_credits": "130 หน่วยกิต",
+        "tuition_per_semester": "17,100 บาท",
+        "tuition_total": "136,800 บาท",
+        "description": "เรียนรู้สรีรวิทยาการออกกำลังกาย ชีวกลศาสตร์การเคลื่อนไหว โภชนาการการกีฬา การทดสอบและเสริมสร้างสมรรถภาพนักกีฬา และจิตวิทยาการกีฬา",
+        "curriculum_highlights": [
+            "Exercise Physiology & Performance Testing",
+            "Biomechanics & Movement Analysis",
+            "Sports Nutrition & Ergogenic Aids",
+            "Strength and Conditioning (S&C) Program Design",
+            "Sports Psychology & Athlete Mental Training"
+        ],
+        "career_paths": [
+            "Strength & Conditioning Coach",
+            "Sports Scientist for Elite Athletes",
+            "Clinical Exercise Physiologist",
+            "Fitness & Health Club Director",
+            "Sports Nutrition Specialist"
+        ],
+        "tags": [
+            "Sports Science",
+            "Exercise Physiology",
+            "Biomechanics",
+            "Strength and Conditioning",
+            "Fitness"
+        ],
+        "website_url": "https://allied.tu.ac.th/sports-science"
+    },
+    {
+        "id": "tu_allhealth_biomed_msc",
+        "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาชีวเวชศาสตร์ (หลักสูตรนานาชาติ)",
+        "title_en": "Master of Science Program in Biomedical Sciences (International Program)",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วท.ม. (ชีวเวชศาสตร์ - นานาชาติ)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Allied Health Sciences",
+        "faculty_th": "คณะสหเวชศาสตร์",
+        "department": "Graduate Program in Biomedical Sciences",
+        "department_th": "โครงการบัณฑิตศึกษาชีวเวชศาสตร์",
+        "program_type": "นานาชาติ (International Program)",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "60,000 บาท",
+        "tuition_total": "240,000 บาท",
+        "description": "หลักสูตรปริญญาโทนานาชาติด้านการวิจัยชีวเวชศาสตร์ขั้นสูง พันธุศาสตร์โมเลกุล ภูมิคุ้มกันวิทยาการแพทย์ การพัฒนายา และการบำบัดด้วยเซลล์และยีน",
+        "curriculum_highlights": [
+            "Advanced Molecular Biology & Genomics in Medicine",
+            "Cancer Biology & Targeted Therapeutics",
+            "Immunopathology & Vaccine Development",
+            "Stem Cell & Regenerative Medicine Research",
+            "Master's Thesis in Biomedical Innovation"
+        ],
+        "career_paths": [
+            "Biomedical Scientist / Researcher",
+            "Pharma & Biotech R&D Specialist",
+            "Clinical Research Associate (CRA)",
+            "Academic Researcher / Lecturer"
+        ],
+        "tags": [
+            "Biomedical Sciences",
+            "Molecular Biology",
+            "Cancer Research",
+            "Immunology",
+            "International Program"
+        ],
+        "website_url": "https://allied.tu.ac.th/biomed"
+    },
+    {
+        "id": "tu_allhealth_pt_msc",
+        "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชากายภาพบำบัด",
+        "title_en": "Master of Science Program in Physical Therapy",
+        "degree_level": "ปริญญาโท",
+        "degree_name": "วท.ม. (กายภาพบำบัด)",
+        "university": "Thammasat University",
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "faculty": "Faculty of Allied Health Sciences",
+        "faculty_th": "คณะสหเวชศาสตร์",
+        "department": "Department of Physical Therapy",
+        "department_th": "ภาควิชากายภาพบำบัด",
+        "program_type": "ภาคปกติ / ภาคพิเศษ",
+        "duration_years": "2 ปี",
+        "total_credits": "36 หน่วยกิต",
+        "tuition_per_semester": "28,000 บาท",
+        "tuition_total": "112,000 บาท",
+        "description": "มุ่งเน้นการวิจัยทางกายภาพบำบัดขั้นสูง การวิเคราะห์การเคลื่อนไหวมนุษย์ด้วยเทคโนโลยีชีวกลศาสตร์ (Motion Analysis) และการฟื้นฟูสมรรถภาพทางคลินิกขั้นสูง",
+        "curriculum_highlights": [
+            "Advanced Clinical Physical Therapy Practice",
+            "Advanced Biomechanics & 3D Motion Capture",
+            "Neuro-musculoskeletal Rehabilitation Research",
+            "Evidence-Based Practice in Physical Therapy",
+            "Master's Thesis Research in Rehabilitation Science"
+        ],
+        "career_paths": [
+            "Clinical Specialist in Physical Therapy",
+            "Rehabilitation Scientist",
+            "University Lecturer / Clinical Instructor",
+            "Head of Rehabilitation Department"
+        ],
+        "tags": [
+            "Physical Therapy",
+            "Rehabilitation",
+            "Biomechanics",
+            "Motion Analysis",
+            "Master Degree"
+        ],
+        "website_url": "https://allied.tu.ac.th/pt"
+    }
+]
+
+REQUIRED_FIELDS = [
+    "id",
+    "title_th",
+    "title_en",
+    "degree_level",
+    "degree_name",
+    "university",
+    "university_th",
+    "faculty",
+    "faculty_th",
+    "department",
+    "department_th",
+    "program_type",
+    "duration_years",
+    "total_credits",
+    "tuition_per_semester",
+    "tuition_total",
+    "description",
+    "curriculum_highlights",
+    "career_paths",
+    "tags",
+    "website_url"
+]
+
+def validate_and_save():
+    # Target directory and file
+    output_dir = Path(r"C:\Users\chaya\Documents\Program\Project\Teacher\backend\data\courses_new")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = output_dir / "courses_ku_tu.json"
+
+    print(f"Total courses to validate: {len(COURSES_DATA)}")
+    
+    # Validation checks
+    ids = set()
+    ku_count = 0
+    tu_count = 0
+    ug_count = 0
+    grad_count = 0
+
+    for idx, course in enumerate(COURSES_DATA):
+        # 1. Check all required fields
+        for field in REQUIRED_FIELDS:
+            if field not in course or course[field] is None:
+                raise ValueError(f"Course #{idx} ({course.get('id')}) missing field: '{field}'")
+            if isinstance(course[field], str) and not course[field].strip():
+                raise ValueError(f"Course #{idx} ({course.get('id')}) has empty string in field: '{field}'")
+            if isinstance(course[field], list) and len(course[field]) == 0:
+                raise ValueError(f"Course #{idx} ({course.get('id')}) has empty list in field: '{field}'")
+
+        # 2. Check unique IDs
+        cid = course["id"]
+        if cid in ids:
+            raise ValueError(f"Duplicate course ID found: {cid}")
+        ids.add(cid)
+
+        # 3. Stats counting
+        if course["university"] == "Kasetsart University":
+            ku_count += 1
+        elif course["university"] == "Thammasat University":
+            tu_count += 1
+
+        if course["degree_level"] == "ปริญญาตรี":
+            ug_count += 1
+        else:
+            grad_count += 1
+
+    # Save to JSON
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(COURSES_DATA, f, ensure_ascii=False, indent=2)
+
+    print(f" Successfully validated and saved {len(COURSES_DATA)} courses to:")
+    print(f"   -> {output_file}")
+    print("\n--- Summary Statistics ---")
+    print(f"Total Courses: {len(COURSES_DATA)}")
+    print(f"  - Kasetsart University (KU): {ku_count} courses")
+    print(f"  - Thammasat University (TU): {tu_count} courses")
+    print(f"  - Undergraduate (ปริญญาตรี): {ug_count} courses")
+    print(f"  - Graduate (ปริญญาโท/เอก): {grad_count} courses")
+
+if __name__ == "__main__":
+    validate_and_save()
