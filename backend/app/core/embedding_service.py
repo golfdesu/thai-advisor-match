@@ -218,8 +218,8 @@ class EmbeddingService:
             "tips": ["Tip 1", "Tip 2", "Tip 3"] // 3 practical tips for sending this email
         }}
         """
-        # Prioritize Fast Flash model first for instantaneous generation (~1.2s)
-        for model_name in ['gemini-3.6-flash', 'gemini-2.5-flash', 'gemini-3.1-pro-preview']:
+        # Prioritize Fast Flash models for sub-second generation
+        for model_name in ['gemini-3.6-flash', 'gemini-2.5-flash']:
             for attempt in range(max_retries):
                 client = self._get_client()
                 if not client:

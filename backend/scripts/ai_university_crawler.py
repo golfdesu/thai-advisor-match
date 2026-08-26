@@ -25,21 +25,27 @@ sys.path.append(BACKEND_DIR)
 try:
     from app.core.database import SessionLocal, engine, Base
     from app.models.db_models import CourseDB
+    from app.core.embedding_service import embedding_service
     DB_AVAILABLE = True
 except ImportError:
     DB_AVAILABLE = False
 
 API_KEYS = [k.strip() for k in os.getenv("GEMINI_API_KEYS", "").split(",")] if os.getenv("GEMINI_API_KEYS") else [os.getenv("GEMINI_API_KEY")]
 
+_crawler_clients = {}
 key_lock = threading.Lock()
 current_key_idx = 0
 
 def get_client():
     global current_key_idx
+    if not API_KEYS or not API_KEYS[0]:
+        return None
     with key_lock:
-        key = API_KEYS[current_key_idx]
+        key = API_KEYS[current_key_idx % len(API_KEYS)]
         current_key_idx = (current_key_idx + 1) % len(API_KEYS)
-    return genai.Client(api_key=key)
+        if key not in _crawler_clients:
+            _crawler_clients[key] = genai.Client(api_key=key)
+        return _crawler_clients[key]
 
 UNIVERSITIES = [
     "Prince of Songkla University",
@@ -164,6 +170,11 @@ def process_university(uni_name: str):
         session = SessionLocal()
         inserted = 0
         for c in all_courses:
+            emb_text = f"{c.get('title_th', '')} {c.get('title_en', '')}. {c.get('faculty_th', '')} {c.get('description', '')}"
+            emb_vector = embedding_service.get_embedding(emb_text)
+            c["embedding_text"] = emb_text
+            c["embedding"] = emb_vector if (emb_vector and len(emb_vector) == 768) else None
+
             existing = session.query(CourseDB).filter_by(id=c["id"]).first()
             if existing:
                 for k, v in c.items(): setattr(existing, k, v)
@@ -172,7 +183,7 @@ def process_university(uni_name: str):
                 inserted += 1
         session.commit()
         session.close()
-        print(f"=== Successfully seeded {inserted} REAL courses for {uni_name} ===")
+        print(f"=== Successfully seeded {inserted} REAL courses with embeddings for {uni_name} ===")
 
 def main():
     import urllib3

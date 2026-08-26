@@ -96,7 +96,7 @@ def db_course_to_pydantic(db_course: CourseDB, match_score: float = 95.0) -> Cou
 
 def build_degree_level_filter(degree_level: Optional[str]):
     """
-    Returns an OR filter condition for degree_level covering Thai and English representations.
+    Returns an index-accelerated filter condition for degree_level utilizing B-Tree index.
     """
     if not degree_level or degree_level.strip().lower() == "all":
         return None
@@ -104,17 +104,17 @@ def build_degree_level_filter(degree_level: Optional[str]):
     raw = degree_level.strip().lower()
     
     if any(k in raw for k in ["ตรี", "bachelor", "undergrad"]):
-        targets = ["ปริญญาตรี", "bachelor"]
+        targets = ["ปริญญาตรี", "Bachelor", "bachelor", "Bachelor's Degree"]
     elif any(k in raw for k in ["โท", "master"]):
-        targets = ["ปริญญาโท", "master"]
+        targets = ["ปริญญาโท", "Master", "master", "Master's Degree", "วท.ม.", "วศ.ม.", "บธ.ม."]
     elif any(k in raw for k in ["เอก", "doctor", "ph.d", "phd", "doctoral", "doctorate"]):
-        targets = ["ปริญญาเอก", "doctor", "ph.d", "phd", "doctoral", "doctorate"]
+        targets = ["ปริญญาเอก", "Doctorate", "Ph.D.", "doctoral", "doctorate"]
     elif any(k in raw for k in ["ประกาศนียบัตร", "certificate", "diploma", "cert"]):
-        targets = ["ประกาศนียบัตร", "certificate", "diploma"]
+        targets = ["ประกาศนียบัตร", "Certificate", "Diploma"]
     else:
         targets = [degree_level.strip()]
         
-    return or_(*[CourseDB.degree_level.ilike(f"%{t}%") for t in targets])
+    return CourseDB.degree_level.in_(targets) | or_(*[CourseDB.degree_level.startswith(t) for t in targets])
 
 @router.get("/", response_model=List[CourseSchema])
 def list_courses(
