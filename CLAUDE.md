@@ -116,10 +116,18 @@ Teacher/
 │
 ├── frontend/                     # Next.js 16 Super App UI
 │   ├── src/
-│   │   └── app/
-│   │       ├── layout.tsx
-│   │       ├── page.tsx          # Dual Search (Courses & Advisors), Cold Email Modal
-│   │       └── globals.css
+│   │   ├── app/
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.tsx          # Dual Search (Courses & Advisors), Cold Email Modal
+│   │   │   ├── advisor/[id]/     # Dynamic Advisor Profile page
+│   │   │   │   └── page.tsx
+│   │   │   ├── career-discovery/ # RIASEC AI Quiz page
+│   │   │   │   └── page.tsx
+│   │   │   └── globals.css
+│   │   ├── lib/
+│   │   │   └── config.ts         # Shared API configuration & global helpers
+│   │   └── types/
+│   │       └── index.ts          # Centralized TypeScript interfaces (Faculty, Course, Quiz)
 │   ├── package.json
 │   └── .env.local
 │
@@ -199,4 +207,11 @@ To ensure sub-second response times (< 500ms for searches, < 1.5s for AI generat
 
 ### 6. Fallback Search & Query Protection Rules
 - **SQL Pre-filtering for Fallbacks:** In lexical/keyword fallback algorithms, always apply `filter(or_(*filters)).limit(...)` at the SQL level. NEVER call `.all()` on an unconstrained table to loop over in Python memory.
+
+### 7. DRY (Don't Repeat Yourself) & Code Redundancy Elimination Standards
+- **Centralized Frontend Contracts:** NEVER define duplicate TypeScript `interface` or `type` blocks in individual page components. Always import from `@/types` (`frontend/src/types/index.ts`).
+- **Single Source for API URLs & Asset Helpers:** Always import `API_BASE_URL` and avatar/image fallback helpers from `@/lib/config` instead of re-declaring environment variables or fallback templates in multiple files.
+- **No Dead Backend Endpoints:** Maintain zero dead routes in FastAPI `main.py` (e.g. static template mountings when the frontend is decoupled as Next.js).
+- **No Redundant Wrapper Methods:** Avoid pass-through wrapper functions with zero added logic (e.g., `_generate_explanation` calling `generate_smart_explanation`). Direct callers straight to the canonical implementation.
+
 

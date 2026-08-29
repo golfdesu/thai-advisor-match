@@ -15,37 +15,8 @@ import {
   Loader2,
   AlertCircle
 } from "lucide-react";
-
-interface FacultyMember {
-  id: string;
-  university: string;
-  university_th: string;
-  faculty: string;
-  faculty_th: string;
-  department: string;
-  department_th: string;
-  academic_title_th?: string;
-  first_name?: string;
-  last_name?: string;
-  full_name_th: string;
-  full_name?: string;
-  role?: string;
-  email?: string;
-  image_url?: string;
-  profile_url?: string;
-  education?: string[];
-  research_interests?: string[];
-  taught_courses?: string[];
-  featured_publications?: {
-    title: string;
-    year?: number;
-    venue?: string;
-    citation_count?: number;
-  }[];
-  scholar_url?: string;
-}
-
-const BACKEND_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1";
+import { FacultyMember } from "@/types";
+import { API_BASE_URL, getAdvisorAvatarUrl } from "@/lib/config";
 
 export default function AdvisorProfilePage() {
   const params = useParams();
@@ -62,7 +33,7 @@ export default function AdvisorProfilePage() {
     const fetchAdvisor = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`${BACKEND_URL}/faculty/${id}`);
+        const res = await fetch(`${API_BASE_URL}/faculty/${id}`);
         if (!res.ok) {
           if (res.status === 404) throw new Error("ไม่พบข้อมูลอาจารย์ท่านนี้");
           throw new Error("เกิดข้อผิดพลาดในการดึงข้อมูล");
@@ -126,12 +97,12 @@ export default function AdvisorProfilePage() {
           {/* Header Section */}
           <div className="p-6 md:p-10 flex flex-col md:flex-row gap-6 md:gap-8 items-start border-b border-stone-200">
             <img
-              src={advisor.image_url || `https://ui-avatars.com/api/?name=${encodeURIComponent(advisor.full_name_th)}&background=5B0F18&color=fff&size=256`}
+              src={advisor.image_url || getAdvisorAvatarUrl(advisor.full_name_th)}
               alt={advisor.full_name_th}
               loading="lazy"
               decoding="async"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(advisor.full_name_th)}&background=5B0F18&color=fff&size=256`;
+                (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(advisor.full_name_th);
               }}
               className="w-32 h-32 md:w-40 md:h-40 rounded-3xl object-cover border-4 border-white shadow-lg flex-shrink-0 bg-stone-100"
             />

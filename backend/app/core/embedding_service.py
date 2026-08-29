@@ -193,11 +193,6 @@ class EmbeddingService:
 
         return "อาจารย์ในสาขาวิชาที่สอดคล้องกับหัวข้อวิจัยที่คุณสนใจ"
 
-    def _generate_explanation(self, query: str, faculty: FacultyMember, score: float, max_retries: int = 1) -> str:
-        """Fast explanation generator for advisor match."""
-        return self.generate_smart_explanation(query, faculty, score)
-
-
     def generate_cold_email_ai(self, req: dict, faculty: FacultyMember, max_retries: int = 2) -> tuple[str, str, list[str]]:
         """Use Gemini to draft a highly professional cold email quickly."""
         if not self.api_keys:

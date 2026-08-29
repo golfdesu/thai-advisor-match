@@ -35,59 +35,8 @@ import {
 } from "lucide-react";
 import riasecQuestions from "@/data/riasec_questions.json";
 import lifestyleQuestions from "@/data/lifestyle_questions.json";
-
-
-interface RiasecScore {
-  realistic: number;
-  investigative: number;
-  artistic: number;
-  social: number;
-  enterprising: number;
-  conventional: number;
-}
-
-interface CareerItem {
-  title: string;
-  description: string;
-  match_percentage: number;
-  skills: string[];
-  growth_outlook: string;
-}
-
-interface RecommendedCourse {
-  id: string;
-  title_th: string;
-  title_en?: string;
-  degree_level: string;
-  degree_name?: string;
-  university_th: string;
-  faculty_th: string;
-  tuition_per_semester?: string;
-  curriculum_highlights?: string[];
-  website_url?: string;
-  match_score?: number;
-}
-
-interface QuizResultData {
-  tier: string;
-  archetype_title: string;
-  archetype_code: string;
-  archetype_description: string;
-  riasec_scores: RiasecScore;
-  personality_summary: string;
-  strengths: string[];
-  ideal_work_environment: string;
-  campus_vibe_match?: string;
-  learning_style_match?: string;
-  lifestyle_highlights?: string[];
-  growth_advice: string;
-  share_quote: string;
-  top_careers: CareerItem[];
-  recommended_courses: RecommendedCourse[];
-}
-
-const BACKEND_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1";
-
+import { RiasecScore, CareerItem, Course as RecommendedCourse, CareerProfileResponse as QuizResultData } from "@/types";
+import { API_BASE_URL } from "@/lib/config";
 
 function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
   const size = 320;
@@ -343,7 +292,7 @@ export default function CareerDiscoveryPage() {
     });
 
     try {
-      const res = await fetch(`${BACKEND_URL}/career-quiz/analyze`, {
+      const res = await fetch(`${API_BASE_URL}/career-quiz/analyze`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

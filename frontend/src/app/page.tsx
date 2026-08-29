@@ -42,69 +42,8 @@ import {
   Share2,
   Trash2
 } from "lucide-react";
-
-interface FacultyMember {
-  id: string;
-  university: string;
-  university_th: string;
-  faculty: string;
-  faculty_th: string;
-  department: string;
-  department_th: string;
-  academic_title_th?: string;
-  first_name?: string;
-  last_name?: string;
-  full_name_th: string;
-  full_name?: string;
-  role?: string;
-  email?: string;
-  image_url?: string;
-  profile_url?: string;
-  education?: string[];
-  research_interests?: string[];
-  taught_courses?: string[];
-  featured_publications?: {
-    title: string;
-    year?: number;
-    venue?: string;
-    citation_count?: number;
-  }[];
-  scholar_url?: string;
-}
-
-interface SearchMatchResult {
-  faculty: FacultyMember;
-  match_score: number;
-  ai_explanation?: string;
-  matched_keywords?: string[];
-}
-
-interface Course {
-  id: string;
-  title_th: string;
-  title_en?: string;
-  degree_level: string;
-  degree_name?: string;
-  university: string;
-  university_th: string;
-  faculty: string;
-  faculty_th: string;
-  department?: string;
-  department_th?: string;
-  program_type?: string;
-  duration_years?: string;
-  total_credits?: string;
-  tuition_per_semester?: string;
-  tuition_total?: string;
-  description?: string;
-  curriculum_highlights?: string[];
-  career_paths?: string[];
-  tags?: string[];
-  website_url?: string;
-  match_score?: number;
-}
-
-const BACKEND_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1";
+import { FacultyMember, SearchMatchResult, Course } from "@/types";
+import { API_BASE_URL, getAdvisorAvatarUrl } from "@/lib/config";
 
 // Helper function to infer Selectivity Badge
 function getSelectivityBadge(course: Course) {
@@ -198,7 +137,7 @@ export default function Home() {
   const fetchInitialCourses = async () => {
     try {
       setLoading(true);
-      const res = await fetch(`${BACKEND_URL}/courses/?limit=24`);
+      const res = await fetch(`${API_BASE_URL}/courses/?limit=24`);
       if (res.ok) {
         const data = await res.json();
         setCourses(data);
@@ -257,7 +196,7 @@ export default function Home() {
 
     try {
       if (currentTab === "courses") {
-        const res = await fetch(`${BACKEND_URL}/courses/search`, {
+        const res = await fetch(`${API_BASE_URL}/courses/search`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -276,14 +215,14 @@ export default function Home() {
         }
       } else {
         if (!queryToUse.trim()) {
-          const res = await fetch(`${BACKEND_URL}/faculty/?limit=20`);
+          const res = await fetch(`${API_BASE_URL}/faculty/?limit=20`);
           if (res.ok) {
             const data = await res.json();
             const list = Array.isArray(data) ? data : (data.results ?? []);
             setAdvisors(list.map((f: FacultyMember) => ({ faculty: f, match_score: 90 })));
           }
         } else {
-          const res = await fetch(`${BACKEND_URL}/search/`, {
+          const res = await fetch(`${API_BASE_URL}/search/`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
@@ -315,7 +254,7 @@ export default function Home() {
     setGeneratedEmail(null);
 
     try {
-      const res = await fetch(`${BACKEND_URL}/search/cold-email`, {
+      const res = await fetch(`${API_BASE_URL}/search/cold-email`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -791,12 +730,12 @@ export default function Home() {
                           className="flex items-center gap-3 flex-1 min-w-0 hover:opacity-90 transition group/avatar"
                         >
                           <img
-                            src={f.image_url || `https://ui-avatars.com/api/?name=${encodeURIComponent(f.first_name || "Faculty")}&background=5B0F18&color=ffffff`}
+                            src={f.image_url || getAdvisorAvatarUrl(f.first_name)}
                             alt={f.full_name_th}
                             loading="lazy"
                             decoding="async"
                             onError={(e) => {
-                              (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(f.first_name || "Faculty")}&background=5B0F18&color=ffffff`;
+                              (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(f.first_name);
                             }}
                             className="w-12 h-12 rounded-xl object-cover border border-stone-200 bg-stone-100 flex-shrink-0 group-hover/avatar:scale-105 transition-transform"
                           />
