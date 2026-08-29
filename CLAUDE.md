@@ -214,4 +214,19 @@ To ensure sub-second response times (< 500ms for searches, < 1.5s for AI generat
 - **No Dead Backend Endpoints:** Maintain zero dead routes in FastAPI `main.py` (e.g. static template mountings when the frontend is decoupled as Next.js).
 - **No Redundant Wrapper Methods:** Avoid pass-through wrapper functions with zero added logic (e.g., `_generate_explanation` calling `generate_smart_explanation`). Direct callers straight to the canonical implementation.
 
+### 8. AI Semantic Advisor & Academic Matching Standards
+To deliver enterprise-grade academic matching without hallucination or slow response times, follow these standards:
+- **Cross-Disciplinary Academic Ontology:** Maintain a single-pass regex compiled ontology (`THAI_EN_SYNONYMS` + `_SYNONYM_REGEX`) in `embedding_service.py` to translate Thai research inquiries into global academic taxonomy (AI/NLP, Energy/Microgrid, Biomedical/Genomics, Quant Finance, Robotics) before vector embedding.
+- **Hybrid Multi-Evidence Re-ranking:** Do NOT rely purely on cosine distance. Always apply a 4-tier composite score:
+  1. *Dense Semantic Similarity:* Gemini 768-dimensional vector cosine distance with `pgvector` HNSW index scans.
+  2. *Core Research Interests Match:* Explicit alignment with listed research domains.
+  3. *Publication Synergy:* Scan past paper titles (`featured_publications`) to detect actual published track records.
+  4. *Academic Track Record & Credentials:* Reward verified Google Scholar profiles and doctoral advisory qualifications.
+- **Contextual Synergy Badges & Thesis Angles:**
+  - Auto-generate *Synergy Badges* (e.g., `⭐ Direct Research Focus`, `📄 Relevant Publications`, `🏆 International Scholar`, `🎓 Doctoral Advisor`).
+  - Provide actionable *Suggested Thesis Angles* showing how the student's proposal integrates with the advisor's methodology.
+- **Zero-Latency Rationale Generation:** Synthesize explanations locally using contextual multi-evidence templates citing actual publication titles without making synchronous LLM API roundtrips during candidate ranking.
+- **Decoupled Tab State & Dual Catalog Hydration:** Switching tabs between Curricula and Advisors must NEVER trigger unintended automatic searches. Hydrate initial catalog data concurrently via `Promise.allSettled`.
+
+
 

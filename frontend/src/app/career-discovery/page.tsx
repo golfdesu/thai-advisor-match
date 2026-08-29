@@ -365,14 +365,14 @@ export default function CareerDiscoveryPage() {
         {/* VIEW 1: Tier Selection Mode */}
         {!tier && !result && (
           <div className="text-center animate-fadeIn">
-            <div className="inline-flex items-center gap-2 bg-rose-50 border border-rose-200 text-[#5B0F18] px-3.5 py-1 rounded-full text-xs font-semibold mb-6 shadow-xs">
+            <div className="inline-flex items-center gap-2 bg-stone-100 border border-stone-300 text-stone-700 px-3.5 py-1 rounded-full text-xs font-semibold mb-6 shadow-2xs">
               <Compass size={14} className="text-[#5B0F18]" />
               <span>Holland RIASEC Psychometric Assessment</span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl font-black text-stone-900 tracking-tight leading-tight mb-4">
               ค้นหา <span className="text-[#5B0F18]">ศักยภาพ & สาขาวิชาที่ใช่</span><br />
-              ด้วยระบบประเมินจิตวิทยาอาชีพ
+              ด้วยระบบประเมินจิตวิทยาการศึกษา
             </h1>
 
             <p className="text-stone-600 text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed font-normal">
@@ -850,12 +850,12 @@ export default function CareerDiscoveryPage() {
                     >
                       <div>
                         <div className="flex justify-between items-start gap-2 mb-2">
-                          <span className="text-[10px] font-bold bg-rose-50 text-[#5B0F18] px-2.5 py-0.5 rounded-full border border-rose-200">
+                          <span className="text-[10px] font-bold bg-stone-100 text-stone-800 px-2.5 py-0.5 rounded-full border border-stone-200">
                             {course.degree_level || "ปริญญาตรี"}
                           </span>
                           {course.match_score && (
-                            <span className="text-xs font-mono font-bold text-emerald-700 flex items-center gap-1">
-                              <Sparkles size={12} className="text-emerald-600" /> {course.match_score}% Match
+                            <span className="text-xs font-mono font-bold text-emerald-800 flex items-center gap-1">
+                              ตรงสาย {course.match_score}%
                             </span>
                           )}
                         </div>

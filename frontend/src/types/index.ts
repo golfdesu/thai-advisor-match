@@ -35,6 +35,9 @@ export interface SearchMatchResult {
   match_score: number;
   ai_explanation?: string;
   matched_keywords?: string[];
+  matching_publications?: string[];
+  synergy_badges?: string[];
+  suggested_thesis_angles?: string[];
 }
 
 export interface Course {

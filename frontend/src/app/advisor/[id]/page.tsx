@@ -166,12 +166,12 @@ export default function AdvisorProfilePage() {
               {advisor.research_interests && advisor.research_interests.length > 0 && (
                 <section>
                   <h2 className="text-lg font-bold text-stone-900 mb-4 flex items-center gap-2">
-                    <Sparkles className="text-[#5B0F18]" size={22} />
+                    <BookOpen className="text-[#5B0F18]" size={20} />
                     สาขาวิจัยและความเชี่ยวชาญ (Research Interests)
                   </h2>
                   <div className="flex flex-wrap gap-2">
                     {advisor.research_interests.map((interest, i) => (
-                      <span key={i} className="bg-rose-50/80 border border-rose-200 text-[#5B0F18] font-bold px-3.5 py-1.5 rounded-xl text-sm">
+                      <span key={i} className="bg-stone-100 border border-stone-200 text-stone-800 font-medium px-3.5 py-1.5 rounded-xl text-sm">
                         {interest}
                       </span>
                     ))}
@@ -183,7 +183,7 @@ export default function AdvisorProfilePage() {
               {advisor.education && advisor.education.length > 0 && (
                 <section>
                   <h2 className="text-lg font-bold text-stone-900 mb-4 flex items-center gap-2">
-                    <GraduationCap className="text-[#5B0F18]" size={22} />
+                    <GraduationCap className="text-[#5B0F18]" size={20} />
                     ประวัติการศึกษา (Education)
                   </h2>
                   <div className="space-y-3">
@@ -204,11 +204,11 @@ export default function AdvisorProfilePage() {
                 <section>
                   <div className="flex items-center justify-between mb-4">
                     <h2 className="text-lg font-bold text-stone-900 flex items-center gap-2">
-                      <FileText className="text-emerald-700" size={22} />
-                      ผลงานวิชาการเด่น (Publications)
+                      <FileText className="text-[#5B0F18]" size={20} />
+                      ผลงานวิชาการและงานวิจัยเด่น (Publications)
                     </h2>
                     {advisor.scholar_url && (
-                      <a href={advisor.scholar_url} target="_blank" rel="noreferrer" className="text-xs font-bold text-[#5B0F18] hover:underline flex items-center gap-1 bg-rose-50 border border-rose-200 px-3 py-1.5 rounded-lg transition">
+                      <a href={advisor.scholar_url} target="_blank" rel="noreferrer" className="text-xs font-bold text-[#5B0F18] hover:underline flex items-center gap-1 bg-stone-100 border border-stone-200 px-3 py-1.5 rounded-lg transition">
                         Google Scholar <ExternalLink size={14} />
                       </a>
                     )}
@@ -221,7 +221,7 @@ export default function AdvisorProfilePage() {
                           {pub.year && <span className="bg-stone-100 px-2 py-0.5 rounded-md text-stone-700 font-semibold">{pub.year}</span>}
                           {pub.venue && <span>{pub.venue}</span>}
                           {pub.citation_count !== undefined && pub.citation_count > 0 && (
-                            <span className="text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200 font-bold">
+                            <span className="text-stone-700 bg-stone-100 px-2 py-0.5 rounded-md border border-stone-200 font-medium">
                               อ้างอิง {pub.citation_count} ครั้ง
                             </span>
                           )}
@@ -242,7 +242,7 @@ export default function AdvisorProfilePage() {
                 <div className="bg-white rounded-3xl border border-stone-200 p-6 shadow-sm">
                   <h3 className="text-base font-bold text-stone-900 mb-4 flex items-center gap-2">
                     <BookOpen className="text-[#5B0F18]" size={20} />
-                    วิชาที่สอน
+                    รายวิชาที่รับผิดชอบ
                   </h3>
                   <ul className="space-y-2">
                     {advisor.taught_courses.map((course, i) => (
@@ -257,15 +257,15 @@ export default function AdvisorProfilePage() {
 
               {/* Quick Contact Card */}
               <div className="bg-[#EFE4D2] rounded-3xl border border-stone-300 p-6">
-                <h3 className="text-sm font-bold text-[#5B0F18] mb-2">สนใจให้อาจารย์เป็นที่ปรึกษา?</h3>
+                <h3 className="text-sm font-bold text-[#5B0F18] mb-2">สนใจติดต่ออาจารย์ที่ปรึกษา?</h3>
                 <p className="text-xs text-stone-700 mb-4 leading-relaxed font-medium">
-                  คุณสามารถใช้ระบบ AI ของเราช่วยร่างอีเมลแนะนำตัวพร้อมนำเสนอหัวข้อวิจัยที่เหมาะสมได้
+                  คุณสามารถใช้ระบบช่วยร่างอีเมลแนะนำตัวพร้อมโครงร่างหัวข้อวิจัยที่เหมาะสมเพื่อติดต่ออาจารย์ได้
                 </p>
                 <button
                   onClick={() => router.push("/")}
-                  className="w-full bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold py-2.5 rounded-xl shadow-sm transition flex justify-center items-center gap-1.5"
+                  className="w-full bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold py-2.5 rounded-xl shadow-sm transition flex justify-center items-center gap-1.5 cursor-pointer"
                 >
-                  <Sparkles size={14} /> กลับไปหน้าค้นหา
+                  <span>กลับสู่หน้าหลักเพื่อร่างอีเมล</span>
                 </button>
               </div>
 

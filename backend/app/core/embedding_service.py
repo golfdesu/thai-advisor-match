@@ -8,25 +8,113 @@ from app.models.schema import FacultyMember
 from google import genai
 from google.genai import types
 
-# Dictionary for mapping Thai terms/slangs to academic English terms
+# Comprehensive Academic Taxonomy and Thai-English Cross-Disciplinary Ontology
 THAI_EN_SYNONYMS = {
+    # AI, Data Science & Computer Science
     "เอไอ": "AI Artificial Intelligence",
-    "ปัญญาประดิษฐ์": "AI Artificial Intelligence",
-    "แมชชีนเลิร์นนิง": "Machine Learning",
-    "แมชชีนเลินนิ่ง": "Machine Learning",
-    "ดีปเลิร์นนิง": "Deep Learning",
-    "ดาต้า": "Data Science Data Mining",
-    "ข้อมูลขนาดใหญ่": "Big Data",
-    "ซอฟต์แวร์": "Software Engineering",
-    "บล็อกเชน": "Blockchain",
-    "ความปลอดภัยทางไซเบอร์": "Cyber Security Network Security",
-    "แพทย์": "Medical Biomedical Health",
-    "สุขภาพ": "Healthcare Biomedical",
-    "แอพ": "Mobile Application Web Technologies",
-    "แอป": "Mobile Application Web Technologies",
-    "optimize": "optimization operations research",
-    "optimization": "optimize operations research",
-    "ออปติไมซ์": "optimization optimize"
+    "ปัญญาประดิษฐ์": "AI Artificial Intelligence Deep Learning Machine Learning",
+    "แมชชีนเลิร์นนิง": "Machine Learning Supervised Learning Deep Learning",
+    "แมชชีนเลินนิ่ง": "Machine Learning Supervised Learning Deep Learning",
+    "ดีปเลิร์นนิง": "Deep Learning Neural Networks LLM",
+    "ดาต้า": "Data Science Data Mining Big Data Analytics",
+    "วิทยาการข้อมูล": "Data Science Big Data Machine Learning Analytics",
+    "ข้อมูลขนาดใหญ่": "Big Data Hadoop Spark Data Pipeline",
+    "ภาษาธรรมชาติ": "Natural Language Processing NLP LLM Large Language Models",
+    "ประมวลผลภาษา": "Natural Language Processing NLP Text Mining",
+    "คอมพิวเตอร์วิทัศน์": "Computer Vision Image Processing Object Detection",
+    "วิทัศน์คอมพิวเตอร์": "Computer Vision Image Processing CNN",
+    "การประมวลผลภาพ": "Image Processing Computer Vision Pattern Recognition",
+    "หุ่นยนต์": "Robotics Autonomous Systems Control Engineering ROS",
+    "ระบบอัตโนมัติ": "Automation Control Systems Robotics Mechatronics",
+    "ความปลอดภัยทางไซเบอร์": "Cyber Security Network Security Cryptography Penetration Testing",
+    "ไซเบอร์": "Cybersecurity Information Security Network Defense",
+    "ความมั่นคงปลอดภัย": "Cybersecurity Information Security Threat Intelligence",
+    "บล็อกเชน": "Blockchain Smart Contracts Web3 Distributed Ledger",
+    "ซอฟต์แวร์": "Software Engineering Cloud Architecture DevOps",
+    "วิศวกรรมซอฟต์แวร์": "Software Engineering System Architecture Microservices Agile",
+    "คลาวด์": "Cloud Computing Distributed Systems Kubernetes AWS",
+    "ระบบสมองกลฝังตัว": "Embedded Systems IoT Microcontrollers RTOS",
+    "ไอโอที": "Internet of Things IoT Sensors Smart Devices",
+    "อินเทอร์เน็ตของสรรพสิ่ง": "Internet of Things IoT Wireless Sensor Networks",
+    "ควอนตัม": "Quantum Computing Quantum Information Quantum Algorithms",
+    "ปฏิสัมพันธ์มนุษย์กับคอมพิวเตอร์": "Human-Computer Interaction HCI UX UI Interaction Design",
+
+    # Electrical, Electronics & Energy
+    "พลังงานหมุนเวียน": "Renewable Energy Solar Photovoltaic Wind Power Microgrid",
+    "พลังงานสะอาด": "Clean Energy Renewable Energy Decarbonization Carbon Neutral",
+    "พลังงานแสงอาทิตย์": "Solar Energy Photovoltaic PV Microgrid Renewable Power",
+    "โซลาร์เซลล์": "Solar Cell Photovoltaic Renewable Energy",
+    "ไมโครกริด": "Microgrids Smart Grid Power Electronics Energy Storage",
+    "สมาร์ทกริด": "Smart Grid Power Systems Renewable Integration Distribution Network",
+    "พาวเวอร์อิเล็กทรอนิกส์": "Power Electronics Inverters Converters Motor Drives",
+    "อิเล็กทรอนิกส์กำลัง": "Power Electronics Converters Inverters Power Management",
+    "ยานยนต์ไฟฟ้า": "Electric Vehicles EV Battery Management Systems BMS Powertrain",
+    "รถยนต์ไฟฟ้า": "Electric Vehicles EV Powertrain Battery Charging Infrastructure",
+    "แบตเตอรี่": "Battery Management Systems BMS Energy Storage Lithium-ion",
+    "กักเก็บพลังงาน": "Energy Storage Systems Supercapacitors Battery Chemistry",
+    "เซมิคอนดักเตอร์": "Semiconductors VLSI Integrated Circuits Microelectronics",
+    "วงจรรวม": "Integrated Circuits IC VLSI Circuit Design Microchips",
+    "ระบบควบคุม": "Control Systems Optimal Control Robust Control Feedback Automation",
+    "ประมวลผลสัญญาณ": "Signal Processing DSP Digital Filters Audio Video Processing",
+    "การสื่อสารไร้สาย": "Wireless Communications 5G 6G MIMO RF Microwave",
+    "โทรคมนาคม": "Telecommunications Network Architecture Optical Networks Antenna",
+
+    # Health, Biomedical & Life Sciences
+    "แพทย์": "Medical Biomedical Health Clinical Medicine",
+    "การแพทย์": "Medicine Healthcare Biomedical Clinical Research",
+    "ชีวการแพทย์": "Biomedical Engineering Medical Devices Biomaterials Health Informatics",
+    "วิศวกรรมชีวการแพทย์": "Biomedical Engineering Biomechanics Biosensors Medical Imaging",
+    "สุขภาพ": "Healthcare Biomedical Digital Health Medical Technology",
+    "เภสัช": "Pharmacy Pharmacology Drug Delivery Pharmaceutical Sciences",
+    "เภสัชกรรม": "Pharmaceutical Sciences Drug Discovery Toxicology Pharmacokinetics",
+    "ยา": "Drug Delivery Pharmacology Medicinal Chemistry Nanomedicine",
+    "พันธุศาสตร์": "Genetics Genomics Bioinformatics Molecular Genetics",
+    "จีโนม": "Genomics Bioengineering CRISPR Gene Editing",
+    "ชีวสารสนเทศ": "Bioinformatics Computational Biology Next-Gen Sequencing",
+    "ภูมิคุ้มกัน": "Immunology Immunotherapy Vaccines Cellular Biology",
+    "มะเร็ง": "Cancer Research Oncology Tumor Biology Precision Medicine",
+    "ประสาทวิทยา": "Neuroscience Neurobiology Cognitive Science Brain-Computer Interface",
+    "ทันตแพทย์": "Dentistry Dental Biomaterials Orthodontics Oral Surgery",
+    "สาธารณสุข": "Public Health Epidemiology Global Health Health Policy",
+
+    # Business, Finance & Management
+    "บริหาร": "Business Administration Management Strategy Operations",
+    "การเงิน": "Finance Corporate Finance Investment Asset Pricing Quantitative Finance",
+    "ควอนท์": "Quantitative Finance Algorithmic Trading Financial Modeling Derivatives",
+    "การตลาด": "Marketing Digital Marketing Consumer Behavior Brand Strategy",
+    "เศรษฐศาสตร์": "Economics Microeconomics Macroeconomics Econometrics Behavioral Economics",
+    "เศรษฐมิติ": "Econometrics Statistical Modeling Quantitative Methods Empirical Analysis",
+    "บัญชี": "Accounting Auditing Financial Reporting Taxation Corporate Governance",
+    "โลจิสติกส์": "Logistics Supply Chain Management Operations Research Optimization",
+    "ห่วงโซ่อุปทาน": "Supply Chain Management Operations Research Inventory Routing Logistics",
+    "การจัดการ": "Strategic Management Organizational Behavior Operations Leadership",
+
+    # Materials, Mechanical, Civil & Environmental
+    "วัสดุศาสตร์": "Materials Science Nanomaterials Polymers Metallurgy Advanced Composites",
+    "นาโน": "Nanotechnology Nanomaterials Nanocomposites Carbon Nanotubes",
+    "พอลิเมอร์": "Polymer Science Biomaterials Composites Biodegradable Plastics",
+    "เครื่องกล": "Mechanical Engineering Thermodynamics Fluid Mechanics Solid Mechanics",
+    "ของไหล": "Fluid Dynamics CFD Aerodynamics Turbulence Heat Transfer",
+    "เทอร์โมไดนามิกส์": "Thermodynamics Heat Transfer Energy Conversion Thermal Engineering",
+    "โยธา": "Civil Engineering Structural Engineering Geotechnical Concrete Mechanics",
+    "โครงสร้าง": "Structural Engineering Finite Element Analysis FEA Earthquake Engineering",
+    "สิ่งแวดล้อม": "Environmental Engineering Water Treatment Waste Management Pollution Control",
+    "บำบัดน้ำเสีย": "Wastewater Treatment Water Purification Environmental Biotechnology Membrane",
+    "การเปลี่ยนแปลงสภาพภูมิอากาศ": "Climate Change Carbon Capture Sustainability GHG Reduction",
+
+    # Agriculture, Food & Biotechnology
+    "เกษตร": "Agricultural Sciences Smart Farming Precision Agriculture AgTech",
+    "เกษตรอัจฉริยะ": "Smart Agriculture Precision Farming IoT Sensors Drone Agri-AI",
+    "เทคโนโลยีอาหาร": "Food Science Food Technology Functional Foods Food Processing",
+    "เทคโนโลยีชีวภาพ": "Biotechnology Bioprocess Engineering Fermentation Molecular Biology",
+
+    # Slang & General Tech Synonyms
+    "แอพ": "Mobile Application Web Technologies Frontend Backend Fullstack",
+    "แอป": "Mobile Application Web Technologies Software Development",
+    "เว็บ": "Web Development Fullstack Cloud Microservices REST API",
+    "optimize": "optimization operations research mathematical modeling heuristic algorithm",
+    "optimization": "optimization operations research linear programming metaheuristic",
+    "ออปติไมซ์": "optimization mathematical programming operations research genetic algorithm"
 }
 
 import re
@@ -156,9 +244,10 @@ class EmbeddingService:
         query: str,
         faculty: FacultyMember,
         score: float,
-        matched_keywords: Optional[List[str]] = None
+        matched_keywords: Optional[List[str]] = None,
+        matching_pubs: Optional[List[str]] = None
     ) -> str:
-        """Instantly generate a contextual, high-quality match explanation in Thai without synchronous API latency."""
+        """Instantly generate a contextual, high-quality match explanation in Thai synthesizing interests & papers."""
         interests = faculty.research_interests or []
         dept = faculty.department_th or faculty.department or faculty.faculty_th or ""
 
@@ -176,20 +265,34 @@ class EmbeddingService:
                     if kw.lower() in interest.lower() and interest not in matched_interests:
                         matched_interests.append(interest)
 
+        # Synthesize with publication evidence if available
+        pub_mention = ""
+        if matching_pubs and len(matching_pubs) > 0:
+            first_pub = matching_pubs[0]
+            # Truncate title cleanly if too long
+            short_pub = (first_pub[:65] + "...") if len(first_pub) > 68 else first_pub
+            pub_mention = f" รวมถึงมีผลงานตีพิมพ์ที่เกี่ยวข้องโดยตรง เช่น '{short_pub}'"
+
         if matched_interests:
             focus_str = ", ".join(matched_interests[:2])
-            if score >= 80:
-                return f"อาจารย์มีความเชี่ยวชาญและผลงานวิจัยด้าน {focus_str} ซึ่งตรงกับหัวข้อวิจัยที่คุณสนใจอย่างยิ่ง"
-            return f"อาจารย์มีความเชี่ยวชาญด้าน {focus_str} สอดคล้องกับแนวทางการทำวิจัยของคุณ"
+            if score >= 85:
+                return f"อาจารย์มีความเชี่ยวชาญตรงสายและมีผลงานวิจัยหลักด้าน {focus_str}{pub_mention} ซึ่งสอดคล้องกับหัวข้อวิทยานิพนธ์ของคุณในระดับสูงมาก"
+            elif score >= 75:
+                return f"อาจารย์มีความเชี่ยวชาญด้าน {focus_str}{pub_mention} สอดคล้องกับแนวทางการทำวิจัยและระเบียบวิธีที่คุณสนใจ"
+            return f"อาจารย์มีความเชี่ยวชาญด้าน {focus_str} ซึ่งสามารถประยุกต์เข้ากับขอบเขตงานวิจัยของคุณได้เป็นอย่างดี"
+
+        if matching_pubs and len(matching_pubs) > 0:
+            short_pub = (matching_pubs[0][:65] + "...") if len(matching_pubs[0]) > 68 else matching_pubs[0]
+            return f"อาจารย์มีผลงานวิจัยที่เกี่ยวข้องกับหัวข้อของคุณ เช่น '{short_pub}' ประจำ{dept or 'คณะ'}"
 
         if interests:
             focus_str = ", ".join(interests[:2])
             if dept:
-                return f"อาจารย์ประจำ{dept} มีความเชี่ยวชาญหลักด้าน {focus_str} สอดคล้องกับหัวข้อวิจัยของคุณ"
+                return f"อาจารย์ประจำ{dept} มีความเชี่ยวชาญหลักด้าน {focus_str} ซึ่งมีระเบียบวิธีวิจัยและองค์ความรู้ที่ต่อยอดกับหัวข้อของคุณได้"
             return f"อาจารย์มีความเชี่ยวชาญหลักด้าน {focus_str} ซึ่งมีความใกล้เคียงกับขอบเขตที่คุณต้องการศึกษา"
 
         if dept:
-            return f"อาจารย์ประจำ{dept} มีความเชี่ยวชาญในสาขาวิชาที่เกี่ยวข้องกับหัวข้องานวิจัยของคุณ"
+            return f"อาจารย์ประจำ{dept} มีความเชี่ยวชาญในสาขาวิชาที่เกี่ยวข้องและพร้อมให้คำปรึกษางานวิจัยในหัวข้อของคุณ"
 
         return "อาจารย์ในสาขาวิชาที่สอดคล้องกับหัวข้อวิจัยที่คุณสนใจ"
 

@@ -1,78 +1,171 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session, defer
 from sqlalchemy import or_
-from app.models.schema import SearchRequest, SearchResponse, ColdEmailRequest, ColdEmailResponse, SearchMatchResult
+from app.models.schema import SearchRequest, SearchResponse, ColdEmailRequest, ColdEmailResponse, SearchMatchResult, FacultyMember
 from app.models.db_models import FacultyDB
 from app.api.routes_faculty import db_to_pydantic
 from app.core.database import get_db
 from app.core.embedding_service import embedding_service
+from typing import List, Tuple, Dict, Any
 import math
 
 router = APIRouter(prefix="/search", tags=["Semantic Search & Match"])
 
+def analyze_advisor_synergy(
+    query_tokens: List[str],
+    raw_query: str,
+    faculty: FacultyMember
+) -> Tuple[List[str], List[str], List[str], List[str]]:
+    """
+    Multi-faceted academic synergy analyzer:
+    1. Extracts matching core research interests
+    2. Identifies specific publication titles matching the query
+    3. Generates high-confidence synergy badges
+    4. Formulates concrete thesis exploration angles
+    """
+    matched_interests = []
+    matching_pubs = []
+    matched_kws = []
+    synergy_badges = []
+    suggested_angles = []
+
+    interests = faculty.research_interests or []
+    courses = faculty.taught_courses or []
+    pubs = faculty.featured_publications or []
+    dept_str = (faculty.department_th or faculty.department or "").lower()
+
+    # 1. Match Interests
+    for interest in interests:
+        int_lower = interest.lower()
+        for token in query_tokens:
+            if token in int_lower:
+                if interest not in matched_interests:
+                    matched_interests.append(interest)
+                if token not in matched_kws:
+                    matched_kws.append(token)
+
+    # 2. Match Publications
+    for pub in pubs:
+        pub_title = pub.title if hasattr(pub, "title") else (pub.get("title") if isinstance(pub, dict) else str(pub))
+        if not pub_title:
+            continue
+        pub_lower = pub_title.lower()
+        for token in query_tokens:
+            if token in pub_lower:
+                if pub_title not in matching_pubs:
+                    matching_pubs.append(pub_title)
+                if token not in matched_kws:
+                    matched_kws.append(token)
+
+    # 3. Match Taught Courses
+    matched_courses = []
+    for c in courses:
+        c_lower = c.lower()
+        for token in query_tokens:
+            if token in c_lower:
+                if c not in matched_courses:
+                    matched_courses.append(c)
+                if token not in matched_kws:
+                    matched_kws.append(token)
+
+    # Generate Badges based on academic evidence
+    if matched_interests:
+        synergy_badges.append("⭐ ตรงสายงานวิจัยหลัก (Direct Research Focus)")
+    if matching_pubs:
+        synergy_badges.append(f"📄 มีผลงานตีพิมพ์ตรงหัวข้อ ({len(matching_pubs)} เรื่อง)")
+    if matched_courses:
+        synergy_badges.append("📚 รับผิดชอบรายวิชาที่เกี่ยวข้อง")
+    if faculty.scholar_url or (pubs and len(pubs) >= 3):
+        synergy_badges.append("🏆 งานวิจัยตีพิมพ์ระดับนานาชาติ")
+    if faculty.academic_title_th in ["ศ.ดร.", "รศ.ดร.", "ผศ.ดร."]:
+        synergy_badges.append("🎓 ผู้เชี่ยวชาญระดับดุษฎีบัณฑิต")
+
+    # Generate Contextual Thesis Exploration Angles
+    focus_topic = matched_interests[0] if matched_interests else (interests[0] if interests else raw_query)
+    clean_query = raw_query.strip()
+
+    if "ai" in clean_query.lower() or "ปัญญาประดิษฐ์" in clean_query or "machine learning" in clean_query.lower():
+        suggested_angles.append(f"การประยุกต์ใช้ AI & Data-driven Models ในการพัฒนา {focus_topic}")
+        suggested_angles.append(f"การพัฒนาแบบจำลองการทำนายขั้นสูงเพื่อยกระดับ {focus_topic}")
+    elif "พลังงาน" in clean_query or "energy" in clean_query.lower() or "solar" in clean_query.lower():
+        suggested_angles.append(f"การเพิ่มประสิทธิภาพระบบพลังงานและความยั่งยืนในบริบท {focus_topic}")
+        suggested_angles.append(f"การบูรณาการระบบควบคุมอัจฉริยะและการจัดการพลังงาน {focus_topic}")
+    elif "แพทย์" in clean_query or "สุขภาพ" in clean_query or "biomedical" in clean_query.lower() or "health" in clean_query.lower():
+        suggested_angles.append(f"การวิจัยเชิงลึกด้านนวัตกรรมและเทคโนโลยีทางสุขภาพใน {focus_topic}")
+        suggested_angles.append(f"การศึกษาเชิงทดลองและการประเมินประสิทธิผลสำหรับ {focus_topic}")
+    elif "บริหาร" in clean_query or "การตลาด" in clean_query or "การเงิน" in clean_query or "finance" in clean_query.lower():
+        suggested_angles.append(f"การวิเคราะห์เชิงประจักษ์และการวางกลยุทธ์การเติบโตด้าน {focus_topic}")
+        suggested_angles.append(f"ผลกระทบของการเปลี่ยนแปลงทางดิจิทัลต่อการบริหารจัดการ {focus_topic}")
+    else:
+        suggested_angles.append(f"การศึกษาและพัฒนาระเบียบวิธีวิจัยขั้นสูงสำหรับ {focus_topic}")
+        suggested_angles.append(f"การประยุกต์ใช้เทคโนโลยีสมัยใหม่เพื่อแก้ปัญหา {clean_query} ร่วมกับ {focus_topic}")
+
+    return matched_kws, matching_pubs, synergy_badges, suggested_angles
+
+
 def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[SearchMatchResult]:
-    """Fallback ranking algorithm based on lexical keyword matching when AI embedding is unavailable."""
+    """Fallback ranking algorithm based on rich multi-tier matching when AI embedding is unavailable."""
     expanded_query = embedding_service.expand_query(query_str).lower()
     raw_tokens = [t.strip() for t in expanded_query.split() if len(t.strip()) >= 2]
 
-    # 1. SQL-level candidate pre-filtering to prevent loading entire database into RAM
+    # 1. SQL-level candidate pre-filtering
     candidate_query = query_db.options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text))
     if raw_tokens:
         filters = []
-        for token in raw_tokens[:5]:
+        for token in raw_tokens[:6]:
             pattern = f"%{token}%"
             filters.append(FacultyDB.full_name_th.ilike(pattern))
             filters.append(FacultyDB.department_th.ilike(pattern))
             filters.append(FacultyDB.faculty_th.ilike(pattern))
 
-        faculties = candidate_query.filter(or_(*filters)).limit(max(top_k * 4, 30)).all()
+        faculties = candidate_query.filter(or_(*filters)).limit(max(top_k * 4, 35)).all()
         if not faculties:
             faculties = candidate_query.limit(max(top_k * 2, 20)).all()
     else:
         faculties = candidate_query.limit(top_k).all()
+
     scored_list = []
 
     for db_fac in faculties:
-        corpus_list = (db_fac.research_interests or []) + (db_fac.taught_courses or [])
-        corpus_text = " ".join(corpus_list).lower()
-        full_text = f"{corpus_text} {(db_fac.department_th or '').lower()} {(db_fac.full_name_th or '').lower()}"
+        fac_model = db_to_pydantic(db_fac)
+        matched_kws, matching_pubs, badges, angles = analyze_advisor_synergy(raw_tokens, query_str, fac_model)
 
-        hit_count = 0
-        matched_kws = []
-        for token in raw_tokens:
-            if token in full_text:
-                hit_count += 1
-                if token not in matched_kws:
-                    matched_kws.append(token)
+        # Multi-factor score computation
+        base_score = 50.0
+        hit_bonus = len(matched_kws) * 8.0
+        pub_bonus = min(len(matching_pubs) * 5.0, 10.0)
+        scholar_bonus = 3.0 if fac_model.scholar_url else 0.0
 
-        # Calculate dynamic score between 50% and 92% based on matches
-        if hit_count > 0:
-            score = min(92.0, 65.0 + (hit_count * 7.0))
-        else:
-            score = 45.0
-            
-        scored_list.append((db_fac, score, matched_kws))
-        
+        total_score = min(96.0, base_score + hit_bonus + pub_bonus + scholar_bonus)
+        if len(matched_kws) == 0:
+            total_score = 48.0
+
+        scored_list.append((fac_model, total_score, matched_kws, matching_pubs, badges, angles))
+
     # Sort by score descending
     scored_list.sort(key=lambda x: x[1], reverse=True)
-    
+
     results = []
-    for db_fac, score, matched_kws in scored_list[:top_k]:
-        fac_model = db_to_pydantic(db_fac)
-        explanation = embedding_service.generate_smart_explanation(query_str, fac_model, score, matched_kws)
+    for fac_model, score, matched_kws, matching_pubs, badges, angles in scored_list[:top_k]:
+        explanation = embedding_service.generate_smart_explanation(
+            query_str, fac_model, score, matched_kws, matching_pubs
+        )
         results.append(SearchMatchResult(
             faculty=fac_model,
             match_score=round(score, 1),
             ai_explanation=explanation,
-            matched_keywords=matched_kws[:3]
+            matched_keywords=matched_kws[:4],
+            matching_publications=matching_pubs[:2],
+            synergy_badges=badges,
+            suggested_thesis_angles=angles
         ))
     return results
 
 @router.post("/", response_model=SearchResponse)
 def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_db)):
     """
-    AI Semantic Search & Matching endpoint for graduate students.
-    Matches prospective thesis topics against faculty research domains using PostgreSQL pgvector.
+    AI Semantic Search & Hybrid Multi-Evidence Matching endpoint for prospective graduate students.
+    Matches thesis proposals against faculty research corpus, publications, and supervised domains with pgvector.
     """
     if not request.query or len(request.query.strip()) < 2:
         raise HTTPException(status_code=400, detail="Search query must contain at least 2 characters")
@@ -124,49 +217,52 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                     FacultyDB.department_th.ilike(f"%{request.department.strip()}%")
                 )
 
-            results = vector_query.order_by(distance_col).limit(request.top_k).all()
-            
+            # Fetch candidates using HNSW index
+            candidates_limit = max(request.top_k * 2, 25)
+            results = vector_query.order_by(distance_col).limit(candidates_limit).all()
+
             expanded_query = embedding_service.expand_query(request.query).lower()
             query_tokens = [t for t in expanded_query.split() if len(t) >= 2]
-            
+
+            candidate_pool = []
+
             for db_fac, dist in results:
-                # 1. Lexical Keyword Boost
-                corpus = " ".join((db_fac.research_interests or []) + (db_fac.taught_courses or [])).lower()
-                
-                final_dist = dist
-                lexical_matched = False
-                matched_kws = []
-                
-                for token in query_tokens:
-                    if token in corpus:
-                        lexical_matched = True
-                        if token not in matched_kws:
-                            matched_kws.append(token)
-                    elif len(token) >= 5:
-                        stem = token.removesuffix('s').removesuffix('ing').removesuffix('ation').removesuffix('e')
-                        if len(stem) >= 4 and stem in corpus:
-                            lexical_matched = True
-                            if token not in matched_kws:
-                                matched_kws.append(token)
-                        
-                if lexical_matched:
-                    final_dist -= 0.04  # Strong boost for exact keyword match
-                
-                # 2. Stretch the cosine distance (typically 0.33 to 0.52 for Gemini) into 0-100%
-                normalized = max(0.0, min(1.0, (0.52 - final_dist) / (0.52 - 0.32)))
-                ux_score = normalized * 100.0
-                
                 fac_model = db_to_pydantic(db_fac)
+                matched_kws, matching_pubs, badges, angles = analyze_advisor_synergy(query_tokens, request.query, fac_model)
+
+                # 1. Semantic vector similarity (calibrated 0.0 - 1.0)
+                # Gemini cosine distance range typically 0.28 (identical) to 0.54 (unrelated)
+                sim_base = max(0.0, min(1.0, (0.54 - dist) / (0.54 - 0.28)))
+
+                # 2. Multi-Evidence Hybrid Weighting
+                # Exact / Substring Keyword synergy bonus
+                keyword_bonus = min(len(matched_kws) * 0.04, 0.12)
+                # Publication synergy bonus
+                pub_bonus = min(len(matching_pubs) * 0.03, 0.08)
+                # Scholar / Active Research Profile bonus
+                scholar_bonus = 0.02 if fac_model.scholar_url else 0.0
+
+                composite_score = min(0.99, sim_base + keyword_bonus + pub_bonus + scholar_bonus)
+                ux_score = round(composite_score * 100.0, 1)
+
                 explanation = embedding_service.generate_smart_explanation(
-                    request.query, fac_model, ux_score, matched_kws
+                    request.query, fac_model, ux_score, matched_kws, matching_pubs
                 )
-                
-                ranked_results.append(SearchMatchResult(
+
+                candidate_pool.append(SearchMatchResult(
                     faculty=fac_model,
-                    match_score=round(ux_score, 1),
+                    match_score=ux_score,
                     ai_explanation=explanation,
-                    matched_keywords=matched_kws[:3] if matched_kws else ([request.query] if lexical_matched else [])
+                    matched_keywords=matched_kws[:4] if matched_kws else [request.query],
+                    matching_publications=matching_pubs[:2],
+                    synergy_badges=badges,
+                    suggested_thesis_angles=angles
                 ))
+
+            # Re-rank candidate pool by composite score descending
+            candidate_pool.sort(key=lambda x: x.match_score, reverse=True)
+            ranked_results = candidate_pool[:request.top_k]
+
         except Exception as e:
             print(f"Vector search failed, using smart keyword fallback: {e}")
             ranked_results = keyword_fallback_search(request.query, query_db, request.top_k)
@@ -186,9 +282,10 @@ def generate_cold_email(req: ColdEmailRequest, db: Session = Depends(get_db)):
     db_faculty = db.query(FacultyDB).filter(FacultyDB.id == req.faculty_id).first()
     if not db_faculty:
         raise HTTPException(status_code=404, detail="Faculty member not found")
-        
+
     target_faculty = db_to_pydantic(db_faculty)
-    
+
     subject, body, tips = embedding_service.generate_cold_email_ai(req.model_dump(), target_faculty)
 
     return ColdEmailResponse(subject=subject, body=body, tips=tips)
+

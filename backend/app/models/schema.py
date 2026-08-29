@@ -52,6 +52,9 @@ class SearchMatchResult(BaseModel):
     match_score: float = Field(..., description="Match percentage score between 0 and 100")
     ai_explanation: Optional[str] = Field(None, description="AI-generated explanation of why this advisor matches")
     matched_keywords: List[str] = Field(default_factory=list)
+    matching_publications: List[str] = Field(default_factory=list, description="Specific publication titles matching the query")
+    synergy_badges: List[str] = Field(default_factory=list, description="Badges indicating match strength e.g. Direct Focus, Active Papers")
+    suggested_thesis_angles: List[str] = Field(default_factory=list, description="Suggested research angles connecting student & advisor")
 
 
 class SearchResponse(BaseModel):
