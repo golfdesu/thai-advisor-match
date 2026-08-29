@@ -43,3 +43,8 @@ MANIFEST
 .vscode/
 .DS_Store
 *.pem
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3

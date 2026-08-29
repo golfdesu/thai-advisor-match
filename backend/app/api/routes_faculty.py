@@ -48,13 +48,13 @@ def list_faculty(
     db: Session = Depends(get_db)
 ):
     """Retrieve all faculty members with optional filtering from PostgreSQL Database."""
-    query = db.query(FacultyDB).options(defer(FacultyDB.embedding))
-    
+    query = db.query(FacultyDB).options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text))
+
     if university:
         query = query.filter(FacultyDB.university.ilike(f"%{university}%") | FacultyDB.university_th.ilike(f"%{university}%"))
     if department:
         query = query.filter(FacultyDB.department.ilike(f"%{department}%") | FacultyDB.department_th.ilike(f"%{department}%"))
-        
+
     db_faculties = query.limit(limit).all()
     return [db_to_pydantic(f) for f in db_faculties]
 
@@ -62,7 +62,7 @@ def list_faculty(
 @router.get("/{faculty_id}", response_model=FacultyMember)
 def get_faculty_profile(faculty_id: str, db: Session = Depends(get_db)):
     """Retrieve a specific faculty member by ID from PostgreSQL Database."""
-    db_faculty = db.query(FacultyDB).options(defer(FacultyDB.embedding)).filter(FacultyDB.id == faculty_id).first()
+    db_faculty = db.query(FacultyDB).options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text)).filter(FacultyDB.id == faculty_id).first()
     if not db_faculty:
         raise HTTPException(status_code=404, detail="Faculty member not found")
     return db_to_pydantic(db_faculty)

@@ -32,6 +32,11 @@ THAI_EN_SYNONYMS = {
 import re
 from pathlib import Path
 
+# Pre-compile regex for query expansion to eliminate loop overhead
+_SORTED_SYNONYM_KEYS = sorted(THAI_EN_SYNONYMS.keys(), key=len, reverse=True)
+_SYNONYM_REGEX = re.compile("|".join(re.escape(k) for k in _SORTED_SYNONYM_KEYS), re.IGNORECASE)
+_AI_ACRONYM_REGEX = re.compile(r"\bai\b", re.IGNORECASE)
+
 def load_all_gemini_keys() -> List[str]:
     """Load Gemini API keys from environment variables, settings, or auto-fallback to local API.txt."""
     env_keys = os.getenv("GEMINI_API_KEYS", "") or getattr(settings, "GEMINI_API_KEYS", "")
@@ -88,17 +93,21 @@ class EmbeddingService:
             self._current_key_idx = (self._current_key_idx + 1) % len(self.api_keys)
 
     def expand_query(self, query: str) -> str:
-        """Expand Thai abbreviations into English academic terms for better vector matching."""
+        """Fast single-pass expansion of Thai abbreviations into English academic terms for vector matching."""
+        matched_expansions = []
+        for match in _SYNONYM_REGEX.finditer(query):
+            term = match.group(0).lower()
+            en = THAI_EN_SYNONYMS.get(term)
+            if en and en not in matched_expansions:
+                matched_expansions.append(en)
+
         expanded = query
-        query_lower = query.lower()
-        for th_term, en_terms in THAI_EN_SYNONYMS.items():
-            if th_term in query_lower:
-                expanded += f" {en_terms}"
-        
-        # Also handle purely english acronyms that might need expansion
-        if "ai" in query_lower.split():
+        if matched_expansions:
+            expanded += " " + " ".join(matched_expansions)
+
+        if _AI_ACRONYM_REGEX.search(query):
             expanded += " Artificial Intelligence"
-            
+
         return expanded
 
     def get_embedding(self, text: str, max_retries: int = 3) -> List[float]:

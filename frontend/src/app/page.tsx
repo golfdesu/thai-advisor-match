@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
+import Link from "next/link";
 import {
   Search,
   GraduationCap,
@@ -25,7 +26,21 @@ import {
   Check,
   X,
   Send,
-  AlertCircle
+  AlertCircle,
+  BarChart3,
+  Heart,
+  Layers,
+  Scale,
+  Flame,
+  Globe,
+  SlidersHorizontal,
+  ChevronDown,
+  Briefcase,
+  DollarSign,
+  Clock,
+  BookCheck,
+  Share2,
+  Trash2
 } from "lucide-react";
 
 interface FacultyMember {
@@ -91,11 +106,50 @@ interface Course {
 
 const BACKEND_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1";
 
+// Helper function to infer Selectivity Badge
+function getSelectivityBadge(course: Course) {
+  const title = (course.title_th + " " + (course.title_en || "")).toLowerCase();
+  const uni = (course.university_th + " " + course.university).toLowerCase();
+
+  if (
+    title.includes("แพทย์") ||
+    title.includes("ทันตแพทย์") ||
+    title.includes("medicine") ||
+    title.includes("dentistry") ||
+    (uni.includes("จุฬา") && (title.includes("วิศวกรรม") || title.includes("พาณิชยศาสตร์") || title.includes("ai"))) ||
+    (uni.includes("ธรรมศาสตร์") && (title.includes("นิติศาสตร์") || title.includes("siit") || title.includes("พาณิชยศาสตร์")))
+  ) {
+    return { label: "การแข่งขันสูงมาก 🔥", color: "bg-rose-100 text-[#5B0F18] border-rose-300 font-semibold" };
+  }
+  if (
+    title.includes("นานาชาติ") ||
+    title.includes("international") ||
+    title.includes("bascii") ||
+    title.includes("balac") ||
+    title.includes("bba") ||
+    title.includes("ise")
+  ) {
+    return { label: "หลักสูตรนานาชาติ 🌐", color: "bg-amber-100 text-amber-900 border-amber-300 font-semibold" };
+  }
+  if (
+    title.includes("ดิจิทัล") ||
+    title.includes("หุ่นยนต์") ||
+    title.includes("ai") ||
+    title.includes("data") ||
+    title.includes("ภาพยนตร์") ||
+    title.includes("ศิลปกรรม")
+  ) {
+    return { label: "เน้นทักษะ & Portfolio 🎨", color: "bg-orange-100 text-orange-900 border-orange-300 font-semibold" };
+  }
+  return { label: "รับตรง / Admission ทั่วไป 🎯", color: "bg-stone-100 text-stone-800 border-stone-300 font-semibold" };
+}
+
 export default function Home() {
   const [activeTab, setActiveTab] = useState<"courses" | "advisors">("courses");
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedDegree, setSelectedDegree] = useState("all");
   const [selectedUni, setSelectedUni] = useState("all");
+  const [selectedDiscipline, setSelectedDiscipline] = useState("all");
 
   const [courses, setCourses] = useState<Course[]>([]);
   const [advisors, setAdvisors] = useState<SearchMatchResult[]>([]);
@@ -103,8 +157,18 @@ export default function Home() {
   const [searchExecuted, setSearchExecuted] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
+  // Comparison Matrix State
+  const [comparedCourses, setComparedCourses] = useState<Course[]>([]);
+  const [showComparisonModal, setShowComparisonModal] = useState(false);
+
+  // Wishlist / Bookmarks State
+  const [savedCourses, setSavedCourses] = useState<string[]>([]);
+  const [savedAdvisors, setSavedAdvisors] = useState<string[]>([]);
+  const [showSavedModal, setShowSavedModal] = useState(false);
+
   // Cold Email Modal State
   const [selectedAdvisorForEmail, setSelectedAdvisorForEmail] = useState<FacultyMember | null>(null);
+  const [emailPurpose, setEmailPurpose] = useState("thesis_inquiry");
   const [studentName, setStudentName] = useState("");
   const [studentBackground, setStudentBackground] = useState("");
   const [researchTopic, setResearchTopic] = useState("");
@@ -113,6 +177,18 @@ export default function Home() {
   const [generatedEmail, setGeneratedEmail] = useState<{ subject: string; body: string; tips: string[] } | null>(null);
   const [emailLoading, setEmailLoading] = useState(false);
   const [copied, setCopied] = useState(false);
+
+  // Load Saved Bookmarks from LocalStorage
+  useEffect(() => {
+    try {
+      const savedC = localStorage.getItem("thai_educenter_saved_courses");
+      if (savedC) setSavedCourses(JSON.parse(savedC));
+      const savedA = localStorage.getItem("thai_educenter_saved_advisors");
+      if (savedA) setSavedAdvisors(JSON.parse(savedA));
+    } catch (e) {
+      console.warn("Could not load bookmarks from storage");
+    }
+  }, []);
 
   // Fetch initial courses from API on load
   useEffect(() => {
@@ -128,785 +204,1148 @@ export default function Home() {
         setCourses(data);
       }
     } catch (err) {
-      console.warn("Backend not yet running or courses empty, using fallback courses");
+      console.warn("Backend loading default sample courses");
     } finally {
       setLoading(false);
     }
   };
 
-  const executeSearch = async (queryText?: string) => {
+  const toggleBookmarkCourse = (id: string) => {
+    setSavedCourses((prev) => {
+      const next = prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id];
+      try {
+        localStorage.setItem("thai_educenter_saved_courses", JSON.stringify(next));
+      } catch (e) {}
+      return next;
+    });
+  };
+
+  const toggleBookmarkAdvisor = (id: string) => {
+    setSavedAdvisors((prev) => {
+      const next = prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id];
+      try {
+        localStorage.setItem("thai_educenter_saved_advisors", JSON.stringify(next));
+      } catch (e) {}
+      return next;
+    });
+  };
+
+  const toggleCompareCourse = (course: Course) => {
+    setComparedCourses((prev) => {
+      const exists = prev.some((c) => c.id === course.id);
+      if (exists) {
+        return prev.filter((c) => c.id !== course.id);
+      } else {
+        if (prev.length >= 4) {
+          alert("คุณสามารถเปรียบเทียบหลักสูตรพร้อมกันได้สูงสุด 4 หลักสูตรครับ");
+          return prev;
+        }
+        return [...prev, course];
+      }
+    });
+  };
+
+  const executeSearch = async (queryText?: string, uniFilter?: string, degFilter?: string, tabOverride?: "courses" | "advisors") => {
     const queryToUse = queryText !== undefined ? queryText : searchQuery;
+    const uniToUse = uniFilter !== undefined ? uniFilter : selectedUni;
+    const degToUse = degFilter !== undefined ? degFilter : selectedDegree;
+    const currentTab = tabOverride !== undefined ? tabOverride : activeTab;
+
     setLoading(true);
     setErrorMsg(null);
     setSearchExecuted(true);
 
     try {
-      if (activeTab === "courses") {
+      if (currentTab === "courses") {
         const res = await fetch(`${BACKEND_URL}/courses/search`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             query: queryToUse,
-            university: selectedUni === "all" ? null : selectedUni,
-            degree_level: selectedDegree === "all" ? null : selectedDegree,
-            top_k: 20
-          })
+            university: uniToUse === "all" ? null : uniToUse,
+            degree_level: degToUse === "all" ? null : degToUse,
+            top_k: 24,
+          }),
         });
 
-        if (!res.ok) throw new Error("ไม่สามารถค้นหาหลักสูตรได้");
-        const data = await res.json();
-        setCourses(data.results || []);
+        if (res.ok) {
+          const data = await res.json();
+          setCourses(Array.isArray(data) ? data : (data.results ?? []));
+        } else {
+          setErrorMsg("ไม่พบหลักสูตรที่ตรงกับคำค้นหา ลองปรับเปลี่ยนคำค้นหาอีกครั้งครับ");
+        }
       } else {
-        // Advisors Search
-        const res = await fetch(`${BACKEND_URL}/search/`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            query: queryToUse || "Computer Science and AI",
-            university: selectedUni === "all" ? null : selectedUni,
-            top_k: 12
-          })
-        });
+        if (!queryToUse.trim()) {
+          const res = await fetch(`${BACKEND_URL}/faculty/?limit=20`);
+          if (res.ok) {
+            const data = await res.json();
+            const list = Array.isArray(data) ? data : (data.results ?? []);
+            setAdvisors(list.map((f: FacultyMember) => ({ faculty: f, match_score: 90 })));
+          }
+        } else {
+          const res = await fetch(`${BACKEND_URL}/search/`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              query: queryToUse,
+              university: uniToUse === "all" ? null : uniToUse,
+              top_k: 15,
+            }),
+          });
 
-        if (!res.ok) throw new Error("ไม่สามารถค้นหาอาจารย์ได้ (โปรดตรวจสอบว่า Backend กำลังรันอยู่)");
-        const data = await res.json();
-        setAdvisors(data.results || []);
+          if (res.ok) {
+            const data = await res.json();
+            setAdvisors(Array.isArray(data) ? data : (data.results ?? []));
+          } else {
+            setErrorMsg("เกิดข้อผิดพลาดในการจับคู่อาจารย์ที่ปรึกษา AI กรุณาลองใหม่อีกครั้ง");
+          }
+        }
       }
-    } catch (err: any) {
+    } catch (err) {
       console.error(err);
-      setErrorMsg(err.message || "เกิดข้อผิดพลาดในการเชื่อมต่อเซิร์ฟเวอร์");
+      setErrorMsg("ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ได้ กรุณาลองใหม่ในภายหลัง");
     } finally {
       setLoading(false);
     }
   };
 
-  const handleSearch = async (e?: React.FormEvent) => {
-    if (e) e.preventDefault();
-    executeSearch();
-  };
-
-  const handleQuickTagClick = (tag: string) => {
-    setSearchQuery(tag);
-    executeSearch(tag);
-  };
-
-  const handleGenerateEmail = async (advisor: FacultyMember) => {
-    setSelectedAdvisorForEmail(advisor);
-    setResearchTopic(searchQuery || advisor.research_interests?.[0] || "ปัญญาประดิษฐ์และวิทยาการข้อมูล");
-    setStudentName("นาย ภัทรพล เจริญวิทย์");
-    setStudentBackground("จบการศึกษาระดับปริญญาตรี วิศวกรรมคอมพิวเตอร์ มีประสบการณ์ทำวิจัยด้าน Machine Learning");
-    setGeneratedEmail(null);
-  };
-
-  const submitEmailGeneration = async () => {
+  const handleGenerateColdEmail = async () => {
     if (!selectedAdvisorForEmail) return;
     setEmailLoading(true);
+    setGeneratedEmail(null);
+
     try {
       const res = await fetch(`${BACKEND_URL}/search/cold-email`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           faculty_id: selectedAdvisorForEmail.id,
-          student_name: studentName,
-          student_background: studentBackground,
-          research_topic: researchTopic,
+          student_name: studentName.trim() || "นักศึกษาผู้สนใจ",
+          student_background: studentBackground.trim() || "นักศึกษาที่มีความสนใจด้านงานวิจัย",
+          research_topic: researchTopic.trim() || selectedAdvisorForEmail.research_interests?.[0] || "หัวข้อวิจัยที่สอดคล้องกับความเชี่ยวชาญ",
           intended_degree: intendedDegree,
-          language: emailLanguage
-        })
+          language: emailLanguage,
+        }),
       });
 
-      if (!res.ok) throw new Error("ไม่สามารถสร้างอีเมลได้");
-      const data = await res.json();
-      setGeneratedEmail(data);
-    } catch (err: any) {
-      alert("Error: " + err.message);
+      if (res.ok) {
+        const data = await res.json();
+        setGeneratedEmail(data);
+      } else {
+        alert("ไม่สามารถสร้างอีเมลได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง");
+      }
+    } catch (e) {
+      alert("เกิดข้อผิดพลาดในการสร้างอีเมล");
     } finally {
       setEmailLoading(false);
     }
   };
 
-  const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text);
+  const copyToClipboard = () => {
+    if (!generatedEmail) return;
+    const fullText = `หัวข้อ: ${generatedEmail.subject}\n\n${generatedEmail.body}`;
+    navigator.clipboard.writeText(fullText);
     setCopied(true);
-    setTimeout(() => setCopied(false), 2500);
+    setTimeout(() => setCopied(false), 2000);
   };
 
-  const quickTags = [
-    "AI & Data Science",
-    "วิศวกรรมไฟฟ้าและพลังงาน",
-    "วิทยาการคอมพิวเตอร์",
-    "FinTech & ธุรกิจ",
-    "ชีวการแพทย์และเวชศาสตร์",
-    "Machine Learning",
-    "Microgrids"
+  // Trending Queries & Quick Filters
+  const trendingTags = [
+    { label: "🩺 แพทย์ & ทันตะ กสพท", query: "แพทยศาสตร์ ทันตแพทยศาสตร์ กสพท" },
+    { label: "🤖 วิศวะหุ่นยนต์ & AI", query: "วิศวกรรมหุ่นยนต์ ปัญญาประดิษฐ์ AI" },
+    { label: "💡 BAScii & ScII จุฬาฯ", query: "BAScii นวัตกรรมบูรณาการ จุฬาลงกรณ์" },
+    { label: "📊 Data Science & Cyber", query: "วิทยาการข้อมูล ความมั่นคงไซเบอร์ Data Science" },
+    { label: "🎬 ภาพยนตร์ & สื่อดิจิทัล", query: "ภาพยนตร์และสื่อดิจิทัล นิเทศศาสตร์" },
+    { label: "💼 BBA & Sasin MBA", query: "บริหารธุรกิจ BBA Sasin MBA" },
+    { label: "🌊 ทางทะเล & โลจิสติกส์", query: "วิทยาศาสตร์ทางทะเล โลจิสติกส์พาณิชยนาวี" },
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col selection:bg-blue-500 selection:text-white">
-      {/* Top Banner */}
-      <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-sky-600 text-white text-xs md:text-sm py-2 px-4 text-center font-medium shadow-inner flex items-center justify-center gap-2">
-        <Sparkles size={16} className="text-yellow-300 animate-pulse" />
-        <span>ระบบเวอร์ชันใหม่: รวมหลักสูตรมหาวิทยาลัยและ AI แมตช์อาจารย์ที่ปรึกษาทั่วไทยแล้ววันนี้!</span>
-      </div>
-
-      {/* Navbar */}
-      <header className="w-full bg-white/90 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-18 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20">
-              <GraduationCap size={24} />
-            </div>
-            <div>
-              <div className="flex items-center gap-1.5 font-black text-xl tracking-tight text-slate-900">
-                <span>Thai</span>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">EduCenter</span>
-                <span className="text-[10px] font-bold uppercase tracking-wider bg-blue-100 text-blue-700 px-1.5 py-0.5 rounded-full ml-1">AI Live</span>
-              </div>
-              <p className="text-[11px] text-slate-400 font-medium hidden sm:block">Thai Universities Course & Advisor Hub</p>
-            </div>
+    <div className="min-h-screen bg-[#F8F1E7] text-stone-800 flex flex-col selection:bg-[#5B0F18] selection:text-white font-sans antialiased">
+      {/* Top Banner Navigation */}
+      <header className="sticky top-0 z-40 backdrop-blur-xl bg-[#F8F1E7]/90 border-b border-stone-300 px-4 lg:px-8 py-3.5 flex items-center justify-between shadow-sm">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-xl bg-[#5B0F18] flex items-center justify-center shadow-md text-white">
+            <GraduationCap className="w-5 h-5" />
           </div>
-
-          <nav className="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
-            <button
-              onClick={() => {
-                setActiveTab("courses");
-                setSearchExecuted(false);
-              }}
-              className={`transition-colors flex items-center gap-1.5 ${activeTab === "courses" ? "text-blue-600 font-bold" : "hover:text-blue-600"}`}
-            >
-              <BookOpen size={16} /> ค้นหาหลักสูตร
-            </button>
-            <button
-              onClick={() => {
-                setActiveTab("advisors");
-                setSearchExecuted(false);
-                if (advisors.length === 0) {
-                  setSearchQuery("ปัญญาประดิษฐ์ พลังงานทดแทน วิทยาการข้อมูล");
-                }
-              }}
-              className={`transition-colors flex items-center gap-1.5 ${activeTab === "advisors" ? "text-blue-600 font-bold" : "hover:text-blue-600"}`}
-            >
-              <Users size={16} /> ค้นหาอาจารย์ที่ปรึกษา
-            </button>
-            <a
-              href="/career-discovery"
-              className="text-indigo-600 hover:text-indigo-700 font-bold transition-colors flex items-center gap-1.5 bg-indigo-50 px-3 py-1.5 rounded-xl border border-indigo-100"
-            >
-              <Sparkles size={15} className="text-indigo-500" />
-              <span>ค้นหาตัวตน & คณะที่ใช่ (Quiz)</span>
-            </a>
-            <a href="https://github.com/golfdesu/thai-advisor-match" target="_blank" className="hover:text-blue-600 transition-colors flex items-center gap-1.5">
-              <School size={16} /> สถาบันในระบบ
-            </a>
-          </nav>
-
-          <div className="flex items-center gap-3">
-            <a
-              href="/career-discovery"
-              className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 hover:opacity-95 text-white text-xs font-bold px-4 py-2.5 rounded-xl shadow-md hover:shadow-lg transition flex items-center gap-1.5"
-            >
-              <Sparkles size={14} /> AI ค้นหาตัวตน
-            </a>
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="font-extrabold text-lg tracking-tight text-[#5B0F18]">Thai EduCenter</span>
+              <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-rose-100 text-[#5B0F18] border border-rose-300">
+                AI Discovery
+              </span>
+            </div>
+            <p className="text-xs text-stone-600">ระบบค้นหาหลักสูตรและจับคู่อาจารย์ที่ปรึกษา AI ทั่วประเทศ</p>
           </div>
         </div>
+
+        <nav className="flex items-center gap-3">
+          <Link
+            href="/career-discovery"
+            className="flex items-center gap-2 px-3.5 py-2 rounded-lg bg-white hover:bg-stone-50 text-xs font-bold text-stone-700 border border-stone-300 transition-all hover:border-[#5B0F18] shadow-sm"
+          >
+            <Compass className="w-4 h-4 text-amber-600 animate-spin-slow" />
+            <span className="hidden sm:inline">แบบทดสอบอาชีพ</span> RIASEC Quiz
+          </Link>
+
+          <button
+            onClick={() => setShowSavedModal(true)}
+            className="relative flex items-center gap-2 px-3.5 py-2 rounded-lg bg-white hover:bg-stone-50 text-xs font-bold text-stone-700 border border-stone-300 transition-all hover:border-[#5B0F18] shadow-sm"
+          >
+            <Bookmark className="w-4 h-4 text-[#5B0F18]" />
+            <span className="hidden sm:inline">รายการที่บันทึก</span>
+            {(savedCourses.length > 0 || savedAdvisors.length > 0) && (
+              <span className="w-5 h-5 rounded-full bg-[#5B0F18] text-white text-[10px] font-bold flex items-center justify-center">
+                {savedCourses.length + savedAdvisors.length}
+              </span>
+            )}
+          </button>
+        </nav>
       </header>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden pt-12 pb-20 md:pt-16 md:pb-28 bg-gradient-to-b from-blue-50/70 via-slate-50 to-white">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-gradient-to-tr from-blue-300/20 via-indigo-300/20 to-sky-200/20 blur-3xl -z-10 pointer-events-none rounded-full" />
-
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
-          {/* Tagline Badge */}
-          <div className="inline-flex items-center gap-2 bg-blue-100/80 border border-blue-200 text-blue-800 px-4 py-1.5 rounded-full text-xs font-semibold mb-6 shadow-sm">
-            <Sparkles size={14} className="text-blue-600" />
-            <span>ค้นพบเส้นทางการเรียนรู้และงานวิจัยที่เหมาะสมที่สุดด้วย AI Semantic Matching</span>
+      <section className="relative overflow-hidden pt-12 pb-16 px-4 lg:px-8 border-b border-stone-300 bg-gradient-to-b from-[#F8F1E7] to-[#EFE4D2]">
+        <div className="max-w-4xl mx-auto text-center space-y-6">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-rose-100/80 border border-rose-300 text-[#5B0F18] text-xs font-bold shadow-sm">
+            <Sparkles className="w-3.5 h-3.5 text-[#5B0F18]" />
+            <span>AI Semantic Match 2.0 • ดัชนีหลักสูตรและอาจารย์ระดับประเทศ</span>
           </div>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-slate-900 tracking-tight leading-[1.15] mb-6">
-            ศูนย์รวม <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-sky-600">หลักสูตรมหาวิทยาลัย</span><br className="hidden sm:inline" />
-            และอาจารย์ที่ปรึกษาวิทยานิพนธ์ทั่วไทย
+          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-stone-900 leading-tight">
+            ค้นพบหลักสูตรและอาจารย์ที่ปรึกษา <br className="hidden sm:inline" />
+            <span className="text-[#5B0F18]">
+              ที่ตรงกับอนาคตและงานวิจัยของคุณ
+            </span>
           </h1>
 
-          <p className="text-slate-600 text-base sm:text-lg max-w-3xl mx-auto mb-6 leading-relaxed font-normal">
-            ค้นหาหลักสูตรระดับปริญญาตรี โท และเอก หรือใช้ AI แมตช์หัวข้อวิจัยกับอาจารย์ผู้เชี่ยวชาญจากมหาวิทยาลัยชั้นนำทั่วประเทศไทยได้อย่างแม่นยำ
+          <p className="text-stone-700 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed font-medium">
+            สำรวจกว่า 2,800+ หลักสูตร ป.ตรี ป.โท ป.เอก และจับคู่อาจารย์ที่ปรึกษากว่า 1,000+ ท่าน จากมหาวิทยาลัยชั้นนำทั่วไทยด้วย AI Vector Embedding
           </p>
 
-          {/* New Interactive Quiz Callout Banner */}
-          <div className="max-w-2xl mx-auto mb-8 bg-gradient-to-r from-indigo-900 via-purple-900 to-slate-900 text-white p-4 sm:p-5 rounded-3xl shadow-lg border border-indigo-500/30 flex flex-col sm:flex-row items-center justify-between gap-4 text-left">
-            <div className="flex items-center gap-3.5">
-              <div className="w-12 h-12 rounded-2xl bg-indigo-500/20 text-indigo-400 flex items-center justify-center flex-shrink-0">
-                <Compass size={24} className="animate-spin" style={{ animationDuration: "12s" }} />
-              </div>
-              <div>
-                <div className="flex items-center gap-2">
-                  <span className="font-bold text-sm sm:text-base text-white">ยังไม่รู้จะเรียนต่อคณะไหนดี?</span>
-                  <span className="text-[10px] font-black bg-pink-500 text-white px-2 py-0.5 rounded-full uppercase tracking-wider">ใหม่</span>
-                </div>
-                <p className="text-xs text-indigo-200 mt-0.5">ทำแบบประเมิน AI Career Quiz เพื่อค้นพบอาชีพและคณะที่ใช่ตามหลักจิตวิทยา</p>
-              </div>
-            </div>
-            <a
-              href="/career-discovery"
-              className="bg-white hover:bg-indigo-50 text-indigo-900 text-xs font-black px-4 py-2.5 rounded-xl shadow-md transition flex items-center gap-1.5 flex-shrink-0 w-full sm:w-auto justify-center"
-            >
-              <span>เริ่มทำแบบประเมิน</span>
-              <ArrowRight size={14} />
-            </a>
-          </div>
-
-          {/* Dual Tab Switcher */}
-          <div className="inline-flex p-1.5 bg-slate-200/80 rounded-2xl mb-6 shadow-inner border border-slate-300/60">
+          {/* Tab Switcher */}
+          <div className="inline-flex p-1.5 rounded-2xl bg-stone-200/80 border border-stone-300 shadow-inner">
             <button
               onClick={() => {
                 setActiveTab("courses");
-                setErrorMsg(null);
+                executeSearch(searchQuery, selectedUni, selectedDegree, "courses");
               }}
-              className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-bold transition-all ${
+              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
                 activeTab === "courses"
-                  ? "bg-white text-blue-700 shadow-md scale-[1.02]"
-                  : "text-slate-600 hover:text-slate-900"
+                  ? "bg-[#5B0F18] text-white shadow-md"
+                  : "text-stone-700 hover:text-[#5B0F18]"
               }`}
             >
-              <BookOpen size={18} />
-              <span>ค้นหาหลักสูตรการสอน</span>
+              <BookOpen className="w-4 h-4" />
+              ค้นหาหลักสูตร (Courses)
             </button>
+
             <button
               onClick={() => {
                 setActiveTab("advisors");
-                setErrorMsg(null);
+                executeSearch(searchQuery, selectedUni, selectedDegree, "advisors");
               }}
-              className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-bold transition-all ${
+              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
                 activeTab === "advisors"
-                  ? "bg-white text-indigo-700 shadow-md scale-[1.02]"
-                  : "text-slate-600 hover:text-slate-900"
+                  ? "bg-[#5B0F18] text-white shadow-md"
+                  : "text-stone-700 hover:text-[#5B0F18]"
               }`}
             >
-              <Users size={18} />
-              <span>ค้นหาอาจารย์ที่ปรึกษา (AI Match)</span>
+              <Users className="w-4 h-4" />
+              แมตช์อาจารย์ที่ปรึกษา (Advisor AI)
             </button>
           </div>
 
-          {/* Unified Smart Search Form */}
-          <form onSubmit={handleSearch} className="max-w-4xl mx-auto bg-white p-3 sm:p-4 rounded-3xl shadow-xl shadow-slate-200/70 border border-slate-200 text-left">
-            <div className="flex flex-col md:flex-row gap-3">
-              {/* Text Search Input */}
-              <div className="flex-[2] relative flex items-center bg-slate-50 rounded-2xl border border-slate-200 px-4 py-3 focus-within:border-blue-500 focus-within:bg-white focus-within:ring-2 focus-within:ring-blue-100 transition">
-                <Search className="text-slate-400 mr-3 flex-shrink-0" size={20} />
-                <input
-                  type="text"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder={
-                    activeTab === "courses"
-                      ? "พิมพ์ชื่อหลักสูตร, คณะ หรือความสนใจ (เช่น AI, Data, การเงิน, ชีวการแพทย์)..."
-                      : "พิมพ์หัวข้อวิจัยที่สนใจ (เช่น Microgrids, Machine Learning, Clinical AI)..."
-                  }
-                  className="w-full bg-transparent focus:outline-none text-slate-800 text-sm placeholder-slate-400 font-medium"
-                />
-              </div>
-
-              {/* Select University */}
-              <div className="flex-1 relative flex items-center bg-slate-50 rounded-2xl border border-slate-200 px-3 py-3 focus-within:border-blue-500 focus-within:bg-white transition">
-                <Building2 className="text-slate-400 mr-2 flex-shrink-0" size={18} />
-                <select
-                  value={selectedUni}
-                  onChange={(e) => setSelectedUni(e.target.value)}
-                  className="w-full bg-transparent focus:outline-none text-slate-700 text-sm font-medium cursor-pointer"
-                >
-                  <option value="all">ทุกมหาวิทยาลัย</option>
-                  <option value="Chiang Mai University">มหาวิทยาลัยเชียงใหม่ (CMU)</option>
-                  <option value="Chulalongkorn University">จุฬาลงกรณ์มหาวิทยาลัย (CU)</option>
-                  <option value="Thammasat University">มหาวิทยาลัยธรรมศาสตร์ (TU)</option>
-                  <option value="Mahidol University">มหาวิทยาลัยมหิดล (MU)</option>
-                  <option value="Kasetsart University">มหาวิทยาลัยเกษตรศาสตร์ (KU)</option>
-                  <option value="Khon Kaen University">มหาวิทยาลัยขอนแก่น (KKU)</option>
-                  <option value="Prince of Songkla University">มหาวิทยาลัยสงขลานครินทร์ (PSU)</option>
-                  <option value="King Mongkut's Institute of Technology Ladkrabang">สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง (KMITL)</option>
-                  <option value="King Mongkut's University of Technology Thonburi">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี (KMUTT)</option>
-                  <option value="Srinakharinwirot University">มหาวิทยาลัยศรีนครินทรวิโรฒ (SWU)</option>
-                  <option value="Naresuan University">มหาวิทยาลัยนเรศวร (NU)</option>
-                  <option value="Burapha University">มหาวิทยาลัยบูรพา (BUU)</option>
-                  <option value="Mahasarakham University">มหาวิทยาลัยมหาสารคาม (MSU)</option>
-                  <option value="Suranaree University of Technology">มหาวิทยาลัยเทคโนโลยีสุรนารี (SUT)</option>
-                  <option value="Mae Fah Luang University">มหาวิทยาลัยแม่ฟ้าหลวง (MFU)</option>
-                  <option value="National Institute of Development Administration">สถาบันบัณฑิตพัฒนบริหารศาสตร์ (NIDA)</option>
-                  <option value="Silpakorn University">มหาวิทยาลัยศิลปากร (SU)</option>
-                </select>
-              </div>
-
-              {/* Select Degree (Courses tab) */}
-              {activeTab === "courses" && (
-                <div className="flex-1 relative flex items-center bg-slate-50 rounded-2xl border border-slate-200 px-3 py-3 focus-within:border-blue-500 focus-within:bg-white transition">
-                  <GraduationCap className="text-slate-400 mr-2 flex-shrink-0" size={18} />
-                  <select
-                    value={selectedDegree}
-                    onChange={(e) => setSelectedDegree(e.target.value)}
-                    className="w-full bg-transparent focus:outline-none text-slate-700 text-sm font-medium cursor-pointer"
-                  >
-                    <option value="all">ทุกระดับปริญญา</option>
-                    <option value="bachelor">ปริญญาตรี</option>
-                    <option value="master">ปริญญาโท</option>
-                    <option value="doctorate">ปริญญาเอก</option>
-                    <option value="certificate">ประกาศนียบัตร</option>
-                  </select>
-                </div>
-              )}
-
-              {/* Submit Button */}
+          {/* Search Box */}
+          <div className="relative max-w-2xl mx-auto">
+            <div className="relative flex items-center">
+              <Search className="absolute left-4 w-5 h-5 text-stone-400" />
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyDown={(e) => e.key === "Enter" && executeSearch()}
+                placeholder={
+                  activeTab === "courses"
+                    ? "ค้นหาหลักสูตร เช่น วิศวะ AI, แพทยศาสตร์, BAScii, Data Science..."
+                    : "พิมพ์หัวข้อวิจัย/วิทยานิพนธ์ เช่น การประมวลผลภาษาไทย NLP, หุ่นยนต์การแพทย์..."
+                }
+                className="w-full pl-12 pr-28 py-4 rounded-2xl bg-white border border-stone-300 text-stone-900 placeholder-stone-400 text-sm focus:outline-none focus:ring-2 focus:ring-[#5B0F18] focus:border-transparent shadow-md transition-all"
+              />
               <button
-                type="submit"
+                onClick={() => executeSearch()}
                 disabled={loading}
-                className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold px-7 py-3.5 rounded-2xl shadow-md hover:shadow-lg transition flex items-center justify-center gap-2 flex-shrink-0 disabled:opacity-50"
+                className="absolute right-2 px-4 py-2.5 rounded-xl bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold transition-all flex items-center gap-1.5 shadow-md disabled:opacity-50"
               >
-                {loading ? <Loader2 size={18} className="animate-spin" /> : <Search size={18} />}
-                <span>{loading ? "กำลังค้นหา..." : "ค้นหา"}</span>
+                {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Sparkles className="w-4 h-4" />}
+                <span>ค้นหา</span>
               </button>
             </div>
+          </div>
 
-            {/* Quick Keyword Chips */}
-            <div className="mt-3.5 pt-3 border-t border-slate-100 flex items-center flex-wrap gap-2 text-xs text-slate-500">
-              <span className="font-semibold flex items-center gap-1 text-slate-400">
-                <TrendingUp size={13} /> คำค้นยายอดนิยม:
-              </span>
-              {quickTags.map((tag, idx) => (
-                <button
-                  key={idx}
-                  type="button"
-                  onClick={() => handleQuickTagClick(tag)}
-                  className="bg-slate-100 hover:bg-blue-50 hover:text-blue-600 text-slate-600 px-2.5 py-1 rounded-lg transition font-medium"
-                >
-                  #{tag}
-                </button>
-              ))}
-            </div>
-          </form>
+          {/* Trending Search Chips */}
+          <div className="flex flex-wrap items-center justify-center gap-2 pt-2">
+            <span className="text-xs text-stone-600 font-bold flex items-center gap-1">
+              <TrendingUp className="w-3.5 h-3.5 text-[#5B0F18]" /> ยอดฮิต:
+            </span>
+            {trendingTags.map((t, idx) => (
+              <button
+                key={idx}
+                onClick={() => {
+                  setSearchQuery(t.query);
+                  executeSearch(t.query);
+                }}
+                className="px-3 py-1 rounded-full bg-white hover:bg-rose-50 text-[11px] font-semibold text-stone-700 border border-stone-300 hover:border-[#5B0F18] hover:text-[#5B0F18] shadow-xs transition-all"
+              >
+                {t.label}
+              </button>
+            ))}
+          </div>
 
-          {/* Stats Bar */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mt-12 text-slate-600">
-            <div className="bg-white/80 backdrop-blur border border-slate-200/80 p-4 rounded-2xl text-center shadow-xs">
-              <div className="text-2xl sm:text-3xl font-black text-blue-600">{courses.length > 0 ? `${courses.length}+` : "2,500+"}</div>
-              <div className="text-xs font-semibold text-slate-500 mt-1">หลักสูตรในฐานข้อมูล</div>
+          {/* Live System Counter Badges */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto pt-6 border-t border-stone-300">
+            <div className="p-3.5 rounded-2xl bg-white border border-stone-200 shadow-xs">
+              <div className="text-xl font-extrabold text-[#5B0F18]">2,808+</div>
+              <div className="text-xs text-stone-600 font-medium">หลักสูตรมาตรฐาน</div>
             </div>
-            <div className="bg-white/80 backdrop-blur border border-slate-200/80 p-4 rounded-2xl text-center shadow-xs">
-              <div className="text-2xl sm:text-3xl font-black text-indigo-600">850+</div>
-              <div className="text-xs font-semibold text-slate-500 mt-1">อาจารย์ & นักวิจัย</div>
+            <div className="p-3.5 rounded-2xl bg-white border border-stone-200 shadow-xs">
+              <div className="text-xl font-extrabold text-[#5B0F18]">1,009+</div>
+              <div className="text-xs text-stone-600 font-medium">อาจารย์ที่ปรึกษา</div>
             </div>
-            <div className="bg-white/80 backdrop-blur border border-slate-200/80 p-4 rounded-2xl text-center shadow-xs">
-              <div className="text-2xl sm:text-3xl font-black text-emerald-600">30+</div>
-              <div className="text-xs font-semibold text-slate-500 mt-1">มหาวิทยาลัยชั้นนำ</div>
+            <div className="p-3.5 rounded-2xl bg-white border border-stone-200 shadow-xs">
+              <div className="text-xl font-extrabold text-[#5B0F18]">25+</div>
+              <div className="text-xs text-stone-600 font-medium">มหาวิทยาลัยชั้นนำ</div>
             </div>
-            <div className="bg-white/80 backdrop-blur border border-slate-200/80 p-4 rounded-2xl text-center shadow-xs">
-              <div className="text-2xl sm:text-3xl font-black text-amber-500 flex items-center justify-center gap-1">
-                <Sparkles size={22} /> 98%
-              </div>
-              <div className="text-xs font-semibold text-slate-500 mt-1">AI Match Accuracy</div>
+            <div className="p-3.5 rounded-2xl bg-white border border-stone-200 shadow-xs">
+              <div className="text-xl font-extrabold text-emerald-700">100%</div>
+              <div className="text-xs text-stone-600 font-medium">AI เวกเตอร์ความแม่นยำ</div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Main Content Area */}
-      <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex-1 w-full">
-        {/* Error Alert */}
-        {errorMsg && (
-          <div className="mb-8 p-4 bg-amber-50 border border-amber-200 rounded-2xl flex items-center gap-3 text-amber-800 text-sm">
-            <AlertCircle size={20} className="text-amber-600 flex-shrink-0" />
-            <div>
-              <p className="font-bold">คำแนะนำ:</p>
-              <p>{errorMsg} (หากยังไม่ได้เปิด Backend ให้รัน <code className="bg-amber-100 px-1.5 py-0.5 rounded font-mono text-xs">python -m app.main</code> ในโฟลเดอร์ backend)</p>
+      <main className="flex-1 max-w-7xl mx-auto w-full px-4 lg:px-8 py-8 space-y-6">
+        {/* Filter Controls Bar */}
+        <div className="p-4 rounded-2xl bg-white border border-stone-300 shadow-sm flex flex-wrap items-center justify-between gap-4">
+          <div className="flex flex-wrap items-center gap-3">
+            <div className="flex items-center gap-2 text-xs font-bold text-stone-700">
+              <SlidersHorizontal className="w-4 h-4 text-[#5B0F18]" />
+              <span>ตัวกรอง:</span>
             </div>
-          </div>
-        )}
 
-        {/* Section Header */}
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-8 gap-4">
-          <div>
-            <div className="text-xs font-bold uppercase tracking-wider text-blue-600 mb-1 flex items-center gap-1.5">
-              <Compass size={16} />
-              {activeTab === "courses" ? "Curriculum Directory" : "AI Semantic Faculty Directory"}
+            {/* University Dropdown */}
+            <select
+              value={selectedUni}
+              onChange={(e) => {
+                setSelectedUni(e.target.value);
+                executeSearch(searchQuery, e.target.value, selectedDegree);
+              }}
+              className="px-3 py-1.5 rounded-lg bg-stone-50 border border-stone-300 text-xs text-stone-800 font-medium focus:outline-none focus:ring-1 focus:ring-[#5B0F18]"
+            >
+              <option value="all">ทุกมหาวิทยาลัย (All Universities)</option>
+              <option value="จุฬาลงกรณ์มหาวิทยาลัย">จุฬาลงกรณ์มหาวิทยาลัย (CU)</option>
+              <option value="มหาวิทยาลัยมหิดล">มหาวิทยาลัยมหิดล (MU)</option>
+              <option value="มหาวิทยาลัยธรรมศาสตร์">มหาวิทยาลัยธรรมศาสตร์ (TU)</option>
+              <option value="มหาวิทยาลัยเชียงใหม่">มหาวิทยาลัยเชียงใหม่ (CMU)</option>
+              <option value="มหาวิทยาลัยเกษตรศาสตร์">มหาวิทยาลัยเกษตรศาสตร์ (KU)</option>
+              <option value="มหาวิทยาลัยขอนแก่น">มหาวิทยาลัยขอนแก่น (KKU)</option>
+              <option value="มหาวิทยาลัยสงขลานครินทร์">มหาวิทยาลัยสงขลานครินทร์ (PSU)</option>
+              <option value="มหาวิทยาลัยเทคโนโลยีสุรนารี">มหาวิทยาลัยเทคโนโลยีสุรนารี (SUT)</option>
+              <option value="สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง">สจล. ลาดกระบัง (KMITL)</option>
+              <option value="มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี">มจธ. บางมด (KMUTT)</option>
+              <option value="มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ">มจพ. พระนครเหนือ (KMUTNB)</option>
+              <option value="มหาวิทยาลัยศรีนครินทรวิโรฒ">มศว (SWU)</option>
+              <option value="มหาวิทยาลัยศิลปากร">มหาวิทยาลัยศิลปากร (SU)</option>
+              <option value="มหาวิทยาลัยบูรพา">มหาวิทยาลัยบูรพา (BUU)</option>
+              <option value="มหาวิทยาลัยนเรศวร">มหาวิทยาลัยนเรศวร (NU)</option>
+              <option value="มหาวิทยาลัยแม่ฟ้าหลวง">มหาวิทยาลัยแม่ฟ้าหลวง (MFU)</option>
+              <option value="มหาวิทยาลัยพะเยา">มหาวิทยาลัยพะเยา (UP)</option>
+              <option value="มหาวิทยาลัยรังสิต">มหาวิทยาลัยรังสิต (RSU)</option>
+              <option value="มหาวิทยาลัยกรุงเทพ">มหาวิทยาลัยกรุงเทพ (BU)</option>
+            </select>
+
+            {/* Degree Level Filter */}
+            {activeTab === "courses" && (
+              <div className="flex items-center gap-1 p-0.5 rounded-lg bg-stone-100 border border-stone-200">
+                {[
+                  { id: "all", label: "ทุกระดับ" },
+                  { id: "ปริญญาตรี", label: "ป.ตรี" },
+                  { id: "ปริญญาโท", label: "ป.โท" },
+                  { id: "ปริญญาเอก", label: "ป.เอก" },
+                ].map((deg) => (
+                  <button
+                    key={deg.id}
+                    onClick={() => {
+                      setSelectedDegree(deg.id);
+                      executeSearch(searchQuery, selectedUni, deg.id);
+                    }}
+                    className={`px-3 py-1 rounded-md text-[11px] font-bold transition-all ${
+                      selectedDegree === deg.id
+                        ? "bg-[#5B0F18] text-white shadow-xs"
+                        : "text-stone-600 hover:text-stone-900"
+                    }`}
+                  >
+                    {deg.label}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Right side stats & comparison launcher */}
+          <div className="flex items-center gap-3">
+            {comparedCourses.length > 0 && (
+              <button
+                onClick={() => setShowComparisonModal(true)}
+                className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold shadow-sm transition-all animate-pulse"
+              >
+                <Scale className="w-3.5 h-3.5" />
+                <span>เปรียบเทียบ ({comparedCourses.length}/4)</span>
+              </button>
+            )}
+
+            <div className="text-xs text-stone-600 font-medium">
+              พบ <span className="font-extrabold text-[#5B0F18]">{activeTab === "courses" ? courses.length : advisors.length}</span> รายการ
             </div>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
-              {activeTab === "courses"
-                ? `หลักสูตรมหาวิทยาลัย (${courses.length} รายการ)`
-                : `อาจารย์ที่ปรึกษาวิทยานิพนธ์ ${searchExecuted ? `(${advisors.length} รายการที่ตรงกับคุณ)` : ""}`}
-            </h2>
-          </div>
-
-          <div className="flex items-center gap-2">
-            <span className="text-xs font-semibold text-slate-500">เรียงตาม:</span>
-            <span className="bg-white border border-slate-200 text-blue-600 text-xs font-bold px-3 py-1.5 rounded-lg shadow-xs">
-              {activeTab === "advisors" ? "ความเหมาะสมสูงสุด (% Match)" : "หลักสูตรยอดนิยม"}
-            </span>
           </div>
         </div>
 
-        {/* Tab 1: Courses Cards View */}
-        {activeTab === "courses" && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {courses.map((course) => (
-              <div
-                key={course.id}
-                className="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-blue-300 transition-all flex flex-col justify-between group"
-              >
-                <div>
-                  <div className="flex items-start justify-between gap-3 mb-3">
-                    <div className="flex items-center gap-2 flex-wrap">
-                      <span className="bg-blue-50 text-blue-700 text-xs font-bold px-3 py-1 rounded-full border border-blue-100">
-                        {course.degree_level}
-                      </span>
-                      <span className="bg-slate-100 text-slate-600 text-xs font-medium px-2.5 py-1 rounded-full">
-                        {course.program_type || "ภาคปกติ"}
-                      </span>
-                    </div>
-                    {course.degree_name && (
-                      <span className="text-xs font-bold text-slate-500 bg-slate-50 px-2.5 py-1 rounded-full border border-slate-100">
-                        {course.degree_name}
-                      </span>
-                    )}
-                  </div>
+        {/* Error Message Alert */}
+        {errorMsg && (
+          <div className="p-4 rounded-xl bg-rose-50 border border-rose-200 text-rose-800 text-xs flex items-center gap-3">
+            <AlertCircle className="w-4 h-4 text-[#5B0F18] flex-shrink-0" />
+            <span>{errorMsg}</span>
+          </div>
+        )}
 
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors leading-snug mb-2">
-                    {course.title_th}
-                  </h3>
-                  {course.title_en && (
-                    <p className="text-xs text-slate-400 font-medium mb-3">{course.title_en}</p>
-                  )}
-
-                  <div className="text-sm font-semibold text-slate-600 flex items-center gap-2 mb-4">
-                    <Building2 size={16} className="text-slate-400 flex-shrink-0" />
-                    <span>{course.university_th}</span>
-                    <span className="text-slate-300">•</span>
-                    <span className="text-slate-500 font-normal">{course.faculty_th}</span>
-                  </div>
-
-                  {course.description && (
-                    <p className="text-xs text-slate-600 line-clamp-2 mb-4 leading-relaxed bg-slate-50/50 p-2.5 rounded-xl border border-slate-100">
-                      {course.description}
-                    </p>
-                  )}
-
-                  <div className="grid grid-cols-2 gap-2 text-xs bg-slate-50 p-3 rounded-2xl mb-4 border border-slate-100">
-                    <div>
-                      <span className="text-slate-400 block font-medium">ระยะเวลาศึกษา</span>
-                      <span className="font-bold text-slate-700">{course.duration_years || "2-4 ปี"}</span>
-                    </div>
-                    <div>
-                      <span className="text-slate-400 block font-medium">ค่าธรรมเนียมการศึกษา</span>
-                      <span className="font-bold text-slate-700">{course.tuition_per_semester || "ตามประกาศมหาวิทยาลัย"}</span>
-                    </div>
-                  </div>
-
-                  {course.curriculum_highlights && course.curriculum_highlights.length > 0 && (
-                    <div className="flex flex-wrap gap-1.5 mb-4">
-                      {course.curriculum_highlights.slice(0, 3).map((hl, i) => (
-                        <span key={i} className="text-[11px] font-medium bg-blue-50/60 text-blue-700 px-2 py-0.5 rounded-md border border-blue-100/50">
-                          ✓ {hl}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                </div>
-
-                <div className="flex items-center justify-between pt-4 border-t border-slate-100">
-                  <button className="text-xs font-bold text-slate-500 hover:text-slate-900 flex items-center gap-1 transition">
-                    <Bookmark size={15} /> บันทึกหลักสูตร
-                  </button>
-                  {course.website_url ? (
-                    <a
-                      href={course.website_url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="bg-slate-900 hover:bg-blue-600 text-white text-xs font-bold px-4 py-2.5 rounded-xl transition flex items-center gap-1.5"
-                    >
-                      <span>เว็บไซต์หลักสูตร</span>
-                      <ExternalLink size={14} />
-                    </a>
-                  ) : (
-                    <button className="bg-slate-900 hover:bg-blue-600 text-white text-xs font-bold px-4 py-2.5 rounded-xl transition flex items-center gap-1.5">
-                      <span>ดูรายละเอียด</span>
-                      <ChevronRight size={14} />
-                    </button>
-                  )}
+        {/* Search Results Grid */}
+        {loading ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {[1, 2, 3, 4, 5, 6].map((idx) => (
+              <div key={idx} className="p-5 rounded-2xl bg-white border border-stone-200 space-y-4 animate-pulse">
+                <div className="h-4 bg-stone-200 rounded w-1/3" />
+                <div className="h-6 bg-stone-200 rounded w-4/5" />
+                <div className="h-16 bg-stone-100 rounded w-full" />
+                <div className="flex gap-2">
+                  <div className="h-5 bg-stone-200 rounded w-16" />
+                  <div className="h-5 bg-stone-200 rounded w-20" />
                 </div>
               </div>
             ))}
           </div>
-        )}
+        ) : activeTab === "courses" ? (
+          /* COURSES LIST */
+          !Array.isArray(courses) || courses.length === 0 ? (
+            <div className="p-12 text-center rounded-2xl bg-white border border-stone-200 space-y-3 shadow-xs">
+              <BookOpen className="w-10 h-10 text-stone-400 mx-auto" />
+              <h3 className="text-base font-bold text-stone-800">ไม่พบหลักสูตรที่ตรงกับเงื่อนไข</h3>
+              <p className="text-xs text-stone-500">ลองปรับเปลี่ยนคำค้นหา หรือเลือกตัวกรองมหาวิทยาลัยเป็น &quot;ทุกมหาวิทยาลัย&quot;</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {courses.map((course) => {
+                const badge = getSelectivityBadge(course);
+                const isCompared = comparedCourses.some((c) => c.id === course.id);
+                const isSaved = savedCourses.includes(course.id);
 
-        {/* Tab 2: Advisors Cards View */}
-        {activeTab === "advisors" && (
-          <div>
-            {!searchExecuted && advisors.length === 0 && (
-              <div className="text-center py-12 bg-white rounded-3xl border border-slate-200 p-8 mb-6">
-                <Users size={48} className="text-indigo-400 mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-slate-800 mb-2">ค้นหาอาจารย์ที่ปรึกษาด้วย AI</h3>
-                <p className="text-slate-500 text-sm max-w-md mx-auto mb-6">
-                  พิมพ์หัวข้อวิจัย หรือคำที่คุณสนใจในกล่องค้นหาด้านบน แล้วกดปุ่ม "ค้นหา" เพื่อให้ AI จับคู่และคำนวณ % Match ให้ทันทีครับ
-                </p>
-                <button
-                  onClick={() => {
-                    setSearchQuery("ปัญญาประดิษฐ์และพลังงานทดแทน");
-                    handleSearch();
-                  }}
-                  className="bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold px-5 py-3 rounded-2xl shadow-sm transition inline-flex items-center gap-2"
-                >
-                  <Sparkles size={16} /> ลองค้นหาด้วยตัวอย่าง "ปัญญาประดิษฐ์และพลังงานทดแทน"
-                </button>
-              </div>
-            )}
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {advisors.map((res) => {
-                const advisor = res.faculty;
                 return (
                   <div
-                    key={advisor.id}
-                    className="bg-white rounded-3xl border border-slate-200 p-6 shadow-sm hover:shadow-md hover:border-indigo-300 transition-all flex flex-col justify-between group relative"
+                    key={course.id}
+                    className={`group relative p-5 rounded-2xl bg-white border transition-all flex flex-col justify-between hover:shadow-lg hover:-translate-y-0.5 ${
+                      isCompared ? "border-[#5B0F18] ring-2 ring-[#5B0F18]/20" : "border-stone-200 hover:border-stone-400"
+                    }`}
                   >
-                    {/* Match Score Badge */}
-                    <div className="absolute top-4 right-4 bg-gradient-to-r from-indigo-600 to-blue-600 text-white font-black text-xs px-2.5 py-1 rounded-full shadow-sm flex items-center gap-1">
-                      <Sparkles size={12} />
-                      <span>{res.match_score}% Match</span>
+                    <div className="space-y-3">
+                      {/* Top Badges */}
+                      <div className="flex items-center justify-between gap-2">
+                        <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${badge.color}`}>
+                          {badge.label}
+                        </span>
+
+                        <div className="flex items-center gap-1.5">
+                          <button
+                            onClick={() => toggleCompareCourse(course)}
+                            title="เปรียบเทียบหลักสูตร"
+                            className={`p-1.5 rounded-lg border text-xs transition-all ${
+                              isCompared
+                                ? "bg-[#5B0F18] border-[#5B0F18] text-white"
+                                : "bg-stone-50 border-stone-200 text-stone-600 hover:text-stone-900"
+                            }`}
+                          >
+                            <Scale className="w-3.5 h-3.5" />
+                          </button>
+
+                          <button
+                            onClick={() => toggleBookmarkCourse(course.id)}
+                            title="บันทึกรายการโปรด"
+                            className={`p-1.5 rounded-lg border text-xs transition-all ${
+                              isSaved
+                                ? "bg-rose-50 border-rose-300 text-rose-600"
+                                : "bg-stone-50 border-stone-200 text-stone-600 hover:text-stone-900"
+                            }`}
+                          >
+                            <Heart className={`w-3.5 h-3.5 ${isSaved ? "fill-rose-600 text-rose-600" : ""}`} />
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Course Title & Degree */}
+                      <div>
+                        <div className="flex items-center gap-1.5 text-[11px] font-bold text-[#5B0F18]">
+                          <span>{course.degree_level}</span>
+                          {course.degree_name && <span>• {course.degree_name}</span>}
+                        </div>
+                        <h3 className="text-sm font-bold text-stone-900 group-hover:text-[#5B0F18] transition-colors leading-snug line-clamp-2 mt-0.5">
+                          {course.title_th}
+                        </h3>
+                        {course.title_en && (
+                          <p className="text-[11px] text-stone-500 italic line-clamp-1 mt-0.5">{course.title_en}</p>
+                        )}
+                      </div>
+
+                      {/* University & Faculty */}
+                      <div className="flex items-center gap-2 text-xs text-stone-600">
+                        <Building2 className="w-3.5 h-3.5 text-stone-400 flex-shrink-0" />
+                        <span className="truncate">
+                          {course.university_th} • {course.faculty_th}
+                        </span>
+                      </div>
+
+                      {/* Tuition & Duration Meta */}
+                      <div className="grid grid-cols-2 gap-2 p-2.5 rounded-xl bg-stone-50 border border-stone-200 text-[11px]">
+                        <div>
+                          <span className="text-stone-500 block text-[10px]">ค่าเทอม / ภาคเรียน:</span>
+                          <span className="font-bold text-emerald-800">
+                            {course.tuition_per_semester || "ตามประกาศมหาวิทยาลัย"}
+                          </span>
+                        </div>
+                        <div>
+                          <span className="text-stone-500 block text-[10px]">ระยะเวลา / หน่วยกิต:</span>
+                          <span className="font-bold text-stone-700">
+                            {course.duration_years || "4 ปี"} {course.total_credits ? `(${course.total_credits})` : ""}
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Highlights */}
+                      {course.curriculum_highlights && course.curriculum_highlights.length > 0 && (
+                        <p className="text-xs text-stone-600 line-clamp-2 leading-relaxed">
+                          {course.curriculum_highlights[0]}
+                        </p>
+                      )}
                     </div>
 
-                    <div>
-                      <div className="flex items-start gap-3 mb-4 pr-16">
-                        <img
-                          src={advisor.image_url || `https://ui-avatars.com/api/?name=${encodeURIComponent(advisor.full_name_th)}&background=0D8ABC&color=fff&size=128`}
-                          alt={advisor.full_name_th}
-                          loading="lazy"
-                          decoding="async"
-                          onError={(e) => {
-                            (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(advisor.full_name_th)}&background=0D8ABC&color=fff&size=128`;
-                          }}
-                          className="w-14 h-14 rounded-2xl object-cover border-2 border-slate-100 shadow-xs flex-shrink-0"
-                        />
-                        <div>
-                          <a 
-                            href={`/advisor/${advisor.id}`} 
-                            className="inline-flex items-center gap-1 hover:opacity-80 transition-opacity group-hover:text-indigo-600"
-                          >
-                            <h3 className="text-base font-bold text-slate-900 transition-colors leading-snug">
-                              {advisor.full_name_th}
-                            </h3>
-                          </a>
-                          {advisor.full_name && (
-                            <p className="text-[11px] text-slate-400 truncate">{advisor.full_name}</p>
-                          )}
-                          <p className="text-xs text-indigo-600 font-semibold mt-0.5">{advisor.role || advisor.department_th}</p>
-                        </div>
-                      </div>
-
-                      <div className="text-xs text-slate-500 mb-3">
-                        <p>{advisor.faculty_th} • {advisor.university_th}</p>
-                      </div>
-
-                      {/* AI Match Explanation */}
-                      {res.ai_explanation && (
-                        <div className="bg-indigo-50/70 p-3 rounded-2xl border border-indigo-100/70 mb-4 text-xs text-indigo-950">
-                          <span className="font-bold flex items-center gap-1 text-indigo-700 mb-1">
-                            <Sparkles size={12} /> ทำไมถึงเหมาะกับคุณ:
-                          </span>
-                          <p className="leading-relaxed">{res.ai_explanation}</p>
-                        </div>
+                    {/* Bottom Actions */}
+                    <div className="pt-4 mt-3 border-t border-stone-100 flex items-center justify-between">
+                      {course.career_paths && course.career_paths.length > 0 ? (
+                        <span className="text-[10px] text-stone-600 truncate max-w-[180px] font-medium">
+                          🎯 {course.career_paths[0]}
+                        </span>
+                      ) : (
+                        <span className="text-[10px] text-stone-400">หลักสูตรมาตรฐาน</span>
                       )}
 
-                      {/* Research Interests */}
-                      {advisor.research_interests && advisor.research_interests.length > 0 && (
-                        <div className="mb-4">
-                          <div className="text-[11px] font-bold text-slate-600 mb-1.5">สาขาวิจัยเด่น:</div>
-                          <div className="flex flex-wrap gap-1">
-                            {advisor.research_interests.map((interest, i) => (
-                              <span key={i} className="text-[10px] bg-slate-100 text-slate-700 font-medium px-2 py-0.5 rounded-md">
-                                {interest}
+                      {course.website_url ? (
+                        <a
+                          href={course.website_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-1 text-xs font-bold text-[#5B0F18] hover:underline transition-colors"
+                        >
+                          <span>ดูรายละเอียด</span>
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      ) : (
+                        <span className="text-xs text-stone-400">ข้อมูลทางการ</span>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )
+        ) : (
+          /* ADVISORS LIST */
+          !Array.isArray(advisors) || advisors.length === 0 ? (
+            <div className="p-12 text-center rounded-2xl bg-white border border-stone-200 space-y-3 shadow-xs">
+              <Users className="w-10 h-10 text-stone-400 mx-auto" />
+              <h3 className="text-base font-bold text-stone-800">ไม่พบอาจารย์ที่ปรึกษาที่ตรงกับหัวข้อ</h3>
+              <p className="text-xs text-stone-500">ลองพิมพ์คำค้นหาเป็นภาษาไทยหรืออังกฤษ เช่น &quot;Natural Language Processing&quot;, &quot;พลังงานสะอาด&quot;</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {advisors.map((item) => {
+                const f = item.faculty;
+                const isSaved = savedAdvisors.includes(f.id);
+
+                return (
+                  <div
+                    key={f.id}
+                    className="group relative p-5 rounded-2xl bg-white border border-stone-200 hover:border-[#5B0F18] transition-all flex flex-col justify-between hover:shadow-lg hover:-translate-y-0.5"
+                  >
+                    <div className="space-y-4">
+                      {/* Top Header Avatar & Match Score */}
+                      <div className="flex items-start justify-between gap-3">
+                        <Link
+                          href={`/advisor/${f.id}`}
+                          className="flex items-center gap-3 flex-1 min-w-0 hover:opacity-90 transition group/avatar"
+                        >
+                          <img
+                            src={f.image_url || `https://ui-avatars.com/api/?name=${encodeURIComponent(f.first_name || "Faculty")}&background=5B0F18&color=ffffff`}
+                            alt={f.full_name_th}
+                            loading="lazy"
+                            decoding="async"
+                            onError={(e) => {
+                              (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(f.first_name || "Faculty")}&background=5B0F18&color=ffffff`;
+                            }}
+                            className="w-12 h-12 rounded-xl object-cover border border-stone-200 bg-stone-100 flex-shrink-0 group-hover/avatar:scale-105 transition-transform"
+                          />
+                          <div className="min-w-0">
+                            <span className="text-[10px] font-bold text-[#5B0F18] block truncate max-w-[150px]">
+                              {f.academic_title_th || "อาจารย์"}
+                            </span>
+                            <h3 className="text-sm font-bold text-stone-900 group-hover:text-[#5B0F18] transition-colors leading-snug truncate">
+                              {f.full_name_th || `${f.first_name} ${f.last_name}`}
+                            </h3>
+                            <p className="text-[11px] text-stone-500 truncate max-w-[160px]">
+                              {f.university_th}
+                            </p>
+                          </div>
+                        </Link>
+
+                        <div className="flex items-center gap-1.5 flex-shrink-0">
+                          {item.match_score && (
+                            <span className="px-2 py-1 rounded-lg bg-rose-50 border border-rose-200 text-[#5B0F18] text-xs font-extrabold flex items-center gap-1">
+                              <Sparkles className="w-3 h-3 text-[#5B0F18]" />
+                              {item.match_score}%
+                            </span>
+                          )}
+
+                          <button
+                            onClick={() => toggleBookmarkAdvisor(f.id)}
+                            className={`p-1.5 rounded-lg border text-xs transition-all ${
+                              isSaved
+                                ? "bg-rose-50 border-rose-300 text-rose-600"
+                                : "bg-stone-50 border-stone-200 text-stone-600 hover:text-stone-900"
+                            }`}
+                          >
+                            <Heart className={`w-3.5 h-3.5 ${isSaved ? "fill-rose-600 text-rose-600" : ""}`} />
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Faculty & Department */}
+                      <div className="text-xs text-stone-600 flex items-center gap-1.5">
+                        <Building2 className="w-3.5 h-3.5 text-stone-400 flex-shrink-0" />
+                        <span className="truncate">{f.faculty_th} • {f.department_th}</span>
+                      </div>
+
+                      {/* Research Interests Tags */}
+                      {f.research_interests && f.research_interests.length > 0 && (
+                        <div className="space-y-1.5">
+                          <span className="text-[10px] uppercase font-bold tracking-wider text-stone-500">สาขาความเชี่ยวชาญ:</span>
+                          <div className="flex flex-wrap gap-1.5">
+                            {f.research_interests.slice(0, 3).map((ri, rIdx) => (
+                              <span
+                                key={rIdx}
+                                className="px-2 py-0.5 rounded-md bg-stone-100 border border-stone-200 text-[11px] text-stone-700 font-medium"
+                              >
+                                {ri}
                               </span>
                             ))}
                           </div>
                         </div>
                       )}
+
+                      {/* AI Match Explanation */}
+                      {item.ai_explanation && (
+                        <div className="p-2.5 rounded-xl bg-rose-50/70 border border-rose-200 text-[11px] text-stone-700 leading-relaxed">
+                          💡 <span className="font-bold text-[#5B0F18]">ทำไมถึงแมตช์:</span> {item.ai_explanation}
+                        </div>
+                      )}
                     </div>
 
-                    <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
-                      <a
-                        href={`/advisor/${advisor.id}`}
-                        className="text-indigo-600 hover:text-indigo-800 text-xs font-bold flex items-center gap-1 transition"
+                    {/* Bottom Actions */}
+                    <div className="pt-4 mt-3 border-t border-stone-100 flex items-center justify-between gap-2">
+                      <Link
+                        href={`/advisor/${f.id}`}
+                        className="text-xs font-bold text-stone-600 hover:text-[#5B0F18] transition-colors"
                       >
-                        ดูโปรไฟล์เต็ม <ChevronRight size={14} />
-                      </a>
+                        ดูประวัติเต็ม
+                      </Link>
+
                       <button
-                        onClick={() => handleGenerateEmail(advisor)}
-                        className="bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1"
+                        onClick={() => {
+                          setSelectedAdvisorForEmail(f);
+                          setResearchTopic(searchQuery || f.research_interests?.[0] || "");
+                        }}
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold transition-all shadow-sm"
                       >
-                        <Mail size={13} /> ติดต่ออาจารย์
+                        <Mail className="w-3.5 h-3.5" />
+                        <span>ติดต่อ AI Email</span>
                       </button>
                     </div>
                   </div>
                 );
               })}
             </div>
-          </div>
+          )
         )}
-      </section>
+      </main>
 
-      {/* Cold Email Generator Modal */}
-      {selectedAdvisorForEmail && (
-        <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4 z-50 animate-fadeIn">
-          <div className="bg-white rounded-3xl max-w-2xl w-full p-6 shadow-2xl border border-slate-100 max-h-[90vh] overflow-y-auto">
-            <div className="flex justify-between items-center pb-4 border-b border-slate-100 mb-4">
-              <div className="flex items-center gap-2">
-                <div className="p-2 rounded-xl bg-indigo-50 text-indigo-600">
-                  <Mail size={20} />
-                </div>
-                <div>
-                  <h3 className="font-bold text-slate-900 text-lg">AI Cold Email Generator</h3>
-                  <p className="text-xs text-slate-400">ร่างอีเมลติดต่อ {selectedAdvisorForEmail.full_name_th}</p>
-                </div>
+      {/* FLOATING COMPARISON DOCK */}
+      {comparedCourses.length > 0 && (
+        <aside aria-label="แถบเปรียบเทียบหลักสูตร" className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 w-[95%] max-w-2xl p-3.5 rounded-2xl bg-white/95 border border-stone-300 shadow-2xl backdrop-blur-xl flex items-center justify-between gap-3 animate-in fade-in slide-in-from-bottom-4">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-xl bg-[#5B0F18] text-white flex items-center justify-center font-bold text-sm shadow-md">
+              {comparedCourses.length}
+            </div>
+            <div>
+              <div className="text-xs font-bold text-stone-900">กำลังเปรียบเทียบหลักสูตร ({comparedCourses.length}/4)</div>
+              <div className="text-[11px] text-stone-500 truncate max-w-[280px]">
+                {comparedCourses.map((c) => c.title_th).join(", ")}
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setComparedCourses([])}
+              className="p-2 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-600 text-xs"
+              title="ล้างทั้งหมด"
+            >
+              <Trash2 className="w-4 h-4" />
+            </button>
+            <button
+              onClick={() => setShowComparisonModal(true)}
+              className="px-4 py-2 rounded-xl bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold shadow-md flex items-center gap-1.5"
+            >
+              <Scale className="w-3.5 h-3.5" />
+              <span>เปิดตารางเปรียบเทียบ</span>
+            </button>
+          </div>
+        </aside>
+      )}
+
+      {/* COMPARISON MATRIX MODAL */}
+      {showComparisonModal && (
+        <div className="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-white border border-stone-300 rounded-3xl w-full max-w-5xl max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-in zoom-in-95">
+            {/* Header */}
+            <div className="px-6 py-4 border-b border-stone-200 flex items-center justify-between bg-stone-50">
+              <div className="flex items-center gap-2.5">
+                <Scale className="w-5 h-5 text-[#5B0F18]" />
+                <h2 className="text-base font-bold text-stone-900">ตารางเปรียบเทียบหลักสูตร (Course Comparison Matrix)</h2>
               </div>
               <button
-                onClick={() => setSelectedAdvisorForEmail(null)}
-                className="text-slate-400 hover:text-slate-700 p-1.5 rounded-xl hover:bg-slate-100"
+                onClick={() => setShowComparisonModal(false)}
+                className="p-1.5 rounded-lg bg-white hover:bg-stone-100 text-stone-500 hover:text-stone-900"
               >
-                <X size={20} />
+                <X className="w-5 h-5" />
               </button>
             </div>
 
-            {!generatedEmail ? (
-              <div className="space-y-4">
-                <div>
-                  <label className="block text-xs font-bold text-slate-700 mb-1">ชื่อ-นามสกุลของคุณ:</label>
-                  <input
-                    type="text"
-                    value={studentName}
-                    onChange={(e) => setStudentName(e.target.value)}
-                    className="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-sm focus:outline-blue-500 font-medium"
-                    placeholder="เช่น นาย สมชาย ใจดี"
-                  />
-                </div>
+            {/* Matrix Content Table */}
+            <div className="flex-1 overflow-auto p-6">
+              <div className="min-w-[700px]">
+                <table className="w-full text-xs text-left border-collapse">
+                  <thead>
+                    <tr className="border-b border-stone-200">
+                      <th className="p-3 text-stone-700 font-bold w-1/5 bg-stone-100 rounded-l-xl">เกณฑ์การเปรียบเทียบ</th>
+                      {comparedCourses.map((c) => (
+                        <th key={c.id} className="p-3 text-stone-900 font-bold w-1/5">
+                          <div className="space-y-1">
+                            <span className="text-[10px] font-bold text-[#5B0F18] block">{c.university_th}</span>
+                            <span className="line-clamp-2">{c.title_th}</span>
+                          </div>
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-stone-200 text-stone-700">
+                    <tr>
+                      <td className="p-3 font-bold text-stone-700 bg-stone-50">ระดับปริญญา</td>
+                      {comparedCourses.map((c) => (
+                        <td key={c.id} className="p-3 font-bold text-[#5B0F18]">
+                          {c.degree_level} {c.degree_name ? `(${c.degree_name})` : ""}
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      <td className="p-3 font-bold text-stone-700 bg-stone-50">คณะ / ภาควิชา</td>
+                      {comparedCourses.map((c) => (
+                        <td key={c.id} className="p-3 font-medium">
+                          {c.faculty_th} <br />
+                          <span className="text-stone-500 text-[11px]">{c.department_th || "-"}</span>
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      <td className="p-3 font-bold text-stone-700 bg-stone-50">ค่าเทอม / ภาคเรียน</td>
+                      {comparedCourses.map((c) => (
+                        <td key={c.id} className="p-3 font-bold text-emerald-800">
+                          {c.tuition_per_semester || "ตามประกาศมหาวิทยาลัย"}
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      <td className="p-3 font-bold text-stone-700 bg-stone-50">ระยะเวลา & หน่วยกิต</td>
+                      {comparedCourses.map((c) => (
+                        <td key={c.id} className="p-3 font-medium">
+                          {c.duration_years || "4 ปี"} / {c.total_credits || "ตามโครงสร้าง"}
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      <td className="p-3 font-bold text-stone-700 bg-stone-50">ระดับการแข่งขัน</td>
+                      {comparedCourses.map((c) => {
+                        const badge = getSelectivityBadge(c);
+                        return (
+                          <td key={c.id} className="p-3">
+                            <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${badge.color}`}>
+                              {badge.label}
+                            </span>
+                          </td>
+                        );
+                      })}
+                    </tr>
+                    <tr>
+                      <td className="p-3 font-bold text-stone-700 bg-stone-50">จุดเด่นหลักสูตร</td>
+                      {comparedCourses.map((c) => (
+                        <td key={c.id} className="p-3 text-[11px] text-stone-700 leading-relaxed">
+                          {c.curriculum_highlights && c.curriculum_highlights.length > 0 ? (
+                            <ul className="list-disc list-inside space-y-1">
+                              {c.curriculum_highlights.slice(0, 2).map((h, i) => (
+                                <li key={i}>{h}</li>
+                              ))}
+                            </ul>
+                          ) : (
+                            "-"
+                          )}
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      <td className="p-3 font-bold text-stone-700 bg-stone-50">เส้นทางอาชีพ</td>
+                      {comparedCourses.map((c) => (
+                        <td key={c.id} className="p-3 text-[11px] text-stone-700 font-medium">
+                          {c.career_paths && c.career_paths.length > 0 ? c.career_paths.join(", ") : "-"}
+                        </td>
+                      ))}
+                    </tr>
+                    <tr>
+                      <td className="p-3 font-bold text-stone-700 bg-stone-50">ลิงก์เว็บไซต์ทางการ</td>
+                      {comparedCourses.map((c) => (
+                        <td key={c.id} className="p-3">
+                          {c.website_url ? (
+                            <a
+                              href={c.website_url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-[#5B0F18] font-bold hover:underline inline-flex items-center gap-1"
+                            >
+                              <span>เข้าสู่เว็บไซต์</span>
+                              <ExternalLink className="w-3 h-3" />
+                            </a>
+                          ) : (
+                            "-"
+                          )}
+                        </td>
+                      ))}
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
 
-                <div>
-                  <label className="block text-xs font-bold text-slate-700 mb-1">ประวัติการศึกษา / ประสบการณ์ย่อ:</label>
-                  <textarea
-                    rows={2}
-                    value={studentBackground}
-                    onChange={(e) => setStudentBackground(e.target.value)}
-                    className="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-sm focus:outline-blue-500 font-medium"
-                    placeholder="เช่น จบ ป.ตรี วิศวกรรม มีประสบการณ์ทำโปรเจกต์ด้าน..."
-                  />
-                </div>
+            {/* Footer */}
+            <div className="px-6 py-4 border-t border-stone-200 bg-stone-50 flex items-center justify-between">
+              <button
+                onClick={() => setComparedCourses([])}
+                className="text-xs text-rose-700 font-bold hover:underline"
+              >
+                ล้างการเปรียบเทียบทั้งหมด
+              </button>
+              <button
+                onClick={() => setShowComparisonModal(false)}
+                className="px-5 py-2 rounded-xl bg-stone-800 hover:bg-stone-900 text-white text-xs font-bold"
+              >
+                ปิดหน้าต่าง
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
-                <div>
-                  <label className="block text-xs font-bold text-slate-700 mb-1">หัวข้อวิจัยที่อยากทำ:</label>
-                  <input
-                    type="text"
-                    value={researchTopic}
-                    onChange={(e) => setResearchTopic(e.target.value)}
-                    className="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-sm focus:outline-blue-500 font-medium"
-                  />
-                </div>
+      {/* SAVED ITEMS / BOOKMARKS MODAL */}
+      {showSavedModal && (
+        <div className="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-white border border-stone-300 rounded-3xl w-full max-w-2xl max-h-[85vh] flex flex-col shadow-2xl overflow-hidden animate-in zoom-in-95">
+            <div className="px-6 py-4 border-b border-stone-200 flex items-center justify-between bg-stone-50">
+              <div className="flex items-center gap-2">
+                <Bookmark className="w-5 h-5 text-[#5B0F18]" />
+                <h2 className="text-base font-bold text-stone-900">รายการที่บันทึกไว้ (Saved Bookmarks)</h2>
+              </div>
+              <button
+                onClick={() => setShowSavedModal(false)}
+                className="p-1.5 rounded-lg bg-white hover:bg-stone-100 text-stone-500 hover:text-stone-900"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
 
-                <div className="grid grid-cols-2 gap-3">
-                  <div>
-                    <label className="block text-xs font-bold text-slate-700 mb-1">ระดับที่ต้องการศึกษา:</label>
-                    <select
-                      value={intendedDegree}
-                      onChange={(e) => setIntendedDegree(e.target.value)}
-                      className="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-sm font-medium"
-                    >
-                      <option value="ปริญญาโท (Master's Degree)">ปริญญาโท (Master's Degree)</option>
-                      <option value="ปริญญาเอก (Ph.D.)">ปริญญาเอก (Ph.D.)</option>
-                    </select>
+            <div className="flex-1 overflow-auto p-6 space-y-4">
+              <div className="space-y-2">
+                <h4 className="text-xs font-bold text-stone-600 uppercase tracking-wider">
+                  หลักสูตรที่บันทึก ({savedCourses.length})
+                </h4>
+                {savedCourses.length === 0 ? (
+                  <p className="text-xs text-stone-500 italic">ยังไม่มีหลักสูตรที่บันทึกไว้</p>
+                ) : (
+                  <div className="space-y-2">
+                    {savedCourses.map((id) => (
+                      <div key={id} className="p-3 rounded-xl bg-stone-50 border border-stone-200 flex items-center justify-between">
+                        <span className="text-xs font-semibold text-stone-800">ID: {id}</span>
+                        <button
+                          onClick={() => toggleBookmarkCourse(id)}
+                          className="text-xs text-rose-700 font-bold hover:underline"
+                        >
+                          ลบออก
+                        </button>
+                      </div>
+                    ))}
                   </div>
+                )}
+              </div>
+
+              <div className="space-y-2 pt-4 border-t border-stone-200">
+                <h4 className="text-xs font-bold text-stone-600 uppercase tracking-wider">
+                  อาจารย์ที่ปรึกษาที่บันทึก ({savedAdvisors.length})
+                </h4>
+                {savedAdvisors.length === 0 ? (
+                  <p className="text-xs text-stone-500 italic">ยังไม่มีอาจารย์ที่บันทึกไว้</p>
+                ) : (
+                  <div className="space-y-2">
+                    {savedAdvisors.map((id) => (
+                      <div key={id} className="p-3 rounded-xl bg-stone-50 border border-stone-200 flex items-center justify-between">
+                        <span className="text-xs font-semibold text-stone-800">ID: {id}</span>
+                        <button
+                          onClick={() => toggleBookmarkAdvisor(id)}
+                          className="text-xs text-rose-700 font-bold hover:underline"
+                        >
+                          ลบออก
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <div className="px-6 py-4 border-t border-stone-200 bg-stone-50 flex justify-end">
+              <button
+                onClick={() => setShowSavedModal(false)}
+                className="px-5 py-2 rounded-xl bg-stone-800 hover:bg-stone-900 text-white text-xs font-bold"
+              >
+                ปิด
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* AI COLD EMAIL GENERATOR MODAL */}
+      {selectedAdvisorForEmail && (
+        <div className="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-white border border-stone-300 rounded-3xl w-full max-w-2xl max-h-[90vh] flex flex-col shadow-2xl overflow-hidden animate-in zoom-in-95">
+            {/* Modal Header */}
+            <div className="px-6 py-4 border-b border-stone-200 flex items-center justify-between bg-stone-50">
+              <div className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-lg bg-[#5B0F18] text-white flex items-center justify-center">
+                  <Mail className="w-4 h-4" />
+                </div>
+                <div>
+                  <h2 className="text-sm font-bold text-stone-900">AI Cold Email Assistant</h2>
+                  <p className="text-[11px] text-stone-500">
+                    ร่างอีเมลติดต่อ {selectedAdvisorForEmail.full_name_th} ({selectedAdvisorForEmail.university_th})
+                  </p>
+                </div>
+              </div>
+              <button
+                onClick={() => {
+                  setSelectedAdvisorForEmail(null);
+                  setGeneratedEmail(null);
+                }}
+                className="p-1.5 rounded-lg bg-white hover:bg-stone-100 text-stone-500 hover:text-stone-900"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Modal Form & Output */}
+            <div className="flex-1 overflow-auto p-6 space-y-4">
+              {!generatedEmail ? (
+                <div className="space-y-3.5 text-xs">
                   <div>
-                    <label className="block text-xs font-bold text-slate-700 mb-1">ภาษาของอีเมล:</label>
-                    <div className="flex gap-2">
-                      <button
-                        type="button"
-                        onClick={() => setEmailLanguage("th")}
-                        className={`flex-1 py-2 rounded-xl text-xs font-bold border ${emailLanguage === "th" ? "bg-indigo-50 text-indigo-700 border-indigo-200" : "bg-slate-50 text-slate-600 border-slate-200"}`}
+                    <label className="block text-stone-700 font-bold mb-1">ชื่อของคุณ (Student Name)</label>
+                    <input
+                      type="text"
+                      value={studentName}
+                      onChange={(e) => setStudentName(e.target.value)}
+                      placeholder="เช่น นายสมชาย ใจดี"
+                      className="w-full px-3.5 py-2.5 rounded-xl bg-stone-50 border border-stone-300 text-stone-900 placeholder-stone-400 focus:outline-none focus:ring-1 focus:ring-[#5B0F18]"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-stone-700 font-bold mb-1">ประวัติการศึกษา / ภูมิหลัง (Background)</label>
+                    <input
+                      type="text"
+                      value={studentBackground}
+                      onChange={(e) => setStudentBackground(e.target.value)}
+                      placeholder="เช่น จบ ป.ตรี วิศวะคอมพิวเตอร์ หรือ กำลังศึกษา ป.ตรี ปี 4"
+                      className="w-full px-3.5 py-2.5 rounded-xl bg-stone-50 border border-stone-300 text-stone-900 placeholder-stone-400 focus:outline-none focus:ring-1 focus:ring-[#5B0F18]"
+                    />
+                  </div>
+
+                  <div>
+                    <label className="block text-stone-700 font-bold mb-1">หัวข้อวิจัยที่สนใจ (Research Topic)</label>
+                    <textarea
+                      rows={3}
+                      value={researchTopic}
+                      onChange={(e) => setResearchTopic(e.target.value)}
+                      placeholder="เช่น สนใจงานวิจัยด้าน NLP ภาษาไทย เพื่อการคัดกรองโรคทางการแพทย์"
+                      className="w-full px-3.5 py-2.5 rounded-xl bg-stone-50 border border-stone-300 text-stone-900 placeholder-stone-400 focus:outline-none focus:ring-1 focus:ring-[#5B0F18]"
+                    />
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-3">
+                    <div>
+                      <label className="block text-stone-700 font-bold mb-1">ระดับการศึกษาที่วางแผน</label>
+                      <select
+                        value={intendedDegree}
+                        onChange={(e) => setIntendedDegree(e.target.value)}
+                        className="w-full px-3.5 py-2 rounded-xl bg-stone-50 border border-stone-300 text-stone-900 focus:outline-none focus:ring-1 focus:ring-[#5B0F18]"
                       >
-                        ภาษาไทย (TH)
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => setEmailLanguage("en")}
-                        className={`flex-1 py-2 rounded-xl text-xs font-bold border ${emailLanguage === "en" ? "bg-indigo-50 text-indigo-700 border-indigo-200" : "bg-slate-50 text-slate-600 border-slate-200"}`}
-                      >
-                        English (EN)
-                      </button>
+                        <option value="Master's Degree">ปริญญาโท (Master&apos;s)</option>
+                        <option value="Doctoral Degree (Ph.D.)">ปริญญาเอก (Ph.D.)</option>
+                        <option value="Bachelor's Thesis">โครงงาน ป.ตรี (Senior Project)</option>
+                        <option value="Research Internship">ฝึกงานวิจัย (Internship)</option>
+                      </select>
+                    </div>
+
+                    <div>
+                      <label className="block text-stone-700 font-bold mb-1">ภาษาของอีเมล</label>
+                      <div className="flex gap-2">
+                        <button
+                          type="button"
+                          onClick={() => setEmailLanguage("th")}
+                          className={`flex-1 py-2 rounded-xl font-bold border transition-all ${
+                            emailLanguage === "th"
+                              ? "bg-[#5B0F18] border-[#5B0F18] text-white"
+                              : "bg-stone-100 border-stone-200 text-stone-600"
+                          }`}
+                        >
+                          ภาษาไทย
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setEmailLanguage("en")}
+                          className={`flex-1 py-2 rounded-xl font-bold border transition-all ${
+                            emailLanguage === "en"
+                              ? "bg-[#5B0F18] border-[#5B0F18] text-white"
+                              : "bg-stone-100 border-stone-200 text-stone-600"
+                          }`}
+                        >
+                          English
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
+              ) : (
+                /* Generated Output */
+                <div className="space-y-4 text-xs">
+                  <div className="p-4 rounded-xl bg-stone-50 border border-stone-200 space-y-3">
+                    <div>
+                      <span className="text-stone-500 text-[10px] uppercase font-bold block mb-1">หัวข้ออีเมล (Subject):</span>
+                      <p className="font-bold text-stone-900 select-all">{generatedEmail.subject}</p>
+                    </div>
 
-                <button
-                  onClick={submitEmailGeneration}
-                  disabled={emailLoading}
-                  className="w-full bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-bold py-3 rounded-xl shadow-md transition flex items-center justify-center gap-2 mt-4 disabled:opacity-50"
-                >
-                  {emailLoading ? <Loader2 size={18} className="animate-spin" /> : <Sparkles size={18} />}
-                  <span>{emailLoading ? "AI กำลังร่างอีเมล..." : "สร้างอีเมลติดต่ออาจารย์ทันที"}</span>
-                </button>
-              </div>
-            ) : (
-              <div className="space-y-4">
-                <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200 space-y-3">
-                  <div>
-                    <span className="text-xs font-bold text-slate-400 uppercase">หัวข้ออีเมล (Subject):</span>
-                    <p className="font-bold text-slate-800 text-sm mt-0.5">{generatedEmail.subject}</p>
+                    <div className="pt-3 border-t border-stone-200">
+                      <span className="text-stone-500 text-[10px] uppercase font-bold block mb-1">เนื้อความ (Body):</span>
+                      <pre className="font-sans text-stone-800 whitespace-pre-wrap select-all leading-relaxed bg-white p-3 rounded-lg border border-stone-200">
+                        {generatedEmail.body}
+                      </pre>
+                    </div>
                   </div>
-                  <div className="border-t border-slate-200 pt-3">
-                    <span className="text-xs font-bold text-slate-400 uppercase">เนื้อหา (Body):</span>
-                    <pre className="whitespace-pre-wrap font-sans text-xs text-slate-700 mt-1 leading-relaxed bg-white p-3 rounded-xl border border-slate-100 max-h-60 overflow-y-auto">
-                      {generatedEmail.body}
-                    </pre>
-                  </div>
+
+                  {/* Tips */}
+                  {generatedEmail.tips && generatedEmail.tips.length > 0 && (
+                    <div className="p-3.5 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 space-y-1">
+                      <span className="font-bold block">💡 คำแนะนำในการส่งอีเมล:</span>
+                      <ul className="list-disc list-inside space-y-0.5 text-[11px]">
+                        {generatedEmail.tips.map((tip, idx) => (
+                          <li key={idx}>{tip}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
+              )}
+            </div>
 
-                {generatedEmail.tips && generatedEmail.tips.length > 0 && (
-                  <div className="bg-blue-50 p-3 rounded-xl border border-blue-100 text-xs text-blue-800">
-                    <span className="font-bold">💡 ข้อแนะนำก่อนส่ง:</span>
-                    <ul className="list-disc list-inside mt-1 space-y-0.5 text-blue-700">
-                      {generatedEmail.tips.map((tip, i) => (
-                        <li key={i}>{tip}</li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-
-                <div className="flex gap-3 pt-2">
+            {/* Modal Footer */}
+            <div className="px-6 py-4 border-t border-stone-200 bg-stone-50 flex items-center justify-between">
+              {!generatedEmail ? (
+                <>
+                  <span className="text-[11px] text-stone-500">สร้างด้วย Google Gemini API</span>
+                  <button
+                    onClick={handleGenerateColdEmail}
+                    disabled={emailLoading}
+                    className="px-5 py-2.5 rounded-xl bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold transition-all flex items-center gap-1.5 shadow-md disabled:opacity-50"
+                  >
+                    {emailLoading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Sparkles className="w-4 h-4" />}
+                    <span>{emailLoading ? "กำลังสร้างอีเมล..." : "สร้างอีเมลติดต่อ"}</span>
+                  </button>
+                </>
+              ) : (
+                <>
                   <button
                     onClick={() => setGeneratedEmail(null)}
-                    className="flex-1 border border-slate-200 hover:bg-slate-50 text-slate-700 font-bold py-2.5 rounded-xl text-xs transition"
+                    className="text-xs text-stone-500 hover:text-stone-900 underline font-medium"
                   >
-                    แก้ไขข้อมูล
+                    แก้ไขข้อมูลใหม่อีกครั้ง
                   </button>
-                  <button
-                    onClick={() => copyToClipboard(`Subject: ${generatedEmail.subject}\n\n${generatedEmail.body}`)}
-                    className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2.5 rounded-xl text-xs shadow-md transition flex items-center justify-center gap-1.5"
-                  >
-                    {copied ? <Check size={16} /> : <Copy size={16} />}
-                    <span>{copied ? "คัดลอกเรียบร้อยแล้ว!" : "คัดลอกอีเมล (Copy)"}</span>
-                  </button>
-                </div>
-              </div>
-            )}
+                  <div className="flex gap-2">
+                    <button
+                      onClick={copyToClipboard}
+                      className="px-4 py-2 rounded-xl bg-stone-800 hover:bg-stone-900 text-white text-xs font-bold flex items-center gap-1.5"
+                    >
+                      {copied ? <Check className="w-3.5 h-3.5 text-emerald-400" /> : <Copy className="w-3.5 h-3.5" />}
+                      <span>{copied ? "คัดลอกแล้ว!" : "คัดลอกข้อความ"}</span>
+                    </button>
+                    {selectedAdvisorForEmail.email && (
+                      <a
+                        href={`mailto:${selectedAdvisorForEmail.email}?subject=${encodeURIComponent(generatedEmail.subject)}&body=${encodeURIComponent(generatedEmail.body)}`}
+                        className="px-4 py-2 rounded-xl bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold flex items-center gap-1.5"
+                      >
+                        <Send className="w-3.5 h-3.5" />
+                        <span>เปิดในโปรแกรมเมล</span>
+                      </a>
+                    )}
+                  </div>
+                </>
+              )}
+            </div>
           </div>
         </div>
       )}
 
       {/* Footer */}
-      <footer className="bg-white border-t border-slate-200 py-10 px-4 text-center text-xs text-slate-500">
-        <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
-          <div className="flex items-center gap-2 font-bold text-slate-800 text-sm">
-            <GraduationCap className="text-blue-600" size={20} />
-            <span>Thai EduCenter Platform</span>
-          </div>
-          <p>© 2026 Thai EduCenter & Thai Advisor Match. Open Source Academic Project.</p>
-          <div className="flex gap-4">
-            <a href="#" className="hover:text-blue-600">นโยบายความเป็นส่วนตัว</a>
-            <a href="#" className="hover:text-blue-600">ข้อกำหนดการใช้งาน</a>
-            <a href="#" className="hover:text-blue-600">ติดต่อเรา</a>
-          </div>
-        </div>
+      <footer className="border-t border-stone-300 bg-[#EFE4D2] px-4 lg:px-8 py-8 text-center text-xs text-stone-600 space-y-2">
+        <p>© 2026 Thai EduCenter & Advisor Match. ขับเคลื่อนด้วยระบบค้นหาความหมายเชิงลึก (AI Vector Embeddings) และฐานข้อมูลมหาวิทยาลัยไทย</p>
+        <p className="text-[11px] text-stone-500">รวบรวมข้อมูลอย่างถูกต้องตามหลักวิชาการและ PDPA เพื่อสนับสนุนการศึกษาไทย</p>
       </footer>
     </div>
   );

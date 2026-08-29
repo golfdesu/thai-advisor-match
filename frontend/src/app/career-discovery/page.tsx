@@ -119,13 +119,13 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
   const webRings = [0.25, 0.5, 0.75, 1.0];
 
   return (
-    <div className="flex flex-col items-center justify-center p-6 bg-white rounded-3xl text-slate-800 shadow-sm border border-slate-200 relative overflow-hidden">
+    <div className="flex flex-col items-center justify-center p-6 bg-white rounded-3xl text-stone-800 shadow-sm border border-stone-200 relative overflow-hidden">
       <div className="w-full flex items-center justify-between mb-2">
-        <div className="flex items-center gap-2 text-xs font-bold text-slate-700">
-          <ShieldCheck size={16} className="text-indigo-600" />
+        <div className="flex items-center gap-2 text-xs font-bold text-stone-800">
+          <ShieldCheck size={16} className="text-[#5B0F18]" />
           <span>Holland RIASEC Profile</span>
         </div>
-        <span className="text-[11px] font-mono text-slate-600 bg-slate-100 px-2.5 py-0.5 rounded-full border border-slate-200">
+        <span className="text-[11px] font-mono text-stone-600 bg-stone-100 px-2.5 py-0.5 rounded-full border border-stone-200">
           Standardized Metric
         </span>
       </div>
@@ -145,7 +145,7 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
               key={i}
               points={ringPoints}
               fill="none"
-              stroke="#e2e8f0"
+              stroke="#e7e5e4"
               strokeWidth="1"
               strokeDasharray={scale === 1 ? "none" : "3,3"}
             />
@@ -157,7 +157,7 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
           const angle = index * angleStep - Math.PI / 2;
           const x = center + radius * Math.cos(angle);
           const y = center + radius * Math.sin(angle);
-          return <line key={index} x1={center} y1={center} x2={x} y2={y} stroke="#e2e8f0" strokeWidth="1" />;
+          return <line key={index} x1={center} y1={center} x2={x} y2={y} stroke="#e7e5e4" strokeWidth="1" />;
         })}
 
         {/* Value Polygon with Light Gradient Fill */}
@@ -165,16 +165,16 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
           points={points}
           fill="url(#radarGradientLight)"
           fillOpacity="0.35"
-          stroke="#4f46e5"
+          stroke="#5B0F18"
           strokeWidth="2.5"
           className="transition-all duration-700 ease-out"
         />
 
         <defs>
           <linearGradient id="radarGradientLight" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.6" />
-            <stop offset="50%" stopColor="#6366f1" stopOpacity="0.6" />
-            <stop offset="100%" stopColor="#ec4899" stopOpacity="0.6" />
+            <stop offset="0%" stopColor="#5B0F18" stopOpacity="0.6" />
+            <stop offset="50%" stopColor="#8B1E2D" stopOpacity="0.5" />
+            <stop offset="100%" stopColor="#be123c" stopOpacity="0.4" />
           </linearGradient>
         </defs>
 
@@ -210,11 +210,11 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
       </svg>
 
       {/* Trait Legend Badges */}
-      <div className="grid grid-cols-3 gap-2 w-full mt-2 pt-3 border-t border-slate-100 text-[11px]">
+      <div className="grid grid-cols-3 gap-2 w-full mt-2 pt-3 border-t border-stone-200 text-[11px]">
         {traits.map((t, idx) => (
-          <div key={idx} className="flex items-center gap-1.5 bg-slate-50 border border-slate-150 px-2.5 py-1 rounded-lg">
+          <div key={idx} className="flex items-center gap-1.5 bg-stone-50 border border-stone-200 px-2.5 py-1 rounded-lg">
             <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: t.color }}></span>
-            <span className="text-slate-700 font-medium truncate">{t.label}</span>
+            <span className="text-stone-700 font-medium truncate">{t.label}</span>
           </div>
         ))}
       </div>
@@ -383,17 +383,17 @@ export default function CareerDiscoveryPage() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-800 flex flex-col selection:bg-indigo-500 selection:text-white">
+    <div className="min-h-screen bg-[#F8F1E7] text-stone-800 flex flex-col selection:bg-[#5B0F18] selection:text-white">
       {/* Top Navbar */}
-      <header className="border-b border-slate-200 bg-white/90 backdrop-blur-md sticky top-0 z-50">
+      <header className="border-b border-stone-300 bg-[#F8F1E7]/90 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2.5 text-slate-900 hover:text-indigo-600 transition">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-blue-600 flex items-center justify-center text-white shadow-md shadow-indigo-500/20">
+          <Link href="/" className="flex items-center gap-2.5 text-stone-900 hover:text-[#5B0F18] transition">
+            <div className="w-9 h-9 rounded-xl bg-[#5B0F18] flex items-center justify-center text-white shadow-md">
               <GraduationCap size={19} />
             </div>
             <div>
-              <span className="font-black text-lg tracking-tight text-slate-900">Thai EduCenter</span>
-              <span className="hidden sm:inline-block text-[10px] font-bold uppercase tracking-wider bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-full ml-2 border border-indigo-100">
+              <span className="font-black text-lg tracking-tight text-[#5B0F18]">Thai EduCenter</span>
+              <span className="hidden sm:inline-block text-[10px] font-bold uppercase tracking-wider bg-rose-100 text-[#5B0F18] px-2 py-0.5 rounded-full ml-2 border border-rose-300">
                 Career Profiler
               </span>
             </div>
@@ -402,7 +402,7 @@ export default function CareerDiscoveryPage() {
           <div className="flex items-center gap-3">
             <Link
               href="/"
-              className="text-xs font-semibold text-slate-600 hover:text-slate-900 transition flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-xl border border-slate-200 shadow-xs"
+              className="text-xs font-semibold text-stone-700 hover:text-stone-900 transition flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-xl border border-stone-300 shadow-xs"
             >
               <HomeIcon size={14} />
               <span>กลับหน้าหลัก</span>
@@ -416,17 +416,17 @@ export default function CareerDiscoveryPage() {
         {/* VIEW 1: Tier Selection Mode */}
         {!tier && !result && (
           <div className="text-center animate-fadeIn">
-            <div className="inline-flex items-center gap-2 bg-indigo-50 border border-indigo-200 text-indigo-800 px-3.5 py-1 rounded-full text-xs font-semibold mb-6 shadow-xs">
-              <Compass size={14} className="text-indigo-600" />
+            <div className="inline-flex items-center gap-2 bg-rose-50 border border-rose-200 text-[#5B0F18] px-3.5 py-1 rounded-full text-xs font-semibold mb-6 shadow-xs">
+              <Compass size={14} className="text-[#5B0F18]" />
               <span>Holland RIASEC Psychometric Assessment</span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight mb-4">
-              ค้นหา <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-blue-600 to-sky-600">ศักยภาพ & สาขาวิชาที่ใช่</span><br />
+            <h1 className="text-3xl sm:text-5xl font-black text-stone-900 tracking-tight leading-tight mb-4">
+              ค้นหา <span className="text-[#5B0F18]">ศักยภาพ & สาขาวิชาที่ใช่</span><br />
               ด้วยระบบประเมินจิตวิทยาอาชีพ
             </h1>
 
-            <p className="text-slate-600 text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed font-normal">
+            <p className="text-stone-600 text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed font-normal">
               แบบประเมินความถนัดทางการศึกษาและวิชาชีพ ออกแบบตามกรอบจิตวิทยามาตรฐานสากล พร้อมจับคู่กับหลักสูตรระดับปริญญาตรีของมหาวิทยาลัยชั้นนำทั่วประเทศ
             </p>
 
@@ -438,24 +438,24 @@ export default function CareerDiscoveryPage() {
                   setTier("quick");
                   setCurrentStep(0);
                 }}
-                className="group bg-white hover:bg-slate-50/80 p-6 rounded-3xl border border-slate-200 hover:border-amber-400 transition-all shadow-sm hover:shadow-md flex flex-col justify-between"
+                className="group bg-white hover:bg-stone-50/90 p-6 rounded-3xl border border-stone-200 hover:border-amber-500 transition-all shadow-sm hover:shadow-md flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-11 h-11 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-amber-100">
+                  <div className="w-11 h-11 rounded-2xl bg-amber-50 text-amber-700 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-amber-200">
                     <Zap size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-amber-600">ระดับเร่งด่วน</span>
-                    <span className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full flex items-center gap-1">
+                    <span className="text-xs font-bold uppercase tracking-wider text-amber-700">ระดับเร่งด่วน</span>
+                    <span className="text-[10px] bg-stone-100 text-stone-600 px-2 py-0.5 rounded-full flex items-center gap-1 border border-stone-200">
                       <Clock size={10} /> 1-2 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">Quick Scan</h3>
-                  <p className="text-xs text-slate-500 leading-relaxed mb-4">
+                  <h3 className="text-xl font-bold text-stone-900 mb-2">Quick Scan</h3>
+                  <p className="text-xs text-stone-600 leading-relaxed mb-4">
                     12 ข้อ (RIASEC 6 มิติ) ประเมินแนวโน้มความถนัดอย่างรวดเร็ว
                   </p>
                 </div>
-                <div className="flex items-center text-xs font-bold text-amber-600 group-hover:translate-x-1 transition-transform">
+                <div className="flex items-center text-xs font-bold text-amber-700 group-hover:translate-x-1 transition-transform">
                   <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
                 </div>
               </button>
@@ -466,27 +466,27 @@ export default function CareerDiscoveryPage() {
                   setTier("standard");
                   setCurrentStep(0);
                 }}
-                className="group bg-gradient-to-b from-indigo-50/70 via-white to-white p-6 rounded-3xl border-2 border-indigo-500 hover:border-indigo-600 transition-all shadow-md hover:shadow-lg flex flex-col justify-between relative overflow-hidden scale-[1.02]"
+                className="group bg-white p-6 rounded-3xl border-2 border-[#5B0F18] hover:border-[#4a0c13] transition-all shadow-md hover:shadow-lg flex flex-col justify-between relative overflow-hidden scale-[1.02]"
               >
-                <div className="absolute top-3 right-3 bg-indigo-600 text-white font-bold text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full">
+                <div className="absolute top-3 right-3 bg-[#5B0F18] text-white font-bold text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-xs">
                   แนะนำ
                 </div>
                 <div>
-                  <div className="w-11 h-11 rounded-2xl bg-indigo-100 text-indigo-600 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-indigo-200">
+                  <div className="w-11 h-11 rounded-2xl bg-rose-50 text-[#5B0F18] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-rose-200">
                     <Target size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-indigo-700">ระดับมาตรฐาน</span>
-                    <span className="text-[10px] bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded-full flex items-center gap-1 font-medium">
+                    <span className="text-xs font-bold uppercase tracking-wider text-[#5B0F18]">ระดับมาตรฐาน</span>
+                    <span className="text-[10px] bg-rose-50 text-[#5B0F18] px-2 py-0.5 rounded-full flex items-center gap-1 font-semibold border border-rose-200">
                       <Clock size={10} /> 3-4 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">Standard Match</h3>
-                  <p className="text-xs text-slate-600 leading-relaxed mb-4">
+                  <h3 className="text-xl font-bold text-stone-900 mb-2">Standard Match</h3>
+                  <p className="text-xs text-stone-600 leading-relaxed mb-4">
                     24 ข้อ (RIASEC 18 ข้อ + Lifestyle 6 ข้อ) วิเคราะห์ความถนัดคู่กับสไตล์การใช้ชีวิตในรั้วมหาวิทยาลัย
                   </p>
                 </div>
-                <div className="flex items-center text-xs font-bold text-indigo-600 group-hover:translate-x-1 transition-transform">
+                <div className="flex items-center text-xs font-bold text-[#5B0F18] group-hover:translate-x-1 transition-transform">
                   <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
                 </div>
               </button>
@@ -497,33 +497,33 @@ export default function CareerDiscoveryPage() {
                   setTier("deep");
                   setCurrentStep(0);
                 }}
-                className="group bg-white hover:bg-slate-50/80 p-6 rounded-3xl border border-slate-200 hover:border-pink-400 transition-all shadow-sm hover:shadow-md flex flex-col justify-between"
+                className="group bg-white hover:bg-stone-50/90 p-6 rounded-3xl border border-stone-200 hover:border-rose-400 transition-all shadow-sm hover:shadow-md flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-11 h-11 rounded-2xl bg-pink-50 text-pink-600 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-pink-100">
+                  <div className="w-11 h-11 rounded-2xl bg-rose-50 text-rose-800 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-rose-200">
                     <Brain size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-pink-600">ระดับเจาะลึก</span>
-                    <span className="text-[10px] bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full flex items-center gap-1">
+                    <span className="text-xs font-bold uppercase tracking-wider text-rose-800">ระดับเจาะลึก</span>
+                    <span className="text-[10px] bg-stone-100 text-stone-600 px-2 py-0.5 rounded-full flex items-center gap-1 border border-stone-200">
                       <Clock size={10} /> 7-10 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">Deep Dive DNA</h3>
-                  <p className="text-xs text-slate-500 leading-relaxed mb-4">
+                  <h3 className="text-xl font-bold text-stone-900 mb-2">Deep Dive DNA</h3>
+                  <p className="text-xs text-stone-600 leading-relaxed mb-4">
                     50 ข้อ (RIASEC 36 ข้อ + Lifestyle 14 ข้อ) วิเคราะห์เจาะลึกครอบคลุมทุกมิติชีวิตและการศึกษา
                   </p>
                 </div>
-                <div className="flex items-center text-xs font-bold text-pink-600 group-hover:translate-x-1 transition-transform">
+                <div className="flex items-center text-xs font-bold text-rose-800 group-hover:translate-x-1 transition-transform">
                   <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
                 </div>
               </button>
             </div>
 
-            <div className="text-xs text-slate-500 flex items-center justify-center gap-4">
-              <span className="flex items-center gap-1"><ShieldCheck size={14} className="text-emerald-600" /> ผลการประเมินเพื่อการแนะแนวการศึกษา</span>
+            <div className="text-xs text-stone-600 flex items-center justify-center gap-4">
+              <span className="flex items-center gap-1"><ShieldCheck size={14} className="text-emerald-700" /> ผลการประเมินเพื่อการแนะแนวการศึกษา</span>
               <span>•</span>
-              <span className="flex items-center gap-1"><Cpu size={14} className="text-indigo-600" /> วิเคราะห์ผ่าน AI Semantic Mapping</span>
+              <span className="flex items-center gap-1"><Cpu size={14} className="text-[#5B0F18]" /> วิเคราะห์ผ่าน AI Semantic Mapping</span>
             </div>
           </div>
         )}
@@ -532,12 +532,12 @@ export default function CareerDiscoveryPage() {
         {isSubmitting && (
           <div className="text-center py-20 animate-fadeIn">
             <div className="relative w-16 h-16 mx-auto mb-6">
-              <div className="w-16 h-16 rounded-2xl bg-indigo-50 border border-indigo-200 flex items-center justify-center text-indigo-600 shadow-md animate-pulse">
+              <div className="w-16 h-16 rounded-2xl bg-rose-50 border border-rose-200 flex items-center justify-center text-[#5B0F18] shadow-md animate-pulse">
                 <Sparkles size={28} />
               </div>
             </div>
-            <h2 className="text-2xl font-black text-slate-900 mb-2">ระบบกำลังประมวลผลข้อมูลความถนัด...</h2>
-            <p className="text-sm text-slate-600 max-w-md mx-auto">
+            <h2 className="text-2xl font-black text-stone-900 mb-2">ระบบกำลังประมวลผลข้อมูลความถนัด...</h2>
+            <p className="text-sm text-stone-600 max-w-md mx-auto">
               กำลังคำนวณสัดส่วนคะแนน RIASEC และประมวลผลความสอดคล้องกับหลักสูตรมหาวิทยาลัยในฐานข้อมูล
             </p>
           </div>
@@ -548,36 +548,32 @@ export default function CareerDiscoveryPage() {
           <div className="max-w-2xl mx-auto w-full animate-fadeIn">
             {/* Progress Bar & Header */}
             <div className="mb-6">
-              <div className="flex justify-between items-center text-xs font-semibold text-slate-500 mb-2">
-                <span className="flex items-center gap-1.5 text-indigo-600 font-bold">
+              <div className="flex justify-between items-center text-xs font-semibold text-stone-600 mb-2">
+                <span className="flex items-center gap-1.5 text-[#5B0F18] font-bold">
                   <Compass size={14} />
                   <span>{currentQ.category}</span>
                 </span>
-                <span className="font-mono text-slate-500">
+                <span className="font-mono text-stone-600">
                   ข้อ {currentStep + 1} / {activeQuestions.length} ({progressPct}%)
                 </span>
               </div>
-              <div className="w-full bg-slate-200 h-2 rounded-full overflow-hidden">
+              <div className="w-full bg-stone-200 h-2 rounded-full overflow-hidden">
                 <div
-                  className="bg-gradient-to-r from-blue-600 via-indigo-600 to-sky-600 h-full rounded-full transition-all duration-300"
+                  className="bg-[#5B0F18] h-full rounded-full transition-all duration-300"
                   style={{ width: `${progressPct}%` }}
                 ></div>
               </div>
             </div>
 
             {/* Question Card */}
-            <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm backdrop-blur-md mb-6">
-              <span className="inline-block bg-slate-100 text-slate-600 text-[11px] font-mono font-bold px-3 py-1 rounded-full mb-3 border border-slate-200">
+            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 shadow-sm backdrop-blur-md mb-6">
+              <span className="inline-block bg-stone-100 text-stone-700 text-[11px] font-mono font-bold px-3 py-1 rounded-full mb-3 border border-stone-200">
                 Item {currentStep + 1}
               </span>
 
-              <h2 className="text-xl sm:text-2xl font-bold text-slate-900 leading-snug mb-2">
+              <h2 className="text-xl sm:text-2xl font-bold text-stone-900 leading-snug mb-2">
                 {currentQ.question}
               </h2>
-
-
-
-
 
               {/* INPUT TYPE 2: Likert 5-point Psychometric Scale */}
               {currentQ.type === "likert" && (
@@ -598,17 +594,17 @@ export default function CareerDiscoveryPage() {
                           onClick={() => handleSelectOption(currentQ.id, item.val, false)}
                           className={`p-3 sm:p-4 rounded-2xl border text-center transition-all flex flex-col items-center justify-between ${
                             isSelected
-                              ? "bg-indigo-600 border-indigo-600 text-white shadow-md scale-105"
-                              : "bg-slate-50 border-slate-200 text-slate-600 hover:border-slate-300 hover:bg-slate-100"
+                              ? "bg-[#5B0F18] border-[#5B0F18] text-white shadow-md scale-105"
+                              : "bg-stone-50 border-stone-200 text-stone-700 hover:border-stone-300 hover:bg-stone-100"
                           }`}
                         >
                           <span className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mb-2 border ${
-                            isSelected ? "bg-white text-indigo-900 border-white" : "bg-white text-slate-700 border-slate-200"
+                            isSelected ? "bg-white text-[#5B0F18] border-white" : "bg-white text-stone-700 border-stone-200"
                           }`}>
                             {item.num}
                           </span>
                           <span className={`text-[10px] sm:text-xs font-semibold leading-tight line-clamp-2 ${
-                            isSelected ? "text-white" : "text-slate-700"
+                            isSelected ? "text-white" : "text-stone-700"
                           }`}>
                             {item.label}
                           </span>
@@ -616,7 +612,7 @@ export default function CareerDiscoveryPage() {
                       );
                     })}
                   </div>
-                  <div className="flex justify-between text-[11px] text-slate-500 mt-4 px-1 font-medium">
+                  <div className="flex justify-between text-[11px] text-stone-600 mt-4 px-1 font-medium">
                     <span>ระดับ 1 : ไม่ชอบเลย</span>
                     <span>ระดับ 5 : ชอบมาก</span>
                   </div>
@@ -635,8 +631,8 @@ export default function CareerDiscoveryPage() {
                         onClick={() => handleSelectOption(currentQ.id, opt.value, false)}
                         className={`p-4 rounded-2xl border text-left transition-all flex items-center justify-between ${
                           isSelected
-                            ? "bg-indigo-600 border-indigo-600 text-white shadow-md scale-[1.01]"
-                            : "bg-white border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50"
+                            ? "bg-[#5B0F18] border-[#5B0F18] text-white shadow-md scale-[1.01]"
+                            : "bg-white border-stone-200 text-stone-700 hover:border-stone-300 hover:bg-stone-50"
                         }`}
                       >
                         <span className="font-semibold text-sm sm:text-base">{opt.text}</span>
@@ -657,13 +653,13 @@ export default function CareerDiscoveryPage() {
                       setAnswers(prev => ({ ...prev, [currentQ.id]: e.target.value }));
                     }}
                     placeholder="พิมพ์ความฝันของคุณที่นี่ได้เลย..."
-                    className="w-full p-4 rounded-2xl border border-slate-300 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-100 text-slate-900 transition-all resize-none font-medium"
+                    className="w-full p-4 rounded-2xl border border-stone-300 focus:border-[#5B0F18] focus:ring-4 focus:ring-rose-100 text-stone-900 transition-all resize-none font-medium bg-white"
                   />
                   <div className="mt-3 flex justify-end">
                      <button
                         type="button"
                         onClick={() => handleSelectOption(currentQ.id, answers[currentQ.id], false)}
-                        className="bg-indigo-100 text-indigo-700 hover:bg-indigo-200 font-bold px-4 py-2 rounded-xl text-sm transition"
+                        className="bg-rose-100 text-[#5B0F18] hover:bg-rose-200 font-bold px-4 py-2 rounded-xl text-sm transition border border-rose-300"
                      >
                        บันทึกคำตอบ
                      </button>
@@ -679,7 +675,7 @@ export default function CareerDiscoveryPage() {
                 type="button"
                 onClick={handlePrev}
                 disabled={currentStep === 0}
-                className="text-xs font-bold text-slate-500 hover:text-slate-900 disabled:opacity-30 transition flex items-center gap-1.5 px-4 py-2.5 rounded-xl"
+                className="text-xs font-bold text-stone-600 hover:text-stone-900 disabled:opacity-30 transition flex items-center gap-1.5 px-4 py-2.5 rounded-xl"
               >
                 <ArrowLeft size={16} /> ย้อนกลับ
               </button>
@@ -688,7 +684,7 @@ export default function CareerDiscoveryPage() {
                 <button
                   type="button"
                   onClick={resetQuiz}
-                  className="text-xs font-semibold text-slate-500 hover:text-slate-700"
+                  className="text-xs font-semibold text-stone-600 hover:text-stone-900"
                 >
                   เริ่มใหม่
                 </button>
@@ -696,7 +692,7 @@ export default function CareerDiscoveryPage() {
                 <button
                   type="button"
                   onClick={handleNext}
-                  className="bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold px-6 py-3 rounded-2xl shadow-sm hover:shadow transition flex items-center gap-2"
+                  className="bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-sm font-bold px-6 py-3 rounded-2xl shadow-sm hover:shadow transition flex items-center gap-2"
                 >
                   <span>{currentStep === activeQuestions.length - 1 ? "ดูผลการวิเคราะห์" : "ถัดไป"}</span>
                   <ArrowRight size={16} />
@@ -710,32 +706,32 @@ export default function CareerDiscoveryPage() {
         {result && (
           <div className="space-y-8 animate-fadeIn max-w-4xl mx-auto w-full">
             {/* Top Shareable Archetype Card */}
-            <div className="bg-gradient-to-tr from-indigo-50 via-white to-blue-50 border border-indigo-200 rounded-3xl p-6 sm:p-10 shadow-sm relative overflow-hidden">
+            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-10 shadow-sm relative overflow-hidden">
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4">
-                <div className="inline-flex items-center gap-2 bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-xs font-bold font-mono border border-indigo-200">
+                <div className="inline-flex items-center gap-2 bg-rose-50 text-[#5B0F18] px-3 py-1 rounded-full text-xs font-bold font-mono border border-rose-200">
                   <Award size={14} className="text-amber-600" />
                   <span>Holland Code: {result.archetype_code}</span>
                 </div>
 
                 <button
                   onClick={copyShareResult}
-                  className="bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 border border-slate-200 shadow-xs"
+                  className="bg-stone-50 hover:bg-stone-100 text-stone-700 text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 border border-stone-200 shadow-xs"
                 >
                   {copied ? <Check size={14} className="text-emerald-600" /> : <Copy size={14} />}
                   <span>{copied ? "คัดลอกข้อมูลแล้ว" : "คัดลอกผลการประเมิน"}</span>
                 </button>
               </div>
 
-              <h1 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight mb-2">
+              <h1 className="text-2xl sm:text-4xl font-black text-stone-900 tracking-tight mb-2">
                 {result.archetype_title}
               </h1>
-              <p className="text-slate-600 text-sm sm:text-base font-medium mb-6 leading-relaxed">
+              <p className="text-stone-600 text-sm sm:text-base font-medium mb-6 leading-relaxed">
                 {result.archetype_description}
               </p>
 
               {/* Share Quote Banner */}
-              <div className="bg-white border border-indigo-100 p-4 rounded-2xl text-xs sm:text-sm text-slate-700 flex items-center gap-3 shadow-xs">
-                <Compass size={18} className="text-indigo-600 flex-shrink-0" />
+              <div className="bg-stone-50 border border-stone-200 p-4 rounded-2xl text-xs sm:text-sm text-stone-800 flex items-center gap-3 shadow-xs">
+                <Compass size={18} className="text-[#5B0F18] flex-shrink-0" />
                 <span className="font-medium italic">"{result.share_quote}"</span>
               </div>
             </div>
@@ -746,22 +742,22 @@ export default function CareerDiscoveryPage() {
               <RiasecRadarChart scores={result.riasec_scores} />
 
               {/* Personality Summary & Strengths */}
-              <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-sm">
+              <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-sm">
                 <div>
-                  <h3 className="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
-                    <Brain size={18} className="text-indigo-600" />
+                  <h3 className="text-base font-bold text-stone-900 mb-3 flex items-center gap-2">
+                    <Brain size={18} className="text-[#5B0F18]" />
                     <span>บทวิเคราะห์คุณลักษณะและศักยภาพ</span>
                   </h3>
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6 font-normal">
+                  <p className="text-xs sm:text-sm text-stone-600 leading-relaxed mb-6 font-normal">
                     {result.personality_summary}
                   </p>
 
-                  <div className="text-xs font-bold text-slate-700 mb-2">ทักษะและจุดเด่นหลัก:</div>
+                  <div className="text-xs font-bold text-stone-800 mb-2">ทักษะและจุดเด่นหลัก:</div>
                   <div className="flex flex-wrap gap-2 mb-6">
                     {result.strengths.map((str, idx) => (
                       <span
                         key={idx}
-                        className="bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs px-3 py-1 rounded-xl font-medium"
+                        className="bg-rose-50 border border-rose-200 text-[#5B0F18] text-xs px-3 py-1 rounded-xl font-semibold"
                       >
                         ✓ {str}
                       </span>
@@ -769,8 +765,8 @@ export default function CareerDiscoveryPage() {
                   </div>
                 </div>
 
-                <div className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200 text-xs text-slate-700">
-                  <span className="font-bold text-indigo-700 block mb-0.5">สภาพแวดล้อมการทำงานที่เหมาะสม:</span>
+                <div className="bg-stone-50 p-3.5 rounded-2xl border border-stone-200 text-xs text-stone-700">
+                  <span className="font-bold text-[#5B0F18] block mb-0.5">สภาพแวดล้อมการทำงานที่เหมาะสม:</span>
                   <span>{result.ideal_work_environment}</span>
                 </div>
               </div>
@@ -778,16 +774,16 @@ export default function CareerDiscoveryPage() {
 
             {/* NEW: Lifestyle & Campus Life Alignment Card */}
             {(result.campus_vibe_match || result.learning_style_match) && (
-              <div className="bg-gradient-to-br from-emerald-50/70 via-teal-50/40 to-sky-50/60 border border-emerald-200/80 rounded-3xl p-6 sm:p-8 shadow-sm">
+              <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 shadow-sm">
                 <div className="flex items-center gap-2 mb-4">
-                  <div className="w-8 h-8 rounded-xl bg-emerald-600 text-white flex items-center justify-center shadow-xs">
+                  <div className="w-8 h-8 rounded-xl bg-emerald-700 text-white flex items-center justify-center shadow-xs">
                     <Compass size={18} />
                   </div>
                   <div>
-                    <h3 className="text-base sm:text-lg font-bold text-slate-900">
+                    <h3 className="text-base sm:text-lg font-bold text-stone-900">
                       สไตล์ชีวิตมหาวิทยาลัยที่ใช่คุณ (Campus & Lifestyle Match)
                     </h3>
-                    <p className="text-xs text-slate-500">
+                    <p className="text-xs text-stone-600">
                       วิเคราะห์จากความต้องการด้านทำเล บรรยากาศแคมปัส และสไตล์การเรียนรู้ที่คุณเลือก
                     </p>
                   </div>
@@ -795,24 +791,24 @@ export default function CareerDiscoveryPage() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                   {result.campus_vibe_match && (
-                    <div className="bg-white/80 backdrop-blur-sm p-4 rounded-2xl border border-emerald-100 shadow-2xs">
+                    <div className="bg-stone-50 p-4 rounded-2xl border border-stone-200 shadow-2xs">
                       <div className="flex items-center gap-2 text-emerald-800 font-bold text-xs mb-1.5">
-                        <MapPin size={15} className="text-emerald-600" />
+                        <MapPin size={15} className="text-emerald-700" />
                         <span>บรรยากาศ & ภูมิภาคมหาวิทยาลัยในฝัน</span>
                       </div>
-                      <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-stone-700 leading-relaxed">
                         {result.campus_vibe_match}
                       </p>
                     </div>
                   )}
 
                   {result.learning_style_match && (
-                    <div className="bg-white/80 backdrop-blur-sm p-4 rounded-2xl border border-teal-100 shadow-2xs">
+                    <div className="bg-stone-50 p-4 rounded-2xl border border-stone-200 shadow-2xs">
                       <div className="flex items-center gap-2 text-teal-800 font-bold text-xs mb-1.5">
-                        <Coffee size={15} className="text-teal-600" />
+                        <Coffee size={15} className="text-teal-700" />
                         <span>รูปแบบการเรียนรู้ที่ทำให้คุณเปล่งประกาย</span>
                       </div>
-                      <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                      <p className="text-xs sm:text-sm text-stone-700 leading-relaxed">
                         {result.learning_style_match}
                       </p>
                     </div>
@@ -820,12 +816,12 @@ export default function CareerDiscoveryPage() {
                 </div>
 
                 {result.lifestyle_highlights && result.lifestyle_highlights.length > 0 && (
-                  <div className="mt-4 pt-3 border-t border-emerald-200/50 flex flex-wrap items-center gap-2">
-                    <span className="text-[11px] font-bold text-emerald-900">ค่านิยมไลฟ์สไตล์:</span>
+                  <div className="mt-4 pt-3 border-t border-stone-200 flex flex-wrap items-center gap-2">
+                    <span className="text-[11px] font-bold text-emerald-950">ค่านิยมไลฟ์สไตล์:</span>
                     {result.lifestyle_highlights.map((hl, hIdx) => (
                       <span
                         key={hIdx}
-                        className="bg-white text-emerald-800 text-[11px] font-medium px-2.5 py-0.5 rounded-lg border border-emerald-200"
+                        className="bg-emerald-50 text-emerald-900 text-[11px] font-semibold px-2.5 py-0.5 rounded-lg border border-emerald-200"
                       >
                         ✨ {hl}
                       </span>
@@ -836,12 +832,12 @@ export default function CareerDiscoveryPage() {
             )}
 
             {/* Top Recommended Careers */}
-            <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm">
-              <h3 className="text-lg font-bold text-slate-900 mb-1 flex items-center gap-2">
-                <Briefcase size={20} className="text-blue-600" />
+            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 shadow-sm">
+              <h3 className="text-lg font-bold text-stone-900 mb-1 flex items-center gap-2">
+                <Briefcase size={20} className="text-[#5B0F18]" />
                 <span>สาขาวิชาชีพที่สอดคล้อง (Career Alignment)</span>
               </h3>
-              <p className="text-xs text-slate-500 mb-6">
+              <p className="text-xs text-stone-600 mb-6">
                 ประมวลผลจากความสอดคล้องระหว่างคะแนนทักษะและแนวโน้มความต้องการในตลาดงาน
               </p>
 
@@ -849,24 +845,24 @@ export default function CareerDiscoveryPage() {
                 {result.top_careers.map((career, idx) => (
                   <div
                     key={idx}
-                    className="bg-slate-50 border border-slate-200 p-5 rounded-2xl flex flex-col justify-between hover:border-blue-300 transition-colors"
+                    className="bg-stone-50 border border-stone-200 p-5 rounded-2xl flex flex-col justify-between hover:border-stone-300 transition-colors"
                   >
                     <div>
                       <div className="flex justify-between items-center mb-2">
-                        <span className="text-[10px] font-bold bg-blue-100 text-blue-800 px-2 py-0.5 rounded-md">
+                        <span className="text-[10px] font-bold bg-rose-100 text-[#5B0F18] px-2 py-0.5 rounded-md border border-rose-200">
                           {career.growth_outlook}
                         </span>
                         <span className="text-xs font-mono font-bold text-emerald-700">{career.match_percentage}% Match</span>
                       </div>
-                      <h4 className="font-bold text-slate-900 text-sm mb-2">{career.title}</h4>
-                      <p className="text-xs text-slate-600 line-clamp-3 leading-relaxed mb-4">
+                      <h4 className="font-bold text-stone-900 text-sm mb-2">{career.title}</h4>
+                      <p className="text-xs text-stone-600 line-clamp-3 leading-relaxed mb-4">
                         {career.description}
                       </p>
                     </div>
 
-                    <div className="flex flex-wrap gap-1 pt-3 border-t border-slate-200">
+                    <div className="flex flex-wrap gap-1 pt-3 border-t border-stone-200">
                       {career.skills.map((skill, sIdx) => (
-                        <span key={sIdx} className="text-[10px] bg-white text-slate-600 px-2 py-0.5 rounded-md border border-slate-200 font-medium">
+                        <span key={sIdx} className="text-[10px] bg-white text-stone-700 px-2 py-0.5 rounded-md border border-stone-200 font-medium">
                           {skill}
                         </span>
                       ))}
@@ -877,20 +873,20 @@ export default function CareerDiscoveryPage() {
             </div>
 
             {/* Recommended Undergraduate Programs (Direct Database Match) */}
-            <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm">
+            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 shadow-sm">
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-6">
                 <div>
-                  <h3 className="text-lg font-bold text-slate-900 flex items-center gap-2">
-                    <BookOpen size={20} className="text-indigo-600" />
+                  <h3 className="text-lg font-bold text-stone-900 flex items-center gap-2">
+                    <BookOpen size={20} className="text-[#5B0F18]" />
                     <span>หลักสูตรระดับปริญญาตรีที่แนะนำ</span>
                   </h3>
-                  <p className="text-xs text-slate-500">
+                  <p className="text-xs text-stone-600">
                     ดึงข้อมูลตรงจากหลักสูตรมหาวิทยาลัยในระบบที่สอดคล้องกับเส้นทางอาชีพข้างต้น
                   </p>
                 </div>
                 <Link
                   href="/"
-                  className="text-xs font-bold text-indigo-600 hover:text-indigo-700 flex items-center gap-1"
+                  className="text-xs font-bold text-[#5B0F18] hover:underline flex items-center gap-1"
                 >
                   <span>สำรวจหลักสูตรทั้งหมด</span> <ChevronRight size={14} />
                 </Link>
@@ -901,11 +897,11 @@ export default function CareerDiscoveryPage() {
                   {result.recommended_courses.map((course) => (
                     <div
                       key={course.id}
-                      className="bg-white border border-slate-200 hover:border-indigo-300 p-5 rounded-2xl flex flex-col justify-between transition-all group shadow-xs hover:shadow-sm"
+                      className="bg-white border border-stone-200 hover:border-[#5B0F18] p-5 rounded-2xl flex flex-col justify-between transition-all group shadow-xs hover:shadow-sm"
                     >
                       <div>
                         <div className="flex justify-between items-start gap-2 mb-2">
-                          <span className="text-[10px] font-bold bg-indigo-50 text-indigo-700 px-2.5 py-0.5 rounded-full border border-indigo-100">
+                          <span className="text-[10px] font-bold bg-rose-50 text-[#5B0F18] px-2.5 py-0.5 rounded-full border border-rose-200">
                             {course.degree_level || "ปริญญาตรี"}
                           </span>
                           {course.match_score && (
@@ -915,23 +911,23 @@ export default function CareerDiscoveryPage() {
                           )}
                         </div>
 
-                        <h4 className="font-bold text-slate-900 text-sm sm:text-base group-hover:text-indigo-600 transition-colors leading-snug mb-1">
+                        <h4 className="font-bold text-stone-900 text-sm sm:text-base group-hover:text-[#5B0F18] transition-colors leading-snug mb-1">
                           {course.title_th}
                         </h4>
                         {course.title_en && (
-                          <p className="text-[11px] text-slate-400 mb-2 truncate">{course.title_en}</p>
+                          <p className="text-[11px] text-stone-500 mb-2 truncate">{course.title_en}</p>
                         )}
 
-                        <div className="text-xs text-slate-600 flex items-center gap-1.5 mb-3 font-medium">
-                          <Building2 size={14} className="text-slate-400 flex-shrink-0" />
+                        <div className="text-xs text-stone-700 flex items-center gap-1.5 mb-3 font-medium">
+                          <Building2 size={14} className="text-stone-400 flex-shrink-0" />
                           <span>{course.university_th}</span>
-                          <span className="text-slate-300">•</span>
-                          <span className="text-slate-500 font-normal">{course.faculty_th}</span>
+                          <span className="text-stone-400">•</span>
+                          <span className="text-stone-600 font-normal">{course.faculty_th}</span>
                         </div>
                       </div>
 
-                      <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
-                        <span className="text-[11px] text-slate-500">
+                      <div className="pt-3 border-t border-stone-100 flex items-center justify-between">
+                        <span className="text-[11px] text-stone-600">
                           {course.tuition_per_semester || "ตามประกาศมหาวิทยาลัย"}
                         </span>
                         {course.website_url ? (
@@ -939,14 +935,14 @@ export default function CareerDiscoveryPage() {
                             href={course.website_url}
                             target="_blank"
                             rel="noreferrer"
-                            className="text-xs font-bold text-white bg-slate-900 hover:bg-indigo-600 px-3 py-1.5 rounded-xl transition flex items-center gap-1"
+                            className="text-xs font-bold text-white bg-[#5B0F18] hover:bg-[#4a0c13] px-3 py-1.5 rounded-xl transition flex items-center gap-1 shadow-xs"
                           >
                             <span>ดูหลักสูตร</span> <ExternalLink size={12} />
                           </a>
                         ) : (
                           <Link
                             href="/"
-                            className="text-xs font-bold text-white bg-slate-900 hover:bg-indigo-600 px-3 py-1.5 rounded-xl transition flex items-center gap-1"
+                            className="text-xs font-bold text-white bg-[#5B0F18] hover:bg-[#4a0c13] px-3 py-1.5 rounded-xl transition flex items-center gap-1 shadow-xs"
                           >
                             <span>ดูในระบบ</span> <ChevronRight size={12} />
                           </Link>
@@ -956,19 +952,19 @@ export default function CareerDiscoveryPage() {
                   ))}
                 </div>
               ) : (
-                <div className="text-center py-6 text-xs text-slate-500 bg-slate-50 rounded-2xl border border-slate-200">
+                <div className="text-center py-6 text-xs text-stone-600 bg-stone-50 rounded-2xl border border-stone-200">
                   กำลังอัปเดตข้อมูลหลักสูตรที่สอดคล้อง
                 </div>
               )}
             </div>
 
             {/* Growth & Preparation Advice Card */}
-            <div className="bg-gradient-to-r from-indigo-50/60 via-white to-blue-50/60 border border-indigo-100 rounded-3xl p-6 sm:p-8 shadow-xs">
-              <h3 className="text-base font-bold text-indigo-900 mb-2 flex items-center gap-2">
-                <TrendingUp size={18} className="text-indigo-600" />
+            <div className="bg-[#EFE4D2] border border-stone-300 rounded-3xl p-6 sm:p-8 shadow-xs">
+              <h3 className="text-base font-bold text-[#5B0F18] mb-2 flex items-center gap-2">
+                <TrendingUp size={18} className="text-[#5B0F18]" />
                 <span>คำแนะนำเพื่อการเตรียมความพร้อมทางวิชาการ</span>
               </h3>
-              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed font-normal">
+              <p className="text-xs sm:text-sm text-stone-800 leading-relaxed font-medium">
                 {result.growth_advice}
               </p>
             </div>
@@ -977,7 +973,7 @@ export default function CareerDiscoveryPage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
               <button
                 onClick={resetQuiz}
-                className="bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold px-6 py-3.5 rounded-2xl border border-slate-200 shadow-xs transition flex items-center gap-2 w-full sm:w-auto justify-center"
+                className="bg-white hover:bg-stone-50 text-stone-800 text-xs font-bold px-6 py-3.5 rounded-2xl border border-stone-300 shadow-xs transition flex items-center gap-2 w-full sm:w-auto justify-center"
               >
                 <RefreshCw size={15} />
                 <span>ทำแบบประเมินใหม่อีกครั้ง</span>
@@ -985,7 +981,7 @@ export default function CareerDiscoveryPage() {
 
               <Link
                 href="/"
-                className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-bold px-8 py-3.5 rounded-2xl shadow-sm hover:shadow transition flex items-center gap-2 w-full sm:w-auto justify-center"
+                className="bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold px-8 py-3.5 rounded-2xl shadow-sm hover:shadow transition flex items-center gap-2 w-full sm:w-auto justify-center"
               >
                 <BookOpen size={15} />
                 <span>สำรวจหลักสูตรมหาวิทยาลัยทั้งหมด</span>

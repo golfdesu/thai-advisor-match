@@ -294,15 +294,13 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
     recommended_courses = []
 
     try:
+        from app.api.routes_courses import build_degree_level_filter
+        degree_filter = build_degree_level_filter("ปริญญาตรี")
         base_query = db.query(CourseDB).options(
             defer(CourseDB.embedding), defer(CourseDB.embedding_text)
-        ).filter(
-            or_(
-                CourseDB.degree_level.ilike("%ปริญญาตรี%"),
-                CourseDB.degree_level.ilike("%Bachelor%"),
-                CourseDB.degree_level.ilike("%ตรี%")
-            )
         )
+        if degree_filter is not None:
+            base_query = base_query.filter(degree_filter)
 
         matched_db = []
         

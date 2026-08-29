@@ -14,9 +14,9 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
     """Fallback ranking algorithm based on lexical keyword matching when AI embedding is unavailable."""
     expanded_query = embedding_service.expand_query(query_str).lower()
     raw_tokens = [t.strip() for t in expanded_query.split() if len(t.strip()) >= 2]
-    
+
     # 1. SQL-level candidate pre-filtering to prevent loading entire database into RAM
-    candidate_query = query_db.options(defer(FacultyDB.embedding))
+    candidate_query = query_db.options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text))
     if raw_tokens:
         filters = []
         for token in raw_tokens[:5]:
@@ -24,20 +24,19 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
             filters.append(FacultyDB.full_name_th.ilike(pattern))
             filters.append(FacultyDB.department_th.ilike(pattern))
             filters.append(FacultyDB.faculty_th.ilike(pattern))
-            filters.append(FacultyDB.embedding_text.ilike(pattern))
-        
+
         faculties = candidate_query.filter(or_(*filters)).limit(max(top_k * 4, 30)).all()
         if not faculties:
             faculties = candidate_query.limit(max(top_k * 2, 20)).all()
     else:
         faculties = candidate_query.limit(top_k).all()
     scored_list = []
-    
+
     for db_fac in faculties:
         corpus_list = (db_fac.research_interests or []) + (db_fac.taught_courses or [])
         corpus_text = " ".join(corpus_list).lower()
-        full_text = f"{corpus_text} {(db_fac.department_th or '').lower()} {(db_fac.full_name_th or '').lower()} {(db_fac.embedding_text or '').lower()}"
-        
+        full_text = f"{corpus_text} {(db_fac.department_th or '').lower()} {(db_fac.full_name_th or '').lower()}"
+
         hit_count = 0
         matched_kws = []
         for token in raw_tokens:
@@ -45,7 +44,7 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
                 hit_count += 1
                 if token not in matched_kws:
                     matched_kws.append(token)
-                    
+
         # Calculate dynamic score between 50% and 92% based on matches
         if hit_count > 0:
             score = min(92.0, 65.0 + (hit_count * 7.0))
@@ -79,7 +78,7 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
         raise HTTPException(status_code=400, detail="Search query must contain at least 2 characters")
 
     # 1. Base query with optional filters
-    query_db = db.query(FacultyDB).options(defer(FacultyDB.embedding))
+    query_db = db.query(FacultyDB).options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text))
     if request.university and request.university.strip() and request.university.strip().lower() != "all":
         query_db = query_db.filter(
             FacultyDB.university.ilike(f"%{request.university.strip()}%") |
@@ -106,7 +105,7 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
             distance_col = FacultyDB.embedding.cosine_distance(query_vector).label("distance")
             vector_query = (
                 db.query(FacultyDB, distance_col)
-                .options(defer(FacultyDB.embedding))
+                .options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text))
                 .filter(FacultyDB.embedding.isnot(None))
             )
             if request.university and request.university.strip() and request.university.strip().lower() != "all":
