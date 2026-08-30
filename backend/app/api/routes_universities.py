@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session, defer
-from sqlalchemy import or_
+from sqlalchemy import or_, func
 from typing import List, Optional, Dict
 from pydantic import BaseModel
 from app.models.db_models import CourseDB, FacultyDB
-from app.models.schema import CourseSchema
+from app.models.schema import CourseSchema, FacultyMember
 from app.api.routes_courses import db_course_to_pydantic
+from app.api.routes_faculty import db_to_pydantic
 from app.core.database import get_db
 
 router = APIRouter(prefix="/universities", tags=["University Highlights & Signature Programs"])
@@ -28,6 +29,7 @@ class UniversityHighlightResponse(BaseModel):
     total_courses: int
     total_advisors: int
     signature_programs: List[CourseSchema]
+    distinguished_advisors: List[FacultyMember] = []
 
 # Comprehensive Registry of Signature University Profiles & Flagship Academic Strengths
 UNIVERSITIES_REGISTRY: List[UniversitySignatureMetadata] = [
@@ -386,11 +388,11 @@ FLAGSHIP_PROGRAM_IDS: Dict[str, List[List[str]]] = {
         ["ku-econ-mbe-special", "ku_econ_becon"],
     ],
     "cmu": [
-        ["cmu_sci_ds_bsc", "cmu_tqf_25610041100189"],
-        ["cmu-master-medicine", "cmu_dent_dds", "cmu_vet_dvm"],
+        ["cmu_sci_ds_bsc", "cmu_sci_compsci_bsc", "cmu_tqf_25610041100189"],
+        ["cmu_med_md", "cmu_dent_dds", "cmu_vet_dvm", "cmu-master-medicine"],
         ["cmu_eng_cpe_beng2", "cmu_06_2_014", "cmu-master-engineering"],
-        ["cmu-master-mass-comm", "cmu_masscomm_ba"],
-        ["cmu_tqf_25380041100333", "cmu_arch_barch"],
+        ["cmu_nurse_bns", "cmu_tqf_25410041100077", "cmu-master-mass-comm"],
+        ["cmu_tqf_25380041100333", "cmu_law_llb", "cmu_econ_ba"],
     ],
     "kmitl": [
         ["kmitl_eng_ce_beng", "kmitl_eng_robotics_ai_beng", "kmitl_eng_aiot_meng"],
@@ -423,7 +425,7 @@ FLAGSHIP_PROGRAM_IDS: Dict[str, List[List[str]]] = {
     "mfu": [
         ["mfu_phd_creative_innovation_in_cosmetic_science", "mfu_bachelor_beauty_technology"],
         ["mfu_bachelor_traditional_chinese_medicine", "mfu_med_chinese"],
-        ["mfu_bachelor_business_chinese", "mfu_sinology_ba"],
+        ["mfu_bachelor_chinese_language_and_culture", "mfu_bachelor_business_chinese", "mfu_sinology_ba"],
         ["mfu_bachelor_medicine", "mfu_bachelor_nursing"],
         ["mfu_bachelor_laws", "mfu_laws_llb"],
     ],
@@ -547,12 +549,52 @@ def _fetch_diverse_signature_courses(uni: UniversitySignatureMetadata, db: Sessi
 
     return signature_courses
 
+def _fetch_distinguished_advisors(uni: UniversitySignatureMetadata, advisors_pool: List[FacultyDB]) -> List[FacultyDB]:
+    """
+    Selects up to 5 distinguished advisors per university with high academic diversity across faculties/departments.
+    """
+    seen_departments = set()
+    distinguished: List[FacultyDB] = []
+
+    for a in advisors_pool:
+        dep = (a.department_th or a.faculty_th or "").strip()
+        if dep not in seen_departments and (a.research_interests or a.featured_publications):
+            seen_departments.add(dep)
+            distinguished.append(a)
+            if len(distinguished) >= 5:
+                break
+
+    if len(distinguished) < 5:
+        for a in advisors_pool:
+            if a not in distinguished:
+                distinguished.append(a)
+                if len(distinguished) >= 5:
+                    break
+
+    return distinguished
+
 @router.get("/signature-programs", response_model=List[UniversityHighlightResponse])
 def get_all_university_signature_programs(db: Session = Depends(get_db)):
     """
-    Returns curated signature / flagship courses and academic strengths for top universities in Thailand.
+    Returns curated signature / flagship courses, distinguished advisors, and academic strengths for top universities in Thailand.
     Guarantees cross-faculty diversity matching each institutional strength.
     """
+    # Bulk fetch all faculties once for high-performance memory grouping (O(1) lookups)
+    all_faculties = db.query(FacultyDB).options(
+        defer(FacultyDB.embedding),
+        defer(FacultyDB.embedding_text)
+    ).all()
+
+    by_uni_faculties: Dict[str, List[FacultyDB]] = {}
+    for a in all_faculties:
+        u_th = (a.university_th or "").strip()
+        u_en = (a.university or "").strip()
+        for u in UNIVERSITIES_REGISTRY:
+            if u.name_th in u_th or u.name_en in u_en:
+                if u.slug not in by_uni_faculties:
+                    by_uni_faculties[u.slug] = []
+                by_uni_faculties[u.slug].append(a)
+
     results: List[UniversityHighlightResponse] = []
 
     for uni in UNIVERSITIES_REGISTRY:
@@ -563,21 +605,19 @@ def get_all_university_signature_programs(db: Session = Depends(get_db)):
             )
         ).count()
 
-        total_advisors = db.query(FacultyDB).filter(
-            or_(
-                FacultyDB.university_th.ilike(f"%{uni.name_th}%"),
-                FacultyDB.university.ilike(f"%{uni.name_en}%")
-            )
-        ).count()
+        uni_faculties = by_uni_faculties.get(uni.slug, [])
+        total_advisors = len(uni_faculties)
 
         signature_courses = _fetch_diverse_signature_courses(uni, db)
+        distinguished_advs = _fetch_distinguished_advisors(uni, uni_faculties)
 
         results.append(
             UniversityHighlightResponse(
                 metadata=uni,
                 total_courses=total_courses,
                 total_advisors=total_advisors,
-                signature_programs=[db_course_to_pydantic(c) for c in signature_courses]
+                signature_programs=[db_course_to_pydantic(c) for c in signature_courses],
+                distinguished_advisors=[db_to_pydantic(a) for a in distinguished_advs]
             )
         )
 
@@ -586,7 +626,7 @@ def get_all_university_signature_programs(db: Session = Depends(get_db)):
 @router.get("/signature-programs/{slug}", response_model=UniversityHighlightResponse)
 def get_university_signature_programs_by_slug(slug: str, db: Session = Depends(get_db)):
     """
-    Returns signature programs and metadata for a single specific university.
+    Returns signature programs, distinguished advisors, and metadata for a single specific university.
     """
     uni = next((u for u in UNIVERSITIES_REGISTRY if u.slug.lower() == slug.lower()), None)
     if not uni:
@@ -599,18 +639,25 @@ def get_university_signature_programs_by_slug(slug: str, db: Session = Depends(g
         )
     ).count()
 
-    total_advisors = db.query(FacultyDB).filter(
+    uni_faculties = db.query(FacultyDB).options(
+        defer(FacultyDB.embedding),
+        defer(FacultyDB.embedding_text)
+    ).filter(
         or_(
             FacultyDB.university_th.ilike(f"%{uni.name_th}%"),
             FacultyDB.university.ilike(f"%{uni.name_en}%")
         )
-    ).count()
+    ).all()
+
+    total_advisors = len(uni_faculties)
 
     signature_courses = _fetch_diverse_signature_courses(uni, db)
+    distinguished_advs = _fetch_distinguished_advisors(uni, uni_faculties)
 
     return UniversityHighlightResponse(
         metadata=uni,
         total_courses=total_courses,
         total_advisors=total_advisors,
-        signature_programs=[db_course_to_pydantic(c) for c in signature_courses]
+        signature_programs=[db_course_to_pydantic(c) for c in signature_courses],
+        distinguished_advisors=[db_to_pydantic(a) for a in distinguished_advs]
     )

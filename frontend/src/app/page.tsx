@@ -63,6 +63,8 @@ export default function Home() {
 
   // Search input ref for keyboard shortcut focus
   const searchInputRef = useRef<HTMLInputElement>(null);
+  // Results section ref for auto-scrolling
+  const resultsSectionRef = useRef<HTMLElement>(null);
 
   // Keyboard shortcut listener (Press '/' to focus search, 'Escape' to blur)
   useEffect(() => {
@@ -159,16 +161,29 @@ export default function Home() {
     });
   };
 
+  const scrollToResults = () => {
+    setTimeout(() => {
+      if (resultsSectionRef.current) {
+        resultsSectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 100);
+  };
+
   const executeSearch = async (
     queryText?: string,
     uniFilter?: string,
     degFilter?: string,
-    tabOverride?: "courses" | "advisors"
+    tabOverride?: "courses" | "advisors",
+    shouldScroll: boolean = true
   ) => {
     const queryToUse = queryText !== undefined ? queryText : searchQuery;
     const uniToUse = uniFilter !== undefined ? uniFilter : selectedUni;
     const degToUse = degFilter !== undefined ? degFilter : selectedDegree;
     const currentTab = tabOverride !== undefined ? tabOverride : activeTab;
+
+    if (shouldScroll) {
+      scrollToResults();
+    }
 
     const cacheKey = `${currentTab}:${queryToUse.trim()}:${uniToUse}:${degToUse}`;
     const cachedData = searchApiCache.get(cacheKey);
@@ -401,10 +416,10 @@ export default function Home() {
 
       {/* 🌟 Signature Spotlight / University Highlights Promotional Showcase */}
       <FeaturedProgramsShowcase
+        activeTab={activeTab}
         onSelectUniversity={(uniName) => {
           setSelectedUni(uniName);
-          setActiveTab("courses");
-          executeSearch("", uniName, selectedDegree, "courses");
+          executeSearch(searchQuery, uniName, selectedDegree, activeTab);
         }}
         onSelectCourseSearch={(courseTitle) => {
           setSearchQuery(courseTitle);
@@ -413,11 +428,18 @@ export default function Home() {
         }}
         onSelectCourseDetail={(course) => setSelectedCourseForDetail(course)}
         savedCourses={savedCourses}
+        savedAdvisors={savedAdvisors}
         onToggleBookmarkCourse={toggleBookmarkCourse}
+        onToggleBookmarkAdvisor={toggleBookmarkAdvisor}
+        onOpenColdEmail={(advisor) => setSelectedAdvisorForEmail(advisor)}
       />
 
       {/* Main Catalog View */}
-      <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 space-y-6">
+      <main
+        ref={resultsSectionRef}
+        id="search-results"
+        className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 space-y-6 scroll-mt-20"
+      >
         {/* Filter Controls */}
         <FilterBar
           activeTab={activeTab}

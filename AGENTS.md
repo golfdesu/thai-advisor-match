@@ -280,6 +280,10 @@ To deliver enterprise-grade academic matching without hallucination or slow resp
 > [!NOTE]
 > This methodology has been moved to a dedicated Agent Skill. When performing data acquisition or scraping tasks, use the `data-acquire-academic` skill located in `.agents/skills/data-acquire-academic/SKILL.md`.
 
+### 10. Multi-Tier Curriculum & Tuition Discovery Methodology (TCAS & TQF-2 Cross-University Standardization)
+> [!NOTE]
+> This methodology has been extracted into a dedicated Agent Skill. When discovering, scraping, auditing, or enriching university curricula and tuition fees, use the `data-curriculum-tuition-discovery` skill located in `.agents/skills/data-curriculum-tuition-discovery/SKILL.md`.
+
 ---
 
 ## 7. Data Structures & Algorithms (DSA) Standards

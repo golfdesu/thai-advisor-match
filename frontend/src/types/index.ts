@@ -118,5 +118,6 @@ export interface UniversityHighlight {
   total_courses: number;
   total_advisors: number;
   signature_programs: Course[];
+  distinguished_advisors?: FacultyMember[];
 }
 

@@ -106,7 +106,17 @@ Imported via `seed_wave2a.py` + `seed_wave2b.py`, publications via `pubs_wave2.j
 *   **Known gap:** 46 newly established curricula (mostly B.E. 2568+) have no published มคอ.2 detail in the system yet; they are stored with basic fields from the list phase and can be re-fetched later by re-running `--phase details`.
 *   **Tuition fees:** not published in the TQF2 system — left null pending per-faculty enrichment.
 
-### 2.2 Khon Kaen University — Full Expansion (196 curricula, Aug 2026)
+### 2.2 Mae Fah Luang University (MFU) — Full Programme Ingestion (Aug 2026)
+*   **Primary Source:** MFU Official Programme Portal — `https://programme.mfu.ac.th` (ครอบคลุมระดับปริญญาตรี, ปริญญาโท, ปริญญาเอก และหลักสูตรปรับปรุง พ.ศ. 2568)
+*   **Coverage:** ทุกสำนักวิชา (เช่น จีนวิทยา, วิทยาศาสตร์เครื่องสำอาง, การแพทย์บูรณาการ, แพทยศาสตร์, ทันตแพทยศาสตร์, วิศวกรรมศาสตร์, เทคโนโลยีสารสนเทศ ฯลฯ) รวม **54 หลักสูตรสมบูรณ์**
+*   **Data Fields Acquired:**
+    *   **หน่วยกิตและโครงสร้างหลักสูตร (Credits & Curriculum Structure):** ดึงจากแท็บ *โครงสร้างหลักสูตร* (เช่น ศศ.บ. ภาษาและวัฒนธรรมจีน 123 หน่วยกิต, วท.บ. เครื่องสำอาง 121 หน่วยกิต, พ.บ. 245 หน่วยกิต, ท.บ. 230 หน่วยกิต)
+    *   **ค่าธรรมเนียมการศึกษา (Tuition Fees):** ดึงจากแท็บ *ค่าธรรมเนียม* (ระบุค่าเทอมต่อภาคการศึกษา และค่าใช้จ่ายรวมตลอดหลักสูตร)
+    *   **ปรัชญา & วัตถุประสงค์ (Description & Objectives):** ดึงจากแท็บ *หลักสูตร*
+    *   **โอกาสและแนวทางประกอบอาชีพ (Career Opportunities):** ดึงจากแท็บ *แนวทางประกอบอาชีพ*
+*   **Automated Ingestion Script:** `backend/scripts/crawlers/` หรือรันสคริปต์ parser ผ่าน BeautifulSoup โดยตรงพร้อม re-index 768-dim Gemini Embedding ทันที
+
+### 2.3 Khon Kaen University — Full Expansion (196 curricula, Aug 2026)
 *   **Primary Sources:** `eng.kku.ac.th` (FACTS 280 programs) + `th.wikipedia.org/wiki/มหาวิทยาลัยขอนแก่น` (330 curricula) + faculty portals (`ag.kku.ac.th`, `tech.kku.ac.th`, `hs.kku.ac.th`, `arch.kku.ac.th`, `law.kku.ac.th`, `econ.kku.ac.th`, `sc.kku.ac.th`, `md.kku.ac.th`, `nurse.kku.ac.th`, `ams.kku.ac.th`, `vet.kku.ac.th`, `ph.kku.ac.th`, `computing.kku.ac.th`, `cola.kku.ac.th`, `faa.kku.ac.th`, `ed.kku.ac.th`, `is.kku.ac.th`)
 *   **Coverage:** 22 faculties/colleges, all levels — **195 curricula after dedup** (ปริญญาตรี 121, โท 59, เอก 14, ประกาศนียบัตร 2). Verified against official KKU 280/330 totals (70%/59% coverage, up from 65).
 *   **Pipeline:**
