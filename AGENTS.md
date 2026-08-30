@@ -5,18 +5,17 @@
 
 ### Core Features:
 1. **University Curriculum & Course Directory:** Comprehensive search and exploration of academic programs across Thai universities (tuition fees, duration, credits, and career paths).
-2. **AI Semantic Advisor Matching:** Students input their thesis topics, abstracts, or ideas. The platform semantically indexes, matches, and ranks faculty members and universities with the highest alignment, displaying a % Match Score.
+2. **AI Semantic Advisor Matching:** Students input their thesis topics, abstracts, or research proposals. The platform semantically indexes, matches, and ranks faculty members and universities with the highest alignment, displaying a % Match Score.
 3. **AI Match Explanation:** Automatically synthesizes concise explanations of why a specific professor is an ideal match for the student's research direction.
 4. **Comprehensive Profiles:** Academic background, research interests, supervised courses, publication links, and official contact channels.
 5. **AI Cold Email Generator:** An AI assistant that drafts professional inquiry emails and research proposals for contacting prospective advisors in Thai and English.
-
-6. **RIASEC Career Discovery Quiz:** A 3-tier psychological assessment (Quick 5, Standard 15, Deep Dive 30 questions) that matches students to suitable academic paths.
+6. **RIASEC Career Discovery Quiz:** A 3-tier psychological assessment (Quick 12, Standard 24, Deep Dive 50 questions) that matches students to suitable academic paths.
 
 ---
 
 ## 2. Tech Stack & Architecture (Monorepo)
 
-```
+```text
 [ Frontend: Next.js 16 / React / TypeScript / Tailwind CSS (Port 3000) ]
                           ↕ (REST API JSON)
 [ Backend: Python FastAPI / Uvicorn (Port 8000) ]
@@ -35,7 +34,7 @@
   * **API Framework:** FastAPI `>=0.110.0`, Uvicorn `>=0.28.0`.
   * **Data Validation:** Pydantic `v2.6.0+` (`pydantic-settings` `>=2.2.0`).
   * **ORM & Database:** SQLAlchemy `2.0+`, `psycopg2-binary`, `pgvector`.
-  * **AI & NLP:** `google-genai` `>=0.1.1` (Gemini API with `text-embedding-004` & `gemini-2.5-flash` / `gemini-3.6-flash`).
+  * **AI & NLP:** `google-genai` `>=0.1.1` (Gemini API with `gemini-embedding-2` & `gemini-2.5-flash` / `gemini-3.6-flash`).
   * **Scraping Engine:** `httpx` `>=0.27.0`, `requests` `>=2.31.0`, `beautifulsoup4` `>=4.12.3`, `rapidfuzz`, `scholarly`.
 * **Database & Vector Store:**
   * **Production:** PostgreSQL + `pgvector` hosted on **Supabase**.
@@ -108,7 +107,7 @@ All agents and developers MUST strictly follow the exact syntax standards corres
   "featured_publications": [],
   "scholar_url": "http://apps2.lib.cmu.ac.th/scholars/profile/35305627600",
   "embedding_text": "Asst. Prof. Dr. Watcharin Srirattanawichaikul...",
-  "embedding": [0.012, -0.045, ...]
+  "embedding": [0.012, -0.045]
 }
 ```
 
@@ -118,20 +117,20 @@ All agents and developers MUST strictly follow the exact syntax standards corres
   "id": "cmu_ds_msc",
   "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาการข้อมูล",
   "title_en": "Master of Science Program in Data Science",
-  "degree_level": "ปริญญาโท",
-  "degree_name": "วท.ม. (วิทยาการข้อมูล)",
+  "degree_level": "Master's Degree",
+  "degree_name": "M.Sc. (Data Science)",
   "university": "Chiang Mai University",
   "university_th": "มหาวิทยาลัยเชียงใหม่",
   "faculty": "Faculty of Science",
   "faculty_th": "คณะวิทยาศาสตร์",
   "department": "Department of Computer Science",
   "department_th": "ภาควิชาวิทยาการคอมพิวเตอร์",
-  "program_type": "ภาคปกติ / ภาคพิเศษ",
-  "duration_years": "2 ปี",
-  "total_credits": "36 หน่วยกิต",
-  "tuition_per_semester": "45,000 บาท",
-  "tuition_total": "180,000 บาท",
-  "description": "เน้นการผลิตบัณฑิตที่มีความรู้ความเชี่ยวชาญด้าน Big Data Analytics, Machine Learning...",
+  "program_type": "Regular / Special Program",
+  "duration_years": "2 Years",
+  "total_credits": "36 Credits",
+  "tuition_per_semester": "45,000 THB",
+  "tuition_total": "180,000 THB",
+  "description": "Focuses on producing graduates specialized in Big Data Analytics, Machine Learning, and Cloud Computing...",
   "curriculum_highlights": [
     "Advanced Machine Learning & AI",
     "Big Data Infrastructure & Cloud Computing"
@@ -149,7 +148,7 @@ All agents and developers MUST strictly follow the exact syntax standards corres
 ```text
 Teacher/
 ├── AGENTS.md                     # Single authoritative guidelines & architecture (this file)
-├── CLAUDE.md                     # Points to @C:\Users\chaya\Documents\Program\Project\Teacher\AGENTS.md
+├── CLAUDE.md                     # Points to @AGENTS.md
 ├── DATA_SOURCES.md               # Documentation of data sources and scraping references
 ├── README.md                     # Project overview and setup instructions
 ├── render.yaml                   # Render deployment configuration
@@ -165,8 +164,10 @@ Teacher/
 │   │   │   ├── career-discovery/ # RIASEC AI Quiz page
 │   │   │   │   └── page.tsx
 │   │   │   └── globals.css
+│   │   ├── components/           # Modular UI Components (Header, Footer, Cards, Modals)
 │   │   ├── lib/
-│   │   │   └── config.ts         # Shared API configuration & global helpers
+│   │   │   ├── config.ts         # Shared API configuration & global helpers
+│   │   │   └── dsa.ts            # Client-side Data Structures & LRU Cache Engine
 │   │   └── types/
 │   │       └── index.ts          # Centralized TypeScript interfaces (Faculty, Course, Quiz)
 │   ├── package.json
@@ -177,13 +178,17 @@ Teacher/
 │   │   ├── api/
 │   │   │   ├── routes_search.py  # AI Semantic Search & Cold Email API
 │   │   │   ├── routes_faculty.py # Faculty directory API
-│   │   │   └── routes_courses.py # University course search & directory API
+│   │   │   ├── routes_courses.py # University course search & directory API
+│   │   │   └── routes_career_quiz.py # Career discovery RIASEC quiz API
 │   │   ├── core/
-│   │   │   ├── config.py
+│   │   │   ├── config.py         # Application settings & environment variables
 │   │   │   ├── database.py       # Supabase PostgreSQL connection
+│   │   │   ├── dsa_utils.py      # Core Data Structures & Algorithms Library
+│   │   │   ├── security.py       # Rate Limiter, Security Headers, Prompt Sanitizer
 │   │   │   └── embedding_service.py # Gemini embeddings & query expansion
 │   │   ├── models/
-│   │   │   ├── schema.py         # Pydantic models
+│   │   │   ├── schema.py         # Pydantic models for Search, Faculty, Course
+│   │   │   ├── quiz_schema.py    # Pydantic models for RIASEC Quiz & Recommendations
 │   │   │   └── db_models.py      # SQLAlchemy & PgVector models
 │   │   └── main.py               # FastAPI entrypoint
 │   │
@@ -219,7 +224,7 @@ To ensure sub-second response times (< 500ms for searches, < 1.5s for AI generat
 - **No Sequential LLM Loops:** NEVER call LLM APIs (Gemini) inside a loop across search candidate lists. Use intelligent contextual template generators (0ms latency), single-batch prompts, or on-demand loading.
 - **In-Memory Embedding Caching:** Always cache query vector embeddings in an in-memory LRU cache (`_embedding_cache`) to achieve 0.001ms response times on frequent/repeated queries.
 - **Client Pooling & Reuse:** Cache `genai.Client` instances by API key in a pool rather than instantiating new clients per HTTP request.
-- **Fast Model Hierarchy:** Default to `gemini-3.6-flash` or `gemini-2.5-flash` for user-facing interactive endpoints (e.g. Cold Email, Quiz). Reserve Pro models strictly for offline tasks.
+- **Fast Model Hierarchy:** Default to `gemini-3.6-flash` or `gemini-2.5-flash` for user-facing interactive endpoints (e.g., Cold Email, Quiz). Reserve Pro models strictly for offline batch tasks.
 - **Parallel AI Execution:** In multi-step pipelines (such as the Career Discovery Quiz), execute LLM psychometric generation and course embedding concurrently using `ThreadPoolExecutor`.
 
 ### 2. Database & pgvector Optimization Rules
@@ -236,7 +241,7 @@ To ensure sub-second response times (< 500ms for searches, < 1.5s for AI generat
 
 ### 4. Frontend & UI Performance Rules
 - **Environment-based URLs:** Always reference `process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000/api/v1"`. Never hardcode `http://localhost:8000`.
-- **Image Resilience:** Always add `loading="lazy"`, `decoding="async"`, and `onError` fallback handlers (e.g. UI-Avatars) to external university images to prevent layout shifts and broken states.
+- **Image Resilience:** Always add `loading="lazy"`, `decoding="async"`, and `onError` fallback handlers (e.g., UI-Avatars) to external university images to prevent layout shifts and broken states.
 - **Instant Search on Interaction:** Clicking popular chips or quick tags must immediately trigger the search action rather than requiring an extra click.
 - **Enforce Query Limits:** Always apply reasonable default pagination limits (`limit=24..50`) on list queries to keep frontend DOM node counts and memory lightweight.
 
@@ -252,7 +257,7 @@ To ensure sub-second response times (< 500ms for searches, < 1.5s for AI generat
 ### 7. DRY (Don't Repeat Yourself) & Code Redundancy Elimination Standards
 - **Centralized Frontend Contracts:** NEVER define duplicate TypeScript `interface` or `type` blocks in individual page components. Always import from `@/types` (`frontend/src/types/index.ts`).
 - **Single Source for API URLs & Asset Helpers:** Always import `API_BASE_URL` and avatar/image fallback helpers from `@/lib/config` instead of re-declaring environment variables or fallback templates in multiple files.
-- **No Dead Backend Endpoints:** Maintain zero dead routes in FastAPI `main.py` (e.g. static template mountings when the frontend is decoupled as Next.js).
+- **No Dead Backend Endpoints:** Maintain zero dead routes in FastAPI `main.py` (e.g., static template mountings when the frontend is decoupled as Next.js).
 - **No Redundant Wrapper Methods:** Avoid pass-through wrapper functions with zero added logic (e.g., `_generate_explanation` calling `generate_smart_explanation`). Direct callers straight to the canonical implementation.
 
 ### 8. AI Semantic Advisor & Academic Matching Standards
@@ -269,5 +274,65 @@ To deliver enterprise-grade academic matching without hallucination or slow resp
 - **Zero-Latency Rationale Generation:** Synthesize explanations locally using contextual multi-evidence templates citing actual publication titles without making synchronous LLM API roundtrips during candidate ranking.
 - **Decoupled Tab State & Dual Catalog Hydration:** Switching tabs between Curricula and Advisors must NEVER trigger unintended automatic searches. Hydrate initial catalog data concurrently via `Promise.allSettled`.
 
+---
 
+## 7. Data Structures & Algorithms (DSA) Standards
 
+To ensure optimal computational time and space complexity across both backend and frontend systems, all developers and agents MUST follow these DSA architectural patterns:
+
+### 1. True $O(1)$ LRU Caching (Doubly Linked List + Hash Map)
+- **Backend Vector Cache (`backend/app/core/dsa_utils.py`):** Use `LRUCache[K, V]` with sentinel pseudo-head and pseudo-tail nodes combined with a hash map. Guarantees true $O(1)$ time complexity for `.get()`, `.put()`, and least-recently-used node evictions without resizing or linear scan overheads.
+- **Frontend Client-side Cache (`frontend/src/lib/dsa.ts`):** Maintain `ClientLRUCache` to instantly return previously executed search queries and faculty profile detail pages in $0\text{ms}$ ($O(1)$), preventing redundant network roundtrips.
+
+### 2. $O(N \log K)$ Top-K Bounded Min-Heap Re-Ranking
+- **Top-K Element Collector (`TopKHeap`):** When ranking search results, advisors, or courses, NEVER sort the entire candidate pool of size $N$ in $O(N \log N)$.
+- **Heap Maintenance:** Maintain a Min-Heap of fixed size $K$. For each incoming candidate score, perform a comparison with the minimum element in $O(1)$ and `heapreplace` in $O(\log K)$ time. Space complexity is strictly bounded to $O(K)$.
+
+### 3. $O(L)$ Trie (Prefix Tree) & Multi-Pattern Keyword Matching
+- **Keyword & Prefix Indexing (`Trie`):** Index academic terminology, faculty interests, and taxonomy into a Trie to achieve $O(L)$ search and prefix lookup time (where $L$ is word length), eliminating $O(M \cdot L)$ linear scanning overheads across large dictionaries.
+- **Set-based $O(1)$ De-duplication:** Always use hash sets (`set()`) for matching interests, publication hits, and synergy badges during scoring loops to prevent $O(N^2)$ nested lookups.
+
+### 4. Fast Inverted Indexing (`FastInvertedIndex`)
+- **Token Posting Lists:** For lexical keyword fallbacks, maintain an in-memory token posting list with term frequency (TF) and inverse document frequency (IDF) weighting for sub-millisecond document scoring.
+
+---
+
+## 8. Cybersecurity & System Hardening Standards
+
+To protect against OWASP Top 10 vulnerabilities, API abuse, and LLM-specific threats (OWASP Top 10 for LLM Applications), all developers and agents MUST strictly adhere to these cybersecurity standards:
+
+### 1. API Protection & Rate Limiting (DoS Mitigation)
+- **Sliding-Window Rate Limiting (`RateLimitMiddleware`):** All public API endpoints MUST be protected by IP-based rate limiting (`RateLimiter`, 180 req/min per client IP).
+- **HTTP 429 & Retry-After:** Rejected excessive traffic MUST return HTTP `429 Too Many Requests` with a valid `Retry-After: 60` header and structured JSON error response.
+
+### 2. Strict Cross-Origin Resource Sharing (CORS) Policy
+- **No Wildcard with Credentials:** NEVER use wildcard `allow_origins=["*"]` or open regex `r"^https?://.*"` on endpoints that handle user data.
+- **Whitelisted Origins:** Explicitly declare authorized origins (e.g., `http://localhost:3000`, `https://*.vercel.app`, `https://*.render.com`). Restrict allowed HTTP methods strictly to `GET`, `POST`, and `OPTIONS`.
+
+### 3. OWASP Security Response Headers (`SecurityHeadersMiddleware`)
+All HTTP responses MUST inject the following security headers:
+- `X-Content-Type-Options: nosniff` (Mitigates MIME sniffing attacks).
+- `X-Frame-Options: DENY` (Mitigates UI redressing and Clickjacking).
+- `X-XSS-Protection: 1; mode=block` (Legacy cross-site scripting filter).
+- `Referrer-Policy: strict-origin-when-cross-origin` (Protects user referral privacy).
+- `Permissions-Policy: camera=(), microphone=(), geolocation=()` (Restricts browser device access).
+
+### 4. AI & LLM Prompt Injection Defense (OWASP LLM01)
+- **Prompt Sanitization Engine (`sanitize_for_prompt`):** User inputs (e.g., student name, thesis proposal, background) injected into LLM prompts MUST be sanitized:
+  - Detect and neutralize instruction overrides (e.g., `ignore previous instructions`, `system: you are`, `DAN mode`, `reveal system prompt`).
+  - Strip null bytes (`\x00`) and malicious ASCII control characters.
+- **System Prompt Boundary Isolation:** System instructions MUST contain explicit defense boundaries instructing the model to treat user fields strictly as data, ignoring embedded commands.
+
+### 5. PDPA & Privacy Protection (PII Redaction)
+- **Automated PII Masking:** Automatically redact sensitive identifiers (e.g., Thai 13-digit National ID `\b[1-9]\d{12}\b`, credit card patterns, and API keys) before passing text to third-party LLM APIs.
+- **Public Data Compliance:** Never collect or persist personal phone numbers or private non-academic contact details.
+
+### 6. Strict Input Validation & Schema Constraints
+- **Pydantic v2 DTO Hardening:** Every incoming request field MUST declare explicit validation boundaries:
+  - `min_length` and `max_length` to prevent payload inflation and buffer exhaustion.
+  - Regex `pattern` enforcement on enumeration fields (e.g., `tier: pattern=r"^(quick|standard|deep)$"`).
+  - Numeric boundary constraints (`ge`, `le`) on pagination and scoring values.
+
+### 7. Frontend Web Security & Reverse Tabnabbing Prevention
+- **Safe External Anchors:** Every external link opening in a new tab (`target="_blank"`) MUST include `rel="noopener noreferrer"` to prevent window opener hijacking (Reverse Tabnabbing).
+- **Layout Security Headers:** Declare Content Security Policy and security metadata at the Root Layout level (`frontend/src/app/layout.tsx`).

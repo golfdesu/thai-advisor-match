@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from app.core.config import settings
+from app.core.security import SecurityHeadersMiddleware, RateLimitMiddleware, RateLimiter
 from app.api.routes_search import router as search_router
 from app.api.routes_faculty import router as faculty_router
 from app.api.routes_courses import router as courses_router
@@ -15,16 +16,32 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
-# Enable GZip Compression for all responses > 1KB (reduces network payload by 70-85%)
+# 1. Security Headers (OWASP Hardening)
+app.add_middleware(SecurityHeadersMiddleware)
+
+# 2. Rate Limiting (180 requests per minute per IP to prevent DoS & scraping abuse)
+rate_limiter = RateLimiter(requests_per_minute=180)
+app.add_middleware(RateLimitMiddleware, rate_limiter=rate_limiter)
+
+# 3. Enable GZip Compression for all responses > 1KB (reduces network payload by 70-85%)
 app.add_middleware(GZipMiddleware, minimum_size=1000)
 
-# Enable CORS for Next.js Frontend
+# 4. Restrict CORS to authorized origins (Frontend local & production domains)
+ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origin_regex=r"^https?://.*",
+    allow_origins=ALLOWED_ORIGINS,
+    allow_origin_regex=r"^https://.*\.vercel\.app$|^https://.*\.render\.com$",
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "Authorization", "X-Requested-With", "Accept"],
+    max_age=600,
 )
 
 # Register API Routers

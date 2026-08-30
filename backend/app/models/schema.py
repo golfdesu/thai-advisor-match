@@ -40,17 +40,17 @@ class FacultyMember(BaseModel):
 
 
 class SearchRequest(BaseModel):
-    query: str = Field(..., description="Research topic, abstract, or keywords from prospective student")
-    university: Optional[str] = Field(None, description="Filter by university name (TH or EN)")
-    faculty: Optional[str] = Field(None, description="Filter by faculty name (TH or EN)")
-    department: Optional[str] = Field(None, description="Filter by department name (TH or EN)")
+    query: str = Field(..., min_length=2, max_length=500, description="Research topic, abstract, or keywords from prospective student")
+    university: Optional[str] = Field(None, max_length=150, description="Filter by university name (TH or EN)")
+    faculty: Optional[str] = Field(None, max_length=150, description="Filter by faculty name (TH or EN)")
+    department: Optional[str] = Field(None, max_length=150, description="Filter by department name (TH or EN)")
     top_k: int = Field(10, ge=1, le=50, description="Number of results to return")
 
 
 class SearchMatchResult(BaseModel):
     faculty: FacultyMember
-    match_score: float = Field(..., description="Match percentage score between 0 and 100")
-    ai_explanation: Optional[str] = Field(None, description="AI-generated explanation of why this advisor matches")
+    match_score: float = Field(..., ge=0.0, le=100.0, description="Match percentage score between 0 and 100")
+    ai_explanation: Optional[str] = Field(None, max_length=1000, description="AI-generated explanation of why this advisor matches")
     matched_keywords: List[str] = Field(default_factory=list)
     matching_publications: List[str] = Field(default_factory=list, description="Specific publication titles matching the query")
     synergy_badges: List[str] = Field(default_factory=list, description="Badges indicating match strength e.g. Direct Focus, Active Papers")
@@ -64,12 +64,12 @@ class SearchResponse(BaseModel):
 
 
 class ColdEmailRequest(BaseModel):
-    faculty_id: str
-    student_name: str
-    student_background: str
-    research_topic: str
-    intended_degree: str = Field("Master's Degree", description="Master's Degree or Ph.D.")
-    language: str = Field("th", description="'th' for Thai or 'en' for English")
+    faculty_id: str = Field(..., min_length=2, max_length=100)
+    student_name: str = Field(..., min_length=1, max_length=100)
+    student_background: str = Field(..., min_length=2, max_length=1500)
+    research_topic: str = Field(..., min_length=2, max_length=1500)
+    intended_degree: str = Field("Master's Degree", max_length=50, description="Master's Degree or Ph.D.")
+    language: str = Field("th", pattern=r"^(th|en)$", description="'th' for Thai or 'en' for English")
 
 
 class ColdEmailResponse(BaseModel):
@@ -104,11 +104,11 @@ class CourseSchema(BaseModel):
 
 
 class CourseSearchRequest(BaseModel):
-    query: Optional[str] = ""
-    university: Optional[str] = None
-    degree_level: Optional[str] = None
-    faculty: Optional[str] = None
-    top_k: int = 20
+    query: Optional[str] = Field("", max_length=500)
+    university: Optional[str] = Field(None, max_length=150)
+    degree_level: Optional[str] = Field(None, max_length=50)
+    faculty: Optional[str] = Field(None, max_length=150)
+    top_k: int = Field(20, ge=1, le=50)
 
 
 class CourseSearchResponse(BaseModel):

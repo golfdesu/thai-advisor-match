@@ -1,6 +1,7 @@
 from typing import List, Dict, Any, Optional
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 from app.models.schema import CourseSchema
+import re
 
 
 class QuizAnswerItem(BaseModel):
@@ -13,8 +14,8 @@ class QuizAnswerItem(BaseModel):
 
 
 class CareerQuizSubmitRequest(BaseModel):
-    tier: str = Field("standard", description="'quick' (12 questions), 'standard' (24 questions), or 'deep' (50 questions)")
-    answers: List[QuizAnswerItem] = Field(default_factory=list)
+    tier: str = Field("standard", pattern=r"^(quick|standard|deep)$", description="'quick' (12 questions), 'standard' (24 questions), or 'deep' (50 questions)")
+    answers: List[QuizAnswerItem] = Field(default_factory=list, max_length=100)
     free_text_answers: Dict[str, str] = Field(default_factory=dict)
 
 
@@ -24,6 +25,20 @@ class CareerRecommendation(BaseModel):
     match_percentage: int
     skills: List[str] = Field(default_factory=list)
     growth_outlook: str = "เติบโตสูง"
+
+    @field_validator("match_percentage", mode="before")
+    @classmethod
+    def parse_match_percentage(cls, v: Any) -> int:
+        if isinstance(v, (int, float)):
+            return int(round(float(v)))
+        if isinstance(v, str):
+            clean = re.sub(r"[^\d.]", "", v)
+            if clean:
+                try:
+                    return int(round(float(clean)))
+                except ValueError:
+                    pass
+        return 90
 
 
 class RiasecBreakdown(BaseModel):

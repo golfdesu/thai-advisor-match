@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { FacultyMember } from "@/types";
 import { API_BASE_URL, getAdvisorAvatarUrl } from "@/lib/config";
+import { facultyDetailCache } from "@/lib/dsa";
 
 export default function AdvisorProfilePage() {
   const params = useParams();
@@ -30,6 +31,14 @@ export default function AdvisorProfilePage() {
   useEffect(() => {
     if (!id) return;
 
+    // Check O(1) in-memory LRU Cache first
+    const cachedAdvisor = facultyDetailCache.get(id);
+    if (cachedAdvisor) {
+      setAdvisor(cachedAdvisor);
+      setLoading(false);
+      return;
+    }
+
     const fetchAdvisor = async () => {
       try {
         setLoading(true);
@@ -39,6 +48,8 @@ export default function AdvisorProfilePage() {
           throw new Error("เกิดข้อผิดพลาดในการดึงข้อมูล");
         }
         const data = await res.json();
+        // Save to O(1) LRU Cache
+        facultyDetailCache.put(id, data);
         setAdvisor(data);
       } catch (err: any) {
         setError(err.message);
@@ -144,7 +155,7 @@ export default function AdvisorProfilePage() {
                     <a
                       href={advisor.profile_url}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       className="bg-[var(--theme-card-subtle)] hover:bg-[var(--theme-card)] text-[var(--theme-text-title)] font-bold px-5 py-2.5 rounded-xl transition flex items-center justify-center gap-2 whitespace-nowrap border border-[var(--theme-border)] cursor-pointer"
                     >
                       <span>เว็บมหาวิทยาลัย</span>
@@ -208,7 +219,7 @@ export default function AdvisorProfilePage() {
                       ผลงานวิชาการและงานวิจัยเด่น (Publications)
                     </h2>
                     {advisor.scholar_url && (
-                      <a href={advisor.scholar_url} target="_blank" rel="noreferrer" className="text-xs font-bold text-[var(--theme-primary)] hover:underline flex items-center gap-1 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] px-3 py-1.5 rounded-lg transition">
+                      <a href={advisor.scholar_url} target="_blank" rel="noopener noreferrer" className="text-xs font-bold text-[var(--theme-primary)] hover:underline flex items-center gap-1 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] px-3 py-1.5 rounded-lg transition">
                         Google Scholar <ExternalLink size={14} />
                       </a>
                     )}

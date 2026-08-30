@@ -49,12 +49,12 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
             className="flex items-center gap-3.5 flex-1 min-w-0 hover:opacity-90 transition group/avatar"
           >
             <img
-              src={f.image_url || getAdvisorAvatarUrl(f.first_name)}
+              src={f.image_url || getAdvisorAvatarUrl(f.full_name_th || f.full_name || f.first_name)}
               alt={f.full_name_th}
               loading="lazy"
               decoding="async"
               onError={(e) => {
-                (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(f.first_name);
+                (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(f.full_name_th || f.full_name || f.first_name);
               }}
               className="w-13 h-13 rounded-2xl object-cover border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] flex-shrink-0 group-hover/avatar:scale-102 transition-transform"
             />

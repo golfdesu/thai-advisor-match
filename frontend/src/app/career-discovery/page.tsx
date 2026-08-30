@@ -169,11 +169,19 @@ export default function CareerDiscoveryPage() {
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState<Record<any, any>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [loadingStage, setLoadingStage] = useState(0);
   const [result, setResult] = useState<QuizResultData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
 
-  // Filter questions based on chosen Tier
+  // Cycling status messages for engaging UI feedback while AI computes
+  const loadingStages = [
+    { text: "กำลังประมวลผล DNA ความถนัดทางการศึกษา...", sub: "ระบบกำลังสังเคราะห์โมเดล RIASEC 6 มิติ" },
+    { text: "กำลังวิเคราะห์จิตวิทยาและอาชีพที่เหมาะสม...", sub: "AI กำลังสร้าง Archetype และเส้นทางอาชีพอนาคต" },
+    { text: "กำลังค้นหาและจับคู่หลักสูตรมหาวิทยาลัย...", sub: "แมปปิ้งเวกเตอร์ 768 มิติกับหลักสูตรปริญญาตรีทั่วประเทศ" }
+  ];
+
+  // Stable deterministic pseudo-random generator seeded by Tier & ID to prevent hydration/re-render resets
   const activeQuestions = useMemo(() => {
     if (!tier) return [];
 
@@ -190,18 +198,13 @@ export default function CareerDiscoveryPage() {
       }
     });
 
-    const shuffle = <T,>(arr: T[]) => [...arr].sort(() => 0.5 - Math.random());
-    Object.keys(grouped).forEach(key => {
-      grouped[key] = shuffle(grouped[key]);
-    });
-
     const selectedRiasec: any[] = [];
     const dimensions = ["R", "I", "A", "S", "E", "C"];
     let i = 0;
     while (selectedRiasec.length < totalRiasec) {
       const dim = dimensions[i % 6];
       if (grouped[dim] && grouped[dim].length > 0) {
-        const q = grouped[dim].pop()!;
+        const q = grouped[dim].shift()!;
         selectedRiasec.push({
           id: q.id,
           category: `ความสนใจและกิจกรรม (${q.dimension})`,
@@ -216,14 +219,13 @@ export default function CareerDiscoveryPage() {
     const validLifestyleQuestions = (lifestyleQuestions as any[]).filter(
       (q) => q.type !== "free_text" && Array.isArray(q.options) && q.options.length > 0
     );
-    const shuffledLifestyle = shuffle(validLifestyleQuestions);
-    const selectedLifestyle = shuffledLifestyle.slice(0, totalLifestyle).map(q => ({
+    const selectedLifestyle = validLifestyleQuestions.slice(0, totalLifestyle).map(q => ({
       ...q,
       question: q.text,
       category: `ไลฟ์สไตล์ & บริบทมหาวิทยาลัย (${q.category})`
     }));
 
-    return [...shuffle(selectedRiasec), ...selectedLifestyle];
+    return [...selectedRiasec, ...selectedLifestyle];
   }, [tier]);
 
   const currentQ = activeQuestions[currentStep];
@@ -258,7 +260,13 @@ export default function CareerDiscoveryPage() {
 
   const handleSubmit = async () => {
     setIsSubmitting(true);
+    setLoadingStage(0);
     setError(null);
+
+    // Dynamic progress stage ticker
+    const interval = setInterval(() => {
+      setLoadingStage((prev) => (prev < 2 ? prev + 1 : prev));
+    }, 1400);
 
     const formattedAnswers: any[] = [];
     const freeTextAnswers: Record<string, string> = {};
@@ -304,6 +312,7 @@ export default function CareerDiscoveryPage() {
     } catch (err: any) {
       setError(err.message || "เกิดข้อผิดพลาดในการเชื่อมต่อเซิร์ฟเวอร์");
     } finally {
+      clearInterval(interval);
       setIsSubmitting(false);
     }
   };
@@ -472,18 +481,32 @@ export default function CareerDiscoveryPage() {
 
         {/* VIEW 2: Submitting / Loading Screen */}
         {isSubmitting && (
-          <div className="text-center py-20 animate-fadeIn">
+          <div className="text-center py-20 animate-fadeIn max-w-lg mx-auto">
             <div className="relative w-16 h-16 mx-auto mb-6">
               <div className="w-16 h-16 rounded-2xl bg-[var(--theme-primary-subtle)] border border-[var(--theme-border)] flex items-center justify-center text-[var(--theme-primary)] shadow-md animate-pulse">
                 <Sparkles size={28} />
               </div>
             </div>
-            <h2 className="text-xl sm:text-2xl font-bold text-[var(--theme-text-title)] mb-2">
-              กำลังประมวลผล DNA ความถนัดทางการศึกษา...
+            <h2 className="text-xl sm:text-2xl font-bold text-[var(--theme-text-title)] mb-2 transition-all duration-300">
+              {loadingStages[loadingStage]?.text || "กำลังประมวลผล DNA ความถนัดทางการศึกษา..."}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] max-w-md mx-auto">
-              ระบบกำลังสังเคราะห์โมเดล RIASEC ร่วมกับหลักสูตรมหาวิทยาลัยและเส้นทางอาชีพอนาคต
+            <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] max-w-md mx-auto transition-all duration-300">
+              {loadingStages[loadingStage]?.sub || "ระบบกำลังสังเคราะห์โมเดล RIASEC ร่วมกับหลักสูตรมหาวิทยาลัยและเส้นทางอาชีพอนาคต"}
             </p>
+            <div className="flex items-center justify-center gap-1.5 mt-6">
+              {loadingStages.map((_, idx) => (
+                <div
+                  key={idx}
+                  className={`h-1.5 rounded-full transition-all duration-500 ${
+                    idx === loadingStage
+                      ? "w-8 bg-[var(--theme-primary)]"
+                      : idx < loadingStage
+                      ? "w-3 bg-[var(--theme-primary)] opacity-40"
+                      : "w-3 bg-[var(--theme-border)]"
+                  }`}
+                />
+              ))}
+            </div>
           </div>
         )}
 

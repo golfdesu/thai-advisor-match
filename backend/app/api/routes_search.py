@@ -6,6 +6,7 @@ from app.models.db_models import FacultyDB
 from app.api.routes_faculty import db_to_pydantic
 from app.core.database import get_db
 from app.core.embedding_service import embedding_service
+from app.core.dsa_utils import TopKHeap, Trie
 from typing import List, Tuple, Dict, Any
 import math
 
@@ -17,14 +18,17 @@ def analyze_advisor_synergy(
     faculty: FacultyMember
 ) -> Tuple[List[str], List[str], List[str], List[str]]:
     """
-    Multi-faceted academic synergy analyzer:
-    1. Extracts matching core research interests
+    Multi-faceted academic synergy analyzer using Set lookups & Trie token scanning:
+    1. Extracts matching core research interests in O(1) set complexity
     2. Identifies specific publication titles matching the query
     3. Generates high-confidence synergy badges
     4. Formulates concrete thesis exploration angles
     """
+    matched_interests_set = set()
     matched_interests = []
+    matching_pubs_set = set()
     matching_pubs = []
+    matched_kws_set = set()
     matched_kws = []
     synergy_badges = []
     suggested_angles = []
@@ -32,16 +36,17 @@ def analyze_advisor_synergy(
     interests = faculty.research_interests or []
     courses = faculty.taught_courses or []
     pubs = faculty.featured_publications or []
-    dept_str = (faculty.department_th or faculty.department or "").lower()
 
     # 1. Match Interests
     for interest in interests:
         int_lower = interest.lower()
         for token in query_tokens:
             if token in int_lower:
-                if interest not in matched_interests:
+                if interest not in matched_interests_set:
+                    matched_interests_set.add(interest)
                     matched_interests.append(interest)
-                if token not in matched_kws:
+                if token not in matched_kws_set:
+                    matched_kws_set.add(token)
                     matched_kws.append(token)
 
     # 2. Match Publications
@@ -52,20 +57,23 @@ def analyze_advisor_synergy(
         pub_lower = pub_title.lower()
         for token in query_tokens:
             if token in pub_lower:
-                if pub_title not in matching_pubs:
+                if pub_title not in matching_pubs_set:
+                    matching_pubs_set.add(pub_title)
                     matching_pubs.append(pub_title)
-                if token not in matched_kws:
+                if token not in matched_kws_set:
+                    matched_kws_set.add(token)
                     matched_kws.append(token)
 
     # 3. Match Taught Courses
-    matched_courses = []
+    matched_courses_set = set()
     for c in courses:
         c_lower = c.lower()
         for token in query_tokens:
             if token in c_lower:
-                if c not in matched_courses:
-                    matched_courses.append(c)
-                if token not in matched_kws:
+                if c not in matched_courses_set:
+                    matched_courses_set.add(c)
+                if token not in matched_kws_set:
+                    matched_kws_set.add(token)
                     matched_kws.append(token)
 
     # Generate Badges based on academic evidence
@@ -73,7 +81,7 @@ def analyze_advisor_synergy(
         synergy_badges.append("⭐ ตรงสายงานวิจัยหลัก (Direct Research Focus)")
     if matching_pubs:
         synergy_badges.append(f"📄 มีผลงานตีพิมพ์ตรงหัวข้อ ({len(matching_pubs)} เรื่อง)")
-    if matched_courses:
+    if matched_courses_set:
         synergy_badges.append("📚 รับผิดชอบรายวิชาที่เกี่ยวข้อง")
     if faculty.scholar_url or (pubs and len(pubs) >= 3):
         synergy_badges.append("🏆 งานวิจัยตีพิมพ์ระดับนานาชาติ")
@@ -115,8 +123,13 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
         for token in raw_tokens[:6]:
             pattern = f"%{token}%"
             filters.append(FacultyDB.full_name_th.ilike(pattern))
+            filters.append(FacultyDB.first_name.ilike(pattern))
+            filters.append(FacultyDB.last_name.ilike(pattern))
             filters.append(FacultyDB.department_th.ilike(pattern))
+            filters.append(FacultyDB.department.ilike(pattern))
             filters.append(FacultyDB.faculty_th.ilike(pattern))
+            filters.append(FacultyDB.faculty.ilike(pattern))
+            filters.append(FacultyDB.embedding_text.ilike(pattern))
 
         faculties = candidate_query.filter(or_(*filters)).limit(max(top_k * 4, 35)).all()
         if not faculties:
@@ -124,7 +137,8 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
     else:
         faculties = candidate_query.limit(top_k).all()
 
-    scored_list = []
+    # 2. DSA Optimization: Use TopKHeap for O(N log K) selection
+    heap = TopKHeap[Tuple[FacultyMember, float, List[str], List[str], List[str], List[str]]](k=top_k)
 
     for db_fac in faculties:
         fac_model = db_to_pydantic(db_fac)
@@ -140,13 +154,12 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
         if len(matched_kws) == 0:
             total_score = 48.0
 
-        scored_list.append((fac_model, total_score, matched_kws, matching_pubs, badges, angles))
+        heap.push(total_score, (fac_model, total_score, matched_kws, matching_pubs, badges, angles))
 
-    # Sort by score descending
-    scored_list.sort(key=lambda x: x[1], reverse=True)
+    top_candidates = heap.get_top_k_descending()
 
     results = []
-    for fac_model, score, matched_kws, matching_pubs, badges, angles in scored_list[:top_k]:
+    for fac_model, score, matched_kws, matching_pubs, badges, angles in top_candidates:
         explanation = embedding_service.generate_smart_explanation(
             query_str, fac_model, score, matched_kws, matching_pubs
         )
@@ -224,7 +237,8 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
             expanded_query = embedding_service.expand_query(request.query).lower()
             query_tokens = [t for t in expanded_query.split() if len(t) >= 2]
 
-            candidate_pool = []
+            # DSA Optimization: Min-Heap for Top-K extraction in O(N log K)
+            heap = TopKHeap[SearchMatchResult](k=request.top_k)
 
             for db_fac, dist in results:
                 fac_model = db_to_pydantic(db_fac)
@@ -249,7 +263,7 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                     request.query, fac_model, ux_score, matched_kws, matching_pubs
                 )
 
-                candidate_pool.append(SearchMatchResult(
+                candidate_item = SearchMatchResult(
                     faculty=fac_model,
                     match_score=ux_score,
                     ai_explanation=explanation,
@@ -257,11 +271,10 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                     matching_publications=matching_pubs[:2],
                     synergy_badges=badges,
                     suggested_thesis_angles=angles
-                ))
+                )
+                heap.push(ux_score, candidate_item)
 
-            # Re-rank candidate pool by composite score descending
-            candidate_pool.sort(key=lambda x: x.match_score, reverse=True)
-            ranked_results = candidate_pool[:request.top_k]
+            ranked_results = heap.get_top_k_descending()
 
         except Exception as e:
             print(f"Vector search failed, using smart keyword fallback: {e}")

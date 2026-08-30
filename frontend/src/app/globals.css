@@ -3,57 +3,57 @@
 @custom-variant crimson (&:where([data-theme="crimson"], [data-theme="crimson"] *));
 @custom-variant navy (&:where([data-theme="navy"], [data-theme="navy"] *));
 
-/* === 🔵 ธีมที่ 1: Oxford Navy & Warm Beige (สีกรมท่า + เบจทราย — ไม่มีสีแดง) === */
+/* === 🔵 ธีมที่ 1: Ocean (สีกรมท่าลึก + พื้นหลังสว่างโทนเย็น สดใส คมชัด) === */
 :root,
 [data-theme="navy"] {
-  --theme-primary: #001D51;
-  --theme-primary-hover: #001233;
+  --theme-primary: #0F3460;
+  --theme-primary-hover: #0A2240;
   --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(0, 29, 81, 0.08);
-  --theme-primary-border: rgba(0, 29, 81, 0.18);
-  
+  --theme-primary-subtle: rgba(15, 52, 96, 0.08);
+  --theme-primary-border: rgba(15, 52, 96, 0.18);
+
+  --theme-accent: #D97706;
+  --theme-accent-hover: #B45309;
+  --theme-accent-contrast: #FFFFFF;
+  --theme-accent-subtle: rgba(217, 119, 6, 0.09);
+  --theme-accent-border: rgba(217, 119, 6, 0.22);
+
+  --theme-bg: #EFF4F8;
+  --theme-card: #FFFFFF;
+  --theme-card-subtle: #E5EDF4;
+  --theme-border: #CFDCE8;
+  --theme-border-subtle: #DEE7F0;
+
+  --theme-text-title: #0A192F;
+  --theme-text-body: #2B3A4A;
+  --theme-text-muted: #576B80;
+  --theme-ring: rgba(15, 52, 96, 0.22);
+}
+
+/* === 🔴 ธีมที่ 2: Ember (สีไวน์แดงอบอุ่น + พื้นหลังครีมงาช้าง หรูหรา ทรงเกียรติ) === */
+[data-theme="crimson"] {
+  --theme-primary: #800020;
+  --theme-primary-hover: #630019;
+  --theme-primary-contrast: #FFFFFF;
+  --theme-primary-subtle: rgba(128, 0, 32, 0.08);
+  --theme-primary-border: rgba(128, 0, 32, 0.18);
+
   --theme-accent: #B45309;
   --theme-accent-hover: #92400E;
   --theme-accent-contrast: #FFFFFF;
-  --theme-accent-subtle: rgba(180, 83, 9, 0.08);
-  --theme-accent-border: rgba(180, 83, 9, 0.18);
-  
-  --theme-bg: #F8F6F0;
-  --theme-card: #FFFFFF;
-  --theme-card-subtle: #F2EFE9;
-  --theme-border: #E5DFD3;
-  --theme-border-subtle: #EDE7DC;
-  
-  --theme-text-title: #0F172A;
-  --theme-text-body: #334155;
-  --theme-text-muted: #64748B;
-  --theme-ring: rgba(0, 29, 81, 0.2);
-}
+  --theme-accent-subtle: rgba(180, 83, 9, 0.09);
+  --theme-accent-border: rgba(180, 83, 9, 0.22);
 
-/* === 🔴 ธีมที่ 2: Harvard Crimson & Warm Ivory (สีแดงเข้ม + ครีมงาช้าง — ไม่มีสีน้ำเงิน) === */
-[data-theme="crimson"] {
-  --theme-primary: #4E0000;
-  --theme-primary-hover: #380000;
-  --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(78, 0, 0, 0.08);
-  --theme-primary-border: rgba(78, 0, 0, 0.18);
-  
-  --theme-accent: #A16207;
-  --theme-accent-hover: #854D0E;
-  --theme-accent-contrast: #FFFFFF;
-  --theme-accent-subtle: rgba(161, 98, 7, 0.08);
-  --theme-accent-border: rgba(161, 98, 7, 0.18);
-  
-  --theme-bg: #FAF8F5;
+  --theme-bg: #FAF3EA;
   --theme-card: #FFFFFF;
-  --theme-card-subtle: #F5EFE9;
-  --theme-border: #E8DFD3;
-  --theme-border-subtle: #EFE8DE;
-  
-  --theme-text-title: #1C1917;
-  --theme-text-body: #44403C;
-  --theme-text-muted: #78716C;
-  --theme-ring: rgba(78, 0, 0, 0.2);
+  --theme-card-subtle: #F3E8DB;
+  --theme-border: #E7D8C6;
+  --theme-border-subtle: #EFE4D6;
+
+  --theme-text-title: #2B1410;
+  --theme-text-body: #4A3830;
+  --theme-text-muted: #7D685E;
+  --theme-ring: rgba(128, 0, 32, 0.22);
 }
 
 body {

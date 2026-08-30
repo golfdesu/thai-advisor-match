@@ -21,6 +21,7 @@ import { FilterBar } from "@/components/FilterBar";
 import { ComparisonModal } from "@/components/ComparisonModal";
 import { ColdEmailModal } from "@/components/ColdEmailModal";
 import { SavedBookmarksModal } from "@/components/SavedBookmarksModal";
+import { searchApiCache } from "@/lib/dsa";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<"courses" | "advisors">("courses");
@@ -134,6 +135,19 @@ export default function Home() {
     const degToUse = degFilter !== undefined ? degFilter : selectedDegree;
     const currentTab = tabOverride !== undefined ? tabOverride : activeTab;
 
+    const cacheKey = `${currentTab}:${queryToUse.trim()}:${uniToUse}:${degToUse}`;
+    const cachedData = searchApiCache.get(cacheKey);
+    if (cachedData) {
+      if (currentTab === "courses") {
+        setCourses(cachedData);
+      } else {
+        setAdvisors(cachedData);
+      }
+      setSearchExecuted(true);
+      setErrorMsg(null);
+      return;
+    }
+
     setLoading(true);
     setErrorMsg(null);
     setSearchExecuted(true);
@@ -153,17 +167,22 @@ export default function Home() {
 
         if (res.ok) {
           const data = await res.json();
-          setCourses(Array.isArray(data) ? data : (data.results ?? []));
+          const list = Array.isArray(data) ? data : (data.results ?? []);
+          searchApiCache.put(cacheKey, list);
+          setCourses(list);
         } else {
           setErrorMsg("ไม่พบหลักสูตรที่ตรงกับคำค้นหา ลองปรับเปลี่ยนคำค้นหาอีกครั้งครับ");
         }
       } else {
         if (!queryToUse.trim()) {
-          const res = await fetch(`${API_BASE_URL}/faculty/?limit=20`);
+          const uniParam = uniToUse && uniToUse !== "all" ? `&university=${encodeURIComponent(uniToUse)}` : "";
+          const res = await fetch(`${API_BASE_URL}/faculty/?limit=24${uniParam}`);
           if (res.ok) {
             const data = await res.json();
             const list = Array.isArray(data) ? data : (data.results ?? []);
-            setAdvisors(list.map((f: FacultyMember) => ({ faculty: f, match_score: 85 })));
+            const formatted = list.map((f: FacultyMember) => ({ faculty: f, match_score: 85 }));
+            searchApiCache.put(cacheKey, formatted);
+            setAdvisors(formatted);
           }
         } else {
           const res = await fetch(`${API_BASE_URL}/search/`, {
@@ -178,7 +197,9 @@ export default function Home() {
 
           if (res.ok) {
             const data = await res.json();
-            setAdvisors(Array.isArray(data) ? data : (data.results ?? []));
+            const list = Array.isArray(data) ? data : (data.results ?? []);
+            searchApiCache.put(cacheKey, list);
+            setAdvisors(list);
           } else {
             setErrorMsg("เกิดข้อผิดพลาดในการจับคู่อาจารย์ที่ปรึกษา กรุณาลองใหม่อีกครั้ง");
           }
@@ -468,6 +489,8 @@ export default function Home() {
         isOpen={showSavedModal}
         savedCourses={savedCourses}
         savedAdvisors={savedAdvisors}
+        allCourses={courses}
+        allAdvisors={advisors}
         onClose={() => setShowSavedModal(false)}
         onRemoveCourse={toggleBookmarkCourse}
         onRemoveAdvisor={toggleBookmarkAdvisor}

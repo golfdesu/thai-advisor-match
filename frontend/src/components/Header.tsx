@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import { GraduationCap, Compass, Bookmark } from "lucide-react";
+import { GraduationCap, Compass, Bookmark, Waves, Flame } from "lucide-react";
 
 export type ThemeName = "navy" | "crimson";
 
@@ -82,27 +82,21 @@ export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) 
           )}
         </button>
 
-        {/* Single Theme Toggle Button */}
+        {/* Single Theme Toggle Button (Icon Logo Button) */}
         <button
           onClick={toggleTheme}
-          className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-[var(--theme-card-subtle)] hover:bg-[var(--theme-card)] border border-[var(--theme-border)] text-xs font-bold transition-all shadow-2xs hover:border-[var(--theme-primary)] group cursor-pointer"
+          className="flex items-center justify-center w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[var(--theme-card-subtle)] hover:bg-[var(--theme-card)] border border-[var(--theme-border)] transition-all shadow-2xs hover:border-[var(--theme-primary)] hover:scale-105 active:scale-95 group cursor-pointer shrink-0"
           title={
             mounted && currentTheme === "crimson"
-              ? "สลับเป็นธีม 🔵 Oxford Navy & Beige"
-              : "สลับเป็นธีม 🔴 Harvard Crimson & Ivory"
+              ? "สลับเป็นธีม 🔵 Ocean (มหาสมุทรน้ำเงินลึก)"
+              : "สลับเป็นธีม 🔴 Ember (เปลวไฟแดงอบอุ่น)"
           }
           aria-label="Toggle Theme"
         >
           {mounted && currentTheme === "crimson" ? (
-            <>
-              <span className="w-2.5 h-2.5 rounded-full bg-[#4E0000] border border-[#4E0000]/40 inline-block shadow-xs" />
-              <span className="text-[var(--theme-text-title)] hidden sm:inline">Crimson &amp; Ivory</span>
-            </>
+            <Flame className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-[#800020] transition-transform group-hover:rotate-12" />
           ) : (
-            <>
-              <span className="w-2.5 h-2.5 rounded-full bg-[#001D51] border border-[#001D51]/40 inline-block shadow-xs" />
-              <span className="text-[var(--theme-text-title)] hidden sm:inline">Navy &amp; Beige</span>
-            </>
+            <Waves className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-[#0F3460] transition-transform group-hover:-translate-y-0.5" />
           )}
         </button>
       </nav>

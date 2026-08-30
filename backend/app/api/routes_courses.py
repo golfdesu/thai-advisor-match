@@ -137,10 +137,13 @@ def list_courses(
 @router.post("/search", response_model=CourseSearchResponse)
 def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
     query = db.query(CourseDB).options(defer(CourseDB.embedding), defer(CourseDB.embedding_text))
-    
-    if request.university and request.university != "all":
-        query = query.filter(CourseDB.university.ilike(f"%{request.university}%") | CourseDB.university_th.ilike(f"%{request.university}%"))
-    
+
+    if request.university and request.university.strip() and request.university.strip().lower() != "all":
+        query = query.filter(CourseDB.university.ilike(f"%{request.university.strip()}%") | CourseDB.university_th.ilike(f"%{request.university.strip()}%"))
+
+    if request.faculty and request.faculty.strip() and request.faculty.strip().lower() != "all":
+        query = query.filter(CourseDB.faculty.ilike(f"%{request.faculty.strip()}%") | CourseDB.faculty_th.ilike(f"%{request.faculty.strip()}%"))
+
     degree_filter = build_degree_level_filter(request.degree_level)
     if degree_filter is not None:
         query = query.filter(degree_filter)

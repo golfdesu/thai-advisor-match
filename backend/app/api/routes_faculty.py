@@ -44,16 +44,22 @@ def db_to_pydantic(db_model: FacultyDB) -> FacultyMember:
 def list_faculty(
     university: Optional[str] = Query(None, description="Filter by university"),
     department: Optional[str] = Query(None, description="Filter by department"),
+    faculty: Optional[str] = Query(None, description="Filter by faculty/school"),
     limit: int = Query(50, ge=1, le=100),
     db: Session = Depends(get_db)
 ):
     """Retrieve all faculty members with optional filtering from PostgreSQL Database."""
     query = db.query(FacultyDB).options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text))
 
-    if university:
-        query = query.filter(FacultyDB.university.ilike(f"%{university}%") | FacultyDB.university_th.ilike(f"%{university}%"))
-    if department:
-        query = query.filter(FacultyDB.department.ilike(f"%{department}%") | FacultyDB.department_th.ilike(f"%{department}%"))
+    if university and university.strip() and university.strip().lower() != "all":
+        u_clean = university.strip()
+        query = query.filter(FacultyDB.university.ilike(f"%{u_clean}%") | FacultyDB.university_th.ilike(f"%{u_clean}%"))
+    if faculty and faculty.strip() and faculty.strip().lower() != "all":
+        f_clean = faculty.strip()
+        query = query.filter(FacultyDB.faculty.ilike(f"%{f_clean}%") | FacultyDB.faculty_th.ilike(f"%{f_clean}%"))
+    if department and department.strip() and department.strip().lower() != "all":
+        d_clean = department.strip()
+        query = query.filter(FacultyDB.department.ilike(f"%{d_clean}%") | FacultyDB.department_th.ilike(f"%{d_clean}%"))
 
     db_faculties = query.limit(limit).all()
     return [db_to_pydantic(f) for f in db_faculties]
