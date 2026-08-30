@@ -1,4 +1,4 @@
-# Thai Advisor Match (ระบบค้นหาอาจารย์ที่ปรึกษาวิทยานิพนธ์ด้วย AI)
+# Thai Advisor Match (AI-Powered Thesis Advisor Search System)
 
 **Thai Advisor Match** is an AI-powered thesis advisor discovery platform built for prospective Master's and Ph.D. students in Thailand.
 

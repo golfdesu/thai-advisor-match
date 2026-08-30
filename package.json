@@ -1,0 +1,26 @@
+{
+  "name": "teacher",
+  "version": "1.0.0",
+  "description": "**Thai Advisor Match** is an AI-powered thesis advisor discovery platform built for prospective Master's and Ph.D. students in Thailand.",
+  "main": "index.js",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && .venv\\Scripts\\python.exe -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "dev": "concurrently -c \"cyan.bold,magenta.bold\" -n \"FRONTEND,BACKEND\" \"npm run dev:frontend\" \"npm run dev:backend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golfdesu/thai-advisor-match.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/golfdesu/thai-advisor-match/issues"
+  },
+  "homepage": "https://github.com/golfdesu/thai-advisor-match#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}

@@ -20,19 +20,19 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-stone-900/50 backdrop-blur-xs flex items-center justify-center p-4">
-      <div className="bg-white border border-stone-200 rounded-3xl w-full max-w-5xl max-h-[90vh] flex flex-col shadow-xl overflow-hidden">
+    <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4">
+      <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl w-full max-w-5xl max-h-[90vh] flex flex-col shadow-xl overflow-hidden">
         {/* Header */}
-        <div className="px-6 py-4 border-b border-stone-200 flex items-center justify-between bg-stone-50/80">
+        <div className="px-6 py-4 border-b border-[var(--theme-border)] flex items-center justify-between bg-[var(--theme-card-subtle)]">
           <div className="flex items-center gap-2.5">
-            <Scale className="w-5 h-5 text-[#5B0F18]" />
-            <h2 className="text-base font-bold text-stone-900">
+            <Scale className="w-5 h-5 text-[var(--theme-primary)]" />
+            <h2 className="text-base font-bold text-[var(--theme-text-title)]">
               ตารางเปรียบเทียบหลักสูตร (Curriculum Comparison Matrix)
             </h2>
           </div>
           <button
             onClick={onClose}
-            className="p-1.5 rounded-xl bg-white hover:bg-stone-100 text-stone-500 hover:text-stone-900 border border-stone-200 cursor-pointer"
+            className="p-1.5 rounded-xl bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] border border-[var(--theme-border)] cursor-pointer"
           >
             <X className="w-4 h-4" />
           </button>
@@ -43,14 +43,14 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
           <div className="min-w-[700px]">
             <table className="w-full text-xs text-left border-collapse">
               <thead>
-                <tr className="border-b border-stone-200">
-                  <th className="p-3 text-stone-700 font-bold w-1/5 bg-stone-50 rounded-l-xl">
+                <tr className="border-b border-[var(--theme-border)]">
+                  <th className="p-3 text-[var(--theme-text-title)] font-bold w-1/5 bg-[var(--theme-card-subtle)] rounded-l-xl">
                     หัวข้อเปรียบเทียบ
                   </th>
                   {courses.map((c) => (
-                    <th key={c.id} className="p-3 text-stone-900 font-bold w-1/5">
+                    <th key={c.id} className="p-3 text-[var(--theme-text-title)] font-bold w-1/5">
                       <div className="space-y-1">
-                        <span className="text-[10px] font-bold text-[#5B0F18] block">
+                        <span className="text-[10px] font-bold text-[var(--theme-primary)] block">
                           {c.university_th}
                         </span>
                         <span className="line-clamp-2">{c.title_th}</span>
@@ -59,17 +59,17 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                   ))}
                 </tr>
               </thead>
-              <tbody className="divide-y divide-stone-200 text-stone-700">
+              <tbody className="divide-y divide-[var(--theme-border)] text-[var(--theme-text-body)]">
                 <tr>
-                  <td className="p-3 font-semibold text-stone-800 bg-stone-50/50">ระดับปริญญา</td>
+                  <td className="p-3 font-semibold text-[var(--theme-text-title)] bg-[var(--theme-card-subtle)]/60">ระดับปริญญา</td>
                   {courses.map((c) => (
-                    <td key={c.id} className="p-3 font-bold text-[#5B0F18]">
+                    <td key={c.id} className="p-3 font-bold text-[var(--theme-primary)]">
                       {c.degree_level} {c.degree_name ? `(${c.degree_name})` : ""}
                     </td>
                   ))}
                 </tr>
                 <tr>
-                  <td className="p-3 font-semibold text-stone-800 bg-stone-50/50">คณะ / ภาควิชา</td>
+                  <td className="p-3 font-semibold text-[var(--theme-text-title)] bg-[var(--theme-card-subtle)]/60">คณะ / ภาควิชา</td>
                   {courses.map((c) => (
                     <td key={c.id} className="p-3">
                       {c.faculty_th} {c.department_th ? `• ${c.department_th}` : ""}
@@ -77,15 +77,15 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                   ))}
                 </tr>
                 <tr>
-                  <td className="p-3 font-semibold text-stone-800 bg-stone-50/50">ค่าธรรมเนียมการศึกษา</td>
+                  <td className="p-3 font-semibold text-[var(--theme-text-title)] bg-[var(--theme-card-subtle)]/60">ค่าธรรมเนียมการศึกษา</td>
                   {courses.map((c) => (
-                    <td key={c.id} className="p-3 font-bold text-stone-900">
+                    <td key={c.id} className="p-3 font-bold text-[var(--theme-text-title)]">
                       {c.tuition_per_semester || "ตามประกาศสถาบัน"}
                     </td>
                   ))}
                 </tr>
                 <tr>
-                  <td className="p-3 font-semibold text-stone-800 bg-stone-50/50">ระยะเวลาการศึกษา</td>
+                  <td className="p-3 font-semibold text-[var(--theme-text-title)] bg-[var(--theme-card-subtle)]/60">ระยะเวลาการศึกษา</td>
                   {courses.map((c) => (
                     <td key={c.id} className="p-3">
                       {c.duration_years || "4 ปี"} {c.total_credits ? `(${c.total_credits})` : ""}
@@ -93,9 +93,9 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                   ))}
                 </tr>
                 <tr>
-                  <td className="p-3 font-semibold text-stone-800 bg-stone-50/50">จุดเด่นหลักสูตร</td>
+                  <td className="p-3 font-semibold text-[var(--theme-text-title)] bg-[var(--theme-card-subtle)]/60">จุดเด่นหลักสูตร</td>
                   {courses.map((c) => (
-                    <td key={c.id} className="p-3 text-[11px] text-stone-700 leading-relaxed">
+                    <td key={c.id} className="p-3 text-[11px] text-[var(--theme-text-body)] leading-relaxed">
                       {c.curriculum_highlights && c.curriculum_highlights.length > 0 ? (
                         <ul className="list-disc list-inside space-y-1">
                           {c.curriculum_highlights.slice(0, 2).map((h, i) => (
@@ -109,15 +109,15 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                   ))}
                 </tr>
                 <tr>
-                  <td className="p-3 font-semibold text-stone-800 bg-stone-50/50">เส้นทางอาชีพ</td>
+                  <td className="p-3 font-semibold text-[var(--theme-text-title)] bg-[var(--theme-card-subtle)]/60">เส้นทางอาชีพ</td>
                   {courses.map((c) => (
-                    <td key={c.id} className="p-3 text-[11px] text-stone-700 font-medium">
+                    <td key={c.id} className="p-3 text-[11px] text-[var(--theme-text-body)] font-medium">
                       {c.career_paths && c.career_paths.length > 0 ? c.career_paths.join(", ") : "-"}
                     </td>
                   ))}
                 </tr>
                 <tr>
-                  <td className="p-3 font-semibold text-stone-800 bg-stone-50/50">ข้อมูลทางการ</td>
+                  <td className="p-3 font-semibold text-[var(--theme-text-title)] bg-[var(--theme-card-subtle)]/60">ข้อมูลทางการ</td>
                   {courses.map((c) => (
                     <td key={c.id} className="p-3">
                       {c.website_url ? (
@@ -125,7 +125,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                           href={c.website_url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[#5B0F18] font-bold hover:underline inline-flex items-center gap-1"
+                          className="text-[var(--theme-primary)] font-bold hover:underline inline-flex items-center gap-1"
                         >
                           <span>เปิดเว็บไซต์</span>
                           <ExternalLink className="w-3 h-3" />
@@ -142,16 +142,16 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
         </div>
 
         {/* Footer */}
-        <div className="px-6 py-4 border-t border-stone-200 bg-stone-50/80 flex items-center justify-between">
+        <div className="px-6 py-4 border-t border-[var(--theme-border)] bg-[var(--theme-card-subtle)] flex items-center justify-between">
           <button
             onClick={onClearAll}
-            className="text-xs text-rose-700 font-bold hover:underline cursor-pointer"
+            className="text-xs text-[var(--theme-accent)] font-bold hover:underline cursor-pointer"
           >
             ล้างการเปรียบเทียบทั้งหมด
           </button>
           <button
             onClick={onClose}
-            className="px-5 py-2 rounded-xl bg-stone-800 hover:bg-stone-900 text-white text-xs font-bold transition-all cursor-pointer"
+            className="px-5 py-2 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold transition-all cursor-pointer"
           >
             ปิดหน้าต่าง
           </button>

@@ -25,14 +25,53 @@
 ```
 
 * **Frontend (`/frontend`):**
-  * **Framework:** Next.js (App Router, TypeScript, React 19).
-  * **Styling & UI:** Tailwind CSS, Lucide React Icons.
+  * **Framework:** Next.js `16.3.2` (App Router, Turbopack, React Server/Client Components).
+  * **Core Engine:** React `19.2.8` & React DOM `19.2.8`.
+  * **Styling:** Tailwind CSS `v4.x` (`@tailwindcss/postcss` `^4.0.0`) with `@theme` and `@custom-variant dark`.
+  * **Language:** TypeScript `^5.0.0` (Strict typing, central types in `frontend/src/types/index.ts`).
+  * **Icons:** `lucide-react` `^1.34.0`.
 * **Backend (`/backend`):**
-  * **Framework:** Python 3.12 (FastAPI, Uvicorn, SQLAlchemy, Pydantic v2).
-  * **AI & NLP:** Google Gemini API (`text-embedding-004`), PgVector Cosine Similarity, Query Expansion.
-  * **Scraping Engine:** `requests`, `beautifulsoup4`, SerpApi (Google Scholar).
+  * **Runtime:** Python `3.12+`.
+  * **API Framework:** FastAPI `>=0.110.0`, Uvicorn `>=0.28.0`.
+  * **Data Validation:** Pydantic `v2.6.0+` (`pydantic-settings` `>=2.2.0`).
+  * **ORM & Database:** SQLAlchemy `2.0+`, `psycopg2-binary`, `pgvector`.
+  * **AI & NLP:** `google-genai` `>=0.1.1` (Gemini API with `text-embedding-004` & `gemini-2.5-flash` / `gemini-3.6-flash`).
+  * **Scraping Engine:** `httpx` `>=0.27.0`, `requests` `>=2.31.0`, `beautifulsoup4` `>=4.12.3`, `rapidfuzz`, `scholarly`.
 * **Database & Vector Store:**
   * **Production:** PostgreSQL + `pgvector` hosted on **Supabase**.
+
+---
+
+## 2.1 Strict Technology Versions & Syntax Standards (Must Read Before Editing)
+
+All agents and developers MUST strictly follow the exact syntax standards corresponding to these library versions:
+
+### 1. Tailwind CSS v4 Rules:
+- **No `tailwind.config.js`:** Tailwind CSS v4 is configured via CSS directives in `frontend/src/app/globals.css`.
+- **CSS Import:** Always use `@import "tailwindcss";` at the top.
+- **Theme Variables:** Declare variables using `@theme { ... }` blocks.
+- **Class-based Dark Mode:** To ensure class-based dark mode toggling (`<html class="dark">`) works with `dark:*` utility classes, `globals.css` MUST always retain:
+  ```css
+  @custom-variant dark (&:where(.dark, .dark *));
+  ```
+- **Never downgrade or inject Tailwind v3 configs or plugins** (e.g., do not add `@tailwind base;` or create `tailwind.config.js`).
+
+### 2. Next.js 16 & React 19 Rules:
+- **App Router:** Use App Router conventions under `frontend/src/app/`.
+- **Client Components:** Any interactive component using React hooks (`useState`, `useEffect`, `useRouter`, `useSearchParams`) MUST have `"use client";` at the very top.
+- **React 19 Compatibility:** Ensure hooks and component trees adhere to React 19 standards. Never use deprecated legacy lifecycles or legacy context patterns.
+
+### 3. Pydantic v2 & FastAPI Rules:
+- **Pydantic v2 Syntax:** Always use Pydantic v2 methods:
+  - Use `model.model_dump()` and `model.model_dump_json()` instead of deprecated `dict()` / `json()`.
+  - Use `@field_validator("field_name", mode="before")` and `@model_validator(mode="after")` instead of deprecated `@validator` / `@root_validator`.
+  - Use `ConfigDict(from_attributes=True)` instead of `class Config: orm_mode = True`.
+- **FastAPI Type Annotations:** Utilize standard Python 3.12 type union syntax (`str | None`, `list[str]`) for models and route parameters.
+
+### 4. SQLAlchemy 2.0 & pgvector Rules:
+- **2.0 Style Queries:** Always use `select(Model).where(...)` and execute via session (`session.scalars(query)` / `session.execute(query)`).
+- **Vector Cosine Distance:** Execute direct HNSW vector ordering with `order_by(Model.embedding.cosine_distance(query_vector))` and `filter(Model.embedding.isnot(None))`. Never wrap distances in functions that break index scans.
+- **Column Deferrals:** Always apply `.options(defer(Model.embedding))` on list and search queries to avoid large vector payload memory overheads.
 
 ---
 

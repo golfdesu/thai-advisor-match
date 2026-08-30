@@ -203,7 +203,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#F8F1E7] text-stone-800 flex flex-col selection:bg-[#5B0F18] selection:text-white font-sans antialiased">
+    <div className="min-h-screen bg-[var(--theme-bg)] text-[var(--theme-text-body)] flex flex-col selection:bg-[var(--theme-primary)] selection:text-[var(--theme-primary-contrast)] font-sans antialiased">
       {/* Editorial Header */}
       <Header
         savedCount={savedCourses.length + savedAdvisors.length}
@@ -211,31 +211,31 @@ export default function Home() {
       />
 
       {/* Hero Exploration Section */}
-      <section className="relative pt-12 pb-16 px-4 sm:px-6 lg:px-8 border-b border-stone-200 bg-linear-to-b from-[#F8F1E7] via-[#F4EAE0] to-[#EFE2D2]">
+      <section className="relative pt-12 pb-16 px-4 sm:px-6 lg:px-8 border-b border-[var(--theme-border)] bg-linear-to-b from-[var(--theme-card)] via-[var(--theme-bg)] to-[var(--theme-card-subtle)]">
         <div className="max-w-4xl mx-auto text-center space-y-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-100/90 border border-stone-300/80 text-stone-700 text-xs font-semibold">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[var(--theme-text-muted)] text-xs font-semibold shadow-2xs">
             <span>ฐานข้อมูลการศึกษาและคณาจารย์ระดับอุดมศึกษาไทย</span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-stone-900 leading-tight">
+          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-[var(--theme-text-title)] leading-tight">
             ค้นหาหลักสูตรการศึกษา <br className="hidden sm:inline" />
-            <span className="text-[#5B0F18]">
+            <span className="text-[var(--theme-primary)] transition-colors">
               และอาจารย์ที่ปรึกษางานวิจัย
             </span>
           </h1>
 
-          <p className="text-stone-600 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+          <p className="text-[var(--theme-text-muted)] text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
             รวบรวมข้อมูลหลักสูตรปริญญาตรี ปริญญาโท ปริญญาเอก และความเชี่ยวชาญของคณาจารย์จากมหาวิทยาลัยชั้นนำทั่วประเทศ
           </p>
 
           {/* Tab Selector */}
-          <div className="inline-flex p-1 rounded-2xl bg-stone-200/90 border border-stone-300/80">
+          <div className="inline-flex p-1 rounded-2xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] shadow-2xs">
             <button
               onClick={() => setActiveTab("courses")}
               className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 activeTab === "courses"
-                  ? "bg-[#5B0F18] text-white shadow-sm"
-                  : "text-stone-700 hover:text-[#5B0F18]"
+                  ? "bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-sm"
+                  : "text-[var(--theme-text-body)] hover:text-[var(--theme-primary)]"
               }`}
             >
               <BookOpen className="w-4 h-4" />
@@ -246,8 +246,8 @@ export default function Home() {
               onClick={() => setActiveTab("advisors")}
               className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
                 activeTab === "advisors"
-                  ? "bg-[#5B0F18] text-white shadow-sm"
-                  : "text-stone-700 hover:text-[#5B0F18]"
+                  ? "bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-sm"
+                  : "text-[var(--theme-text-body)] hover:text-[var(--theme-primary)]"
               }`}
             >
               <Users className="w-4 h-4" />
@@ -258,7 +258,7 @@ export default function Home() {
           {/* Search Bar */}
           <div className="relative max-w-2xl mx-auto">
             <div className="relative flex items-center">
-              <Search className="absolute left-4.5 w-5 h-5 text-stone-400" />
+              <Search className="absolute left-4.5 w-5 h-5 text-[var(--theme-text-muted)]" />
               <input
                 type="text"
                 value={searchQuery}
@@ -269,12 +269,12 @@ export default function Home() {
                     ? "ค้นหาชื่อหลักสูตร หรือสาขาวิชา เช่น วิศวกรรมคอมพิวเตอร์, การเงิน, แพทยศาสตร์..."
                     : "ระบุหัวข้อวิจัย หรือความสนใจ เช่น Natural Language Processing, พลังงานหมุนเวียน..."
                 }
-                className="w-full pl-12 pr-28 py-4 rounded-2xl bg-white border border-stone-300 text-stone-900 placeholder-stone-400 text-sm focus:outline-none focus:ring-2 focus:ring-[#5B0F18] focus:border-transparent shadow-sm transition-all"
+                className="w-full pl-12 pr-28 py-4 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-[var(--theme-text-title)] placeholder-[var(--theme-text-muted)] text-sm focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] focus:border-transparent shadow-sm transition-all"
               />
               <button
                 onClick={() => executeSearch()}
                 disabled={loading}
-                className="absolute right-2 px-5 py-2.5 rounded-xl bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold transition-all flex items-center gap-1.5 shadow-sm disabled:opacity-50 cursor-pointer"
+                className="absolute right-2 px-5 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold transition-all flex items-center gap-1.5 shadow-sm disabled:opacity-50 cursor-pointer"
               >
                 {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Search className="w-4 h-4" />}
                 <span>ค้นหา</span>
@@ -284,8 +284,8 @@ export default function Home() {
 
           {/* Popular Search Suggestions */}
           <div className="flex flex-wrap items-center justify-center gap-2 pt-1">
-            <span className="text-xs text-stone-500 font-semibold flex items-center gap-1">
-              <TrendingUp className="w-3.5 h-3.5 text-[#5B0F18]" /> หมวดหมู่แนะนำ:
+            <span className="text-xs text-[var(--theme-text-muted)] font-semibold flex items-center gap-1">
+              <TrendingUp className="w-3.5 h-3.5 text-[var(--theme-accent)]" /> หมวดหมู่แนะนำ:
             </span>
             {popularTopics.map((t, idx) => (
               <button
@@ -294,7 +294,7 @@ export default function Home() {
                   setSearchQuery(t.query);
                   executeSearch(t.query);
                 }}
-                className="px-3 py-1 rounded-xl bg-white hover:bg-stone-50 text-[11px] font-medium text-stone-700 border border-stone-200 hover:border-[#5B0F18] hover:text-[#5B0F18] shadow-2xs transition-all cursor-pointer"
+                className="px-3 py-1 rounded-xl bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] text-[11px] font-medium text-[var(--theme-text-body)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)] shadow-2xs transition-all cursor-pointer"
               >
                 {t.label}
               </button>
@@ -302,18 +302,18 @@ export default function Home() {
           </div>
 
           {/* Institutional Metrics */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 max-w-2xl mx-auto pt-6 border-t border-stone-200/80">
-            <div className="p-3.5 rounded-2xl bg-white/90 border border-stone-200/90 shadow-2xs">
-              <div className="text-xl font-extrabold text-[#5B0F18]">2,800+</div>
-              <div className="text-xs text-stone-600 font-medium">หลักสูตรระดับอุดมศึกษา</div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 max-w-2xl mx-auto pt-6 border-t border-[var(--theme-border)]">
+            <div className="p-3.5 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-2xs">
+              <div className="text-xl font-extrabold text-[var(--theme-primary)]">2,800+</div>
+              <div className="text-xs text-[var(--theme-text-muted)] font-medium">หลักสูตรระดับอุดมศึกษา</div>
             </div>
-            <div className="p-3.5 rounded-2xl bg-white/90 border border-stone-200/90 shadow-2xs">
-              <div className="text-xl font-extrabold text-[#5B0F18]">1,000+</div>
-              <div className="text-xs text-stone-600 font-medium">อาจารย์และนักวิจัย</div>
+            <div className="p-3.5 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-2xs">
+              <div className="text-xl font-extrabold text-[var(--theme-accent)]">1,000+</div>
+              <div className="text-xs text-[var(--theme-text-muted)] font-medium">อาจารย์และนักวิจัย</div>
             </div>
-            <div className="p-3.5 rounded-2xl bg-white/90 border border-stone-200/90 shadow-2xs col-span-2 sm:col-span-1">
-              <div className="text-xl font-extrabold text-[#5B0F18]">25+</div>
-              <div className="text-xs text-stone-600 font-medium">มหาวิทยาลัยชั้นนำ</div>
+            <div className="p-3.5 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-2xs col-span-2 sm:col-span-1">
+              <div className="text-xl font-extrabold text-[var(--theme-primary)]">25+</div>
+              <div className="text-xs text-[var(--theme-text-muted)] font-medium">มหาวิทยาลัยชั้นนำ</div>
             </div>
           </div>
         </div>
@@ -345,21 +345,21 @@ export default function Home() {
         )}
 
         {/* Results Counter & Meta */}
-        <div className="flex items-center justify-between text-xs text-stone-600">
+        <div className="flex items-center justify-between text-xs text-[var(--theme-text-muted)]">
           <div>
             <span>แสดงผลลัพธ์: </span>
-            <strong className="text-stone-900">
+            <strong className="text-[var(--theme-text-title)]">
               {activeTab === "courses" ? `${courses.length} หลักสูตร` : `${advisors.length} ท่าน`}
             </strong>
             {searchQuery && (
-              <span className="text-stone-500"> สำหรับคำค้นหา &ldquo;{searchQuery}&rdquo;</span>
+              <span className="text-[var(--theme-text-muted)]"> สำหรับคำค้นหา &ldquo;{searchQuery}&rdquo;</span>
             )}
           </div>
 
           {activeTab === "courses" && comparedCourses.length > 0 && (
             <button
               onClick={() => setShowComparisonModal(true)}
-              className="text-xs font-bold text-[#5B0F18] hover:underline flex items-center gap-1 cursor-pointer"
+              className="text-xs font-bold text-[var(--theme-primary)] hover:underline flex items-center gap-1 cursor-pointer"
             >
               <Scale className="w-3.5 h-3.5" />
               <span>เปิดตารางเปรียบเทียบ ({comparedCourses.length})</span>
@@ -369,17 +369,17 @@ export default function Home() {
 
         {/* Loading State */}
         {loading ? (
-          <div className="p-16 flex flex-col items-center justify-center space-y-3 bg-white/60 rounded-3xl border border-stone-200">
-            <Loader2 className="w-8 h-8 text-[#5B0F18] animate-spin" />
-            <p className="text-xs font-semibold text-stone-600">กำลังประมวลผลข้อมูลการค้นหา...</p>
+          <div className="p-16 flex flex-col items-center justify-center space-y-3 bg-[var(--theme-card)]/60 rounded-3xl border border-[var(--theme-border)]">
+            <Loader2 className="w-8 h-8 text-[var(--theme-primary)] animate-spin" />
+            <p className="text-xs font-semibold text-[var(--theme-text-muted)]">กำลังประมวลผลข้อมูลการค้นหา...</p>
           </div>
         ) : activeTab === "courses" ? (
           /* COURSES GRID */
           !Array.isArray(courses) || courses.length === 0 ? (
-            <div className="p-16 text-center rounded-3xl bg-white border border-stone-200 space-y-3 shadow-2xs">
-              <BookOpen className="w-10 h-10 text-stone-400 mx-auto" />
-              <h3 className="text-base font-bold text-stone-800">ไม่พบหลักสูตรที่ตรงกับเงื่อนไข</h3>
-              <p className="text-xs text-stone-500">
+            <div className="p-16 text-center rounded-3xl bg-[var(--theme-card)] border border-[var(--theme-border)] space-y-3 shadow-2xs">
+              <BookOpen className="w-10 h-10 text-[var(--theme-text-muted)] mx-auto" />
+              <h3 className="text-base font-bold text-[var(--theme-text-title)]">ไม่พบหลักสูตรที่ตรงกับเงื่อนไข</h3>
+              <p className="text-xs text-[var(--theme-text-muted)]">
                 ลองปรับเปลี่ยนคำค้นหา หรือเลือกตัวกรองระดับการศึกษาใหม่อีกครั้ง
               </p>
             </div>
@@ -400,10 +400,10 @@ export default function Home() {
         ) : (
           /* ADVISORS GRID */
           !Array.isArray(advisors) || advisors.length === 0 ? (
-            <div className="p-16 text-center rounded-3xl bg-white border border-stone-200 space-y-3 shadow-2xs">
-              <Users className="w-10 h-10 text-stone-400 mx-auto" />
-              <h3 className="text-base font-bold text-stone-800">ไม่พบคณาจารย์ที่ตรงกับเงื่อนไข</h3>
-              <p className="text-xs text-stone-500">
+            <div className="p-16 text-center rounded-3xl bg-[var(--theme-card)] border border-[var(--theme-border)] space-y-3 shadow-2xs">
+              <Users className="w-10 h-10 text-[var(--theme-text-muted)] mx-auto" />
+              <h3 className="text-base font-bold text-[var(--theme-text-title)]">ไม่พบคณาจารย์ที่ตรงกับเงื่อนไข</h3>
+              <p className="text-xs text-[var(--theme-text-muted)]">
                 ลองระบุหัวข้อวิจัยเป็นภาษาไทยหรืออังกฤษ เช่น &quot;Biomedical Engineering&quot;, &quot;พลังงานแสงอาทิตย์&quot;
               </p>
             </div>
@@ -426,7 +426,7 @@ export default function Home() {
       {/* Floating Comparison Dock */}
       {comparedCourses.length > 0 && (
         <aside className="fixed bottom-6 inset-x-0 mx-auto max-w-xl z-30 px-4">
-          <div className="p-3.5 rounded-2xl bg-stone-900/95 backdrop-blur-md text-white shadow-2xl border border-stone-700 flex items-center justify-between gap-3">
+          <div className="p-3.5 rounded-2xl bg-slate-900/95 backdrop-blur-md text-white shadow-2xl border border-slate-700 flex items-center justify-between gap-3">
             <div className="flex items-center gap-2">
               <Scale className="w-4 h-4 text-amber-400" />
               <span className="text-xs font-semibold">
@@ -436,13 +436,13 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <button
                 onClick={() => setComparedCourses([])}
-                className="text-[11px] text-stone-400 hover:text-white px-2 py-1 cursor-pointer"
+                className="text-[11px] text-slate-400 hover:text-white px-2 py-1 cursor-pointer"
               >
                 ล้าง
               </button>
               <button
                 onClick={() => setShowComparisonModal(true)}
-                className="px-4 py-1.5 rounded-xl bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold shadow-sm flex items-center gap-1.5 cursor-pointer"
+                className="px-4 py-1.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold shadow-sm flex items-center gap-1.5 cursor-pointer"
               >
                 <span>เปิดตารางเปรียบเทียบ</span>
               </button>

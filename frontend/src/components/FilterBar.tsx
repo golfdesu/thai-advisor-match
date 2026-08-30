@@ -19,10 +19,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   onSelectDegree,
 }) => {
   return (
-    <div className="p-4 rounded-2xl bg-white border border-stone-200 shadow-xs flex flex-wrap items-center justify-between gap-4">
+    <div className="p-4 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-xs flex flex-wrap items-center justify-between gap-4">
       <div className="flex flex-wrap items-center gap-3 w-full sm:w-auto">
-        <div className="flex items-center gap-2 text-xs font-bold text-stone-700">
-          <SlidersHorizontal className="w-4 h-4 text-[#5B0F18]" />
+        <div className="flex items-center gap-2 text-xs font-bold text-[var(--theme-text-title)]">
+          <SlidersHorizontal className="w-4 h-4 text-[var(--theme-primary)]" />
           <span>คัดกรอง:</span>
         </div>
 
@@ -30,7 +30,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         <select
           value={selectedUni}
           onChange={(e) => onSelectUni(e.target.value)}
-          className="px-3 py-1.5 rounded-xl bg-stone-50 border border-stone-200 text-xs text-stone-800 font-medium focus:outline-none focus:ring-1 focus:ring-[#5B0F18] cursor-pointer"
+          className="px-3 py-1.5 rounded-xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-xs text-[var(--theme-text-title)] font-medium focus:outline-none focus:ring-1 focus:ring-[var(--theme-primary)] cursor-pointer"
         >
           <option value="all">ทุกมหาวิทยาลัย (All Universities)</option>
           <option value="จุฬาลงกรณ์มหาวิทยาลัย">จุฬาลงกรณ์มหาวิทยาลัย (CU)</option>
@@ -56,7 +56,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 
         {/* Degree Level Filter Tabs */}
         {activeTab === "courses" && (
-          <div className="flex items-center gap-1 p-0.5 rounded-xl bg-stone-100 border border-stone-200">
+          <div className="flex items-center gap-1 p-0.5 rounded-xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)]">
             {[
               { id: "all", label: "ทุกระดับ" },
               { id: "ปริญญาตรี", label: "ปริญญาตรี" },
@@ -68,8 +68,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 onClick={() => onSelectDegree(deg.id)}
                 className={`px-3 py-1 rounded-lg text-[11px] font-bold transition-all cursor-pointer ${
                   selectedDegree === deg.id
-                    ? "bg-[#5B0F18] text-white shadow-2xs"
-                    : "text-stone-600 hover:text-stone-900"
+                    ? "bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-2xs"
+                    : "text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)]"
                 }`}
               >
                 {deg.label}

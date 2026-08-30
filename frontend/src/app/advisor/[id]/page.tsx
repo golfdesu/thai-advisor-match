@@ -52,23 +52,23 @@ export default function AdvisorProfilePage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-[#F8F1E7] flex flex-col items-center justify-center">
-        <Loader2 size={48} className="text-[#5B0F18] animate-spin mb-4" />
-        <p className="text-stone-600 font-medium">กำลังโหลดข้อมูล...</p>
+      <div className="min-h-screen bg-[var(--theme-bg)] flex flex-col items-center justify-center">
+        <Loader2 size={48} className="text-[var(--theme-primary)] animate-spin mb-4" />
+        <p className="text-[var(--theme-text-muted)] font-medium">กำลังโหลดข้อมูล...</p>
       </div>
     );
   }
 
   if (error || !advisor) {
     return (
-      <div className="min-h-screen bg-[#F8F1E7] p-8 flex flex-col items-center justify-center text-center">
-        <div className="bg-white p-8 rounded-3xl border border-stone-300 shadow-sm max-w-md w-full">
-          <AlertCircle size={48} className="text-amber-600 mx-auto mb-4" />
-          <h2 className="text-xl font-bold text-stone-900 mb-2">ไม่พบข้อมูล</h2>
-          <p className="text-stone-600 mb-6">{error || "อาจารย์ที่ปรึกษาไม่มีอยู่ในระบบ"}</p>
+      <div className="min-h-screen bg-[var(--theme-bg)] p-8 flex flex-col items-center justify-center text-center">
+        <div className="bg-[var(--theme-card)] p-8 rounded-3xl border border-[var(--theme-border)] shadow-sm max-w-md w-full">
+          <AlertCircle size={48} className="text-[var(--theme-accent)] mx-auto mb-4" />
+          <h2 className="text-xl font-bold text-[var(--theme-text-title)] mb-2">ไม่พบข้อมูล</h2>
+          <p className="text-[var(--theme-text-muted)] mb-6">{error || "อาจารย์ที่ปรึกษาไม่มีอยู่ในระบบ"}</p>
           <button
             onClick={() => router.push("/")}
-            className="bg-[#5B0F18] hover:bg-[#4a0c13] text-white font-bold px-6 py-2.5 rounded-xl transition w-full shadow-sm"
+            className="bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] font-bold px-6 py-2.5 rounded-xl transition w-full shadow-sm cursor-pointer"
           >
             กลับสู่หน้าหลัก
           </button>
@@ -78,13 +78,13 @@ export default function AdvisorProfilePage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F8F1E7] text-stone-800 pb-20 selection:bg-[#5B0F18] selection:text-white">
+    <div className="min-h-screen bg-[var(--theme-bg)] text-[var(--theme-text-body)] pb-20 selection:bg-[var(--theme-primary)] selection:text-[var(--theme-primary-contrast)] font-sans antialiased">
       {/* Top Banner */}
-      <div className="bg-[#5B0F18] h-48 md:h-64 w-full relative">
+      <div className="bg-[var(--theme-primary)] h-48 md:h-64 w-full relative border-b border-[var(--theme-border)]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-6">
           <button
             onClick={() => router.back()}
-            className="inline-flex items-center gap-2 text-white bg-black/20 hover:bg-black/30 backdrop-blur-md px-4 py-2 rounded-xl transition text-sm font-bold shadow-sm"
+            className="inline-flex items-center gap-2 text-white bg-black/20 hover:bg-black/30 backdrop-blur-md px-4 py-2 rounded-xl transition text-sm font-bold shadow-sm cursor-pointer"
           >
             <ArrowLeft size={16} /> กลับ
           </button>
@@ -92,10 +92,10 @@ export default function AdvisorProfilePage() {
       </div>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 -mt-24 md:-mt-32 relative z-10">
-        <div className="bg-white rounded-3xl shadow-xl shadow-stone-300/40 border border-stone-200 overflow-hidden">
+        <div className="bg-[var(--theme-card)] rounded-3xl shadow-sm border border-[var(--theme-border)] overflow-hidden">
 
           {/* Header Section */}
-          <div className="p-6 md:p-10 flex flex-col md:flex-row gap-6 md:gap-8 items-start border-b border-stone-200">
+          <div className="p-6 md:p-10 flex flex-col md:flex-row gap-6 md:gap-8 items-start border-b border-[var(--theme-border)]">
             <img
               src={advisor.image_url || getAdvisorAvatarUrl(advisor.full_name_th)}
               alt={advisor.full_name_th}
@@ -104,29 +104,29 @@ export default function AdvisorProfilePage() {
               onError={(e) => {
                 (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(advisor.full_name_th);
               }}
-              className="w-32 h-32 md:w-40 md:h-40 rounded-3xl object-cover border-4 border-white shadow-lg flex-shrink-0 bg-stone-100"
+              className="w-32 h-32 md:w-40 md:h-40 rounded-3xl object-cover border-4 border-[var(--theme-card)] shadow-lg flex-shrink-0 bg-[var(--theme-card-subtle)]"
             />
             <div className="flex-1 w-full">
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-4">
                 <div>
-                  <h1 className="text-3xl md:text-4xl font-extrabold text-stone-900 mb-2 leading-tight">
+                  <h1 className="text-3xl md:text-4xl font-extrabold text-[var(--theme-text-title)] mb-2 leading-tight">
                     {advisor.full_name_th}
                   </h1>
                   {advisor.full_name && (
-                    <p className="text-stone-500 font-medium mb-3 text-lg">{advisor.full_name}</p>
+                    <p className="text-[var(--theme-text-muted)] font-medium mb-3 text-lg">{advisor.full_name}</p>
                   )}
 
                   <div className="flex flex-wrap items-center gap-2 mb-4">
-                    <span className="bg-rose-50 text-[#5B0F18] text-sm font-bold px-3 py-1 rounded-lg border border-rose-200 flex items-center gap-1.5">
+                    <span className="bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] border border-[var(--theme-accent-border)] text-sm font-bold px-3 py-1 rounded-lg flex items-center gap-1.5">
                       <Award size={16} /> {advisor.role || "อาจารย์ประจำ"}
                     </span>
-                    <span className="bg-stone-100 text-stone-700 text-sm font-semibold px-3 py-1 rounded-lg flex items-center gap-1.5">
-                      <Building2 size={16} className="text-stone-400" />
+                    <span className="bg-[var(--theme-card-subtle)] text-[var(--theme-text-body)] border border-[var(--theme-border)] text-sm font-semibold px-3 py-1 rounded-lg flex items-center gap-1.5">
+                      <Building2 size={16} className="text-[var(--theme-text-muted)]" />
                       {advisor.department_th}
                     </span>
                   </div>
 
-                  <p className="text-stone-600 font-medium text-sm">
+                  <p className="text-[var(--theme-text-muted)] font-medium text-sm">
                     {advisor.faculty_th} • {advisor.university_th}
                   </p>
                 </div>
@@ -135,7 +135,7 @@ export default function AdvisorProfilePage() {
                   {advisor.email && (
                     <a
                       href={`mailto:${advisor.email}`}
-                      className="bg-[#5B0F18] hover:bg-[#4a0c13] text-white font-bold px-5 py-2.5 rounded-xl transition shadow-md flex items-center justify-center gap-2 whitespace-nowrap"
+                      className="bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] font-bold px-5 py-2.5 rounded-xl transition shadow-md flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer"
                     >
                       <Mail size={18} /> ติดต่อผ่านอีเมล
                     </a>
@@ -145,7 +145,7 @@ export default function AdvisorProfilePage() {
                       href={advisor.profile_url}
                       target="_blank"
                       rel="noreferrer"
-                      className="bg-stone-100 hover:bg-stone-200 text-stone-800 font-bold px-5 py-2.5 rounded-xl transition flex items-center justify-center gap-2 whitespace-nowrap border border-stone-200"
+                      className="bg-[var(--theme-card-subtle)] hover:bg-[var(--theme-card)] text-[var(--theme-text-title)] font-bold px-5 py-2.5 rounded-xl transition flex items-center justify-center gap-2 whitespace-nowrap border border-[var(--theme-border)] cursor-pointer"
                     >
                       <span>เว็บมหาวิทยาลัย</span>
                       <ExternalLink size={16} />
@@ -165,13 +165,13 @@ export default function AdvisorProfilePage() {
               {/* Research Interests */}
               {advisor.research_interests && advisor.research_interests.length > 0 && (
                 <section>
-                  <h2 className="text-lg font-bold text-stone-900 mb-4 flex items-center gap-2">
-                    <BookOpen className="text-[#5B0F18]" size={20} />
+                  <h2 className="text-lg font-bold text-[var(--theme-text-title)] mb-4 flex items-center gap-2">
+                    <BookOpen className="text-[var(--theme-primary)]" size={20} />
                     สาขาวิจัยและความเชี่ยวชาญ (Research Interests)
                   </h2>
                   <div className="flex flex-wrap gap-2">
                     {advisor.research_interests.map((interest, i) => (
-                      <span key={i} className="bg-stone-100 border border-stone-200 text-stone-800 font-medium px-3.5 py-1.5 rounded-xl text-sm">
+                      <span key={i} className="bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[var(--theme-text-title)] font-medium px-3.5 py-1.5 rounded-xl text-sm">
                         {interest}
                       </span>
                     ))}
@@ -182,17 +182,17 @@ export default function AdvisorProfilePage() {
               {/* Education */}
               {advisor.education && advisor.education.length > 0 && (
                 <section>
-                  <h2 className="text-lg font-bold text-stone-900 mb-4 flex items-center gap-2">
-                    <GraduationCap className="text-[#5B0F18]" size={20} />
+                  <h2 className="text-lg font-bold text-[var(--theme-text-title)] mb-4 flex items-center gap-2">
+                    <GraduationCap className="text-[var(--theme-primary)]" size={20} />
                     ประวัติการศึกษา (Education)
                   </h2>
                   <div className="space-y-3">
                     {advisor.education.map((edu, i) => (
-                      <div key={i} className="flex gap-3 bg-stone-50 p-4 rounded-2xl border border-stone-200">
-                        <div className="w-8 h-8 rounded-full bg-rose-100 text-[#5B0F18] flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <div key={i} className="flex gap-3 bg-[var(--theme-card-subtle)] p-4 rounded-2xl border border-[var(--theme-border)]">
+                        <div className="w-8 h-8 rounded-full bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] flex items-center justify-center flex-shrink-0 mt-0.5">
                           <GraduationCap size={16} />
                         </div>
-                        <p className="text-sm text-stone-700 font-medium leading-relaxed">{edu}</p>
+                        <p className="text-sm text-[var(--theme-text-body)] font-medium leading-relaxed">{edu}</p>
                       </div>
                     ))}
                   </div>
@@ -203,25 +203,25 @@ export default function AdvisorProfilePage() {
               {advisor.featured_publications && advisor.featured_publications.length > 0 && (
                 <section>
                   <div className="flex items-center justify-between mb-4">
-                    <h2 className="text-lg font-bold text-stone-900 flex items-center gap-2">
-                      <FileText className="text-[#5B0F18]" size={20} />
+                    <h2 className="text-lg font-bold text-[var(--theme-text-title)] flex items-center gap-2">
+                      <FileText className="text-[var(--theme-primary)]" size={20} />
                       ผลงานวิชาการและงานวิจัยเด่น (Publications)
                     </h2>
                     {advisor.scholar_url && (
-                      <a href={advisor.scholar_url} target="_blank" rel="noreferrer" className="text-xs font-bold text-[#5B0F18] hover:underline flex items-center gap-1 bg-stone-100 border border-stone-200 px-3 py-1.5 rounded-lg transition">
+                      <a href={advisor.scholar_url} target="_blank" rel="noreferrer" className="text-xs font-bold text-[var(--theme-primary)] hover:underline flex items-center gap-1 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] px-3 py-1.5 rounded-lg transition">
                         Google Scholar <ExternalLink size={14} />
                       </a>
                     )}
                   </div>
                   <div className="space-y-3">
                     {advisor.featured_publications.map((pub, i) => (
-                      <div key={i} className="bg-white p-4 rounded-2xl border border-stone-200 shadow-xs hover:border-[#5B0F18] transition">
-                        <h4 className="font-bold text-sm text-stone-900 leading-snug mb-2">{pub.title}</h4>
-                        <div className="flex flex-wrap items-center gap-3 text-xs text-stone-500 font-medium">
-                          {pub.year && <span className="bg-stone-100 px-2 py-0.5 rounded-md text-stone-700 font-semibold">{pub.year}</span>}
+                      <div key={i} className="bg-[var(--theme-card)] p-4 rounded-2xl border border-[var(--theme-border)] shadow-xs hover:border-[var(--theme-primary)] transition">
+                        <h4 className="font-bold text-sm text-[var(--theme-text-title)] leading-snug mb-2">{pub.title}</h4>
+                        <div className="flex flex-wrap items-center gap-3 text-xs text-[var(--theme-text-muted)] font-medium">
+                          {pub.year && <span className="bg-[var(--theme-card-subtle)] px-2 py-0.5 rounded-md text-[var(--theme-text-body)] font-semibold border border-[var(--theme-border)]">{pub.year}</span>}
                           {pub.venue && <span>{pub.venue}</span>}
                           {pub.citation_count !== undefined && pub.citation_count > 0 && (
-                            <span className="text-stone-700 bg-stone-100 px-2 py-0.5 rounded-md border border-stone-200 font-medium">
+                            <span className="text-[var(--theme-text-body)] bg-[var(--theme-card-subtle)] px-2 py-0.5 rounded-md border border-[var(--theme-border)] font-medium">
                               อ้างอิง {pub.citation_count} ครั้ง
                             </span>
                           )}
@@ -239,15 +239,15 @@ export default function AdvisorProfilePage() {
 
               {/* Taught Courses */}
               {advisor.taught_courses && advisor.taught_courses.length > 0 && (
-                <div className="bg-white rounded-3xl border border-stone-200 p-6 shadow-sm">
-                  <h3 className="text-base font-bold text-stone-900 mb-4 flex items-center gap-2">
-                    <BookOpen className="text-[#5B0F18]" size={20} />
+                <div className="bg-[var(--theme-card)] rounded-3xl border border-[var(--theme-border)] p-6 shadow-sm">
+                  <h3 className="text-base font-bold text-[var(--theme-text-title)] mb-4 flex items-center gap-2">
+                    <BookOpen className="text-[var(--theme-primary)]" size={20} />
                     รายวิชาที่รับผิดชอบ
                   </h3>
                   <ul className="space-y-2">
                     {advisor.taught_courses.map((course, i) => (
-                      <li key={i} className="flex gap-2 text-sm text-stone-700 font-medium">
-                        <span className="text-[#5B0F18] font-black">•</span>
+                      <li key={i} className="flex gap-2 text-sm text-[var(--theme-text-body)] font-medium">
+                        <span className="text-[var(--theme-primary)] font-black">•</span>
                         <span>{course}</span>
                       </li>
                     ))}
@@ -256,14 +256,14 @@ export default function AdvisorProfilePage() {
               )}
 
               {/* Quick Contact Card */}
-              <div className="bg-[#EFE4D2] rounded-3xl border border-stone-300 p-6">
-                <h3 className="text-sm font-bold text-[#5B0F18] mb-2">สนใจติดต่ออาจารย์ที่ปรึกษา?</h3>
-                <p className="text-xs text-stone-700 mb-4 leading-relaxed font-medium">
+              <div className="bg-[var(--theme-card-subtle)] rounded-3xl border border-[var(--theme-border)] p-6">
+                <h3 className="text-sm font-bold text-[var(--theme-primary)] mb-2">สนใจติดต่ออาจารย์ที่ปรึกษา?</h3>
+                <p className="text-xs text-[var(--theme-text-body)] mb-4 leading-relaxed font-medium">
                   คุณสามารถใช้ระบบช่วยร่างอีเมลแนะนำตัวพร้อมโครงร่างหัวข้อวิจัยที่เหมาะสมเพื่อติดต่ออาจารย์ได้
                 </p>
                 <button
                   onClick={() => router.push("/")}
-                  className="w-full bg-[#5B0F18] hover:bg-[#4a0c13] text-white text-xs font-bold py-2.5 rounded-xl shadow-sm transition flex justify-center items-center gap-1.5 cursor-pointer"
+                  className="w-full bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold py-2.5 rounded-xl shadow-sm transition flex justify-center items-center gap-1.5 cursor-pointer"
                 >
                   <span>กลับสู่หน้าหลักเพื่อร่างอีเมล</span>
                 </button>

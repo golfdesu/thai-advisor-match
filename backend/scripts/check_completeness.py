@@ -31,7 +31,7 @@ with engine.connect() as conn:
     for uni, target in targets.items():
         cur=conn.execute(text(f"SELECT count(*) FROM courses WHERE university='{uni}'")).scalar()
         diff=target-cur
-        status="ขาด" if diff>0 else "เกิน" if diff<0 else "ครบ"
+        status="Missing" if diff>0 else "Exceeds" if diff<0 else "Complete"
         print(f"{uni[:32]:32} cur {cur:3} / target {target:3} diff {diff:+4} {status}")
     # also list universities with 0 or <20
     low=conn.execute(text("SELECT university, count(*) FROM courses GROUP BY university HAVING count(*) < 30 ORDER BY count(*)")).fetchall()
