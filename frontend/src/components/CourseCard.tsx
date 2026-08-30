@@ -87,7 +87,7 @@ export const CourseCard: React.FC<CourseCardProps> = ({
   return (
     <div
       onClick={() => onSelectCourse && onSelectCourse(course)}
-      className="group relative p-6 sm:p-7 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all duration-300 flex flex-col justify-between hover:shadow-xl hover:shadow-[var(--theme-primary-glow)] cursor-pointer hover:-translate-y-1"
+      className="group relative p-5 sm:p-6 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all duration-200 flex flex-col justify-between hover:shadow-md cursor-pointer"
     >
       <div className="space-y-4">
         {/* Top Header Meta */}

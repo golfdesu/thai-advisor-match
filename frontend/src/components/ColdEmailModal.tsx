@@ -218,13 +218,13 @@ export const ColdEmailModal: React.FC<ColdEmailModalProps> = ({ advisor, onClose
         </div>
 
         {/* Modal Actions */}
-        <div className="px-6 sm:px-8 py-4.5 border-t border-[var(--theme-border)] bg-[var(--theme-card-subtle)]/90 flex items-center justify-between gap-3">
+        <div className="px-6 sm:px-8 py-4 border-t border-[var(--theme-border)] bg-[var(--theme-card-subtle)] flex items-center justify-between gap-3">
           {!generatedEmail ? (
             <>
               <button
                 type="button"
                 onClick={onClose}
-                className="text-xs sm:text-sm font-black text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] cursor-pointer"
+                className="text-xs sm:text-sm font-bold text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] cursor-pointer"
               >
                 ยกเลิก
               </button>
@@ -232,7 +232,7 @@ export const ColdEmailModal: React.FC<ColdEmailModalProps> = ({ advisor, onClose
                 type="button"
                 onClick={handleGenerate}
                 disabled={loading}
-                className="px-6 py-3 rounded-xl bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black transition-all shadow-md hover:shadow-lg flex items-center gap-2 disabled:opacity-50 cursor-pointer"
+                className="px-5 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-bold transition flex items-center gap-2 disabled:opacity-50 cursor-pointer"
               >
                 {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
                 <span>สร้างร่างอีเมล AI</span>
@@ -243,14 +243,14 @@ export const ColdEmailModal: React.FC<ColdEmailModalProps> = ({ advisor, onClose
               <button
                 type="button"
                 onClick={() => setGeneratedEmail(null)}
-                className="text-xs sm:text-sm font-black text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] cursor-pointer"
+                className="text-xs sm:text-sm font-bold text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] cursor-pointer"
               >
                 แก้ไขข้อมูลใหม่
               </button>
               <button
                 type="button"
                 onClick={copyToClipboard}
-                className="px-6 py-3 rounded-xl bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black transition-all shadow-md hover:shadow-lg flex items-center gap-2 cursor-pointer"
+                className="px-5 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-bold transition flex items-center gap-2 cursor-pointer"
               >
                 {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
                 <span>{copied ? "คัดลอกเรียบร้อย" : "คัดลอกข้อความ"}</span>

@@ -42,7 +42,7 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
   const hasExtendedInsights = hasMatchingPubs || hasSuggestedAngles;
 
   return (
-    <div className="group relative p-6 sm:p-7 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all duration-300 flex flex-col justify-between hover:shadow-xl hover:shadow-[var(--theme-primary-glow)] hover:-translate-y-1">
+    <div className="group relative p-5 sm:p-6 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all duration-200 flex flex-col justify-between hover:shadow-md">
       <div className="space-y-4">
         {/* Top Header Avatar & Title */}
         <div className="flex items-start justify-between gap-3">
@@ -222,7 +222,7 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
 
         <button
           onClick={() => onOpenColdEmail(f)}
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-black transition-all shadow-sm hover:shadow-md hover:shadow-[var(--theme-primary-glow)] cursor-pointer hover:scale-102"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold transition cursor-pointer"
         >
           <Mail className="w-4 h-4" />
           <span>ร่างอีเมล AI</span>

@@ -145,16 +145,12 @@ export default function AdvisorProfilePage() {
     <div className="min-h-screen bg-[var(--theme-bg)] text-[var(--theme-text-body)] flex flex-col selection:bg-[var(--theme-primary)] selection:text-[var(--theme-primary-contrast)] font-sans antialiased">
       <Header savedCount={0} onOpenSavedModal={() => {}} />
 
-      {/* Top Atmospheric Banner */}
-      <div className="relative bg-[var(--theme-card-subtle)] border-b border-[var(--theme-border)] pt-8 pb-28 sm:pb-36 px-4 sm:px-6 lg:px-12 overflow-hidden">
-        {/* Glow Spheres */}
-        <div className="absolute top-0 right-1/4 w-96 h-96 bg-[var(--theme-primary-glow)] blur-[120px] rounded-full pointer-events-none" />
-        <div className="absolute bottom-0 left-10 w-72 h-72 bg-[var(--theme-accent-glow)] blur-[100px] rounded-full pointer-events-none opacity-40" />
-
+      {/* Top Clean Header Banner */}
+      <div className="relative bg-[var(--theme-card-subtle)] border-b border-[var(--theme-border)] pt-8 pb-28 sm:pb-36 px-4 sm:px-6 lg:px-12">
         <div className="max-w-6xl mx-auto flex items-center justify-between relative z-10">
           <button
             onClick={() => router.back()}
-            className="inline-flex items-center gap-2 text-[var(--theme-text-title)] bg-[var(--theme-card)]/90 backdrop-blur-md hover:bg-[var(--theme-card)] border border-[var(--theme-border)] px-4 py-2.5 rounded-xl transition text-xs sm:text-sm font-extrabold shadow-xs cursor-pointer hover:border-[var(--theme-primary)]"
+            className="inline-flex items-center gap-2 text-[var(--theme-text-title)] bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] px-4 py-2.5 rounded-xl transition text-xs sm:text-sm font-bold shadow-xs cursor-pointer hover:border-[var(--theme-primary)]"
           >
             <ArrowLeft size={16} /> กลับ
           </button>
@@ -165,7 +161,7 @@ export default function AdvisorProfilePage() {
               className={`p-2.5 rounded-xl border text-xs sm:text-sm font-bold transition shadow-xs cursor-pointer flex items-center gap-1.5 ${
                 isSaved
                   ? "bg-[var(--theme-accent-subtle)] border-[var(--theme-accent-border)] text-[var(--theme-accent)]"
-                  : "bg-[var(--theme-card)]/90 backdrop-blur-md border-[var(--theme-border)] text-[var(--theme-text-muted)] hover:text-[var(--theme-accent)]"
+                  : "bg-[var(--theme-card)] border-[var(--theme-border)] text-[var(--theme-text-muted)] hover:text-[var(--theme-accent)]"
               }`}
               title="บันทึกรายชื่ออาจารย์"
             >
@@ -175,7 +171,7 @@ export default function AdvisorProfilePage() {
 
             <button
               onClick={handleShare}
-              className="p-2.5 rounded-xl bg-[var(--theme-card)]/90 backdrop-blur-md border border-[var(--theme-border)] text-[var(--theme-text-muted)] hover:text-[var(--theme-primary)] transition shadow-xs cursor-pointer"
+              className="p-2.5 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-[var(--theme-text-muted)] hover:text-[var(--theme-primary)] transition shadow-xs cursor-pointer"
               title="แชร์โปรไฟล์"
             >
               <Share2 size={16} />
@@ -239,7 +235,7 @@ export default function AdvisorProfilePage() {
                 <div className="flex flex-col sm:flex-row lg:flex-col gap-3 w-full lg:w-auto shrink-0">
                   <button
                     onClick={() => setShowEmailModal(true)}
-                    className="bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] font-black px-6 py-3.5 rounded-xl transition shadow-md hover:shadow-lg shadow-[var(--theme-primary-glow)] flex items-center justify-center gap-2 text-xs sm:text-sm cursor-pointer hover:scale-102"
+                    className="bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] font-bold px-5 py-3 rounded-xl transition flex items-center justify-center gap-2 text-xs sm:text-sm cursor-pointer shadow-xs"
                   >
                     <Mail size={16} /> ร่างอีเมลติดต่อด้วย AI
                   </button>

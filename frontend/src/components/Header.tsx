@@ -134,19 +134,19 @@ export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) 
     <header className="sticky top-0 z-40 backdrop-blur-xl bg-[var(--theme-card)]/85 border-b border-[var(--theme-border)] px-4 sm:px-6 lg:px-12 py-3.5 flex items-center justify-between transition-colors shadow-xs">
       {/* Brand Identity */}
       <Link href="/" className="flex items-center gap-3.5 group">
-        <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[var(--theme-primary)] to-[var(--theme-primary-hover)] flex items-center justify-center text-[var(--theme-primary-contrast)] shadow-md shadow-[var(--theme-primary-glow)] group-hover:scale-105 transition-all duration-300">
-          <GraduationCap className="w-7 h-7" />
+        <div className="w-11 h-11 rounded-xl bg-[var(--theme-primary)] flex items-center justify-center text-[var(--theme-primary-contrast)] transition-transform duration-200 group-hover:scale-105">
+          <GraduationCap className="w-6 h-6" />
         </div>
         <div>
           <div className="flex items-center gap-2">
             <span className="font-black text-xl sm:text-2xl tracking-tight text-[var(--theme-primary)] transition-colors">
               Thai EduCenter
             </span>
-            <span className="text-xs font-black tracking-wider px-3 py-0.5 rounded-full bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] border border-[var(--theme-accent-border)] transition-colors shadow-2xs">
+            <span className="text-xs font-bold tracking-wider px-2.5 py-0.5 rounded-full bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] border border-[var(--theme-accent-border)] transition-colors">
               Academic Hub
             </span>
           </div>
-          <p className="text-xs text-[var(--theme-text-muted)] font-semibold hidden sm:block mt-0.5">
+          <p className="text-xs text-[var(--theme-text-muted)] font-medium hidden sm:block mt-0.5">
             ศูนย์รวมหลักสูตรและทำเนียบคณาจารย์ที่ปรึกษางานวิจัยระดับประเทศ
           </p>
         </div>

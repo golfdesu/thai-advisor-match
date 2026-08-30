@@ -339,14 +339,14 @@ export default function CareerDiscoveryPage() {
       <header className="border-b border-[var(--theme-border)] bg-[var(--theme-card)]/90 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 text-[var(--theme-text-title)] hover:opacity-90 transition">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-[var(--theme-primary)] to-[var(--theme-primary-hover)] flex items-center justify-center text-[var(--theme-primary-contrast)] shadow-md shadow-[var(--theme-primary-glow)]">
+            <div className="w-10 h-10 rounded-xl bg-[var(--theme-primary)] flex items-center justify-center text-[var(--theme-primary-contrast)]">
               <GraduationCap size={22} />
             </div>
             <div>
-              <span className="font-black text-xl tracking-tight bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] bg-clip-text text-transparent">
+              <span className="font-black text-xl tracking-tight text-[var(--theme-primary)]">
                 Thai EduCenter
               </span>
-              <span className="hidden sm:inline-block text-xs font-black uppercase tracking-wider bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-3 py-0.5 rounded-full ml-2 border border-[var(--theme-accent-border)] shadow-2xs">
+              <span className="hidden sm:inline-block text-xs font-bold uppercase tracking-wider bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-2.5 py-0.5 rounded-full ml-2 border border-[var(--theme-accent-border)]">
                 RIASEC Career Profiler
               </span>
             </div>
@@ -366,23 +366,20 @@ export default function CareerDiscoveryPage() {
 
       {/* Main Content Area */}
       <main className="flex-1 max-w-4xl mx-auto w-full px-4 sm:px-6 py-8 sm:py-12 flex flex-col justify-center relative">
-        {/* Ambient Glows */}
-        <div className="absolute top-10 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--theme-primary-glow)] blur-[140px] rounded-full pointer-events-none opacity-40" />
-
         {/* VIEW 1: Tier Selection Mode */}
         {!tier && !result && (
           <div className="text-center relative z-10">
-            <div className="inline-flex items-center gap-2 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[var(--theme-primary)] px-4.5 py-1.5 rounded-full text-xs sm:text-sm font-black mb-6 shadow-xs">
-              <Compass size={16} className="text-[var(--theme-primary)] animate-spin-slow" />
+            <div className="inline-flex items-center gap-2 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[var(--theme-primary)] px-3.5 py-1 rounded-full text-xs sm:text-sm font-bold mb-6">
+              <Compass size={16} className="text-[var(--theme-primary)]" />
               <span>Holland RIASEC Psychometric Assessment & AI Mapping</span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-[var(--theme-text-title)] tracking-tight leading-tight mb-4">
-              ค้นหา <span className="bg-gradient-to-r from-[var(--theme-primary)] via-[var(--theme-primary-hover)] to-[var(--theme-accent)] bg-clip-text text-transparent">ศักยภาพ & สาขาวิชาที่ใช่</span><br />
+            <h1 className="text-3xl sm:text-5xl font-black text-[var(--theme-text-title)] tracking-tight leading-tight mb-4">
+              ค้นหา <span className="text-[var(--theme-primary)]">ศักยภาพ & สาขาวิชาที่ใช่</span><br />
               ด้วยระบบประเมินจิตวิทยาการศึกษา
             </h1>
 
-            <p className="text-[var(--theme-text-muted)] text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed font-semibold">
+            <p className="text-[var(--theme-text-muted)] text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed font-medium">
               แบบประเมินความถนัดทางการศึกษาและวิชาชีพ ออกแบบตามกรอบจิตวิทยามาตรฐานสากล พร้อมจับคู่กับหลักสูตรระดับปริญญาตรีของมหาวิทยาลัยชั้นนำทั่วประเทศ
             </p>
 
@@ -394,24 +391,24 @@ export default function CareerDiscoveryPage() {
                   setTier("quick");
                   setCurrentStep(0);
                 }}
-                className="group bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] p-6 sm:p-7 rounded-3xl border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-[var(--theme-primary-glow)] flex flex-col justify-between cursor-pointer hover:-translate-y-1"
+                className="group bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] p-5 sm:p-6 rounded-2xl border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition flex flex-col justify-between cursor-pointer"
               >
                 <div>
-                  <div className="w-14 h-14 rounded-2xl bg-[var(--theme-card-subtle)] text-[var(--theme-text-title)] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-[var(--theme-border)] shadow-xs">
-                    <Zap size={26} className="text-[var(--theme-primary)]" />
+                  <div className="w-12 h-12 rounded-xl bg-[var(--theme-card-subtle)] text-[var(--theme-text-title)] flex items-center justify-center mb-4 border border-[var(--theme-border)]">
+                    <Zap size={22} className="text-[var(--theme-primary)]" />
                   </div>
                   <div className="flex items-center gap-2 mb-1.5">
-                    <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-[var(--theme-primary)]">ระดับเร่งด่วน</span>
-                    <span className="text-xs bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] font-bold px-2.5 py-0.5 rounded-full flex items-center gap-1 border border-[var(--theme-border)]">
+                    <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-[var(--theme-primary)]">ระดับเร่งด่วน</span>
+                    <span className="text-xs bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] font-semibold px-2 py-0.5 rounded-full flex items-center gap-1 border border-[var(--theme-border)]">
                       <Clock size={12} /> 1-2 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl sm:text-2xl font-black text-[var(--theme-text-title)] mb-2">Quick Scan</h3>
-                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold leading-relaxed mb-4">
+                  <h3 className="text-lg sm:text-xl font-black text-[var(--theme-text-title)] mb-2">Quick Scan</h3>
+                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-medium leading-relaxed mb-4">
                     12 ข้อ (RIASEC 6 มิติ) ประเมินแนวโน้มความถนัดอย่างรวดเร็ว
                   </p>
                 </div>
-                <div className="flex items-center text-xs sm:text-sm font-black text-[var(--theme-primary)] group-hover:translate-x-1 transition-transform">
+                <div className="flex items-center text-xs sm:text-sm font-bold text-[var(--theme-primary)]">
                   <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={16} className="ml-1" />
                 </div>
               </button>
@@ -422,27 +419,27 @@ export default function CareerDiscoveryPage() {
                   setTier("standard");
                   setCurrentStep(0);
                 }}
-                className="group bg-[var(--theme-card)] p-6 sm:p-7 rounded-3xl border-2 border-[var(--theme-primary)] hover:border-[var(--theme-primary-hover)] transition-all duration-300 shadow-xl shadow-[var(--theme-primary-glow)] flex flex-col justify-between relative overflow-hidden scale-[1.02] cursor-pointer hover:scale-104"
+                className="group bg-[var(--theme-card)] p-5 sm:p-6 rounded-2xl border-2 border-[var(--theme-primary)] transition flex flex-col justify-between relative cursor-pointer"
               >
-                <div className="absolute top-3.5 right-3.5 bg-[var(--theme-accent)] text-[var(--theme-accent-contrast)] font-black text-xs uppercase tracking-wider px-3 py-1 rounded-full shadow-xs">
+                <div className="absolute top-3.5 right-3.5 bg-[var(--theme-accent)] text-[var(--theme-accent-contrast)] font-bold text-xs uppercase tracking-wider px-2.5 py-0.5 rounded-full">
                   ⭐ แนะนำ
                 </div>
                 <div>
-                  <div className="w-14 h-14 rounded-2xl bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-[var(--theme-primary-border)] shadow-xs">
-                    <Target size={26} />
+                  <div className="w-12 h-12 rounded-xl bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] flex items-center justify-center mb-4 border border-[var(--theme-primary-border)]">
+                    <Target size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1.5">
-                    <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-[var(--theme-primary)]">ระดับมาตรฐาน</span>
-                    <span className="text-xs bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-2.5 py-0.5 rounded-full flex items-center gap-1 font-black border border-[var(--theme-accent-border)]">
+                    <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-[var(--theme-primary)]">ระดับมาตรฐาน</span>
+                    <span className="text-xs bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-2 py-0.5 rounded-full flex items-center gap-1 font-bold border border-[var(--theme-accent-border)]">
                       <Clock size={12} /> 3-4 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl sm:text-2xl font-black text-[var(--theme-text-title)] mb-2">Standard Match</h3>
-                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold leading-relaxed mb-4">
+                  <h3 className="text-lg sm:text-xl font-black text-[var(--theme-text-title)] mb-2">Standard Match</h3>
+                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-medium leading-relaxed mb-4">
                     24 ข้อ (RIASEC 18 ข้อ + Lifestyle 6 ข้อ) วิเคราะห์ความถนัดคู่กับสไตล์การใช้ชีวิตในรั้วมหาวิทยาลัย
                   </p>
                 </div>
-                <div className="flex items-center text-xs sm:text-sm font-black text-[var(--theme-primary)] group-hover:translate-x-1 transition-transform">
+                <div className="flex items-center text-xs sm:text-sm font-bold text-[var(--theme-primary)]">
                   <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={16} className="ml-1" />
                 </div>
               </button>
@@ -453,24 +450,24 @@ export default function CareerDiscoveryPage() {
                   setTier("deep");
                   setCurrentStep(0);
                 }}
-                className="group bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] p-6 sm:p-7 rounded-3xl border border-[var(--theme-border)] hover:border-[var(--theme-accent)] transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-[var(--theme-accent-glow)] flex flex-col justify-between cursor-pointer hover:-translate-y-1"
+                className="group bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] p-5 sm:p-6 rounded-2xl border border-[var(--theme-border)] hover:border-[var(--theme-accent)] transition flex flex-col justify-between cursor-pointer"
               >
                 <div>
-                  <div className="w-14 h-14 rounded-2xl bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-[var(--theme-accent-border)] shadow-xs">
-                    <Brain size={26} />
+                  <div className="w-12 h-12 rounded-xl bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] flex items-center justify-center mb-4 border border-[var(--theme-accent-border)]">
+                    <Brain size={22} />
                   </div>
                   <div className="flex items-center gap-2 mb-1.5">
-                    <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-[var(--theme-accent)]">ระดับเจาะลึก</span>
-                    <span className="text-xs bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] font-bold px-2.5 py-0.5 rounded-full flex items-center gap-1 border border-[var(--theme-border)]">
+                    <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-[var(--theme-accent)]">ระดับเจาะลึก</span>
+                    <span className="text-xs bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] font-semibold px-2 py-0.5 rounded-full flex items-center gap-1 border border-[var(--theme-border)]">
                       <Clock size={12} /> 7-10 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl sm:text-2xl font-black text-[var(--theme-text-title)] mb-2">Deep Dive DNA</h3>
-                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold leading-relaxed mb-4">
+                  <h3 className="text-lg sm:text-xl font-black text-[var(--theme-text-title)] mb-2">Deep Dive DNA</h3>
+                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-medium leading-relaxed mb-4">
                     50 ข้อ (RIASEC 36 ข้อ + Lifestyle 14 ข้อ) วิเคราะห์เจาะลึกครอบคลุมทุกมิติชีวิตและการศึกษา
                   </p>
                 </div>
-                <div className="flex items-center text-xs sm:text-sm font-black text-[var(--theme-accent)] group-hover:translate-x-1 transition-transform">
+                <div className="flex items-center text-xs sm:text-sm font-bold text-[var(--theme-accent)]">
                   <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={16} className="ml-1" />
                 </div>
               </button>
@@ -529,9 +526,9 @@ export default function CareerDiscoveryPage() {
                   ข้อ {currentStep + 1} / {activeQuestions.length} ({progressPct}%)
                 </span>
               </div>
-              <div className="w-full bg-[var(--theme-card-subtle)] h-3 rounded-full overflow-hidden border border-[var(--theme-border)] p-0.5">
+              <div className="w-full bg-[var(--theme-card-subtle)] h-2.5 rounded-full overflow-hidden border border-[var(--theme-border)]">
                 <div
-                  className="bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] h-full rounded-full transition-all duration-300 shadow-xs"
+                  className="bg-[var(--theme-primary)] h-full rounded-full transition-all duration-300"
                   style={{ width: `${progressPct}%` }}
                 ></div>
               </div>
@@ -663,7 +660,7 @@ export default function CareerDiscoveryPage() {
                 <button
                   type="button"
                   onClick={handleNext}
-                  className="bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black px-6.5 py-3.5 rounded-2xl shadow-md hover:shadow-lg shadow-[var(--theme-primary-glow)] transition flex items-center gap-2 cursor-pointer hover:scale-102"
+                  className="bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-bold px-6 py-3 rounded-xl transition flex items-center gap-2 cursor-pointer"
                 >
                   <span>{currentStep === activeQuestions.length - 1 ? "ดูผลการวิเคราะห์ AI" : "ข้อถัดไป"}</span>
                   <ArrowRight size={16} />
@@ -906,14 +903,14 @@ export default function CareerDiscoveryPage() {
                             href={course.website_url}
                             target="_blank"
                             rel="noreferrer"
-                            className="text-xs sm:text-sm font-black text-[var(--theme-primary-contrast)] bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow-xs hover:scale-102"
+                            className="text-xs sm:text-sm font-bold text-[var(--theme-primary-contrast)] bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] px-3.5 py-1.5 rounded-xl transition flex items-center gap-1.5"
                           >
                             <span>ดูหลักสูตร</span> <ExternalLink size={14} />
                           </a>
                         ) : (
                           <Link
                             href="/"
-                            className="text-xs sm:text-sm font-black text-[var(--theme-primary-contrast)] bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow-xs hover:scale-102"
+                            className="text-xs sm:text-sm font-bold text-[var(--theme-primary-contrast)] bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] px-3.5 py-1.5 rounded-xl transition flex items-center gap-1.5"
                           >
                             <span>ดูในระบบ</span> <ChevronRight size={14} />
                           </Link>
@@ -952,7 +949,7 @@ export default function CareerDiscoveryPage() {
 
               <Link
                 href="/"
-                className="bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black px-8 py-3.5 rounded-2xl shadow-md hover:shadow-lg shadow-[var(--theme-primary-glow)] transition flex items-center gap-2 w-full sm:w-auto justify-center hover:scale-102"
+                className="bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-bold px-6 py-3 rounded-xl transition flex items-center gap-2 w-full sm:w-auto justify-center"
               >
                 <BookOpen size={16} />
                 <span>สำรวจหลักสูตรมหาวิทยาลัยทั้งหมด</span>

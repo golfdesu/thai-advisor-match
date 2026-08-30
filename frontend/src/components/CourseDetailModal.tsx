@@ -62,7 +62,7 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
         <div className="p-6 sm:p-8 border-b border-[var(--theme-border)] flex items-start justify-between gap-4 bg-[var(--theme-card-subtle)]/70 relative">
           <div className="flex-1 min-w-0">
             <div className="flex flex-wrap items-center gap-2 mb-3">
-              <span className="bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black px-3.5 py-1 rounded-xl shadow-xs">
+              <span className="bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-bold px-3 py-1 rounded-xl">
                 {course.degree_level || "ระดับปริญญา"}
               </span>
               {course.degree_name && (
@@ -253,7 +253,7 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
                 href={course.website_url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex-1 sm:flex-initial px-6 py-3 rounded-xl bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black flex items-center justify-center gap-2 transition shadow-md hover:shadow-lg shadow-[var(--theme-primary-glow)] hover:scale-102"
+                className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition cursor-pointer"
               >
                 <Globe size={15} />
                 <span>ไปยังเว็บไซต์หลักสูตร / คณะ</span>
@@ -262,7 +262,7 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
             ) : (
               <button
                 onClick={() => window.open(googleSearchUrl, "_blank")}
-                className="flex-1 sm:flex-initial px-6 py-3 rounded-xl bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black flex items-center justify-center gap-2 transition shadow-md hover:shadow-lg shadow-[var(--theme-primary-glow)] hover:scale-102"
+                className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition cursor-pointer"
               >
                 <span>ค้นหาเว็บไซต์ทางการ</span>
                 <ExternalLink size={15} />
