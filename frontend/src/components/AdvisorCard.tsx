@@ -14,7 +14,9 @@ import {
   FileText,
   Lightbulb,
   ChevronDown,
-  ChevronUp
+  ChevronUp,
+  Award,
+  GraduationCap
 } from "lucide-react";
 
 interface AdvisorCardProps {
@@ -40,41 +42,46 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
   const hasExtendedInsights = hasMatchingPubs || hasSuggestedAngles;
 
   return (
-    <div className="group relative p-5 sm:p-6 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all flex flex-col justify-between hover:shadow-md">
+    <div className="group relative p-6 sm:p-7 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all duration-300 flex flex-col justify-between hover:shadow-xl hover:shadow-[var(--theme-primary-glow)] hover:-translate-y-1">
       <div className="space-y-4">
         {/* Top Header Avatar & Title */}
         <div className="flex items-start justify-between gap-3">
           <Link
             href={`/advisor/${f.id}`}
-            className="flex items-center gap-3.5 flex-1 min-w-0 hover:opacity-90 transition group/avatar"
+            className="flex items-center gap-3.5 flex-1 min-w-0 hover:opacity-95 transition group/avatar"
           >
-            <img
-              src={f.image_url || getAdvisorAvatarUrl(f.full_name_th || f.full_name || f.first_name)}
-              alt={f.full_name_th}
-              loading="lazy"
-              decoding="async"
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(f.full_name_th || f.full_name || f.first_name);
-              }}
-              className="w-13 h-13 rounded-2xl object-cover border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] flex-shrink-0 group-hover/avatar:scale-102 transition-transform"
-            />
+            <div className="relative flex-shrink-0">
+              <img
+                src={f.image_url || getAdvisorAvatarUrl(f.full_name_th || f.full_name || f.first_name)}
+                alt={f.full_name_th}
+                loading="lazy"
+                decoding="async"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(f.full_name_th || f.full_name || f.first_name);
+                }}
+                className="w-16 h-16 rounded-2xl object-cover border-2 border-[var(--theme-border)] bg-[var(--theme-card-subtle)] group-hover/avatar:border-[var(--theme-primary)] group-hover/avatar:scale-105 transition-all shadow-xs"
+              />
+              <div className="absolute -bottom-1 -right-1 w-6 h-6 rounded-lg bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] flex items-center justify-center text-xs shadow-xs">
+                <GraduationCap className="w-3.5 h-3.5" />
+              </div>
+            </div>
             <div className="min-w-0">
-              <span className="text-[11px] font-semibold text-[var(--theme-primary)] block truncate">
+              <span className="text-xs font-bold text-[var(--theme-primary)] block truncate">
                 {f.academic_title_th || "อาจารย์"}
               </span>
-              <h3 className="text-base font-bold text-[var(--theme-text-title)] group-hover:text-[var(--theme-primary)] transition-colors leading-snug truncate">
+              <h3 className="text-base sm:text-lg font-black text-[var(--theme-text-title)] group-hover:text-[var(--theme-primary)] transition-colors leading-snug truncate">
                 {f.full_name_th || `${f.first_name} ${f.last_name}`}
               </h3>
-              <p className="text-[11px] text-[var(--theme-text-muted)] truncate mt-0.5">
+              <p className="text-xs text-[var(--theme-text-muted)] font-semibold truncate mt-0.5">
                 {f.university_th}
               </p>
             </div>
           </Link>
 
-          <div className="flex items-center gap-1.5 flex-shrink-0">
+          <div className="flex items-center gap-2 flex-shrink-0">
             {matchScore !== undefined && (
               <span
-                className={`px-2.5 py-1 rounded-lg text-xs font-bold border ${
+                className={`px-3 py-1 rounded-xl text-xs font-black border shadow-2xs ${
                   matchScore >= 85
                     ? "bg-[var(--theme-primary-subtle)] border-[var(--theme-primary-border)] text-[var(--theme-primary)]"
                     : matchScore >= 70
@@ -89,21 +96,23 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
 
             <button
               onClick={() => onToggleBookmark(f.id)}
-              className={`p-1.5 rounded-lg border text-xs transition-all cursor-pointer ${
+              className={`p-2 rounded-xl border text-xs transition-all cursor-pointer ${
                 isSaved
-                  ? "bg-[var(--theme-accent-subtle)] border-[var(--theme-accent-border)] text-[var(--theme-accent)]"
-                  : "bg-[var(--theme-card-subtle)] border-[var(--theme-border)] text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)]"
+                  ? "bg-[var(--theme-accent-subtle)] border-[var(--theme-accent-border)] text-[var(--theme-accent)] shadow-xs"
+                  : "bg-[var(--theme-card-subtle)] border-[var(--theme-border)] text-[var(--theme-text-muted)] hover:text-[var(--theme-accent)] hover:border-[var(--theme-accent)]"
               }`}
               title="บันทึกรายชื่ออาจารย์"
             >
-              <Heart className={`w-3.5 h-3.5 ${isSaved ? "fill-[var(--theme-accent)]" : ""}`} />
+              <Heart className={`w-4 h-4 ${isSaved ? "fill-[var(--theme-accent)]" : ""}`} />
             </button>
           </div>
         </div>
 
         {/* Affiliation Info */}
-        <div className="text-xs text-[var(--theme-text-body)] flex items-center gap-1.5">
-          <Building2 className="w-3.5 h-3.5 text-[var(--theme-text-muted)] flex-shrink-0" />
+        <div className="text-xs sm:text-sm text-[var(--theme-text-body)] font-medium flex items-center gap-2">
+          <div className="w-6 h-6 rounded-md bg-[var(--theme-primary-subtle)] flex items-center justify-center text-[var(--theme-primary)] shrink-0">
+            <Building2 className="w-3.5 h-3.5" />
+          </div>
           <span className="truncate">
             {f.faculty_th} {f.department_th ? `• ${f.department_th}` : ""}
           </span>
@@ -111,11 +120,11 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
 
         {/* Synergy Badges */}
         {hasSynergyBadges && (
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-2">
             {matchItem.synergy_badges!.map((badge, idx) => (
               <span
                 key={idx}
-                className="px-2 py-0.5 rounded-md bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[10px] font-semibold text-[var(--theme-text-body)] leading-tight"
+                className="px-3 py-1 rounded-xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-xs font-bold text-[var(--theme-text-title)] leading-tight shadow-2xs"
               >
                 {badge}
               </span>
@@ -125,7 +134,7 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
 
         {/* Research Expertise Tags */}
         <div className="space-y-1.5">
-          <span className="text-[10px] uppercase font-bold tracking-wider text-[var(--theme-text-muted)]">
+          <span className="text-xs uppercase font-black tracking-wider text-[var(--theme-text-muted)]">
             ความเชี่ยวชาญทางวิชาการ:
           </span>
           <div className="flex flex-wrap gap-1.5">
@@ -133,47 +142,47 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
               f.research_interests.slice(0, 3).map((interest, idx) => (
                 <span
                   key={idx}
-                  className="px-2.5 py-1 rounded-md bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[11px] text-[var(--theme-text-body)] font-medium leading-tight"
+                  className="px-3 py-1 rounded-xl bg-[var(--theme-card-subtle)]/80 border border-[var(--theme-border)] text-xs font-semibold text-[var(--theme-text-body)] leading-tight hover:border-[var(--theme-primary)] transition-colors"
                 >
                   {interest}
                 </span>
               ))
             ) : (
-              <span className="text-xs text-[var(--theme-text-muted)]">งานวิจัยและวิทยานิพนธ์</span>
+              <span className="text-xs text-[var(--theme-text-muted)] font-medium">งานวิจัยและวิทยานิพนธ์</span>
             )}
           </div>
         </div>
 
         {/* Contextual Alignment Box */}
         {matchItem.ai_explanation && (
-          <div className="p-3 rounded-xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-xs text-[var(--theme-text-body)] leading-relaxed">
-            <div className="flex items-center justify-between mb-1">
-              <span className="font-bold text-[var(--theme-text-title)] flex items-center gap-1.5 text-[11px]">
-                <Sparkles className="w-3.5 h-3.5 text-[var(--theme-primary)]" />
+          <div className="p-4 rounded-2xl bg-[var(--theme-card-subtle)]/80 border border-[var(--theme-border)] text-xs sm:text-sm text-[var(--theme-text-body)] leading-relaxed">
+            <div className="flex items-center justify-between mb-2">
+              <span className="font-black text-[var(--theme-text-title)] flex items-center gap-1.5 text-xs sm:text-sm">
+                <Sparkles className="w-4 h-4 text-[var(--theme-primary)] animate-pulse" />
                 ความสอดคล้องกับงานวิจัยของคุณ:
               </span>
               {hasExtendedInsights && (
                 <button
                   type="button"
                   onClick={() => setShowSynergyDetails(!showSynergyDetails)}
-                  className="text-[10px] font-bold text-[var(--theme-primary)] hover:underline flex items-center gap-0.5 cursor-pointer"
+                  className="text-xs font-extrabold text-[var(--theme-primary)] hover:underline flex items-center gap-0.5 cursor-pointer"
                 >
                   <span>{showSynergyDetails ? "ซ่อนรายละเอียด" : "ดูจุดเชื่อมโยง"}</span>
-                  {showSynergyDetails ? <ChevronUp className="w-3 h-3" /> : <ChevronDown className="w-3 h-3" />}
+                  {showSynergyDetails ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
                 </button>
               )}
             </div>
-            <p className="text-[11px] leading-relaxed text-[var(--theme-text-body)]">{matchItem.ai_explanation}</p>
+            <p className="text-xs sm:text-sm leading-relaxed text-[var(--theme-text-body)] font-normal">{matchItem.ai_explanation}</p>
 
             {/* Collapsible Deep Synergy Insights */}
             {showSynergyDetails && hasExtendedInsights && (
-              <div className="mt-2.5 pt-2.5 border-t border-[var(--theme-border)] space-y-2 text-[11px]">
+              <div className="mt-3 pt-3 border-t border-[var(--theme-border)] space-y-3 text-xs">
                 {hasMatchingPubs && (
                   <div>
-                    <span className="font-semibold text-[var(--theme-text-title)] flex items-center gap-1 mb-1">
-                      <FileText className="w-3 h-3 text-[var(--theme-primary)]" /> ผลงานตีพิมพ์ที่สอดคล้อง:
+                    <span className="font-bold text-[var(--theme-text-title)] flex items-center gap-1 mb-1 text-xs uppercase">
+                      <FileText className="w-3.5 h-3.5 text-[var(--theme-primary)]" /> ผลงานตีพิมพ์ที่สอดคล้อง:
                     </span>
-                    <ul className="list-disc list-inside space-y-0.5 text-[var(--theme-text-muted)] pl-1">
+                    <ul className="list-disc list-inside space-y-1 text-[var(--theme-text-muted)] pl-1 text-xs">
                       {matchItem.matching_publications!.map((pub, idx) => (
                         <li key={idx} className="line-clamp-1 italic">
                           &ldquo;{pub}&rdquo;
@@ -185,10 +194,10 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
 
                 {hasSuggestedAngles && (
                   <div>
-                    <span className="font-semibold text-[var(--theme-text-title)] flex items-center gap-1 mb-1">
-                      <Lightbulb className="w-3 h-3 text-[var(--theme-accent)]" /> ข้อเสนอแนะแนวทางวิทยานิพนธ์:
+                    <span className="font-bold text-[var(--theme-text-title)] flex items-center gap-1 mb-1 text-xs uppercase">
+                      <Lightbulb className="w-3.5 h-3.5 text-[var(--theme-accent)]" /> ข้อเสนอแนะแนวทางวิทยานิพนธ์:
                     </span>
-                    <ul className="list-disc list-inside space-y-0.5 text-[var(--theme-text-muted)] pl-1">
+                    <ul className="list-disc list-inside space-y-1 text-[var(--theme-text-muted)] pl-1 text-xs">
                       {matchItem.suggested_thesis_angles!.map((angle, idx) => (
                         <li key={idx}>{angle}</li>
                       ))}
@@ -205,18 +214,18 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
       <div className="pt-4 mt-4 border-t border-[var(--theme-border)] flex items-center justify-between gap-2">
         <Link
           href={`/advisor/${f.id}`}
-          className="text-xs font-bold text-[var(--theme-text-muted)] hover:text-[var(--theme-primary)] transition-colors flex items-center gap-1"
+          className="text-xs sm:text-sm font-bold text-[var(--theme-text-muted)] hover:text-[var(--theme-primary)] transition-colors flex items-center gap-1 group/link"
         >
-          <span>ดูประวัติและผลงานวิจัย</span>
-          <ArrowUpRight className="w-3.5 h-3.5" />
+          <span>ดูประวัติ & ผลงาน</span>
+          <ArrowUpRight className="w-4 h-4 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
         </Link>
 
         <button
           onClick={() => onOpenColdEmail(f)}
-          className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold transition-all shadow-xs cursor-pointer"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-black transition-all shadow-sm hover:shadow-md hover:shadow-[var(--theme-primary-glow)] cursor-pointer hover:scale-102"
         >
-          <Mail className="w-3.5 h-3.5" />
-          <span>ร่างอีเมลติดต่อ</span>
+          <Mail className="w-4 h-4" />
+          <span>ร่างอีเมล AI</span>
         </button>
       </div>
     </div>

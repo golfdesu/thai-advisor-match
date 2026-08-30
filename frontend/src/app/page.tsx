@@ -9,7 +9,12 @@ import {
   Loader2,
   Scale,
   TrendingUp,
-  AlertCircle
+  AlertCircle,
+  Sparkles,
+  Compass,
+  Award,
+  ArrowRight,
+  GraduationCap
 } from "lucide-react";
 import { FacultyMember, SearchMatchResult, Course } from "@/types";
 import { API_BASE_URL } from "@/lib/config";
@@ -21,6 +26,8 @@ import { FilterBar } from "@/components/FilterBar";
 import { ComparisonModal } from "@/components/ComparisonModal";
 import { ColdEmailModal } from "@/components/ColdEmailModal";
 import { SavedBookmarksModal } from "@/components/SavedBookmarksModal";
+import { FeaturedProgramsShowcase } from "@/components/FeaturedProgramsShowcase";
+import { CourseDetailModal } from "@/components/CourseDetailModal";
 import { searchApiCache } from "@/lib/dsa";
 
 export default function Home() {
@@ -43,6 +50,9 @@ export default function Home() {
   const [savedCourses, setSavedCourses] = useState<string[]>([]);
   const [savedAdvisors, setSavedAdvisors] = useState<string[]>([]);
   const [showSavedModal, setShowSavedModal] = useState(false);
+
+  // Selected Course Detail Modal State
+  const [selectedCourseForDetail, setSelectedCourseForDetail] = useState<Course | null>(null);
 
   // Cold Email Modal State
   const [selectedAdvisorForEmail, setSelectedAdvisorForEmail] = useState<FacultyMember | null>(null);
@@ -231,32 +241,37 @@ export default function Home() {
         onOpenSavedModal={() => setShowSavedModal(true)}
       />
 
-      {/* Hero Exploration Section */}
-      <section className="relative pt-12 pb-16 px-4 sm:px-6 lg:px-8 border-b border-[var(--theme-border)] bg-linear-to-b from-[var(--theme-card)] via-[var(--theme-bg)] to-[var(--theme-card-subtle)]">
-        <div className="max-w-4xl mx-auto text-center space-y-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[var(--theme-text-muted)] text-xs font-semibold shadow-2xs">
-            <span>ฐานข้อมูลการศึกษาและคณาจารย์ระดับอุดมศึกษาไทย</span>
+      {/* Hero Exploration Section with Atmospheric Ambient Mesh */}
+      <section className="relative pt-16 pb-20 px-4 sm:px-6 lg:px-8 border-b border-[var(--theme-border)] bg-ambient-mesh overflow-hidden">
+        {/* Floating Atmospheric Glow Balls */}
+        <div className="absolute -top-24 left-1/2 -translate-x-1/2 w-[600px] h-[350px] bg-[var(--theme-primary-glow)] blur-[120px] rounded-full pointer-events-none" />
+        <div className="absolute top-1/2 right-10 w-72 h-72 bg-[var(--theme-accent-glow)] blur-[100px] rounded-full pointer-events-none opacity-40" />
+
+        <div className="max-w-4xl mx-auto text-center space-y-7 relative z-10">
+          <div className="inline-flex items-center gap-2 px-4.5 py-1.5 rounded-full bg-[var(--theme-card)]/80 backdrop-blur-md border border-[var(--theme-border)] text-[var(--theme-primary)] text-xs sm:text-sm font-black shadow-xs animate-float">
+            <Sparkles size={15} className="text-[var(--theme-accent)] animate-pulse" />
+            <span>AI-Powered Thai Academic & Research Discovery</span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-[var(--theme-text-title)] leading-tight">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-[var(--theme-text-title)] leading-[1.18]">
             ค้นหาหลักสูตรการศึกษา <br className="hidden sm:inline" />
-            <span className="text-[var(--theme-primary)] transition-colors">
+            <span className="bg-gradient-to-r from-[var(--theme-primary)] via-[var(--theme-primary-hover)] to-[var(--theme-accent)] bg-clip-text text-transparent">
               และอาจารย์ที่ปรึกษางานวิจัย
             </span>
           </h1>
 
-          <p className="text-[var(--theme-text-muted)] text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-            รวบรวมข้อมูลหลักสูตรปริญญาตรี ปริญญาโท ปริญญาเอก และความเชี่ยวชาญของคณาจารย์จากมหาวิทยาลัยชั้นนำทั่วประเทศ
+          <p className="text-[var(--theme-text-muted)] text-sm sm:text-base max-w-2xl mx-auto leading-relaxed font-semibold">
+            สืบค้นข้อมูลหลักสูตรปริญญาตรี ปริญญาโท ปริญญาเอก และจับคู่อาจารย์ที่ปรึกษาวิทยานิพนธ์ด้วย AI จากมหาวิทยาลัยชั้นนำทั่วประเทศไทย
           </p>
 
           {/* Tab Selector */}
-          <div className="inline-flex p-1 rounded-2xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] shadow-2xs">
+          <div className="inline-flex p-1.5 rounded-2xl bg-[var(--theme-card)]/90 backdrop-blur-md border border-[var(--theme-border)] shadow-md">
             <button
               onClick={() => setActiveTab("courses")}
-              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-6 py-3 rounded-xl text-xs sm:text-sm font-black transition-all cursor-pointer ${
                 activeTab === "courses"
-                  ? "bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-sm"
-                  : "text-[var(--theme-text-body)] hover:text-[var(--theme-primary)]"
+                  ? "bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] shadow-md shadow-[var(--theme-primary-glow)] scale-[1.02]"
+                  : "text-[var(--theme-text-body)] hover:text-[var(--theme-primary)] font-bold"
               }`}
             >
               <BookOpen className="w-4 h-4" />
@@ -265,10 +280,10 @@ export default function Home() {
 
             <button
               onClick={() => setActiveTab("advisors")}
-              className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-6 py-3 rounded-xl text-xs sm:text-sm font-black transition-all cursor-pointer ${
                 activeTab === "advisors"
-                  ? "bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-sm"
-                  : "text-[var(--theme-text-body)] hover:text-[var(--theme-primary)]"
+                  ? "bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] shadow-md shadow-[var(--theme-primary-glow)] scale-[1.02]"
+                  : "text-[var(--theme-text-body)] hover:text-[var(--theme-primary)] font-bold"
               }`}
             >
               <Users className="w-4 h-4" />
@@ -276,10 +291,10 @@ export default function Home() {
             </button>
           </div>
 
-          {/* Search Bar */}
+          {/* High-Contrast Search Bar */}
           <div className="relative max-w-2xl mx-auto">
             <div className="relative flex items-center">
-              <Search className="absolute left-4.5 w-5 h-5 text-[var(--theme-text-muted)]" />
+              <Search className="absolute left-5 w-5 h-5 text-[var(--theme-primary)]" />
               <input
                 type="text"
                 value={searchQuery}
@@ -290,12 +305,12 @@ export default function Home() {
                     ? "ค้นหาชื่อหลักสูตร หรือสาขาวิชา เช่น วิศวกรรมคอมพิวเตอร์, การเงิน, แพทยศาสตร์..."
                     : "ระบุหัวข้อวิจัย หรือความสนใจ เช่น Natural Language Processing, พลังงานหมุนเวียน..."
                 }
-                className="w-full pl-12 pr-28 py-4 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-[var(--theme-text-title)] placeholder-[var(--theme-text-muted)] text-sm focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] focus:border-transparent shadow-sm transition-all"
+                className="w-full pl-13 pr-32 py-4.5 rounded-2xl bg-[var(--theme-card)] border-2 border-[var(--theme-border)] text-[var(--theme-text-title)] placeholder-[var(--theme-text-muted)] text-sm sm:text-base font-semibold focus:outline-none focus:border-[var(--theme-primary)] shadow-lg shadow-black/5 transition-all"
               />
               <button
                 onClick={() => executeSearch()}
                 disabled={loading}
-                className="absolute right-2 px-5 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold transition-all flex items-center gap-1.5 shadow-sm disabled:opacity-50 cursor-pointer"
+                className="absolute right-2 px-6 py-3 rounded-xl bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black transition-all flex items-center gap-2 shadow-md hover:shadow-lg shadow-[var(--theme-primary-glow)] disabled:opacity-50 cursor-pointer hover:scale-102"
               >
                 {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Search className="w-4 h-4" />}
                 <span>ค้นหา</span>
@@ -304,9 +319,9 @@ export default function Home() {
           </div>
 
           {/* Popular Search Suggestions */}
-          <div className="flex flex-wrap items-center justify-center gap-2 pt-1">
-            <span className="text-xs text-[var(--theme-text-muted)] font-semibold flex items-center gap-1">
-              <TrendingUp className="w-3.5 h-3.5 text-[var(--theme-accent)]" /> หมวดหมู่แนะนำ:
+          <div className="flex flex-wrap items-center justify-center gap-2.5 pt-1">
+            <span className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-black flex items-center gap-1.5">
+              <TrendingUp className="w-4 h-4 text-[var(--theme-accent)]" /> หมวดหมู่ยอดนิยม:
             </span>
             {popularTopics.map((t, idx) => (
               <button
@@ -315,7 +330,7 @@ export default function Home() {
                   setSearchQuery(t.query);
                   executeSearch(t.query);
                 }}
-                className="px-3 py-1 rounded-xl bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] text-[11px] font-medium text-[var(--theme-text-body)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)] shadow-2xs transition-all cursor-pointer"
+                className="px-3.5 py-1.5 rounded-xl bg-[var(--theme-card)]/80 hover:bg-[var(--theme-card)] text-xs font-bold text-[var(--theme-text-body)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)] shadow-2xs hover:shadow-xs transition-all cursor-pointer"
               >
                 {t.label}
               </button>
@@ -323,22 +338,39 @@ export default function Home() {
           </div>
 
           {/* Institutional Metrics */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 max-w-2xl mx-auto pt-6 border-t border-[var(--theme-border)]">
-            <div className="p-3.5 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-2xs">
-              <div className="text-xl font-extrabold text-[var(--theme-primary)]">2,800+</div>
-              <div className="text-xs text-[var(--theme-text-muted)] font-medium">หลักสูตรระดับอุดมศึกษา</div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 max-w-2xl mx-auto pt-6 border-t border-[var(--theme-border-subtle)]">
+            <div className="p-4.5 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-xs hover:border-[var(--theme-primary)] transition-all">
+              <div className="text-2xl sm:text-3xl font-black text-[var(--theme-primary)]">2,800+</div>
+              <div className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-bold mt-1">หลักสูตรระดับอุดมศึกษา</div>
             </div>
-            <div className="p-3.5 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-2xs">
-              <div className="text-xl font-extrabold text-[var(--theme-accent)]">1,000+</div>
-              <div className="text-xs text-[var(--theme-text-muted)] font-medium">อาจารย์และนักวิจัย</div>
+            <div className="p-4.5 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-xs hover:border-[var(--theme-accent)] transition-all">
+              <div className="text-2xl sm:text-3xl font-black text-[var(--theme-accent)]">1,000+</div>
+              <div className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-bold mt-1">อาจารย์และนักวิจัย</div>
             </div>
-            <div className="p-3.5 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-2xs col-span-2 sm:col-span-1">
-              <div className="text-xl font-extrabold text-[var(--theme-primary)]">25+</div>
-              <div className="text-xs text-[var(--theme-text-muted)] font-medium">มหาวิทยาลัยชั้นนำ</div>
+            <div className="p-4.5 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-xs col-span-2 sm:col-span-1 hover:border-[var(--theme-primary)] transition-all">
+              <div className="text-2xl sm:text-3xl font-black text-[var(--theme-primary)]">25+</div>
+              <div className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-bold mt-1">มหาวิทยาลัยชั้นนำ</div>
             </div>
           </div>
         </div>
       </section>
+
+      {/* 🌟 Signature Spotlight / University Highlights Promotional Showcase */}
+      <FeaturedProgramsShowcase
+        onSelectUniversity={(uniName) => {
+          setSelectedUni(uniName);
+          setActiveTab("courses");
+          executeSearch("", uniName, selectedDegree, "courses");
+        }}
+        onSelectCourseSearch={(courseTitle) => {
+          setSearchQuery(courseTitle);
+          setActiveTab("courses");
+          executeSearch(courseTitle, selectedUni, selectedDegree, "courses");
+        }}
+        onSelectCourseDetail={(course) => setSelectedCourseForDetail(course)}
+        savedCourses={savedCourses}
+        onToggleBookmarkCourse={toggleBookmarkCourse}
+      />
 
       {/* Main Catalog View */}
       <main className="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 space-y-6">
@@ -359,17 +391,17 @@ export default function Home() {
 
         {/* Status Error Display */}
         {errorMsg && (
-          <div className="p-4 rounded-2xl bg-rose-50 border border-rose-200 text-rose-900 text-xs flex items-center gap-2">
+          <div className="p-4 rounded-2xl bg-rose-50 border border-rose-200 text-rose-900 text-xs sm:text-sm font-semibold flex items-center gap-2 shadow-xs">
             <AlertCircle className="w-4 h-4 text-rose-700 flex-shrink-0" />
             <span>{errorMsg}</span>
           </div>
         )}
 
         {/* Results Counter & Meta */}
-        <div className="flex items-center justify-between text-xs text-[var(--theme-text-muted)]">
+        <div className="flex items-center justify-between text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold">
           <div>
             <span>แสดงผลลัพธ์: </span>
-            <strong className="text-[var(--theme-text-title)]">
+            <strong className="text-[var(--theme-text-title)] font-black text-sm sm:text-base">
               {activeTab === "courses" ? `${courses.length} หลักสูตร` : `${advisors.length} ท่าน`}
             </strong>
             {searchQuery && (
@@ -380,123 +412,121 @@ export default function Home() {
           {activeTab === "courses" && comparedCourses.length > 0 && (
             <button
               onClick={() => setShowComparisonModal(true)}
-              className="text-xs font-bold text-[var(--theme-primary)] hover:underline flex items-center gap-1 cursor-pointer"
+              className="text-xs sm:text-sm font-black text-[var(--theme-primary)] hover:underline flex items-center gap-1.5 cursor-pointer bg-[var(--theme-primary-subtle)] px-3.5 py-1.5 rounded-xl border border-[var(--theme-primary-border)]"
             >
-              <Scale className="w-3.5 h-3.5" />
+              <Scale className="w-4 h-4" />
               <span>เปิดตารางเปรียบเทียบ ({comparedCourses.length})</span>
             </button>
           )}
         </div>
 
-        {/* Loading State */}
+        {/* Loading Spinner Skeleton / Content Grid */}
         {loading ? (
-          <div className="p-16 flex flex-col items-center justify-center space-y-3 bg-[var(--theme-card)]/60 rounded-3xl border border-[var(--theme-border)]">
-            <Loader2 className="w-8 h-8 text-[var(--theme-primary)] animate-spin" />
-            <p className="text-xs font-semibold text-[var(--theme-text-muted)]">กำลังประมวลผลข้อมูลการค้นหา...</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {Array.from({ length: 6 }).map((_, idx) => (
+              <div
+                key={idx}
+                className="p-6 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] space-y-4 animate-pulse"
+              >
+                <div className="flex items-center justify-between">
+                  <div className="h-5 w-20 bg-[var(--theme-card-subtle)] rounded-md" />
+                  <div className="h-5 w-16 bg-[var(--theme-card-subtle)] rounded-md" />
+                </div>
+                <div className="h-6 w-3/4 bg-[var(--theme-card-subtle)] rounded-md" />
+                <div className="h-4 w-1/2 bg-[var(--theme-card-subtle)] rounded-md" />
+                <div className="h-16 w-full bg-[var(--theme-card-subtle)] rounded-xl" />
+              </div>
+            ))}
           </div>
         ) : activeTab === "courses" ? (
-          /* COURSES GRID */
-          !Array.isArray(courses) || courses.length === 0 ? (
-            <div className="p-16 text-center rounded-3xl bg-[var(--theme-card)] border border-[var(--theme-border)] space-y-3 shadow-2xs">
-              <BookOpen className="w-10 h-10 text-[var(--theme-text-muted)] mx-auto" />
-              <h3 className="text-base font-bold text-[var(--theme-text-title)]">ไม่พบหลักสูตรที่ตรงกับเงื่อนไข</h3>
-              <p className="text-xs text-[var(--theme-text-muted)]">
-                ลองปรับเปลี่ยนคำค้นหา หรือเลือกตัวกรองระดับการศึกษาใหม่อีกครั้ง
-              </p>
-            </div>
-          ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {courses.map((course) => (
+          courses.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {courses.map((c) => (
                 <CourseCard
-                  key={course.id}
-                  course={course}
-                  isSaved={savedCourses.includes(course.id)}
-                  isCompared={comparedCourses.some((c) => c.id === course.id)}
+                  key={c.id}
+                  course={c}
+                  isSaved={savedCourses.includes(c.id)}
+                  isCompared={comparedCourses.some((item) => item.id === c.id)}
                   onToggleBookmark={toggleBookmarkCourse}
                   onToggleCompare={toggleCompareCourse}
+                  onSelectCourse={(course) => setSelectedCourseForDetail(course)}
                 />
               ))}
-            </div>
-          )
-        ) : (
-          /* ADVISORS GRID */
-          !Array.isArray(advisors) || advisors.length === 0 ? (
-            <div className="p-16 text-center rounded-3xl bg-[var(--theme-card)] border border-[var(--theme-border)] space-y-3 shadow-2xs">
-              <Users className="w-10 h-10 text-[var(--theme-text-muted)] mx-auto" />
-              <h3 className="text-base font-bold text-[var(--theme-text-title)]">ไม่พบคณาจารย์ที่ตรงกับเงื่อนไข</h3>
-              <p className="text-xs text-[var(--theme-text-muted)]">
-                ลองระบุหัวข้อวิจัยเป็นภาษาไทยหรืออังกฤษ เช่น &quot;Biomedical Engineering&quot;, &quot;พลังงานแสงอาทิตย์&quot;
-              </p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {advisors.map((item) => (
-                <AdvisorCard
-                  key={item.faculty.id}
-                  matchItem={item}
-                  isSaved={savedAdvisors.includes(item.faculty.id)}
-                  onToggleBookmark={toggleBookmarkAdvisor}
-                  onOpenColdEmail={(advisor) => setSelectedAdvisorForEmail(advisor)}
-                />
-              ))}
+            <div className="text-center py-16 bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl space-y-3">
+              <BookOpen className="w-10 h-10 text-[var(--theme-text-muted)] mx-auto" />
+              <h3 className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">
+                ไม่พบหลักสูตรการศึกษาที่ตรงกับเงื่อนไข
+              </h3>
+              <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] max-w-sm mx-auto font-medium">
+                ลองปรับลดเงื่อนไข หรือค้นหาด้วยคำหลักอื่น เช่น วิศวกรรมศาสตร์, ปัญญาประดิษฐ์, นิติศาสตร์
+              </p>
             </div>
           )
+        ) : advisors.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {advisors.map((item) => (
+              <AdvisorCard
+                key={item.faculty.id}
+                matchItem={item}
+                isSaved={savedAdvisors.includes(item.faculty.id)}
+                onToggleBookmark={toggleBookmarkAdvisor}
+                onOpenColdEmail={(advisor) => setSelectedAdvisorForEmail(advisor)}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-16 bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl space-y-3">
+            <Users className="w-10 h-10 text-[var(--theme-text-muted)] mx-auto" />
+            <h3 className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">
+              ไม่พบคณาจารย์ที่ปรึกษาที่ตรงกับเงื่อนไข
+            </h3>
+            <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] max-w-sm mx-auto font-medium">
+              ลองระบุหัวข้อวิจัยที่กว้างขึ้น หรือเลือกค้นหาทุกมหาวิทยาลัย
+            </p>
+          </div>
         )}
       </main>
 
-      {/* Floating Comparison Dock */}
-      {comparedCourses.length > 0 && (
-        <aside className="fixed bottom-6 inset-x-0 mx-auto max-w-xl z-30 px-4">
-          <div className="p-3.5 rounded-2xl bg-slate-900/95 backdrop-blur-md text-white shadow-2xl border border-slate-700 flex items-center justify-between gap-3">
-            <div className="flex items-center gap-2">
-              <Scale className="w-4 h-4 text-amber-400" />
-              <span className="text-xs font-semibold">
-                เลือกเปรียบเทียบ {comparedCourses.length}/4 หลักสูตร
-              </span>
-            </div>
-            <div className="flex items-center gap-2">
-              <button
-                onClick={() => setComparedCourses([])}
-                className="text-[11px] text-slate-400 hover:text-white px-2 py-1 cursor-pointer"
-              >
-                ล้าง
-              </button>
-              <button
-                onClick={() => setShowComparisonModal(true)}
-                className="px-4 py-1.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold shadow-sm flex items-center gap-1.5 cursor-pointer"
-              >
-                <span>เปิดตารางเปรียบเทียบ</span>
-              </button>
-            </div>
-          </div>
-        </aside>
-      )}
+      {/* Course Detail In-App Modal */}
+      <CourseDetailModal
+        course={selectedCourseForDetail}
+        isOpen={!!selectedCourseForDetail}
+        onClose={() => setSelectedCourseForDetail(null)}
+        isSaved={selectedCourseForDetail ? savedCourses.includes(selectedCourseForDetail.id) : false}
+        onToggleBookmark={toggleBookmarkCourse}
+      />
 
-      {/* Modals */}
+      {/* Comparison Matrix Modal */}
       <ComparisonModal
-        isOpen={showComparisonModal}
         courses={comparedCourses}
+        isOpen={showComparisonModal}
         onClose={() => setShowComparisonModal(false)}
         onClearAll={() => setComparedCourses([])}
       />
 
-      <ColdEmailModal
-        advisor={selectedAdvisorForEmail}
-        onClose={() => setSelectedAdvisorForEmail(null)}
-      />
+      {/* Cold Email AI Assistant Modal */}
+      {selectedAdvisorForEmail && (
+        <ColdEmailModal
+          advisor={selectedAdvisorForEmail}
+          onClose={() => setSelectedAdvisorForEmail(null)}
+        />
+      )}
 
+      {/* Saved Bookmarks Modal */}
       <SavedBookmarksModal
         isOpen={showSavedModal}
+        onClose={() => setShowSavedModal(false)}
         savedCourses={savedCourses}
         savedAdvisors={savedAdvisors}
         allCourses={courses}
         allAdvisors={advisors}
-        onClose={() => setShowSavedModal(false)}
         onRemoveCourse={toggleBookmarkCourse}
         onRemoveAdvisor={toggleBookmarkAdvisor}
       />
 
-      {/* Editorial Academic Footer */}
+      {/* Editorial Footer */}
       <Footer />
     </div>
   );

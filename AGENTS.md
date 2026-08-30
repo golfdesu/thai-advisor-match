@@ -67,10 +67,9 @@ All agents and developers MUST strictly follow the exact syntax standards corres
   - Use `ConfigDict(from_attributes=True)` instead of `class Config: orm_mode = True`.
 - **FastAPI Type Annotations:** Utilize standard Python 3.12 type union syntax (`str | None`, `list[str]`) for models and route parameters.
 
-### 4. SQLAlchemy 2.0 & pgvector Rules:
-- **2.0 Style Queries:** Always use `select(Model).where(...)` and execute via session (`session.scalars(query)` / `session.execute(query)`).
-- **Vector Cosine Distance:** Execute direct HNSW vector ordering with `order_by(Model.embedding.cosine_distance(query_vector))` and `filter(Model.embedding.isnot(None))`. Never wrap distances in functions that break index scans.
-- **Column Deferrals:** Always apply `.options(defer(Model.embedding))` on list and search queries to avoid large vector payload memory overheads.
+### 4. SQLAlchemy 2.0, Supabase & pgvector Rules
+> [!NOTE]
+> All Supabase and Database optimization rules have been extracted to a dedicated skill. Please use the `db-optimization` skill located in `.agents/skills/db-optimization/SKILL.md` when interacting with the database.
 
 ---
 
@@ -192,11 +191,17 @@ Teacher/
 │   │   │   └── db_models.py      # SQLAlchemy & PgVector models
 │   │   └── main.py               # FastAPI entrypoint
 │   │
-│   ├── scripts/                  # Automation & Data Seeding
-│   │   ├── seed_courses.py       # Seeds course curricula into Supabase
+│   ├── scripts/                  # Automation & Data Ingestion Engine
+│   │   ├── audits/               # Database hygiene & coverage check scripts
+│   │   ├── crawlers/             # Multi-university scraper & crawler scripts
+│   │   ├── data_sources/         # Faculty & course raw curriculum data definitions
+│   │   ├── enrichment/           # Deduplication, fuzzy matching & data enrichment
+│   │   ├── generators/           # Course catalog & synthetic dataset builders
+│   │   ├── inspection/           # API & link inspection diagnostic scripts
+│   │   ├── tests/                # Ingestion & search validation test scripts
+│   │   ├── archive/              # Legacy / historical scraper scripts
 │   │   ├── init_db.py            # Initializes database tables & vectors
-│   │   ├── update_scholar_serpapi.py
-│   │   └── update_embeddings.py
+│   │   └── seed_courses.py       # Seeds course curricula into Supabase
 │   ├── requirements.txt
 │   └── .env
 ```
@@ -228,11 +233,8 @@ To ensure sub-second response times (< 500ms for searches, < 1.5s for AI generat
 - **Parallel AI Execution:** In multi-step pipelines (such as the Career Discovery Quiz), execute LLM psychometric generation and course embedding concurrently using `ThreadPoolExecutor`.
 
 ### 2. Database & pgvector Optimization Rules
-- **HNSW Vector Indexes:** Ensure `hnsw (embedding vector_cosine_ops)` indexes exist on `faculties` and `courses` tables.
-- **Direct Vector Distance Ordering:** Use direct `ORDER BY embedding.cosine_distance(query_vector)` with `filter(embedding.isnot(None))` to activate PostgreSQL HNSW index scans. Never wrap distances in `func.coalesce()` or other expressions that force Full Table Scans.
-- **GIN Trigram Indexing for Text:** Utilize the `pg_trgm` extension with GIN indexes on `title_th`, `faculty_th`, `full_name_th`, and `department_th` to accelerate `ILIKE '%...%'` queries.
-- **Heavy Column Deferral:** Always apply `defer(Model.embedding)` and `defer(Model.embedding_text)` on search and list endpoints to avoid transferring 768-float arrays over the network.
-- **Supabase Connection Pooling:** Configure SQLAlchemy with `pool_size=10, max_overflow=20, pool_recycle=300, pool_timeout=15, pool_pre_ping=True` to prevent idle connection drops and cold start penalties.
+> [!NOTE]
+> See the `db-optimization` skill for PostgreSQL tuning and connection pooling rules.
 
 ### 3. Backend & API Rules
 - **Response Compression:** Always enable `GZipMiddleware(minimum_size=1000)` on FastAPI to compress JSON payloads by 70–85%.
@@ -273,6 +275,10 @@ To deliver enterprise-grade academic matching without hallucination or slow resp
   - Provide actionable *Suggested Thesis Angles* showing how the student's proposal integrates with the advisor's methodology.
 - **Zero-Latency Rationale Generation:** Synthesize explanations locally using contextual multi-evidence templates citing actual publication titles without making synchronous LLM API roundtrips during candidate ranking.
 - **Decoupled Tab State & Dual Catalog Hydration:** Switching tabs between Curricula and Advisors must NEVER trigger unintended automatic searches. Hydrate initial catalog data concurrently via `Promise.allSettled`.
+
+### 9. Massive Academic Data Acquisition & Faculty Enrichment Methodology
+> [!NOTE]
+> This methodology has been moved to a dedicated Agent Skill. When performing data acquisition or scraping tasks, use the `data-acquire-academic` skill located in `.agents/skills/data-acquire-academic/SKILL.md`.
 
 ---
 

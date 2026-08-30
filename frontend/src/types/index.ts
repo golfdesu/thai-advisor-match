@@ -99,3 +99,24 @@ export interface CareerProfileResponse {
   top_careers: CareerItem[];
   recommended_courses: Course[];
 }
+
+export interface UniversitySignatureMetadata {
+  slug: string;
+  name_th: string;
+  name_en: string;
+  short_name: string;
+  logo_color: string;
+  motto: string;
+  academic_strengths: string[];
+  region: string;
+  established_year?: number;
+  featured_keywords: string[];
+}
+
+export interface UniversityHighlight {
+  metadata: UniversitySignatureMetadata;
+  total_courses: number;
+  total_advisors: number;
+  signature_programs: Course[];
+}
+

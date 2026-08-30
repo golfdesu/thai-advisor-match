@@ -31,7 +31,8 @@ import {
   Cpu,
   ShieldCheck,
   MapPin,
-  Coffee
+  Coffee,
+  Star
 } from "lucide-react";
 import riasecQuestions from "@/data/riasec_questions.json";
 import lifestyleQuestions from "@/data/lifestyle_questions.json";
@@ -68,19 +69,19 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
   const webRings = [0.25, 0.5, 0.75, 1.0];
 
   return (
-    <div className="flex flex-col items-center justify-center p-6 bg-[var(--theme-card)] rounded-3xl text-[var(--theme-text-body)] shadow-sm border border-[var(--theme-border)] relative overflow-hidden">
-      <div className="w-full flex items-center justify-between mb-2">
-        <div className="flex items-center gap-2 text-xs font-bold text-[var(--theme-text-title)]">
-          <ShieldCheck size={16} className="text-[var(--theme-primary)]" />
-          <span>Holland RIASEC Profile</span>
+    <div className="flex flex-col items-center justify-center p-6 sm:p-7 bg-[var(--theme-card)] rounded-3xl text-[var(--theme-text-body)] shadow-md border border-[var(--theme-border)] relative overflow-hidden">
+      <div className="w-full flex items-center justify-between mb-3">
+        <div className="flex items-center gap-2 text-xs sm:text-sm font-black text-[var(--theme-text-title)]">
+          <ShieldCheck size={18} className="text-[var(--theme-primary)]" />
+          <span>Holland RIASEC Profile Matrix</span>
         </div>
-        <span className="text-[11px] font-mono text-[var(--theme-text-muted)] bg-[var(--theme-card-subtle)] px-2.5 py-0.5 rounded-full border border-[var(--theme-border)]">
-          Standardized Metric
+        <span className="text-xs font-mono font-black text-[var(--theme-primary)] bg-[var(--theme-primary-subtle)] px-3 py-1 rounded-full border border-[var(--theme-primary-border)] shadow-2xs">
+          Standardized Psychometrics
         </span>
       </div>
 
       <svg width={size} height={size} className="overflow-visible my-2">
-        {/* Background Grid Rings (Light Gray) */}
+        {/* Background Grid Rings */}
         {webRings.map((scale, i) => {
           const ringPoints = traits.map((_, index) => {
             const angle = index * angleStep - Math.PI / 2;
@@ -95,7 +96,7 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
               points={ringPoints}
               fill="none"
               stroke="currentColor"
-              className="text-[var(--theme-border)]"
+              className="text-[var(--theme-border)] opacity-60"
               strokeWidth="1"
               strokeDasharray={scale === 1 ? "none" : "3,3"}
             />
@@ -107,17 +108,17 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
           const angle = index * angleStep - Math.PI / 2;
           const x = center + radius * Math.cos(angle);
           const y = center + radius * Math.sin(angle);
-          return <line key={index} x1={center} y1={center} x2={x} y2={y} stroke="currentColor" className="text-[var(--theme-border)]" strokeWidth="1" />;
+          return <line key={index} x1={center} y1={center} x2={x} y2={y} stroke="currentColor" className="text-[var(--theme-border)] opacity-60" strokeWidth="1" />;
         })}
 
-        {/* Value Polygon with Light Gradient Fill */}
+        {/* Value Polygon with Gradient Fill */}
         <polygon
           points={points}
           fill="var(--theme-primary)"
           fillOpacity="0.25"
           stroke="var(--theme-primary)"
-          strokeWidth="2.5"
-          className="transition-all duration-700 ease-out"
+          strokeWidth="3"
+          className="transition-all duration-700 ease-out filter drop-shadow-sm"
         />
 
         {/* Data Nodes & Labels */}
@@ -128,19 +129,19 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
           const nodeX = center + nodeR * Math.cos(angle);
           const nodeY = center + nodeR * Math.sin(angle);
 
-          const labelR = radius + 22;
+          const labelR = radius + 24;
           const labelX = center + labelR * Math.cos(angle);
           const labelY = center + labelR * Math.sin(angle);
 
           return (
             <g key={index}>
-              <circle cx={nodeX} cy={nodeY} r="4.5" fill={trait.color} stroke="#ffffff" strokeWidth="2" />
+              <circle cx={nodeX} cy={nodeY} r="5.5" fill={trait.color} stroke="#ffffff" strokeWidth="2" className="shadow-sm" />
               <text
                 x={labelX}
                 y={labelY + 4}
                 textAnchor="middle"
-                fontSize="10.5"
-                fontWeight="700"
+                fontSize="12"
+                fontWeight="900"
                 fill={trait.color}
                 className="select-none font-sans"
               >
@@ -152,11 +153,11 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
       </svg>
 
       {/* Trait Legend Badges */}
-      <div className="grid grid-cols-3 gap-2 w-full mt-2 pt-3 border-t border-[var(--theme-border)] text-[11px]">
+      <div className="grid grid-cols-3 gap-2 w-full mt-3 pt-3.5 border-t border-[var(--theme-border-subtle)] text-xs">
         {traits.map((t, idx) => (
-          <div key={idx} className="flex items-center gap-1.5 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] px-2.5 py-1 rounded-lg">
-            <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: t.color }}></span>
-            <span className="text-[var(--theme-text-body)] font-medium truncate">{t.label}</span>
+          <div key={idx} className="flex items-center gap-2 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] px-3 py-1.5 rounded-xl shadow-2xs">
+            <span className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ backgroundColor: t.color }}></span>
+            <span className="text-[var(--theme-text-body)] font-bold truncate text-xs">{t.label}</span>
           </div>
         ))}
       </div>
@@ -181,7 +182,6 @@ export default function CareerDiscoveryPage() {
     { text: "กำลังค้นหาและจับคู่หลักสูตรมหาวิทยาลัย...", sub: "แมปปิ้งเวกเตอร์ 768 มิติกับหลักสูตรปริญญาตรีทั่วประเทศ" }
   ];
 
-  // Stable deterministic pseudo-random generator seeded by Tier & ID to prevent hydration/re-render resets
   const activeQuestions = useMemo(() => {
     if (!tier) return [];
 
@@ -338,14 +338,16 @@ export default function CareerDiscoveryPage() {
       {/* Top Navbar */}
       <header className="border-b border-[var(--theme-border)] bg-[var(--theme-card)]/90 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2.5 text-[var(--theme-text-title)] hover:text-[var(--theme-primary)] transition">
-            <div className="w-9 h-9 rounded-xl bg-[var(--theme-primary)] flex items-center justify-center text-[var(--theme-primary-contrast)] shadow-md">
-              <GraduationCap size={19} />
+          <Link href="/" className="flex items-center gap-3 text-[var(--theme-text-title)] hover:opacity-90 transition">
+            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-[var(--theme-primary)] to-[var(--theme-primary-hover)] flex items-center justify-center text-[var(--theme-primary-contrast)] shadow-md shadow-[var(--theme-primary-glow)]">
+              <GraduationCap size={22} />
             </div>
             <div>
-              <span className="font-black text-lg tracking-tight text-[var(--theme-primary)]">Thai EduCenter</span>
-              <span className="hidden sm:inline-block text-[10px] font-bold uppercase tracking-wider bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-2 py-0.5 rounded-full ml-2 border border-[var(--theme-accent-border)]">
-                Career Profiler
+              <span className="font-black text-xl tracking-tight bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] bg-clip-text text-transparent">
+                Thai EduCenter
+              </span>
+              <span className="hidden sm:inline-block text-xs font-black uppercase tracking-wider bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-3 py-0.5 rounded-full ml-2 border border-[var(--theme-accent-border)] shadow-2xs">
+                RIASEC Career Profiler
               </span>
             </div>
           </Link>
@@ -353,9 +355,9 @@ export default function CareerDiscoveryPage() {
           <div className="flex items-center gap-3">
             <Link
               href="/"
-              className="text-xs font-semibold text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] transition flex items-center gap-1.5 bg-[var(--theme-card-subtle)] px-3.5 py-1.5 rounded-xl border border-[var(--theme-border)] shadow-xs"
+              className="text-xs sm:text-sm font-black text-[var(--theme-text-title)] hover:text-[var(--theme-primary)] transition flex items-center gap-2 bg-[var(--theme-card-subtle)] px-4 py-2 rounded-xl border border-[var(--theme-border)] shadow-xs hover:border-[var(--theme-primary)]"
             >
-              <HomeIcon size={14} />
+              <HomeIcon size={16} />
               <span>กลับหน้าหลัก</span>
             </Link>
           </div>
@@ -363,21 +365,24 @@ export default function CareerDiscoveryPage() {
       </header>
 
       {/* Main Content Area */}
-      <main className="flex-1 max-w-4xl mx-auto w-full px-4 sm:px-6 py-8 sm:py-12 flex flex-col justify-center">
+      <main className="flex-1 max-w-4xl mx-auto w-full px-4 sm:px-6 py-8 sm:py-12 flex flex-col justify-center relative">
+        {/* Ambient Glows */}
+        <div className="absolute top-10 left-1/2 -translate-x-1/2 w-96 h-96 bg-[var(--theme-primary-glow)] blur-[140px] rounded-full pointer-events-none opacity-40" />
+
         {/* VIEW 1: Tier Selection Mode */}
         {!tier && !result && (
-          <div className="text-center animate-fadeIn">
-            <div className="inline-flex items-center gap-2 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[var(--theme-text-muted)] px-3.5 py-1 rounded-full text-xs font-semibold mb-6 shadow-2xs">
-              <Compass size={14} className="text-[var(--theme-primary)]" />
-              <span>Holland RIASEC Psychometric Assessment</span>
+          <div className="text-center relative z-10">
+            <div className="inline-flex items-center gap-2 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[var(--theme-primary)] px-4.5 py-1.5 rounded-full text-xs sm:text-sm font-black mb-6 shadow-xs">
+              <Compass size={16} className="text-[var(--theme-primary)] animate-spin-slow" />
+              <span>Holland RIASEC Psychometric Assessment & AI Mapping</span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl font-black text-[var(--theme-text-title)] tracking-tight leading-tight mb-4">
-              ค้นหา <span className="text-[var(--theme-primary)]">ศักยภาพ & สาขาวิชาที่ใช่</span><br />
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-[var(--theme-text-title)] tracking-tight leading-tight mb-4">
+              ค้นหา <span className="bg-gradient-to-r from-[var(--theme-primary)] via-[var(--theme-primary-hover)] to-[var(--theme-accent)] bg-clip-text text-transparent">ศักยภาพ & สาขาวิชาที่ใช่</span><br />
               ด้วยระบบประเมินจิตวิทยาการศึกษา
             </h1>
 
-            <p className="text-[var(--theme-text-muted)] text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed font-normal">
+            <p className="text-[var(--theme-text-muted)] text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed font-semibold">
               แบบประเมินความถนัดทางการศึกษาและวิชาชีพ ออกแบบตามกรอบจิตวิทยามาตรฐานสากล พร้อมจับคู่กับหลักสูตรระดับปริญญาตรีของมหาวิทยาลัยชั้นนำทั่วประเทศ
             </p>
 
@@ -389,25 +394,25 @@ export default function CareerDiscoveryPage() {
                   setTier("quick");
                   setCurrentStep(0);
                 }}
-                className="group bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] p-6 rounded-3xl border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all shadow-sm hover:shadow-md flex flex-col justify-between cursor-pointer"
+                className="group bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] p-6 sm:p-7 rounded-3xl border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-[var(--theme-primary-glow)] flex flex-col justify-between cursor-pointer hover:-translate-y-1"
               >
                 <div>
-                  <div className="w-11 h-11 rounded-2xl bg-[var(--theme-card-subtle)] text-[var(--theme-text-title)] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-[var(--theme-border)]">
-                    <Zap size={22} className="text-[var(--theme-primary)]" />
+                  <div className="w-14 h-14 rounded-2xl bg-[var(--theme-card-subtle)] text-[var(--theme-text-title)] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-[var(--theme-border)] shadow-xs">
+                    <Zap size={26} className="text-[var(--theme-primary)]" />
                   </div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-[var(--theme-primary)]">ระดับเร่งด่วน</span>
-                    <span className="text-[10px] bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] px-2 py-0.5 rounded-full flex items-center gap-1 border border-[var(--theme-border)]">
-                      <Clock size={10} /> 1-2 นาที
+                  <div className="flex items-center gap-2 mb-1.5">
+                    <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-[var(--theme-primary)]">ระดับเร่งด่วน</span>
+                    <span className="text-xs bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] font-bold px-2.5 py-0.5 rounded-full flex items-center gap-1 border border-[var(--theme-border)]">
+                      <Clock size={12} /> 1-2 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-[var(--theme-text-title)] mb-2">Quick Scan</h3>
-                  <p className="text-xs text-[var(--theme-text-muted)] leading-relaxed mb-4">
+                  <h3 className="text-xl sm:text-2xl font-black text-[var(--theme-text-title)] mb-2">Quick Scan</h3>
+                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold leading-relaxed mb-4">
                     12 ข้อ (RIASEC 6 มิติ) ประเมินแนวโน้มความถนัดอย่างรวดเร็ว
                   </p>
                 </div>
-                <div className="flex items-center text-xs font-bold text-[var(--theme-primary)] group-hover:translate-x-1 transition-transform">
-                  <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
+                <div className="flex items-center text-xs sm:text-sm font-black text-[var(--theme-primary)] group-hover:translate-x-1 transition-transform">
+                  <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={16} className="ml-1" />
                 </div>
               </button>
 
@@ -417,28 +422,28 @@ export default function CareerDiscoveryPage() {
                   setTier("standard");
                   setCurrentStep(0);
                 }}
-                className="group bg-[var(--theme-card)] p-6 rounded-3xl border-2 border-[var(--theme-primary)] hover:border-[var(--theme-primary-hover)] transition-all shadow-md hover:shadow-lg flex flex-col justify-between relative overflow-hidden scale-[1.02] cursor-pointer"
+                className="group bg-[var(--theme-card)] p-6 sm:p-7 rounded-3xl border-2 border-[var(--theme-primary)] hover:border-[var(--theme-primary-hover)] transition-all duration-300 shadow-xl shadow-[var(--theme-primary-glow)] flex flex-col justify-between relative overflow-hidden scale-[1.02] cursor-pointer hover:scale-104"
               >
-                <div className="absolute top-3 right-3 bg-[var(--theme-accent)] text-[var(--theme-accent-contrast)] font-bold text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full shadow-xs">
-                  แนะนำ
+                <div className="absolute top-3.5 right-3.5 bg-[var(--theme-accent)] text-[var(--theme-accent-contrast)] font-black text-xs uppercase tracking-wider px-3 py-1 rounded-full shadow-xs">
+                  ⭐ แนะนำ
                 </div>
                 <div>
-                  <div className="w-11 h-11 rounded-2xl bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-[var(--theme-primary-border)]">
-                    <Target size={22} />
+                  <div className="w-14 h-14 rounded-2xl bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-[var(--theme-primary-border)] shadow-xs">
+                    <Target size={26} />
                   </div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-[var(--theme-primary)]">ระดับมาตรฐาน</span>
-                    <span className="text-[10px] bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-2 py-0.5 rounded-full flex items-center gap-1 font-semibold border border-[var(--theme-accent-border)]">
-                      <Clock size={10} /> 3-4 นาที
+                  <div className="flex items-center gap-2 mb-1.5">
+                    <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-[var(--theme-primary)]">ระดับมาตรฐาน</span>
+                    <span className="text-xs bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-2.5 py-0.5 rounded-full flex items-center gap-1 font-black border border-[var(--theme-accent-border)]">
+                      <Clock size={12} /> 3-4 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-[var(--theme-text-title)] mb-2">Standard Match</h3>
-                  <p className="text-xs text-[var(--theme-text-muted)] leading-relaxed mb-4">
+                  <h3 className="text-xl sm:text-2xl font-black text-[var(--theme-text-title)] mb-2">Standard Match</h3>
+                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold leading-relaxed mb-4">
                     24 ข้อ (RIASEC 18 ข้อ + Lifestyle 6 ข้อ) วิเคราะห์ความถนัดคู่กับสไตล์การใช้ชีวิตในรั้วมหาวิทยาลัย
                   </p>
                 </div>
-                <div className="flex items-center text-xs font-bold text-[var(--theme-primary)] group-hover:translate-x-1 transition-transform">
-                  <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
+                <div className="flex items-center text-xs sm:text-sm font-black text-[var(--theme-primary)] group-hover:translate-x-1 transition-transform">
+                  <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={16} className="ml-1" />
                 </div>
               </button>
 
@@ -448,61 +453,61 @@ export default function CareerDiscoveryPage() {
                   setTier("deep");
                   setCurrentStep(0);
                 }}
-                className="group bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] p-6 rounded-3xl border border-[var(--theme-border)] hover:border-[var(--theme-accent)] transition-all shadow-sm hover:shadow-md flex flex-col justify-between cursor-pointer"
+                className="group bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] p-6 sm:p-7 rounded-3xl border border-[var(--theme-border)] hover:border-[var(--theme-accent)] transition-all duration-300 shadow-md hover:shadow-xl hover:shadow-[var(--theme-accent-glow)] flex flex-col justify-between cursor-pointer hover:-translate-y-1"
               >
                 <div>
-                  <div className="w-11 h-11 rounded-2xl bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-[var(--theme-accent-border)]">
-                    <Brain size={22} />
+                  <div className="w-14 h-14 rounded-2xl bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] flex items-center justify-center mb-4 group-hover:scale-105 transition-transform border border-[var(--theme-accent-border)] shadow-xs">
+                    <Brain size={26} />
                   </div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-xs font-bold uppercase tracking-wider text-[var(--theme-accent)]">ระดับเจาะลึก</span>
-                    <span className="text-[10px] bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] px-2 py-0.5 rounded-full flex items-center gap-1 border border-[var(--theme-border)]">
-                      <Clock size={10} /> 7-10 นาที
+                  <div className="flex items-center gap-2 mb-1.5">
+                    <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-[var(--theme-accent)]">ระดับเจาะลึก</span>
+                    <span className="text-xs bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] font-bold px-2.5 py-0.5 rounded-full flex items-center gap-1 border border-[var(--theme-border)]">
+                      <Clock size={12} /> 7-10 นาที
                     </span>
                   </div>
-                  <h3 className="text-xl font-bold text-[var(--theme-text-title)] mb-2">Deep Dive DNA</h3>
-                  <p className="text-xs text-[var(--theme-text-muted)] leading-relaxed mb-4">
+                  <h3 className="text-xl sm:text-2xl font-black text-[var(--theme-text-title)] mb-2">Deep Dive DNA</h3>
+                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold leading-relaxed mb-4">
                     50 ข้อ (RIASEC 36 ข้อ + Lifestyle 14 ข้อ) วิเคราะห์เจาะลึกครอบคลุมทุกมิติชีวิตและการศึกษา
                   </p>
                 </div>
-                <div className="flex items-center text-xs font-bold text-[var(--theme-accent)] group-hover:translate-x-1 transition-transform">
-                  <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={14} className="ml-1" />
+                <div className="flex items-center text-xs sm:text-sm font-black text-[var(--theme-accent)] group-hover:translate-x-1 transition-transform">
+                  <span>เริ่มทำแบบประเมิน</span> <ChevronRight size={16} className="ml-1" />
                 </div>
               </button>
             </div>
 
-            <div className="text-xs text-[var(--theme-text-muted)] flex items-center justify-center gap-4">
-              <span className="flex items-center gap-1"><ShieldCheck size={14} className="text-[var(--theme-primary)]" /> ผลการประเมินเพื่อการแนะแนวการศึกษา</span>
+            <div className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-bold flex flex-wrap items-center justify-center gap-4">
+              <span className="flex items-center gap-1.5"><ShieldCheck size={16} className="text-[var(--theme-primary)]" /> ผลการประเมินเพื่อการแนะแนวการศึกษา</span>
               <span>•</span>
-              <span className="flex items-center gap-1"><Cpu size={14} className="text-[var(--theme-accent)]" /> วิเคราะห์ผ่าน AI Semantic Mapping</span>
+              <span className="flex items-center gap-1.5"><Cpu size={16} className="text-[var(--theme-accent)]" /> วิเคราะห์ผ่าน AI Semantic Mapping</span>
             </div>
           </div>
         )}
 
         {/* VIEW 2: Submitting / Loading Screen */}
         {isSubmitting && (
-          <div className="text-center py-20 animate-fadeIn max-w-lg mx-auto">
-            <div className="relative w-16 h-16 mx-auto mb-6">
-              <div className="w-16 h-16 rounded-2xl bg-[var(--theme-primary-subtle)] border border-[var(--theme-border)] flex items-center justify-center text-[var(--theme-primary)] shadow-md animate-pulse">
-                <Sparkles size={28} />
+          <div className="text-center py-20 max-w-lg mx-auto relative z-10">
+            <div className="relative w-24 h-24 mx-auto mb-6">
+              <div className="w-24 h-24 rounded-3xl bg-[var(--theme-primary-subtle)] border border-[var(--theme-primary-border)] flex items-center justify-center text-[var(--theme-primary)] shadow-xl shadow-[var(--theme-primary-glow)] animate-pulse">
+                <Sparkles size={42} />
               </div>
             </div>
-            <h2 className="text-xl sm:text-2xl font-bold text-[var(--theme-text-title)] mb-2 transition-all duration-300">
+            <h2 className="text-2xl sm:text-3xl font-black text-[var(--theme-text-title)] mb-2.5 transition-all duration-300">
               {loadingStages[loadingStage]?.text || "กำลังประมวลผล DNA ความถนัดทางการศึกษา..."}
             </h2>
-            <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] max-w-md mx-auto transition-all duration-300">
+            <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold max-w-md mx-auto transition-all duration-300 leading-relaxed">
               {loadingStages[loadingStage]?.sub || "ระบบกำลังสังเคราะห์โมเดล RIASEC ร่วมกับหลักสูตรมหาวิทยาลัยและเส้นทางอาชีพอนาคต"}
             </p>
-            <div className="flex items-center justify-center gap-1.5 mt-6">
+            <div className="flex items-center justify-center gap-2.5 mt-8">
               {loadingStages.map((_, idx) => (
                 <div
                   key={idx}
-                  className={`h-1.5 rounded-full transition-all duration-500 ${
+                  className={`h-2.5 rounded-full transition-all duration-500 ${
                     idx === loadingStage
-                      ? "w-8 bg-[var(--theme-primary)]"
+                      ? "w-12 bg-[var(--theme-primary)] shadow-sm shadow-[var(--theme-primary-glow)]"
                       : idx < loadingStage
-                      ? "w-3 bg-[var(--theme-primary)] opacity-40"
-                      : "w-3 bg-[var(--theme-border)]"
+                      ? "w-5 bg-[var(--theme-primary)] opacity-40"
+                      : "w-5 bg-[var(--theme-border)]"
                   }`}
                 />
               ))}
@@ -512,40 +517,40 @@ export default function CareerDiscoveryPage() {
 
         {/* VIEW 3: Step-by-Step Question Interface */}
         {tier && !result && !isSubmitting && currentQ && (
-          <div className="max-w-2xl mx-auto w-full animate-fadeIn">
+          <div className="max-w-2xl mx-auto w-full relative z-10">
             {/* Progress Bar & Header */}
             <div className="mb-6">
-              <div className="flex justify-between items-center text-xs font-semibold text-[var(--theme-text-muted)] mb-2">
-                <span className="flex items-center gap-1.5 text-[var(--theme-primary)] font-bold">
-                  <Compass size={14} />
+              <div className="flex justify-between items-center text-xs sm:text-sm font-black text-[var(--theme-text-muted)] mb-2.5">
+                <span className="flex items-center gap-2 text-[var(--theme-primary)]">
+                  <Compass size={17} />
                   <span>{currentQ.category}</span>
                 </span>
-                <span className="font-mono text-[var(--theme-text-muted)]">
+                <span className="font-mono text-[var(--theme-text-title)] bg-[var(--theme-card-subtle)] px-3 py-1 rounded-lg border border-[var(--theme-border)]">
                   ข้อ {currentStep + 1} / {activeQuestions.length} ({progressPct}%)
                 </span>
               </div>
-              <div className="w-full bg-[var(--theme-card-subtle)] h-2 rounded-full overflow-hidden border border-[var(--theme-border)]">
+              <div className="w-full bg-[var(--theme-card-subtle)] h-3 rounded-full overflow-hidden border border-[var(--theme-border)] p-0.5">
                 <div
-                  className="bg-[var(--theme-primary)] h-full rounded-full transition-all duration-300"
+                  className="bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] h-full rounded-full transition-all duration-300 shadow-xs"
                   style={{ width: `${progressPct}%` }}
                 ></div>
               </div>
             </div>
 
             {/* Question Card */}
-            <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-8 shadow-sm backdrop-blur-md mb-6">
-              <span className="inline-block bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] text-[11px] font-mono font-bold px-3 py-1 rounded-full mb-3 border border-[var(--theme-border)]">
-                Item {currentStep + 1}
+            <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-10 shadow-xl backdrop-blur-md mb-6">
+              <span className="inline-block bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] border border-[var(--theme-primary-border)] text-xs font-mono font-black px-4 py-1.5 rounded-xl mb-4 shadow-2xs">
+                Question {currentStep + 1}
               </span>
 
-              <h2 className="text-xl sm:text-2xl font-bold text-[var(--theme-text-title)] leading-snug mb-2">
+              <h2 className="text-xl sm:text-2xl font-black text-[var(--theme-text-title)] leading-snug mb-2">
                 {currentQ.question}
               </h2>
 
               {/* INPUT TYPE 2: Likert 5-point Psychometric Scale */}
               {currentQ.type === "likert" && (
                 <div className="mt-8">
-                  <div className="grid grid-cols-5 gap-2 sm:gap-3">
+                  <div className="grid grid-cols-5 gap-2 sm:gap-3.5">
                     {[
                       { val: 1, label: "ไม่ชอบเลย", num: "1" },
                       { val: 2, label: "ไม่ชอบ", num: "2" },
@@ -561,16 +566,16 @@ export default function CareerDiscoveryPage() {
                           onClick={() => handleSelectOption(currentQ.id, item.val, false)}
                           className={`p-3 sm:p-4 rounded-2xl border text-center transition-all flex flex-col items-center justify-between cursor-pointer ${
                             isSelected
-                              ? "bg-[var(--theme-primary)] border-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-md scale-105"
-                              : "bg-[var(--theme-card-subtle)] border-[var(--theme-border)] text-[var(--theme-text-muted)] hover:border-[var(--theme-border)] hover:bg-[var(--theme-card)]"
+                              ? "bg-[var(--theme-primary)] border-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-lg shadow-[var(--theme-primary-glow)] scale-105"
+                              : "bg-[var(--theme-card-subtle)] border-[var(--theme-border)] text-[var(--theme-text-muted)] hover:border-[var(--theme-primary)] hover:bg-[var(--theme-card)]"
                           }`}
                         >
-                          <span className={`w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mb-2 border ${
+                          <span className={`w-9 h-9 rounded-full flex items-center justify-center font-black text-base mb-2 border shadow-2xs ${
                             isSelected ? "bg-white text-[var(--theme-primary)] border-white" : "bg-[var(--theme-card)] text-[var(--theme-text-body)] border-[var(--theme-border)]"
                           }`}>
                             {item.num}
                           </span>
-                          <span className={`text-[10px] sm:text-xs font-semibold leading-tight line-clamp-2 ${
+                          <span className={`text-xs sm:text-sm font-black leading-tight line-clamp-2 ${
                             isSelected ? "text-[var(--theme-primary-contrast)]" : "text-[var(--theme-text-body)]"
                           }`}>
                             {item.label}
@@ -579,7 +584,7 @@ export default function CareerDiscoveryPage() {
                       );
                     })}
                   </div>
-                  <div className="flex justify-between text-[11px] text-[var(--theme-text-muted)] mt-4 px-1 font-medium">
+                  <div className="flex justify-between text-xs text-[var(--theme-text-muted)] font-black mt-4 px-1">
                     <span>ระดับ 1 : ไม่ชอบเลย</span>
                     <span>ระดับ 5 : ชอบมาก</span>
                   </div>
@@ -596,14 +601,14 @@ export default function CareerDiscoveryPage() {
                         key={opt.value}
                         type="button"
                         onClick={() => handleSelectOption(currentQ.id, opt.value, false)}
-                        className={`p-4 rounded-2xl border text-left transition-all flex items-center justify-between cursor-pointer ${
+                        className={`p-4.5 rounded-2xl border text-left transition-all flex items-center justify-between cursor-pointer ${
                           isSelected
-                            ? "bg-[var(--theme-primary)] border-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-md scale-[1.01]"
-                            : "bg-[var(--theme-card)] border-[var(--theme-border)] text-[var(--theme-text-body)] hover:border-[var(--theme-border)] hover:bg-[var(--theme-card-subtle)]"
+                            ? "bg-[var(--theme-primary)] border-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-md shadow-[var(--theme-primary-glow)] scale-[1.01]"
+                            : "bg-[var(--theme-card)] border-[var(--theme-border)] text-[var(--theme-text-body)] hover:border-[var(--theme-primary)] hover:bg-[var(--theme-card-subtle)]"
                         }`}
                       >
-                        <span className="font-semibold text-sm sm:text-base">{opt.text}</span>
-                        {isSelected && <CheckCircle2 size={20} className="text-[var(--theme-primary-contrast)]" />}
+                        <span className="font-bold text-sm sm:text-base">{opt.text}</span>
+                        {isSelected && <CheckCircle2 size={22} className="text-[var(--theme-primary-contrast)]" />}
                       </button>
                     );
                   })}
@@ -619,21 +624,20 @@ export default function CareerDiscoveryPage() {
                     onChange={(e) => {
                       setAnswers(prev => ({ ...prev, [currentQ.id]: e.target.value }));
                     }}
-                    placeholder="พิมพ์ความฝันของคุณที่นี่ได้เลย..."
-                    className="w-full p-4 rounded-2xl border border-[var(--theme-border)] focus:border-[var(--theme-primary)] focus:ring-4 focus:ring-[var(--theme-primary-subtle)] text-[var(--theme-text-title)] placeholder-[var(--theme-text-muted)] transition-all resize-none font-medium bg-[var(--theme-card)]"
+                    placeholder="พิมพ์ความฝันและความสนใจของคุณที่นี่ได้เลย..."
+                    className="w-full p-4.5 rounded-2xl border border-[var(--theme-border)] focus:border-[var(--theme-primary)] focus:ring-2 focus:ring-[var(--theme-ring)] text-[var(--theme-text-title)] placeholder-[var(--theme-text-muted)] transition-all resize-none font-semibold text-xs sm:text-sm bg-[var(--theme-card)]"
                   />
-                  <div className="mt-3 flex justify-end">
+                  <div className="mt-3.5 flex justify-end">
                      <button
                         type="button"
                         onClick={() => handleSelectOption(currentQ.id, answers[currentQ.id], false)}
-                        className="bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] hover:bg-[var(--theme-primary)] hover:text-[var(--theme-primary-contrast)] font-bold px-4 py-2 rounded-xl text-sm transition border border-[var(--theme-border)] cursor-pointer"
+                        className="bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] hover:bg-[var(--theme-primary)] hover:text-[var(--theme-primary-contrast)] font-black px-4.5 py-2.5 rounded-xl text-xs sm:text-sm transition border border-[var(--theme-border)] cursor-pointer"
                      >
                        บันทึกคำตอบ
                      </button>
                   </div>
                 </div>
               )}
-
             </div>
 
             {/* Bottom Actions */}
@@ -642,7 +646,7 @@ export default function CareerDiscoveryPage() {
                 type="button"
                 onClick={handlePrev}
                 disabled={currentStep === 0}
-                className="text-xs font-bold text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] disabled:opacity-30 transition flex items-center gap-1.5 px-4 py-2.5 rounded-xl cursor-pointer"
+                className="text-xs sm:text-sm font-black text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] disabled:opacity-30 transition flex items-center gap-2 px-4 py-2.5 rounded-xl cursor-pointer"
               >
                 <ArrowLeft size={16} /> ย้อนกลับ
               </button>
@@ -651,7 +655,7 @@ export default function CareerDiscoveryPage() {
                 <button
                   type="button"
                   onClick={resetQuiz}
-                  className="text-xs font-semibold text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] cursor-pointer"
+                  className="text-xs sm:text-sm font-bold text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] cursor-pointer px-3 py-2"
                 >
                   เริ่มใหม่
                 </button>
@@ -659,9 +663,9 @@ export default function CareerDiscoveryPage() {
                 <button
                   type="button"
                   onClick={handleNext}
-                  className="bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-sm font-bold px-6 py-3 rounded-2xl shadow-sm hover:shadow transition flex items-center gap-2 cursor-pointer"
+                  className="bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black px-6.5 py-3.5 rounded-2xl shadow-md hover:shadow-lg shadow-[var(--theme-primary-glow)] transition flex items-center gap-2 cursor-pointer hover:scale-102"
                 >
-                  <span>{currentStep === activeQuestions.length - 1 ? "ดูผลการวิเคราะห์" : "ถัดไป"}</span>
+                  <span>{currentStep === activeQuestions.length - 1 ? "ดูผลการวิเคราะห์ AI" : "ข้อถัดไป"}</span>
                   <ArrowRight size={16} />
                 </button>
               </div>
@@ -671,20 +675,20 @@ export default function CareerDiscoveryPage() {
 
         {/* VIEW 4: Full Comprehensive Results Report */}
         {result && (
-          <div className="space-y-8 animate-fadeIn max-w-4xl mx-auto w-full">
+          <div className="space-y-8 max-w-4xl mx-auto w-full relative z-10">
             {/* Top Shareable Archetype Card */}
-            <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-10 shadow-sm relative overflow-hidden">
+            <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-10 shadow-xl relative overflow-hidden">
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-4">
-                <div className="inline-flex items-center gap-2 bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-3 py-1 rounded-full text-xs font-bold font-mono border border-[var(--theme-accent-border)]">
-                  <Award size={14} className="text-[var(--theme-accent)]" />
+                <div className="inline-flex items-center gap-2 bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-4 py-1.5 rounded-full text-xs sm:text-sm font-black font-mono border border-[var(--theme-accent-border)] shadow-2xs">
+                  <Award size={16} className="text-[var(--theme-accent)]" />
                   <span>Holland Code: {result.archetype_code}</span>
                 </div>
 
                 <button
                   onClick={copyShareResult}
-                  className="bg-[var(--theme-card-subtle)] hover:bg-[var(--theme-card)] text-[var(--theme-text-body)] text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 border border-[var(--theme-border)] shadow-xs cursor-pointer"
+                  className="bg-[var(--theme-card-subtle)] hover:bg-[var(--theme-card)] text-[var(--theme-text-title)] text-xs sm:text-sm font-black px-4.5 py-2.5 rounded-xl transition flex items-center gap-2 border border-[var(--theme-border)] shadow-xs cursor-pointer hover:border-[var(--theme-primary)]"
                 >
-                  {copied ? <Check size={14} className="text-emerald-600 dark:text-emerald-400" /> : <Copy size={14} />}
+                  {copied ? <Check size={16} className="text-emerald-500" /> : <Copy size={16} />}
                   <span>{copied ? "คัดลอกข้อมูลแล้ว" : "คัดลอกผลการประเมิน"}</span>
                 </button>
               </div>
@@ -692,14 +696,14 @@ export default function CareerDiscoveryPage() {
               <h1 className="text-2xl sm:text-4xl font-black text-[var(--theme-text-title)] tracking-tight mb-2">
                 {result.archetype_title}
               </h1>
-              <p className="text-[var(--theme-text-muted)] text-sm sm:text-base font-medium mb-6 leading-relaxed">
+              <p className="text-[var(--theme-text-muted)] text-sm sm:text-base font-semibold mb-6 leading-relaxed">
                 {result.archetype_description}
               </p>
 
               {/* Share Quote Banner */}
-              <div className="bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] p-4 rounded-2xl text-xs sm:text-sm text-[var(--theme-text-body)] flex items-center gap-3 shadow-xs">
-                <Compass size={18} className="text-[var(--theme-primary)] flex-shrink-0" />
-                <span className="font-medium italic">&ldquo;{result.share_quote}&rdquo;</span>
+              <div className="bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] p-5 rounded-2xl text-xs sm:text-sm text-[var(--theme-text-body)] flex items-center gap-3.5 shadow-xs">
+                <Compass size={20} className="text-[var(--theme-primary)] flex-shrink-0" />
+                <span className="font-semibold italic leading-relaxed">&ldquo;{result.share_quote}&rdquo;</span>
               </div>
             </div>
 
@@ -709,22 +713,22 @@ export default function CareerDiscoveryPage() {
               <RiasecRadarChart scores={result.riasec_scores} />
 
               {/* Personality Summary & Strengths */}
-              <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-sm">
+              <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-md">
                 <div>
-                  <h3 className="text-base font-bold text-[var(--theme-text-title)] mb-3 flex items-center gap-2">
-                    <Brain size={18} className="text-[var(--theme-primary)]" />
+                  <h3 className="text-base sm:text-lg font-black text-[var(--theme-text-title)] mb-3 flex items-center gap-2">
+                    <Brain size={20} className="text-[var(--theme-primary)]" />
                     <span>บทวิเคราะห์คุณลักษณะและศักยภาพ</span>
                   </h3>
-                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] leading-relaxed mb-6 font-normal">
+                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] leading-relaxed mb-6 font-semibold">
                     {result.personality_summary}
                   </p>
 
-                  <div className="text-xs font-bold text-[var(--theme-text-title)] mb-2">ทักษะและจุดเด่นหลัก:</div>
+                  <div className="text-xs sm:text-sm font-black text-[var(--theme-text-title)] mb-2.5">ทักษะและจุดเด่นหลัก:</div>
                   <div className="flex flex-wrap gap-2 mb-6">
                     {result.strengths.map((str, idx) => (
                       <span
                         key={idx}
-                        className="bg-[var(--theme-primary-subtle)] border border-[var(--theme-border)] text-[var(--theme-primary)] text-xs px-3 py-1 rounded-xl font-semibold"
+                        className="bg-[var(--theme-primary-subtle)] border border-[var(--theme-primary-border)] text-[var(--theme-primary)] text-xs sm:text-sm px-3.5 py-1.5 rounded-xl font-black shadow-2xs"
                       >
                         ✓ {str}
                       </span>
@@ -732,25 +736,25 @@ export default function CareerDiscoveryPage() {
                   </div>
                 </div>
 
-                <div className="bg-[var(--theme-card-subtle)] p-3.5 rounded-2xl border border-[var(--theme-border)] text-xs text-[var(--theme-text-body)]">
-                  <span className="font-bold text-[var(--theme-primary)] block mb-0.5">สภาพแวดล้อมการทำงานที่เหมาะสม:</span>
-                  <span>{result.ideal_work_environment}</span>
+                <div className="bg-[var(--theme-card-subtle)] p-4.5 rounded-2xl border border-[var(--theme-border)] text-xs sm:text-sm text-[var(--theme-text-body)]">
+                  <span className="font-black text-[var(--theme-primary)] block mb-1 text-xs">สภาพแวดล้อมการทำงานที่เหมาะสม:</span>
+                  <span className="font-semibold">{result.ideal_work_environment}</span>
                 </div>
               </div>
             </div>
 
             {/* Lifestyle & Campus Life Alignment Card */}
             {(result.campus_vibe_match || result.learning_style_match) && (
-              <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-8 shadow-sm">
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="w-8 h-8 rounded-xl bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] flex items-center justify-center shadow-xs">
-                    <Compass size={18} />
+              <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-8 shadow-md">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-2xl bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] flex items-center justify-center shadow-xs">
+                    <Compass size={20} />
                   </div>
                   <div>
-                    <h3 className="text-base sm:text-lg font-bold text-[var(--theme-text-title)]">
+                    <h3 className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">
                       สไตล์ชีวิตมหาวิทยาลัยที่ใช่คุณ (Campus & Lifestyle Match)
                     </h3>
-                    <p className="text-xs text-[var(--theme-text-muted)]">
+                    <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold">
                       วิเคราะห์จากความต้องการด้านทำเล บรรยากาศแคมปัส และสไตล์การเรียนรู้ที่คุณเลือก
                     </p>
                   </div>
@@ -758,24 +762,24 @@ export default function CareerDiscoveryPage() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                   {result.campus_vibe_match && (
-                    <div className="bg-[var(--theme-card-subtle)] p-4 rounded-2xl border border-[var(--theme-border)] shadow-2xs">
-                      <div className="flex items-center gap-2 text-[var(--theme-primary)] font-bold text-xs mb-1.5">
-                        <MapPin size={15} className="text-[var(--theme-primary)]" />
+                    <div className="bg-[var(--theme-card-subtle)] p-5 rounded-2xl border border-[var(--theme-border)] shadow-2xs">
+                      <div className="flex items-center gap-2 text-[var(--theme-primary)] font-black text-xs sm:text-sm mb-2">
+                        <MapPin size={16} className="text-[var(--theme-primary)]" />
                         <span>บรรยากาศ & ภูมิภาคมหาวิทยาลัยในฝัน</span>
                       </div>
-                      <p className="text-xs sm:text-sm text-[var(--theme-text-body)] leading-relaxed">
+                      <p className="text-xs sm:text-sm text-[var(--theme-text-body)] leading-relaxed font-semibold">
                         {result.campus_vibe_match}
                       </p>
                     </div>
                   )}
 
                   {result.learning_style_match && (
-                    <div className="bg-[var(--theme-card-subtle)] p-4 rounded-2xl border border-[var(--theme-border)] shadow-2xs">
-                      <div className="flex items-center gap-2 text-[var(--theme-accent)] font-bold text-xs mb-1.5">
-                        <Coffee size={15} className="text-[var(--theme-accent)]" />
+                    <div className="bg-[var(--theme-card-subtle)] p-5 rounded-2xl border border-[var(--theme-border)] shadow-2xs">
+                      <div className="flex items-center gap-2 text-[var(--theme-accent)] font-black text-xs sm:text-sm mb-2">
+                        <Coffee size={16} className="text-[var(--theme-accent)]" />
                         <span>รูปแบบการเรียนรู้ที่ทำให้คุณเปล่งประกาย</span>
                       </div>
-                      <p className="text-xs sm:text-sm text-[var(--theme-text-body)] leading-relaxed">
+                      <p className="text-xs sm:text-sm text-[var(--theme-text-body)] leading-relaxed font-semibold">
                         {result.learning_style_match}
                       </p>
                     </div>
@@ -783,12 +787,12 @@ export default function CareerDiscoveryPage() {
                 </div>
 
                 {result.lifestyle_highlights && result.lifestyle_highlights.length > 0 && (
-                  <div className="mt-4 pt-3 border-t border-[var(--theme-border)] flex flex-wrap items-center gap-2">
-                    <span className="text-[11px] font-bold text-[var(--theme-text-title)]">ค่านิยมไลฟ์สไตล์:</span>
+                  <div className="mt-4 pt-4 border-t border-[var(--theme-border)] flex flex-wrap items-center gap-2.5">
+                    <span className="text-xs font-black text-[var(--theme-text-title)]">ค่านิยมไลฟ์สไตล์:</span>
                     {result.lifestyle_highlights.map((hl, hIdx) => (
                       <span
                         key={hIdx}
-                        className="bg-[var(--theme-card-subtle)] text-[var(--theme-text-body)] text-[11px] font-semibold px-2.5 py-0.5 rounded-lg border border-[var(--theme-border)]"
+                        className="bg-[var(--theme-card-subtle)] text-[var(--theme-text-body)] text-xs font-bold px-3.5 py-1 rounded-xl border border-[var(--theme-border)] shadow-2xs"
                       >
                         ✨ {hl}
                       </span>
@@ -799,12 +803,12 @@ export default function CareerDiscoveryPage() {
             )}
 
             {/* Top Recommended Careers */}
-            <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-8 shadow-sm">
-              <h3 className="text-lg font-bold text-[var(--theme-text-title)] mb-1 flex items-center gap-2">
-                <Briefcase size={20} className="text-[var(--theme-primary)]" />
+            <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-8 shadow-md">
+              <h3 className="text-lg sm:text-xl font-black text-[var(--theme-text-title)] mb-1 flex items-center gap-2">
+                <Briefcase size={22} className="text-[var(--theme-primary)]" />
                 <span>สาขาวิชาชีพที่สอดคล้อง (Career Alignment)</span>
               </h3>
-              <p className="text-xs text-[var(--theme-text-muted)] mb-6">
+              <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold mb-6">
                 ประมวลผลจากความสอดคล้องระหว่างคะแนนทักษะและแนวโน้มความต้องการในตลาดงาน
               </p>
 
@@ -812,24 +816,24 @@ export default function CareerDiscoveryPage() {
                 {result.top_careers.map((career, idx) => (
                   <div
                     key={idx}
-                    className="bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] p-5 rounded-2xl flex flex-col justify-between hover:border-[var(--theme-primary)] transition-colors"
+                    className="bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] p-5.5 rounded-2xl flex flex-col justify-between hover:border-[var(--theme-primary)] hover:bg-[var(--theme-card)] transition-all duration-300 shadow-2xs"
                   >
                     <div>
-                      <div className="flex justify-between items-center mb-2">
-                        <span className="text-[10px] font-bold bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-2 py-0.5 rounded-md border border-[var(--theme-accent-border)]">
+                      <div className="flex justify-between items-center mb-2.5">
+                        <span className="text-xs font-black bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] px-2.5 py-0.5 rounded-md border border-[var(--theme-accent-border)]">
                           {career.growth_outlook}
                         </span>
-                        <span className="text-xs font-mono font-bold text-[var(--theme-primary)]">{career.match_percentage}% Match</span>
+                        <span className="text-xs sm:text-sm font-mono font-black text-[var(--theme-primary)]">{career.match_percentage}% Match</span>
                       </div>
-                      <h4 className="font-bold text-[var(--theme-text-title)] text-sm mb-2">{career.title}</h4>
-                      <p className="text-xs text-[var(--theme-text-muted)] line-clamp-3 leading-relaxed mb-4">
+                      <h4 className="font-black text-[var(--theme-text-title)] text-base mb-2">{career.title}</h4>
+                      <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] line-clamp-3 leading-relaxed mb-4 font-semibold">
                         {career.description}
                       </p>
                     </div>
 
-                    <div className="flex flex-wrap gap-1 pt-3 border-t border-[var(--theme-border)]">
+                    <div className="flex flex-wrap gap-1.5 pt-3.5 border-t border-[var(--theme-border)]">
                       {career.skills.map((skill, sIdx) => (
-                        <span key={sIdx} className="text-[10px] bg-[var(--theme-card)] text-[var(--theme-text-body)] px-2 py-0.5 rounded-md border border-[var(--theme-border)] font-medium">
+                        <span key={sIdx} className="text-xs bg-[var(--theme-card)] text-[var(--theme-text-body)] px-2.5 py-1 rounded-lg border border-[var(--theme-border)] font-bold">
                           {skill}
                         </span>
                       ))}
@@ -840,61 +844,61 @@ export default function CareerDiscoveryPage() {
             </div>
 
             {/* Recommended Undergraduate Programs (Direct Database Match) */}
-            <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-8 shadow-sm">
+            <div className="bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-8 shadow-md">
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-6">
                 <div>
-                  <h3 className="text-lg font-bold text-[var(--theme-text-title)] flex items-center gap-2">
-                    <BookOpen size={20} className="text-[var(--theme-primary)]" />
+                  <h3 className="text-lg sm:text-xl font-black text-[var(--theme-text-title)] flex items-center gap-2">
+                    <BookOpen size={22} className="text-[var(--theme-primary)]" />
                     <span>หลักสูตรระดับปริญญาตรีที่แนะนำ</span>
                   </h3>
-                  <p className="text-xs text-[var(--theme-text-muted)]">
+                  <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold">
                     ดึงข้อมูลตรงจากหลักสูตรมหาวิทยาลัยในระบบที่สอดคล้องกับเส้นทางอาชีพข้างต้น
                   </p>
                 </div>
                 <Link
                   href="/"
-                  className="text-xs font-bold text-[var(--theme-primary)] hover:underline flex items-center gap-1"
+                  className="text-xs sm:text-sm font-black text-[var(--theme-primary)] hover:underline flex items-center gap-1"
                 >
-                  <span>สำรวจหลักสูตรทั้งหมด</span> <ChevronRight size={14} />
+                  <span>สำรวจหลักสูตรทั้งหมด</span> <ChevronRight size={15} />
                 </Link>
               </div>
 
               {result.recommended_courses && result.recommended_courses.length > 0 ? (
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4.5">
                   {result.recommended_courses.map((course) => (
                     <div
                       key={course.id}
-                      className="bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] p-5 rounded-2xl flex flex-col justify-between transition-all group shadow-xs hover:shadow-sm"
+                      className="bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] p-5.5 rounded-2xl flex flex-col justify-between transition-all group shadow-xs hover:shadow-md hover:-translate-y-0.5"
                     >
                       <div>
-                        <div className="flex justify-between items-start gap-2 mb-2">
-                          <span className="text-[10px] font-bold bg-[var(--theme-card-subtle)] text-[var(--theme-text-title)] px-2.5 py-0.5 rounded-full border border-[var(--theme-border)]">
+                        <div className="flex justify-between items-start gap-2 mb-2.5">
+                          <span className="text-xs font-black bg-[var(--theme-card-subtle)] text-[var(--theme-text-title)] px-3 py-0.5 rounded-full border border-[var(--theme-border)]">
                             {course.degree_level || "ปริญญาตรี"}
                           </span>
                           {course.match_score && (
-                            <span className="text-xs font-mono font-bold text-[var(--theme-primary)] flex items-center gap-1">
+                            <span className="text-xs sm:text-sm font-mono font-black text-[var(--theme-primary)] flex items-center gap-1">
                               ตรงสาย {course.match_score}%
                             </span>
                           )}
                         </div>
 
-                        <h4 className="font-bold text-[var(--theme-text-title)] text-sm sm:text-base group-hover:text-[var(--theme-primary)] transition-colors leading-snug mb-1">
+                        <h4 className="font-black text-[var(--theme-text-title)] text-base sm:text-lg group-hover:text-[var(--theme-primary)] transition-colors leading-snug mb-1">
                           {course.title_th}
                         </h4>
                         {course.title_en && (
-                          <p className="text-[11px] text-[var(--theme-text-muted)] mb-2 truncate">{course.title_en}</p>
+                          <p className="text-xs text-[var(--theme-text-muted)] font-semibold mb-2 truncate">{course.title_en}</p>
                         )}
 
-                        <div className="text-xs text-[var(--theme-text-body)] flex items-center gap-1.5 mb-3 font-medium">
-                          <Building2 size={14} className="text-[var(--theme-text-muted)] flex-shrink-0" />
+                        <div className="text-xs sm:text-sm text-[var(--theme-text-body)] flex items-center gap-2 mb-3.5 font-bold">
+                          <Building2 size={16} className="text-[var(--theme-primary)] flex-shrink-0" />
                           <span>{course.university_th}</span>
                           <span className="text-[var(--theme-text-muted)]">•</span>
-                          <span className="text-[var(--theme-text-muted)] font-normal">{course.faculty_th}</span>
+                          <span className="text-[var(--theme-text-muted)] font-semibold">{course.faculty_th}</span>
                         </div>
                       </div>
 
-                      <div className="pt-3 border-t border-[var(--theme-border)] flex items-center justify-between">
-                        <span className="text-[11px] text-[var(--theme-text-muted)]">
+                      <div className="pt-3.5 border-t border-[var(--theme-border)] flex items-center justify-between">
+                        <span className="text-xs sm:text-sm font-black text-[var(--theme-accent)]">
                           {course.tuition_per_semester || "ตามประกาศมหาวิทยาลัย"}
                         </span>
                         {course.website_url ? (
@@ -902,16 +906,16 @@ export default function CareerDiscoveryPage() {
                             href={course.website_url}
                             target="_blank"
                             rel="noreferrer"
-                            className="text-xs font-bold text-[var(--theme-primary-contrast)] bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] px-3 py-1.5 rounded-xl transition flex items-center gap-1 shadow-xs"
+                            className="text-xs sm:text-sm font-black text-[var(--theme-primary-contrast)] bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow-xs hover:scale-102"
                           >
-                            <span>ดูหลักสูตร</span> <ExternalLink size={12} />
+                            <span>ดูหลักสูตร</span> <ExternalLink size={14} />
                           </a>
                         ) : (
                           <Link
                             href="/"
-                            className="text-xs font-bold text-[var(--theme-primary-contrast)] bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] px-3 py-1.5 rounded-xl transition flex items-center gap-1 shadow-xs"
+                            className="text-xs sm:text-sm font-black text-[var(--theme-primary-contrast)] bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] px-4 py-2 rounded-xl transition flex items-center gap-1.5 shadow-xs hover:scale-102"
                           >
-                            <span>ดูในระบบ</span> <ChevronRight size={12} />
+                            <span>ดูในระบบ</span> <ChevronRight size={14} />
                           </Link>
                         )}
                       </div>
@@ -919,7 +923,7 @@ export default function CareerDiscoveryPage() {
                   ))}
                 </div>
               ) : (
-                <div className="text-center py-6 text-xs text-[var(--theme-text-muted)] bg-[var(--theme-card-subtle)] rounded-2xl border border-[var(--theme-border)]">
+                <div className="text-center py-6 text-xs sm:text-sm text-[var(--theme-text-muted)] bg-[var(--theme-card-subtle)] rounded-2xl border border-[var(--theme-border)]">
                   กำลังอัปเดตข้อมูลหลักสูตรที่สอดคล้อง
                 </div>
               )}
@@ -927,11 +931,11 @@ export default function CareerDiscoveryPage() {
 
             {/* Growth & Preparation Advice Card */}
             <div className="bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] rounded-3xl p-6 sm:p-8 shadow-xs">
-              <h3 className="text-base font-bold text-[var(--theme-primary)] mb-2 flex items-center gap-2">
-                <TrendingUp size={18} className="text-[var(--theme-primary)]" />
+              <h3 className="text-base sm:text-lg font-black text-[var(--theme-primary)] mb-2.5 flex items-center gap-2">
+                <TrendingUp size={20} className="text-[var(--theme-primary)]" />
                 <span>คำแนะนำเพื่อการเตรียมความพร้อมทางวิชาการ</span>
               </h3>
-              <p className="text-xs sm:text-sm text-[var(--theme-text-body)] leading-relaxed font-medium">
+              <p className="text-xs sm:text-sm text-[var(--theme-text-body)] leading-relaxed font-semibold">
                 {result.growth_advice}
               </p>
             </div>
@@ -940,17 +944,17 @@ export default function CareerDiscoveryPage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
               <button
                 onClick={resetQuiz}
-                className="bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] text-[var(--theme-text-body)] text-xs font-bold px-6 py-3.5 rounded-2xl border border-[var(--theme-border)] shadow-xs transition flex items-center gap-2 w-full sm:w-auto justify-center cursor-pointer"
+                className="bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] text-[var(--theme-text-title)] text-xs sm:text-sm font-black px-6 py-3.5 rounded-2xl border border-[var(--theme-border)] shadow-xs transition flex items-center gap-2 w-full sm:w-auto justify-center cursor-pointer hover:border-[var(--theme-primary)]"
               >
-                <RefreshCw size={15} />
+                <RefreshCw size={16} />
                 <span>ทำแบบประเมินใหม่อีกครั้ง</span>
               </button>
 
               <Link
                 href="/"
-                className="bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold px-8 py-3.5 rounded-2xl shadow-sm hover:shadow transition flex items-center gap-2 w-full sm:w-auto justify-center"
+                className="bg-gradient-to-r from-[var(--theme-primary)] to-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black px-8 py-3.5 rounded-2xl shadow-md hover:shadow-lg shadow-[var(--theme-primary-glow)] transition flex items-center gap-2 w-full sm:w-auto justify-center hover:scale-102"
               >
-                <BookOpen size={15} />
+                <BookOpen size={16} />
                 <span>สำรวจหลักสูตรมหาวิทยาลัยทั้งหมด</span>
               </Link>
             </div>

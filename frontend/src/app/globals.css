@@ -1,64 +1,415 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
 @custom-variant crimson (&:where([data-theme="crimson"], [data-theme="crimson"] *));
 @custom-variant navy (&:where([data-theme="navy"], [data-theme="navy"] *));
+@custom-variant emerald (&:where([data-theme="emerald"], [data-theme="emerald"] *));
+@custom-variant amethyst (&:where([data-theme="amethyst"], [data-theme="amethyst"] *));
+@custom-variant amber (&:where([data-theme="amber"], [data-theme="amber"] *));
 
-/* === 🔵 ธีมที่ 1: Ocean (สีกรมท่าลึก + พื้นหลังสว่างโทนเย็น สดใส คมชัด) === */
+/* ==========================================================================
+   LIGHT MODES (5 Rich Luxury Palettes with Ambient Lighting)
+   ========================================================================== */
+
+/* 🔵 1. Ocean Navy (Light) */
 :root,
 [data-theme="navy"] {
-  --theme-primary: #0F3460;
-  --theme-primary-hover: #0A2240;
+  --theme-primary: #0A3C74;
+  --theme-primary-hover: #072B54;
   --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(15, 52, 96, 0.08);
-  --theme-primary-border: rgba(15, 52, 96, 0.18);
+  --theme-primary-subtle: rgba(10, 60, 116, 0.08);
+  --theme-primary-border: rgba(10, 60, 116, 0.2);
+  --theme-primary-glow: rgba(10, 60, 116, 0.15);
 
   --theme-accent: #D97706;
   --theme-accent-hover: #B45309;
   --theme-accent-contrast: #FFFFFF;
-  --theme-accent-subtle: rgba(217, 119, 6, 0.09);
-  --theme-accent-border: rgba(217, 119, 6, 0.22);
+  --theme-accent-subtle: rgba(217, 119, 6, 0.1);
+  --theme-accent-border: rgba(217, 119, 6, 0.25);
+  --theme-accent-glow: rgba(217, 119, 6, 0.2);
 
-  --theme-bg: #EFF4F8;
+  --theme-bg: #F4F7FB;
+  --theme-bg-subtle: #EAF0F7;
   --theme-card: #FFFFFF;
-  --theme-card-subtle: #E5EDF4;
-  --theme-border: #CFDCE8;
-  --theme-border-subtle: #DEE7F0;
+  --theme-card-subtle: #EDF3F9;
+  --theme-border: #D5E1ED;
+  --theme-border-subtle: #E2ECF5;
 
   --theme-text-title: #0A192F;
-  --theme-text-body: #2B3A4A;
-  --theme-text-muted: #576B80;
-  --theme-ring: rgba(15, 52, 96, 0.22);
+  --theme-text-body: #2B3D52;
+  --theme-text-muted: #5B6F84;
+  --theme-ring: rgba(10, 60, 116, 0.25);
+  --theme-mesh-1: rgba(10, 60, 116, 0.07);
+  --theme-mesh-2: rgba(217, 119, 6, 0.05);
 }
 
-/* === 🔴 ธีมที่ 2: Ember (สีไวน์แดงอบอุ่น + พื้นหลังครีมงาช้าง หรูหรา ทรงเกียรติ) === */
+/* 🔴 2. Ember Crimson (Light) */
 [data-theme="crimson"] {
-  --theme-primary: #800020;
-  --theme-primary-hover: #630019;
+  --theme-primary: #8E0024;
+  --theme-primary-hover: #6E001B;
   --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(128, 0, 32, 0.08);
-  --theme-primary-border: rgba(128, 0, 32, 0.18);
+  --theme-primary-subtle: rgba(142, 0, 36, 0.08);
+  --theme-primary-border: rgba(142, 0, 36, 0.2);
+  --theme-primary-glow: rgba(142, 0, 36, 0.15);
 
   --theme-accent: #B45309;
   --theme-accent-hover: #92400E;
   --theme-accent-contrast: #FFFFFF;
-  --theme-accent-subtle: rgba(180, 83, 9, 0.09);
-  --theme-accent-border: rgba(180, 83, 9, 0.22);
+  --theme-accent-subtle: rgba(180, 83, 9, 0.1);
+  --theme-accent-border: rgba(180, 83, 9, 0.25);
+  --theme-accent-glow: rgba(180, 83, 9, 0.2);
 
-  --theme-bg: #FAF3EA;
+  --theme-bg: #FCF6F0;
+  --theme-bg-subtle: #F6ECE2;
   --theme-card: #FFFFFF;
-  --theme-card-subtle: #F3E8DB;
-  --theme-border: #E7D8C6;
-  --theme-border-subtle: #EFE4D6;
+  --theme-card-subtle: #F5EAE0;
+  --theme-border: #EADBCE;
+  --theme-border-subtle: #F2E7DC;
 
-  --theme-text-title: #2B1410;
-  --theme-text-body: #4A3830;
-  --theme-text-muted: #7D685E;
-  --theme-ring: rgba(128, 0, 32, 0.22);
+  --theme-text-title: #2B120F;
+  --theme-text-body: #4A3430;
+  --theme-text-muted: #7D645D;
+  --theme-ring: rgba(142, 0, 36, 0.25);
+  --theme-mesh-1: rgba(142, 0, 36, 0.06);
+  --theme-mesh-2: rgba(180, 83, 9, 0.05);
 }
+
+/* 🟢 3. Forest Emerald (Light) */
+[data-theme="emerald"] {
+  --theme-primary: #065F46;
+  --theme-primary-hover: #044835;
+  --theme-primary-contrast: #FFFFFF;
+  --theme-primary-subtle: rgba(6, 95, 70, 0.08);
+  --theme-primary-border: rgba(6, 95, 70, 0.2);
+  --theme-primary-glow: rgba(6, 95, 70, 0.15);
+
+  --theme-accent: #D97706;
+  --theme-accent-hover: #B45309;
+  --theme-accent-contrast: #FFFFFF;
+  --theme-accent-subtle: rgba(217, 119, 6, 0.1);
+  --theme-accent-border: rgba(217, 119, 6, 0.25);
+  --theme-accent-glow: rgba(217, 119, 6, 0.2);
+
+  --theme-bg: #F2F8F5;
+  --theme-bg-subtle: #E5F2EC;
+  --theme-card: #FFFFFF;
+  --theme-card-subtle: #E6F3ED;
+  --theme-border: #CCE2D7;
+  --theme-border-subtle: #DBEBE2;
+
+  --theme-text-title: #072B20;
+  --theme-text-body: #233D35;
+  --theme-text-muted: #537066;
+  --theme-ring: rgba(6, 95, 70, 0.25);
+  --theme-mesh-1: rgba(6, 95, 70, 0.07);
+  --theme-mesh-2: rgba(217, 119, 6, 0.05);
+}
+
+/* 🟣 4. Royal Amethyst (Light) */
+[data-theme="amethyst"] {
+  --theme-primary: #521C9D;
+  --theme-primary-hover: #3E107D;
+  --theme-primary-contrast: #FFFFFF;
+  --theme-primary-subtle: rgba(82, 28, 157, 0.08);
+  --theme-primary-border: rgba(82, 28, 157, 0.2);
+  --theme-primary-glow: rgba(82, 28, 157, 0.15);
+
+  --theme-accent: #D97706;
+  --theme-accent-hover: #B45309;
+  --theme-accent-contrast: #FFFFFF;
+  --theme-accent-subtle: rgba(217, 119, 6, 0.1);
+  --theme-accent-border: rgba(217, 119, 6, 0.25);
+  --theme-accent-glow: rgba(217, 119, 6, 0.2);
+
+  --theme-bg: #F8F5FB;
+  --theme-bg-subtle: #EFEAF6;
+  --theme-card: #FFFFFF;
+  --theme-card-subtle: #EFE8F7;
+  --theme-border: #DBCFEA;
+  --theme-border-subtle: #E8DFF3;
+
+  --theme-text-title: #220B38;
+  --theme-text-body: #3C2355;
+  --theme-text-muted: #6B5582;
+  --theme-ring: rgba(82, 28, 157, 0.25);
+  --theme-mesh-1: rgba(82, 28, 157, 0.07);
+  --theme-mesh-2: rgba(217, 119, 6, 0.05);
+}
+
+/* 🟠 5. Sunset Amber (Light) */
+[data-theme="amber"] {
+  --theme-primary: #A23A13;
+  --theme-primary-hover: #832C0D;
+  --theme-primary-contrast: #FFFFFF;
+  --theme-primary-subtle: rgba(162, 58, 19, 0.08);
+  --theme-primary-border: rgba(162, 58, 19, 0.2);
+  --theme-primary-glow: rgba(162, 58, 19, 0.15);
+
+  --theme-accent: #0D9488;
+  --theme-accent-hover: #0F766E;
+  --theme-accent-contrast: #FFFFFF;
+  --theme-accent-subtle: rgba(13, 148, 136, 0.1);
+  --theme-accent-border: rgba(13, 148, 136, 0.25);
+  --theme-accent-glow: rgba(13, 148, 136, 0.2);
+
+  --theme-bg: #FCF6F0;
+  --theme-bg-subtle: #F6ECE2;
+  --theme-card: #FFFFFF;
+  --theme-card-subtle: #F6EAE0;
+  --theme-border: #EBDEC2;
+  --theme-border-subtle: #F2E8D7;
+
+  --theme-text-title: #33150B;
+  --theme-text-body: #4E2718;
+  --theme-text-muted: #805847;
+  --theme-ring: rgba(162, 58, 19, 0.25);
+  --theme-mesh-1: rgba(162, 58, 19, 0.07);
+  --theme-mesh-2: rgba(13, 148, 136, 0.05);
+}
+
+/* ==========================================================================
+   DARK MODES (Deep Premium Obsidian Slate with Vivid Neon Accents)
+   ========================================================================== */
+
+/* 🔵 1. Ocean Navy (Dark) */
+.dark,
+.dark[data-theme="navy"],
+html.dark[data-theme="navy"] {
+  --theme-primary: #388BFD;
+  --theme-primary-hover: #58A6FF;
+  --theme-primary-contrast: #FFFFFF;
+  --theme-primary-subtle: rgba(56, 139, 253, 0.14);
+  --theme-primary-border: rgba(56, 139, 253, 0.35);
+  --theme-primary-glow: rgba(56, 139, 253, 0.25);
+
+  --theme-accent: #F2A900;
+  --theme-accent-hover: #F8BE28;
+  --theme-accent-contrast: #0A0E14;
+  --theme-accent-subtle: rgba(242, 169, 0, 0.14);
+  --theme-accent-border: rgba(242, 169, 0, 0.35);
+  --theme-accent-glow: rgba(242, 169, 0, 0.25);
+
+  --theme-bg: #090D14;
+  --theme-bg-subtle: #0F141F;
+  --theme-card: #121824;
+  --theme-card-subtle: #182030;
+  --theme-border: #232E42;
+  --theme-border-subtle: #1B2434;
+
+  --theme-text-title: #F0F6FC;
+  --theme-text-body: #CAD5E2;
+  --theme-text-muted: #8494A7;
+  --theme-ring: rgba(56, 139, 253, 0.45);
+  --theme-mesh-1: rgba(56, 139, 253, 0.12);
+  --theme-mesh-2: rgba(242, 169, 0, 0.08);
+}
+
+/* 🔴 2. Ember Crimson (Dark) */
+.dark[data-theme="crimson"],
+html.dark[data-theme="crimson"] {
+  --theme-primary: #FF4A55;
+  --theme-primary-hover: #FF6670;
+  --theme-primary-contrast: #FFFFFF;
+  --theme-primary-subtle: rgba(255, 74, 85, 0.14);
+  --theme-primary-border: rgba(255, 74, 85, 0.35);
+  --theme-primary-glow: rgba(255, 74, 85, 0.25);
+
+  --theme-accent: #F2A900;
+  --theme-accent-hover: #F8BE28;
+  --theme-accent-contrast: #0A0E14;
+  --theme-accent-subtle: rgba(242, 169, 0, 0.14);
+  --theme-accent-border: rgba(242, 169, 0, 0.35);
+  --theme-accent-glow: rgba(242, 169, 0, 0.25);
+
+  --theme-bg: #0B080B;
+  --theme-bg-subtle: #140E14;
+  --theme-card: #1A121A;
+  --theme-card-subtle: #241A25;
+  --theme-border: #38253A;
+  --theme-border-subtle: #2A1C2C;
+
+  --theme-text-title: #FDF2F4;
+  --theme-text-body: #E0CDD2;
+  --theme-text-muted: #9E828A;
+  --theme-ring: rgba(255, 74, 85, 0.45);
+  --theme-mesh-1: rgba(255, 74, 85, 0.12);
+  --theme-mesh-2: rgba(242, 169, 0, 0.08);
+}
+
+/* 🟢 3. Forest Emerald (Dark) */
+.dark[data-theme="emerald"],
+html.dark[data-theme="emerald"] {
+  --theme-primary: #34D399;
+  --theme-primary-hover: #4ADE80;
+  --theme-primary-contrast: #062B1F;
+  --theme-primary-subtle: rgba(52, 211, 153, 0.14);
+  --theme-primary-border: rgba(52, 211, 153, 0.35);
+  --theme-primary-glow: rgba(52, 211, 153, 0.25);
+
+  --theme-accent: #FBBF24;
+  --theme-accent-hover: #FCD34D;
+  --theme-accent-contrast: #0A0E14;
+  --theme-accent-subtle: rgba(251, 191, 36, 0.14);
+  --theme-accent-border: rgba(251, 191, 36, 0.35);
+  --theme-accent-glow: rgba(251, 191, 36, 0.25);
+
+  --theme-bg: #060D0B;
+  --theme-bg-subtle: #0B1713;
+  --theme-card: #0F211C;
+  --theme-card-subtle: #152C26;
+  --theme-border: #1E4239;
+  --theme-border-subtle: #17332C;
+
+  --theme-text-title: #F0FDF8;
+  --theme-text-body: #C7E2D8;
+  --theme-text-muted: #7E9E94;
+  --theme-ring: rgba(52, 211, 153, 0.45);
+  --theme-mesh-1: rgba(52, 211, 153, 0.12);
+  --theme-mesh-2: rgba(251, 191, 36, 0.08);
+}
+
+/* 🟣 4. Royal Amethyst (Dark) */
+.dark[data-theme="amethyst"],
+html.dark[data-theme="amethyst"] {
+  --theme-primary: #A78BFA;
+  --theme-primary-hover: #C4B5FD;
+  --theme-primary-contrast: #1E0E3D;
+  --theme-primary-subtle: rgba(167, 139, 250, 0.14);
+  --theme-primary-border: rgba(167, 139, 250, 0.35);
+  --theme-primary-glow: rgba(167, 139, 250, 0.25);
+
+  --theme-accent: #FBBF24;
+  --theme-accent-hover: #FCD34D;
+  --theme-accent-contrast: #0A0E14;
+  --theme-accent-subtle: rgba(251, 191, 36, 0.14);
+  --theme-accent-border: rgba(251, 191, 36, 0.35);
+  --theme-accent-glow: rgba(251, 191, 36, 0.25);
+
+  --theme-bg: #0A0712;
+  --theme-bg-subtle: #120E1E;
+  --theme-card: #19142A;
+  --theme-card-subtle: #231C3B;
+  --theme-border: #362A5A;
+  --theme-border-subtle: #291F44;
+
+  --theme-text-title: #FAF5FF;
+  --theme-text-body: #DCD2F0;
+  --theme-text-muted: #9585B5;
+  --theme-ring: rgba(167, 139, 250, 0.45);
+  --theme-mesh-1: rgba(167, 139, 250, 0.12);
+  --theme-mesh-2: rgba(251, 191, 36, 0.08);
+}
+
+/* 🟠 5. Sunset Amber (Dark) */
+.dark[data-theme="amber"],
+html.dark[data-theme="amber"] {
+  --theme-primary: #FB923C;
+  --theme-primary-hover: #FDBA74;
+  --theme-primary-contrast: #2D1103;
+  --theme-primary-subtle: rgba(251, 146, 60, 0.14);
+  --theme-primary-border: rgba(251, 146, 60, 0.35);
+  --theme-primary-glow: rgba(251, 146, 60, 0.25);
+
+  --theme-accent: #2DD4BF;
+  --theme-accent-hover: #5EEAD4;
+  --theme-accent-contrast: #042F2C;
+  --theme-accent-subtle: rgba(45, 212, 191, 0.14);
+  --theme-accent-border: rgba(45, 212, 191, 0.35);
+  --theme-accent-glow: rgba(45, 212, 191, 0.25);
+
+  --theme-bg: #0D0805;
+  --theme-bg-subtle: #17100B;
+  --theme-card: #201610;
+  --theme-card-subtle: #2C1E16;
+  --theme-border: #442E22;
+  --theme-border-subtle: #332219;
+
+  --theme-text-title: #FFF7ED;
+  --theme-text-body: #EAD6C9;
+  --theme-text-muted: #A38573;
+  --theme-ring: rgba(251, 146, 60, 0.45);
+  --theme-mesh-1: rgba(251, 146, 60, 0.12);
+  --theme-mesh-2: rgba(45, 212, 191, 0.08);
+}
+
+/* ==========================================================================
+   GLOBAL AESTHETIC ENHANCEMENTS (Glassmorphism, Ambient Mesh, Micro-animations)
+   ========================================================================== */
 
 body {
   background-color: var(--theme-bg);
   color: var(--theme-text-body);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), color 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: var(--font-sarabun), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  background-image:
+    radial-gradient(at 0% 0%, var(--theme-mesh-1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, var(--theme-mesh-2) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Atmospheric Glow Background Utility */
+.bg-ambient-mesh {
+  background-image:
+    radial-gradient(circle at 15% 15%, var(--theme-mesh-1) 0%, transparent 45%),
+    radial-gradient(circle at 85% 25%, var(--theme-mesh-2) 0%, transparent 40%),
+    radial-gradient(circle at 50% 85%, var(--theme-mesh-1) 0%, transparent 50%);
+}
+
+/* Glassmorphism Card Style */
+.glass-panel {
+  background: var(--theme-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--theme-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.04);
+}
+
+.dark .glass-panel {
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.35);
+}
+
+/* Shimmer & Glow Effects */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 15px var(--theme-primary-glow), inset 0 0 10px var(--theme-primary-subtle);
+  }
+  50% {
+    box-shadow: 0 0 25px var(--theme-primary-glow), inset 0 0 15px var(--theme-primary-subtle);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s infinite ease-in-out;
+}
+
+@keyframes float-subtle {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-4px); }
+}
+
+.animate-float {
+  animation: float-subtle 4s ease-in-out infinite;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--theme-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--theme-border);
+  border-radius: 9999px;
+  border: 2px solid var(--theme-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-text-muted);
 }
