@@ -78,41 +78,7 @@ TU_KKU_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=StanislavMakhanov"
     },
-    {
-        "id": "tu_siit_003",
-        "university": "Thammasat University",
-        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
-        "faculty": "Sirindhorn International Institute of Technology (SIIT)",
-        "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
-        "department": "School of Information, Computer, and Communication Technology",
-        "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ คอมพิวเตอร์ และการสื่อสาร",
-        "academic_title": "Assoc. Prof. Dr.",
-        "academic_title_th": "รศ.ดร.",
-        "first_name": "Cholwich",
-        "last_name": "Nataradee",
-        "full_name": "Assoc. Prof. Dr. Cholwich Natatee",
-        "full_name_th": "รศ.ดร. ชลวิชย์ นาทราดี",
-        "role": "Associate Professor in Data Science & Cloud Computing",
-        "email": "cholwich@siit.tu.ac.th",
-        "image_url": "https://www.siit.tu.ac.th/images/faculty/cholwich.jpg",
-        "profile_url": "https://www.siit.tu.ac.th/personnel.php?id=12",
-        "education": [
-            "Ph.D. (Computer Science), Tokyo Institute of Technology, Japan",
-            "M.Eng. (Computer Science), Tokyo Institute of Technology, Japan",
-            "B.Eng. (Computer Engineering), Chulalongkorn University"
-        ],
-        "research_interests": [
-            "Cloud Computing Architecture",
-            "Big Data Analytics & Distributed Systems",
-            "Internet of Things (IoT) Systems",
-            "Distributed Machine Learning"
-        ],
-        "featured_publications": [
-            "Scalable Cloud Resource Allocation for Large-Scale Deep Learning Workloads",
-            "Edge Computing Framework for Real-time Smart City IoT Sensor Networks"
-        ],
-        "scholar_url": "https://scholar.google.com/citations?user=CholwichNatatee"
-    },
+    # tu_siit_003 (Cholwich Nataradee) — REMOVED: canonical duplicate merged into tu_siit_cholwich_001 (Nattee)
     {
         "id": "tu_eng_001",
         "university": "Thammasat University",

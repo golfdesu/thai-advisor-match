@@ -114,41 +114,9 @@ SUT_SWU_SU_BUU_FACULTIES = [
     # =========================================================================
     # SRINAKHARINWIROT UNIVERSITY (SWU) - Medicine, Science, Engineering, COSCI
     # =========================================================================
-    {
-        "id": "swu_med_001",
-        "university": "Srinakharinwirot University",
-        "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
-        "faculty": "Faculty of Medicine",
-        "faculty_th": "คณะแพทยศาสตร์",
-        "department": "Department of Pediatrics & Medical Genetics",
-        "department_th": "ภาควิชากุมารเวชศาสตร์ และหน่วยเวชพันธุศาสตร์",
-        "academic_title": "Prof. Dr.",
-        "academic_title_th": "ศ.ดร.พญ.",
-        "first_name": "Vorasak",
-        "last_name": "Shotelersuk",
-        "full_name": "Prof. Dr. Med. Vorasak Shotelersuk",
-        "full_name_th": "ศ.ดร.พญ. วรศักดิ์ โชติเลอศักดิ์",
-        "role": "Outstanding National Researcher in Medical Genetics and Precision Medicine",
-        "email": "vorasak.s@g.swu.ac.th",
-        "image_url": "https://med.swu.ac.th/images/faculty/vorasak.jpg",
-        "profile_url": "https://med.swu.ac.th/personnel/vorasak",
-        "education": [
-            "Clinical Genetics Fellowship, National Institutes of Health (NIH), USA",
-            "M.D. (First Class Honours, Gold Medal), Chulalongkorn University",
-            "Diploma of Thai Board of Pediatrics and Clinical Genetics"
-        ],
-        "research_interests": [
-            "Human Medical Genetics & Rare Diseases",
-            "Next-Generation Genomic Sequencing & Personalized Medicine",
-            "Epigenetics and Developmental Disorders in Children",
-            "Gene Editing & Targeted Molecular Therapies"
-        ],
-        "featured_publications": [
-            "Whole Exome Sequencing Identifies Novel Disease-Causing Mutations in Rare Pediatric Neurological Disorders",
-            "Genomic Architecture and Precision Oncology in Childhood Leukemias in Southeast Asia"
-        ],
-        "scholar_url": "https://scholar.google.com/citations?user=VorasakShotelersuk"
-    },
+    # swu_med_001 (Vorasak Shotelersuk) — REMOVED: canonical duplicate merged into md-chula-004_8979b8 (Chula Medicine)
+    # was: Vorasak Shotelersuk @ SWU Medicine — now canonical @ Chula Medicine
+
     {
         "id": "swu_cosci_001",
         "university": "Srinakharinwirot University",

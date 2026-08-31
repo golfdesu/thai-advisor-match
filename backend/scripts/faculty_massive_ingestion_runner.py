@@ -21,6 +21,9 @@ from scripts.data_sources.mfu_expanded_faculties import MFU_EXPANDED_FACULTIES
 from scripts.data_sources.elite_breakthrough_faculties import ELITE_BREAKTHROUGH_FACULTIES
 from scripts.data_sources.multi_disciplinary_outstanding_faculties import MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES
 from scripts.data_sources.new_elite_faculties_batch7 import NEW_ELITE_FACULTIES_BATCH_7
+from scripts.data_sources.new_elite_faculties_batch8 import NEW_ELITE_FACULTIES_BATCH_8
+from scripts.data_sources.new_elite_faculties_batch9 import NEW_ELITE_FACULTIES_BATCH_9
+from scripts.data_sources.new_elite_faculties_batch10 import NEW_ELITE_FACULTIES_BATCH_10
 
 ALL_FACULTY_DATASETS = [
     ("มหาวิทยาลัยธรรมศาสตร์ และ มหาวิทยาลัยขอนแก่น (TU & KKU)", TU_KKU_FACULTIES),
@@ -32,6 +35,9 @@ ALL_FACULTY_DATASETS = [
     ("ชุดที่ 5: นักวิทยาศาสตร์ดีเด่นแห่งชาติและระดับโลก (CU, CMU, SUT, KKU Breakthrough Leaders)", ELITE_BREAKTHROUGH_FACULTIES),
     ("ชุดที่ 6: อาจารย์ดีเด่นแห่งชาติและผู้ทรงคุณวุฒิหลากหลายสาขา (KU, TU, KKU, CU, MU Multi-Disciplinary)", MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES),
     ("ชุดที่ 7: นักวิจัยดีเด่นแห่งชาติและนักวิทยาศาสตร์รางวัลสากล (Batch 7: Elite Scholars)", NEW_ELITE_FACULTIES_BATCH_7),
+    ("ชุดที่ 8: นักวิจัยดีเด่นแห่งชาติและนักวิทยาศาสตร์รางวัลสากล (Batch 8: Elite Scholars)", NEW_ELITE_FACULTIES_BATCH_8),
+    ("ชุดที่ 9: นักวิจัยดีเด่นแห่งชาติและนักวิทยาศาสตร์รางวัลสากล (Batch 9: Elite Scholars)", NEW_ELITE_FACULTIES_BATCH_9),
+    ("ชุดที่ 10: วิศวกรรมศาสตร์ดีเด่นแห่งชาติและการพัฒนาที่ยั่งยืน (Batch 10: Engineering Elites)", NEW_ELITE_FACULTIES_BATCH_10),
 ]
 
 def build_faculty_embedding_text(f: FacultyDB) -> str:

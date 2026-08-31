@@ -252,6 +252,7 @@ To ensure sub-second response times (< 500ms for searches, < 1.5s for AI generat
 - **Immediate Embedding on Seeding:** Always compute and persist `embedding_text` and `embedding` vector (768-dim) directly during course seeding scripts so new records are instantly searchable via pgvector.
 - **Batch Database Updates:** In automation scripts, use `Model.id.in_(batch_ids)` and commit once per batch to eliminate N+1 roundtrips to the database.
 - **Targeted Scholar Enrichment:** Only process records missing publication data (`featured_publications == None | []`) and commit in chunks to avoid redundant SerpApi queries.
+- **Post-Ingestion Script Cleanup:** Temporary/one-off ingestion, scraping, migration, or patching scripts created to pull or fix data MUST be deleted immediately once data ingestion/verification is completed to prevent repository clutter and dead script accumulation. Persistent pipelines should reside strictly under canonical modules.
 
 ### 6. Fallback Search & Query Protection Rules
 - **SQL Pre-filtering for Fallbacks:** In lexical/keyword fallback algorithms, always apply `filter(or_(*filters)).limit(...)` at the SQL level. NEVER call `.all()` on an unconstrained table to loop over in Python memory.

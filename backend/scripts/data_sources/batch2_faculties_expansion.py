@@ -4,39 +4,7 @@ BATCH2_FACULTIES = [
     # =========================================================================
     # THAMMASAT UNIVERSITY (TU)
     # =========================================================================
-    {
-        "id": "tu_law_001",
-        "university": "Thammasat University",
-        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
-        "faculty": "Faculty of Law",
-        "faculty_th": "คณะนิติศาสตร์",
-        "department": "Department of International Trade & Business Law",
-        "department_th": "สาขากฎหมายการค้าระหว่างประเทศและธุรกิจ",
-        "academic_title_th": "ศ.ดร.",
-        "first_name": "Surapol",
-        "last_name": "Nitikraipot",
-        "full_name_th": "ศ.ดร. สุรพล นิติไกรพจน์",
-        "role": "Senior Professor of Public Law & Administrative Law",
-        "email": "surapol@tu.ac.th",
-        "image_url": "https://law.tu.ac.th/images/faculty/surapol.jpg",
-        "profile_url": "https://law.tu.ac.th/staff/surapol",
-        "education": [
-            "Doctorat en Droit (Public Law), Université Robert Schuman (Strasbourg III), France",
-            "D.E.A. (Droit Public), Université Robert Schuman, France",
-            "LL.B. (Honours), Thammasat University"
-        ],
-        "research_interests": [
-            "Constitutional Law & Administrative Law",
-            "Public Health Law and Medical Jurisprudence",
-            "Legal Frameworks for Higher Education Governance",
-            "Decentralization and Local Administration Law"
-        ],
-        "featured_publications": [
-            "Administrative Justice and Judicial Review of Executive Powers in Thailand",
-            "Comparative Public Law in Civil Law Systems"
-        ],
-        "scholar_url": "https://scholar.google.com/citations?user=SurapolNitikraipot"
-    },
+    # tu_law_001 (Surapol Nitikraipot) — REMOVED: canonical duplicate merged into tu_law_surapol_001 (elite multi-disciplinary)
     {
         "id": "tu_econ_001",
         "university": "Thammasat University",
@@ -315,38 +283,7 @@ BATCH2_FACULTIES = [
     # =========================================================================
     # KMUTT (King Mongkut's University of Technology Thonburi)
     # =========================================================================
-    {
-        "id": "kmutt_jgsee_001",
-        "university": "King Mongkut's University of Technology Thonburi",
-        "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
-        "faculty": "The Joint Graduate School of Energy and Environment (JGSEE)",
-        "faculty_th": "บัณฑิตวิทยาลัยร่วมด้านพลังงานและสิ่งแวดล้อม (JGSEE)",
-        "department": "Department of Energy Technology",
-        "department_th": "สาขาวิชาเทคโนโลยีพลังงาน",
-        "academic_title_th": "Prof. Dr.",
-        "first_name": "Navadol",
-        "last_name": "Laosiripojana",
-        "full_name_th": "ศ.ดร. นวดล เหล่าศิริพจนา",
-        "role": "Director of JGSEE / Outstanding National Researcher in Catalysis & Clean Energy",
-        "email": "navadol@jgsee.kmutt.ac.th",
-        "image_url": "https://jgsee.kmutt.ac.th/images/faculty/navadol.jpg",
-        "profile_url": "https://jgsee.kmutt.ac.th/staff/navadol",
-        "education": [
-            "Ph.D. (Chemical Engineering), Imperial College London, UK",
-            "B.Eng. (Chemical Engineering - First Class Honours), Chulalongkorn University"
-        ],
-        "research_interests": [
-            "Heterogeneous Catalysis for Hydrogen & Syngas Production",
-            "Solid Oxide Fuel Cells (SOFC) and Electrolyzers",
-            "Biorefinery and Biomass-to-Chemicals Conversion",
-            "Carbon Dioxide Reforming and Green Methanol Synthesis"
-        ],
-        "featured_publications": [
-            "High-Performance Ceria-Based Catalysts for Dry Reforming of Methane: Reaction Kinetics and Carbon Resistance",
-            "Biorefinery of Sugarcane Bagasse to Furfural and Value-Added Bio-Aromatics"
-        ],
-        "scholar_url": "https://scholar.google.com/citations?user=NavadolLaosiripojana"
-    },
+    # kmutt_jgsee_001 (Navadol Laosiripojana) — REMOVED: canonical duplicate merged into kmutt_jgsee_navadol_001 (elite Batch 7, correctly spelled)
     {
         "id": "kmutt_eng_001",
         "university": "King Mongkut's University of Technology Thonburi",
