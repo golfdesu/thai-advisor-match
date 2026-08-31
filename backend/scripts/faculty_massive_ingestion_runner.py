@@ -16,12 +16,22 @@ from scripts.data_sources.tu_kku_faculties import TU_KKU_FACULTIES
 from scripts.data_sources.psu_kmitl_kmutt_faculties import PSU_KMITL_KMUTT_FACULTIES
 from scripts.data_sources.sut_swu_su_buu_faculties import SUT_SWU_SU_BUU_FACULTIES
 from scripts.data_sources.batch2_faculties_expansion import BATCH2_FACULTIES
+from scripts.data_sources.regional_universities_faculties import REGIONAL_UNIVERSITIES_FACULTIES
+from scripts.data_sources.mfu_expanded_faculties import MFU_EXPANDED_FACULTIES
+from scripts.data_sources.elite_breakthrough_faculties import ELITE_BREAKTHROUGH_FACULTIES
+from scripts.data_sources.multi_disciplinary_outstanding_faculties import MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES
+from scripts.data_sources.new_elite_faculties_batch7 import NEW_ELITE_FACULTIES_BATCH_7
 
 ALL_FACULTY_DATASETS = [
     ("มหาวิทยาลัยธรรมศาสตร์ และ มหาวิทยาลัยขอนแก่น (TU & KKU)", TU_KKU_FACULTIES),
     ("ม.สงขลานครินทร์, สจล. และ มจธ. (PSU, KMITL, KMUTT - FIBO/SIT)", PSU_KMITL_KMUTT_FACULTIES),
     ("มทส., มศว, ม.ศิลปากร และ ม.บูรพา (SUT, SWU, SU, BUU)", SUT_SWU_SU_BUU_FACULTIES),
     ("ชุดที่ 2: อาจารย์ดีเด่นแห่งชาติ ธรรมศาสตร์, ขอนแก่น, ม.อ., สจล. และ มจธ. (Batch 2 Expansion)", BATCH2_FACULTIES),
+    ("ชุดที่ 3: อาจารย์และนักวิจัยมหาวิทยาลัยภูมิภาค (PSU, NU, BUU, MFU, UBU, MSU, WU, UP, TSU, MJU, SU, SWU)", REGIONAL_UNIVERSITIES_FACULTIES),
+    ("ชุดที่ 4: คณาจารย์และนักวิจัยชั้นนำ มหาวิทยาลัยแม่ฟ้าหลวง (MFU Comprehensive Expansion)", MFU_EXPANDED_FACULTIES),
+    ("ชุดที่ 5: นักวิทยาศาสตร์ดีเด่นแห่งชาติและระดับโลก (CU, CMU, SUT, KKU Breakthrough Leaders)", ELITE_BREAKTHROUGH_FACULTIES),
+    ("ชุดที่ 6: อาจารย์ดีเด่นแห่งชาติและผู้ทรงคุณวุฒิหลากหลายสาขา (KU, TU, KKU, CU, MU Multi-Disciplinary)", MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES),
+    ("ชุดที่ 7: นักวิจัยดีเด่นแห่งชาติและนักวิทยาศาสตร์รางวัลสากล (Batch 7: Elite Scholars)", NEW_ELITE_FACULTIES_BATCH_7),
 ]
 
 def build_faculty_embedding_text(f: FacultyDB) -> str:
