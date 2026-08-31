@@ -20,16 +20,17 @@ When asked to "expand a specific university" (e.g., MFU, KU):
 - **All Major Schools:** Cover all major faculties, especially specialized ones (e.g., Cosmetic Science at MFU, Forestry at KU).
 - **Direct Directory Reverse-Engineering:** Extract from official faculty directories (`staff` or `personnel` pages).
 
-## 2. Strict Pre-Flight Deduplication (Zero Redundancy Rule)
+## 2. Strict Pre-Flight Deduplication & RapidFuzz Audit (Zero Redundancy Rule)
 
 BEFORE formatting the final JSON dataset or inserting into the database, you MUST perform a database pre-check to prevent duplication.
 
 1. **Query Existing Database:** Use Python scripts via the `Bash` or `PowerShell` tool to query `SessionLocal()`.
-2. **Key Checks:**
-   - Search by Thai Name (`full_name_th.like("%ชื่อ%")`)
+2. **Key Exact Checks:**
+   - Search by Thai Name (`full_name_th.like("%ชื่อ%")`) — remembering to strip common titles (ศ.ดร., รศ.ดร., etc.) before matching.
    - Search by English Name (`first_name` and `last_name`)
    - Search by Email (`email`)
-3. **If Found:** Skip adding the new profile. If the new profile has better/richer data (more publications, better interests), schedule a targeted update to the existing record instead.
+3. **Fuzzy Cross-Check (Mandatory):** Run a `rapidfuzz` or Levenshtein distance check (score > 90) against existing names to catch misspellings or alternative transliterations.
+4. **If Found:** Skip adding the new profile. If the new profile has better/richer data (more publications, better interests), schedule a targeted update to the existing record instead.
 
 ## 3. Data Structure & Profile Synthesis
 
