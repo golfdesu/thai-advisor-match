@@ -59,40 +59,57 @@ const THEMES: ThemeOption[] = [
   },
 ];
 
+function readStoredTheme(): ThemeName {
+  if (typeof window === "undefined") return "navy";
+  const saved = window.localStorage.getItem("theme") || window.localStorage.getItem("theme_color");
+  if (saved === "crimson" || saved === "sunrise") return "crimson";
+  if (saved === "emerald" || saved === "green") return "emerald";
+  if (saved === "amethyst" || saved === "purple") return "amethyst";
+  if (saved === "amber" || saved === "orange") return "amber";
+  return "navy";
+}
+
+function readStoredDarkMode(): boolean {
+  if (typeof window === "undefined") return false;
+  const saved = window.localStorage.getItem("theme") || window.localStorage.getItem("theme_color");
+  const savedMode = window.localStorage.getItem("theme_mode");
+  const systemPrefersDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false;
+  return savedMode ? savedMode === "dark" : (saved === "dark" || saved === "midnight" || systemPrefersDark);
+}
+
+function applyThemeAndMode(theme: ThemeName, dark: boolean) {
+  document.documentElement.setAttribute("data-theme", theme);
+  document.documentElement.classList.toggle("dark", dark);
+}
+
 interface HeaderProps {
   savedCount: number;
   onOpenSavedModal: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) => {
-  const [currentTheme, setCurrentTheme] = useState<ThemeName>("navy");
-  const [isDark, setIsDark] = useState<boolean>(false);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [currentTheme, setCurrentTheme] = useState<ThemeName>("navy"); // Default for server render
+  const [isDark, setIsDark] = useState<boolean>(false); // Default for server render
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setMounted(true);
-    const saved = (localStorage.getItem("theme") || localStorage.getItem("theme_color")) as string | null;
-    let initialTheme: ThemeName = "navy";
-    if (saved === "crimson" || saved === "sunrise") {
-      initialTheme = "crimson";
-    } else if (saved === "emerald" || saved === "green") {
-      initialTheme = "emerald";
-    } else if (saved === "amethyst" || saved === "purple") {
-      initialTheme = "amethyst";
-    } else if (saved === "amber" || saved === "orange") {
-      initialTheme = "amber";
-    }
-
-    const savedMode = localStorage.getItem("theme_mode");
-    const systemPrefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const initialDarkMode = savedMode ? savedMode === "dark" : (saved === "dark" || saved === "midnight" || systemPrefersDark);
-
-    setCurrentTheme(initialTheme);
-    setIsDark(initialDarkMode);
-    applyThemeAndMode(initialTheme, initialDarkMode);
+    const timer = setTimeout(() => {
+      setMounted(true);
+      const initialTheme = readStoredTheme();
+      const initialDark = readStoredDarkMode();
+      setCurrentTheme(initialTheme);
+      setIsDark(initialDark);
+      applyThemeAndMode(initialTheme, initialDark);
+    }, 0);
+    return () => clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+    applyThemeAndMode(currentTheme, isDark);
+  }, [currentTheme, isDark, mounted]);
 
   // Close dropdown on click outside
   useEffect(() => {
@@ -104,15 +121,6 @@ export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) 
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-
-  const applyThemeAndMode = (theme: ThemeName, dark: boolean) => {
-    document.documentElement.setAttribute("data-theme", theme);
-    if (dark) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  };
 
   const selectTheme = (theme: ThemeName) => {
     setCurrentTheme(theme);
@@ -211,7 +219,7 @@ export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) 
               <div className="space-y-1">
                 {THEMES.map((theme) => {
                   const IconComponent = theme.icon;
-                  const isSelected = mounted && currentTheme === theme.id;
+                  const isSelected = currentTheme === theme.id;
                   const themeColor = isDark ? theme.darkPrimaryColor : theme.primaryColor;
                   return (
                     <button

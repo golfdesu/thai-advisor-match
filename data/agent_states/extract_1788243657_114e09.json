@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1788243657_114e09",
+  "target_university_th": "มหาวิทยาลัยธรรมศาสตร์",
+  "target_university_en": "Thammasat University",
+  "target_faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+  "target_faculty_en": "Sirindhorn International Institute of Technology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.siit.tu.ac.th/personnel.php?type=faculty&dep=1"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 1913,
+  "status": "completed",
+  "last_error": null
+}

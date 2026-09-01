@@ -1,0 +1,26 @@
+{
+  "session_id": "extract_1788240320_b7b592",
+  "target_university_th": "มหาวิทยาลัยเชียงใหม่",
+  "target_university_en": "Chiang Mai University",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://me.eng.cmu.ac.th/staff/professor",
+    "https://me.eng.cmu.ac.th/staff/associate-professor",
+    "https://me.eng.cmu.ac.th/staff/assistant-professor",
+    "https://www.cpe.eng.cmu.ac.th/lecturer-thai.php"
+  ],
+  "failed_urls": [
+    "https://me.eng.cmu.ac.th/staff/professor",
+    "https://me.eng.cmu.ac.th/staff/assistant-professor",
+    "https://www.cpe.eng.cmu.ac.th/lecturer-thai.php"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 4,
+  "total_tokens_used": 3846,
+  "status": "completed",
+  "last_error": null
+}

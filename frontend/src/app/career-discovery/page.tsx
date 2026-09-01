@@ -10,13 +10,11 @@ import {
   Compass,
   GraduationCap,
   Briefcase,
-  Layers,
   Award,
   Zap,
   Brain,
   Target,
   RefreshCw,
-  Share2,
   Copy,
   Check,
   ChevronRight,
@@ -24,27 +22,53 @@ import {
   BookOpen,
   Building2,
   Home as HomeIcon,
-  Heart,
   TrendingUp,
-  AlertCircle,
   Clock,
   Cpu,
   ShieldCheck,
   MapPin,
-  Coffee,
-  Star
+  Coffee
 } from "lucide-react";
 import riasecQuestions from "@/data/riasec_questions.json";
 import lifestyleQuestions from "@/data/lifestyle_questions.json";
-import { RiasecScore, CareerItem, Course as RecommendedCourse, CareerProfileResponse as QuizResultData } from "@/types";
+import { RiasecScore, CareerProfileResponse as QuizResultData } from "@/types";
 import { API_BASE_URL } from "@/lib/config";
+
+type QuestionOption = {
+  text: string;
+  value: string | number;
+};
+
+type AssessmentQuestion = {
+  id: string | number;
+  category: string;
+  text?: string;
+  question: string;
+  type: "likert" | "single_choice" | "multi_choice" | "free_text";
+  dimension?: string;
+  options?: QuestionOption[];
+};
+
+type LifestyleQuestion = Omit<AssessmentQuestion, "question" | "text"> & {
+  text: string;
+};
+
+type AnswerValue = string | number | string[] | undefined;
+
+type FormattedAnswer = {
+  question_id: string | number;
+  dimension?: string;
+  category: string;
+  value: string | number;
+  label?: string;
+};
 
 function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
   const size = 320;
   const center = size / 2;
   const radius = 105;
 
-  const traits = [
+  const traits: Array<{ key: keyof RiasecScore; label: string; code: string; color: string }> = [
     { key: "realistic", label: "นักปฏิบัติ (R)", code: "R", color: "#ea580c" },
     { key: "investigative", label: "นักสืบค้น (I)", code: "I", color: "#2563eb" },
     { key: "artistic", label: "นักสร้างสรรค์ (A)", code: "A", color: "#db2777" },
@@ -59,7 +83,7 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
   // Calculate polygon points
   const points = traits.map((trait, index) => {
     const angle = index * angleStep - Math.PI / 2;
-    const value = (scores as any)[trait.key] || 40;
+    const value = scores[trait.key] || 40;
     const r = (value / 100) * radius;
     const x = center + r * Math.cos(angle);
     const y = center + r * Math.sin(angle);
@@ -124,7 +148,7 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
         {/* Data Nodes & Labels */}
         {traits.map((trait, index) => {
           const angle = index * angleStep - Math.PI / 2;
-          const value = (scores as any)[trait.key] || 40;
+          const value = scores[trait.key] || 40;
           const nodeR = (value / 100) * radius;
           const nodeX = center + nodeR * Math.cos(angle);
           const nodeY = center + nodeR * Math.sin(angle);
@@ -168,7 +192,7 @@ function RiasecRadarChart({ scores }: { scores: RiasecScore }) {
 export default function CareerDiscoveryPage() {
   const [tier, setTier] = useState<"quick" | "standard" | "deep" | null>(null);
   const [currentStep, setCurrentStep] = useState(0);
-  const [answers, setAnswers] = useState<Record<any, any>>({});
+  const [answers, setAnswers] = useState<Record<string | number, AnswerValue>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [loadingStage, setLoadingStage] = useState(0);
   const [result, setResult] = useState<QuizResultData | null>(null);
@@ -198,7 +222,7 @@ export default function CareerDiscoveryPage() {
       }
     });
 
-    const selectedRiasec: any[] = [];
+    const selectedRiasec: AssessmentQuestion[] = [];
     const dimensions = ["R", "I", "A", "S", "E", "C"];
     let i = 0;
     while (selectedRiasec.length < totalRiasec) {
@@ -216,10 +240,10 @@ export default function CareerDiscoveryPage() {
       i++;
     }
 
-    const validLifestyleQuestions = (lifestyleQuestions as any[]).filter(
+    const validLifestyleQuestions = (lifestyleQuestions as LifestyleQuestion[]).filter(
       (q) => q.type !== "free_text" && Array.isArray(q.options) && q.options.length > 0
     );
-    const selectedLifestyle = validLifestyleQuestions.slice(0, totalLifestyle).map(q => ({
+    const selectedLifestyle: AssessmentQuestion[] = validLifestyleQuestions.slice(0, totalLifestyle).map(q => ({
       ...q,
       question: q.text,
       category: `ไลฟ์สไตล์ & บริบทมหาวิทยาลัย (${q.category})`
@@ -231,9 +255,11 @@ export default function CareerDiscoveryPage() {
   const currentQ = activeQuestions[currentStep];
   const progressPct = activeQuestions.length > 0 ? Math.round(((currentStep + 1) / activeQuestions.length) * 100) : 0;
 
-  const handleSelectOption = (questionId: any, value: any, isMulti: boolean = false) => {
+  const handleSelectOption = (questionId: string | number, value: string | number | undefined, isMulti: boolean = false) => {
     if (isMulti) {
-      const currentList: string[] = answers[questionId] || [];
+      const currentValue = answers[questionId];
+      const currentList: string[] = Array.isArray(currentValue) ? currentValue : [];
+      if (typeof value !== "string") return;
       if (currentList.includes(value)) {
         setAnswers({ ...answers, [questionId]: currentList.filter((item) => item !== value) });
       } else {
@@ -268,17 +294,21 @@ export default function CareerDiscoveryPage() {
       setLoadingStage((prev) => (prev < 2 ? prev + 1 : prev));
     }, 1400);
 
-    const formattedAnswers: any[] = [];
+    const formattedAnswers: FormattedAnswer[] = [];
     const freeTextAnswers: Record<string, string> = {};
 
     activeQuestions.forEach((q) => {
       if (q.type === "free_text") {
-        freeTextAnswers[q.id.toString()] = answers[q.id] || "";
+        const answer = answers[q.id];
+        freeTextAnswers[q.id.toString()] = typeof answer === "string" ? answer : "";
       } else {
-        const val = answers[q.id] ?? (q.type === "likert" ? 3 : (q.options?.[0]?.value || ""));
+        const answer = answers[q.id];
+        const val = q.type === "likert"
+          ? (typeof answer === "number" ? answer : 3)
+          : (typeof answer === "string" || typeof answer === "number" ? answer : (q.options?.[0]?.value || ""));
         let optionLabel: string | undefined = undefined;
         if (q.options && Array.isArray(q.options)) {
-          const matchedOpt = q.options.find((opt: any) => opt.value === val);
+          const matchedOpt = q.options.find((opt) => opt.value === val);
           if (matchedOpt) optionLabel = matchedOpt.text;
         }
 
@@ -309,8 +339,8 @@ export default function CareerDiscoveryPage() {
 
       const data = await res.json();
       setResult(data);
-    } catch (err: any) {
-      setError(err.message || "เกิดข้อผิดพลาดในการเชื่อมต่อเซิร์ฟเวอร์");
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการเชื่อมต่อเซิร์ฟเวอร์");
     } finally {
       clearInterval(interval);
       setIsSubmitting(false);
@@ -366,6 +396,12 @@ export default function CareerDiscoveryPage() {
 
       {/* Main Content Area */}
       <main className="flex-1 max-w-4xl mx-auto w-full px-4 sm:px-6 py-8 sm:py-12 flex flex-col justify-center relative">
+        {error && (
+          <div role="alert" className="mb-6 rounded-2xl border border-rose-200 bg-rose-50 p-4 text-sm font-bold text-rose-900 dark:border-rose-900/50 dark:bg-rose-950/30 dark:text-rose-200">
+            {error}
+          </div>
+        )}
+
         {/* VIEW 1: Tier Selection Mode */}
         {!tier && !result && (
           <div className="text-center relative z-10">
@@ -591,7 +627,7 @@ export default function CareerDiscoveryPage() {
               {/* INPUT TYPE 3: Single Choice */}
               {currentQ.type === "single_choice" && currentQ.options && (
                 <div className="mt-8 flex flex-col gap-3">
-                  {currentQ.options.map((opt: any) => {
+                  {currentQ.options.map((opt) => {
                     const isSelected = answers[currentQ.id] === opt.value;
                     return (
                       <button
@@ -627,7 +663,10 @@ export default function CareerDiscoveryPage() {
                   <div className="mt-3.5 flex justify-end">
                      <button
                         type="button"
-                        onClick={() => handleSelectOption(currentQ.id, answers[currentQ.id], false)}
+                        onClick={() => {
+                          const answer = answers[currentQ.id];
+                          handleSelectOption(currentQ.id, typeof answer === "string" ? answer : "", false);
+                        }}
                         className="bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] hover:bg-[var(--theme-primary)] hover:text-[var(--theme-primary-contrast)] font-black px-4.5 py-2.5 rounded-xl text-xs sm:text-sm transition border border-[var(--theme-border)] cursor-pointer"
                      >
                        บันทึกคำตอบ

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   Sparkles,
   Award,
@@ -18,14 +19,13 @@ import {
   Building2,
   GraduationCap,
   Mail,
-  Heart,
-  FileText
+  Heart
 } from "lucide-react";
-import { UniversityHighlight, Course, FacultyMember } from "@/types";
+import type { UniversityHighlight, Course, FacultyMember } from "@/types";
 import { API_BASE_URL, getAdvisorAvatarUrl } from "@/lib/config";
 
 interface FeaturedProgramsShowcaseProps {
-  activeTab: "courses" | "advisors";
+  activeTab: "courses" | "advisors" | "labs";
   onSelectUniversity: (uniName: string) => void;
   onSelectCourseSearch: (query: string) => void;
   onSelectCourseDetail?: (course: Course) => void;
@@ -95,6 +95,9 @@ export const FeaturedProgramsShowcase: React.FC<FeaturedProgramsShowcaseProps> =
 
   const currentAdvisors = currentUni?.distinguished_advisors || [];
   const currentFeaturedAdvisor = currentAdvisors[activeAdvisorSlide] || currentAdvisors[0];
+
+  const [featuredAdvisorImgErrors, setFeaturedAdvisorImgErrors] = useState<Record<string, boolean>>({});
+  const [miniAdvisorImgErrors, setMiniAdvisorImgErrors] = useState<Record<string, boolean>>({});
 
   const scrollTabs = (direction: "left" | "right") => {
     if (scrollContainerRef.current) {
@@ -353,14 +356,28 @@ export const FeaturedProgramsShowcase: React.FC<FeaturedProgramsShowcaseProps> =
                       </div>
 
                       <div className="flex items-start gap-4 mb-4">
-                        <div className="relative shrink-0">
-                          <img
-                            src={currentFeaturedAdvisor.image_url || getAdvisorAvatarUrl(currentFeaturedAdvisor.full_name_th || currentFeaturedAdvisor.full_name || currentFeaturedAdvisor.first_name)}
-                            alt={currentFeaturedAdvisor.full_name_th}
+                        <div className="relative shrink-0 w-16 h-16 sm:w-20 sm:h-20">
+                          <Image
+                            src={
+                              featuredAdvisorImgErrors[currentFeaturedAdvisor.id] || !currentFeaturedAdvisor.image_url
+                                ? getAdvisorAvatarUrl(
+                                    currentFeaturedAdvisor.full_name_th ||
+                                      currentFeaturedAdvisor.full_name ||
+                                      currentFeaturedAdvisor.first_name
+                                  )
+                                : currentFeaturedAdvisor.image_url
+                            }
+                            alt={currentFeaturedAdvisor.full_name_th || currentFeaturedAdvisor.full_name || "รูปภาพอาจารย์"}
+                            width={80}
+                            height={80}
                             loading="lazy"
                             decoding="async"
-                            onError={(e) => {
-                              (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(currentFeaturedAdvisor.full_name_th || currentFeaturedAdvisor.full_name || currentFeaturedAdvisor.first_name);
+                            unoptimized
+                            onError={() => {
+                              setFeaturedAdvisorImgErrors((prev) => ({
+                                ...prev,
+                                [currentFeaturedAdvisor.id]: true,
+                              }));
                             }}
                             className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover border-2 border-[var(--theme-border)] shadow-xs bg-[var(--theme-card-subtle)]"
                           />
@@ -574,16 +591,29 @@ export const FeaturedProgramsShowcase: React.FC<FeaturedProgramsShowcaseProps> =
                             }`}
                           >
                             <div className="flex items-center gap-3 min-w-0 flex-1">
-                              <img
-                                src={adv.image_url || getAdvisorAvatarUrl(adv.full_name_th || adv.full_name || adv.first_name)}
-                                alt={adv.full_name_th}
-                                loading="lazy"
-                                decoding="async"
-                                onError={(e) => {
-                                  (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(adv.full_name_th || adv.full_name || adv.first_name);
-                                }}
-                                className="w-9 h-9 rounded-xl object-cover border border-[var(--theme-border)] shrink-0"
-                              />
+                              <div className="relative w-9 h-9 shrink-0">
+                                <Image
+                                  src={
+                                    miniAdvisorImgErrors[adv.id]
+                                      ? getAdvisorAvatarUrl(adv.full_name_th || adv.full_name || adv.first_name)
+                                      : adv.image_url ||
+                                        getAdvisorAvatarUrl(adv.full_name_th || adv.full_name || adv.first_name)
+                                  }
+                                  alt={adv.full_name_th || adv.full_name || "รูปภาพอาจารย์"}
+                                  width={36}
+                                  height={36}
+                                  loading="lazy"
+                                  decoding="async"
+                                  unoptimized
+                                  onError={() => {
+                                    setMiniAdvisorImgErrors((prev) => ({
+                                      ...prev,
+                                      [adv.id]: true,
+                                    }));
+                                  }}
+                                  className="w-9 h-9 rounded-xl object-cover border border-[var(--theme-border)] shrink-0"
+                                />
+                              </div>
                               <div className="min-w-0 flex-1">
                                 <div className="flex items-center gap-2 mb-0.5">
                                   <span className={`text-[10px] font-black px-1.5 py-0.2 rounded ${

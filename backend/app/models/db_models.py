@@ -1,4 +1,5 @@
-from sqlalchemy import Column, String, Text, JSON, Float
+from datetime import datetime
+from sqlalchemy import Column, String, Text, JSON, Float, Integer, DateTime
 from pgvector.sqlalchemy import Vector
 from app.core.database import Base
 
@@ -61,3 +62,53 @@ class CourseDB(Base):
     website_url = Column(String)
     embedding_text = Column(Text)
     embedding = Column(Vector(768), nullable=True)
+
+
+class ResearchLabDB(Base):
+    __tablename__ = "research_labs"
+
+    id = Column(String, primary_key=True, index=True)
+    name_th = Column(String, index=True)
+    name_en = Column(String, index=True)
+    university = Column(String, index=True)
+    university_th = Column(String, index=True)
+    faculty = Column(String, index=True)
+    faculty_th = Column(String, index=True)
+    department = Column(String)
+    department_th = Column(String)
+
+    lead_advisor_id = Column(String, index=True)  # Lead PI / Director
+    member_faculty_ids = Column(JSON, default=list)  # List of Faculty IDs
+
+    description = Column(Text)
+    research_domains = Column(JSON, default=list)
+    flagship_equipment = Column(JSON, default=list)
+    industry_partners = Column(JSON, default=list)
+    open_positions = Column(JSON, default=list)
+
+    website_url = Column(String)
+    image_url = Column(String)
+
+    embedding_text = Column(Text)
+    embedding = Column(Vector(768), nullable=True)
+
+
+class SemanticCacheDB(Base):
+    """
+    Zero-Token & Zero-Latency Semantic Cache Table (pgvector)
+    Stores pre-computed AI thesis match insights and cold emails.
+    If query vector cosine distance <= 0.05 (similarity >= 0.95), cached payload is returned instantly.
+    """
+    __tablename__ = "semantic_cache"
+
+    id = Column(String, primary_key=True, index=True)
+    cache_type = Column(String, index=True)  # 'advisor_search', 'cold_email', 'synergy_insight'
+    query_text = Column(Text, nullable=False)
+    cache_payload = Column(JSON, nullable=False)  # Cached structured response
+    hit_count = Column(Integer, default=1)
+
+    embedding = Column(Vector(768), nullable=False)  # 768-dim query embedding
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+

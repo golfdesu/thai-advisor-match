@@ -121,3 +121,51 @@ export interface UniversityHighlight {
   distinguished_advisors?: FacultyMember[];
 }
 
+export interface ResearchLab {
+  id: string;
+  name_th: string;
+  name_en: string;
+  university: string;
+  university_th: string;
+  faculty: string;
+  faculty_th: string;
+  department?: string;
+  department_th?: string;
+  lead_advisor_id?: string;
+  lead_advisor?: FacultyMember;
+  member_faculty_ids: string[];
+  member_faculties: FacultyMember[];
+  description?: string;
+  research_domains: string[];
+  flagship_equipment: string[];
+  industry_partners: string[];
+  open_positions: string[];
+  website_url?: string;
+  image_url?: string;
+  match_score?: number;
+  ai_explanation?: string;
+  synergy_badges: string[];
+}
+
+export interface LabSearchResponse {
+  query: string;
+  total_matched: number;
+  results: ResearchLab[];
+}
+
+export interface LabInquiryRequest {
+  lab_id: string;
+  student_name: string;
+  student_background: string;
+  research_proposal: string;
+  intended_degree: string;
+  inquiry_type: string;
+  language: "th" | "en";
+}
+
+export interface LabInquiryResponse {
+  subject: string;
+  body: string;
+  tips: string[];
+}
+

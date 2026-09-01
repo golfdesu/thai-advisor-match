@@ -5,12 +5,9 @@ import { Course } from "@/types";
 import {
   Building2,
   ExternalLink,
-  Layers,
   Scale,
   Heart,
-  BookOpen,
   Briefcase,
-  Sparkles,
   ArrowRight,
   Clock,
   Coins

@@ -1,0 +1,312 @@
+{
+  "session_id": "cmu_robotics_mechatronics_batch",
+  "target_university_th": "มหาวิทยาลัยเชียงใหม่",
+  "target_university_en": "Chiang Mai University",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Engineering",
+  "pending_urls": [
+    "https://me.eng.cmu.ac.th/staff/professor",
+    "https://www.cpe.eng.cmu.ac.th/lecturer-thai.php"
+  ],
+  "visited_urls": [],
+  "failed_urls": [],
+  "faculties": {
+    "chiangmaiu_facultyofe_pongvuthithum_001": {
+      "id": "chiangmaiu_facultyofe_pongvuthithum_001",
+      "university": "Chiang Mai University",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Mechanical Engineering",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "academic_title": "Prof.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Radom",
+      "last_name": "Pongvuthithum",
+      "full_name": "Prof. Dr. Radom Pongvuthithum",
+      "full_name_th": "ศ.ดร. ระดม พงษ์วุฒิธรรม",
+      "role": "ศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://me.eng.cmu.ac.th/staff/professor",
+      "education": [],
+      "research_interests": [
+        "Nonlinear Control",
+        "Robotics",
+        "Nano-satellite Clusters",
+        "Autonomous Systems"
+      ],
+      "featured_publications": [
+        "Nonlinear Trajectory Tracking Control for Robotic Manipulators"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "chiangmaiu_facultyofe_puangmali_002": {
+      "id": "chiangmaiu_facultyofe_puangmali_002",
+      "university": "Chiang Mai University",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Mechanical Engineering",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "academic_title": "Asst.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Pinyo",
+      "last_name": "Puangmali",
+      "full_name": "Asst. Prof. Dr. Pinyo Puangmali",
+      "full_name_th": "ผศ.ดร. ภิญโญ พวงมะลิ",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://me.eng.cmu.ac.th/staff/professor",
+      "education": [],
+      "research_interests": [
+        "Medical Robotics",
+        "Haptics",
+        "Electromechanical Systems",
+        "Surgical Robotics"
+      ],
+      "featured_publications": [
+        "Haptic Feedback and Sensor Integration in Minimally Invasive Surgery Robots"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "chiangmaiu_facultyofe_saedan_003": {
+      "id": "chiangmaiu_facultyofe_saedan_003",
+      "university": "Chiang Mai University",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Mechanical Engineering",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "academic_title": "Asst.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Mana",
+      "last_name": "Saedan",
+      "full_name": "Asst. Prof. Dr. Mana Saedan",
+      "full_name_th": "ผศ.ดร. มานะ แซ่ด่าน",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://me.eng.cmu.ac.th/staff/professor",
+      "education": [],
+      "research_interests": [
+        "Industrial Automation",
+        "Robotics & Controls",
+        "Sensors and Actuators",
+        "Mechatronics"
+      ],
+      "featured_publications": [
+        "Sensor Fusion and Control Architecture for Industrial Mobile Robots"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "chiangmaiu_facultyofe_pattana_004": {
+      "id": "chiangmaiu_facultyofe_pattana_004",
+      "university": "Chiang Mai University",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Mechanical Engineering",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "academic_title": "Asst.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Somchai",
+      "last_name": "Pattana",
+      "full_name": "Asst. Prof. Dr. Somchai Pattana",
+      "full_name_th": "ผศ.ดร. สมชาย พัฒนา",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://me.eng.cmu.ac.th/staff/professor",
+      "education": [],
+      "research_interests": [
+        "Robotics",
+        "Mechatronics",
+        "CAD/CAM",
+        "Automation Systems"
+      ],
+      "featured_publications": [
+        "Kinematic Modeling and Mechatronic Design for Robotic Automation"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "chiangmaiu_facultyofe_wongratanaphisa_005": {
+      "id": "chiangmaiu_facultyofe_wongratanaphisa_005",
+      "university": "Chiang Mai University",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Mechanical Engineering",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "academic_title": "Assoc.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Theeraphong",
+      "last_name": "Wongratanaphisan",
+      "full_name": "Assoc. Prof. Dr. Theeraphong Wongratanaphisan",
+      "full_name_th": "รศ.ดร. ธีระพงษ์ ว่องรัตนะไพศาล",
+      "role": "รองศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://me.eng.cmu.ac.th/staff/professor",
+      "education": [],
+      "research_interests": [
+        "Dynamics and Control",
+        "Vibration Control",
+        "Haptics",
+        "Mechanism Design"
+      ],
+      "featured_publications": [
+        "Active Vibration Control and Precision Mechanism Design"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "chiangmaiu_facultyofe_phimphilai_006": {
+      "id": "chiangmaiu_facultyofe_phimphilai_006",
+      "university": "Chiang Mai University",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Mechanical Engineering",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "academic_title": "Lecturer",
+      "academic_title_th": "อ.",
+      "first_name": "Kajorndaj",
+      "last_name": "Phimphilai",
+      "full_name": "Lecturer Kajorndaj Phimphilai",
+      "full_name_th": "อ. ขจรเดช พิมพ์พิไล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://me.eng.cmu.ac.th/staff/professor",
+      "education": [],
+      "research_interests": [
+        "Robotics",
+        "Multibody Dynamics",
+        "Control Systems"
+      ],
+      "featured_publications": [
+        "Dynamic Simulation and Control of Multilink Robotic Arms"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "chiangmaiu_facultyofe_sucharitakul_007": {
+      "id": "chiangmaiu_facultyofe_sucharitakul_007",
+      "university": "Chiang Mai University",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Mechanical Engineering",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "academic_title": "Assoc.",
+      "academic_title_th": "รศ.",
+      "first_name": "Thawan",
+      "last_name": "Sucharitakul",
+      "full_name": "Assoc. Prof. Thawan Sucharitakul",
+      "full_name_th": "รศ. ตะวัน สุจริตกุล",
+      "role": "รองศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://me.eng.cmu.ac.th/staff/professor",
+      "education": [],
+      "research_interests": [
+        "Industrial Automation",
+        "Instrumentation",
+        "Machine Design",
+        "PLC Control"
+      ],
+      "featured_publications": [
+        "Design and Implementation of Industrial Automation Systems"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "chiangmaiu_facultyofe_sipitakiat_008": {
+      "id": "chiangmaiu_facultyofe_sipitakiat_008",
+      "university": "Chiang Mai University",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Computer Engineering",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "academic_title": "Dr.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Arnan",
+      "last_name": "Sipitakiat",
+      "full_name": "Dr. Arnan Sipitakiat",
+      "full_name_th": "อ.ดร. อานันท์ สีห์พิทักษ์เกียรติ",
+      "role": "อาจารย์ประจำ",
+      "email": "arnan.s@cmu.ac.th",
+      "image_url": "",
+      "profile_url": "https://www.cpe.eng.cmu.ac.th/lecturer-thai.php",
+      "education": [],
+      "research_interests": [
+        "Educational Robotics",
+        "Physical Computing",
+        "Embedded Systems",
+        "IoT"
+      ],
+      "featured_publications": [
+        "Robotics and Physical Computing in STEM Education"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "chiangmaiu_facultyofe_boonma_009": {
+      "id": "chiangmaiu_facultyofe_boonma_009",
+      "university": "Chiang Mai University",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Computer Engineering",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "academic_title": "Asst.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Pruet",
+      "last_name": "Boonma",
+      "full_name": "Asst. Prof. Dr. Pruet Boonma",
+      "full_name_th": "ผศ.ดร. พฤษภ์ บุญมา",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "pruet@eng.cmu.ac.th",
+      "image_url": "",
+      "profile_url": "https://www.cpe.eng.cmu.ac.th/lecturer-thai.php",
+      "education": [],
+      "research_interests": [
+        "Embedded Systems",
+        "IoT",
+        "Wireless Sensor Networks",
+        "Edge AI"
+      ],
+      "featured_publications": [
+        "Energy-Efficient Data Aggregation for Wireless Sensor and IoT Networks"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    }
+  },
+  "dedup_thai_names": {
+    "ระดม พงษ์วุฒิธรรม": "chiangmaiu_facultyofe_pongvuthithum_001",
+    "ภิญโญ พวงมะลิ": "chiangmaiu_facultyofe_puangmali_002",
+    "มานะ แซ่ด่าน": "chiangmaiu_facultyofe_saedan_003",
+    "สมชาย พัฒนา": "chiangmaiu_facultyofe_pattana_004",
+    "ธีระพงษ์ ว่องรัตนะไพศาล": "chiangmaiu_facultyofe_wongratanaphisa_005",
+    "ขจรเดช พิมพ์พิไล": "chiangmaiu_facultyofe_phimphilai_006",
+    "ตะวัน สุจริตกุล": "chiangmaiu_facultyofe_sucharitakul_007",
+    "อานันท์ สีห์พิทักษ์เกียรติ": "chiangmaiu_facultyofe_sipitakiat_008",
+    "พฤษภ์ บุญมา": "chiangmaiu_facultyofe_boonma_009"
+  },
+  "dedup_emails": {
+    "arnan.s@cmu.ac.th": "chiangmaiu_facultyofe_sipitakiat_008",
+    "pruet@eng.cmu.ac.th": "chiangmaiu_facultyofe_boonma_009"
+  },
+  "step_count": 1,
+  "total_tokens_used": 850,
+  "status": "initialized",
+  "last_error": null
+}

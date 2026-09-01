@@ -54,7 +54,7 @@ export const ColdEmailModal: React.FC<ColdEmailModalProps> = ({ advisor, onClose
       } else {
         alert("ไม่สามารถสร้างร่างอีเมลได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง");
       }
-    } catch (e) {
+    } catch {
       alert("เกิดข้อผิดพลาดในการเชื่อมต่อเซิร์ฟเวอร์");
     } finally {
       setLoading(false);

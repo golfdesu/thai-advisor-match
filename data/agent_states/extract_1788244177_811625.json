@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1788244177_811625",
+  "target_university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+  "target_university_en": "King Mongkut's Institute of Technology Ladkrabang",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์",
+  "target_faculty_en": "School of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.ce.kmitl.ac.th/people"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 853,
+  "status": "completed",
+  "last_error": null
+}

@@ -1,0 +1,119 @@
+{
+  "session_id": "extract_1788242948_79713a",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.cp.eng.chula.ac.th/about/faculty/"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "chula_eng_cp_001": {
+      "id": "chula_eng_cp_001",
+      "university": "Chulalongkorn University",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Computer Engineering",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "academic_title": "Prof.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Boonserm",
+      "last_name": "Kijsirikul",
+      "full_name": "Prof. Dr. Boonserm Kijsirikul",
+      "full_name_th": "ศ.ดร. บุญเสริม กิจศิริกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://www.cp.eng.chula.ac.th/about/faculty/",
+      "education": [
+        "D.Eng. (Electronic and Electrical Engineering, Tokyo Institute of Technology, Japan)",
+        "M.Eng. (Tokyo Institute of Technology, Japan)",
+        "B.Eng. Computer Engineering (Tokyo Institute of Technology, Japan)"
+      ],
+      "research_interests": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Natural Language Processing",
+        "Speech Recognition"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "chula_eng_cp_002": {
+      "id": "chula_eng_cp_002",
+      "university": "Chulalongkorn University",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Computer Engineering",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "academic_title": "Prof.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Prabhas",
+      "last_name": "Chongstitvatana",
+      "full_name": "Prof. Dr. Prabhas Chongstitvatana",
+      "full_name_th": "ศ.ดร. ประภาส จงสถิตย์วัฒนา",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://www.cp.eng.chula.ac.th/about/faculty/",
+      "education": [
+        "Ph.D. (Computer Science, University of Edinburgh, UK)",
+        "วศ.บ. (วิศวกรรมไฟฟ้า, มหาวิทยาลัยเกษตรศาสตร์)"
+      ],
+      "research_interests": [
+        "Robotics",
+        "Evolutionary Computation",
+        "Artificial Intelligence"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "chula_eng_cp_003": {
+      "id": "chula_eng_cp_003",
+      "university": "Chulalongkorn University",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Computer Engineering",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "academic_title": "Prof.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Wiwat",
+      "last_name": "Vatanawood",
+      "full_name": "Prof. Dr. Wiwat Vatanawood",
+      "full_name_th": "ศ.ดร. วิวัฒน์ วัฒนาวุฒิ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://www.cp.eng.chula.ac.th/about/faculty/",
+      "education": [
+        "วศ.ด. (วิศวกรรมคอมพิวเตอร์, จุฬาลงกรณ์มหาวิทยาลัย)",
+        "M.S. (Computer Science, California State University, Fullerton, USA)",
+        "วศ.บ. (วิศวกรรมคอมพิวเตอร์, จุฬาลงกรณ์มหาวิทยาลัย)"
+      ],
+      "research_interests": [
+        "Formal Specifications",
+        "Enterprise Architecture"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "บุญเสริม กิจศิริกุล": "chula_eng_cp_001",
+    "ประภาส จงสถิตย์วัฒนา": "chula_eng_cp_002",
+    "วิวัฒน์ วัฒนาวุฒิ": "chula_eng_cp_003"
+  },
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 9278,
+  "status": "completed",
+  "last_error": null
+}

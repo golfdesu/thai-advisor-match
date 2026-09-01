@@ -115,3 +115,63 @@ class CourseSearchResponse(BaseModel):
     query: str
     total_matched: int
     results: List[CourseSchema]
+
+
+class ResearchLab(BaseModel):
+    id: str = Field(..., description="Unique Lab ID e.g. kmutt_fibo_robotics_lab")
+    name_th: str
+    name_en: str
+    university: str
+    university_th: str
+    faculty: str
+    faculty_th: str
+    department: Optional[str] = None
+    department_th: Optional[str] = None
+
+    lead_advisor_id: Optional[str] = None
+    lead_advisor: Optional[FacultyMember] = None
+    member_faculty_ids: List[str] = Field(default_factory=list)
+    member_faculties: List[FacultyMember] = Field(default_factory=list)
+
+    description: Optional[str] = None
+    research_domains: List[str] = Field(default_factory=list)
+    flagship_equipment: List[str] = Field(default_factory=list)
+    industry_partners: List[str] = Field(default_factory=list)
+    open_positions: List[str] = Field(default_factory=list)
+
+    website_url: Optional[str] = None
+    image_url: Optional[str] = None
+    match_score: Optional[float] = 95.0
+    ai_explanation: Optional[str] = None
+    synergy_badges: List[str] = Field(default_factory=list)
+
+
+class LabSearchRequest(BaseModel):
+    query: Optional[str] = Field("", max_length=500)
+    university: Optional[str] = Field(None, max_length=150)
+    faculty: Optional[str] = Field(None, max_length=150)
+    domain: Optional[str] = Field(None, max_length=150)
+    top_k: int = Field(20, ge=1, le=50)
+
+
+class LabSearchResponse(BaseModel):
+    query: str
+    total_matched: int
+    results: List[ResearchLab]
+
+
+class LabInquiryRequest(BaseModel):
+    lab_id: str = Field(..., min_length=2, max_length=100)
+    student_name: str = Field(..., min_length=1, max_length=100)
+    student_background: str = Field(..., min_length=2, max_length=1500)
+    research_proposal: str = Field(..., min_length=2, max_length=1500)
+    intended_degree: str = Field("Master's Degree", max_length=50)
+    inquiry_type: str = Field("ra_assistantship", description="ra_assistantship, lab_visit, or joint_project")
+    language: str = Field("th", pattern=r"^(th|en)$")
+
+
+class LabInquiryResponse(BaseModel):
+    subject: str
+    body: str
+    tips: List[str] = Field(default_factory=list)
+

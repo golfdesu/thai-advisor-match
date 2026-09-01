@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1788243525_50bcca",
+  "target_university_th": "มหาวิทยาลัยขอนแก่น",
+  "target_university_en": "Khon Kaen University",
+  "target_faculty_th": "วิทยาลัยการคอมพิวเตอร์",
+  "target_faculty_en": "College of Computing",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://computing.kku.ac.th/academic-staff"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 654,
+  "status": "completed",
+  "last_error": null
+}

@@ -2,20 +2,19 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { SearchMatchResult, FacultyMember } from "@/types";
+import Image from "next/image";
+import type { SearchMatchResult, FacultyMember } from "@/types";
 import { getAdvisorAvatarUrl } from "@/lib/config";
 import {
   Building2,
   Mail,
   Heart,
-  BookOpen,
   ArrowUpRight,
   Sparkles,
   FileText,
   Lightbulb,
   ChevronDown,
   ChevronUp,
-  Award,
   GraduationCap
 } from "lucide-react";
 
@@ -35,6 +34,9 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
   const f = matchItem.faculty;
   const matchScore = matchItem.match_score;
   const [showSynergyDetails, setShowSynergyDetails] = useState(false);
+  const [imgSrc, setImgSrc] = useState(
+    f.image_url || getAdvisorAvatarUrl(f.full_name_th || f.full_name || f.first_name)
+  );
 
   const hasSynergyBadges = matchItem.synergy_badges && matchItem.synergy_badges.length > 0;
   const hasMatchingPubs = matchItem.matching_publications && matchItem.matching_publications.length > 0;
@@ -50,14 +52,17 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
             href={`/advisor/${f.id}`}
             className="flex items-center gap-3.5 flex-1 min-w-0 hover:opacity-95 transition group/avatar"
           >
-            <div className="relative flex-shrink-0">
-              <img
-                src={f.image_url || getAdvisorAvatarUrl(f.full_name_th || f.full_name || f.first_name)}
-                alt={f.full_name_th}
+            <div className="relative flex-shrink-0 w-16 h-16">
+              <Image
+                src={imgSrc}
+                alt={f.full_name_th || f.full_name || "รูปภาพอาจารย์"}
+                width={64}
+                height={64}
                 loading="lazy"
                 decoding="async"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(f.full_name_th || f.full_name || f.first_name);
+                unoptimized
+                onError={() => {
+                  setImgSrc(getAdvisorAvatarUrl(f.full_name_th || f.full_name || f.first_name));
                 }}
                 className="w-16 h-16 rounded-2xl object-cover border-2 border-[var(--theme-border)] bg-[var(--theme-card-subtle)] group-hover/avatar:border-[var(--theme-primary)] group-hover/avatar:scale-105 transition-all shadow-xs"
               />

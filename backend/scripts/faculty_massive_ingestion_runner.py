@@ -24,6 +24,25 @@ from scripts.data_sources.new_elite_faculties_batch7 import NEW_ELITE_FACULTIES_
 from scripts.data_sources.new_elite_faculties_batch8 import NEW_ELITE_FACULTIES_BATCH_8
 from scripts.data_sources.new_elite_faculties_batch9 import NEW_ELITE_FACULTIES_BATCH_9
 from scripts.data_sources.new_elite_faculties_batch10 import NEW_ELITE_FACULTIES_BATCH_10
+from scripts.data_sources.new_elite_faculties_batch11_phrajomklao import PHRA_JOM_KLAO_ELITE_BATCH_11
+from scripts.data_sources.new_elite_faculties_batch12_nationwide import NEW_ELITE_FACULTIES_BATCH_12
+from scripts.data_sources.new_elite_faculties_batch13_deep_expansion import NEW_ELITE_FACULTIES_BATCH_13
+from scripts.data_sources.new_elite_faculties_batch14_regional_hubs import NEW_ELITE_FACULTIES_BATCH_14
+from scripts.data_sources.new_elite_faculties_batch15_social_econ_policy import NEW_ELITE_FACULTIES_BATCH_15
+from scripts.data_sources.new_elite_faculties_batch16_hall_of_fame import NEW_ELITE_FACULTIES_BATCH_16
+from scripts.data_sources.kmitl_exhaustive_expansion import KMITL_EXHAUSTIVE_FACULTIES
+from scripts.data_sources.cmu_all_faculties_completion import CMU_COMPLETION_FACULTIES
+from scripts.data_sources.chula_all_faculties_completion import CHULA_COMPLETION_FACULTIES
+from scripts.data_sources.mahidol_all_faculties_completion import MAHIDOL_COMPLETION_FACULTIES
+from scripts.data_sources.ku_all_faculties_completion import KU_COMPLETION_FACULTIES
+from scripts.data_sources.cmu_specialized_engineering_faculties import CMU_SPECIALIZED_ENGINEERING_FACULTIES
+from scripts.data_sources.cmu_skill_state_extracted import EXTRACTED_FACULTIES as CMU_SKILL_STATE_FACULTIES
+from scripts.data_sources.chula_cp_ai_extracted import EXTRACTED_FACULTIES as CHULA_CP_FACULTIES
+from scripts.data_sources.kmutt_sit_ai_extracted import EXTRACTED_FACULTIES as KMUTT_SIT_FACULTIES
+from scripts.data_sources.ku_cpe_ai_extracted import EXTRACTED_FACULTIES as KU_CPE_FACULTIES
+from scripts.data_sources.kmutt_cpe_ai_extracted import EXTRACTED_FACULTIES as KMUTT_CPE_FACULTIES
+from scripts.data_sources.cmu_cs_ai_extracted import EXTRACTED_FACULTIES as CMU_CS_FACULTIES
+from scripts.data_sources.psu_computing_ai_extracted import EXTRACTED_FACULTIES as PSU_COMPUTING_FACULTIES
 
 ALL_FACULTY_DATASETS = [
     ("มหาวิทยาลัยธรรมศาสตร์ และ มหาวิทยาลัยขอนแก่น (TU & KKU)", TU_KKU_FACULTIES),
@@ -38,6 +57,25 @@ ALL_FACULTY_DATASETS = [
     ("ชุดที่ 8: นักวิจัยดีเด่นแห่งชาติและนักวิทยาศาสตร์รางวัลสากล (Batch 8: Elite Scholars)", NEW_ELITE_FACULTIES_BATCH_8),
     ("ชุดที่ 9: นักวิจัยดีเด่นแห่งชาติและนักวิทยาศาสตร์รางวัลสากล (Batch 9: Elite Scholars)", NEW_ELITE_FACULTIES_BATCH_9),
     ("ชุดที่ 10: วิศวกรรมศาสตร์ดีเด่นแห่งชาติและการพัฒนาที่ยั่งยืน (Batch 10: Engineering Elites)", NEW_ELITE_FACULTIES_BATCH_10),
+    ("ชุดที่ 11: คณาจารย์และนักวิจัยดีเด่นแห่งชาติ 3 พระจอมเกล้า (Batch 11: 3 Phra Jom Klao Elites)", PHRA_JOM_KLAO_ELITE_BATCH_11),
+    ("ชุดที่ 12: คณาจารย์และนักวิจัยดีเด่นระดับชาติและภูมิภาค (Batch 12: Nationwide Elite Scholars)", NEW_ELITE_FACULTIES_BATCH_12),
+    ("ชุดที่ 13: คณาจารย์ 3 พระจอมเกล้า และมหาวิทยาลัยวิจัยภูมิภาคเชิงลึก (Batch 13: Deep Engineering & Science)", NEW_ELITE_FACULTIES_BATCH_13),
+    ("ชุดที่ 14: คณาจารย์และนักวิจัยมหาวิทยาลัยภูมิภาคและท้องถิ่น (Batch 14: Regional Hubs - UBU, MSU, WU, UP, MJU, TSU)", NEW_ELITE_FACULTIES_BATCH_14),
+    ("ชุดที่ 15: คณาจารย์และผู้เชี่ยวชาญเศรษฐศาสตร์ สังคม นโยบายสาธารณะและสันติศึกษา (Batch 15: Social, Econ & Policy)", NEW_ELITE_FACULTIES_BATCH_15),
+    ("ชุดที่ 16: ปรมาจารย์และนักวิทยาศาสตร์ระดับชาติ (Batch 16: National Grand Masters & Academic Hall of Fame)", NEW_ELITE_FACULTIES_BATCH_16),
+    ("ชุดที่ 17: คณาจารย์ สจล. ครบทุกสำนักวิชาและศูนย์วิจัย (Batch 17: KMITL Comprehensive Mastery)", KMITL_EXHAUSTIVE_FACULTIES),
+    ("ชุดที่ 18: คณาจารย์ ม.เชียงใหม่ ครบทุกคณะและสถาบันวิจัย (Batch 18: CMU Complete Faculty Mastery)", CMU_COMPLETION_FACULTIES),
+    ("ชุดที่ 19: คณาจารย์ จุฬาลงกรณ์มหาวิทยาลัย ครบทุกคณะและสถาบันวิจัย (Batch 19: CU Complete Faculty Mastery)", CHULA_COMPLETION_FACULTIES),
+    ("ชุดที่ 20: คณาจารย์ มหาวิทยาลัยมหิดล ครบทุกคณะและสถาบันวิจัย (Batch 20: MU Complete Faculty Mastery)", MAHIDOL_COMPLETION_FACULTIES),
+    ("ชุดที่ 21: คณาจารย์ มหาวิทยาลัยเกษตรศาสตร์ ครบทุกคณะและสถาบันวิจัย (Batch 21: KU Complete Faculty Mastery)", KU_COMPLETION_FACULTIES),
+    ("ชุดที่ 22: คณาจารย์วิศวกรรมเฉพาะทางและสหวิทยาการ มช. (Batch 22: CMU Specialized & Interdisciplinary Engineering)", CMU_SPECIALIZED_ENGINEERING_FACULTIES),
+    ("ชุดที่ 23: คณาจารย์วิศวกรรมศาสตร์ มช. ที่ดึงผ่าน SKILL.state Agent (Batch 23: CMU Engineering Live Scraped)", CMU_SKILL_STATE_FACULTIES),
+    ("ชุดที่ 24: คณาจารย์วิศวกรรมคอมพิวเตอร์ จุฬาลงกรณ์มหาวิทยาลัย (Batch 24: Chulalongkorn Computer Engineering AI/Data)", CHULA_CP_FACULTIES),
+    ("ชุดที่ 25: คณาจารย์คณะเทคโนโลยีสารสนเทศ มจธ. (Batch 25: KMUTT School of Information Technology)", KMUTT_SIT_FACULTIES),
+    ("ชุดที่ 26: คณาจารย์วิศวกรรมคอมพิวเตอร์ ม.เกษตรศาสตร์ (Batch 26: Kasetsart Computer Engineering & AI)", KU_CPE_FACULTIES),
+    ("ชุดที่ 27: คณาจารย์วิศวกรรมคอมพิวเตอร์ มจธ. (Batch 27: KMUTT Computer Engineering & CPS)", KMUTT_CPE_FACULTIES),
+    ("ชุดที่ 28: คณาจารย์วิทยาการคอมพิวเตอร์ ม.เชียงใหม่ (Batch 28: CMU Computer Science & Data Science)", CMU_CS_FACULTIES),
+    ("ชุดที่ 29: คณาจารย์วิทยาลัยการคอมพิวเตอร์ ม.สงขลานครินทร์ (Batch 29: PSU College of Computing & AI)", PSU_COMPUTING_FACULTIES),
 ]
 
 def build_faculty_embedding_text(f: FacultyDB) -> str:
@@ -68,6 +106,10 @@ def run_faculty_ingestion():
     total_updated = 0
     ids_to_embed = set()
 
+    # Pre-fetch existing IDs and whether they already have embeddings for fast in-memory lookup
+    existing_records = {r.id: (r.embedding is not None) for r in db.query(FacultyDB.id, FacultyDB.embedding).all()}
+    print(f"📊 Loaded {len(existing_records)} existing records from database for fast indexing.")
+
     for dataset_name, dataset in ALL_FACULTY_DATASETS:
         print(f"\n👨‍🏫 กำลังประมวลผลชุดข้อมูลอาจารย์: {dataset_name} ({len(dataset)} ท่าน)...")
         added_in_set = 0
@@ -75,7 +117,7 @@ def run_faculty_ingestion():
 
         for item in dataset:
             fid = item["id"]
-            existing = db.query(FacultyDB).filter(FacultyDB.id == fid).first()
+            has_embedding = existing_records.get(fid)
 
             filtered_data = {
                 "id": item["id"],
@@ -101,21 +143,25 @@ def run_faculty_ingestion():
                 "embedding_text": ""
             }
 
-            if not existing:
+            if fid not in existing_records:
                 new_f = FacultyDB(**filtered_data)
                 new_f.embedding_text = build_faculty_embedding_text(new_f)
                 db.add(new_f)
                 ids_to_embed.add(new_f.id)
+                existing_records[fid] = False
                 added_in_set += 1
                 total_added += 1
             else:
-                for k, v in filtered_data.items():
-                    if k != "id":
-                        setattr(existing, k, v)
-                existing.embedding_text = build_faculty_embedding_text(existing)
-                ids_to_embed.add(existing.id)
-                updated_in_set += 1
-                total_updated += 1
+                existing = db.query(FacultyDB).filter(FacultyDB.id == fid).first()
+                if existing:
+                    for k, v in filtered_data.items():
+                        if k != "id":
+                            setattr(existing, k, v)
+                    existing.embedding_text = build_faculty_embedding_text(existing)
+                    if not has_embedding:
+                        ids_to_embed.add(existing.id)
+                    updated_in_set += 1
+                    total_updated += 1
 
         db.commit()
         print(f"   -> เพิ่มอาจารย์ใหม่: {added_in_set} | ปรับปรุงข้อมูล: {updated_in_set}")

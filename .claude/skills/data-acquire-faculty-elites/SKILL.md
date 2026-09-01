@@ -3,11 +3,45 @@ name: data-acquire-faculty-elites
 description: Methodology for discovering, verifying, and ingesting both National Elite Researchers (award winners) and university-specific faculty members, ensuring strict zero-duplication and deep canonical merging.
 ---
 
-# Faculty Elite & University-Wide Acquisition Methodology
+<!-- Reference: SKILL.state Architecture & Evaluation (arXiv:2608.26263v2) - https://arxiv.org/html/2608.26263v2#S5 -->
 
-When instructed to discover, scrape, or acquire new faculty members—whether targeting National Outstanding Researchers (นักวิจัยดีเด่นแห่งชาติ) or expanding coverage for specific universities (e.g., MFU, PSU, SWU, KMITL)—you MUST strictly follow this comprehensive methodology to ensure data accuracy, academic prestige, and zero database redundancy.
+# Faculty Elite & University-Wide Acquisition Methodology (SKILL.state Engine)
 
-## 1. Discovery & Verification Strategy
+When instructed to discover, scrape, or acquire new faculty members—whether targeting National Outstanding Researchers (นักวิจัยดีเด่นแห่งชาติ) or expanding coverage for specific universities (e.g., CMU, MFU, PSU, SWU, KMITL)—you MUST strictly use the **`SKILL.state` Autonomous Pipeline Engine (`backend/scripts/agentic_pipeline/`)** to ensure flat token consumption (<2,000 tokens/turn), zero context corruption, and deterministic deduplication.
+
+---
+
+## 1. Core Execution Engine: SKILL.state Architecture
+
+Always run or interface with `backend/scripts/agentic_pipeline/` which implements the state-driven paradigm ([arXiv:2608.26263v2](https://arxiv.org/html/2608.26263v2#S5)):
+
+1. **State-Patch Generator (`llm_client.py`):** Uses Gemini with Structured Outputs (`FacultyStatePatch`). Prompts contain ONLY minimal state context + target HTML chunk (never accumulated conversation history).
+2. **Deterministic State Reducer (`state_reducer.py`):**
+   - Automatically normalizes Thai titles (`ศ.ดร.`, `รศ.ดร.`, `ผศ.ดร.`, `อ.ดร.`) and eliminates duplicate title prefixes.
+   - Runs **RapidFuzz deduplication** (threshold > 88–90) against both the in-memory state and the live database.
+   - Performs **Deep Merge** of publications, research interests, and Google Scholar URLs into existing records.
+   - Enforces **PDPA compliance** by redacting phone numbers (`[REDACTED_PHONE]`).
+3. **Resumable State Checkpoints:** Automatically writes and restores session states in `backend/data/agent_states/{session_id}.json`.
+
+---
+
+## 2. CLI Execution Standard
+
+Execute the extraction agent via CLI:
+```bash
+python scripts/agentic_pipeline/cli_runner.py \
+  --univ-th "มหาวิทยาลัยเชียงใหม่" \
+  --univ-en "Chiang Mai University" \
+  --faculty-th "คณะวิศวกรรมศาสตร์" \
+  --faculty-en "Faculty of Engineering" \
+  --url "https://me.eng.cmu.ac.th/staff/professor" \
+  --export-file "scripts/data_sources/cmu_me_extracted.py" \
+  --max-steps 20
+```
+
+---
+
+## 3. Discovery & Verification Strategy
 
 ### A. National Elite & Breakthrough Researchers Discovery
 When asked to "find outstanding professors" or "world-class researchers":
@@ -16,23 +50,13 @@ When asked to "find outstanding professors" or "world-class researchers":
 - **Accredited Universities ONLY:** Verify that the researcher is actively affiliated with an accredited Thai Higher Education Institution. DO NOT include researchers from private non-university research institutes (e.g., VISTEC, NSTDA, BIOTEC) unless they hold a joint professorship at a university.
 
 ### B. University-Wide Comprehensive Scrapes
-When asked to "expand a specific university" (e.g., MFU, KU):
+When asked to "expand a specific university" (e.g., MFU, KU, CMU):
 - **All Major Schools:** Cover all major faculties, especially specialized ones (e.g., Cosmetic Science at MFU, Forestry at KU).
 - **Direct Directory Reverse-Engineering:** Extract from official faculty directories (`staff` or `personnel` pages).
 
-## 2. Strict Pre-Flight Deduplication & RapidFuzz Audit (Zero Redundancy Rule)
+---
 
-BEFORE formatting the final JSON dataset or inserting into the database, you MUST perform a database pre-check to prevent duplication.
-
-1. **Query Existing Database:** Use Python scripts via the `Bash` or `PowerShell` tool to query `SessionLocal()`.
-2. **Key Exact Checks:**
-   - Search by Thai Name (`full_name_th.like("%ชื่อ%")`) — remembering to strip common titles (ศ.ดร., รศ.ดร., etc.) before matching.
-   - Search by English Name (`first_name` and `last_name`)
-   - Search by Email (`email`)
-3. **Fuzzy Cross-Check (Mandatory):** Run a `rapidfuzz` or Levenshtein distance check (score > 90) against existing names to catch misspellings or alternative transliterations.
-4. **If Found:** Skip adding the new profile. If the new profile has better/richer data (more publications, better interests), schedule a targeted update to the existing record instead.
-
-## 3. Data Structure & Profile Synthesis
+## 4. Data Structure & Profile Synthesis
 
 Every newly acquired faculty profile MUST follow this precise schema:
 ```json
@@ -58,22 +82,16 @@ Every newly acquired faculty profile MUST follow this precise schema:
     "scholar_url": "https://scholar.google.com/..."
 }
 ```
-**Hygiene Rules:**
-- Clean repeated titles in Thai names (e.g., fix `"ศ.ดร. ศ.ดร."` to `"ศ.ดร. "`).
-- Ensure no personal phone numbers are included.
 
-## 4. Deep Canonical Merging Pipeline
-
-If overlaps occur due to institutional transfers or dual affiliations (e.g., a professor listed at both SUT and TU), run the Canonical Merge pipeline:
-- **Identify Keeper vs. Obsolete:** Keep the ID corresponding to their primary, current, active university affiliation.
-- **Deep Merge Arrays:** Use `deduplicate_list()` to merge `research_interests`, `featured_publications`, and `education`.
-- **Merge Missing Fields:** Copy `image_url`, `scholar_url`, `email` from the obsolete record if missing in the keeper.
-- **Delete Obsolete:** Remove the duplicate record from `FacultyDB`.
-- **Re-Vectorize:** Regenerate `embedding_text` and the 768-dim vector for the keeper.
+---
 
 ## 5. Seamless Ingestion & Vectorization
 
-Always use the established ingestion runner (`backend/scripts/faculty_massive_ingestion_runner.py`) which guarantees:
+After extracting via the `SKILL.state` agent, ingest and vectorize using the established runner:
+```bash
+python scripts/faculty_massive_ingestion_runner.py
+```
+This guarantees:
 1. **Upsert Logic:** Inserts new and updates existing without crashing.
 2. **Multi-Threaded Vectorization:** Instantly computes 768-dim `gemini-embedding-2` vectors using thread pools.
 3. **Database Commit:** Saves vectors directly to Supabase `pgvector`.

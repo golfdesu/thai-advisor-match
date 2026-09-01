@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
+import Image from "next/image";
 import {
   ArrowLeft,
   Mail,
@@ -12,20 +13,30 @@ import {
   Building2,
   Award,
   Sparkles,
-  Loader2,
   AlertCircle,
   Heart,
-  Bookmark,
   Share2,
   CheckCircle2,
   Globe
 } from "lucide-react";
-import { FacultyMember } from "@/types";
+import type { FacultyMember } from "@/types";
 import { API_BASE_URL, getAdvisorAvatarUrl } from "@/lib/config";
 import { facultyDetailCache } from "@/lib/dsa";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ColdEmailModal } from "@/components/ColdEmailModal";
+
+const hasSavedId = (storageKey: string, id: string): boolean => {
+  if (typeof window === "undefined") return false;
+
+  try {
+    const saved = window.localStorage.getItem(storageKey);
+    const parsed: unknown = saved ? JSON.parse(saved) : [];
+    return Array.isArray(parsed) && parsed.includes(id);
+  } catch {
+    return false;
+  }
+};
 
 export default function AdvisorProfilePage() {
   const params = useParams();
@@ -35,26 +46,20 @@ export default function AdvisorProfilePage() {
   const [advisor, setAdvisor] = useState<FacultyMember | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [isSaved, setIsSaved] = useState(false);
+  const [isSaved, setIsSaved] = useState(() => hasSavedId("thai_educenter_saved_advisors", id));
   const [showEmailModal, setShowEmailModal] = useState(false);
+  const [imgError, setImgError] = useState(false);
 
   useEffect(() => {
     if (!id) return;
 
-    // Check saved state
-    try {
-      const savedA = localStorage.getItem("thai_educenter_saved_advisors");
-      if (savedA) {
-        const list: string[] = JSON.parse(savedA);
-        setIsSaved(list.includes(id));
-      }
-    } catch (e) {}
-
     // Check O(1) in-memory LRU Cache first
     const cachedAdvisor = facultyDetailCache.get(id);
     if (cachedAdvisor) {
-      setAdvisor(cachedAdvisor);
-      setLoading(false);
+      queueMicrotask(() => {
+        setAdvisor(cachedAdvisor);
+        setLoading(false);
+      });
       return;
     }
 
@@ -70,8 +75,8 @@ export default function AdvisorProfilePage() {
         // Save to O(1) LRU Cache
         facultyDetailCache.put(id, data);
         setAdvisor(data);
-      } catch (err: any) {
-        setError(err.message);
+      } catch (err: unknown) {
+        setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการโหลดข้อมูลอาจารย์");
       } finally {
         setLoading(false);
       }
@@ -93,7 +98,7 @@ export default function AdvisorProfilePage() {
         setIsSaved(true);
       }
       localStorage.setItem("thai_educenter_saved_advisors", JSON.stringify(list));
-    } catch (e) {}
+    } catch {}
   };
 
   const handleShare = () => {
@@ -185,14 +190,21 @@ export default function AdvisorProfilePage() {
         <div className="bg-[var(--theme-card)] rounded-3xl shadow-xl border border-[var(--theme-border)] overflow-hidden">
           {/* Header Profile Section */}
           <div className="p-6 sm:p-10 flex flex-col md:flex-row gap-6 md:gap-8 items-start border-b border-[var(--theme-border)] bg-[var(--theme-card-subtle)]/30">
-            <div className="relative shrink-0">
-              <img
-                src={advisor.image_url || getAdvisorAvatarUrl(advisor.full_name_th)}
-                alt={advisor.full_name_th}
+            <div className="relative shrink-0 w-32 h-32 sm:w-40 sm:h-40">
+              <Image
+                src={
+                  !imgError && advisor.image_url
+                    ? advisor.image_url
+                    : getAdvisorAvatarUrl(advisor.full_name_th || advisor.full_name)
+                }
+                alt={advisor.full_name_th || advisor.full_name || "รูปภาพอาจารย์"}
+                width={160}
+                height={160}
                 loading="lazy"
                 decoding="async"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src = getAdvisorAvatarUrl(advisor.full_name_th);
+                unoptimized
+                onError={() => {
+                  setImgError(true);
                 }}
                 className="w-32 h-32 sm:w-40 sm:h-40 rounded-3xl object-cover border-4 border-[var(--theme-card)] shadow-xl bg-[var(--theme-card-subtle)]"
               />

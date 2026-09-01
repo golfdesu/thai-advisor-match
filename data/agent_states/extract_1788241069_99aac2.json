@@ -1,0 +1,27 @@
+{
+  "session_id": "extract_1788241069_99aac2",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Engineering",
+  "pending_urls": [
+    "https://www.cp.eng.chula.ac.th/about/staff/support",
+    "https://www.cp.eng.chula.ac.th/about/staff/executives",
+    "https://www.cp.eng.chula.ac.th/about/staff"
+  ],
+  "visited_urls": [
+    "https://www.cp.eng.chula.ac.th/about/faculty/",
+    "https://www.cp.eng.chula.ac.th/about/staff/",
+    "https://www.cp.eng.chula.ac.th/about/executives/",
+    "https://www.cp.eng.chula.ac.th/about/staff/faculty",
+    "https://www.cp.eng.chula.ac.th/about/staff/executive"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 5,
+  "total_tokens_used": 5556,
+  "status": "completed",
+  "last_error": null
+}

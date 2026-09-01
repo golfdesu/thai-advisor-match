@@ -6,6 +6,7 @@ from app.models.db_models import FacultyDB
 from app.api.routes_faculty import db_to_pydantic
 from app.core.database import get_db
 from app.core.embedding_service import embedding_service
+from app.core.semantic_cache import semantic_cache_service
 from app.core.dsa_utils import TopKHeap, Trie
 from typing import List, Tuple, Dict, Any
 import math
@@ -298,7 +299,25 @@ def generate_cold_email(req: ColdEmailRequest, db: Session = Depends(get_db)):
 
     target_faculty = db_to_pydantic(db_faculty)
 
+    # 1. Check pgvector Semantic Cache (0 Tokens, ~2ms Latency)
+    cache_query = f"{req.faculty_id}|{req.degree_level}|{req.thesis_topic}|{req.student_background or ''}"
+    cached_payload, is_hit = semantic_cache_service.get(db, cache_type="cold_email", query_text=cache_query)
+    if is_hit and cached_payload:
+        return ColdEmailResponse(
+            subject=cached_payload.get("subject", ""),
+            body=cached_payload.get("body", ""),
+            tips=cached_payload.get("tips", [])
+        )
+
     subject, body, tips = embedding_service.generate_cold_email_ai(req.model_dump(), target_faculty)
+
+    # 2. Store to Semantic Cache for future zero-token reuse
+    semantic_cache_service.set(
+        db,
+        cache_type="cold_email",
+        query_text=cache_query,
+        payload={"subject": subject, "body": body, "tips": tips}
+    )
 
     return ColdEmailResponse(subject=subject, body=body, tips=tips)
 

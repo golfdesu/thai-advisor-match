@@ -4,7 +4,7 @@ import React from "react";
 import { SlidersHorizontal } from "lucide-react";
 
 interface FilterBarProps {
-  activeTab: "courses" | "advisors";
+  activeTab: "courses" | "advisors" | "labs";
   selectedUni: string;
   selectedDegree: string;
   onSelectUni: (uni: string) => void;

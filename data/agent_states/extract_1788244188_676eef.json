@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1788244188_676eef",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์ (ISE)",
+  "target_faculty_en": "International School of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.ise.eng.chula.ac.th/people/faculty"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 474,
+  "status": "completed",
+  "last_error": null
+}

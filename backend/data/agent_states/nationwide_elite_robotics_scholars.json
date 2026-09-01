@@ -1,0 +1,374 @@
+{
+  "session_id": "nationwide_elite_robotics_scholars",
+  "target_university_th": "มหาวิทยาลัยวิจัยชั้นนำทั่วประเทศ",
+  "target_university_en": "Leading Thai Research Universities",
+  "target_faculty_th": "วิศวกรรมศาสตร์และหุ่นยนต์",
+  "target_faculty_en": "Engineering & Robotics",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [],
+  "faculties": {
+    "leadingtha_engineerin_wongsaisuwan_001": {
+      "id": "leadingtha_engineerin_wongsaisuwan_001",
+      "university": "Chulalongkorn University",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Electrical Engineering",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้า (ระบบควบคุมและหุ่นยนต์)",
+      "academic_title": "Prof.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Manop",
+      "last_name": "Wongsaisuwan",
+      "full_name": "Prof. Dr. Manop Wongsaisuwan",
+      "full_name_th": "ศ.ดร. มานพ วงศ์สายเชื้อ",
+      "role": "ศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Robust Control",
+        "Adaptive Control",
+        "Robotics Systems",
+        "Automated Control"
+      ],
+      "featured_publications": [
+        "Robust Adaptive Control for Robotic Manipulators and Industrial Automation"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "leadingtha_engineerin_aramvith_002": {
+      "id": "leadingtha_engineerin_aramvith_002",
+      "university": "Chulalongkorn University",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Electrical Engineering",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้า (ระบบภาพและการมองเห็นของหุ่นยนต์)",
+      "academic_title": "Assoc.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Supavadee",
+      "last_name": "Aramvith",
+      "full_name": "Assoc. Prof. Dr. Supavadee Aramvith",
+      "full_name_th": "รศ.ดร. สุภาวดี อร่ามวิทย์",
+      "role": "รองศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Computer Vision for Robotics",
+        "Video Processing",
+        "AI Perception",
+        "Surveillance Robotics"
+      ],
+      "featured_publications": [
+        "Deep Learning-based Object Detection and Tracking for Autonomous Robotic Platforms"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "leadingtha_engineerin_jongsutsipunt_003": {
+      "id": "leadingtha_engineerin_jongsutsipunt_003",
+      "university": "Chulalongkorn University",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Mechanical Engineering",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "academic_title": "Asst.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Pairote",
+      "last_name": "Jongsutsipunt",
+      "full_name": "Asst. Prof. Dr. Pairote Jongsutsipunt",
+      "full_name_th": "ผศ.ดร. ไพโรจน์ จงศุจิพันธุ์",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Biomechatronics",
+        "Rehabilitation Robotics",
+        "Exoskeletons",
+        "Medical Devices"
+      ],
+      "featured_publications": [
+        "Design and Control of Lower-Limb Exoskeleton Robot for Gait Rehabilitation"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "leadingtha_engineerin_suthakorn_004": {
+      "id": "leadingtha_engineerin_suthakorn_004",
+      "university": "Mahidol University",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Biomedical Engineering & BART LAB",
+      "department_th": "ภาควิชาวิศวกรรมชีวการแพทย์ และศูนย์ BART LAB",
+      "academic_title": "Asst.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Jackrit",
+      "last_name": "Suthakorn",
+      "full_name": "Asst. Prof. Dr. Jackrit Suthakorn",
+      "full_name_th": "ผศ.ดร. จักรกฤษณ์ ศุทธากรณ์",
+      "role": "ผู้อำนวยการศูนย์วิจัยวิทยาการหุ่นยนต์และเทคโนโลยีทางการแพทย์",
+      "email": "jackrit.sut@mahidol.ac.th",
+      "image_url": "",
+      "profile_url": "https://bartlab.org",
+      "education": [],
+      "research_interests": [
+        "Surgical Robotics",
+        "Medical Robotics",
+        "Computer-Integrated Surgery",
+        "Tele-surgery",
+        "Haptic Systems"
+      ],
+      "featured_publications": [
+        "Robot-Assisted Surgical Systems and Real-Time Tracking for Minimally Invasive Operations"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "leadingtha_engineerin_ongwattanakul_005": {
+      "id": "leadingtha_engineerin_ongwattanakul_005",
+      "university": "Mahidol University",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Biomedical Engineering & BART LAB",
+      "department_th": "ภาควิชาวิศวกรรมชีวการแพทย์ และศูนย์ BART LAB",
+      "academic_title": "Dr.",
+      "academic_title_th": "ดร.",
+      "first_name": "Songpol",
+      "last_name": "Ongwattanakul",
+      "full_name": "Dr. Songpol Ongwattanakul",
+      "full_name_th": "ดร. ทรงพล องค์วัฒนกุล",
+      "role": "ผู้อำนวยการบริหาร BART LAB",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://bartlab.org",
+      "education": [],
+      "research_interests": [
+        "Medical Robotics",
+        "Rehabilitation Robotics",
+        "AR/VR Surgical Navigation",
+        "Biomechatronics"
+      ],
+      "featured_publications": [
+        "Augmented Reality and Haptic Guidance in Surgical Robotics Navigation"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "leadingtha_engineerin_laowattana_006": {
+      "id": "leadingtha_engineerin_laowattana_006",
+      "university": "King Mongkut's University of Technology Thonburi",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty": "Institute of Field Robotics (FIBO)",
+      "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+      "department": "Robotics and Automation",
+      "department_th": "สาขาวิชาวิทยาการหุ่นยนต์และระบบอัตโนมัติ",
+      "academic_title": "Assoc.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Djitt",
+      "last_name": "Laowattana",
+      "full_name": "Assoc. Prof. Dr. Djitt Laowattana",
+      "full_name_th": "รศ.ดร. ชิต เหล่าวัฒนา",
+      "role": "ผู้ก่อตั้งสถาบัน FIBO / ผู้เชี่ยวชาญ Industry 4.0",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Field Robotics",
+        "Industrial Automation",
+        "Smart Factory",
+        "Robotic Teleoperation"
+      ],
+      "featured_publications": [
+        "Field Robotics and Industrial Automation for Manufacturing Transformation"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "leadingtha_engineerin_maneewarn_007": {
+      "id": "leadingtha_engineerin_maneewarn_007",
+      "university": "King Mongkut's University of Technology Thonburi",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty": "Institute of Field Robotics (FIBO)",
+      "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+      "department": "Robotics and Automation",
+      "department_th": "สาขาวิชาวิทยาการหุ่นยนต์และระบบอัตโนมัติ",
+      "academic_title": "Dr.",
+      "academic_title_th": "ดร.",
+      "first_name": "Thavida",
+      "last_name": "Maneewarn",
+      "full_name": "Dr. Thavida Maneewarn",
+      "full_name_th": "ดร. ธวิดา มณีวรรณ์",
+      "role": "อาจารย์ประจำและนักวิจัยอาวุโส",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Service Robotics",
+        "Autonomous Mobile Robots (AMR)",
+        "Human-Robot Interaction",
+        "SLAM"
+      ],
+      "featured_publications": [
+        "Autonomous Navigation and Human-Robot Interaction for Service Robots in Public Spaces"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "leadingtha_engineerin_pengwang_008": {
+      "id": "leadingtha_engineerin_pengwang_008",
+      "university": "King Mongkut's University of Technology Thonburi",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty": "Institute of Field Robotics (FIBO)",
+      "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+      "department": "Robotics and Automation",
+      "department_th": "สาขาวิชาวิทยาการหุ่นยนต์และระบบอัตโนมัติ",
+      "academic_title": "Asst.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Ekkachai",
+      "last_name": "Pengwang",
+      "full_name": "Asst. Prof. Dr. Ekkachai Pengwang",
+      "full_name_th": "ผศ.ดร. เอกชัย เป็งวัง",
+      "role": "ผู้ช่วยศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Micro-Robotics",
+        "Sensors and Transducers",
+        "MEMS",
+        "Mechatronics Actuators"
+      ],
+      "featured_publications": [
+        "Micro-electromechanical Sensors and Actuators for Precision Robotic Control"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "leadingtha_engineerin_chalidabhongse_009": {
+      "id": "leadingtha_engineerin_chalidabhongse_009",
+      "university": "Chulalongkorn University",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Computer Engineering",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "academic_title": "Prof.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Thanarat",
+      "last_name": "Chalidabhongse",
+      "full_name": "Prof. Dr. Thanarat Chalidabhongse",
+      "full_name_th": "ศ.ดร. ธนารัตน์ ชลิดาพงศ์",
+      "role": "ศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Computer Vision",
+        "Visual Tracking",
+        "Robot Vision",
+        "AI for Autonomous Vehicles"
+      ],
+      "featured_publications": [
+        "Visual Surveillance and Real-Time Motion Tracking for Autonomous Ground Vehicles"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "leadingtha_engineerin_theeramunkong_010": {
+      "id": "leadingtha_engineerin_theeramunkong_010",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Sirindhorn International Institute of Technology",
+      "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+      "department": "School of Information, Computer, and Communication Technology",
+      "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ คอมพิวเตอร์ และการสื่อสาร",
+      "academic_title": "Prof.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Thanaruk",
+      "last_name": "Theeramunkong",
+      "full_name": "Prof. Dr. Thanaruk Theeramunkong",
+      "full_name_th": "ศ.ดร. ธนารักษ์ ธีระมั่นคง",
+      "role": "ศาสตราจารย์ / นายกสมาคมปัญญาประดิษฐ์ประเทศไทย (AIAT)",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Artificial Intelligence",
+        "Knowledge Engineering",
+        "AI for Robotics and NLP",
+        "Data Mining"
+      ],
+      "featured_publications": [
+        "Knowledge Discovery and Semantic Data Representation for Intelligent Robotic Agents"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    },
+    "leadingtha_engineerin_boonsang_011": {
+      "id": "leadingtha_engineerin_boonsang_011",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "School of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "Department of Automation and Control Engineering",
+      "department_th": "ภาควิชาวิศวกรรมการวัดและควบคุม",
+      "academic_title": "Assoc.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Siridech",
+      "last_name": "Boonsang",
+      "full_name": "Assoc. Prof. Dr. Siridech Boonsang",
+      "full_name_th": "รศ.ดร. ศิริเดช บุญแสง",
+      "role": "รองศาสตราจารย์",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Intelligent Automation",
+        "Machine Vision",
+        "Precision Instrumentation",
+        "Industrial IoT"
+      ],
+      "featured_publications": [
+        "Machine Vision and Intelligent Control for High-Speed Inspection Systems"
+      ],
+      "scholar_url": "",
+      "confidence_score": 1.0
+    }
+  },
+  "dedup_thai_names": {
+    "มานพ วงศ์สายเชื้อ": "leadingtha_engineerin_wongsaisuwan_001",
+    "สุภาวดี อร่ามวิทย์": "leadingtha_engineerin_aramvith_002",
+    "ไพโรจน์ จงศุจิพันธุ์": "leadingtha_engineerin_jongsutsipunt_003",
+    "จักรกฤษณ์ ศุทธากรณ์": "leadingtha_engineerin_suthakorn_004",
+    "ทรงพล องค์วัฒนกุล": "leadingtha_engineerin_ongwattanakul_005",
+    "ชิต เหล่าวัฒนา": "leadingtha_engineerin_laowattana_006",
+    "ธวิดา มณีวรรณ์": "leadingtha_engineerin_maneewarn_007",
+    "เอกชัย เป็งวัง": "leadingtha_engineerin_pengwang_008",
+    "ธนารัตน์ ชลิดาพงศ์": "leadingtha_engineerin_chalidabhongse_009",
+    "ธนารักษ์ ธีระมั่นคง": "leadingtha_engineerin_theeramunkong_010",
+    "ศิริเดช บุญแสง": "leadingtha_engineerin_boonsang_011"
+  },
+  "dedup_emails": {
+    "jackrit.sut@mahidol.ac.th": "leadingtha_engineerin_suthakorn_004"
+  },
+  "step_count": 1,
+  "total_tokens_used": 1400,
+  "status": "initialized",
+  "last_error": null
+}
