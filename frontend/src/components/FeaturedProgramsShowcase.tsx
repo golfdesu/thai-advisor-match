@@ -54,14 +54,33 @@ export const FeaturedProgramsShowcase: React.FC<FeaturedProgramsShowcaseProps> =
   const [activeAdvisorSlide, setActiveAdvisorSlide] = useState(0);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
+  // Egress guard: the signature-programs payload is large (16 unis x slim
+  // cards), so cache it in localStorage for 15 min — repeat page views cost
+  // 0 bytes of Supabase egress. Backend also caches it in-process (X-Cache).
   useEffect(() => {
+    const CACHE_KEY = "thai_educenter_signature_programs";
+    const CACHE_TTL_MS = 15 * 60 * 1000;
     const fetchSignaturePrograms = async () => {
       try {
         setLoading(true);
+        try {
+          const raw = localStorage.getItem(CACHE_KEY);
+          if (raw) {
+            const cached = JSON.parse(raw) as { ts: number; data: UniversityHighlight[] };
+            if (cached && Array.isArray(cached.data) && Date.now() - cached.ts < CACHE_TTL_MS) {
+              setHighlights(cached.data);
+              setLoading(false);
+              return;
+            }
+          }
+        } catch {}
         const res = await fetch(`${API_BASE_URL}/universities/signature-programs`);
         if (res.ok) {
           const data = await res.json();
           setHighlights(data);
+          try {
+            localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data }));
+          } catch {}
         }
       } catch (e) {
         console.error("Failed to load signature programs", e);

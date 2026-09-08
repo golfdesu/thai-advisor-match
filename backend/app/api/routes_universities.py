@@ -1,14 +1,49 @@
 # -*- coding: utf-8 -*-
-from fastapi import APIRouter, HTTPException, Depends
-from sqlalchemy.orm import Session, defer
+import time
+import threading
+from fastapi import APIRouter, HTTPException, Depends, Response
+from sqlalchemy.orm import Session, load_only
 from sqlalchemy import or_, func
-from typing import List, Optional, Dict
+from typing import List, Optional, Dict, Any
 from pydantic import BaseModel
 from app.models.db_models import CourseDB, FacultyDB
-from app.models.schema import CourseSchema, FacultyMember
-from app.api.routes_courses import db_course_to_pydantic
-from app.api.routes_faculty import db_to_pydantic
+from app.models.schema import CourseCardSchema, FacultyCardSchema
+from app.api.routes_courses import db_course_to_card, _COURSE_CARD_COLUMNS
+from app.api.routes_faculty import db_to_card, _FACULTY_CARD_COLUMNS
 from app.core.database import get_db
+
+# Egress guard: signature-programs was the #1 bandwidth hog (full .all() of
+# 3,901 faculties per request). Cache the assembled payload in-process with TTL.
+_SIGNATURE_TTL_SECONDS = 900
+_signature_cache: Dict[str, Any] = {"expires": 0.0, "data": None}
+_signature_slug_cache: Dict[str, Dict[str, Any]] = {}
+_signature_lock = threading.Lock()
+
+
+def _signature_cache_get() -> Optional[Any]:
+    with _signature_lock:
+        if _signature_cache["data"] is not None and _signature_cache["expires"] > time.monotonic():
+            return _signature_cache["data"]
+        return None
+
+
+def _signature_cache_set(data: Any) -> None:
+    with _signature_lock:
+        _signature_cache["data"] = data
+        _signature_cache["expires"] = time.monotonic() + _SIGNATURE_TTL_SECONDS
+
+
+def _signature_slug_get(slug: str) -> Optional[Any]:
+    with _signature_lock:
+        entry = _signature_slug_cache.get(slug)
+        if entry and entry["expires"] > time.monotonic():
+            return entry["data"]
+        return None
+
+
+def _signature_slug_set(slug: str, data: Any) -> None:
+    with _signature_lock:
+        _signature_slug_cache[slug] = {"data": data, "expires": time.monotonic() + _SIGNATURE_TTL_SECONDS}
 
 router = APIRouter(prefix="/universities", tags=["University Highlights & Signature Programs"])
 
@@ -28,8 +63,8 @@ class UniversityHighlightResponse(BaseModel):
     metadata: UniversitySignatureMetadata
     total_courses: int
     total_advisors: int
-    signature_programs: List[CourseSchema]
-    distinguished_advisors: List[FacultyMember] = []
+    signature_programs: List[CourseCardSchema]
+    distinguished_advisors: List[FacultyCardSchema] = []
 
 # Comprehensive Registry of Signature University Profiles & Flagship Academic Strengths
 UNIVERSITIES_REGISTRY: List[UniversitySignatureMetadata] = [
@@ -477,20 +512,28 @@ def _fetch_diverse_signature_courses(uni: UniversitySignatureMetadata, db: Sessi
     """
     Retrieves flagship signature courses guaranteeing 1 distinct course per academic strength/faculty.
     Uses explicit ID mapping first, with keyword search and faculty de-duplication as dynamic fallback.
+    All fetches use slim load_only + strict LIMIT so Supabase never ships heavy columns.
     """
     signature_courses: List[CourseDB] = []
     seen_course_ids = set()
     seen_faculties = set()
 
-    # 1. Try explicit flagship mapping
+    # 1. Try explicit flagship mapping — one batched IN query, not N round trips.
     explicit_groups = FLAGSHIP_PROGRAM_IDS.get(uni.slug, [])
+    all_explicit_ids = [cid for group in explicit_groups for cid in group]
+    explicit_by_id: Dict[str, CourseDB] = {}
+    if all_explicit_ids:
+        for c in (
+            db.query(CourseDB)
+            .options(load_only(*_COURSE_CARD_COLUMNS))
+            .filter(CourseDB.id.in_(all_explicit_ids))
+            .all()
+        ):
+            explicit_by_id[c.id] = c
     for group_candidates in explicit_groups:
         matched = None
         for cid in group_candidates:
-            c = db.query(CourseDB).options(
-                defer(CourseDB.embedding),
-                defer(CourseDB.embedding_text)
-            ).filter(CourseDB.id == cid).first()
+            c = explicit_by_id.get(cid)
             if c and c.id not in seen_course_ids:
                 matched = c
                 break
@@ -502,23 +545,23 @@ def _fetch_diverse_signature_courses(uni: UniversitySignatureMetadata, db: Sessi
 
     # 2. Dynamic keyword fallback if any slots remain unfilled (< 5)
     if len(signature_courses) < len(uni.academic_strengths):
+        uni_filter = or_(
+            CourseDB.university_th.ilike(f"%{uni.name_th}%"),
+            CourseDB.university.ilike(f"%{uni.name_en}%")
+        )
         for kw in uni.featured_keywords:
             if len(signature_courses) >= 5:
                 break
             candidates = db.query(CourseDB).options(
-                defer(CourseDB.embedding),
-                defer(CourseDB.embedding_text)
+                load_only(*_COURSE_CARD_COLUMNS)
             ).filter(
-                or_(
-                    CourseDB.university_th.ilike(f"%{uni.name_th}%"),
-                    CourseDB.university.ilike(f"%{uni.name_en}%")
-                ),
+                uni_filter,
                 or_(
                     CourseDB.title_th.ilike(f"%{kw}%"),
                     CourseDB.faculty_th.ilike(f"%{kw}%"),
                     CourseDB.title_en.ilike(f"%{kw}%")
                 )
-            ).all()
+            ).limit(6).all()
 
             for c in candidates:
                 fac = (c.faculty_th or "").strip()
@@ -532,8 +575,7 @@ def _fetch_diverse_signature_courses(uni: UniversitySignatureMetadata, db: Sessi
     # 3. Final backfill if still under 4 courses
     if len(signature_courses) < 4:
         backfills = db.query(CourseDB).options(
-            defer(CourseDB.embedding),
-            defer(CourseDB.embedding_text)
+            load_only(*_COURSE_CARD_COLUMNS)
         ).filter(
             or_(
                 CourseDB.university_th.ilike(f"%{uni.name_th}%"),
@@ -549,82 +591,108 @@ def _fetch_diverse_signature_courses(uni: UniversitySignatureMetadata, db: Sessi
 
     return signature_courses
 
-def _fetch_distinguished_advisors(uni: UniversitySignatureMetadata, advisors_pool: List[FacultyDB]) -> List[FacultyDB]:
+def _fetch_distinguished_advisors(uni: UniversitySignatureMetadata, db: Session) -> List[FacultyDB]:
     """
-    Selects up to 5 distinguished advisors per university with high academic diversity across faculties/departments.
+    Selects up to 5 distinguished advisors per university, filtered in SQL with a
+    strict LIMIT — never .all(). Slim load_only keeps featured_publications /
+    education / embedding_text off the wire.
     """
+    uni_filter = or_(
+        FacultyDB.university_th.ilike(f"%{uni.name_th}%"),
+        FacultyDB.university.ilike(f"%{uni.name_en}%")
+    )
+    # Prefer advisors with research evidence, then backfill — both capped.
+    with_evidence = (
+        db.query(FacultyDB)
+        .options(load_only(*_FACULTY_CARD_COLUMNS))
+        .filter(uni_filter, or_(
+            FacultyDB.research_interests.isnot(None),
+        ))
+        .limit(25)
+        .all()
+    )
+
     seen_departments = set()
     distinguished: List[FacultyDB] = []
-
-    for a in advisors_pool:
-        dep = (a.department_th or a.faculty_th or "").strip()
-        if dep not in seen_departments and (a.research_interests or a.featured_publications):
+    for a in with_evidence:
+        if len(distinguished) >= 5:
+            break
+        dep = ((a.department_th or a.faculty_th) or "").strip()
+        if dep and dep not in seen_departments:
             seen_departments.add(dep)
             distinguished.append(a)
-            if len(distinguished) >= 5:
-                break
 
     if len(distinguished) < 5:
-        for a in advisors_pool:
-            if a not in distinguished:
+        seen_ids = {a.id for a in distinguished}
+        backfill = (
+            db.query(FacultyDB)
+            .options(load_only(*_FACULTY_CARD_COLUMNS))
+            .filter(uni_filter)
+            .limit(10)
+            .all()
+        )
+        for a in backfill:
+            if a.id not in seen_ids:
                 distinguished.append(a)
-                if len(distinguished) >= 5:
-                    break
+                seen_ids.add(a.id)
+            if len(distinguished) >= 5:
+                break
 
     return distinguished
 
 @router.get("/signature-programs", response_model=List[UniversityHighlightResponse])
-def get_all_university_signature_programs(db: Session = Depends(get_db)):
+def get_all_university_signature_programs(response: Response, db: Session = Depends(get_db)):
     """
     Returns curated signature / flagship courses, distinguished advisors, and academic strengths for top universities in Thailand.
     Guarantees cross-faculty diversity matching each institutional strength.
-    """
-    # Bulk fetch all faculties once for high-performance memory grouping (O(1) lookups)
-    all_faculties = db.query(FacultyDB).options(
-        defer(FacultyDB.embedding),
-        defer(FacultyDB.embedding_text)
-    ).all()
 
-    by_uni_faculties: Dict[str, List[FacultyDB]] = {}
-    for a in all_faculties:
-        u_th = (a.university_th or "").strip()
-        u_en = (a.university or "").strip()
-        for u in UNIVERSITIES_REGISTRY:
-            if u.name_th in u_th or u.name_en in u_en:
-                if u.slug not in by_uni_faculties:
-                    by_uni_faculties[u.slug] = []
-                by_uni_faculties[u.slug].append(a)
+    Egress-guarded: per-uni SQL counts + capped LIMIT queries + in-process TTL cache
+    (no more full-table .all() of 3,901 faculties per request).
+    """
+    cached = _signature_cache_get()
+    if cached is not None:
+        response.headers["Cache-Control"] = "public, max-age=900"
+        response.headers["X-Cache"] = "HIT"
+        return cached
 
     results: List[UniversityHighlightResponse] = []
 
     for uni in UNIVERSITIES_REGISTRY:
-        total_courses = db.query(CourseDB).filter(
-            or_(
-                CourseDB.university_th.ilike(f"%{uni.name_th}%"),
-                CourseDB.university.ilike(f"%{uni.name_en}%")
-            )
-        ).count()
-
-        uni_faculties = by_uni_faculties.get(uni.slug, [])
-        total_advisors = len(uni_faculties)
+        uni_filter_c = or_(
+            CourseDB.university_th.ilike(f"%{uni.name_th}%"),
+            CourseDB.university.ilike(f"%{uni.name_en}%")
+        )
+        total_courses = db.query(func.count(CourseDB.id)).filter(uni_filter_c).scalar() or 0
+        total_advisors = (
+            db.query(func.count(FacultyDB.id))
+            .filter(or_(
+                FacultyDB.university_th.ilike(f"%{uni.name_th}%"),
+                FacultyDB.university.ilike(f"%{uni.name_en}%")
+            ))
+            .scalar() or 0
+        )
 
         signature_courses = _fetch_diverse_signature_courses(uni, db)
-        distinguished_advs = _fetch_distinguished_advisors(uni, uni_faculties)
+        distinguished_advs = _fetch_distinguished_advisors(uni, db)
 
         results.append(
             UniversityHighlightResponse(
                 metadata=uni,
-                total_courses=total_courses,
-                total_advisors=total_advisors,
-                signature_programs=[db_course_to_pydantic(c) for c in signature_courses],
-                distinguished_advisors=[db_to_pydantic(a) for a in distinguished_advs]
+                total_courses=int(total_courses),
+                total_advisors=int(total_advisors),
+                signature_programs=[db_course_to_card(c) for c in signature_courses],
+                distinguished_advisors=[db_to_card(a) for a in distinguished_advs]
             )
         )
 
-    return results
+    payload = [r.model_dump() for r in results]
+    _signature_cache_set(payload)
+    response.headers["Cache-Control"] = "public, max-age=900"
+    response.headers["X-Cache"] = "MISS"
+    return payload
 
 @router.get("/signature-programs/{slug}", response_model=UniversityHighlightResponse)
-def get_university_signature_programs_by_slug(slug: str, db: Session = Depends(get_db)):
+def get_university_signature_programs_by_slug(slug: str, response: Response, db: Session = Depends(get_db)):
     """
     Returns signature programs, distinguished advisors, and metadata for a single specific university.
     """
@@ -632,32 +700,38 @@ def get_university_signature_programs_by_slug(slug: str, db: Session = Depends(g
     if not uni:
         raise HTTPException(status_code=404, detail="University metadata not found")
 
-    total_courses = db.query(CourseDB).filter(
+    cached = _signature_slug_get(slug.lower())
+    if cached is not None:
+        response.headers["Cache-Control"] = "public, max-age=900"
+        response.headers["X-Cache"] = "HIT"
+        return cached
+
+    total_courses = db.query(func.count(CourseDB.id)).filter(
         or_(
             CourseDB.university_th.ilike(f"%{uni.name_th}%"),
             CourseDB.university.ilike(f"%{uni.name_en}%")
         )
-    ).count()
+    ).scalar() or 0
 
-    uni_faculties = db.query(FacultyDB).options(
-        defer(FacultyDB.embedding),
-        defer(FacultyDB.embedding_text)
-    ).filter(
+    total_advisors = db.query(func.count(FacultyDB.id)).filter(
         or_(
             FacultyDB.university_th.ilike(f"%{uni.name_th}%"),
             FacultyDB.university.ilike(f"%{uni.name_en}%")
         )
-    ).all()
-
-    total_advisors = len(uni_faculties)
+    ).scalar() or 0
 
     signature_courses = _fetch_diverse_signature_courses(uni, db)
-    distinguished_advs = _fetch_distinguished_advisors(uni, uni_faculties)
+    distinguished_advs = _fetch_distinguished_advisors(uni, db)
 
-    return UniversityHighlightResponse(
+    result = UniversityHighlightResponse(
         metadata=uni,
-        total_courses=total_courses,
-        total_advisors=total_advisors,
-        signature_programs=[db_course_to_pydantic(c) for c in signature_courses],
-        distinguished_advisors=[db_to_pydantic(a) for a in distinguished_advs]
+        total_courses=int(total_courses),
+        total_advisors=int(total_advisors),
+        signature_programs=[db_course_to_card(c) for c in signature_courses],
+        distinguished_advisors=[db_to_card(a) for a in distinguished_advs]
     )
+    payload = result.model_dump()
+    _signature_slug_set(slug.lower(), payload)
+    response.headers["Cache-Control"] = "public, max-age=900"
+    response.headers["X-Cache"] = "MISS"
+    return payload

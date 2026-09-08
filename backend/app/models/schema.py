@@ -18,25 +18,64 @@ class FacultyMember(BaseModel):
     faculty_th: str = Field(..., description="Faculty / School name in Thai")
     department: str = Field(..., description="Department name in English")
     department_th: str = Field(..., description="Department name in Thai")
-    
+
     academic_title: Optional[str] = None
     academic_title_th: Optional[str] = None
     first_name: Optional[str] = None
     last_name: Optional[str] = None
     full_name: Optional[str] = None
     full_name_th: str = Field(..., description="Full name in Thai with title")
-    
+
     role: Optional[str] = None
     email: Optional[str] = None
     image_url: Optional[str] = None
     profile_url: Optional[str] = None
-    
+
     education: List[str] = Field(default_factory=list)
     research_interests: List[str] = Field(default_factory=list)
     taught_courses: List[str] = Field(default_factory=list)
     featured_publications: List[Publication] = Field(default_factory=list)
+    total_publications_count: Optional[int] = Field(0, description="Total verified papers authored/co-authored")
+    first_author_count: Optional[int] = Field(0, description="Papers authored as first/primary author")
+    co_author_count: Optional[int] = Field(0, description="Papers authored as co-author")
+    total_citations: Optional[int] = Field(0, description="Total academic citations across works")
+    h_index: Optional[int] = Field(0, description="h-index metric")
+    openalex_id: Optional[str] = None
     scholar_url: Optional[str] = None
     embedding_text: Optional[str] = None
+
+
+class FacultyCardSchema(BaseModel):
+    """
+    Egress-optimized slim DTO for list / card / search-result rendering.
+
+    Drops heavy columns (education, taught_courses, featured_publications,
+    citations, embedding_text) that list views never display — detail pages
+    fetch the full FacultyMember via GET /faculty/{id} instead.
+    Converters MUST NOT touch deferred attributes to avoid per-row lazy-load N+1.
+    """
+    id: str = Field(..., description="Unique ID e.g. cmu_eng_ee_014")
+    university: str = Field(..., description="University name in English")
+    university_th: str = Field(..., description="University name in Thai")
+    faculty: str = Field(..., description="Faculty / School name in English")
+    faculty_th: str = Field(..., description="Faculty / School name in Thai")
+    department: str = Field(..., description="Department name in English")
+    department_th: str = Field(..., description="Department name in Thai")
+
+    academic_title_th: Optional[str] = None
+    first_name: Optional[str] = None
+    last_name: Optional[str] = None
+    full_name: Optional[str] = None
+    full_name_th: str = Field(..., description="Full name in Thai with title")
+
+    role: Optional[str] = None
+    image_url: Optional[str] = None
+    scholar_url: Optional[str] = None
+
+    research_interests: List[str] = Field(default_factory=list, description="Trimmed to top 5")
+    total_publications_count: Optional[int] = Field(0)
+    first_author_count: Optional[int] = Field(0)
+    co_author_count: Optional[int] = Field(0)
 
 
 class SearchRequest(BaseModel):
@@ -103,6 +142,36 @@ class CourseSchema(BaseModel):
     match_score: Optional[float] = 95.0
 
 
+class CourseCardSchema(BaseModel):
+    """
+    Egress-optimized slim DTO for course list / card / comparison rendering.
+
+    Drops heavy columns (description, tags, tuition_total, embedding_text) and
+    trims long arrays. Detail modal fetches the full CourseSchema via
+    GET /courses/{course_id} when the user opens it.
+    Converters MUST NOT touch deferred attributes to avoid per-row lazy-load N+1.
+    """
+    id: str
+    title_th: str
+    title_en: Optional[str] = None
+    degree_level: str
+    degree_name: Optional[str] = None
+    university: str
+    university_th: str
+    faculty: str
+    faculty_th: str
+    department: Optional[str] = None
+    department_th: Optional[str] = None
+    program_type: Optional[str] = "ภาคปกติ"
+    duration_years: Optional[str] = None
+    total_credits: Optional[str] = None
+    tuition_per_semester: Optional[str] = None
+    curriculum_highlights: List[str] = Field(default_factory=list, description="Trimmed to top 3")
+    career_paths: List[str] = Field(default_factory=list, description="Trimmed to top 4")
+    website_url: Optional[str] = None
+    match_score: Optional[float] = 95.0
+
+
 class CourseSearchRequest(BaseModel):
     query: Optional[str] = Field("", max_length=500)
     university: Optional[str] = Field(None, max_length=150)
@@ -114,7 +183,7 @@ class CourseSearchRequest(BaseModel):
 class CourseSearchResponse(BaseModel):
     query: str
     total_matched: int
-    results: List[CourseSchema]
+    results: List[CourseCardSchema]
 
 
 class ResearchLab(BaseModel):

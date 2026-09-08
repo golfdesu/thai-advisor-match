@@ -28,7 +28,14 @@ class FacultyDB(Base):
     research_interests = Column(JSON, default=list)
     taught_courses = Column(JSON, default=list)
     featured_publications = Column(JSON, default=list)
-    
+
+    total_publications_count = Column(Integer, default=0)
+    first_author_count = Column(Integer, default=0)
+    co_author_count = Column(Integer, default=0)
+    total_citations = Column(Integer, default=0)
+    h_index = Column(Integer, default=0)
+    openalex_id = Column(String)
+
     scholar_url = Column(String)
     embedding_text = Column(Text)
     

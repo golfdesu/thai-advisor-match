@@ -27,6 +27,12 @@ export interface FacultyMember {
   research_interests?: string[];
   taught_courses?: string[];
   featured_publications?: Publication[];
+  total_publications_count?: number;
+  first_author_count?: number;
+  co_author_count?: number;
+  total_citations?: number;
+  h_index?: number;
+  openalex_id?: string;
   scholar_url?: string;
 }
 

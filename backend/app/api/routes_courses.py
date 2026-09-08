@@ -1,12 +1,28 @@
 import re
-from fastapi import APIRouter, HTTPException, Depends, Query
-from sqlalchemy.orm import Session, defer
+from fastapi import APIRouter, HTTPException, Depends, Query, Response
+from sqlalchemy.orm import Session, defer, load_only
 from sqlalchemy import or_
 from typing import List, Optional
-from app.models.schema import CourseSchema, CourseSearchRequest, CourseSearchResponse
+from app.models.schema import CourseSchema, CourseCardSchema, CourseSearchRequest, CourseSearchResponse
 from app.models.db_models import CourseDB
 from app.core.database import get_db
 from app.core.embedding_service import embedding_service
+
+# Egress budget: list/card payloads must skip heavy columns server-side so
+# Supabase never ships description / tags / tuition_total / embedding_text.
+_COURSE_CARD_COLUMNS = (
+    CourseDB.id,
+    CourseDB.title_th, CourseDB.title_en,
+    CourseDB.degree_level, CourseDB.degree_name,
+    CourseDB.university, CourseDB.university_th,
+    CourseDB.faculty, CourseDB.faculty_th,
+    CourseDB.department, CourseDB.department_th,
+    CourseDB.program_type,
+    CourseDB.duration_years, CourseDB.total_credits,
+    CourseDB.tuition_per_semester,
+    CourseDB.curriculum_highlights, CourseDB.career_paths,
+    CourseDB.website_url,
+)
 
 router = APIRouter(prefix="/courses", tags=["University Courses"])
 
@@ -94,6 +110,31 @@ def db_course_to_pydantic(db_course: CourseDB, match_score: float = 95.0) -> Cou
         match_score=match_score
     )
 
+
+def db_course_to_card(db_course: CourseDB, match_score: float = 95.0) -> CourseCardSchema:
+    """Slim converter — only touches columns in _COURSE_CARD_COLUMNS (never deferred attrs)."""
+    return CourseCardSchema(
+        id=db_course.id,
+        title_th=db_course.title_th,
+        title_en=db_course.title_en,
+        degree_level=db_course.degree_level,
+        degree_name=db_course.degree_name,
+        university=db_course.university,
+        university_th=db_course.university_th,
+        faculty=db_course.faculty,
+        faculty_th=db_course.faculty_th,
+        department=db_course.department,
+        department_th=db_course.department_th,
+        program_type=db_course.program_type or "ภาคปกติ",
+        duration_years=db_course.duration_years,
+        total_credits=db_course.total_credits,
+        tuition_per_semester=db_course.tuition_per_semester,
+        curriculum_highlights=list(db_course.curriculum_highlights or [])[:3],
+        career_paths=list(db_course.career_paths or [])[:4],
+        website_url=db_course.website_url,
+        match_score=match_score
+    )
+
 def build_degree_level_filter(degree_level: Optional[str]):
     """
     Returns an index-accelerated filter condition for degree_level utilizing B-Tree index.
@@ -116,27 +157,28 @@ def build_degree_level_filter(degree_level: Optional[str]):
         
     return CourseDB.degree_level.in_(targets) | or_(*[CourseDB.degree_level.startswith(t) for t in targets])
 
-@router.get("/", response_model=List[CourseSchema])
+@router.get("/", response_model=List[CourseCardSchema])
 def list_courses(
     university: Optional[str] = None,
     degree_level: Optional[str] = None,
-    limit: int = 50,
+    limit: int = 24,
     db: Session = Depends(get_db)
 ):
-    query = db.query(CourseDB).options(defer(CourseDB.embedding), defer(CourseDB.embedding_text))
+    limit = max(1, min(limit, 50))
+    query = db.query(CourseDB).options(load_only(*_COURSE_CARD_COLUMNS))
     if university and university != "all":
         query = query.filter(CourseDB.university.ilike(f"%{university}%") | CourseDB.university_th.ilike(f"%{university}%"))
-    
+
     degree_filter = build_degree_level_filter(degree_level)
     if degree_filter is not None:
         query = query.filter(degree_filter)
-    
+
     courses = query.limit(limit).all()
-    return [db_course_to_pydantic(c) for c in courses]
+    return [db_course_to_card(c) for c in courses]
 
 @router.post("/search", response_model=CourseSearchResponse)
 def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
-    query = db.query(CourseDB).options(defer(CourseDB.embedding), defer(CourseDB.embedding_text))
+    query = db.query(CourseDB).options(load_only(*_COURSE_CARD_COLUMNS))
 
     if request.university and request.university.strip() and request.university.strip().lower() != "all":
         query = query.filter(CourseDB.university.ilike(f"%{request.university.strip()}%") | CourseDB.university_th.ilike(f"%{request.university.strip()}%"))
@@ -155,9 +197,31 @@ def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
         query_vector = embedding_service.get_embedding(query_str)
         
         if query_vector:
-            # Enable HNSW index scan by directly ordering by cosine_distance
-            query = query.filter(CourseDB.embedding.isnot(None)).order_by(
-                CourseDB.embedding.cosine_distance(query_vector)
+            # Slim-select IDs by vector rank first, then fetch slim columns.
+            # (load_only + ORDER BY vector expression forces Postgres to ship
+            #  the 768-dim vector per row; two-step avoids that egress.)
+            id_rows = (
+                db.query(CourseDB.id)
+                .filter(CourseDB.embedding.isnot(None))
+                .order_by(CourseDB.embedding.cosine_distance(query_vector))
+                .limit(request.top_k)
+                .all()
+            )
+            ranked_ids = [r.id for r in id_rows]
+            if not ranked_ids:
+                return CourseSearchResponse(query=request.query or "", total_matched=0, results=[])
+            matched_courses = (
+                db.query(CourseDB)
+                .options(load_only(*_COURSE_CARD_COLUMNS))
+                .filter(CourseDB.id.in_(ranked_ids))
+                .all()
+            )
+            order = {cid: i for i, cid in enumerate(ranked_ids)}
+            matched_courses.sort(key=lambda c: order.get(c.id, 1 << 30))
+            return CourseSearchResponse(
+                query=request.query or "",
+                total_matched=len(matched_courses),
+                results=[db_course_to_card(c) for c in matched_courses],
             )
         else:
             # Fallback if Gemini vector embedding is unavailable
@@ -181,7 +245,7 @@ def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
                 )
 
     matched_courses = query.limit(request.top_k).all()
-    results = [db_course_to_pydantic(c) for c in matched_courses]
+    results = [db_course_to_card(c) for c in matched_courses]
 
     return CourseSearchResponse(
         query=request.query or "",
@@ -190,8 +254,9 @@ def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
     )
 
 @router.get("/{course_id}", response_model=CourseSchema)
-def get_course_detail(course_id: str, db: Session = Depends(get_db)):
+def get_course_detail(course_id: str, response: Response, db: Session = Depends(get_db)):
     course = db.query(CourseDB).options(defer(CourseDB.embedding), defer(CourseDB.embedding_text)).filter(CourseDB.id == course_id).first()
     if not course:
         raise HTTPException(status_code=404, detail="Course not found")
+    response.headers["Cache-Control"] = "public, max-age=600"
     return db_course_to_pydantic(course)

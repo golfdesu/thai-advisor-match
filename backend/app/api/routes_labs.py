@@ -1,5 +1,5 @@
-from fastapi import APIRouter, HTTPException, Depends, Query
-from sqlalchemy.orm import Session, defer
+from fastapi import APIRouter, HTTPException, Depends, Query, Response
+from sqlalchemy.orm import Session, defer, load_only
 from sqlalchemy import or_, text
 from typing import List, Optional
 from app.models.schema import (
@@ -11,12 +11,30 @@ from app.models.schema import (
     FacultyMember
 )
 from app.models.db_models import ResearchLabDB, FacultyDB
-from app.api.routes_faculty import db_to_pydantic
+from app.api.routes_faculty import db_to_pydantic, _FACULTY_CARD_COLUMNS
 from app.core.database import get_db
 from app.core.embedding_service import embedding_service
 from app.core.security import sanitize_for_prompt
 
 router = APIRouter(prefix="/labs", tags=["Research Labs & Centers of Excellence"])
+
+# Egress budget: list payloads skip heavy text + per-lab faculty payloads in
+# one batched IN query, so Supabase ships a few KB per card instead of ~100 KB.
+_LAB_CARD_COLUMNS = (
+    ResearchLabDB.id,
+    ResearchLabDB.name_th, ResearchLabDB.name_en,
+    ResearchLabDB.university, ResearchLabDB.university_th,
+    ResearchLabDB.faculty, ResearchLabDB.faculty_th,
+    ResearchLabDB.department, ResearchLabDB.department_th,
+    ResearchLabDB.lead_advisor_id,
+    ResearchLabDB.member_faculty_ids,
+    ResearchLabDB.research_domains,
+    ResearchLabDB.flagship_equipment,
+    ResearchLabDB.industry_partners,
+    ResearchLabDB.open_positions,
+    ResearchLabDB.website_url,
+    ResearchLabDB.image_url,
+)
 
 
 def db_lab_to_pydantic(db_lab: ResearchLabDB, db: Optional[Session] = None, match_score: float = 95.0) -> ResearchLab:
@@ -68,17 +86,101 @@ def db_lab_to_pydantic(db_lab: ResearchLabDB, db: Optional[Session] = None, matc
     )
 
 
+def _lab_card_to_pydantic(
+    db_lab: ResearchLabDB,
+    advisor_map: Optional[dict] = None,
+    match_score: float = 95.0,
+) -> ResearchLab:
+    """Slim list converter: NO description, NO member_faculties, lead name only."""
+    lead_adv = None
+    if advisor_map is not None and db_lab.lead_advisor_id:
+        lead_adv = advisor_map.get(db_lab.lead_advisor_id)
+
+    synergy_badges = []
+    if db_lab.open_positions:
+        synergy_badges.append(f"🟢 มีทุนวิจัย/เปิดรับนักศึกษา ({len(db_lab.open_positions)} ตำแหน่ง)")
+    if db_lab.flagship_equipment:
+        synergy_badges.append("🔬 เครื่องมือวิจัยระดับสากล")
+    if db_lab.industry_partners:
+        synergy_badges.append("🤝 มีเครือข่ายพันธมิตรภาคอุตสาหกรรม")
+
+    return ResearchLab(
+        id=db_lab.id,
+        name_th=db_lab.name_th,
+        name_en=db_lab.name_en,
+        university=db_lab.university,
+        university_th=db_lab.university_th,
+        faculty=db_lab.faculty,
+        faculty_th=db_lab.faculty_th,
+        department=db_lab.department,
+        department_th=db_lab.department_th,
+        lead_advisor_id=db_lab.lead_advisor_id,
+        lead_advisor=lead_adv,
+        member_faculty_ids=db_lab.member_faculty_ids or [],
+        member_faculties=[],
+        description=None,
+        research_domains=list(db_lab.research_domains or [])[:4],
+        flagship_equipment=list(db_lab.flagship_equipment or [])[:2],
+        industry_partners=[],
+        open_positions=db_lab.open_positions or [],
+        website_url=db_lab.website_url,
+        image_url=db_lab.image_url,
+        match_score=match_score,
+        synergy_badges=synergy_badges
+    )
+
+
+def _faculty_card_to_member(f: FacultyDB) -> FacultyMember:
+    """Build a FacultyMember from card columns only — never touches deferred attrs."""
+    eng_parts = [p for p in [f.first_name, f.last_name] if p]
+    return FacultyMember(
+        id=f.id,
+        university=f.university,
+        university_th=f.university_th,
+        faculty=f.faculty,
+        faculty_th=f.faculty_th,
+        department=f.department,
+        department_th=f.department_th,
+        academic_title_th=f.academic_title_th,
+        first_name=f.first_name,
+        last_name=f.last_name,
+        full_name=" ".join(eng_parts) if eng_parts else None,
+        full_name_th=f.full_name_th,
+        role=f.role,
+        image_url=f.image_url,
+        research_interests=list(f.research_interests or [])[:5],
+        total_publications_count=f.total_publications_count or 0,
+        first_author_count=f.first_author_count or 0,
+        co_author_count=f.co_author_count or 0,
+        scholar_url=f.scholar_url,
+    )
+
+
+def _resolve_lead_advisors_batch(db_labs: List[ResearchLabDB], db: Session) -> dict:
+    """One batched IN query for all lead advisors (slim card columns only)."""
+    lead_ids = list({lab.lead_advisor_id for lab in db_labs if lab.lead_advisor_id})
+    if not lead_ids:
+        return {}
+    fac_dbs = (
+        db.query(FacultyDB)
+        .options(load_only(*_FACULTY_CARD_COLUMNS))
+        .filter(FacultyDB.id.in_(lead_ids))
+        .all()
+    )
+    return {f.id: _faculty_card_to_member(f) for f in fac_dbs}
+
+
 @router.get("/", response_model=List[ResearchLab])
 def list_labs(
     university: Optional[str] = Query(None, description="Filter by university name"),
     faculty: Optional[str] = Query(None, description="Filter by faculty/school"),
     domain: Optional[str] = Query(None, description="Filter by research domain"),
     search: Optional[str] = Query(None, description="Keyword search in lab name/domains"),
-    limit: int = Query(50, ge=1, le=100),
+    limit: int = Query(24, ge=1, le=50),
     db: Session = Depends(get_db)
 ):
-    """Retrieve all Research Labs with optional filtering."""
-    query = db.query(ResearchLabDB).options(defer(ResearchLabDB.embedding), defer(ResearchLabDB.embedding_text))
+    """Retrieve lab cards (slim payload). Use GET /labs/{id} for full detail."""
+    query = db.query(ResearchLabDB).options(load_only(*_LAB_CARD_COLUMNS))
 
     if university and university.strip() and university.strip().lower() != "all":
         u_clean = university.strip()
@@ -101,15 +203,17 @@ def list_labs(
         ))
 
     db_labs = query.limit(limit).all()
-    return [db_lab_to_pydantic(lab, db=db) for lab in db_labs]
+    advisor_map = _resolve_lead_advisors_batch(db_labs, db)
+    return [_lab_card_to_pydantic(lab, advisor_map=advisor_map) for lab in db_labs]
 
 
 @router.get("/{lab_id}", response_model=ResearchLab)
-def get_lab_detail(lab_id: str, db: Session = Depends(get_db)):
+def get_lab_detail(lab_id: str, response: Response, db: Session = Depends(get_db)):
     """Retrieve single lab detail with resolved PIs and faculty members."""
     db_lab = db.query(ResearchLabDB).options(defer(ResearchLabDB.embedding), defer(ResearchLabDB.embedding_text)).filter(ResearchLabDB.id == lab_id).first()
     if not db_lab:
         raise HTTPException(status_code=404, detail="Research Lab not found")
+    response.headers["Cache-Control"] = "public, max-age=600"
     return db_lab_to_pydantic(db_lab, db=db)
 
 

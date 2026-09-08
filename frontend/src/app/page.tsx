@@ -31,7 +31,7 @@ import { LabInquiryModal } from "@/components/LabInquiryModal";
 import { SavedBookmarksModal } from "@/components/SavedBookmarksModal";
 import { FeaturedProgramsShowcase } from "@/components/FeaturedProgramsShowcase";
 import { CourseDetailModal } from "@/components/CourseDetailModal";
-import { searchApiCache } from "@/lib/dsa";
+import { searchApiCache, courseDetailCache } from "@/lib/dsa";
 
 const readSavedIds = (storageKey: string): string[] => {
   if (typeof window === "undefined") return [];
@@ -71,6 +71,30 @@ export default function Home() {
   // Selected Course Detail Modal State
   const [selectedCourseForDetail, setSelectedCourseForDetail] = useState<Course | null>(null);
 
+  // Egress guard: list/search endpoints return slim cards (no description/tags).
+  // Open the modal instantly with the card, then upgrade to the full detail
+  // payload in the background (LRU-cached) so description/tags appear.
+  const openCourseDetail = (course: Course) => {
+    setSelectedCourseForDetail(course);
+    if (course.description !== undefined && course.tags !== undefined) return;
+    const cached = courseDetailCache.get(course.id);
+    if (cached) {
+      setSelectedCourseForDetail((prev) => (prev && prev.id === course.id ? cached : prev));
+      return;
+    }
+    void (async () => {
+      try {
+        const res = await fetch(`${API_BASE_URL}/courses/${course.id}`);
+        if (!res.ok) return;
+        const full = (await res.json()) as Course;
+        courseDetailCache.put(course.id, full);
+        setSelectedCourseForDetail((prev) => (prev && prev.id === course.id ? full : prev));
+      } catch {
+        // Keep the slim card — the modal still renders without description/tags.
+      }
+    })();
+  };
+
   // Cold Email Modal State
   const [selectedAdvisorForEmail, setSelectedAdvisorForEmail] = useState<FacultyMember | null>(null);
 
@@ -100,30 +124,20 @@ export default function Home() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
+  // Egress guard: lazy-load only the visible tab (courses, 12 slim cards) on
+  // first paint. Advisors/labs tabs fetch on demand via executeSearch when the
+  // user switches tabs, so one page view costs one small query, not three.
+  const initialTabLoadedRef = useRef<"courses" | "advisors" | "labs" | null>(null);
+
   async function fetchInitialData() {
+    if (initialTabLoadedRef.current !== null) return;
+    initialTabLoadedRef.current = "courses";
     try {
       setLoading(true);
-      const [coursesRes, facultyRes, labsRes] = await Promise.allSettled([
-        fetch(`${API_BASE_URL}/courses/?limit=24`),
-        fetch(`${API_BASE_URL}/faculty/?limit=24`),
-        fetch(`${API_BASE_URL}/labs/?limit=24`),
-      ]);
-
-      if (coursesRes.status === "fulfilled" && coursesRes.value.ok) {
-        const data = await coursesRes.value.json();
+      const res = await fetch(`${API_BASE_URL}/courses/?limit=12`);
+      if (res.ok) {
+        const data = await res.json();
         setCourses(Array.isArray(data) ? data : (data.results ?? []));
-      }
-
-      if (facultyRes.status === "fulfilled" && facultyRes.value.ok) {
-        const data = await facultyRes.value.json();
-        const list = Array.isArray(data) ? data : (data.results ?? []);
-        setAdvisors(list.map((f: FacultyMember) => ({ faculty: f, match_score: 90 })));
-      }
-
-      if (labsRes.status === "fulfilled" && labsRes.value.ok) {
-        const data = await labsRes.value.json();
-        const list = Array.isArray(data) ? data : (data.results ?? []);
-        setLabs(list);
       }
     } catch (err) {
       console.warn("Backend loading default catalog data error", err);
@@ -532,7 +546,7 @@ export default function Home() {
             setActiveTab("courses");
             executeSearch(courseTitle, selectedUni, selectedDegree, "courses");
           }}
-          onSelectCourseDetail={(course) => setSelectedCourseForDetail(course)}
+          onSelectCourseDetail={openCourseDetail}
           savedCourses={savedCourses}
           savedAdvisors={savedAdvisors}
           onToggleBookmarkCourse={toggleBookmarkCourse}
@@ -647,7 +661,7 @@ export default function Home() {
                   isCompared={comparedCourses.some((item) => item.id === c.id)}
                   onToggleBookmark={toggleBookmarkCourse}
                   onToggleCompare={toggleCompareCourse}
-                  onSelectCourse={(course) => setSelectedCourseForDetail(course)}
+                  onSelectCourse={openCourseDetail}
                 />
               ))}
             </div>
@@ -714,6 +728,11 @@ export default function Home() {
         course={selectedCourseForDetail}
         isOpen={!!selectedCourseForDetail}
         onClose={() => setSelectedCourseForDetail(null)}
+        isLoadingFullDetail={
+          !!selectedCourseForDetail &&
+          (selectedCourseForDetail.description === undefined ||
+            selectedCourseForDetail.tags === undefined)
+        }
         isSaved={selectedCourseForDetail ? savedCourses.includes(selectedCourseForDetail.id) : false}
         onToggleBookmark={toggleBookmarkCourse}
       />

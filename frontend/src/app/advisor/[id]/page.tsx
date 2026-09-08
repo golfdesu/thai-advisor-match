@@ -236,6 +236,11 @@ export default function AdvisorProfilePage() {
                       <Building2 size={16} className="text-[var(--theme-primary)]" />
                       {advisor.department_th || advisor.faculty_th}
                     </span>
+                    {advisor.total_publications_count !== undefined && advisor.total_publications_count > 0 && (
+                      <span className="bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] border border-[var(--theme-primary-border)] text-xs sm:text-sm font-black px-3.5 py-1.5 rounded-xl flex items-center gap-2 shadow-2xs">
+                        <FileText size={16} /> ผลงาน {advisor.total_publications_count} เรื่อง
+                      </span>
+                    )}
                   </div>
 
                   <p className="text-[var(--theme-text-muted)] font-semibold text-xs sm:text-sm">
@@ -326,18 +331,95 @@ export default function AdvisorProfilePage() {
                       <FileText className="text-[var(--theme-primary)]" size={22} />
                       <span>ผลงานวิชาการและงานวิจัยเด่น (Publications)</span>
                     </h2>
-                    {advisor.scholar_url && (
-                      <a
-                        href={advisor.scholar_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs sm:text-sm font-bold text-[var(--theme-primary)] hover:underline flex items-center gap-1.5 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] px-3.5 py-1.5 rounded-xl transition shadow-2xs"
-                      >
-                        <span>Google Scholar</span>
-                        <ExternalLink size={14} />
-                      </a>
-                    )}
+                    <div className="flex items-center gap-2">
+                      {advisor.openalex_id && (
+                        <a
+                          href={advisor.openalex_id}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs sm:text-sm font-bold text-[var(--theme-accent)] hover:underline flex items-center gap-1.5 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] px-3 py-1.5 rounded-xl transition shadow-2xs"
+                        >
+                          <span>OpenAlex</span>
+                          <ExternalLink size={13} />
+                        </a>
+                      )}
+                      {advisor.scholar_url && (
+                        <a
+                          href={advisor.scholar_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs sm:text-sm font-bold text-[var(--theme-primary)] hover:underline flex items-center gap-1.5 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] px-3.5 py-1.5 rounded-xl transition shadow-2xs"
+                        >
+                          <span>Google Scholar</span>
+                          <ExternalLink size={14} />
+                        </a>
+                      )}
+                    </div>
                   </div>
+
+                  {/* Authorship Breakdown Card (Real Metrics) */}
+                  {advisor.total_publications_count !== undefined && advisor.total_publications_count > 0 && (
+                    <div className="p-4 rounded-2xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] space-y-3">
+                      <div className="flex flex-wrap items-center justify-between gap-2">
+                        <span className="text-xs font-black uppercase text-[var(--theme-text-title)] flex items-center gap-1.5">
+                          <FileText size={15} className="text-[var(--theme-primary)]" />
+                          สถิติการตีพิมพ์ในฐานข้อมูลสากล (OpenAlex Verified):
+                        </span>
+                        <div className="flex items-center gap-3 text-xs font-bold">
+                          {advisor.total_citations !== undefined && advisor.total_citations > 0 && (
+                            <span className="text-[var(--theme-accent)]">
+                              ยอดอ้างอิงรวม: <strong>{advisor.total_citations.toLocaleString()}</strong> ครั้ง
+                            </span>
+                          )}
+                          {advisor.h_index !== undefined && advisor.h_index > 0 && (
+                            <span className="text-[var(--theme-primary)]">
+                              h-index: <strong>{advisor.h_index}</strong>
+                            </span>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Authorship Bar */}
+                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-1">
+                        <div className="p-3 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-center">
+                          <span className="text-[11px] text-[var(--theme-text-muted)] font-bold block mb-0.5">
+                            ผลงานทั้งหมด
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-[var(--theme-text-title)]">
+                            {advisor.total_publications_count}
+                          </span>
+                          <span className="text-[10px] text-[var(--theme-text-muted)] block mt-0.5">เรื่อง</span>
+                        </div>
+                        <div className="p-3 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-center">
+                          <span className="text-[11px] text-[var(--theme-primary)] font-bold block mb-0.5">
+                            ตีพิมพ์เอง (First/Main Author)
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-[var(--theme-primary)]">
+                            {advisor.first_author_count || 0}
+                          </span>
+                          <span className="text-[10px] text-[var(--theme-text-muted)] block mt-0.5">
+                            {advisor.total_publications_count > 0
+                              ? `${Math.round(((advisor.first_author_count || 0) / advisor.total_publications_count) * 100)}% ของงานทั้งหมด`
+                              : "0%"}
+                          </span>
+                        </div>
+                        <div className="p-3 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-center col-span-2 sm:col-span-1">
+                          <span className="text-[11px] text-[var(--theme-accent)] font-bold block mb-0.5">
+                            ร่วมตีพิมพ์ (Co-Author)
+                          </span>
+                          <span className="text-lg sm:text-xl font-black text-[var(--theme-accent)]">
+                            {advisor.co_author_count || 0}
+                          </span>
+                          <span className="text-[10px] text-[var(--theme-text-muted)] block mt-0.5">
+                            {advisor.total_publications_count > 0
+                              ? `${Math.round(((advisor.co_author_count || 0) / advisor.total_publications_count) * 100)}% ของงานทั้งหมด`
+                              : "0%"}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
                   <div className="space-y-3.5">
                     {advisor.featured_publications.map((pub, i) => (
                       <div

@@ -80,6 +80,18 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
               <p className="text-xs text-[var(--theme-text-muted)] font-semibold truncate mt-0.5">
                 {f.university_th}
               </p>
+              {f.total_publications_count !== undefined && f.total_publications_count > 0 && (
+                <div className="flex items-center gap-1.5 mt-1 text-[11px] font-semibold text-[var(--theme-text-muted)]">
+                  <span className="font-bold text-[var(--theme-primary)]">
+                    {f.total_publications_count} ผลงาน
+                  </span>
+                  {f.first_author_count !== undefined && f.co_author_count !== undefined && (
+                    <span className="text-[10px] opacity-85">
+                      (ชื่อแรก {f.first_author_count} • ร่วม {f.co_author_count})
+                    </span>
+                  )}
+                </div>
+              )}
             </div>
           </Link>
 

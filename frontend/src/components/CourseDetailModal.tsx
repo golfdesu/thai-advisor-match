@@ -27,6 +27,8 @@ interface CourseDetailModalProps {
   onClose: () => void;
   isSaved?: boolean;
   onToggleBookmark?: (id: string) => void;
+  /** True while the full detail payload is still loading — shows a subtle note. */
+  isLoadingFullDetail?: boolean;
 }
 
 export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
@@ -34,7 +36,8 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
   isOpen,
   onClose,
   isSaved = false,
-  onToggleBookmark
+  onToggleBookmark,
+  isLoadingFullDetail = false
 }) => {
   if (!isOpen || !course) return null;
 
@@ -166,6 +169,13 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
               </span>
             </div>
           </div>
+
+          {/* Full detail still loading — slim card arrived first */}
+          {isLoadingFullDetail && (
+            <div className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold bg-[var(--theme-card-subtle)]/70 p-4 rounded-2xl border border-[var(--theme-border-subtle)] animate-pulse">
+              กำลังโหลดรายละเอียดหลักสูตรฉบับเต็ม…
+            </div>
+          )}
 
           {/* Description Section */}
           {course.description && (

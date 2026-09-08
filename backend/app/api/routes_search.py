@@ -117,8 +117,9 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
     expanded_query = embedding_service.expand_query(query_str).lower()
     raw_tokens = [t.strip() for t in expanded_query.split() if len(t.strip()) >= 2]
 
-    # 1. SQL-level candidate pre-filtering
-    candidate_query = query_db.options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text))
+    # 1. SQL-level candidate pre-filtering — reuse the caller's deferred options
+    # so heavy columns (embedding / pubs / education / emb_text) never ship.
+    candidate_query = query_db
     if raw_tokens:
         filters = []
         for token in raw_tokens[:6]:
