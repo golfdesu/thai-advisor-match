@@ -10,6 +10,25 @@ from pydantic import BaseModel, Field
 from app.core.database import SessionLocal, engine, Base
 from app.models.db_models import CourseDB
 from app.core.embedding_service import embedding_service
+from scripts.agentic_pipeline.content_pruner import ContentPruner
+
+SERPAPI_KEYS = [k.strip().strip('"').strip("'") for k in os.getenv("SERPAPI_KEYS", "").split(",") if k.strip()]
+if not SERPAPI_KEYS and os.getenv("SERPAPI_KEY"):
+    single_serp = os.getenv("SERPAPI_KEY", "").strip().strip('"').strip("'")
+    if single_serp:
+        SERPAPI_KEYS = [single_serp]
+
+serp_lock = threading.Lock()
+current_serp_idx = 0
+
+def get_serpapi_key():
+    global current_serp_idx
+    if not SERPAPI_KEYS:
+        return ""
+    with serp_lock:
+        key = SERPAPI_KEYS[current_serp_idx % len(SERPAPI_KEYS)]
+        current_serp_idx = (current_serp_idx + 1) % len(SERPAPI_KEYS)
+        return key
 
 API_KEYS = [k.strip() for k in os.getenv("GEMINI_API_KEYS","").split(",") if k.strip()]
 if not API_KEYS:
@@ -51,17 +70,11 @@ class CourseSchema(BaseModel):
 class ExtractedCourses(BaseModel):
     courses: list[CourseSchema]
 
-SERPAPI_KEY=os.getenv("SERPAPI_KEY","").strip().strip('"').strip("'")
-QUERIES=[
-    ("Chulalongkorn University","site:eng.chula.ac.th หลักสูตร ปริญญาตรี ปริญญาโท"),
-    ("Chulalongkorn University","site:arts.chula.ac.th หลักสูตร"),
-    ("Chulalongkorn University","site:commarts.chula.ac.th หลักสูตร"),
-    ("Mahidol University","site:graduate.mahidol.ac.th หลักสูตร"),
-    ("Mahidol University","site:si.mahidol.ac.th หลักสูตร"),
-]
-
 def search(q, num=3):
-    url=f"https://serpapi.com/search.json?q={urllib.parse.quote(q)}&api_key={SERPAPI_KEY}&num={num}"
+    api_key = get_serpapi_key()
+    if not api_key:
+        return []
+    url=f"https://serpapi.com/search.json?q={urllib.parse.quote(q)}&api_key={api_key}&num={num}"
     try:
         r=requests.get(url, timeout=15)
         data=r.json()
@@ -73,14 +86,15 @@ def search(q, num=3):
 
 def fetch(url):
     try:
-        h={'User-Agent':'Mozilla/5.0'}
-        r=requests.get(url, headers=h, timeout=15, verify=False)
+        h = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'th-TH,th;q=0.9,en-US;q=0.8,en;q=0.7'
+        }
+        r = requests.get(url, headers=h, timeout=15, verify=False)
         r.raise_for_status()
-        soup=BeautifulSoup(r.content,'html.parser')
-        for t in soup(["script","style","nav","footer"]):
-            t.decompose()
-        txt=soup.get_text(separator=' ', strip=True)
-        return txt[:15000]
+        # Apply SKILL.state ContentPruner to eliminate boilerplate nav/footer noise (80%+ token reduction)
+        return ContentPruner.prune_html(r.text, max_output_chars=25000)
     except Exception as e:
         print(f"fetch fail {url}: {e}")
         return ""
@@ -136,12 +150,17 @@ def process_and_commit(uni, q):
     print(f"  unique {len(unique)} for query")
     session=SessionLocal()
     ins=upd=0
+    # Egress guard: one batched IN query for existence check (id-only — no
+    # full rows shipped) instead of N per-course .first() round trips.
+    unique_ids=[c["id"] for c in unique]
+    existing_ids={r.id for r in session.query(CourseDB.id).filter(CourseDB.id.in_(unique_ids)).all()}
     for c in unique:
         emb_text=f"{c.get('title_th','')} {c.get('title_en','')} {c.get('faculty_th','')} {c.get('description','')} {', '.join(c.get('curriculum_highlights',[]))}"
         vec=embedding_service.get_embedding(emb_text)
         c["embedding_text"]=emb_text
         c["embedding"]=vec if vec and len(vec)==768 else None
-        existing=session.query(CourseDB).filter_by(id=c["id"]).first()
+        # Re-attach only on update path; inserts need no prior read at all.
+        existing=session.get(CourseDB, c["id"]) if c["id"] in existing_ids else None
         try:
             if existing:
                 for k,v in c.items():

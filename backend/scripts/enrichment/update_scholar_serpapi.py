@@ -15,16 +15,28 @@ from app.models.db_models import FacultyDB
 load_dotenv()
 
 from sqlalchemy import or_
+from sqlalchemy.orm import defer
 
 def update_publications_from_serpapi():
-    serpapi_key = os.getenv("SERPAPI_KEY")
-    if not serpapi_key:
+    serpapi_keys = [k.strip().strip('"').strip("'") for k in os.getenv("SERPAPI_KEYS", "").split(",") if k.strip()]
+    if not serpapi_keys and os.getenv("SERPAPI_KEY"):
+        single = os.getenv("SERPAPI_KEY", "").strip().strip('"').strip("'")
+        if single:
+            serpapi_keys = [single]
+
+    if not serpapi_keys:
         print("Error: SERPAPI_KEY not found in environment variables.")
         return
 
+    key_idx = 0
+
     db = SessionLocal()
-    # Only fetch faculties that do NOT already have publications populated
-    faculties = db.query(FacultyDB).filter(
+    # Only fetch faculties that do NOT already have publications populated.
+    # Egress guard: defer the 768-dim vector + embedding_text — this loop only
+    # reads names and writes featured_publications, so never ship them.
+    faculties = db.query(FacultyDB).options(
+        defer(FacultyDB.embedding), defer(FacultyDB.embedding_text)
+    ).filter(
         or_(
             FacultyDB.featured_publications == None,
             FacultyDB.featured_publications == []
@@ -44,10 +56,12 @@ def update_publications_from_serpapi():
         author_query = f"author:\"{faculty.first_name} {faculty.last_name}\""
         print(f"Searching for: {author_query}")
         
+        current_key = serpapi_keys[key_idx % len(serpapi_keys)]
+        key_idx += 1
         search_params = {
             "engine": "google_scholar",
             "q": author_query,
-            "api_key": serpapi_key,
+            "api_key": current_key,
             "num": 5
         }
         
