@@ -1,0 +1,83 @@
+{
+  "session_id": "extract_1788684895_13307c",
+  "target_university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+  "target_university_en": "Suranaree University of Technology",
+  "target_faculty_th": "สำนักวิชาวิทยาศาสตร์",
+  "target_faculty_en": "Institute of Science",
+  "pending_urls": [
+    "https://beta.sut.ac.th/science/en/employees/professor-employees",
+    "https://beta.sut.ac.th/is-physics/%E0%B8%84%E0%B8%93%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3/%E0%B8%84%E0%B8%93%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C",
+    "https://www.facebook.com/sutscience/?locale=th_TH",
+    "https://beta.sut.ac.th/science/",
+    "https://beta.sut.ac.th/science/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3-%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%82%E0%B9%82",
+    "https://beta.sut.ac.th/science/employees/director",
+    "https://beta.sut.ac.th/is-biology/%E0%B8%84%E0%B8%93%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3/%E0%B8%84%E0%B8%93%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C",
+    "https://institute.sut.weon.website/personnel/%E0%B8%84%E0%B8%AE%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AA%E0%B8%B3%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B4/",
+    "http://bulletin.sut.ac.th/course-introduction/department-science"
+  ],
+  "visited_urls": [
+    "https://academic.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "suranareeu_instituteo_limphirat_001": {
+      "id": "suranareeu_instituteo_limphirat_001",
+      "university": "Suranaree University of Technology",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty": "Institute of Science",
+      "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+      "department": "สำนักวิชาวิทยาศาสตร์",
+      "department_th": "สำนักวิชาวิทยาศาสตร์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Ayudh",
+      "last_name": "Limphirat",
+      "full_name": "Ayudh Limphirat",
+      "full_name_th": "ผศ.ดร. อายุทธ ลิ้มพิรัตน์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "suranareeu_instituteo_iampetchakitkan_002": {
+      "id": "suranareeu_instituteo_iampetchakitkan_002",
+      "university": "Suranaree University of Technology",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty": "Institute of Science",
+      "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+      "department": "สาขาวิชาชีววิทยา",
+      "department_th": "สาขาวิชาชีววิทยา",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Nalina",
+      "last_name": "Iampetchakitkan",
+      "full_name": "Nalina Iampetchakitkan",
+      "full_name_th": "อ.ดร. นลินา เอี่ยมพิชิตกิจการ",
+      "role": "อาจารย์ประจำ",
+      "email": "nalina.ai@sut.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "อายุทธ ลิ้มพิรัตน์": "suranareeu_instituteo_limphirat_001",
+    "นลินา เอี่ยมพิชิตกิจการ": "suranareeu_instituteo_iampetchakitkan_002"
+  },
+  "dedup_emails": {
+    "nalina.ai@sut.ac.th": "suranareeu_instituteo_iampetchakitkan_002"
+  },
+  "step_count": 1,
+  "total_tokens_used": 3969,
+  "status": "in_progress",
+  "last_error": null
+}

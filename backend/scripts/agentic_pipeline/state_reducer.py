@@ -164,8 +164,9 @@ class FacultyStateReducer:
         existing_id = self._find_existing_faculty_id(state, base_name_th, email_clean)
 
         if existing_id:
-            # Merge enriched fields into existing record
-            self._merge_into_existing(state.faculties[existing_id], raw)
+            # Merge enriched fields into existing record if present in state.faculties
+            if existing_id in state.faculties:
+                self._merge_into_existing(state.faculties[existing_id], raw)
             return
 
         # --- Create New Verified Profile ---

@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1788757162_634d4d",
+  "target_university_th": "มหาวิทยาลัยขอนแก่น",
+  "target_university_en": "Khon Kaen University",
+  "target_faculty_th": "คณะพยาบาลศาสตร์",
+  "target_faculty_en": "Faculty of Nursing",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://nu.kku.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 912,
+  "status": "completed",
+  "last_error": null
+}

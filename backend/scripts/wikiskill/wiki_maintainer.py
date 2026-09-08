@@ -17,10 +17,14 @@ class WikiMaintainer:
 
     def __init__(
         self,
-        wiki_dir: str = "Teacher/.agents/wiki",
+        wiki_dir: Optional[str] = None,
         trace_logger: Optional[TraceLogger] = None
     ):
-        self.wiki_dir = wiki_dir
+        if wiki_dir is None:
+            base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+            self.wiki_dir = os.path.join(base_dir, ".agents", "wiki")
+        else:
+            self.wiki_dir = wiki_dir
         self.trace_logger = trace_logger or TraceLogger()
         self.universities_dir = os.path.join(self.wiki_dir, "universities")
         self.patterns_dir = os.path.join(self.wiki_dir, "patterns")

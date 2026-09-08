@@ -31,3 +31,20 @@ To systematically discover, audit, extract, and reconcile undergraduate and grad
   emb_text = f"{title_th} {title_en} {faculty_th} {faculty} {department_th} {description} {' '.join(career_paths)} {' '.join(tags)}"
   ```
   Immediately calculate 768-dimensional Gemini embeddings (`gemini-embedding-2`) and persist to Supabase PostgreSQL (`CourseDB.embedding`) to ensure real-time semantic discovery alignment.
+
+## 4. SKILL.state Autonomous Curriculum Discovery Integration
+All curriculum web scraping and crawling operations MUST be executed or wrapped using the `SKILL.state` architecture (`backend/scripts/agentic_pipeline/course_cli_runner.py`):
+1. **Deterministic Content Pruning (`ContentPruner.prune_html`):** Strips non-academic boilerplate, navigation menus, and footers prior to LLM extraction, maintaining <2,000 input tokens per step.
+2. **State Patch Reducer (`CourseStateReducer`):** Generates atomic `CourseStatePatch` objects rather than accumulating unmanageable conversation histories. Automatically computes `tuition_total` and executes RapidFuzz deduplication against the existing state.
+3. **Resumable Disk Checkpointing:** Saves state snapshots automatically to `data/agent_states/course_{session_id}.json`.
+4. **Autonomous CLI Command Pattern:**
+   ```bash
+   python backend/scripts/agentic_pipeline/course_cli_runner.py \
+     --univ-th "มหาวิทยาลัยเชียงใหม่" \
+     --univ-en "Chiang Mai University" \
+     --faculty-th "คณะวิศวกรรมศาสตร์" \
+     --faculty-en "Faculty of Engineering" \
+     --url "https://eng.cmu.ac.th/curriculum/" \
+     --export-file "backend/scripts/data_sources/cmu_eng_courses.py"
+   ```
+

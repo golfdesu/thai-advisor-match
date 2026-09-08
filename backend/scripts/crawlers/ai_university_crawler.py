@@ -26,6 +26,9 @@ try:
     from app.core.database import SessionLocal, engine, Base
     from app.models.db_models import CourseDB
     from app.core.embedding_service import embedding_service
+    from scripts.agentic_pipeline.content_pruner import ContentPruner
+    from scripts.agentic_pipeline.course_models import CourseAgentState, CourseStatePatch, RawCourseProfile
+    from scripts.agentic_pipeline.course_state_reducer import CourseStateReducer
     DB_AVAILABLE = True
 except ImportError:
     DB_AVAILABLE = False
@@ -97,16 +100,15 @@ class ExtractedCourses(BaseModel):
 
 def fetch_text_from_url(url: str) -> str:
     try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
-        resp = requests.get(url, headers=headers, timeout=10, verify=False)
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'th-TH,th;q=0.9,en-US;q=0.8,en;q=0.7'
+        }
+        resp = requests.get(url, headers=headers, timeout=12, verify=False)
         resp.raise_for_status()
-        soup = BeautifulSoup(resp.content, 'html.parser')
-        # Remove script and style elements
-        for script in soup(["script", "style", "nav", "footer"]):
-            script.decompose()
-        text = soup.get_text(separator=' ', strip=True)
-        # return the first 15000 characters to avoid huge payloads
-        return text[:15000]
+        # Apply SKILL.state ContentPruner to eliminate boilerplate nav/footer noise (80%+ token reduction)
+        return ContentPruner.prune_html(resp.text, max_output_chars=25000)
     except Exception as e:
         print(f"Error fetching {url}: {e}")
         return ""

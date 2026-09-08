@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1788756903_9b5612",
+  "target_university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+  "target_university_en": "National Institute of Development Administration",
+  "target_faculty_th": "คณะบริหารธุรกิจ",
+  "target_faculty_en": "NIDA Business School",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://mba.nida.ac.th/en/about/professor/",
+    "https://gspa.nida.ac.th/en/faculty-member/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

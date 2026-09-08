@@ -10,6 +10,7 @@ from pydantic import BaseModel, Field
 from app.core.database import SessionLocal, engine, Base
 from app.models.db_models import CourseDB
 from app.core.embedding_service import embedding_service
+from scripts.agentic_pipeline.content_pruner import ContentPruner
 
 API_KEYS = [k.strip() for k in os.getenv("GEMINI_API_KEYS","").split(",") if k.strip()]
 if not API_KEYS:
@@ -51,7 +52,24 @@ class CourseSchema(BaseModel):
 class ExtractedCourses(BaseModel):
     courses: list[CourseSchema]
 
-SERPAPI_KEY=os.getenv("SERPAPI_KEY","").strip().strip('"').strip("'")
+SERPAPI_KEYS = [k.strip().strip('"').strip("'") for k in os.getenv("SERPAPI_KEYS", "").split(",") if k.strip()]
+if not SERPAPI_KEYS and os.getenv("SERPAPI_KEY"):
+    single_serp = os.getenv("SERPAPI_KEY", "").strip().strip('"').strip("'")
+    if single_serp:
+        SERPAPI_KEYS = [single_serp]
+
+serp_lock = threading.Lock()
+current_serp_idx = 0
+
+def get_serpapi_key():
+    global current_serp_idx
+    if not SERPAPI_KEYS:
+        return ""
+    with serp_lock:
+        key = SERPAPI_KEYS[current_serp_idx % len(SERPAPI_KEYS)]
+        current_serp_idx = (current_serp_idx + 1) % len(SERPAPI_KEYS)
+        return key
+
 QUERIES=[
     ("Chulalongkorn University","site:eng.chula.ac.th หลักสูตร ปริญญาตรี ปริญญาโท ปริญญาเอก"),
     ("Chulalongkorn University","site:science.chula.ac.th หลักสูตร"),
@@ -65,7 +83,10 @@ QUERIES=[
 ]
 
 def search(q, num=3):
-    url=f"https://serpapi.com/search.json?q={urllib.parse.quote(q)}&api_key={SERPAPI_KEY}&num={num}"
+    api_key = get_serpapi_key()
+    if not api_key:
+        return []
+    url=f"https://serpapi.com/search.json?q={urllib.parse.quote(q)}&api_key={api_key}&num={num}"
     try:
         r=requests.get(url, timeout=15)
         data=r.json()
@@ -76,14 +97,15 @@ def search(q, num=3):
 
 def fetch(url):
     try:
-        h={'User-Agent':'Mozilla/5.0'}
-        r=requests.get(url, headers=h, timeout=15, verify=False)
+        h = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'th-TH,th;q=0.9,en-US;q=0.8,en;q=0.7'
+        }
+        r = requests.get(url, headers=h, timeout=15, verify=False)
         r.raise_for_status()
-        soup=BeautifulSoup(r.content,'html.parser')
-        for t in soup(["script","style","nav","footer"]):
-            t.decompose()
-        txt=soup.get_text(separator=' ', strip=True)
-        return txt[:15000]
+        # Apply SKILL.state ContentPruner to eliminate boilerplate nav/footer noise (80%+ token reduction)
+        return ContentPruner.prune_html(r.text, max_output_chars=25000)
     except Exception as e:
         print(f"fetch fail {url}: {e}")
         return ""

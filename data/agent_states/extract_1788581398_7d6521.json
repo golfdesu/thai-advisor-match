@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1788581398_7d6521",
+  "target_university_th": "มหาวิทยาลัยขอนแก่น",
+  "target_university_en": "Khon Kaen University",
+  "target_faculty_th": "คณะนิติศาสตร์",
+  "target_faculty_en": "Faculty of Law",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://law.kku.ac.th/%e0%b8%84%e0%b8%93%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%88%e0%b8%b3%e0%b8%ab%e0%b8%a5%e0%b8%b1%e0%b8%81%e0%b8%aa%e0%b8%b9%e0%b8%95%e0%b8%a3/",
+    "https://law.kku.ac.th/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c%e0%b8%9c%e0%b8%b9%e0%b9%89%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b8%9c%e0%b8%b4%e0%b8%94%e0%b8%8a%e0%b8%ad%e0%b8%9a%e0%b8%ab%e0%b8%a5%e0%b8%b1/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1672,
+  "status": "completed",
+  "last_error": null
+}

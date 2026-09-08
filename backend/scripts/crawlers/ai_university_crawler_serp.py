@@ -18,11 +18,26 @@ load_dotenv(os.path.join(BACKEND_DIR, '.env'))
 try:
     from app.core.database import SessionLocal, engine, Base
     from app.models.db_models import CourseDB
+    from scripts.agentic_pipeline.content_pruner import ContentPruner
     DB_AVAILABLE = True
 except ImportError:
     DB_AVAILABLE = False
 
-SERPAPI_KEY = os.getenv("SERPAPI_KEY")
+SERPAPI_KEYS = [k.strip() for k in os.getenv("SERPAPI_KEYS", "").split(",") if k.strip()]
+if not SERPAPI_KEYS and os.getenv("SERPAPI_KEY"):
+    SERPAPI_KEYS = [os.getenv("SERPAPI_KEY").strip()]
+
+serp_lock = threading.Lock()
+current_serp_idx = 0
+
+def get_serpapi_key():
+    global current_serp_idx
+    if not SERPAPI_KEYS:
+        return ""
+    with serp_lock:
+        key = SERPAPI_KEYS[current_serp_idx % len(SERPAPI_KEYS)]
+        current_serp_idx = (current_serp_idx + 1) % len(SERPAPI_KEYS)
+        return key
 API_KEYS = [k.strip() for k in os.getenv("GEMINI_API_KEYS", "").split(",")] if os.getenv("GEMINI_API_KEYS") else [os.getenv("GEMINI_API_KEY")]
 
 key_lock = threading.Lock()
@@ -36,7 +51,7 @@ def get_client():
     return genai.Client(api_key=key)
 
 UNIVERSITIES = sys.argv[1:]
-if not UNIVERSITIES:
+if __name__ == "__main__" and not UNIVERSITIES:
     print("Please provide university names as arguments.")
     sys.exit(1)
 
@@ -66,9 +81,10 @@ class ExtractedCourses(BaseModel):
     courses: list[CourseSchema]
 
 def search_serpapi(query: str) -> list[str]:
-    if not SERPAPI_KEY:
+    api_key = get_serpapi_key()
+    if not api_key:
         return []
-    url = f"https://serpapi.com/search.json?q={query}&api_key={SERPAPI_KEY}&num=3"
+    url = f"https://serpapi.com/search.json?q={query}&api_key={api_key}&num=3"
     try:
         resp = requests.get(url, timeout=10)
         data = resp.json()
@@ -80,14 +96,15 @@ def search_serpapi(query: str) -> list[str]:
 
 def fetch_text_from_url(url: str) -> str:
     try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'th-TH,th;q=0.9,en-US;q=0.8,en;q=0.7'
+        }
         resp = requests.get(url, headers=headers, timeout=15, verify=False)
         resp.raise_for_status()
-        soup = BeautifulSoup(resp.content, 'html.parser')
-        for script in soup(["script", "style", "nav", "footer"]):
-            script.decompose()
-        text = soup.get_text(separator=' ', strip=True)
-        return text[:15000]
+        # Apply SKILL.state ContentPruner to eliminate boilerplate nav/footer noise (80%+ token reduction)
+        return ContentPruner.prune_html(resp.text, max_output_chars=25000)
     except Exception as e:
         return ""
 

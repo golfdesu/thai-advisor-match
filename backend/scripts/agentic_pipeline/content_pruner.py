@@ -18,10 +18,13 @@ ACADEMIC_KEYWORDS = {
     "ภาควิชา", "สาขาวิชา", "ประวัติ", "ผลงาน", "ความเชี่ยวชาญ", "การศึกษา"
 }
 
-# Tags and classes strictly representing boilerplate noise
+# Tags strictly representing boilerplate noise
 NOISE_TAGS = {"script", "style", "svg", "noscript", "iframe", "header", "footer", "nav"}
+
+# Classes/IDs representing noise — restricted to non-content structural components
+# Avoid matching broad page wrappers like 'elementor-widget', 'site-content', etc.
 NOISE_CLASSES_IDS = re.compile(
-    r"(header|footer|navbar|navigation|sidebar|menu|breadcrumb|pagination|cookie|popup|modal|banner|advert|widget)",
+    r"\b(header|footer|navbar|navigation|breadcrumb|pagination|cookie|popup|modal|banner|advert)\b",
     re.IGNORECASE
 )
 

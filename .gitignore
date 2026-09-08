@@ -1,7 +1,11 @@
-# Environments
+# Environments & Secrets Backup
 .env
 .env.*
 *.env
+SECRETS_BACKUP.txt
+SECRETS_VAULT.md
+*.secrets
+.secrets/
 .venv/
 venv/
 ENV/
@@ -48,3 +52,9 @@ MANIFEST
 *.db
 *.sqlite
 *.sqlite3
+
+# Temporary Crawling Snippets & Scraping Dumps
+data/*snippets*
+data/*_raw.json
+data/raw_*.json
+

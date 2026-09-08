@@ -13,6 +13,10 @@ class Settings(BaseSettings):
     # AI / Embedding Configuration
     GEMINI_API_KEY: str = ""
     GEMINI_API_KEYS: str = ""
+
+    # Search APIs
+    SERPAPI_KEY: str = ""
+    SERPAPI_KEYS: str = ""
     
     # Path configuration
     BASE_DIR: Path = Path(__file__).resolve().parent.parent.parent

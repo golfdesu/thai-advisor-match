@@ -19,12 +19,30 @@ try:
     from app.core.database import SessionLocal, engine, Base
     from app.models.db_models import CourseDB
     from app.core.embedding_service import embedding_service
+    from scripts.agentic_pipeline.content_pruner import ContentPruner
     DB_AVAILABLE = True
 except ImportError as e:
     print("DB import failed", e)
     DB_AVAILABLE = False
 
-SERPAPI_KEY = os.getenv("SERPAPI_KEY", "").strip().strip('"').strip("'")
+SERPAPI_KEYS = [k.strip().strip('"').strip("'") for k in os.getenv("SERPAPI_KEYS", "").split(",") if k.strip()]
+if not SERPAPI_KEYS and os.getenv("SERPAPI_KEY"):
+    single_serp = os.getenv("SERPAPI_KEY", "").strip().strip('"').strip("'")
+    if single_serp:
+        SERPAPI_KEYS = [single_serp]
+
+serp_lock = threading.Lock()
+current_serp_idx = 0
+
+def get_serpapi_key():
+    global current_serp_idx
+    if not SERPAPI_KEYS:
+        return ""
+    with serp_lock:
+        key = SERPAPI_KEYS[current_serp_idx % len(SERPAPI_KEYS)]
+        current_serp_idx = (current_serp_idx + 1) % len(SERPAPI_KEYS)
+        return key
+
 API_KEYS = [k.strip() for k in os.getenv("GEMINI_API_KEYS", "").split(",") if k.strip()]
 if not API_KEYS:
     single = os.getenv("GEMINI_API_KEY","").strip()
@@ -79,9 +97,10 @@ TARGET_QUERIES = [
 ]
 
 def search_serpapi(query: str, num=3):
-    if not SERPAPI_KEY:
+    api_key = get_serpapi_key()
+    if not api_key:
         return []
-    url = f"https://serpapi.com/search.json?q={urllib.parse.quote(query)}&api_key={SERPAPI_KEY}&num={num}"
+    url = f"https://serpapi.com/search.json?q={urllib.parse.quote(query)}&api_key={api_key}&num={num}"
     try:
         resp = requests.get(url, timeout=15)
         data = resp.json()
@@ -92,14 +111,15 @@ def search_serpapi(query: str, num=3):
 
 def fetch_text(url: str) -> str:
     try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'th-TH,th;q=0.9,en-US;q=0.8,en;q=0.7'
+        }
         resp = requests.get(url, headers=headers, timeout=15, verify=False)
         resp.raise_for_status()
-        soup = BeautifulSoup(resp.content, 'html.parser')
-        for tag in soup(["script","style","nav","footer"]):
-            tag.decompose()
-        text = soup.get_text(separator=' ', strip=True)
-        return text[:15000]
+        # Apply SKILL.state ContentPruner to eliminate boilerplate nav/footer noise (80%+ token reduction)
+        return ContentPruner.prune_html(resp.text, max_output_chars=25000)
     except Exception as e:
         print(f"fetch err {url}: {e}")
         return ""

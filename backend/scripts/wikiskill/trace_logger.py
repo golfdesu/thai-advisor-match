@@ -31,8 +31,13 @@ class ExecutionTraceEntry(BaseModel):
 class TraceLogger:
     """Appends atomic execution traces to the raw_traces storage."""
 
-    def __init__(self, trace_dir: str = "Teacher/.agents/raw_traces"):
-        self.trace_dir = trace_dir
+    def __init__(self, trace_dir: Optional[str] = None):
+        # Default to repo root .agents/raw_traces
+        if trace_dir is None:
+            base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+            self.trace_dir = os.path.join(base_dir, ".agents", "raw_traces")
+        else:
+            self.trace_dir = trace_dir
         os.makedirs(self.trace_dir, exist_ok=True)
 
     def log_trace(self, trace: ExecutionTraceEntry) -> str:
