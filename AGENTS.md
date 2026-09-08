@@ -25,7 +25,7 @@
                                   ↕ (REST API JSON)
 [ Backend: Python 3.12+ / FastAPI / SQLAlchemy 2.0 / Uvicorn (Port 8000) ]
                                   ↕
-[ AI Layer: Gemini API / Embeddings ] ↔ [ Database: PostgreSQL + pgvector (Supabase) ]
+[ AI Layer: Gemini API / Embeddings ] ↔ [ Database: PostgreSQL 17 + pgvector (Local Docker / Supabase) ]
 ```
 
 ---
@@ -61,9 +61,17 @@
   - Use `ConfigDict(from_attributes=True)` (never `class Config: orm_mode = True`).
 - **Python 3.12+ Annotations:** Use standard type unions (`str | None`, `list[str]`) for models and route parameters.
 
-### 4. Database, pgvector & Skills:
-> [!NOTE]
-> Database tuning rules reside in `.agents/skills/db-optimization/SKILL.md`.
+### 4. Database, Containerization & pgvector Rules:
+- **Local-First Zero-Egress Invariant:** All active development, web scraping, data enrichment, vector embedding generation, and bulk database ingestions MUST run against the local containerized PostgreSQL database (`localhost:5432`). Never stream high-throughput ingestion pipelines directly against remote Supabase to prevent egress quota exhaustion and bandwidth billing spikes.
+- **Docker Compose Standards:**
+  - Standard file name: `compose.yaml` (modern Compose Specification — do not use legacy `docker-compose.yml` or obsolete `version` tags).
+  - Engine image: `pgvector/pgvector:pg17` (PostgreSQL 17.11 + `vector` 0.8.x + `pg_trgm` 1.6 — binary-level version parity with Supabase PG17).
+  - Initialization: Automatic via `docker/init.sql` mounted to `/docker-entrypoint-initdb.d/01-init.sql:ro` ensuring vector/trigram extensions, table schemas, HNSW cosine indexes (`ix_faculties_embedding_hnsw`), and GIN trigram indexes (`idx_faculties_name_th_trgm`) are created automatically.
+  - GUI Management (optional): Run `docker compose --profile tools up -d` to launch pgAdmin 4 on port `5050`.
+- **Bidirectional Migration Workflows:**
+  - **Hydrate Local from Supabase:** `python backend/scripts/migrate_supabase_to_local.py` (stream-batched 500 records/chunk, upsert via `ON CONFLICT DO UPDATE`).
+  - **Deploy Local to Supabase Production:** `python backend/scripts/sync_local_to_supabase.py` (only invoked when staging data is fully verified and ready for cloud release).
+- **Database Tuning:** Full tuning rules and index configurations reside in `.agents/skills/db-optimization/SKILL.md`.
 
 ---
 
@@ -81,6 +89,10 @@
 
 ```text
 Teacher/
+├── compose.yaml                  # Docker Compose Spec: PostgreSQL 17 (pgvector) + pgAdmin 4
+├── docker/
+│   └── init.sql                  # Automated initialization schema (extensions, tables, HNSW/GIN indexes)
+│
 ├── frontend/                     # Next.js 16 Super App UI (App Router)
 │   ├── src/
 │   │   ├── app/                  # Routes: /, /advisor/[id], /labs/[id], /career-discovery
@@ -94,7 +106,15 @@ Teacher/
 │   │   ├── api/                  # Routes: routes_search, routes_faculty, routes_courses, routes_labs, routes_career_quiz
 │   │   ├── core/                 # config, database, dsa_utils (LRUCache, TopKHeap, Trie), embedding_service
 │   │   └── models/               # db_models (SQLAlchemy + pgvector), schema (Pydantic DTOs)
+│   ├── data/
+│   │   └── agent_states/         # Checkpointed extraction states & deduplication checkpoints
 │   └── scripts/                  # Data Ingestion, Crawlers & Canonical Merging Pipelines
+│       ├── agentic_pipeline/     # Autonomous Pipeline (State Reducer, Content Pruner, CLI Runner)
+│       ├── crawlers/             # Targeted University & Faculty Web Crawlers
+│       ├── audits/               # Database validation, index verification, & hygiene audit scripts
+│       ├── legacy_archive/       # Archived historical crawl scripts and experimental test suites
+│       ├── migrate_supabase_to_local.py # Supabase -> Local Docker hydration pipeline
+│       └── sync_local_to_supabase.py    # Local Docker -> Supabase production sync pipeline
 └── .agents/skills/               # Domain-specific automation skills (db-optimization, data-acquire-*, etc.)
 ```
 
