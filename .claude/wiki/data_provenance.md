@@ -180,3 +180,12 @@ Full rosters behind logins (`vettech-dev.ku.ac.th/vtperson`, `ku-work.ku.ac.th`)
   asia/cups/ptc/agsa`, ku `sport/agri/envs/educ`, kku `medtech/techno`, mu `rilca/ili/hrid/csts/
   liter/lan`, cmu `medtech/commarts/econ/psy`.
 - **SERPAPI**: key[0] exhausted (429) 2026-09-10; key[1] remaining — prefer direct subdomain probing.
+- **Tourism/Hospitality rosters** (probed 2026-09-10 eve, all ConnectError from this host — may be
+  network-local, not server-dead): `tht.msu.ac.th`, SU `htcl.su.ac.th`, PSU `hti.psu.ac.th`,
+  BUU `tourism.buu.ac.th`, RU `htii.ru.ac.th`, KMUTT `tsrit.kmutt.ac.th`, MU `comarts.mahidol.ac.th`,
+  TU `cits.tu.ac.th`; NIDA tourism page = Cloudflare 403. `stic.ac.th` resolves but is "St Teresa
+  International University" (private, not a public tourism faculty). **Retry only from a clean network.**
+- **Cyber/HCI elite sources**: SIT `sit.kmutt.ac.th` & KMUTT FIBO ConnectError (same evening); the
+  previously-verified SIT/CI/FIBO staff rosters were tiny and are already ingested — no new feed available.
+- **OpenAlex key pool**: all 3 keys daily-exhausted 2026-09-10 (~15:00 ICT); canary gate aborted wave 2
+  with 0 writes. Re-runnable any time after the daily reset.
