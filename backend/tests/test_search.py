@@ -91,6 +91,21 @@ def test_cold_email_generator():
     assert "body" in email_data
     assert len(email_data["subject"]) > 0
 
+
+def test_course_search_with_university_filter():
+    """Verify that Course search preserves university/degree filters during vector and keyword search."""
+    payload = {
+        "query": "วิศวกรรม",
+        "university": "จุฬาลงกรณ์มหาวิทยาลัย",
+        "top_k": 5
+    }
+    res = client.post("/api/v1/courses/search", json=payload)
+    assert res.status_code == 200
+    data = res.json()
+    for course in data.get("results", []):
+        assert "จุฬา" in course["university_th"] or "Chula" in course["university"]
+
+
 if __name__ == "__main__":
     pytest.main(["-v", __file__])
 

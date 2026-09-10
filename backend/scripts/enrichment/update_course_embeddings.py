@@ -2,7 +2,10 @@ import os
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from pathlib import Path
+backend_dir = Path(__file__).resolve().parents[2]
+if str(backend_dir) not in sys.path:
+    sys.path.insert(0, str(backend_dir))
 
 from app.core.database import SessionLocal
 from app.models.db_models import CourseDB

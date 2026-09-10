@@ -14,7 +14,7 @@ import logging
 from pathlib import Path
 
 # Ensure backend directory is in sys.path
-backend_dir = Path(__file__).resolve().parent.parent
+backend_dir = Path(__file__).resolve().parents[2]
 sys.path.append(str(backend_dir))
 
 import dotenv
@@ -22,6 +22,7 @@ dotenv.load_dotenv(backend_dir / ".env")
 
 from app.core.database import SessionLocal
 from app.models.db_models import CourseDB
+from sqlalchemy.orm import defer
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -87,7 +88,7 @@ def generate_tags_for_course(c: CourseDB) -> list[str]:
 def enrich_and_clean_all_courses():
     session = SessionLocal()
     try:
-        courses = session.query(CourseDB).all()
+        courses = session.query(CourseDB).options(defer(CourseDB.embedding)).all()
         logger.info(f"Loaded {len(courses)} courses for enrichment and cleaning.")
 
         updated_count = 0

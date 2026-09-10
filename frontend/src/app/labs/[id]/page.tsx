@@ -61,7 +61,9 @@ export default function LabDetailPage() {
   const [memberImgErrors, setMemberImgErrors] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
-    if (id) setIsSaved(hasSavedId("thai_educenter_saved_labs", id));
+    if (!id) return;
+    const saved = hasSavedId("thai_educenter_saved_labs", id);
+    queueMicrotask(() => setIsSaved(saved));
   }, [id]);
 
   useEffect(() => {

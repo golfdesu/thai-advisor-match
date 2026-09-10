@@ -69,7 +69,7 @@ def build_faculty_lexical_index(session_factory) -> int:
             docs = {r.id: (r.embedding_text or "") for r in rows}
         finally:
             db.close()
-        n = FACULTY_LEXICAL_INDEX.rebuild(docs)
+        n = FACULTY_LEXICAL_INDEX.rebuild(docs, tokenizer=tokenize_mixed)
         logger.info(f"📚 [Corpus Index] lexical BM25 index built over {n} faculty docs")
         return n
     except Exception as e:  # pragma: no cover - defensive

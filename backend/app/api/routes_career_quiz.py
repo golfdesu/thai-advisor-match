@@ -370,13 +370,14 @@ def analyze_career_quiz(request: CareerQuizSubmitRequest, db: Session = Depends(
         share_quote=gemini_data.get("share_quote", ""),
         top_careers=[
             CareerRecommendation(
-                title=c.get("title", ""),
-                description=c.get("description", ""),
-                match_percentage=c.get("match_percentage", 90),
-                skills=c.get("skills", []),
-                growth_outlook=c.get("growth_outlook", "เติบโตสูง")
+                title=(c.get("title", "") if isinstance(c, dict) else str(c)) or "อาชีพแนะนำ",
+                description=c.get("description", "") if isinstance(c, dict) else "",
+                match_percentage=c.get("match_percentage", 90) if isinstance(c, dict) else 90,
+                skills=c.get("skills", []) if isinstance(c, dict) else [],
+                growth_outlook=c.get("growth_outlook", "เติบโตสูง") if isinstance(c, dict) else "เติบโตสูง"
             )
-            for c in gemini_data.get("top_careers", [])
+            for c in (gemini_data.get("top_careers") or [])
+            if c
         ],
         recommended_courses=recommended_courses
     )

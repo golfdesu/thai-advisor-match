@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { Bookmark, X, Trash2, ExternalLink, User, BookOpen } from "lucide-react";
-import { Course, SearchMatchResult } from "@/types";
+import type { Course, SearchMatchResult } from "@/types";
 
 interface SavedBookmarksModalProps {
   isOpen: boolean;

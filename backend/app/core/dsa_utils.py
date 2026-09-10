@@ -8,7 +8,7 @@ Advanced Data Structures and Algorithms (DSA) Engine for Thai EduCenter:
 
 import threading
 import math
-from typing import TypeVar, Generic, Optional, Dict, List, Tuple, Any, Iterator
+from typing import TypeVar, Generic, Optional, Dict, List, Tuple, Any, Iterator, Callable
 import heapq
 
 K = TypeVar("K")
@@ -225,9 +225,14 @@ class FastInvertedIndex:
         self.index: Dict[str, Dict[str, int]] = {}  # token -> {doc_id: frequency}
         self.doc_lengths: Dict[str, int] = {}       # doc_id -> total tokens
 
-    def add_document(self, doc_id: str, text: str) -> None:
-        """Tokenize and add document to inverted index."""
-        tokens = [t.lower() for t in text.split() if len(t) >= 2]
+    def add_document(self, doc_id: str, text: str, tokens: Optional[List[str]] = None) -> None:
+        """Tokenize and add document to inverted index.
+        If tokens is provided, uses them directly; otherwise splits whitespace.
+        """
+        if tokens is None:
+            tokens = [t.lower() for t in text.split() if len(t) >= 2]
+        else:
+            tokens = [t.lower() for t in tokens if len(t) >= 2]
         self.doc_lengths[doc_id] = len(tokens)
 
         for token in tokens:
@@ -295,12 +300,13 @@ class ThreadSafeInvertedIndex:
         self._lock = threading.Lock()
         self.doc_count = 0
 
-    def rebuild(self, docs: Dict[str, str]) -> int:
+    def rebuild(self, docs: Dict[str, str], tokenizer: Optional[Callable[[str], List[str]]] = None) -> int:
         """Build a full new index from {doc_id: text} and publish it atomically."""
         fresh = FastInvertedIndex()
         for doc_id, text in docs.items():
             if text:
-                fresh.add_document(doc_id, text)
+                tokens = tokenizer(text) if tokenizer else None
+                fresh.add_document(doc_id, text, tokens=tokens)
         with self._lock:
             self._index = fresh
             self.doc_count = len(fresh.doc_lengths)

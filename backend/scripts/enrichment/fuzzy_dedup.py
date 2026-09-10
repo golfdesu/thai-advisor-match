@@ -1,7 +1,9 @@
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
 import os, re
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from pathlib import Path
+BACKEND_DIR = Path(__file__).resolve().parents[2]
+os.chdir(BACKEND_DIR)
 from sqlalchemy import create_engine, text
 from collections import defaultdict
 
@@ -13,9 +15,13 @@ except:
     print("rapidfuzz not available, need to pip install")
     sys.exit(1)
 
-env=open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env'),encoding='utf-8').read()
-db_url=env.split('DATABASE_URL=')[-1].split('\n')[0].strip().strip('"')
-engine=create_engine(db_url, pool_pre_ping=True)
+env_file = BACKEND_DIR / ".env"
+if env_file.exists():
+    env = env_file.read_text(encoding="utf-8")
+    db_url = env.split("DATABASE_URL=")[-1].split("\n")[0].strip().strip('"')
+else:
+    db_url = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/advisor_match")
+engine = create_engine(db_url, pool_pre_ping=True)
 
 def normalize_title(t):
     if not t:

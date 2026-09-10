@@ -5,10 +5,11 @@ import logging
 from pathlib import Path
 
 # Add backend directory to Python path
-sys.path.append(str(Path(__file__).resolve().parent.parent))
+sys.path.append(str(Path(__file__).resolve().parents[2]))
 
 from app.core.database import SessionLocal
 from app.models.db_models import FacultyDB
+from sqlalchemy.orm import defer
 from scholarly import scholarly
 
 logging.basicConfig(level=logging.INFO)
@@ -16,21 +17,23 @@ logger = logging.getLogger(__name__)
 
 def update_scholar_data():
     logger.info("Starting Google Scholar Data Extraction...")
-    
+
     with SessionLocal() as db:
-        faculties = db.query(FacultyDB).all()
-        
+        faculties = db.query(FacultyDB).options(defer(FacultyDB.embedding)).yield_per(500)
+
         for faculty in faculties:
             # Construct search query (English name + University is best)
             # If no first_name, try full_name_th
             search_name = ""
             if faculty.first_name and faculty.last_name:
                 search_name = f"{faculty.first_name} {faculty.last_name}"
+            elif faculty.full_name_th:
+                parts = faculty.full_name_th.strip().split(" ")
+                search_name = " ".join(parts[-2:]) if len(parts) >= 2 else faculty.full_name_th.strip()
             else:
-                search_name = faculty.full_name_th.split(" ")[-2:] # Try to grab name parts
-                search_name = " ".join(search_name)
-                
-            query = f"{search_name} Chiang Mai University"
+                continue
+
+            query = f"{search_name} {faculty.university or 'Chiang Mai University'}"
             logger.info(f"Searching Scholar for: {query}")
             
             try:
@@ -61,8 +64,11 @@ def update_scholar_data():
                 
                 if top_pubs:
                     # Append new pubs to existing ones to not lose manual data, but avoid exact duplicates
-                    existing_pubs = faculty.featured_publications or []
-                    existing_titles = [ep.get("title", "").lower() for ep in existing_pubs]
+                    existing_pubs = list(faculty.featured_publications or [])
+                    existing_titles = [
+                        (ep.get("title", "") if isinstance(ep, dict) else str(ep)).lower()
+                        for ep in existing_pubs
+                    ]
                     
                     for np in top_pubs:
                         if np["title"].lower() not in existing_titles:

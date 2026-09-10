@@ -6,14 +6,17 @@ only where the deterministic text actually changed (post canonical-merge hygiene
 import os
 import sys
 import time
+from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-BACKEND_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-sys.path.append(BACKEND_DIR)
+BACKEND_DIR = str(Path(__file__).resolve().parents[2])
+if BACKEND_DIR not in sys.path:
+    sys.path.insert(0, BACKEND_DIR)
 
 from dotenv import load_dotenv
 load_dotenv(os.path.join(BACKEND_DIR, '.env'))
 
+from sqlalchemy.orm import defer
 from app.core.database import SessionLocal
 from app.models.db_models import FacultyDB
 from app.core.embedding_service import embedding_service
@@ -23,7 +26,8 @@ from scripts.faculty_massive_ingestion_runner import build_faculty_embedding_tex
 def main():
     db = SessionLocal()
     stale = []
-    for f in db.query(FacultyDB).all():
+    # Defer heavy 768-dim embedding column to prevent memory ballooning
+    for f in db.query(FacultyDB).options(defer(FacultyDB.embedding)).yield_per(500):
         rebuilt = build_faculty_embedding_text(f)
         if rebuilt != (f.embedding_text or ""):
             stale.append(f.id)
@@ -34,7 +38,7 @@ def main():
 
     def embed_one(fid):
         with SessionLocal() as s:
-            rec = s.query(FacultyDB).filter(FacultyDB.id == fid).first()
+            rec = s.query(FacultyDB).options(defer(FacultyDB.embedding)).filter(FacultyDB.id == fid).first()
             if not rec:
                 return fid, None, None
             txt = build_faculty_embedding_text(rec)

@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { FacultyMember } from "@/types";
+import type { FacultyMember } from "@/types";
 import { API_BASE_URL } from "@/lib/config";
 import { Mail, X, Loader2, Copy, Check, Send } from "lucide-react";
 

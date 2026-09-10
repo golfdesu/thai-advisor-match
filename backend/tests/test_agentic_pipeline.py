@@ -1,5 +1,12 @@
 import pytest
 import os
+import sys
+from pathlib import Path
+
+BACKEND_DIR = str(Path(__file__).resolve().parents[1])
+if BACKEND_DIR not in sys.path:
+    sys.path.insert(0, BACKEND_DIR)
+
 import json
 from scripts.agentic_pipeline.models import (
     ExtractionAgentState,
@@ -12,6 +19,11 @@ from scripts.agentic_pipeline.state_reducer import (
     redact_pdpa_and_sanitize,
     save_state_checkpoint,
     load_state_checkpoint
+)
+from app.models.quiz_schema import (
+    CareerRecommendation,
+    CareerProfileResponse,
+    RiasecBreakdown
 )
 
 
@@ -138,3 +150,78 @@ def test_checkpointing_roundtrip(tmp_path):
     assert restored.total_tokens_used == 2400
     assert "cu_001" in restored.faculties
     assert restored.faculties["cu_001"]["full_name_th"] == "ศ.ดร. สุรศักดิ์ วิทยา"
+
+
+def test_english_academic_title_normalization():
+    """Verify bilingual title normalization handles English prefixes and preserves Thai names."""
+    # 1. English Prof. Dr.
+    t, full, base = normalize_thai_title_and_name("Prof. Dr. David Smith")
+    assert t == "ศ.ดร."
+    assert full == "ศ.ดร. David Smith"
+    assert base == "David Smith"
+
+    # 2. English Assoc. Prof. Dr.
+    t, full, base = normalize_thai_title_and_name("Assoc. Prof. Dr.LEE KIAN CHENG")
+    assert t == "รศ.ดร."
+    assert full == "รศ.ดร. LEE KIAN CHENG"
+    assert base == "LEE KIAN CHENG"
+
+    # 3. Stacked Thai default + English Dr. (e.g. crawler output before fix)
+    t, full, base = normalize_thai_title_and_name("อ. Dr. Aye Hninn Khine")
+    assert t == "อ.ดร."
+    assert full == "อ.ดร. Aye Hninn Khine"
+    assert base == "Aye Hninn Khine"
+
+    # 4. Stacked Thai default + English Assoc.Prof.Dr.
+    t, full, base = normalize_thai_title_and_name("อ. Assoc.Prof.Dr.Fredric William Swierczek")
+    assert t == "รศ.ดร."
+    assert full == "รศ.ดร. Fredric William Swierczek"
+    assert base == "Fredric William Swierczek"
+
+    # 5. Standalone Dr.
+    t, full, base = normalize_thai_title_and_name("Dr. Alexander Horstmann")
+    assert t == "ดร."
+    assert full == "ดร. Alexander Horstmann"
+    assert base == "Alexander Horstmann"
+
+    # 6. Safety invariant: Thai names starting with 'ดร' must NOT have their names mutilated
+    t, full, base = normalize_thai_title_and_name("ดรุณี ใจกล้า")
+    assert base == "ดรุณี ใจกล้า"
+    assert "ดรุณี" in full
+
+    # 7. Academic rank precedence: official stored title 'รศ.ดร.' overrides partial 'Dr.' token
+    t, full, base = normalize_thai_title_and_name("Dr. Somchart Fugkeaw", raw_title_th="รศ.ดร.")
+    assert t == "รศ.ดร."
+    assert full == "รศ.ดร. Somchart Fugkeaw"
+
+
+def test_quiz_schema_null_coercion():
+    """Verify Pydantic v2 gracefully coerces None to [] for LLM payload stability."""
+    rec = CareerRecommendation(
+        title="AI Engineer",
+        description="Build machine learning systems",
+        match_percentage=95,
+        skills=None  # Coerced from None to []
+    )
+    assert rec.skills == []
+
+    resp = CareerProfileResponse(
+        tier="standard",
+        archetype_title="The Analytical Builder",
+        archetype_code="IR (Investigative-Realistic)",
+        archetype_description="Enjoys deep technical exploration",
+        riasec_scores=RiasecBreakdown(),
+        personality_summary="Focused problem-solver",
+        strengths=None,
+        ideal_work_environment="Tech Lab",
+        lifestyle_highlights=None,
+        growth_advice="Keep learning",
+        share_quote="Dream big",
+        top_careers=None,
+        recommended_courses=None
+    )
+    assert resp.strengths == []
+    assert resp.lifestyle_highlights == []
+    assert resp.top_careers == []
+    assert resp.recommended_courses == []
+

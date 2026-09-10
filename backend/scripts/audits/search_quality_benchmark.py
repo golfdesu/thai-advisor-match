@@ -22,7 +22,8 @@ import argparse
 import urllib.request
 import urllib.error
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 API = "http://127.0.0.1:8000/api/v1/search/"
 

@@ -51,6 +51,7 @@ def db_to_pydantic(db_model: FacultyDB) -> FacultyMember:
         featured_publications=[
             {"title": pub} if isinstance(pub, str) else pub
             for pub in (db_model.featured_publications or [])
+            if pub and (isinstance(pub, str) or (isinstance(pub, dict) and pub.get("title")))
         ],
         total_publications_count=getattr(db_model, "total_publications_count", 0) or 0,
         first_author_count=getattr(db_model, "first_author_count", 0) or 0,

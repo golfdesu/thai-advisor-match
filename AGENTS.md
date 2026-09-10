@@ -180,3 +180,20 @@ The project implements the 3-Layer **WikiSkill Architecture** for autonomous dat
 - **Academic Faculty Acquisition (SKILL.state & WikiSkill):** `.agents/skills/data-acquire-academic/SKILL.md` & `data-acquire-faculty-elites/SKILL.md`
 - **Curriculum & Tuition Discovery:** `.agents/skills/data-curriculum-tuition-discovery/SKILL.md`
 - **Scraper & SPA Builders:** `.agents/skills/data-build-scraper/SKILL.md` & `data-scrape-spa/SKILL.md`
+
+---
+
+## 9. Antipatterns & Quality Invariants (Audited Bug Prevention)
+> [!CAUTION]
+> **Strict Guardrails to Prevent Agent Regressions:**
+> 1. **Thai Regex Boundary Safety:** Never use optional dot `r"ดร\.?"` or boundary-less prefixes for Thai academic titles. Thai has no word boundaries; `r"ดร\.?"` greedy-matches common names starting with "ดร" (e.g. ดรุณี, ดรัลพร) and mutilates them into "ุณี". Always require an explicit period or whitespace delimiter (`r"ดร\."`, `r"ดร\s+"`, `r"Dr\.?\b"`).
+> 2. **Lexical Indexing Symmetry (BM25 / Search):** The document indexer and the query scorer MUST use the exact same tokenizer. If queries use character bigrams (`tokenize_mixed`) for Thai runs, the indexer must also index using `tokenize_mixed`, never whitespace `text.split()`. Divergence drops BM25 Thai scores to 0.0.
+> 3. **Defensive Null-Coalescing on ORM & JSON Fields:** Database columns (JSON, arrays, text) can be `None`. Never slice `db_obj.field[:3]` or iterate directly without coalescing: `(db_obj.field or [])[:3]`. Slicing `None` causes a runtime `TypeError` and HTTP 500.
+> 4. **Dictionary Literal Key Collision Vigilance:** Never declare duplicate keys in Python dictionary literals (e.g. canonical faculty mappings). Duplicate keys silently overwrite earlier entries at load time. Consolidate all entries under a single dictionary key.
+> 5. **SQL Projection & Merge Field Parity:** In deduplication and record merging pipelines, every column declared in `SCALAR_FIELDS` MUST be explicitly present in `SELECT_COLS`. Missing columns yield `None` and permanently wipe out donor metrics (e.g. `h_index`, `total_citations`).
+> 6. **Robust Multi-level Path Resolution:** Never hardcode brittle relative directories like `os.path.dirname(os.path.dirname(...))` for root configuration files. Use `Path(__file__).resolve().parents[N]` with fallback to environment variables (`os.getenv`) or central `app.core.config`.
+> 7. **Pydantic v2 List Coercion for LLM Payloads:** When LLMs (e.g. Gemini) output JSON, array fields may be returned as `null`. Pydantic v2 strictly rejects `None` even with `default_factory=list`. Always declare `@field_validator("...", mode="before")` that coerces `None` to `[]` to prevent runtime `ValidationError` on LLM responses.
+> 8. **Memory-Conscious Vector ORM Queries:** Never perform unconstrained `db.query(Model).all()` over tables with high-dimensional vector embeddings (768-dim float arrays across thousands of rows). Always use `options(defer(Model.embedding)).yield_per(500)` when iterating or scanning records to prevent multi-gigabyte heap ballooning.
+> 9. **Bilingual Academic Title Normalization:** Academic title normalizers and strippers MUST include both Thai and English prefixes (`Prof. Dr.`, `Assoc. Prof. Dr.`, `Asst. Prof. Dr.`, `Dr.`, `Prof.`, etc.). Crawlers defaulting missing titles to `"อ."` will otherwise produce corrupted names like `"อ. Dr. ..."` and corrupt downstream deduplication and fuzzy matching.
+> 10. **Pytest-Safe Stdout Reconfiguration:** Never overwrite `sys.stdout` with raw `io.TextIOWrapper(sys.stdout.buffer, ...)` at module level, as it detaches pytest capture buffers and causes `ValueError: I/O operation on closed file`. Always use `if hasattr(sys.stdout, "reconfigure"): sys.stdout.reconfigure(encoding="utf-8")`.
+

@@ -3,7 +3,7 @@ Course & Curriculum Models for SKILL.state Extraction Pipeline
 Based on arXiv:2608.26263v2 & Tier-3 TCAS/TQF-2 Standardization
 """
 from typing import List, Optional, Dict, Any
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 class RawCourseProfile(BaseModel):
@@ -28,6 +28,11 @@ class RawCourseProfile(BaseModel):
     tags: List[str] = Field(default_factory=list, description="Subject taxonomy tags e.g. AI, CyberSecurity, IoT")
     website_url: Optional[str] = Field(None, description="Official curriculum URL")
 
+    @field_validator("curriculum_highlights", "career_paths", "tags", mode="before")
+    @classmethod
+    def _coerce_course_lists(cls, v):
+        return v if v is not None else []
+
 
 class CourseStatePatch(BaseModel):
     """
@@ -38,6 +43,11 @@ class CourseStatePatch(BaseModel):
     new_courses: List[RawCourseProfile] = Field(default_factory=list, description="Extracted course programs")
     unreachable_or_empty_pages: List[str] = Field(default_factory=list, description="Failed URLs")
     summary_of_changes: str = Field("", description="Summary of extracted programs")
+
+    @field_validator("discovered_urls", "new_courses", "unreachable_or_empty_pages", mode="before")
+    @classmethod
+    def _coerce_patch_lists(cls, v):
+        return v if v is not None else []
 
 
 class CourseAgentState(BaseModel):
@@ -54,6 +64,11 @@ class CourseAgentState(BaseModel):
     pending_urls: List[str] = Field(default_factory=list)
     visited_urls: List[str] = Field(default_factory=list)
     failed_urls: List[str] = Field(default_factory=list)
+
+    @field_validator("pending_urls", "visited_urls", "failed_urls", mode="before")
+    @classmethod
+    def _coerce_state_urls(cls, v):
+        return v if v is not None else []
 
     courses: Dict[str, Dict[str, Any]] = Field(default_factory=dict)
     dedup_title_keys: Dict[str, str] = Field(default_factory=dict)

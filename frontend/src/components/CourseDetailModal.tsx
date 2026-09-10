@@ -19,7 +19,7 @@ import {
   BookOpen,
   Globe
 } from "lucide-react";
-import { Course } from "@/types";
+import type { Course } from "@/types";
 
 interface CourseDetailModalProps {
   course: Course | null;

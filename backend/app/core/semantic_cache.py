@@ -4,7 +4,7 @@ Powered by PostgreSQL pgvector (Cosine Similarity >= 0.95)
 """
 import uuid
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Optional, Dict, Any, Tuple
 from sqlalchemy.orm import Session, load_only
 
@@ -76,7 +76,7 @@ class SemanticCacheService:
                 if distance is not None and float(distance) <= self.max_cosine_distance:
                     # Semantic Hit!
                     obj.hit_count = (obj.hit_count or 1) + 1
-                    obj.updated_at = datetime.utcnow()
+                    obj.updated_at = datetime.now(timezone.utc)
                     db.commit()
 
                     payload = obj.cache_payload

@@ -5,6 +5,7 @@ Based on the SKILL.state Architecture & Evaluation: https://arxiv.org/html/2608.
 import os
 import re
 import json
+from pathlib import Path
 from typing import Dict, Any, List, Optional, Tuple
 from rapidfuzz import fuzz, process
 
@@ -15,29 +16,39 @@ from scripts.agentic_pipeline.models import (
     RawFacultyProfile
 )
 
-# Canonical Thai Academic Title Normalization Table
+# Canonical Thai & English Academic Title Normalization Table
 THAI_TITLES_NORMALIZATION = [
-    (re.compile(r"^(ศาสตราจารย์\s*ดร\.|ศ\.\s*ดร\.|ศ\.ดร\.)\s*", re.IGNORECASE), "ศ.ดร."),
-    (re.compile(r"^(รองศาสตราจารย์\s*ดร\.|รศ\.\s*ดร\.|รศ\.ดร\.)\s*", re.IGNORECASE), "รศ.ดร."),
-    (re.compile(r"^(ผู้ช่วยศาสตราจารย์\s*ดร\.|ผศ\.\s*ดร\.|ผศ\.ดร\.)\s*", re.IGNORECASE), "ผศ.ดร."),
-    (re.compile(r"^(ศาสตราจารย์|ศ\.)\s*", re.IGNORECASE), "ศ."),
-    (re.compile(r"^(รองศาสตราจารย์|รศ\.)\s*", re.IGNORECASE), "รศ."),
-    (re.compile(r"^(ผู้ช่วยศาสตราจารย์|ผศ\.)\s*", re.IGNORECASE), "ผศ."),
-    (re.compile(r"^(อาจารย์\s*ดร\.|อ\.\s*ดร\.|อ\.ดร\.)\s*", re.IGNORECASE), "อ.ดร."),
-    (re.compile(r"^(อาจารย์|อ\.)\s*", re.IGNORECASE), "อ."),
-    (re.compile(r"^(ดร\.)\s*", re.IGNORECASE), "ดร."),
+    (re.compile(r"^(ศาสตราจารย์\s*ดร\.|ศ\.\s*ดร\.|ศ\.ดร\.|Prof(?:\.|\b)\s*Dr(?:\.|\b))\s*", re.IGNORECASE), "ศ.ดร."),
+    (re.compile(r"^(รองศาสตราจารย์\s*ดร\.|รศ\.\s*ดร\.|รศ\.ดร\.|Assoc(?:\.|\b)\s*Prof(?:\.|\b)\s*Dr(?:\.|\b)|Associate\s*Professor\s*Dr(?:\.|\b))\s*", re.IGNORECASE), "รศ.ดร."),
+    (re.compile(r"^(ผู้ช่วยศาสตราจารย์\s*ดร\.|ผศ\.\s*ดร\.|ผศ\.ดร\.|Asst(?:\.|\b)\s*Prof(?:\.|\b)\s*Dr(?:\.|\b)|Assistant\s*Professor\s*Dr(?:\.|\b))\s*", re.IGNORECASE), "ผศ.ดร."),
+    (re.compile(r"^(อาจารย์\s*ดร\.|อ\.\s*ดร\.|อ\.ดร\.|Lect(?:\.|\b)\s*Dr(?:\.|\b)|Lecturer\s*Dr(?:\.|\b))\s*", re.IGNORECASE), "อ.ดร."),
+    (re.compile(r"^(ดร\.|Dr(?:\.|\b))\s*", re.IGNORECASE), "ดร."),
+    (re.compile(r"^(ศาสตราจารย์|ศ\.|Prof(?:\.|\b)|Professor\b)\s*", re.IGNORECASE), "ศ."),
+    (re.compile(r"^(รองศาสตราจารย์|รศ\.|Assoc(?:\.|\b)\s*Prof(?:\.|\b)|Associate\s*Professor\b)\s*", re.IGNORECASE), "รศ."),
+    (re.compile(r"^(ผู้ช่วยศาสตราจารย์|ผศ\.|Asst(?:\.|\b)\s*Prof(?:\.|\b)|Assistant\s*Professor\b)\s*", re.IGNORECASE), "ผศ."),
+    (re.compile(r"^(อาจารย์|อ\.|Lect(?:\.|\b)|Lecturer\b)\s*", re.IGNORECASE), "อ."),
 ]
 
-# Strips common academic titles from Thai names for clean fuzzy deduplication
+# Strips common academic titles from Thai & English names for clean fuzzy deduplication
 TITLE_STRIP_REGEX = re.compile(
     r"^(ศาสตราจารย์\s*เกียรติคุณ|ศาสตราจารย์\s*ดร\.|รองศาสตราจารย์\s*ดร\.|ผู้ช่วยศาสตราจารย์\s*ดร\.|"
     r"ศาสตราจารย์|รองศาสตราจารย์|ผู้ช่วยศาสตราจารย์|อาจารย์\s*ดร\.|อาจารย์|ดร\.|"
-    r"ศ\.ดร\.|รศ\.ดร\.|ผศ\.ดร\.|อ\.ดร\.|ศ\.|รศ\.|ผศ\.|อ\.|นพ\.|พญ\.|ทพ\.|ภก\.|ภญ\.|สพ\.ญ\.|สพ\.ญ\.|นาย|นาง|นางสาว)\s*",
+    r"ศ\.ดร\.|รศ\.ดร\.|ผศ\.ดร\.|อ\.ดร\.|ศ\.|รศ\.|ผศ\.|อ\.|นพ\.|พญ\.|ทพ\.|ภก\.|ภญ\.|สพ\.ญ\.|สพ\.ญ\.|นาย|นาง|นางสาว|"
+    r"Prof(?:\.|\b)\s*Dr(?:\.|\b)|Assoc(?:\.|\b)\s*Prof(?:\.|\b)\s*Dr(?:\.|\b)|Asst(?:\.|\b)\s*Prof(?:\.|\b)\s*Dr(?:\.|\b)|Lect(?:\.|\b)\s*Dr(?:\.|\b)|"
+    r"Associate\s*Professor\s*Dr(?:\.|\b)|Assistant\s*Professor\s*Dr(?:\.|\b)|Lecturer\s*Dr(?:\.|\b)|"
+    r"Prof(?:\.|\b)|Assoc(?:\.|\b)\s*Prof(?:\.|\b)|Asst(?:\.|\b)\s*Prof(?:\.|\b)|Lect(?:\.|\b)|Dr(?:\.|\b)|"
+    r"Professor\b|Associate\s*Professor\b|Assistant\s*Professor\b|Lecturer\b)\s*",
     re.IGNORECASE
 )
 
 # Detect and redact Thai phone numbers (PDPA compliance)
 PHONE_REGEX = re.compile(r"(0\d{1,2}[-\s]?\d{3}[-\s]?\d{3,4}|\+66[-\s]?\d{1,2}[-\s]?\d{3}[-\s]?\d{3,4})")
+
+_TITLE_PRECEDENCE = {
+    "ศ.ดร.": 6, "รศ.ดร.": 5, "ผศ.ดร.": 4,
+    "ศ.": 3, "รศ.": 2, "ผศ.": 1,
+    "อ.ดร.": 0, "ดร.": -1, "อ.": -2
+}
 
 
 def normalize_thai_title_and_name(raw_name_th: str, raw_title_th: Optional[str] = None) -> Tuple[str, str, str]:
@@ -46,10 +57,20 @@ def normalize_thai_title_and_name(raw_name_th: str, raw_title_th: Optional[str] 
     Returns: (cleaned_title_th, cleaned_full_name_th, base_name_without_title)
 
     Fixes double-title bugs e.g. "ศ.ดร. ศ.ดร. มานะ" -> "ศ.ดร. มานะ"
+    and English title mismatches e.g. "อ. Dr. Aye Hninn Khine" -> "อ.ดร. Aye Hninn Khine".
     """
     text = re.sub(r"\s+", " ", raw_name_th.strip())
 
-    matched_title = raw_title_th.strip() if raw_title_th else None
+    matched_title = None
+    if raw_title_th:
+        rt = raw_title_th.strip()
+        for pattern, canon_title in THAI_TITLES_NORMALIZATION:
+            m = pattern.match(rt)
+            if m:
+                matched_title = canon_title
+                break
+        if not matched_title:
+            matched_title = rt
 
     # Loop to normalize and remove duplicated leading titles
     detected_title = None
@@ -61,11 +82,26 @@ def normalize_thai_title_and_name(raw_name_th: str, raw_title_th: Optional[str] 
             if m:
                 if not detected_title:
                     detected_title = canon_title
-                text = text[m.end():].strip()
+                elif canon_title == "ดร." and detected_title in ("ศ.", "รศ.", "ผศ.", "อ."):
+                    detected_title = f"{detected_title}ดร."
+                elif detected_title == "อ." and canon_title != "อ.":
+                    detected_title = canon_title
+                text = text[m.end():].lstrip(" .").strip()
                 changed = True
                 break
 
-    final_title = detected_title or matched_title or "อ."
+    # Resolve final title using academic rank precedence
+    if not detected_title and not matched_title:
+        final_title = "อ."
+    elif not detected_title:
+        final_title = matched_title
+    elif not matched_title:
+        final_title = detected_title
+    else:
+        score_d = _TITLE_PRECEDENCE.get(detected_title, -99)
+        score_m = _TITLE_PRECEDENCE.get(matched_title, -99)
+        final_title = matched_title if score_m > score_d else detected_title
+
     base_name = text.strip()
 
     # Re-assemble clean full Thai name
@@ -301,7 +337,10 @@ class FacultyStateReducer:
                 target["education"].append(clean_e)
 
 
-def save_state_checkpoint(state: ExtractionAgentState, output_dir: str = "data/agent_states") -> str:
+DEFAULT_CHECKPOINT_DIR = str(Path(__file__).resolve().parents[2] / "data" / "agent_states")
+
+
+def save_state_checkpoint(state: ExtractionAgentState, output_dir: str = DEFAULT_CHECKPOINT_DIR) -> str:
     """Saves agent state to a JSON checkpoint file."""
     os.makedirs(output_dir, exist_ok=True)
     file_path = os.path.join(output_dir, f"{state.session_id}.json")

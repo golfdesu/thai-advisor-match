@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Course } from "@/types";
+import type { Course } from "@/types";
 import {
   Building2,
   ExternalLink,

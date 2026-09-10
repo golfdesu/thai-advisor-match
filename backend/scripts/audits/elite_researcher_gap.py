@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Elite-researcher coverage audit: which fields lack strong advisors with good research output."""
 import sys, io, json
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 import psycopg2, re
 from collections import defaultdict
 
@@ -12,9 +13,17 @@ cur.execute("""SELECT id, university_th, faculty_th, department_th, research_int
                FROM faculties""")
 rows = cur.fetchall()
 
-# Reuse the 57-field taxonomy from the coverage audit
-sys.path.insert(0, 'scripts/audits')
+# Reuse the 57-field taxonomy from the coverage audit and safe title stripping
+from pathlib import Path
+audit_dir = Path(__file__).resolve().parent
+backend_dir = Path(__file__).resolve().parents[2]
+if str(audit_dir) not in sys.path:
+    sys.path.insert(0, str(audit_dir))
+if str(backend_dir) not in sys.path:
+    sys.path.insert(0, str(backend_dir))
+
 from field_taxonomy import FIELDS, compiled  # noqa
+from app.models.schema import _strip_leading_title_tokens
 
 def score(h, cit, pub):
     """Research strength score (lightweight proxy for 'เก่ง')."""
@@ -43,17 +52,10 @@ for fid, uni, fac, dep, ri, h, cit, pub in rows:
 
 # need names for top lists — full_name_th often embeds the rank; strip it, then
 # re-prefix the canonical academic_title_th (mirrors schema.py _clean_display_name)
-import re as _re
-_RANK_LEAD = _re.compile(r"^((รอง|ผู้ช่วย)?ศาสตราจารย์|อาจารย์พิเศษ|อาจารย์|ดร\.?|(ศ|รศ|ผศ|อ|ศ\.)\.?)(?:\s*\.)?[\s.]*")
 name_map = {}
 cur.execute("SELECT id, full_name_th, academic_title_th FROM faculties")
 for i, n, t in cur.fetchall():
-    bare = (n or "").strip()
-    for _ in range(3):
-        stripped = _RANK_LEAD.sub("", bare).strip()
-        if stripped == bare:
-            break
-        bare = stripped
+    bare = _strip_leading_title_tokens(n or "", max_strips=3)
     name_map[i] = f"{t or ''} {bare}".strip()
 
 print(f"{'สาขา':<38}{'คน':>6}{'มีh':>6}{'h>=20':>7}{'h>=40':>7}{'top h':>7}")

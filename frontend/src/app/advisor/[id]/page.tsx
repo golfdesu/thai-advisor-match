@@ -54,7 +54,9 @@ export default function AdvisorProfilePage() {
   const [imgError, setImgError] = useState(false);
 
   useEffect(() => {
-    if (id) setIsSaved(hasSavedId("thai_educenter_saved_advisors", id));
+    if (!id) return;
+    const saved = hasSavedId("thai_educenter_saved_advisors", id);
+    queueMicrotask(() => setIsSaved(saved));
   }, [id]);
 
   useEffect(() => {

@@ -1,6 +1,6 @@
 from typing import List, Optional
 import re
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, Field, model_validator, field_validator
 
 # ---------------------------------------------------------------------------
 # Academic-title normalization (display-layer guard)
@@ -12,15 +12,17 @@ from pydantic import BaseModel, Field, model_validator
 # API consumer (cards, detail pages, cold emails) gets a clean display name.
 _TITLE_CANON_PATTERNS = [
     # canonical form -> regex variants (longest / most-specific first)
-    ("ศ.ดร.", [r"ศาสตราจารย์\s*ดร\.?", r"ศ\.\s*ดร\.?", r"Prof\.?\s*Dr\.?"]),
-    ("รศ.ดร.", [r"รอง\s*ศาสตราจารย์\s*ดร\.?", r"รศ\.\s*ดร\.?", r"Assoc\.?\s*Prof\.?\s*Dr\.?"]),
-    ("ผศ.ดร.", [r"ผู้ช่วย\s*ศาสตราจารย์\s*ดร\.?", r"ผศ\.\s*ดร\.?", r"Asst\.?\s*Prof\.?\s*Dr\.?"]),
-    ("อ.ดร.", [r"อาจารย์\s*ดร\.?", r"อ\.\s*ดร\.?"]),
-    ("ดร.", [r"ดร\.?", r"Dr\.?"]),
-    ("ศ.", [r"ศาสตราจารย์", r"ศ\."]),
-    ("รศ.", [r"รอง\s*ศาสตราจารย์", r"รศ\."]),
-    ("ผศ.", [r"ผู้ช่วย\s*ศาสตราจารย์", r"ผศ\."]),
-    ("อ.", [r"อาจารย์", r"อ\."]),
+    # Explicit boundary check: Require dot or whitespace so Thai names starting
+    # with "ดร" (e.g. ดรุณี, ดรัลพร) are never stripped.
+    ("ศ.ดร.", [r"ศาสตราจารย์\s*ดร(\.|\s+|$)", r"ศ\.\s*ดร(\.|\s+|$)", r"Prof(?:\.|\b)\s*Dr(?:\.|\b)"]),
+    ("รศ.ดร.", [r"รอง\s*ศาสตราจารย์\s*ดร(\.|\s+|$)", r"รศ\.\s*ดร(\.|\s+|$)", r"Assoc(?:\.|\b)\s*Prof(?:\.|\b)\s*Dr(?:\.|\b)"]),
+    ("ผศ.ดร.", [r"ผู้ช่วย\s*ศาสตราจารย์\s*ดร(\.|\s+|$)", r"ผศ\.\s*ดร(\.|\s+|$)", r"Asst(?:\.|\b)\s*Prof(?:\.|\b)\s*Dr(?:\.|\b)"]),
+    ("อ.ดร.", [r"อาจารย์\s*ดร(\.|\s+|$)", r"อ\.\s*ดร(\.|\s+|$)", r"Lect(?:\.|\b)\s*Dr(?:\.|\b)"]),
+    ("ดร.", [r"ดร\.", r"ดร\s+", r"Dr(?:\.|\b)"]),
+    ("ศ.", [r"ศาสตราจารย์(\s+|$)", r"ศ\."]),
+    ("รศ.", [r"รอง\s*ศาสตราจารย์(\s+|$)", r"รศ\."]),
+    ("ผศ.", [r"ผู้ช่วย\s*ศาสตราจารย์(\s+|$)", r"ผศ\."]),
+    ("อ.", [r"อาจารย์(\s+|$)", r"อ\."]),
 ]
 _COMPILED_TITLES = [
     (canon, re.compile(p)) for canon, pats in _TITLE_CANON_PATTERNS for p in pats
@@ -137,6 +139,11 @@ class FacultyMember(BaseModel):
     scholar_url: Optional[str] = None
     embedding_text: Optional[str] = None
 
+    @field_validator("education", "research_interests", "taught_courses", "featured_publications", mode="before")
+    @classmethod
+    def _coerce_none_to_list(cls, v):
+        return v if v is not None else []
+
     @model_validator(mode="after")
     def _dedupe_title_in_name(self) -> "FacultyMember":
         cleaned = _clean_display_name(self.academic_title_th, self.full_name_th)
@@ -176,6 +183,11 @@ class FacultyCardSchema(BaseModel):
     total_publications_count: Optional[int] = Field(0)
     first_author_count: Optional[int] = Field(0)
     co_author_count: Optional[int] = Field(0)
+
+    @field_validator("research_interests", mode="before")
+    @classmethod
+    def _coerce_interests(cls, v):
+        return v if v is not None else []
 
     @model_validator(mode="after")
     def _dedupe_title_in_name(self) -> "FacultyCardSchema":
@@ -248,6 +260,11 @@ class CourseSchema(BaseModel):
     website_url: Optional[str] = None
     match_score: Optional[float] = 95.0
 
+    @field_validator("curriculum_highlights", "career_paths", "tags", mode="before")
+    @classmethod
+    def _coerce_course_lists(cls, v):
+        return v if v is not None else []
+
 
 class CourseCardSchema(BaseModel):
     """
@@ -277,6 +294,11 @@ class CourseCardSchema(BaseModel):
     career_paths: List[str] = Field(default_factory=list, description="Trimmed to top 4")
     website_url: Optional[str] = None
     match_score: Optional[float] = 95.0
+
+    @field_validator("curriculum_highlights", "career_paths", mode="before")
+    @classmethod
+    def _coerce_course_card_lists(cls, v):
+        return v if v is not None else []
 
 
 class CourseSearchRequest(BaseModel):
@@ -320,6 +342,20 @@ class ResearchLab(BaseModel):
     match_score: Optional[float] = 95.0
     ai_explanation: Optional[str] = None
     synergy_badges: List[str] = Field(default_factory=list)
+
+    @field_validator(
+        "member_faculty_ids",
+        "member_faculties",
+        "research_domains",
+        "flagship_equipment",
+        "industry_partners",
+        "open_positions",
+        "synergy_badges",
+        mode="before"
+    )
+    @classmethod
+    def _coerce_lab_lists(cls, v):
+        return v if v is not None else []
 
 
 class LabSearchRequest(BaseModel):

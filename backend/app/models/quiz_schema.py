@@ -31,6 +31,11 @@ class CareerRecommendation(BaseModel):
     skills: List[str] = Field(default_factory=list)
     growth_outlook: str = "เติบโตสูง"
 
+    @field_validator("skills", mode="before")
+    @classmethod
+    def _coerce_skills(cls, v):
+        return v if v is not None else []
+
     @field_validator("match_percentage", mode="before")
     @classmethod
     def parse_match_percentage(cls, v: Any) -> int:
@@ -71,3 +76,8 @@ class CareerProfileResponse(BaseModel):
     share_quote: str
     top_careers: List[CareerRecommendation] = Field(default_factory=list)
     recommended_courses: List[CourseSchema] = Field(default_factory=list)
+
+    @field_validator("strengths", "lifestyle_highlights", "top_careers", "recommended_courses", mode="before")
+    @classmethod
+    def _coerce_profile_lists(cls, v):
+        return v if v is not None else []

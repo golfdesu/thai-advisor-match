@@ -3,10 +3,11 @@ import time
 from pathlib import Path
 
 # Add backend directory to Python path
-sys.path.append(str(Path(__file__).resolve().parent.parent))
+sys.path.append(str(Path(__file__).resolve().parents[2]))
 
 from app.core.database import SessionLocal
 from app.models.db_models import FacultyDB
+from sqlalchemy.orm import defer
 from scholarly import scholarly
 import logging
 
@@ -37,8 +38,10 @@ ENGLISH_NAMES = {
 
 def fix_english_names():
     with SessionLocal() as db:
-        faculties = db.query(FacultyDB).all()
+        faculties = db.query(FacultyDB).options(defer(FacultyDB.embedding)).yield_per(500)
         for faculty in faculties:
+            if not faculty.full_name_th:
+                continue
             for th_first, (en_first, en_last) in ENGLISH_NAMES.items():
                 if th_first in faculty.full_name_th:
                     faculty.first_name = en_first

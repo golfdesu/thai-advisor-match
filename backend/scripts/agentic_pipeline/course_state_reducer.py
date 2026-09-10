@@ -6,6 +6,7 @@ Based on SKILL.state (arXiv:2608.26263v2).
 import os
 import re
 import json
+from pathlib import Path
 from typing import Dict, Any, List, Optional, Tuple
 from rapidfuzz import fuzz
 
@@ -138,13 +139,16 @@ class CourseStateReducer:
                 existing["tuition_total"] = tuition_tot
             if not existing.get("description") and raw.description:
                 existing["description"] = raw.description
-            for cp in raw.career_paths:
+            existing.setdefault("career_paths", [])
+            for cp in (raw.career_paths or []):
                 if cp not in existing["career_paths"]:
                     existing["career_paths"].append(cp)
-            for ch in raw.curriculum_highlights:
+            existing.setdefault("curriculum_highlights", [])
+            for ch in (raw.curriculum_highlights or []):
                 if ch not in existing["curriculum_highlights"]:
                     existing["curriculum_highlights"].append(ch)
-            for t in raw.tags:
+            existing.setdefault("tags", [])
+            for t in (raw.tags or []):
                 if t not in existing["tags"]:
                     existing["tags"].append(t)
         else:
@@ -174,14 +178,17 @@ class CourseStateReducer:
                 "tuition_per_semester": tuition_sem or "",
                 "tuition_total": tuition_tot or "",
                 "description": raw.description or "",
-                "curriculum_highlights": raw.curriculum_highlights,
-                "career_paths": raw.career_paths,
-                "tags": raw.tags,
+                "curriculum_highlights": list(raw.curriculum_highlights or []),
+                "career_paths": list(raw.career_paths or []),
+                "tags": list(raw.tags or []),
                 "website_url": raw.website_url or ""
             }
 
 
-def save_course_state_checkpoint(state: CourseAgentState, output_dir: str = "data/agent_states") -> str:
+DEFAULT_CHECKPOINT_DIR = str(Path(__file__).resolve().parents[2] / "data" / "agent_states")
+
+
+def save_course_state_checkpoint(state: CourseAgentState, output_dir: str = DEFAULT_CHECKPOINT_DIR) -> str:
     """Saves serialized course state to checkpoint disk file."""
     os.makedirs(output_dir, exist_ok=True)
     filepath = os.path.join(output_dir, f"course_{state.session_id}.json")

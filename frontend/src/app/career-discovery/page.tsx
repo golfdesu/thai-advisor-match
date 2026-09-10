@@ -31,7 +31,7 @@ import {
 } from "lucide-react";
 import riasecQuestions from "@/data/riasec_questions.json";
 import lifestyleQuestions from "@/data/lifestyle_questions.json";
-import { RiasecScore, CareerProfileResponse as QuizResultData } from "@/types";
+import type { RiasecScore, CareerProfileResponse as QuizResultData } from "@/types";
 import { API_BASE_URL } from "@/lib/config";
 
 type QuestionOption = {
@@ -360,8 +360,10 @@ export default function CareerDiscoveryPage() {
 
   const copyShareResult = () => {
     if (!result) return;
-    const text = `ผลวิเคราะห์ความถนัดทางการศึกษาและอาชีพ โดย AI Thai EduCenter:\n- บุคลิกภาพเด่น: ${result.archetype_title} (Holland Code: ${result.archetype_code})\n- คำนิยาม: "${result.share_quote}"\n\nเข้าทำแบบประเมินและค้นหาหลักสูตรมหาวิทยาลัยได้ที่: ${window.location.href}`;
-    navigator.clipboard.writeText(text);
+    const text = `ผลวิเคราะห์ความถนัดทางการศึกษาและอาชีพ โดย AI Thai EduCenter:\n- บุคลิกภาพเด่น: ${result.archetype_title} (Holland Code: ${result.archetype_code})\n- คำนิยาม: "${result.share_quote}"\n\nเข้าทำแบบประเมินและค้นหาหลักสูตรมหาวิทยาลัยได้ที่: ${typeof window !== "undefined" ? window.location.href : ""}`;
+    if (typeof navigator !== "undefined" && navigator.clipboard?.writeText) {
+      navigator.clipboard.writeText(text);
+    }
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
   };
@@ -772,7 +774,7 @@ export default function CareerDiscoveryPage() {
 
                   <div className="text-xs sm:text-sm font-black text-[var(--theme-text-title)] mb-2.5">ทักษะและจุดเด่นหลัก:</div>
                   <div className="flex flex-wrap gap-2 mb-6">
-                    {result.strengths.map((str, idx) => (
+                    {(result.strengths || []).map((str, idx) => (
                       <span
                         key={idx}
                         className="bg-[var(--theme-primary-subtle)] border border-[var(--theme-primary-border)] text-[var(--theme-primary)] text-xs sm:text-sm px-3.5 py-1.5 rounded-xl font-black shadow-2xs"
@@ -860,7 +862,7 @@ export default function CareerDiscoveryPage() {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                {result.top_careers.map((career, idx) => (
+                {(result.top_careers || []).map((career, idx) => (
                   <div
                     key={idx}
                     className="bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] p-5.5 rounded-2xl flex flex-col justify-between hover:border-[var(--theme-primary)] hover:bg-[var(--theme-card)] transition-all duration-300 shadow-2xs"
@@ -879,7 +881,7 @@ export default function CareerDiscoveryPage() {
                     </div>
 
                     <div className="flex flex-wrap gap-1.5 pt-3.5 border-t border-[var(--theme-border)]">
-                      {career.skills.map((skill, sIdx) => (
+                      {(career.skills || []).map((skill, sIdx) => (
                         <span key={sIdx} className="text-xs bg-[var(--theme-card)] text-[var(--theme-text-body)] px-2.5 py-1 rounded-lg border border-[var(--theme-border)] font-bold">
                           {skill}
                         </span>

@@ -32,7 +32,8 @@ import os
 import json
 import argparse
 
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 import psycopg2
 import psycopg2.extras
@@ -107,7 +108,8 @@ SELECT_COLS = """
         academic_title_th, first_name, last_name, role,
         department, department_th, faculty, faculty_th,
         research_interests, featured_publications, education, taught_courses,
-        embedding_text, university, embedding IS NOT NULL AS has_emb,
+        embedding_text, university, h_index, total_citations,
+        embedding IS NOT NULL AS has_emb,
         (coalesce(research_interests::text,'') <> '[]' AND research_interests::text IS NOT NULL)
           OR (coalesce(featured_publications::text,'') <> '[]' AND featured_publications::text IS NOT NULL)
           OR coalesce(email,'') <> '' OR coalesce(image_url,'') <> ''

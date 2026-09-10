@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { ResearchLab, LabInquiryResponse } from "@/types";
+import type { ResearchLab, LabInquiryResponse } from "@/types";
 import { API_BASE_URL } from "@/lib/config";
 import { Building2, X, Loader2, Copy, Check, Send, Sparkles } from "lucide-react";
 

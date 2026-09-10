@@ -17,7 +17,7 @@ import {
   X,
   Building2
 } from "lucide-react";
-import { FacultyMember, SearchMatchResult, Course, ResearchLab } from "@/types";
+import type { FacultyMember, SearchMatchResult, Course, ResearchLab } from "@/types";
 import { API_BASE_URL } from "@/lib/config";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -128,8 +128,12 @@ export default function Home() {
 
   // Hydrate bookmarks from localStorage after mount (never during render).
   useEffect(() => {
-    setSavedCourses(readSavedIds("thai_educenter_saved_courses"));
-    setSavedAdvisors(readSavedIds("thai_educenter_saved_advisors"));
+    const courses = readSavedIds("thai_educenter_saved_courses");
+    const advisors = readSavedIds("thai_educenter_saved_advisors");
+    queueMicrotask(() => {
+      setSavedCourses(courses);
+      setSavedAdvisors(advisors);
+    });
   }, []);
 
   // Keyboard shortcut listener (Press '/' to focus search, 'Escape' to blur)

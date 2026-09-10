@@ -300,7 +300,7 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
                     pydantic_lab = db_lab_to_pydantic(lab, match_score=score, fac_map=fac_map)
 
                     # Generate smart contextual explanation
-                    domains_str = ", ".join(pydantic_lab.research_domains[:3])
+                    domains_str = ", ".join((pydantic_lab.research_domains or [])[:3]) or "การวิจัยขั้นสูง"
                     pydantic_lab.ai_explanation = f"ห้องปฏิบัติการนี้มุ่งเน้นงานวิจัยด้าน {domains_str} ซึ่งสอดคล้องกับแนวคิดวิจัย '{query_text[:50]}' พร้อมเครื่องมือวิจัยและทุนสนับสนุน"
                     results.append(pydantic_lab)
 
@@ -337,13 +337,17 @@ def generate_lab_inquiry(req: LabInquiryRequest, db: Session = Depends(get_db)):
     background = sanitize_for_prompt(req.student_background)
     proposal = sanitize_for_prompt(req.research_proposal)
 
+    domains_list = [d for d in (db_lab.research_domains or []) if d][:3]
+    domains_th = ", ".join(domains_list) if domains_list else "การวิจัยและพัฒนานวัตกรรม"
+    domains_en = ", ".join(domains_list) if domains_list else "advanced research and development"
+
     if req.language == "th":
         subject = f"ขอแสดงความจำนงสมัครเข้าร่วมวิจัยในห้องปฏิบัติการ {db_lab.name_th} ({req.intended_degree}) - {student_name}"
         body = f"""เรียน {lead_name} และคณาจารย์ประจำห้องปฏิบัติการ {db_lab.name_th}
 
 กระผม/ดิฉัน {student_name} มีความประสงค์จะสมัครเข้าศึกษาต่อในระดับ {req.intended_degree} ณ {db_lab.university_th} และมีความสนใจอย่างยิ่งที่จะขอเข้าร่วมทำวิจัยในห้องปฏิบัติการ {db_lab.name_th} ({db_lab.name_en}) ภายใต้การดูแลของท่าน
 
-จากการติดตามผลงานวิจัยของห้องปฏิบัติการ โดยเฉพาะในด้าน {", ".join(db_lab.research_domains[:3])} กระผม/ดิฉันเล็งเห็นว่าทิศทางวิจัยของห้องปฏิบัติการมีความล้ำสมัยและตรงกับเป้าหมายทางวิชาการของกระผม/ดิฉันอย่างยิ่ง
+จากการติดตามผลงานวิจัยของห้องปฏิบัติการ โดยเฉพาะในด้าน {domains_th} กระผม/ดิฉันเล็งเห็นว่าทิศทางวิจัยของห้องปฏิบัติการมีความล้ำสมัยและตรงกับเป้าหมายทางวิชาการของกระผม/ดิฉันอย่างยิ่ง
 
 ประวัติและพื้นฐานการศึกษาโดยย่อ:
 {background}
@@ -368,9 +372,9 @@ def generate_lab_inquiry(req: LabInquiryRequest, db: Session = Depends(get_db)):
         subject = f"Prospective Research Inquiries & RA Application: {db_lab.name_en} ({req.intended_degree}) - {student_name}"
         body = f"""Dear Director & Research Team of {db_lab.name_en},
 
-My name is {student_name}, and I am writing to express my strong interest in joining the {db_lab.name_en} at {db_lab.university} as a prospective {req.intended_degree} student and Research Assistant.
+My name is {student_name}, and I am writing to express my strong interest in joining the {db_lab.name_en} at {db_lab.university or db_lab.university_th or ""} as a prospective {req.intended_degree} student and Research Assistant.
 
-I have been closely following your groundbreaking research in {", ".join(db_lab.research_domains[:3])}. My academic background and research vision align closely with the ongoing projects in your laboratory.
+I have been closely following your groundbreaking research in {domains_en}. My academic background and research vision align closely with the ongoing projects in your laboratory.
 
 Academic Background:
 {background}

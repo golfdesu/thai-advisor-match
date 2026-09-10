@@ -325,7 +325,8 @@ def generate_cold_email(req: ColdEmailRequest, db: Session = Depends(get_db)):
     target_faculty = db_to_pydantic(db_faculty)
 
     # 1. Check pgvector Semantic Cache (0 Tokens, ~2ms Latency)
-    cache_query = f"{req.faculty_id}|{req.intended_degree}|{req.research_topic}|{req.student_background or ''}"
+    # Include student_name and language in cache key to prevent cross-student or cross-language leaks
+    cache_query = f"{req.faculty_id}|{req.language}|{req.intended_degree}|{req.student_name}|{req.research_topic}|{req.student_background or ''}"
     cached_payload, is_hit = semantic_cache_service.get(db, cache_type="cold_email", query_text=cache_query)
     if is_hit and cached_payload:
         return ColdEmailResponse(

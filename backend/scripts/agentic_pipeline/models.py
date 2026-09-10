@@ -26,12 +26,22 @@ class RawFacultyProfile(BaseModel):
     featured_publications: List[str] = Field(default_factory=list, description="Notable papers/publications")
     scholar_url: Optional[str] = Field(None, description="Google Scholar URL if present")
 
+    @field_validator("education", "research_interests", "featured_publications", mode="before")
+    @classmethod
+    def _coerce_lists(cls, v):
+        return v if v is not None else []
+
 
 class ProfileFieldUpdate(BaseModel):
     scholar_url: Optional[str] = None
     featured_publications: List[str] = Field(default_factory=list)
     research_interests: List[str] = Field(default_factory=list)
     email: Optional[str] = None
+
+    @field_validator("featured_publications", "research_interests", mode="before")
+    @classmethod
+    def _coerce_lists(cls, v):
+        return v if v is not None else []
 
 
 class FacultyStatePatch(BaseModel):
@@ -64,6 +74,11 @@ class FacultyStatePatch(BaseModel):
         description="Concise one-line summary of what was extracted in this step"
     )
 
+    @field_validator("discovered_urls", "new_profiles", "updated_profile_fields", "unreachable_or_empty_pages", mode="before")
+    @classmethod
+    def _coerce_patch_lists(cls, v):
+        return v if v is not None else []
+
 
 class ExtractionAgentState(BaseModel):
     """
@@ -79,6 +94,11 @@ class ExtractionAgentState(BaseModel):
     pending_urls: List[str] = Field(default_factory=list, description="FIFO queue of URLs to crawl")
     visited_urls: List[str] = Field(default_factory=list, description="Set/List of already processed URLs")
     failed_urls: List[str] = Field(default_factory=list, description="URLs that errored out")
+
+    @field_validator("pending_urls", "visited_urls", "failed_urls", mode="before")
+    @classmethod
+    def _coerce_state_lists(cls, v):
+        return v if v is not None else []
 
     # Primary extracted dictionary keyed by normalized Faculty ID
     faculties: Dict[str, Dict[str, Any]] = Field(

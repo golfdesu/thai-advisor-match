@@ -202,9 +202,18 @@ def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
             # Slim-select IDs by vector rank first, then fetch slim columns.
             # (load_only + ORDER BY vector expression forces Postgres to ship
             #  the 768-dim vector per row; two-step avoids that egress.)
+            vector_query = db.query(CourseDB.id).filter(CourseDB.embedding.isnot(None))
+            if request.university and request.university.strip() and request.university.strip().lower() != "all":
+                u_clean = request.university.strip()
+                vector_query = vector_query.filter(CourseDB.university.ilike(f"%{u_clean}%") | CourseDB.university_th.ilike(f"%{u_clean}%"))
+            if request.faculty and request.faculty.strip() and request.faculty.strip().lower() != "all":
+                f_clean = request.faculty.strip()
+                vector_query = vector_query.filter(CourseDB.faculty.ilike(f"%{f_clean}%") | CourseDB.faculty_th.ilike(f"%{f_clean}%"))
+            if degree_filter is not None:
+                vector_query = vector_query.filter(degree_filter)
+
             id_rows = (
-                db.query(CourseDB.id)
-                .filter(CourseDB.embedding.isnot(None))
+                vector_query
                 .order_by(CourseDB.embedding.cosine_distance(query_vector))
                 .limit(request.top_k)
                 .all()

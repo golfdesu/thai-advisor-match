@@ -55,6 +55,10 @@ MANIFEST
 *.sqlite
 *.sqlite3
 
+# Testing & Cache
+.pytest_cache/
+backend/.pytest_cache/
+
 # Temporary Crawling Snippets & Scraping Dumps
 data/*snippets*
 data/*_raw.json
