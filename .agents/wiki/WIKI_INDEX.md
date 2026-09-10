@@ -21,3 +21,6 @@ Master index of compiled agent experience, verified university directory pattern
 
 ## 📜 Evolution Log (`wiki/evolution_log.md`)
 - [Evolution History](evolution_log.md) — Audit trail of compiled traces and proposed/accepted skill patches.
+
+## 🔎 Data Provenance
+- [Faculty Data Provenance — Waves 1–3](data_provenance.md) — Exact source URLs, discovery methods (SERPAPI/DNS probe/CDP capture/WP REST), extraction pipeline, data-quality fixes, and confirmed dead ends for the 855-record sparse-faculty acquisition (2026-09-10).

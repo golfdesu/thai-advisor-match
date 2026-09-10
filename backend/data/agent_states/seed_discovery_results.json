@@ -1,0 +1,525 @@
+{
+  "cu_commarts": {
+    "univ_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "univ_en": "Chulalongkorn University",
+    "faculty_th": "คณะวารสารศาสตร์และสื่อสารมวลชน",
+    "faculty_en": "Faculty of Communication Arts",
+    "candidates": [
+      {
+        "link": "https://www.commarts.chula.ac.th/th/department-jr/",
+        "title": "ภาควิชาวารสารสนเทศ"
+      },
+      {
+        "link": "https://www.facebook.com/commartschulaofficial/posts/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A7%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%A1%E0%B8%A7%E0%B8%A5%E0%B8%8A%E0%B8%99-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2%E0%B8%A5%E0%B8%87/1570673521732097/",
+        "title": "คณะวารสารศาสตร์และสื่อสารมวลชน มหาวิทยาลัยธรรมศาสตร์ ร่วม ..."
+      },
+      {
+        "link": "https://jc.tu.ac.th/th/personnel/faculty",
+        "title": "คณาจารย์ | คณะวารสารศาสตร์และสื่อสารมวลชน มหาวิทยาลัย ..."
+      },
+      {
+        "link": "https://www.instagram.com/p/DWnFYbHk74Q/",
+        "title": "คณะวารสารศาสตร์และสื่อสารมวลชน มหาวิทยาลัยธรรมศาสตร์ ร่วม ..."
+      },
+      {
+        "link": "https://th.wikipedia.org/wiki/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%84%E0%B8%A5%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2",
+        "title": "รายชื่อบุคคลจากจุฬาลงกรณ์มหาวิทยาลัย"
+      },
+      {
+        "link": "https://so06.tci-thaijo.org/index.php/jcmag/about/editorialTeam",
+        "title": "กองบรรณาธิการ | วารสารศาสตร์"
+      },
+      {
+        "link": "https://www.facebook.com/curadio/videos/zoom%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD-ep9-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%AD%E0%B8%B2%E0%B8%8A%E0%B8%8D%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%99%E0%B9%8C%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1-%E0%B8%84%E0%B8%A7%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%84%E0%B8%A3/561586625288758/",
+        "title": "รศ.มาลี บุญศิริพันธ์ อดีตคณบดีคณะวารสารศาสตร์ และสื่อสารมวลชน ..."
+      },
+      {
+        "link": "https://www.nitadecualumni.com/lecturer.php",
+        "title": "คณาจารย์ - ฐานข้อมูลนิเทศศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย"
+      },
+      {
+        "link": "https://libresources.stou.ac.th/12db/display.asp?pg=3&Library=L0001&School=S0002&Group=G02009",
+        "title": "รายชื่อทรัพยากรสารสนเทศห้องสมุดตามสาขาวิชา"
+      }
+    ]
+  },
+  "cu_finearts": {
+    "univ_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "univ_en": "Chulalongkorn University",
+    "faculty_th": "คณะศิลปกรรมศาสตร์",
+    "faculty_en": "Faculty of Fine and Applied Arts",
+    "candidates": [
+      {
+        "link": "https://www.arts.chula.ac.th/03services/academic_services3.html",
+        "title": "คณาจารย์ที่ได้รับเชิญเป็นกรรมการวิชาการ/ วิชาชีพ"
+      },
+      {
+        "link": "https://www.facebook.com/FineAppliedArtsCHULA/posts/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%82%E0%B8%AD%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B9%81%E0%B8%94%E0%B9%88-%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%94%E0%B8%A3%E0%B8%A2%E0%B8%A8-%E0%B8%A7%E0%B8%93%E0%B8%B5%E0%B8%AA%E0%B8%AD%E0%B8%99-%E0%B8%AD%E0%B8%B2/1319773323521836/",
+        "title": "คณะศิลปกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัยขอแสดงความยินดี ..."
+      },
+      {
+        "link": "http://www.tmcru.research.chula.ac.th/Site_2/Executives.html",
+        "title": "Executives"
+      },
+      {
+        "link": "https://www.faa.chula.ac.th/News/show/555",
+        "title": "คณะศิลปกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย ยินดีต้อนรับอาจารย์ใหม่"
+      },
+      {
+        "link": "https://www.facebook.com/creativearts.chulalongkorn/posts/1462434682551161/",
+        "title": "ภาควิชานฤมิตศิลป์ คณะศิลปกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย"
+      },
+      {
+        "link": "https://www.facebook.com/ApeepatworksofArt/videos/%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%93%E0%B9%8C%E0%B8%99%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B8%87%E0%B8%A3%E0%B8%A1%E0%B8%93-%E0%B8%A7%E0%B8%B4%E0%B9%84%E0%B8%A5%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%81%E0%B8%B8%E0%B8%A5-%E0%B8%99%E0%B8%B4%E0%B8%AA%E0%B8%B4%E0%B8%95%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%97%E0%B8%B1%E0%B8%A8%E0%B8%99%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B9%8C-%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B8%A3/950630967970371/",
+        "title": "สัมภาษณ์นางสาวนงรมณ วิไลรักษกุล นิสิตภาควิชาทัศนศิลป์ คณะ ..."
+      },
+      {
+        "link": "https://www.faa.chula.ac.th/News/show/593",
+        "title": "คณะศิลปกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย ยินดีต้อนรับอาจารย์ใหม่"
+      },
+      {
+        "link": "https://www.facebook.com/powerx.suksiri/posts/-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%9E%E0%B8%B2%E0%B8%81%E0%B8%A9%E0%B9%8C%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B8%9A%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%B4%E0%B8%95-%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A3%E0%B8%A3%E0%B8%84%E0%B9%8C-%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%9B%E0%B8%A3/2249865739171287/",
+        "title": "✍🏻 การวิพากษ์หลักสูตรศิลปกรรมศาสตรบัณฑิต สาขาวิชาศิลปะ ..."
+      },
+      {
+        "link": "https://thesis.swu.ac.th/swuthesis/Ed_Tech/Sanita_D.pdf",
+        "title": "การพัฒนาบทเรียนคอมพิวเตอร เรื่อง การออกแบบเว็บไซต"
+      },
+      {
+        "link": "https://cur-das.wu.ac.th/backEnd/myfile/attDetailCourse/41-%E0%B8%95%E0%B8%A3%E0%B8%B5-%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B4%E0%B8%A9%E0%B8%90%E0%B9%8C64%20(24-7-64).pdf",
+        "title": "รายละเอียดของหลักสูตรระดับปริญญาตรี หลักสู"
+      },
+      {
+        "link": "https://dict.longdo.com/search/*tr*",
+        "title": "คำศัพท์ *tr* แปลว่าอะไร - Longdo Dict"
+      },
+      {
+        "link": "https://www.lemon8-app.com/@ploysuai_ptnbqx/7423723368379122192?region=th",
+        "title": "ผังงานมหกรรมหนังสือแห่งชาติ ครั้งที่ 29 (10–20 ต. ค. 67) ..."
+      },
+      {
+        "link": "http://www.thaiall.com/mit/",
+        "title": "สื่อ และ เทคโนโลยีสารสนเทศ"
+      },
+      {
+        "link": "https://www.lemon8-app.com/experience/%E0%B8%A1%E0%B8%98%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%B8%9A?region=th",
+        "title": "แนะนำคณะและประสบการณ์เรียนที่น่าสนใจในมหาวิทยาลัย ..."
+      },
+      {
+        "link": "https://www.lemon8-app.com/discover/%E0%B8%84%E0%B8%A3%E0%B8%B9%E0%B8%94%E0%B8%B4%E0%B8%A7%20toeic%20pantip?region=th",
+        "title": "รีวิวคอร์ส TOEIC ครูดิว (สไตล์ Pantip): เรียนจริงเป็นยังไง + ..."
+      },
+      {
+        "link": "https://www.lemon8-app.com/discover/%E0%B9%80%E0%B8%89%E0%B8%A5%E0%B8%A2edp%20cefr%20a1?region=th",
+        "title": "คำแนะนำและเฉลยคะแนน EDP กับระดับ CEFR A1 สำหรับผู้เรียน ..."
+      },
+      {
+        "link": "https://www.lemon8-app.com/discover/%E0%B8%84%E0%B9%8D%E0%B8%B2%E0%B8%96%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%93%E0%B9%8C%E0%B8%87%E0%B8%B2%E0%B8%99%20%E0%B8%98%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E?region=th",
+        "title": "เตรียมตัวตอบคำถามสัมภาษณ์งาน ธนาคารกรุงเทพ อย่างมั่นใจและ ..."
+      }
+    ]
+  },
+  "cu_vet": {
+    "univ_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "univ_en": "Chulalongkorn University",
+    "faculty_th": "คณะสัตวแพทยศาสตร์",
+    "faculty_en": "Faculty of Veterinary Science",
+    "candidates": [
+      {
+        "link": "https://vet.chula.ac.th/",
+        "title": "คณะสัตวแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย"
+      },
+      {
+        "link": "https://www.facebook.com/vetchulalongkorn/posts/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B8%95%E0%B8%A7%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2-%E0%B8%82%E0%B8%AD%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%93/1431962234958942/",
+        "title": "คณะสัตวแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย ขอแสดงความยินดี ..."
+      },
+      {
+        "link": "https://www.facebook.com/vetchulalongkorn/videos/%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-cuvet/720652525304134/",
+        "title": "แนะนำบุคลากรใหม่ CUVET คณะสัตวแพทยศาสตร์ จุฬาลงกรณ์ ..."
+      },
+      {
+        "link": "https://sites.google.com/view/vet-pharmacology/%E0%B8%9A%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3",
+        "title": "Veterinary Pharmacology - บุคลากร"
+      },
+      {
+        "link": "https://www.instagram.com/p/DVX1Oe0klD6/",
+        "title": "คณาจารย์ บุคลากร นิสิตเก่า และนิสิตปัจจุบัน คณะสัตวแพทยศาสตร์ ..."
+      },
+      {
+        "link": "https://th.wikipedia.org/wiki/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B8%95%E0%B8%A7%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C_%E0%B8%88%E0%B8%B8%E0%B8%AC%E0%B8%B2%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2",
+        "title": "คณะสัตวแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย"
+      },
+      {
+        "link": "https://vet.chula.ac.th/academic_team",
+        "title": "บุคลากรฝ่ายวิชาการ"
+      },
+      {
+        "link": "https://www.vpatthailand.org/committee",
+        "title": "VPAT committee"
+      },
+      {
+        "link": "https://www.instagram.com/reel/DXLS6RYEsah/",
+        "title": "จากนิสิตสัตวแพทย์ สู่ศาสตราจารย์ และก้าวสู่การเป็น “อดีตคณบดี” คณะ ..."
+      }
+    ]
+  },
+  "mu_pt": {
+    "univ_th": "มหาวิทยาลัยมหิดล",
+    "univ_en": "Mahidol University",
+    "faculty_th": "คณะกายภาพบำบัด",
+    "faculty_en": "Faculty of Physical Therapy",
+    "candidates": [
+      {
+        "link": "https://pt.mahidol.ac.th/thai/staff/staff_lecturer/",
+        "title": "อาจารย์ – Faculty of Physical Therapy, Mahidol University"
+      },
+      {
+        "link": "https://www.facebook.com/ptmahidol/?locale=th_TH",
+        "title": "คณะกายภาพบำบัด มหาวิทยาลัยมหิดล (@ptmahidol)"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=4L5FlaB7CRU",
+        "title": "MU Link : คณะกายภาพบำบัด@มหิดล"
+      },
+      {
+        "link": "https://pt.mahidol.ac.th/thai/",
+        "title": "Faculty of Physical Therapy, Mahidol University"
+      },
+      {
+        "link": "https://th.wikipedia.org/wiki/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9A%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%94_%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%94%E0%B8%A5",
+        "title": "คณะกายภาพบำบัด มหาวิทยาลัยมหิดล"
+      },
+      {
+        "link": "https://www.facebook.com/ptmahidol/videos/%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%B9%E0%B9%88%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99%E0%B8%97%E0%B8%B2%E0%B8%87-phd-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9A%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%94-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%94%E0%B8%A5-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A7%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%97%E0%B8%B5%E0%B9%88/941740255448331/",
+        "title": "ยินดีต้อนรับสู่เส้นทาง PhD ที่คณะกายภาพบำบัด มหาวิทยาลัยมหิดล ..."
+      },
+      {
+        "link": "https://channel.mahidol.ac.th/view/3301/50%20Facts%20%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9A%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%94%20%E0%B8%A1.%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%94%E0%B8%A5",
+        "title": "50 Facts คณะกายภาพบำบัด ม.มหิดล"
+      },
+      {
+        "link": "https://pt.mahidol.ac.th/thai/staff/",
+        "title": "บุคลากร - คณะกายภาพบำบัด มหาวิทยาลัยมหิดล - Mahidol University"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=gjLFwlPNGIM",
+        "title": "Faculty of Physical Therapy, Mahidol University"
+      },
+      {
+        "link": "https://www.facebook.com/ptmahidol/photos/1497137872198478/",
+        "title": "คณะกายภาพบำบัด... - คณะกายภาพบำบัด มหาวิทยาลัยมหิดล"
+      },
+      {
+        "link": "https://pt.hcu.ac.th/?page_id=252",
+        "title": "ผู้บริหารคณะกายภาพบำบัด"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=lrWzc1FtFwM",
+        "title": "พาทัวร์ \"สาขาวิชากายภาพบำบัด\" ม.มหิดล | We Mahidol Campus ..."
+      },
+      {
+        "link": "https://www.facebook.com/ptmahidol/photos/1523043639607901/",
+        "title": "คณะกายภาพบำบัด... - คณะกายภาพบำบัด มหาวิทยาลัยมหิดล"
+      },
+      {
+        "link": "https://www.nstda.or.th/sci2pub/mali-mux/",
+        "title": "ม.มหิดล สร้างสรรค์ \"MALI\" สื่อช่วยสอนกายวิภาคศาสตร์และ ..."
+      },
+      {
+        "link": "https://pt.slc.ac.th/about/lecturer.php",
+        "title": "Lecturer - PHYSICAL THERAPHY - PT-SLC - วิทยาลัยเซนต์หลุยส์"
+      }
+    ]
+  },
+  "mu_vet": {
+    "univ_th": "มหาวิทยาลัยมหิดล",
+    "univ_en": "Mahidol University",
+    "faculty_th": "คณะสัตวแพทยศาสตร์",
+    "faculty_en": "Faculty of Veterinary Science",
+    "candidates": [
+      {
+        "link": "https://channel.mahidol.ac.th/view/173/%E0%B8%AA%E0%B8%B1%E0%B8%95%E0%B8%A7%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B9%80%E0%B8%94%E0%B8%A5%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%AD%E0%B8%A3%E0%B8%B5%E0%B9%88?page=34",
+        "title": "สัตวแพทย์เดลิเวอรี่ | Mahidol Channel มหิดล ..."
+      },
+      {
+        "link": "https://www.facebook.com/vetmsu/posts/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B8%B4%E0%B8%AA%E0%B8%B4%E0%B8%95-%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%97%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B8%99%E0%B8%B4%E0%B8%AA%E0%B8%B4%E0%B8%95%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B8%95%E0%B8%A7%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B9%83%E0%B8%99/1572954424616958/",
+        "title": "ภาพบรรยากาศการถ่ายภาพนิสิต เพื่อจัดทำบัตรประจำตัวนิสิตของคณะ ..."
+      }
+    ]
+  },
+  "mu_music": {
+    "univ_th": "มหาวิทยาลัยมหิดล",
+    "univ_en": "Mahidol University",
+    "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+    "faculty_en": "College of Music",
+    "candidates": [
+      {
+        "link": "https://www.music.mahidol.ac.th/people/",
+        "title": "People - Mahidol Music"
+      },
+      {
+        "link": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%94%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B9%8C_%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%94%E0%B8%A5",
+        "title": "วิทยาลัยดุริยางคศิลป์ มหาวิทยาลัยมหิดล"
+      },
+      {
+        "link": "https://www.facebook.com/mahidolmusic/posts/english-below-28-29-%E0%B8%81%E0%B8%B8%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C-2567-%E0%B8%84%E0%B8%93%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%94%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/798374385656418/",
+        "title": "คณาจารย์ของวิทยาลัยดุริยางคศิลป์ มหาวิทยาลัยมหิดล รสิกมน ศิ ..."
+      },
+      {
+        "link": "https://www.music.mahidol.ac.th/th/about-the-college/",
+        "title": "เกี่ยวกับวิทยาลัยฯ - Mahidol Music"
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=iN6JY221tCE",
+        "title": "ใต้โต๊ะวิทยา [EP.10] : “วิทยาลัยดุริยางคศิลป์ ม.มหิดล” ดนตรี = ชีวิต"
+      },
+      {
+        "link": "https://channel.mahidol.ac.th/view/4368/GraduateMUMS",
+        "title": "เรียนจบวิทยาลัยดุริยางคศิลป์ ม.มหิดล ทำงานอะไรได้บ้าง?"
+      },
+      {
+        "link": "https://www.moe.go.th/%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%94%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B9%8C-%E0%B8%A1/",
+        "title": "วิทยาลัยดุริยางคศิลป์ มหาวิทยาลัยมหิดล"
+      },
+      {
+        "link": "https://verycatsound.com/blog-top3university/",
+        "title": "ส่องคณะดนตรี 3 วิทยาลัยดนตรีชั้นนำ ค่าเรียนเท่าไร?"
+      },
+      {
+        "link": "https://www.facebook.com/WeMahidol/videos/where-music-dreams-begin-college-of-music-mahidol-university-mu-link-internation/3930865393815365/",
+        "title": "MU Link International Programs College of Music, Mahidol ..."
+      },
+      {
+        "link": "https://www.music.mahidol.ac.th/yamp/faculty-list/",
+        "title": "Faculty list – Young Artist Music Program"
+      },
+      {
+        "link": "https://www.instagram.com/p/DZNVy0LKPqF/",
+        "title": "บุคลากรสายสนับสนุน วิทยาลัยดุริยางคศิลป์ มหาวิทยาลัยมหิดล ..."
+      },
+      {
+        "link": "https://www.facebook.com/mahidolmusic/posts/english-below-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B9%84%E0%B8%9B%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%87%E0%B8%B2%E0%B8%99-mahidol-music-town-hall-ep1-future-/1291954322965086/",
+        "title": "(English Below) ผ่าน ไป แล้ว อย่าง อบอุ่น ..."
+      },
+      {
+        "link": "https://www.facebook.com/mahidolmusic/videos/english-below%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%94%E0%B8%A3-%E0%B9%82%E0%B8%88%E0%B9%80%E0%B8%8B%E0%B8%9F-%E0%B9%81%E0%B8%AD%E0%B8%A5-%E0%B9%82%E0%B8%9A%E0%B8%A7%E0%B9%81%E0%B8%A1%E0%B8%99-asst-prof-dr-joseph-l-bowman/897646079507990/",
+        "title": "(English below)ผู้ช่วยศาสตราจารย์ ดร. โจเซฟ แอล โบวแมน (Asst. ..."
+      },
+      {
+        "link": "https://www.mcgp-music-mahidol.com/",
+        "title": "MCGP Music Mahidol"
+      },
+      {
+        "link": "https://channel.mahidol.ac.th/view/4130/What-do-they-do",
+        "title": "What does a lecturer and world-class composer do? (อาจารย์ ..."
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=2r62aBI0Qlo",
+        "title": "50 Facts วิทยาลัยดุริยางคศิลป์ ม.มหิดล (MUMS) | We Mahidol"
+      }
+    ]
+  },
+  "cmu_vet": {
+    "univ_th": "มหาวิทยาลัยเชียงใหม่",
+    "univ_en": "Chiang Mai University",
+    "faculty_th": "คณะสัตวแพทยศาสตร์",
+    "faculty_en": "Faculty of Veterinary Medicine",
+    "candidates": []
+  },
+  "cmu_pharmacy": {
+    "univ_th": "มหาวิทยาลัยเชียงใหม่",
+    "univ_en": "Chiang Mai University",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "faculty_en": "Faculty of Pharmacy",
+    "candidates": [
+      {
+        "link": "https://webs.pharmacy.cmu.ac.th/doc/staff-group/menu/208",
+        "title": "บุคลากร - หน่วยธุรการและสารบรรณ"
+      },
+      {
+        "link": "https://www.facebook.com/pharcmu/posts/-%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%AA%E0%B8%B1%E0%B8%8A%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B8%82%E0%B8%AD%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%B1%E0%B8%9A-%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%94%E0%B8%A3%E0%B8%A0%E0%B8%81%E0%B8%9A%E0%B8%B2%E0%B8%A3%E0%B8%A1%E0%B8%B5-%E0%B8%8A%E0%B8%99%E0%B8%9A%E0%B8%94%E0%B8%B5%E0%B9%80/1613082920605463/",
+        "title": "คณะเภสัชศาสตร์ มหาวิทยาลัยเชียงใหม่ ขอแสดงความยินดีกับ ..."
+      },
+      {
+        "link": "https://webs.pharmacy.cmu.ac.th/hr/free-content/menu/137",
+        "title": "บุคลากร - หน่วยบริหารงานบุคคล"
+      },
+      {
+        "link": "https://www.facebook.com/pharcmu/posts/%EF%B8%8F%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%93%E0%B9%8C%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B9%81%E0%B8%97%E0%B8%99%E0%B8%9A%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%B4%E0%B8%95-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%B4%E0%B8%95-%E0%B9%81%E0%B8%A5%E0%B8%B0-%E0%B8%94%E0%B8%B8%E0%B8%A9%E0%B8%8E%E0%B8%B5%E0%B8%9A%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%B4%E0%B8%95%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%AA%E0%B8%B1%E0%B8%8A%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1/1417225346857889/",
+        "title": "สัมภาษณ์พิเศษกับผู้แทนบัณฑิต มหาบัณฑิต และ ดุษฎีบัณฑิต คณะ ..."
+      },
+      {
+        "link": "https://www.facebook.com/pharcmu/posts/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%AA%E0%B8%B1%E0%B8%8A%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B9%82%E0%B8%94%E0%B8%A2-%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%94%E0%B8%A3%E0%B8%A0%E0%B8%8D-%E0%B8%AA%E0%B8%B8%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B9%8C-%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%81%E0%B8%B2/1135181198395640/",
+        "title": "คณะเภสัชศาสตร์ มหาวิทยาลัยเชียงใหม่ โดย ผู้ช่วยศาสตราจารย์ ..."
+      },
+      {
+        "link": "https://www.facebook.com/pharcmu/posts/%E0%B9%80%E0%B8%A0%E0%B8%AA%E0%B8%B1%E0%B8%8A-%E0%B8%A1%E0%B8%8A-%E0%B9%80%E0%B8%A0%E0%B8%AA%E0%B8%B1%E0%B8%8A%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%A2%E0%B8%B2-%E0%B9%80%E0%B8%A0%E0%B8%AA%E0%B8%B1%E0%B8%8A%E0%B8%A2%E0%B8%B7%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%A0%E0%B8%AA%E0%B8%B1%E0%B8%8A%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%99%E0%B8%B3-%E0%B8%AA%E0%B8%A3%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95/730076695572761/",
+        "title": "\"เภสัช มช. เภสัชที่สอนมากกว่าการจ่ายยา เภสัชยืนหนึ่ง\" เภสัชศาสตร์ชั้น ..."
+      },
+      {
+        "link": "https://pharmacy.cmu.ac.th/SSPT/member.php",
+        "title": "DataTables รายชื่อผู้สมัครเข้าร่วมงานประชุมวิชาการ"
+      },
+      {
+        "link": "https://www.facebook.com/pharcmu/videos/%E0%B8%9E%E0%B8%9A%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%87%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B9%83%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%A7-rx-cmu%E0%B8%97%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%B3-%E0%B8%AB%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AD%E0%B8%9A%E0%B8%AD%E0%B8%B8%E0%B9%88/1206489051317753/",
+        "title": "พบกับบรรยากาศจริงของชีวิตในรั้ว Rx CMU ทั้งห้องปฏิบัติการสุดล้ำ ..."
+      },
+      {
+        "link": "https://www.facebook.com/photo.php?fbid=10158112854330895&set=a.562752516029881&id=100068854126553&locale=el_GR",
+        "title": "𝐔𝐏 𝐛𝐞𝐜𝐨𝐦𝐞𝐬 𝐚 𝐂𝐏𝐃 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐫 𝐫𝐞𝐜𝐨𝐠𝐧𝐢𝐳𝐞𝐝 ..."
+      },
+      {
+        "link": "https://www.proz.com/profile/27248",
+        "title": "What Soonthon LUPKITARO(Ph.D.) is working on"
+      },
+      {
+        "link": "https://www.facebook.com/mb.mahidol/posts/-institute-of-molecular-biosciences-mahidol-university-warmly-invites-you-to-two/1421310333328061/",
+        "title": "Institute of Molecular Biosciences(MB) | Mahidol University"
+      },
+      {
+        "link": "http://it.nation.ac.th/download/NTU_Manual_Study_2556.pdf",
+        "title": "คู่มือการศึกษา"
+      },
+      {
+        "link": "https://elibrary.tceb.or.th/getattachment/5e3be878-77a0-431b-8197-c7d8cc8e3762/5892.aspx",
+        "title": "2014 MICE Industry Summary Report - TCEB E-Library"
+      },
+      {
+        "link": "https://www.bloggang.com/m/redirectfortablet.php?chkmobile=no&redir=%2Fviewdiary.php%3Fid%3Drhoetaupsilon%26month%3D02-2009%26date%3D20%26group%3D2%26gblog%3D6",
+        "title": "วิชาที่ต้องเรียนในคณะวิทยาศาสตร์ เอกชีววิทยา ระดับปริญญาตรี"
+      },
+      {
+        "link": "https://www.facebook.com/groups/550853141627773/",
+        "title": "คณาจารย์คณะมนุษยศาสตร์และสังคมศาสตร์"
+      },
+      {
+        "link": "https://www.lemon8-app.com/discover/%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%81%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A2%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9A%E0%B9%8D%E0%B8%B2%E0%B8%9A%E0%B8%B1%E0%B8%94?region=th",
+        "title": "เสื้อกาวน์กายภาพบำบัดใส่ยังไงให้ถูกระเบียบ? + ไอเดียชุดนัก ..."
+      }
+    ]
+  },
+  "cmu_dentistry": {
+    "univ_th": "มหาวิทยาลัยเชียงใหม่",
+    "univ_en": "Chiang Mai University",
+    "faculty_th": "คณะทันตแพทยศาสตร์",
+    "faculty_en": "Faculty of Dentistry",
+    "candidates": [
+      {
+        "link": "https://grad.dent.cmu.ac.th/staff/patcharawan.sil@cmu.ac.th",
+        "title": "ผศ.ทพญ.ดร. พัชราวรรณ ศีลธรรมพิทักษ์ - อาจารย์ | GradDentCmu"
+      },
+      {
+        "link": "https://www.facebook.com/dentcmu/posts/-%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%93%E0%B8%9A%E0%B8%94%E0%B8%B5%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5-%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%95%E0%B9%88%E0%B8%87%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%A3%E0%B8%A8%E0%B8%97%E0%B8%9E%E0%B8%8D%E0%B8%AA%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%A1/1189846346688482/",
+        "title": "คณะทันตแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่"
+      },
+      {
+        "link": "https://oit.dent.cmu.ac.th/view-subs/356?s=%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%20%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88&o=O12-%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%20%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B1%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88",
+        "title": "อาจารย์ นักวิจัยและเจ้าหน้าที่ - ข้อมูลสาธารณะ คณะทันตแพทยศาสตร์"
+      },
+      {
+        "link": "https://www.facebook.com/dentcmu/posts/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%B1%E0%B8%9A-%E0%B8%9C%E0%B8%A8%E0%B8%97%E0%B8%9E%E0%B8%94%E0%B8%A3%E0%B8%98%E0%B8%B5%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%87%E0%B8%A9%E0%B9%8C-%E0%B8%A1%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%93%E0%B8%B5%E0%B8%AD%E0%B8%B2/2007888909346629/?locale=th_TH",
+        "title": "คณะทันตแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่ - Facebook"
+      },
+      {
+        "link": "https://www2.dent.cmu.ac.th/web/frontend/web/index.php?r=site%2Fallnews_std&tag_id=2&page=29",
+        "title": "ข่าวทั้งหมด | คณะทันตแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่"
+      },
+      {
+        "link": "https://www.facebook.com/dentcmu/posts/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%B1%E0%B8%9A-%E0%B8%A8-%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%8A%E0%B8%B2%E0%B8%8D%E0%B8%9E%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9-%E0%B8%97%E0%B8%9E%E0%B8%8D-%E0%B8%94%E0%B8%A3/995803922759393/",
+        "title": "คณะทันตแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่ . ขอแสดงความยินดี ..."
+      },
+      {
+        "link": "https://www.facebook.com/dentcmu/photos/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B8%82%E0%B8%AD%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%B1%E0%B8%9A-%E0%B8%9C%E0%B8%A8%E0%B8%97%E0%B8%9E%E0%B8%8D%E0%B8%94%E0%B8%A3%E0%B8%98%E0%B8%99%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%93-%E0%B8%A7%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%8A%E0%B8%B1%E0%B8%A2-/1012478358887694/?locale=th_TH",
+        "title": "คณะทันตแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่ ขอแสดงความยินดี ..."
+      },
+      {
+        "link": "https://www.facebook.com/dentcmu/photos/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%97%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-%E0%B8%82%E0%B8%AD%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%B1%E0%B8%9A-%E0%B8%9C%E0%B8%A8%E0%B8%97%E0%B8%9E%E0%B8%94%E0%B8%A3%E0%B8%A0%E0%B8%B9%E0%B8%A1%E0%B8%B4%E0%B8%A8%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%B4%E0%B9%8C-%E0%B9%80%E0%B8%A5%E0%B8%B2%E0%B8%A7%E0%B8%81/1051225075013022/",
+        "title": "คณะทันตแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่ ขอแสดงความยินดี ..."
+      }
+    ]
+  },
+  "tu_pharmacy": {
+    "univ_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "univ_en": "Thammasat University",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "faculty_en": "Faculty of Pharmacy",
+    "candidates": [
+      {
+        "link": "https://pharm.tu.ac.th/uploads/pharm/pdf/std/20230427_02.pdf",
+        "title": "อาจารย์ เจ้าหน้าที่ จ 8 พ.ค. 66 ภศ. 235 ปฏิบัติการเภสั"
+      },
+      {
+        "link": "https://www.facebook.com/PharmacyThammasat/albums/3368983236459928/",
+        "title": "คณะเภสัชศาสตร์ มหาวิทยาลัยธรรมศาสตร์ - Faculty of Pharmacy ..."
+      },
+      {
+        "link": "https://www.instagram.com/reel/DYHTb10k3uL/",
+        "title": "อัปเดตคณะเภสัชฯ 2569 ! . มาเจาะข้อมูลต่อเพิ่มเติมกับพี่ออนดี้ที่"
+      },
+      {
+        "link": "https://www.facebook.com/PharmacyThammasat/photos/1143520151109077/",
+        "title": "คณะเภสัชศาสตร์ มหาวิทยาลัยธรรมศาสตร์ - Faculty of Pharmacy ..."
+      },
+      {
+        "link": "https://www.pharmacycouncil.org/ccpe/index.php?option=seminar_detail&subpage=seminar_detail&id=4462",
+        "title": ": ศูนย์การศึกษาต่อเนื่องทางเภสัชศาสตร์"
+      },
+      {
+        "link": "https://www.tiktok.com/@sip_tu/video/7252680653832047878",
+        "title": "รู้จักคณะศิลปศาสตร์ มหาวิทยาลัยธรรมศาสตร์"
+      },
+      {
+        "link": "https://www.facebook.com/61575014655625/posts/-%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B1%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%AA%E0%B8%B1%E0%B8%8A%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%9B%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9/122166541064833821/",
+        "title": "บรรยากาศการสอบคัดเลือกเข้าศึกษาคณะเภสัชศาสตร์ มหาวิทยาลัย ..."
+      },
+      {
+        "link": "https://www.facebook.com/naresuanpharmacy/videos/-%E0%B8%A8%E0%B8%B4%E0%B8%A9%E0%B8%A2%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2%E0%B8%94%E0%B8%B5%E0%B9%80%E0%B8%94%E0%B9%88%E0%B8%99-%E0%B8%81%E0%B8%A5%E0%B8%B1%E0%B8%9A%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%AA%E0%B8%B1%E0%B8%8A%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%99%E0%B9%80%E0%B8%A3%E0%B8%A8%E0%B8%A7%E0%B8%A3-%E0%B8%87%E0%B8%B2%E0%B8%99-pharmacy-nu-call-ope/960859535052985/?locale=hi_IN",
+        "title": "ดร.วงษ์นภา นาคใหญ่ อาจารย์ประจำหลักสูตรสาขาวิชาวิทยาศาสตร์เพื่อ ..."
+      },
+      {
+        "link": "https://www.facebook.com/pharscitechchula/posts/introducing-the-new-faculty-member-research-track-pharmaceutical-biotechnology-a/379907580607435/",
+        "title": "Introducing the new faculty member Research track ..."
+      }
+    ]
+  },
+  "tu_liberalarts": {
+    "univ_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "univ_en": "Thammasat University",
+    "faculty_th": "คณะศิลปศาสตร์",
+    "faculty_en": "Faculty of Liberal Arts",
+    "candidates": [
+      {
+        "link": "https://www.facebook.com/tuenglishdepartment/posts/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B8%AD%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A4%E0%B8%A9-%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%82%E0%B8%AD%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%B1%E0%B8%9A-%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2/1575569907688571/",
+        "title": "สาขาวิชาภาษาอังกฤษ คณะศิลปศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ..."
+      },
+      {
+        "link": "https://anthropologist.sac.or.th/anthropologist/index?AnthropologistSearch%5Binstitution%5D=%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C+%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C",
+        "title": "คณะศิลปศาสตร์ มหาวิทยาลัยธรรมศาสตร์"
+      },
+      {
+        "link": "https://www.instagram.com/p/DcfNWWpGfIC/",
+        "title": "คณะศิลปศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ขอแสดงความยินดีกับ🎊🎉 ..."
+      },
+      {
+        "link": "https://www.facebook.com/RimkhobfaBookstore/videos/%E0%B8%9C%E0%B8%A8%E0%B8%94%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%98%E0%B8%B4%E0%B8%94%E0%B8%B2-%E0%B8%A7%E0%B8%B4%E0%B8%A1%E0%B8%B8%E0%B8%95%E0%B8%95%E0%B8%B4%E0%B9%82%E0%B8%81%E0%B8%A8%E0%B8%A5%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A7%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%84%E0%B8%94%E0%B8%B5%E0%B8%AD%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B8%A4%E0%B8%A9-%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2/1995012567851807/",
+        "title": "ผศ.ดร.สุธิดา วิมุตติโกศล อาจารย์ประจำสาขาวิชาภาษาและวรรณคดี ..."
+      },
+      {
+        "link": "https://www.facebook.com/pr.larts.tu/photos/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%A8%E0%B8%B4%E0%B8%A5%E0%B8%9B%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%82%E0%B8%AD%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%AD%E0%B8%99%E0%B8%B4%E0%B8%98%E0%B8%B4-%E0%B8%A8%E0%B8%B5%E0%B8%A5%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%B8%E0%B8%A5%E0%B9%80%E0%B8%99%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%83%E0%B8%99%E0%B9%82%E0%B8%AD%E0%B8%81%E0%B8%B2/1508098978019869/",
+        "title": "คณะศิลปศาสตร์ มหาวิทยาลัยธรรมศาสตร์💐 ขอแสดงความยินดีกับ ..."
+      },
+      {
+        "link": "https://www.instagram.com/p/C-on2ebMiEd/",
+        "title": "แนะนำอาจารย์ใหม่คณะศิลปศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ดร.ธี ..."
+      },
+      {
+        "link": "https://www.tu-japanese.org/index.php?action=view_news&id=684",
+        "title": "มหาวิทยาลัยธรรมศาสตร์รับสมัครอาจารย์ประจำสาขาวิชาภาษาญี่ปุ่น ..."
+      },
+      {
+        "link": "https://www.youtube.com/watch?v=qx55_gZY58o",
+        "title": "คณะศิลปศาสตร์ ประจำปีการศึกษา 2561"
+      }
+    ]
+  }
+}

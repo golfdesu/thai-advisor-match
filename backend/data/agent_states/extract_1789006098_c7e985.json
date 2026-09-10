@@ -1,0 +1,21 @@
+{
+  "session_id": "extract_1789006098_c7e985",
+  "target_university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+  "target_university_en": "Kasetsart University",
+  "target_faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Architecture",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://arch.ku.ac.th/"
+  ],
+  "failed_urls": [
+    "https://arch.ku.ac.th/about/staff"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 555,
+  "status": "completed",
+  "last_error": null
+}

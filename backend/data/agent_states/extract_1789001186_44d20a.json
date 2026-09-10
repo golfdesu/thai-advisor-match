@@ -1,0 +1,21 @@
+{
+  "session_id": "extract_1789001186_44d20a",
+  "target_university_th": "มหาวิทยาลัยมหิดล",
+  "target_university_en": "Mahidol University",
+  "target_faculty_th": "คณะสัตวแพทยศาสตร์",
+  "target_faculty_en": "Faculty of Veterinary Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://vs.mahidol.ac.th/th/facultyprofiles"
+  ],
+  "failed_urls": [
+    "https://vs.mahidol.ac.th/facultyprofiles"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 2852,
+  "status": "completed",
+  "last_error": null
+}

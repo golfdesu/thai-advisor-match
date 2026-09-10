@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789000906_daa9a5",
+  "target_university_th": "มหาวิทยาลัยเชียงใหม่",
+  "target_university_en": "Chiang Mai University",
+  "target_faculty_th": "คณะเภสัชศาสตร์",
+  "target_faculty_en": "Faculty of Pharmacy",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://webs.pharmacy.cmu.ac.th/doc/staff-group/menu/208"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 512,
+  "status": "completed",
+  "last_error": null
+}

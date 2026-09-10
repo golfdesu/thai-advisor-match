@@ -97,6 +97,20 @@ from scripts.data_sources.ubu_agro_skill_state_extracted import EXTRACTED_FACULT
 from scripts.data_sources.ubu_la_skill_state_extracted import EXTRACTED_FACULTIES as UBU_LA_SKILL_STATE_FACULTIES
 from scripts.data_sources.ubu_phar_skill_state_extracted import EXTRACTED_FACULTIES as UBU_PHAR_SKILL_STATE_FACULTIES
 from scripts.data_sources.msu_it_skill_state_extracted import EXTRACTED_FACULTIES as MSU_IT_SKILL_STATE_FACULTIES
+from scripts.data_sources.sparse_cu_commarts_skill_state_extracted import CHULA_COMMARTS_FACULTIES
+from scripts.data_sources.sparse_cu_arts_skill_state_extracted import CHULA_ARTS_FACULTIES
+from scripts.data_sources.sparse_mu_pt_skill_state_extracted import MU_PT_FACULTIES
+from scripts.data_sources.sparse_mu_music_skill_state_extracted import MU_MUSIC_FACULTIES
+from scripts.data_sources.sparse_cu_vet_skill_state_extracted import CU_VET_FACULTIES
+from scripts.data_sources.sparse_tu_pharmacy_skill_state_extracted import TU_PHARMACY_FACULTIES
+from scripts.data_sources.sparse_cmu_vet_api_extracted import CMU_VET_FACULTIES
+from scripts.data_sources.sparse_ku_sportsci_skill_state_extracted import KU_SPORTSCI_FACULTIES
+from scripts.data_sources.sparse_cu_ias_skill_state_extracted import CU_IAS_FACULTIES
+from scripts.data_sources.sparse_kku_arch_skill_state_extracted import KKU_ARCH_FACULTIES
+from scripts.data_sources.sparse_cmu_agro_skill_state_extracted import CMU_AGRO_FACULTIES
+from scripts.data_sources.sparse_cmu_finearts_skill_state_extracted import CMU_FINEARTS_FACULTIES
+from scripts.data_sources.sparse_ku_vettech_skill_state_extracted import KU_VETTECH_FACULTIES
+from scripts.data_sources.sparse_mu_inmu_skill_state_extracted import MU_INMU_FACULTIES
 
 ALL_FACULTY_DATASETS = [
     ("มหาวิทยาลัยธรรมศาสตร์ และ มหาวิทยาลัยขอนแก่น (TU & KKU)", TU_KKU_FACULTIES),
@@ -184,6 +198,20 @@ ALL_FACULTY_DATASETS = [
     ("ชุดที่ 81: คณาจารย์คณะศิลปศาสตร์ ม.อุบลราชธานี ดึงผ่าน SKILL.state Agent (Batch 81: UBU Liberal Arts Live Scraped)", UBU_LA_SKILL_STATE_FACULTIES),
     ("ชุดที่ 82: คณาจารย์คณะเภสัชศาสตร์ ม.อุบลราชธานี ดึงผ่าน SKILL.state Agent (Batch 82: UBU Pharmacy Live Scraped)", UBU_PHAR_SKILL_STATE_FACULTIES),
     ("ชุดที่ 83: คณาจารย์คณะวิทยาการสารสนเทศ ม.มหาสารคาม ดึงผ่าน SKILL.state Agent (Batch 83: MSU Informatics Live Scraped)", MSU_IT_SKILL_STATE_FACULTIES),
+    ("ชุดที่ 84: คณาจารย์คณะวารสารศาสตร์และสื่อสารมวลชน จุฬาฯ ดึงผ่าน SKILL.state Agent (Batch 84: CU Communication Arts Live Scraped)", CHULA_COMMARTS_FACULTIES),
+    ("ชุดที่ 85: คณาจารย์คณะอักษรศาสตร์ จุฬาฯ ดึงผ่าน SKILL.state Agent (Batch 85: CU Faculty of Arts Live Scraped)", CHULA_ARTS_FACULTIES),
+    ("ชุดที่ 86: คณาจารย์คณะกายภาพบำบัด ม.มหิดล ดึงผ่าน SKILL.state Agent (Batch 86: MU Physical Therapy Live Scraped)", MU_PT_FACULTIES),
+    ("ชุดที่ 87: คณาจารย์วิทยาลัยดุริยางคศิลป์ ม.มหิดล ดึงผ่าน SKILL.state Agent (Batch 87: MU College of Music Live Scraped)", MU_MUSIC_FACULTIES),
+    ("ชุดที่ 88: คณาจารย์คณะสัตวแพทยศาสตร์ จุฬาฯ ดึงผ่าน SKILL.state Agent (Batch 88: CU Veterinary Science Live Scraped)", CU_VET_FACULTIES),
+    ("ชุดที่ 89: คณาจารย์คณะเภสัชศาสตร์ ม.ธรรมศาสตร์ ดึงผ่าน SKILL.state Agent (Batch 89: TU Pharmacy Live Scraped)", TU_PHARMACY_FACULTIES),
+    ("ชุดที่ 90: คณาจารย์คณะสัตวแพทยศาสตร์ ม.เชียงใหม่ ดึงจาก JSON API (Batch 90: CMU Veterinary Medicine API)", CMU_VET_FACULTIES),
+    ("ชุดที่ 91: คณาจารย์คณะวิทยาศาสตร์การกีฬาและสุขภาพ มก. ดึงผ่าน SKILL.state Agent (Batch 91: KU Sports Science & Health Live Scraped)", KU_SPORTSCI_FACULTIES),
+    ("ชุดที่ 92: คณาจารย์สถาบันเอเชียศึกษา จุฬาฯ ดึงผ่าน SKILL.state Agent (Batch 92: CU Institute of Asian Studies Live Scraped)", CU_IAS_FACULTIES),
+    ("ชุดที่ 93: คณาจารย์คณะสถาปัตยกรรมศาสตร์ มข. ดึงผ่าน SKILL.state Agent (Batch 93: KKU Architecture Live Scraped)", KKU_ARCH_FACULTIES),
+    ("ชุดที่ 94: คณาจารย์คณะเกษตรศาสตร์ มช. ดึงผ่าน SKILL.state Agent (Batch 94: CMU Agriculture Live Scraped)", CMU_AGRO_FACULTIES),
+    ("ชุดที่ 95: คณาจารย์คณะวิจิตรศิลป์ มช. ดึงผ่าน SKILL.state Agent (Batch 95: CMU Fine Arts Live Scraped)", CMU_FINEARTS_FACULTIES),
+    ("ชุดที่ 96: คณาจารย์คณะเทคนิคการสัตวแพทย์ มก. ดึงผ่าน SKILL.state Agent (Batch 96: KU Veterinary Technology Live Scraped)", KU_VETTECH_FACULTIES),
+    ("ชุดที่ 97: คณาจารย์สถาบันโภชนาการ ม.มหิดล ดึงผ่าน SKILL.state Agent (Batch 97: MU Institute of Nutrition Live Scraped)", MU_INMU_FACULTIES),
 ]
 
 def build_faculty_embedding_text(f: FacultyDB) -> str:

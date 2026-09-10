@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789001248_85507e",
+  "target_university_th": "มหาวิทยาลัยเชียงใหม่",
+  "target_university_en": "Chiang Mai University",
+  "target_faculty_th": "คณะสัตวแพทยศาสตร์",
+  "target_faculty_en": "Faculty of Veterinary Medicine",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.vet.cmu.ac.th/th/about/personnel",
+    "https://www.vet.cmu.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1413,
+  "status": "completed",
+  "last_error": null
+}

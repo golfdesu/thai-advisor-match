@@ -1,0 +1,163 @@
+{
+  "session_id": "extract_1789005245_b68e3c",
+  "target_university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+  "target_university_en": "Kasetsart University",
+  "target_faculty_th": "คณะเทคนิคการสัตวแพทย์",
+  "target_faculty_en": "Faculty of Veterinary Technology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.vettech.ku.ac.th/"
+  ],
+  "failed_urls": [
+    "https://vettech.ku.ac.th/about/staff"
+  ],
+  "faculties": {
+    "kasetsartu_facultyofv_sakulthai_001": {
+      "id": "kasetsartu_facultyofv_sakulthai_001",
+      "university": "Kasetsart University",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty": "Faculty of Veterinary Technology",
+      "faculty_th": "คณะเทคนิคการสัตวแพทย์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Chainarong",
+      "last_name": "Sakulthai",
+      "full_name": "Chainarong Sakulthai",
+      "full_name_th": "รศ.ดร. ชัยณรงค์ สกุลแถว",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "ไมโครพลาสติกในอาหาร",
+        "ความปลอดภัยอาหาร"
+      ],
+      "featured_publications": [
+        "แจ๊บแจ๋วถั่งเช่า (Cordy Chewy) ขนมคบเคี้ยวเพื่อสุขภาพสำหรับสัตว์เลี้ยง"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kasetsartu_facultyofv_chongpaiboonpat_002": {
+      "id": "kasetsartu_facultyofv_chongpaiboonpat_002",
+      "university": "Kasetsart University",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty": "Faculty of Veterinary Technology",
+      "faculty_th": "คณะเทคนิคการสัตวแพทย์",
+      "department": "ภาควิชาการพยาบาลสัตวแพทย์",
+      "department_th": "ภาควิชาการพยาบาลสัตวแพทย์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Pattarakrit",
+      "last_name": "Chongpaiboonpatana",
+      "full_name": "Pattarakrit Chongpaiboonpatana",
+      "full_name_th": "อ. น.สพ.ดร.ภัทรกฤษณ์ จงไพบูลย์พัฒนะ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "สัตวแพทย์ทางทันตกรรม",
+        "ทันตกรรมสัตว์ (Veterinary Dentistry)"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kasetsartu_facultyofv_chokcharoenrat_003": {
+      "id": "kasetsartu_facultyofv_chokcharoenrat_003",
+      "university": "Kasetsart University",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty": "Faculty of Veterinary Technology",
+      "faculty_th": "คณะเทคนิคการสัตวแพทย์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Chanat",
+      "last_name": "Chokcharoenrat",
+      "full_name": "Chanat Chokcharoenrat",
+      "full_name_th": "รศ.ดร. ชนัตถ์ โชคเจริญรัตน์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [
+        "แจ๊บแจ๋วถั่งเช่า (Cordy Chewy) ขนมคบเคี้ยวเพื่อสุขภาพสำหรับสัตว์เลี้ยง"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kasetsartu_facultyofv_sricharoen_004": {
+      "id": "kasetsartu_facultyofv_sricharoen_004",
+      "university": "Kasetsart University",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty": "Faculty of Veterinary Technology",
+      "faculty_th": "คณะเทคนิคการสัตวแพทย์",
+      "department": "ภาควิชาการพยาบาลทางสัตวแพทย์",
+      "department_th": "ภาควิชาการพยาบาลทางสัตวแพทย์",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Wanat",
+      "last_name": "Sricharoen",
+      "full_name": "Wanat Sricharoen",
+      "full_name_th": "ผศ. น.สพ.ดร.วนัท ศรีเจริญ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "โรคขี้แมวขึ้นสมอง (Toxoplasmosis)",
+        "พยาธิตัวตืดในสัตว์เลี้ยงที่ติดคน"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kasetsartu_facultyofv_ngamkala_005": {
+      "id": "kasetsartu_facultyofv_ngamkala_005",
+      "university": "Kasetsart University",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty": "Faculty of Veterinary Technology",
+      "faculty_th": "คณะเทคนิคการสัตวแพทย์",
+      "department": "ภาควิชาการพยาบาลทางสัตวแพทย์",
+      "department_th": "ภาควิชาการพยาบาลทางสัตวแพทย์",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Suchonit",
+      "last_name": "Ngamkala",
+      "full_name": "Suchonit Ngamkala",
+      "full_name_th": "ผศ. น.สพ.ดร.สุชนิทธิ์ งามกาละ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "โรคขี้แมวขึ้นสมอง (Toxoplasmosis)"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ชัยณรงค์ สกุลแถว": "kasetsartu_facultyofv_sakulthai_001",
+    "น.สพ.ดร.ภัทรกฤษณ์ จงไพบูลย์พัฒนะ": "kasetsartu_facultyofv_chongpaiboonpat_002",
+    "ชนัตถ์ โชคเจริญรัตน์": "kasetsartu_facultyofv_chokcharoenrat_003",
+    "น.สพ.ดร.วนัท ศรีเจริญ": "kasetsartu_facultyofv_sricharoen_004",
+    "น.สพ.ดร.สุชนิทธิ์ งามกาละ": "kasetsartu_facultyofv_ngamkala_005"
+  },
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 6452,
+  "status": "completed",
+  "last_error": null
+}

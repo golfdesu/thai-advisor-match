@@ -1,0 +1,114 @@
+{
+  "cu_commarts": {
+    "univ_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "univ_en": "Chulalongkorn University",
+    "faculty_th": "คณะวารสารศาสตร์และสื่อสารมวลชน",
+    "faculty_en": "Faculty of Communication Arts",
+    "seeds": ["https://www.commarts.chula.ac.th/th/about/units-personnel/", "https://www.commarts.chula.ac.th/th/department-jr/", "https://www.commarts.chula.ac.th/th/"]
+  },
+  "cu_arts": {
+    "univ_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "univ_en": "Chulalongkorn University",
+    "faculty_th": "คณะอักษรศาสตร์",
+    "faculty_en": "Faculty of Arts",
+    "seeds": ["https://www.arts.chula.ac.th/th/team/", "https://www.arts.chula.ac.th/th/deans/"]
+  },
+  "cu_finearts_old": {
+    "univ_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "univ_en": "Chulalongkorn University",
+    "faculty_th": "คณะศิลปกรรมศาสตร์",
+    "faculty_en": "Faculty of Fine and Applied Arts",
+    "seeds": ["https://www.faa.chula.ac.th/th/"]
+  },
+  "cu_vet": {
+    "univ_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "univ_en": "Chulalongkorn University",
+    "faculty_th": "คณะสัตวแพทยศาสตร์",
+    "faculty_en": "Faculty of Veterinary Science",
+    "seeds": ["https://vet.chula.ac.th/academic_team", "https://www.vet.chula.ac.th/", "https://vet.chula.ac.th/"]
+  },
+  "mu_vet": {
+    "univ_th": "มหาวิทยาลัยมหิดล",
+    "univ_en": "Mahidol University",
+    "faculty_th": "คณะสัตวแพทยศาสตร์",
+    "faculty_en": "Faculty of Veterinary Science",
+    "seeds": ["https://vs.mahidol.ac.th/new/facultyprofiles.aspx"]
+  },
+  "cmu_vet": {
+    "univ_th": "มหาวิทยาลัยเชียงใหม่",
+    "univ_en": "Chiang Mai University",
+    "faculty_th": "คณะสัตวแพทยศาสตร์",
+    "faculty_en": "Faculty of Veterinary Medicine",
+    "seeds": ["http://vmcmu.vet.cmu.ac.th/pages/person/main_person-1", "https://vmcmu.vet.cmu.ac.th/"]
+  },
+  "cmu_pharmacy": {
+    "univ_th": "มหาวิทยาลัยเชียงใหม่",
+    "univ_en": "Chiang Mai University",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "faculty_en": "Faculty of Pharmacy",
+    "seeds": ["https://webs.pharmacy.cmu.ac.th/doc/staff-group/menu/208", "https://www.pharmacy.cmu.ac.th/"]
+  },
+  "cmu_dentistry": {
+    "univ_th": "มหาวิทยาลัยเชียงใหม่",
+    "univ_en": "Chiang Mai University",
+    "faculty_th": "คณะทันตแพทยศาสตร์",
+    "faculty_en": "Faculty of Dentistry",
+    "seeds": ["https://www.dent.cmu.ac.th/web/", "https://grad.dent.cmu.ac.th/staff/"]
+  },
+  "tu_pharmacy": {
+    "univ_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "univ_en": "Thammasat University",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "faculty_en": "Faculty of Pharmacy",
+    "seeds": ["https://pharm.tu.ac.th/"]
+  },
+  "cmu_finearts": {
+    "univ_th": "มหาวิทยาลัยเชียงใหม่",
+    "univ_en": "Chiang Mai University",
+    "faculty_th": "คณะวิจิตรศิลป์",
+    "faculty_en": "Faculty of Fine Arts",
+    "seeds": ["https://www.finearts.cmu.ac.th/%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%84%E0%B8%B3/%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3/%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%B1%E0%B8%A3-new/%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%B2%E0%B8%97/", "https://finearts.cmu.ac.th/"]
+  },
+  "cmu_agro": {
+    "univ_th": "มหาวิทยาลัยเชียงใหม่",
+    "univ_en": "Chiang Mai University",
+    "faculty_th": "คณะเกษตรศาสตร์",
+    "faculty_en": "Faculty of Agriculture",
+    "seeds": ["https://www.agro.cmu.ac.th/mis2/personnel/pages/personal_new.php", "https://agro.cmu.ac.th/"]
+  },
+  "kku_arch": {
+    "univ_th": "มหาวิทยาลัยขอนแก่น",
+    "univ_en": "Khon Kaen University",
+    "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+    "faculty_en": "Faculty of Architecture",
+    "seeds": ["https://arch.kku.ac.th/org-staff-academic", "https://arch.kku.ac.th/"]
+  },
+  "ku_arch": {
+    "univ_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "univ_en": "Kasetsart University",
+    "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+    "faculty_en": "Faculty of Architecture",
+    "seeds": ["https://arch.ku.ac.th/", "https://arch.ku.ac.th/about/staff"]
+  },
+  "ku_vettech": {
+    "univ_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "univ_en": "Kasetsart University",
+    "faculty_th": "คณะเทคนิคการสัตวแพทย์",
+    "faculty_en": "Faculty of Veterinary Technology",
+    "seeds": ["https://www.vettech.ku.ac.th/vettech", "https://www.vettech.ku.ac.th/vetnurse", "https://vettech.ku.ac.th/2022/?page_id=88"]
+  },
+  "mu_inmu": {
+    "univ_th": "มหาวิทยาลัยมหิดล",
+    "univ_en": "Mahidol University",
+    "faculty_th": "สถาบันโภชนาการ",
+    "faculty_en": "Institute of Nutrition",
+    "seeds": ["https://inmu.mahidol.ac.th/th/organization/", "https://inmu.mahidol.ac.th/th/executive/", "https://inmu.mahidol.ac.th/th/research/", "https://inmu.mahidol.ac.th/th/advisors/"]
+  },
+  "tu_liberalarts": {
+    "univ_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "univ_en": "Thammasat University",
+    "faculty_th": "คณะศิลปศาสตร์",
+    "faculty_en": "Faculty of Liberal Arts",
+    "seeds": ["https://www.tu-japanese.org/index.php?action=view_news&id=684", "https://la.tu.ac.th/"]
+  }
+}

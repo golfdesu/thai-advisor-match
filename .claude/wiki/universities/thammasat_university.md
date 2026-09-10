@@ -17,6 +17,7 @@ _(none — faculty directory URLs at TU are faculty-specific; see scoped list be
 - Faculty of Engineering — Mechanical dept: `https://me.engr.tu.ac.th/staff/professor_rangsit` (22 profiles verified 2026-09-09)
 - Faculty of Engineering — Chemical dept: `https://che.engr.tu.ac.th/staff/professor` (20 profiles verified 2026-09-09)
 - Faculty of Engineering — CIC: `https://cic.engr.tu.ac.th/person/` (0 yield — flagged, 2026-09-09)
+- Faculty of Pharmacy (คณะเภสัชศาสตร์): `https://pharm.tu.ac.th/academicstaff` (42 profiles verified 2026-09-10; static HTML, home `/` links to `/academicstaff` + `/supportingstaff`). NOTE: TU Pharmacy is at `pharm.tu.ac.th` (NOT `pharmacy.tu.ac.th`/`la.tu.ac.th` which are DNS-dead).
 
 ### 🚫 Blocked / No HTML Directory
 - Faculty of Science & Technology: `sci.tu.ac.th` (all subdomains incl. chem/math/phys) — **Imperva Incapsula JS challenge** (212-byte challenge page). Requires SPA bypass strategy.

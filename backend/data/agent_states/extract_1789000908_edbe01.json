@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789000908_edbe01",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "คณะสัตวแพทยศาสตร์",
+  "target_faculty_en": "Faculty of Veterinary Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://vet.chula.ac.th/academic_team"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 982,
+  "status": "completed",
+  "last_error": null
+}

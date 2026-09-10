@@ -20,6 +20,9 @@ _(none — all CMU directory URLs are faculty-scoped below; do NOT auto-seed acr
 
 ### 🔴 Dead / Inaccessible URLs to Avoid
 
+- ~~`https://www.vet.cmu.ac.th/th/about/personnel` → vmcmu personnel tabs~~ **RESOLVED 2026-09-10**: personnel grid names load via XHR to `https://vmcmu.vet.cmu.ac.th/pages/person/api/fetchDataPerson_api.php?typeData[type]=<cat>&typeData[hospital]=<cat>`. Categories: `vet_subject-1` (ปรีคลินิก, 23), `vet_subject-2` (คลินิก, 59) → **82 profiles** with email/research/branch/scopus/scholar/orcid fields. Full category map lives in `/pages/person/js/person.js` (office-*, hotpital_*, center_* = non-faculty staff, skip).
+- `https://webs.pharmacy.cmu.ac.th/doc/staff-group/menu/208` — administrative staff only (เลขานุการ/เจ้าหน้าที่), 0 academic profiles (2026-09-10).
+
 - `https://www.pol.cmu.ac.th/article/โครงสร้างองค์กรและบุคลากร/สำนักวิชาการระหว่างประเทศ.html` (Failed / 404)
 - `https://www.pol.cmu.ac.th/article/โครงสร้างองค์กรและบุคลากร/สำนักวิชารัฐประศาสนศาสตร์.html` (Failed / 404)
 - `https://www.pol.cmu.ac.th/article/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%AA%E0%B8%B3%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99.html` (Failed / 404)

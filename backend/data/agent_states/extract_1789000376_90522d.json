@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789000376_90522d",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "คณะวารสารศาสตร์และสื่อสารมวลชน",
+  "target_faculty_en": "Faculty of Communication Arts",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.commarts.chula.ac.th/th/",
+    "https://www.arts.chula.ac.th/th/about/personnel/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1250,
+  "status": "completed",
+  "last_error": null
+}

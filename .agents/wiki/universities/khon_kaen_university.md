@@ -3,6 +3,8 @@
 
 ### 🟢 Verified Active Directory URLs
 
+- Faculty of Architecture (คณะสถาปัตยกรรมศาสตร์): `https://arch.kku.ac.th/org-staff-academic` (59 profiles verified 2026-09-10; static HTML; `/org-staff-support` = non-academic)
+
 _(none — faculty directory URLs at KKU are faculty-specific; see scoped list below. Do NOT auto-seed across faculties.)_
 
 ### Faculty-Scoped Endpoints (for matching faculty runs ONLY — never auto-seed into other faculties)
