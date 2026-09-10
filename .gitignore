@@ -31,7 +31,9 @@ develop-eggs/
 downloads/
 eggs/
 .eggs/
-lib/
+# Root-level Python build artifact only — unanchored "lib/" was silently
+# excluding frontend/src/lib/ (dsa.ts, config.ts) from version control.
+/lib/
 lib64/
 parts/
 sdist/
