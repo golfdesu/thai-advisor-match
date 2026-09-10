@@ -1,21 +1,11 @@
 # -*- coding: utf-8 -*-
-"""
-Faculty Dataset: CMU Specialized & Interdisciplinary Engineering Elite Scholars (Batch 17)
-Standardized Schema compliant with AGENTS.md & PDPA
-Covering: Biomedical Engineering (BMEI), Plasma & Energy Technology, Semiconductor & Wide Bandgap,
-Robotics & AI, and Advanced Software Intelligence.
-"""
-
 CMU_SPECIALIZED_ENGINEERING_FACULTIES = [
-    # =========================================================================
-    # 1. Biomedical Engineering Institute (BMEI) & Healthcare AI
-    # =========================================================================
     {
         "id": "cmu_bmei_siriporn_001",
         "university": "Chiang Mai University",
         "university_th": "มหาวิทยาลัยเชียงใหม่",
-        "faculty": "Biomedical Engineering Institute / Faculty of Medicine",
-        "faculty_th": "สถาบันวิศวกรรมชีวการแพทย์ และคณะแพทยศาสตร์",
+        "faculty": "Faculty of Medicine",
+        "faculty_th": "คณะแพทยศาสตร์",
         "department": "Department of Neurobiology & Cardiac Electrophysiology Research Training Center (CERT)",
         "department_th": "ศูนย์วิจัยและฝึกอบรมสรีรวิทยาทางไฟฟ้าของหัวใจ และสถาบันวิศวกรรมชีวการแพทย์",
         "academic_title": "Prof. Dr.",
@@ -47,8 +37,8 @@ CMU_SPECIALIZED_ENGINEERING_FACULTIES = [
         "id": "cmu_bmei_anawat_001",
         "university": "Chiang Mai University",
         "university_th": "มหาวิทยาลัยเชียงใหม่",
-        "faculty": "Biomedical Engineering Institute / Faculty of Engineering",
-        "faculty_th": "สถาบันวิศวกรรมชีวการแพทย์ และคณะวิศวกรรมศาสตร์",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
         "department": "Biomedical Materials & 3D Titanium Orthopedic Implants Hub",
         "department_th": "สถาบันวิศวกรรมชีวการแพทย์ (ศูนย์นวัตกรรมกายอุปกรณ์และการพิมพ์ 3 มิติทางการแพทย์)",
         "academic_title": "Assoc. Prof. Dr.",
@@ -77,16 +67,12 @@ CMU_SPECIALIZED_ENGINEERING_FACULTIES = [
             "In Vitro Degradation Kinetics of Biodegradable Magnesium Stents in Simulated Coronary Environments"
         ]
     },
-
-    # =========================================================================
-    # 2. Plasma Physics & Micro-Electro-Mechanical Systems (MEMS / Energy)
-    # =========================================================================
     {
         "id": "cmu_plasma_dheerawan_001",
         "university": "Chiang Mai University",
         "university_th": "มหาวิทยาลัยเชียงใหม่",
-        "faculty": "Faculty of Science & Faculty of Engineering (Joint Graduate Program)",
-        "faculty_th": "คณะวิทยาศาสตร์ และคณะวิศวกรรมศาสตร์",
+        "faculty": "Faculty of Science",
+        "faculty_th": "คณะวิทยาศาสตร์",
         "department": "Plasma and Beam Physics Research Facility (PBRF)",
         "department_th": "ศูนย์วิจัยฟิสิกส์ของลำอนุภาคและพลาสมา",
         "academic_title": "Prof. Dr.",
@@ -149,10 +135,6 @@ CMU_SPECIALIZED_ENGINEERING_FACULTIES = [
             "Development of High-Efficiency Waste Heat Recovery Systems Utilizing Oscillating Heat Pipes"
         ]
     },
-
-    # =========================================================================
-    # 3. Semiconductor Engineering & Advanced Microelectronics
-    # =========================================================================
     {
         "id": "cmu_semi_chatchawan_001",
         "university": "Chiang Mai University",
@@ -187,10 +169,6 @@ CMU_SPECIALIZED_ENGINEERING_FACULTIES = [
             "Sub-Microwatt CMOS Bio-Potential Front-End Amplifier for Multi-Channel EEG Acquisition"
         ]
     },
-
-    # =========================================================================
-    # 4. Robotics & Autonomous AI (Robotics & AI Track)
-    # =========================================================================
     {
         "id": "cmu_robot_supachai_001",
         "university": "Chiang Mai University",
@@ -225,10 +203,6 @@ CMU_SPECIALIZED_ENGINEERING_FACULTIES = [
             "Deep Reinforcement Learning Framework for Multi-Robot Cooperative Navigation in Congested Workspaces"
         ]
     },
-
-    # =========================================================================
-    # 5. Integrated Engineering & Multidisciplinary Innovation
-    # =========================================================================
     {
         "id": "cmu_integrated_nuttakan_001",
         "university": "Chiang Mai University",

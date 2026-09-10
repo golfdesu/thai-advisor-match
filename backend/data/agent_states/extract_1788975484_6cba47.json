@@ -1,0 +1,46 @@
+{
+  "session_id": "extract_1788975484_6cba47",
+  "target_university_th": "มหาวิทยาลัยอุบลราชธานี",
+  "target_university_en": "Ubon Ratchathani University",
+  "target_faculty_th": "คณะเภสัชศาสตร์",
+  "target_faculty_en": "Faculty of Pharmaceutical Sciences",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.phar.ubu.ac.th/staff"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "ubonratcha_facultyofp_waiwut_001": {
+      "id": "ubonratcha_facultyofp_waiwut_001",
+      "university": "Ubon Ratchathani University",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty": "Faculty of Pharmaceutical Sciences",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department": "คณะเภสัชศาสตร์",
+      "department_th": "คณะเภสัชศาสตร์",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Porntip",
+      "last_name": "Waiwut",
+      "full_name": "Porntip Waiwut",
+      "full_name_th": "รศ.ดร. พรทิพย์ ไววุฒิ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "พรทิพย์ ไววุฒิ": "ubonratcha_facultyofp_waiwut_001"
+  },
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 2061,
+  "status": "completed",
+  "last_error": null
+}

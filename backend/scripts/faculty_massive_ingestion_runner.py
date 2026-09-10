@@ -82,6 +82,21 @@ from scripts.data_sources.finearts_humanities_ai_extracted import EXTRACTED_FACU
 from scripts.data_sources.regional_centers_ai_extracted import EXTRACTED_FACULTIES as REGIONAL_CENTERS_FACULTIES
 from scripts.data_sources.sut_science_ai_extracted import EXTRACTED_FACULTIES as SUT_SCIENCE_FACULTIES
 from scripts.data_sources.regional_deep_ai_extracted import EXTRACTED_FACULTIES as REGIONAL_DEEP_FACULTIES
+from scripts.data_sources.kku_nursing_full_extracted import EXTRACTED_FACULTIES as KKU_NURSING_FACULTIES
+from scripts.data_sources.tu_engineering_full_extracted import EXTRACTED_FACULTIES as TU_ENGINEERING_FACULTIES
+from scripts.data_sources.psu_science_full_extracted import EXTRACTED_FACULTIES as PSU_SCIENCE_FACULTIES
+from scripts.data_sources.cmu_publichealth_ai_extracted import EXTRACTED_FACULTIES as CMU_PUBLICHEALTH_FACULTIES
+from scripts.data_sources.mahidol_nursing_ai_extracted import EXTRACTED_FACULTIES as MAHIDOL_NURSING_FACULTIES
+from scripts.data_sources.kku_science_ai_extracted import EXTRACTED_FACULTIES as KKU_SCIENCE_FACULTIES
+from scripts.data_sources.tsu_law_skill_state_extracted import EXTRACTED_FACULTIES as TSU_LAW_SKILL_STATE_FACULTIES
+from scripts.data_sources.tsu_edu_skill_state_extracted import EXTRACTED_FACULTIES as TSU_EDU_SKILL_STATE_FACULTIES
+from scripts.data_sources.tsu_ecba_skill_state_extracted import EXTRACTED_FACULTIES as TSU_ECBA_SKILL_STATE_FACULTIES
+from scripts.data_sources.tsu_ahs_skill_state_extracted import EXTRACTED_FACULTIES as TSU_AHS_SKILL_STATE_FACULTIES
+from scripts.data_sources.tsu_muse_skill_state_extracted import EXTRACTED_FACULTIES as TSU_MUSE_SKILL_STATE_FACULTIES
+from scripts.data_sources.ubu_agro_skill_state_extracted import EXTRACTED_FACULTIES as UBU_AGRO_SKILL_STATE_FACULTIES
+from scripts.data_sources.ubu_la_skill_state_extracted import EXTRACTED_FACULTIES as UBU_LA_SKILL_STATE_FACULTIES
+from scripts.data_sources.ubu_phar_skill_state_extracted import EXTRACTED_FACULTIES as UBU_PHAR_SKILL_STATE_FACULTIES
+from scripts.data_sources.msu_it_skill_state_extracted import EXTRACTED_FACULTIES as MSU_IT_SKILL_STATE_FACULTIES
 
 ALL_FACULTY_DATASETS = [
     ("มหาวิทยาลัยธรรมศาสตร์ และ มหาวิทยาลัยขอนแก่น (TU & KKU)", TU_KKU_FACULTIES),
@@ -154,6 +169,21 @@ ALL_FACULTY_DATASETS = [
     ("ชุดที่ 66: คณาจารย์แพทย์และวิทยาศาสตร์ ม.ภูมิภาค ขอนแก่น, ม.อ., มทส. (Batch 66: Regional Centers KKU, PSU, SUT)", REGIONAL_CENTERS_FACULTIES),
     ("ชุดที่ 67: คณาจารย์สำนักวิชาวิทยาศาสตร์ มทส. (Batch 67: SUT Institute of Science)", SUT_SCIENCE_FACULTIES),
     ("ชุดที่ 68: คณาจารย์มหาวิทยาลัยภูมิภาคเชิงลึก นเรศวร, บูรพา, ศิลปากร, มมส., วลัยลักษณ์, พะเยา, แม่โจ้, ทักษิณ, อุบลฯ (Batch 68: Regional Universities Deep Expansion)", REGIONAL_DEEP_FACULTIES),
+    ("ชุดที่ 69: คณาจารย์คณะพยาบาลศาสตร์ มหาวิทยาลัยขอนแก่น (Batch 69: KKU Faculty of Nursing)", KKU_NURSING_FACULTIES),
+    ("ชุดที่ 70: คณาจารย์คณะวิศวกรรมศาสตร์ มหาวิทยาลัยธรรมศาสตร์ (Batch 70: TU Faculty of Engineering)", TU_ENGINEERING_FACULTIES),
+    ("ชุดที่ 71: คณาจารย์คณะวิทยาศาสตร์ มหาวิทยาลัยสงขลานครินทร์ (Batch 71: PSU Faculty of Science)", PSU_SCIENCE_FACULTIES),
+    ("ชุดที่ 72: คณาจารย์คณะสาธารณสุขศาสตร์ มหาวิทยาลัยเชียงใหม่ (Batch 72: CMU Faculty of Public Health)", CMU_PUBLICHEALTH_FACULTIES),
+    ("ชุดที่ 73: คณาจารย์คณะพยาบาลศาสตร์ มหาวิทยาลัยมหิดล (Batch 73: Mahidol Faculty of Nursing)", MAHIDOL_NURSING_FACULTIES),
+    ("ชุดที่ 74: คณาจารย์คณะวิทยาศาสตร์ มหาวิทยาลัยขอนแก่น (Batch 74: KKU Faculty of Science)", KKU_SCIENCE_FACULTIES),
+    ("ชุดที่ 75: คณาจารย์คณะนิติศาสตร์ ม.ทักษิณ ดึงผ่าน SKILL.state Agent (Batch 75: TSU Law Live Scraped)", TSU_LAW_SKILL_STATE_FACULTIES),
+    ("ชุดที่ 76: คณาจารย์คณะศึกษาศาสตร์ ม.ทักษิณ ดึงผ่าน SKILL.state Agent (Batch 76: TSU Education Live Scraped)", TSU_EDU_SKILL_STATE_FACULTIES),
+    ("ชุดที่ 77: คณาจารย์คณะเศรษฐศาสตร์และการบริหาร ม.ทักษิณ ดึงผ่าน SKILL.state Agent (Batch 77: TSU ECBA Live Scraped)", TSU_ECBA_SKILL_STATE_FACULTIES),
+    ("ชุดที่ 78: คณาจารย์คณะสหวิทยาการ ม.ทักษิณ ดึงผ่าน SKILL.state Agent (Batch 78: TSU Allied Health Sciences Live Scraped)", TSU_AHS_SKILL_STATE_FACULTIES),
+    ("ชุดที่ 79: คณาจารย์คณะดุริยางคศาสตร์ ม.ทักษิณ ดึงผ่าน SKILL.state Agent (Batch 79: TSU Music Live Scraped)", TSU_MUSE_SKILL_STATE_FACULTIES),
+    ("ชุดที่ 80: คณาจารย์คณะเกษตรศาสตร์ ม.อุบลราชธานี ดึงผ่าน SKILL.state Agent (Batch 80: UBU Agriculture Live Scraped)", UBU_AGRO_SKILL_STATE_FACULTIES),
+    ("ชุดที่ 81: คณาจารย์คณะศิลปศาสตร์ ม.อุบลราชธานี ดึงผ่าน SKILL.state Agent (Batch 81: UBU Liberal Arts Live Scraped)", UBU_LA_SKILL_STATE_FACULTIES),
+    ("ชุดที่ 82: คณาจารย์คณะเภสัชศาสตร์ ม.อุบลราชธานี ดึงผ่าน SKILL.state Agent (Batch 82: UBU Pharmacy Live Scraped)", UBU_PHAR_SKILL_STATE_FACULTIES),
+    ("ชุดที่ 83: คณาจารย์คณะวิทยาการสารสนเทศ ม.มหาสารคาม ดึงผ่าน SKILL.state Agent (Batch 83: MSU Informatics Live Scraped)", MSU_IT_SKILL_STATE_FACULTIES),
 ]
 
 def build_faculty_embedding_text(f: FacultyDB) -> str:

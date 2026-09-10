@@ -1,8 +1,5 @@
 # Faculty Dataset: National Elite & Distinguished Researchers (Batch 8)
-# Verified strictly non-duplicated (Pre-checked against 1446 existing records - 9 new, 1 duplicate skipped)
-
 NEW_ELITE_FACULTIES_BATCH_8 = [
-    # 1. สุจิตรา ว่องเกษมจิตต์ - CU PPC (Catalysis & Zeolite)
     {
         "id": "cu_ppc_sujitra_001",
         "university": "Chulalongkorn University",
@@ -37,7 +34,6 @@ NEW_ELITE_FACULTIES_BATCH_8 = [
             "CO2 Hydrogenation to Light Olefins over Fe-K/Hierarchical Zeolite Tandem Catalysts"
         ]
     },
-    # 2. ประนอม จันทรโณทัย - KKU (Plant Taxonomy & Biodiversity)
     {
         "id": "kku_sci_pranom_001",
         "university": "Khon Kaen University",
@@ -72,7 +68,6 @@ NEW_ELITE_FACULTIES_BATCH_8 = [
             "Conservation Status Assessment of Endemic Plants in Northeastern Thailand Dry Dipterocarp Forests"
         ]
     },
-    # 3. อภิรัฐ ศิริธราธิวัตร - KKU (Tropical Medicine & Parasitology)
     {
         "id": "kku_med_aphirat_001",
         "university": "Khon Kaen University",
@@ -107,7 +102,6 @@ NEW_ELITE_FACULTIES_BATCH_8 = [
             "Spatial Epidemiology of Liver Fluke Infection Along the Chi-Mun River Basin"
         ]
     },
-    # 4. เฉลิมชัย ชัยกิตติภรณ์ - MU Pharmaceutical Sciences (Phytopharmaceutical)
     {
         "id": "mu_pharm_chalermchai_001",
         "university": "Mahidol University",
@@ -142,7 +136,6 @@ NEW_ELITE_FACULTIES_BATCH_8 = [
             "Phytosome Technology for Enhanced Oral Bioavailability of Poorly Soluble Herbal Actives"
         ]
     },
-    # 5. มาลินี ฉัตรโชติศักดิ์ - CU Sci Chemistry (Organic Synthesis)
     {
         "id": "cu_sci_malini_001",
         "university": "Chulalongkorn University",
@@ -177,7 +170,6 @@ NEW_ELITE_FACULTIES_BATCH_8 = [
             "Continuous-Flow Synthesis of Artemisinin Analogues Using Photoredox Catalysis"
         ]
     },
-    # 6. พรชัย ทรัพย์นิธิ - TU Econ (Development & Labour Economics)
     {
         "id": "tu_econ_pornchai_001",
         "university": "Thammasat University",
@@ -212,7 +204,6 @@ NEW_ELITE_FACULTIES_BATCH_8 = [
             "Evaluating Thailand's State Welfare Card: Effects on Consumption and Labour Supply"
         ]
     },
-    # 7. ศักกพิพัฒน์ วงศ์พิทักษ์ - KMITL Engineering (Structural & Earthquake)
     {
         "id": "kmitl_eng_sakpipat_001",
         "university": "King Mongkut's Institute of Technology Ladkrabang",
@@ -247,7 +238,6 @@ NEW_ELITE_FACULTIES_BATCH_8 = [
             "Multi-Hazard Resilience Assessment of Critical Infrastructure in the Chao Phraya Basin"
         ]
     },
-    # 8. วิชัย ริ้วตระกูล - CMU Science Physics (Condensed Matter)
     {
         "id": "cmu_sci_wichai_001",
         "university": "Chiang Mai University",
@@ -282,7 +272,6 @@ NEW_ELITE_FACULTIES_BATCH_8 = [
             "Machine-Learning Accelerated Discovery of Lead-Free Perovskites for Photovoltaics"
         ]
     },
-    # 9. นงลักษณ์ เมธากาญจนศักดิ์ - PSU Agro-Industry (Food Innovation)
     {
         "id": "psu_agro_nonglak_001",
         "university": "Prince of Songkla University",

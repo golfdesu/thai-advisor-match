@@ -108,7 +108,7 @@ PHRA_JOM_KLAO_MASSIVE_FACULTIES = [
         "university": "King Mongkut's University of Technology Thonburi",
         "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
         "faculty": "Institute of Field Robotics (FIBO)",
-        "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+        "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
         "department": "Medical Robotics and Assistive Devices Laboratory",
         "department_th": "ห้องปฏิบัติการหุ่นยนต์การแพทย์และอุปกรณ์ช่วยเหลือ",
         "academic_title": "Assoc. Prof. Dr.",

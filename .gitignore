@@ -57,4 +57,8 @@ MANIFEST
 data/*snippets*
 data/*_raw.json
 data/raw_*.json
+*.log
+backend/data/*.log
+backend/data/*.txt
+backend/data/agent_states/*.txt
 

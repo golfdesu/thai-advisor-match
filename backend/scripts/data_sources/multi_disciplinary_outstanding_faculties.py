@@ -1,24 +1,11 @@
 # Faculty Dataset: Multi-Disciplinary Outstanding University Researchers (National Awardees & World-Class Scholars)
-# Covering diverse academic fields across Thai Universities:
-# 1. Agricultural Genomics & Breeding (เกษตรศาสตร์และพันธุศาสตร์ข้าว)
-# 2. Thermal Engineering & Microwave Processing (วิศวกรรมความร้อนและไมโครเวฟ)
-# 3. Bioenergy & Biological Hydrogen (พลังงานชีวภาพและไฮโดรเจน)
-# 4. Management & OKRs / Performance Analytics (บริหารธุรกิจและการวัดผลองค์กร)
-# 5. Public Law & Administrative Constitutionalism (นิติศาสตร์มหาชนและรัฐธรรมนูญ)
-# 6. Industrial Economics & Trade Policy (เศรษฐศาสตร์อุตสาหกรรมและการแข่งขัน)
-# 7. Chemical Biology & Peptide Nucleic Acids (เคมีชีวภาพและกรดนิวคลีอิกเปปไทด์)
-# 8. Polymer Materials & Sustainable Composites (วิทยาการพอลิเมอร์และยางธรรมชาติ)
-
 MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES = [
-    # =========================================================================
-    # 1. KASETSART UNIVERSITY (KU) - พันธุศาสตร์และการปรับปรุงพันธุ์ข้าวระดับโลก
-    # =========================================================================
     {
         "id": "ku_agr_apichart_001",
         "university": "Kasetsart University",
         "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
         "faculty": "Faculty of Agriculture at Kamphaeng Saen",
-        "faculty_th": "คณะเกษตร กำแพงแสน",
+        "faculty_th": "คณะเกษตร",
         "department": "Department of Agronomy & Rice Science Center",
         "department_th": "ภาควิชาพืชไร่นา และศูนย์วิทยาศาสตร์ข้าว",
         "academic_title": "Prof. Dr.",
@@ -49,16 +36,12 @@ MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=ApichartVanavichit"
     },
-
-    # =========================================================================
-    # 2. THAMMASAT UNIVERSITY (TU) - วิศวกรรมไมโครเวฟและการถ่ายโอนความร้อน
-    # =========================================================================
     {
         "id": "tu_eng_phadungsak_001",
         "university": "Thammasat University",
         "university_th": "มหาวิทยาลัยธรรมศาสตร์",
         "faculty": "Thammasat School of Engineering (TSE)",
-        "faculty_th": "คณะวิศวกรรมศาสตร์ (TSE)",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
         "department": "Department of Mechanical Engineering & Center of Excellence in Electromagnetic Energy Utilization in Health and Materials (CEEUM)",
         "department_th": "ภาควิชาวิศวกรรมเครื่องกล และศูนย์ความเป็นเลิศด้านการใช้ประโยชน์จากพลังงานแม่เหล็กไฟฟ้า",
         "academic_title": "Prof. Dr.",
@@ -89,10 +72,6 @@ MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=PhadungsakRattanadecho"
     },
-
-    # =========================================================================
-    # 3. KHON KAEN UNIVERSITY (KKU) - พลังงานชีวภาพและก๊าซไฮโดรเจนชีวภาพ
-    # =========================================================================
     {
         "id": "kku_tech_alissara_001",
         "university": "Khon Kaen University",
@@ -129,16 +108,12 @@ MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=AlissaraReungsang"
     },
-
-    # =========================================================================
-    # 4. THAMMASAT UNIVERSITY (TU) - การบริหารจัดการเชิงกลยุทธ์และ OKRs
-    # =========================================================================
     {
         "id": "tu_tbs_nopadol_001",
         "university": "Thammasat University",
         "university_th": "มหาวิทยาลัยธรรมศาสตร์",
         "faculty": "Thammasat Business School (TBS)",
-        "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี (TBS)",
+        "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
         "department": "Department of Operations Management and Decision Science",
         "department_th": "ภาควิชาการบริหารการปฏิบัติการและวิทยาการตัดสินใจ",
         "academic_title": "Prof. Dr.",
@@ -169,10 +144,6 @@ MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=NopadolRompho"
     },
-
-    # =========================================================================
-    # 5. THAMMASAT UNIVERSITY (TU) - นิติศาสตร์มหาชนและกฎหมายรัฐธรรมนูญ
-    # =========================================================================
     {
         "id": "tu_law_surapol_001",
         "university": "Thammasat University",
@@ -209,10 +180,6 @@ MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=SurapolNitikraipot"
     },
-
-    # =========================================================================
-    # 6. THAMMASAT UNIVERSITY (TU) - เศรษฐศาสตร์อุตสาหกรรมและการกำกับดูแลการแข่งขัน
-    # =========================================================================
     {
         "id": "tu_econ_sakon_001",
         "university": "Thammasat University",
@@ -249,10 +216,6 @@ MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=SakonVaranyuwatana"
     },
-
-    # =========================================================================
-    # 7. CHULALONGKORN UNIVERSITY (CU) - เคมีชีวภาพและเซนเซอร์ทางพันธุกรรม (PNA)
-    # =========================================================================
     {
         "id": "cu_sci_tirayut_001",
         "university": "Chulalongkorn University",
@@ -288,10 +251,6 @@ MULTI_DISCIPLINARY_OUTSTANDING_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=TirayutVilaivan"
     },
-
-    # =========================================================================
-    # 8. MAHIDOL UNIVERSITY (MU) - นวัตกรรมยางธรรมชาติและวัสดุพอลิเมอร์คอมโพสิต
-    # =========================================================================
     {
         "id": "mu_sci_taweechai_001",
         "university": "Mahidol University",

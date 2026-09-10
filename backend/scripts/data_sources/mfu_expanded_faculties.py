@@ -1,20 +1,5 @@
 # Faculty Dataset: Mae Fah Luang University (MFU) - มหาวิทยาลัยแม่ฟ้าหลวง
-# Comprehensive Expansion across all key schools:
-# 1. School of Information Technology (สำนักวิชาเทคโนโลยีสารสนเทศ)
-# 2. School of Science (สำนักวิชาวิทยาศาสตร์)
-# 3. School of Cosmetic Science (สำนักวิชาวิทยาศาสตร์เครื่องสำอาง)
-# 4. School of Agro-Industry & Tea/Coffee Institute (สำนักวิชาอุตสาหกรรมเกษตร)
-# 5. School of Medicine & Anti-Aging (สำนักวิชาแพทยศาสตร์ และเวชศาสตร์ชะลอวัย)
-# 6. School of Integrative Medicine (สำนักวิชาการแพทย์บูรณาการ)
-# 7. School of Health Science (สำนักวิชาวิทยาศาสตร์สุขภาพ)
-# 8. School of Management (สำนักวิชาการจัดการ)
-# 9. School of Liberal Arts & Sinology (สำนักวิชาศิลปศาสตร์ และสำนักวิชาจีนวิทยา)
-# 10. School of Law (สำนักวิชานิติศาสตร์)
-
 MFU_EXPANDED_FACULTIES = [
-    # =========================================================================
-    # 1. SCHOOL OF INFORMATION TECHNOLOGY (สำนักวิชาเทคโนโลยีสารสนเทศ)
-    # =========================================================================
     {
         "id": "mfu_it_teeravisit_001",
         "university": "Mae Fah Luang University",
@@ -123,10 +108,6 @@ MFU_EXPANDED_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=WorasitSiricharoen"
     },
-
-    # =========================================================================
-    # 2. SCHOOL OF SCIENCE (สำนักวิชาวิทยาศาสตร์)
-    # =========================================================================
     {
         "id": "mfu_sci_ratchadawan_001",
         "university": "Mae Fah Luang University",
@@ -234,10 +215,6 @@ MFU_EXPANDED_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=SuratLerdprom"
     },
-
-    # =========================================================================
-    # 3. SCHOOL OF COSMETIC SCIENCE (สำนักวิชาวิทยาศาสตร์เครื่องสำอาง)
-    # =========================================================================
     {
         "id": "mfu_cosmetic_natthida_001",
         "university": "Mae Fah Luang University",
@@ -309,10 +286,6 @@ MFU_EXPANDED_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=PunyapatPoonpanich"
     },
-
-    # =========================================================================
-    # 4. SCHOOL OF AGRO-INDUSTRY & TEA/COFFEE INSTITUTE (สำนักวิชาอุตสาหกรรมเกษตร)
-    # =========================================================================
     {
         "id": "mfu_agro_phunsiri_001",
         "university": "Mae Fah Luang University",
@@ -354,7 +327,7 @@ MFU_EXPANDED_FACULTIES = [
         "university": "Mae Fah Luang University",
         "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
         "faculty": "School of Agro-Industry / Tea and Coffee Institute",
-        "faculty_th": "สำนักวิชาอุตสาหกรรมเกษตร และสถาบันชาและกาแฟ",
+        "faculty_th": "สำนักวิชาอุตสาหกรรมเกษตร",
         "department": "Department of Food Biotechnology and Fermentation Science",
         "department_th": "สาขาวิชาเทคโนโลยีชีวภาพทางอาหารและวิทยาศาสตร์การหมัก",
         "academic_title": "Assoc. Prof. Dr.",
@@ -385,10 +358,6 @@ MFU_EXPANDED_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=ChanidaHansawasdi"
     },
-
-    # =========================================================================
-    # 5. SCHOOL OF MEDICINE & ANTI-AGING (สำนักวิชาแพทยศาสตร์ และเวชศาสตร์ชะลอวัย)
-    # =========================================================================
     {
         "id": "mfu_med_suchai_001",
         "university": "Mae Fah Luang University",
@@ -461,10 +430,6 @@ MFU_EXPANDED_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=KomsanSuriya"
     },
-
-    # =========================================================================
-    # 6. SCHOOL OF INTEGRATIVE MEDICINE (สำนักวิชาการแพทย์บูรณาการ)
-    # =========================================================================
     {
         "id": "mfu_integ_sulakkana_001",
         "university": "Mae Fah Luang University",
@@ -535,10 +500,6 @@ MFU_EXPANDED_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=YupinSangsuk"
     },
-
-    # =========================================================================
-    # 7. SCHOOL OF HEALTH SCIENCE (สำนักวิชาวิทยาศาสตร์สุขภาพ)
-    # =========================================================================
     {
         "id": "mfu_health_tawit_001",
         "university": "Mae Fah Luang University",
@@ -611,10 +572,6 @@ MFU_EXPANDED_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=SompochIamsupapong"
     },
-
-    # =========================================================================
-    # 8. SCHOOL OF MANAGEMENT (สำนักวิชาการจัดการ)
-    # =========================================================================
     {
         "id": "mfu_mgmt_chatrudee_001",
         "university": "Mae Fah Luang University",
@@ -687,10 +644,6 @@ MFU_EXPANDED_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=PhatcharaPimonsree"
     },
-
-    # =========================================================================
-    # 9. SCHOOL OF LIBERAL ARTS & SINOLOGY (สำนักวิชาศิลปศาสตร์ และสำนักวิชาจีนวิทยา)
-    # =========================================================================
     {
         "id": "mfu_sino_teerapat_001",
         "university": "Mae Fah Luang University",
@@ -763,10 +716,6 @@ MFU_EXPANDED_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=WilaiLimroongruang"
     },
-
-    # =========================================================================
-    # 10. SCHOOL OF LAW (สำนักวิชานิติศาสตร์)
-    # =========================================================================
     {
         "id": "mfu_law_warat_001",
         "university": "Mae Fah Luang University",

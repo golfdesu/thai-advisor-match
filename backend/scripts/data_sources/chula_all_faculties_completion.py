@@ -1,16 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Faculty Dataset: Chulalongkorn University (CU) Complete Faculty & Institute Expansion
-Standardized Schema compliant with AGENTS.md & PDPA
-Pre-checked with RapidFuzz deduplication against 1,614 existing records (Zero Redundancy)
-Covering: Allied Health, Nursing, Sports Science, Fine Arts, Sasin, PPC, Political Science,
-Dentistry, Pharmacy, Veterinary, Psychology, SAR, CPS, CPHS, ERI, IAS
-"""
-
 CHULA_COMPLETION_FACULTIES = [
-    # =========================================================================
-    # 1. Faculty of Allied Health Sciences (คณะสหเวชศาสตร์ จุฬาฯ)
-    # =========================================================================
     {
         "id": "cu_ahs_wanida_001",
         "university": "Chulalongkorn University",
@@ -145,10 +134,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Personalized Medical Nutrition Therapy Guided by Genetic Risk Scores for Cardiovascular Diseases"
         ]
     },
-
-    # =========================================================================
-    # 2. Faculty of Nursing (คณะพยาบาลศาสตร์ จุฬาฯ)
-    # =========================================================================
     {
         "id": "cu_nurse_yupapin_001",
         "university": "Chulalongkorn University",
@@ -217,10 +202,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Cultural Adaptation and Implementation of Advance Care Planning in Tertiary University Hospitals"
         ]
     },
-
-    # =========================================================================
-    # 3. Faculty of Sports Science (คณะวิทยาศาสตร์การกีฬา จุฬาฯ)
-    # =========================================================================
     {
         "id": "cu_sports_chaiwat_001",
         "university": "Chulalongkorn University",
@@ -288,10 +269,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Impact of Exercise Prescription on Glycemic Control and Cardiorespiratory Fitness in Sedentary Adults"
         ]
     },
-
-    # =========================================================================
-    # 4. Faculty of Fine and Applied Arts (คณะศิลปกรรมศาสตร์ จุฬาฯ)
-    # =========================================================================
     {
         "id": "cu_faa_apinan_001",
         "university": "Chulalongkorn University",
@@ -394,16 +371,12 @@ CHULA_COMPLETION_FACULTIES = [
             "Creative Economy Interventions for Revitalizing Traditional Craft Guilds in Central Thailand"
         ]
     },
-
-    # =========================================================================
-    # 5. Sasin School of Management (สถาบันบัณฑิตฯ ศศินทร์ จุฬาฯ)
-    # =========================================================================
     {
         "id": "cu_sasin_fenwick_001",
         "university": "Chulalongkorn University",
         "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
         "faculty": "Sasin School of Management",
-        "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ แห่งจุฬาลงกรณ์มหาวิทยาลัย",
+        "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
         "department": "Department of Marketing & Digital Strategy",
         "department_th": "สาขาวิชาการตลาดและยุทธศาสตร์ดิจิทัล",
         "academic_title": "Prof. Dr.",
@@ -431,10 +404,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Measuring the ROI of Omnichannel Digital Transformation in Emerging Asian Economies"
         ]
     },
-
-    # =========================================================================
-    # 6. The Petroleum and Petrochemical College (วิทยาลัยปิโตรเลียมฯ PPC จุฬาฯ)
-    # =========================================================================
     {
         "id": "cu_ppc_pramoch_001",
         "university": "Chulalongkorn University",
@@ -537,10 +506,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Hierarchical Zeolites: Synthesis Strategies and Applications in Heavy Oil Catalytic Cracking"
         ]
     },
-
-    # =========================================================================
-    # 7. Faculty of Political Science (คณะรัฐศาสตร์ จุฬาฯ - สิงห์ดำ)
-    # =========================================================================
     {
         "id": "cu_polsci_siripan_001",
         "university": "Chulalongkorn University",
@@ -642,10 +607,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Agribusiness Value Chains and the Subordination of Peasant Labor in Southeast Asia"
         ]
     },
-
-    # =========================================================================
-    # 8. Faculty of Pharmaceutical Sciences (คณะเภสัชศาสตร์ จุฬาฯ)
-    # =========================================================================
     {
         "id": "cu_pharm_waranyoo_001",
         "university": "Chulalongkorn University",
@@ -712,10 +673,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Population Pharmacokinetics and Dosing Optimization of Polymyxin B in Critically Ill Sepsis Patients"
         ]
     },
-
-    # =========================================================================
-    # 9. Faculty of Dentistry (คณะทันตแพทยศาสตร์ จุฬาฯ)
-    # =========================================================================
     {
         "id": "cu_dent_thanaphum_001",
         "university": "Chulalongkorn University",
@@ -782,10 +739,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Five-Year Marginal Bone Stability and Esthetic Outcomes of Immediate Single Implants in the Anterior Maxilla"
         ]
     },
-
-    # =========================================================================
-    # 10. Faculty of Veterinary Science (คณะสัตวแพทยศาสตร์ จุฬาฯ)
-    # =========================================================================
     {
         "id": "cu_vet_achariya_001",
         "university": "Chulalongkorn University",
@@ -853,10 +806,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Impact of Cryoprotectant Formulations on Membrane Integrity and Mitochondrial Activity of Cryopreserved Feline Sperm"
         ]
     },
-
-    # =========================================================================
-    # 11. Faculty of Psychology (คณะจิตวิทยา จุฬาฯ)
-    # =========================================================================
     {
         "id": "cu_psy_natsuda_001",
         "university": "Chulalongkorn University",
@@ -925,10 +874,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Culturally Adapted Counseling Interventions for Thai Adults Experiencing Complicated Grief"
         ]
     },
-
-    # =========================================================================
-    # 12. School of Agricultural Resources (สำนักวิชาทรัพยากรการเกษตร จุฬาฯ - SAR)
-    # =========================================================================
     {
         "id": "cu_sar_nanthigorn_001",
         "university": "Chulalongkorn University",
@@ -963,10 +908,6 @@ CHULA_COMPLETION_FACULTIES = [
             "Flavor Precursor Profiling and Sensory Attributes of Shade-Grown Arabica Coffee in Upper Northern Thailand"
         ]
     },
-
-    # =========================================================================
-    # 13. College of Population Studies & Public Health Sciences (CPS & CPHS)
-    # =========================================================================
     {
         "id": "cu_cps_vipan_001",
         "university": "Chulalongkorn University",
@@ -1035,10 +976,6 @@ CHULA_COMPLETION_FACULTIES = [
             "E-Cigarette Prevalence, Dual Use and Nicotine Dependence Among Urban College Students"
         ]
     },
-
-    # =========================================================================
-    # 14. Energy Research Institute & Institute of Asian Studies (ERI & IAS)
-    # =========================================================================
     {
         "id": "cu_eri_kulyos_001",
         "university": "Chulalongkorn University",

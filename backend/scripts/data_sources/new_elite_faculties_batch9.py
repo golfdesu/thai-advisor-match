@@ -1,8 +1,5 @@
 # Faculty Dataset: National Elite & Distinguished Researchers (Batch 9)
-# Verified strictly non-duplicated (Pre-checked against 1455 existing records - 8 new, 1 duplicate skipped)
-
 NEW_ELITE_FACULTIES_BATCH_9 = [
-    # 1. วีระพงษ์ แพสุวรรณ - SUT (Renewable Energy & Thermoelectrics)
     {
         "id": "sut_eng_weerapong_001",
         "university": "Suranaree University of Technology",
@@ -37,7 +34,6 @@ NEW_ELITE_FACULTIES_BATCH_9 = [
             "Machine Learning Optimization of Thermoelectric Module Geometry"
         ]
     },
-    # 2. อัจฉรา อัศวรุจิกุลชัย - CU Chemical Engineering (Biomaterials & Tissue Engineering)
     {
         "id": "cu_eng_atchara_001",
         "university": "Chulalongkorn University",
@@ -72,7 +68,6 @@ NEW_ELITE_FACULTIES_BATCH_9 = [
             "3D Bioprinted Bone Scaffolds with Hierarchical Porosity"
         ]
     },
-    # 3. ศิวพร แพ่งสภา - KKU Dentistry (Craniofacial Genetics)
     {
         "id": "kku_dent_sivaporn_001",
         "university": "Khon Kaen University",
@@ -107,7 +102,6 @@ NEW_ELITE_FACULTIES_BATCH_9 = [
             "Dental Pulp Stem Cells for Alveolar Bone Regeneration"
         ]
     },
-    # 4. ชัยวัฒน์ ต่อสกุลแก้ว - MU Tropical Medicine (Malaria & Vector Biology)
     {
         "id": "mu_trop_chaiwat_001",
         "university": "Mahidol University",
@@ -142,7 +136,6 @@ NEW_ELITE_FACULTIES_BATCH_9 = [
             "Gene Drive Constructs for Population Suppression of Anopheles dirus"
         ]
     },
-    # 5. ณรงค์ฤทธิ์ สมบัติสมภพ - KMUTT Polymer (Biodegradable Plastics)
     {
         "id": "kmutt_sci_narongrit_sombatsompop_001",
         "university": "King Mongkut's University of Technology Thonburi",
@@ -177,7 +170,6 @@ NEW_ELITE_FACULTIES_BATCH_9 = [
             "Circular Economy Pathways for Post-Consumer PET in Thailand"
         ]
     },
-    # 6. กนกวรรณ เกียรติสุทธินนท์ - PSU Science (Marine Natural Products)
     {
         "id": "psu_sci_kanokwan_001",
         "university": "Prince of Songkla University",
@@ -212,7 +204,6 @@ NEW_ELITE_FACULTIES_BATCH_9 = [
             "Chemical Ecology of Coral Reef Sponges in the Andaman Sea"
         ]
     },
-    # 7. สุธีระ ประเสริฐสรรพ์ - PSU Engineering (Energy Systems & Bio-Energy)
     {
         "id": "psu_eng_sutheera_001",
         "university": "Prince of Songkla University",
@@ -247,7 +238,6 @@ NEW_ELITE_FACULTIES_BATCH_9 = [
             "Drying Characteristics of Para-Rubber Sheets Using Biomass Gasification"
         ]
     },
-    # 8. นันทนิตย์ ตั้งไพฑูรย์ - KU Agro-Industry (Food Safety)
     {
         "id": "ku_agro_nantanit_001",
         "university": "Kasetsart University",

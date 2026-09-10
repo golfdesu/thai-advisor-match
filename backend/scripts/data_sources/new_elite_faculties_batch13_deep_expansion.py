@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Faculty Dataset: 3 Phra Jom Klao & Regional Research Giants Deep Expansion (Batch 13)
-Standardized Schema compliant with AGENTS.md & PDPA
-Pre-checked with RapidFuzz deduplication against 1,508 existing records (Zero Redundancy)
-"""
-
 NEW_ELITE_FACULTIES_BATCH_13 = [
-    # =========================================================================
-    # 1. KMUTT (King Mongkut's University of Technology Thonburi - มจธ.)
-    # =========================================================================
     {
         "id": "kmutt_food_sakamon_001",
         "university": "King Mongkut's University of Technology Thonburi",
@@ -82,7 +73,7 @@ NEW_ELITE_FACULTIES_BATCH_13 = [
         "university": "King Mongkut's University of Technology Thonburi",
         "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
         "faculty": "Institute of Field Robotics (FIBO)",
-        "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+        "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
         "department": "Department of Robotics and Automation Systems",
         "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
         "academic_title": "Asst. Prof. Dr.",
@@ -149,7 +140,7 @@ NEW_ELITE_FACULTIES_BATCH_13 = [
         "university": "King Mongkut's University of Technology Thonburi",
         "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
         "faculty": "School of Bioresources and Technology (SBT)",
-        "faculty_th": "คณะทรัพยากรชีวภาพและเทคโนโลยี (SBT)",
+        "faculty_th": "คณะทรัพยากรชีวภาพและเทคโนโลยี",
         "department": "Department of Biotechnology",
         "department_th": "สาขาเทคโนโลยีชีวภาพ",
         "academic_title": "Assoc. Prof. Dr.",
@@ -177,10 +168,6 @@ NEW_ELITE_FACULTIES_BATCH_13 = [
             "Molecular Characterization of Antimicrobial Peptides from Hemocytes of Penaeus monodon"
         ]
     },
-
-    # =========================================================================
-    # 2. KMITL (King Mongkut's Institute of Technology Ladkrabang - สจล.)
-    # =========================================================================
     {
         "id": "kmitl_eng_suttisak_001",
         "university": "King Mongkut's Institute of Technology Ladkrabang",
@@ -282,10 +269,6 @@ NEW_ELITE_FACULTIES_BATCH_13 = [
             "Stability and Release Kinetics of Microencapsulated Antioxidants in Active Food Packaging"
         ]
     },
-
-    # =========================================================================
-    # 3. KMUTNB (King Mongkut's University of Technology North Bangkok - มจพ.)
-    # =========================================================================
     {
         "id": "kmutnb_chem_piyabutr_001",
         "university": "King Mongkut's University of Technology North Bangkok",
@@ -354,10 +337,6 @@ NEW_ELITE_FACULTIES_BATCH_13 = [
             "Thermo-Mechanical Fatigue Evaluation of High-Strength Structural Steels in High-Temperature Environments"
         ]
     },
-
-    # =========================================================================
-    # 4. PSU (Prince of Songkla University - มหาวิทยาลัยสงขลานครินทร์)
-    # =========================================================================
     {
         "id": "psu_agro_manat_001",
         "university": "Prince of Songkla University",
@@ -458,10 +437,6 @@ NEW_ELITE_FACULTIES_BATCH_13 = [
             "Cost-Effectiveness of School-Based Fluoride Varnish Programs in Low-Income Communities"
         ]
     },
-
-    # =========================================================================
-    # 5. NU (Naresuan University - มหาวิทยาลัยนเรศวร)
-    # =========================================================================
     {
         "id": "nu_sci_theera_001",
         "university": "Naresuan University",
@@ -529,10 +504,6 @@ NEW_ELITE_FACULTIES_BATCH_13 = [
             "Thermal Modeling and Ventilation Optimization in Naturally Ventilated Tropical Greenhouses"
         ]
     },
-
-    # =========================================================================
-    # 6. BUU (Burapha University - มหาวิทยาลัยบูรพา)
-    # =========================================================================
     {
         "id": "buu_infor_surasak_001",
         "university": "Burapha University",
@@ -600,10 +571,6 @@ NEW_ELITE_FACULTIES_BATCH_13 = [
             "Larvicidal Efficacy of Microencapsulated Essential Oils from Indigenous Herbs Against Dengue Vectors"
         ]
     },
-
-    # =========================================================================
-    # 7. SWU (Srinakharinwirot University - มหาวิทยาลัยศรีนครินทรวิโรฒ)
-    # =========================================================================
     {
         "id": "swu_pt_nawarat_001",
         "university": "Srinakharinwirot University",
@@ -637,10 +604,6 @@ NEW_ELITE_FACULTIES_BATCH_13 = [
             "Kinematic and Kinetic Gait Alterations in Patients with Early-to-Moderate Stage Parkinson's Disease"
         ]
     },
-
-    # =========================================================================
-    # 8. SU (Silpakorn University - มหาวิทยาลัยศิลปากร)
-    # =========================================================================
     {
         "id": "su_eng_suthat_001",
         "university": "Silpakorn University",

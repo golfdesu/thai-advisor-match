@@ -3,6 +3,11 @@
 
 ### 🟢 Verified Active Directory URLs
 
+_(none — all CMU directory URLs are faculty-scoped below; do NOT auto-seed across faculties.)_
+
+### Faculty-Scoped Endpoints (for matching faculty runs ONLY — never auto-seed into other faculties)
+
+- Faculty of Public Health (คณะสาธารณสุขศาสตร์): `https://ph.cmu.ac.th/lecturer.php` (11 profiles verified 2026-09-09; `staff.php` = support staff only, 0 faculty)
 - `https://defd.edu.cmu.ac.th/structure/Instructor` (คณะศึกษาศาสตร์ - 19 profiles verified 2026-09-06)
 - `https://dctl.edu.cmu.ac.th/structure/dctlacademicstaff` (คณะศึกษาศาสตร์ - 13 profiles verified 2026-09-06)
 - `https://dctl.edu.cmu.ac.th/structure/thstaff` (คณะศึกษาศาสตร์ - 4 profiles verified 2026-09-06)

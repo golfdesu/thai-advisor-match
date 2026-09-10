@@ -1,11 +1,5 @@
 # Faculty Dataset: Elite National Scientists & Breakthrough Researchers from Thai Universities
-# Focused strictly on accredited Higher Education Institutions (Universities) across Thailand:
-# Chulalongkorn University, Chiang Mai University, Suranaree University of Technology, Khon Kaen University, etc.
-
 ELITE_BREAKTHROUGH_FACULTIES = [
-    # =========================================================================
-    # 1. CHULALONGKORN UNIVERSITY (CU) - นักวิจัยดีเด่นแห่งชาติและระดับโลก
-    # =========================================================================
     {
         "id": "cu_eng_suttichai_001",
         "university": "Chulalongkorn University",
@@ -78,10 +72,6 @@ ELITE_BREAKTHROUGH_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=OrawonChailapakul"
     },
-
-    # =========================================================================
-    # 2. CHIANG MAI UNIVERSITY (CMU) - นักวิทยาศาสตร์ดีเด่นระดับสากล
-    # =========================================================================
     {
         "id": "cmu_ams_watchara_001",
         "university": "Chiang Mai University",
@@ -118,10 +108,6 @@ ELITE_BREAKTHROUGH_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=WatcharaKasinrerk"
     },
-
-    # =========================================================================
-    # 3. SURANAREE UNIVERSITY OF TECHNOLOGY (SUT) - ฟิสิกส์ควอนตัมและแสงซินโครตรอน
-    # =========================================================================
     {
         "id": "sut_sci_sukit_001",
         "university": "Suranaree University of Technology",
@@ -158,10 +144,6 @@ ELITE_BREAKTHROUGH_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=SukitLimpijumnong"
     },
-
-    # =========================================================================
-    # 4. KHON KAEN UNIVERSITY (KKU) - เมธีวิจัยอาวุโสด้านวิทยาศาสตร์การเกษตรและชีววิทยาศาสตร์
-    # =========================================================================
     {
         "id": "kku_sci_sompong_001",
         "university": "Khon Kaen University",

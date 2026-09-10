@@ -1,11 +1,5 @@
 # Faculty Dataset: 3 Phra Jom Klao Elite Scholars & Outstanding Researchers (Batch 11)
-# Standardized Schema compliant with AGENTS.md & PDPA
-# Pre-checked with RapidFuzz deduplication against 1,468 existing records (Zero Redundancy)
-
 PHRA_JOM_KLAO_ELITE_BATCH_11 = [
-    # =========================================================================
-    # KMUTNB (King Mongkut's University of Technology North Bangkok - มจพ.)
-    # =========================================================================
     {
         "id": "kmutnb_eng_prayoot_001",
         "university": "King Mongkut's University of Technology North Bangkok",
@@ -79,7 +73,7 @@ PHRA_JOM_KLAO_ELITE_BATCH_11 = [
         "university": "King Mongkut's University of Technology North Bangkok",
         "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
         "faculty": "College of Industrial Technology",
-        "faculty_th": "วิทยาลัยเทคโนโลยีอุตสาหกรรม (CIT)",
+        "faculty_th": "วิทยาลัยเทคโนโลยีอุตสาหกรรม",
         "department": "Department of Power Engineering Technology",
         "department_th": "ภาควิชาเทคโนโลยีวิศวกรรมไฟฟ้า",
         "academic_title": "Assoc. Prof. Dr.",
@@ -142,10 +136,6 @@ PHRA_JOM_KLAO_ELITE_BATCH_11 = [
             "Biomechanical Analysis of Lumbar Spine Under Vibrational Loads in Agricultural Drivers"
         ]
     },
-
-    # =========================================================================
-    # KMITL (King Mongkut's Institute of Technology Ladkrabang - สจล.)
-    # =========================================================================
     {
         "id": "kmitl_eng_monai_001",
         "university": "King Mongkut's Institute of Technology Ladkrabang",
@@ -282,10 +272,6 @@ PHRA_JOM_KLAO_ELITE_BATCH_11 = [
             "Coupled Surface Water-Groundwater Simulation for Integrated Basin Flood Mitigation"
         ]
     },
-
-    # =========================================================================
-    # KMUTT (King Mongkut's University of Technology Thonburi - มจธ.)
-    # =========================================================================
     {
         "id": "kmutt_energy_somchart_001",
         "university": "King Mongkut's University of Technology Thonburi",

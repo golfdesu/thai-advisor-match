@@ -6,6 +6,9 @@ import os
 import sys
 import argparse
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 # Setup python path to project backend
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
@@ -23,6 +26,7 @@ def main():
     parser.add_argument("--resume", type=str, help="Path to checkpoint JSON to resume")
     parser.add_argument("--export-file", type=str, help="Path to save Python dataset", default=None)
     parser.add_argument("--max-steps", type=int, default=20, help="Maximum steps to crawl")
+    parser.add_argument("--no-wiki", action="store_true", help="Disable wiki auto-seeding (strict faculty-scoped run)")
 
     args = parser.parse_args()
 
@@ -35,7 +39,8 @@ def main():
         target_university_en=args.univ_en,
         target_faculty_th=args.faculty_th,
         target_faculty_en=args.faculty_en,
-        max_steps=args.max_steps
+        max_steps=args.max_steps,
+        auto_lookup_wiki=not args.no_wiki
     )
 
     if args.resume:

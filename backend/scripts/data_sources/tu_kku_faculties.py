@@ -1,10 +1,5 @@
 # Faculty Dataset: Thammasat University (TU) & Khon Kaen University (KKU)
-# Standardized Schema compliant with AGENTS.md & PDPA
-
 TU_KKU_FACULTIES = [
-    # =========================================================================
-    # THAMMASAT UNIVERSITY (TU) - SIIT, Engineering, Science, Medicine, Law
-    # =========================================================================
     {
         "id": "tu_siit_001",
         "university": "Thammasat University",
@@ -78,7 +73,6 @@ TU_KKU_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=StanislavMakhanov"
     },
-    # tu_siit_003 (Cholwich Nataradee) — REMOVED: canonical duplicate merged into tu_siit_cholwich_001 (Nattee)
     {
         "id": "tu_eng_001",
         "university": "Thammasat University",
@@ -220,10 +214,6 @@ TU_KKU_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=PetchRuchirawat"
     },
-
-    # =========================================================================
-    # KHON KAEN UNIVERSITY (KKU) - Engineering, Medicine, Science, Agriculture
-    # =========================================================================
     {
         "id": "kku_eng_001",
         "university": "Khon Kaen University",
@@ -403,5 +393,5 @@ TU_KKU_FACULTIES = [
             "Automated Pest and Disease Recognition in Cassava Crops using Multi-Modal Vision Transformers"
         ],
         "scholar_url": "https://scholar.google.com/citations?user=ChakritWatcharapan"
-    },
+    }
 ]

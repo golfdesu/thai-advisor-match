@@ -1,10 +1,5 @@
 # Batch 2 Faculty Expansion Dataset (40+ Professors across TU, KKU, PSU, KMITL, KMUTT, SUT, SWU, SU, BUU)
-
 BATCH2_FACULTIES = [
-    # =========================================================================
-    # THAMMASAT UNIVERSITY (TU)
-    # =========================================================================
-    # tu_law_001 (Surapol Nitikraipot) — REMOVED: canonical duplicate merged into tu_law_surapol_001 (elite multi-disciplinary)
     {
         "id": "tu_econ_001",
         "university": "Thammasat University",
@@ -70,10 +65,6 @@ BATCH2_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=ChaiwatSathaAnand"
     },
-
-    # =========================================================================
-    # KHON KAEN UNIVERSITY (KKU)
-    # =========================================================================
     {
         "id": "kku_dent_001",
         "university": "Khon Kaen University",
@@ -140,10 +131,6 @@ BATCH2_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=AnanPolthanee"
     },
-
-    # =========================================================================
-    # PRINCE OF SONGKLA UNIVERSITY (PSU)
-    # =========================================================================
     {
         "id": "psu_pharm_001",
         "university": "Prince of Songkla University",
@@ -209,10 +196,6 @@ BATCH2_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=CharunBunyakan"
     },
-
-    # =========================================================================
-    # KMITL (King Mongkut's Institute of Technology Ladkrabang)
-    # =========================================================================
     {
         "id": "kmitl_arch_001",
         "university": "King Mongkut's Institute of Technology Ladkrabang",
@@ -279,11 +262,6 @@ BATCH2_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=WarawutKritsanaviparkporn"
     },
-
-    # =========================================================================
-    # KMUTT (King Mongkut's University of Technology Thonburi)
-    # =========================================================================
-    # kmutt_jgsee_001 (Navadol Laosiripojana) — REMOVED: canonical duplicate merged into kmutt_jgsee_navadol_001 (elite Batch 7, correctly spelled)
     {
         "id": "kmutt_eng_001",
         "university": "King Mongkut's University of Technology Thonburi",
@@ -316,5 +294,5 @@ BATCH2_FACULTIES = [
             "Thermal Conductivity and Viscosity of Carbon Nanotube-Based Nanofluids"
         ],
         "scholar_url": "https://scholar.google.com/citations?user=SomchaiWongwises"
-    },
+    }
 ]

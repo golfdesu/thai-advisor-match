@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1788975483_f71c4d",
+  "target_university_th": "มหาวิทยาลัยอุบลราชธานี",
+  "target_university_en": "Ubon Ratchathani University",
+  "target_faculty_th": "คณะเกษตรศาสตร์",
+  "target_faculty_en": "Faculty of Agriculture",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://agri.ubu.ac.th/mis/staff/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 2073,
+  "status": "completed",
+  "last_error": null
+}

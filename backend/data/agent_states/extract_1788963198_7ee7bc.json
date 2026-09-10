@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1788963198_7ee7bc",
+  "target_university_th": "มหาวิทยาลัยมหิดล",
+  "target_university_en": "Mahidol University",
+  "target_faculty_th": "คณะพยาบาลศาสตร์",
+  "target_faculty_en": "Faculty of Nursing",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://ns.mahidol.ac.th/english/th/academic/index.html",
+    "https://ns.mahidol.ac.th/dns"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 2365,
+  "status": "completed",
+  "last_error": null
+}

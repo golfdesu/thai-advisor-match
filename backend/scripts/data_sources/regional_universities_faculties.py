@@ -1,13 +1,5 @@
 # Faculty Dataset: Regional Research Universities of Thailand
-# Standardized Schema compliant with AGENTS.md, PDPA, and data-acquire-academic skill
-# Covering PSU (South), NU (Lower North), BUU (East), MFU (Upper North), UBU (Lower Isan),
-# MSU (Central Isan), WU (South), UP (Upper North), TSU (South), MJU (North), SU (West/Central), SWU (Central)
-
 REGIONAL_UNIVERSITIES_FACULTIES = [
-    # =========================================================================
-    # 1. PRINCE OF SONGKLA UNIVERSITY (PSU) - มหาวิทยาลัยสงขลานครินทร์ (ภาคใต้)
-    # Hat Yai, Pattani, Phuket, Surat Thani, Trang
-    # =========================================================================
     {
         "id": "psu_eng_perawat_001",
         "university": "Prince of Songkla University",
@@ -188,11 +180,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=WiphadaWettayaprasit"
     },
-
-    # =========================================================================
-    # 2. NARESUAN UNIVERSITY (NU) - มหาวิทยาลัยนเรศวร (ภาคเหนือตอนล่าง / พิษณุโลก)
-    # Energy, Engineering, Pharmaceutical Sciences, Agriculture
-    # =========================================================================
     {
         "id": "nu_eng_sukruedee_001",
         "university": "Naresuan University",
@@ -336,11 +323,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=SaritpornVitheepradit"
     },
-
-    # =========================================================================
-    # 3. BURAPHA UNIVERSITY (BUU) - มหาวิทยาลัยบูรพา (ภาคตะวันออก / EEC / ชลบุรี)
-    # Marine Science, Informatics, Engineering, Logistics
-    # =========================================================================
     {
         "id": "buu_informatics_krisana_001",
         "university": "Burapha University",
@@ -449,11 +431,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=WanchaiRattanawong"
     },
-
-    # =========================================================================
-    # 4. MAE FAH LUANG UNIVERSITY (MFU) - มหาวิทยาลัยแม่ฟ้าหลวง (ภาคเหนือตอนบน / เชียงราย)
-    # Tea & Coffee, Cosmetic Science, Integrative Medicine, IT
-    # =========================================================================
     {
         "id": "mfu_cosmetic_mayuree_001",
         "university": "Mae Fah Luang University",
@@ -561,11 +538,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=PunthepYodmongkol"
     },
-
-    # =========================================================================
-    # 5. UBON RATCHATHANI UNIVERSITY (UBU) - มหาวิทยาลัยอุบลราชธานี (ภาคอีสานตอนล่าง)
-    # Agriculture, Energy, Engineering, Science
-    # =========================================================================
     {
         "id": "ubu_eng_chatchai_001",
         "university": "Ubon Ratchathani University",
@@ -674,11 +646,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=WorawatSriprom"
     },
-
-    # =========================================================================
-    # 6. MAHASARAKHAM UNIVERSITY (MSU) - มหาวิทยาลัยมหาสารคาม (ภาคอีสานตอนกลาง)
-    # Biodiversity, Pharmacy, Informatics, Local Wisdom
-    # =========================================================================
     {
         "id": "msu_sci_bussabong_001",
         "university": "Mahasarakham University",
@@ -751,11 +718,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=ChumpolMunklang"
     },
-
-    # =========================================================================
-    # 7. WALALAK UNIVERSITY (WU) - มหาวิทยาลัยวลัยลักษณ์ (ภาคใต้ / นครศรีธรรมราช)
-    # Medicine, Science, Engineering, Agriculture
-    # =========================================================================
     {
         "id": "wu_sci_monrudee_001",
         "university": "Walailak University",
@@ -828,11 +790,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=ChitwadeeBoonma"
     },
-
-    # =========================================================================
-    # 8. UNIVERSITY OF PHAYAO (UP) - มหาวิทยาลัยพะเยา (ภาคเหนือตอนบน)
-    # Energy, Agriculture, ICT, Pharmacy
-    # =========================================================================
     {
         "id": "up_ict_naronk_001",
         "university": "University of Phayao",
@@ -905,11 +862,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=WittayaPhanwanna"
     },
-
-    # =========================================================================
-    # 9. THAKSIN UNIVERSITY (TSU) - มหาวิทยาลัยทักษิณ (ภาคใต้ / สงขลา-พัทลุง)
-    # Energy, Marine, Sustainable Agriculture, Education
-    # =========================================================================
     {
         "id": "tsu_sci_wichai_001",
         "university": "Thaksin University",
@@ -982,11 +934,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=AnchaleeSirichote"
     },
-
-    # =========================================================================
-    # 10. MAEJO UNIVERSITY (MJU) - มหาวิทยาลัยแม่โจ้ (ภาคเหนือ / เชียงใหม่)
-    # Agricultural Excellence, Smart Farming, Renewable Energy, Fisheries
-    # =========================================================================
     {
         "id": "mju_agri_weerapon_001",
         "university": "Maejo University",
@@ -1059,11 +1006,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=NatthawudDussadee"
     },
-
-    # =========================================================================
-    # 11. SILPAKORN UNIVERSITY (SU) - มหาวิทยาลัยศิลปากร (ภาคกลาง/ตะวันตก / นครปฐม-เพชรบุรี)
-    # Pharmacy, Engineering, Archaeology, Art & Design, Science
-    # =========================================================================
     {
         "id": "su_pharm_praneet_001",
         "university": "Silpakorn University",
@@ -1136,11 +1078,6 @@ REGIONAL_UNIVERSITIES_FACULTIES = [
         ],
         "scholar_url": "https://scholar.google.com/citations?user=TanesTanitteerapan"
     },
-
-    # =========================================================================
-    # 12. SRINAKHARINWIROT UNIVERSITY (SWU) - มหาวิทยาลัยศรีนครินทรวิโรฒ (กรุงเทพฯ - องครักษ์ นครนายก)
-    # Medicine, Pharmacy, Engineering, Education, Science
-    # =========================================================================
     {
         "id": "swu_med_narin_001",
         "university": "Srinakharinwirot University",

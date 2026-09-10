@@ -1,0 +1,779 @@
+{
+  "session_id": "extract_1788960059_25b5af",
+  "target_university_th": "มหาวิทยาลัยสงขลานครินทร์",
+  "target_university_en": "Prince of Songkla University",
+  "target_faculty_th": "คณะวิทยาศาสตร์",
+  "target_faculty_en": "Faculty of Science",
+  "pending_urls": [
+    "https://www.fms.psu.ac.th/professor/professor-dba/professor-bis/",
+    "https://www.fms.psu.ac.th/professor/professor-dba/professor-bba/",
+    "https://www.fms.psu.ac.th/professor/professor-dba/professor-lgm/",
+    "https://www.fms.psu.ac.th/professor/professor-dba/professor-mice/",
+    "https://www.fms.psu.ac.th/professor/professor-dacc/professor-acc/",
+    "https://law.psu.ac.th/index.php/about/personnel/lecturer.html",
+    "https://www.sci.psu.ac.th/personnel-lists/?id=01",
+    "https://www.sci.psu.ac.th/personnel-lists/?id=02",
+    "https://www.sci.psu.ac.th/personnel-lists/?id=03",
+    "https://www.sci.psu.ac.th/personnel-lists/?id=04"
+  ],
+  "visited_urls": [
+    "https://www.fms.psu.ac.th/professor/professor-dpa/professor-pa/",
+    "https://www.fms.psu.ac.th/professor/professor-dba/professor-fin/",
+    "https://www.fms.psu.ac.th/professor/professor-dba/professor-mkt/",
+    "https://www.fms.psu.ac.th/professor/professor-dba/professor-hrm/"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "princeofso_facultyofs_tepayakul_001": {
+      "id": "princeofso_facultyofs_tepayakul_001",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Ruechuta",
+      "last_name": "Tepayakul",
+      "full_name": "Ruechuta Tepayakul",
+      "full_name_th": "ผศ.ดร. ฤๅชุตา เทพยากุล",
+      "role": "อาจารย์ประจำ",
+      "email": "ruechuta.t@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. in Management, Prince of Songkla University, 2558"
+      ],
+      "research_interests": [
+        "การบริหารทรัพยากรมนุษย์",
+        "การบริหารคนเก่ง",
+        "การบริหารทุนมนุษย์",
+        "องค์การและการจัดการ",
+        "พฤติกรรมองค์การ"
+      ],
+      "featured_publications": [
+        "Tepayakul, R., & Rintahaisong, I. (2018). Job Satisfaction and Employee Engagement among Human Resources Staff of Thai Private Higher Education Institutions. The Journal of Behavioral Science, 13(2), 68–81.",
+        "Tepayakul, R., & Rintahaisong, I. (2016). Finding Components of Talent Management System. Silpakorn University Journal of Social Sciences, Humanities, and Arts, 16(3), 77–90."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_taveekan_002": {
+      "id": "princeofso_facultyofs_taveekan_002",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Thunradee",
+      "last_name": "Taveekan",
+      "full_name": "Thunradee Taveekan",
+      "full_name_th": "ดร. ธัญรดี ทวีกาญจน์",
+      "role": "อาจารย์ประจำ",
+      "email": "thunradee.t@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. (Social Science), School of Global, Urban and Social Studies, RMIT University, Australia, 2014"
+      ],
+      "research_interests": [
+        "การบริหารการปกครอง",
+        "นโยบายสาธารณะ",
+        "การพัฒนา"
+      ],
+      "featured_publications": [
+        "Battersby P, Taveekan T, and Nimbtik G. Models of Governance: Governance, Power and Participation” In Battersby P and Roy R, eds. International Development: A Global Perspective on Theory and Practice. London, UK: SAGE; 2017: 50 – 67."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_iso_003": {
+      "id": "princeofso_facultyofs_iso_003",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Siriwit",
+      "last_name": "Iso",
+      "full_name": "Siriwit Iso",
+      "full_name_th": "ดร. สิริวิท อิสโร",
+      "role": "อาจารย์ประจำ",
+      "email": "siriwit.i@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. รัฐศาสตรดุษฎีบัณฑิต (รัฐศาสตร์), จุฬาลงกรณ์มหาวิทยาลัย, 2558"
+      ],
+      "research_interests": [
+        "การบริหารคุณภาพ",
+        "การบริหารยุทธศาสตร์",
+        "การประเมินผลโครงการ",
+        "รัฐประศาสนศาสตร์"
+      ],
+      "featured_publications": [
+        "ศิรภัสสรศ์ วงศ์ทองดี, สิริวิท อิสโร และคณะ. 2559. ยุทธศาสตร์การนำคุณค่าของผู้สูงอายุมาสู่สังคมอย่างสร้างสรรค์บนพื้นฐานการสร้างหลักประกันคุณภาพชีวิตที่ดีให้กับประชากรทุกวัย. วารสารวิทยาลัยพยาบาลพระปกเกล้า จันทบุรี, ปีที่ 27 ฉบับที่ 2 (มีนาคม – สิงหาคม).",
+        "สิริวิท อิสโร. 2558. ประสิทธิผลของการบริหารคุณภาพในองค์การภาครัฐของไทย (Effectiveness of Quality Management in Thai Public Organizations). วารสารการเมือง การบริหาร และกฎหมาย,7(1)."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_pulsawasd_004": {
+      "id": "princeofso_facultyofs_pulsawasd_004",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Sorawit",
+      "last_name": "Pulsawasd",
+      "full_name": "Sorawit Pulsawasd",
+      "full_name_th": "ดร. สรวิศ ลิ้มโอภาส พูลสวัสดิ์",
+      "role": "อาจารย์ประจำ",
+      "email": "sorawit.pu@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "PhD in Social Sciences (NGO and Development Management), University of East London, United Kingdom, 2024",
+        "Ph.D. (Management), University of East London, United Kingdom, 2024"
+      ],
+      "research_interests": [
+        "การบริหารองค์การไม่แสวงหาผลกำไร",
+        "การทำงานร่วมข้ามภาคส่วนระหว่างรัฐบาล ภาคธุรกิจ และภาคประชาสังคม",
+        "การร่วมลงทุนระหว่างภาครัฐและภาคเอกชนในกิจการของรัฐ",
+        "การบริหารการพัฒนาและความยั่งยืน"
+      ],
+      "featured_publications": [
+        "Pulsawasd, S (April, 2018) “Social Partners or Social Contractors?: SDNGO-NTNC Collaborations and Development as Service Delivery in Thailand”, University of East London",
+        "Pulsawasd, S (April, 2018) “Social Partners or Social Contractors?: SDNGO-NTNC Collaborations and Development as Service Delivery in Thailand”, University of East London, Department of Social Sciences, Symposium Research in Progress",
+        "Pulsawasd S & Paul G, (August, 2016): Identification and removal of the collaboration barriers between Multinational Corporations and Local Non-Governmental Organisations in the Asia Pacific: A Case Study of Thailand, 9th International Society for Third-Sector Research (ISTR) Asia Pacific Regional conference in Japan"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_ekareesakul_005": {
+      "id": "princeofso_facultyofs_ekareesakul_005",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Kittipan",
+      "last_name": "Ekareesakul",
+      "full_name": "Kittipan Ekareesakul",
+      "full_name_th": "ดร. กิตติพันธ์ เอกอารีสกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "kittipan.e@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. in Public Management, Universiti Utara Malaysia, 2025"
+      ],
+      "research_interests": [
+        "นโยบายสาธารณะและการจัดการ"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_amsuk_006": {
+      "id": "princeofso_facultyofs_amsuk_006",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Ratchaphon",
+      "last_name": "Amsuk",
+      "full_name": "Ratchaphon Amsuk",
+      "full_name_th": "ดร. รัชพล อ่ำสุข",
+      "role": "อาจารย์ประจำ",
+      "email": "ratchaphon.a@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "D.P.A. (Public and Private Management), National Institute of Development Administration, THAILAND, 2023"
+      ],
+      "research_interests": [
+        "Elderly and Aging Society",
+        "Organization Theory and Organization Management",
+        "Public/Private Management",
+        "Public Policy",
+        "Participation"
+      ],
+      "featured_publications": [
+        "Amsuk, R. (2026). Cultural heritage management in Thailand: The perspective from regulation, implementation, and impediment under public-private partnership and civil society participation. Asia-Pacific Social Science Review, 26(2).",
+        "Amsuk, R., Tupmongkol, P., Marnarath, P., & Promma, S. (2025). Isomorphism and network governance: A reflection of the Thai elderly quality of life development and career promotion centers. Asia-Pacific Social Science Review, 25(4), 88-102.",
+        "Amsuk, R. (2025). Thai elderly’s working needs during 2007–2021: Empirical findings on aging health status and impact from Thai elderly financial support policy. Asia-Pacific Social Science Review, 25(2), 12-23.",
+        "Amsuk, R., & Lorsuwannarat, T. (2023). The management of the elderly quality of life development and career promotion centers. Thai Interdisciplinary and Sustainability Review, 12(2), 121-130.",
+        "Phramaha Arun Panyaruno, Wijitwatchararak, K., Amsuk, R., & Charoenjai, N. (2020). Aging empowerment guideline by using the temple based aging self care in Thailand. Journal of Social Science and Buddhistic Anthropology, 5(1), 102-121."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_saengkassanee_007": {
+      "id": "princeofso_facultyofs_saengkassanee_007",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Thanawut",
+      "last_name": "Saengkassanee",
+      "full_name": "Thanawut Saengkassanee",
+      "full_name_th": "ดร. ธนาวุธ แสงกาศนีย์",
+      "role": "อาจารย์ประจำ",
+      "email": "thanawut.sa@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D (Management Sciences), Universite Montpellier ll france, 2551"
+      ],
+      "research_interests": [
+        "การเงิน",
+        "การลงทุน",
+        "บริหารธุรกิจ"
+      ],
+      "featured_publications": [
+        "Poonsuk Sirikururat, Klangjai Sangwichitr, Panern Intara, and Poom Cheecharoen. (2017). The Feasibility Study of Serviced Apartment Project on the Basis of Universal Design in Hatyai, Songkhla.",
+        "Nattapol Khoothiratrakarn, Klangjai Sangwichitr, Thanawut Saengkassanee, and Noppawan Mann. (2018). Analysis of Investors’ Behavior and Asset Allocation Strategies in Hat Yai, Songkhla.",
+        "Warat Limphanudom, Klangjai Sangwichitr, Thanawut Saengkassanee, and Panern Intara. (2019). Investors Behavior Towards High Dividend Stock in Stock Exchange Thailand.",
+        "กลางใจ แสงวิจิตร, ธนาวุธ แสงกาศนีย์, พรทิพย์ จิระธำรง, พเนิน อินมะระ, ศรรสนีย์ สังข์สุวรรณ และ ภูมิ ชี้เจริญ (2562). การเปรียบเทียบความรู้และพฤติกรรมการจัดการการเงินส่วนบุคคลก่อนและหลังเรียนรายวิชาการเงินส่วนบุคคลของนักศึกษา มหาวิทยาลัยสงขลานครินทร์. วารสารหาดใหญ่วิชาการ 17(2). 127-141"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_cheecharoen_008": {
+      "id": "princeofso_facultyofs_cheecharoen_008",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Poom",
+      "last_name": "Cheecharoen",
+      "full_name": "Poom Cheecharoen",
+      "full_name_th": "อ. ภูมิ ชี้เจริญ",
+      "role": "อาจารย์ประจำ",
+      "email": "poom.c@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "MSc Finance, University of Portsmouth, UK, 2016"
+      ],
+      "research_interests": [
+        "การลงทุน",
+        "การบริหารสินเชื่อ",
+        "การเงินส่วนบุคคล",
+        "การประเมินมูลค่า"
+      ],
+      "featured_publications": [
+        "กลางใจ แสงวิจิตร, ธนาวุธ แสงกาศนีย์, พรทิพย์ จิระธำรง, พเนิน อินทะระ, ศรรสนีย์ สังข์สุวรรณ, และภูมิ ชี้เจริญ. (2562). การเปรียบเทียบความรู้และพฤติกรรมการจัดการการเงินส่วนบุคคลก่อนและหลังเรียนรายวิชาการเงินส่วนบุคคลของนักศึกษา มหาวิทยาลัยสงขลานครินทร์. วารสารหาดใหญ่วิชาการ, 17(2), 127-141."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_sangsuwan_009": {
+      "id": "princeofso_facultyofs_sangsuwan_009",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Sansanee",
+      "last_name": "Sangsuwan",
+      "full_name": "Sansanee Sangsuwan",
+      "full_name_th": "อ. ศรรสนีย์ ทีปรักษพันธ์",
+      "role": "อาจารย์ประจำ",
+      "email": "sansanee.sa@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วท.ม. สาขาการกำกับดูแลกิจการ จุฬาลงกรณ์มหาวิทยาลัย"
+      ],
+      "research_interests": [
+        "กำกับดูแลกิจการ"
+      ],
+      "featured_publications": [
+        "Klangjai Sangwichitr, Thanawut Saengkassanee, Porntip Jirathumrong, Panern Intara, Sansanee Sangsuwan and Poom Cheechareon. (2019). A Comparison of Knowledge and Behaviors of Prince of Songkla University Students in Personal Financial Planning Before and After Attending Personal Finance Course. Hatyai Academic Journal 17(2). (pp. 127-141)."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_uthumrat_010": {
+      "id": "princeofso_facultyofs_uthumrat_010",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Wongtawan",
+      "last_name": "Uthumrat",
+      "full_name": "Wongtawan Uthumrat",
+      "full_name_th": "อ. วงศ์ตะวัน อุทุมรัตน์",
+      "role": "อาจารย์ประจำ",
+      "email": "wongtawan.u@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "เศรษฐศาสตรมหาบัณฑิต สาขาวิชาเศรษฐศาสตร์การเงิน สถาบันบัณฑิตพัฒนบริหารศาสตร์, 2563"
+      ],
+      "research_interests": [
+        "การเงิน",
+        "การลงทุน"
+      ],
+      "featured_publications": [
+        "Wongtawan Uthumrat. (2019). The Relationship between Stock Return, Economic Value Added and Earning Per Share: Evidence from Corporate Governance Report of Thai Listed Companies (Excellent). The 11th National Graduate Research Conference (pp.680-689)."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_jindabot_011": {
+      "id": "princeofso_facultyofs_jindabot_011",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการตลาดและการสื่อสาร",
+      "department_th": "วิชาเอกการตลาดและการสื่อสาร",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Teerasak",
+      "last_name": "Jindabot",
+      "full_name": "Teerasak Jindabot",
+      "full_name_th": "ผศ.ดร. ธีรศักดิ์ จินดาบถ",
+      "role": "อาจารย์ประจำ",
+      "email": "teerasak.j@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "กต.ด. (การตลาด), มหาวิทยาลัยธรรมศาสตร์, 2550"
+      ],
+      "research_interests": [
+        "การตลาดดิจิทัล",
+        "จิตวิทยาการตลาดและผู้บริโภค",
+        "การพัฒนามาตรทางการตลาด"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_sukabot_012": {
+      "id": "princeofso_facultyofs_sukabot_012",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการตลาดและการสื่อสาร",
+      "department_th": "วิชาเอกการตลาดและการสื่อสาร",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Sasiwemon",
+      "last_name": "Sukabot",
+      "full_name": "Sasiwemon Sukabot",
+      "full_name_th": "รศ.ดร. ศศิวิมล สุขบท",
+      "role": "อาจารย์ประจำ",
+      "email": "sasiwemon.s@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. การจัดการ Universiti Utara Malaysia, Malaysia, 2558"
+      ],
+      "research_interests": [
+        "การตลาดสินค้าเกษตรกรรม",
+        "การตลาดผลิตภัณฑ์ชุมชน",
+        "การสร้างตราสินค้า"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_suppamongkhonnu_013": {
+      "id": "princeofso_facultyofs_suppamongkhonnu_013",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการตลาดและการสื่อสาร",
+      "department_th": "วิชาเอกการตลาดและการสื่อสาร",
+      "academic_title": "รศ.",
+      "academic_title_th": "รศ.",
+      "first_name": "Laphassawat",
+      "last_name": "Suppamongkhonnun",
+      "full_name": "Laphassawat Suppamongkhonnun",
+      "full_name_th": "รศ. ลภัสวัฒน์ ศุภผลกุลนันทร์",
+      "role": "อาจารย์ประจำ",
+      "email": "laphassawat.s@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "บธ.ม. (การตลาด), ม.รังสิต, 2549"
+      ],
+      "research_interests": [
+        "ที่ปรึกษาและการพัฒนาตลาด",
+        "การวางแผนการตลาด",
+        "การจัดและบริหารงานโครงสร้างองค์กร",
+        "การตลาดอสังหาริมทรัพย์"
+      ],
+      "featured_publications": [
+        "วีระวรรณ ศิริพงษ์.(2560). การใช้บัญชีบริหารของวิสาหกิจขนาดกลางและขนาดย่อม จังหวัดสงขลา.วารสารหาดใหญ่วิชาการ, 15(1), 59-72.",
+        "วีระวรรณ ศิริพงษ์,กมลรัตน์ สฤษฎีพีรพันธุ์ และมัทนชัย สุทธิพันธุ์.(2561).อิทธิพลของกระแสเงินสด ต่อความสามารถในการทำกำไร และมูลค่าหลักทรัพย์ตามราคาตลาด กรณีศึกษา ตลาดหลักทรัพย์ เอ็ม เอ ไอ (MAI). วารสารมหาวิทยาลัยนราธิวาสราชนครินทร์, 5(2), 111-120.",
+        "วีระวรรณ ศิริพงษ์ ,ณัฏฐณิชา คล้ายแก้ว,ตติยา แซ่เจีย,ปิยรัตน์ ไชยถาวร ,สุดารัตน์ บุตรจริยะและมัทนชัย สุทธิพันธุ์,(2562). ความสัมพันธ์ระหว่างความรับผิดชอบต่อสังคมกับคุณภาพกำไรของธุรกิจโรงแรมในจังหวัดสงขลา. วารสารเทคโนโลยีภาคใต้, 12(1), 129-137.",
+        "Muttanachai Suttipun, Weerawan Siripong, On-anong Sattayarak, Jittima Wichianrak, and Sutira Limroscharoen, (2018). The Influence of Enterprise Risk Management on Firm Performance Measured by the Balanced Scorecard: Evidence from SMEs in Southern Thailand. ASR: CMU Journal of Social Sciences and Humanities (2018), 5(1), 33-53.",
+        "วีระวรรณ ศิริพงษ์, นิตินันท์ พราหมหันต์, ปนัดฐา พิมพกาญจน์, จิราภรณ์ ปัญญายิ่ง, สุชาวดี แสงศรี, อิศรา มาลาวัยจันทร์, และมัทนชัย สุทธิพันธุ์, (2562). ความสัมพันธ์ระหว่างการเปิดเผยข้อมูลการวิจัยและพัฒนา และผลการดำเนินงานทางการเงินของบริษัทจดทะเบียนในตลาดหลักทรัพย์แห่งประเทศไทย. วารสารบริหารธุรกิจเทคโนโลยีมหานคร, 16(2), 173-190.",
+        "วีระวรรณ ศิริพงษ์, มัทนชัย สุทธิพันธุ์, ปทุมพร หิรัญสาลี, และลักขณา ดำชู, (2563). ความสัมพันธ์ระหว่างการปฏิบัติตามหลักปรัชญาเศรษฐกิจพอเพียง และผลการดำเนินงานของธุรกิจด้วยการวัดผลเชิงดุลยภาพ : กรณีศึกษาธุรกิจขนาดกลางและย่อมในจังหวัดสงขลา. วารสารวิทยาการจัดการ มหาวิทยาลัยราชภัฏ เชียงราย, 15(1), 134-153."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_laparojkit_014": {
+      "id": "princeofso_facultyofs_laparojkit_014",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการตลาดและการสื่อสาร",
+      "department_th": "วิชาเอกการตลาดและการสื่อสาร",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Sumana",
+      "last_name": "Laparojkit",
+      "full_name": "Sumana Laparojkit",
+      "full_name_th": "ผศ.ดร. สุมนา ลาภาโรจน์กิจ",
+      "role": "อาจารย์ประจำ",
+      "email": "sumana.l@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. (Marketing and Strategy) Cardiff University U.K., 2554"
+      ],
+      "research_interests": [
+        "Marketing & Strategy",
+        "Consumer Behavior",
+        "Brand Community",
+        "Branding"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_chanchaichujit_015": {
+      "id": "princeofso_facultyofs_chanchaichujit_015",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการตลาดและการสื่อสาร",
+      "department_th": "วิชาเอกการตลาดและการสื่อสาร",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Kanruthai",
+      "last_name": "Chanchaichujit",
+      "full_name": "Kanruthai Chanchaichujit",
+      "full_name_th": "อ. กันต์ฤทัย ชาญชัยชูจิต",
+      "role": "อาจารย์ประจำ",
+      "email": "kanruthai.c@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "M.A. (Marketing), University of Hertfordshire, U.K., 2552"
+      ],
+      "research_interests": [
+        "Tourism Marketing",
+        "Sustainable Marketing"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_nanakorn_016": {
+      "id": "princeofso_facultyofs_nanakorn_016",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "department_th": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Thitiporn",
+      "last_name": "Na Nakorn",
+      "full_name": "Thitiporn Na Nakorn",
+      "full_name_th": "ดร. ทิติพร ณ นคร",
+      "role": "อาจารย์ประจำ",
+      "email": "thitiporn.na@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. (Management: Entrepreneurship and Strategy), University of Lancaster, UK, 2021"
+      ],
+      "research_interests": [
+        "Entrepreneurship and Innovation"
+      ],
+      "featured_publications": [
+        "Meka-A-Pirak, J., Supanti, D., Na Nakorn, T., Chongphakdi, K., & Sattayarak, T. (2020, March). Does Psychological Capital Increase Work Engagement? A Key To Improving Organizational Citizenship Behavior. 2nd International and National Conference on Business Administration and Accountancy: INCBAA Conference 2020 (p. 15-23)."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_chaiyanupong_017": {
+      "id": "princeofso_facultyofs_chaiyanupong_017",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "department_th": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Natika",
+      "last_name": "Chaiyanupong",
+      "full_name": "Natika Chaiyanupong",
+      "full_name_th": "ผศ.ดร. ณติกา ไชยานุพงศ์",
+      "role": "อาจารย์ประจำ",
+      "email": "natika.c@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Doctor of Philosophy Organizational Psychology, Alliant International University USA"
+      ],
+      "research_interests": [
+        "ปรัชญาเศรษฐกิจพอเพียง",
+        "จิตวิทยาองค์กร",
+        "พฤติกรรมองค์กร"
+      ],
+      "featured_publications": [
+        "Chaiyanupong, N., Immelman, A., & Kaikaew, K. (2016). Local sustainable development approach in Thai Business. Paper presented in Wolrd Business and Social Science Research Conference, Bangkok, Thailand. p.4."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_mewes_018": {
+      "id": "princeofso_facultyofs_mewes_018",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "department_th": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Kunlagan",
+      "last_name": "Mewes",
+      "full_name": "Kunlagan Mewes",
+      "full_name_th": "ดร. กุลกานต์ เมเวส",
+      "role": "อาจารย์ประจำ",
+      "email": "kunlagan.b@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. (Management), RMIT University Australia, 2557"
+      ],
+      "research_interests": [
+        "การจัดการ",
+        "CSR",
+        "Occupational Psychology"
+      ],
+      "featured_publications": [
+        "Sud-on, P., Mewes, K. and Immelman, A. (2019). Drivers to venture creation among young entrepreneurs: Construct and instrument development, Full Paper presented and published at IBSSH-2019, Paper Proceeding Vol No-01, Issue 09."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_loykulnant_019": {
+      "id": "princeofso_facultyofs_loykulnant_019",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "department_th": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Sirinuch",
+      "last_name": "Loykulnant",
+      "full_name": "Sirinuch Loykulnant",
+      "full_name_th": "ดร. ศิรินุช ลอยกุลนันท์",
+      "role": "อาจารย์ประจำ",
+      "email": "sirinuch.l@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D (International Business and Strategy), University of Reading UK, 2015"
+      ],
+      "research_interests": [
+        "Strategy",
+        "SMEs"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_suwannasin_020": {
+      "id": "princeofso_facultyofs_suwannasin_020",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "department_th": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Siwat",
+      "last_name": "Suwannasin",
+      "full_name": "Siwat Suwannasin",
+      "full_name_th": "ดร. สิวัฒน์ สุวรรณศิลป์",
+      "role": "อาจารย์ประจำ",
+      "email": "s.suwannasin@hotmail.com",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_thanaimethawat_021": {
+      "id": "princeofso_facultyofs_thanaimethawat_021",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "department_th": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Melinya",
+      "last_name": "Thanaimethawat",
+      "full_name": "Melinya Thanaimethawat",
+      "full_name_th": "อ. เมลินญาน์ ธนัยเมธาวัจน์",
+      "role": "อาจารย์ประจำ",
+      "email": "melinya.t@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "M.A. (Human Resource Management), Middlesex University, 2556"
+      ],
+      "research_interests": [
+        "การจัดการ"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "princeofso_facultyofs_immelman_022": {
+      "id": "princeofso_facultyofs_immelman_022",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "department_th": "วิชาเอกการจัดการทรัพยากรมนุษย์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Arno",
+      "last_name": "Immelman",
+      "full_name": "Arno Immelman",
+      "full_name_th": "อ. Mr. Arno Immelman",
+      "role": "อาจารย์ประจำ",
+      "email": "arno.i@psu.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Master of Science Entrepreneurship and International Business, Northumbria University UK, 2559"
+      ],
+      "research_interests": [
+        "Entrepreneurship",
+        "Small Business Management",
+        "Business/Corporate Communication"
+      ],
+      "featured_publications": [
+        "Immelman, A. T., Dankittikul, T., & Suttipun, M. (2020). An Influence of Lean Manufacturing Practices on Firm Performance Measured by Balanced Scorecard: A Case Study of Manufacturing Firms in Thailand. Asian Journal of Social Sciences and Management Studies, 7(3), 198-207.",
+        "Limroscharoen, S., Immelman, A.T., Chumchuen, J., Srasri, N., Montree, P. and Suttipun, M. How does corporate entrepreneurship strategy influence organisational performance of the small and medium-sized entreprises in the southernmost region of Thailand?: Through the lens of the balanced scorecard. Journal of Social Sciences and Humanities 4(2): 110-132. May 2019.",
+        "Sud-on, P., Mewes, K. and Immelman, A. (2019). Drivers to venture creation among young entrepreneurs: Construct and instrument development, Full Paper presented and published at IBSSH-2019, Paper Proceeding Vol No-01, Issue 09."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ฤๅชุตา เทพยากุล": "princeofso_facultyofs_tepayakul_001",
+    "ธัญรดี ทวีกาญจน์": "princeofso_facultyofs_taveekan_002",
+    "สิริวิท อิสโร": "princeofso_facultyofs_iso_003",
+    "สรวิศ ลิ้มโอภาส พูลสวัสดิ์": "princeofso_facultyofs_pulsawasd_004",
+    "กิตติพันธ์ เอกอารีสกุล": "princeofso_facultyofs_ekareesakul_005",
+    "รัชพล อ่ำสุข": "princeofso_facultyofs_amsuk_006",
+    "ธนาวุธ แสงกาศนีย์": "princeofso_facultyofs_saengkassanee_007",
+    "ภูมิ ชี้เจริญ": "princeofso_facultyofs_cheecharoen_008",
+    "ศรรสนีย์ ทีปรักษพันธ์": "princeofso_facultyofs_sangsuwan_009",
+    "วงศ์ตะวัน อุทุมรัตน์": "princeofso_facultyofs_uthumrat_010",
+    "ธีรศักดิ์ จินดาบถ": "princeofso_facultyofs_jindabot_011",
+    "ศศิวิมล สุขบท": "princeofso_facultyofs_sukabot_012",
+    "ลภัสวัฒน์ ศุภผลกุลนันทร์": "princeofso_facultyofs_suppamongkhonnu_013",
+    "สุมนา ลาภาโรจน์กิจ": "princeofso_facultyofs_laparojkit_014",
+    "กันต์ฤทัย ชาญชัยชูจิต": "princeofso_facultyofs_chanchaichujit_015",
+    "ทิติพร ณ นคร": "princeofso_facultyofs_nanakorn_016",
+    "ณติกา ไชยานุพงศ์": "princeofso_facultyofs_chaiyanupong_017",
+    "กุลกานต์ เมเวส": "princeofso_facultyofs_mewes_018",
+    "ศิรินุช ลอยกุลนันท์": "princeofso_facultyofs_loykulnant_019",
+    "สิวัฒน์ สุวรรณศิลป์": "princeofso_facultyofs_suwannasin_020",
+    "เมลินญาน์ ธนัยเมธาวัจน์": "princeofso_facultyofs_thanaimethawat_021",
+    "Mr. Arno Immelman": "princeofso_facultyofs_immelman_022"
+  },
+  "dedup_emails": {
+    "ruechuta.t@psu.ac.th": "princeofso_facultyofs_tepayakul_001",
+    "thunradee.t@psu.ac.th": "princeofso_facultyofs_taveekan_002",
+    "siriwit.i@psu.ac.th": "princeofso_facultyofs_iso_003",
+    "sorawit.pu@psu.ac.th": "princeofso_facultyofs_pulsawasd_004",
+    "kittipan.e@psu.ac.th": "princeofso_facultyofs_ekareesakul_005",
+    "ratchaphon.a@psu.ac.th": "princeofso_facultyofs_amsuk_006",
+    "thanawut.sa@psu.ac.th": "princeofso_facultyofs_saengkassanee_007",
+    "poom.c@psu.ac.th": "princeofso_facultyofs_cheecharoen_008",
+    "sansanee.sa@psu.ac.th": "princeofso_facultyofs_sangsuwan_009",
+    "wongtawan.u@psu.ac.th": "princeofso_facultyofs_uthumrat_010",
+    "teerasak.j@psu.ac.th": "princeofso_facultyofs_jindabot_011",
+    "sasiwemon.s@psu.ac.th": "princeofso_facultyofs_sukabot_012",
+    "laphassawat.s@psu.ac.th": "princeofso_facultyofs_suppamongkhonnu_013",
+    "sumana.l@psu.ac.th": "princeofso_facultyofs_laparojkit_014",
+    "kanruthai.c@psu.ac.th": "princeofso_facultyofs_chanchaichujit_015",
+    "thitiporn.na@psu.ac.th": "princeofso_facultyofs_nanakorn_016",
+    "natika.c@psu.ac.th": "princeofso_facultyofs_chaiyanupong_017",
+    "kunlagan.b@psu.ac.th": "princeofso_facultyofs_mewes_018",
+    "sirinuch.l@psu.ac.th": "princeofso_facultyofs_loykulnant_019",
+    "s.suwannasin@hotmail.com": "princeofso_facultyofs_suwannasin_020",
+    "melinya.t@psu.ac.th": "princeofso_facultyofs_thanaimethawat_021",
+    "arno.i@psu.ac.th": "princeofso_facultyofs_immelman_022"
+  },
+  "step_count": 4,
+  "total_tokens_used": 20969,
+  "status": "completed",
+  "last_error": null
+}

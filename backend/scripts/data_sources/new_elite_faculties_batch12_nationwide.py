@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Faculty Dataset: Nationwide Elite Scholars & Regional Expansion (Batch 12)
-Standardized Schema compliant with AGENTS.md & PDPA
-Pre-checked with RapidFuzz deduplication against 1,479 existing records (Zero Redundancy)
-"""
-
 NEW_ELITE_FACULTIES_BATCH_12 = [
-    # =========================================================================
-    # 1. KMITL (King Mongkut's Institute of Technology Ladkrabang - สจล.)
-    # =========================================================================
     {
         "id": "kmitl_it_002",
         "university": "King Mongkut's Institute of Technology Ladkrabang",
@@ -213,10 +204,6 @@ NEW_ELITE_FACULTIES_BATCH_12 = [
             "Design and Micromachining of Compact 2D Electrostatic Silicon Scanners for Bio-Imaging"
         ]
     },
-
-    # =========================================================================
-    # 2. KMUTNB (King Mongkut's University of Technology North Bangkok - มจพ. & TGGS)
-    # =========================================================================
     {
         "id": "kmutnb_tggs_nisai_001",
         "university": "King Mongkut's University of Technology North Bangkok",
@@ -318,10 +305,6 @@ NEW_ELITE_FACULTIES_BATCH_12 = [
             "Optimization of Bio-Hydrogen Production from Pineapple Peel Waste Using Immobilized Microbial Consortia"
         ]
     },
-
-    # =========================================================================
-    # 3. PSU (Prince of Songkla University - มหาวิทยาลัยสงขลานครินทร์)
-    # =========================================================================
     {
         "id": "psu_med_virasakdi_001",
         "university": "Prince of Songkla University",
@@ -524,10 +507,6 @@ NEW_ELITE_FACULTIES_BATCH_12 = [
             "Thermal Efficiency and Emission Control of Superheated Steam Systems in Industrial Drying Processes"
         ]
     },
-
-    # =========================================================================
-    # 4. SWU (Srinakharinwirot University - มหาวิทยาลัยศรีนครินทรวิโรฒ)
-    # =========================================================================
     {
         "id": "swu_sci_somchai_001",
         "university": "Srinakharinwirot University",
@@ -663,10 +642,6 @@ NEW_ELITE_FACULTIES_BATCH_12 = [
             "Application of Multiplex Ligation-Dependent Probe Amplification (MLPA) for Novel Globin Gene Deletions"
         ]
     },
-
-    # =========================================================================
-    # 5. NU (Naresuan University - มหาวิทยาลัยนเรศวร)
-    # =========================================================================
     {
         "id": "nu_energy_wattanapong_001",
         "university": "Naresuan University",
@@ -767,10 +742,6 @@ NEW_ELITE_FACULTIES_BATCH_12 = [
             "Mitochondrial Quality Control and Autophagy Regulation in Diabetic Heart Disease"
         ]
     },
-
-    # =========================================================================
-    # 6. BUU (Burapha University - มหาวิทยาลัยบูรพา)
-    # =========================================================================
     {
         "id": "buu_sci_sarawut_001",
         "university": "Burapha University",
@@ -838,10 +809,6 @@ NEW_ELITE_FACULTIES_BATCH_12 = [
             "Impact of Clinical Pharmacist Interventions on Medication Errors in Intensive Care Units"
         ]
     },
-
-    # =========================================================================
-    # 7. SU (Silpakorn University - มหาวิทยาลัยศิลปากร)
-    # =========================================================================
     {
         "id": "su_pharm_tanasait_001",
         "university": "Silpakorn University",
@@ -910,14 +877,10 @@ NEW_ELITE_FACULTIES_BATCH_12 = [
             "pH-Responsive Polymeric Micelles for Targeted Doxorubicin Delivery and Overcoming Multidrug Resistance in Cancer"
         ]
     },
-
-    # =========================================================================
-    # 8. NIDA (National Institute of Development Administration - นิด้า)
-    # =========================================================================
     {
         "id": "nida_gsed_wisakha_001",
         "university": "National Institute of Development Administration",
-        "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+        "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
         "faculty": "Graduate School of Environmental Development Administration",
         "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
         "department": "Department of Environmental Management and Sustainability",
@@ -951,7 +914,7 @@ NEW_ELITE_FACULTIES_BATCH_12 = [
     {
         "id": "nida_gsba_nada_001",
         "university": "National Institute of Development Administration",
-        "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+        "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
         "faculty": "NIDA Business School",
         "faculty_th": "คณะบริหารธุรกิจ",
         "department": "Department of Finance",
@@ -982,10 +945,6 @@ NEW_ELITE_FACULTIES_BATCH_12 = [
             "Corporate Governance Mechanisms and Earnings Management Behavior During Economic Crises"
         ]
     },
-
-    # =========================================================================
-    # 9. National Outstanding Scholars (CU & TU Senior Elites)
-    # =========================================================================
     {
         "id": "cu_med_suthiporn_001",
         "university": "Chulalongkorn University",

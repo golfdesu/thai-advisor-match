@@ -1,16 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Faculty Dataset: Kasetsart University (KU) Complete Faculty & Institute Expansion
-Standardized Schema compliant with AGENTS.md & PDPA
-Pre-checked with RapidFuzz deduplication against 1,673 existing records (Zero Redundancy)
-Covering: Fisheries, IFRPD, KAPI, Architecture, Environment, Education, Veterinary Technology,
-International Maritime Studies (Si Racha), Sports Science (Kamphaeng Saen)
-"""
-
 KU_COMPLETION_FACULTIES = [
-    # =========================================================================
-    # 1. Faculty of Fisheries (คณะประมง มหาวิทยาลัยเกษตรศาสตร์)
-    # =========================================================================
     {
         "id": "ku_fish_suriyan_001",
         "university": "Kasetsart University",
@@ -180,10 +169,6 @@ KU_COMPLETION_FACULTIES = [
             "RNAi-Mediated Gene Silencing of Viral Structural Genes Protects Cultured Crustaceans Against Lethal Infections"
         ]
     },
-
-    # =========================================================================
-    # 2. Institute of Food Research and Product Development (IFRPD มก.)
-    # =========================================================================
     {
         "id": "ku_ifrpd_warunee_001",
         "university": "Kasetsart University",
@@ -285,10 +270,6 @@ KU_COMPLETION_FACULTIES = [
             "Nutritional Quality, In Vitro Digestibility, and Consumer Sensory Acceptability of Novel Plant-Based Seafood"
         ]
     },
-
-    # =========================================================================
-    # 3. Kasetsart Agricultural & Agro-Industrial Product Improvement (KAPI มก.)
-    # =========================================================================
     {
         "id": "ku_kapi_sombat_001",
         "university": "Kasetsart University",
@@ -357,10 +338,6 @@ KU_COMPLETION_FACULTIES = [
             "Reinforcement of Biodegradable Polymer Composites with Lignocellulosic Nanofibers from Agricultural Waste"
         ]
     },
-
-    # =========================================================================
-    # 4. Faculty of Architecture (คณะสถาปัตยกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์)
-    # =========================================================================
     {
         "id": "ku_arch_singh_001",
         "university": "Kasetsart University",
@@ -463,10 +440,6 @@ KU_COMPLETION_FACULTIES = [
             "Mitigating Urban Heat Island Intensity Through High-Albedo Surfaces and Urban Vegetative Canopies"
         ]
     },
-
-    # =========================================================================
-    # 5. Faculty of Environment (คณะสิ่งแวดล้อม มหาวิทยาลัยเกษตรศาสตร์)
-    # =========================================================================
     {
         "id": "ku_env_natthapol_001",
         "university": "Kasetsart University",
@@ -535,10 +508,6 @@ KU_COMPLETION_FACULTIES = [
             "Nature-Based Solutions for Urban Stormwater Retention and Nutrient Pollution Abatement"
         ]
     },
-
-    # =========================================================================
-    # 6. Faculty of Education (คณะศึกษาศาสตร์ มหาวิทยาลัยเกษตรศาสตร์)
-    # =========================================================================
     {
         "id": "ku_edu_pattrawadee_001",
         "university": "Kasetsart University",
@@ -641,10 +610,6 @@ KU_COMPLETION_FACULTIES = [
             "Engaging Youth in Climate Action and Local Ecological Stewardship Through SSI Learning Units"
         ]
     },
-
-    # =========================================================================
-    # 7. Faculty of Veterinary Technology (คณะเทคนิคการสัตวแพทย์ มก.)
-    # =========================================================================
     {
         "id": "ku_vt_winyou_001",
         "university": "Kasetsart University",
@@ -713,10 +678,6 @@ KU_COMPLETION_FACULTIES = [
             "Acute and Sub-Chronic Oral Toxicity Evaluation of Standardized Herbal Extracts in Wistar Rats"
         ]
     },
-
-    # =========================================================================
-    # 8. Faculty of International Maritime Studies (พาณิชยนาวีนานาชาติ ศรีราชา)
-    # =========================================================================
     {
         "id": "ku_maritime_sornnarin_001",
         "university": "Kasetsart University",
@@ -785,16 +746,12 @@ KU_COMPLETION_FACULTIES = [
             "Structural Fatigue Life Prediction of Welded Aluminum Ship Joints Under Wave Impact Slamming"
         ]
     },
-
-    # =========================================================================
-    # 9. Faculty of Sports Science and Health (วิทยาศาสตร์การกีฬา กำแพงแสน)
-    # =========================================================================
     {
         "id": "ku_sports_suthiporn_001",
         "university": "Kasetsart University",
         "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
         "faculty": "Faculty of Sports Science and Health (Kamphaeng Saen Campus)",
-        "faculty_th": "คณะวิทยาศาสตร์การกีฬาและสุขภาพ (วิทยาเขตกำแพงแสน)",
+        "faculty_th": "คณะวิทยาศาสตร์การกีฬาและสุขภาพ",
         "department": "Department of Sports Science and Physical Conditioning",
         "department_th": "ภาควิชาวิทยาศาสตร์การกีฬาและการเสริมสร้างสมรรถภาพ",
         "academic_title": "Assoc. Prof. Dr.",

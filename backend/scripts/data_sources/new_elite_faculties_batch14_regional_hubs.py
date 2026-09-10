@@ -1,15 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Faculty Dataset: Regional Research Hubs & Emerging Universities Expansion (Batch 14)
-Standardized Schema compliant with AGENTS.md & PDPA
-Pre-checked with RapidFuzz deduplication against 1,508 existing records (Zero Redundancy)
-Covering: UBU, MSU, WU, UP, MJU, TSU
-"""
-
 NEW_ELITE_FACULTIES_BATCH_14 = [
-    # =========================================================================
-    # 1. UBU (Ubon Ratchathani University - มหาวิทยาลัยอุบลราชธานี)
-    # =========================================================================
     {
         "id": "ubu_sci_chatchawan_001",
         "university": "Ubon Ratchathani University",
@@ -78,10 +68,6 @@ NEW_ELITE_FACULTIES_BATCH_14 = [
             "Two-Dimensional Hydrodynamic Flood Inundation Modeling for Urban Floodplain Management in Ubon Ratchathani"
         ]
     },
-
-    # =========================================================================
-    # 2. MSU (Mahasarakham University - มหาวิทยาลัยมหาสารคาม)
-    # =========================================================================
     {
         "id": "msu_sci_prayook_001",
         "university": "Mahasarakham University",
@@ -149,10 +135,6 @@ NEW_ELITE_FACULTIES_BATCH_14 = [
             "Probiotic Potential and Safety Characterization of Autochthonous Lactic Acid Bacteria Isolated from Fermented Meats"
         ]
     },
-
-    # =========================================================================
-    # 3. WU (Walailak University - มหาวิทยาลัยวลัยลักษณ์)
-    # =========================================================================
     {
         "id": "wu_sci_phongpichit_001",
         "university": "Walailak University",
@@ -220,10 +202,6 @@ NEW_ELITE_FACULTIES_BATCH_14 = [
             "Heavy Metal Biomarkers and Neurocognitive Deficits Among Children Living in Coastal Mining Communities"
         ]
     },
-
-    # =========================================================================
-    # 4. UP (University of Phayao - มหาวิทยาลัยพะเยา)
-    # =========================================================================
     {
         "id": "up_ict_torpong_001",
         "university": "University of Phayao",
@@ -292,10 +270,6 @@ NEW_ELITE_FACULTIES_BATCH_14 = [
             "Spatial-Temporal Mapping of Transboundary Biomass Smoke Using Satellite AOD and WRF-Chem Simulations"
         ]
     },
-
-    # =========================================================================
-    # 5. MJU (Maejo University - มหาวิทยาลัยแม่โจ้)
-    # =========================================================================
     {
         "id": "mju_agr_arnat_001",
         "university": "Maejo University",
@@ -364,10 +338,6 @@ NEW_ELITE_FACULTIES_BATCH_14 = [
             "Utilization of Algal Meal as a Functional Feed Additive for Growth and Immune Enhancement in Nile Tilapia"
         ]
     },
-
-    # =========================================================================
-    # 6. TSU (Thaksin University - มหาวิทยาลัยทักษิณ)
-    # =========================================================================
     {
         "id": "tsu_sci_nukul_001",
         "university": "Thaksin University",

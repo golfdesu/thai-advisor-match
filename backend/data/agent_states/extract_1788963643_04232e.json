@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1788963643_04232e",
+  "target_university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+  "target_university_en": "King Mongkut's University of Technology Thonburi",
+  "target_faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
+  "target_faculty_en": "Institute for Field Robotics (FIBO)",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://fibo.kmutt.ac.th/about/staff/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 532,
+  "status": "completed",
+  "last_error": null
+}

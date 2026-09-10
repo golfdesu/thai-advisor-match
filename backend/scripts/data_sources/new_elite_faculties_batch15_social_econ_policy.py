@@ -1,15 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Faculty Dataset: Social Sciences, Economics, Public Policy & Strategic Governance (Batch 15)
-Standardized Schema compliant with AGENTS.md & PDPA
-Pre-checked with RapidFuzz deduplication against 1,508 existing records (Zero Redundancy)
-Covering: CU, TU, NIDA, KU, PSU
-"""
-
 NEW_ELITE_FACULTIES_BATCH_15 = [
-    # =========================================================================
-    # 1. Chulalongkorn University (จุฬาลงกรณ์มหาวิทยาลัย)
-    # =========================================================================
     {
         "id": "cu_econ_pasuk_001",
         "university": "Chulalongkorn University",
@@ -78,10 +68,6 @@ NEW_ELITE_FACULTIES_BATCH_15 = [
             "Fiscal Decentralization, Local Public Goods Provision, and Household Welfare"
         ]
     },
-
-    # =========================================================================
-    # 2. Thammasat University (มหาวิทยาลัยธรรมศาสตร์)
-    # =========================================================================
     {
         "id": "tu_econ_praipol_001",
         "university": "Thammasat University",
@@ -150,14 +136,10 @@ NEW_ELITE_FACULTIES_BATCH_15 = [
             "Impact of Chinese Electric Vehicle Inward FDI on the Thai Automotive Supply Ecosystem"
         ]
     },
-
-    # =========================================================================
-    # 3. NIDA (National Institute of Development Administration - นิด้า)
-    # =========================================================================
     {
         "id": "nida_gspa_tippawan_001",
         "university": "National Institute of Development Administration",
-        "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+        "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
         "faculty": "Graduate School of Public Administration (GSPA)",
         "faculty_th": "คณะรัฐประศาสนศาสตร์",
         "department": "Department of Public Governance and Organization Management",
@@ -191,7 +173,7 @@ NEW_ELITE_FACULTIES_BATCH_15 = [
     {
         "id": "nida_gsde_udomsak_001",
         "university": "National Institute of Development Administration",
-        "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+        "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
         "faculty": "School of Development Economics",
         "faculty_th": "คณะพัฒนาการเศรษฐกิจ",
         "department": "Department of Environmental & Resource Economics",
@@ -222,10 +204,6 @@ NEW_ELITE_FACULTIES_BATCH_15 = [
             "An Economic Assessment of Marine Ecosystem Damage from Marine Plastics Pollution"
         ]
     },
-
-    # =========================================================================
-    # 4. Kasetsart University (มหาวิทยาลัยเกษตรศาสตร์)
-    # =========================================================================
     {
         "id": "ku_econ_orachos_001",
         "university": "Kasetsart University",
@@ -294,10 +272,6 @@ NEW_ELITE_FACULTIES_BATCH_15 = [
             "Value Chain Analysis and Export Competitiveness of Premium Organic Rice"
         ]
     },
-
-    # =========================================================================
-    # 5. Prince of Songkla University (มหาวิทยาลัยสงขลานครินทร์ - Pattani Peace & Political Science)
-    # =========================================================================
     {
         "id": "psu_polsci_chidchanok_001",
         "university": "Prince of Songkla University",

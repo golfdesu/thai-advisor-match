@@ -1,15 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Faculty Dataset: National Grand Masters & Academic Hall of Fame (Batch 16)
-Standardized Schema compliant with AGENTS.md & PDPA
-Pre-checked with RapidFuzz deduplication against 1,546 existing records (Zero Redundancy)
-Covering: CU, MU, KU, TU, SUT, KKU, KMUTT, NIDA
-"""
-
 NEW_ELITE_FACULTIES_BATCH_16 = [
-    # =========================================================================
-    # 1. Chulalongkorn University (Medicine, Engineering & Science Masters)
-    # =========================================================================
     {
         "id": "cu_med_somchai_eiam_001",
         "university": "Chulalongkorn University",
@@ -448,10 +438,6 @@ NEW_ELITE_FACULTIES_BATCH_16 = [
             "Preparation and Structural Characterization of High-Resistant Starch from Indigenous Glutinous Rice Cultivars"
         ]
     },
-
-    # =========================================================================
-    # 2. Mahidol University (Siriraj, Rama & Tropical Health Leaders)
-    # =========================================================================
     {
         "id": "mu_med_002",
         "university": "Mahidol University",
@@ -553,10 +539,6 @@ NEW_ELITE_FACULTIES_BATCH_16 = [
             "Epidemiological Patterns and Risk Factors Associated with Suicide Attempts in Thai Metropolitan Populations"
         ]
     },
-
-    # =========================================================================
-    # 3. Kasetsart University (Agriculture, Forestry, Engineering & Vet Masters)
-    # =========================================================================
     {
         "id": "agr-ku-001_0458e1",
         "university": "Kasetsart University",
@@ -692,10 +674,6 @@ NEW_ELITE_FACULTIES_BATCH_16 = [
             "Simulation of Dense Non-Aqueous Phase Liquid (DNAPL) Dissolution and Migration in Stratified Aquifers"
         ]
     },
-
-    # =========================================================================
-    # 4. KMUTT (King Mongkut's University of Technology Thonburi)
-    # =========================================================================
     {
         "id": "kmutt_civil_somchai_chu_001",
         "university": "King Mongkut's University of Technology Thonburi",
@@ -730,16 +708,12 @@ NEW_ELITE_FACULTIES_BATCH_16 = [
             "Three-Dimensional Coupled Dynamic Response of Deepwater Floating Platforms and Tendon Systems"
         ]
     },
-
-    # =========================================================================
-    # 5. Suranaree University of Technology (มทส.)
-    # =========================================================================
     {
         "id": "sut_sci_sukit_001",
         "university": "Suranaree University of Technology",
         "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
         "faculty": "School of Physics",
-        "faculty_th": "สำนักวิชาวิทยาศาสตร์ (สาขาวิชาฟิสิกส์)",
+        "faculty_th": "สำนักวิชาวิทยาศาสตร์",
         "department": "Center of Excellence in Advanced Materials & Semiconductor Physics",
         "department_th": "ศูนย์ความเป็นเลิศด้านวัสดุขั้นสูงและฟิสิกส์สารกึ่งตัวนำ",
         "academic_title": "Prof. Dr.",
@@ -773,7 +747,7 @@ NEW_ELITE_FACULTIES_BATCH_16 = [
         "university": "Suranaree University of Technology",
         "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
         "faculty": "School of Biotechnology",
-        "faculty_th": "สำนักวิชาเทคโนโลยีการเกษตร (สาขาวิชาเทคโนโลยีชีวภาพ)",
+        "faculty_th": "สำนักวิชาเทคโนโลยีการเกษตร",
         "department": "Center of Excellence in Microbial Inoculants",
         "department_th": "ศูนย์วิจัยสารเสริมชีวภาพและจุลินทรีย์การเกษตร",
         "academic_title": "Prof. Dr.",
@@ -802,10 +776,6 @@ NEW_ELITE_FACULTIES_BATCH_16 = [
             "Synergistic Effects of Rhizobial Inoculation and Arbuscular Mycorrhizal Fungi on Legume Growth and P-Uptake"
         ]
     },
-
-    # =========================================================================
-    # 6. Khon Kaen University (มข.)
-    # =========================================================================
     {
         "id": "kku_agr_suthipong_001",
         "university": "Khon Kaen University",
@@ -873,14 +843,10 @@ NEW_ELITE_FACULTIES_BATCH_16 = [
             "Transcriptomic Profiling of Osmotic and Ethanol Stress Responses in Industrial Fermentation Strains"
         ]
     },
-
-    # =========================================================================
-    # 7. Thammasat University & NIDA (Social, Governance & Economics Masters)
-    # =========================================================================
     {
         "id": "nida_wu_sombat_001",
         "university": "National Institute of Development Administration",
-        "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+        "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
         "faculty": "Graduate School of Public Administration (GSPA)",
         "faculty_th": "คณะรัฐประศาสนศาสตร์",
         "department": "Department of Public Policy and Governance",

@@ -1,16 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Faculty Dataset: Mahidol University (MU) Complete Faculty & Institute Expansion
-Standardized Schema compliant with AGENTS.md & PDPA
-Pre-checked with RapidFuzz deduplication against 1,643 existing records (Zero Redundancy)
-Covering: Nutrition (INMU), Population (IPSR), Music (MSMU), Nursing, Physical Therapy,
-Veterinary Science, Sports Science, MUIC, Medical Technology, CMMU, RILCA, Liberal Arts, IL, IHRP
-"""
-
 MAHIDOL_COMPLETION_FACULTIES = [
-    # =========================================================================
-    # 1. Institute of Nutrition, Mahidol University (สถาบันโภชนาการ มหิดล - INMU)
-    # =========================================================================
     {
         "id": "mu_inmu_visith_001",
         "university": "Mahidol University",
@@ -113,10 +102,6 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Functional synbiotic Yogurts Fortified with Dietary Fiber: Rheology, Viability, and Glycemic Impact"
         ]
     },
-
-    # =========================================================================
-    # 2. Institute for Population and Social Research (สถาบันวิจัยประชากรและสังคม - IPSR)
-    # =========================================================================
     {
         "id": "mu_ipsr_rossarin_001",
         "university": "Mahidol University",
@@ -219,10 +204,6 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Digital Marketing of Unhealthy Foods and Beverages to Children on Social Media Platforms"
         ]
     },
-
-    # =========================================================================
-    # 3. College of Music, Mahidol University (วิทยาลัยดุริยางคศิลป์ มหิดล - MSMU)
-    # =========================================================================
     {
         "id": "mu_music_sugree_001",
         "university": "Mahidol University",
@@ -325,10 +306,6 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Acoustic Properties of Custom-Crafted Hard Rubber vs. Crystal Clarinet Mouthpieces"
         ]
     },
-
-    # =========================================================================
-    # 4. Faculty of Nursing, Mahidol University (คณะพยาบาลศาสตร์ มหิดล)
-    # =========================================================================
     {
         "id": "mu_nurse_yajai_001",
         "university": "Mahidol University",
@@ -431,10 +408,6 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Nutritional Status, Dietary Intake Patterns, and Physical Activity Levels Among Urban Schoolchildren"
         ]
     },
-
-    # =========================================================================
-    # 5. Faculty of Physical Therapy, Mahidol University (คณะกายภาพบำบัด มหิดล)
-    # =========================================================================
     {
         "id": "mu_pt_jarugool_001",
         "university": "Mahidol University",
@@ -536,10 +509,6 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Cervical Proprioceptive and Oculomotor Function in Patients with Chronic Non-Specific Neck Pain"
         ]
     },
-
-    # =========================================================================
-    # 6. Faculty of Veterinary Science, Mahidol University (คณะสัตวแพทยศาสตร์ มหิดล)
-    # =========================================================================
     {
         "id": "mu_vet_walasinee_001",
         "university": "Mahidol University",
@@ -639,10 +608,6 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Development of Oral Inactivated Vaccines Against Bacterial Sepsis in Asian Seabass"
         ]
     },
-
-    # =========================================================================
-    # 7. College of Sports Science and Technology (วิทยาลัยวิทยาศาสตร์การกีฬา มหิดล)
-    # =========================================================================
     {
         "id": "mu_sports_chaipat_001",
         "university": "Mahidol University",
@@ -711,10 +676,6 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Criteria-Based Return to Sport After Anterior Cruciate Ligament Reconstruction: Biomechanical and Functional Outcomes"
         ]
     },
-
-    # =========================================================================
-    # 8. Mahidol University International College (วิทยาลัยนานาชาติ มหิดล - MUIC)
-    # =========================================================================
     {
         "id": "mu_muic_chulathida_001",
         "university": "Mahidol University",
@@ -783,10 +744,6 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Corporate Ownership Structure, Political Connections, and Investment Efficiency in Emerging Markets"
         ]
     },
-
-    # =========================================================================
-    # 9. Faculty of Medical Technology & Molecular Biosciences (MUMT & MB)
-    # =========================================================================
     {
         "id": "mu_mt_chotiros_001",
         "university": "Mahidol University",
@@ -820,16 +777,12 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Host Cellular Biomarkers Predicting Vascular Leakage in Acute Arboviral Infections"
         ]
     },
-
-    # =========================================================================
-    # 10. College of Management, Mahidol University (CMMU)
-    # =========================================================================
     {
         "id": "mu_cmmu_sooksan_001",
         "university": "Mahidol University",
         "university_th": "มหาวิทยาลัยมหิดล",
         "faculty": "College of Management (CMMU)",
-        "faculty_th": "วิทยาลัยการจัดการ มหาวิทยาลัยมหิดล (CMMU)",
+        "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
         "department": "Department of Sustainable Leadership and Strategic Management",
         "department_th": "สาขาวิชาภาวะผู้นำแห่งความยั่งยืนและการจัดการเชิงกลยุทธ์",
         "academic_title": "Assoc. Prof. Dr.",
@@ -858,10 +811,6 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Examining the Relationship Between Sustainable Leadership Practices and Brand Equity"
         ]
     },
-
-    # =========================================================================
-    # 11. Faculty of Liberal Arts & RILCA (คณะศิลปศาสตร์ & สถาบันวิจัยภาษาฯ)
-    # =========================================================================
     {
         "id": "mu_la_thanayus_001",
         "university": "Mahidol University",
@@ -998,10 +947,6 @@ MAHIDOL_COMPLETION_FACULTIES = [
             "Language Endangerment and Revitalization Strategies in the Greater Mekong Subregion"
         ]
     },
-
-    # =========================================================================
-    # 12. Institutes for Innovative Learning & Peace Studies (IL & IHRP)
-    # =========================================================================
     {
         "id": "mu_il_khajornsak_001",
         "university": "Mahidol University",

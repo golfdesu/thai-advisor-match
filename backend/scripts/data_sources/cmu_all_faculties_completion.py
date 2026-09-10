@@ -1,16 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Faculty Dataset: CMU (Chiang Mai University) Complete Faculty & Institute Expansion
-Standardized Schema compliant with AGENTS.md & PDPA
-Pre-checked with RapidFuzz deduplication against 1,586 existing records (Zero Redundancy)
-Covering: Agriculture, Economics, Social Sciences, Mass Communication, Dentistry,
-Fine Arts, Political Science, Public Health, RIHES, ERDI, Pharmacy, Science
-"""
-
 CMU_COMPLETION_FACULTIES = [
-    # =========================================================================
-    # 1. Faculty of Agriculture (คณะเกษตรศาสตร์ มช.)
-    # =========================================================================
     {
         "id": "cmu_agr_sansanee_001",
         "university": "Chiang Mai University",
@@ -146,10 +135,6 @@ CMU_COMPLETION_FACULTIES = [
             "Thermotolerance Biomarkers and Physiological Responses in Heat-Stressed Tropical Dairy Cattle"
         ]
     },
-
-    # =========================================================================
-    # 2. Faculty of Economics (คณะเศรษฐศาสตร์ มช.)
-    # =========================================================================
     {
         "id": "cmu_econ_songsak_001",
         "university": "Chiang Mai University",
@@ -283,10 +268,6 @@ CMU_COMPLETION_FACULTIES = [
             "Exchange Rate Pass-Through and Trade Balance Dynamics in ASEAN-China Free Trade Area"
         ]
     },
-
-    # =========================================================================
-    # 3. Faculty of Social Sciences (คณะสังคมศาสตร์ มช.)
-    # =========================================================================
     {
         "id": "cmu_soc_chayan_001",
         "university": "Chiang Mai University",
@@ -389,10 +370,6 @@ CMU_COMPLETION_FACULTIES = [
             "Gendered Precarity and the Politics of Care Among Cross-Border Domestic Migrant Workers"
         ]
     },
-
-    # =========================================================================
-    # 4. Faculty of Mass Communication (คณะการสื่อสารมวลชน มช. - Mass Comm)
-    # =========================================================================
     {
         "id": "cmu_mass_nantiya_001",
         "university": "Chiang Mai University",
@@ -495,10 +472,6 @@ CMU_COMPLETION_FACULTIES = [
             "Ethnographic Film Practice and Cultural Reflexivity in Documenting Marginalized Highland Communities"
         ]
     },
-
-    # =========================================================================
-    # 5. Faculty of Dentistry (คณะทันตแพทยศาสตร์ มช.)
-    # =========================================================================
     {
         "id": "cmu_dent_anak_001",
         "university": "Chiang Mai University",
@@ -601,10 +574,6 @@ CMU_COMPLETION_FACULTIES = [
             "Accuracy and Fit of 3D-Printed vs. Milled Digital Complete Dentures: A Comparative Clinical Assessment"
         ]
     },
-
-    # =========================================================================
-    # 6. Faculty of Fine Arts (คณะวิจิตรศิลป์ มช.)
-    # =========================================================================
     {
         "id": "cmu_fine_araya_001",
         "university": "Chiang Mai University",
@@ -707,10 +676,6 @@ CMU_COMPLETION_FACULTIES = [
             "Virtual Reality 3D Reconstruction of Endangered Sacred Heritage Sites in Northern Thailand"
         ]
     },
-
-    # =========================================================================
-    # 7. Faculty of Political Science and Public Administration (คณะรัฐศาสตร์ฯ มช.)
-    # =========================================================================
     {
         "id": "cmu_pol_tanet_001",
         "university": "Chiang Mai University",
@@ -779,16 +744,12 @@ CMU_COMPLETION_FACULTIES = [
             "Open Government and Civic Participation: Assessing Digital Municipal Platforms in Thailand"
         ]
     },
-
-    # =========================================================================
-    # 8. Faculty of Public Health & Research Institute for Health Sciences (RIHES)
-    # =========================================================================
     {
         "id": "cmu_rihes_suwat_001",
         "university": "Chiang Mai University",
         "university_th": "มหาวิทยาลัยเชียงใหม่",
         "faculty": "Faculty of Public Health / Research Institute for Health Sciences (RIHES)",
-        "faculty_th": "คณะสาธารณสุขศาสตร์ / สถาบันวิจัยวิทยาศาสตร์สุขภาพ (RIHES)",
+        "faculty_th": "คณะสาธารณสุขศาสตร์",
         "department": "Department of Public Health (Director of RIHES)",
         "department_th": "ภาควิชาสาธารณสุขศาสตร์ (ผู้อำนวยการสถาบันวิจัยวิทยาศาสตร์สุขภาพ)",
         "academic_title": "Prof. Dr.",
@@ -822,7 +783,7 @@ CMU_COMPLETION_FACULTIES = [
         "university": "Chiang Mai University",
         "university_th": "มหาวิทยาลัยเชียงใหม่",
         "faculty": "Faculty of Public Health / Research Institute for Health Sciences (RIHES)",
-        "faculty_th": "คณะสาธารณสุขศาสตร์ / สถาบันวิจัยวิทยาศาสตร์สุขภาพ (RIHES)",
+        "faculty_th": "คณะสาธารณสุขศาสตร์",
         "department": "Department of Environmental Health",
         "department_th": "ภาควิชาอนามัยสิ่งแวดล้อม",
         "academic_title": "Assoc. Prof. Dr.",
@@ -885,10 +846,6 @@ CMU_COMPLETION_FACULTIES = [
             "Occupational Inhalation Exposure to Organic Solvents and Neurobehavioral Effects in Factory Employees"
         ]
     },
-
-    # =========================================================================
-    # 9. Energy Research and Development Institute - Nakornping (ERDI) & Pharmacy
-    # =========================================================================
     {
         "id": "cmu_erdi_pruk_001",
         "university": "Chiang Mai University",
