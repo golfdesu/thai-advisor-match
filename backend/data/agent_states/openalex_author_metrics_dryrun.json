@@ -1,0 +1,12 @@
+{
+  "mode": "dry-run",
+  "counts": {
+    "match": 0,
+    "no_hit": 5,
+    "ambiguous": 0,
+    "error": 0,
+    "metric_gain": 0
+  },
+  "changes": [],
+  "saved_at": "2026-09-10 12:13:25"
+}

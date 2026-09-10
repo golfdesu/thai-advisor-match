@@ -1,0 +1,3674 @@
+{
+  "session_id": "tu_law_api_1789024324_356ca1",
+  "target_university_th": "มหาวิทยาลัยธรรมศาสตร์",
+  "target_university_en": "Thammasat University",
+  "target_faculty_th": "คณะนิติศาสตร์",
+  "target_faculty_en": "Faculty of Law",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.law.tu.ac.th/wp-json/wp/v2/teacher"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "thammasatu_facultyofl_wilartratsami_001": {
+      "id": "thammasatu_facultyofl_wilartratsami_001",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Supakorn",
+      "last_name": "Wilartratsami",
+      "full_name": "Supakorn Wilartratsami",
+      "full_name_th": "อ. ศุภากร วิลาศรัศมี",
+      "role": "อาจารย์ประจำ",
+      "email": "supakwil@tu.ac.th",
+      "image_url": "https://law.tu.ac.th/wp-content/uploads/2026/06/Supakorn-Wilartratsami.png",
+      "profile_url": "https://law.tu.ac.th/teacher/supakorn-wilartratsami/",
+      "education": [
+        "นิติศาสตรบัณฑิต ( หลักสูตรนานาชาติ ) มหาวิทยาลัยธรรมศาสตร์",
+        "นิติศาสตรมหาบัณฑิต (MJur) มหาวิทยาลัยอ๊อกซ์ฟอร์ด"
+      ],
+      "research_interests": [
+        "นิติสังคมศาสตร์",
+        "สังคมวิทยากฎหมาย"
+      ],
+      "featured_publications": [
+        {
+          "title": "Lasse Schuldt and Supakorn Wilartratsami. “The Jurisprudence of the Supreme Administrative Court 2021.” Thai Legal Studies, vol. 2, no. 1, Jul. 2022, pp.138-158 https://doi.org/10.54157/tls.260428 .",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": "https://doi.org/10.54157/tls.260428",
+          "year": 2022,
+          "citation_count": 0
+        },
+        {
+          "title": "Supakorn Wilartratsami. “Selected Thai Constitutional Court Cases 2019–2022.” Thai Legal Studies,",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2022,
+          "citation_count": 0
+        },
+        {
+          "title": "vol. 3, no. 2., Mar. 2023, pp. 323-345 https://doi.org/10.54157/tls.263851 .",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": "https://doi.org/10.54157/tls.263851",
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "Supakorn Wilartratsami. “Evaluating Thailand’s Domestic Implementation of Prevention of Grave Breaches under the Geneva Conventions.” Thai Legal Studies, vol. 3, no. 1, Jul. 2023, pp. 84–108. https://doi.org/10.54157/tls.260136 .",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": "https://doi.org/10.54157/tls.260136",
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "Supakorn Wilartratsami, Tanyapat Chaiseri, and Nawinda Klumsombut. “Supreme Court (Plenary Session) Decisions 2022.” Thai Legal Studies, vol. 3, no. 1, Jul. 2023, pp. 114–134. https://doi.org/10.54157/tls.268336 .",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": "https://doi.org/10.54157/tls.268336",
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "Lasse Schuldt and Supakorn Wilartratsami. “Environmental Cases at the Supreme Administrative Court 2021–24.” Thai Legal Studies, vol. 5, no. 1, Jul. 2025, pp.75-103 https://doi.org/10.54157/tls.282333 .",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": "https://doi.org/10.54157/tls.282333",
+          "year": 2025,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_rojmahamongkol_002": {
+      "id": "thammasatu_facultyofl_rojmahamongkol_002",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Tanyatorn",
+      "last_name": "Rojmahamongkol",
+      "full_name": "Tanyatorn Rojmahamongkol",
+      "full_name_th": "อ.ดร. นวพร เสนีย์วงศ์ ณ อยุธยา",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/nawaporn-saeneewong-na-ayudhaya/",
+      "education": [
+        "30 สิงหาคม 2561 ปริญญาเอกสาขากฎหมาย มหาวิทยาลัยน้อตติ้งแฮม เทร้นท์ (Nottingham Trent University) (หัวข้อ Towards regional cooperation in the establishment of marine protected areas)",
+        "27 พฤศจิกายน 2555 นิติศาสตร์มหาบัณฑิต สาขา Global Environment and Climate Change Law มหาวิทยาลัยเอดินเบอระ (The University of Edinburgh)",
+        "4 มิถุนายน 2553 เนติบัณฑิตไทย",
+        "21 ตุลาคม 2550 นิติศาสตร์บัณฑิต (เกียรตินิยมอันดันสอง) มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "กฎหมายมหาชน",
+        "กฎหมายรัฐธรรมนูญ",
+        "กฎหมายปกครอง",
+        "กฎหมายเลือกตั้ง",
+        "การใช้และการตีความกฎหมาย"
+      ],
+      "featured_publications": [
+        {
+          "title": "นวพร เสนีย์วงศ์ ณ อยุธยา, ‘บทเรียนจากผลกระทบในการใช้พระราชกำหนดการประมง พ.ศ. 2558 ต่อการประมงพื้นบ้านสู่ข้อเสนอการพิจารณาร่างพระราชบัญญัติแก้ไขพระราชกำหนดการประมง’, วารสารนิติสังคมศาสตร์ ปีที่ 18 ฉบับที่ 1 ปี 2568",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "นวพร เสนีย์วงศ์ ณ อยุธยา, รายงานวิจัยเรื่อง การจัดการมลภาวะทางทะเลจากพลาสติกในภูมิภาคอาเซียน,ทุนสนับสนุนจากคณะนิติศาสตร์ มหาวิทยาลัยเชียงใหม่ (พฤษภาคม, 2568)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "(ร่วมเขียน) Elizabeth A. Kirk and Nawaporn Saeneewong Na Ayudhaya, ‘The Black Sea Biodiversity and Landscape Conservation Protocol’ in Multilateral Environmental Treaties, edited by Malgosia Fitmaurice, Attila Tanzi and Angeliki Papantoniou (Edward Elgar Publishing Limited 2017)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2017,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_rojmahamongkol_003": {
+      "id": "thammasatu_facultyofl_rojmahamongkol_003",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Tanyatorn",
+      "last_name": "Rojmahamongkol",
+      "full_name": "Tanyatorn Rojmahamongkol",
+      "full_name_th": "อ. ธันยธรณ์ โรจน์มหามงคล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/tanyatorn-rojmahamongkol/",
+      "education": [
+        "Master of Law มหาวิทยาลัยเคมบริดจ์ สหราชอาณาจักร",
+        "นิติศาสตรบัณฑิต จุฬาลงกรณ์มหาวิทยาลัย"
+      ],
+      "research_interests": [
+        "กฎหมายมหาชน",
+        "กฎหมายรัฐธรรมนูญ",
+        "กฎหมายปกครอง",
+        "กฎหมายเลือกตั้ง",
+        "การใช้และการตีความกฎหมาย"
+      ],
+      "featured_publications": [
+        {
+          "title": "โรจน์มหามงคล ธ. . (2023) “ทฤษฎีปัญหาทางการเมืองกับการแบ่งเขตเลือกตั้ง: การปฏิเสธในการตรวจสอบการแบ่งเขตเลือกตั้งของศาลสูงสุดสหรัฐอเมริกา”, วารสารนิติปริทัศน์ , 3(1), น. 45–56. available at: https://so06.tci-thaijo.org/index.php/NitiPariJ/article/view/261746.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2023,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_004": {
+      "id": "thammasatu_facultyofl_cv_004",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. จุมพล แดงสกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/jumpol-daengsakul/",
+      "education": [
+        "นิติศาสตรบัณฑิต (เกียรตินิยมอันดับสอง ) มหาวิทยาลัยธรรมศาสตร์",
+        "นิติศาสตรมหาบัณฑิต (กฎหมายธุรกิจ) มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "กฎหมายเอกชน",
+        "กฎหมายพาณิชย์และธุรกิจ",
+        "กฎหมายการแพทย์"
+      ],
+      "featured_publications": [
+        {
+          "title": "ความรูเบื้องตนเกี่ยวกับกฎหมาย : กฎหมาย วิชานิติศาสตรและนิติวิธี กรุงเทพฯ : วิญญูชน , 2568 .",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คูมือการศึกษากฎหมายสัญญาทางพาณิชย : หลักกฎหมาย นิติวิธี และ ขอแนะนําในการศึกษากฎหมายสัญญาทางพาณิชย กรุงเทพฯ : วิญญูชน , 2565",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "บทบัญญัติคุ้มครองข้อมูลด้านสุขภาพของบุคคลตามมาตรา 7 พระราชบัญญัติสุขภาพแห่งชาติ พ.ศ. 2550 ในหนังสือ การคุ้มครองข้อมูลส่วนบุคคลด้านสุขภาพและความเข้าใจเกี่ยวกับมาตรา 7 พ.ร.บ.สุขภาพแห่งชาติ พ.ศ. 2550 /แสวง บุญเฉลิมวิภาส และไพศาล ลิ้มสถิตย์ บรรณาธิการ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สิทธิของทายาทในข้อมูลเวชระเบียนของผู้ตาย ในหนังสือนิติเวชศาสตร์และกฎหมายการแพทย์ / แสวง บุญเฉลิมวิภาส บรรณาธิการ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ลักษณะทางกฎหมายของหนี้เงิน ในหนังสือ รวมบทความทางวิชาการเนื่องในโอกาส 60 ปี รองศาสตราจารย์ ดร. ดาราพร ถิระวัฒน์",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "หน้าที่ของแพทย์ในการรักษาความลับในข้อมูลของผู้ป่วยภายหลังจากที่ผู้ป่วยถึงแก่ความตาย : คําพิพากษาคดี Dr. Nicholas Lewis v the Secretary of State for Health ใน วารสารนิติศาสตร์มหาวิทยาลัยธรรมศาสตร์ ปีที่ 41 , ฉบับที่ 2 (2555) , หน้า 239-261",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ข้อสังเกตบางประการเกี่ยวกับการศึกษา:กฎหมายสัญญาทางพาณิชย์ในบริบทปัจจุบัน ในหนังสือ รวมบทความวิชาการเนื่องในโอกาส 65 ปี ศาสตราจารย์ ดร. ไผทชิต เอกจริยกร",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "&#8211; ความเชื่อมโยงระหว่าง “สิทธิของบุคคลในทางกฎหมายเอกชน” ตามกฎหมายสารบัญญัติกับ “วิธีการบังคับสิทธิ” ตามประมวลกฎหมายวิธีพิจารณาความแพ่ง ใน ดุลพาห ปีที่ 72 เล่ม ที่ 2 (พฤษภาคม &#8211; สิงหาคม 2568)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_005": {
+      "id": "thammasatu_facultyofl_cv_005",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ.ดร. ณัฐนิช ลิมปโอวาท",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/nattanit-limpaowart/",
+      "education": [
+        "นิติศาสตรดุษฎีบัณฑิต มหาวิทยาลัยธรรมศาสตร์",
+        "เนติบัณฑิต สำนักอบรมศึกษากฎหมายแห่งเนติบัณฑิตยสภา",
+        "Master of Laws (LL.M.) with Distinction in Medical Law and Ethics, University of Kent",
+        "นิติศาสตรบัณฑิต มหาวิทยาลัยสุโขทัยธรรมาธิราช"
+      ],
+      "research_interests": [
+        "กฎหมายและจริยธรรมทางการแพทย์"
+      ],
+      "featured_publications": [
+        {
+          "title": "บทความวิชาการ การจํากัดสิทธิของชาวต่างชาติผู้ประสงค์จะมีบุตรโดยให้หญิงอื่นตั้งครรภ์แทนในกฎหมายกำกับดูแลการดำเนินการให้มีการตั้งครรภ์แทน วารสารบัณฑิตศึกษานิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_tangdham_006": {
+      "id": "thammasatu_facultyofl_tangdham_006",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Krisadhikhun",
+      "last_name": "Tangdham",
+      "full_name": "Krisadhikhun Tangdham",
+      "full_name_th": "อ. กฤษฎิคุณ ตั้งธรรม",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "https://law.tu.ac.th/wp-content/uploads/2025/12/กฤษฎิคุณ-ตั้งธรรม.png",
+      "profile_url": "https://law.tu.ac.th/teacher/krisadhikhun-tangdham/",
+      "education": [
+        "ปริญญาตรีนิติศาสตร์บัณฑิต เกียรตินิยมอันดับ 2 มหาวิทยาลัยธรรมศาสตร์",
+        "ปริญญาโทสาขากฎหมายธุรกิจของสหภาพยุโรป มหาวิทยาลัยลุนด์ สวีเดน"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_fac_007_007": {
+      "id": "thammasatu_facultyofl_fac_007_007",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "",
+      "last_name": "",
+      "full_name": "",
+      "full_name_th": "อ. ภิชยา แย้มกลิ่น",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "https://law.tu.ac.th/wp-content/uploads/2025/11/Untitled-design-1.png",
+      "profile_url": "https://law.tu.ac.th/teacher/phichaya-yamklin/",
+      "education": [],
+      "research_interests": [
+        "กฎหมายภาษีศุลกากร",
+        "ทฤษฎีกฎหมายภาษีอากร"
+      ],
+      "featured_publications": [
+        {
+          "title": "รายงานวิจัยฉบับสมบูรณ์ เรื่อง การปรับใช้หลักเกณฑ์การตีความการจำแนกพิกัดอัตราศุลกากรข้อ 2 (ก), ผู้ช่วยวิจัยร่วมกับ รองศาสตราจารย์ ดร. สุปรียา แก้วละเอียด และอาจารย์พัชราภรณ์ ตฤณวุฒิพงษ์ (2562-2565)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "รายงานประเมินความเสี่ยงด้านการฟอกเงิน และการสนับสนุนทางการเงินแก่การก่อการร้ายและการแพร่ขยายอาวุธที่มีอานุภาพทำลายล้างสูงของประเทศไทย (AMLO Report), ผู้ช่วยวิจัยร่วมกับสถาบันวิจัยและให้คำปรึกษาแห่งมหาวิทยาลัยธรรมศาสตร์ (2562-2566)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "รายงานวิจัยฉบับสมบูรณ์ เรื่อง การปรับใช้กฎหมายศุลกากรและการตีความพิกัดอัตราศุลกากรของประเทศไทยในกรณีการให้สิทธิประโยชน์ทางภาษีสำหรับอุตสาหกรรมยานยนต์ตามพันธกรณีระหว่างประเทศ, ผู้ช่วยวิจัยร่วมกับศูนย์กฎหมายภาษี คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ (2564-2566)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "บทความ เรื่อง บทวิเคราะห์คำวินิจฉัยศาลรัฐธรรมนูญที่ 8/2564 กรณีกำหนดความผิดหลีกเลี่ยงและฉ้อโกงภาษีอากร เป็นความผิดมูลฐานทางการฟอกเงินขัดหรือแย้งต่อรัฐธรรมนูญ พุทธศักราช 2560 หรือไม่, ผู้ช่วยวิจัยร่วมกับ รองศาสตราจารย์ ดร. สุปรียา แก้วละเอียด (2565)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "บทความ เรื่อง การปรับใช้หลักเกณฑ์การตีความการจำแนกพิกัดอัตราศุลกากรข้อ 2 (ก), ผู้ช่วยวิจัยร่วมกับ รองศาสตราจารย์ ดร. สุปรียา แก้วละเอียด และอาจารย์พัชราภรณ์ ตฤณวุฒิพงษ์ (2565)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_kongsiriwong_008": {
+      "id": "thammasatu_facultyofl_kongsiriwong_008",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Wiriya",
+      "last_name": "Kongsiriwong",
+      "full_name": "Wiriya Kongsiriwong",
+      "full_name_th": "อ. วิริยะ ก้องศิริวงศ์",
+      "role": "อาจารย์ประจำ",
+      "email": "kwiriya@tu.ac.th",
+      "image_url": "https://law.tu.ac.th/wp-content/uploads/2025/11/Untitled-design-2.png",
+      "profile_url": "https://law.tu.ac.th/teacher/wiriya-kongsiriwong/",
+      "education": [
+        "นิติศาสตร์บัณฑิต (เกียรตินิยมอันดับสอง) มหาวิทยาลัยธรรมศาสตร์",
+        "เนติบัณฑิตไทย สำนักอบรมกฎหมายแห่งเนติบัณฑิตยสภา"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "วิริยะ ก้องศิริวงศ์ และ กิตติภพ วังคำ, ‘ความเป็นมาทางประวัติศาสตร์ของการปฏิรูปกฎหมายวิธีพิจารณาความแพ่งไทยภายใต้อิทธิพลกฎหมายอังกฤษ’ (2569) 2 วารสารกฎหมาย (กำลังจะเผยแพร่).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Wiriya Kongsiriwong ‘Legal Transplant on the Thai Civil and Commercial Code: A Case Study of Definition of Things and Property’, (2024) 1 Thammasat Business Law Journal 1.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2024,
+          "citation_count": 0
+        },
+        {
+          "title": "Wiriya Kongsiriwong. ‘An Overview of Problems with the Act on Imposition of Non-Criminal (Pinai) Regulatory Fines, B.E. 2565 (2022).’ (2023) 1 Thai Legal Studies 109",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2023,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_009": {
+      "id": "thammasatu_facultyofl_cv_009",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ.ดร. สิรินทิพย์ สมใจ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "https://law.tu.ac.th/wp-content/uploads/2025/03/TU-LAW-bg-professor-450x60012-1.jpg",
+      "profile_url": "https://law.tu.ac.th/teacher/sirintip-somjai/",
+      "education": [
+        "นิติศาสตรบัณฑิต มหาวิทยาลัยธรรมศาสตร์",
+        "ฝึกอบรมว่าความ สภาทนายความ (ใบอนุญาตว่าความ)",
+        "นิติศาสตรมหาบัณฑิต สาขากฎหมายอาญา มหาวิทยาลัยธรรมศาสตร์ หัวข้อ : การให้ความยินยอมของเด็ก : ศึกษากรณีสิทธิการตายโดยสงบของผู้ป่วยเด็ก (Passive Euthanasia)",
+        "The 5 modules of Shero’s Lawyers for Women’s rights training",
+        "นิติศาสตรดุษฎีบัณฑิต มหาวิทยาลัยธรรมศาสตร์ (ทุนปริญญาเอกเพื่อการวิจัย) หัวข้อ : การกำหนดความผิดอาญาและมาตรการป้องกันสำหรับกรณีการล่อลวงเพื่อประโยชน์ทางเพศจากเด็ก (Child Sexual Grooming)"
+      ],
+      "research_interests": [
+        "กฎหมายอาญาสำหรับเด็กและเยาวชน",
+        "กฎหมายเกี่ยวกับกระบวนการยุติธรรมทางอาญาสำหรับเด็กและเยาวชน",
+        "กฎหมายเกี่ยวกับการกระทำความรุนแรงในครอบครัว"
+      ],
+      "featured_publications": [
+        {
+          "title": "ความยินยอมของเด็ก : ศึกษากรณีสิทธิการตายโดยสงบของผู้ป่วยเด็ก, วิทยานิพนธ์นิติศาสตรมหาบัณฑิต สาขากฎหมายอาญา มหาวิทยาลัยธรรมศาสตร์, 2562.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ความยินยอมของเด็ก : ศึกษาสิทธิการตายโดยสงบของผู้ป่วยเด็ก, การนำเสนอผลงานวิจัยคณะนิติศาสตร์ ธรรมศาสตร์ ประจำปี 2561, 3-5 ธันวาคม 2561 311-326.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ความยินยอมต่อการตายโดยสงบของผู้ป่วยเด็ก : ศึกษาเปรียบเทียบประเทศเนเธอร์แลนด์, เบลเยียม และสหราชอาณาจักร, (2562) 1 วารสารนิติศาสตร์ มหาวิทยาลัยนเรศวร 47-66.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "เกณฑ์ความสามารถในการให้ความยินยอมต่อการกระทำทางเพศ ในกฎหมายอาญาของไทย, (2563) 1 วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ 84 – 109.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ความผิดฐานล่อลวงเด็กเพื่อการอนาจาร: บทบัญญัติป้องกันอาชญากรรมทางเพศเด็ก, การประชุมวิชาการระดับชาติ “ธรรมศาสตร์ – นิติพัฒน์” ครั้งที่ 8 (2566) 27-48. (รางวัลผลงานดีเด่น)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "การพรากโดยการแสวงหาผลประโยชน์จากความไว้วางใจในการล่อลวเพื่อการอนาจารเด็ก , (2567) 4 วารสารบัณฑิตศึกษานิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ 789 – 811.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ปัญหาการปรับใช้บทบัญญัติที่มีในกฎหมายปัจจุบันกับการกระทำภายหลังจากการกรูมมิ่งเด็กในไทย, (2567) 2 วารสารนิติศาสตร์ มหาวิทยาลัยนเรศวร 1 – 28.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "การกำหนดความผิดอาญาและมาตรการป้องกันสำหรับกรณีการล่อลวงเพื่อประโยชน์ทางเพศจากเด็ก (Child Sexual Grooming) วิทยานิพนธ์นิติศาสตรดุษฎีบัณฑิต มหาวิทยาลัยธรรมศาสตร์, 2568.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_fac_010_010": {
+      "id": "thammasatu_facultyofl_fac_010_010",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "",
+      "last_name": "",
+      "full_name": "",
+      "full_name_th": "ผศ.ดร. กฤษฎากร ว่องวุฒิกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "kris_w@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/krisdakorn-wongwuthikun/",
+      "education": [
+        "Ph.D. in Law The University of Dundee (United Kingdom) ดุษฎีนิพนธ์เรื่อง : An Appraisal of Third-Party Dispute Settlement Mechanisms in Settling International Environmental Disputes (ภายใต้การควบคุมของ Professor Robin R. Churchill และ Professor Elizabeth A. Kirk)",
+        "LL.M. Global Environment and Climate Change Law The University of Edinburgh (United Kingdom) วิทยานิพนธ์เรื่อง : The Establishment of an International Environmental Court (ภายใต้การควบคุมของ Professor Alan E. Boyle)",
+        "นิติศาสตรมหาบัณฑิต สาขากฎหมายระหว่างประเทศ มหาวิทยาลัยธรรมศาสตร์ วิทยานิพนธ์เรื่อง: หลักเกณฑ์และผลทางกฎหมายของการไม่ปฏิบัติ ตามพันธกรณีอันเป็นสาระสำคัญของสนธิสัญญาตามมาตรา 60 แห่งอนุสัญญากรุงเวียนนาว่าด้วยกฎหมายสนธิสัญญา (ภายใต้การควบคุมของ ศาสตราจารย์ ดร. จตุรนต์ ถิระวัฒน์)",
+        "นิติศาสตรบัณฑิต เกียรตินิยมอันดับ 2 มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "กฎหมายสิ่งแวดล้อมระหว่างประเทศ",
+        "กฎหมายว่าด้วยการพัฒนาอย่างยั่งยืน",
+        "กฎหมายทะเล",
+        "กฎหมายว่าด้วยการเปลี่ยนแปลงสภาพภูมิอากาศ"
+      ],
+      "featured_publications": [
+        {
+          "title": "กฤษฎากร ว่องวุฒิกุล “ข้อพิจารณาด้านกฎหมายเกี่ยวกับมาตรการทางการค้าระหว่าง ประเทศและแนวทางการป้องกันและแก้ไขปัญหาการเปลี่ยนแปลงสภาพภูมิอากาศ” สถาบันพระปกเกล้า 2566. (กำลังดำเนินการ)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "กฤษฎากร ว่องวุฒิกุล “การศึกษาวิเคราะห์ร่างกฎหมายและกฎหมายที่เกี่ยวกับสิทธิใน อากาศที่สะอาด” สถาบันพระปกเกล้า 2565. จำนวน 76 หน้า (ISBN 9786164763180) กฤษฎากร ว่องวุฒิกุล, รณบรรจบ อภิรติกุล, ธันวดี สุขสาโรจน์, ปิยศักดิ์ มานะสันต์, นิอร สิริมงคลเลิศกุล, รุจิกาญจน์ อภิรักษ์กิตติกุล, นวรัตน์ อภิรักษ์กิตติกุล และศิวัช พงษ์เพียจันทร์ “สิทธิในการหายใจอากาศสะอาด: ข้อเสนอแนะในเชิงกฎหมาย” จัดพิมพ์โดย สำนักงานกองทุนสนับสนุนการสร้างเสริมสุขภาพ (สสส.) 2565. จำนวน 126 หน้า (ISBN 9786165850032)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Chukiat Chaiboonsri, Paponsun Eakkapun, Niorn Sirimongkonlertkun, Thunwadee Tachapattaworakul Suksaroj, Rujikan Nasanit, Ronbanchob Apiratikul, Navarat Apirakkittikul, Piyasak Manason, Krisdakorn Wongwuthikun, and Siwatt Pongpiachan “The Impact of PM 5 on Socio-Economic of Thailand: The Perception Based on The Survey Data” NIDA Development Journal Volume. Vol. 63 No. 2 (2023) pp. 106-124.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "กฤษฎากร ว่องวุฒิกุล, ประสิทธิ์ ปิวาวัฒนพานิช “การปรับปรุงกฎหมายไทยให้สอดคล้องกับข้อ 14 แห่งเป้าหมายการพัฒนาที่ยั่งยืนขององค์การสหประชาชาติ (SDG 14) ว่าด้วยเรื่องการอนุรักษ์และใช้ประโยชน์จากมหาสมุทรและทรัพยากรทางทะเลอย่างยั่งยืน” วารสารนิติศาสตร์. ปีที่ 51. ฉบับที่ 3 (2565) หน้า 648-678.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "กฤษฎากร ว่องวุฒิกุล. “ระบบการระงับข้อพิพาทภาคบังคับภายใต้อนุสัญญาสหประชาชาติว่าด้วยกฎหมายทะเล ค.ศ. 1982: ถอดบทเรียนจากแนวคำพิพากษาของศาลและคณะตุลาการว่าด้วยเรื่องเขตอำนาจในการพิจารณาคดี” วารสารนิติศาสตร์. ปีที่ 47. ฉบับที่ 4 (ธ.ค. 2561) หน้า 879-916.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 1982,
+          "citation_count": 0
+        },
+        {
+          "title": "กฤษฎากร ว่องวุฒิกุล. “วิเคราะห์คำตัดสินของศาลอนุญาโตตุลาการในคดีพิพาททะเลจีนใต้ระหว่างฟิลิปปินส์และจีนผ่านมุมมองด้านกฎหมายสิ่งแวดล้อมระหว่างประเทศ”. วารสารนิติศาสตร์. ปีที่ 47. ฉบับที่ 1 (มี.ค. 2561) หน้า 109-134.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "กฤษฎากร ว่องวุฒิกุล. “ทรัพยากรพันธุกรรมทางทะเลในพื้นที่นอกเขตอำนาจแห่งชาติ: ความท้าทายใหม่ของกฎหมายทะเล”. วารสารกฎหมาย. ปีที่ 36. ฉบับที่ 1 (มี.ค. 2561) หน้า 139-154.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "กฤษฎากร ว่องวุฒิกุล. “สำรวจความท้าทายและข้อจำกัดบางประการของการปรับใช้กฎหมายระหว่างประเทศว่าด้วยความรับผิดชอบของรัฐในบริบทของมลพิษข้ามพรมแดน”. วารสารนิติสังคมศาสตร์. ปีที่ 11. ฉบับที่ 1 (ม.ค.-มิ.ย. 2561) หน้า 1-27.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "กฤษฎากร ว่องวุฒิกุล. “การเปลี่ยนแปลงสภาพภูมิอากาศและกฎหมายทะเล: ผลกระทบและทางออกของปัญหา”. วารสารนิติพัฒน์ นิด้า. ปีที่ 7. ฉบับที่ 1 (2561) หน้า 53-63.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Krisdakorn Wongwuthikun “Country Report: Thailand” (2015) 6 IUCN E-Journal 405-415.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2015,
+          "citation_count": 0
+        },
+        {
+          "title": "กฤษฎากร ว่องวุฒิกุล. “การจัดตั้งองค์กรเพื่อความปลอดภัยทางนิวเคลียร์แห่งชาติ: มาตรฐานระหว่างประเทศ และการศึกษาเปรียบเทียบ” วารสารพัฒนาสังคม. 14, 1 (มี.ค 2555) หน้า 62-112.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "กฤษฎากร ว่องวุฒิกุล. “หลักเกณฑ์และผลทางกฎหมายของการไม่ปฏิบัติตามพันธกรณีอันเป็นสาระสำคัญของสนธิสัญญาตามมาตรา 60 แห่งอนุสัญญากรุงเวียนนาว่าด้วยกฎหมายสนธิสัญญา” วารสารบัณฑิตศึกษานิติศาสตร์. 4, 1 (ส.ค. 2553) หน้า 166-176.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_011": {
+      "id": "thammasatu_facultyofl_cv_011",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "รศ.ดร. กิตติศักดิ์ ปรกติ",
+      "role": "อาจารย์ประจำ",
+      "email": "prokati@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/kittisak-prokati/",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_012": {
+      "id": "thammasatu_facultyofl_cv_012",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ศ.ดร. นนทวัชร์ นวตระกูลพิสุทธิ์",
+      "role": "อาจารย์ประจำ",
+      "email": "nsomsak@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/nontawat-nawatrakulpisut/",
+      "education": [],
+      "research_interests": [
+        "กฎหมายหุ้นส่วน-บริษัท",
+        "กฎหมายหลักทรัพย์และตลาดหลักทรัพย์",
+        "กฎหมายเอกเทศสัญญา"
+      ],
+      "featured_publications": [
+        {
+          "title": "กฎหมายห้างหุ้นส่วน และบริษัท” กรุงเทพฯ: วิญญูชน. 2568.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "รวมกฎหมายคุ้มครองผู้บริโภค ฉบับหัวเรื่องเรียงมาตรา” ร่วมกับ ศ.พิเศษ ดร. วรรณชัย บุญบำรุง พัสกร ทัพมงคล และ ดร. ศิระณัฐ วิทยาธรรมธัช กรุงเทพฯ: วิญญูชน. 2568.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "กฎหมายคุ้มครองผู้บริโภค” กรุงเทพฯ: โครงการตำราและเอกสารประกอบการสอน. คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์. 2566.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คำอธิบายหลักกฎหมายเอกเทศสัญญา ลักษณะจ้างแรงงาน-จ้างทำของ-รับขน” กรุงเทพฯ: โครงการตำราและเอกสาร ประกอบการสอน คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์. 2561.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คำอธิบายหลักกฎหมายเอกเทศสัญญา ลักษณะยืม-ฝากทรัพย์” กรุงเทพฯ: โครงการตำราและเอกสารประกอบการสอน คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์. 2558.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คำอธิบายหลักกฎหมายเอกเทศสัญญา ลักษณะตัวแทน-นายหน้า” กรุงเทพฯ: โครงการตำราและเอกสารประกอบ การสอน คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์. 2562.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "การเปิดเผยข้อมูลข่าวสารของทางราชการกับข้อพิจารณาทางกฎหมายปกครอง”ดร. ชาญชัย แสวงศักดิ์, ดร. บรรเจิด สิงคะเนติ, นายสมศักดิ์ นวตระกูลพิสุทธิ์, กรุงเทพฯ: นิติธรรม. 2543.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ปัญหาการบังคับใช้พระราชบัญญัติข้อมูลข่าวสารของทางราชการ พ.ศ. 2540, เสนอต่อคณะกรรมการข้อมูลข่าวสารของราชการ, กรกฎาคม 2543.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "การเปิดเผยเอกสารที่เกี่ยวกับการดำเนินการทางวินัย, เสนอต่อสำนักงานคณะกรรมการข้อมูลข่าวสารของทางราชการ, สิงหาคม 2543.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "การประกอบธุรกิจบัตรเครดิตในประเทศอังกฤษ, เสนอต่อสำนักงานคณะกรรมการกฤษฎีกา, กันยายน 2545.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ความรับผิดต่อความเสียหายที่เกิดขึ้นจากสินค้า (Product Liability), เสนอต่อสำนักงานคณะกรรมการวิจัยแห่งชาติ, กันยายน 2545.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "การรับฟังความคิดเห็นของประชาชนตามกฎหมายฝรั่งเศส (Enquête publique), เสนอต่อสำนักงานคณะกรรมการกฤษฎีกา, มกราคม 2546.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_013": {
+      "id": "thammasatu_facultyofl_cv_013",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ผศ. ทวีศักดิ์ เอื้ออมรวนิช",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/taweesak-euaamornwanich/",
+      "education": [
+        "นิติศาสตรบัณฑิต (เกียรตินิยม) มหาวิทยาลัยธรรมศาสตร์",
+        "รัฐศาสตรบัณฑิต มหาวิทยาลัยสุโขทัยธรรมาธิราช",
+        "เนติบัณฑิตไทย สำนักอบรมศึกษากฏหมายแห่งเนติบัณฑิตยสภา",
+        "นิติศาสตรมหาบัณฑิต (กฎหมายเอกชนและธุรกิจ) จุฬาลงกรณ์มหาวิทยาลัย",
+        "นิติศาสตรมหาบัณฑิต สาขา กฎหมายพาณิชย์และธุรกิจระหว่างประเทศ มหาวิทยาลัยอิสแองเกลียร์ สหราชอาณาจักร"
+      ],
+      "research_interests": [
+        "กฎหมายทรัพย์สินและสิทธิในทรัพย์",
+        "กฎหมายว่าด้วยกระบวนการพิจารณาคดีแพ่ง",
+        "กฎหมายว่าด้วยปัญหาและข้อพิพาททางพาณิชยนาวี",
+        "กฎหมายการเงินและธุรกิจระหว่างประเทศ",
+        "กฎหมายว่าด้วยการประกันภัยทางทะเล"
+      ],
+      "featured_publications": [
+        {
+          "title": "สอนในวิชาหลักทั่วไปของกฎหมายแพ่งและพาณิชย์",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชาหลักกฎหมายธุรกิจระหว่างประเทศ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชาบูรณาการของกฎหมายและเศรษฐศาสตร์",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชากฎหมายการค้าระหว่างประเทศภาคเอกชน",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชาเสริมพื้นฐานความรู้เกี่ยวกับกฎหมาย",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชากฎหมายลักษณะทรัพย์",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชาทักษะการใช้ภาษากฎหมาย: การค้นคว้า การเขียน และการนำเสนอ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชากฎหมายประกันภัยทางทะเล",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชาปัญหากฎหมายพาณิชยนาวี",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชากฎหมายพาณิชยนาวี",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชากฎหมายเกี่ยวกับการชำระเงินในการค้าระหว่าง ประเทศ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สอนในวิชาหลักกฎหมายแพ่งและพาณิชย์ (สำหรับนักศึกษานอกคณะนิติศาสตร์)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_014": {
+      "id": "thammasatu_facultyofl_cv_014",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.",
+      "academic_title_th": "ศ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ศ. ณรงค์ ใจหาญ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/narong-jaiharn/",
+      "education": [
+        "นิติศาสตรบัณฑิต มหาวิทยาลัยธรรมศาสตร์",
+        "นิติศาสตรมหาบัณฑิต (กฎหมายอาญา) มหาวิทยาลัยธรรมศาสตร์",
+        "เนติบัณฑิตไทย สำนักอบรมศึกษากฏหมายแห่งเนติบัณฑิตยสภา",
+        "นิติศาสตรมหาบัณฑิต Kent University สหราชอาณาจักร"
+      ],
+      "research_interests": [
+        "กฎหมายอาญา : ภาคทั่วไป",
+        "กฎหมายอาญา : ภาคความผิด",
+        "สัมมนาปัญหาในกระบวนการยุติธรรมทางอาญา",
+        "อาชญาวิทยาและทัณฑวิทยา",
+        "กฎหมายวิธีพิจารณาความอาญา",
+        "กฎหมายและนโยบายเกี่ยวกับการอนุรักษ์ทรัพยากรธรรมชาติ",
+        "ปัญหาการดำเนินคดีสิ่งแวดล้อม"
+      ],
+      "featured_publications": [
+        {
+          "title": "ณรงค์ ใจหาญ. (2553). การจัดแบ่งกลุ่มความรับผิดชอบและโทษทางอาญาตามประมวลกฎหมายอาญาของไทย (Classification of Crime) . กรุงเทพมหานคร: สำนักงานศาลยุติธรรม.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ณรงค์ ใจหาญ. (2554). ศึกษาปัญหาข้อขัดข้องการบังคับใช้กฎหมายวิธีพิจารณาความอาญาที่แก้ไขใหม่ในส่วนที่เกี่ยวกับพยานหลักฐาน. กรุงเทพมหานคร: สำนักงานศาลยุติธรรม.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ณรงค์ ใจหาญ. (2554). โครงการศึกษาแนวทางการจ่ายค่าทดแทนผู้เสียหาย และค้าตอบแทนและค่าใช้จ่ายแก่จำเลยในคดีอาญา พ.ศ. 2544: กรณีศึกษาองค์กรศาลเป็นผู้พิจารณาสั่งจ่ายค่าทดแทนและค่าใช้จ่ายแก่จำเลยในคดีอาญา. กรุงเทพมหานคร: กรมคุ้มครองสิทธิและเสรีภาพ.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ณรงค์ ใจหาญ. (2554). โครงการพัฒนากฎหมายคุ้มครองพยานในคดีอาญา. กรุงเทพมหานคร: กรมคุ้มครองสิทธิและเสรีภาพ.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ณรงค์ ใจหาญ. (2555). โครงการตรวจกำกับการประปาสัมปทาน(การฝึกปฏิบัติและส่งเสริมให้ผู้ประกอบกิจการประปาเอกชนเข้าสู่กระบวนการขอสัมปทาน). กรุงเทพมหานคร: กรมทรัพยากรน้ำ.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ณรงค์ ใจหาญ. (2555). โครงการพัฒนากฎหมายและประสิทธิภาพการคุ้มครองสิทธิของผู้เสียหาย ผู้ต้องหา และจำเลยในคดีอาญาตามรัฐธรรมนูญแห่งราชอาณาจักรไทย พุทธศักราช 2550 และมาตรฐานสากล. กรุงเทพมหานคร: กรมคุ้มครองสิทธิและเสรีภาพ.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Narong Jaiharn. (2012). A Preliminary Analysis of Access to Justice Problems in Rural Areas. Bangkok: UNDP Thailand.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2012,
+          "citation_count": 0
+        },
+        {
+          "title": "ณรงค์ ใจหาญ. (2555). ประสิทธิภาพในการดำเนินคดีอาญาของพนักงานอัยการ. กรุงเทพมหานคร: สำนักงานอัยการพิเศษ ฝ่ายสถาบันกฎหมายอาญา.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ณรงค์ ใจหาญ และคณะ. (2556). จัดทำยุทธศาสตร์และแผนการดำเนินงานเพื่อเข้าสู่ประชาคมอาเซียนของกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม ในปี 2558. กรุงเทพมหานคร : สำนักงานปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ณรงค์ ใจหาญ. (2556). โครงการศึกษาทบทวนและรับฟังความคิดเห็นของประชาชนเพื่อจัดทำร่างพระราชบัญญัติทรัพยากรน้ำ พ.ศ. …. กรุงเทพมหานคร: กรมทรัพยากรน้ำ.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ณรงค์ ใจหาญ และคณะ. (2556). การพัฒนาแนวทางการสร้างความโปร่งใสในการปฏิบัติราชการ กระบวนงาน: ส่งเสริมสิทธิแก่ผู้ต้องหาในชั้นสอบสวนในคดีอาญา. กรุงเทพมหานคร: กรมคุ้มครองสิทธิและเสรีภาพ.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ณรงค์ ใจหาญ และรณกรณ์ บุญมี. (2556). โครงการพัฒนากฎหมายให้สอดคล้องกับอนุสัญญาระหว่างประเทศว่าด้วยการคุ้มครองมิให้บุคคลถูกบังคับให้สูญหาย. กรุงเทพมหานคร: การประปานครหลวง.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_015": {
+      "id": "thammasatu_facultyofl_cv_015",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "รศ.ดร. รวินท์ ลีละพัฒนะ",
+      "role": "อาจารย์ประจำ",
+      "email": "rawin.l@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/rawin-leelapatana/",
+      "education": [
+        "PhD in Law, University of Bristol",
+        "LLM, University of Bristol",
+        "นิติศาสตรบัณฑิต (เกียรตินิยมอันดับ 1) จุฬาลงกรณ์มหาวิทยาลัย"
+      ],
+      "research_interests": [
+        "นิติปรัชญา",
+        "กฎหมายรัฐธรรมนูญ",
+        "ทฤษฎีกฎหมายมหาชน"
+      ],
+      "featured_publications": [
+        {
+          "title": "Andrew Harding and Rawin Leelapatana, ‘Constitution-Making in the 21st Century Thailand: The Continuing Search for Perfect Paper’ (2019) 7 Chinese Journal of Comparative Law 266. (Oxford University Press)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2019,
+          "citation_count": 0
+        },
+        {
+          "title": "Rawin Leelapatana, ‘The Monarchy-Led Urban Development: Lessons from Bangkok’s Planning Regime’ (2023) 11 The Chinese Journal of Comparative Law 1. (Oxford University Press)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "Rawin Leelapatana and Abdurrachman Satrio, ‘The relationship between a Kelsenian Constitutional Court and an Entrenched National Ideology: Lessons from Thailand and Indonesia’ (2020) 14 The Vienna Journal of International Constitutional Law 497.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2020,
+          "citation_count": 0
+        },
+        {
+          "title": "Rawin Leelapatana and Suprawee Asanasak, ‘Constitutional Struggles and Polarised Identities in Thailand: The Constitutional Court and the Gravitational Pull of Thai-Ness upon Liberal Constitutionalism’ (2022) 50 Federal Law Review 156. (Sage)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2022,
+          "citation_count": 0
+        },
+        {
+          "title": "Rawin Leelapatana, ‘The Thai-style democracy in post-1932 Thailand, Constitutional Samsara, and its challenges: a prospect for Constitutional Nirvana in Thai legal history?’ in Andrew Harding and Munin Pongsapan (eds), Thai Legal History: From Traditional Law to Modern Law (Cambridge University Press 2021).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2021,
+          "citation_count": 0
+        },
+        {
+          "title": "Rawin Leelapatana, ‘The gravitational pull between liberalism and authoritarianism in Thailand’s colour-coded politics in Anthony J. Spires and Akihiro Ogawa (eds), Authoritarianism and Civil Society in Asia (Routledge 2023).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "Rawin Leelapatana, ‘Thailand’s Competing Notions of Constituent Power: The Making of the 2017 Constitution in the Binary-Star Scenario’ in Son Ngoc Bui and Mara Malagodi (eds), Asian Comparative Constitutional Law, Volume 1: Constitution-Making (Hart 2023).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "Rawin Leelapatana, ‘Thailand’s 2017 Constitution: Constitutional Amendment in the Binary-Star Scenario’ in Son Ngoc Bui and Mara Malagodi (eds), Asian Comparative Constitutional Law, Volume 2: Constitutional Amendment (Hart 2024).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2024,
+          "citation_count": 0
+        },
+        {
+          "title": "Rawin Leelapatana, ‘The Separation of Powers under a Royalist Regime: Lessons from Thailand&#8217;s Binary-Star Scenario’ in Ngoc Son Bui, Mara Malagodi, Christopher Roberts (eds), Asian Comparative Constitutional Law, Volume 3: Constitutional Structure (Hart 2025).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2025,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_016": {
+      "id": "thammasatu_facultyofl_cv_016",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ.ดร. ฐาปนันท์ นิพิฏฐกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "https://law.tu.ac.th/wp-content/uploads/2024/10/ฐาปนันท์.jpg",
+      "profile_url": "https://law.tu.ac.th/teacher/thapanan-nipithakul/",
+      "education": [],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "Thapanan Nipithakul, Le fondement religieux du pouvoir politique en Thaïlande , (ความคิดพื้นฐานทางศาสนาว่าด้วยอำนาจการเมืองในประเทศไทย) in Mutation du Droit public en Asie du Sud-est, Influences extérieures et adaptations , sous la direction de Jean-Marie Crouzatier, Presse universitaire de Toulouse, 2001.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2001,
+          "citation_count": 0
+        },
+        {
+          "title": "Thapanan Nipithakul, Le droit et les religions indiennes en Asie du Sud-Est continentale avant la réception de la culture juridique occidentale , (กฎหมายและศาสนาของอินเดียในเอเชียตะวันออกเฉียงใต้ภาคพื้นทวีปก่อนการรับวัฒนธรรมทางกฎหมายแบบตะวันตก) in Droit et Religion en Aise du Sud-est , sous la direction de Jean-Marie Crouzatier, Presse universitaire de Toulouse, 2002.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2002,
+          "citation_count": 0
+        },
+        {
+          "title": "Thapanan Nipithakul, Les fondements du constitutionnalisme dans l’oeuvre de Pridi Banomyong , (ฐานคิดว่าด้วยรัฐธรรมนูญนิยมในงานของปรีดี พนมยงค์) in Justice et Constitution en Asie , sous la direction de Jean-Marie Crouzatier, Presse universitaire de Toulouse, 2003.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2003,
+          "citation_count": 0
+        },
+        {
+          "title": "ฐาปนันท์ นิพิฏฐกุล. ฐานคิดว่าด้วยรัฐธรรมนูญนิยมในงานของปรีดี พนมยงค์ . แปลและเรียบเรียงจาก Thapanan Nipithakul. Les fondements du constitutionnalisme dans l’oeuvre de Pridi Banomyong จุลสารหอจดหมายเหตุธรรมศาสตร์ . ฉบับที่ 10 (มิถุนายน 2549 –พฤษภาคม 2550) : 4-21.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ฐาปนันท์ นิพิฏฐกุล. ภราดรภาพนิยม (Solidarisme) ของปรีดี พนมยงค์ . ปาฐกถาปรีดี พนมยงค์ ประจำปี 2549. กรุงเทพ ฯ : สถาบันปรีดี พนมยงค์, 2549. 46 หน้า (ฉบับแก้ไขเพิ่มเติม โปรดดูเว็บไซต์ของสถาบันปรีดี พนมยงค์)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ฐาปนันท์ นิพิฏฐกุล. ภราดรภาพนิยม ( Le Solidarisme) ของปรีดี พนมยงค์ (ฉบับขยายความ) . สำนักพิมพ์มิ่งมิตรและสถาบันปรีดี พนมยงค์. 71 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ฐาปนันท์ นิพิฏฐกุล. 117 ปี รัตนบุรุษ : ปรีดี พนมยงค์. 11 พฤษภาคม เผยแพร่ใน The 101.World https://www.the101.world/thoughts/117-years-of-pridi-banomyong .",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ฐาปนันท์ นิพิฏฐกุล. 85 ปี การอภิวัฒน์ 2475 : ทัศนะทางประวัติศาสตร์กฎหมาย. 3 กรกฎาคม เผยแพร่ใน https://www.the101.world/thoughts/legal-history-of-2475 .",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ฐาปนันท์ นิพิฏฐกุล. ผู้ร่วมแปล. จดหมาย ร .แลงกาต์ ถึง ฯพณฯ ปรีดี พนมยงค์ และ อิทธิพลฮินดูในกฎหมายเก่าของประเทศสยาม . ใน รศ. ดร. สุรศักดิ์ ลิขสิทธิ์วัฒนกุล และ รศ. ดร. กรรณิกา จรรย์แสง (บรรณาธิการ). ร. แลงกาต์ กับไทยศึกษา : รวมบทความแปลและบทความศึกษาผลงาน . สำนักพิมพ์มหาวิทยาลัยธรรมศาสตร์และศูนย์ข้อมูลเพื่อการค้นคว้าวิจัยฝรั่งเศส-ไทยศึกษา คณะอักษรศาสตร์ มหาวิทยาลัยศิลปากร. 2548. 346 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คาร์ล มาร์กซ์. ข้อพินิจบุรุษหนุ่มผู้หนึ่งถึงหนทางแห่งชีวิตการงาน . ฐาปนันท์ นิพิฏฐกุล แปล. จุลสารหอจดหมายเหตุ ธรรมศาสตร์ . ฉบับที่ 11 (มิถุนายน 2550-พฤษภาคม 2551) : 109-116.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "เรย์มอนด์ แวคส์. กฎหมาย : ความรู้ฉบับพกพา (Law : a very short introduction) . ฐาปนันท์ นิพิฏฐกุล แปล. กรุงเทพ ฯ : ภาพพิมพ์, 2555. 339 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ปรีดี พนมยงค์. วัยเติบใหญ่ของข้าพเจ้าบนเส้นทางอภิวัฒน์ . ฐาปนันท์ นิพิฏฐกุล แปลจาก Chapitre II Mon adolescence révolutionnaire ใน Pridi Banomyong. Ma vie mouvementée et mes 21 ans d&#8217;exil en Chine populaire . ปรีดีบรรณานุสรณ์ 2559 : หนังสือที่ระลึกในวาระ 116 ปีชาตกาล ศาสตราจารย์ ดร.ปรีดี พนมยงค์ 11 พฤษภาคม กษิดิศ อนันทนาธร บรรณาธิการ. โรงพิมพ์มหาวิทยาลัยธรรมศาสตร์. 2559.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_017": {
+      "id": "thammasatu_facultyofl_cv_017",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. ชวิน อุ่นภัทร",
+      "role": "อาจารย์ประจำ",
+      "email": "chawin.o@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/chawin-oinpat/",
+      "education": [
+        "นิติศาสตรบัณฑิต (เกียรตินิยมอันดับหนึ่ง) มหาวิทยาลัยธรรมศาสตร์ และประกาศนียบัตรวิชาเลือกทางกฎหมายเฉพาะด้านสาขากฎหมายแพ่ง",
+        "ปริญญาโททางด้านกฎหมายและนโยบายสารสนเทศ (Information Law and Policy) มหาวิทยาลัยอินเดียนา ประเทศสหรัฐอเมริกา และประกาศนียบัตรกฎหมายและนโยบายสารสนเทศ สถาบันอินเทอร์เน็ตแห่งมหาวิทยาลัยอ๊อกซ์ฟอร์ด (Oxford Internet Institute) ประเทศสหราชอาณาจักร",
+        "ประกาศนียบัตรผู้มีวิชาชีพด้านการคุ้มครองความเป็นส่วนตัว CIPP/E"
+      ],
+      "research_interests": [
+        "กฎหมายว่าด้วยนิติกรรมสัญญา",
+        "เอกเทศสัญญา",
+        "กฎหมายละเมิด",
+        "กฎหมายคุ้มครองผู้บริโภค",
+        "กฎหมายกับเทคโนโลยี",
+        "กฎหมายคุ้มครองข้อมูลส่วนบุคคล"
+      ],
+      "featured_publications": [
+        {
+          "title": "คำอธิบายประมวลกฎหมายแพ่งและพาณิชย์ เรียงมาตรา ว่าด้วยบทเบ็ดเสร็จทั่วไป บุคคล และนิติบุคคล บรรพ 1 มาตรา 1-148, 2568 (เรียบเรียงร่วมกับ ศาสตราจารย์ ดร.คณิต ณ นคร)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คำอธิบายประมวลกฎหมายแพ่งและพาณิชย์ เรียงมาตรา ว่าด้วยหนี้ บรรพ 2 มาตรา 194 – 353 ของพระยาเทพวิทุร และ ยล ธีรกุล, 2554 (แก้ไขเพิ่มเติมร่วมกับ ศ.ดร.ดาราพร ถิระวัฒน์)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คำอธิบายประมวลกฎหมายแพ่งและพาณิชย์ เรียงมาตรา ว่าด้วยจัดการงานนอกสั่ง ลาภมิควรได้ ละเมิด บรรพ 2 มาตรา 395 – 452 ของ ศาสตราจารย์จิตติ ติงศภัทิย์, 2561 (แก้ไขเพิ่มเติมร่วมกับ ผศ.ดร.เขมภูมิ ภูมิถาวร และ ผศ.ดร.อำนาจ ตั้งคีรีพิมาน)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "แนวปฏิบัติเกี่ยวกับการคุ้มครองข้อมูลส่วนบุคคล (Thailand Data Protection Guidelines 1.0, 2.0, 3.0, 3.1, 3.2) (ผู้เขียนร่วม)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "แนวปฏิบัติเกี่ยวกับการคุ้มครองข้อมูลส่วนบุคคล (Thailand Data Protection Guidelines 4.0) 2569 (ผู้เขียนร่วม)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ฎีกาวิเคราะห์ คำพิพากษาฎีกาที่ 4027/2548,” วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ปีที่ 36 ฉบับที่ 4 ธันวาคม 2550 (พิมพ์จริง เมษายน 2554)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ละเมิดกรณีทำให้ผู้อื่นผิดสัญญา,” รวมบทความวิชาการในโอกาส 60 ปี รองศาสตราจารย์ ดร.ดาราพร ถิระวัฒน์, คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2555",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "บทความ “ฎีกาวิเคราะห์ คำพิพากษาฎีกาที่ 2116/2553,” วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ปีที่ 41 ฉบับที่ 1 มีนาคม 2555",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "กฎหมายว่าด้วยการแจ้งเมื่อข้อมูลส่วนบุคคลรั่วไหล (Data Security Breach Notification Law),” รวมบทความวิชาการ เนื่องในโอกาส 60 ปี รองศาสตราจารย์สุดา วิศรุตพิชญ์, คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2558",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Data Security Breach ภัยสมัยใหม่ ใครต้องระวัง,” วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ปีที่ 44 ฉบับที่ 3 2558",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ความเป็นส่วนตัวและการคุ้มครองจากการล่วงล้ำของรัฐในประเทศสหรัฐอเมริกา,” วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ปีที่ 44 ฉบับที่ 4 2558",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ข้อพิจารณาเบื้องต้นเกี่ยวกับสิทธิที่จะถูกลืมในยุคดิจิตอล (A Very Short Introduction to The Right to Be Forgotten in The Digital Age),” วารสารวันรพี 2559, คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_018": {
+      "id": "thammasatu_facultyofl_cv_018",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ.ดร. จุณวิทย์ ชลิดาพงศ์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/junavit-chalidabhongse/",
+      "education": [],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_019": {
+      "id": "thammasatu_facultyofl_cv_019",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ.ดร. วรรษมน คุณอมรพงศ์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/wassamon-kunamornpong/",
+      "education": [
+        "LL.B. (Upper Second-Class Honours), London School of Economics and Political Science ประเทศสหราชาอาณาจักร",
+        "LL.M., University of California, Los Angeles ประเทศสหรัฐอเมริกา",
+        "LL.M. in Banking Law and Financial Regulation (with Merit), London School of Economics and Political Science ประเทศสหราชอาณาจักร",
+        "Ph.D., University of Warwick ประเทศสหราชอาณาจักร"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "หนังสือ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "The Financial Trilemma and Cross-border Bank Crisis Management in ASEAN (Palgrave Macmillan, 2025)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2025,
+          "citation_count": 0
+        },
+        {
+          "title": "บทความ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "The Role of the Basel Accords in Mitigating Systemic Risk”, Financial Regulation International (16 August 2019)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2019,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_020": {
+      "id": "thammasatu_facultyofl_cv_020",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ศ.ดร. วรเจตน์ ภาคีรัตน์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/worachet-pakeerut/",
+      "education": [
+        "นิติศาสตรบัณฑิต (เกียรตินิยมอันดับ 2) มหาวิทยาลัยธรรมศาสตร์",
+        "เนติบัณฑิตไทย สำนักอบรมกฎหมายแห่งเนติบัณฑิตยสภา",
+        "Magister Juris (M.Jur) Universitat zu Gottingen ประเทศเยอรมนี",
+        "Doctor der Rechte (Summa cum Laude) Universitat zu Gottingen ประเทศเยอรมนี"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "วรเจตน์ ภาคีรัตน์. (2553). ผลผูกพันของสิทธิทางรัฐธรรมนูญ(Binding Force the Constitutional Right). กรุงเทพมหานคร: คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "วรเจตน์ ภาคีรัตน์. (2556). รัฐธรรมนูญไวมาร์. กรุงเทพมหานคร: คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_021": {
+      "id": "thammasatu_facultyofl_cv_021",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. ศศิภา พฤกษฎาจันทร์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/sasipa-pruksadachan/",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [
+        {
+          "title": "หลักนิติรัฐในประเทศสหพันธ์สาธารณรัฐเยอรมนี, ใน “นิติรัฐนิติธรรม: ประวัติศาสตร์ภูมิปัญญาเปรียบเทียบ”, Illuminations Editions, 2023",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "การปรับใช้สูตรของร้าดบรุค (Radbruchsche Formel) ในฐานะข้อจำกัดของหลักการห้ามใช้กฎหมายย้อนหลังเป็นผลร้ายแก่บุคคลในทางอาญาโดยศาลรัฐธรรมนูญแห่งสหพันธ์สาธารณรัฐเยอรมนี” วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ปีที่ 50 ฉบับที่ 3 (2564) https://so05.tci-thaijo.org/index.php/tulawjournal/article/view/249903/172026.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "กฎหมายย่อมเป็นกฎหมาย: ว่าด้วยสำนักกฎหมายบ้านเมืองสมัยใหม่, สำนักพิมพ์ Illuminations Editions, 2021.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2021,
+          "citation_count": 0
+        },
+        {
+          "title": "ผู้แปล “สะพรึง” (แปลจาก Terror โดย Ferdinand von Schirach), 2020.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2020,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_sirikanchana_022": {
+      "id": "thammasatu_facultyofl_sirikanchana_022",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Supawich",
+      "last_name": "Sirikanchana",
+      "full_name": "Supawich Sirikanchana",
+      "full_name_th": "อ.ดร. ศุภวิช สิริกาญจน",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/supawich-sirikanchana/",
+      "education": [
+        "นิติศาสตรบัณฑิต (เกียรตินิยมอันดับสอง) มหาวิทยาลัยธรรมศาสตร์",
+        "นิติศาสตรมหาบัณฑิต (กฎหมายธุรกิจ) มหาวิทยาลัยธรรมศาสตร์",
+        "นิติศาสตรมหาบัณฑิต มหาวิทยาลัยเพนซิลเวเนีย สหรัฐอเมริกา (พร้อมประกาศนียบัตรธุรกิจและกฎหมาย จากโรงเรียนธุรกิจวอร์ตัน (WBLC) สหรัฐอเมริกา)",
+        "ปรัชญาดุษฎีบัณฑิต (กฎหมาย) มหาวิทยาลัยแห่งชาติสิงคโปร์ สิงคโปร์"
+      ],
+      "research_interests": [
+        "กฎหมายองค์กรธุรกิจ",
+        "กฎหมายหลักทรัพย์และตลาดหลักทรัพย์",
+        "กฎหมายแรงงาน"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_023": {
+      "id": "thammasatu_facultyofl_cv_023",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "รศ.ดร. สมเกียรติ วรปัญญาอนันต์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/somkiat-worapunyaanun/",
+      "education": [],
+      "research_interests": [
+        "กฎหมายที่ดิน",
+        "กฎหมายทรัพย์สิน",
+        "กฎหมายวิธีพิจารณาความแพ่ง",
+        "กฎหมายวิธีพิจารณาความแพ่ง ภาคบังคับคดี"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_024": {
+      "id": "thammasatu_facultyofl_cv_024",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. ปทิตตา ไชยปาน",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/patitta-chaipan/",
+      "education": [
+        "นิติศาสตรบัณฑิต มหาวิทยาลัยธรรมศาสตร์",
+        "รัฐศาสตรบัณฑิต มหาวิทยาลัยรามคำแหง",
+        "เนติบัณฑิตไทย สมัย 63 สำนักอบรมกฎหมายแห่งเนติบัณฑิตยสภา",
+        "นิติศาสตรมหาบัณฑิต (กฎหมายระหว่างประเทศ) มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_025": {
+      "id": "thammasatu_facultyofl_cv_025",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "รศ.ดร. จารุประภา รักพงษ์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/jaruprapa-rakpong/",
+      "education": [
+        "University College London: UCL สหราชอาณาจักร (2550 – 2555) ปริญญาเอก สาขาวิชากฎหมายยุโรปและกฎหมายการค้าระหว่างประเทศ วิทยานิพนธ์ เรื่อง “กฎระเบียบความสัมพันธ์ทางการค้าสหภาพยุโรป-ไทย ด้านความปลอดภัยทางอาหาร” (Regulatory Aspects of EU-Thai Trade Relations in the Area of Food Safety)",
+        "มหาวิทยาลัยเคมบริดจ์ (University of Cambridge) สหราชอาณาจักร (2548 – 2549) เกียรตินิยมอันดับสองระดับบน",
+        "คิงส์ คอลเลจ ลอนดอน (King’s College London) สหราชอาณาจักร (2545 – 2548) เกียรตินิยมอันดับหนึ่ง",
+        "คอนคอร์ด คอลเลจ (Concord College), โชรส์เบอรี (Shrewsbury) สหราชอาณาจักร (2543 – 2545)",
+        "โรงเรียนสาธิตมหาวิทยาลัยเชียงใหม่ เชียงใหม่ ประเทศไทย (2537 – 2543)",
+        "โรงเรียน Lucas Heights Community รัฐนิวเซาท์เวลส์ ประเทศออสเตรเลีย (2540)"
+      ],
+      "research_interests": [
+        "กฎหมาย WTO Law ความตกลงว่าด้วยการค้าสินค้าของอาเซียน (ATIGA) ข้อตกลงด้านการค้าระหว่างประเทศไทยและประเทศคู่ค้าต่าง ๆ",
+        "กฎหมายเกี่ยวกับสหภาพยุโรป ASEAN",
+        "the WTO มาตรการที่ไม่ใช่ภาษี การตีความกฎหมายการค้าระหว่างประเทศ มาตรการทางการค้าที่เกี่ยวข้องกับสุขภาพ สิ่งแวดล้อม และความมั่นคงของรัฐ"
+      ],
+      "featured_publications": [
+        {
+          "title": "จารุประภา รักพงษ์ และธนภัทร ชาตินักรบ. มาตรการควบคุมฉลากของเครื่องดื่มแอลกอฮอล์เพื่อนำมาประกอบการพิจารณากำหนดมาตรการในการควบคุมฉลากของเครื่องดื่มแอลกอฮอล์ในประเทศไทย: รายงานฉบับสมบูรณ์. กรุงเทพมหานคร : สถาบันวิจัยและให้คำปรึกษาแห่งมหาวิทยาลัยธรรมศาสตร์. (กันยายน 2567).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "จารุประภา รักพงษ์ และเณศรา สุขพานิช. ความสอดคล้องของมาตรการคว่ำบาตรบริษัทอัญมณีจากสาธารณรัฐแห่งสหภาพเมียนมาของสหรัฐอเมริกาภายใต้พันธกรณีขององค์การการค้าโลก: นัยต่อการส่งออกอัญมณีและเครื่องประดับจากไทยไปยังสหรัฐอเมริกา รายงานการวิจัย. กรุงเทพมหานคร : คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์. (2566).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "จารุประภา รักพงษ์. ความสอดคล้องของมาตรการห้ามนำเข้าเนื้อสุกรที่ใช้สารเร่งเนื้อแดงของประเทศไทยภายใต้พันธกรณีขององค์การการค้าโลก. คณะกรรมการส่งเสริมงานวิจัย. กรุงเทพมหานคร : คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์. (2563).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "จารุประภา รักพงษ์. สิทธิ GSP คืออะไร ทำไมไทยถึงถูกตัดสิทธิ รวมเรื่องต้องรู้เกี่ยวกับ GSP และวิธีปรับตัวของผู้ประกอบการไทย. กรุงเทพมหานคร : The Standard. (2562).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "จารุประภา รักพงษ์. หลักการสำคัญว่าด้วยการเคลื่อนย้ายสินค้าอย่างเสรีภายใต้กฎหมายแห่งสหภาพยุโรป. กรุงเทพมหานคร : คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์. (2562).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "จารุประภา รักพงษ์. กฎหมายแห่งองค์การการค้าโลก: การตีความและการวิเคราะห์บทบัญญัติสาคัญ. กรุงเทพมหานคร : คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์. (พิมพ์ครั้งที่ 3, 2568).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สถาบันวิจัยและให้คำปรึกษาแห่งมหาวิทยาลัยธรรมศาสตร์ (TU-RAC). รวบรวมและแปลกฎหมายไทยที่เกี่ยวข้องกับกิจการพลังงาน. สานักงานคณะกรรมการกากับกิจการพลังงาน. กรุงเทพมหานคร : สถาบันวิจัยและให้คำปรึกษาแห่งมหาวิทยาลัยธรรมศาสตร์. ปีที่ 3 (2561).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สถาบันวิจัยและให้คำปรึกษาแห่งมหาวิทยาลัยธรรมศาสตร์ (TU-RAC). รวบรวมและแปลกฎหมายไทยที่เกี่ยวข้องกับกิจการพลังงาน. สำนักงานคณะกรรมการกำกับกิจการพลังงาน. กรุงเทพมหานคร : สถาบันวิจัยและให้คำปรึกษาแห่งมหาวิทยาลัยธรรมศาสตร์. ปีที่ 2. (2558).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "จารุประภา รักพงษ์. วิเคราะห์โครงสร้างกฎระเบียบว่าด้วยความปลอดภัยด้านอาหารสำหรับส่งออกสินค้าเกษตรและ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "With Amnart Tangkiriphimarn, “Country Report – International Trade and Investment Law of Thailand”, Elgar Encyclopedia of International Economic Law, Edward Elgar Publishing (2023)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "With Yoshiko Naiki, “EU-Third Country Dialogue on IUU Fishing: The Transformation of Thailand’s Fishery Laws”, Transnational Environmental Law, Cambridge University Press (2022)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2022,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_026": {
+      "id": "thammasatu_facultyofl_cv_026",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ศ.ดร. สมคิด เลิศไพฑูรย์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/somkit-lertpaithoon/",
+      "education": [],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_027": {
+      "id": "thammasatu_facultyofl_cv_027",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ศ.ดร. ประสิทธิ์ ปิวาวัฒนพานิช",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/prasit-pivavatnapanich/",
+      "education": [
+        "นิติศาสตรบัณฑิต มหาวิทยาลัยธรรมศาสตร์",
+        "นิติศาสตรมหาบัณฑิต มหาวิทยาลัยธรรมศาสตร์",
+        "M. Golden Gate University ประเทศสหรัฐอเมริกา",
+        "J.D. The University of Wisconsin–Madison ประเทศสหรัฐอเมริกา"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "ประสิทธิ์ ปิวาวัฒนพานิช. (กันยายน 2555). มาตรฐานความปลอดภัยของการสร้างโรงไฟฟ้านิวเคลียร์ตามกฎหมายระหว่างประเทศ: การเตรียมพร้อมมาตรการทางกฎหมาย. วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ , ปีที่ 41 ฉบับที่ 3.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ประสิทธิ์ ปิวาวัฒนพานิช. (2556). คำอธิบายกฎหมายระหว่างประเทศแผนกคดีบุคคล. พิมพ์ครั้งที่ กรุงเทพมหานคร : สำนักพิมพ์มหาวิทยาลัยธรรมศาสตร์.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_028": {
+      "id": "thammasatu_facultyofl_cv_028",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ศ.ดร. สหธน รัตนไพจิตร",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/sahaton-rattanapijit/",
+      "education": [
+        "นิติศาสตรบัณฑิต มหาวิทยาลัยธรรมศาสตร์",
+        "นิติศาสตรมหาบัณฑิต มหาวิทยาลัยธรรมศาสตร์",
+        "เนติบัณฑิตไทย สำนักอบรมกฎหมายแห่งเนติบัณฑิตยสภา",
+        "Diploma in English Legal Studies, University of Bristol ประเทศสหราชอาณาจักร",
+        "LL.M. M. in Commercial Law, University of Bristol ประเทศสหราชอาณาจักร",
+        "นิติศาสตรดุษฎีบัณฑิต มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "กฎหมายองค์กรธุรกิจ",
+        "กฎหมายตราสารเปลี่ยนมือ",
+        "กฎหมายปรับปรุงโครงสร้างหนี้ ฟื้นฟูกิจการ ล้มละลาย",
+        "กฎหมายสัญญาก่อสร้าง",
+        "กฎหมายอนุญาโตตุลาการ"
+      ],
+      "featured_publications": [
+        {
+          "title": "กฎหมายตั๋วเงิน พิมพ์ครั้งที่ 21 สำนักพิมพ์วิญญูชน กรุงเทพ 2568",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คำอธิบายประมวลกฎหมายแพ่งและพาณิชย์เรียงมาตราลักษณะตั๋วเงิน เล่มหนึ่ง เขียนร่วมกับ เสาวนีย์ อัศวโรจน์ โครงการตำราคณะนิติศาสตร์ คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ กรุงเทพ 2554",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คำอธิบายประมวลกฎหมายแพ่งและพาณิชย์เรียงมาตราลักษณะตั๋วเงิน เล่มสอง โครงการตำราคณะนิติศาสตร์ คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ กรุงเทพ 2554",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คำอธิบายกฎหมายว่าด้วยตราสารเปลี่ยนมือ โครงการตำราคณะนิติศาสตร์ คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ กรุงเทพ 2554",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คำอธิบายกฎหมายว่าด้วยบัตรเงินฝาก สำนักพิมพ์วิญญูชน กรุงเทพ 2556",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "คำอธิบายประมวลกฎหมายแพ่งและพาณิชย์ว่าด้วยห้างหุ้นส่วนบริษัท พิมพ์ครั้งที่ 10 สำนักพิมพ์วิญญูชน กรุงเทพ 2568",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "หลักกฎหมายหุ้นส่วนบริษัท เขียนร่วมกับ สุรศักดิ์ วาจาสิทธิ์ พิมพ์ครั้งที่ 10 สำนักพิมพ์วิญญูชน กรุงเทพ 2548",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ความรู้เบื้องต้นเกี่ยวกับกฎหมายธุรกิจ สำนักพิมพ์มหาวิทยาลัยสุโขทัยธรรมาธิราช กรุงเทพ 2544",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "หน้าที่ในการตรวจดูรายการเงินฝากในสมุดเงินฝากหนังสืออนุสรณ์พระองค์เจ้ารพีพัฒนศักดิ์ 2531",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "การฟื้นฟูกิจการของลูกหนี้ตามกฎหมายอังกฤษ หนังสืออนุสรณ์เกษียณราชการ ดร.ปรีดี เกษมทรัพย์ 2532",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ความสัมพันธ์ บทบาท หน้าที่ ของคณะกรรมการวินิจฉัยอุทธรณ์การเปิดเผยข้อมูลข่าวสารของทางราชการ (กวฉ.) และคณะกรรมการข้อมูลข่าวสารของราชการ ปี 2544",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "การเปิดเผยข้อมูลข่าวสารลักษณะพิเศษต่างๆ และการศึกษาเพื่อพัฒนาองค์ความรู้ทางกฎหมายที่เกี่ยวกับกฎหมายข้อมูลข่าวสารของทางราชการ เสนอต่อสำนักงานข้อมูลข่าวสารของราชการ ปี 2545",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_029": {
+      "id": "thammasatu_facultyofl_cv_029",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ศ.ดร. จตุรนต์ ถิระวัฒน์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/jaturon-thirawat/",
+      "education": [],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "(1) กฎหมายอวกาศ , สำนักพิมพ์มหาวิทยาลัยธรรมศาสตร์ , พ.ศ. 2540",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "(2) อาณาเขตทางทะเลของประเทศไทยและปัญหากฎหมายในทางปฏิบัติในส่วนที่เกี่ยวกับประเทศเพื่อนบ้านและประชาคมระหว่างประเทศ (รางวัลดีมากของโครงการส่งเสริมการสร้างตำรา) , สำนักพิมพ์มหาวิทยาลัยธรรมศาสตร์ , พ.ศ. 2541 พิมพ์แก้ไขครั้งที่ 2, พ.ศ. 2547",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "(3) กฎหมายระหว่างประเทศ , สำนักพิมพ์มหาวิทยาลัยธรรมศาสตร์ , พ.ศ. 2547, พิมพ์แก้ไขเพิ่มเติม ครั้งที่ 4, สำนักพิมพ์วิญญูชน , พ.ศ. 2558",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "(4) กฎหมายมนุษยธรรมระหว่างประเทศ , คณะกรรมการกาชาดระหว่างประเทศ , สำนักพิมพ์ วิญญูชน , พ.ศ. 2550",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "(5) เอกสารการสอนชุดวิชากฎหมายระหว่างประเทศ มหาวิทยาลัยสุโขทัยธรรมาธิราช , สาขาวิชานิติศาสตร์ ฉบับปรับปรุงครั้งที่ 1, เล่มที่ 1 สำนักพิมพ์มหาวิทยาลัยสุโขทัยธรรมาธิราช พ.ศ. 2551",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "หน่วยที่ 1 ความรู้ทั่วไปเกี่ยวกับกฎหมายระหว่างประเทศ (ร่วมกับ ดร.วิสูตร ตุวยานนท์)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "หน่วยที่ 2 ความสัมพันธ์ระหว่างกฎหมายระหว่างประเทศกับกฎหมายภายใน (ร่วมกับ ดร.วิสูตร ตุวยานนท์)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "หน่วยที่ 6 การระงับข้อพิพาทระหว่างประเทศโดยสันติวิธี",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "หน่วยที่ 7 กฎหมายระหว่างประเทศเกี่ยวกับการใช้กำลังทางทหาร บทความทางวิชาการ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "(1) บทความแปลร่วมกับ วรพจน์ วิศรุตพิชญ์ เรื่อง “ อำนาจอธิปไตยกับกฎหมายระหว่างประเทศ , วารสารนิติศาสตร์ , ปีที่ 16 ฉบับที่ 4 พ.ศ. 2529 ( หัวข้อที่ 4–5) หน้า 171-212",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "(2) โครงการสงครามอวกาศ ( Star Wars) ปัญหาความชอบด้วยกฎหมาย , วารสารนิติศาสตร์ , ปีที่ 17, ฉบับที่ 4 พ.ศ. 2530 หน้า 1-22",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "(3) De la personalité juridique de l’ASEAN dans l’évolution de la pratique contemporaine des Etats, สิงหาคม พ.ศ. 2534, ในหนังสืออนุสรณ์ครบรอบ 84 ปี ศาสตราจารย์ ไพโรจน์ ชัยนาม , คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ หน้า 287-295",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_030": {
+      "id": "thammasatu_facultyofl_cv_030",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "รศ.ดร. ปริญญา เทวานฤมิตรกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/prinya-thaewananarumitkul/",
+      "education": [
+        "นิติศาสตรบัณฑิต มหาวิทยาลัยธรรมศาสตร์",
+        "Magister Juris (M.Jur) Univerity of Gottingen ประเทศเยอรมนี",
+        "Jur, University of Gottingen ประเทศเยอรมนี"
+      ],
+      "research_interests": [
+        "กฎหมายมหาชน"
+      ],
+      "featured_publications": [
+        {
+          "title": "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_031": {
+      "id": "thammasatu_facultyofl_cv_031",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.",
+      "academic_title_th": "รศ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "รศ. สาวตรี สุขศรี",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/sawatree-suksri/",
+      "education": [
+        "พ.ศ. 2541 นิติศาสตรบัณฑิต (เกียรตินิยมดีมาก) มหาวิทยาลัยธรรมศาสตร์",
+        "พ.ศ. 2543 เนติบัณฑิตไทย สำนักอบรมศึกษากฎหมายแห่งเนติบัณฑิตยสภา",
+        "พ.ศ. 2547 นิติศาสตรมหาบัณฑิต (สาขากฎหมายอาญา) มหาวิทยาลัยธรรมศาสตร์",
+        "พ.ศ. 2547 LL.M. Ludwig Maximilian München Universität, Germany"
+      ],
+      "research_interests": [
+        "กฎหมายอาญา",
+        "กฎหมายวิธีพิจารณาความอาญา",
+        "กฎหมายว่าด้วยอาชญากรรมคอมพิวเตอร์/ไซเบอร์",
+        "กฎหมายเทคโนโลยีสารสนเทศ",
+        "กฎหมายสื่อสารมวลชน",
+        "กฎหมายว่าด้วยการควบคุมผลิตภัณฑ์ยาสูบ"
+      ],
+      "featured_publications": [
+        {
+          "title": "สาวตรี สุขศรี, “วิวัฒนาการเทคโนโลยีข้อมูลข่าวสาร: อาชญากรรมคอมพิวเตอร์กับปัญหาที่เกิดขึ้นในทางกฎหมาย”, วารสารนิติศาสตร์, ปีที่ 38 ฉบับที่ 2 (มิถุนายน 2552), หน้า 189-208.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สาวตรี สุขศรี, “กฎหมายไทยกับเสรีภาพสื่อสารมวลชน”, หนังสือรพี คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2553.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สาวตรี สุขศรี, “2553 ยุคมืดแห่งการใช้กฎหมาย ยุคสมัยแห่งการคุกคาม สื่อ”, หนังสือพิมพ์ประชาไทออนไลน์, 2553",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สาวตรี สุขศรี, “จะทำอย่างไรกับลัทธิล่าแม่มดใหม่ใน ค.ศ. 2010”, หนังสือพิมพ์ประชาไทออนไลน์, 2553",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2010,
+          "citation_count": 0
+        },
+        {
+          "title": "สาวตรี สุขศรี, “บทวิเคราะห์ร่างพระราชบัญญัติว่าด้วยการกระทำความผิด เกี่ยวกับคอมพิวเตอร์ พ.ศ… (ฉบับเผยแพร่ วันที่ 20 มิถุนายน 2554)”, วารสารเทคโนโลยี โทรคมนาคม กสทช. 2554",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สาวตรี สุขศรี, “ประเด็นกฎหมายที่เกี่ยวข้องกับเครือข่ายสังคมออนไลน์ (Social Network)”, หนังสือรพี คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2555",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สาวตรี สุขศรี, “อาชญากรรมคอมพิวเตอร์/อินเทอร์เน็ตตามกฎหมายอาญาเยอรมัน”, วารสารนิติศาสตร์, ปีที่ 42 ฉบับที่ 3 (กันยายน 2556), หน้า 499-532",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Sawatree SUKSRI, “Freedom on the net 2013: a Global Assessment of Internet and Digital Media (Thailand)” in : full report of “Freedom House” (an independent watchdog organization dedicated to the expansion of freedom around the world), p. 690 – 706.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2013,
+          "citation_count": 0
+        },
+        {
+          "title": "สาวตรี สุขศรี, “กฎหมายเศรษฐกิจดิจิทัลกับความมั่นคงปลอดภัยไซเบอร์”, หนังสือ รพี คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2558, หน้า 13-35",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สาวตรี สุขศรี, “นโยบาย Single Internet Gateway เพื่อรัฐ เพื่อประชาชน หรือเพื่อใคร?”, หนังสือพิมพ์ประชาไทออนไลน์, 2558",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สาวตรี สุขศรี, “อาชญากรรมคอมพิวเตอร์/ไซเบอร์กับทฤษฎีอาชญาวิทยา”, วารสารนิติศาสตร์, ปีที่ 46 ฉบับที่ 2 (มิถุนายน 2560), หน้า 415-432",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สาวตรี สุขศรี, “อาชญากรรมความรุนแรงบนอินเทอร์เน็ต”, วารสารนิติศาสตร์, ปีที่ 47 ฉบับที่ 2 (มิถุนายน 2561), หน้า 268-300",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_032": {
+      "id": "thammasatu_facultyofl_cv_032",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. ปรีญาภรณ์ อุบลสวัสดิ์",
+      "role": "อาจารย์ประจำ",
+      "email": "porn_law@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/preeyaporn-ubonsawat/",
+      "education": [
+        "นิติศาสตรบัณฑิต มหาวิทยาลัยธรรมศาสตร์, พ.ศ. 2544",
+        "ประกาศนียบัตรหลักสูตรวิชาว่าความของสำนักฝึกอบรมวิชาว่าความแห่งสภาทนายความ, พ.ศ. 2546",
+        "รัฐศาสตรบัณฑิต (ความสัมพันธ์ระหว่างประเทศและการเมืองการปกครองเปรียบเทียบ) มหาวิทยาลัยสุโขทัยธรรมาธิราช, พ.ศ. 2547",
+        "นิติศาสตรมหาบัณฑิต (สาขากฎหมายอาญา) มหาวิทยาลัยธรรมศาสตร์, พ.ศ. 2549",
+        "Master 2 สาขากฎหมายอาญา (เน้นด้านอาชญาวิทยา) มหาวิทยาลัย Aix-Marseille สาธารณรัฐฝรั่งเศส, พ.ศ. 2558"
+      ],
+      "research_interests": [
+        "กฎหมายอาญา",
+        "กฎหมายวิธีพิจารณาความอาญา",
+        "กฎหมายลักษณะพยาน",
+        "อาชญาวิทยาและทัณฑวิทยา"
+      ],
+      "featured_publications": [
+        {
+          "title": "ปรีญาภรณ์ อุบลสวัสดิ์, “การพิจารณาคดีอาญาโดยลับ” , วิทยานิพนธ์นิติศาสตรมหาบัณฑิต สาขากฎหมายอาญา มหาวิทยาลัยธรรมศาสตร์ พ.ศ. 2549, รางวัลวิทยานิพนธ์ดีเด่น นิติศาสตรมหาบัณฑิต สาขากฎหมายอาญา มหาวิทยาลัยธรรมศาสตร์ ประจำปีการศึกษา 2548",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "นักวิจัยร่วม, โครงการวิจัยเรื่องมาตรการทางกฎหมายในการคุ้มครองการท่องเที่ยวเชิงอนุรักษ์ในจังหวัดจันทบุรี , ได้รับทุนสนับสนุนจากคณะนิติศาสตร์ มหาวิทยาลัยราชภัฏรำไพพรรณี ประจำปีงบประมาณ 2551",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ปรีญาภรณ์ อุบลสวัสดิ์, “การรับฟังพยานบอกเล่าในคดีอาญา : หลักและข้อยกเว้นในกฎหมายไทย จากอดีตสู่ปัจจุบัน.” วารสารนิติศาสตร์. ปีที่ ฉบับที่ 1 (มีนาคม 2552). หน้า 106-124.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "นักวิจัยร่วม, โครงการวิจัยเรื่องการศึกษาเปรียบเทียบการกระทำความผิดฐานฉ้อโกงตามกฎหมายอาญาของประเทศไทย กับความผิดฐานฉ้อโกงของประเทศต่าง ๆ ในประชาคมอาเซียน , เสนอต่อสำนักงานอัยการพิเศษฝ่ายสถาบันกฎหมายอาญา สำนักงานวิชาการ สำนักงานอัยการสูงสุด, กันยายน 2557, 189 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ปรีญาภรณ์ อุบลสวัสดิ์, พัฒนาการทางกฎหมายของการรวมตัวเป็นประชาคมอาเซียน, ชุดองค์ความรู้เกี่ยวกับอาเซียน ชุดที่ 1, โครงการเตรียมความพร้อมสู่ประชาชคมอาเซียน มธ.ศูนย์ลำปาง, จัดทำโดย ศูนย์ศึกษาวัฒนธรรมอาเซียน + 1 มหาวิทยาลัยธรรมศาสตร์ ศูนย์ลำปาง, มกราคม 2558, 30 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ปรีญาภรณ์ อุบลสวัสดิ์, “การตีความกฎหมายอาญาในระบบกฎหมายไทย”, พ.ศ. 2561 (12 หน้า), เอกสารประกอบโครงการเชิดชูครูกฎหมาย &#8220;งานรำลึกศาสตราจารย์ ดร.หยุด แสงอุทัย, 111 ปี กฎหมายอาญาไทย จากอดีตสู่ปัจจุบัน&#8221; ซึ่งจัดขึ้นที่ห้องจี๊ด เศรษฐบุตร (L.T.1) คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ท่าพระจันทร์, วันเสาร์ที่ 28 เมษายน 2561.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ปรีญาภรณ์ อุบลสวัสดิ์, “การพิจารณาความเป็นผู้เสียหายในคดีอาญา: เปรียบเทียบกฎหมายไทยและกฎหมายฝรั่งเศส”, ในหนังสือที่ระลึก 60 ปี พี่ใหญ่ ใจหาญ, กรุงเทพฯ: โรงพิมพ์เดือนตุลา, 2561, หน้า 261-279.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ปรีญาภรณ์ อุบลสวัสดิ์, “ปัญหาการบังคับใช้กฎหมายว่าด้วยการขังชั่วคราวตามกฎหมายวิธีพิจารณาความอาญาไทย” ในหนังสือ 60 ปี อุดม รัฐอมฤต ชีวิตและมิตรภาพบนเส้นทางวิชาการ, จัดพิมพ์โดยคณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, ตุลาคม 2562, หน้า 512-535.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_033": {
+      "id": "thammasatu_facultyofl_cv_033",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. สุประวีณ์ อาสนศักดิ์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/suprawee-asanasak/",
+      "education": [],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_034": {
+      "id": "thammasatu_facultyofl_cv_034",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. มาติกา วินิจสร",
+      "role": "อาจารย์ประจำ",
+      "email": "matika_v@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/matika-vinichsorn/",
+      "education": [
+        "นิติศาสตรบัณฑิต (เกียรตินิยมอันดับ 2) มหาวิทยาลัยธรรมศาสตร์",
+        "เนติบัณฑิตไทย สำนักอบรมกฎหมายแห่งเนติบัณฑิตยสภา",
+        "นิติศาสตรมหาบัณฑิต (กฎหมายธุรกิจ) มหาวิทยาลัยธรรมศาสตร์",
+        "LL.M. University of California, Berkeley ประเทศสหรัฐอเมริกา"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "มาติกา วินิจสร. “การส่งคำบอกกล่าวเมื่อตั๋วขาดความเชื่อถือเพราะไม่มีการรับรองหรือไม่มีการใช้เงิน”. วิทยานิพนธ์ นิติศาสตรมหาบัณฑิต มหาวิทยาลัยธรรมศาสตร์. 2555",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "มาติกา วินิจสร. เกิดอะไรขึ้นกับ facebook account ภายหลังที่บุคคลถึงแก่ความตาย. วารสารนิติศาสตร์. มีนาคม",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_035": {
+      "id": "thammasatu_facultyofl_cv_035",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. สุรศักดิ์ บุญญานุกูลกิจ",
+      "role": "อาจารย์ประจำ",
+      "email": "bsurasak@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/surasak-boonyanukoolkit/",
+      "education": [],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "สุรศักดิ์ บุญญานุกูลกิจ, การปฏิรูปกฎหมายเกี่ยวกับการกำกับดิจิทัลแพลตฟอร์ม (Digital Platform ): ข้อพิจารณาบางประการจากคดี Uber และ Airbnb ในสหภาพยุโรป , ในรวมบทความวิชาการเนื่องในโอกาส 60 ปี ศาสตราจารย์ ดร.สุรพล นิติไกรพจน์ จัดพิมพ์โดยคณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ , 2563.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญญานุกูลกิจ, สถานะของสิทธิเสรีภาพตามรัฐธรรมนูญในความสัมพันธ์ระหว่างเอกชน: บทสำรวจแนวคิดในระบบกฎหมายต่างประเทศ , ในนิติธรรมประจักษ์ สุรศักดิ์ 60 ปี (หนังสือครบรอบ 60 ปี ศาสตราจารย์ ดร.สุรศักดิ์ ลิขสิทธิ์วัฒนกุล) จัดพิมพ์โดยคณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ , 2561.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญญานุกูลกิจ, ข้อพิจารณาบางประการเกี่ยวกับสิทธิในการยื่นคำร้องต่อศาลรัฐธรรมนูญตามมาตรา 213 รัฐธรรมนูญแห่งราชอาณาจักรไทย พ.ศ. 2560 , ในหนังสืออาจาริยบูชา 60 ปี พี่ใหญ่ ใจหาญ (หนังสือครบรอบ 60 ปี ศาสตราจารย์ ณรงค์ ใจหาญ) จัดพิมพ์โดยคณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ , 2561.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญญานุกูลกิจ, การควบคุมตรวจสอบกระบวนการจัดซื้อจัดจ้างก่อนการทำสัญญาตามพระราชบัญญัติการจัดซื้อจัดจ้างและการบริหารพัสดุภาครัฐ พ.ศ. 2560, เสนอต่อ คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2564",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญญานุกูลกิจ, สิทธิของบุคคลในการยื่นคำร้องต่อศาลรัฐธรรมนูญตามมาตรา 213 รัฐธรรมนูญแห่งราชอาณาจักรไทย พุทธศักราช 2560 , เสนอต่อ คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ , 2562",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "นักวิจัยร่วม, โครงการจัดทำรายงานผลการศึกษาและวิเคราะห์โครงการระบบขนส่งมวลชนโดยระบบราง อำเภอหาดใหญ่ จังหวัดสงขลา ตามพระราชบัญญัติการให้เอกชนร่วมลงทุนในกิจการของรัฐ พ.ศ. 2556 , เสนอต่อ องค์การบริหารส่วนจังหวัดสงขลา , 2561.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "นักวิจัยร่วม, โครงการศึกษาวิเคราะห์ความเหมาะสมเพื่อกำหนดรูปแบบลักษณะการลงทุน และกรอบการอุดหนุน โครงการด้านโครงสร้างพื้นฐานและบริการระบบขนส่ง สำหรับส่วนราชการ รัฐวิสาหกิจ และองค์กรปกครองส่วนท้องถิ่น , สถาบันวิจัยและให้คำปรึกษาแห่งมหาวิทยาลัยธรรมศาสตร์ เสนอต่อ สำนักงานนโยบายและแผนการขนส่งและจราจร กระทรวงคมนาคม , 2558.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_036": {
+      "id": "thammasatu_facultyofl_cv_036",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "รศ.ดร. มาตาลักษณ์ เสรเมธากุล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/matalak-seramethakul/",
+      "education": [
+        "ระดับมัธยมศึกษาตอนต้น โรงเรียนสุรนารีวิทยา",
+        "ระดับมัธยมศึกษาตอนปลาย โรงเรียนราชสีมาวิทยาลัย",
+        "นิติศาสตร์บัณฑิต มหาวิทยาลัยธรรมศาสตร์ ประเทศไทย (เกียรตินิยมอันดับ 2)",
+        "ประกาศนียบัตรวิชาว่าความจาก สำนักอบรมทนายความแห่งประเทศไทย",
+        "หลักสูตรเทียบเท่านิติศาสตร์มหาบัณฑิต Dipleme Etudes Approfondies (D.E.A.) วิชาเอก กฎหมายสหภาพยุโรป (Droit Communautaire) มหาวิทยาลัยตูลูส 1 ประเทศฝรั่งเศส (เกียรติ นิยมระดับดีมาก)",
+        "นิติศาสตร์ดุษฎีบัณฑิต Docteur en droit วิชาเอก สาขากฎหมายเอกชน (Droit Prive) เชี่ยวชาญด้านกฎหมายเกี่ยวกับการคุ้มครองสิทธิเด็ก มหาวิทยาลัยตูลูส 1 ประเทศฝรั่งเศส (เกียรตินิยมระดับดีมาก)",
+        "อบรมหลักสูตรว่าความสำหรับผู้ประกอบวิชาชีพทนายความ โดยสภาทนายความ",
+        "อบรมหลักสูตรผู้ได้รับอนุญาตดำเนินการวิจัยในคนจากคณะกรรมการจริยธรรมการวิจัยในคน มหาวิทยาลัยธรรมศาสตร์ สาขาสังคมศาสตร์"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "มาตาลักษณ์ ออรุ่งโรจน์. ความรู้ทั่วไปเกี่ยวกับเพศศึกษา .พิมพ์ครั้งที่ 3. (กรุงเทพฯ: สำนักพิมพ์มหาวิทยาลัยธรรมศาสตร์, 2546)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "&#8220;เหตุสำคัญ&#8221; ตามมาตรา 1443.. .. กับอิสระในทางเลือกของผู้หญิงไทย.&#8221; (วารสารนิติศาสตร์. ฉบับที่ 2. ปีที่ 31) (มิถุนายน 2544)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "&#8220;การคุ้มครองเด็กจากการถูกละเมิดทางเพศในประเทศฝรั่งเศส.&#8221; (วารสารนิติศาสตร์. ฉบับที่ 3. ปีที่ 31) (กันยายน 2544)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "&#8220;ขอบเขตความเป็นส่วนตัวของบุคคลสาธารณะตามประมวลกฎหมายอาญา.&#8221; (รวมบทความวิชาการประจำปี ครั้งที่ 2 คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์. 2549)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "การคุ้มครองสิทธิเด็กภายใต้หลักประโยชน์สูงสุดของเด็กในกฎหมายไทย” (วารสารนิติศาสตร์. ฉบับที่ 4. ปีที่ 48) (กันยายน 2562)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "งานวิจัยเพื่อยกร่างพระราชบัญญัติการขจัดความรุนแรงในครอบครัว พ.ศ.: ศึกษาวิเคราะห์ความเหมาะสมในการบังคับใช้กฎหมายในประเทศไทยเปรียบเทียบกฎหมายสหรัฐอเมริกา อังกฤษ คานาดา ออสเตรเลีย สิงคโปร์และมาเลเซีย&#8221;, เสนอต่อสถาบันพระปกเกล้า, 2547, 95 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "รายงานวิจัยเรื่องบทบาทของผู้พิพากษาในศาลเยาวชนและครอบครัวของไทย: ศึกษาเปรียบเทียบกับกรณีของประเทศฝรั่งเศส, โครงการวิจัย เสริมหลักสูตรคณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2548, 70 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "โครงการวิจัยเรื่อง &#8220;หลักกฎหมาย แนวคิดและความเหมาะสมเกี่ยวกับการกระทำโดยพลาด: ศึกษาจากรายงานการประชุมต้นร่างตั้งแต่ประมวลกฎหมายลักษณะอาญาจนถึงปัจจุบัน&#8221; เสนอต่อคณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2553, 162 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "หลักการคุ้มครองสิทธิเด็กภายใต้แนวคิดเกี่ยวกับประโยชน์สูงสุดของเด็ก, เสนอต่อคณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2562, 381 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "โครงการวิจัยเพื่อจัดทำตำราเรียนเรื่อง การพิจารณาคดีที่เด็กและเยาวชนเป็นผู้กระทำความผิดอาญา, เสนอต่อคณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2563, 259 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "โครงการวิจัยเรื่อง &#8220;การศึกษาทัศนติและพฤติกรรมครอบครัวของผู้ตกเป็นเหยื่อและกลุ่มเสี่ยงที่มีผลให้เกิดการค้ามนุษย์ โดยเฉพาะกรณีการค้าหญิงและเด็ก&#8221; เสนอต่อสำนักงานกิจการสตรีและสถาบันครอบครัว กระทรวงการพัฒนาสังคมและความมั่นคงของมนุษย์, 2549, 251 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "โครงการวิจัยเพื่อยกร่างพระราชบัญญัติส่งเสริมโอกาสและความเท่าเทียมทางเพศ ระยะที่ 1, สำนักงานกิจการสตรีและสถาบันครอบครัว, 2549, 193 หน้า.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_037": {
+      "id": "thammasatu_facultyofl_cv_037",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "รศ.ดร. สุรศักดิ์ บุญเรือง",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/surasak-boonrueang/",
+      "education": [
+        "Ph.D. in Law (Nature Conservation Law), University of Dundee, UK (2563)",
+        "Master of Environmental Law, University of Sydney, Australia (2559)",
+        "นิติศาสตรมหาบัณฑิต สาขากฎหมายทรัพยากรธรรมชาติและสิ่งแวดล้อม(2555) มหาวิทยาลัยธรรมศาสตร์",
+        "เนติบัณฑิตไทย สมัย 63",
+        "นิติศาสตรบัณฑิต เกียรตินิยมอันดับสอง(2552) มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "กฎหมายสิ่งแวดล้อม",
+        "กฎหมายลักษณะทรัพย์สิน",
+        "กฎหมายลักษณะละเมิด",
+        "กฎหมายเกี่ยวกับการเกษตร",
+        "การบริหารจัดการที่ดิน",
+        "กฎหมาย นโยบายกับการพัฒนาที่ยั่งยืน"
+      ],
+      "featured_publications": [
+        {
+          "title": "สุรศักดิ์ บุญเรือง, คำอธิบายกฎหมายว่าด้วยทรัพย์สิน (โครงการตำราและเอกสารประกอบการสอน คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ 2568).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญเรือง, กฎหมายกับการอนุรักษ์ธรรมชาติ เล่ม 1 หลักทั่วไปและการอนุรักษ์ป่าไม้ (โครงการตำราและเอกสารประกอบการสอน คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ 2565).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญเรือง, กฎหมายกับการอนุรักษ์ธรรมชาติ เล่ม 2 การอนุรักษ์เชิงพื้นที่และการอนุรักษ์ชนิดพันธุ์ (โครงการตำราและเอกสารประกอบการสอน คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ 2565).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Surasak Boonrueang, “Terrestrial Biodiversity Conservation Law in Thailand: A Preliminary Illustration of Applicable Laws and Their Limitations” (2019) 12 Naresuan Law Journal 23",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2019,
+          "citation_count": 0
+        },
+        {
+          "title": "Surasak Boonrueang and Colin T Reid, “Conservation Agreements and Environmental Governance: The Role of Non-Governmental Actors” (2021) 30(1) Review of European, Comparative &amp; International Environmental Law 118.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2021,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญเรือง, “สิทธิในอากาศสะอาดในกฎหมายไทย: สถานะปัจจุบันและอนาคต (The Right to Clean Air under Thai Laws: The Status Quo and a Future Outlook)” (2564) วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, ปีที่ 50 ฉบับที่ 1 (มีนาคม 2564).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญเรือง, “ข้อเสนอทางกฎหมายและนโยบายเพื่อจำกัดการค้างาช้างในประเทศไทย (Law and Policy Recommendations for Tightening Elephant Ivory Trade Laws in Thailand)” (2564) วารสารกฎหมาย คณะนิติศาสตร์ จุฬาลงกรณมหาวิทยาลัย, ปีที่ 39 ฉบับที่ 1 (มีนาคม 2564).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญเรือง, “บทบาทของหลักการพัฒนาที่ยั่งยืนในการประเมินผลกระทบสิ่งแวดล้อม: ศึกษาการกำหนดเงื่อนไขประกอบการใช้ดุลพินิจในการพิจารณารายงานการ ประเมินผลกระทบสิ่งแวดล้อม” รายงานการศึกษาฉบับสมบูรณ์ (final report) เสนอต่อคณะกรรมการส่งเสริมงานวิจัย คณะนิติศาสตร์ มธ. (มกราคม 2565) (ผู้รับผิดชอบหลัก/หัวหน้าโครงการ)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญเรือง, “แนวทางและวิธีการวิเคราะห์ผลกระทบทางสังคมในการตรากฎหมาย” รายงานการศึกษาฉบับสมบูรณ์ (final report) เสนอต่อสำนักนวัตกรรมเพื่อประชาธิปไตย สถาบันพระปกเกล้า โดยสำนักงานศูนย์วิจัยและให้คำปรึกษาแห่งมหาวิทยาลัยธรรมศาสตร์ (15 ตุลาคม 2564) 265 หน้า (ผู้รับผิดชอบหลัก/หัวหน้าโครงการ)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สุรศักดิ์ บุญเรือง, “บทบาทของรัฐและประชาชนในการสงวนและคุ้มครองสัตว์ป่า” รายงานการศึกษาวิจัยเพื่อนำเสนอคณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ มกราคม2557 (ผู้รับผิดชอบหลัก/หัวหน้าโครงการ)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Surasak Boonrueang, “Law and Policy Recommendations for Tightening Elephant Ivory Trade Laws in Thailand” Report Submitted to World Wildlife Fund (WWF) Thailand, October 2020 (ผู้รับผิดชอบหลัก/หัวหน้าโครงการ)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2020,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_fac_038_038": {
+      "id": "thammasatu_facultyofl_fac_038_038",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "",
+      "last_name": "",
+      "full_name": "",
+      "full_name_th": "ศ.ดร. ภูมินทร์ บุตรอินทร์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/bhumindr-butr-indr/",
+      "education": [
+        "ปริญญาเอก นิติศาสตร์ดุษฎีบัญฑิต มหาวิทยาลัยปารีส 2 (L’Université de Pantheon Assas) ประเทศฝรั่งเศส ทุนมหาวิทยาลัยธรรมศาสตร์",
+        "ปริญญาโท นิติศาสตร์มหาบัณฑิต มหาวิทยาลัย Aix-Marseille 3 (L’Université Paul Cézanne) (Master de recherché Droit Propriété Intellectuelle), ประเทศฝรั่งเศส, ทุนรัฐบาลฝรั่งเศส (The Scolarship of France Gouvernement 2004-2006 Bourse d’excellence du programme Eiffle)",
+        "ปริญญาตรี นิติศาสตร์บัณฑิต มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "ภูมินทร์ บุตรอินทร์. มาตรการที่เหมาะสมในการรักษาความมั่นคงปลอดภัยไซเบอร์:ศึกษาร่างพระราชบัญญัติความมั่นคงปลอดภัยไซเบอร์ , กรุงเทพฯ: คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์,โครงการศึกษาวิจัย. 2560.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ภูมินทร์ บุตรอินทร์. ประเด็นท้าทายทางด้านกฎหมายในยุค IOTs : ศึกษากรณีความรับผิดจากการใช้งาน Smart Car , กรุงเทพฯ : คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์,โครงการศึกษาวิจัย.2563.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ภูมินทร์ บุตรอินทร์. หาทุนเรียนต่อทางกฎหมายในต่างประเทศ ง่ายนิดเดียว. กรุงเทพฯ: วิญญูชน, Print. (จำนวน 136 น.)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ภูมินทร์, บุตรอินทร์. การใช้เหตุผลทางนิติศาสตร์. พิมพ์ครั้งที่ 3. กรุงเทพฯ: โครงการตำราและเอกสารประกอบการสอน คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, (จำนวน 245 น.)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ภูมินทร์ บุตรอินทร์. ความรู้เบื้องต้นการให้คำปรึกษาด้านกฎหมายและการทำหน้าที่ ทนายความฝึกหัด พิมพ์ครั้งที่ 2 กรุงเทพฯ: สำนักพิมพ์นิติธรรม, ตุลาคม 2556. (จำนวน 278 น.)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "สิทธิ์ บุตรอินทร์ และ ภูมินทร์ บุตรอินทร์. ปรัชญาการเมืองเปรียบเทียบ. พิมพ์ครั้งที่ 2 ,กรุงเทพฯ: สำนักพิมพ์ศยาม, (จำนวน 325 น.)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ภูมินทร์, บุตรอินทร์. รัฐกับแนวทางการบังคับสิทธิในกฎหมายทรัพย์สินทางปัญญาอย่างมีประสิทธิภาพ: โครงการศึกษาวิจัย. 2554. (จำนวน 280 น.)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ภูมินทร์, บุตรอินทร์. โครงการสำรวจองค์ความรู้เพื่อการปฏิรูปประเทศไทยระยะที่ 2 เรื่องการปฏิรูปกระบวนการยุติธรรมไทย: กรุงเทพฯ: มูลนิธิสาธารณสุขแห่งชาติ (มสช.) สำนักงานกองทุนสนับสนุนการสรร้างเสริมสุขภาพ (สสส.) โครงการศึกษาวิจัย. 2555. (จำนวน 116 น.)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ภูมินทร์, บุตรอินทร์และจุมพล ภิญโญสินวัฒน์. ประวัติศาสตร์และแนวคิดเกี่ยวกับทรัพย์สินทางปัญญา. พิมพ์ครั้งที่ 2. กรุงเทพฯ: โครงการตำราและเอกสารประกอบการสอน คณะนิติศาสตร์ มหาวิทยาลัย ธรรมศาสตร์,",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Bhumindr Butr-Indr et al. University of Washington (UW) – Google Intermediary Liability Research Project: Online Intermediary Liability and Privacy Protection in Thailand, University of Washington School of Law, Center for Advanced Studies and Research on Innovation Policy (CASRIP), Jan 2017, https://www.law.uw.edu/media/140726/sr96212_",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2017,
+          "citation_count": 0
+        },
+        {
+          "title": "ภูมินทร์, บุตรอินทร์. มาตรการที่เหมาะสมในการคุ้มครองสุขภาพ : ศึกษากรณีเครื่องหมายการค้า และบุหรี่ซิกาแรต, กรุงเทพฯ: ศูนย์วิจัยเพื่อการบริโภคยาสูบ (ศจย.), โครงการศึกษาวิจัย. 2560.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ภูมินทร์, บุตรอินทร์. ความรู้เบื้องต้นกฎหมายกับการประกอบกิจการโทรคมนาคม. พิมพ์ครั้งที่ 1. กรุงเทพฯ: โครงการตำราและเอกสารประกอบการสอน คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, (จำนวน 177 น.)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_fac_039_039": {
+      "id": "thammasatu_facultyofl_fac_039_039",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "",
+      "last_name": "",
+      "full_name": "",
+      "full_name_th": "ผศ.ดร. ภัทรวัณย์ จงจิตต์",
+      "role": "อาจารย์ประจำ",
+      "email": "pc_law@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/patharawan-chongchit/",
+      "education": [
+        "Ph.D. (Investor-State Dispute Settlement), Monash University, Australia",
+        "LL.M. (International and Comparative Law) Monash University, Australia",
+        "LL.M. (Commercial Law) Monash University, Australia",
+        "Bachelor of Laws (LL.B.) with 2nd Class Honors Thammasat University, Thailand",
+        "ประกาศนียบัตรกฎหมายภาษีอากร,เนติบัณฑิตยสภา",
+        "ประกาศนียบัตรชั้นสูงด้านการค้าระหว่างประเทศและทรัพย์สินทางปัญญา, ศาลทรัพย์สินทางปัญญาและการค้าระหว่างประเทศ",
+        "ประกาศนียบัตรวิชาว่าความ, สำนักฝึกอบรมวิชาว่าความแห่งสภาทนายความ",
+        "Reginal Workshop on ICSID Regional Training, International Institute for Trade and Development in cooperation with International Center for Settlement of Investment Disputes (ICSID) of the World Bank"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "ภัทรวัณย์ จงจิตต์, ‘ความรับผิดชอบต่อสังคม และสิ่งแวดล้อมขององค์กรธุรกิจ’ (วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ปีที่ 40 ฉบับที่ 3 (กันยายน 2554) 604.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ภัทรวัณย์ จงจิตต์, ‘ระบบการชำระราคาและส่งมอบหลักทรัพย์ในตลาดทุน: ศึกษาเปรียบเทียบตลาดหลักทรัพย์แห่งสาธารณรัฐเกาหลีกับตลาดหลักทรัพย์แห่งประเทศไทย’ (วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ปีที่ 41 ฉบับที่ 4 (มีนาคม 2555).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "โครงการวิจัยร่วม, การปรับใช้กฎหมายศุลกากรและการตีความพิกัดอัตราศุลกากรของประเทศไทยในกรณีการให้สิทธิประโยชน์ทางภาษีสำหรับอุตสาหกรรมยานยนต์ตามพันธกรณีระหว่างประเทศ (Forthcoming).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Patharawan Chongchit, An Analysis of Tax-Related Disputes under the World Trade Organization Jurisprudence: Lessons Learnt and Recommendations for Thailand’s Tax Policy Makers, Legislators, Administrators and Adjudicators (Research Submitted to The Research Promotion Committee, Faculty of Law, Thammasat University, May 2022).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2022,
+          "citation_count": 0
+        },
+        {
+          "title": "Patharawan Chongchit, The Intersection between Taxation and International Investment Law: A Comparative Analysis with Tax-Related Dispute under the World Trade Organization and Implications for Thailand (Forthcoming).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Patharawan Chongchit, Customs Law and Global Trade (Forthcoming).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_040": {
+      "id": "thammasatu_facultyofl_cv_040",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ.ดร. พัชยา น้ำเงิน",
+      "role": "อาจารย์ประจำ",
+      "email": "nphutcha@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/phutchaya-numngern/",
+      "education": [
+        "น.บ. (เกียรตินิยมอันดับ 1) ธรรมศาสตร์",
+        "ประกาศนียบัตร หลักสูตรวิชาว่าความของสำนักฝึกอบรมวิชาว่าความแห่งสภาทนายความ รุ่นที่ 25 พ.ศ. 2548",
+        "น.ม. (สาขากฎหมายเอกชน) ธรรมศาสตร์",
+        "น.บ.ท.",
+        "LLM ( Summa Cum Laude ), Indiana University Maurer School of Law ประเทศสหรัฐอเมริกา",
+        "Doctor of Juridical Science สาขากฎหมายเอกชนเปรียบเทียบด้านสัญญา Indiana University Maurer School of Law ประเทศสหรัฐอเมริกา"
+      ],
+      "research_interests": [
+        "กฎหมายแพ่ง",
+        "กฎหมายลักษณะนิติกรรมและสัญญา",
+        "กฎหมายลักษณะละเมิด",
+        "กฎหมายว่าด้วยการซื้อขายสินค้าระหว่างประเทศ"
+      ],
+      "featured_publications": [
+        {
+          "title": "โครงงานวิจัยเรื่อง “คู่มือพนักงานเจ้าหน้าที่ พนักงานสอบสวนและผู้ประนีประนอม ตามพระราชบัญญัติคุ้มครองผู้ถูกกระทำด้วยความรุนแรงในครอบครัว” เสนอต่อสำนักงานกิจการสตรีและสถาบันครอบครัว ปี พ.ศ. 2551 (ผู้วิจัยร่วมกับคณะผู้วิจัย)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "โครงงานวิจัยเรื่อง “โครงการติดตามและประเมินผลคลินิกยุติธรรมและคุณภาพการให้คำปรึกษาทางกฎหมาย” เสนอต่อกรมคุ้มครองสิทธิและเสรีภาพ กระทรวงยุติธรรม ปี พ.ศ. 2552 (ผู้ช่วยวิจัย)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "โครงการวิจัยเรื่อง “โครงการประเมินผลภายนอกชุดโครงการพัฒนาการมีส่วนร่วมในการกำหนดนโยบายสาธารณด้านสิทธิที่เชื่อมโยงกับสุขภาวะ” เสนอต่อสำนักงานกองทุนสนับสนุนการสร้างเสริมสุขภาพ ปี พ.ศ. 2553 (สสส.) (ผู้ช่วยวิจัย)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "โครงการศึกษาวิจัยเรื่อง “กระบวนการสร้างความยุติธรรมเชิงสมานฉันท์ในศาลยุติธรรม” เสนอต่อสถาบันวิจัยรพีพัฒนศักดิ์ สำนักงานศาลยุติธรรม ปี พ.ศ. 2553 (ผู้ช่วยวิจัย)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "โครงการศึกษาแนวทางการชดใช้ค่าทดแทนและค่าใช้จ่ายแก่จำเลยในคดีอาญาโดยรัฐอันเกิดจากความผิดพลาดของกระบวนการยุติธรรม: กรณีองค์กรศาลเป็นผู้พิจารณาจ่ายค่าทดแทนและค่าใช้จ่ายตามพระราชบัญญัติค่าตอบแทนผู้เสียหายและค่าทดแทนและค่าใช้จ่ายแก่จำเลยในคดีอาญา พ.ศ. 2544 ปี พ.ศ. 2555 (ผู้วิจัยร่วมกับคณะผู้วิจัย)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "โครงการพัฒนากฎหมายและประสิทธิภาพการคุ้มครองสิทธิของผู้เสียหาย ผู้ต้องหาและจำเลยในคดีอาญาตามรัฐธรรมนูญแห่งราชอาณาจักรไทย พุทธศักราช 2550 และมาตรฐานสากล ปี พ.ศ. 2556 (ผู้วิจัยร่วมกับคณะผู้วิจัย)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "รายงานการศึกษาวิจัยเรื่อง ปัญหาความมีผลของการแสดงเจตนา กรณีผู้แสดงเจตนาตาย ตกเป็นคนไร้ความสามารถหรือคนเสมือนไร้ความสามารถในภายหลัง ปี พ.ศ. 2556 (ผู้วิจัยร่วม)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "รายงานการศึกษาวิจัยเรื่อง ข้อพิจารณาทางกฎหมายเกี่ยวกับร่างพระราชบัญญัติสัญญาซื้อขายสินค้าระหว่างประเทศ พ.ศ. ….: ขอบเขตการบังคับใช้ การตีความและการอุดช่องว่าง ปี พ.ศ. 2566 (ผู้วิจัย)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ปัญหาการใช้การตีความบทบัญญัติรัฐธรรมนูญแห่งราชอาณาจักรไทยพุทธศักราช 2540: กรณีการคุ้มครองสิทธิชุมชน ตีพิมพ์ในหนังสือรพี ประจำปี 2550 คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ปี พ.ศ. 2550",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "แนวทางการแก้ไขเพิ่มเติมร่างพระราชบัญญัติสัญญาซื้อขายสินค้าระหว่างประเทศของไทย: ขอบเขตการใช้บังคับ การตีความและการอุดช่องว่าง” ตีพิมพ์ในวารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์ ปีที่ 54 ฉบับที่ 1 ปี พ.ศ. 2568",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_041": {
+      "id": "thammasatu_facultyofl_cv_041",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ.ดร. พวงรัตน์ ปฐมสิริรักษ์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/puangrat-patomsirirak/",
+      "education": [
+        "PhD in Law, Queen Mary University of London, UK Thesis: Pandemics Induced Semi-Citizenship: The Right of Thai Nationals Abroad to Return",
+        "LLM in Immigration Law (with Merit), Queen Mary University of London, UK Dissertation : The Protection of the Fundamental Rights of Non-Removable Returnees: The Obligation of EU Member States (Distinction)",
+        "นิติศาสตรมหาบัณฑิต สาขากฎหมายระหว่างประเทศ มหาวิทยาลัยธรรมศาสตร์ วิทยานิพนธ์ : อดีตคนหนีภัยความตายที่อยู่ในประเทศไทย: ศึกษาการจัดการโดยรัฐไทย",
+        "นิติศาสตรบัณฑิต (เกียรตินิยมอันดับ 2) มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "กฎหมายว่าด้วยการเข้าเมือง และการโยกย้ายถิ่นฐาน",
+        "กฎหมายว่าด้วยสัญชาติ ความเป็นพลเมือง",
+        "กฎหมายระหว่างประเทศแผนกคดีบุคคล",
+        "กฎหมายสิทธิมนุษยชน"
+      ],
+      "featured_publications": [
+        {
+          "title": "Country Expert (Thailand) for the Project of Global Citizenship Observatory, at the Robert Schuman Centre, European University Institute (May 2566 – Present).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ดรุณี ไพศาลพาณิชย์กุล, พวงรัตน์ ปฐมสิริรักษ์ และคณะ. รายงานวิจัยการวิเคราะห์กฎหมายและการบังคับใช้กฎหมายด้วยประเด็นร่วมสมัยผ่านกรอบสิทธิมนุษยชน: ศึกษากรณีสิทธิการทำงานของบุคคลไม่มีสัญชาติไทย (กรณีคนไร้สัญชาติกลุ่มต่างๆ). สถาบันพระปกเกล้า, 2568. (นักวิจัย).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Patomsirirak, Puangrat. Report on Citizenship Law: Thailand . Global Governance Programme, GLOBALCIT Country Report 2023/1, European University Institute, 2023.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "Patomsirirak, Puangrat. “International Responsibility of Thailand towards Refugee and Asylum-Seeking Children.” (2022) 2 Thammasat Law Journal 424–450.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2022,
+          "citation_count": 0
+        },
+        {
+          "title": "พวงรัตน์ ปฐมสิริรักษ์ และคณะ. การศึกษาวิเคราะห์อนุสัญญาสหประชาชาติว่าด้วยการคุ้มครองสิทธิของแรงงานโยกย้ายถิ่นฐานและสมาชิกครอบครัว และความเกี่ยวข้องกับกฎหมายไทยในปัจจุบัน . สำนักงานปลัดกระทรวงแรงงาน และสำนักงานศูนย์วิจัยและให้คำปรึกษาแห่งมหาวิทยาลัยธรรมศาสตร์, 2563 (หัวหน้าโครงการวิจัย)",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "พวงรัตน์ ปฐมสิริรักษ์. ปัญหาการกำหนดสัญชาติของเด็กที่เกิดจากการตั้งครรภ์แทนในประเทศไทย. กองทุนวิจัยคณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2562.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "พวงรัตน์ ปฐมสิริรักษ์, ‘แรงงานต่างด้าว ส่วนหนึ่งของประชากรวัยทำงานในประเทศไทย’, ใน สานฝัน 60 ปี อาจารย์แหวว รศ.ดร.พันธุ์ทิพย์ กาญจนะจิตรา สายสุนทร ผู้สานฝันคนไร้สัญชาติ หนังสือเกษียณอายุราชการ 60 ปี (คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2563)194.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "พวงรัตน์ ปฐมสิริรักษ์, บทเรียนจากสหภาพยุโรปสู่อาเซียน: การทำกฎเกณฑ์ว่าด้วยเขตอำนาจศาล และการยอมรับและบังคับตามคำพิพากษาในคดีครอบครัวให้เป็นเอกรูป, ในหนังสืออาจาริยบูชา 60 ปี ผศ.พิรุณา ติงศภัทิย์ (คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2562)81.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "พวงรัตน์ ปฐมสิริรักษ์, พันธกรณีระหว่างประเทศของไทยต่อการคุ้มครองผู้ลี้ภัย, ในหนังสืออาจาริยบูชา 60 ปี พี่ใหญ่ ใจหาญ หนังสือครบรอบ 60 ปี ศาสตราจารย์ ณรงค์ ใจหาญ (คณะนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์, 2561)125.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Presenter, Transnational Ties and Tensions: Revealing Thai Emigrants&#8217; Semi-Citizenship , 19 th Singapore Graduate Forum on Southeast Asian Studies, National university of Singapore, Singapore, June 2024.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2024,
+          "citation_count": 0
+        },
+        {
+          "title": "Presenter, Intensifying Crimmigration against Nationals: being Excluded during the COVID-19 Pandemic , Socio-Legal Studies Association (SLSA) Annual Conference, UK, April 2023.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2023,
+          "citation_count": 0
+        },
+        {
+          "title": "Presenter, Intensifying Crimmigration against Nationals: being Excluded during the COVID-19 Pandemic , SLS-sponsored Collaborative Workshop for PGR and ECR in Labour Law, Migration &amp; Asylum, Human Rights, and Public Law, UK, 2022.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2022,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_042": {
+      "id": "thammasatu_facultyofl_cv_042",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ผศ. เอมผกา เตชะอภัยคุณ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "https://law.tu.ac.th/wp-content/uploads/2026/06/aim.png",
+      "profile_url": "https://law.tu.ac.th/teacher/aimpaga-techa-apikun/",
+      "education": [
+        "ปริญญาเอกสาขากฎหมายเอกชน Docteur en droit 2557 Aix-Marseille Université, France เกียรตินิยมดีเยี่ยม โดยมติเอกฉันท์ของกรรมการ หัวข้อวิทยานิพนธ์ การคุ้มครองผู้บริโภคในสัญญาซื้อขาย : ศึกษาเปรียบเทียบกฎหมายของประเทศในกลุ่มอาเซียน ไทย มาเลเซีย สิงคโปร์ และสหภาพยุโรป",
+        "ประกาศนียบัตรด้านกฎหมายเปรียบเทียบ 2554 Aix-Marseille Université, France DU Certificat d&#8217;études juridiques comparatives",
+        "ปริญญาโทหลักสูตรคู่ขนาน. LLM European Legal 2550 Université de Rouen, France / Practice และ Master II สาขากฎหมายระหว่างประเทศ Universidade Católica Portuguesa ภายใต้ทุนของ คณะกรรมาธิการสหภาพยุโรป หัวข้อวิทยานิพนธ์ มาตรการบังคับใช้สิทธิ : ปัญญาการขัดกันระหว่างกฎหมายทรัพย์สินทางปัญญาและกฎหมายแข่งขันทางการค้า",
+        "นิติศาสตรบัณฑิต (เกียรตินิยมอันดับสอง) 2548 จุฬาลงกรณมหาวิทยาลัย สาขากฎหมายธุรกิจ",
+        "หลักสูตรการอบรมระยะสั้น 2561 Geneva Summer School Children at the Heart of Human Rights 2019 Geneva University Switzerland"
+      ],
+      "research_interests": [
+        "กฎหมายคุ้มครองผู้บริโภค",
+        "กฎหมายครอบครัว",
+        "กฎหมายสัญญาทางพาณิชย์",
+        "กฎหมายเอกชน กฎหมายเปรียบเทียบ"
+      ],
+      "featured_publications": [
+        {
+          "title": "บทความ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "วิจัย",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "งานวิชาการอื่น",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_043": {
+      "id": "thammasatu_facultyofl_cv_043",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. ปวีร์ เจนวีระนนท์",
+      "role": "อาจารย์ประจำ",
+      "email": "paweejen@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/pawee-jenweeranon/",
+      "education": [
+        "D. Banking and Finanicial Regulation, Chinese University of Hong Kong (กำลังศึกษา)",
+        "นิติศาสตรบัณฑิต มหาวิทยาลัยธรรมศาสตร์",
+        "เนติบัณฑิตไทย สำนักอบรมศึกษากฎหมายเเห่งเนติบัณฑิตยสภา",
+        "นิติศาสตรมหาบัณฑิต สาขากฎหมายธุรกิจ (ภาคภาษาอังกฤษ) มหาวิทยาลัยธรรมศาสตร์",
+        "M. Nagoya University (The Program for Leading Graduate Schools “Cross-Border Legal Institution Design”) (Japanese Governet Scholarship)"
+      ],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "Book Chapter: Crypto Assets Law in the People’s Republic of China and the Hong Kong Special Administrative Region, the Law of Crypto Assets (Forthcoming), Verlag C.H.BECK oHG Publishing.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Book Chapter: Regulating Digital Assets: Key Lessons Learned in Asia &amp;Thailand, Ensuring the Rights of Investors in the Context of the Digitalization of the Economy: The Experience of European and Asian States, Prospekt Nauki Publishing.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "Book Chapter: Thai Regulatory Approaches to Technology-Driven Innovation in Financial Services, Regulating FinTech in Asia – Global Context, Local Perspectives (2020), Springer Publishing.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2020,
+          "citation_count": 0
+        },
+        {
+          "title": "Academic Report: the Global Covid-19 FinTech Market Rapid Assessment study (2020), Cambridge Centre for Alternative Finance, University of Cambridge, The World Bank Group and The World Economic Forum.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2020,
+          "citation_count": 0
+        },
+        {
+          "title": "Academic Report: the Global Alternative Finance Benchmarking Report (2020). Cambridge Centre for Alternative Finance, University of Cambridge.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2020,
+          "citation_count": 0
+        },
+        {
+          "title": "Academic Report (Research Team): The ASEAN FinTech Regulatory Scoping Study (2019). Cambridge Centre for Alternative Finance, University of Cambridge.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2019,
+          "citation_count": 0
+        },
+        {
+          "title": "Academic Report (Research Team): An input to the work of the FinTech Working Group of the United Nations Secretary-General’s Special Advocate for Inclusive Finance for Development (UNSGSA) (2018). Cambridge Centre for Alternative Finance, University of Cambridge.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2018,
+          "citation_count": 0
+        },
+        {
+          "title": "Academic Report (Research Team): The 3rd Asia Pacific Region Alternative Finance Industry Report (2018). Cambridge Centre for Alternative Finance, University of Cambridge.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2018,
+          "citation_count": 0
+        },
+        {
+          "title": "Academic Report (Research Team): Cultivation Growth, the 2nd Asia Pacific Region Alternative Finance Industry Report (2017). Cambridge Centre for Alternative Finance, University of Cambridge.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2017,
+          "citation_count": 0
+        },
+        {
+          "title": "Academic Paper: “Regulating Digital Asset under Thai Law: A Case Study of Libra Coin” Dullapaha Thai Court of Justice Journal, no.1, (January 2020).",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2020,
+          "citation_count": 0
+        },
+        {
+          "title": "Academic Paper: “Legal Research on the Abuse of Patent Litigation and the Defensive Measures for the Japanese and Taiwanese IT Industry.” Thammasat Law Journal, no.1, (March 2017), Thammasat University, Thailand.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": 2017,
+          "citation_count": 0
+        },
+        {
+          "title": "Academic Paper: “A Legal and Empirical Research on the effect of the Patent Assertion Entities (PAEs) and the Sovereign Patent Funds (SPFs) toward Taiwanese and Japanese IT Industry, focusing on the Proposed Innovation Act of the United States.” Technology Law Review, National Chiao Tung University, Taiwan.",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_044": {
+      "id": "thammasatu_facultyofl_cv_044",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. เอื้อการย์ โสภาคดิษฐพงษ์",
+      "role": "อาจารย์ประจำ",
+      "email": "ueakarn@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/ueakarn-sopakdithapong/",
+      "education": [],
+      "research_interests": [
+        "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+        "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+        "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป"
+      ],
+      "featured_publications": [
+        {
+          "title": "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_045": {
+      "id": "thammasatu_facultyofl_cv_045",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.",
+      "academic_title_th": "ศ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ศ. กิตติพงศ์ กมลธรรมวงศ์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/kittipong-kamolthamwong/",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [
+        {
+          "title": "บทความ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "หนังสือ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ประเภทสารานุกรม",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ผลงานวิจัย",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_046": {
+      "id": "thammasatu_facultyofl_cv_046",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "ศ.ดร. กริช ภูญียามา",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/krich-pooyeeyama/",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [
+        {
+          "title": "เดลไฟซีดีอัปเกรด เราเตอร์ เดลไฟพาร์ทิชันเดลไฟ",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "อัปเดตคอร์ไดโอดแชนเนลเทอร์มินัลโฟลเดอร์ลินุกซ์แอนะล็อก",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        },
+        {
+          "title": "ซอฟต์แวร์อูบุนตูสแกนเนอร์อัป",
+          "venue": "คณะนิติศาสตร์ มธ. (ผลงานวิชาการคัดสรร)",
+          "url": null,
+          "year": null,
+          "citation_count": 0
+        }
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "thammasatu_facultyofl_cv_047": {
+      "id": "thammasatu_facultyofl_cv_047",
+      "university": "Thammasat University",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty": "Faculty of Law",
+      "faculty_th": "คณะนิติศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Download",
+      "last_name": "CV",
+      "full_name": "Download CV",
+      "full_name_th": "อ. กนกนัย ถาวรพานิช",
+      "role": "อาจารย์ประจำ",
+      "email": "kanoknai@tu.ac.th",
+      "image_url": "",
+      "profile_url": "https://law.tu.ac.th/teacher/kanoknai-thawonphanit/",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ศุภากร วิลาศรัศมี": "thammasatu_facultyofl_wilartratsami_001",
+    "นวพร เสนีย์วงศ์ ณ อยุธยา": "thammasatu_facultyofl_rojmahamongkol_002",
+    "ธันยธรณ์ โรจน์มหามงคล": "thammasatu_facultyofl_rojmahamongkol_003",
+    "จุมพล แดงสกุล": "thammasatu_facultyofl_cv_004",
+    "ณัฐนิช ลิมปโอวาท": "thammasatu_facultyofl_cv_005",
+    "กฤษฎิคุณ ตั้งธรรม": "thammasatu_facultyofl_tangdham_006",
+    "ภิชยา แย้มกลิ่น": "thammasatu_facultyofl_fac_007_007",
+    "วิริยะ ก้องศิริวงศ์": "thammasatu_facultyofl_kongsiriwong_008",
+    "สิรินทิพย์ สมใจ": "thammasatu_facultyofl_cv_009",
+    "กฤษฎากร ว่องวุฒิกุล": "thammasatu_facultyofl_fac_010_010",
+    "กิตติศักดิ์ ปรกติ": "thammasatu_facultyofl_cv_011",
+    "นนทวัชร์ นวตระกูลพิสุทธิ์": "thammasatu_facultyofl_cv_012",
+    "ทวีศักดิ์ เอื้ออมรวนิช": "thammasatu_facultyofl_cv_013",
+    "ณรงค์ ใจหาญ": "thammasatu_facultyofl_cv_014",
+    "รวินท์ ลีละพัฒนะ": "thammasatu_facultyofl_cv_015",
+    "ฐาปนันท์ นิพิฏฐกุล": "thammasatu_facultyofl_cv_016",
+    "ชวิน อุ่นภัทร": "thammasatu_facultyofl_cv_017",
+    "จุณวิทย์ ชลิดาพงศ์": "thammasatu_facultyofl_cv_018",
+    "วรรษมน คุณอมรพงศ์": "thammasatu_facultyofl_cv_019",
+    "วรเจตน์ ภาคีรัตน์": "thammasatu_facultyofl_cv_020",
+    "ศศิภา พฤกษฎาจันทร์": "thammasatu_facultyofl_cv_021",
+    "ศุภวิช สิริกาญจน": "thammasatu_facultyofl_sirikanchana_022",
+    "สมเกียรติ วรปัญญาอนันต์": "thammasatu_facultyofl_cv_023",
+    "ปทิตตา ไชยปาน": "thammasatu_facultyofl_cv_024",
+    "จารุประภา รักพงษ์": "thammasatu_facultyofl_cv_025",
+    "สมคิด เลิศไพฑูรย์": "thammasatu_facultyofl_cv_026",
+    "ประสิทธิ์ ปิวาวัฒนพานิช": "thammasatu_facultyofl_cv_027",
+    "สหธน รัตนไพจิตร": "thammasatu_facultyofl_cv_028",
+    "จตุรนต์ ถิระวัฒน์": "thammasatu_facultyofl_cv_029",
+    "ปริญญา เทวานฤมิตรกุล": "thammasatu_facultyofl_cv_030",
+    "สาวตรี สุขศรี": "thammasatu_facultyofl_cv_031",
+    "ปรีญาภรณ์ อุบลสวัสดิ์": "thammasatu_facultyofl_cv_032",
+    "สุประวีณ์ อาสนศักดิ์": "thammasatu_facultyofl_cv_033",
+    "มาติกา วินิจสร": "thammasatu_facultyofl_cv_034",
+    "สุรศักดิ์ บุญญานุกูลกิจ": "thammasatu_facultyofl_cv_035",
+    "มาตาลักษณ์ เสรเมธากุล": "thammasatu_facultyofl_cv_036",
+    "สุรศักดิ์ บุญเรือง": "thammasatu_facultyofl_cv_037",
+    "ภูมินทร์ บุตรอินทร์": "thammasatu_facultyofl_fac_038_038",
+    "ภัทรวัณย์ จงจิตต์": "thammasatu_facultyofl_fac_039_039",
+    "พัชยา น้ำเงิน": "thammasatu_facultyofl_cv_040",
+    "พวงรัตน์ ปฐมสิริรักษ์": "thammasatu_facultyofl_cv_041",
+    "เอมผกา เตชะอภัยคุณ": "thammasatu_facultyofl_cv_042",
+    "ปวีร์ เจนวีระนนท์": "thammasatu_facultyofl_cv_043",
+    "เอื้อการย์ โสภาคดิษฐพงษ์": "thammasatu_facultyofl_cv_044",
+    "กิตติพงศ์ กมลธรรมวงศ์": "thammasatu_facultyofl_cv_045",
+    "กริช ภูญียามา": "thammasatu_facultyofl_cv_046",
+    "กนกนัย ถาวรพานิช": "thammasatu_facultyofl_cv_047"
+  },
+  "dedup_emails": {
+    "supakwil@tu.ac.th": "thammasatu_facultyofl_wilartratsami_001",
+    "kwiriya@tu.ac.th": "thammasatu_facultyofl_kongsiriwong_008",
+    "kris_w@tu.ac.th": "thammasatu_facultyofl_fac_010_010",
+    "prokati@tu.ac.th": "thammasatu_facultyofl_cv_011",
+    "nsomsak@tu.ac.th": "thammasatu_facultyofl_cv_012",
+    "rawin.l@tu.ac.th": "thammasatu_facultyofl_cv_015",
+    "chawin.o@tu.ac.th": "thammasatu_facultyofl_cv_017",
+    "porn_law@tu.ac.th": "thammasatu_facultyofl_cv_032",
+    "matika_v@tu.ac.th": "thammasatu_facultyofl_cv_034",
+    "bsurasak@tu.ac.th": "thammasatu_facultyofl_cv_035",
+    "pc_law@tu.ac.th": "thammasatu_facultyofl_fac_039_039",
+    "nphutcha@tu.ac.th": "thammasatu_facultyofl_cv_040",
+    "paweejen@tu.ac.th": "thammasatu_facultyofl_cv_043",
+    "ueakarn@tu.ac.th": "thammasatu_facultyofl_cv_044",
+    "kanoknai@tu.ac.th": "thammasatu_facultyofl_cv_047"
+  },
+  "step_count": 1,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

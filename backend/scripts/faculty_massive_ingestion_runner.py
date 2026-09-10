@@ -111,6 +111,10 @@ from scripts.data_sources.sparse_cmu_agro_skill_state_extracted import CMU_AGRO_
 from scripts.data_sources.sparse_cmu_finearts_skill_state_extracted import CMU_FINEARTS_FACULTIES
 from scripts.data_sources.sparse_ku_vettech_skill_state_extracted import KU_VETTECH_FACULTIES
 from scripts.data_sources.sparse_mu_inmu_skill_state_extracted import MU_INMU_FACULTIES
+from scripts.data_sources.swu_edu_api_extracted import EXTRACTED_FACULTIES as SWU_EDU_API_FACULTIES
+from scripts.data_sources.ssru_edu_api_extracted import EXTRACTED_FACULTIES as SSRU_EDU_API_FACULTIES
+from scripts.data_sources.tu_law_api_extracted import EXTRACTED_FACULTIES as TU_LAW_API_FACULTIES
+from scripts.data_sources.tbs_staff_api_extracted import EXTRACTED_FACULTIES as TBS_STAFF_API_FACULTIES
 
 ALL_FACULTY_DATASETS = [
     ("มหาวิทยาลัยธรรมศาสตร์ และ มหาวิทยาลัยขอนแก่น (TU & KKU)", TU_KKU_FACULTIES),
@@ -212,6 +216,10 @@ ALL_FACULTY_DATASETS = [
     ("ชุดที่ 95: คณาจารย์คณะวิจิตรศิลป์ มช. ดึงผ่าน SKILL.state Agent (Batch 95: CMU Fine Arts Live Scraped)", CMU_FINEARTS_FACULTIES),
     ("ชุดที่ 96: คณาจารย์คณะเทคนิคการสัตวแพทย์ มก. ดึงผ่าน SKILL.state Agent (Batch 96: KU Veterinary Technology Live Scraped)", KU_VETTECH_FACULTIES),
     ("ชุดที่ 97: คณาจารย์สถาบันโภชนาการ ม.มหิดล ดึงผ่าน SKILL.state Agent (Batch 97: MU Institute of Nutrition Live Scraped)", MU_INMU_FACULTIES),
+    ("ชุดที่ 98: คณาจารย์คณะศึกษาศาสตร์ มศว ดึงจาก WordPress staff API (Batch 98: SWU Education WordPress API)", SWU_EDU_API_FACULTIES),
+    ("ชุดที่ 99: คณาจารย์คณะครุศาสตร์ ม.ราชภัฏสวนสุนันทา ดึงจากหน้า TH/EN + อีเมล DLP (Batch 99: SSRU Education TH/EN + DLP emails)", SSRU_EDU_API_FACULTIES),
+    ("ชุดที่ 100: คณาจารย์คณะนิติศาสตร์ มธ. ดึงจาก WordPress teacher API พร้อมผลงานคัดสรร (Batch 100: TU Law WordPress teacher API)", TU_LAW_API_FACULTIES),
+    ("ชุดที่ 101: คณาจารย์คณะพาณิชยศาสตร์และการบัญชี มธ. ดึงจาก staff-sitemap WordPress (Batch 101: TBS staff sitemap)", TBS_STAFF_API_FACULTIES),
 ]
 
 def build_faculty_embedding_text(f: FacultyDB) -> str:
@@ -329,14 +337,25 @@ def run_faculty_ingestion():
             else:
                 existing = existing_map.get(fid)
                 if existing:
+                    # Non-destructive merge: the dataset is a *source*, not the current
+                    # truth — downstream enrichers (ThaiJO/OpenAlex metrics) may have
+                    # filled fields the dataset leaves empty. Never blank them out.
+                    dirty = False
                     for k, v in filtered_data.items():
-                        if k != "id":
+                        if k == "id":
+                            continue
+                        new_empty = v in (None, "", [], {})
+                        if new_empty and getattr(existing, k, None) not in (None, "", [], {}):
+                            continue
+                        if getattr(existing, k, None) != v:
                             setattr(existing, k, v)
-                    existing.embedding_text = build_faculty_embedding_text(existing)
-                    if not has_embedding:
-                        ids_to_embed.add(existing.id)
-                    updated_in_set += 1
-                    total_updated += 1
+                            dirty = True
+                    if dirty:
+                        existing.embedding_text = build_faculty_embedding_text(existing)
+                        if not has_embedding:
+                            ids_to_embed.add(existing.id)
+                        updated_in_set += 1
+                        total_updated += 1
 
         db.commit()
         print(f"   -> เพิ่มอาจารย์ใหม่: {added_in_set} | ปรับปรุงข้อมูล: {updated_in_set}")

@@ -1,5 +1,98 @@
 from typing import List, Optional
-from pydantic import BaseModel, Field
+import re
+from pydantic import BaseModel, Field, model_validator
+
+# ---------------------------------------------------------------------------
+# Academic-title normalization (display-layer guard)
+# ---------------------------------------------------------------------------
+# Legacy ingestion rows often store the academic title redundantly inside
+# full_name_th (e.g. academic_title_th='ศ.ดร.' + full_name_th='ศ.ดร. สุทธิเขตต์').
+# Rendering layers prepend academic_title_th, producing 'ศ.ดร.ศ.ดร. สุทธิเขตต์'.
+# These helpers strip duplicated title prefixes at the DTO boundary so every
+# API consumer (cards, detail pages, cold emails) gets a clean display name.
+_TITLE_CANON_PATTERNS = [
+    # canonical form -> regex variants (longest / most-specific first)
+    ("ศ.ดร.", [r"ศาสตราจารย์\s*ดร\.?", r"ศ\.\s*ดร\.?", r"Prof\.?\s*Dr\.?"]),
+    ("รศ.ดร.", [r"รอง\s*ศาสตราจารย์\s*ดร\.?", r"รศ\.\s*ดร\.?", r"Assoc\.?\s*Prof\.?\s*Dr\.?"]),
+    ("ผศ.ดร.", [r"ผู้ช่วย\s*ศาสตราจารย์\s*ดร\.?", r"ผศ\.\s*ดร\.?", r"Asst\.?\s*Prof\.?\s*Dr\.?"]),
+    ("อ.ดร.", [r"อาจารย์\s*ดร\.?", r"อ\.\s*ดร\.?"]),
+    ("ดร.", [r"ดร\.?", r"Dr\.?"]),
+    ("ศ.", [r"ศาสตราจารย์", r"ศ\."]),
+    ("รศ.", [r"รอง\s*ศาสตราจารย์", r"รศ\."]),
+    ("ผศ.", [r"ผู้ช่วย\s*ศาสตราจารย์", r"ผศ\."]),
+    ("อ.", [r"อาจารย์", r"อ\."]),
+]
+_COMPILED_TITLES = [
+    (canon, re.compile(p)) for canon, pats in _TITLE_CANON_PATTERNS for p in pats
+]
+
+def _canonical_title(text: str) -> Optional[str]:
+    t = text.strip()
+    for canon, pat in _COMPILED_TITLES:
+        if pat.fullmatch(t):
+            return canon
+    return None
+
+def _strip_leading_title_tokens(name: str, max_strips: int = 3) -> str:
+    """Repeatedly remove academic-title tokens at the start of a name.
+    Handles stacked prefixes like 'ศ.ดร.ศ.ดร.' or 'รองศาสตราจารย์ ดร.'."""
+    out = name.strip()
+    for _ in range(max_strips):
+        stripped = None
+        for _canon, pat in _COMPILED_TITLES:
+            m = pat.match(out)
+            if m:
+                candidate = out[m.end():].lstrip(" .").strip()
+                if candidate:
+                    stripped = candidate
+                break
+        if stripped is None:
+            break
+        out = stripped
+    return out or name.strip()
+
+def _has_duplicate_leading_title(name: str) -> bool:
+    first = None
+    for canon, pat in _COMPILED_TITLES:
+        m = pat.match(name)
+        if m:
+            first = (canon, m)
+            break
+    if not first:
+        return False
+    rest = name[first[1].end():].lstrip(" .")
+    for canon, pat in _COMPILED_TITLES:
+        m = pat.match(rest)
+        if m:
+            return canon == first[0]
+    return False
+
+def _clean_display_name(title: Optional[str], full_name_th: Optional[str]) -> Optional[str]:
+    """Return full_name_th without a duplicated leading academic title.
+
+    - If academic_title_th exists, strip every leading title token from the
+      name (the renderer re-adds the single canonical title anyway).
+    - If no title is available, collapse duplicated leading title tokens to
+      one canonical token (e.g. 'ดร.ดร. พรชัย' -> 'ดร. พรชัย') so the name
+      stays self-contained without losing the title information.
+    """
+    if not full_name_th:
+        return full_name_th
+    name = full_name_th.strip()
+    if (title or "").strip():
+        cleaned = _strip_leading_title_tokens(name, 3)
+        return cleaned
+    # no title available: collapse duplicated title tokens, keep one
+    for canon, pat in _COMPILED_TITLES:
+        m = pat.match(name)
+        if not m:
+            continue
+        rest_raw = name[m.end():].lstrip(" .")
+        if not rest_raw:
+            return name
+        rest = _strip_leading_title_tokens(rest_raw, 2)
+        return f"{canon} {rest}" if rest and rest != rest_raw else name
+    return name
 
 
 class Publication(BaseModel):
@@ -44,6 +137,13 @@ class FacultyMember(BaseModel):
     scholar_url: Optional[str] = None
     embedding_text: Optional[str] = None
 
+    @model_validator(mode="after")
+    def _dedupe_title_in_name(self) -> "FacultyMember":
+        cleaned = _clean_display_name(self.academic_title_th, self.full_name_th)
+        if cleaned:
+            self.full_name_th = cleaned
+        return self
+
 
 class FacultyCardSchema(BaseModel):
     """
@@ -76,6 +176,13 @@ class FacultyCardSchema(BaseModel):
     total_publications_count: Optional[int] = Field(0)
     first_author_count: Optional[int] = Field(0)
     co_author_count: Optional[int] = Field(0)
+
+    @model_validator(mode="after")
+    def _dedupe_title_in_name(self) -> "FacultyCardSchema":
+        cleaned = _clean_display_name(self.academic_title_th, self.full_name_th)
+        if cleaned:
+            self.full_name_th = cleaned
+        return self
 
 
 class SearchRequest(BaseModel):

@@ -93,6 +93,18 @@ Imported via `seed_wave2a.py` + `seed_wave2b.py`, publications via `pubs_wave2.j
 
 ---
 
+### 1.8 Elite-Researcher Acquisition Waves (Sep 10, 2026) — Batches 98–101
+All four went through the SKILL.state contract (crawler → `RawFacultyProfile` → `FacultyStateReducer` → `data/agent_states/` checkpoint → `data_sources/*_extracted.py` → `faculty_massive_ingestion_runner.py` upsert + embedding):
+
+*   **SWU Faculty of Education (107)** — `backend/scripts/crawlers/swu_edu_api_pipeline.py`
+    *   **Primary Source:** `edu.swu.ac.th/wp-json/wp/v2/staff` (WordPress custom post type, 171 posts; academic ranks only — support officers filtered by Thai courtesy prefixes นาย/นางสาว/นาง).
+*   **SSRU Faculty of Education (53)** — `backend/scripts/crawlers/ssru_edu_api_pipeline.py`
+    *   **Primary Sources:** `edu.ssru.ac.th/{th,en}/page/facmembers` (TH/EN accordion paired by ordinal with card-count assertion) + per-person email from `ssrudlp.ssru.ac.th/teacher/<Name>` DLP pages. 100% email/photo/education coverage.
+*   **Thammasat Faculty of Law (32 verified from 96)** — `backend/scripts/crawlers/tu_law_api_pipeline.py`
+    *   **Primary Source:** `law.tu.ac.th/wp-json/wp/v2/teacher` (102 posts). First in-repo feed of **curated Thai legal publication citations** (188 entries, dict-shape with DOI + year), parsed from `ผลงานวิชาการคัดสรร` sections; English names taken from post slugs to dodge the related-teacher widget leaking inside `content.rendered`.
+*   **Thammasat Business School (102 academic from 177)** — `backend/scripts/crawlers/tbs_staff_api_pipeline.py`
+    *   **Primary Sources:** `tbs.tu.ac.th/staff-sitemap.xml` (280 URLs → 195 people after collapsing `_th/_en/_director/_management-team/_secretary` variants); profile pages' `single_staff_name/position/desc` blocks + mailto + 570×570 photos. Secretaries/administrative staff excluded.
+
 ## 2. University Curricula / Courses
 
 ### 2.1 Chiang Mai University — Full Curriculum Directory (Bachelor → Ph.D.)
@@ -149,6 +161,9 @@ To ensure accuracy and recency, research papers and publication records were not
     *   The script `update_scholar_serpapi.py` searches for each professor's name on Google Scholar.
     *   If a strict author search (`author:"First Last"`) yields no results, the system falls back to a general query matching the professor's exact name.
     *   The top 5 most relevant publications are extracted, along with full-text URLs, and securely embedded into the PostgreSQL (Supabase) database.
+*   **ThaiJO (Sep 2026):** `enrich_thaijo_publications.py` crawls the OJS3 aggregate shards (`so01`–`so06.thaiojournals... ` search with precision-gated `authors=` matching) for Thai-language scholars invisible to global DBs → 649+ rows credited with real article titles (venue + URL; `citation_count` stays 0 — ThaiJO exposes no counts).
+*   **OpenAlex (Sep 2026):** `enrich_openalex_author_metrics.py` resolves `openalex_id IS NULL` rows via author search behind a homonym gate (surname token + given-name + university confirmation), writing h_index/total_citations/works_count. Idempotent + resumable; canary health-gate aborts before writing when the key pool is down. Wave 1: +227 rows.
+*   **Source-curated lists:** TU Law `ผลงานวิชาการคัดสรร` citations (Batch 100) land as full dict-shape entries post-reducer.
 
 ---
 
@@ -169,3 +184,17 @@ Once the backend API is fully deployed to production hosting, scaling the databa
 1. Developing specialized Web Scrapers (using BeautifulSoup / Playwright) tailored to the DOM structure of target university directories.
 2. Importing scraped data using the standardized JSON schema defined in `AGENTS.md`.
 3. Running the automated scripts to fetch Google Scholar publications and generating 768-dimensional AI Embeddings (`gemini-embedding-2`) for semantic search readiness.
+
+---
+
+## 6. National Education Statistics (MHESI) — Demand-Side Benchmark
+> **เพิ่มเมื่อ:** 10 กันยายน 2569 | **ใช้ใน:** `future_tasks/05_find_expert_researchers.md`
+
+*   **Primary Source:** ระบบเผยแพร่สารสนเทศอุดมศึกษา กระทรวง อว. — [info.mhesi.go.th](https://info.mhesi.go.th)
+*   **Pages:**
+    *   นักศึกษาใหม่ (เข้าใหม่รายปี จำแนกสถาบัน/คณะ): `stat_std_new.php?search_year=2568`
+    *   ผู้สำเร็จการศึกษา: `stat_graduate.php?search_year=2568`
+    *   นักศึกษารวม: `stat_std_all.php`
+*   **Download mechanism:** ลิงก์ `download2.php?file_id=<id>.xlsx&stat_id=<sid>&id_member=<year>` ตอบ 302 → ต้อง GET ต่อไปยัง `Location` (รูปแบบ: `<page>.php?search_year=<year>&download=<sid>&file_id=<file>`) พร้อม cookie session ที่ได้จากการเปิดหน้ารายงานก่อน ไฟล์เป็น XLSX โครงสร้าง hierarchy จำแนกด้วย `cell.alignment.indent` (0=ชื่อปริญญา, 3=สถาบัน, 4=คณะ)
+*   **Key baseline (ปีการศึกษา 2568 ภาค 1):** นศ.เข้าใหม่ ป.โท 40,029 คน/ปี — สายการศึกษา+ครุศาสตร์ ~7,254 (อันดับ 1), วท.ม. 6,753, บธ.ม. 5,804, รป.ม. 2,526
+*   **Script ที่ใช้วิเคราะห์:** `backend/scripts/audits/field_coverage_gap_analysis.py` + `elite_researcher_gap.py`

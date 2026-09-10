@@ -3,7 +3,7 @@ import time
 import threading
 from fastapi import APIRouter, HTTPException, Depends, Response
 from sqlalchemy.orm import Session, load_only
-from sqlalchemy import or_, func
+from sqlalchemy import or_, func, desc, nullslast
 from typing import List, Optional, Dict, Any
 from pydantic import BaseModel
 from app.models.db_models import CourseDB, FacultyDB
@@ -601,14 +601,22 @@ def _fetch_distinguished_advisors(uni: UniversitySignatureMetadata, db: Session)
         FacultyDB.university_th.ilike(f"%{uni.name_th}%"),
         FacultyDB.university.ilike(f"%{uni.name_en}%")
     )
-    # Prefer advisors with research evidence, then backfill — both capped.
+    # Rank by real research evidence (h-index, then citations, then publications)
+    # so "distinguished" actually means distinguished. NULLs sort last.
+    research_rank = (
+        nullslast(desc(FacultyDB.h_index)),
+        nullslast(desc(FacultyDB.total_citations)),
+        nullslast(desc(FacultyDB.total_publications_count)),
+    )
     with_evidence = (
         db.query(FacultyDB)
         .options(load_only(*_FACULTY_CARD_COLUMNS))
         .filter(uni_filter, or_(
             FacultyDB.research_interests.isnot(None),
+            FacultyDB.h_index.isnot(None),
         ))
-        .limit(25)
+        .order_by(*research_rank)
+        .limit(40)
         .all()
     )
 
@@ -628,6 +636,7 @@ def _fetch_distinguished_advisors(uni: UniversitySignatureMetadata, db: Session)
             db.query(FacultyDB)
             .options(load_only(*_FACULTY_CARD_COLUMNS))
             .filter(uni_filter)
+            .order_by(*research_rank)
             .limit(10)
             .all()
         )
@@ -639,6 +648,25 @@ def _fetch_distinguished_advisors(uni: UniversitySignatureMetadata, db: Session)
                 break
 
     return distinguished
+
+
+def _uni_pair_counts(db: Session, th_col, en_col, pk_col) -> Dict[tuple, int]:
+    """count(*) grouped by (university_th, university) — distinct pairs are only
+    in the low hundreds, so per-uni substring matching is done cheaply in Python."""
+    rows = (
+        db.query(th_col, en_col, func.count(pk_col))
+        .group_by(th_col, en_col)
+        .all()
+    )
+    return {(th or "", en or ""): n for th, en, n in rows}
+
+
+def _pair_sum(pairs: Dict[tuple, int], name_th: str, name_en: str) -> int:
+    en = name_en.lower()
+    return sum(
+        n for (th, en2), n in pairs.items()
+        if name_th in th or en in en2.lower()
+    )
 
 @router.get("/signature-programs", response_model=List[UniversityHighlightResponse])
 def get_all_university_signature_programs(response: Response, db: Session = Depends(get_db)):
@@ -657,20 +685,15 @@ def get_all_university_signature_programs(response: Response, db: Session = Depe
 
     results: List[UniversityHighlightResponse] = []
 
+    # Batched counts (perf audit 2026-09-10): was 2 ILIKE COUNT(*) round-trips
+    # per university (32 sequential queries ≈ 500ms cold). One GROUP BY pass per
+    # table instead; substring matching semantics preserved in Python.
+    course_pairs = _uni_pair_counts(db, CourseDB.university_th, CourseDB.university, CourseDB.id)
+    advisor_pairs = _uni_pair_counts(db, FacultyDB.university_th, FacultyDB.university, FacultyDB.id)
+
     for uni in UNIVERSITIES_REGISTRY:
-        uni_filter_c = or_(
-            CourseDB.university_th.ilike(f"%{uni.name_th}%"),
-            CourseDB.university.ilike(f"%{uni.name_en}%")
-        )
-        total_courses = db.query(func.count(CourseDB.id)).filter(uni_filter_c).scalar() or 0
-        total_advisors = (
-            db.query(func.count(FacultyDB.id))
-            .filter(or_(
-                FacultyDB.university_th.ilike(f"%{uni.name_th}%"),
-                FacultyDB.university.ilike(f"%{uni.name_en}%")
-            ))
-            .scalar() or 0
-        )
+        total_courses = _pair_sum(course_pairs, uni.name_th, uni.name_en)
+        total_advisors = _pair_sum(advisor_pairs, uni.name_th, uni.name_en)
 
         signature_courses = _fetch_diverse_signature_courses(uni, db)
         distinguished_advs = _fetch_distinguished_advisors(uni, db)

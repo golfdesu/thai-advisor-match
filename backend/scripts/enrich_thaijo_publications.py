@@ -27,34 +27,24 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-# Key Institutional ThaiJO Journal Endpoints across Disciplines
-DISCIPLINE_JOURNALS = {
-    "law": [
-        ("วารสารนิติศาสตร์ มหาวิทยาลัยธรรมศาสตร์", "https://so05.tci-thaijo.org/index.php/tulawjournal/search/search"),
-        ("วารสารกฎหมาย จุฬาลงกรณ์มหาวิทยาลัย", "https://so05.tci-thaijo.org/index.php/LAWCHULAJOURNAL/search/search"),
-        ("วารสารนิติศาสตร์ มหาวิทยาลัยเชียงใหม่", "https://so01.tci-thaijo.org/index.php/lawcmu/search/search"),
-        ("วารสารนิติศาสตร์ มหาวิทยาลัยนเรศวร", "https://so04.tci-thaijo.org/index.php/law-nu/search/search")
-    ],
-    "business": [
-        ("วารสารบริหารธุรกิจ นิด้า (NIDA Business Journal)", "https://so04.tci-thaijo.org/index.php/abacjournal/search/search"),
-        ("วารสารบริหารธุรกิจและสังคมศาสตร์ มธ.", "https://so02.tci-thaijo.org/index.php/tbsjournal/search/search"),
-        ("วารสารเศรษฐศาสตร์ประยุกต์ มก.", "https://so02.tci-thaijo.org/index.php/AEJ/search/search")
-    ],
-    "polsci": [
-        ("วารสารรัฐศาสตร์ มหาวิทยาลัยธรรมศาสตร์", "https://so02.tci-thaijo.org/index.php/polsci-tu/search/search"),
-        ("วารสารรัฐศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย", "https://so02.tci-thaijo.org/index.php/jps/search/search"),
-        ("วารสารการบริหารท้องถิ่น มข.", "https://so04.tci-thaijo.org/index.php/colakkujournal/search/search")
-    ],
-    "education": [
-        ("วารสารศึกษาศาสตร์ มหาวิทยาลัยเชียงใหม่", "https://so01.tci-thaijo.org/index.php/cmujed/search/search"),
-        ("วารสารศึกษาศาสตร์ มหาวิทยาลัยนเรศวร", "https://so06.tci-thaijo.org/index.php/edunu/search/search")
-    ],
-    "regional": [
-        ("วารสารวิจัย มหาวิทยาลัยนเรศวร", "https://www.journal.nu.ac.th/NUJST/search/search"),
-        ("วารสารมหาวิทยาลัยทักษิณ", "https://so02.tci-thaijo.org/index.php/tsujournal/search/search"),
-        ("วารสารมนุษยศาสตร์และสังคมศาสตร์ มมส.", "https://so03.tci-thaijo.org/index.php/humsujournal/search/search")
-    ]
-}
+# ThaiJO runs OJS3 sharded over so0N.tci-thaijo.org hosts. Per-journal
+# /index.php/<journal>/search/search now renders only the search form (zero results) —
+# since the OJS3 upgrade all hits come from the AGGREGATE endpoint
+# /index.php/index/search/search?query=..., which we must poll per shard.
+# (Verified 10 ก.ย.: old journal-scoped GETs returned the <h3 class="title"> markup
+# that no longer exists → the whole 3,809-faculty wave enriched exactly 0 rows.)
+THAIJO_SHARDS = [f"https://so{n:02d}.tci-thaijo.org" for n in range(1, 7)]
+
+# Aggregate result item: <h3 class="title"><a id="article-89" href="URL">TITLE</a></h3>
+# <div class="meta"><div class="authors">A, B, C</div>...<div class="published">2025-02-10</div>
+ITEM_RE = re.compile(
+    r'<h3 class="title">\s*<a[^>]*href="(?P<url>[^"]+)"[^>]*>\s*(?P<title>.*?)\s*</a>\s*</h3>'
+    r'\s*<div class="meta">\s*<div class="authors">(?P<authors>.*?)</div>'
+    r'.*?(?:<div class="published">\s*(?P<date>\d{4})|\Z)',
+    re.S,
+)
+TAG_RE = re.compile(r"<[^>]+>")
+JOURNAL_PATH_RE = re.compile(r"index\.php/([^/]+)/article/view")
 
 
 def clean_base_thai_name(raw_name: str) -> str:
@@ -65,68 +55,59 @@ def clean_base_thai_name(raw_name: str) -> str:
     return name
 
 
-def query_thaijo_journal(journal_name: str, search_url: str, author_query: str) -> list:
-    """Query a specific ThaiJO journal for author's published articles"""
-    params = urllib.parse.urlencode({"query": author_query})
-    full_url = f"{search_url}?{params}"
+def query_thaijo_shard(shard: str, author_query: str) -> list:
+    """Author-scoped search on one ThaiJO OJS3 shard's aggregate search endpoint.
+
+    The `authors` GET field is the OJS3 metadata author filter (verified live: a
+    full Thai 'name surname' returns that person's own articles, not everyone
+    mentioning the string). We still re-check the rendered author list before
+    accepting a hit — a wrong publication attributed to a real researcher is
+    worse than none, since these titles feed advisor profiles and embeddings.
+    """
+    params = urllib.parse.urlencode({"authors": author_query})
+    full_url = f"{shard}/index.php/index/search/search?{params}"
     req = urllib.request.Request(full_url, headers=HEADERS)
 
     try:
-        with urllib.request.urlopen(req, timeout=5, context=SSL_CTX) as res:
+        with urllib.request.urlopen(req, timeout=8, context=SSL_CTX) as res:
             html = res.read().decode("utf-8", errors="ignore")
-            # Extract article titles and links
-            matches = re.findall(r'<h3 class="title">\s*<a\s+href="([^"]+)"[^>]*>(.*?)</a>', html, re.DOTALL)
-            results = []
-            for link, title_raw in matches:
-                clean_title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", title_raw)).strip()
-                if clean_title:
-                    results.append({
-                        "title": clean_title,
-                        "venue": journal_name,
-                        "url": link,
-                        "year": None,
-                        "citation_count": 0
-                    })
-            return results
     except Exception:
         return []
 
+    results = []
+    for m in ITEM_RE.finditer(html):
+        clean_title = re.sub(r"\s+", " ", TAG_RE.sub("", m.group("title"))).strip()
+        authors_txt = re.sub(r"\s+", " ", TAG_RE.sub("", m.group("authors"))).strip()
+        if not clean_title or author_query not in authors_txt:
+            continue
+        jm = JOURNAL_PATH_RE.search(m.group("url") or "")
+        results.append({
+            "title": clean_title,
+            "venue": f"ThaiJO ({jm.group(1)})" if jm else "ThaiJO",
+            "url": m.group("url"),
+            "year": int(m.group("date")) if m.group("date") else None,
+            "citation_count": 0,
+        })
+    return results
+
 
 def search_all_thaijo_for_faculty(faculty_name_th: str, faculty_field: str) -> list:
-    """Search relevant ThaiJO journals based on faculty discipline"""
+    """Author-scoped ThaiJO search across the so01..so06 shards for one faculty name."""
     clean_name = clean_base_thai_name(faculty_name_th)
-    if not clean_name or len(clean_name) < 4:
+    if not clean_name or len(clean_name) < 4 or not re.search(r"[฀-๿]", clean_name):
         return []
-
-    # Map discipline
-    field_lower = faculty_field.lower()
-    endpoints = []
-    if "นิติ" in field_lower or "law" in field_lower:
-        endpoints.extend(DISCIPLINE_JOURNALS["law"])
-    elif "พาณิชย์" in field_lower or "บริหาร" in field_lower or "การบัญชี" in field_lower or "เศรษฐ" in field_lower:
-        endpoints.extend(DISCIPLINE_JOURNALS["business"])
-    elif "รัฐศาสตร์" in field_lower or "polsci" in field_lower or "การเมือง" in field_lower:
-        endpoints.extend(DISCIPLINE_JOURNALS["polsci"])
-    elif "ศึกษา" in field_lower or "ครุศาสตร์" in field_lower:
-        endpoints.extend(DISCIPLINE_JOURNALS["education"])
-    else:
-        endpoints.extend(DISCIPLINE_JOURNALS["regional"])
-        endpoints.extend(DISCIPLINE_JOURNALS["law"][:1])
 
     all_found = []
     seen_titles = set()
-
-    for jname, jurl in endpoints:
-        items = query_thaijo_journal(jname, jurl, clean_name)
-        for it in items:
-            t = it["title"]
-            if t.lower() not in seen_titles:
-                seen_titles.add(t.lower())
+    for shard in THAIJO_SHARDS:
+        for it in query_thaijo_shard(shard, clean_name):
+            if it["title"].lower() not in seen_titles:
+                seen_titles.add(it["title"].lower())
                 all_found.append(it)
         if len(all_found) >= 5:
             break
 
-    return all_found
+    return all_found[:5]
 
 
 def run_thaijo_enrichment():

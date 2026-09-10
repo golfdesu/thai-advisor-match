@@ -1,0 +1,4443 @@
+{
+  "mode": "apply",
+  "counts": {
+    "match": 171,
+    "no_hit": 501,
+    "ambiguous": 8,
+    "error": 0,
+    "metric_gain": 164
+  },
+  "changes": [
+    {
+      "id": "thammasatu_facultyofe_pattamaprom_065",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5065289773",
+      "matched_author_name": "Cattaleeya Pattamaprom",
+      "h_index": 17,
+      "total_citations": 1462,
+      "total_publications_count": 52,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_manamanchaiyapo_046",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5011478712",
+      "matched_author_name": "Laliphat Manamanchaiyaporn",
+      "h_index": 7,
+      "total_citations": 311,
+      "total_publications_count": 18,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_kulwirojtham_021",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "thammasatu_facultyofe_mungkalasiri_072",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5063629303",
+      "matched_author_name": "Woranee Mungkalasiri",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 9,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_mahachoklertwat_017",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5001577055",
+      "matched_author_name": "P. Mahachoklertwattana",
+      "h_index": 4,
+      "total_citations": 76,
+      "total_publications_count": 10,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_somyat_012",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5021492282",
+      "matched_author_name": "Nawin Somyat",
+      "h_index": 1,
+      "total_citations": 18,
+      "total_publications_count": 3,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_nakmahachalasin_034",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5057432803",
+      "matched_author_name": "P. Nakmahachalasint",
+      "h_index": 7,
+      "total_citations": 196,
+      "total_publications_count": 17,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_rattanadecho_048",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5072464250",
+      "matched_author_name": "Phadungsak Rattanadecho",
+      "h_index": 38,
+      "total_citations": 4287,
+      "total_publications_count": 225,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_wanglertpanich_063",
+      "verdict": "match",
+      "corroborated": false,
+      "openalex_id": "https://openalex.org/A5048065490",
+      "matched_author_name": "Kiatbodin Wanglertpanich",
+      "h_index": 2,
+      "total_citations": 8,
+      "total_publications_count": 4,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_chatveera_040",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5013904347",
+      "matched_author_name": "Burachat Chatveera",
+      "h_index": 14,
+      "total_citations": 1121,
+      "total_publications_count": 90,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_danwanichakul_070",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5059712776",
+      "matched_author_name": "Panu Danwanichakul",
+      "h_index": 10,
+      "total_citations": 313,
+      "total_publications_count": 48,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_pijitrojana_025",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5000615739",
+      "matched_author_name": "Wanchai Pijitrojana",
+      "h_index": 5,
+      "total_citations": 112,
+      "total_publications_count": 43,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_pattaraprakorn_064",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5076547495",
+      "matched_author_name": "Woraratana Pattaraprakorn",
+      "h_index": 8,
+      "total_citations": 199,
+      "total_publications_count": 40,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_techateerawat_015",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5055029165",
+      "matched_author_name": "Piya Techateerawat",
+      "h_index": 4,
+      "total_citations": 130,
+      "total_publications_count": 11,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_thongkruer_022",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5117860082",
+      "matched_author_name": "Pattiya Thongkruer",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "thammasatu_facultyofe_vongpradubchai_044",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5040359488",
+      "matched_author_name": "Somsak Vongpradubchai",
+      "h_index": 8,
+      "total_citations": 310,
+      "total_publications_count": 17,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_thatphet_002",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_tanskul_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_pairojpiriyakul_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_buranachai_003",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5059028300",
+      "matched_author_name": "Chongdee Thammakhet‐Buranachai",
+      "h_index": 13,
+      "total_citations": 431,
+      "total_publications_count": 48,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_rujiralai_006",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5091382082",
+      "matched_author_name": "Thitima Rujiralai",
+      "h_index": 21,
+      "total_citations": 1232,
+      "total_publications_count": 63,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_vepulanont_001",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5076742705",
+      "matched_author_name": "Klatnatee Vepulanont",
+      "h_index": 3,
+      "total_citations": 45,
+      "total_publications_count": 7,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_leesakul_009",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5049801498",
+      "matched_author_name": "Nararak Leesakul",
+      "h_index": 9,
+      "total_citations": 345,
+      "total_publications_count": 46,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_phusanti_010",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_eamaektapchai_015",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chakthong_016",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5090099725",
+      "matched_author_name": "Suda Chakthong",
+      "h_index": 14,
+      "total_citations": 535,
+      "total_publications_count": 28,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_amornpitoksuk_011",
+      "verdict": "match",
+      "corroborated": false,
+      "openalex_id": "https://openalex.org/A5060782689",
+      "matched_author_name": "Pongsathorn Amornpitoksuk",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_duangthong_017",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5005089461",
+      "matched_author_name": "Supunnee Duangthong",
+      "h_index": 3,
+      "total_citations": 26,
+      "total_publications_count": 8,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_toolchuea_019",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_wattanasin_012",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5000959099",
+      "matched_author_name": "Panwadee Wattanasin",
+      "h_index": 10,
+      "total_citations": 202,
+      "total_publications_count": 18,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_durrast_026",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_saithong_018",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5018279372",
+      "matched_author_name": "Saowanit Saithong",
+      "h_index": 20,
+      "total_citations": 991,
+      "total_publications_count": 171,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_pengdum_021",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_wattanasen_029",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5054954714",
+      "matched_author_name": "Kamhaeng Wattanasen",
+      "h_index": 5,
+      "total_citations": 107,
+      "total_publications_count": 13,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_boonkerd_025",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_tivakornsasitho_027",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5103247648",
+      "matched_author_name": "Kritsanu Tivakornsasithorn",
+      "h_index": 2,
+      "total_citations": 17,
+      "total_publications_count": 8,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_numnuam_022",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_sirimahachai_024",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5027703144",
+      "matched_author_name": "Uraiwan Sirimahachai",
+      "h_index": 15,
+      "total_citations": 725,
+      "total_publications_count": 38,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_putson_033",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5014433539",
+      "matched_author_name": "Chatchai Putson",
+      "h_index": 22,
+      "total_citations": 1165,
+      "total_publications_count": 111,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_chuenchom_020",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5065351769",
+      "matched_author_name": "Laemthong Chuenchom",
+      "h_index": 20,
+      "total_citations": 1494,
+      "total_publications_count": 62,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_chatthong_037",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5018391159",
+      "matched_author_name": "Boonyarit Chatthong",
+      "h_index": 7,
+      "total_citations": 115,
+      "total_publications_count": 36,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_kaewkhao_036",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_vandommelen_038",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_phuphub_030",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_srisamran_042",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5080578613",
+      "matched_author_name": "Panuwat Srisamran",
+      "h_index": 5,
+      "total_citations": 83,
+      "total_publications_count": 21,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_rakkapao_049",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5075593057",
+      "matched_author_name": "S Rakkapao",
+      "h_index": 5,
+      "total_citations": 93,
+      "total_publications_count": 20,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_buranachai_034",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5014005811",
+      "matched_author_name": "Chittanon Buranachai",
+      "h_index": 15,
+      "total_citations": 1370,
+      "total_publications_count": 43,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_sitpathom_035",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5045070200",
+      "matched_author_name": "Nonthanan Sitpathom",
+      "h_index": 2,
+      "total_citations": 12,
+      "total_publications_count": 16,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_sumethakulwat_044",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_yodkhayan_046",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_sirijarukul_048",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5046720637",
+      "matched_author_name": "Suksawat Sirijarukul",
+      "h_index": 6,
+      "total_citations": 113,
+      "total_publications_count": 16,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_ngamdee_045",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "princeofso_facultyofs_thainiramit_041",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5037952488",
+      "matched_author_name": "Panu Thainiramit",
+      "h_index": 6,
+      "total_citations": 161,
+      "total_publications_count": 16,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_kaewtatip_057",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5025199108",
+      "matched_author_name": "Kaewta Kaewtatip",
+      "h_index": 28,
+      "total_citations": 2017,
+      "total_publications_count": 56,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_promsawat_054",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5074320243",
+      "matched_author_name": "Methee Promsawat",
+      "h_index": 12,
+      "total_citations": 358,
+      "total_publications_count": 46,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_lertvithayanont_050",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chanadee_051",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_phuruangrat_056",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5086744125",
+      "matched_author_name": "Anukorn Phuruangrat",
+      "h_index": 52,
+      "total_citations": 9127,
+      "total_publications_count": 353,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_bomlai_052",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5004744618",
+      "matched_author_name": "Pornsuda Bomlai",
+      "h_index": 10,
+      "total_citations": 449,
+      "total_publications_count": 40,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_chinpa_063",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5055312164",
+      "matched_author_name": "Watchanida Chinpa",
+      "h_index": 11,
+      "total_citations": 730,
+      "total_publications_count": 43,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_thongsinuch_066",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_kalkornsuraphan_067",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_phetwarotai_062",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5018649610",
+      "matched_author_name": "Worasak Phetwarotai",
+      "h_index": 19,
+      "total_citations": 883,
+      "total_publications_count": 36,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_chantarak_065",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5075585341",
+      "matched_author_name": "Sirinya Chantarak",
+      "h_index": 18,
+      "total_citations": 914,
+      "total_publications_count": 36,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_khaokong_059",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5082677277",
+      "matched_author_name": "Chuanpit Khaokong",
+      "h_index": 8,
+      "total_citations": 405,
+      "total_publications_count": 17,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_taweepreda_064",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5049505751",
+      "matched_author_name": "Wirach Taweepreda",
+      "h_index": 20,
+      "total_citations": 1334,
+      "total_publications_count": 110,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_mitraphabarthor_073",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_kanhayuwawingfi_076",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_sreenitiworawon_069",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_thienmontri_072",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_sermwittayawong_071",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5035000475",
+      "matched_author_name": "Natthawan Sermwittayawong",
+      "h_index": 11,
+      "total_citations": 435,
+      "total_publications_count": 18,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_phumwiset_075",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_amsakul_068",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_kaewjamnong_083",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_suthinont_081",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_suwasono_079",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_noonanan_091",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_cheha_089",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_mayakool_086",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_dueramae_080",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5090047215",
+      "matched_author_name": "Sawitree Dueramae",
+      "h_index": 6,
+      "total_citations": 118,
+      "total_publications_count": 15,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_nualcharoen_084",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5021341374",
+      "matched_author_name": "Kwan Nualcharoen",
+      "h_index": 2,
+      "total_citations": 24,
+      "total_publications_count": 2,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_ingsanthia_092",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_leeratiwong_085",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_dejcharoen_093",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_promma_088",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5027622697",
+      "matched_author_name": "Chatchaba Promma",
+      "h_index": 4,
+      "total_citations": 50,
+      "total_publications_count": 24,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_chokwiwatkul_095",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5083916996",
+      "matched_author_name": "Ratchata Chokwiwatkul",
+      "h_index": 2,
+      "total_citations": 10,
+      "total_publications_count": 5,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_peerakiatkhajor_098",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_plathong_099",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5024080705",
+      "matched_author_name": "Sakanan Plathong",
+      "h_index": 10,
+      "total_citations": 490,
+      "total_publications_count": 99,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_srivoon_096",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_lapwong_094",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5065714648",
+      "matched_author_name": "Yingyod Lapwong",
+      "h_index": 8,
+      "total_citations": 120,
+      "total_publications_count": 17,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_sanguansin_103",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_dejtharadol_104",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_prateep_105",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_bumrungsri_102",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5023265052",
+      "matched_author_name": "Sara Bumrungsri",
+      "h_index": 31,
+      "total_citations": 3498,
+      "total_publications_count": 152,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_sathaphondecha_107",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chantanaorrapin_101",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5038910371",
+      "matched_author_name": "Sahut Chantanaorrapint",
+      "h_index": 14,
+      "total_citations": 747,
+      "total_publications_count": 123,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_tansakul_111",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_itthisoponpisar_112",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_wonglapsuwan_108",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5064570571",
+      "matched_author_name": "Monwadee Wonglapsuwan",
+      "h_index": 15,
+      "total_citations": 535,
+      "total_publications_count": 85,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_wannana_110",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_nakkaew_114",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5050218535",
+      "matched_author_name": "Alisa Nakkaew",
+      "h_index": 5,
+      "total_citations": 102,
+      "total_publications_count": 19,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_loyprasert_113",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5108215442",
+      "matched_author_name": "Suchera Loyprasert",
+      "h_index": 7,
+      "total_citations": 464,
+      "total_publications_count": 8,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_sangkat_115",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_jirojkul_121",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5082837395",
+      "matched_author_name": "Chutiporn Jirojkul",
+      "h_index": 2,
+      "total_citations": 17,
+      "total_publications_count": 4,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_chailuek_119",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5068828137",
+      "matched_author_name": "Kamthorn Chailuek",
+      "h_index": 3,
+      "total_citations": 16,
+      "total_publications_count": 7,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_nuallaong_117",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_boonpokkrong_130",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_vichitkunakorn_126",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5065911776",
+      "matched_author_name": "Panupong Vichitkunakorn",
+      "h_index": 6,
+      "total_citations": 185,
+      "total_publications_count": 31,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_plangsangkul_124",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chinram_129",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5090102526",
+      "matched_author_name": "Ronnason Chinram",
+      "h_index": 26,
+      "total_citations": 2209,
+      "total_publications_count": 204,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_petchapirak_127",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_pruksapipat_134",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_khammanee_137",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_tripak_136",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5023818142",
+      "matched_author_name": "Orawan Tripak",
+      "h_index": 5,
+      "total_citations": 127,
+      "total_publications_count": 11,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_kongsiriwong_132",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5046125083",
+      "matched_author_name": "Sarachai Kongsiriwong",
+      "h_index": 2,
+      "total_citations": 41,
+      "total_publications_count": 8,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_yanthantham_131",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_rattana_135",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5086832247",
+      "matched_author_name": "Amornrat Rattana",
+      "h_index": 3,
+      "total_citations": 50,
+      "total_publications_count": 7,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_iuwsakul_147",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_urawong_141",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5079801946",
+      "matched_author_name": "Khemika Urawong",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_kongchuay_144",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_panichyakul_143",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_masae_146",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5050956888",
+      "matched_author_name": "Makusee Masae",
+      "h_index": 5,
+      "total_citations": 341,
+      "total_publications_count": 18,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_tiwatthanasorn_145",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chumnan_142",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_srivisarn_152",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_duangsuwan_150",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5059625571",
+      "matched_author_name": "Jarunee Duangsuwan",
+      "h_index": 6,
+      "total_citations": 140,
+      "total_publications_count": 22,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_thanont_153",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chusawang_148",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_wangmethikul_155",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_saynui_149",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_intchak_161",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_jaruphadung_160",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_airak_156",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chakvat_157",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofn_kamonratananun_020",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5056076382",
+      "matched_author_name": "Netrachanee Kamonratananun",
+      "h_index": 1,
+      "total_citations": 5,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_boonyaputthipon_042",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofn_kheawwan_013",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5061091979",
+      "matched_author_name": "Pataraporn Kheawwan",
+      "h_index": 4,
+      "total_citations": 36,
+      "total_publications_count": 13,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_krongtham_028",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5098926722",
+      "matched_author_name": "Patcharin Krongtham",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 11,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_wonghirundecha_169",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_choksuchat_166",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5058848186",
+      "matched_author_name": "Chidchanok Choksuchat",
+      "h_index": 6,
+      "total_citations": 189,
+      "total_publications_count": 47,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_wongsirichot_167",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5073560663",
+      "matched_author_name": "Thakerng Wongsirichot",
+      "h_index": 6,
+      "total_citations": 118,
+      "total_publications_count": 30,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_plangsangkul_172",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_kajkamhaeng_170",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5055031033",
+      "matched_author_name": "Supasit Kajkamhaeng",
+      "h_index": 5,
+      "total_citations": 71,
+      "total_publications_count": 22,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_nopparat_173",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5060777737",
+      "matched_author_name": "Jongdee Nopparat",
+      "h_index": 9,
+      "total_citations": 249,
+      "total_publications_count": 31,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_duangsuwan_180",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5071961649",
+      "matched_author_name": "Pornsawan Duangsuwan",
+      "h_index": 4,
+      "total_citations": 97,
+      "total_publications_count": 8,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_saetan_174",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5083208934",
+      "matched_author_name": "Jirawat Saetan",
+      "h_index": 13,
+      "total_citations": 357,
+      "total_publications_count": 57,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_boonsri_179",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5050298357",
+      "matched_author_name": "Boonyakorn Boonsri",
+      "h_index": 5,
+      "total_citations": 72,
+      "total_publications_count": 8,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_deethaisong_177",
+      "verdict": "match",
+      "corroborated": false,
+      "openalex_id": "https://openalex.org/A5119140331",
+      "matched_author_name": "Thiraphon Deethaisong",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 3,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_eksawang_188",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_vongwachiranont_187",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_wirakiat_183",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5038808299",
+      "matched_author_name": "Wimon Wirakiat",
+      "h_index": 4,
+      "total_citations": 38,
+      "total_publications_count": 5,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_imsappang_185",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_kankuankaewbori_184",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofn_laochai_009",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5013505864",
+      "matched_author_name": "Wiwat Laochai",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 3,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_komolgriangkrai_182",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_saeheng_194",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5046553036",
+      "matched_author_name": "Sompop Saeheng",
+      "h_index": 5,
+      "total_citations": 137,
+      "total_publications_count": 20,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_obchoei_195",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5084593380",
+      "matched_author_name": "Sumalee Obchoei",
+      "h_index": 10,
+      "total_citations": 470,
+      "total_publications_count": 36,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_pitakpongpreech_190",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_rattanaporn_196",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_runsaeng_192",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5059137004",
+      "matched_author_name": "Phanthipha Runsaeng",
+      "h_index": 13,
+      "total_citations": 452,
+      "total_publications_count": 36,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_prutipipanlarp_203",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_ruenglertbun_201",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_thipasarn_198",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_arunkesorn_197",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_sukkasemsiri_199",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_siriprukpong_200",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_hutamekalin_211",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5085324601",
+      "matched_author_name": "Pilaiwanwadee Hutamekalin",
+      "h_index": 19,
+      "total_citations": 1022,
+      "total_publications_count": 52,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_athiwiwat_207",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_limsuwannachot_206",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_muangnil_212",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_huipao_208",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5070026159",
+      "matched_author_name": "Nawiya Huipao",
+      "h_index": 5,
+      "total_citations": 91,
+      "total_publications_count": 19,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_khondpakdee_210",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_thongprachak_216",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_issuriya_213",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5048966257",
+      "matched_author_name": "Acharaporn Issuriya",
+      "h_index": 9,
+      "total_citations": 259,
+      "total_publications_count": 33,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_senasu_219",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5079802175",
+      "matched_author_name": "Teeradech Senasu",
+      "h_index": 16,
+      "total_citations": 1469,
+      "total_publications_count": 18,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_yunram_217",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_koomprasit_214",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_damrongritthama_218",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_phuphumirat_221",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5087538270",
+      "matched_author_name": "Wongkot Phuphumirat",
+      "h_index": 6,
+      "total_citations": 87,
+      "total_publications_count": 14,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_pholchai_224",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chaisivamongkol_215",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_jakrabandhu_189",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_limbut_222",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5045646067",
+      "matched_author_name": "Warakorn Limbut",
+      "h_index": 35,
+      "total_citations": 3782,
+      "total_publications_count": 161,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_chumpong_139",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5087582046",
+      "matched_author_name": "Kittisak Chumpong",
+      "h_index": 5,
+      "total_citations": 45,
+      "total_publications_count": 10,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_jeeraphan_023",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_jibbenja_122",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_kaewbamrung_005",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_kalsuwan_039",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_leelawatwattana_193",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5043782737",
+      "matched_author_name": "Ladda Leelawatwattana",
+      "h_index": 5,
+      "total_citations": 130,
+      "total_publications_count": 15,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_saetan_116",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5073553704",
+      "matched_author_name": "Uraipan Saetan",
+      "h_index": 5,
+      "total_citations": 78,
+      "total_publications_count": 10,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_saetung_061",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5091105460",
+      "matched_author_name": "Nitinart Saetung",
+      "h_index": 16,
+      "total_citations": 603,
+      "total_publications_count": 34,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_samart_140",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5013853465",
+      "matched_author_name": "Klairung Samart",
+      "h_index": 4,
+      "total_citations": 46,
+      "total_publications_count": 14,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_sermwittayawong_191",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5089821628",
+      "matched_author_name": "Decha Sermwittayawong",
+      "h_index": 10,
+      "total_citations": 496,
+      "total_publications_count": 36,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_suwannamanee_070",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_tangsukruthai_205",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_thanakiatkrai_220",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5015529208",
+      "matched_author_name": "Phuvadol Thanakiatkrai",
+      "h_index": 15,
+      "total_citations": 739,
+      "total_publications_count": 48,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_thippanchong_175",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_trakulmaykee_168",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_udomaksorn_202",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_wongthawatchai_176",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_angsumanchotime_151",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_nualthong_120",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chuisurisai_133",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chunglok_078",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5033453643",
+      "matched_author_name": "Wilanee Chunglok",
+      "h_index": 5,
+      "total_citations": 239,
+      "total_publications_count": 11,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_klinhom_097",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_limsakul_040",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5008373912",
+      "matched_author_name": "Praopim Limsakul",
+      "h_index": 11,
+      "total_citations": 576,
+      "total_publications_count": 29,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_limsuntrakul_159",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_puangpairoj_090",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_rawiratchawatta_028",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_sriviwichan_204",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_suphakulopas_043",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_thepparat_109",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_sukpondma_014",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5107394862",
+      "matched_author_name": "Yaowapa Sukpondma",
+      "h_index": 26,
+      "total_citations": 1742,
+      "total_publications_count": 67,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_vichitsaguanjed_138",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_saewai_087",
+      "verdict": "match",
+      "corroborated": false,
+      "openalex_id": "https://openalex.org/A5145460656",
+      "matched_author_name": "Saewai Jarearnsak",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_sungkhapaitoon_053",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_suwanboon_055",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5007873471",
+      "matched_author_name": "Sumetha Suwanboon",
+      "h_index": 32,
+      "total_citations": 3318,
+      "total_publications_count": 114,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_senarat_100",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5004856694",
+      "matched_author_name": "Sinlapachai Senarat",
+      "h_index": 6,
+      "total_citations": 231,
+      "total_publications_count": 94,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_chebao_128",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_kittipoom_125",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5071573479",
+      "matched_author_name": "Pisamai Kittipoom",
+      "h_index": 3,
+      "total_citations": 190,
+      "total_publications_count": 14,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_semaphot_209",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_saeueng_154",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_thanasawat_186",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_yuttanan_123",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5078921210",
+      "matched_author_name": "Boonrod Yuttanan",
+      "h_index": 7,
+      "total_citations": 300,
+      "total_publications_count": 23,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_chochiang_165",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5047414223",
+      "matched_author_name": "Kitsiri Chochiang",
+      "h_index": 4,
+      "total_citations": 40,
+      "total_publications_count": 19,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_damklieng_164",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_sukpisit_171",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_suksawad_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_chaibundit_058",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5057762082",
+      "matched_author_name": "Chiraphon Chaibundit",
+      "h_index": 21,
+      "total_citations": 1397,
+      "total_publications_count": 36,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_sianglam_077",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_kansomkiat_163",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_khimmakthong_181",
+      "verdict": "match",
+      "corroborated": false,
+      "openalex_id": "https://openalex.org/A5035045970",
+      "matched_author_name": "Wipapan Khimmakthong",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_rattanothayanon_162",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_eiawkrulak_106",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_kaewpetch_013",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_waewwanchit_223",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_wangkulangkul_082",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5062826707",
+      "matched_author_name": "Kringpaka Wangkulangkul",
+      "h_index": 8,
+      "total_citations": 170,
+      "total_publications_count": 24,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_kittikorn_060",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5021195295",
+      "matched_author_name": "Thorsak Kittikorn",
+      "h_index": 12,
+      "total_citations": 590,
+      "total_publications_count": 44,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_leedamrongwatta_047",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_sirikantisophon_118",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_vanichayobon_158",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5028027678",
+      "matched_author_name": "Sirirut Vanichayobon",
+      "h_index": 7,
+      "total_citations": 152,
+      "total_publications_count": 24,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_daengngam_032",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5069524892",
+      "matched_author_name": "Chalongrat Daengngam",
+      "h_index": 12,
+      "total_citations": 417,
+      "total_publications_count": 58,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "princeofso_facultyofs_hengprathom_178",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "princeofso_facultyofs_sukhumungoon_074",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5085760113",
+      "matched_author_name": "Pharanai Sukhumungoon",
+      "h_index": 7,
+      "total_citations": 164,
+      "total_publications_count": 31,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_jittimanee_010",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5065831611",
+      "matched_author_name": "S Jittimanee",
+      "h_index": 8,
+      "total_citations": 333,
+      "total_publications_count": 25,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_jaroensuk_015",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5126532976",
+      "matched_author_name": "Pinyo Jaroensuk",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_collegeofl_kongphiantham_036",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_oudhomyath_035",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofn_jongsomjitt_031",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5049950798",
+      "matched_author_name": "Chollada Jongsomjitt",
+      "h_index": 1,
+      "total_citations": 2,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_anuruang_008",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5068449668",
+      "matched_author_name": "Sakuntala Anuruang",
+      "h_index": 5,
+      "total_citations": 45,
+      "total_publications_count": 10,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_darach_022",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5120266870",
+      "matched_author_name": "Nathidathip Darach",
+      "h_index": 1,
+      "total_citations": 6,
+      "total_publications_count": 2,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_nunthaitaweekul_007",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5079932393",
+      "matched_author_name": "Pachanut Nunthaitaweekul",
+      "h_index": 1,
+      "total_citations": 7,
+      "total_publications_count": 3,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_ngernthaisong_021",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5069978912",
+      "matched_author_name": "Chaowarit Ngernthaisong",
+      "h_index": 2,
+      "total_citations": 12,
+      "total_publications_count": 7,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_oumtanee_017",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5033773051",
+      "matched_author_name": "Areewan Oumtanee",
+      "h_index": 7,
+      "total_citations": 172,
+      "total_publications_count": 42,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_hasan_011",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5018020823",
+      "matched_author_name": "Faizul Hasan",
+      "h_index": 20,
+      "total_citations": 8433,
+      "total_publications_count": 121,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_pokasem_019",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5092589540",
+      "matched_author_name": "Boonyapa Pokasem",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 2,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_polsook_005",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5017363484",
+      "matched_author_name": "Rapin Polsook",
+      "h_index": 7,
+      "total_citations": 131,
+      "total_publications_count": 37,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_prachusilpa_016",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5059209756",
+      "matched_author_name": "Gunyadar Prachusilpa",
+      "h_index": 3,
+      "total_citations": 13,
+      "total_publications_count": 6,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_sasat_003",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5039984402",
+      "matched_author_name": "Siriphan Sasat",
+      "h_index": 6,
+      "total_citations": 144,
+      "total_publications_count": 13,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_rohmah_032",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5093613993",
+      "matched_author_name": "Iftitakhur Rohmah",
+      "h_index": 6,
+      "total_citations": 1374,
+      "total_publications_count": 21,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_rojnawee_030",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5052985416",
+      "matched_author_name": "Suwimon Rojnawee",
+      "h_index": 4,
+      "total_citations": 60,
+      "total_publications_count": 25,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_stithyudhakarn_027",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5002242868",
+      "matched_author_name": "Sudaporn Stithyudhakarn",
+      "h_index": 2,
+      "total_citations": 11,
+      "total_publications_count": 8,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_suktrakul_026",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5032162611",
+      "matched_author_name": "Sunisa Suktrakul",
+      "h_index": 3,
+      "total_citations": 54,
+      "total_publications_count": 8,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_supametaporn_006",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5120416719",
+      "matched_author_name": "Pinhatai Supametaporn",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 2,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_thato_001",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5036051667",
+      "matched_author_name": "Ratsiri Thato",
+      "h_index": 8,
+      "total_citations": 258,
+      "total_publications_count": 38,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_upasen_025",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5082134118",
+      "matched_author_name": "Ratchaneekorn Upasen",
+      "h_index": 7,
+      "total_citations": 173,
+      "total_publications_count": 27,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_treenai_029",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5034156759",
+      "matched_author_name": "Surasak Treenai",
+      "h_index": 1,
+      "total_citations": 3,
+      "total_publications_count": 6,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_syahruromadlon_012",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofn_uthis_023",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5044553725",
+      "matched_author_name": "Penpaktr Uthis",
+      "h_index": 7,
+      "total_citations": 167,
+      "total_publications_count": 30,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_waraphok_014",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5115018032",
+      "matched_author_name": "Sineenat Waraphok",
+      "h_index": 1,
+      "total_citations": 8,
+      "total_publications_count": 4,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_vatanasin_024",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5081539825",
+      "matched_author_name": "Duangjai Vatanasin",
+      "h_index": 2,
+      "total_citations": 28,
+      "total_publications_count": 13,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_watthayu_004",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5016376154",
+      "matched_author_name": "Nantiya Watthayu",
+      "h_index": 3,
+      "total_citations": 59,
+      "total_publications_count": 12,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofn_wisesrith_018",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5006488433",
+      "matched_author_name": "Wasinee Wisesrith",
+      "h_index": 3,
+      "total_citations": 33,
+      "total_publications_count": 12,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_boontem_020",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_thanavirun_032",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_akanit_053",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5003238788",
+      "matched_author_name": "Uraiwan Akanit",
+      "h_index": 2,
+      "total_citations": 9,
+      "total_publications_count": 6,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_jinathongthai_055",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5119137891",
+      "matched_author_name": "Peerawat Jinathongthai",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 5,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_buakham_014",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_chairat_017",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_chaiwattrakul_019",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_jutagate_001",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5066706774",
+      "matched_author_name": "Tuantong Jutagate",
+      "h_index": 16,
+      "total_citations": 1008,
+      "total_publications_count": 70,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_ketngam_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_laomkom_003",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_onsaard_007",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5033689915",
+      "matched_author_name": "Ekasit Onsaard",
+      "h_index": 11,
+      "total_citations": 423,
+      "total_publications_count": 38,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_musika_009",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5106423893",
+      "matched_author_name": "Jirayu Musika",
+      "h_index": 1,
+      "total_citations": 16,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "kingmongku_facultyofe_panich_048",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5016535727",
+      "matched_author_name": "Sansot Panich",
+      "h_index": 10,
+      "total_citations": 538,
+      "total_publications_count": 51,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_onsaard_018",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5048381656",
+      "matched_author_name": "Wiriya Onsaard",
+      "h_index": 4,
+      "total_citations": 52,
+      "total_publications_count": 10,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_pilachan_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_payuhaha_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_promchote_013",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_samart_012",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_singthong_002",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_siriboon_010",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_promdirek_093",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5076263011",
+      "matched_author_name": "Piyorose Promdirek",
+      "h_index": 6,
+      "total_citations": 159,
+      "total_publications_count": 33,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_suwanlee_020",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5049929308",
+      "matched_author_name": "Surachai Suwanlee",
+      "h_index": 3,
+      "total_citations": 46,
+      "total_publications_count": 8,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_thatpitchayangk_015",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_thongkaew_011",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5030652468",
+      "matched_author_name": "Chutima Thongkaew",
+      "h_index": 9,
+      "total_citations": 943,
+      "total_publications_count": 16,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_thunsiri_016",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_uttho_005",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_chanphuang_025",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_chaowsirikul_021",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_chanket_021",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_chenchi_018",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_facultyofa_jekmadan_031",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5076852340",
+      "matched_author_name": "Chaiwat Jekmadan",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 2,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_jutagate_022",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_klinubon_027",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_krutphan_030",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_krutphan_025",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_onampai_029",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_lunpha_023",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5091370842",
+      "matched_author_name": "Areerat Lunpha",
+      "h_index": 3,
+      "total_citations": 13,
+      "total_publications_count": 9,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_phiudang_037",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_pongthong_024",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_pradabwong_038",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_promthong_036",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_sathornvisit_032",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_saengkanjanavan_028",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_suebnukarn_040",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_suthamwong_039",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_tantisirin_035",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5115066782",
+      "matched_author_name": "Nopporn Tantisirin",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_tapalat_033",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_urosophon_034",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_yienphet_026",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_chotikulpat_070",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahasarakh_facultyofi_phonphinit_001",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_meesit_069",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_nettong_062",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_phattarabenjapo_063",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5077604867",
+      "matched_author_name": "Suwanna Phattarabenjapol",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 3,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_pholtham_060",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_ajarasirikul_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_anmai_012",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_jitkosol_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_jeepanattigarn_011",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_kulrach_014",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_nongpet_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_schoolofen_paing_029",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_phuphasuk_013",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_saisamuth_010",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_saksirisophon_002",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_siritammasakul_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_srichan_001",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_thanee_005",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5073821344",
+      "matched_author_name": "P. Thanee",
+      "h_index": 1,
+      "total_citations": 3,
+      "total_publications_count": 3,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_collegeofl_yingkhong_003",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_kamriang_044",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_thanee_009",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_schoolofen_pattanadech_055",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5038521212",
+      "matched_author_name": "Norasage Pattanadech",
+      "h_index": 15,
+      "total_citations": 940,
+      "total_publications_count": 245,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_khairam_045",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_klangsinsirikul_043",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5042609447",
+      "matched_author_name": "Sukanya Klangsinsirikul",
+      "h_index": 1,
+      "total_citations": 5,
+      "total_publications_count": 1,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofa_mawiang_041",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofa_sophawong_046",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_bupha_042",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_itharat_040",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_musika_039",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_chummuan_030",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_kondo_027",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_collegeofl_masaki_028",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_collegeofl_methajiranan_016",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_phankhot_026",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_morachat_032",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_nimitsophon_024",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sarapong_033",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_puyati_022",
+      "verdict": "match",
+      "corroborated": false,
+      "openalex_id": "https://openalex.org/A5085564445",
+      "matched_author_name": "Chidhathai Puyati",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 2,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_collegeofl_jing_020",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sasiprapa_023",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sewanakunakorn_015",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sukthon_031",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sasaki_029",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_collegeofl_tanlert_034",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_pilaipan_041",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_techarungpaisan_017",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_saengthong_038",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_songkhro_043",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_suwanna_037",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_bamrungthai_003",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_hongthong_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_collegeofl_xiaowen_019",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_facultyofp_janyakantikul_010",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_luatrakul_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_mueangchan_001",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_jaksupa_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_preprem_011",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_nilathawong_009",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_thongngok_005",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_waiwut_002",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_boonchoong_031",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5076811945",
+      "matched_author_name": "Preecha Boonchoong",
+      "h_index": 9,
+      "total_citations": 1028,
+      "total_publications_count": 13,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_veravatnchai_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_buddapeng_019",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_duangjit_024",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5010105260",
+      "matched_author_name": "Sureewan Duangjit",
+      "h_index": 13,
+      "total_citations": 950,
+      "total_publications_count": 67,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_butsri_016",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_hothanasombat_029",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_pichayajitphong_022",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_puapermpoonsiri_027",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_rangsimawong_030",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_saohin_023",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_sasibunya_021",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_senarat_017",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_sethabuppha_025",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_napaporn_018",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5038405351",
+      "matched_author_name": "Jintana Napaporn",
+      "h_index": 5,
+      "total_citations": 466,
+      "total_publications_count": 14,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_silppipat_028",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_srithananuwat_012",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_suwannakootjant_013",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_thisoda_015",
+      "verdict": "match",
+      "corroborated": false,
+      "openalex_id": "https://openalex.org/A5028094144",
+      "matched_author_name": "Piengpen Thisoda",
+      "h_index": 2,
+      "total_citations": 215,
+      "total_publications_count": 3,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_thanakhetpaisar_026",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_wongveerakul_014",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_facultyofp_chuengmunkong_033",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_boonlue_048",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_chuengwattanako_036",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_dongtai_042",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5032255082",
+      "matched_author_name": "Wannisa DONGTAI Dongtai",
+      "h_index": 1,
+      "total_citations": 5,
+      "total_publications_count": 2,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_homhuan_039",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_kaewamatuwong_035",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_kunwaradisai_051",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_lapmark_046",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_schoolofen_phophongviwat_039",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5065682037",
+      "matched_author_name": "Teeraphon Phophongviwat",
+      "h_index": 7,
+      "total_citations": 171,
+      "total_publications_count": 27,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_mangkonkaew_044",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_jitsang_037",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_montmathurapoj_049",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_orosram_050",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_prasanphan_041",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_sadirasupaphan_047",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_sutthipan_038",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_suwannakul_043",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_techangoon_045",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_veravatnchai_040",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahasarakh_facultyofi_chotithanom_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_poolphol_054",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_yingngam_034",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5084068174",
+      "matched_author_name": "Bancha Yingngam",
+      "h_index": 19,
+      "total_citations": 898,
+      "total_publications_count": 98,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "mahasarakh_facultyofi_juanchaiyaphum_006",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5121121955",
+      "matched_author_name": "Jatuphum Juanchaiyaphum",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 2,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_rintharat_068",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_saengkaew_052",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_samsithong_056",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_sanguanboonpong_057",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_sripa_058",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5063542727",
+      "matched_author_name": "Saksit Sripa",
+      "h_index": 4,
+      "total_citations": 91,
+      "total_publications_count": 18,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_srisuk_065",
+      "verdict": "match",
+      "corroborated": false,
+      "openalex_id": "https://openalex.org/A5031549561",
+      "matched_author_name": "Srisakul Srisuk",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 2,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_thongsut_067",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_vacharathanakit_061",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_schoolofen_suksawat_047",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5035056835",
+      "matched_author_name": "Dusit Suksawat",
+      "h_index": 3,
+      "total_citations": 36,
+      "total_publications_count": 11,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "ubonratcha_facultyofp_wattanapitchaya_059",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_warong_066",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "ubonratcha_facultyofp_withayanukulruk_064",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahasarakh_facultyofi_khamket_002",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5035888409",
+      "matched_author_name": "Thananchai Khamket",
+      "h_index": 3,
+      "total_citations": 29,
+      "total_publications_count": 14,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "mahasarakh_facultyofi_liemthaisong_013",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahasarakh_facultyofi_lawan_012",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5004983136",
+      "matched_author_name": "Thawatwong Lawan",
+      "h_index": 2,
+      "total_citations": 7,
+      "total_publications_count": 9,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "mahasarakh_facultyofi_mahattanatheera_010",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahasarakh_facultyofi_prasertsri_014",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5054421980",
+      "matched_author_name": "Narueset Prasertsri",
+      "h_index": 4,
+      "total_citations": 56,
+      "total_publications_count": 18,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "mahasarakh_facultyofi_noiamka_009",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahasarakh_facultyofi_saithong_005",
+      "verdict": "match",
+      "corroborated": true,
+      "openalex_id": "https://openalex.org/A5115428822",
+      "matched_author_name": "Pongpipat Saithong",
+      "h_index": 1,
+      "total_citations": 6,
+      "total_publications_count": 8,
+      "before": {
+        "h": 0,
+        "cit": 0
+      }
+    },
+    {
+      "id": "mahasarakh_facultyofi_senagraikun_011",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahasarakh_facultyofi_sibunruang_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahasarakh_facultyofi_wichianchai_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahasarakh_facultyofi_uttha_003",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_chariyalertsak_001",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_intawong_005",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_schoolofen_suwanngam_067",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_chamchoi_015",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_changphas_001",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_kiatmalisathit_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_pinitsoontorn_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_ratinthorn_001",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_chautrakarn_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_munpolsri_011",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_siewchaisakul_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_chongbunwatana_046",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_rerkleanrut_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_pongsaranuntaku_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_chuetaleng_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_wongrot_011",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_phetrasuwan_010",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_chumphoo_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_phusimma_002",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_phattanakul_005",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_kaenampornpan_053",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_ruengsuwan_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_paisarnsrisomsu_058",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_chaiwong_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_mongkoltham_013",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_neeratpanphun_014",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_phiphat_016",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_jaruphoom_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_kongchan_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_polpinit_057",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_chummuangpak_009",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_nukitram_019",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_techo_022",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_chuayngern_020",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_siritorn_011",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_chantapong_025",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_theerakulpisut_026",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_chansongkrow_028",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_pornpongrungrue_027",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_ponsawat_049",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_akrarachantacho_015",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_boonnimit_014",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_lontom_034",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_maiphoka_030",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_janjarasjit_030",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_mahakham_035",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_nilkaew_036",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_intarakumthornc_014",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_amatachaya_039",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_chatratichat_020",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_serethanawong_019",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_hinjiranant_022",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_chawirat_041",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_tanomtong_042",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_kularb_023",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_boonchieng_002",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_poprom_009",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_singweratham_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_szulxzyk_052",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_srilerd_010",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_chantaranothai_024",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_atibai_037",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofc_laokaikul_026",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_ditcharoen_038",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_monthathong_029",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_prachaksut_040",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_laohaburanakitk_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_ratithamakul_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_chanchaochai_009",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_teerapojanee_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_sripateep_018",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_tharatima_033",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_sriyuktasuth_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_rungamornrat_003",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_thitisaksakul_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_tankumpuan_009",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_lilasethkul_013",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_suchachaya_015",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_naksen_003",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_chaochong_014",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_phetchakit_018",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_thongprachum_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_suvachee_020",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_chaipah_052",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_tangpairojwong_023",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_hungsawanus_014",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_chaopanon_061",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_maneejak_013",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_nuampa_012",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_rattanampa_015",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_sittipribunchan_016",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_luangthongkum_024",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_thepkanjana_026",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_tingsabhat_023",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "chulalongk_facultyofa_assavavirulhaka_025",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_chuayngern_031",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_tantisuwanchong_021",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofs_srisornchai_032",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_chiewthanakul_045",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_juengsomjetpais_002",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_sakulkaruna_003",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofn_pornchaikateauy_005",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_kongaun_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_krittayakirana_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_chantanachai_009",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_putsa_010",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_kunanusornchai_013",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_kaewkhantee_018",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_meeintha_019",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_euaanant_054",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_feungchan_063",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_bunprachan_022",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_bhuanantanont_027",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_hormdee_048",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_hanpinitsak_055",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_jaratmetakul_056",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_aimtongkham_039",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_janyoi_041",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_kaewyotha_040",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_kanjanasurat_042",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_khunboa_046",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_katanyukul_059",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_kravenkit_038",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_leelapatra_062",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_runapongsasaika_050",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_soin_037",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_punriboon_043",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_srichan_047",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_thongkanluang_044",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_auemsuvarn_014",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_collegeofc_tientanopajai_051",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_bandoophanit_009",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_bootvong_036",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_chancharat_047",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_bunnun_044",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_chancharat_049",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_charoontham_011",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_chushim_050",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_daowadueng_034",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_dominic_022",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_emyaem_063",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_katisart_031",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_jumani_021",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_khamwon_012",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_kijkasiwat_043",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_kokkhangplu_057",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_kongchan_032",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_kovathanakul_025",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_kumgliang_018",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_kumpamool_041",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_leruksa_024",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_likitwongkajon_039",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_mahasuweerachai_061",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_sinlapates_048",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_meeprom_062",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_moonsri_002",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_naipinit_005",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_paisarn_045",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_palusuk_019",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_permwanichagun_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_phuensane_042",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_pilangarm_003",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_polnyotee_027",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_suwannapak_046",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_polyorat_055",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_ponchaitiwat_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_potchani_023",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_raksong_038",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_sangchan_033",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_sann_020",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_saenchaiyathon_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_sathatip_053",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_sawunyavisuth_010",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_senachai_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_silanoi_059",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_siriyota_016",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_sutthachai_040",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_sothonvit_017",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_suttikun_058",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_suvachart_060",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_thangchan_054",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_thongsukhowong_037",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_thongtammachat_026",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_traiyarach_013",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_uthayapong_029",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_vetchagool_035",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_wangkuanklang_028",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_worakantak_015",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_boonpoonga_011",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "khonkaenun_facultyofb_worasan_001",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_trisiriluck_035",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "mahidoluni_facultyofp_khobkhun_040",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_lim_057",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_apiromvorakarn_037",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_bunterngchit_011",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_asawarungsaengk_007",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_benjanarasut_029",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_blattler_047",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_bunyagul_024",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_canyook_078",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_chaisaowong_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_chaiyaratana_002",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_chandraambhorn_086",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_charbkaew_025",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_dachokiatawan_004",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_dechjarern_056",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_eidhed_092",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_fakpan_088",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_hassamontr_054",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_ieamsupapong_061",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_harnnarongchai_087",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_inthiam_073",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_ittiyavut_034",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_jantong_060",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_janthong_042",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_jenkittiyon_058",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_kengpol_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_jitviriya_070",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_jongprasithporn_012",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_kerdsumang_015",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_khemavuk_006",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_kesvarakul_068",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_lee_009",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_liutanakul_008",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_mahathanabodee_067",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_mahatthanajatup_010",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_maingam_050",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_matanawin_091",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_meethom_001",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_nilsiam_039",
+      "verdict": "no_hit"
+    },
+    {
+      "id": "kingmongku_facultyofe_neammanee_003",
+      "verdict": "no_hit"
+    }
+  ],
+  "saved_at": "2026-09-10 12:10:33"
+}
