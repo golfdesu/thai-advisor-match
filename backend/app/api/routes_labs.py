@@ -37,16 +37,45 @@ _LAB_CARD_COLUMNS = (
 )
 
 
-def db_lab_to_pydantic(db_lab: ResearchLabDB, db: Optional[Session] = None, match_score: float = 95.0) -> ResearchLab:
+def _resolve_labs_faculty_map(db_labs: List[ResearchLabDB], db: Session) -> dict:
+    """DSA gap audit 2026-09-10: /labs/search used to run 2 SELECTs PER lab (lead +
+    members) — up to 40 sequential round-trips per request. This collapses every
+    lead/member id across the whole result set into ONE batched id.in_() query."""
+    ids = set()
+    for lab in db_labs:
+        if lab.lead_advisor_id:
+            ids.add(lab.lead_advisor_id)
+        ids.update(fid for fid in (lab.member_faculty_ids or []) if fid and fid != lab.lead_advisor_id)
+    if not ids:
+        return {}
+    fac_dbs = (
+        db.query(FacultyDB)
+        .options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text))
+        .filter(FacultyDB.id.in_(list(ids)))
+        .all()
+    )
+    return {f.id: db_to_pydantic(f) for f in fac_dbs}
+
+
+def db_lab_to_pydantic(db_lab: ResearchLabDB, db: Optional[Session] = None, match_score: float = 95.0,
+                       fac_map: Optional[dict] = None) -> ResearchLab:
     lead_adv = None
     member_facs = []
 
-    if db and db_lab.lead_advisor_id:
+    if fac_map is not None:
+        # Batched path: advisors were prefetched by _resolve_labs_faculty_map —
+        # zero extra queries. Missing ids resolve to None exactly like a miss on the
+        # per-row query would have.
+        if db_lab.lead_advisor_id:
+            lead_adv = fac_map.get(db_lab.lead_advisor_id)
+        mem_ids = [fid for fid in (db_lab.member_faculty_ids or []) if fid != db_lab.lead_advisor_id]
+        member_facs = [fac_map[fid] for fid in mem_ids if fid in fac_map]
+    elif db and db_lab.lead_advisor_id:
         f_db = db.query(FacultyDB).options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text)).filter_by(id=db_lab.lead_advisor_id).first()
         if f_db:
             lead_adv = db_to_pydantic(f_db)
 
-    if db and db_lab.member_faculty_ids:
+    if fac_map is None and db and db_lab.member_faculty_ids:
         mem_ids = [fid for fid in db_lab.member_faculty_ids if fid != db_lab.lead_advisor_id]
         if mem_ids:
             mem_dbs = db.query(FacultyDB).options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text)).filter(FacultyDB.id.in_(mem_ids)).all()
@@ -232,13 +261,17 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
     # 2. Vector search via pgvector Cosine Distance
     if query_vector:
         try:
+            # Security audit 2026-09-10: filters used to be f-string-interpolated
+            # into the SQL (a quote in the filter breaks the statement — injection
+            # surface). Values are now bound parameters; the clause text is static.
             filters = []
+            params: dict = {"vec": str(query_vector), "limit": req.top_k}
             if req.university and req.university.strip() and req.university.strip().lower() != "all":
-                u_clean = req.university.strip()
-                filters.append(f"(university ILIKE '%{u_clean}%' OR university_th ILIKE '%{u_clean}%')")
+                filters.append("(university ILIKE :u_pat OR university_th ILIKE :u_pat)")
+                params["u_pat"] = f"%{req.university.strip()}%"
             if req.faculty and req.faculty.strip() and req.faculty.strip().lower() != "all":
-                f_clean = req.faculty.strip()
-                filters.append(f"(faculty ILIKE '%{f_clean}%' OR faculty_th ILIKE '%{f_clean}%')")
+                filters.append("(faculty ILIKE :f_pat OR faculty_th ILIKE :f_pat)")
+                params["f_pat"] = f"%{req.faculty.strip()}%"
 
             where_clause = f"WHERE {' AND '.join(filters)}" if filters else ""
 
@@ -249,7 +282,7 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
                 ORDER BY embedding <=> :vec
                 LIMIT :limit
             """
-            rows = db.execute(text(raw_sql), {"vec": str(query_vector), "limit": req.top_k}).fetchall()
+            rows = db.execute(text(raw_sql), params).fetchall()
 
             lab_ids = [r.id for r in rows]
             scores_map = {r.id: round(max(50.0, min(99.0, float(r.similarity) * 100)), 1) for r in rows}
@@ -260,10 +293,11 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
                 db_labs_dict = {lab.id: lab for lab in db_labs}
                 ordered_labs = [db_labs_dict[lid] for lid in lab_ids if lid in db_labs_dict]
 
+                fac_map = _resolve_labs_faculty_map(ordered_labs, db)
                 results = []
                 for lab in ordered_labs:
                     score = scores_map.get(lab.id, 85.0)
-                    pydantic_lab = db_lab_to_pydantic(lab, db=db, match_score=score)
+                    pydantic_lab = db_lab_to_pydantic(lab, match_score=score, fac_map=fac_map)
 
                     # Generate smart contextual explanation
                     domains_str = ", ".join(pydantic_lab.research_domains[:3])
@@ -284,7 +318,8 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
         )
     ).limit(req.top_k).all()
 
-    results = [db_lab_to_pydantic(lab, db=db, match_score=88.0) for lab in db_labs]
+    fac_map = _resolve_labs_faculty_map(db_labs, db)
+    results = [db_lab_to_pydantic(lab, match_score=88.0, fac_map=fac_map) for lab in db_labs]
     return LabSearchResponse(query=query_text, total_matched=len(results), results=results)
 
 

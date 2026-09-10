@@ -59,7 +59,10 @@ def db_to_pydantic(db_model: FacultyDB) -> FacultyMember:
         h_index=getattr(db_model, "h_index", 0) or 0,
         openalex_id=getattr(db_model, "openalex_id", None),
         scholar_url=db_model.scholar_url,
-        embedding_text=getattr(db_model, "embedding_text", None)
+        # embedding_text intentionally NOT read here (perf audit 2026-09-10):
+        # every /search candidate row defers that column, so touching it in the
+        # converter fired one extra SELECT per result (N+1) and shipped ~1 KB/row
+        # of internal index text the UI never renders.
     )
 
 

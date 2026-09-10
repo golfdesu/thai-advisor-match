@@ -7,6 +7,7 @@ Advanced Data Structures and Algorithms (DSA) Engine for Thai EduCenter:
 """
 
 import threading
+import math
 from typing import TypeVar, Generic, Optional, Dict, List, Tuple, Any, Iterator
 import heapq
 
@@ -236,19 +237,83 @@ class FastInvertedIndex:
 
     def score_query(self, query_tokens: List[str]) -> List[Tuple[str, float]]:
         """
-        Calculate BM25-inspired similarity scores for query tokens across all matching documents.
+        Calculate Okapi-BM25 scores for query tokens across all matching documents.
         Returns list of (doc_id, score) sorted descending.
+
+        BM25 parameterisation (Robertson & Sparck Jones / Okapi):
+            IDF(q)  = ln( (N - n(q) + 0.5) / (n(q) + 0.5) + 1 )
+            score   = Σ IDF(q) · tf · (k1 + 1) / (tf + k1 · (1 - b + b · |d| / avgdl))
+        with the standard k1=1.2, b=0.75. The DSA audit (2026-09-10) replaced the
+        previous ad-hoc `idf = 1 + 100/(n+1)` — which inverted real IDF (rewarding
+        ubiquitous tokens) — and the hardcoded avgdl=50, with the corpus's true
+        statistics captured at build time.
         """
+        N = len(self.doc_lengths)
+        if N == 0:
+            return []
+        if getattr(self, "_avgdl", 0) <= 0:
+            total = sum(self.doc_lengths.values())
+            self._avgdl = total / N if N else 1.0
+
+        k1, b = 1.2, 0.75
+        avgdl = self._avgdl
         scores: Dict[str, float] = {}
         for token in query_tokens:
-            token_lower = token.lower()
-            if token_lower in self.index:
-                postings = self.index[token_lower]
-                idf = 1.0 + (100.0 / (len(postings) + 1.0))
-                for doc_id, tf in postings.items():
-                    # TF normalization
-                    doc_len = self.doc_lengths.get(doc_id, 10)
-                    norm_tf = (tf * 2.2) / (tf + 1.2 * (0.25 + 0.75 * (doc_len / 50.0)))
-                    scores[doc_id] = scores.get(doc_id, 0.0) + (norm_tf * idf)
+            postings = self.index.get(token.lower())
+            if not postings:
+                continue
+            n_q = len(postings)
+            idf = math.log((N - n_q + 0.5) / (n_q + 0.5) + 1.0)
+            for doc_id, tf in postings.items():
+                doc_len = self.doc_lengths.get(doc_id, 10)
+                denom = tf + k1 * (1.0 - b + b * (doc_len / avgdl))
+                scores[doc_id] = scores.get(doc_id, 0.0) + idf * (tf * (k1 + 1.0)) / denom
 
         return sorted(scores.items(), key=lambda x: x[1], reverse=True)
+
+
+class ThreadSafeInvertedIndex:
+    """
+    Read-heavy wrapper around FastInvertedIndex for the shared server-startup corpus.
+
+    The underlying index is plain (non-atomic) dicts. FastInvertedIndex's own docstring
+    claims 'thread-safe for reads', but Uvicorn serves a threadpool of sync route
+    handlers, and a rebuild that mutates the live dict while a request is mid-scan
+    (a growing posting list) would corrupt or mis-score that request. This wrapper
+    keeps every read lock-free against a frozen index object, and swaps in a freshly
+    rebuilt index atomically under a write lock.
+
+    `score_query` also caps its work with `max_docs`: without it a generic token hits a
+    posting list spanning the whole corpus and the score loop becomes O(corpus) per
+    request — exactly the scan the index was meant to avoid. Candidates outside the
+    top-`max_docs` simply receive no lexical bonus, which is correct behaviour (they are
+    not top lexical matches anyway).
+    """
+
+    def __init__(self):
+        self._index: Optional[FastInvertedIndex] = None
+        self._lock = threading.Lock()
+        self.doc_count = 0
+
+    def rebuild(self, docs: Dict[str, str]) -> int:
+        """Build a full new index from {doc_id: text} and publish it atomically."""
+        fresh = FastInvertedIndex()
+        for doc_id, text in docs.items():
+            if text:
+                fresh.add_document(doc_id, text)
+        with self._lock:
+            self._index = fresh
+            self.doc_count = len(fresh.doc_lengths)
+        return self.doc_count
+
+    def score_query(self, query_tokens: List[str], max_docs: int = 2000) -> List[Tuple[str, float]]:
+        index = self._index  # single atomic reference read; never mutated after publish
+        if not index or not query_tokens:
+            return []
+        scored = index.score_query(query_tokens)
+        if max_docs and len(scored) > max_docs:
+            return scored[:max_docs]
+        return scored
+
+    def __bool__(self) -> bool:
+        return self._index is not None and self.doc_count > 0

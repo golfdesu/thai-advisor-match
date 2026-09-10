@@ -7,7 +7,8 @@ from app.api.routes_faculty import db_to_pydantic
 from app.core.database import get_db
 from app.core.embedding_service import embedding_service
 from app.core.semantic_cache import semantic_cache_service
-from app.core.dsa_utils import TopKHeap, Trie
+from app.core.dsa_utils import TopKHeap  # Trie removed: never used (DSA audit 2026-09-10)
+from app.core.corpus_index import FACULTY_LEXICAL_INDEX, tokenize_mixed
 from typing import List, Tuple, Dict, Any
 import math
 
@@ -239,6 +240,20 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
             expanded_query = embedding_service.expand_query(request.query).lower()
             query_tokens = [t for t in expanded_query.split() if len(t) >= 2]
 
+            # Hybrid dense+lexical (AGENTS.md §5.2, wired 2026-09-10): score the
+            # startup BM25 index over faculty embedding_text ONCE per request,
+            # normalize against the corpus's best lexical match, and add a capped
+            # bonus to the composite. Recovers precision the synonym-expanded
+            # embedding sometimes dilutes, and rewards genuine term overlap with
+            # the Thai source text (not just English expansion terms).
+            lexical_scores_map: Dict[str, float] = {}
+            if FACULTY_LEXICAL_INDEX:
+                lexical_tokens = tokenize_mixed(embedding_service.expand_query(request.query))
+                top_lexical = FACULTY_LEXICAL_INDEX.score_query(lexical_tokens, max_docs=1000)
+                lex_max = top_lexical[0][1] if top_lexical else 0.0
+                if lex_max > 0:
+                    lexical_scores_map = {doc_id: s / lex_max for doc_id, s in top_lexical}
+
             # DSA Optimization: Min-Heap for Top-K extraction in O(N log K)
             heap = TopKHeap[SearchMatchResult](k=request.top_k)
 
@@ -257,9 +272,17 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                 pub_bonus = min(len(matching_pubs) * 0.03, 0.08)
                 # Scholar / Active Research Profile bonus
                 scholar_bonus = 0.02 if fac_model.scholar_url else 0.0
+                # BM25 lexical bonus, capped below the keyword+pub band so it can
+                # reorder near-ties but never dominate the embedding signal.
+                lexical_bonus = min(lexical_scores_map.get(db_fac.id, 0.0) * 0.10, 0.10)
 
-                composite_score = min(0.99, sim_base + keyword_bonus + pub_bonus + scholar_bonus)
-                ux_score = round(composite_score * 100.0, 1)
+                # Sort on the UNCLAMPED composite so the top band keeps its
+                # natural spread (Reciprocal-Rank-Fusion lesson: capping the score
+                # before ranking collapses the ~99 cluster into indistinguishable
+                # ties). The 99.0 ceiling is re-applied for DISPLAY only, after the
+                # heap has already ordered the candidates.
+                sort_score = sim_base + keyword_bonus + pub_bonus + scholar_bonus + lexical_bonus
+                ux_score = round(min(0.99, sort_score) * 100.0, 1)
 
                 explanation = embedding_service.generate_smart_explanation(
                     request.query, fac_model, ux_score, matched_kws, matching_pubs
@@ -274,7 +297,8 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                     synergy_badges=badges,
                     suggested_thesis_angles=angles
                 )
-                heap.push(ux_score, candidate_item)
+                # Push sort_score so TopKHeap orders by true strength, not the display cap.
+                heap.push(sort_score, candidate_item)
 
             ranked_results = heap.get_top_k_descending()
 
@@ -301,7 +325,7 @@ def generate_cold_email(req: ColdEmailRequest, db: Session = Depends(get_db)):
     target_faculty = db_to_pydantic(db_faculty)
 
     # 1. Check pgvector Semantic Cache (0 Tokens, ~2ms Latency)
-    cache_query = f"{req.faculty_id}|{req.degree_level}|{req.thesis_topic}|{req.student_background or ''}"
+    cache_query = f"{req.faculty_id}|{req.intended_degree}|{req.research_topic}|{req.student_background or ''}"
     cached_payload, is_hit = semantic_cache_service.get(db, cache_type="cold_email", query_text=cache_query)
     if is_hit and cached_payload:
         return ColdEmailResponse(

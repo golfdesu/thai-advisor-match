@@ -5,7 +5,7 @@ import threading
 from typing import List, Optional, Dict, Any, Tuple
 from app.core.config import settings
 from app.models.schema import FacultyMember
-from app.core.dsa_utils import LRUCache, Trie
+from app.core.dsa_utils import LRUCache  # Trie removed: never used in this module
 from app.core.security import sanitize_for_prompt, sanitize_input_text
 from google import genai
 from google.genai import types
@@ -118,7 +118,57 @@ THAI_EN_SYNONYMS = {
     "เว็บ": "Web Development Fullstack Cloud Microservices REST API",
     "optimize": "optimization operations research mathematical modeling heuristic algorithm",
     "optimization": "optimization operations research linear programming metaheuristic",
-    "ออปติไมซ์": "optimization mathematical programming operations research genetic algorithm"
+    "ออปติไมซ์": "optimization mathematical programming operations research genetic algorithm",
+
+    # Humanities, Social Sciences & Education — added from the 2026-09-10
+    # search_quality_benchmark Thai queries that scored 46-84 (all out-of-dictionary)
+    "การแปล": "Translation Studies Interpreting Translation",
+    "ล่าม": "Interpretation Interpreting Conference Interpreting",
+    "ภาษาญี่ปุ่น": "Japanese Japanese Language Japanese Studies Nihongo",
+    "ภาษาจีน": "Chinese Chinese Language Sinology",
+    "ภาษาเกาหลี": "Korean Korean Language Korean Studies",
+    "ภาษาอังกฤษ": "English Language English Linguistics TESOL",
+    "ภาษาศาสตร์": "Linguistics Phonology Syntax Semantics Applied Linguistics",
+    "วรรณคดี": "Literature Literary Studies Comparative Literature",
+    "ประวัติศาสตร์": "History Historical Studies Historiography",
+    "โบราณคดี": "Archaeology Prehistory Excavation Artifacts Anthropology",
+    "มนุษย์วิทยา": "Anthropology Ethnography Cultural Studies",
+    "สังคมวิทยา": "Sociology Social Research Demography",
+    "รัฐศาสตร์": "Political Science Public Policy Governance International Relations",
+    "กฎหมาย": "Law Legal Studies Jurisprudence",
+    "นิติศาสตร์": "Law Legal Studies Jurisprudence Civil Law",
+    "รัฐธรรมนูญ": "Constitutional Law Public Law Human Rights Law",
+    "กฎหมายระหว่างประเทศ": "International Law Treaties Diplomacy",
+    "การศึกษา": "Education Pedagogical Sciences Teaching Learning",
+    "ครุศาสตร์": "Education Teacher Training Pedagogy Curriculum",
+    "หลักสูตร": "Curriculum Instructional Design Learning Outcomes",
+    "ปฐมวัย": "Early Childhood Education Preschool Developmental Psychology",
+    "จิตวิทยา": "Psychology Cognitive Psychology Behavioral Science",
+    "พหุปัญญา": "Multiple Intelligences Cognitive Psychology Learning Styles Intelligence",
+    "คณิตศาสตร์": "Mathematics Mathematics Education Numeracy",
+    "การละคอน": "Theater Drama Performing Arts",
+    "นาฏศิลป์": "Dance Performing Arts Thai Dance Aesthetics",
+    "ดนตรี": "Music Musicology Ethnomusicology Performance",
+    "ศิลปะ": "Fine Arts Visual Arts Aesthetics Art History",
+    "สื่อ": "Media Studies Communication Journalism Digital Media",
+    "นิเทศศาสตร์": "Communication Arts Media Studies Public Relations Advertising",
+    # Health & life-science gaps from the same benchmark
+    "ปรสิต": "Parasitology Parasitic Diseases Helminthiology Protozoa Tropical Medicine",
+    "โรคติดเชื้อ": "Infectious Diseases Infectiology Pathogenesis",
+    "ระบาดวิทยา": "Epidemiology Public Health Disease Surveillance Biostatistics",
+    "ผู้สูงอายุ": "Gerontology Geriatrics Aging Elderly Care Long-term Care",
+    "สุขภาพจิต": "Mental Health Psychiatry Psychology Wellbeing",
+    "กายภาพบำบัด": "Physical Therapy Rehabilitation Exercise Science",
+    "โภชนาการ": "Nutrition Dietetics Food Science Nutritional Sciences",
+    # Engineering/business gaps from the same benchmark
+    "ปฐพี": "Geotechnical Engineering Soil Mechanics Rock Mechanics Foundation Engineering Slope Stability",
+    "แหล่งน้ำ": "Hydrology Water Resources Civil Engineering",
+    "การบิน": "Aerospace Aviation Aeronautical Engineering",
+    "ต้นทุน": "Cost Accounting Managerial Accounting Activity-Based Costing",
+    "การตรวจสอบ": "Auditing Internal Audit Assurance Forensic",
+    "การเงินยั่งยืน": "Sustainable Finance ESG Green Finance",
+    "นวัตกรรม": "Innovation Entrepreneurship Technology Management Startup",
+    "การท่องเที่ยว": "Tourism Hospitality Tourism Management Ecotourism",
 }
 
 import re
@@ -167,6 +217,9 @@ class EmbeddingService:
         self._clients: Dict[str, genai.Client] = {}
         # O(1) Doubly Linked List + Hash Map LRU Cache
         self._embedding_cache = LRUCache[str, List[float]](capacity=2048)
+        # expand_query is pure but runs a 139-alternative regex; generate_smart_explanation
+        # called it once PER candidate (up to 100×/search). Memoize → one scan per unique query.
+        self._expand_cache = LRUCache[str, str](capacity=4096)
 
     def _get_client(self):
         if not self.api_keys:
@@ -174,7 +227,13 @@ class EmbeddingService:
         with self._key_lock:
             key = self.api_keys[self._current_key_idx % len(self.api_keys)]
             if key not in self._clients:
-                self._clients[key] = genai.Client(api_key=key)
+                # 60s hard ceiling (perf audit 2026-09-10): without it a hung HTTPS
+                # call blocks its anyio worker thread forever on every sync endpoint.
+                # Generation fits well under this after the thinking-budget caps.
+                self._clients[key] = genai.Client(
+                    api_key=key,
+                    http_options=types.HttpOptions(timeout=60000),
+                )
             return self._clients[key]
 
     def _rotate_key(self):
@@ -184,7 +243,16 @@ class EmbeddingService:
             self._current_key_idx = (self._current_key_idx + 1) % len(self.api_keys)
 
     def expand_query(self, query: str) -> str:
-        """Fast single-pass expansion of Thai abbreviations into English academic terms for vector matching."""
+        """Fast single-pass expansion of Thai abbreviations into English academic terms for vector matching.
+
+        Memoized (DSA audit 2026-09-10): the endpoint path calls this once per candidate
+        via generate_smart_explanation, always with the SAME query — ~100 redundant
+        139-alternative regex scans per search. The function is pure, so an LRU on the
+        input is exact and free."""
+        cached = self._expand_cache.get(query)
+        if cached is not None:
+            return cached
+
         matched_expansions = []
         for match in _SYNONYM_REGEX.finditer(query):
             term = match.group(0).lower()
@@ -199,6 +267,7 @@ class EmbeddingService:
         if _AI_ACRONYM_REGEX.search(query):
             expanded += " Artificial Intelligence"
 
+        self._expand_cache.put(query, expanded)
         return expanded
 
     def get_embedding(self, text: str, max_retries: int = 3) -> List[float]:
@@ -332,20 +401,32 @@ class EmbeddingService:
             "tips": ["Tip 1", "Tip 2", "Tip 3"] // 3 practical tips for sending this email
         }}
         """
-        # Prioritize Fast Flash models for sub-second generation
-        for model_name in ['gemini-3.6-flash', 'gemini-2.5-flash']:
+        # Prioritize Fast Flash models for low user-facing latency.
+        # (perf audit 2026-09-10 — measured on this exact prompt:
+        #   gemini-3.6-flash, no caps ........ 17.9s (949 thinking tokens, unbounded)
+        #   gemini-3.6-flash, budget=100 .....  8.5s (740 thinking tokens — budget is
+        #                                        a soft hint; the model overshoots it)
+        #   gemini-3.5-flash-lite, 1500 max ..  2.7s (no thinking tokens at all)
+        # Lite-first mirrors the career-quiz convention; 3.6-flash stays as the
+        # quality fallback. gemini-2.5-flash was dropped — it 404s, so every miss
+        # was burning 3 retries against a dead model.)
+        for model_name in ['gemini-3.5-flash-lite', 'gemini-3.6-flash']:
             for attempt in range(max_retries):
                 client = self._get_client()
                 if not client:
                     continue
                 try:
+                    config_args = {
+                        "response_mime_type": "application/json",
+                        "temperature": 0.4,
+                        "max_output_tokens": 1500,
+                    }
+                    if model_name == "gemini-3.6-flash":
+                        config_args["thinking_config"] = types.ThinkingConfig(thinking_budget=100)
                     response = client.models.generate_content(
                         model=model_name,
                         contents=prompt,
-                        config=types.GenerateContentConfig(
-                            response_mime_type="application/json",
-                            temperature=0.4
-                        )
+                        config=types.GenerateContentConfig(**config_args)
                     )
                     data = json.loads(response.text)
                     return data.get("subject", ""), data.get("body", ""), data.get("tips", [])

@@ -46,21 +46,32 @@ export default function AdvisorProfilePage() {
   const [advisor, setAdvisor] = useState<FacultyMember | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [isSaved, setIsSaved] = useState(() => hasSavedId("thai_educenter_saved_advisors", id));
+  // SSR renders false; the stored bookmark is applied in the post-mount effect
+  // below (project "Mounted Pattern" — reading localStorage during hydration
+  // caused a React 19 mismatch on the button label for saved advisors).
+  const [isSaved, setIsSaved] = useState(false);
   const [showEmailModal, setShowEmailModal] = useState(false);
   const [imgError, setImgError] = useState(false);
 
   useEffect(() => {
+    if (id) setIsSaved(hasSavedId("thai_educenter_saved_advisors", id));
+  }, [id]);
+
+  useEffect(() => {
     if (!id) return;
+    // Guard: route changes (id switch) must not let an in-flight apply land on
+    // the new page (stale-render race; perf audit 2026-09-10).
+    let cancelled = false;
 
     // Check O(1) in-memory LRU Cache first
     const cachedAdvisor = facultyDetailCache.get(id);
     if (cachedAdvisor) {
       queueMicrotask(() => {
+        if (cancelled) return;
         setAdvisor(cachedAdvisor);
         setLoading(false);
       });
-      return;
+      return () => { cancelled = true; };
     }
 
     const fetchAdvisor = async () => {
@@ -74,15 +85,16 @@ export default function AdvisorProfilePage() {
         const data = await res.json();
         // Save to O(1) LRU Cache
         facultyDetailCache.put(id, data);
-        setAdvisor(data);
+        if (!cancelled) setAdvisor(data);
       } catch (err: unknown) {
-        setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการโหลดข้อมูลอาจารย์");
+        if (!cancelled) setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการโหลดข้อมูลอาจารย์");
       } finally {
-        setLoading(false);
+        if (!cancelled) setLoading(false);
       }
     };
 
     fetchAdvisor();
+    return () => { cancelled = true; };
   }, [id]);
 
   const toggleSave = () => {

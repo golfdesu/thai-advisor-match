@@ -44,6 +44,19 @@ CREATE INDEX IF NOT EXISTS ix_faculties_university ON public.faculties (universi
 CREATE INDEX IF NOT EXISTS ix_faculties_university_th ON public.faculties (university_th);
 CREATE INDEX IF NOT EXISTS idx_faculties_name_th_trgm ON public.faculties USING gin (full_name_th gin_trgm_ops);
 CREATE INDEX IF NOT EXISTS idx_faculties_dept_th_trgm ON public.faculties USING gin (department_th gin_trgm_ops);
+-- perf audit 2026-09-10: ILIKE '%..%' filters on the search hot path were seq-scanning
+CREATE INDEX IF NOT EXISTS idx_faculties_university_th_trgm ON public.faculties USING gin (university_th gin_trgm_ops);
+CREATE INDEX IF NOT EXISTS idx_faculties_university_trgm ON public.faculties USING gin (university gin_trgm_ops);
+CREATE INDEX IF NOT EXISTS idx_faculties_faculty_th_trgm ON public.faculties USING gin (faculty_th gin_trgm_ops);
+CREATE INDEX IF NOT EXISTS idx_faculties_faculty_trgm ON public.faculties USING gin (faculty gin_trgm_ops);
+CREATE INDEX IF NOT EXISTS idx_faculties_first_name_trgm ON public.faculties USING gin (first_name gin_trgm_ops);
+CREATE INDEX IF NOT EXISTS idx_faculties_last_name_trgm ON public.faculties USING gin (last_name gin_trgm_ops);
+CREATE INDEX IF NOT EXISTS idx_faculties_department_trgm ON public.faculties USING gin (department gin_trgm_ops);
+-- keyword_fallback_search ORs across 8 columns; Postgres only BitmapOrs (vs seq scan)
+-- when EVERY branch is indexed. embedding_text trgm: 73ms -> 0.5ms on selective Thai terms.
+CREATE INDEX IF NOT EXISTS idx_faculties_emb_text_trgm ON public.faculties USING gin (embedding_text gin_trgm_ops);
+-- distinguished-advisor ordering (ORDER BY h_index DESC NULLS LAST)
+CREATE INDEX IF NOT EXISTS ix_faculties_h_index ON public.faculties (h_index DESC NULLS LAST);
 CREATE INDEX IF NOT EXISTS ix_faculties_embedding_hnsw ON public.faculties USING hnsw (embedding vector_cosine_ops);
 
 -- 3. Create Table: courses
@@ -118,6 +131,8 @@ CREATE INDEX IF NOT EXISTS ix_research_labs_faculty_th ON public.research_labs (
 CREATE INDEX IF NOT EXISTS ix_research_labs_name_th ON public.research_labs (name_th);
 CREATE INDEX IF NOT EXISTS ix_research_labs_name_en ON public.research_labs (name_en);
 CREATE INDEX IF NOT EXISTS ix_research_labs_lead_advisor_id ON public.research_labs (lead_advisor_id);
+-- ANN index for /labs/search (created live 2026-09-10 perf audit; init.sql synced so fresh containers match)
+CREATE INDEX IF NOT EXISTS ix_research_labs_embedding_hnsw ON public.research_labs USING hnsw (embedding vector_cosine_ops);
 
 -- 5. Create Table: semantic_cache
 CREATE TABLE IF NOT EXISTS public.semantic_cache (
@@ -133,6 +148,8 @@ CREATE TABLE IF NOT EXISTS public.semantic_cache (
 
 CREATE INDEX IF NOT EXISTS ix_semantic_cache_id ON public.semantic_cache (id);
 CREATE INDEX IF NOT EXISTS ix_semantic_cache_cache_type ON public.semantic_cache (cache_type);
+-- perf audit 2026-09-10: L2 lookup ORDER BY embedding <=> was a full sort (no index)
+CREATE INDEX IF NOT EXISTS ix_semantic_cache_embedding_hnsw ON public.semantic_cache USING hnsw (embedding vector_cosine_ops);
 
 -- 6. Create Table: quiz_questions
 CREATE TABLE IF NOT EXISTS public.quiz_questions (

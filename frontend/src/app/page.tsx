@@ -64,8 +64,11 @@ export default function Home() {
   const [showComparisonModal, setShowComparisonModal] = useState(false);
 
   // Wishlist / Bookmarks State
-  const [savedCourses, setSavedCourses] = useState<string[]>(() => readSavedIds("thai_educenter_saved_courses"));
-  const [savedAdvisors, setSavedAdvisors] = useState<string[]>(() => readSavedIds("thai_educenter_saved_advisors"));
+  // SSR-safe: start empty, then hydrate from localStorage in the post-mount
+  // effect below (project "Mounted Pattern" — reading storage during the first
+  // client render caused React 19 hydration mismatches on bookmark badges).
+  const [savedCourses, setSavedCourses] = useState<string[]>([]);
+  const [savedAdvisors, setSavedAdvisors] = useState<string[]>([]);
   const [showSavedModal, setShowSavedModal] = useState(false);
 
   // Selected Course Detail Modal State
@@ -105,6 +108,12 @@ export default function Home() {
   const searchInputRef = useRef<HTMLInputElement>(null);
   // Results section ref for auto-scrolling
   const resultsSectionRef = useRef<HTMLElement>(null);
+
+  // Hydrate bookmarks from localStorage after mount (never during render).
+  useEffect(() => {
+    setSavedCourses(readSavedIds("thai_educenter_saved_courses"));
+    setSavedAdvisors(readSavedIds("thai_educenter_saved_advisors"));
+  }, []);
 
   // Keyboard shortcut listener (Press '/' to focus search, 'Escape' to blur)
   useEffect(() => {
@@ -198,6 +207,11 @@ export default function Home() {
     }, 100);
   };
 
+  // Stale-response guard: rapid tab/filter switches can let an older, slower
+  // fetch resolve after a newer one. Each request stamps a sequence number and
+  // only applies state while it is still the latest (perf audit 2026-09-10).
+  const searchSeqRef = useRef(0);
+
   const executeSearch = async (
     queryText?: string,
     uniFilter?: string,
@@ -230,6 +244,8 @@ export default function Home() {
 
     setLoading(true);
     setErrorMsg(null);
+    const seq = ++searchSeqRef.current;
+    const isCurrent = () => seq === searchSeqRef.current;
     try {
       if (currentTab === "courses") {
         const res = await fetch(`${API_BASE_URL}/courses/search`, {
@@ -247,8 +263,8 @@ export default function Home() {
           const data = await res.json();
           const list = Array.isArray(data) ? data : (data.results ?? []);
           searchApiCache.put(cacheKey, list);
-          setCourses(list);
-        } else {
+          if (isCurrent()) setCourses(list);
+        } else if (isCurrent()) {
           setErrorMsg("ไม่พบหลักสูตรที่ตรงกับคำค้นหา ลองปรับเปลี่ยนคำค้นหาอีกครั้งครับ");
         }
       } else if (currentTab === "advisors") {
@@ -260,7 +276,7 @@ export default function Home() {
             const list = Array.isArray(data) ? data : (data.results ?? []);
             const formatted = list.map((f: FacultyMember) => ({ faculty: f, match_score: 85 }));
             searchApiCache.put(cacheKey, formatted);
-            setAdvisors(formatted);
+            if (isCurrent()) setAdvisors(formatted);
           }
         } else {
           const res = await fetch(`${API_BASE_URL}/search/`, {
@@ -277,8 +293,8 @@ export default function Home() {
             const data = await res.json();
             const list = Array.isArray(data) ? data : (data.results ?? []);
             searchApiCache.put(cacheKey, list);
-            setAdvisors(list);
-          } else {
+            if (isCurrent()) setAdvisors(list);
+          } else if (isCurrent()) {
             setErrorMsg("เกิดข้อผิดพลาดในการจับคู่อาจารย์ที่ปรึกษา กรุณาลองใหม่อีกครั้ง");
           }
         }
@@ -291,7 +307,7 @@ export default function Home() {
             const data = await res.json();
             const list = Array.isArray(data) ? data : (data.results ?? []);
             searchApiCache.put(cacheKey, list);
-            setLabs(list);
+            if (isCurrent()) setLabs(list);
           }
         } else {
           const res = await fetch(`${API_BASE_URL}/labs/search`, {
@@ -308,17 +324,17 @@ export default function Home() {
             const data = await res.json();
             const list = Array.isArray(data) ? data : (data.results ?? []);
             searchApiCache.put(cacheKey, list);
-            setLabs(list);
-          } else {
+            if (isCurrent()) setLabs(list);
+          } else if (isCurrent()) {
             setErrorMsg("เกิดข้อผิดพลาดในการค้นหาห้องปฏิบัติการ กรุณาลองใหม่อีกครั้ง");
           }
         }
       }
     } catch (err) {
       console.error(err);
-      setErrorMsg("ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ได้ กรุณาลองใหม่ในภายหลัง");
+      if (isCurrent()) setErrorMsg("ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ได้ กรุณาลองใหม่ในภายหลัง");
     } finally {
-      setLoading(false);
+      if (isCurrent()) setLoading(false);
     }
   };
 

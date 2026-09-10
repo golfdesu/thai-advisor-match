@@ -6,7 +6,7 @@ import uuid
 import logging
 from datetime import datetime
 from typing import Optional, Dict, Any, Tuple
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, load_only
 
 from app.models.db_models import SemanticCacheDB
 from app.core.embedding_service import embedding_service
@@ -114,6 +114,27 @@ class SemanticCacheService:
                 embedding = embedding_service.get_embedding(clean_query)
 
             if not embedding:
+                return
+
+            # Dedupe on write (perf audit 2026-09-10): previously every cold-email
+            # variant appended a near-identical row, so the table grew unbounded
+            # and fuzzy lookups kept re-scanning duplicates. Skip the insert when an
+            # entry already sits within the hit threshold, keeping the original payload.
+            near_dist = SemanticCacheDB.embedding.cosine_distance(embedding)
+            existing = (
+                db.query(SemanticCacheDB)
+                .options(load_only(SemanticCacheDB.id, SemanticCacheDB.query_text))
+                .filter(SemanticCacheDB.cache_type == cache_type)
+                .filter(near_dist <= self.max_cosine_distance)
+                .order_by(near_dist.asc())
+                .first()
+            )
+            if existing:
+                # Read the label BEFORE committing — expire_on_commit=True would
+                # otherwise re-SELECT (or raise) on the attribute access below.
+                kept_label = (existing.query_text or existing.id)[:40]
+                db.commit()  # release the read transaction
+                logger.info(f"♻️ [Semantic Cache Deduped] {cache_type}: kept '{kept_label}'")
                 return
 
             new_cache = SemanticCacheDB(

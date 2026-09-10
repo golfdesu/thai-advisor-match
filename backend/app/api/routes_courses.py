@@ -75,12 +75,14 @@ TH_SLANG_MAP = {
 
 _SORTED_SLANG_KEYS = sorted([k for k in TH_SLANG_MAP.keys() if k != "it"], key=len, reverse=True)
 _SLANG_REGEX = re.compile("|".join(re.escape(k) for k in _SORTED_SLANG_KEYS))
+# DSA audit 2026-09-10 (#7): precompiled alongside _SLANG_REGEX (AGENTS.md §5.3).
+_IT_WORD_RE = re.compile(r"\b[iI][tT]\b")
 
 def normalize_query_slang(query_str: str) -> str:
     """Fast single-pass normalization of Thai slang and abbreviations."""
     result = query_str
     # Replace whole-word 'it' case-insensitively
-    result = re.sub(r"\b[iI][tT]\b", "เทคโนโลยีสารสนเทศ", result)
+    result = _IT_WORD_RE.sub("เทคโนโลยีสารสนเทศ", result)
     # Replace other Thai slang terms in one pass
     return _SLANG_REGEX.sub(lambda m: TH_SLANG_MAP.get(m.group(0), m.group(0)), result)
 

@@ -50,7 +50,10 @@ export default function LabDetailPage() {
   const [lab, setLab] = useState<ResearchLab | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [isSaved, setIsSaved] = useState(() => hasSavedId("thai_educenter_saved_labs", id));
+  // SSR renders false; the stored bookmark is applied in the post-mount effect
+  // below (project "Mounted Pattern" — reading localStorage during hydration
+  // caused a React 19 mismatch on the button label for saved labs).
+  const [isSaved, setIsSaved] = useState(false);
   const [showInquiryModal, setShowInquiryModal] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
   const [heroImgError, setHeroImgError] = useState(false);
@@ -58,16 +61,24 @@ export default function LabDetailPage() {
   const [memberImgErrors, setMemberImgErrors] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
+    if (id) setIsSaved(hasSavedId("thai_educenter_saved_labs", id));
+  }, [id]);
+
+  useEffect(() => {
     if (!id) return;
+    // Guard: route changes (id switch) must not let an in-flight apply land on
+    // the new page (stale-render race; perf audit 2026-09-10).
+    let cancelled = false;
 
     // Check client O(1) LRU Cache first
     const cachedLab = labDetailCache.get(id);
     if (cachedLab) {
       queueMicrotask(() => {
+        if (cancelled) return;
         setLab(cachedLab);
         setLoading(false);
       });
-      return;
+      return () => { cancelled = true; };
     }
 
     const fetchLab = async () => {
@@ -80,15 +91,16 @@ export default function LabDetailPage() {
         }
         const data = await res.json();
         labDetailCache.put(id, data);
-        setLab(data);
+        if (!cancelled) setLab(data);
       } catch (err: unknown) {
-        setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการโหลดข้อมูล");
+        if (!cancelled) setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการโหลดข้อมูล");
       } finally {
-        setLoading(false);
+        if (!cancelled) setLoading(false);
       }
     };
 
     fetchLab();
+    return () => { cancelled = true; };
   }, [id]);
 
   const toggleSave = () => {

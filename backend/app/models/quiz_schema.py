@@ -4,6 +4,11 @@ from app.models.schema import CourseSchema
 import re
 
 
+# DSA audit 2026-09-10 (#7): compiled once at module level instead of per
+# validator invocation (AGENTS.md §5.3 "Pre-compiled Regex").
+_NON_NUMERIC_RE = re.compile(r"[^\d.]")
+
+
 class QuizAnswerItem(BaseModel):
     question_id: Any
     dimension: Optional[str] = None  # R, I, A, S, E, C or custom
@@ -32,7 +37,7 @@ class CareerRecommendation(BaseModel):
         if isinstance(v, (int, float)):
             return int(round(float(v)))
         if isinstance(v, str):
-            clean = re.sub(r"[^\d.]", "", v)
+            clean = _NON_NUMERIC_RE.sub("", v)
             if clean:
                 try:
                     return int(round(float(clean)))
