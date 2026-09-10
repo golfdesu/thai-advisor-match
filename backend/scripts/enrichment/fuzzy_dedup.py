@@ -84,10 +84,11 @@ with engine.connect() as conn:
 
     print(f"Fuzzy groups to delete: {len(to_delete_ids)} (threshold {THRESHOLD})")
     # show examples
+    # Cyber audit 2026-09-10: ids now travel as BOUND PARAMETERS (no f-string
+    # interpolation, no hand-rolled '' escaping — one injection class removed).
     with engine.connect() as conn2:
         for del_id in list(to_delete_ids)[:10]:
-            safe=del_id.replace("'", "''")
-            r=conn2.execute(text(f"SELECT title_th, university, degree_level FROM courses WHERE id='{safe}'")).fetchone()
+            r=conn2.execute(text("SELECT title_th, university, degree_level FROM courses WHERE id=:did"), {"did": del_id}).fetchone()
             if r:
                 print(f"  delete {del_id[:30]:30} | {r[1][:25]:25} | {r[2]:10} | {r[0][:50]}")
 
@@ -99,8 +100,10 @@ if to_delete_ids:
         deleted=0
         for i in range(0, len(lst), batch):
             chunk=lst[i:i+batch]
-            placeholders=",".join(["'" + x.replace("'", "''") + "'" for x in chunk])
-            res=conn.execute(text(f"DELETE FROM courses WHERE id IN ({placeholders})"))
+            keys=[f"id_{n}" for n in range(len(chunk))]
+            placeholders=",".join(f":{k}" for k in keys)
+            params=dict(zip(keys, chunk))
+            res=conn.execute(text(f"DELETE FROM courses WHERE id IN ({placeholders})"), params)
             deleted+=res.rowcount
             print(f"Deleted batch {i//batch+1}: {res.rowcount}")
         print(f"Total fuzzy deleted: {deleted}")

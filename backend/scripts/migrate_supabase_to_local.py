@@ -5,6 +5,7 @@ Once migrated, all crawl/ingestion and vector queries run 100% locally with ZERO
 """
 
 import os
+import re
 import sys
 import json
 import time
@@ -93,10 +94,23 @@ TABLES_CONFIG = [
     },
 ]
 
+# Cyber audit 2026-09-10 (A-2): table/pk/column names are interpolated into SQL
+# below (identifiers can't be bound parameters). The values are hardcoded in
+# TABLES_CONFIG, but this defensive allowlist guarantees any future config edit
+# or injected identifier is rejected before it reaches text().
+_IDENT_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
+
+
+def _safe_ident(name: str, what: str) -> str:
+    if not _IDENT_RE.match(name):
+        raise ValueError(f"Refusing unsafe {what} identifier for SQL interpolation: {name!r}")
+    return name
+
+
 def migrate_table(src_engine, dst_engine, config, batch_size=500, truncate=False):
-    table_name = config["name"]
-    pk = config["primary_key"]
-    columns = config["columns"]
+    table_name = _safe_ident(config["name"], "table")
+    pk = _safe_ident(config["primary_key"], "primary-key")
+    columns = [_safe_ident(c, "column") for c in config["columns"]]
     json_cols = config["json_cols"]
     vector_cols = config["vector_cols"]
 

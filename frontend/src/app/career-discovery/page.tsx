@@ -941,7 +941,7 @@ export default function CareerDiscoveryPage() {
                           <a
                             href={course.website_url}
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                             className="text-xs sm:text-sm font-bold text-[var(--theme-primary-contrast)] bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] px-3.5 py-1.5 rounded-xl transition flex items-center gap-1.5"
                           >
                             <span>ดูหลักสูตร</span> <ExternalLink size={14} />
