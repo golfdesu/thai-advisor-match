@@ -78,8 +78,16 @@ def test_state_reducer_dedup_and_enrichment():
 
     state = reducer.apply_patch(state, patch_1, step_tokens=450)
 
+    # The reducer derives a CANONICAL id from target_university_en +
+    # target_faculty_en + last_name and IGNORES the caller-supplied raw.id
+    # (see generate_canonical_id / apply_patch, state_reducer.py:173-180).
+    # So we assert the real contract instead of pinning a literal slug that
+    # legitimately changes if the truncation scheme is ever tuned.
     assert len(state.faculties) == 1
-    assert "cmu_eng_ee_001" in state.faculties
+    fac_id = next(iter(state.faculties))
+    assert fac_id.startswith("chiangmai")   # university prefix
+    assert "charoensuk" in fac_id            # last_name slug
+    assert state.faculties[fac_id]["id"] == fac_id
     assert state.step_count == 1
     assert state.total_tokens_used == 450
     assert "https://eng.cmu.ac.th/staff/cpe" in state.pending_urls
@@ -101,7 +109,7 @@ def test_state_reducer_dedup_and_enrichment():
 
     # Should NOT increase count, but should merge scholar_url and new publication
     assert len(state.faculties) == 1
-    stored = state.faculties["cmu_eng_ee_001"]
+    stored = state.faculties[fac_id]
     assert stored["scholar_url"] == "https://scholar.google.com/citations?user=xyz"
     assert "Advanced Microgrid Control 2025" in stored["featured_publications"]
     assert "Smart Inverter Optimization 2024" in stored["featured_publications"]
