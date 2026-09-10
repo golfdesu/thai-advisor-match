@@ -69,6 +69,8 @@ export default function LabDetailPage() {
     // Guard: route changes (id switch) must not let an in-flight apply land on
     // the new page (stale-render race; perf audit 2026-09-10).
     let cancelled = false;
+    // Abort the network request itself on unmount/route-switch, not just its result.
+    const controller = new AbortController();
 
     // Check client O(1) LRU Cache first
     const cachedLab = labDetailCache.get(id);
@@ -84,7 +86,7 @@ export default function LabDetailPage() {
     const fetchLab = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`${API_BASE_URL}/labs/${id}`);
+        const res = await fetch(`${API_BASE_URL}/labs/${id}`, { signal: controller.signal });
         if (!res.ok) {
           if (res.status === 404) throw new Error("ไม่พบข้อมูลห้องปฏิบัติการนี้");
           throw new Error("เกิดข้อผิดพลาดในการดึงข้อมูลห้องปฏิบัติการ");
@@ -93,14 +95,16 @@ export default function LabDetailPage() {
         labDetailCache.put(id, data);
         if (!cancelled) setLab(data);
       } catch (err: unknown) {
-        if (!cancelled) setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการโหลดข้อมูล");
+        // Aborted requests are expected on cleanup — never surface as an error.
+        if (cancelled || (err instanceof Error && err.name === "AbortError")) return;
+        setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการโหลดข้อมูล");
       } finally {
         if (!cancelled) setLoading(false);
       }
     };
 
     fetchLab();
-    return () => { cancelled = true; };
+    return () => { cancelled = true; controller.abort(); };
   }, [id]);
 
   const toggleSave = () => {

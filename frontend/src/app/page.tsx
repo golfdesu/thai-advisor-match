@@ -86,14 +86,21 @@ export default function Home() {
       return;
     }
     void (async () => {
+      // Only one detail enrichment in flight; opening another card aborts the stale one.
+      courseDetailAbortRef.current?.abort();
+      const controller = new AbortController();
+      courseDetailAbortRef.current = controller;
       try {
-        const res = await fetch(`${API_BASE_URL}/courses/${course.id}`);
+        const res = await fetch(`${API_BASE_URL}/courses/${course.id}`, { signal: controller.signal });
         if (!res.ok) return;
         const full = (await res.json()) as Course;
         courseDetailCache.put(course.id, full);
         setSelectedCourseForDetail((prev) => (prev && prev.id === course.id ? full : prev));
       } catch {
         // Keep the slim card — the modal still renders without description/tags.
+        // (Also covers AbortError from a superseded open.)
+      } finally {
+        if (courseDetailAbortRef.current === controller) courseDetailAbortRef.current = null;
       }
     })();
   };
@@ -108,6 +115,16 @@ export default function Home() {
   const searchInputRef = useRef<HTMLInputElement>(null);
   // Results section ref for auto-scrolling
   const resultsSectionRef = useRef<HTMLElement>(null);
+  // In-flight fetches aborted on supersede/unmount (perf hardening 2026-09-10)
+  const courseDetailAbortRef = useRef<AbortController | null>(null);
+  const searchAbortRef = useRef<AbortController | null>(null);
+  const initialDataAbortRef = useRef<AbortController | null>(null);
+
+  useEffect(() => () => {
+    courseDetailAbortRef.current?.abort();
+    searchAbortRef.current?.abort();
+    initialDataAbortRef.current?.abort();
+  }, []);
 
   // Hydrate bookmarks from localStorage after mount (never during render).
   useEffect(() => {
@@ -138,17 +155,18 @@ export default function Home() {
   // user switches tabs, so one page view costs one small query, not three.
   const initialTabLoadedRef = useRef<"courses" | "advisors" | "labs" | null>(null);
 
-  async function fetchInitialData() {
+  async function fetchInitialData(signal?: AbortSignal) {
     if (initialTabLoadedRef.current !== null) return;
     initialTabLoadedRef.current = "courses";
     try {
       setLoading(true);
-      const res = await fetch(`${API_BASE_URL}/courses/?limit=12`);
+      const res = await fetch(`${API_BASE_URL}/courses/?limit=12`, { signal });
       if (res.ok) {
         const data = await res.json();
         setCourses(Array.isArray(data) ? data : (data.results ?? []));
       }
     } catch (err) {
+      if (err instanceof Error && err.name === "AbortError") return;
       console.warn("Backend loading default catalog data error", err);
     } finally {
       setLoading(false);
@@ -157,11 +175,16 @@ export default function Home() {
 
   // Fetch initial catalog data on load (courses, faculty advisors, and research labs)
   useEffect(() => {
+    const controller = new AbortController();
+    initialDataAbortRef.current = controller;
     const timerId = window.setTimeout(() => {
-      void fetchInitialData();
+      void fetchInitialData(controller.signal);
     }, 0);
 
-    return () => window.clearTimeout(timerId);
+    return () => {
+      window.clearTimeout(timerId);
+      controller.abort();
+    };
   }, []);
 
   const toggleBookmarkCourse = (id: string) => {
@@ -246,11 +269,16 @@ export default function Home() {
     setErrorMsg(null);
     const seq = ++searchSeqRef.current;
     const isCurrent = () => seq === searchSeqRef.current;
+    // Supersede: abort whatever the previous (older-seq) search is still doing.
+    searchAbortRef.current?.abort();
+    const controller = new AbortController();
+    searchAbortRef.current = controller;
     try {
       if (currentTab === "courses") {
         const res = await fetch(`${API_BASE_URL}/courses/search`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
+          signal: controller.signal,
           body: JSON.stringify({
             query: queryToUse,
             university: uniToUse === "all" ? null : uniToUse,
@@ -270,7 +298,7 @@ export default function Home() {
       } else if (currentTab === "advisors") {
         if (!queryToUse.trim()) {
           const uniParam = uniToUse && uniToUse !== "all" ? `&university=${encodeURIComponent(uniToUse)}` : "";
-          const res = await fetch(`${API_BASE_URL}/faculty/?limit=24${uniParam}`);
+          const res = await fetch(`${API_BASE_URL}/faculty/?limit=24${uniParam}`, { signal: controller.signal });
           if (res.ok) {
             const data = await res.json();
             const list = Array.isArray(data) ? data : (data.results ?? []);
@@ -282,6 +310,7 @@ export default function Home() {
           const res = await fetch(`${API_BASE_URL}/search/`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
+            signal: controller.signal,
             body: JSON.stringify({
               query: queryToUse,
               university: uniToUse === "all" ? null : uniToUse,
@@ -302,7 +331,7 @@ export default function Home() {
         // Labs Tab Search
         if (!queryToUse.trim()) {
           const uniParam = uniToUse && uniToUse !== "all" ? `&university=${encodeURIComponent(uniToUse)}` : "";
-          const res = await fetch(`${API_BASE_URL}/labs/?limit=24${uniParam}`);
+          const res = await fetch(`${API_BASE_URL}/labs/?limit=24${uniParam}`, { signal: controller.signal });
           if (res.ok) {
             const data = await res.json();
             const list = Array.isArray(data) ? data : (data.results ?? []);
@@ -313,6 +342,7 @@ export default function Home() {
           const res = await fetch(`${API_BASE_URL}/labs/search`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
+            signal: controller.signal,
             body: JSON.stringify({
               query: queryToUse,
               university: uniToUse === "all" ? null : uniToUse,
@@ -331,9 +361,12 @@ export default function Home() {
         }
       }
     } catch (err) {
+      // Aborted by a superseding search or unmount cleanup — expected, not a failure.
+      if (err instanceof Error && err.name === "AbortError") return;
       console.error(err);
       if (isCurrent()) setErrorMsg("ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ได้ กรุณาลองใหม่ในภายหลัง");
     } finally {
+      if (searchAbortRef.current === controller) searchAbortRef.current = null;
       if (isCurrent()) setLoading(false);
     }
   };

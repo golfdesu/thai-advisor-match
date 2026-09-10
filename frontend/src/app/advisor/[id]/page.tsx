@@ -62,6 +62,8 @@ export default function AdvisorProfilePage() {
     // Guard: route changes (id switch) must not let an in-flight apply land on
     // the new page (stale-render race; perf audit 2026-09-10).
     let cancelled = false;
+    // Abort the network request itself on unmount/route-switch, not just its result.
+    const controller = new AbortController();
 
     // Check O(1) in-memory LRU Cache first
     const cachedAdvisor = facultyDetailCache.get(id);
@@ -77,7 +79,7 @@ export default function AdvisorProfilePage() {
     const fetchAdvisor = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`${API_BASE_URL}/faculty/${id}`);
+        const res = await fetch(`${API_BASE_URL}/faculty/${id}`, { signal: controller.signal });
         if (!res.ok) {
           if (res.status === 404) throw new Error("ไม่พบข้อมูลอาจารย์ท่านนี้");
           throw new Error("เกิดข้อผิดพลาดในการดึงข้อมูล");
@@ -87,14 +89,16 @@ export default function AdvisorProfilePage() {
         facultyDetailCache.put(id, data);
         if (!cancelled) setAdvisor(data);
       } catch (err: unknown) {
-        if (!cancelled) setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการโหลดข้อมูลอาจารย์");
+        // Aborted requests are expected on cleanup — never surface as an error.
+        if (cancelled || (err instanceof Error && err.name === "AbortError")) return;
+        setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการโหลดข้อมูลอาจารย์");
       } finally {
         if (!cancelled) setLoading(false);
       }
     };
 
     fetchAdvisor();
-    return () => { cancelled = true; };
+    return () => { cancelled = true; controller.abort(); };
   }, [id]);
 
   const toggleSave = () => {

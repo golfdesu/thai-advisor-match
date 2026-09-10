@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { ResearchLab, LabInquiryResponse } from "@/types";
 import { API_BASE_URL } from "@/lib/config";
 import { Building2, X, Loader2, Copy, Check, Send, Sparkles } from "lucide-react";
@@ -20,6 +20,10 @@ export const LabInquiryModal: React.FC<LabInquiryModalProps> = ({ lab, onClose }
   const [generatedLetter, setGeneratedLetter] = useState<LabInquiryResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);
+  // In-flight generation; aborted if the modal unmounts (close) mid-request.
+  const generateAbortRef = useRef<AbortController | null>(null);
+
+  useEffect(() => () => generateAbortRef.current?.abort(), []);
 
   if (!lab) return null;
 
@@ -27,10 +31,14 @@ export const LabInquiryModal: React.FC<LabInquiryModalProps> = ({ lab, onClose }
     setLoading(true);
     setGeneratedLetter(null);
 
+    const controller = new AbortController();
+    generateAbortRef.current = controller;
+
     try {
       const res = await fetch(`${API_BASE_URL}/labs/inquiry`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
         body: JSON.stringify({
           lab_id: lab.id,
           student_name: studentName.trim() || "นักศึกษาผู้สนใจ",
@@ -52,9 +60,12 @@ export const LabInquiryModal: React.FC<LabInquiryModalProps> = ({ lab, onClose }
       } else {
         alert("ไม่สามารถสร้างร่างข้อความติดต่อแล็บได้ในขณะนี้ กรุณาลองใหม่อีกครั้ง");
       }
-    } catch {
+    } catch (err: unknown) {
+      // Closing the modal aborts the request — stay silent, no false alert.
+      if (err instanceof Error && err.name === "AbortError") return;
       alert("เกิดข้อผิดพลาดในการเชื่อมต่อเซิร์ฟเวอร์");
     } finally {
+      if (generateAbortRef.current === controller) generateAbortRef.current = null;
       setLoading(false);
     }
   };

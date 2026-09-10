@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import Link from "next/link";
 import {
   Sparkles,
@@ -198,6 +198,10 @@ export default function CareerDiscoveryPage() {
   const [result, setResult] = useState<QuizResultData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
+  // In-flight analysis; aborted if the user navigates away mid-request.
+  const analyzeAbortRef = useRef<AbortController | null>(null);
+
+  useEffect(() => () => analyzeAbortRef.current?.abort(), []);
 
   // Cycling status messages for engaging UI feedback while AI computes
   const loadingStages = [
@@ -322,10 +326,14 @@ export default function CareerDiscoveryPage() {
       }
     });
 
+    const controller = new AbortController();
+    analyzeAbortRef.current = controller;
+
     try {
       const res = await fetch(`${API_BASE_URL}/career-quiz/analyze`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
         body: JSON.stringify({
           tier: tier || "standard",
           answers: formattedAnswers,
@@ -340,8 +348,11 @@ export default function CareerDiscoveryPage() {
       const data = await res.json();
       setResult(data);
     } catch (err: unknown) {
+      // Navigating away aborts the request — stay silent, no false error card.
+      if (err instanceof Error && err.name === "AbortError") return;
       setError(err instanceof Error ? err.message : "เกิดข้อผิดพลาดในการเชื่อมต่อเซิร์ฟเวอร์");
     } finally {
+      if (analyzeAbortRef.current === controller) analyzeAbortRef.current = null;
       clearInterval(interval);
       setIsSubmitting(false);
     }

@@ -60,6 +60,10 @@ export const FeaturedProgramsShowcase: React.FC<FeaturedProgramsShowcaseProps> =
   useEffect(() => {
     const CACHE_KEY = "thai_educenter_signature_programs";
     const CACHE_TTL_MS = 15 * 60 * 1000;
+    // Race guard: unmount must not apply late results, and the in-flight
+    // request itself must be cancelled (perf audit 2026-09-10).
+    let cancelled = false;
+    const controller = new AbortController();
     const fetchSignaturePrograms = async () => {
       try {
         setLoading(true);
@@ -68,27 +72,34 @@ export const FeaturedProgramsShowcase: React.FC<FeaturedProgramsShowcaseProps> =
           if (raw) {
             const cached = JSON.parse(raw) as { ts: number; data: UniversityHighlight[] };
             if (cached && Array.isArray(cached.data) && Date.now() - cached.ts < CACHE_TTL_MS) {
-              setHighlights(cached.data);
-              setLoading(false);
+              if (!cancelled) {
+                setHighlights(cached.data);
+                setLoading(false);
+              }
               return;
             }
           }
         } catch {}
-        const res = await fetch(`${API_BASE_URL}/universities/signature-programs`);
+        const res = await fetch(`${API_BASE_URL}/universities/signature-programs`, {
+          signal: controller.signal
+        });
         if (res.ok) {
           const data = await res.json();
-          setHighlights(data);
+          if (!cancelled) setHighlights(data);
           try {
             localStorage.setItem(CACHE_KEY, JSON.stringify({ ts: Date.now(), data }));
           } catch {}
         }
       } catch (e) {
+        // AbortError is expected on unmount cleanup — not a failure.
+        if (e instanceof Error && e.name === "AbortError") return;
         console.error("Failed to load signature programs", e);
       } finally {
-        setLoading(false);
+        if (!cancelled) setLoading(false);
       }
     };
     fetchSignaturePrograms();
+    return () => { cancelled = true; controller.abort(); };
   }, []);
 
   // Auto-scroll promo banner timer
