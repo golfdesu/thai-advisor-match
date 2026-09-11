@@ -1,5 +1,4 @@
-from datetime import datetime
-from sqlalchemy import Column, String, Text, JSON, Float, Integer, DateTime
+from sqlalchemy import Column, String, Text, JSON, Integer
 from pgvector.sqlalchemy import Vector
 from app.core.database import Base
 
@@ -98,24 +97,3 @@ class ResearchLabDB(Base):
 
     embedding_text = Column(Text)
     embedding = Column(Vector(768), nullable=True)
-
-
-class SemanticCacheDB(Base):
-    """
-    Zero-Token & Zero-Latency Semantic Cache Table (pgvector)
-    Stores pre-computed AI thesis match insights and cold emails.
-    If query vector cosine distance <= 0.05 (similarity >= 0.95), cached payload is returned instantly.
-    """
-    __tablename__ = "semantic_cache"
-
-    id = Column(String, primary_key=True, index=True)
-    cache_type = Column(String, index=True)  # 'advisor_search', 'cold_email', 'synergy_insight'
-    query_text = Column(Text, nullable=False)
-    cache_payload = Column(JSON, nullable=False)  # Cached structured response
-    hit_count = Column(Integer, default=1)
-
-    embedding = Column(Vector(768), nullable=False)  # 768-dim query embedding
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
-
-

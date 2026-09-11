@@ -70,28 +70,6 @@ def test_advisor_semantic_and_fallback_search():
     assert "match_score" in top_result
     assert top_result["match_score"] >= 40.0
 
-def test_cold_email_generator():
-    # Fetch a faculty member
-    res_fac = client.get("/api/v1/faculty/?limit=1")
-    assert res_fac.status_code == 200
-    faculty_id = res_fac.json()[0]["id"]
-
-    cold_email_payload = {
-        "faculty_id": faculty_id,
-        "student_name": "Somchai Jaidee",
-        "intended_degree": "Master of Science",
-        "student_background": "B.Eng. Computer Engineering, GPA 3.75",
-        "research_topic": "AI for Medical Image Analysis",
-        "language": "th"
-    }
-    res_email = client.post("/api/v1/search/cold-email", json=cold_email_payload)
-    assert res_email.status_code == 200
-    email_data = res_email.json()
-    assert "subject" in email_data
-    assert "body" in email_data
-    assert len(email_data["subject"]) > 0
-
-
 def test_course_search_with_university_filter():
     """Verify that Course search preserves university/degree filters during vector and keyword search."""
     payload = {
@@ -108,4 +86,3 @@ def test_course_search_with_university_filter():
 
 if __name__ == "__main__":
     pytest.main(["-v", __file__])
-

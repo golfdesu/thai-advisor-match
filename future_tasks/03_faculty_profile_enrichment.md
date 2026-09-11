@@ -11,7 +11,6 @@
 
 | ฟิลด์ที่ขาด | จำนวนที่ขาด | คิดเป็นเปอร์เซ็นต์ | ผลกระทบต่อระบบ |
 | :--- | :---: | :---: | :--- |
-| **Email (`email`)** | **1,165 ท่าน** | **29.9%** | ฟังก์ชัน AI Cold Email Generator ไม่สามารถสร้างลิงก์ส่งอีเมลหาอาจารย์ได้จริง |
 | **Image URL (`image_url`)** | **2,482 ท่าน** | **63.6%** | หน้าเว็บต้องแสดง Avatar สำรอง (ตัวย่อ) แทนรูปจริง ส่งผลต่อความน่าเชื่อถือ |
 | **Research Interests (`research_interests`)** | **1,670 ท่าน** | **42.8%** | การแสดงผล Synergy Badges และการจับคู่ Thesis Abstract มีความแม่นยำลดลง |
 | **Publications (`featured_publications`)** | **745 ท่าน** | **19.1%** | ขาดข้อมูลผลงานวิจัยอ้างอิงล่าสุด |
@@ -20,7 +19,7 @@
 
 ## 2. กลยุทธ์การเติมเต็มข้อมูล (Enrichment Strategy)
 
-### แนวทางที่ 1: เติมเต็ม Email และ Image URL จาก OpenAlex & Google Scholar / Scopus
+### แนวทางที่ 1: เติมเต็ม Image URL จาก OpenAlex & Google Scholar / Scopus
 - ค้นหาด้วยชื่อภาษาอังกฤษ (`full_name_en`) และชื่อมหาวิทยาลัยผ่าน OpenAlex API (มี API Keys อยู่ใน `backend/.env`)
 - ดึงรูปภาพโปรไฟล์จากหน้า Directory ของคณะเดิมผ่าน URL ที่เคยบันทึกไว้ใน `profile_url`
 - หากพบรูปภาพ ให้ตรวจสอบว่า URL นั้นสามารถเข้าถึงได้ (HTTP 200) และไม่ใช่รูป Broken Link

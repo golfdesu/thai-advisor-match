@@ -420,7 +420,7 @@ export default function CareerDiscoveryPage() {
           <div className="text-center relative z-10">
             <div className="inline-flex items-center gap-2 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[var(--theme-primary)] px-3.5 py-1 rounded-full text-xs sm:text-sm font-bold mb-6">
               <Compass size={16} className="text-[var(--theme-primary)]" />
-              <span>Holland RIASEC Psychometric Assessment & AI Mapping</span>
+              <span>แบบประเมิน RIASEC และเส้นทางการเรียน</span>
             </div>
 
             <h1 className="text-3xl sm:text-5xl font-black text-[var(--theme-text-title)] tracking-tight leading-tight mb-4">
@@ -429,7 +429,7 @@ export default function CareerDiscoveryPage() {
             </h1>
 
             <p className="text-[var(--theme-text-muted)] text-sm sm:text-base max-w-xl mx-auto mb-10 leading-relaxed font-medium">
-              แบบประเมินความถนัดทางการศึกษาและวิชาชีพ ออกแบบตามกรอบจิตวิทยามาตรฐานสากล พร้อมจับคู่กับหลักสูตรระดับปริญญาตรีของมหาวิทยาลัยชั้นนำทั่วประเทศ
+              ตอบคำถามเกี่ยวกับความสนใจและรูปแบบการทำงาน แล้วดูผล RIASEC พร้อมหลักสูตรระดับปริญญาตรีที่เกี่ยวข้อง
             </p>
 
             {/* 3 Tier Selection Cards */}
@@ -471,7 +471,7 @@ export default function CareerDiscoveryPage() {
                 className="group bg-[var(--theme-card)] p-5 sm:p-6 rounded-2xl border-2 border-[var(--theme-primary)] transition flex flex-col justify-between relative cursor-pointer"
               >
                 <div className="absolute top-3.5 right-3.5 bg-[var(--theme-accent)] text-[var(--theme-accent-contrast)] font-bold text-xs uppercase tracking-wider px-2.5 py-0.5 rounded-full">
-                  ⭐ แนะนำ
+                  แนะนำ
                 </div>
                 <div>
                   <div className="w-12 h-12 rounded-xl bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] flex items-center justify-center mb-4 border border-[var(--theme-primary-border)]">
@@ -513,7 +513,7 @@ export default function CareerDiscoveryPage() {
                   </div>
                   <h3 className="text-lg sm:text-xl font-black text-[var(--theme-text-title)] mb-2">Deep Dive DNA</h3>
                   <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-medium leading-relaxed mb-4">
-                    50 ข้อ (RIASEC 36 ข้อ + Lifestyle 14 ข้อ) วิเคราะห์เจาะลึกครอบคลุมทุกมิติชีวิตและการศึกษา
+                    50 ข้อ (RIASEC 36 ข้อ + Lifestyle 14 ข้อ) เพื่อดูความสนใจและรูปแบบการใช้ชีวิตได้ละเอียดขึ้น
                   </p>
                 </div>
                 <div className="flex items-center text-xs sm:text-sm font-bold text-[var(--theme-accent)]">
@@ -722,7 +722,7 @@ export default function CareerDiscoveryPage() {
           </div>
         )}
 
-        {/* VIEW 4: Full Comprehensive Results Report */}
+        {/* VIEW 4: Results */}
         {result && (
           <div className="space-y-8 max-w-4xl mx-auto w-full relative z-10">
             {/* Top Shareable Archetype Card */}

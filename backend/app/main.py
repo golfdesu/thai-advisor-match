@@ -47,7 +47,6 @@ app.add_middleware(
     RateLimitMiddleware,
     rate_limiter=rate_limiter,
     strict_limiters={
-        "/api/v1/search/cold-email": RateLimiter(requests_per_minute=10),   # LLM generation
         "/api/v1/career-quiz/analyze": RateLimiter(requests_per_minute=15),  # LLM generation
         "/api/v1/labs/inquiry": RateLimiter(requests_per_minute=15),         # LLM generation
         "/api/v1/search/": RateLimiter(requests_per_minute=40),              # embedding call per query

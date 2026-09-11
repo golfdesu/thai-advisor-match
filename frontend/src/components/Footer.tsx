@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
         <div className="border-t border-[var(--theme-border)] mt-8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-[var(--theme-text-muted)]">
           <p>© {new Date().getFullYear()} Thai EduCenter & Academic Research Matcher. All rights reserved.</p>
           <p className="flex items-center gap-1">
-            Built for Thai Higher Education Discovery
+            ค้นหาหลักสูตร อาจารย์ และห้องวิจัยในประเทศไทย
           </p>
         </div>
       </div>

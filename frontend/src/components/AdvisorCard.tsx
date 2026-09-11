@@ -3,11 +3,10 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import type { SearchMatchResult, FacultyMember } from "@/types";
+import type { SearchMatchResult } from "@/types";
 import { getAdvisorAvatarUrl } from "@/lib/config";
 import {
   Building2,
-  Mail,
   Heart,
   ArrowUpRight,
   Sparkles,
@@ -22,14 +21,12 @@ interface AdvisorCardProps {
   matchItem: SearchMatchResult;
   isSaved: boolean;
   onToggleBookmark: (id: string) => void;
-  onOpenColdEmail: (advisor: FacultyMember) => void;
 }
 
 export const AdvisorCard: React.FC<AdvisorCardProps> = ({
   matchItem,
   isSaved,
   onToggleBookmark,
-  onOpenColdEmail,
 }) => {
   const f = matchItem.faculty;
   const matchScore = matchItem.match_score;
@@ -237,13 +234,6 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
           <ArrowUpRight className="w-4 h-4 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
         </Link>
 
-        <button
-          onClick={() => onOpenColdEmail(f)}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold transition cursor-pointer"
-        >
-          <Mail className="w-4 h-4" />
-          <span>ร่างอีเมล AI</span>
-        </button>
       </div>
     </div>
   );

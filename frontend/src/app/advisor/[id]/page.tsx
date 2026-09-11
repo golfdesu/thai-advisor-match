@@ -5,7 +5,6 @@ import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
 import {
   ArrowLeft,
-  Mail,
   ExternalLink,
   GraduationCap,
   BookOpen,
@@ -24,7 +23,6 @@ import { API_BASE_URL, getAdvisorAvatarUrl } from "@/lib/config";
 import { facultyDetailCache } from "@/lib/dsa";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { ColdEmailModal } from "@/components/ColdEmailModal";
 
 const hasSavedId = (storageKey: string, id: string): boolean => {
   if (typeof window === "undefined") return false;
@@ -50,7 +48,6 @@ export default function AdvisorProfilePage() {
   // below (project "Mounted Pattern" — reading localStorage during hydration
   // caused a React 19 mismatch on the button label for saved advisors).
   const [isSaved, setIsSaved] = useState(false);
-  const [showEmailModal, setShowEmailModal] = useState(false);
   const [imgError, setImgError] = useState(false);
 
   useEffect(() => {
@@ -268,13 +265,6 @@ export default function AdvisorProfilePage() {
 
                 {/* Direct Action Buttons */}
                 <div className="flex flex-col sm:flex-row lg:flex-col gap-3 w-full lg:w-auto shrink-0">
-                  <button
-                    onClick={() => setShowEmailModal(true)}
-                    className="bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] font-bold px-5 py-3 rounded-xl transition flex items-center justify-center gap-2 text-xs sm:text-sm cursor-pointer shadow-xs"
-                  >
-                    <Mail size={16} /> ร่างอีเมลติดต่อด้วย AI
-                  </button>
-
                   {advisor.profile_url && (
                     <a
                       href={advisor.profile_url}
@@ -499,27 +489,11 @@ export default function AdvisorProfilePage() {
                   )}
                 </div>
 
-                <div className="pt-4 border-t border-[var(--theme-border)]">
-                  <button
-                    onClick={() => setShowEmailModal(true)}
-                    className="w-full bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] font-black py-3 rounded-xl transition text-xs sm:text-sm flex items-center justify-center gap-2 shadow-sm cursor-pointer"
-                  >
-                    <Mail size={16} /> ร่างอีเมลติดต่ออาจารย์
-                  </button>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Cold Email Modal */}
-      {showEmailModal && (
-        <ColdEmailModal
-          advisor={advisor}
-          onClose={() => setShowEmailModal(false)}
-        />
-      )}
 
       <Footer />
     </div>

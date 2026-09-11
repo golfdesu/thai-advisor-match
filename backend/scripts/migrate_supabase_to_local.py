@@ -82,16 +82,6 @@ TABLES_CONFIG = [
         "json_cols": {"education", "research_interests", "taught_courses", "featured_publications"},
         "vector_cols": {"embedding"},
     },
-    {
-        "name": "semantic_cache",
-        "primary_key": "id",
-        "columns": [
-            "id", "cache_type", "query_text", "cache_payload", "hit_count",
-            "embedding", "created_at", "updated_at"
-        ],
-        "json_cols": {"cache_payload"},
-        "vector_cols": {"embedding"},
-    },
 ]
 
 # Cyber audit 2026-09-10 (A-2): table/pk/column names are interpolated into SQL

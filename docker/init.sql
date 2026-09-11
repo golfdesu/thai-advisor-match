@@ -134,24 +134,7 @@ CREATE INDEX IF NOT EXISTS ix_research_labs_lead_advisor_id ON public.research_l
 -- ANN index for /labs/search (created live 2026-09-10 perf audit; init.sql synced so fresh containers match)
 CREATE INDEX IF NOT EXISTS ix_research_labs_embedding_hnsw ON public.research_labs USING hnsw (embedding vector_cosine_ops);
 
--- 5. Create Table: semantic_cache
-CREATE TABLE IF NOT EXISTS public.semantic_cache (
-    id VARCHAR PRIMARY KEY,
-    cache_type VARCHAR,
-    query_text TEXT NOT NULL,
-    cache_payload JSON NOT NULL,
-    hit_count INTEGER DEFAULT 1,
-    embedding vector(768) NOT NULL,
-    created_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP WITHOUT TIME ZONE DEFAULT CURRENT_TIMESTAMP
-);
-
-CREATE INDEX IF NOT EXISTS ix_semantic_cache_id ON public.semantic_cache (id);
-CREATE INDEX IF NOT EXISTS ix_semantic_cache_cache_type ON public.semantic_cache (cache_type);
--- perf audit 2026-09-10: L2 lookup ORDER BY embedding <=> was a full sort (no index)
-CREATE INDEX IF NOT EXISTS ix_semantic_cache_embedding_hnsw ON public.semantic_cache USING hnsw (embedding vector_cosine_ops);
-
--- 6. Create Table: quiz_questions
+-- 5. Create Table: quiz_questions
 CREATE TABLE IF NOT EXISTS public.quiz_questions (
     id VARCHAR PRIMARY KEY,
     category VARCHAR,

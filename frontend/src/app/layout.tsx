@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Thai EduCenter & Advisor Match | ระบบค้นหาหลักสูตรและจับคู่อาจารย์ที่ปรึกษา AI",
-  description: "แพลตฟอร์มค้นหาหลักสูตรการศึกษาและจับคู่อาจารย์ที่ปรึกษาวิทยานิพนธ์ด้วย AI สำหรับนักศึกษา ป.ตรี ป.โท ป.เอก ทั่วประเทศไทย",
+  title: "Thai EduCenter & Advisor Match | ค้นหาหลักสูตรและอาจารย์ที่ปรึกษา",
+  description: "ค้นหาหลักสูตร อาจารย์ที่ปรึกษาวิทยานิพนธ์ และห้องวิจัยในประเทศไทย พร้อมผลการจับคู่ตามหัวข้อที่สนใจ",
   other: {
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "DENY",
@@ -63,4 +63,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-

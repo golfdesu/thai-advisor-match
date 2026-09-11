@@ -205,8 +205,7 @@ class RateLimitMiddleware(BaseHTTPMiddleware):
             return self._rate_limited_response(self.rate_limiter.rpm)
 
         # Expensive-tier check (mutations only — GET prefetches stay on the global bucket).
-        # Longest prefix wins so "/search/cold-email" picks its own 10/min bucket,
-        # not the broader "/search/" one.
+        # The most specific configured prefix wins over broader prefixes.
         if request.method == "POST":
             for prefix, limiter in sorted(self.strict_limiters.items(), key=lambda kv: -len(kv[0])):
                 if path.startswith(prefix):

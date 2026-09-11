@@ -1,16 +1,15 @@
-# Thai Advisor Match (AI-Powered Thesis Advisor Search System)
+# Thai Advisor Match (Thesis Advisor Search)
 
-**Thai Advisor Match** is an AI-powered thesis advisor discovery platform built for prospective Master's and Ph.D. students in Thailand.
+**Thai Advisor Match** helps Master's and Ph.D. students in Thailand find thesis advisors, programs, and research areas that match a topic.
 
 ---
 
 ##  Key Features
 
 1. **AI Semantic Advisor Matching:** Input thesis ideas/topics (in Thai or English) and get ranked professors and universities with a % match score.
-2. **AI Match Explanations:** Automated summaries justifying why each advisor aligns with your research goals.
+2. **Match Explanations:** See why each advisor matches a search topic.
 3. **Faculty & University Explorer:** Search and filter by university, faculty, and department.
-4. **Comprehensive Advisor Profiles:** Academic background, research fields, publications, and official contact channels.
-5. **AI Cold Email Generator:** Generate professional research inquiry emails in Thai and English with 1 click.
+4. **Advisor Profiles:** Academic background, research fields, publications, and official contact channels.
 
 ---
 

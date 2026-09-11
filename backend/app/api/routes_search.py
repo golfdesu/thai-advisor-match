@@ -1,12 +1,11 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session, defer
 from sqlalchemy import or_
-from app.models.schema import SearchRequest, SearchResponse, ColdEmailRequest, ColdEmailResponse, SearchMatchResult, FacultyMember
+from app.models.schema import SearchRequest, SearchResponse, SearchMatchResult, FacultyMember
 from app.models.db_models import FacultyDB
 from app.api.routes_faculty import db_to_pydantic
 from app.core.database import get_db
 from app.core.embedding_service import embedding_service
-from app.core.semantic_cache import semantic_cache_service
 from app.core.dsa_utils import TopKHeap  # Trie removed: never used (DSA audit 2026-09-10)
 from app.core.corpus_index import FACULTY_LEXICAL_INDEX, tokenize_mixed
 from typing import List, Tuple, Dict, Any
@@ -314,36 +313,3 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
         total_matched=len(ranked_results),
         results=ranked_results
     )
-
-
-@router.post("/cold-email", response_model=ColdEmailResponse)
-def generate_cold_email(req: ColdEmailRequest, db: Session = Depends(get_db)):
-    db_faculty = db.query(FacultyDB).filter(FacultyDB.id == req.faculty_id).first()
-    if not db_faculty:
-        raise HTTPException(status_code=404, detail="Faculty member not found")
-
-    target_faculty = db_to_pydantic(db_faculty)
-
-    # 1. Check pgvector Semantic Cache (0 Tokens, ~2ms Latency)
-    # Include student_name and language in cache key to prevent cross-student or cross-language leaks
-    cache_query = f"{req.faculty_id}|{req.language}|{req.intended_degree}|{req.student_name}|{req.research_topic}|{req.student_background or ''}"
-    cached_payload, is_hit = semantic_cache_service.get(db, cache_type="cold_email", query_text=cache_query)
-    if is_hit and cached_payload:
-        return ColdEmailResponse(
-            subject=cached_payload.get("subject", ""),
-            body=cached_payload.get("body", ""),
-            tips=cached_payload.get("tips", [])
-        )
-
-    subject, body, tips = embedding_service.generate_cold_email_ai(req.model_dump(), target_faculty)
-
-    # 2. Store to Semantic Cache for future zero-token reuse
-    semantic_cache_service.set(
-        db,
-        cache_type="cold_email",
-        query_text=cache_query,
-        payload={"subject": subject, "body": body, "tips": tips}
-    )
-
-    return ColdEmailResponse(subject=subject, body=body, tips=tips)
-

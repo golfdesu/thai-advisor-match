@@ -9,7 +9,7 @@ from pydantic import BaseModel, Field, model_validator, field_validator
 # full_name_th (e.g. academic_title_th='ศ.ดร.' + full_name_th='ศ.ดร. สุทธิเขตต์').
 # Rendering layers prepend academic_title_th, producing 'ศ.ดร.ศ.ดร. สุทธิเขตต์'.
 # These helpers strip duplicated title prefixes at the DTO boundary so every
-# API consumer (cards, detail pages, cold emails) gets a clean display name.
+# API consumer (cards and detail pages) gets a clean display name.
 _TITLE_CANON_PATTERNS = [
     # canonical form -> regex variants (longest / most-specific first)
     # Explicit boundary check: Require dot or whitespace so Thai names starting
@@ -219,21 +219,6 @@ class SearchResponse(BaseModel):
     query: str
     total_matched: int
     results: List[SearchMatchResult]
-
-
-class ColdEmailRequest(BaseModel):
-    faculty_id: str = Field(..., min_length=2, max_length=100)
-    student_name: str = Field(..., min_length=1, max_length=100)
-    student_background: str = Field(..., min_length=2, max_length=1500)
-    research_topic: str = Field(..., min_length=2, max_length=1500)
-    intended_degree: str = Field("Master's Degree", max_length=50, description="Master's Degree or Ph.D.")
-    language: str = Field("th", pattern=r"^(th|en)$", description="'th' for Thai or 'en' for English")
-
-
-class ColdEmailResponse(BaseModel):
-    subject: str
-    body: str
-    tips: List[str] = Field(default_factory=list)
 
 
 class CourseSchema(BaseModel):

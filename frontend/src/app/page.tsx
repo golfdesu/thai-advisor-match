@@ -26,7 +26,6 @@ import { AdvisorCard } from "@/components/AdvisorCard";
 import { LabCard } from "@/components/LabCard";
 import { FilterBar } from "@/components/FilterBar";
 import { ComparisonModal } from "@/components/ComparisonModal";
-import { ColdEmailModal } from "@/components/ColdEmailModal";
 import { LabInquiryModal } from "@/components/LabInquiryModal";
 import { SavedBookmarksModal } from "@/components/SavedBookmarksModal";
 import { FeaturedProgramsShowcase } from "@/components/FeaturedProgramsShowcase";
@@ -104,9 +103,6 @@ export default function Home() {
       }
     })();
   };
-
-  // Cold Email Modal State
-  const [selectedAdvisorForEmail, setSelectedAdvisorForEmail] = useState<FacultyMember | null>(null);
 
   // Lab Inquiry Modal State
   const [selectedLabForInquiry, setSelectedLabForInquiry] = useState<ResearchLab | null>(null);
@@ -402,7 +398,7 @@ export default function Home() {
           <div className="flex flex-col justify-center">
             <div className="mb-5 inline-flex w-fit items-center gap-2 rounded-full border border-[var(--theme-primary-border)] bg-[var(--theme-primary-subtle)] px-3.5 py-1.5 text-xs font-black text-[var(--theme-primary)]">
               <Sparkles size={14} className="text-[var(--theme-accent)]" aria-hidden="true" />
-              <span>Thai academic discovery, redesigned</span>
+              <span>หลักสูตร · อาจารย์ · ห้องวิจัย</span>
             </div>
 
             <h1 className="max-w-3xl text-4xl font-black leading-[1.08] tracking-tight text-[var(--theme-text-title)] sm:text-6xl">
@@ -410,7 +406,7 @@ export default function Home() {
               <span className="mt-2 block text-[var(--theme-primary)]">ด้วยข้อมูลที่ใช่สำหรับคุณ</span>
             </h1>
             <p className="mt-6 max-w-2xl text-base font-medium leading-relaxed text-[var(--theme-text-muted)] sm:text-lg">
-              ค้นหาหลักสูตร อาจารย์ที่ปรึกษา และห้องวิจัยชั้นนำในพื้นที่เดียว พร้อม AI ช่วยเชื่อมโยงเส้นทางการเรียนกับเป้าหมายวิจัยของคุณ
+              ค้นหาหลักสูตร อาจารย์ที่ปรึกษา และห้องวิจัยจากคำค้นเดียว แล้วดูผลที่เกี่ยวข้องกับเป้าหมายการเรียนหรือหัวข้อวิจัยของคุณ
             </p>
 
             <div className="mt-8 rounded-[1.75rem] border border-[var(--theme-border)] bg-[var(--theme-card)] p-3 shadow-xl shadow-[var(--theme-primary-glow)]/10 sm:p-4">
@@ -604,7 +600,6 @@ export default function Home() {
           savedAdvisors={savedAdvisors}
           onToggleBookmarkCourse={toggleBookmarkCourse}
           onToggleBookmarkAdvisor={toggleBookmarkAdvisor}
-          onOpenColdEmail={(advisor) => setSelectedAdvisorForEmail(advisor)}
         />
       </section>
 
@@ -738,7 +733,6 @@ export default function Home() {
                   matchItem={item}
                   isSaved={savedAdvisors.includes(item.faculty.id)}
                   onToggleBookmark={toggleBookmarkAdvisor}
-                  onOpenColdEmail={(advisor) => setSelectedAdvisorForEmail(advisor)}
                 />
               ))}
             </div>
@@ -797,14 +791,6 @@ export default function Home() {
         onClose={() => setShowComparisonModal(false)}
         onClearAll={() => setComparedCourses([])}
       />
-
-      {/* Cold Email AI Assistant Modal */}
-      {selectedAdvisorForEmail && (
-        <ColdEmailModal
-          advisor={selectedAdvisorForEmail}
-          onClose={() => setSelectedAdvisorForEmail(null)}
-        />
-      )}
 
       {/* Lab Inquiry AI Assistant Modal */}
       {selectedLabForInquiry && (

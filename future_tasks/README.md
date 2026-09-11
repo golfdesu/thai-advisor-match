@@ -37,7 +37,6 @@
 3. **[`03_faculty_profile_enrichment.md`](./03_faculty_profile_enrichment.md)**
    - **เป้าหมาย:** เติมเต็มข้อมูลอาจารย์เดิม 3,901 ท่านให้สมบูรณ์
    - **โฟกัส:**
-     - เติม Email ที่ขาด 1,165 ท่าน (เพื่อให้ระบบ AI Cold Email ใช้งานได้จริง)
      - เติม Image URL ที่ขาด 2,482 ท่าน (เพื่อ UI สวยงาม ลด Fallback Avatar)
      - เติม Research Interests ที่ขาด 1,670 ท่าน (เพื่อ Semantic Match ที่แม่นยำ)
 

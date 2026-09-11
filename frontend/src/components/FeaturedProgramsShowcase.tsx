@@ -18,10 +18,9 @@ import {
   Flame,
   Building2,
   GraduationCap,
-  Mail,
   Heart
 } from "lucide-react";
-import type { UniversityHighlight, Course, FacultyMember } from "@/types";
+import type { UniversityHighlight, Course } from "@/types";
 import { API_BASE_URL, getAdvisorAvatarUrl } from "@/lib/config";
 
 interface FeaturedProgramsShowcaseProps {
@@ -33,7 +32,6 @@ interface FeaturedProgramsShowcaseProps {
   savedAdvisors?: string[];
   onToggleBookmarkCourse: (id: string) => void;
   onToggleBookmarkAdvisor?: (id: string) => void;
-  onOpenColdEmail?: (advisor: FacultyMember) => void;
 }
 
 export const FeaturedProgramsShowcase: React.FC<FeaturedProgramsShowcaseProps> = ({
@@ -44,8 +42,7 @@ export const FeaturedProgramsShowcase: React.FC<FeaturedProgramsShowcaseProps> =
   savedCourses,
   savedAdvisors = [],
   onToggleBookmarkCourse,
-  onToggleBookmarkAdvisor,
-  onOpenColdEmail
+  onToggleBookmarkAdvisor
 }) => {
   const [highlights, setHighlights] = useState<UniversityHighlight[]>([]);
   const [loading, setLoading] = useState(true);
@@ -460,15 +457,6 @@ export const FeaturedProgramsShowcase: React.FC<FeaturedProgramsShowcaseProps> =
                           <ArrowRight size={14} />
                         </Link>
 
-                        {onOpenColdEmail && (
-                          <button
-                            onClick={() => onOpenColdEmail(currentFeaturedAdvisor)}
-                            className="px-3.5 py-1.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs font-bold transition flex items-center gap-1.5 shadow-2xs cursor-pointer"
-                          >
-                            <Mail size={13} />
-                            <span>ร่างอีเมล AI</span>
-                          </button>
-                        )}
                       </div>
                     </div>
                   ) : (

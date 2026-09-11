@@ -10,14 +10,13 @@
 ---
 
 ## 1. Project Overview & Architecture
-**Thai EduCenter** (incorporating **Thai Advisor Match**) is an all-in-one AI-powered educational discovery & academic advisor matching platform for undergraduate and graduate candidates in Thailand.
+**Thai EduCenter** (incorporating **Thai Advisor Match**) helps students in Thailand search programs, advisors, and research labs, then compare the results with their study goals.
 
 ### Core Features:
 1. **Curriculum & Tuition Discovery:** Search academic programs across Thai universities (tuition fees, duration, credits, career paths).
 2. **AI Semantic Advisor Matching:** Thesis topic/abstract matching with % Match Score via `pgvector` & Gemini embeddings.
 3. **Zero-Latency Synergy Badges & Insights:** Instant synthesis of thesis alignment & relevant publication highlights.
-4. **AI Cold Email Generator:** Drafts inquiry emails and research proposals for contacting prospective advisors.
-5. **RIASEC Career Discovery Quiz:** 3-tier psychological assessment matching students to academic paths.
+4. **RIASEC Career Discovery Quiz:** 3-tier psychological assessment matching students to academic paths.
 
 ### Tech Stack:
 ```text
@@ -124,7 +123,6 @@ Teacher/
 
 ### 1. AI & LLM Performance:
 - **No Sequential LLM Loops:** NEVER call LLM APIs (Gemini) inside loops across search candidate lists. Use pre-compiled contextual template generators (0ms latency).
-- **Two-Tier Semantic Caching (`pgvector` + L1 Memory):** Cache query responses & cold email drafts in `SemanticCacheDB` (Cosine Distance $\le 0.10$ / Similarity $\ge 0.90$) and `L1_MEMORY_CACHE` for **0-token, 0ms** instant repeated lookups.
 - **Deterministic Content Pruning (LLMLingua-2 & Trafilatura):** Always strip boilerplate navbars/footers via `ContentPruner` before calling LLMs (80%+ input token reduction).
 - **Output Schema Compression:** Keep JSON output schemas strictly compact by letting the State Reducer inject static university/faculty metadata in Python (40%+ output token reduction).
 - **In-Memory Embedding Caching:** Cache query vector embeddings in backend `LRUCache` (`_embedding_cache`) for 0.001ms instant repeated lookups.
@@ -150,6 +148,14 @@ Teacher/
 - **Single Source for Helpers:** Always import `API_BASE_URL` and `getAdvisorAvatarUrl` from `@/lib/config`.
 - **Instant Search on Interaction:** Popular chips and quick filter tags must trigger immediate search execution.
 - **Enforce Query Limits:** Always apply reasonable default pagination limits (`limit=24..50`) to keep DOM node counts and memory lightweight.
+
+## 6.1 User-facing copy
+
+- Lead with the action or fact the user needs; cut generic introductions and marketing claims.
+- Prefer concrete details, named sources, numbers, and mechanisms over words such as “comprehensive”, “innovative”, or “world-class”.
+- Do not invent certainty, evidence, or benefits. If a claim needs a source, name the source or remove the claim.
+- Preserve the writer's useful tone and nuance. Make the smallest edit that improves clarity.
+- Keep headings short and descriptive. Avoid decorative emoji, fake contrasts, rhetorical questions, and recap paragraphs.
 
 ---
 
@@ -196,4 +202,3 @@ The project implements the 3-Layer **WikiSkill Architecture** for autonomous dat
 > 8. **Memory-Conscious Vector ORM Queries:** Never perform unconstrained `db.query(Model).all()` over tables with high-dimensional vector embeddings (768-dim float arrays across thousands of rows). Always use `options(defer(Model.embedding)).yield_per(500)` when iterating or scanning records to prevent multi-gigabyte heap ballooning.
 > 9. **Bilingual Academic Title Normalization:** Academic title normalizers and strippers MUST include both Thai and English prefixes (`Prof. Dr.`, `Assoc. Prof. Dr.`, `Asst. Prof. Dr.`, `Dr.`, `Prof.`, etc.). Crawlers defaulting missing titles to `"อ."` will otherwise produce corrupted names like `"อ. Dr. ..."` and corrupt downstream deduplication and fuzzy matching.
 > 10. **Pytest-Safe Stdout Reconfiguration:** Never overwrite `sys.stdout` with raw `io.TextIOWrapper(sys.stdout.buffer, ...)` at module level, as it detaches pytest capture buffers and causes `ValueError: I/O operation on closed file`. Always use `if hasattr(sys.stdout, "reconfigure"): sys.stdout.reconfigure(encoding="utf-8")`.
-

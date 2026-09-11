@@ -89,7 +89,6 @@
 - [x] แก้ `_fetch_distinguished_advisors` ให้ ORDER BY h_index DESC NULLS LAST → `routes_universities.py` (ยืนยัน: จุฬาฯ โชว์ Doyle h=121 → ชญานิษฐ์ h=108 → เจนนิ h=102 → บิน จ้าว h=87 → อรวรรณ h=75)
 - [x] แก้ render ยศซ้ำ (strip title ที่ Pydantic DTO — `schema.py` `_clean_display_name` + model_validator ทั้ง FacultyMember/FacultyCardSchema; ทดสอบ 433/500 แถวที่ยศซ้ำ → เหลือ 0)
 - [x] Dedup ด้วย `openalex_id` → สร้าง `scripts/audits/merge_duplicate_faculties.py` (dry-run + --apply); รันแล้ว 5,587 → **5,497** (ลบ 90 แถวซ้ำจาก 89 กลุ่ม same-uni; เก็บ 12 กลุ่มข้ามมหาลัยไว้เป็น dual affiliation; re-point research_labs refs อัตโนมัติ; embedding ไม่มี NULL ค้าง)
-- [x] 🐛 พบเพิ่ม: `/search/cold-email` พัง 100% (`req.degree_level`/`req.thesis_topic` ไม่มีใน ColdEmailRequest) — แก้เป็น `intended_degree`/`research_topic` แล้ว (test_search ผ่าน 11/11 ยกเว้นเทสต์ที่พังมาก่อน)
 - [x] 🐛 พบเพิ่ม: แล็บ 5 แห่ง lead_advisor_id ชี้ id ที่ไม่มีตัวตน (`ku_agro_001` ฯลฯ) — re-point ไปอาจารย์สาขาตรง h-index สูงสุดแล้ว (cassava→สโรจน์ รอดคืน h=48, smart-agri→พีระศักดิ์ ศรีนิเวศน์ h=39, MFU cosmetic→มยุรี h=27, MFU fungal→อรวรรณ h=32, SUT quantum→สุขิต h=42); orphan เหลือ 0
 
 > ⚠️ เทสต์ที่พังมาก่อนหน้า (ไม่เกี่ยวกับงานนี้): `tests/test_agentic_pipeline.py::test_state_reducer_dedup_and_enrichment` คาดหวัง id รูปแบบเก่า `cmu_eng_ee_001` แต่ reducer สร้าง `chiangmaiu_facultyofe_charoensuk_001` — ต้องอัปเดตเทสต์ให้ตรง scheme ปัจจุบัน
