@@ -27,7 +27,7 @@ async def _lifespan(app: FastAPI):
 app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
-    description="AI-Powered Thesis Advisor & University Matching Engine for Graduate Students in Thailand",
+    description="Thesis advisor and university matching API for graduate students in Thailand",
     # Information-disclosure hardening (security audit 2026-09-10): Swagger/ReDoc
     # map every route & DTO for attackers — exposed only while DEBUG=True (local).
     docs_url="/docs" if settings.DEBUG else None,

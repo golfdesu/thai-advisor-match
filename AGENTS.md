@@ -4,7 +4,7 @@
 > [!IMPORTANT]
 > **Strict Process Compliance & Zero-Bypass Policy:**
 > 1. **No Direct Data Synthesis / Manual Shortcuts:** When instructed to acquire, scrape, or enrich faculty, curriculum, or laboratory data, NEVER manually author/synthesize data directly into files or bypass pipelines to save time. You MUST strictly execute the designated Autonomous Pipeline CLI Runners (e.g., `python backend/scripts/agentic_pipeline/cli_runner.py` for `SKILL.state` or established crawlers).
-> 2. **Process Integrity Over Speed:** Always follow the full lifecycle: Real-time Extraction/Crawl → State Reducer (RapidFuzz Dedup & Title Normalization) → Disk Checkpointing (`data/agent_states/`) → Multi-Threaded Vectorization → Database Commit.
+> 2. **Process Integrity Over Speed:** Always follow the full lifecycle: Real-time Extraction/Crawl → State Reducer (RapidFuzz Dedup & Title Normalization) → Disk Checkpointing (`backend/data/agent_states/`) → Multi-Threaded Vectorization → Database Commit.
 > 3. **Adhere to Defined Skills & Protocols:** If a specialized agent skill exists (e.g., `data-acquire-faculty-elites`, `data-acquire-academic`, `db-optimization`), you MUST execute according to that skill's documented CLI tools and architectural contracts.
 
 ---
@@ -15,7 +15,7 @@
 ### Core Features:
 1. **Curriculum & Tuition Discovery:** Search academic programs across Thai universities (tuition fees, duration, credits, career paths).
 2. **AI Semantic Advisor Matching:** Thesis topic/abstract matching with % Match Score via `pgvector` & Gemini embeddings.
-3. **Zero-Latency Synergy Badges & Insights:** Instant synthesis of thesis alignment & relevant publication highlights.
+3. **Match Insights:** Thesis-alignment explanations, synergy badges, and relevant publication highlights.
 4. **RIASEC Career Discovery Quiz:** 3-tier psychological assessment matching students to academic paths.
 
 ### Tech Stack:
@@ -78,9 +78,9 @@
 
 | Entity | Storage | Key Attributes | Schema Source |
 | :--- | :--- | :--- | :--- |
-| **Faculty Member** | `faculties` table | `id`, `full_name_th`, `university_th`, `faculty_th`, `department_th`, `academic_title_th`, `email`, `image_url`, `research_interests`, `featured_publications`, `embedding` (768-dim) | `backend/app/models/db_models.py` (`Faculty`) & `frontend/src/types/index.ts` (`FacultyMember`) |
-| **Course / Curriculum** | `courses` table | `id`, `title_th`, `title_en`, `degree_level`, `university_th`, `faculty_th`, `tuition_per_semester`, `total_credits`, `curriculum_highlights`, `career_paths`, `embedding` | `backend/app/models/db_models.py` (`Course`) & `frontend/src/types/index.ts` (`Course`) |
-| **Research Lab** | `research_labs` table | `id`, `name_th`, `name_en`, `university_th`, `faculty_th`, `lead_advisor_id`, `research_domains`, `flagship_equipment`, `open_positions`, `embedding` | `backend/app/models/db_models.py` (`ResearchLab`) & `frontend/src/types/index.ts` (`ResearchLab`) |
+| **Faculty Member** | `faculties` table | `id`, `full_name_th`, `university_th`, `faculty_th`, `department_th`, `academic_title_th`, `email`, `image_url`, `research_interests`, `featured_publications`, `embedding` (768-dim) | `backend/app/models/db_models.py` (`FacultyDB`) & `frontend/src/types/index.ts` (`FacultyMember`) |
+| **Course / Curriculum** | `courses` table | `id`, `title_th`, `title_en`, `degree_level`, `university_th`, `faculty_th`, `tuition_per_semester`, `total_credits`, `curriculum_highlights`, `career_paths`, `embedding` | `backend/app/models/db_models.py` (`CourseDB`) & `frontend/src/types/index.ts` (`Course`) |
+| **Research Lab** | `research_labs` table | `id`, `name_th`, `name_en`, `university_th`, `faculty_th`, `lead_advisor_id`, `research_domains`, `flagship_equipment`, `open_positions`, `embedding` | `backend/app/models/db_models.py` (`ResearchLabDB`) & `frontend/src/types/index.ts` (`ResearchLab`) |
 
 ---
 
@@ -88,6 +88,7 @@
 
 ```text
 Teacher/
+├── CHANGELOG.md                  # Dated record of user-visible and architectural changes
 ├── compose.yaml                  # Docker Compose Spec: PostgreSQL 17 (pgvector) + pgAdmin 4
 ├── docker/
 │   └── init.sql                  # Automated initialization schema (extensions, tables, HNSW/GIN indexes)
@@ -127,7 +128,7 @@ Teacher/
 - **Output Schema Compression:** Keep JSON output schemas strictly compact by letting the State Reducer inject static university/faculty metadata in Python (40%+ output token reduction).
 - **In-Memory Embedding Caching:** Cache query vector embeddings in backend `LRUCache` (`_embedding_cache`) for 0.001ms instant repeated lookups.
 - **Client Pooling:** Cache and reuse `genai.Client` instances by API key instead of re-instantiating per request.
-- **Fast Model Hierarchy:** Default to `gemini-3.6-flash` or `gemini-2.5-flash` for user-facing interactive endpoints.
+- **Fast Model Hierarchy:** Use `gemini-3.5-flash-lite` first for short interactive generation, with `gemini-3.6-flash` as the quality fallback. Keep model names aligned with the active route implementation.
 
 ### 2. Data Structures & Algorithms (DSA):
 - **True $O(1)$ LRU Caching:** Sentinel DLL + Hash Map implementation in `backend/app/core/dsa_utils.py` and `frontend/src/lib/dsa.ts`.
@@ -156,6 +157,12 @@ Teacher/
 - Do not invent certainty, evidence, or benefits. If a claim needs a source, name the source or remove the claim.
 - Preserve the writer's useful tone and nuance. Make the smallest edit that improves clarity.
 - Keep headings short and descriptive. Avoid decorative emoji, fake contrasts, rhetorical questions, and recap paragraphs.
+
+## 6.2 Change records
+
+- Add a dated entry to `CHANGELOG.md` for user-visible features, removed features, schema changes, security changes, and workflow changes.
+- Record verification results and known environment limitations (for example, unavailable test dependencies).
+- Keep the changelog factual and do not claim that a migration changed existing data unless it was actually run.
 
 ---
 

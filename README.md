@@ -18,7 +18,7 @@
 * **Backend:** Python (FastAPI, Pydantic, Requests/BeautifulSoup)
 * **Frontend:** Next.js (App Router, Tailwind CSS, TypeScript, Lucide Icons)
 * **AI & NLP:** Google Gemini Embeddings (`text-embedding-004`), Hybrid Vector/Lexical Matcher
-* **Database:** PostgreSQL (`pgvector`) / SQLite
+* **Database:** PostgreSQL 17 with `pgvector` (local Docker for development; Supabase only for approved production sync)
 
 ---
 

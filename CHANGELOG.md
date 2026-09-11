@@ -13,6 +13,7 @@
 - Kept official advisor contact links (`mailto:`) in advisor profiles.
 - Applied the `no-ai-slop` writing principles to user-facing copy and project guidance: shorter headings, concrete claims, and fewer generic marketing phrases.
 - Updated README, project guidance, career-discovery copy, homepage metadata, and footer text.
+- Synced project guidance and API metadata with the current PostgreSQL-only development setup, active Gemini model order, `*DB` model class names, and the new changelog workflow.
 
 ### Verification
 
