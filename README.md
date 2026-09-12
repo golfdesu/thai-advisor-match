@@ -50,9 +50,10 @@ python -m tests.test_search
 
 ---
 
-##  Project Architecture
+## 🏛️ Project Architecture & Master Runbook
 
-See [`AGENTS.md`](./AGENTS.md) for full architectural guidelines, data schemas, and scraping standards.
+- **Master Runbook & System Blueprint:** [`PROJECT_STRUCTURE_AND_WORKFLOW.md`](./PROJECT_STRUCTURE_AND_WORKFLOW.md) (Complete Table of Contents, 5-Step Acquisition SOP, Tech Invariants, and CLI Cheat Sheet)
+- **Agent Guidelines & Operational Invariants:** [`AGENTS.md`](./AGENTS.md) (Data schemas, strict coding standards, and audited antipatterns)
 
 ---
 

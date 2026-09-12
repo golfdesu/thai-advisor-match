@@ -3,9 +3,10 @@
 ## ⚠️ ABSOLUTE OPERATIONAL INVARIANTS (ZERO-DEVIATION RULES)
 > [!IMPORTANT]
 > **Strict Process Compliance & Zero-Bypass Policy:**
-> 1. **No Direct Data Synthesis / Manual Shortcuts:** When instructed to acquire, scrape, or enrich faculty, curriculum, or laboratory data, NEVER manually author/synthesize data directly into files or bypass pipelines to save time. You MUST strictly execute the designated Autonomous Pipeline CLI Runners (e.g., `python backend/scripts/agentic_pipeline/cli_runner.py` for `SKILL.state` or established crawlers).
-> 2. **Process Integrity Over Speed:** Always follow the full lifecycle: Real-time Extraction/Crawl → State Reducer (RapidFuzz Dedup & Title Normalization) → Disk Checkpointing (`backend/data/agent_states/`) → Multi-Threaded Vectorization → Database Commit.
-> 3. **Adhere to Defined Skills & Protocols:** If a specialized agent skill exists (e.g., `data-acquire-faculty-elites`, `data-acquire-academic`, `db-optimization`), you MUST execute according to that skill's documented CLI tools and architectural contracts.
+> 1. **Master Architecture & Runbook:** Refer to [`PROJECT_STRUCTURE_AND_WORKFLOW.md`](./PROJECT_STRUCTURE_AND_WORKFLOW.md) for the complete directory index, 5-stage acquisition SOP, and CLI runbooks before taking action in new sessions.
+> 2. **No Direct Data Synthesis / Manual Shortcuts:** When instructed to acquire, scrape, or enrich faculty, curriculum, or laboratory data, NEVER manually author/synthesize data directly into files or bypass pipelines to save time. You MUST strictly execute the designated Autonomous Pipeline CLI Runners (e.g., `python backend/scripts/agentic_pipeline/cli_runner.py` for `SKILL.state` or established crawlers).
+> 3. **Process Integrity Over Speed:** Always follow the full lifecycle: Real-time Extraction/Crawl → State Reducer (RapidFuzz Dedup & Title Normalization) → Disk Checkpointing (`backend/data/agent_states/`) → Multi-Threaded Vectorization → Database Commit.
+> 4. **Adhere to Defined Skills & Protocols:** If a specialized agent skill exists (e.g., `data-acquire-faculty-elites`, `data-acquire-academic`, `db-optimization`), you MUST execute according to that skill's documented CLI tools and architectural contracts.
 
 ---
 

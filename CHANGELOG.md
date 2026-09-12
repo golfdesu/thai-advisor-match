@@ -1,6 +1,253 @@
 # Changelog
 
+## 2026-09-12
+
+### Added
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 19 CU Faculty Gap Closeout) by crawling, reducing, vectorizing, and committing the five reachable Chulalongkorn faculty rosters via `backend/scripts/crawlers/crawl_wave19_cu_gaps.py` (recon confirmed no central CU portal — togethher/research.chula DNS-dead — so the approved Plan A fallback targeted individual faculties):
+  - 5 validated sources, 337 raw profiles checkpointed to `backend/data/agent_states/wave19_cu_gaps_extracted.json` (incremental per-faculty saves): คณะนิติศาสตร์ 53 (WordPress `card-profile` listings `/about/faculty-profiles/` pages 1–7 + `/profile/NNN/` deep enrichment: envelope-svg email, วุฒิการศึกษา, รายวิชาที่สอน), คณะรัฐศาสตร์ 66 (`content?pid=8` server-rendered `single__program` cards with dept headings), คณะเศรษฐศาสตร์ 54 (Thai คณาจารย์ h4 roster + 12 `/portfolio/` detail pages supplying education/expertise/featured-publications), คณะครุศาสตร์ 129 (reverse-engineered `eduadmin.edu.chula.ac.th/api/v1/staffs/` JSON API, `type==TEACHER`), คณะจิตวิทยา 35 (`people-sitemap.xml` -> `/th/people/<slug>/`, academic-rank gate, personal email from the contact `Email` list item).
+  - Reused the Wave 17/18 name-builder discipline (prepend only academic ranks — full and abbreviated leading ศ./รศ./ผศ./อ. + optional ดร.; personal honorifics stripped; job titles routed to `role` only) plus a new `rank_token()` pure-rank extractor so role strings like "อ. ประจำสาขาวิชา…" can never leak into titles — final QA: 0 contaminated names, 0 odd titles.
+  - PDPA: every page carried telephone numbers (Law/Edu/PolSci/Econ/Psy) — all stripped via `RE_PHONE`, 0 phone patterns in persisted emails/fields.
+  - RapidFuzz dedup (`token_set_ratio >= 90`) against the 2,262 existing CU records: enriched **153 existing** records (emails/avatars/departments/education/courses; all 119 Law+PolSci cards matched prior partial coverage) and inserted **184 net new** members (ครุศาสตร์ 124, เศรษฐศาสตร์ 33, จิตวิทยา 27) with 768-dim Gemini embeddings (4 rotating clients, `gemini-embedding-2` primary, `gemini-embedding-001` fallback, 429 exponential backoff; vectorization ~30 s).
+  - Row-level QA on all 184 `cu_wave19_%` records: 184/184 distinct names, 0 null embeddings, 0 missing avatars/titles/university/faculty, 0 malformed emails, only 3 missing emails (source-side blank), Econ portfolio pages contributed real featured_publications/education.
+  - Elevated database total faculty count from 13,831 to **14,015 verified faculty members** (+184 net new), crossing the 14k threshold.
+  - Chulalongkorn University advanced from 2,262 to **2,446 faculty members** (KU remains #1 at 3,272; CMU 1,780, MU 1,296).
+  - Skipped for this round (JS-SPA/legacy with no harvestable static path): นิเทศศาสตร์, อักษรศาสตร์, พยาบาล, ศิลปกรรม, กีฬา — candidates for a future SPA-headed-browser wave.
+  - Verified system integrity with all 34 pytest backend tests passing and Next.js 16 production build passing with 0 errors.
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 18 KUForest Full-Portal Closeout) by crawling, reducing, vectorizing, and committing the entire remaining KU Central Research Directory (`research.ku.ac.th/forest/`) — leftover บางเขน units plus all three regional campuses — via `backend/scripts/crawlers/crawl_wave18_ku_forest_regional.py`:
+  - 20 targets across 4 campuses: บางเขน (ศึกษาศาสตร์ 196, สถาปัตยกรรมศาสตร์ 53, บัณฑิตวิทยาลัย 3, สถาบันค้นคว้าและพัฒนาผลิตภัณฑ์อาหาร 68, สำนักหอสมุด 14, สำนักบริการคอมพิวเตอร์ 23), กำแพงแสน (เกษตร 248, วิศวกรรมศาสตร์ 121, ศิลปศาสตร์และวิทยาศาสตร์ 168, ศึกษาศาสตร์และพัฒนศาสตร์ 87, อุตสาหกรรมบริการ 47), ศรีราชา (วิศวกรรมศาสตร์ 92, วิทยาการจัดการ 89, วิทยาศาสตร์ 73, พาณิชยนาวีนานาชาติ 35, เศรษฐศาสตร์ 24), สกลนคร (วิทยาศาสตร์และวิศวกรรมศาสตร์ 117, ศิลปศาสตร์และวิทยาการจัดการ 72, ทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร 65, สาธารณสุขศาสตร์ 39) = 1,634 raw profiles checkpointed to `backend/data/agent_states/wave18_ku_forest_regional_extracted.json` (incremental per-faculty saves).
+  - Reused the Wave 17 ASP.NET traversal engine (CampusID/FacultyID/SectionID enumeration -> Persons block -> Person.aspx deep enrichment) with added global cross-section `seen_pid` dedup and the Wave 17 name-builder discipline (academic-rank gate + นาย/นาง/นางสาว stripping) — final QA: 0 contaminated names.
+  - RapidFuzz dedup (`token_set_ratio >= 90`) against the 1,643 existing KU records: enriched 5 existing, inserted **1,629 net new** members with 768-dim Gemini embeddings (4 rotating clients, 429 backoff, `gemini-embedding-001` fallback). Vectorization completed in ~9 minutes at ~200–600 rec/min.
+  - Row-level QA on all 1,629 `ku_wave18_%` records: 0 contaminated names, 0 missing embeddings, 0 missing avatars, 0 missing research interests, 0 missing emails, 0 missing education.
+  - Elevated database total faculty count from 12,202 to **13,831 verified faculty members** (+1,629 net new), closing out the entire KUForest portal in one wave.
+  - Kasetsart University advanced from 1,643 to **3,272 faculty members**, overtaking Chulalongkorn (2,262) as the **#1 institution** in the database (CMU 1,780, MU 1,296).
+  - Verified system integrity with all 34 pytest backend tests passing and Next.js 16 production build passing with 0 errors.
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 17 KU Forest) by crawling, reducing, vectorizing, and committing Kasetsart University (บางเขน) faculty via the reverse-engineered KU Central Research Directory portal (`research.ku.ac.th/forest/`):
+  - Added `backend/scripts/crawlers/crawl_wave17_ku_forest.py` implementing full ASP.NET directory traversal: `Department.aspx?CampusId=01&FacultyID=XX` section enumeration -> per-department `Persons` block parsing -> deep `Person.aspx?id=` profile enrichment (Education list, Expertise Cloud tags, Interest, Scopus h-index).
+  - Covered 6 target faculties (523 raw profiles): คณะมนุษยศาสตร์ (175), คณะสังคมศาสตร์ (114), คณะเศรษฐศาสตร์ (82), คณะบริหารธุรกิจ (60), คณะสิ่งแวดล้อม (45), คณะเทคนิคการสัตวแพทย์ (30), with department names harvested live from each section heading.
+  - Research interests sourced from real per-person Expertise Cloud + keyword metadata (up to 25 tags each) instead of synthetic department templates; 0 records with empty interests.
+  - PDPA compliance: portal-displayed telephone numbers are regex-stripped and never persisted; only official `@ku.ac.th` emails ingested.
+  - Checkpointed to `backend/data/agent_states/wave17_ku_forest_extracted.json` with incremental per-faculty saves for crash-resume.
+  - Applied boundary-safe Thai title normalization and RapidFuzz deduplication (`token_set_ratio >= 90`) against the 1,137 existing KU records: enriched 17 existing records (emails/avatars/departments), inserted 506 net new members with 768-dim Gemini embeddings via 4-client rotating key pool with 429 exponential backoff and `gemini-embedding-001` fallback.
+  - Name-builder defect caught in first-run QA (127 rows contaminated with job titles/honorifics, e.g. "อ. นักวิจัย ปฏิบัติการ นาย ..."): fixed `build_record` to prepend only recognized academic ranks and strip นาย/นาง/นางสาว, deleted the first-run rows, and re-ingested cleanly (final QA: 0 contaminated, 0 null embeddings, 0 missing avatars, 3 missing emails).
+  - Elevated database total faculty count from 11,696 to **12,202 verified faculty members** (+506 net new).
+  - Kasetsart University advanced from 1,137 to **1,643 faculty members**, overtaking Mahidol (1,296) as #3 in the database.
+  - Verified system integrity with all 34 pytest backend tests passing and Next.js 16 production build passing with 0 errors.
+
 ## 2026-09-11
+
+### Added
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 16 Flagship Faculties Expansion) by crawling, reducing, enriching, vectorizing, and committing faculty members across premier national institutions:
+  - Added `backend/scripts/crawlers/crawl_wave16_flagships.py` executing autonomous multi-portal extraction across:
+    1. King Mongkut's Institute of Technology Ladkrabang School of Architecture, Art, and Design (คณะสถาปัตยกรรม ศิลปะและการออกแบบ สจล. - KMITL AAD): Multi-department roster extraction via `aad.kmitl.ac.th/personnel/`, harvesting 153 clean faculty profiles across Architecture, Interior Architecture, Industrial Design, Communication Design, Fine Arts, and Urban Planning with high-resolution portraits and design research domains.
+    2. King Mongkut's Institute of Technology Ladkrabang School of Industrial Education and Technology (คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี สจล. - KMITL SIET): Structured heading parser via `siet.kmitl.ac.th/staffs`, harvesting 96 clean faculty profiles across Engineering Education, Architectural Education, Agricultural Education, and Educational Technology with department affiliations and profile headshots.
+    3. Chulalongkorn University Faculty of Pharmaceutical Sciences (คณะเภสัชศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย - CU Pharmacy): Portal miner via `pharm.chula.ac.th/?p=195` across all 7 departments, harvesting 99 rich faculty profiles with bilingual Thai/English names, academic titles, official `@pharm.chula.ac.th` / `@chula.ac.th` emails, headshots, and specialized pharmaceutical research interests.
+    4. Khon Kaen University Faculty of Pharmaceutical Sciences (คณะเภสัชศาสตร์ มหาวิทยาลัยขอนแก่น - KKU Pharmacy): Roster extraction via `pharmacy.kku.ac.th/academic-personnel/`, harvesting 63 verified pharmaceutical professors with specialized titles (ศ.ดร.ภก., รศ.ดร.ภญ., ผศ.ดร.ภก.), official `@kku.ac.th` emails, and academic ranks.
+    5. Thammasat School of Engineering (คณะวิศวกรรมศาสตร์ มหาวิทยาลัยธรรมศาสตร์ - TSE): Departmental portal traversal across Electrical & Computer Engineering (`ece.engr.tu.ac.th/lecturer` - 34), Industrial Engineering & Management (`iem.engr.tu.ac.th/personnel/` - 17), Mechanical Engineering (`me.engr.tu.ac.th/staff/professor_rangsit` & `professor_pattaya` - 6), Civil Engineering (`ce.engr.tu.ac.th/staff/*` - 9), and Chemical Engineering (`che.engr.tu.ac.th/staff/professor` - 14), harvesting 80 engineering professors with departmental links and laboratory fields.
+  - Checkpointed 491 raw extractions to `backend/data/agent_states/wave16_flagships_extracted.json`.
+  - Applied boundary-safe Thai title normalization, RapidFuzz deduplication (`token_set_ratio >= 90`), and profile enrichment: updated 65 existing faculty records with verified official emails, headshots, and departmental affiliations; inserted 426 net new members with 768-dim Gemini vector embeddings.
+  - Implemented multi-client thread-safe Gemini API key rotation across configured keys (`settings.GEMINI_API_KEYS`) with exponential backoff on HTTP 429 and automatic fallback from `gemini-embedding-2` to `gemini-embedding-001`.
+  - Elevated database total faculty count from 11,270 to **11,696 verified faculty members** (+426 net new) with 0 null embeddings and 0 empty research interests.
+  - Major institutional increases in Wave 16:
+    - KMITL jumped from 321 to **568 faculty members** (+247 net new), solidifying comprehensive representation of design, education, and technology.
+    - Chulalongkorn University advanced from 2,130 to **2,262 faculty members** (+132 members).
+    - Khon Kaen University expanded from 708 to **770 faculty members** (+62 members).
+    - Thammasat University advanced from 720 to **742 faculty members** (+22 members).
+  - Verified system integrity with all 34 pytest backend tests passing and Next.js 16 production build passing with 0 errors.
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 15 Flagship Faculties Expansion) by crawling, reducing, enriching, vectorizing, and committing faculty members across premier national faculties:
+  - Added `backend/scripts/crawlers/crawl_wave15_flagships.py` executing autonomous multi-portal extraction across:
+    1. Chulalongkorn University Faculty of Dentistry (คณะทันตแพทยศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย - CU Dentistry): HTML pagination crawler over 13 pages (`dent.chula.ac.th/about/faculty/page/{1..13}/`), harvesting 150 clean faculty profiles across all 16 dental departments with specialized dental titles (รศ.ทพญ., ศ.ทพ.ดร., ผศ.ทพ.), official profile links, and high-resolution portraits.
+    2. Chulalongkorn University Faculty of Allied Health Sciences (คณะสหเวชศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย - CU AHS): Multi-page crawler and deep profile scraper (`ahs.chula.ac.th/academic-staff/*`), harvesting 64 rich faculty profiles across Medical Technology, Physical Therapy, Nutrition, and Radiologic Technology, with official `@chula.ac.th` emails, research interests, degrees, and publication citations.
+    3. Prince of Songkla University Faculty of Medicine (คณะแพทยศาสตร์ มหาวิทยาลัยสงขลานครินทร์ - PSU Medicine): Extracted 78 clinical doctors and medical professors across 13 internal medicine subspecialty units via `internal-medicine.psu.ac.th` and 27 pathology professors via `pathology.medicine.psu.ac.th/home/about-pathology/teacher/`, capturing 105 clean profiles.
+    4. Kasetsart University Faculty of Agro-Industry (คณะอุตสาหกรรมเกษตร มหาวิทยาลัยเกษตรศาสตร์ - KU Agro-Industry): Crawled all 7 departments (Biotechnology, Food Science & Technology, Packaging & Materials Technology, Product Development, Textile Science, Agro-Industrial Technology, AIIP) via `new.agro.ku.ac.th`, harvesting 121 clean faculty profiles with official `@ku.ac.th` emails, research specializations, and CV links.
+    5. Kasetsart University Faculty of Veterinary Medicine (คณะสัตวแพทยศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ - KU Veterinary Medicine): Crawled all 10 departments (Anatomy, Physiology, Pharmacology, Pathology, Parasitology, Microbiology & Immunology, Companion Animal Clinical Sciences, Large Animal & Wildlife Clinical Sciences, Animal Production Medicine, Veterinary Public Health) via `vet.ku.ac.th`, harvesting 105 clean faculty profiles with specialized veterinary titles (น.สพ., สพ.ญ.), education history, and research fields.
+    6. Kasetsart University Faculty of Forestry (คณะวนศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ - KU Forestry): Reverse-engineered WordPress Admin AJAX API (`forest.ku.ac.th/wp-admin/admin-ajax.php`) across 6 departments (`dep_dfm_type`, `dep_bioff_type`, `dep_engine_type`, `dep_prod_type`, `dep_silvicul_type`, `dep_conser_type`), capturing 74 clean faculty profiles with bilingual Thai/English names, official emails, and headshots.
+  - Checkpointed 619 raw extractions to `backend/data/agent_states/wave15_flagships_extracted.json`.
+  - Applied boundary-safe Thai title normalization, RapidFuzz deduplication (`token_set_ratio >= 90`), and profile enrichment: updated 41 existing faculty records with verified official emails, headshots, and departmental affiliations; inserted 557 net new members with 768-dim Gemini vector embeddings.
+  - Elevated database total faculty count from 10,713 to **11,270 verified faculty members** (+557 net new) with 0 null embeddings and 0 empty research interests.
+  - Updated key faculty totals in local PostgreSQL: CU Dentistry (173), CU Allied Health Sciences (82), PSU Medicine (113), KU Agro-Industry (142), KU Veterinary Medicine (116), KU Forestry (91).
+  - Institutional totals after Wave 15: CU (2,130 - crossing the 2,100+ milestone), CMU (1,780), KU (1,213 - crossing into 1,200+), MU (1,296), TU (720), KKU (708), PSU (608 - crossing the 600+ milestone), KMITL (321), SUT (264), NU (251), TSU (220), KMUTNB (218), WU (210), KMUTT (207), SWU (198).
+  - Verified system integrity with all 34 pytest backend tests passing and Next.js 16 production build passing with 0 errors.
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 14 Flagship Faculties Expansion) by crawling, reducing, enriching, vectorizing, and committing faculty members across premier national institutions:
+  - Added `backend/scripts/crawlers/crawl_wave14_flagships.py` executing autonomous multi-portal extraction across:
+    1. Mahidol University Faculty of Science (คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล - MU Science): Central expertise directory mining (`search_th.php?q=...`) across Chemistry, Physics, Biology, Biotechnology, Biochemistry, Pharmacology, Pathobiology, and Anatomy, harvesting 305 clean faculty profiles with bilingual Thai/English names, Scopus metrics (h-index, total citations, scholarly output), education history, and research expertise keywords.
+    2. Khon Kaen University Faculty of Science (คณะวิทยาศาสตร์ มหาวิทยาลัยขอนแก่น - KKU Science): Reverse-engineered the researcher portal (`science-kku-researcher.vercel.app`) connecting to live Google Sheets CSV export (`gviz/tq?tqx=out:csv`), harvesting 197 clean faculty profiles across Computer Science, Mathematics, Physics, Chemistry, Biology, and Environmental Science with official `@kku.ac.th` emails, headshots, and Scopus author links.
+    3. Khon Kaen University Faculty of Agriculture (คณะเกษตรศาสตร์ มหาวิทยาลัยขอนแก่น - KKU Agriculture): Extracted 95 clean faculty profiles across 6 academic divisions (Agronomy, Horticulture, Animal Science, Agricultural Economics, Agricultural Innovation, Entomology and Plant Pathology) via `ag.kku.ac.th`.
+    4. Chulalongkorn University Faculty of Science (คณะวิทยาศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย - CU Science): Multi-department roster extraction across Chemistry, Mathematics & Computer Science, Physics, Biology, and Food Technology, harvesting 209 clean faculty profiles with normalized academic titles, research areas, and contact details.
+  - Checkpointed 806 raw extractions to `backend/data/agent_states/wave14_flagships_extracted.json`.
+  - Applied boundary-safe Thai title normalization, RapidFuzz deduplication (`token_set_ratio >= 90`), and profile enrichment: updated 148 existing faculty records with verified official emails, headshots, and departmental affiliations; inserted 658 net new members with 768-dim Gemini vector embeddings.
+  - Implemented multi-client thread-safe Gemini API key rotation across configured keys (`settings.GEMINI_API_KEYS`) with exponential backoff on HTTP 429 and automatic fallback from `gemini-embedding-2` to `gemini-embedding-001`.
+  - Elevated database total faculty count from 10,055 to **10,713 verified faculty members** (+658 net new) with 0 null embeddings and 0 empty research interests.
+  - Institutional totals after Wave 14: CU (1,972 - advancing toward 2,000), CMU (1,780), MU (1,296), KU (879), TU (720), KKU (708 - crossing the 700+ milestone), PSU (504), KMITL (321), SUT (264), NU (251), TSU (220), KMUTNB (218), WU (210), KMUTT (207), SWU (198).
+  - Verified system integrity with all 34 pytest backend tests passing and Next.js 16 production build passing with 0 errors.
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 13 Flagship Faculties & 10,000+ Faculty Milestone) by crawling, reducing, enriching, vectorizing, and committing faculty members across premier national institutions:
+  - Added `backend/scripts/crawlers/crawl_wave13_flagships.py` executing autonomous multi-portal extraction across:
+    1. Chulalongkorn University Faculty of Engineering (คณะวิศวกรรมศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย - Intania CU): Crawled departmental directories across Computer Engineering (CP - 44), Electrical Engineering (EE - 52 via headless WordPress REST API `/wp-json/wp/v2/pages?slug=faculty`), Civil Engineering (Civil - 34), Industrial Engineering (IE - 41), Mining and Petroleum Engineering (Mining - 12), Survey Engineering (Survey - 13), and Water Resources Engineering (Water - 9), harvesting 186 clean faculty profiles with academic titles, degrees, and specialized research areas.
+    2. Kasetsart University Faculty of Science (คณะวิทยาศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ - KU Science): Multi-department roster extraction across all 10 departments: Physics (37), Mathematics (28), Genetics (21), Statistics (17), Chemistry (Physical, Inorganic, Organic, Analytical, Industrial - 57), Biochemistry (19), Botany (16), Applied Radiation and Isotopes (15), Earth Sciences (20), and Zoology (30), harvesting 244 clean faculty profiles.
+    3. Prince of Songkla University Faculty of Agro-Industry (คณะอุตสาหกรรมเกษตร มหาวิทยาลัยสงขลานครินทร์ - PSU Agro-Industry): Central staff roster extraction across Food Science, Agro-Industrial Biotechnology, and Material Product Development, harvesting 47 clean faculty profiles.
+  - Checkpointed 477 raw extractions to `backend/data/agent_states/wave13_flagships_extracted.json`.
+  - Applied boundary-safe Thai title normalization, RapidFuzz deduplication (`token_set_ratio >= 90`), and profile enrichment: updated 165 existing faculty records with verified official emails, headshots, and departmental affiliations; inserted 358 net new members with 768-dim Gemini vector embeddings.
+  - **Surpassed the historic 10,000+ faculty milestone:** Elevated database total faculty count from 9,697 to **10,055 verified faculty members** with 0 null embeddings and 0 empty research interests.
+  - Institutional totals after Wave 13: CU (1,783 - taking the #1 spot nationally), CMU (1,780), MU (1,066), KU (879), TU (720), PSU (504 - crossing the 500+ milestone), KKU (469), KMITL (321), SUT (264), NU (251), TSU (220), KMUTNB (218), WU (210), KMUTT (207), SWU (198).
+  - Verified system integrity with 34/34 passing pytest backend tests and Next.js 16 production build passing with 0 errors.
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 12 Flagship Faculties Expansion) by crawling, reducing, enriching, vectorizing, and committing faculty members across premier national faculties:
+  - Added `backend/scripts/crawlers/crawl_wave12_flagships.py` executing autonomous multi-portal extraction across:
+    1. Mahidol University Faculty of Pharmacy (คณะเภสัชศาสตร์ มหาวิทยาลัยมหิดล - MU Pharmacy): Crawled all 10 departmental rosters (Microbiology, Biochemistry, Clinical Pharmacy, Medicinal Chemistry, Pharmaceutical Botany, Pharmacology, Pharmacognosy, Industrial Pharmacy, Physiology, Food Chemistry) and individual profile endpoints (`/th/staff/*@mahidol.ac.th`), harvesting 110 clean faculty profiles with official emails, headshots, specialized research interests, and featured publications up to 2026.
+    2. Kasetsart University Faculty of Agriculture (คณะเกษตร มหาวิทยาลัยเกษตรศาสตร์ - KU Agriculture): Extracted central research personnel directory across 8 agricultural fields, capturing 155 clean faculty profiles with normalized academic titles and crop/soil/smart-farming specializations.
+    3. Kasetsart University Faculty of Engineering (คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ - KU Engineering): Crawled Computer Engineering (CPE - 26), Chemical Engineering (Chem - 25), and Aerospace Engineering (Aero - 15), harvesting 66 clean faculty profiles.
+    4. Khon Kaen University Faculty of Engineering (คณะวิศวกรรมศาสตร์ มหาวิทยาลัยขอนแก่น - KKU Engineering): Navigated through meta-refresh redirect (`/web`) to departmental staff directories for Mechanical (ME - 21), Industrial (IE - 19), and Agricultural Engineering (AE - 12), harvesting 52 clean faculty profiles.
+    5. King Mongkut's University of Technology Thonburi (มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี - KMUTT): Crawled Computer Engineering (CPE) departmental directory and individual staff profile pages, filtering out support staff to harvest 28 clean academic faculty profiles with official `@kmutt.ac.th` emails and AI/hardware research interests.
+  - Checkpointed 411 raw extractions to `backend/data/agent_states/wave12_flagships_extracted.json`.
+  - Applied boundary-safe Thai title normalization, RapidFuzz deduplication (`token_set_ratio >= 90`), and profile enrichment: updated 40 existing faculty records with verified official emails, headshots, and departmental affiliations; inserted 371 net new members.
+  - Generated 768-dimensional Gemini vector embeddings using multi-key client rotation and exponential backoff retry across configured API keys.
+  - Elevated database total faculty count from 9,326 to 9,697 members (+371 net new) with 0 null embeddings and 0 empty research interests.
+  - Institutional totals after Wave 12: CMU (1,780), CU (1,642), MU (1,066 - crossing the 1,000+ milestone into the elite tier), TU (720), KU (708), KKU (469), PSU (458), KMITL (321), SUT (264), NU (251), TSU (220), KMUTNB (218), WU (210), KMUTT (207), SWU (198).
+  - Verified system integrity with all 34 pytest backend tests passing and Next.js 16 frontend build passing with 0 errors.
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 11 Underrepresented Flagship Faculties & Consortiums) by crawling, reducing, enriching, vectorizing, and committing faculty members across top national institutions:
+  - Added `backend/scripts/crawlers/crawl_wave11_flagships.py` executing autonomous multi-portal extraction across:
+    1. Chulalongkorn Business School (คณะพาณิชยศาสตร์และการบัญชี จุฬาฯ - CBS Chula): Reverse-engineered Next.js App Router chunks to access direct public REST API (`/api/public/faculty`), harvesting 536 faculty profiles (460 clean faculties) across 5 departments: Accountancy, Commerce, Banking and Finance, Marketing, and Statistics.
+    2. Chulalongkorn Faculty of Architecture (คณะสถาปัตยกรรมศาสตร์ จุฬาฯ - Arch CU): Traversed individual faculty profile endpoints across 6 departments (Architecture, Landscape Architecture, Urban and Regional Planning, Interior Architecture, Industrial Design, and Housing) capturing 35 clean faculty profiles.
+    3. Prince of Songkla University Faculty of Engineering (คณะวิศวกรรมศาสตร์ มหาวิทยาลัยสงขลานครินทร์ - PSU Engineering): Crawled all 7 departmental portals (Computer Engineering, Civil & Environmental Engineering, Mechanical & Mechatronics Engineering, Electrical & Biomedical Engineering, Chemical Engineering, Mining & Materials Engineering, and Industrial Engineering), harvesting 96 clean faculty profiles with official `@eng.psu.ac.th` and `@coe.psu.ac.th` contacts.
+    4. Kasetsart University Faculty of Fisheries (คณะประมง มหาวิทยาลัยเกษตรศาสตร์ - KU Fisheries): Crawled all 5 departments (Fisheries Management, Fishery Biology, Fishery Products, Aquaculture, and Marine Science), extracting 64 clean faculty profiles.
+    5. Chiang Mai University Data Science Consortium (ศูนย์วิทยาการข้อมูล มหาวิทยาลัยเชียงใหม่ - CMU Data Science): Extracted 75 interdisciplinary lecturers and supervisors, tagging 27 net new members with specialized data science research fields.
+  - Checkpointed 736 raw extractions to `backend/data/agent_states/wave11_flagships_extracted.json`.
+  - Applied boundary-safe Thai title normalization, RapidFuzz deduplication (`token_set_ratio >= 90`), and profile enrichment: updated 73 existing faculty records with verified official emails, headshots, and departmental affiliations; inserted 660 net new members.
+  - Generated 768-dimensional Gemini vector embeddings using multi-key client rotation and exponential backoff retry across configured API keys.
+  - Elevated database total faculty count from 8,666 to 9,326 members (+660 net new, crossing the 9,300+ milestone) with 0 null embeddings and 0 empty research interests.
+  - Institutional totals after Wave 11: CMU (1,780), CU (1,642), MU (956), TU (720), KU (517), PSU (458), KKU (423).
+  - Verified system integrity with all 34 pytest backend tests passing and Next.js 16 frontend build passing with 0 errors.
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 10 CMU Faculty of Engineering Comprehensive Ingestion) by crawling, reducing, enriching, vectorizing, and committing faculty members across all 7 departments of Faculty of Engineering, Chiang Mai University:
+  - Added `backend/scripts/crawlers/crawl_cmu_engineering.py` executing autonomous multi-department extraction across:
+    1. Department of Industrial Engineering (ภาควิชาวิศวกรรมอุตสาหการ - IE): Extracted 36 faculty profiles via Next.js REST/SSG `__NEXT_DATA__` including full bilingual academic titles, official `@eng.cmu.ac.th` emails, structured education degrees, Scopus scholarly output, citation counts, and research areas.
+    2. Department of Civil Engineering (ภาควิชาวิศวกรรมโยธา - Civil): Extracted 28 faculty profiles from Elementor grid DOM across Structural, Geotechnical, Transportation, and Water Resources disciplines with official emails, headshots, and specialized research areas.
+    3. Department of Mechanical Engineering (ภาควิชาวิศวกรรมเครื่องกล - ME): Extracted 55 faculty profiles parsing responsive card DOM and obfuscated canvas email scripts, capturing individual profile links, avatars, and research interests in Thermal-Fluid Science, Robotics, and CFD.
+    4. Department of Computer Engineering (ภาควิชาวิศวกรรมคอมพิวเตอร์ - CPE): Extracted 28 faculty profiles with obfuscated email parsing, headshots, and AI/Systems specializations.
+    5. Department of Electrical Engineering (ภาควิชาวิศวกรรมไฟฟ้า - EE): Extracted 19 faculty profiles across Smart Grids, Power Electronics, and Telecommunications with official emails and profile links.
+    6. Department of Environmental Engineering (ภาควิชาวิศวกรรมสิ่งแวดล้อม - ENV): Extracted 12 faculty profiles across Water/Wastewater, Air Pollution/PM2.5, and Hazardous Waste Management.
+    7. Department of Mining and Petroleum Engineering (ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม - Mining): Extracted 7 faculty profiles across Rock Mechanics, Mineral Processing, and Geo-energy.
+  - Checkpointed 185 raw extractions to `backend/data/agent_states/cmu_engineering_extracted.json`.
+  - Applied boundary-safe Thai title normalization, RapidFuzz deduplication (`token_set_ratio >= 90`): enriched and updated 47 existing incomplete records with official emails, images, and research interests; inserted 138 net new members with 768-dim Gemini vector embeddings.
+  - Standardized departmental naming (`ภาควิชาวิศวกรรม...`) across all 206 engineering records.
+  - Elevated CMU Engineering faculty count from 68 to 206 members (+138 net new).
+  - Elevated CMU total faculty count from 1,615 to 1,753 members.
+  - Elevated database total faculty count from 8,528 to 8,666 members with 0 null embeddings and 0 empty research interests.
+  - Verified 104/104 (100.0%) research lab linkages and passing test suite (34/34 pytest passed, Next.js build clean).
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 9 CMU Elite Flagship Faculties) by crawling, reducing, vectorizing, and ingesting 919 net verified faculty members for Chiang Mai University (CMU):
+  - Added `backend/scripts/crawlers/crawl_cmu_elite_faculties.py` executing autonomous multi-faculty extraction across:
+    1. Faculty of Medicine (คณะแพทยศาสตร์): Internal Medicine, Pediatrics, Surgery, Orthopedics, Pathology, Physiology, Family Medicine, Community Medicine, Rehabilitation Medicine. Expanded CMU Medicine from 28 to 478 members (+450).
+    2. Faculty of Science (คณะวิทยาศาสตร์): Chemistry (with full research interests, room numbers, emails), Physics & Materials Science, Biology, and Mathematics. Expanded CMU Science from 55 to 256 members (+201).
+    3. Faculty of Dentistry (คณะทันตแพทยศาสตร์): 12 specialized departments (Oral Medicine, Orthodontics, Pedodontics, Endodontics, Prosthodontics, Oral Surgery, Periodontology, Operative, etc.). Expanded CMU Dentistry from 3 to 169 members (+166).
+    4. Faculty of Economics (คณะเศรษฐศาสตร์): Complete academic directory with official `@cmu.ac.th` emails and webp profiles. Expanded CMU Economics from 4 to 43 members (+39).
+    5. Faculty of Associated Medical Sciences (คณะเทคนิคการแพทย์ - AMS): Occupational Therapy department. Expanded CMU AMS from 2 to 40 members (+38).
+    6. Faculty of Mass Communication (คณะการสื่อสารมวลชน): Complete roster with media division specializations and official emails. Expanded CMU Mass Comm from 3 to 36 members (+33).
+    7. Faculty of Agro-Industry (คณะอุตสาหกรรมเกษตร): Reconciled legacy misclassification and linked Food Science, Food Engineering, Biotechnology, Product Development, and Packaging Technology. Expanded CMU Agro-Industry from 2 to 81 members (+79).
+  - Checkpointed 986 raw extractions to `backend/data/agent_states/cmu_extracted.json`.
+  - Applied boundary-safe Thai title normalization, RapidFuzz deduplication against existing database records (`token_set_ratio >= 90`), and official contact extraction.
+  - Generated 768-dimensional vector embeddings with dual-model fallback (`gemini-embedding-2` to `gemini-embedding-001`).
+  - Committed clean records to local PostgreSQL (`localhost:5432`), elevating CMU faculty count from 689 to 1,615 (the #1 most complete regional comprehensive university in Thailand), and total faculties in database from 7,609 to 8,528 with zero null embeddings and zero empty research interests.
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 8 Elite Six Groups) by crawling, reducing, vectorizing, and ingesting 380 verified faculty members across 6 premier institutional groups:
+  - Added `backend/scripts/crawlers/crawl_elite_six_groups.py` executing autonomous multi-group extraction across:
+    1. King Mongkut's University of Technology Thonburi (KMUTT): Faculty of Science (Microbiology, Chemistry) and Faculty of Engineering (12 departmental chairpersons & executive board). KMUTT expanded from 138 to 190 members (+52).
+    2. King Mongkut's University of Technology North Bangkok (KMUTNB): Faculty of Applied Science (Computer and Information Science, Industrial Chemistry, Applied Statistics). KMUTNB expanded from 170 to 218 members (+48).
+    3. Kasetsart University (KU): Faculty of Science (Department Heads, Executive Board, Science Committee, and Chemistry Divisions: Organic, Inorganic, Physical, Analytical, Industrial). KU expanded from 363 to 453 members (+90).
+    4. Thammasat University (TU): Faculty of Architecture and Planning (TDS - Architecture, Interior Architecture, Urban Planning & Environmental Design, Landscape Architecture, Real Estate Innovation, Urban Design). TU expanded from 661 to 720 members (+59).
+    5. Mahidol University (MU): Faculty of Information and Communication Technology (ICT - Computer Science Academic Group & Board of Administrators). MU expanded from 910 to 956 members (+46).
+    6. Chulalongkorn University (CU) & Khon Kaen University (KKU): Chulalongkorn Faculty of Medicine (9-page directory), Chulalongkorn Faculty of Communication Arts (5 departments: Journalism, Mass Comm, PR, Speech/Theater, Motion Pictures), and Khon Kaen University Faculty of Engineering (Computer Engineering). CU expanded from 1,093 to 1,169 (+76); KKU expanded from 414 to 423 (+9).
+  - Checkpointed 445 raw extractions to `backend/data/agent_states/six_groups_extracted.json`.
+  - Applied boundary-safe Thai title normalization, RapidFuzz deduplication against existing database records (`token_set_ratio >= 90`), and official contact extraction.
+  - Generated 768-dimensional vector embeddings with dual-model fallback (`gemini-embedding-2` to `gemini-embedding-001`).
+  - Committed 380 clean records to local PostgreSQL (`localhost:5432`), elevating total faculties from 7,229 to 7,609 with zero null embeddings and zero empty research interests.
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 7 MJU Engineering, Agro-Industry, InfoComm & TU Medicine, Allied Health Sciences) by crawling, reducing, vectorizing, and ingesting 209 verified faculty members:
+  - Added `backend/scripts/crawlers/crawl_mju_tu_faculties.py` crawling Maejo University (MJU Faculty of Engineering and Agro-Industry across 8 departments including Food Engineering, Postharvest, Agricultural Engineering; MJU Faculty of Information and Communication) and Thammasat University (TU Faculty of Medicine across basic and preclinical sciences, public health, and applied Thai traditional medicine; TU Faculty of Allied Health Sciences across Medical Technology, Physical Therapy, Sports Science, and Radiologic Technology).
+  - Traversed ASP.NET WTMS directory portals for MJU and WordPress AWSM team grids / decoupled subdomains for TU Medicine and Allied Health.
+  - Checkpointed 209 raw extractions to `backend/data/agent_states/mju_tu_extracted.json`.
+  - Applied boundary-safe Thai title normalization, RapidFuzz deduplication against existing database records (`token_set_ratio >= 90`), and official contact extraction.
+  - Generated 768-dimensional vector embeddings with dual-model fallback (`gemini-embedding-2` to `gemini-embedding-001`).
+  - Committed 209 clean records to local PostgreSQL (`localhost:5432`), elevating total faculties from 7,020 to 7,229 (crossing the 7,200+ milestone) with zero null embeddings and zero empty research interests.
+
+- Added Bidirectional Advisor ↔ Research Lab Interlinking:
+  - Added `AffiliatedLabSchema` and injected `research_labs: List[AffiliatedLabSchema]` into `FacultyMember` and `has_research_lab: Optional[bool]` into `FacultyCardSchema` in `backend/app/models/schema.py`.
+  - Added `backend/scripts/reconcile_lab_advisors.py` reconciling all 104 research laboratories in local PostgreSQL with verified `FacultyDB.id` pointers, achieving 100.0% verified lead advisor linkage (104/104 labs) and 141 total faculty member linkages.
+  - Enhanced `backend/app/api/routes_faculty.py` with `get_lab_faculty_ids` in-memory set cache and updated `get_faculty_profile` to query and return affiliated labs (`is_lead` flag, domains, open positions).
+  - Enhanced `backend/app/api/routes_search.py` with `_enrich_results_with_labs` batch-loading affiliated labs for top-K candidates without N+1 query overhead, plus automatic synergy badge injection (`🔬 หัวหน้าห้องปฏิบัติการวิจัยชั้นนำ (Lab Director)` / `🔬 สังกัดห้องปฏิบัติการวิจัยชั้นนำ`).
+  - Added TypeScript contracts in `frontend/src/types/index.ts`: `AffiliatedLab` interface, `research_labs?: AffiliatedLab[]` and `has_research_lab?: boolean` on `FacultyMember`.
+  - Updated `frontend/src/app/advisor/[id]/page.tsx` rendering the "ห้องปฏิบัติการวิจัยและศูนย์ความเป็นเลิศ (Research Laboratories)" section with links to `/labs/[id]`, lab role badges (`Lab Director` vs `Core Member`), research domain chips, open position recruitment indicators, and right-column lab cards.
+  - Updated `frontend/src/components/AdvisorCard.tsx` with dedicated research lab affiliation chips linking directly to `/labs/[id]`, plus "ศูนย์วิจัย" status chips.
+  - Added test case `test_advisor_lab_interlinking` in `backend/tests/test_search.py` validating full-stack relational integrity.
+
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 6 PSU Science, NU Engineering, NU Agriculture) by crawling, reducing, vectorizing, and ingesting 178 verified faculty members:
+  - Added `backend/scripts/crawlers/crawl_psu_nu_faculties.py` crawling Prince of Songkla University (PSU Faculty of Science, 202 academic members across Physical Science, Biological Science, Computational Science, Health and Applied Sciences), Naresuan University (NU Faculty of Engineering, 102 members across Civil, Industrial, Mechanical, Electrical & Computer), and Naresuan University (NU Faculty of Agriculture, Natural Resources and Environment, 71 members across Agro-Industry, Agricultural Science, Natural Resources).
+  - Checkpointed 375 raw extractions to `backend/data/agent_states/psu_nu_extracted.json`.
+  - Filtered duplicates via RapidFuzz fuzzy token matching (`token_set_ratio >= 90`).
+  - Generated 768-dimensional vector embeddings with automatic dual-model rate-limit fallback (`gemini-embedding-2` to `gemini-embedding-001`).
+  - Committed 178 clean records to local PostgreSQL, elevating total faculties from 6,842 to 7,020 (crossing the 7,000+ milestone) with zero null embeddings.
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 5 KMITL Science, MSU Engineering, MFU IT) by crawling, reducing, vectorizing, and ingesting 271 verified faculty members:
+  - Added `backend/scripts/crawlers/crawl_kmitl_msu_mfu_faculties.py` crawling King Mongkut's Institute of Technology Ladkrabang (KMITL Faculty of Science, 173 members across Computer Science, Mathematics, Chemistry, Physics, Biology), Mahasarakham University (MSU Faculty of Engineering, 60 members across 7 departments with Cloudflare email de-obfuscation), and Mae Fah Luang University (MFU School of Information Technology, 41 members).
+  - Checkpointed 274 raw extractions to `backend/data/agent_states/kmitl_msu_mfu_extracted.json`.
+  - Filtered 3 duplicate profiles via RapidFuzz token matching (`token_set_ratio >= 90`).
+  - Generated 768-dimensional vector embeddings with automatic dual-model rate-limit fallback (`gemini-embedding-2` to `gemini-embedding-001`).
+  - Committed 271 clean records to local PostgreSQL, elevating total faculties from 6,571 to 6,842 with zero null embeddings.
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 4 NIDA & SUT) by crawling, reducing, vectorizing, and ingesting 192 verified faculty members across National Institute of Development Administration (NIDA School of Applied Statistics) and Suranaree University of Technology (SUT Institute of Engineering):
+  - Added `backend/scripts/crawlers/crawl_nida_sut_faculties.py` crawling NIDA School of Applied Statistics across Computer Science, Business Analytics, and Logistics (24 members), and SUT Institute of Engineering across 17 engineering schools (183 members).
+  - Extracted bilingual metadata, institutional contact channels (`@as.nida.ac.th`, `@sut.ac.th`), academic roles, and department affiliations.
+  - Checkpointed 207 raw extractions to `backend/data/agent_states/nida_sut_extracted.json`.
+  - Filtered 15 duplicates via RapidFuzz fuzzy matching (`token_set_ratio >= 90`).
+  - Generated 768-dimensional vector embeddings with automatic rate-limit dual-model fallback (`gemini-embedding-2` to `gemini-embedding-001`).
+  - Committed 192 clean records to local PostgreSQL, elevating total faculties from 6,379 to 6,571 with zero null embeddings.
+- Added Elite Researcher Discovery & Research Performance Badges:
+  - Injected `research_tier` filtering (`all`, `indexed` with h-index > 0, `elite` with h-index >= 20 or citations >= 1,000) into `/faculty/` and `/search/` backend endpoints with bound SQL execution.
+  - Added Research Tier filter dropdown in `frontend/src/components/FilterBar.tsx` when the Advisors tab is active.
+  - Integrated `selectedResearchTier` state into `frontend/src/app/page.tsx` with cache-key propagation and search payload binding.
+  - Rendered golden `🏆 นักวิจัยแนวหน้า` performance badge and academic metric chips (`h-index` and `total_citations`) in `frontend/src/components/AdvisorCard.tsx`.
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 3 STEM & Medicine) by crawling, reducing, vectorizing, and ingesting 102 verified faculty members across King Mongkut's University of Technology Thonburi (KMUTT SIT & FIBO) and Srinakharinwirot University (SWU) Faculty of Medicine:
+  - Added `backend/scripts/crawlers/crawl_wave3_stem_faculties.py` crawling KMUTT School of Information Technology (35 members), KMUTT Institute of Field Robotics (15 members), and SWU Faculty of Medicine across 11 clinical and basic science departments (78 members).
+  - Normalized Thai academic titles using boundary-safe regex, deduplicated 128 raw records to 102 unique faculty via RapidFuzz, generated 768-dim vector embeddings with dual-model fallback, and committed to PostgreSQL (elevating total faculties to 6,379 with zero null embeddings).
+- Completed Regional Research Labs Expansion Phase 2 (100+ Research Labs Milestone):
+  - Added `backend/scripts/data_sources/regional_research_labs_phase2.py` curating 28 premier research laboratories and centers of excellence across regional universities: UP, WU, MJU, MSU, BUU, SU, MFU, TSU, UBU, KMUTT (FIBO & SIT), NU, SUT, CMU, KKU, PSU, and KU-SRC.
+  - Enhanced `backend/scripts/seed_research_labs.py` with pre-query caching to reuse existing embeddings and vectorized all new labs via 768-dim embeddings with automatic rate-limit fallback.
+  - Committed all labs to PostgreSQL, expanding total research labs from 78 to 104 with zero null embeddings and zero relational orphans.
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 2) by crawling, reducing, deduplicating, vectorizing, and ingesting 322 verified faculty members across regional universities: University of Phayao (UP, 80 faculty), Walailak University (WU, 210 faculty), Maejo University (MJU, 56 faculty), and Mahasarakham University (MSU, 23 faculty).
+- Added `backend/scripts/crawlers/crawl_wave2_regional_faculties.py` implementing CookieJar session-cookie preservation for Laravel CSRF token forms (WU), Next.js App Router streaming JSON de-serialization (MSU), and hierarchical WordPress/ASP.NET department table extraction (UP & MJU).
+- Checkpointed 383 raw extractions to `backend/data/agent_states/wave2_regional_extracted.json` before RapidFuzz deduplication and committed 322 clean records to PostgreSQL with zero null embeddings.
+- Completed Task 1 Research Interests Enrichment via `backend/scripts/enrich_faculty_research_interests.py`: eliminated all 3,015 empty `research_interests` by mining publication titles and academic discipline taxonomy, re-generating 768-dimensional Gemini vector embeddings, leaving 0 empty interests across all faculty profiles in PostgreSQL.
+- Implemented Dual-Model Resilient Embedding Fallback in `backend/app/core/embedding_service.py` (`gemini-embedding-2` -> `gemini-embedding-001`) with automatic 429/RESOURCE_EXHAUSTED detection, guaranteeing uninterrupted 768-dimensional vectorization during quota rate limits.
+- Completed Task 3 Regional Graduate Curriculum Expansion via `backend/scripts/enrich_graduate_courses.py`: seeded and vectorized 23 premier Master's and Doctoral programs across UP, WU, MJU, MSU, BUU, SU, MFU, TSU, and UBU with 768-dimensional embeddings in the `courses` table.
+- Completed Phase 2 (Faculty Coverage Expansion - Wave 1) by crawling, reducing, vectorizing, and ingesting 270 verified faculty members across Burapha University (BUU), Silpakorn University (SU), and Mae Fah Luang University (MFU).
+- Added `backend/scripts/crawlers/crawl_buu_su_mfu_pipeline.py` implementing automated extraction from official university APIs and portals:
+  - Burapha University (Faculty of Engineering REST API parent=855; Faculty of Informatics tabbed directories).
+  - Silpakorn University (Faculty of Engineering and Industrial Technology portfolio portal across 7 engineering departments).
+  - Mae Fah Luang University (Schools of Cosmetic Science, Agro-Industry, and Integrative Medicine).
+- Checkpointed raw extraction states to `backend/data/agent_states/buu_su_mfu_extracted.json`.
+- Applied `FacultyStateReducer` title normalization, RapidFuzz deduplication (`token_set_ratio >= 90` against existing local DB), and PDPA phone redaction.
+- Generated 270 high-dimensional vector embeddings via Gemini (`gemini-embedding-2`, 768 dimensions) using multi-threaded execution (`ThreadPoolExecutor`) and API key rotation.
+- Committed all 270 clean records to local containerized PostgreSQL 17 (`localhost:5432`) with zero null embeddings.
+- Expanded premier Research Labs dataset from 30 to 78 institutions across Thailand, adding 48 verified research centers covering Central, Northern, Northeastern, Southern, and Eastern regions (including Burapha University in the EEC).
+- Added `backend/scripts/data_sources/expanded_research_labs.py` containing curated laboratory metadata, equipment, industry partners, open positions, and verified faculty relational IDs.
+- Seeded and vectorized all 78 research labs using Gemini embeddings (`gemini-embedding-2`, 768 dimensions) into local PostgreSQL `research_labs` table with zero null embeddings.
+- Added `region` parameter support to `routes_labs.py` (`GET /labs/` and `POST /labs/search`) with bound SQL parameters (`university_th = ANY(:unis)`).
+- Added `lab_count` pre-aggregation in `backend/app/api/routes_taxonomy.py` (`/taxonomy/regions` and `/taxonomy/universities`).
+- Added `lab_count` field to `RegionInfo` and `UniversityOption` TypeScript contracts in `frontend/src/types/index.ts`.
+- Wired regional filter state to the Research Labs search and directory fetch in `frontend/src/app/page.tsx`.
+- Added test cases for regional lab directory filtering and semantic search to `backend/tests/test_taxonomy_and_regional_search.py`.
+- Added Hierarchical Academic Taxonomy and Regional Cascading Filtering system (`Region` -> `University` -> `Faculty` -> `Department`).
+- Added `backend/app/core/taxonomy.py` defining 5 geographical regions (Bangkok/Central, North, Northeast, South, East) and 37 Thai university mappings with academic count aggregation.
+- Added `backend/app/api/routes_taxonomy.py` exposing `/taxonomy/regions`, `/taxonomy/universities`, `/taxonomy/faculties`, and `/taxonomy/departments` with in-memory O(1) LRU caching (`_TAXONOMY_CACHE`).
+- Added composite B-Tree indexes on `(university_th, faculty_th, department_th)` across both `faculties` and `courses` tables (`idx_faculties_uni_fac_dept` and `idx_courses_uni_fac_dept`) in local PostgreSQL and `docker/init.sql`.
+- Added `region` parameter support to `/faculty/`, `/courses/`, `/courses/search`, and `/search/` endpoints for scoped semantic vector and directory search.
+- Added TypeScript taxonomy interfaces (`RegionInfo`, `UniversityOption`, `FacultyOption`, `DepartmentOption`) in `frontend/src/types/index.ts` and client-side `taxonomyCache` in `frontend/src/lib/dsa.ts`.
+- Refactored `FilterBar.tsx` with region selection pills, cascading reactive dropdowns, and instant filter reset.
+- Integrated regional and cascading taxonomy state in `frontend/src/app/page.tsx` with cache-key propagation and stale-response guards.
+- Added comprehensive automated test suite `backend/tests/test_taxonomy_and_regional_search.py`.
 
 ### Removed
 
@@ -17,10 +264,12 @@
 
 ### Verification
 
-- `npm run lint` passed.
-- `npm run build` passed.
-- `python -m compileall -q backend` passed.
+- Backend pytest (`backend/.venv/Scripts/python.exe -m pytest backend/tests/ -v`): 34 passed, 0 failed in 4.14s (including `test_advisor_lab_interlinking`).
+- Frontend Next.js build (`npm run build --prefix frontend`): passed without errors (5 routes generated, TypeScript clean).
+- Database integrity: 7,609 faculties (380 newly ingested Wave 8 members across 6 elite groups, 0 null embeddings, 0 empty research interests), 104 research labs (100% verified lead advisor linkages, 0 null embeddings), and 4,185 courses (0 null embeddings) active in local PostgreSQL (`localhost:5432`).
+- Elite researcher verification: 500 elite researchers (h-index >= 20 or citations >= 1,000) and 2,728 indexed researchers (h-index > 0) verified and queryable with dedicated badge UI.
+- Research lab relational integrity: 104/104 premier research laboratories verified with active lead advisor IDs, 141 total faculty member linkages, and bidirectional profile/lab routing.
+- Regional and faculty coverage verification: Chulalongkorn University (CU) rose to 1,169 (+76 Medicine & CommArts), Mahidol University (MU) rose to 956 (+46 ICT), Thammasat University (TU) rose to 720 (+59 Architecture TDS), Kasetsart University (KU) rose to 453 (+90 Science), Khon Kaen University (KKU) rose to 423 (+9 CPE), KMUTNB rose to 218 (+48 Applied Science), KMUTT rose to 190 (+52 Science & Engineering), Prince of Songkla University (PSU) at 362, KMITL at 321, SUT at 264, NU at 251, TSU at 220, WU at 210, SWU at 198, UBU at 164, SU at 163, BUU at 125, MFU at 116, MJU at 88, MSU at 80, UP at 80, RU at 60, SSRU at 53, NIDA at 36.
 - `git diff --check` passed.
-- Backend pytest was not available in the current environment (`No module named pytest`).
 
 > Existing Docker volumes are not modified automatically. If an old `semantic_cache` table exists in a volume, it is no longer read or created by the application.
