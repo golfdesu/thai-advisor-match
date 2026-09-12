@@ -1,0 +1,10 @@
+{
+  "apply": true,
+  "phase1_bare_titles_cleaned": 0,
+  "phase2_title_prefix_cleaned": 13,
+  "phase3_mahidol_cs_cleaned": 0,
+  "phase4_emails_and_boilerplate_cleaned": 6,
+  "phase5_openalex_dedup_cleared": 2,
+  "phase6_duplicate_donors_merged": 0,
+  "merged_donor_ids": []
+}

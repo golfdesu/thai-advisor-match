@@ -335,6 +335,36 @@ def test_database_hygiene_clean_email_and_department_detection():
     assert is_shared_email("boonchai.u@chula.ac.th") is False
 
 
+def test_database_hygiene_english_title_prefix_stripping():
+    """Verify academic title prefixes are stripped from English first names."""
+    from scripts.audits.clean_residual_database_anomalies_2026_09_13 import parse_clean_english_name
+
+    assert parse_clean_english_name("Prof.", "Brenda Porter") == ("Brenda", "Porter")
+    assert parse_clean_english_name("Assoc.", "Prof. Dr. Abhisit Pinmaneekul") == ("Abhisit", "Pinmaneekul")
+    assert parse_clean_english_name("Asst.Prof.Dr.", "Sujitra Klinsrisuk") == ("Sujitra", "Klinsrisuk")
+    assert parse_clean_english_name("ASSOC.PROF.DR.", "KULTIDA ROJVIBOONCHAI") == ("KULTIDA", "ROJVIBOONCHAI")
+    assert parse_clean_english_name("Mr.", "Boonkiat Techamanachai") == ("Boonkiat", "Techamanachai")
+    assert parse_clean_english_name("Mrs.", "Kanidtha Vidthayanon") == ("Kanidtha", "Vidthayanon")
+    assert parse_clean_english_name("Dr.", "Suwat Nanan") == ("Suwat", "Nanan")
+    # Known CMU single surname
+    assert parse_clean_english_name("Prof.", "Hansapinyo", "cmu_eng_department_prof_34") == ("Chayanon", "Hansapinyo")
+
+
+def test_database_hygiene_mahidol_cs_slug_parser():
+    """Verify Mahidol ICT profile URLs and emails resolve to authentic English names."""
+    from scripts.audits.clean_residual_database_anomalies_2026_09_13 import parse_mahidol_cs_slug
+
+    url1 = "https://www.ict.mahidol.ac.th/th/people/computer-science-academic-group/chomtip_pornpanomchai/"
+    assert parse_mahidol_cs_slug(url1, "chomtip.pornpanomchai@mahidol.ac.th") == ("Chomtip", "Pornpanomchai")
+
+    url2 = "https://www.ict.mahidol.ac.th/th/people/computer-science-academic-group/pawitra_liamruk/"
+    assert parse_mahidol_cs_slug(url2, None) == ("Pawitra", "Liamruk")
+
+    # Fallback to email
+    assert parse_mahidol_cs_slug(None, "thanapon.noraset@mahidol.ac.th") == ("Thanapon", "Noraset")
+
+
+
 
 
 
