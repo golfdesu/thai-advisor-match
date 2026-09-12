@@ -1,0 +1,3922 @@
+[
+  {
+    "full_name_th": "รศ.ดร. บวร ปภัสราทร",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "Dr.Borworn",
+    "last_name": "Papasratorn",
+    "email": "borworn@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/26-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. บัณฑิต วรรธนาภา",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "Dr.Bunthit",
+    "last_name": "Watanapa",
+    "email": "bunthit@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/108-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. ชาคริดา นุกูลกิจ",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Dr.Chakarida",
+    "last_name": "Nukoolkit",
+    "email": "chakarida@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/80-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. ชัยธวัช สง่าเมือง",
+    "academic_title_th": "ดร.",
+    "first_name": "Chaitawat",
+    "last_name": "Sa-Ngamuang",
+    "email": "chaitawat.san@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2025/10/Copy-of-Profile-for-Web-2-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. ชลเมธ อาปณิกานนท์",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Dr.Chonlameth",
+    "last_name": "Arpnikanondt",
+    "email": "chonlameth@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/138-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. เทพโยธิน ปาล",
+    "academic_title_th": "ดร.",
+    "first_name": "Debajyoti",
+    "last_name": "Pal",
+    "email": "debajyoti.pal@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/278-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. เอกพงษ์ จึงเจริญสุขยิ่ง",
+    "academic_title_th": "อ.",
+    "first_name": "Ekapong",
+    "last_name": "Jungcharoensukying",
+    "email": "ekapong@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/58-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. โจนาธาน โฮยิน ชาน",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "Dr.Jonathan",
+    "last_name": "Hoyin Chan",
+    "email": "jonathan@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/23-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. กิตติพันธุ์ พัวพลเทพ",
+    "academic_title_th": "อ.",
+    "first_name": "Kittiphan",
+    "last_name": "Puapholthep",
+    "email": "kittiphan@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/59-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. เกรียงไกร ปอแก้ว",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Dr.Kriengkrai",
+    "last_name": "Porkaew",
+    "email": "porkaew@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/7-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. กิตติพงศ์ วะระทรัพย์",
+    "academic_title_th": "อ.",
+    "first_name": "Kittipong",
+    "last_name": "Warasup",
+    "email": "kittipong@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/174-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. มนตรี สุภัททธรรม",
+    "academic_title_th": "อ.",
+    "first_name": "Montri",
+    "last_name": "Supattatham",
+    "email": "montri@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/08/MicrosoftTeams-image-15-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. นันทพงศ์ เขียนดวงจันทร์",
+    "academic_title_th": "ดร.",
+    "first_name": "Nantapong",
+    "last_name": "Keandoungchun",
+    "email": "nantapong.kea@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/289-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. ณรงค์ฤทธิ์ วราภรณ์",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Dr.Narongrit",
+    "last_name": "Waraporn",
+    "email": "narongrit@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/172-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. นิพนธ์ เจริญกิจการ",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "Dr.Nipon",
+    "last_name": "Charoenkitkarn",
+    "email": "nipon@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/4-4-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. โอฬาร โรจนพรพันธุ์",
+    "academic_title_th": "ดร.",
+    "first_name": "Olarn",
+    "last_name": "Rojanapornpun",
+    "email": "olarnr@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/164-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. ปาณิสรา ธนาพล",
+    "academic_title_th": "ดร.",
+    "first_name": "Panissara",
+    "last_name": "Thanapol",
+    "email": "panissara.tha@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2026/07/96-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. ปาณิสรา ธนาพล",
+    "academic_title_th": "ดร.",
+    "first_name": "Panissara",
+    "last_name": "Thanapol",
+    "email": "panissara.tha@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2026/07/96-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. พัชราภรณ์ ลวันยานนท์",
+    "academic_title_th": "ดร.",
+    "first_name": "Patcharaporn",
+    "last_name": "Lavangnananda",
+    "email": "patchara@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/38-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. พิเชฏฐ์ ลิ่มวชิรานันต์",
+    "academic_title_th": "อ.",
+    "first_name": "Pichet",
+    "last_name": "Limvachiranan",
+    "email": "pichet@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/19-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. พรชัย มงคลนาม",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "Dr.Pornchai",
+    "last_name": "Mongkolnam",
+    "email": "pornchai@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/130-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. ประเสริฐ คันธมานนท์",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Dr.Prasert",
+    "last_name": "Kanthamanon",
+    "email": "prasert@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/09/อประเสริฐ-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. สนิท ศิริสวัสดิ์วัฒนา",
+    "academic_title_th": "อ.",
+    "first_name": "Sanit",
+    "last_name": "Sirisawatvatana",
+    "email": "sanit@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/35-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. สยาม แย้มแสงสังข์",
+    "academic_title_th": "ดร.",
+    "first_name": "Siam",
+    "last_name": "Yamsaengsung",
+    "email": "siam@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/16-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. สุขุมาล แสนแก้วทอง",
+    "academic_title_th": "ดร.",
+    "first_name": "Sukumarn",
+    "last_name": "Sankeawthong",
+    "email": "sukumarn.san@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2026/07/94-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. สุณิสา สถาพรวจนา",
+    "academic_title_th": "ดร.",
+    "first_name": "Sunisa",
+    "last_name": "Sathapornvajana",
+    "email": "sunisa@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/67-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. สุรีย์ ฟูนิลกุล",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "Dr.Suree",
+    "last_name": "Funilkul",
+    "email": "suree@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/55-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. ตุลย์ ไตรยสรรค์",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Dr.Tuul",
+    "last_name": "Triyason",
+    "email": "tuul.tri@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/253-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. อุมาพร สุภสิทธิเมธี",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Dr.Umaporn",
+    "last_name": "Supasitthimethee",
+    "email": "umaporn@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/08/MicrosoftTeams-image-11-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. อันฮวา นิลรัตน์ศิริกุล",
+    "academic_title_th": "ดร.",
+    "first_name": "Unhawa",
+    "last_name": "Ninrutsirikun",
+    "email": "unhawa@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/54-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. วชิรศักดิ์ วานิชชา",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "Dr.Vajirasak",
+    "last_name": "Vanijja",
+    "email": "vachee@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/81-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. วิทิดา จงศุภชัยสิทธิ์",
+    "academic_title_th": "ดร.",
+    "first_name": "Vithida",
+    "last_name": "Chongsuphajaisiddhi",
+    "email": "vithida@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/82-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. วทัญญู สุขเสงี่ยม",
+    "academic_title_th": "ดร.",
+    "first_name": "Watanyoo",
+    "last_name": "Suksa-ngiam",
+    "email": "watanyoo.suk@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/292-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. วิเชียร ชุติมาสกุล",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "Dr.Wichian",
+    "last_name": "Chutimaskul",
+    "email": "wichian@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/39-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. วรรัตน์ กระทู้",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Dr.Worarat",
+    "last_name": "Krathu",
+    "email": "worarat.kra@sit.kmutt.ac.th",
+    "role": "อาจารย์ประจำหลักสูตร",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "School of Information Technology",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+    "department": "Information Technology",
+    "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+    "image_url": "https://www.sit.kmutt.ac.th/wp-content/uploads/2024/06/259-1-225x300.png",
+    "profile_url": "https://www.sit.kmutt.ac.th/lecturer/",
+    "research_interests": [
+      "Information Technology & Systems",
+      "Data Science & Artificial Intelligence",
+      "Software Engineering & Cloud Computing",
+      "Cybersecurity & Network Systems",
+      "Human-Computer Interaction"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Information Technology",
+      "Computer Systems",
+      "Data Structures"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. สยาม เจริญเสียง",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "Siam",
+    "last_name": "Charoenseang",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/02-รศ.-ดร.สยาม-เจริญเสียง-680x1024-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th//%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%a2%e0%b8%b2%e0%b8%a1-%e0%b9%80%e0%b8%88%e0%b8%a3%e0%b8%b4%e0%b8%8d%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87-assoc-prof-dr-siam-charoensea/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. ปราการเกียรติ ยังคง",
+    "academic_title_th": "ดร.",
+    "first_name": "Prakarnkiat",
+    "last_name": "Youngkong",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/02-รศ.-ดร.สยาม-เจริญเสียง-680x1024-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th//%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%a2%e0%b8%b2%e0%b8%a1-%e0%b9%80%e0%b8%88%e0%b8%a3%e0%b8%b4%e0%b8%8d%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87-assoc-prof-dr-siam-charoensea/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. อาบทิพย์ ธีรวงศ์กิจ",
+    "academic_title_th": "ดร.",
+    "first_name": "Arbtip",
+    "last_name": "Dheeravongkit",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/02-รศ.-ดร.สยาม-เจริญเสียง-680x1024-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th//%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%a2%e0%b8%b2%e0%b8%a1-%e0%b9%80%e0%b8%88%e0%b8%a3%e0%b8%b4%e0%b8%8d%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87-assoc-prof-dr-siam-charoensea/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. เอกชัย เป็งวัง",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Eakkachai",
+    "last_name": "Pengang",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/02-รศ.-ดร.สยาม-เจริญเสียง-680x1024-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th//%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%a2%e0%b8%b2%e0%b8%a1-%e0%b9%80%e0%b8%88%e0%b8%a3%e0%b8%b4%e0%b8%8d%e0%b9%80%e0%b8%aa%e0%b8%b5%e0%b8%a2%e0%b8%87-assoc-prof-dr-siam-charoensea/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. อรพดี จูฉิม",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Orapadee",
+    "last_name": "Joochim",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th/wp-content/uploads/2025/05/09-ผศ.-ดร.อรพดี-จูฉิม-200x300-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th//%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%a3%e0%b8%9e%e0%b8%94%e0%b8%b5-%e0%b8%88%e0%b8%b9%e0%b8%89%e0%b8%b4%e0%b8%a1-asst-dr-orapadee-joochim/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. วราสิณี ฉายแสงมงคล",
+    "academic_title_th": "ดร.",
+    "first_name": "Warasinee",
+    "last_name": "Chaisangmongkon",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th/wp-content/uploads/2025/05/09-ผศ.-ดร.อรพดี-จูฉิม-200x300-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th//%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%a3%e0%b8%9e%e0%b8%94%e0%b8%b5-%e0%b8%88%e0%b8%b9%e0%b8%89%e0%b8%b4%e0%b8%a1-asst-dr-orapadee-joochim/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. ณรงค์ศักดิ์ ถิรสุนทรากุล",
+    "academic_title_th": "ดร.",
+    "first_name": "Narongsak",
+    "last_name": "Tirasuntarakul",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th/wp-content/uploads/2025/05/09-ผศ.-ดร.อรพดี-จูฉิม-200x300-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th//%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%a3%e0%b8%9e%e0%b8%94%e0%b8%b5-%e0%b8%88%e0%b8%b9%e0%b8%89%e0%b8%b4%e0%b8%a1-asst-dr-orapadee-joochim/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. ไพสิฐ ขันอาสา",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "Paisit",
+    "last_name": "Khanarsa",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th/wp-content/uploads/2025/05/09-ผศ.-ดร.อรพดี-จูฉิม-200x300-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th//%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%a3%e0%b8%9e%e0%b8%94%e0%b8%b5-%e0%b8%88%e0%b8%b9%e0%b8%89%e0%b8%b4%e0%b8%a1-asst-dr-orapadee-joochim/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. รัตนชัย รมัยธิติมา",
+    "academic_title_th": "ดร.",
+    "first_name": "Rattanachai",
+    "last_name": "Ramaithitima",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/A.Tee-5.7-200x300-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th/staff/teachers-researchers/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นายบัณฑูร ศรีสุวรรณ",
+    "academic_title_th": "อ.",
+    "first_name": "Bantoon",
+    "last_name": "Srisuwan",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/A.Tee-5.7-200x300-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th/staff/teachers-researchers/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นายวรวิทย์ พันธุ์ปัญญาเทพ",
+    "academic_title_th": "อ.",
+    "first_name": "Worawit",
+    "last_name": "Panpanytep",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/A.Tee-5.7-200x300-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th/staff/teachers-researchers/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ดร. วุฒิพงษ์ ปรีชาพลกุล",
+    "academic_title_th": "ดร.",
+    "first_name": "Wutipong",
+    "last_name": "Preechaphonkul",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/A.Tee-5.7-200x300-1.jpg",
+    "profile_url": "https://fibo.kmutt.ac.th/staff/teachers-researchers/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นางสาวพูนสิริ ใจลังการ์",
+    "academic_title_th": "อ.",
+    "first_name": "Poonsiri",
+    "last_name": "Jailungka",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/06-200x300-1.png",
+    "profile_url": "https://fibo.kmutt.ac.th/%e0%b8%99%e0%b8%b2%e0%b8%87%e0%b8%aa%e0%b8%b2%e0%b8%a7%e0%b8%9e%e0%b8%b9%e0%b8%99%e0%b8%aa%e0%b8%b4%e0%b8%a3%e0%b8%b4-%e0%b9%83%e0%b8%88%e0%b8%a5%e0%b8%b1%e0%b8%87%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%8c/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นายเชาวลิต ธรรมทินโน",
+    "academic_title_th": "อ.",
+    "first_name": "Chaowwalit",
+    "last_name": "Thammatinno",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/06-200x300-1.png",
+    "profile_url": "https://fibo.kmutt.ac.th/%e0%b8%99%e0%b8%b2%e0%b8%87%e0%b8%aa%e0%b8%b2%e0%b8%a7%e0%b8%9e%e0%b8%b9%e0%b8%99%e0%b8%aa%e0%b8%b4%e0%b8%a3%e0%b8%b4-%e0%b9%83%e0%b8%88%e0%b8%a5%e0%b8%b1%e0%b8%87%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%8c/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นายณัฐกมล ขันตี",
+    "academic_title_th": "อ.",
+    "first_name": "Natkamon",
+    "last_name": "Khantee",
+    "email": "fibo@kmutt.ac.th",
+    "role": "อาจารย์และนักวิจัย",
+    "university": "King Mongkut's University of Technology Thonburi",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+    "faculty": "Institute of Field Robotics (FIBO)",
+    "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม (FIBO)",
+    "department": "Robotics and Automation Engineering",
+    "department_th": "สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ",
+    "image_url": "https://fibo.kmutt.ac.th//wp-content/uploads/2025/05/06-200x300-1.png",
+    "profile_url": "https://fibo.kmutt.ac.th/%e0%b8%99%e0%b8%b2%e0%b8%87%e0%b8%aa%e0%b8%b2%e0%b8%a7%e0%b8%9e%e0%b8%b9%e0%b8%99%e0%b8%aa%e0%b8%b4%e0%b8%a3%e0%b8%b4-%e0%b9%83%e0%b8%88%e0%b8%a5%e0%b8%b1%e0%b8%87%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%8c/",
+    "research_interests": [
+      "Field Robotics & Autonomous Systems",
+      "Medical Robotics & Tele-operation",
+      "Computer Vision & Pattern Recognition",
+      "Intelligent Control & Automation",
+      "Human-Robot Interaction (HRI)"
+    ],
+    "education": [],
+    "taught_courses": [
+      "Robotics and Automation",
+      "Intelligent Systems",
+      "Computer Vision"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. สิรินันท์ พงศ์เมธีกุล",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. วิสุทธิ์ ประดิษฐ์อาชีพ",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. รักษวรรณ พูนคำ",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. นพ.เฉง นิลบุหงา",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. สมใจ อภิเศวตกานต์",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. รัชฎาภรณ์ ประมงค์",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. น.สพ.ดร.รัฐจักร รังสิวิวัฒน์",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. จิตราภรณ์ ควรประดิษฐ์",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. พงษ์ศักดิ์ ขันธ์เพ็ชร",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. อรรถบุญญ์ วัฒน์ธรรมาวุธ",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. พัฒนพงษ์ บุญพรม",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. จรรยารักษ์ สุริยุทธ",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.ปริวรรต วิเศษวงษา",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "anatomy.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Anatomy",
+    "department_th": "ภาควิชากายวิภาคศาสตร์",
+    "image_url": "https://med.swu.ac.th/anatomy/wp-content/uploads/2024/12/18-200x300.png",
+    "profile_url": "https://med.swu.ac.th/anatomy/staff/",
+    "research_interests": [
+      "Clinical Anatomy",
+      "Neuroanatomy",
+      "Cell Biology & Histology",
+      "Stem Cell Research",
+      "Regenerative Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชากายวิภาคศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. พญ.จันทร์ทรา ตนันท์ยุทธวงศ์",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "biochemistry.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Biochemistry",
+    "department_th": "ภาควิชาชีวเคมี",
+    "image_url": "https://med.swu.ac.th/biochemistry/wp-content/uploads/2025/03/6-200x300.png",
+    "profile_url": "https://med.swu.ac.th/biochemistry/staff/",
+    "research_interests": [
+      "Medical Biochemistry",
+      "Molecular Oncology",
+      "Cancer Biomarkers",
+      "Metabolic Diseases",
+      "Protein Structure"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาชีวเคมี",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ศ.ดร. รมิดา วัฒนโภคาสิน",
+    "academic_title_th": "ศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "biochemistry.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Biochemistry",
+    "department_th": "ภาควิชาชีวเคมี",
+    "image_url": "https://med.swu.ac.th/biochemistry/wp-content/uploads/2025/03/6-200x300.png",
+    "profile_url": "https://med.swu.ac.th/biochemistry/staff/",
+    "research_interests": [
+      "Medical Biochemistry",
+      "Molecular Oncology",
+      "Cancer Biomarkers",
+      "Metabolic Diseases",
+      "Protein Structure"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาชีวเคมี",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. วัลยา ธเนศพงศ์ธรรม",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "biochemistry.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Biochemistry",
+    "department_th": "ภาควิชาชีวเคมี",
+    "image_url": "https://med.swu.ac.th/biochemistry/wp-content/uploads/2025/03/6-200x300.png",
+    "profile_url": "https://med.swu.ac.th/biochemistry/staff/",
+    "research_interests": [
+      "Medical Biochemistry",
+      "Molecular Oncology",
+      "Cancer Biomarkers",
+      "Metabolic Diseases",
+      "Protein Structure"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาชีวเคมี",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. ศิวพร วรรณะเอี่ยมพิกุล",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "biochemistry.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Biochemistry",
+    "department_th": "ภาควิชาชีวเคมี",
+    "image_url": "https://med.swu.ac.th/biochemistry/wp-content/uploads/2025/03/6-200x300.png",
+    "profile_url": "https://med.swu.ac.th/biochemistry/staff/",
+    "research_interests": [
+      "Medical Biochemistry",
+      "Molecular Oncology",
+      "Cancer Biomarkers",
+      "Metabolic Diseases",
+      "Protein Structure"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาชีวเคมี",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. ปฏิวัติ ก๋องแดง",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "biochemistry.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Biochemistry",
+    "department_th": "ภาควิชาชีวเคมี",
+    "image_url": "https://med.swu.ac.th/biochemistry/wp-content/uploads/2025/03/6-200x300.png",
+    "profile_url": "https://med.swu.ac.th/biochemistry/staff/",
+    "research_interests": [
+      "Medical Biochemistry",
+      "Molecular Oncology",
+      "Cancer Biomarkers",
+      "Metabolic Diseases",
+      "Protein Structure"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาชีวเคมี",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. โยธิน จูประสงค์",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "biochemistry.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Biochemistry",
+    "department_th": "ภาควิชาชีวเคมี",
+    "image_url": "https://med.swu.ac.th/biochemistry/wp-content/uploads/2025/03/6-200x300.png",
+    "profile_url": "https://med.swu.ac.th/biochemistry/staff/",
+    "research_interests": [
+      "Medical Biochemistry",
+      "Molecular Oncology",
+      "Cancer Biomarkers",
+      "Metabolic Diseases",
+      "Protein Structure"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาชีวเคมี",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. พัชรินทร์ เทพอารีนันท์",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "physiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Physiology",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "image_url": "https://med.swu.ac.th/physiology/wp-content/uploads/2025/05/9-200x300.png",
+    "profile_url": "https://med.swu.ac.th/physiology/staff/",
+    "research_interests": [
+      "Medical Physiology",
+      "Cardiovascular Physiology",
+      "Neurophysiology",
+      "Endocrine Regulation",
+      "Exercise Physiology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาสรีรวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ศ.ดร. ฉัตรศรี เดชะปัญญา",
+    "academic_title_th": "ศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "physiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Physiology",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "image_url": "https://med.swu.ac.th/physiology/wp-content/uploads/2025/05/9-200x300.png",
+    "profile_url": "https://med.swu.ac.th/physiology/staff/",
+    "research_interests": [
+      "Medical Physiology",
+      "Cardiovascular Physiology",
+      "Neurophysiology",
+      "Endocrine Regulation",
+      "Exercise Physiology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาสรีรวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. สมฤดี สายหยุดทอง",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "physiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Physiology",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "image_url": "https://med.swu.ac.th/physiology/wp-content/uploads/2025/05/9-200x300.png",
+    "profile_url": "https://med.swu.ac.th/physiology/staff/",
+    "research_interests": [
+      "Medical Physiology",
+      "Cardiovascular Physiology",
+      "Neurophysiology",
+      "Endocrine Regulation",
+      "Exercise Physiology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาสรีรวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. สุนทราภรณ์ หันตุลา",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "physiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Physiology",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "image_url": "https://med.swu.ac.th/physiology/wp-content/uploads/2025/05/9-200x300.png",
+    "profile_url": "https://med.swu.ac.th/physiology/staff/",
+    "research_interests": [
+      "Medical Physiology",
+      "Cardiovascular Physiology",
+      "Neurophysiology",
+      "Endocrine Regulation",
+      "Exercise Physiology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาสรีรวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. ปิยะนุช ปัทมสถาน",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "physiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Physiology",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "image_url": "https://med.swu.ac.th/physiology/wp-content/uploads/2025/05/9-200x300.png",
+    "profile_url": "https://med.swu.ac.th/physiology/staff/",
+    "research_interests": [
+      "Medical Physiology",
+      "Cardiovascular Physiology",
+      "Neurophysiology",
+      "Endocrine Regulation",
+      "Exercise Physiology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาสรีรวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. เพชรรัตน์ เชียงแสน",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "physiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Physiology",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "image_url": "https://med.swu.ac.th/physiology/wp-content/uploads/2025/05/9-200x300.png",
+    "profile_url": "https://med.swu.ac.th/physiology/staff/",
+    "research_interests": [
+      "Medical Physiology",
+      "Cardiovascular Physiology",
+      "Neurophysiology",
+      "Endocrine Regulation",
+      "Exercise Physiology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาสรีรวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. เจนจิรา ทวีวัฒโนดม",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "physiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Physiology",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "image_url": "https://med.swu.ac.th/physiology/wp-content/uploads/2025/05/9-200x300.png",
+    "profile_url": "https://med.swu.ac.th/physiology/staff/",
+    "research_interests": [
+      "Medical Physiology",
+      "Cardiovascular Physiology",
+      "Neurophysiology",
+      "Endocrine Regulation",
+      "Exercise Physiology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาสรีรวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. อำนวยโชค ธงสอาด",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "physiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Physiology",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "image_url": "https://med.swu.ac.th/physiology/wp-content/uploads/2025/05/9-200x300.png",
+    "profile_url": "https://med.swu.ac.th/physiology/staff/",
+    "research_interests": [
+      "Medical Physiology",
+      "Cardiovascular Physiology",
+      "Neurophysiology",
+      "Endocrine Regulation",
+      "Exercise Physiology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาสรีรวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.อาร์ต อาดำ",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "physiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Physiology",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "image_url": "https://med.swu.ac.th/physiology/wp-content/uploads/2025/05/9-200x300.png",
+    "profile_url": "https://med.swu.ac.th/physiology/staff/",
+    "research_interests": [
+      "Medical Physiology",
+      "Cardiovascular Physiology",
+      "Neurophysiology",
+      "Endocrine Regulation",
+      "Exercise Physiology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาสรีรวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. ศรีสมบัติ พุฒิกมลกุล",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "microbiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Microbiology",
+    "department_th": "ภาควิชาจุลชีววิทยา",
+    "image_url": "https://med.swu.ac.th/microbiology/wp-content/uploads/2025/03/13-200x300.png",
+    "profile_url": "https://med.swu.ac.th/microbiology/staff/",
+    "research_interests": [
+      "Medical Microbiology",
+      "Immunology & Vaccines",
+      "Virology",
+      "Antimicrobial Resistance",
+      "Bacteriology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจุลชีววิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ.ดร. มาลัย ทวีโชติภัทร์",
+    "academic_title_th": "รศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "microbiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Microbiology",
+    "department_th": "ภาควิชาจุลชีววิทยา",
+    "image_url": "https://med.swu.ac.th/microbiology/wp-content/uploads/2025/03/13-200x300.png",
+    "profile_url": "https://med.swu.ac.th/microbiology/staff/",
+    "research_interests": [
+      "Medical Microbiology",
+      "Immunology & Vaccines",
+      "Virology",
+      "Antimicrobial Resistance",
+      "Bacteriology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจุลชีววิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. เครือวัลย์ โชติเลอศักดิ์",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "microbiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Microbiology",
+    "department_th": "ภาควิชาจุลชีววิทยา",
+    "image_url": "https://med.swu.ac.th/microbiology/wp-content/uploads/2025/03/13-200x300.png",
+    "profile_url": "https://med.swu.ac.th/microbiology/staff/",
+    "research_interests": [
+      "Medical Microbiology",
+      "Immunology & Vaccines",
+      "Virology",
+      "Antimicrobial Resistance",
+      "Bacteriology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจุลชีววิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ.ดร. ขวัญนันท์ นันทวิสัย",
+    "academic_title_th": "ผศ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "microbiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Microbiology",
+    "department_th": "ภาควิชาจุลชีววิทยา",
+    "image_url": "https://med.swu.ac.th/microbiology/wp-content/uploads/2025/03/13-200x300.png",
+    "profile_url": "https://med.swu.ac.th/microbiology/staff/",
+    "research_interests": [
+      "Medical Microbiology",
+      "Immunology & Vaccines",
+      "Virology",
+      "Antimicrobial Resistance",
+      "Bacteriology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจุลชีววิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. อนิรุทธิ์ ลิ้มตระกูล",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "microbiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Microbiology",
+    "department_th": "ภาควิชาจุลชีววิทยา",
+    "image_url": "https://med.swu.ac.th/microbiology/wp-content/uploads/2025/03/13-200x300.png",
+    "profile_url": "https://med.swu.ac.th/microbiology/staff/",
+    "research_interests": [
+      "Medical Microbiology",
+      "Immunology & Vaccines",
+      "Virology",
+      "Antimicrobial Resistance",
+      "Bacteriology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจุลชีววิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. สุรศักดิ์ อยู่ยงสะถิต",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "microbiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Microbiology",
+    "department_th": "ภาควิชาจุลชีววิทยา",
+    "image_url": "https://med.swu.ac.th/microbiology/wp-content/uploads/2025/03/13-200x300.png",
+    "profile_url": "https://med.swu.ac.th/microbiology/staff/",
+    "research_interests": [
+      "Medical Microbiology",
+      "Immunology & Vaccines",
+      "Virology",
+      "Antimicrobial Resistance",
+      "Bacteriology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจุลชีววิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. สิรัชชา พันทอง",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "microbiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Microbiology",
+    "department_th": "ภาควิชาจุลชีววิทยา",
+    "image_url": "https://med.swu.ac.th/microbiology/wp-content/uploads/2025/03/13-200x300.png",
+    "profile_url": "https://med.swu.ac.th/microbiology/staff/",
+    "research_interests": [
+      "Medical Microbiology",
+      "Immunology & Vaccines",
+      "Virology",
+      "Antimicrobial Resistance",
+      "Bacteriology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจุลชีววิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ.ดร. วธัญญู บัวแก้ว",
+    "academic_title_th": "อ.ดร.",
+    "first_name": "",
+    "last_name": "",
+    "email": "microbiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Microbiology",
+    "department_th": "ภาควิชาจุลชีววิทยา",
+    "image_url": "https://med.swu.ac.th/microbiology/wp-content/uploads/2025/03/13-200x300.png",
+    "profile_url": "https://med.swu.ac.th/microbiology/staff/",
+    "research_interests": [
+      "Medical Microbiology",
+      "Immunology & Vaccines",
+      "Virology",
+      "Antimicrobial Resistance",
+      "Bacteriology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจุลชีววิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.ธัญญศักดิ์ เอกเวชวิท",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "forensic.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Forensic Medicine",
+    "department_th": "ภาควิชานิติเวชศาสตร์",
+    "image_url": "https://med.swu.ac.th/forensic/wp-content/uploads/2025/05/8-200x300.png",
+    "profile_url": "https://med.swu.ac.th/forensic/staff/",
+    "research_interests": [
+      "Forensic Pathology",
+      "Forensic DNA Analysis",
+      "Forensic Toxicology",
+      "Clinical Forensic Medicine",
+      "Medical Jurisprudence"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชานิติเวชศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. พญ.วรัทพร สิทธิจรูญ",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "forensic.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Forensic Medicine",
+    "department_th": "ภาควิชานิติเวชศาสตร์",
+    "image_url": "https://med.swu.ac.th/forensic/wp-content/uploads/2025/05/8-200x300.png",
+    "profile_url": "https://med.swu.ac.th/forensic/staff/",
+    "research_interests": [
+      "Forensic Pathology",
+      "Forensic DNA Analysis",
+      "Forensic Toxicology",
+      "Clinical Forensic Medicine",
+      "Medical Jurisprudence"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชานิติเวชศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.อภิชัย แผลงศร",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "forensic.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Forensic Medicine",
+    "department_th": "ภาควิชานิติเวชศาสตร์",
+    "image_url": "https://med.swu.ac.th/forensic/wp-content/uploads/2025/05/8-200x300.png",
+    "profile_url": "https://med.swu.ac.th/forensic/staff/",
+    "research_interests": [
+      "Forensic Pathology",
+      "Forensic DNA Analysis",
+      "Forensic Toxicology",
+      "Clinical Forensic Medicine",
+      "Medical Jurisprudence"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชานิติเวชศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.วาทิตต์ รุจิราวรรณ",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "forensic.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Forensic Medicine",
+    "department_th": "ภาควิชานิติเวชศาสตร์",
+    "image_url": "https://med.swu.ac.th/forensic/wp-content/uploads/2025/05/8-200x300.png",
+    "profile_url": "https://med.swu.ac.th/forensic/staff/",
+    "research_interests": [
+      "Forensic Pathology",
+      "Forensic DNA Analysis",
+      "Forensic Toxicology",
+      "Clinical Forensic Medicine",
+      "Medical Jurisprudence"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชานิติเวชศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ. นพ.วีระศักดิ์ จรัสชัยศรี",
+    "academic_title_th": "รศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "forensic.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Forensic Medicine",
+    "department_th": "ภาควิชานิติเวชศาสตร์",
+    "image_url": "https://med.swu.ac.th/forensic/wp-content/uploads/2025/05/8-200x300.png",
+    "profile_url": "https://med.swu.ac.th/forensic/staff/",
+    "research_interests": [
+      "Forensic Pathology",
+      "Forensic DNA Analysis",
+      "Forensic Toxicology",
+      "Clinical Forensic Medicine",
+      "Medical Jurisprudence"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชานิติเวชศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. พญ.ศิรินทร์ บุษยามานนท์",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "forensic.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Forensic Medicine",
+    "department_th": "ภาควิชานิติเวชศาสตร์",
+    "image_url": "https://med.swu.ac.th/forensic/wp-content/uploads/2025/05/8-200x300.png",
+    "profile_url": "https://med.swu.ac.th/forensic/staff/",
+    "research_interests": [
+      "Forensic Pathology",
+      "Forensic DNA Analysis",
+      "Forensic Toxicology",
+      "Clinical Forensic Medicine",
+      "Medical Jurisprudence"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชานิติเวชศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.ภูมิพันธ์ แสงพานิชย์",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "medicine.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Medicine",
+    "department_th": "ภาควิชาอายุรศาสตร์",
+    "image_url": "https://med.swu.ac.th/medicine/wp-content/uploads/2025/05/3-200x300.png",
+    "profile_url": "https://med.swu.ac.th/medicine/staff/",
+    "research_interests": [
+      "Internal Medicine",
+      "Cardiology",
+      "Pulmonology",
+      "Gastroenterology",
+      "Nephrology",
+      "Clinical Trials"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาอายุรศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. องครักษ์ จ.นครนายก",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "medicine.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Medicine",
+    "department_th": "ภาควิชาอายุรศาสตร์",
+    "image_url": null,
+    "profile_url": "https://med.swu.ac.th/medicine/staff/",
+    "research_interests": [
+      "Internal Medicine",
+      "Cardiology",
+      "Pulmonology",
+      "Gastroenterology",
+      "Nephrology",
+      "Clinical Trials"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาอายุรศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ. นพ.ธวัชชัย ตุลวรรธนะ",
+    "academic_title_th": "รศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "surgery.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Surgery",
+    "department_th": "ภาควิชาศัลยศาสตร์",
+    "image_url": "https://med.swu.ac.th/surgery/wp-content/uploads/2026/07/Thawatchai-683x1024.png",
+    "profile_url": "https://med.swu.ac.th/surgery/staff/",
+    "research_interests": [
+      "General Surgery",
+      "Minimally Invasive Surgery",
+      "Trauma & Emergency Surgery",
+      "Surgical Oncology",
+      "Vascular Surgery"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาศัลยศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ. นพ.ปริญญา อัครานุรักษ์กุล",
+    "academic_title_th": "รศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "surgery.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Surgery",
+    "department_th": "ภาควิชาศัลยศาสตร์",
+    "image_url": "https://med.swu.ac.th/surgery/wp-content/uploads/2026/07/Thawatchai-683x1024.png",
+    "profile_url": "https://med.swu.ac.th/surgery/staff/",
+    "research_interests": [
+      "General Surgery",
+      "Minimally Invasive Surgery",
+      "Trauma & Emergency Surgery",
+      "Surgical Oncology",
+      "Vascular Surgery"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาศัลยศาสตร์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. นพ.ฐิติณัฐ ดิลกหัตถการ",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ. นพ.วิศิษฎ์ รังษิณาภรณ์",
+    "academic_title_th": "รศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ. นพ.ชาญณรงค์ เกษมกิจวัฒนา",
+    "academic_title_th": "รศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. นพ.คมสัน ปลั่งศิริ",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. นพ.ศุภกิจ พิมลธเรศ",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ. นพ.ยิ่งยง ต่ออุดม",
+    "academic_title_th": "รศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. นพ.ชัชวาลย์ เจริญธรรมรักษา",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. นพ.วิทวัส บุญญานุวัตร",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. นพ.ณัฐกร มหสุภาชัย",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.ธนา ศิริพิสิฐศักดิ์",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.ภรัณยู วิไล",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.นิคม โนรีย์",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.ชนกันต์ วณิชชานนท์",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "ortho.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Orthopedics",
+    "department_th": "ภาควิชาออร์โธปิดิกส์",
+    "image_url": "https://med.swu.ac.th/ortho/wp-content/uploads/2025/06/Thitinart-200x300.png",
+    "profile_url": "https://med.swu.ac.th/ortho/staff/",
+    "research_interests": [
+      "Orthopedic Surgery",
+      "Spine Surgery",
+      "Joint Arthroplasty",
+      "Sports Medicine",
+      "Musculoskeletal Oncology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาออร์โธปิดิกส์",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.พนิตพงศ์ มารุ่งโรจน์",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "radiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Radiology",
+    "department_th": "ภาควิชารังสีวิทยา",
+    "image_url": "https://med.swu.ac.th/radiology/wp-content/uploads/2025/06/1-200x300.png",
+    "profile_url": "https://med.swu.ac.th/radiology/staff/",
+    "research_interests": [
+      "Diagnostic Radiology",
+      "Interventional Radiology",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Nuclear Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชารังสีวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. พญ.วรรณพร บรีวงษ์",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "radiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Radiology",
+    "department_th": "ภาควิชารังสีวิทยา",
+    "image_url": "https://med.swu.ac.th/radiology/wp-content/uploads/2025/06/1-200x300.png",
+    "profile_url": "https://med.swu.ac.th/radiology/staff/",
+    "research_interests": [
+      "Diagnostic Radiology",
+      "Interventional Radiology",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Nuclear Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชารังสีวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.อภิชาติ ท่าช้าง",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "radiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Radiology",
+    "department_th": "ภาควิชารังสีวิทยา",
+    "image_url": "https://med.swu.ac.th/radiology/wp-content/uploads/2025/06/1-200x300.png",
+    "profile_url": "https://med.swu.ac.th/radiology/staff/",
+    "research_interests": [
+      "Diagnostic Radiology",
+      "Interventional Radiology",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Nuclear Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชารังสีวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.วศิน รุ่งเรืองวุฒิไกร",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "radiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Radiology",
+    "department_th": "ภาควิชารังสีวิทยา",
+    "image_url": "https://med.swu.ac.th/radiology/wp-content/uploads/2025/06/1-200x300.png",
+    "profile_url": "https://med.swu.ac.th/radiology/staff/",
+    "research_interests": [
+      "Diagnostic Radiology",
+      "Interventional Radiology",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Nuclear Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชารังสีวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.กุลวิวัฒน์ พรหมสวัสดิ์",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "radiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Radiology",
+    "department_th": "ภาควิชารังสีวิทยา",
+    "image_url": "https://med.swu.ac.th/radiology/wp-content/uploads/2025/06/1-200x300.png",
+    "profile_url": "https://med.swu.ac.th/radiology/staff/",
+    "research_interests": [
+      "Diagnostic Radiology",
+      "Interventional Radiology",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Nuclear Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชารังสีวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.รัตนภูมิ ส่งเสริมสวัสดิ์",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "radiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Radiology",
+    "department_th": "ภาควิชารังสีวิทยา",
+    "image_url": "https://med.swu.ac.th/radiology/wp-content/uploads/2025/06/1-200x300.png",
+    "profile_url": "https://med.swu.ac.th/radiology/staff/",
+    "research_interests": [
+      "Diagnostic Radiology",
+      "Interventional Radiology",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Nuclear Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชารังสีวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. พญ.มุทิตา ลีละศิธร",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "radiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Radiology",
+    "department_th": "ภาควิชารังสีวิทยา",
+    "image_url": "https://med.swu.ac.th/radiology/wp-content/uploads/2025/06/1-200x300.png",
+    "profile_url": "https://med.swu.ac.th/radiology/staff/",
+    "research_interests": [
+      "Diagnostic Radiology",
+      "Interventional Radiology",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Nuclear Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชารังสีวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.ภัทรัฐ อิทธิพรวณิชย์",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "radiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Radiology",
+    "department_th": "ภาควิชารังสีวิทยา",
+    "image_url": "https://med.swu.ac.th/radiology/wp-content/uploads/2025/06/1-200x300.png",
+    "profile_url": "https://med.swu.ac.th/radiology/staff/",
+    "research_interests": [
+      "Diagnostic Radiology",
+      "Interventional Radiology",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Nuclear Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชารังสีวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.ณัฐชนน ใจคำวัง",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "radiology.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Radiology",
+    "department_th": "ภาควิชารังสีวิทยา",
+    "image_url": "https://med.swu.ac.th/radiology/wp-content/uploads/2025/06/1-200x300.png",
+    "profile_url": "https://med.swu.ac.th/radiology/staff/",
+    "research_interests": [
+      "Diagnostic Radiology",
+      "Interventional Radiology",
+      "Magnetic Resonance Imaging (MRI)",
+      "Computed Tomography (CT)",
+      "Nuclear Medicine"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชารังสีวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "รศ. พญ.วรัทพร จันทร์ลลิต",
+    "academic_title_th": "รศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "eye.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Ophthalmology",
+    "department_th": "ภาควิชาจักษุวิทยา",
+    "image_url": "https://med.swu.ac.th/eye/wp-content/uploads/2025/02/5-200x300.png",
+    "profile_url": "https://med.swu.ac.th/eye/staff/",
+    "research_interests": [
+      "Clinical Ophthalmology",
+      "Retinal Diseases",
+      "Glaucoma Research",
+      "Cataract & Refractive Surgery",
+      "Pediatric Ophthalmology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจักษุวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. พญ.สุมาลี บุญยะลีพรรณ",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "eye.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Ophthalmology",
+    "department_th": "ภาควิชาจักษุวิทยา",
+    "image_url": "https://med.swu.ac.th/eye/wp-content/uploads/2025/02/5-200x300.png",
+    "profile_url": "https://med.swu.ac.th/eye/staff/",
+    "research_interests": [
+      "Clinical Ophthalmology",
+      "Retinal Diseases",
+      "Glaucoma Research",
+      "Cataract & Refractive Surgery",
+      "Pediatric Ophthalmology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจักษุวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "ผศ. พญ.พรรณลักษณ์ สินสวัสดิ์",
+    "academic_title_th": "ผศ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "eye.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Ophthalmology",
+    "department_th": "ภาควิชาจักษุวิทยา",
+    "image_url": "https://med.swu.ac.th/eye/wp-content/uploads/2025/02/5-200x300.png",
+    "profile_url": "https://med.swu.ac.th/eye/staff/",
+    "research_interests": [
+      "Clinical Ophthalmology",
+      "Retinal Diseases",
+      "Glaucoma Research",
+      "Cataract & Refractive Surgery",
+      "Pediatric Ophthalmology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจักษุวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.ธนัท บุญให้เจริญ",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "eye.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Ophthalmology",
+    "department_th": "ภาควิชาจักษุวิทยา",
+    "image_url": "https://med.swu.ac.th/eye/wp-content/uploads/2025/02/5-200x300.png",
+    "profile_url": "https://med.swu.ac.th/eye/staff/",
+    "research_interests": [
+      "Clinical Ophthalmology",
+      "Retinal Diseases",
+      "Glaucoma Research",
+      "Cataract & Refractive Surgery",
+      "Pediatric Ophthalmology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจักษุวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. พญ.วัธนีย์ ศรีพวาทกุล",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "eye.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Ophthalmology",
+    "department_th": "ภาควิชาจักษุวิทยา",
+    "image_url": "https://med.swu.ac.th/eye/wp-content/uploads/2025/02/5-200x300.png",
+    "profile_url": "https://med.swu.ac.th/eye/staff/",
+    "research_interests": [
+      "Clinical Ophthalmology",
+      "Retinal Diseases",
+      "Glaucoma Research",
+      "Cataract & Refractive Surgery",
+      "Pediatric Ophthalmology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจักษุวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. พญ.ณิชาบูล โชติขจรเกียรติ",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "eye.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Ophthalmology",
+    "department_th": "ภาควิชาจักษุวิทยา",
+    "image_url": "https://med.swu.ac.th/eye/wp-content/uploads/2025/02/5-200x300.png",
+    "profile_url": "https://med.swu.ac.th/eye/staff/",
+    "research_interests": [
+      "Clinical Ophthalmology",
+      "Retinal Diseases",
+      "Glaucoma Research",
+      "Cataract & Refractive Surgery",
+      "Pediatric Ophthalmology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจักษุวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. พญ.อรวิภา รัตนไพฑูรย์",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "eye.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Ophthalmology",
+    "department_th": "ภาควิชาจักษุวิทยา",
+    "image_url": "https://med.swu.ac.th/eye/wp-content/uploads/2025/02/5-200x300.png",
+    "profile_url": "https://med.swu.ac.th/eye/staff/",
+    "research_interests": [
+      "Clinical Ophthalmology",
+      "Retinal Diseases",
+      "Glaucoma Research",
+      "Cataract & Refractive Surgery",
+      "Pediatric Ophthalmology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจักษุวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. พญ.รพีพร ยอดพรหม",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "eye.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Ophthalmology",
+    "department_th": "ภาควิชาจักษุวิทยา",
+    "image_url": "https://med.swu.ac.th/eye/wp-content/uploads/2025/02/5-200x300.png",
+    "profile_url": "https://med.swu.ac.th/eye/staff/",
+    "research_interests": [
+      "Clinical Ophthalmology",
+      "Retinal Diseases",
+      "Glaucoma Research",
+      "Cataract & Refractive Surgery",
+      "Pediatric Ophthalmology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจักษุวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.พลากร สุนทรมโนกุล (ลาศึกษาต่อ)",
+    "academic_title_th": "อ.",
+    "first_name": "",
+    "last_name": "",
+    "email": "eye.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Ophthalmology",
+    "department_th": "ภาควิชาจักษุวิทยา",
+    "image_url": "https://med.swu.ac.th/eye/wp-content/uploads/2025/02/5-200x300.png",
+    "profile_url": "https://med.swu.ac.th/eye/staff/",
+    "research_interests": [
+      "Clinical Ophthalmology",
+      "Retinal Diseases",
+      "Glaucoma Research",
+      "Cataract & Refractive Surgery",
+      "Pediatric Ophthalmology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจักษุวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  },
+  {
+    "full_name_th": "อ. นพ.พลากร สุนทรมโนกุล",
+    "academic_title_th": "อ.",
+    "first_name": "Palakorn",
+    "last_name": "Soonthornmanokul",
+    "email": "eye.med@g.swu.ac.th",
+    "role": "อาจารย์ประจำคณะแพทยศาสตร์",
+    "university": "Srinakharinwirot University",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty": "Faculty of Medicine",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department": "Department of Ophthalmology",
+    "department_th": "ภาควิชาจักษุวิทยา",
+    "image_url": "https://med.swu.ac.th/eye/wp-content/uploads/2025/02/5-200x300.png",
+    "profile_url": "https://med.swu.ac.th/eye/staff/",
+    "research_interests": [
+      "Clinical Ophthalmology",
+      "Retinal Diseases",
+      "Glaucoma Research",
+      "Cataract & Refractive Surgery",
+      "Pediatric Ophthalmology"
+    ],
+    "education": [
+      "แพทยศาสตรบัณฑิต (พ.บ.) / ปริญญาเอกทางการแพทย์"
+    ],
+    "taught_courses": [
+      "ภาควิชาจักษุวิทยา",
+      "แพทยศาสตร์คลินิกและพรีคลินิก"
+    ],
+    "featured_publications": []
+  }
+]
