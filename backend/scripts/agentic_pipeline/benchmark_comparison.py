@@ -219,7 +219,7 @@ def main():
     print("="*70)
     print("🚀 LIVE BENCHMARK SUITE: Traditional ReAct VS SKILL.state")
     print(f"🎯 Dataset: 4 University Chunks (CMU, Chula, KMUTT, Mahidol)")
-    print(f"🤖 Model: gemini-2.5-flash")
+    print(f"🤖 Model: gemini-3.5-flash-lite")
     print("="*70)
 
     # 1. Run ReAct

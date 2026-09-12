@@ -14,15 +14,19 @@ import urllib.request
 import urllib.parse
 import ssl
 
+# Keep certificate and hostname verification enabled for all OpenAlex requests.
 SSL_CTX = ssl.create_default_context()
-SSL_CTX.check_hostname = False
-SSL_CTX.verify_mode = ssl.CERT_NONE
 
-# API Key Pool with Automatic Round-Robin & Auto-Failover
+# API Key Pool with Automatic Round-Robin & Auto-Failover.
+# Without configured keys, fetch_with_retry uses the polite unauthenticated tier.
 raw_keys_env = os.getenv("OPENALEX_API_KEYS") or os.getenv("OPENALEX_API_KEY", "")
 API_KEYS_POOL = [k.strip() for k in raw_keys_env.split(",") if k.strip()]
 if not API_KEYS_POOL:
-    API_KEYS_POOL = ["GHnpTUxVcNMK9FbvMJKjD0", "RDxg8cMfJfCJdx3HqGILcy"]
+    print(
+        "⚠️ OPENALEX_API_KEYS / OPENALEX_API_KEY not set; "
+        "using the polite unauthenticated tier.",
+        flush=True,
+    )
 
 EXHAUSTED_KEYS = set()
 KEY_LOCK = threading.Lock()

@@ -10,10 +10,10 @@ none resolved a *new* author and pulled their h-index.
 HOMONYM SAFETY (critical — this feeds the university "distinguished advisor" ranking):
   OpenAlex `search=` can match a stranger (observed live: empty-surname "Pi" →
   "Ileana Heredia-Pi", h=31). We only adopt a candidate when its display_name carries
-  the SURNAME as a whole token AND the first name or its initial. When several
-  candidates qualify and none is corroborated by the faculty's own university, we
-  refuse to guess and leave the row untouched. A wrong-but-confident match is far
-  worse than a miss.
+  the SURNAME as a whole token AND the first name or its initial. A unique qualifying
+  candidate without university corroboration is retained as a low-confidence match
+  (`corroborated=False`); several uncorroborated candidates are left ambiguous. A
+  wrong-but-confident match is far worse than a miss.
 
 Writes (only on a confident match): openalex_id, h_index, total_citations,
 total_publications_count. Genuine no-hits get openalex_id='not_indexed' so re-runs
@@ -107,10 +107,14 @@ def resolve(first: str, last: str, uni: str):
     if not qualifying:
         return None, "no_hit"
     corr = [c for c in qualifying if corroborates(c, uni)]
-    if len(qualifying) == 1 or corr:
-        pool = corr or qualifying
+    if corr:
+        pool = corr
         pool.sort(key=lambda c: ((c.get("summary_stats") or {}).get("h_index") or 0), reverse=True)
         return pool[0], "match"
+    if len(qualifying) == 1:
+        # Keep a lone candidate as a low-confidence match. The payload records
+        # corroborated=False so callers can review it separately from verified matches.
+        return qualifying[0], "match"
     return None, "ambiguous"   # several uncorroborated people → don't guess
 
 
@@ -232,10 +236,19 @@ def main():
                         if not api_healthy():
                             print("  ✋ still degraded — stopping this wave (resumable).", flush=True)
                             break
-            elif verdict == "match":
-                changes.append({"id": rid, "verdict": "match", "corroborated": payload["corroborated"],
-                                "matched_author_name": payload["matched_author_name"],
-                                "openalex_id": payload["openalex_id"], "h_index": payload["h_index"]})
+            else:
+                # Dry-run checkpoints must preserve every verdict for review,
+                # not only matches.
+                entry = {"id": rid, "verdict": verdict}
+                if verdict == "match":
+                    entry.update({
+                        "corroborated": payload["corroborated"],
+                        "matched_author_name": payload["matched_author_name"],
+                        "openalex_id": payload["openalex_id"],
+                        "h_index": payload["h_index"],
+                    })
+                changes.append(entry)
+
             if done % 100 == 0:
                 print(f"  ...{done}/{len(rows)} {counts}", flush=True)
 
