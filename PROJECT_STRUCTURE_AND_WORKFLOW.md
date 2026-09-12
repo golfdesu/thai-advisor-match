@@ -74,10 +74,13 @@ Teacher/
 │   │       └── routes_career_quiz.py              # API ประมวลผล RIASEC Quiz
 │   │
 │   ├── data/
-│   │   └── agent_states/                          # Checkpointed Extraction State JSONs (Wave 1 to Wave 19)
+│   │   └── agent_states/                          # Checkpointed Extraction State JSONs (Wave 1 to Wave 20)
 │   │       ├── wave17_ku_forest_extracted.json
 │   │       ├── wave18_ku_forest_regional_extracted.json
-│   │       └── wave19_cu_gaps_extracted.json
+│   │       ├── wave19_cu_gaps_extracted.json
+│   │       ├── wave20_enames_candidates.json     # W20: id -> EN name tiers + confidence
+│   │       ├── wave20_kuforest_en.json           # W20: KUForest pid -> EN name (postback harvest)
+│   │       └── wave20_apply_log.json             # W20: rollback journal of overwritten names
 │   │
 │   ├── scripts/                                   # Automation Scripts & Pipelines
 │   │   ├── agentic_pipeline/                      # Pipeline ประมวลผลและลดรูปข้อมูล
@@ -96,6 +99,8 @@ Teacher/
 │   │   │   ├── verify_db_stats.py                 # ตรวจสอบจำนวนข้อมูลและ Null Embeddings
 │   │   │   └── merge_duplicate_faculties.py       # ตรวจสอบและควบรวมข้อมูลซ้ำซ้อน
 │   │   ├── migrate_supabase_to_local.py           # สตรีมข้อมูลจาก Supabase ลง Docker Local
+│   │   ├── enrich_wave20_english_names.py         # W20: หาชื่ออังกฤษ 6-tier + apply (journal ย้อนกลับได้)
+│   │   ├── enrich_openalex_author_metrics.py      # OpenAlex probe: h-index/citations (sentinel + canary)
 │   │   └── sync_local_to_supabase.py              # ซิงค์ข้อมูลที่ผ่านการทดสอบขึ้น Cloud Supabase
 │   │
 │   └── tests/                                     # Pytest Test Suite (34 Test Cases)
@@ -247,8 +252,10 @@ python backend/scripts/crawlers/crawl_wave16_flagships.py
 ## 7. สถานะระบบปัจจุบันและ Roadmap การขยายข้อมูล (Status & Next Waves)
 
 ### 7.1 สถานะปัจจุบัน (ณ วันที่ 2026-09-12)
-* **อาจารย์และนักวิจัยในระบบ Local DB:** **14,015 ท่าน** (ผ่านการประมวลผล Wave 1 ถึง Wave 19)
+* **อาจารย์และนักวิจัยในระบบ Local DB:** **14,015 ท่าน** (ผ่านการประมวลผล Wave 1 ถึง Wave 20)
 * **เวกเตอร์ Embedding ขาดหาย:** **0 รายการ** (ความสมบูรณ์ 100%)
+* **OpenAlex-resolved:** **4,872 ท่าน** | h-index > 0: **5,515** | elite advisor (h ≥ 20 หรือ cit ≥ 1,000): **913** | citation รวม **4.34 ล้าน**
+* **ชื่ออังกฤษ (romanized) ระบุแล้วจากแหล่งของสถาบันเอง (Wave 20):** 9,868 แถวมี first_name เป็นอักษรละติน
 * **ห้องปฏิบัติการวิจัยชั้นนำระดับชาติ:** **104 ห้องแล็บ** (เชื่อมโยงอาจารย์หัวหน้าแล็บ 100%)
 * **หลักสูตรระดับบัณฑิตศึกษา:** **4,185 หลักสูตร**
 * **สถิติมหาวิทยาลัย 8 อันดับแรก:**
@@ -261,6 +268,10 @@ python backend/scripts/crawlers/crawl_wave16_flagships.py
   7. มหาวิทยาลัยสงขลานครินทร์: 608 ท่าน
   8. สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง: 568 ท่าน
 
-### 7.2 Roadmap เป้าหมาย Wave ถัดไป (Wave 20)
-* **สถานะ Wave 19 (เสร็จสิ้น 2026-09-12):** ปิดช่องว่างคณะของ จุฬาฯ — ตรวจพบว่าจะไม่มีพอร์ทัลกลาง CU (togethher/research.chula DNS ตาย) จึงใช้แผนสำรองที่อนุมัติแล้ว: 5 รายชื่อคณะที่เข้าถึงได้ (นิติศาสตร์ 53, รัฐศาสตร์ 66, เศรษฐศาสตร์ 54 + portfolio 12 หน้า, ครุศาสตร์ 129 ผ่าน eduadmin JSON API, จิตวิทยา 35) = 337 raw → Insert 184 + Enrich 153, ฐานรวมข้ามหลัก **14,015 ท่าน**, CU จาก 2,262 → 2,446 (อันดับ 2 ตามเดิม, KU 3,272)
-* **เป้าหมาย:** คณะ CU ที่เหลือซึ่งเป็น JS-SPA/legacy (นิเทศศาสตร์, อักษรศาสตร์, พยาบาล, ศิลปกรรม, กีฬา) — ต้องใช้ headed browser/Playwright หรือหา JSON endpoint, Thammasat SciTech (Rangsit), มหาลัยภูมิภาคที่ยังบาง (PSU วิทยาเขตอื่นๆ, NU, UBU), หรือ enrichment รอบ OpenAlex ต่อ
+### 7.2 Roadmap เป้าหมาย Wave ถัดไป (Wave 21)
+* **สถานะ Wave 20 (เสร็จสิ้นบางส่วน 2026-09-12):** English Name Resolver — ปลดล็อก OpenAlex ให้กลุ่มชื่อไทย/ชื่อหาย 6,707 แถว ด้วย 6 trust tier (T5 KUForest ASP.NET language-postback 2,110 ชื่อจริงจากหน้า EN ของสถาบันเอง, T6 Psy `/en/people/` 27, T1 Latin ใน `full_name_th` 187, T3 person-slug URL 216, T2 first.last@ email 204, T4 Latin เดิมที่ไม่เคย probe 104) → candidate 2,701 (high-conf 2,160) → apply ชื่ออังกฤษ 2,578 แถว (มี journal ย้อนกลับได้) | OpenAlex Wave 3 probe ได้ **653 matches / +361 h-index** ก่อน quota หมดที่ 1,120/2,702 (หยุด cleanly, resumable)
+* **สิ่งที่ต้องทำต่อจาก Wave 20:**
+  1. **รัน OpenAlex probe ต่อ** — `python backend/scripts/enrich_openalex_author_metrics.py --apply --workers 4` (เริ่มจาก repo root) เหลือ ~1,582 แถวที่ keyable ได้ + 118 ambiguous — quota รีเซตรายวัน
+  2. **กลุ่มที่ยังไม่มีชื่ออังกฤษ 3,552 แถว** — no-profile 623, legacy ไม่มีทั้ง email/slug ~2,800; แหล่งที่เป็นไปได้: w1.med.cmu.dept listings (มี EN name ใน HTML), aad/siet KMITL (ไม่มี EN), pharm.chula (มี `/en/` hub), vet.ku, eng.su portfolio pages
+* **เป้าหมาย Wave 21:** คณะ CU ที่เหลือซึ่งเป็น JS-SPA/legacy (นิเทศศาสตร์, อักษรศาสตร์, พยาบาล, ศิลปกรรม, กีฬา) — ต้องใช้ headed browser/Playwright หรือหา JSON endpoint, Thammasat SciTech (Rangsit), มหาลัยภูมิภาคที่ยังบาง (PSU วิทยาเขตอื่นๆ, NU, UBU)
+
