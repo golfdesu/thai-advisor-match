@@ -1,0 +1,254 @@
+{
+  "mode": "apply",
+  "saved_at": "2026-09-12T17:10:10.355373+00:00",
+  "privacy": [],
+  "emails": [],
+  "duplicate_openalex": [
+    {
+      "openalex_id": "https://openalex.org/A5003080546",
+      "keep_id": "sut_sci_kritsana_001",
+      "clear_ids": [
+        "khonkaenun_facultyofm_sagarik_017"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5004824108",
+      "keep_id": "mu_sci_wave14_b_0163",
+      "clear_ids": [
+        "mahidoluni_facultyofs_triampo_007"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5005459966",
+      "keep_id": "sut_sci_theeraporn_001",
+      "clear_ids": [
+        "mu_sci_wave14_b_0080"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5026991644",
+      "keep_id": "md-chula-009_4672bf",
+      "clear_ids": [
+        "mahidoluni_facultyofm_pisitkun_018"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5027825454",
+      "keep_id": "cmu_robot_supachai_001",
+      "clear_ids": [
+        "kmutt_fibo_supachai_001"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5031539185",
+      "keep_id": "chiangmaiu_facultyofp_thongprachum_004",
+      "clear_ids": [
+        "mahidoluni_facultyofp_thongprachum_029"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5032550514",
+      "keep_id": "mu_pharm_wave12_0017",
+      "clear_ids": [
+        "chulalongk_facultyofp_suksiriworapong_028"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5032645522",
+      "keep_id": "ku-vet-015_ae1be9",
+      "clear_ids": [
+        "chulalongk_facultyofv_techangamsuwan_114"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5040361240",
+      "keep_id": "sut_sci_suwit_001",
+      "clear_ids": [
+        "chula_eng_ee_030",
+        "cu_eng_wave13_0035"
+      ],
+      "member_count": 3
+    },
+    {
+      "openalex_id": "https://openalex.org/A5041583454",
+      "keep_id": "mu_dent_sirichai_001",
+      "clear_ids": [
+        "chulalongk_facultyofd_kiattavorncharo_021"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5042542468",
+      "keep_id": "ku-econ-006_3d8c76",
+      "clear_ids": [
+        "chiangmaiu_facultyofl_wisuttisak_016"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5044655299",
+      "keep_id": "kmitl_sci_wilailak_001",
+      "clear_ids": [
+        "kku_sci_wave14_b_0044"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5052551841",
+      "keep_id": "mu-pharm-007_0fb2e3",
+      "clear_ids": [
+        "chulalongk_facultyofp_chaikledkaew_034",
+        "mu_pharm_wave12_0051"
+      ],
+      "member_count": 3
+    },
+    {
+      "openalex_id": "https://openalex.org/A5053589371",
+      "keep_id": "kmitl_eng_pornsak_001",
+      "clear_ids": [
+        "kingmongku_facultyofe_srisungsitthisu_066"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5055428896",
+      "keep_id": "kmitl_eng_wanchalerm_001",
+      "clear_ids": [
+        "chula_eng_ee_032",
+        "cu_eng_wave13_0037"
+      ],
+      "member_count": 3
+    },
+    {
+      "openalex_id": "https://openalex.org/A5055646303",
+      "keep_id": "silpakornu_facultyoff_santasombat_031",
+      "clear_ids": [
+        "chulalongk_facultyofc_santasombat_009"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5063163547",
+      "keep_id": "mu_pharm_wave12_0016",
+      "clear_ids": [
+        "chulalongk_facultyofp_wongrakpanich_003"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5065187413",
+      "keep_id": "cmu_499533f0_5132",
+      "clear_ids": [
+        "mfu_med_komsan_001"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5066706774",
+      "keep_id": "ku_fish_tuantong_001",
+      "clear_ids": [
+        "ubonratcha_facultyofa_jutagate_001"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5067050468",
+      "keep_id": "cmu-eng-004_d2e56a",
+      "clear_ids": [
+        "kmutnb_tggs_staff_023"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5070779006",
+      "keep_id": "nu_kwanchai_kraitong_4512",
+      "clear_ids": [
+        "sut_eng_kwanchai_001"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5072822328",
+      "keep_id": "mfu_sirikan_chucherd_1962",
+      "clear_ids": [
+        "thammasatu_sirindhorn_chucherd_011"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5073296749",
+      "keep_id": "ku-agro-018_ab6159",
+      "clear_ids": [
+        "mfu_agro_Saroat"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5077738851",
+      "keep_id": "chiangmaiu_facultyofp_boonchieng_002",
+      "clear_ids": [
+        "mahidoluni_facultyofp_boonchieng_024"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5082817569",
+      "keep_id": "dt-mu-004_6c6e5f",
+      "clear_ids": [
+        "cu_dent_wave15_0104"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5087397027",
+      "keep_id": "thammasatu_facultyofe_vorapojpisut_001",
+      "clear_ids": [
+        "kmitl_eng_supachai_vor_001"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5087935871",
+      "keep_id": "mahidoluni_instituteo_santivarangkna_001",
+      "clear_ids": [
+        "chulalongk_facultyofp_santivarangkna_030"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5093269494",
+      "keep_id": "ku_wave17_bus_0006",
+      "clear_ids": [
+        "ku_wave17_bus_0018"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5103563754",
+      "keep_id": "ku-vet-018_e984e5",
+      "clear_ids": [
+        "chulalongk_facultyofv_chansiriporncha_169"
+      ],
+      "member_count": 2
+    },
+    {
+      "openalex_id": "https://openalex.org/A5106210703",
+      "keep_id": "thammasatu_thammasatb_fac_042_042",
+      "clear_ids": [
+        "chulalongk_facultyofe_jantori_019"
+      ],
+      "member_count": 2
+    }
+  ],
+  "duplicate_group_count": 30,
+  "duplicate_rows_to_requeue": 33,
+  "duplicate_openalex_applied": false
+}
