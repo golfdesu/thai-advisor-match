@@ -58,20 +58,20 @@ def fetch_top_works_for_author(openalex_id_raw: str, max_works: int = 5) -> list
 
 def run_openalex_publication_enrichment():
     db = SessionLocal()
+    try:
+        # Query faculties with verified OpenAlex IDs and pub count > 0 who need enrichment (< 3 publications)
+        candidates = db.query(FacultyDB).filter(
+            FacultyDB.total_publications_count > 0,
+            FacultyDB.openalex_id.like('%openalex.org%')
+        ).all()
 
-    # Query faculties with verified OpenAlex IDs and pub count > 0 who need enrichment (< 3 publications)
-    candidates = db.query(FacultyDB).filter(
-        FacultyDB.total_publications_count > 0,
-        FacultyDB.openalex_id.like('%openalex.org%')
-    ).all()
-
-    target_faculties = []
-    for f in candidates:
-        pubs = f.featured_publications or []
-        if len(pubs) < 3:
-            target_faculties.append((f.id, f.openalex_id, f.full_name_th, pubs))
-
-    db.close()
+        target_faculties = []
+        for f in candidates:
+            pubs = f.featured_publications or []
+            if len(pubs) < 3:
+                target_faculties.append((f.id, f.openalex_id, f.full_name_th, pubs))
+    finally:
+        db.close()
 
     total = len(target_faculties)
     print("=" * 65)
@@ -106,36 +106,41 @@ def run_openalex_publication_enrichment():
                 except Exception as e:
                     pass
 
-        # Batch write to DB
+        # Batch write to DB with exception-safe rollback and close
         db_write = SessionLocal()
-        saved_count = 0
-        for fid, name_th, works, existing_pubs in chunk_results:
-            if not works:
-                continue
-            fac_rec = db_write.query(FacultyDB).filter(FacultyDB.id == fid).first()
-            if not fac_rec:
-                continue
+        try:
+            saved_count = 0
+            for fid, name_th, works, existing_pubs in chunk_results:
+                if not works:
+                    continue
+                fac_rec = db_write.query(FacultyDB).filter(FacultyDB.id == fid).first()
+                if not fac_rec:
+                    continue
 
-            # Merge: Keep existing publications if unique, append fetched OpenAlex works
-            existing_titles = set()
-            merged_pubs = []
-            for ep in (fac_rec.featured_publications or []):
-                t = ep.get("title") if isinstance(ep, dict) else str(ep)
-                if t and t.lower() not in existing_titles:
-                    existing_titles.add(t.lower())
-                    merged_pubs.append(ep)
+                # Merge: Keep existing publications if unique, append fetched OpenAlex works
+                existing_titles = set()
+                merged_pubs = []
+                for ep in (fac_rec.featured_publications or []):
+                    t = ep.get("title") if isinstance(ep, dict) else str(ep)
+                    if t and t.lower() not in existing_titles:
+                        existing_titles.add(t.lower())
+                        merged_pubs.append(ep)
 
-            for nw in works:
-                nt = nw["title"]
-                if nt.lower() not in existing_titles:
-                    existing_titles.add(nt.lower())
-                    merged_pubs.append(nw)
+                for nw in works:
+                    nt = nw["title"]
+                    if nt.lower() not in existing_titles:
+                        existing_titles.add(nt.lower())
+                        merged_pubs.append(nw)
 
-            fac_rec.featured_publications = merged_pubs
-            saved_count += 1
+                fac_rec.featured_publications = merged_pubs
+                saved_count += 1
 
-        db_write.commit()
-        db_write.close()
+            db_write.commit()
+        except Exception:
+            db_write.rollback()
+            raise
+        finally:
+            db_write.close()
 
         completed += len(chunk)
         elapsed = time.time() - start_time

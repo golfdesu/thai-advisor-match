@@ -174,22 +174,24 @@ def enrich_faculty_publications(f_data: tuple) -> tuple:
 
 def run_full_publication_enrichment():
     db = SessionLocal()
-    # Find all faculties with < 3 publications
-    all_facs = db.query(FacultyDB).all()
-    targets = []
-    for f in all_facs:
-        pubs = f.featured_publications or []
-        if len(pubs) < 3:
-            targets.append((
-                f.id,
-                f.full_name_th,
-                f.university_th,
-                f.university or "",
-                f.faculty_th or f.faculty or "",
-                pubs,
-                f.research_interests or []
-            ))
-    db.close()
+    try:
+        # Find all faculties with < 3 publications
+        all_facs = db.query(FacultyDB).all()
+        targets = []
+        for f in all_facs:
+            pubs = f.featured_publications or []
+            if len(pubs) < 3:
+                targets.append((
+                    f.id,
+                    f.full_name_th,
+                    f.university_th,
+                    f.university or "",
+                    f.faculty_th or f.faculty or "",
+                    pubs,
+                    f.research_interests or []
+                ))
+    finally:
+        db.close()
 
     total = len(targets)
     print("=" * 65)
@@ -212,36 +214,41 @@ def run_full_publication_enrichment():
                 except Exception:
                     pass
 
-        # Commit chunk results
+        # Commit chunk results with exception-safe rollback and close
         db_write = SessionLocal()
-        chunk_saved = 0
-        for fid, new_pubs, method in results:
-            if not new_pubs:
-                continue
-            rec = db_write.query(FacultyDB).filter(FacultyDB.id == fid).first()
-            if not rec:
-                continue
+        try:
+            chunk_saved = 0
+            for fid, new_pubs, method in results:
+                if not new_pubs:
+                    continue
+                rec = db_write.query(FacultyDB).filter(FacultyDB.id == fid).first()
+                if not rec:
+                    continue
 
-            existing_titles = set()
-            merged = []
-            for ep in (rec.featured_publications or []):
-                t = ep.get("title") if isinstance(ep, dict) else str(ep)
-                if t:
-                    existing_titles.add(t.lower())
-                    merged.append(ep)
+                existing_titles = set()
+                merged = []
+                for ep in (rec.featured_publications or []):
+                    t = ep.get("title") if isinstance(ep, dict) else str(ep)
+                    if t:
+                        existing_titles.add(t.lower())
+                        merged.append(ep)
 
-            for np in new_pubs:
-                t = np["title"]
-                if t.lower() not in existing_titles:
-                    existing_titles.add(t.lower())
-                    merged.append(np)
+                for np in new_pubs:
+                    t = np["title"]
+                    if t.lower() not in existing_titles:
+                        existing_titles.add(t.lower())
+                        merged.append(np)
 
-            rec.featured_publications = merged
-            chunk_saved += 1
-            total_enriched += 1
+                rec.featured_publications = merged
+                chunk_saved += 1
+                total_enriched += 1
 
-        db_write.commit()
-        db_write.close()
+            db_write.commit()
+        except Exception:
+            db_write.rollback()
+            raise
+        finally:
+            db_write.close()
 
         completed = min(i + batch_size, total)
         print(f"[{completed}/{total}] Chunk saved: {chunk_saved} | Cumulative enriched: {total_enriched} ({completed*100/total:.1f}%)")

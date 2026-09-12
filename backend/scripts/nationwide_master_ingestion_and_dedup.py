@@ -8,6 +8,7 @@ from collections import defaultdict
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from app.core.database import SessionLocal
+from app.core.university_canonicalizer import get_university_dedup_key
 from app.models.db_models import CourseDB, FacultyDB
 from app.core.embedding_service import embedding_service
 from sqlalchemy.orm import defer
@@ -114,64 +115,66 @@ def execute_nationwide_expansion_and_dedup():
     # -------------------------------------------------------------------------
     print("\n🔍 เริ่มกระบวนการตรวจสอบและกำจัดข้อมูลซ้ำซ้อน (Redundancy Deduplication)...")
     db = SessionLocal()
-    all_courses = db.query(CourseDB).all()
-    
-    # Group by (university, normalized title, degree_level)
-    groups = defaultdict(list)
-    for c in all_courses:
-        norm_title = (c.title_th or "").strip().lower().replace(" ", "")
-        norm_uni = (c.university or "").strip().lower()
-        norm_deg = (c.degree_level or "").strip()
-        key = (norm_uni, norm_title, norm_deg)
-        groups[key].append(c)
+    try:
+        all_courses = db.query(CourseDB).all()
 
-    deleted_count = 0
-    merged_count = 0
+        # Group by (canonical university key, normalized title, degree_level)
+        groups = defaultdict(list)
+        for c in all_courses:
+            norm_title = (c.title_th or "").strip().lower().replace(" ", "")
+            norm_uni = get_university_dedup_key(c.university)
+            norm_deg = (c.degree_level or "").strip()
+            key = (norm_uni, norm_title, norm_deg)
+            groups[key].append(c)
 
-    for key, items in groups.items():
-        if len(items) > 1:
-            # Score each item based on completeness
-            def completeness_score(course: CourseDB) -> int:
-                score = 0
-                if course.tuition_per_semester: score += 5
-                if course.tuition_total: score += 5
-                if course.website_url: score += 5
-                if course.description and len(course.description) > 50: score += 5
-                if course.curriculum_highlights and len(course.curriculum_highlights) > 0: score += 3
-                if course.career_paths and len(course.career_paths) > 0: score += 3
-                if course.tags and len(course.tags) > 0: score += 2
-                if course.embedding is not None: score += 2
-                return score
+        deleted_count = 0
+        merged_count = 0
 
-            sorted_items = sorted(items, key=completeness_score, reverse=True)
-            canonical = sorted_items[0]
-            redundant_duplicates = sorted_items[1:]
+        for key, items in groups.items():
+            if len(items) > 1:
+                # Score each item based on completeness
+                def completeness_score(course: CourseDB) -> int:
+                    score = 0
+                    if course.tuition_per_semester: score += 5
+                    if course.tuition_total: score += 5
+                    if course.website_url: score += 5
+                    if course.description and len(course.description) > 50: score += 5
+                    if course.curriculum_highlights and len(course.curriculum_highlights) > 0: score += 3
+                    if course.career_paths and len(course.career_paths) > 0: score += 3
+                    if course.tags and len(course.tags) > 0: score += 2
+                    if course.embedding is not None: score += 2
+                    return score
 
-            # Merge missing fields from duplicates into canonical
-            for dup in redundant_duplicates:
-                if not canonical.tuition_per_semester and dup.tuition_per_semester:
-                    canonical.tuition_per_semester = dup.tuition_per_semester
-                if not canonical.tuition_total and dup.tuition_total:
-                    canonical.tuition_total = dup.tuition_total
-                if not canonical.website_url and dup.website_url:
-                    canonical.website_url = dup.website_url
-                if not canonical.description and dup.description:
-                    canonical.description = dup.description
-                if not canonical.curriculum_highlights and dup.curriculum_highlights:
-                    canonical.curriculum_highlights = dup.curriculum_highlights
-                if not canonical.career_paths and dup.career_paths:
-                    canonical.career_paths = dup.career_paths
+                sorted_items = sorted(items, key=completeness_score, reverse=True)
+                canonical = sorted_items[0]
+                redundant_duplicates = sorted_items[1:]
 
-                # Delete duplicate
-                db.delete(dup)
-                deleted_count += 1
-                merged_count += 1
+                # Merge missing fields from duplicates into canonical
+                for dup in redundant_duplicates:
+                    if not canonical.tuition_per_semester and dup.tuition_per_semester:
+                        canonical.tuition_per_semester = dup.tuition_per_semester
+                    if not canonical.tuition_total and dup.tuition_total:
+                        canonical.tuition_total = dup.tuition_total
+                    if not canonical.website_url and dup.website_url:
+                        canonical.website_url = dup.website_url
+                    if not canonical.description and dup.description:
+                        canonical.description = dup.description
+                    if not canonical.curriculum_highlights and dup.curriculum_highlights:
+                        canonical.curriculum_highlights = dup.curriculum_highlights
+                    if not canonical.career_paths and dup.career_paths:
+                        canonical.career_paths = dup.career_paths
 
-            canonical.embedding_text = build_course_embedding_text(canonical)
-            ids_to_embed.add(canonical.id)
+                    # Delete duplicate
+                    db.delete(dup)
+                    deleted_count += 1
+                    merged_count += 1
 
-    db.commit()
-    db.close()
+                canonical.embedding_text = build_course_embedding_text(canonical)
+                ids_to_embed.add(canonical.id)
+
+        db.commit()
+    finally:
+        db.close()
     print(f"🧹 รวมและกำจัดหลักสูตรที่ซ้ำซ้อนสำเร็จ: ลบส่วนซ้ำ {deleted_count} รายการ (รวมข้อมูลครบถ้วน)")
 
     # -------------------------------------------------------------------------
@@ -179,10 +182,12 @@ def execute_nationwide_expansion_and_dedup():
     # -------------------------------------------------------------------------
     # Also check if any courses are currently missing embeddings
     db = SessionLocal()
-    missing_vecs = db.query(CourseDB.id).filter(CourseDB.embedding == None).all()
-    for row in missing_vecs:
-        ids_to_embed.add(row[0])
-    db.close()
+    try:
+        missing_vecs = db.query(CourseDB.id).filter(CourseDB.embedding == None).all()
+        for row in missing_vecs:
+            ids_to_embed.add(row[0])
+    finally:
+        db.close()
 
     print(f"\n🧠 กำลังคำนวณและบันทึก AI Vector Embeddings สำหรับ {len(ids_to_embed)} หลักสูตร...")
     id_list = list(ids_to_embed)

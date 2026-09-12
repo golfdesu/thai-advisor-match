@@ -264,83 +264,85 @@ def build_embedding_text(f: FacultyDB) -> str:
 
 def main():
     db = SessionLocal()
-    changed_ids: list[str] = []
+    try:
+        changed_ids: list[str] = []
 
-    # ── Phase 1: merged university strings ──────────────────────────
-    merged = db.query(FacultyDB).filter(FacultyDB.university_th.like("%และ%")).all()
-    print(f"[Phase 1] merged university strings: {len(merged)}")
-    unresolved = []
-    for f in merged:
-        pair = resolve_uni(f.email, f.id, f.department_th or "")
-        if pair:
-            f.university_th, f.university = pair
+        # ── Phase 1: merged university strings ──────────────────────────
+        merged = db.query(FacultyDB).filter(FacultyDB.university_th.like("%และ%")).all()
+        print(f"[Phase 1] merged university strings: {len(merged)}")
+        unresolved = []
+        for f in merged:
+            pair = resolve_uni(f.email, f.id, f.department_th or "")
+            if pair:
+                f.university_th, f.university = pair
+                changed_ids.append(f.id)
+            else:
+                unresolved.append(f"{f.id} | {f.university_th!r} | email={f.email!r}")
+
+        # ── Phase 2: faculty label canonicalization ─────────────────────
+        rows = db.query(FacultyDB).all()
+        print(f"[Phase 2] scanning {len(rows)} rows for faculty label variants...")
+        for f in rows:
+            table = FACULTY_CANONICAL.get(f.university_th, {})
+            cur = (f.faculty_th or "").strip()
+            if cur in table and table[cur] != cur:
+                f.faculty_th = table[cur]
+                changed_ids.append(f.id)
+
+        # ── Phase 3: multi-faculty label split ──────────────────────────
+        print("[Phase 3] multi-faculty label split...")
+        for f in rows:
+            new_fac = split_multi_faculty(f) or apply_composite_dept_rule(f)
+            if new_fac and new_fac != f.faculty_th:
+                f.faculty_th = new_fac
+                changed_ids.append(f.id)
+
+        # ── Phase 3b: exact ID-level canonical assignments ──────────────
+        for fid, (fac_th, fac_en) in EXACT_ID_CANONICAL.items():
+            f = db.get(FacultyDB, fid)
+            if f and f.faculty_th != fac_th:
+                f.faculty_th, f.faculty = fac_th, fac_en
+                changed_ids.append(f.id)
+
+        # ── Phase 3c: CU/MedTech row correction ─────────────────────────
+        # คณะเทคนิคการแพทย์ standalone exists only at Mahidol; at CU it is a
+        # department under คณะสหเวชศาสตร์. So a "CU + คณะเทคนิคการแพทย์" record
+        # (from the combined CU&MU allied-health batch) is really MU.
+        for f in rows:
+            if f.university_th == "จุฬาลงกรณ์มหาวิทยาลัย" and f.faculty_th == "คณะเทคนิคการแพทย์":
+                f.university_th = "มหาวิทยาลัยมหิดล"
+                f.university = ENG_NAME["มหาวิทยาลัยมหิดล"]
+                changed_ids.append(f.id)
+            elif f.university_th == "จุฬาลงกรณ์มหาวิทยาลัย" and f.faculty_th == "คณะสหเวชศาสตร์ และ คณะเทคนิคการแพทย์":
+                # chula-prefixed batch with blank department → CU Allied Health
+                f.faculty_th = "คณะสหเวชศาสตร์"
+                f.faculty = "Faculty of Allied Health Sciences"
+                changed_ids.append(f.id)
+
+        # ── Phase 4: NIDA name unification ──────────────────────────────
+        for f in db.query(FacultyDB).filter(FacultyDB.university_th == "สถาบันบัณฑิตพัฒนบริหารศาสตร์").all():
+            f.university_th = "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)"
+            f.university = ENG_NAME[f.university_th]
             changed_ids.append(f.id)
-        else:
-            unresolved.append(f"{f.id} | {f.university_th!r} | email={f.email!r}")
 
-    # ── Phase 2: faculty label canonicalization ─────────────────────
-    rows = db.query(FacultyDB).all()
-    print(f"[Phase 2] scanning {len(rows)} rows for faculty label variants...")
-    for f in rows:
-        table = FACULTY_CANONICAL.get(f.university_th, {})
-        cur = (f.faculty_th or "").strip()
-        if cur in table and table[cur] != cur:
-            f.faculty_th = table[cur]
-            changed_ids.append(f.id)
-
-    # ── Phase 3: multi-faculty label split ──────────────────────────
-    print("[Phase 3] multi-faculty label split...")
-    for f in rows:
-        new_fac = split_multi_faculty(f) or apply_composite_dept_rule(f)
-        if new_fac and new_fac != f.faculty_th:
-            f.faculty_th = new_fac
-            changed_ids.append(f.id)
-
-    # ── Phase 3b: exact ID-level canonical assignments ──────────────
-    for fid, (fac_th, fac_en) in EXACT_ID_CANONICAL.items():
-        f = db.get(FacultyDB, fid)
-        if f and f.faculty_th != fac_th:
-            f.faculty_th, f.faculty = fac_th, fac_en
-            changed_ids.append(f.id)
-
-    # ── Phase 3c: CU/MedTech row correction ─────────────────────────
-    # คณะเทคนิคการแพทย์ standalone exists only at Mahidol; at CU it is a
-    # department under คณะสหเวชศาสตร์. So a "CU + คณะเทคนิคการแพทย์" record
-    # (from the combined CU&MU allied-health batch) is really MU.
-    for f in rows:
-        if f.university_th == "จุฬาลงกรณ์มหาวิทยาลัย" and f.faculty_th == "คณะเทคนิคการแพทย์":
-            f.university_th = "มหาวิทยาลัยมหิดล"
-            f.university = ENG_NAME["มหาวิทยาลัยมหิดล"]
-            changed_ids.append(f.id)
-        elif f.university_th == "จุฬาลงกรณ์มหาวิทยาลัย" and f.faculty_th == "คณะสหเวชศาสตร์ และ คณะเทคนิคการแพทย์":
-            # chula-prefixed batch with blank department → CU Allied Health
-            f.faculty_th = "คณะสหเวชศาสตร์"
-            f.faculty = "Faculty of Allied Health Sciences"
-            changed_ids.append(f.id)
-
-    # ── Phase 4: NIDA name unification ──────────────────────────────
-    for f in db.query(FacultyDB).filter(FacultyDB.university_th == "สถาบันบัณฑิตพัฒนบริหารศาสตร์").all():
-        f.university_th = "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)"
-        f.university = ENG_NAME[f.university_th]
-        changed_ids.append(f.id)
-
-    # ── Rebuild embedding_text for all changed rows ─────────────────
-    unique_ids = sorted(set(changed_ids))
-    for fid in unique_ids:
-        f = db.get(FacultyDB, fid)
-        if f:
-            f.embedding_text = build_embedding_text(f)
-            f.embedding = None
-    db.commit()
-    print(f"✅ Canonical merge complete. Changed records: {len(unique_ids)} (embedding_text rebuilt)")
-    with open(os.path.join(BACKEND_DIR, "data", "agent_states", "canonical_merge_reembed_ids.txt"), "w", encoding="utf-8") as fh:
-        fh.write("\n".join(unique_ids))
-    print(f"📝 Re-embed ID list saved to data/agent_states/canonical_merge_reembed_ids.txt")
-    if unresolved:
-        print(f"⚠️ Unresolved Phase-1 rows ({len(unresolved)}):")
-        for u in unresolved:
-            print(f"   {u}")
-    db.close()
+        # ── Rebuild embedding_text for all changed rows ─────────────────
+        unique_ids = sorted(set(changed_ids))
+        for fid in unique_ids:
+            f = db.get(FacultyDB, fid)
+            if f:
+                f.embedding_text = build_embedding_text(f)
+                f.embedding = None
+        db.commit()
+        print(f"✅ Canonical merge complete. Changed records: {len(unique_ids)} (embedding_text rebuilt)")
+        with open(os.path.join(BACKEND_DIR, "data", "agent_states", "canonical_merge_reembed_ids.txt"), "w", encoding="utf-8") as fh:
+            fh.write("\n".join(unique_ids))
+        print(f"📝 Re-embed ID list saved to data/agent_states/canonical_merge_reembed_ids.txt")
+        if unresolved:
+            print(f"⚠️ Unresolved Phase-1 rows ({len(unresolved)}):")
+            for u in unresolved:
+                print(f"   {u}")
+    finally:
+        db.close()
 
 
 if __name__ == "__main__":

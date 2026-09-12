@@ -265,20 +265,22 @@ def process_single_faculty(f_record: tuple) -> tuple:
 
 def run_precision_enrichment():
     db = SessionLocal()
-    all_facs = db.query(FacultyDB).all()
-    targets = []
-    for f in all_facs:
-        pubs = f.featured_publications or []
-        if len(pubs) < 3:
-            targets.append((
-                f.id,
-                f.full_name_th,
-                (f.first_name or "").strip(),
-                (f.last_name or "").strip(),
-                f.university_th or "",
-                pubs
-            ))
-    db.close()
+    try:
+        all_facs = db.query(FacultyDB).all()
+        targets = []
+        for f in all_facs:
+            pubs = f.featured_publications or []
+            if len(pubs) < 3:
+                targets.append((
+                    f.id,
+                    f.full_name_th,
+                    (f.first_name or "").strip(),
+                    (f.last_name or "").strip(),
+                    f.university_th or "",
+                    pubs
+                ))
+    finally:
+        db.close()
 
     total = len(targets)
     print("=" * 70)
@@ -301,42 +303,48 @@ def run_precision_enrichment():
                 except Exception:
                     pass
 
-        # Write to database
+        # Write to database with exception-safe rollback and close
         db_write = SessionLocal()
-        saved_in_chunk = 0
-        for fid, new_pubs in results:
-            if not new_pubs:
-                continue
-            rec = db_write.query(FacultyDB).filter(FacultyDB.id == fid).first()
-            if not rec:
-                continue
+        try:
+            saved_in_chunk = 0
+            for fid, new_pubs in results:
+                if not new_pubs:
+                    continue
+                rec = db_write.query(FacultyDB).filter(FacultyDB.id == fid).first()
+                if not rec:
+                    continue
 
-            current_pubs = rec.featured_publications or []
-            existing_titles = set()
-            merged = []
-            for p in current_pubs:
-                t = (p.get("title", "") if isinstance(p, dict) else str(p)).strip()
-                if t:
-                    existing_titles.add(t.lower())
-                    merged.append(p)
+                current_pubs = rec.featured_publications or []
+                existing_titles = set()
+                merged = []
+                for p in current_pubs:
+                    t = (p.get("title", "") if isinstance(p, dict) else str(p)).strip()
+                    if t:
+                        existing_titles.add(t.lower())
+                        merged.append(p)
 
-            added = 0
-            for np in new_pubs:
-                t = np["title"].strip()
-                if t.lower() not in existing_titles:
-                    existing_titles.add(t.lower())
-                    merged.append(np)
-                    added += 1
+                added = 0
+                for np in new_pubs:
+                    t = np["title"].strip()
+                    if t.lower() not in existing_titles:
+                        existing_titles.add(t.lower())
+                        merged.append(np)
+                        added += 1
 
-            if added > 0:
-                rec.featured_publications = merged
-                rec.total_publications_count = max(rec.total_publications_count or 0, len(merged))
-                rec.total_citations = sum(p.get("citation_count", 0) for p in merged if isinstance(p, dict))
-                saved_in_chunk += 1
-                total_newly_enriched += 1
+                if added > 0:
+                    rec.featured_publications = merged
+                    rec.total_publications_count = max(rec.total_publications_count or 0, len(merged))
+                    # Note: total_citations is an author-level aggregate across all lifetime works
+                    # populated by OpenAlex author metrics; do not overwrite with a publication subset sum.
+                    saved_in_chunk += 1
+                    total_newly_enriched += 1
 
-        db_write.commit()
-        db_write.close()
+            db_write.commit()
+        except Exception:
+            db_write.rollback()
+            raise
+        finally:
+            db_write.close()
 
         done = min(i + chunk_size, total)
         pct = (done * 100.0) / total

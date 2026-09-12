@@ -272,27 +272,29 @@ def execute_merge(cur, plan, rebuild_embeddings: bool) -> None:
 
     if rebuild_embeddings and need_reembed:
         db = SessionLocal()
-        ok = fail = 0
-        for i, rid in enumerate(need_reembed, 1):
-            obj = db.get(FacultyDB, rid)
-            if obj is None:
-                continue
-            obj.embedding_text = build_faculty_embedding_text(obj)
-            try:
-                vec = embedding_service.get_embedding(obj.embedding_text)
-            except Exception:
-                vec = None
-            if vec:
-                obj.embedding = vec
-                ok += 1
-            else:
-                fail += 1
-                db.execute(sa_update(FacultyDB).where(FacultyDB.id == rid).values(embedding=None))
-            if i % 25 == 0:
-                db.commit()
-                print(f"  re-embedded {i}/{len(need_reembed)}")
-        db.commit()
-        db.close()
+        try:
+            ok = fail = 0
+            for i, rid in enumerate(need_reembed, 1):
+                obj = db.get(FacultyDB, rid)
+                if obj is None:
+                    continue
+                obj.embedding_text = build_faculty_embedding_text(obj)
+                try:
+                    vec = embedding_service.get_embedding(obj.embedding_text)
+                except Exception:
+                    vec = None
+                if vec:
+                    obj.embedding = vec
+                    ok += 1
+                else:
+                    fail += 1
+                    db.execute(sa_update(FacultyDB).where(FacultyDB.id == rid).values(embedding=None))
+                if i % 25 == 0:
+                    db.commit()
+                    print(f"  re-embedded {i}/{len(need_reembed)}")
+            db.commit()
+        finally:
+            db.close()
         print(f"embedding rebuild: ok={ok} failed={fail} (run backfill_embeddings.py if failed>0)")
 
     cur.execute("SELECT count(*) AS n FROM faculties")

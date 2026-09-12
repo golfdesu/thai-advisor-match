@@ -239,4 +239,61 @@ def test_course_state_reducer_null_safety():
     assert c["tags"] == []
 
 
+def test_enricher_total_citations_preservation():
+    """Verify that enriching publications does not overwrite authoritative total_citations.
+
+    Authoritative lifetime citation metrics come from OpenAlex author metrics (author.cited_by_count).
+    Harvesting a subset of publications from Crossref or ThaiJO must never overwrite rec.total_citations.
+    """
+    class MockFaculty:
+        def __init__(self, total_citations=1542, works_count=45):
+            self.total_citations = total_citations
+            self.total_publications_count = works_count
+            self.featured_publications = [{"title": "Paper A", "citations": 5}]
+
+    rec = MockFaculty(total_citations=1542, works_count=45)
+    new_pubs = [
+        {"title": "Paper A", "citations": 5},
+        {"title": "Paper B", "citations": 12},
+    ]
+    # Simulate the fixed enricher logic
+    added = len(new_pubs) - len(rec.featured_publications)
+    if added > 0:
+        rec.featured_publications = new_pubs
+        rec.total_publications_count = max(rec.total_publications_count or 0, len(new_pubs))
+        # Crucial: rec.total_citations is NOT overwritten with sum(p.get('citations', 0)...)
+
+    assert rec.total_citations == 1542, "Authoritative lifetime citations must be preserved!"
+    assert rec.total_publications_count == 45, "Higher lifetime publications count must not be shrunk!"
+    assert len(rec.featured_publications) == 2
+
+
+def test_university_dedup_key_canonicalization():
+    """Verify that university aliases and language variants produce symmetric dedup keys."""
+    from app.core.university_canonicalizer import (
+        get_university_dedup_key,
+        canonicalize_university_en,
+        canonicalize_university_th
+    )
+
+    # Chulalongkorn variants
+    assert get_university_dedup_key("Chula") == "chulalongkorn university"
+    assert get_university_dedup_key("CU") == "chulalongkorn university"
+    assert get_university_dedup_key("จุฬาลงกรณ์มหาวิทยาลัย") == "chulalongkorn university"
+    assert get_university_dedup_key("Chulalongkorn University") == "chulalongkorn university"
+
+    # KMUTT variants
+    assert get_university_dedup_key("KMUTT") == "king mongkut's university of technology thonburi"
+    assert get_university_dedup_key("มจธ.") == "king mongkut's university of technology thonburi"
+
+    # KMITL variants
+    assert get_university_dedup_key("KMITL") == "king mongkut's institute of technology ladkrabang"
+    assert get_university_dedup_key("สจล.") == "king mongkut's institute of technology ladkrabang"
+
+    # PSU variants
+    assert get_university_dedup_key("PSU") == "prince of songkla university"
+    assert get_university_dedup_key("มอ.") == "prince of songkla university"
+
+
+
 

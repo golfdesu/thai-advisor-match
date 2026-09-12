@@ -4,6 +4,7 @@ import os, re
 os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from sqlalchemy import create_engine, text
 from collections import defaultdict
+from app.core.university_canonicalizer import get_university_dedup_key
 try:
     from rapidfuzz import fuzz
     HAS_FUZZ=True
@@ -40,7 +41,7 @@ with engine.connect() as conn:
     groups=defaultdict(list)
     for r in rows:
         norm=normalize_title(r[1])
-        key=(r[4], norm, r[3])  # university, norm_title, degree_level
+        key=(get_university_dedup_key(r[4]), norm, r[3])  # canonical university key, norm_title, degree_level
         groups[key].append(r)
 
     print(f"Groups (university, norm_title, degree): {len(groups)}, avg size {len(rows)/len(groups):.2f}")

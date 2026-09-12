@@ -20,8 +20,6 @@ from app.models.db_models import FacultyDB
 from scripts.agentic_pipeline.state_reducer import TITLE_STRIP_REGEX
 
 SSL_CTX = ssl.create_default_context()
-SSL_CTX.check_hostname = False
-SSL_CTX.verify_mode = ssl.CERT_NONE
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -112,14 +110,16 @@ def search_all_thaijo_for_faculty(faculty_name_th: str, faculty_field: str) -> l
 
 def run_thaijo_enrichment():
     db = SessionLocal()
-    # Find faculties with 0 or < 2 publications in Social Sciences, Law, Humanities, Education, Business
-    facs = db.query(FacultyDB).all()
-    target_faculties = []
-    for f in facs:
-        pubs = f.featured_publications or []
-        if len(pubs) < 2:
-            target_faculties.append((f.id, f.full_name_th, f.faculty_th or f.faculty or "", pubs))
-    db.close()
+    try:
+        # Find faculties with 0 or < 2 publications in Social Sciences, Law, Humanities, Education, Business
+        facs = db.query(FacultyDB).all()
+        target_faculties = []
+        for f in facs:
+            pubs = f.featured_publications or []
+            if len(pubs) < 2:
+                target_faculties.append((f.id, f.full_name_th, f.faculty_th or f.faculty or "", pubs))
+    finally:
+        db.close()
 
     total = len(target_faculties)
     print("=" * 65)
@@ -149,37 +149,42 @@ def run_thaijo_enrichment():
                 except Exception:
                     pass
 
-        # Write to DB
+        # Write to DB with exception-safe rollback and close
         db_write = SessionLocal()
-        saved_chunk = 0
-        for fid, name_th, found_articles, existing_pubs in chunk_results:
-            if not found_articles:
-                continue
+        try:
+            saved_chunk = 0
+            for fid, name_th, found_articles, existing_pubs in chunk_results:
+                if not found_articles:
+                    continue
 
-            rec = db_write.query(FacultyDB).filter(FacultyDB.id == fid).first()
-            if not rec:
-                continue
+                rec = db_write.query(FacultyDB).filter(FacultyDB.id == fid).first()
+                if not rec:
+                    continue
 
-            existing_titles = set()
-            merged = []
-            for ep in (rec.featured_publications or []):
-                t = ep.get("title") if isinstance(ep, dict) else str(ep)
-                if t:
-                    existing_titles.add(t.lower())
-                    merged.append(ep)
+                existing_titles = set()
+                merged = []
+                for ep in (rec.featured_publications or []):
+                    t = ep.get("title") if isinstance(ep, dict) else str(ep)
+                    if t:
+                        existing_titles.add(t.lower())
+                        merged.append(ep)
 
-            for fa in found_articles:
-                ft = fa["title"]
-                if ft.lower() not in existing_titles:
-                    existing_titles.add(ft.lower())
-                    merged.append(fa)
+                for fa in found_articles:
+                    ft = fa["title"]
+                    if ft.lower() not in existing_titles:
+                        existing_titles.add(ft.lower())
+                        merged.append(fa)
 
-            rec.featured_publications = merged
-            saved_chunk += 1
-            enriched_count += 1
+                rec.featured_publications = merged
+                saved_chunk += 1
+                enriched_count += 1
 
-        db_write.commit()
-        db_write.close()
+            db_write.commit()
+        except Exception:
+            db_write.rollback()
+            raise
+        finally:
+            db_write.close()
 
         completed = min(i + batch_size, total)
         print(f"[{completed}/{total}] ThaiJO matches in chunk: {saved_chunk} | Total enriched: {enriched_count}")

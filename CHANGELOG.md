@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-09-13
+
+### Fixed
+- **Author-level Research Metric Preservation**: Fixed legacy publication enrichers (`backend/scripts/enrich_faculties_crossref.py`, `backend/scripts/enrich_faculties_precision.py`) where author-level lifetime `total_citations` (from OpenAlex author metrics) were erroneously overwritten with partial sums of harvested publications.
+- **Exception-safe SQLAlchemy Session Resource Management**: Standardized exception-safe connection pool management by wrapping database sessions in `try ... finally: db.close()` across 14 enrichment, merge, audit, and deduplication scripts (`enrich_faculties_crossref.py`, `enrich_faculties_precision.py`, `enrich_openalex_works.py`, `enrich_thai_faculties_multi_source.py`, `enrich_thaijo_publications.py`, `canonical_faculty_merge.py`, `deep_dedup_faculties.py`, `nationwide_master_ingestion_and_dedup.py`, `normalize_dedup.py`, `merge_duplicate_faculties.py`, `disambiguate_faculties.py`, `audit_cu_courses.py`, `check_duplicate_faculties.py`, `clean_and_repair_data.py`).
+- **University Alias Canonicalization & Symmetric Deduplication**: Created centralized canonicalizer `backend/app/core/university_canonicalizer.py` providing bidirectional mapping between Thai names, canonical English names, and abbreviations/acronyms (`get_university_dedup_key`, `canonicalize_university_en`, `canonicalize_university_th`), resolving institutional fragmentation in course and faculty deduplication pipelines.
+- **Test Infrastructure & Regressions**:
+  - Added `backend/pytest.ini` to enforce `testpaths = tests` and isolate official test execution from historical scripts in `legacy_archive/`.
+  - Added unit test suite `backend/tests/test_university_canonicalizer.py` (5 tests).
+  - Added regression tests in `backend/tests/test_audited_bug_regressions.py` verifying authoritative lifetime `total_citations` retention and university dedup key symmetry.
+  - Verification: `python -m pytest` passes 45 tests, 1 skipped, 0 failures.
+
 ## 2026-09-12
 
 ### Added
