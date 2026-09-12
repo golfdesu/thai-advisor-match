@@ -295,5 +295,46 @@ def test_university_dedup_key_canonicalization():
     assert get_university_dedup_key("มอ.") == "prince of songkla university"
 
 
+def test_database_hygiene_clean_name_noise():
+    """Verify name sanitization cleans OCR/date/boilerplate artifacts without truncating names."""
+    from scripts.audits.clean_and_deduplicate_database_2026_09_13 import clean_name_noise
+
+    # Revision markers & dates
+    assert clean_name_noise("ผศ.ดร. กัญญาณัฐ เปี่ยมงาม2") == "ผศ.ดร. กัญญาณัฐ เปี่ยมงาม"
+    assert clean_name_noise("รศ. นพ. กิตติพงศ์ NEW2") == "รศ. นพ. กิตติพงศ์"
+    assert clean_name_noise("ผศ.ดร. ธวัชชัย 27.02.68") == "ผศ.ดร. ธวัชชัย"
+
+    # Parenthesized English suffix
+    assert clean_name_noise("รศ.ดร. ภานุวิชญ์ ตู้ประเสริฐ (Tuwanut)") == "รศ.ดร. ภานุวิชญ์ ตู้ประเสริฐ"
+    assert clean_name_noise("ศ.ดร. เอียน เฟนวิก (Prof. Dr. Ian Fenwick)") == "ศ.ดร. เอียน เฟนวิก"
+
+    # Academic title boundary split
+    assert clean_name_noise("รศ. นพ.สยาม ทองประเสริฐAssoc. Prof. Siam Tongprasert, M.D.") == "รศ. นพ.สยาม ทองประเสริฐ"
+    assert clean_name_noise("ผศ.ดร. ชัยพร ตั้งทองAsst. Prof. Dr. Chaiporn ThangthongEmail:") == "ผศ.ดร. ชัยพร ตั้งทอง"
+
+    # Affiliations & positions
+    assert clean_name_noise("อ. พญ.ชนัดดา วงศ์เอกชูตระกูลสังกัดศูนย์ศรีพัฒน์") == "อ. พญ.ชนัดดา วงศ์เอกชูตระกูล"
+    assert clean_name_noise("รศ. นพ.ศุภพงษ์ อาวรณ์Assoc.Prof.Supapong Arwon, MD.หัวหน้าหน่วย") == "รศ. นพ.ศุภพงษ์ อาวรณ์"
+
+
+def test_database_hygiene_clean_email_and_department_detection():
+    """Verify email cleaning strips zero-width spaces and detects shared institutional emails."""
+    from scripts.audits.clean_and_deduplicate_database_2026_09_13 import clean_email_str, is_shared_email
+
+    # Zero-width spaces & attached characters
+    assert clean_email_str("​user@chula.ac.th﻿") == "user@chula.ac.th"
+    assert clean_email_str("Email : test.user@kku.ac.th") == "test.user@kku.ac.th"
+    assert clean_email_str("ch") is None
+    assert clean_email_str("user@su.") is None
+
+    # Shared departmental emails
+    assert is_shared_email("sci@ku.ac.th") is True
+    assert is_shared_email("dent@cmu.ac.th") is True
+    assert is_shared_email("civil@eng.chula.ac.th") is True
+    assert is_shared_email("bdavid@chula.ac.th") is False
+    assert is_shared_email("boonchai.u@chula.ac.th") is False
+
+
+
 
 

@@ -3,14 +3,23 @@
 ## 2026-09-13
 
 ### Fixed
+- **Database Hygiene, Anomaly Purging & Deduplication Pipeline**: Executed `backend/scripts/audits/clean_and_deduplicate_database_2026_09_13.py` against local containerized PostgreSQL (`localhost:5432/advisor_match`):
+  - **Non-Person & Structural Artifact Purge**: Removed 24 non-person structural records (KU Forestry placeholders `อ. สถานที่ติดต่อ`, KMUTT web navigation dumps, KU Science page headers, CMU placeholder strings, and KKU Agriculture operational support staff).
+  - **OCR Ligature & Scraper String Sanitation**: Cleaned 172 malformed names and repaired font-ligature/OCR corruptions across `mu_cmmu_012` (`ผศ.ดร. บุญยิ่ง คงอาชาภัทร`), `mu_cmmu_019` (`รศ.ดร. สุภารักษ์ สุริยันเกียรติแก้ว`), `chula_eng_ee_034` (`ดร. อภิวัฒน์ เล็กอุทัย`), and `kmutnb_393009e6_2960` (`อ.ดร. มนัสยา ละอองแก้ว`). Repaired 13 CMU clinical researchers misattributed to "Nipon Chat" and 5 faculty entries with position titles crawled into first/last name fields (`cmu_58ee6d12_3751`, `srinakhari_facultyofe_sompongjaideech_002`, `kku_sci_wave14_b_0134`, `kku_sci_wave14_b_0143`, `kku_sci_wave14_b_0030`).
+  - **Email Cleaning & Zero-Width Sanitation**: Cleaned 226 malformed emails (stripped zero-width spaces `​`, `﻿`, and attached Thai characters).
+  - **PDPA Compliance**: Sanitized 14 `embedding_text` strings containing embedded office phone numbers (`+66 ...`).
+  - **Comprehensive Two-Pass Faculty Deduplication**: Merged 376 donor records across 368 duplicate groups (Pass 1: same-university exact normalized Thai names; Pass 2: same-university exact English first/last names) with maximum authoritative metric preservation (`total_citations`, `h_index`, `total_publications_count`) and deduplicated list supersets.
+  - **Relational Foreign Key Integrity**: Re-pointed 3 `research_labs.lead_advisor_id` references (`kmutnb_materials_welding_hub`, `kku_tropical_cholangiocarcinoma`, `kku_lithium_battery_factory`) whose advisors were donor records to their primary IDs.
+  - **Course Deduplication**: Merged duplicate Mahasarakham University course `msu_it_msc_it` into primary `msu_inf_it_msc`.
+  - **Post-Clean Verification**: `faculties` count consolidated from 14,015 to 13,615 rows (-24 non-person, -376 merged duplicates), `courses` count consolidated to 4,184 rows (-1 duplicate), `research_labs` 104 rows with 0 broken lead advisor links, 0 remaining same-university duplicate groups, 0 non-person records.
 - **Author-level Research Metric Preservation**: Fixed legacy publication enrichers (`backend/scripts/enrich_faculties_crossref.py`, `backend/scripts/enrich_faculties_precision.py`) where author-level lifetime `total_citations` (from OpenAlex author metrics) were erroneously overwritten with partial sums of harvested publications.
 - **Exception-safe SQLAlchemy Session Resource Management**: Standardized exception-safe connection pool management by wrapping database sessions in `try ... finally: db.close()` across 14 enrichment, merge, audit, and deduplication scripts (`enrich_faculties_crossref.py`, `enrich_faculties_precision.py`, `enrich_openalex_works.py`, `enrich_thai_faculties_multi_source.py`, `enrich_thaijo_publications.py`, `canonical_faculty_merge.py`, `deep_dedup_faculties.py`, `nationwide_master_ingestion_and_dedup.py`, `normalize_dedup.py`, `merge_duplicate_faculties.py`, `disambiguate_faculties.py`, `audit_cu_courses.py`, `check_duplicate_faculties.py`, `clean_and_repair_data.py`).
 - **University Alias Canonicalization & Symmetric Deduplication**: Created centralized canonicalizer `backend/app/core/university_canonicalizer.py` providing bidirectional mapping between Thai names, canonical English names, and abbreviations/acronyms (`get_university_dedup_key`, `canonicalize_university_en`, `canonicalize_university_th`), resolving institutional fragmentation in course and faculty deduplication pipelines.
 - **Test Infrastructure & Regressions**:
   - Added `backend/pytest.ini` to enforce `testpaths = tests` and isolate official test execution from historical scripts in `legacy_archive/`.
   - Added unit test suite `backend/tests/test_university_canonicalizer.py` (5 tests).
-  - Added regression tests in `backend/tests/test_audited_bug_regressions.py` verifying authoritative lifetime `total_citations` retention and university dedup key symmetry.
-  - Verification: `python -m pytest` passes 45 tests, 1 skipped, 0 failures.
+  - Added regression tests in `backend/tests/test_audited_bug_regressions.py` verifying authoritative lifetime `total_citations` retention, university dedup key symmetry, boundary-safe Thai name noise cleaning, and email sanitation.
+  - Verification: `pytest backend/tests` passes 47 tests, 1 skipped, 0 failures.
 
 ## 2026-09-12
 
