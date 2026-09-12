@@ -14,7 +14,8 @@ import {
   Lightbulb,
   ChevronDown,
   ChevronUp,
-  GraduationCap
+  GraduationCap,
+  Award
 } from "lucide-react";
 
 interface AdvisorCardProps {
@@ -68,27 +69,46 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
               </div>
             </div>
             <div className="min-w-0">
-              <span className="text-xs font-bold text-[var(--theme-primary)] block truncate">
-                {f.academic_title_th || "อาจารย์"}
-              </span>
+              <div className="flex items-center gap-1.5 flex-wrap">
+                <span className="text-xs font-bold text-[var(--theme-primary)] block truncate">
+                  {f.academic_title_th || "อาจารย์"}
+                </span>
+                {((f.h_index !== undefined && f.h_index >= 20) || ((f.total_citations || 0) >= 1000)) && (
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-black bg-amber-500/10 text-amber-700 dark:text-amber-400 border border-amber-500/30 shrink-0 shadow-2xs">
+                    <Award className="w-3 h-3 text-amber-500" />
+                    นักวิจัยแนวหน้า
+                  </span>
+                )}
+                {(f.has_research_lab || (f.research_labs && f.research_labs.length > 0)) && (
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-lg text-[10px] font-black bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border border-emerald-500/30 shrink-0 shadow-2xs">
+                    <Building2 className="w-3 h-3 text-emerald-600 dark:text-emerald-400" />
+                    ศูนย์วิจัย
+                  </span>
+                )}
+              </div>
               <h3 className="text-base sm:text-lg font-black text-[var(--theme-text-title)] group-hover:text-[var(--theme-primary)] transition-colors leading-snug truncate">
                 {f.full_name_th || `${f.first_name} ${f.last_name}`}
               </h3>
               <p className="text-xs text-[var(--theme-text-muted)] font-semibold truncate mt-0.5">
                 {f.university_th}
               </p>
-              {f.total_publications_count !== undefined && f.total_publications_count > 0 && (
-                <div className="flex items-center gap-1.5 mt-1 text-[11px] font-semibold text-[var(--theme-text-muted)]">
+              <div className="flex flex-wrap items-center gap-2 mt-1 text-[11px] font-semibold text-[var(--theme-text-muted)]">
+                {f.total_publications_count !== undefined && f.total_publications_count > 0 && (
                   <span className="font-bold text-[var(--theme-primary)]">
                     {f.total_publications_count} ผลงาน
                   </span>
-                  {f.first_author_count !== undefined && f.co_author_count !== undefined && (
-                    <span className="text-[10px] opacity-85">
-                      (ชื่อแรก {f.first_author_count} • ร่วม {f.co_author_count})
-                    </span>
-                  )}
-                </div>
-              )}
+                )}
+                {f.h_index !== undefined && f.h_index > 0 && (
+                  <span className="px-1.5 py-0.5 rounded-md bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-[10px] font-bold text-[var(--theme-text-title)]" title="ดัชนี h-index">
+                    h-index {f.h_index}
+                  </span>
+                )}
+                {f.total_citations !== undefined && f.total_citations > 0 && (
+                  <span className="text-[10px] text-[var(--theme-text-muted)]" title="จำนวนการอ้างอิงทั้งหมด">
+                    {f.total_citations.toLocaleString()} citations
+                  </span>
+                )}
+              </div>
             </div>
           </Link>
 
@@ -131,6 +151,39 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
             {f.faculty_th} {f.department_th ? `• ${f.department_th}` : ""}
           </span>
         </div>
+
+        {/* Research Lab Affiliation */}
+        {f.research_labs && f.research_labs.length > 0 ? (
+          <div className="flex items-center gap-1.5 flex-wrap">
+            {f.research_labs.slice(0, 1).map((lab) => (
+              <Link
+                key={lab.id}
+                href={`/labs/${lab.id}`}
+                onClick={(e) => e.stopPropagation()}
+                className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20 hover:border-emerald-500/40 transition hover:underline"
+                title={`เข้าชมห้องปฏิบัติการ: ${lab.name_th}`}
+              >
+                <Building2 className="w-3 h-3 shrink-0 text-emerald-600 dark:text-emerald-400" />
+                <span className="truncate max-w-[240px]">
+                  {lab.is_lead ? `Lab Director: ${lab.name_th}` : lab.name_th}
+                </span>
+                <ArrowUpRight className="w-3 h-3 shrink-0 opacity-70" />
+              </Link>
+            ))}
+            {f.research_labs.length > 1 && (
+              <span className="text-[10px] font-bold text-[var(--theme-text-muted)]">
+                +{f.research_labs.length - 1} ศูนย์
+              </span>
+            )}
+          </div>
+        ) : f.has_research_lab ? (
+          <div className="flex items-center gap-1.5">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-xl text-[11px] font-bold bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border border-emerald-500/20">
+              <Building2 className="w-3 h-3 shrink-0 text-emerald-600 dark:text-emerald-400" />
+              <span>ประจำห้องปฏิบัติการวิจัยเฉพาะทาง</span>
+            </span>
+          </div>
+        ) : null}
 
         {/* Synergy Badges */}
         {hasSynergyBadges && (
@@ -234,6 +287,16 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
           <ArrowUpRight className="w-4 h-4 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
         </Link>
 
+        {f.research_labs && f.research_labs.length > 0 && (
+          <Link
+            href={`/labs/${f.research_labs[0].id}`}
+            onClick={(e) => e.stopPropagation()}
+            className="text-xs font-bold text-emerald-700 dark:text-emerald-400 hover:underline flex items-center gap-1"
+          >
+            <span>ห้องปฏิบัติการวิจัย</span>
+            <ArrowUpRight className="w-3.5 h-3.5" />
+          </Link>
+        )}
       </div>
     </div>
   );

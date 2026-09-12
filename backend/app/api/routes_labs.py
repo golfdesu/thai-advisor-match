@@ -15,6 +15,7 @@ from app.api.routes_faculty import db_to_pydantic, _FACULTY_CARD_COLUMNS
 from app.core.database import get_db
 from app.core.embedding_service import embedding_service
 from app.core.security import sanitize_for_prompt
+from app.core.taxonomy import get_unis_for_region
 
 router = APIRouter(prefix="/labs", tags=["Research Labs & Centers of Excellence"])
 
@@ -204,6 +205,7 @@ def list_labs(
     university: Optional[str] = Query(None, description="Filter by university name"),
     faculty: Optional[str] = Query(None, description="Filter by faculty/school"),
     domain: Optional[str] = Query(None, description="Filter by research domain"),
+    region: Optional[str] = Query(None, description="Filter by geographical region (e.g. north, south, central)"),
     search: Optional[str] = Query(None, description="Keyword search in lab name/domains"),
     limit: int = Query(24, ge=1, le=50),
     db: Session = Depends(get_db)
@@ -211,6 +213,10 @@ def list_labs(
     """Retrieve lab cards (slim payload). Use GET /labs/{id} for full detail."""
     query = db.query(ResearchLabDB).options(load_only(*_LAB_CARD_COLUMNS))
 
+    if region and region.strip() and region.strip().lower() != "all":
+        unis = get_unis_for_region(region.strip())
+        if unis:
+            query = query.filter(ResearchLabDB.university_th.in_(unis))
     if university and university.strip() and university.strip().lower() != "all":
         u_clean = university.strip()
         query = query.filter(or_(
@@ -252,7 +258,7 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
     query_text = (req.query or "").strip()
 
     if not query_text:
-        labs = list_labs(university=req.university, faculty=req.faculty, domain=req.domain, limit=req.top_k, db=db)
+        labs = list_labs(university=req.university, faculty=req.faculty, domain=req.domain, region=req.region, limit=req.top_k, db=db)
         return LabSearchResponse(query="", total_matched=len(labs), results=labs)
 
     # 1. Generate query embedding
@@ -266,6 +272,11 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
             # surface). Values are now bound parameters; the clause text is static.
             filters = []
             params: dict = {"vec": str(query_vector), "limit": req.top_k}
+            if req.region and req.region.strip() and req.region.strip().lower() != "all":
+                unis = get_unis_for_region(req.region.strip())
+                if unis:
+                    filters.append("university_th = ANY(:unis)")
+                    params["unis"] = unis
             if req.university and req.university.strip() and req.university.strip().lower() != "all":
                 filters.append("(university ILIKE :u_pat OR university_th ILIKE :u_pat)")
                 params["u_pat"] = f"%{req.university.strip()}%"
@@ -310,14 +321,31 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
 
     # Lexical fallback
     search_pattern = f"%{query_text}%"
-    db_labs = db.query(ResearchLabDB).options(defer(ResearchLabDB.embedding), defer(ResearchLabDB.embedding_text)).filter(
+    lex_query = db.query(ResearchLabDB).options(defer(ResearchLabDB.embedding), defer(ResearchLabDB.embedding_text)).filter(
         or_(
             ResearchLabDB.name_th.ilike(search_pattern),
             ResearchLabDB.name_en.ilike(search_pattern),
             ResearchLabDB.description.ilike(search_pattern)
         )
-    ).limit(req.top_k).all()
+    )
+    if req.region and req.region.strip() and req.region.strip().lower() != "all":
+        unis = get_unis_for_region(req.region.strip())
+        if unis:
+            lex_query = lex_query.filter(ResearchLabDB.university_th.in_(unis))
+    if req.university and req.university.strip() and req.university.strip().lower() != "all":
+        u_clean = req.university.strip()
+        lex_query = lex_query.filter(or_(
+            ResearchLabDB.university.ilike(f"%{u_clean}%"),
+            ResearchLabDB.university_th.ilike(f"%{u_clean}%")
+        ))
+    if req.faculty and req.faculty.strip() and req.faculty.strip().lower() != "all":
+        f_clean = req.faculty.strip()
+        lex_query = lex_query.filter(or_(
+            ResearchLabDB.faculty.ilike(f"%{f_clean}%"),
+            ResearchLabDB.faculty_th.ilike(f"%{f_clean}%")
+        ))
 
+    db_labs = lex_query.limit(req.top_k).all()
     fac_map = _resolve_labs_faculty_map(db_labs, db)
     results = [db_lab_to_pydantic(lab, match_score=88.0, fac_map=fac_map) for lab in db_labs]
     return LabSearchResponse(query=query_text, total_matched=len(results), results=results)

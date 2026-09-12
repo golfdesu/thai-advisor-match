@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 import {
   ArrowLeft,
@@ -16,7 +17,9 @@ import {
   Heart,
   Share2,
   CheckCircle2,
-  Globe
+  Globe,
+  Users,
+  ChevronRight
 } from "lucide-react";
 import type { FacultyMember } from "@/types";
 import { API_BASE_URL, getAdvisorAvatarUrl } from "@/lib/config";
@@ -256,6 +259,14 @@ export default function AdvisorProfilePage() {
                         <FileText size={16} /> ผลงาน {advisor.total_publications_count} เรื่อง
                       </span>
                     )}
+                    {advisor.research_labs && advisor.research_labs.length > 0 && (
+                      <span className="bg-emerald-50 text-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 text-xs sm:text-sm font-black px-3.5 py-1.5 rounded-xl flex items-center gap-2 shadow-2xs">
+                        <Building2 size={16} />
+                        {advisor.research_labs.some((l) => l.is_lead)
+                          ? "หัวหน้าห้องปฏิบัติการวิจัย"
+                          : "ประจำห้องปฏิบัติการวิจัย"}
+                      </span>
+                    )}
                   </div>
 
                   <p className="text-[var(--theme-text-muted)] font-semibold text-xs sm:text-sm">
@@ -301,6 +312,84 @@ export default function AdvisorProfilePage() {
                       >
                         {interest}
                       </span>
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {/* Affiliated Research Laboratories & Centers of Excellence */}
+              {advisor.research_labs && advisor.research_labs.length > 0 && (
+                <section className="space-y-4">
+                  <div className="flex items-center justify-between">
+                    <h2 className="text-base sm:text-xl font-black text-[var(--theme-text-title)] flex items-center gap-2">
+                      <Building2 className="text-[var(--theme-primary)]" size={22} />
+                      <span>ห้องปฏิบัติการวิจัยและศูนย์ความเป็นเลิศ (Research Laboratories)</span>
+                    </h2>
+                    <span className="text-xs font-bold text-[var(--theme-primary)] bg-[var(--theme-primary-subtle)] border border-[var(--theme-primary-border)] px-3 py-1 rounded-xl">
+                      {advisor.research_labs.length} ศูนย์วิจัย
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-1 gap-4">
+                    {advisor.research_labs.map((lab) => (
+                      <Link
+                        key={lab.id}
+                        href={`/labs/${lab.id}`}
+                        className="group block bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] p-5 sm:p-6 rounded-2xl transition shadow-xs hover:shadow-md"
+                      >
+                        <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
+                          <div className="space-y-2 flex-1">
+                            <div className="flex flex-wrap items-center gap-2">
+                              {lab.is_lead ? (
+                                <span className="inline-flex items-center gap-1.5 text-xs font-black px-2.5 py-1 rounded-lg bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] border border-[var(--theme-accent-border)]">
+                                  <Award size={14} /> หัวหน้าห้องปฏิบัติการ (Lab Director / Lead PI)
+                                </span>
+                              ) : (
+                                <span className="inline-flex items-center gap-1.5 text-xs font-bold px-2.5 py-1 rounded-lg bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] border border-[var(--theme-border)]">
+                                  <Users size={14} /> นักวิจัยหลักประจำศูนย์ (Core Member)
+                                </span>
+                              )}
+                              {lab.open_positions && lab.open_positions.length > 0 && (
+                                <span className="inline-flex items-center gap-1 text-[11px] font-bold px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 dark:bg-emerald-950/40 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
+                                  <Sparkles size={12} /> มีตำแหน่งรับนักศึกษา/ทุนวิจัย
+                                </span>
+                              )}
+                            </div>
+
+                            <h3 className="text-base sm:text-lg font-black text-[var(--theme-text-title)] group-hover:text-[var(--theme-primary)] transition leading-snug">
+                              {lab.name_th}
+                            </h3>
+                            {lab.name_en && (
+                              <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-medium">
+                                {lab.name_en}
+                              </p>
+                            )}
+
+                            {lab.research_domains && lab.research_domains.length > 0 && (
+                              <div className="flex flex-wrap gap-1.5 pt-1">
+                                {lab.research_domains.slice(0, 3).map((domain, idx) => (
+                                  <span
+                                    key={idx}
+                                    className="text-[11px] font-semibold bg-[var(--theme-card-subtle)] text-[var(--theme-text-body)] px-2.5 py-0.5 rounded-md border border-[var(--theme-border)]"
+                                  >
+                                    {domain}
+                                  </span>
+                                ))}
+                                {lab.research_domains.length > 3 && (
+                                  <span className="text-[11px] font-semibold text-[var(--theme-text-muted)] self-center">
+                                    +{lab.research_domains.length - 3} สาขา
+                                  </span>
+                                )}
+                              </div>
+                            )}
+                          </div>
+
+                          <div className="flex items-center gap-1 text-xs font-black text-[var(--theme-primary)] shrink-0 group-hover:translate-x-1 transition self-end sm:self-center">
+                            <span>ดูข้อมูลห้องปฏิบัติการ</span>
+                            <ChevronRight size={16} />
+                          </div>
+                        </div>
+                      </Link>
                     ))}
                   </div>
                 </section>
@@ -485,6 +574,33 @@ export default function AdvisorProfilePage() {
                       >
                         {advisor.email}
                       </a>
+                    </div>
+                  )}
+
+                  {advisor.research_labs && advisor.research_labs.length > 0 && (
+                    <div className="pt-2 border-t border-[var(--theme-border)]">
+                      <span className="text-[var(--theme-text-muted)] font-semibold block text-xs mb-2">
+                        ห้องปฏิบัติการวิจัยที่สังกัด:
+                      </span>
+                      <div className="space-y-2">
+                        {advisor.research_labs.map((lab) => (
+                          <Link
+                            key={lab.id}
+                            href={`/labs/${lab.id}`}
+                            className="flex items-center justify-between gap-2 p-2.5 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition group"
+                          >
+                            <div className="flex-1 min-w-0">
+                              <span className="text-xs font-bold text-[var(--theme-text-title)] group-hover:text-[var(--theme-primary)] line-clamp-1 block">
+                                {lab.name_th}
+                              </span>
+                              <span className="text-[10px] text-[var(--theme-text-muted)] block">
+                                {lab.is_lead ? "หัวหน้าห้องปฏิบัติการ" : "นักวิจัยหลัก"}
+                              </span>
+                            </div>
+                            <ChevronRight size={14} className="text-[var(--theme-primary)] shrink-0 group-hover:translate-x-0.5 transition" />
+                          </Link>
+                        ))}
+                      </div>
                     </div>
                   )}
                 </div>

@@ -285,25 +285,26 @@ class EmbeddingService:
             client = self._get_client()
             if not client:
                 return []
-            try:
-                response = client.models.embed_content(
-                    model='gemini-embedding-2',
-                    contents=expanded_text,
-                    config={'output_dimensionality': 768}
-                )
-                vec = response.embeddings[0].values
-                if vec and len(vec) == 768:
-                    self._embedding_cache.put(clean_text, vec)
-                return vec
-            except Exception as e:
-                err_str = str(e)
-                if any(code in err_str for code in ["429", "RESOURCE_EXHAUSTED", "401", "UNAUTHENTICATED", "403", "PERMISSION_DENIED"]):
-                    self._rotate_key()
-                    time.sleep(0.15)
-                    continue
-                print(f"[EmbeddingService] Failed to generate embedding: {e}")
-                self._rotate_key()
-                time.sleep(0.15)
+            for model_name in ['gemini-embedding-2', 'gemini-embedding-001']:
+                try:
+                    response = client.models.embed_content(
+                        model=model_name,
+                        contents=expanded_text,
+                        config={'output_dimensionality': 768}
+                    )
+                    vec = response.embeddings[0].values
+                    if vec and len(vec) == 768:
+                        self._embedding_cache.put(clean_text, vec)
+                        return vec
+                except Exception as e:
+                    err_str = str(e)
+                    if any(code in err_str for code in ["429", "RESOURCE_EXHAUSTED"]):
+                        continue
+                    if any(code in err_str for code in ["401", "UNAUTHENTICATED", "403", "PERMISSION_DENIED"]):
+                        break
+                    print(f"[EmbeddingService] Failed to generate embedding with {model_name}: {e}")
+            self._rotate_key()
+            time.sleep(0.5)
         return []
 
     def generate_smart_explanation(

@@ -10,6 +10,10 @@ from app.core.database import SessionLocal, engine, Base
 from app.models.db_models import ResearchLabDB
 from app.core.embedding_service import embedding_service
 from scripts.data_sources.top_research_labs import TOP_RESEARCH_LABS
+from scripts.data_sources.expanded_research_labs import EXPANDED_RESEARCH_LABS
+from scripts.data_sources.regional_research_labs_phase2 import REGIONAL_RESEARCH_LABS_PHASE2
+
+ALL_RESEARCH_LABS = TOP_RESEARCH_LABS + EXPANDED_RESEARCH_LABS + REGIONAL_RESEARCH_LABS_PHASE2
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
@@ -60,15 +64,35 @@ def seed_labs():
 
     db = SessionLocal()
     try:
-        logger.info(f"Preparing to embed and seed {len(TOP_RESEARCH_LABS)} top research labs...")
+        logger.info(f"Preparing to embed and seed {len(ALL_RESEARCH_LABS)} premier research labs...")
+
+        # Pre-query existing labs to avoid redundant embedding generation
+        existing_labs = {
+            row[0]: row[1]
+            for row in db.query(ResearchLabDB.id, ResearchLabDB.embedding).all()
+        }
 
         embedded_records = []
-        with ThreadPoolExecutor(max_workers=6) as executor:
-            future_to_lab = {executor.submit(process_lab, lab): lab for lab in TOP_RESEARCH_LABS}
-            for future in as_completed(future_to_lab):
-                lab_data, emb_text, vector = future.result()
-                embedded_records.append((lab_data, emb_text, vector))
-                logger.info(f"Vectorized lab: {lab_data['id']} ({lab_data['name_th'][:30]}...)")
+        labs_to_embed = []
+        for lab in ALL_RESEARCH_LABS:
+            lab_id = lab.get("id")
+            existing_emb = existing_labs.get(lab_id)
+            if existing_emb is not None:
+                emb_text = build_lab_embedding_text(lab)
+                embedded_records.append((lab, emb_text, existing_emb))
+            else:
+                labs_to_embed.append(lab)
+
+        if labs_to_embed:
+            logger.info(f"Vectorizing {len(labs_to_embed)} new/un-embedded research labs...")
+            with ThreadPoolExecutor(max_workers=4) as executor:
+                future_to_lab = {executor.submit(process_lab, lab): lab for lab in labs_to_embed}
+                for future in as_completed(future_to_lab):
+                    lab_data, emb_text, vector = future.result()
+                    embedded_records.append((lab_data, emb_text, vector))
+                    logger.info(f"Vectorized lab: {lab_data['id']} ({lab_data['name_th'][:30]}...)")
+        else:
+            logger.info("All research labs already have embeddings in database.")
 
         logger.info("Writing lab records to PostgreSQL / Supabase...")
         count_inserted = 0

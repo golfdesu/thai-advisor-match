@@ -103,3 +103,4 @@ export const searchApiCache = new ClientLRUCache<string, SearchCacheValue>(64);
 export const facultyDetailCache = new ClientLRUCache<string, FacultyMember>(128);
 export const courseDetailCache = new ClientLRUCache<string, Course>(128);
 export const labDetailCache = new ClientLRUCache<string, ResearchLab>(64);
+export const taxonomyCache = new ClientLRUCache<string, unknown>(256);

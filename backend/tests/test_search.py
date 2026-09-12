@@ -84,5 +84,29 @@ def test_course_search_with_university_filter():
         assert "จุฬา" in course["university_th"] or "Chula" in course["university"]
 
 
+def test_advisor_lab_interlinking():
+    """Verify that faculty profile and card schemas properly populate affiliated research labs."""
+    # 1. Lead advisor profile contains affiliated lab
+    res = client.get("/api/v1/faculty/kmutt_fibo_001")
+    assert res.status_code == 200
+    faculty_data = res.json()
+    assert "research_labs" in faculty_data
+    assert isinstance(faculty_data["research_labs"], list)
+    assert len(faculty_data["research_labs"]) >= 1
+    lab = faculty_data["research_labs"][0]
+    assert lab["id"] == "kmutt_fibo_robotics_lab"
+    assert lab["is_lead"] is True
+    assert "name_th" in lab
+    assert "research_domains" in lab
+
+    # 2. List faculty cards contains has_research_lab boolean flag
+    res_list = client.get("/api/v1/faculty/?limit=10")
+    assert res_list.status_code == 200
+    cards = res_list.json()
+    assert len(cards) > 0
+    assert "has_research_lab" in cards[0]
+    assert isinstance(cards[0]["has_research_lab"], bool)
+
+
 if __name__ == "__main__":
     pytest.main(["-v", __file__])

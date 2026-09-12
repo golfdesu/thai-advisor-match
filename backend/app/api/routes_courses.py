@@ -6,6 +6,7 @@ from typing import List, Optional
 from app.models.schema import CourseSchema, CourseCardSchema, CourseSearchRequest, CourseSearchResponse
 from app.models.db_models import CourseDB
 from app.core.database import get_db
+from app.core.taxonomy import get_unis_for_region
 from app.core.embedding_service import embedding_service
 
 # Egress budget: list/card payloads must skip heavy columns server-side so
@@ -163,13 +164,31 @@ def build_degree_level_filter(degree_level: Optional[str]):
 def list_courses(
     university: Optional[str] = None,
     degree_level: Optional[str] = None,
+    faculty: Optional[str] = None,
+    department: Optional[str] = None,
+    region: Optional[str] = None,
     limit: int = 24,
     db: Session = Depends(get_db)
 ):
     limit = max(1, min(limit, 50))
     query = db.query(CourseDB).options(load_only(*_COURSE_CARD_COLUMNS))
-    if university and university != "all":
-        query = query.filter(CourseDB.university.ilike(f"%{university}%") | CourseDB.university_th.ilike(f"%{university}%"))
+
+    if region and region.strip() and region.strip().lower() != "all":
+        unis = get_unis_for_region(region)
+        if unis:
+            query = query.filter(CourseDB.university_th.in_(unis))
+
+    if university and university.strip() and university.strip().lower() != "all":
+        u_clean = university.strip()
+        query = query.filter(CourseDB.university.ilike(f"%{u_clean}%") | CourseDB.university_th.ilike(f"%{u_clean}%"))
+
+    if faculty and faculty.strip() and faculty.strip().lower() != "all":
+        f_clean = faculty.strip()
+        query = query.filter(CourseDB.faculty.ilike(f"%{f_clean}%") | CourseDB.faculty_th.ilike(f"%{f_clean}%"))
+
+    if department and department.strip() and department.strip().lower() != "all":
+        d_clean = department.strip()
+        query = query.filter(CourseDB.department.ilike(f"%{d_clean}%") | CourseDB.department_th.ilike(f"%{d_clean}%"))
 
     degree_filter = build_degree_level_filter(degree_level)
     if degree_filter is not None:
@@ -182,11 +201,19 @@ def list_courses(
 def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
     query = db.query(CourseDB).options(load_only(*_COURSE_CARD_COLUMNS))
 
+    if request.region and request.region.strip() and request.region.strip().lower() != "all":
+        unis = get_unis_for_region(request.region)
+        if unis:
+            query = query.filter(CourseDB.university_th.in_(unis))
+
     if request.university and request.university.strip() and request.university.strip().lower() != "all":
         query = query.filter(CourseDB.university.ilike(f"%{request.university.strip()}%") | CourseDB.university_th.ilike(f"%{request.university.strip()}%"))
 
     if request.faculty and request.faculty.strip() and request.faculty.strip().lower() != "all":
         query = query.filter(CourseDB.faculty.ilike(f"%{request.faculty.strip()}%") | CourseDB.faculty_th.ilike(f"%{request.faculty.strip()}%"))
+
+    if request.department and request.department.strip() and request.department.strip().lower() != "all":
+        query = query.filter(CourseDB.department.ilike(f"%{request.department.strip()}%") | CourseDB.department_th.ilike(f"%{request.department.strip()}%"))
 
     degree_filter = build_degree_level_filter(request.degree_level)
     if degree_filter is not None:
@@ -203,12 +230,19 @@ def search_courses(request: CourseSearchRequest, db: Session = Depends(get_db)):
             # (load_only + ORDER BY vector expression forces Postgres to ship
             #  the 768-dim vector per row; two-step avoids that egress.)
             vector_query = db.query(CourseDB.id).filter(CourseDB.embedding.isnot(None))
+            if request.region and request.region.strip() and request.region.strip().lower() != "all":
+                unis = get_unis_for_region(request.region)
+                if unis:
+                    vector_query = vector_query.filter(CourseDB.university_th.in_(unis))
             if request.university and request.university.strip() and request.university.strip().lower() != "all":
                 u_clean = request.university.strip()
                 vector_query = vector_query.filter(CourseDB.university.ilike(f"%{u_clean}%") | CourseDB.university_th.ilike(f"%{u_clean}%"))
             if request.faculty and request.faculty.strip() and request.faculty.strip().lower() != "all":
                 f_clean = request.faculty.strip()
                 vector_query = vector_query.filter(CourseDB.faculty.ilike(f"%{f_clean}%") | CourseDB.faculty_th.ilike(f"%{f_clean}%"))
+            if request.department and request.department.strip() and request.department.strip().lower() != "all":
+                d_clean = request.department.strip()
+                vector_query = vector_query.filter(CourseDB.department.ilike(f"%{d_clean}%") | CourseDB.department_th.ilike(f"%{d_clean}%"))
             if degree_filter is not None:
                 vector_query = vector_query.filter(degree_filter)
 

@@ -1,12 +1,31 @@
 import json
-from typing import List, Optional
+from typing import List, Optional, Set
 from fastapi import APIRouter, HTTPException, Query, Depends, Response
 from sqlalchemy.orm import Session, defer, load_only
-from app.models.schema import FacultyMember, FacultyCardSchema
-from app.models.db_models import FacultyDB
+from sqlalchemy import or_, cast, String
+from app.models.schema import FacultyMember, FacultyCardSchema, AffiliatedLabSchema
+from app.models.db_models import FacultyDB, ResearchLabDB
 from app.core.database import get_db
+from app.core.taxonomy import get_unis_for_region
 
 router = APIRouter(prefix="/faculty", tags=["Faculty"])
+
+_LAB_FACULTY_IDS_CACHE: Optional[Set[str]] = None
+
+
+def get_lab_faculty_ids(db: Session) -> Set[str]:
+    """Cache and return all faculty IDs that either lead or belong to any research lab."""
+    global _LAB_FACULTY_IDS_CACHE
+    if _LAB_FACULTY_IDS_CACHE is None:
+        rows = db.query(ResearchLabDB.lead_advisor_id, ResearchLabDB.member_faculty_ids).all()
+        s: Set[str] = set()
+        for lead_id, members in rows:
+            if lead_id:
+                s.add(lead_id)
+            if members and isinstance(members, list):
+                s.update(m for m in members if m and isinstance(m, str))
+        _LAB_FACULTY_IDS_CACHE = s
+    return _LAB_FACULTY_IDS_CACHE
 
 # Egress budget: list/card payloads must skip heavy columns server-side so
 # Supabase never ships education / pubs / embedding_text for card rendering.
@@ -21,10 +40,14 @@ _FACULTY_CARD_COLUMNS = (
     FacultyDB.research_interests,
     FacultyDB.total_publications_count,
     FacultyDB.first_author_count, FacultyDB.co_author_count,
+    FacultyDB.h_index, FacultyDB.total_citations,
     FacultyDB.scholar_url,
 )
 
-def db_to_pydantic(db_model: FacultyDB) -> FacultyMember:
+def db_to_pydantic(
+    db_model: FacultyDB,
+    research_labs: Optional[List[AffiliatedLabSchema]] = None
+) -> FacultyMember:
     eng_parts = [p for p in [db_model.first_name, db_model.last_name] if p]
     constructed_full_name = " ".join(eng_parts) if eng_parts else None
 
@@ -53,6 +76,7 @@ def db_to_pydantic(db_model: FacultyDB) -> FacultyMember:
             for pub in (db_model.featured_publications or [])
             if pub and (isinstance(pub, str) or (isinstance(pub, dict) and pub.get("title")))
         ],
+        research_labs=research_labs or [],
         total_publications_count=getattr(db_model, "total_publications_count", 0) or 0,
         first_author_count=getattr(db_model, "first_author_count", 0) or 0,
         co_author_count=getattr(db_model, "co_author_count", 0) or 0,
@@ -67,7 +91,7 @@ def db_to_pydantic(db_model: FacultyDB) -> FacultyMember:
     )
 
 
-def db_to_card(db_model: FacultyDB) -> FacultyCardSchema:
+def db_to_card(db_model: FacultyDB, has_lab: Optional[bool] = None) -> FacultyCardSchema:
     """Slim converter — only touches columns in _FACULTY_CARD_COLUMNS (never deferred attrs)."""
     eng_parts = [p for p in [db_model.first_name, db_model.last_name] if p]
     constructed_full_name = " ".join(eng_parts) if eng_parts else None
@@ -92,6 +116,9 @@ def db_to_card(db_model: FacultyDB) -> FacultyCardSchema:
         total_publications_count=db_model.total_publications_count or 0,
         first_author_count=db_model.first_author_count or 0,
         co_author_count=db_model.co_author_count or 0,
+        h_index=db_model.h_index or 0,
+        total_citations=db_model.total_citations or 0,
+        has_research_lab=bool(has_lab),
     )
 
 @router.get("/", response_model=List[FacultyCardSchema])
@@ -99,11 +126,25 @@ def list_faculty(
     university: Optional[str] = Query(None, description="Filter by university"),
     department: Optional[str] = Query(None, description="Filter by department"),
     faculty: Optional[str] = Query(None, description="Filter by faculty/school"),
+    region: Optional[str] = Query(None, description="Filter by region slug (e.g. central, north, northeast, south, east)"),
+    research_tier: Optional[str] = Query(None, description="Filter by research tier: 'all', 'indexed' (h>0), 'elite' (h>=20)"),
     limit: int = Query(24, ge=1, le=50),
     db: Session = Depends(get_db)
 ):
     """Retrieve faculty card list (slim payload). Use GET /faculty/{id} for full profile."""
     query = db.query(FacultyDB).options(load_only(*_FACULTY_CARD_COLUMNS))
+
+    if region and region.strip() and region.strip().lower() != "all":
+        unis = get_unis_for_region(region)
+        if unis:
+            query = query.filter(FacultyDB.university_th.in_(unis))
+
+    if research_tier and research_tier.strip():
+        tier = research_tier.strip().lower()
+        if tier == "elite":
+            query = query.filter(FacultyDB.h_index >= 20)
+        elif tier == "indexed":
+            query = query.filter(FacultyDB.h_index > 0)
 
     if university and university.strip() and university.strip().lower() != "all":
         u_clean = university.strip()
@@ -116,14 +157,45 @@ def list_faculty(
         query = query.filter(FacultyDB.department.ilike(f"%{d_clean}%") | FacultyDB.department_th.ilike(f"%{d_clean}%"))
 
     db_faculties = query.limit(limit).all()
-    return [db_to_card(f) for f in db_faculties]
+    lab_fac_ids = get_lab_faculty_ids(db)
+    return [db_to_card(f, has_lab=(f.id in lab_fac_ids)) for f in db_faculties]
 
 
 @router.get("/{faculty_id}", response_model=FacultyMember)
 def get_faculty_profile(faculty_id: str, response: Response, db: Session = Depends(get_db)):
-    """Retrieve a specific faculty member by ID from PostgreSQL Database."""
+    """Retrieve a specific faculty member by ID from PostgreSQL Database, including affiliated research labs."""
     db_faculty = db.query(FacultyDB).options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text)).filter(FacultyDB.id == faculty_id).first()
     if not db_faculty:
         raise HTTPException(status_code=404, detail="Faculty member not found")
+
+    # Query affiliated research labs (where faculty is lead advisor or member)
+    db_labs = (
+        db.query(ResearchLabDB)
+        .options(defer(ResearchLabDB.embedding), defer(ResearchLabDB.embedding_text))
+        .filter(
+            or_(
+                ResearchLabDB.lead_advisor_id == faculty_id,
+                cast(ResearchLabDB.member_faculty_ids, String).like(f'%"{faculty_id}"%')
+            )
+        )
+        .all()
+    )
+
+    affiliated_labs = [
+        AffiliatedLabSchema(
+            id=lab.id,
+            name_th=lab.name_th,
+            name_en=lab.name_en,
+            university_th=lab.university_th,
+            faculty_th=lab.faculty_th,
+            department_th=lab.department_th,
+            research_domains=lab.research_domains or [],
+            image_url=lab.image_url,
+            open_positions=lab.open_positions or [],
+            is_lead=(lab.lead_advisor_id == faculty_id)
+        )
+        for lab in db_labs
+    ]
+
     response.headers["Cache-Control"] = "public, max-age=600"
-    return db_to_pydantic(db_faculty)
+    return db_to_pydantic(db_faculty, research_labs=affiliated_labs)

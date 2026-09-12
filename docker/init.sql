@@ -57,6 +57,7 @@ CREATE INDEX IF NOT EXISTS idx_faculties_department_trgm ON public.faculties USI
 CREATE INDEX IF NOT EXISTS idx_faculties_emb_text_trgm ON public.faculties USING gin (embedding_text gin_trgm_ops);
 -- distinguished-advisor ordering (ORDER BY h_index DESC NULLS LAST)
 CREATE INDEX IF NOT EXISTS ix_faculties_h_index ON public.faculties (h_index DESC NULLS LAST);
+CREATE INDEX IF NOT EXISTS idx_faculties_uni_fac_dept ON public.faculties (university_th, faculty_th, department_th);
 CREATE INDEX IF NOT EXISTS ix_faculties_embedding_hnsw ON public.faculties USING hnsw (embedding vector_cosine_ops);
 
 -- 3. Create Table: courses
@@ -97,6 +98,7 @@ CREATE INDEX IF NOT EXISTS ix_courses_degree_level ON public.courses (degree_lev
 CREATE INDEX IF NOT EXISTS idx_courses_title_th_trgm ON public.courses USING gin (title_th gin_trgm_ops);
 CREATE INDEX IF NOT EXISTS idx_courses_title_en_trgm ON public.courses USING gin (title_en gin_trgm_ops);
 CREATE INDEX IF NOT EXISTS idx_courses_faculty_th_trgm ON public.courses USING gin (faculty_th gin_trgm_ops);
+CREATE INDEX IF NOT EXISTS idx_courses_uni_fac_dept ON public.courses (university_th, faculty_th, department_th);
 CREATE INDEX IF NOT EXISTS ix_courses_embedding_hnsw ON public.courses USING hnsw (embedding vector_cosine_ops);
 
 -- 4. Create Table: research_labs

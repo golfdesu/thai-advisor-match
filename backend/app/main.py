@@ -12,6 +12,7 @@ from app.api.routes_courses import router as courses_router
 from app.api.routes_career_quiz import router as career_quiz_router
 from app.api.routes_universities import router as universities_router
 from app.api.routes_labs import router as labs_router
+from app.api.routes_taxonomy import router as taxonomy_router
 
 
 @asynccontextmanager
@@ -81,6 +82,7 @@ app.include_router(courses_router, prefix="/api/v1")
 app.include_router(career_quiz_router, prefix="/api/v1")
 app.include_router(universities_router, prefix="/api/v1")
 app.include_router(labs_router, prefix="/api/v1")
+app.include_router(taxonomy_router, prefix="/api/v1")
 
 
 @app.get("/", tags=["Root"])

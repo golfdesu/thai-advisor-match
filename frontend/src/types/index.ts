@@ -6,6 +6,19 @@ export interface Publication {
   citation_count?: number;
 }
 
+export interface AffiliatedLab {
+  id: string;
+  name_th: string;
+  name_en: string;
+  university_th: string;
+  faculty_th: string;
+  department_th?: string;
+  research_domains: string[];
+  image_url?: string;
+  open_positions: string[];
+  is_lead: boolean;
+}
+
 export interface FacultyMember {
   id: string;
   university: string;
@@ -27,6 +40,8 @@ export interface FacultyMember {
   research_interests?: string[];
   taught_courses?: string[];
   featured_publications?: Publication[];
+  research_labs?: AffiliatedLab[];
+  has_research_lab?: boolean;
   total_publications_count?: number;
   first_author_count?: number;
   co_author_count?: number;
@@ -173,5 +188,41 @@ export interface LabInquiryResponse {
   subject: string;
   body: string;
   tips: string[];
+}
+
+export interface RegionInfo {
+  id: string;
+  label_th: string;
+  label_en: string;
+  icon: string;
+  university_count: number;
+  advisor_count: number;
+  course_count: number;
+  lab_count?: number;
+}
+
+export interface UniversityOption {
+  name_th: string;
+  name_en: string;
+  abbr: string;
+  region: string;
+  advisor_count: number;
+  course_count: number;
+  lab_count?: number;
+  total_items?: number;
+}
+
+export interface FacultyOption {
+  faculty_th: string;
+  advisor_count: number;
+  course_count: number;
+  total_items?: number;
+}
+
+export interface DepartmentOption {
+  department_th: string;
+  advisor_count: number;
+  course_count: number;
+  total_items?: number;
 }
 

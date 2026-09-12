@@ -1,10 +1,11 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session, defer
-from sqlalchemy import or_
-from app.models.schema import SearchRequest, SearchResponse, SearchMatchResult, FacultyMember
-from app.models.db_models import FacultyDB
+from sqlalchemy import or_, cast, String
+from app.models.schema import SearchRequest, SearchResponse, SearchMatchResult, FacultyMember, AffiliatedLabSchema
+from app.models.db_models import FacultyDB, ResearchLabDB
 from app.api.routes_faculty import db_to_pydantic
 from app.core.database import get_db
+from app.core.taxonomy import get_unis_for_region
 from app.core.embedding_service import embedding_service
 from app.core.dsa_utils import TopKHeap  # Trie removed: never used (DSA audit 2026-09-10)
 from app.core.corpus_index import FACULTY_LEXICAL_INDEX, tokenize_mixed
@@ -12,6 +13,60 @@ from typing import List, Tuple, Dict, Any
 import math
 
 router = APIRouter(prefix="/search", tags=["Semantic Search & Match"])
+
+
+def _enrich_results_with_labs(results: List[SearchMatchResult], db: Session) -> None:
+    """Batch-load affiliated research labs for top-K search results to avoid N+1 queries."""
+    if not results:
+        return
+    f_ids = [r.faculty.id for r in results if r.faculty]
+    if not f_ids:
+        return
+
+    db_labs = (
+        db.query(ResearchLabDB)
+        .options(defer(ResearchLabDB.embedding), defer(ResearchLabDB.embedding_text))
+        .filter(
+            or_(
+                ResearchLabDB.lead_advisor_id.in_(f_ids),
+                *[cast(ResearchLabDB.member_faculty_ids, String).like(f'%"{fid}"%') for fid in f_ids]
+            )
+        )
+        .all()
+    )
+    if not db_labs:
+        return
+
+    lab_map: Dict[str, List[AffiliatedLabSchema]] = {}
+    for lab in db_labs:
+        base_lab = AffiliatedLabSchema(
+            id=lab.id,
+            name_th=lab.name_th,
+            name_en=lab.name_en,
+            university_th=lab.university_th,
+            faculty_th=lab.faculty_th,
+            department_th=lab.department_th,
+            research_domains=lab.research_domains or [],
+            image_url=lab.image_url,
+            open_positions=lab.open_positions or [],
+            is_lead=False,
+        )
+        if lab.lead_advisor_id in f_ids:
+            lab_map.setdefault(lab.lead_advisor_id, []).append(base_lab.model_copy(update={"is_lead": True}))
+        if lab.member_faculty_ids and isinstance(lab.member_faculty_ids, list):
+            for fid in lab.member_faculty_ids:
+                if fid in f_ids and fid != lab.lead_advisor_id:
+                    lab_map.setdefault(fid, []).append(base_lab.model_copy(update={"is_lead": False}))
+
+    for r in results:
+        if r.faculty and r.faculty.id in lab_map:
+            r.faculty.research_labs = lab_map[r.faculty.id]
+            # If advisor is lab lead, enrich synergy badges
+            if any(l.is_lead for l in r.faculty.research_labs):
+                if not any("ห้องปฏิบัติการ" in b for b in r.synergy_badges):
+                    r.synergy_badges.append("🔬 หัวหน้าห้องปฏิบัติการวิจัยชั้นนำ (Lab Director)")
+            elif not any("ห้องปฏิบัติการ" in b for b in r.synergy_badges):
+                r.synergy_badges.append("🔬 สังกัดห้องปฏิบัติการวิจัยชั้นนำ")
 
 def analyze_advisor_synergy(
     query_tokens: List[str],
@@ -78,6 +133,13 @@ def analyze_advisor_synergy(
                     matched_kws.append(token)
 
     # Generate Badges based on academic evidence
+    h_idx = getattr(faculty, "h_index", 0) or 0
+    cits = getattr(faculty, "total_citations", 0) or 0
+    if h_idx >= 20 or cits >= 1000:
+        synergy_badges.append(f"🏆 นักวิจัยแนวหน้า (h-index {h_idx})")
+    elif h_idx >= 10:
+        synergy_badges.append(f"⭐ มีดัชนีวิจัยโดดเด่น (h-index {h_idx})")
+
     if matched_interests:
         synergy_badges.append("⭐ ตรงสายงานวิจัยหลัก (Direct Research Focus)")
     if matching_pubs:
@@ -187,6 +249,10 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
 
     # 1. Base query with optional filters
     query_db = db.query(FacultyDB).options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text))
+    if request.region and request.region.strip() and request.region.strip().lower() != "all":
+        unis = get_unis_for_region(request.region)
+        if unis:
+            query_db = query_db.filter(FacultyDB.university_th.in_(unis))
     if request.university and request.university.strip() and request.university.strip().lower() != "all":
         query_db = query_db.filter(
             FacultyDB.university.ilike(f"%{request.university.strip()}%") |
@@ -202,6 +268,12 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
             FacultyDB.department.ilike(f"%{request.department.strip()}%") |
             FacultyDB.department_th.ilike(f"%{request.department.strip()}%")
         )
+    if request.research_tier and request.research_tier.strip():
+        tier = request.research_tier.strip().lower()
+        if tier == "elite":
+            query_db = query_db.filter(FacultyDB.h_index >= 20)
+        elif tier == "indexed":
+            query_db = query_db.filter(FacultyDB.h_index > 0)
 
     # 2. Get query embedding
     query_vector = embedding_service.get_embedding(request.query)
@@ -216,6 +288,16 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                 .options(defer(FacultyDB.embedding), defer(FacultyDB.embedding_text))
                 .filter(FacultyDB.embedding.isnot(None))
             )
+            if request.research_tier and request.research_tier.strip():
+                tier = request.research_tier.strip().lower()
+                if tier == "elite":
+                    vector_query = vector_query.filter(FacultyDB.h_index >= 20)
+                elif tier == "indexed":
+                    vector_query = vector_query.filter(FacultyDB.h_index > 0)
+            if request.region and request.region.strip() and request.region.strip().lower() != "all":
+                unis = get_unis_for_region(request.region)
+                if unis:
+                    vector_query = vector_query.filter(FacultyDB.university_th.in_(unis))
             if request.university and request.university.strip() and request.university.strip().lower() != "all":
                 vector_query = vector_query.filter(
                     FacultyDB.university.ilike(f"%{request.university.strip()}%") |
@@ -307,6 +389,8 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
     else:
         # Fallback if Gemini vector embedding is rate-limited or unavailable
         ranked_results = keyword_fallback_search(request.query, query_db, request.top_k)
+
+    _enrich_results_with_labs(ranked_results, db)
 
     return SearchResponse(
         query=request.query,

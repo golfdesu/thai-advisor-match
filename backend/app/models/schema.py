@@ -105,6 +105,24 @@ class Publication(BaseModel):
     citation_count: Optional[int] = 0
 
 
+class AffiliatedLabSchema(BaseModel):
+    id: str = Field(..., description="Unique lab ID e.g. cmu_bme_lab")
+    name_th: str = Field(..., description="Lab name in Thai")
+    name_en: str = Field(..., description="Lab name in English")
+    university_th: str = Field(..., description="University name in Thai")
+    faculty_th: str = Field(..., description="Faculty name in Thai")
+    department_th: Optional[str] = Field(None, description="Department name in Thai")
+    research_domains: List[str] = Field(default_factory=list, description="Primary research domains")
+    image_url: Optional[str] = None
+    open_positions: List[str] = Field(default_factory=list)
+    is_lead: bool = Field(False, description="Whether the faculty member is the lead advisor")
+
+    @field_validator("research_domains", "open_positions", mode="before")
+    @classmethod
+    def _coerce_none_to_list(cls, v):
+        return v if v is not None else []
+
+
 class FacultyMember(BaseModel):
     id: str = Field(..., description="Unique ID e.g. cmu_eng_ee_014")
     university: str = Field(..., description="University name in English")
@@ -130,6 +148,7 @@ class FacultyMember(BaseModel):
     research_interests: List[str] = Field(default_factory=list)
     taught_courses: List[str] = Field(default_factory=list)
     featured_publications: List[Publication] = Field(default_factory=list)
+    research_labs: List[AffiliatedLabSchema] = Field(default_factory=list, description="Affiliated research labs and centers")
     total_publications_count: Optional[int] = Field(0, description="Total verified papers authored/co-authored")
     first_author_count: Optional[int] = Field(0, description="Papers authored as first/primary author")
     co_author_count: Optional[int] = Field(0, description="Papers authored as co-author")
@@ -139,7 +158,7 @@ class FacultyMember(BaseModel):
     scholar_url: Optional[str] = None
     embedding_text: Optional[str] = None
 
-    @field_validator("education", "research_interests", "taught_courses", "featured_publications", mode="before")
+    @field_validator("education", "research_interests", "taught_courses", "featured_publications", "research_labs", mode="before")
     @classmethod
     def _coerce_none_to_list(cls, v):
         return v if v is not None else []
@@ -183,6 +202,9 @@ class FacultyCardSchema(BaseModel):
     total_publications_count: Optional[int] = Field(0)
     first_author_count: Optional[int] = Field(0)
     co_author_count: Optional[int] = Field(0)
+    h_index: Optional[int] = Field(0, description="h-index metric from OpenAlex / academic index")
+    total_citations: Optional[int] = Field(0, description="Total citations metric")
+    has_research_lab: Optional[bool] = Field(False, description="Whether the faculty member leads or belongs to a research lab")
 
     @field_validator("research_interests", mode="before")
     @classmethod
@@ -202,6 +224,8 @@ class SearchRequest(BaseModel):
     university: Optional[str] = Field(None, max_length=150, description="Filter by university name (TH or EN)")
     faculty: Optional[str] = Field(None, max_length=150, description="Filter by faculty name (TH or EN)")
     department: Optional[str] = Field(None, max_length=150, description="Filter by department name (TH or EN)")
+    region: Optional[str] = Field(None, max_length=50, description="Filter by region slug (e.g. central, north, northeast, south, east)")
+    research_tier: Optional[str] = Field(None, description="Filter by research tier: 'all', 'indexed' (h>0), 'elite' (h>=20)")
     top_k: int = Field(10, ge=1, le=50, description="Number of results to return")
 
 
@@ -291,6 +315,8 @@ class CourseSearchRequest(BaseModel):
     university: Optional[str] = Field(None, max_length=150)
     degree_level: Optional[str] = Field(None, max_length=50)
     faculty: Optional[str] = Field(None, max_length=150)
+    department: Optional[str] = Field(None, max_length=150)
+    region: Optional[str] = Field(None, max_length=50)
     top_k: int = Field(20, ge=1, le=50)
 
 
@@ -348,6 +374,7 @@ class LabSearchRequest(BaseModel):
     university: Optional[str] = Field(None, max_length=150)
     faculty: Optional[str] = Field(None, max_length=150)
     domain: Optional[str] = Field(None, max_length=150)
+    region: Optional[str] = Field(None, max_length=50)
     top_k: int = Field(20, ge=1, le=50)
 
 

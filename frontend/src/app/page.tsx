@@ -49,8 +49,12 @@ const readSavedIds = (storageKey: string): string[] => {
 export default function Home() {
   const [activeTab, setActiveTab] = useState<"courses" | "advisors" | "labs">("courses");
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedDegree, setSelectedDegree] = useState("all");
+  const [selectedRegion, setSelectedRegion] = useState("all");
   const [selectedUni, setSelectedUni] = useState("all");
+  const [selectedFaculty, setSelectedFaculty] = useState("all");
+  const [selectedDepartment, setSelectedDepartment] = useState("all");
+  const [selectedDegree, setSelectedDegree] = useState("all");
+  const [selectedResearchTier, setSelectedResearchTier] = useState("all");
 
   const [courses, setCourses] = useState<Course[]>([]);
   const [advisors, setAdvisors] = useState<SearchMatchResult[]>([]);
@@ -240,18 +244,26 @@ export default function Home() {
     uniFilter?: string,
     degFilter?: string,
     tabOverride?: "courses" | "advisors" | "labs",
-    shouldScroll: boolean = true
+    shouldScroll: boolean = true,
+    regionFilter?: string,
+    facultyFilter?: string,
+    departmentFilter?: string,
+    researchTierFilter?: string
   ) => {
     const queryToUse = queryText !== undefined ? queryText : searchQuery;
     const uniToUse = uniFilter !== undefined ? uniFilter : selectedUni;
     const degToUse = degFilter !== undefined ? degFilter : selectedDegree;
     const currentTab = tabOverride !== undefined ? tabOverride : activeTab;
+    const regionToUse = regionFilter !== undefined ? regionFilter : selectedRegion;
+    const facultyToUse = facultyFilter !== undefined ? facultyFilter : selectedFaculty;
+    const departmentToUse = departmentFilter !== undefined ? departmentFilter : selectedDepartment;
+    const researchTierToUse = researchTierFilter !== undefined ? researchTierFilter : selectedResearchTier;
 
     if (shouldScroll) {
       scrollToResults();
     }
 
-    const cacheKey = `${currentTab}:${queryToUse.trim()}:${uniToUse}:${degToUse}`;
+    const cacheKey = `${currentTab}:${queryToUse.trim()}:${uniToUse}:${degToUse}:${regionToUse}:${facultyToUse}:${departmentToUse}:${researchTierToUse}`;
     const cachedData = searchApiCache.get(cacheKey);
     if (cachedData) {
       if (currentTab === "courses") {
@@ -283,6 +295,9 @@ export default function Home() {
             query: queryToUse,
             university: uniToUse === "all" ? null : uniToUse,
             degree_level: degToUse === "all" ? null : degToUse,
+            faculty: facultyToUse === "all" ? null : facultyToUse,
+            department: departmentToUse === "all" ? null : departmentToUse,
+            region: regionToUse === "all" ? null : regionToUse,
             top_k: 24,
           }),
         });
@@ -297,8 +312,15 @@ export default function Home() {
         }
       } else if (currentTab === "advisors") {
         if (!queryToUse.trim()) {
-          const uniParam = uniToUse && uniToUse !== "all" ? `&university=${encodeURIComponent(uniToUse)}` : "";
-          const res = await fetch(`${API_BASE_URL}/faculty/?limit=24${uniParam}`, { signal: controller.signal });
+          const params = new URLSearchParams();
+          params.append("limit", "24");
+          if (uniToUse && uniToUse !== "all") params.append("university", uniToUse);
+          if (regionToUse && regionToUse !== "all") params.append("region", regionToUse);
+          if (facultyToUse && facultyToUse !== "all") params.append("faculty", facultyToUse);
+          if (departmentToUse && departmentToUse !== "all") params.append("department", departmentToUse);
+          if (researchTierToUse && researchTierToUse !== "all") params.append("research_tier", researchTierToUse);
+
+          const res = await fetch(`${API_BASE_URL}/faculty/?${params.toString()}`, { signal: controller.signal });
           if (res.ok) {
             const data = await res.json();
             const list = Array.isArray(data) ? data : (data.results ?? []);
@@ -314,6 +336,10 @@ export default function Home() {
             body: JSON.stringify({
               query: queryToUse,
               university: uniToUse === "all" ? null : uniToUse,
+              faculty: facultyToUse === "all" ? null : facultyToUse,
+              department: departmentToUse === "all" ? null : departmentToUse,
+              region: regionToUse === "all" ? null : regionToUse,
+              research_tier: researchTierToUse === "all" ? null : researchTierToUse,
               top_k: 15,
             }),
           });
@@ -330,8 +356,13 @@ export default function Home() {
       } else {
         // Labs Tab Search
         if (!queryToUse.trim()) {
-          const uniParam = uniToUse && uniToUse !== "all" ? `&university=${encodeURIComponent(uniToUse)}` : "";
-          const res = await fetch(`${API_BASE_URL}/labs/?limit=24${uniParam}`, { signal: controller.signal });
+          const params = new URLSearchParams();
+          params.append("limit", "24");
+          if (uniToUse && uniToUse !== "all") params.append("university", uniToUse);
+          if (facultyToUse && facultyToUse !== "all") params.append("faculty", facultyToUse);
+          if (regionToUse && regionToUse !== "all") params.append("region", regionToUse);
+
+          const res = await fetch(`${API_BASE_URL}/labs/?${params.toString()}`, { signal: controller.signal });
           if (res.ok) {
             const data = await res.json();
             const list = Array.isArray(data) ? data : (data.results ?? []);
@@ -346,6 +377,8 @@ export default function Home() {
             body: JSON.stringify({
               query: queryToUse,
               university: uniToUse === "all" ? null : uniToUse,
+              faculty: facultyToUse === "all" ? null : facultyToUse,
+              region: regionToUse === "all" ? null : regionToUse,
               top_k: 20,
             }),
           });
@@ -588,7 +621,9 @@ export default function Home() {
           activeTab={activeTab}
           onSelectUniversity={(uniName) => {
             setSelectedUni(uniName);
-            executeSearch(searchQuery, uniName, selectedDegree, activeTab);
+            setSelectedFaculty("all");
+            setSelectedDepartment("all");
+            executeSearch(searchQuery, uniName, selectedDegree, activeTab, true, selectedRegion, "all", "all");
           }}
           onSelectCourseSearch={(courseTitle) => {
             setSearchQuery(courseTitle);
@@ -629,18 +664,53 @@ export default function Home() {
         </div>
 
         {/* Filter Controls */}
-        <div className="mb-7 rounded-3xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-3 shadow-sm sm:p-4">
+        <div className="mb-7 rounded-3xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-4 shadow-sm sm:p-5">
           <FilterBar
             activeTab={activeTab}
+            selectedRegion={selectedRegion}
             selectedUni={selectedUni}
+            selectedFaculty={selectedFaculty}
+            selectedDepartment={selectedDepartment}
             selectedDegree={selectedDegree}
+            selectedResearchTier={selectedResearchTier}
+            onSelectRegion={(region) => {
+              setSelectedRegion(region);
+              setSelectedUni("all");
+              setSelectedFaculty("all");
+              setSelectedDepartment("all");
+              executeSearch(searchQuery, "all", selectedDegree, activeTab, true, region, "all", "all", selectedResearchTier);
+            }}
             onSelectUni={(uni) => {
               setSelectedUni(uni);
-              executeSearch(searchQuery, uni, selectedDegree);
+              setSelectedFaculty("all");
+              setSelectedDepartment("all");
+              executeSearch(searchQuery, uni, selectedDegree, activeTab, true, selectedRegion, "all", "all", selectedResearchTier);
+            }}
+            onSelectFaculty={(fac) => {
+              setSelectedFaculty(fac);
+              setSelectedDepartment("all");
+              executeSearch(searchQuery, selectedUni, selectedDegree, activeTab, true, selectedRegion, fac, "all", selectedResearchTier);
+            }}
+            onSelectDepartment={(dept) => {
+              setSelectedDepartment(dept);
+              executeSearch(searchQuery, selectedUni, selectedDegree, activeTab, true, selectedRegion, selectedFaculty, dept, selectedResearchTier);
             }}
             onSelectDegree={(deg) => {
               setSelectedDegree(deg);
-              executeSearch(searchQuery, selectedUni, deg);
+              executeSearch(searchQuery, selectedUni, deg, activeTab, true, selectedRegion, selectedFaculty, selectedDepartment, selectedResearchTier);
+            }}
+            onSelectResearchTier={(tier) => {
+              setSelectedResearchTier(tier);
+              executeSearch(searchQuery, selectedUni, selectedDegree, activeTab, true, selectedRegion, selectedFaculty, selectedDepartment, tier);
+            }}
+            onResetFilters={() => {
+              setSelectedRegion("all");
+              setSelectedUni("all");
+              setSelectedFaculty("all");
+              setSelectedDepartment("all");
+              setSelectedDegree("all");
+              setSelectedResearchTier("all");
+              executeSearch(searchQuery, "all", "all", activeTab, true, "all", "all", "all", "all");
             }}
           />
         </div>
