@@ -1,0 +1,50 @@
+{
+  "session_id": "extract_1789647388_8e210b",
+  "target_university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+  "target_university_en": "King Mongkut's University of Technology North Bangkok",
+  "target_faculty_th": "คณะเทคโนโลยีอุตสาหกรรม",
+  "target_faculty_en": "Faculty of Industrial Technology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.kmutnb.ac.th"
+  ],
+  "failed_urls": [
+    "https://itech.kmutnb.ac.th"
+  ],
+  "faculties": {
+    "kingmongku_facultyofi_thong_001": {
+      "id": "kingmongku_facultyofi_thong_001",
+      "university": "King Mongkut's University of Technology North Bangkok",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty": "Faculty of Industrial Technology",
+      "faculty_th": "คณะเทคโนโลยีอุตสาหกรรม",
+      "department": "สำนักพัฒนาเทคโนโลยีเพื่ออุตสาหกรรม",
+      "department_th": "สำนักพัฒนาเทคโนโลยีเพื่ออุตสาหกรรม",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Chatrchan",
+      "last_name": "Thongจับ",
+      "full_name": "Chatrchan Thongจับ",
+      "full_name_th": "รศ.ดร. ฉัตรชาญ ทองจับ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "ESG"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ฉัตรชาญ ทองจับ": "kingmongku_facultyofi_thong_001"
+  },
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 5945,
+  "status": "completed",
+  "last_error": null
+}

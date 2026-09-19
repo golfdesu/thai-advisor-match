@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cu_eng_wave13_b_0052",
+    "full_name_th": "ดร. พงษ์ศักดิ์ สุทธินนท์",
+    "first_name": "พงษ์ศักดิ์",
+    "last_name": "สุทธินนท์",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมแหล่งน้ำ",
+    "email": "pongsak.su@chula.ac.th",
+    "source": "https://water.eng.chula.ac.th/?staff-member=pongsak-suttinon",
+    "cluster": "Chula Water Resources Engineering",
+    "match_score": 100
+  },
+  {
+    "id": "cu_eng_wave13_b_0060",
+    "full_name_th": "ดร. ธนวัฒน์ ตั้งจารุศรีธนาธร",
+    "first_name": "ธนวัฒน์",
+    "last_name": "ตั้งจารุศรีธนาธร",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมแหล่งน้ำ",
+    "email": "tanawat.ta@chula.ac.th",
+    "source": "https://water.eng.chula.ac.th/staff-member/tanawat-tangjarusritaratorn/",
+    "cluster": "Chula Water Resources Engineering",
+    "match_score": 100
+  },
+  {
+    "id": "ku_eng_cpe_004",
+    "full_name_th": "รศ.ดร. พันธุ์ปิติ เปี่ยมสง่า",
+    "first_name": "Punpiti",
+    "last_name": "Piamsa-nga",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "email": "pp@ku.ac.th",
+    "source": "https://cpe.ku.ac.th/index.php/teacher-information/?id=213",
+    "cluster": "Kasetsart Computer Engineering",
+    "match_score": 100
+  },
+  {
+    "id": "cu_ahs_wave15_0017",
+    "full_name_th": "อ.ดร. กภ. ปวัน ชัยปริญญา",
+    "first_name": null,
+    "last_name": null,
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาของคณะฯ",
+    "email": "pawan.c@chula.ac.th",
+    "source": "https://www.ahs.chula.ac.th/academic-staff/pawan-chaiparinya/",
+    "cluster": "Chula Allied Health Sciences",
+    "match_score": 100
+  },
+  {
+    "id": "cu_cbs_wave11_0185",
+    "full_name_th": "ผศ.ดร. กรุง สินอภิรมย์สราญ",
+    "first_name": "Krung",
+    "last_name": "Sinapiromsaran",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+    "department_th": "ภาควิชาคณิตศาสตร์และวิทยาการคอมพิวเตอร์",
+    "email": "krung.s@chula.ac.th",
+    "source": "https://www.math.sc.chula.ac.th/people/krung-s/",
+    "cluster": "Chula Science (Math & Computer Science)",
+    "match_score": 100
+  }
+]

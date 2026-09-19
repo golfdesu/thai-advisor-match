@@ -1,0 +1,1582 @@
+{
+  "apply": true,
+  "total_valid_email_items": 175,
+  "updated_emails": [
+    {
+      "id": "mahidoluni_collegeofm_piriyodom_096",
+      "full_name_th": "อ. Akarawit Piriyodom",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "akarawit.pir@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/akarawit-piriyodom/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_laosaichuea_144",
+      "full_name_th": "อ. Alongkorn Laosaichuea",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Brass and Percussion Department",
+      "new_email": "alongkorn.lao@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/alongkorn-laosaichuea/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_kerdteesud_088",
+      "full_name_th": "อ. Annawin Kerdteesud",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "annawin.ker@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/annawin-kerdteesud/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_nakagawa_106",
+      "full_name_th": "รศ.ดร. Eri Nakagawa",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "eri.nak@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/assoc-prof-dr-eri-nakagawa/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_pidokrajt_061",
+      "full_name_th": "รศ.ดร. Narongchai Pidokrajt",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Musicology Department",
+      "new_email": "narongchai.pid@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/assoc-prof-dr-narongchai-pidokrajt/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_bowman_143",
+      "full_name_th": "ผศ.ดร. Joseph Bowman",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Brass and Percussion Department",
+      "new_email": "joseph.bow@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-joseph-bowman/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_charoensook_127",
+      "full_name_th": "ผศ.ดร. Juckrit Charoensook",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "String and Chamber Music Department",
+      "new_email": "juckrit.cha@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-juckrit-charoensook/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_fyr_060",
+      "full_name_th": "ผศ.ดร. Kyle Fyr",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Musicology Department",
+      "new_email": "kyle.fyr@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-kyle-fyr/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_chiengchana_166",
+      "full_name_th": "ผศ.ดร. Natee Chiengchana",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Therapy Department",
+      "new_email": "natee.che@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-natee-chiengchana/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_tayrattanachai_066",
+      "full_name_th": "ผศ.ดร. Ni-on Tayrattanachai",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Education Department",
+      "new_email": "nion.tay@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-ni-on-tayrattanachai/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_klangprasri_161",
+      "full_name_th": "ผศ.ดร. Pirachet Klangprasri",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Thai and Oriental Music Department",
+      "new_email": "sanong.kla@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-pirachet-klangprasri/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_boonyam_080",
+      "full_name_th": "ผศ.ดร. Treetip Boonyam",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Business Department",
+      "new_email": "treetip.boo@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-treetip-boonyam/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_narintrakulnaay_100",
+      "full_name_th": "อ. Aswin Narintrakul Na Ayudhaya",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "aswin.nar@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/aswin-narintrakul-na-ayudhaya/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sookjaeng_075",
+      "full_name_th": "ดร. Attakorn Sookjaeng",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Composition and Theory Department",
+      "new_email": "attakorn.soo@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/attakorn-sookjaeng/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_allaberganov_109",
+      "full_name_th": "อ. Bakhtiyor Allaberganov",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "bakhtiyor.all@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/bakhtiyor-allaberganov/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_dangintawat_176",
+      "full_name_th": "อ. Benjapa Dangintawat",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Campus for General Public, Seacon Square",
+      "new_email": "benjapa.dan@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/benjapa-dangintawat/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_supasopon_063",
+      "full_name_th": "อ. Borwonpong Supasopon",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Musicology Department",
+      "new_email": "borwonpong.sup@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/borwonpong-supasopon/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jessadawaranon_082",
+      "full_name_th": "อ. Chayut Jessadawaranon",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Technology Department",
+      "new_email": "chayut.jes@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/chayut-jessadawaranon/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sitthiwanit_174",
+      "full_name_th": "อ. Chonnakan Sitthiwanit",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "General Education Department",
+      "new_email": "chonnakan.sit@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/chonnakan-sitthiwanit/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_suriyayothin_133",
+      "full_name_th": "อ. Chorlada Suriyayothin",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": null,
+      "new_email": "chorlada.sur@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/chorlada-suriyayothin/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_wright_150",
+      "full_name_th": "อ. Cooper Wright",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Woodwind Department",
+      "new_email": "cooper.wri@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/cooper-wright/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_pantoomkomol_091",
+      "full_name_th": "อ. Darin Pantoomkomol",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "darin.pan@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/darin-pantoomkomol-2/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_parente_094",
+      "full_name_th": "อ. David Parente",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "david.par@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/david-parente/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_buranaprapuk_065",
+      "full_name_th": "ผศ.ดร. Ampai Buranaprapuk",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Musicology Department",
+      "new_email": "ampai.bur@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-ampai-buranaprapuk/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_kittaweepitak_037",
+      "full_name_th": "ดร. บุญฤทธิ์ กิตติวุฒิพิทักษ์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Brass and Percussion",
+      "new_email": "boonyarit.kit@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-boonyarit-kittaweepitak/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_robbins_041",
+      "full_name_th": "ดร. ดาเรน ร็อบบินส์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Brass and Percussion Department",
+      "new_email": "daren.rob@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-daren-robbins-2/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_phothikawin_070",
+      "full_name_th": "ผศ.ดร. Dhanyaporn Phothikawin",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Education Department",
+      "new_email": "dhanyaporn.pht@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-dhanyaporn-phothikawin/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_pokaratsiri_062",
+      "full_name_th": "ดร. Duangruthai Pokaratsiri",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Musicology Department",
+      "new_email": "duangruthai.pok@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-duangruthai-pokaratsiri-2/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_carlson_140",
+      "full_name_th": "ดร. Dr. Fueanglada Prawang Carlson",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Voice and Musical Theatre Department",
+      "new_email": "fueanglada.pra@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-fueanglada-prawang-carlson/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jittivadhna_172",
+      "full_name_th": "ดร. Dr. Karnyupha Jittivadhna",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "General Education Department",
+      "new_email": "karnyupha.jit@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-karnyupha-jittivadhna-2/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_wongsawat_092",
+      "full_name_th": "ดร. Kom Wongsawat",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "kom.won@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-kom-wongsawat/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_lertpibulchai_202",
+      "full_name_th": "ดร. กรภัทร์ เลิศพิบูลย์ชัย",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Classical Piano",
+      "new_email": "korak.ler@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-korak-lertpibulchai/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_lerdcheewanan_131",
+      "full_name_th": "ดร. Mahakit Lerdcheewanan",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "String and Chamber Music Department",
+      "new_email": "mahakit.ler@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-mahakit-lerdcheewanan/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_natchanawakul_159",
+      "full_name_th": "ผศ.ดร. Nachaya Natchanawakul",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Thai and Oriental Music Department",
+      "new_email": "nachaya.nat@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-nachaya-natchanawakul/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_nitisingkarin_110",
+      "full_name_th": "ดร. Onpavee Nitisingkarin",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "onpavee.nit@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-onpavee-nitisingkarin-2/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_komolpamorn_050",
+      "full_name_th": "ดร. Pamornpan Komolpamorn",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": null,
+      "new_email": "pamornpan.kom@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-pamornpan-komolpamon/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_ouppathumchua_081",
+      "full_name_th": "ดร. Pawat Ouppathumchua",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Business Department",
+      "new_email": "pawat.oup@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-pawat-ouppathumchua/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_kamnirdratana_038",
+      "full_name_th": "ดร. พุทธรักษา กำเนิดรัตน์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "String and Chamber Music Department",
+      "new_email": "phuttaraksa.kam@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-phuttaraksa-kamnirdratana-2/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_louilarpprasert_012",
+      "full_name_th": "ดร. ปิยวัฒน์ หลุยลาภประเสริฐ",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Composition and Theory Department",
+      "new_email": "piyawat.lou@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-piyawat-louilarpprasert-3/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_promsukkul_067",
+      "full_name_th": "ผศ.ดร. Preeyanun Promsukkul",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Education Department",
+      "new_email": "preeyanun.pro@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-preeyanun-promsukkul/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_bampenyou_039",
+      "full_name_th": "ดร. รัตนัย บำเพ็ญ",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Classical Guitar Department",
+      "new_email": "rattanai.bam@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-rattanai-bampenyou/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_subsomboon_040",
+      "full_name_th": "ดร. ฤทธิ์ สมสมบูรณ์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Conducting and Ensemble Department",
+      "new_email": "rit.sub@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-rit-subsomboon/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_tangsinmonkong_108",
+      "full_name_th": "ดร. Sornsuang Tangsinmonkong",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "sornsuang.tan@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-sornsuang-tangsinmonkong/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_chaichana_084",
+      "full_name_th": "ดร. Tanarat Chaichana",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "tanarat.cha@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-tanarat-chaichana/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jirasirikul_113",
+      "full_name_th": "ดร. Teeranai Jirasirikul",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "teeranai.jir@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-teeranai-jirasirikul/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_setabrahmana_156",
+      "full_name_th": "ผศ.ดร. Thanapol Setabrahmana",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Conducting and Ensemble Department",
+      "new_email": "thanapol.set@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-thanapol-setabrahmana/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_wuthiwan_112",
+      "full_name_th": "ดร. Tharach Wuthiwan",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "tharach.wut@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-tharach-wuthiwan/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_cha_073",
+      "full_name_th": "ดร. Thomas Hyuk Cha",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Composition and Theory Department",
+      "new_email": "hyuk.cha@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-thomas-hyuk-cha/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_capp_076",
+      "full_name_th": "ดร. Tyler Capp",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Composition and Theory Department",
+      "new_email": "tyler.cap@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-tyler-capp/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_yannavut_141",
+      "full_name_th": "ดร. Dr. Wannapha Yannavut",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Brass and Percussion Department",
+      "new_email": "wannapha.yan@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/dr-wannapha-yannavut/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_longsawas_164",
+      "full_name_th": "อ. Duangduan Longsawas",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Thai and Oriental Music Department",
+      "new_email": "duangduan.lon@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/duangduan-longsawas/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_huncharoen_167",
+      "full_name_th": "อ. Gritsada Huncharoen",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Therapy Department",
+      "new_email": "gritsada.hun@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/gritsada-huncharoen/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_matsushima_148",
+      "full_name_th": "อ. Hiroshi Matsushima",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Woodwind Department",
+      "new_email": "hiroshi.mat@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/hiroshi-matsushima/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_tirachomsri_117",
+      "full_name_th": "อ. Jaruda Tirachomsri",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "jaruda.tir@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/jaruda-tirachomsri/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jongprasert_118",
+      "full_name_th": "อ. Jetjumnong Jongprasert",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Classical Guitar Department",
+      "new_email": "jetjumnong.jon@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/jetjumnong-jongprasert/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_arakawa_051",
+      "full_name_th": "อ. Junta Arakawa",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "junta.ara@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/junta-arakawa/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_saisaeng_093",
+      "full_name_th": "อ. Juthamas Saisaeng",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "juthamas.sas@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/juthamas-saisaeng/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_supaniti_048",
+      "full_name_th": "อ. Kalteera Supaniti",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": null,
+      "new_email": "kalteera.sup@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/kalteera-supaniti/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_huncharoen_136",
+      "full_name_th": "อ. Kamonporn Huncharoen",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Voice and Musical Theatre Department",
+      "new_email": "kamonporn.hun@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/kamonporn-huncharoen/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_udommana_130",
+      "full_name_th": "อ. Kanin Udommana",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "String and Chamber Music Department",
+      "new_email": "kanin.udo@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/kanin-udommana/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_pukpom_116",
+      "full_name_th": "อ. Kanyaluk Pukpom",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "kanyaluk.puk@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/kanyaluk-pukpom/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_chandang_102",
+      "full_name_th": "อ. Katawut Chandang",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "katawut.cha@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/katawut-chandang/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sawetkittikul_146",
+      "full_name_th": "อ. Kitti Sawetkittikul",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Brass and Percussion Department",
+      "new_email": "kitti.saw@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/kitti-sawetkittikul/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sripaurya_097",
+      "full_name_th": "อ. Kitti Sripaurya",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "kitti.sri@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/kitti-sripaurya/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_molee_056",
+      "full_name_th": "อ. Kittima Molee",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": null,
+      "new_email": "kittima.mol@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/kittima-molee-2/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_suwanlao_147",
+      "full_name_th": "อ. Kraisit Suwanlao",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Brass and Percussion Department",
+      "new_email": "kraisit.suw@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/kraisit-suwanlao/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_inthanin_099",
+      "full_name_th": "อ. Krichpol Inthanin",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "kritchapol.int@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/krichpol-inthanin/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_buranavitayawut_085",
+      "full_name_th": "ผศ. Krit Buranavitayawut",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "krit.bur@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/krit-buranavitayawut-2/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_chitpreecha_095",
+      "full_name_th": "อ. Kritsana Chitpreecha",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "kritsana.chi@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/kritsana-chitpreecha/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_mahavinitchaimo_182",
+      "full_name_th": "อ. Lila Mahavinitchaimontri",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Campus for General Public, Seacon Bangkae",
+      "new_email": "lila.mah@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/lila-mahavinitchaimontri/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_aksornteang_137",
+      "full_name_th": "อ. Manasanun Aksornteang",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Voice and Musical Theatre Department",
+      "new_email": "manasanun.aks@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/manasanun-aksornteang/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_szawelski_123",
+      "full_name_th": "อ. Marcin Szawelski",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "String and Chamber Music Department",
+      "new_email": "marcin.toa@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/marcin-szawelski/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_grund_129",
+      "full_name_th": "อ. Martin Grund",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "String and Chamber Music Department",
+      "new_email": "martin.gru@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/martin-grund/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_lynch_169",
+      "full_name_th": "อ. Nadhapach Jane Lynch",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "General Education Department",
+      "new_email": "nadhapach.chu@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/nadhapach-jane-lynch/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_komentrakarn_119",
+      "full_name_th": "อ. Nalin Komentrakarn",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Classical Guitar Department",
+      "new_email": "nalin.kom@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/nalin-komentrakarn/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_srisomboon_180",
+      "full_name_th": "อ. Namfon Srisomboon",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Campus for General Public, Siam Paragon",
+      "new_email": "namfon.sri@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/namfon-srisomboon/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_lynch_170",
+      "full_name_th": "อ. Nathan Lynch",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "General Education Department",
+      "new_email": "nathan.lyn@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/nathan-lynch/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_noppakun_107",
+      "full_name_th": "อ. Naween Noppakun",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "naween.nop@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/naween-noppakun/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_tirataradol_087",
+      "full_name_th": "อ. Noppadol Tirataradol",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "noppadol.tir@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/noppadol-tirataradol-2/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_suksaengchan_179",
+      "full_name_th": "อ. Nuttawut Suksaengchan",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Campus for General Public, Siam Paragon",
+      "new_email": "nuttawut.suk@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/nuttawut-suksaengchan/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_laosaichuea_077",
+      "full_name_th": "อ. Nutteraya Laosaichuea",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Composition and Theory Department",
+      "new_email": "natteraya.wib@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/nutteraya-laosaichuea/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_yuenyong_160",
+      "full_name_th": "อ. Paron Yuenyong",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Thai and Oriental Music Department",
+      "new_email": "paron.yue@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/paron-yuenyung/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_mongkonsiriswad_083",
+      "full_name_th": "อ. Patcharapon Mongkonsiriswad",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Technology Department",
+      "new_email": "patcharapon.mon@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/patcharapon-mongkonsiriswad/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_laothanasin_079",
+      "full_name_th": "อ. Penyarporn Laothanasin",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Business Department",
+      "new_email": "penyaporn.lao@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/penyarporn-laothanasin/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_tawasinchanadec_046",
+      "full_name_th": "อ. Phoowich Tawasinchanadech",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "phoowich.taw@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/phoowich-tawasinchanadech/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sitthisopon_105",
+      "full_name_th": "อ. Piangrumpai Sitthisopon",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "piangrumpai.sit@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/piangrumpai-sitthisopon/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jaiprasong_071",
+      "full_name_th": "อ. Pinchanan Jaiprasong",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Composition and Theory Department",
+      "new_email": "pinchanan.jai@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/pinchanan-jaiprasong/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_kemasingki_135",
+      "full_name_th": "อ. Pitchaya Kemasingki",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Voice and Musical Theatre Department",
+      "new_email": "pitchaya.kem@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/pitchaya-kemasingki/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_tainchaivanich_177",
+      "full_name_th": "อ. Poonsant Tainchaivanich",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Campus for General Public, Siam Paragon",
+      "new_email": "poonsant.tai@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/poonsant-tainchaivanich/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_thonglor_178",
+      "full_name_th": "อ. Pornnapim Thonglor",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Campus for General Public, Siam Paragon",
+      "new_email": "ponnapim.tho@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/pornnapim-thonglor/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_amatyakul_064",
+      "full_name_th": "ศ.ดร. Poonpit Amatyakul",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Musicology Department",
+      "new_email": "poonpit.ama@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/prof-dr-poonpit-amatyakul/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_siyapong_114",
+      "full_name_th": "อ. Rasikamon Siyapong",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "rasikamon.siy@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/rasikamon-siyapong/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sukkittiworakul_104",
+      "full_name_th": "อ. Rawissada Sukkittiworakul",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "rawissada.suk@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/rawissada-sukkittiworakul/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_saravadee_162",
+      "full_name_th": "อ. Samrit Saravadee",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Thai and Oriental Music Department",
+      "new_email": "samrit.sar@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/samrit-saravadee/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_tanpensuk_089",
+      "full_name_th": "อ. Sarit Tanpensuk",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "sarit.tan@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/sarit-tanpensuk/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_dechsangworn_181",
+      "full_name_th": "อ. Sarunpong Dechsangworn",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Campus for General Public, Siam Paragon",
+      "new_email": "sarunpong.dec@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/sarunpong-dechsangworn/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_wijitwechakarn_042",
+      "full_name_th": "อ. Sarute Wijitwechakarn",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "sarute.wij@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/sarute-wijitwechakarn/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_harimpanich_165",
+      "full_name_th": "อ. Seri Harimpanich",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Thai and Oriental Music Department",
+      "new_email": "seri'lim@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/seri-harimpanich/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_lee_151",
+      "full_name_th": "อ. Shyen Lee",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Woodwind Department",
+      "new_email": "shyen.lee@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/shyen-lee/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sranoi_115",
+      "full_name_th": "อ. Siri Sranoi",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "siri.sra@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/siri-sranoi/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_bunnag_175",
+      "full_name_th": "อ. Sita Bunnag",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Campus for General Public, Seacon Square",
+      "new_email": "sita.bun@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/sita-bunnag/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_puengpreeda_145",
+      "full_name_th": "อ. Sompop Puengpreeda",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Brass and Percussion Department",
+      "new_email": "sompop.pue@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/sompop-puengpreeda/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_ratanapol_154",
+      "full_name_th": "อ. Sooksan Ratanapol",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Woodwind Department",
+      "new_email": "sooksan.rat@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/sooksan-ratanapol/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_chalermsub_173",
+      "full_name_th": "อ. Supawarat Chalermsub",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "General Education Department",
+      "new_email": "supawarat.wat@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/supawarat-chalermsub/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_prapatrangsee_068",
+      "full_name_th": "อ. Surat Prapatrangsee",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Education Department",
+      "new_email": "surat.pra@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/surat-prapatrangsee/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_klinsmith_120",
+      "full_name_th": "อ. Suvich Klinsmith",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Classical Guitar Department",
+      "new_email": "suvich.kli@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/suvich-klinsmith/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_boonranapanitpa_090",
+      "full_name_th": "อ. Taweesak Boonranapanitpan",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "taweesak.boo@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/taweesak-boonranapanitpan/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_plitakul_086",
+      "full_name_th": "อ. Teerapoj Plitakul",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Jazz Department",
+      "new_email": "teerapoj.pli@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/teerapoj-plitakul/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_saechin_101",
+      "full_name_th": "อ. Thanachai Sae-Chin",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "thanachai.sae@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/thanachai-sae-chin/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sriwiset_149",
+      "full_name_th": "อ. Thanapoom Sriwiset",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Brass and Percussion Department",
+      "new_email": "thanapoom.sri@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/thanapoom-sriwiset/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_khaiseang_098",
+      "full_name_th": "อ. Tustawan Khaiseang",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Popular Music Department",
+      "new_email": "tastawan.khi@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/tustawan-khaiseang/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_rizayev_074",
+      "full_name_th": "อ. Valeriy Rizayev",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Composition and Theory Department",
+      "new_email": "valeriy.riz@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/valeriy-rizayev/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jumneanpan_069",
+      "full_name_th": "อ. Wipawan Jumneanpan",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Education Department",
+      "new_email": "wipawan.jum@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/wipawan-jumneanpan/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_kehasuwan_168",
+      "full_name_th": "อ. Wiputh Kehasuwan",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Music Therapy Department",
+      "new_email": "wiputh.keh@mahidol.edu",
+      "profile_url": "https://www.music.mahidol.ac.th/people/wiputh-kehasuwan/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_pruksavanich_153",
+      "full_name_th": "ผศ.ดร. Wisuwat Pruksavanich",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Woodwind Department",
+      "new_email": "wisuwat.prk@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/wisuwat-pruksavanich/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_matsushima_111",
+      "full_name_th": "อ. Yoshimi Matsushima",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Piano Department",
+      "new_email": "yoshimi.mat@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/yoshimi-matsushima/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jung_155",
+      "full_name_th": "อ. Yu-Jin Jung",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Woodwind Department",
+      "new_email": "yujin.jun@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/yujin-jung/"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sakthamcharoen_157",
+      "full_name_th": "อ. Yuttapon Sakthamcharoen",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Conducting and Ensemble Department",
+      "new_email": "yuttapol.sat@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/yuttapon-sakthamcharoen/"
+    },
+    {
+      "id": "cu_sasin_002",
+      "full_name_th": "อ. Andreas P. D. Liefooghe",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "andreas.liefooghe@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/andreas-p-d-liefooghe"
+    },
+    {
+      "id": "cu_sasin_006",
+      "full_name_th": "รศ.ดร. Chaipong Pongpanich",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "chaipong.pongpanich@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/chaipong-pongpanich"
+    },
+    {
+      "id": "cu_sasin_007",
+      "full_name_th": "อ. Chanitr Charnchainarong",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "chanitr.charnchainarong@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/chanitr-charnchainarong"
+    },
+    {
+      "id": "cu_sasin_009",
+      "full_name_th": "ผศ.ดร. Chonawee Supatgiat",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "chonawee.supatgiat@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/chonawee-supatgiat"
+    },
+    {
+      "id": "cu_sasin_010",
+      "full_name_th": "อ. Dibyendu Bose",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "dibyendu.bose@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/dibyendu-bose"
+    },
+    {
+      "id": "cu_sasin_013",
+      "full_name_th": "รศ.ดร. Drew B. Mallory",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "drew.mallory@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/drew-b-mallory"
+    },
+    {
+      "id": "cu_sasin_015",
+      "full_name_th": "ผศ.ดร. Enrico Fontana",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "enrico.fontana@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/enrico-fontana"
+    },
+    {
+      "id": "cu_sasin_016",
+      "full_name_th": "อ. Evan Douglas",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "evan.douglas@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/evan-douglas"
+    },
+    {
+      "id": "cu_sasin_017",
+      "full_name_th": "ผศ.ดร. Harry Jay M. Cavite",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "harry.cavite@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/harry-jay-m-cavite"
+    },
+    {
+      "id": "cu_sasin_024",
+      "full_name_th": "อ. Kaipichit Ruengsrichaiya",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "kaipichit.ruengsrichaiya@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/kaipichit-ruengsrichaiya"
+    },
+    {
+      "id": "cu_sasin_032",
+      "full_name_th": "อ. Nghi Truong",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "nghi.truong@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/nghi-truong"
+    },
+    {
+      "id": "cu_sasin_033",
+      "full_name_th": "ศ.ดร. Nophea Sasaki",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "nophea.sasaki@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/nophea-sasaki"
+    },
+    {
+      "id": "cu_sasin_034",
+      "full_name_th": "ศ.ดร. Pattanaporn Chatjuthamard",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "pattanaporn.chatjuthamard@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/pattanaporn-chatjuthamard"
+    },
+    {
+      "id": "cu_sasin_035",
+      "full_name_th": "รศ.ดร. Pattarake Sarajoti",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "pattarake.sarajoti@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/pattarake-sarajoti"
+    },
+    {
+      "id": "cu_sasin_036",
+      "full_name_th": "ผศ.ดร. Pattarawan Prasarnphanich",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "pattarawan.prasarnphanich@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/pattarawan-prasarnphanich"
+    },
+    {
+      "id": "cu_sasin_037",
+      "full_name_th": "ผศ.ดร. Pavitra Jindahra",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "pavitraj@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/pavitra-jindahra"
+    },
+    {
+      "id": "cu_sasin_039",
+      "full_name_th": "อ. Piman Limpaphayom",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": "คณะพาณิชยศาสตร์และการบัญชี",
+      "new_email": "piman.limpaphayom@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/piman-limpaphayom"
+    },
+    {
+      "id": "cu_sasin_040",
+      "full_name_th": "ผศ.ดร. Pinnaree Tea-makorn",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "pinnaree.tea-makorn@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/pinnaree-tea-makorn"
+    },
+    {
+      "id": "cu_sasin_041",
+      "full_name_th": "รศ.ดร. Piyachart Phiromswad",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "piyachart.phiromswad@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/piyachart-phiromswad"
+    },
+    {
+      "id": "cu_sasin_043",
+      "full_name_th": "ผศ.ดร. Ranjit Gupta",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "ranjit.gupta@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/ranjit-gupta"
+    },
+    {
+      "id": "cu_sasin_048",
+      "full_name_th": "อ. Sorapop Kiatpongsan",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "sorapop.kiatpongsan@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/sorapop-kiatpongsan"
+    },
+    {
+      "id": "cu_sasin_049",
+      "full_name_th": "รศ.ดร. Stefano Starita",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "stefano.starita@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/stefano-starita"
+    },
+    {
+      "id": "cu_sasin_050",
+      "full_name_th": "ศ.ดร. Takamasa Fujioka",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "taka.fujioka@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/takamasa-fujioka"
+    },
+    {
+      "id": "cu_sasin_051",
+      "full_name_th": "ผศ.ดร. Tanasak Krabuanrat",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "tanasak.krabuanrat@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/tanasak-krabuanrat"
+    },
+    {
+      "id": "cu_sasin_053",
+      "full_name_th": "ผศ.ดร. Wantanee Poonvoralak",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "wantanee.poonvoralak@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/wantanee-poonvoralak"
+    },
+    {
+      "id": "cu_sasin_054",
+      "full_name_th": "ผศ.ดร. Yupin Patarapongsant",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "yupin.patara@sasin.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/yupin-patarapongsant"
+    },
+    {
+      "id": "tu_6e5ef2e9_8871",
+      "full_name_th": "ผศ.ดร. ศรีโสภา เรืองหนู",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "srisopar@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_20710be8_2457",
+      "full_name_th": "รศ.ดร. นวลจันทร์ ใจอารีย์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "jaiarree@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_13490b6d_4821",
+      "full_name_th": "รศ.ดร. พท.ป.จุไรรัตน์ บุญรวบ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "jurairat@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_52ae2b86_6102",
+      "full_name_th": "ผศ.ดร. ภก. อินทัช ศักดิ์ภักดีเจริญ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "intouch@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_348ac405_5090",
+      "full_name_th": "ผศ. พท.ป.ปฐมพงษ์ เผือกลี",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "thompong@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_43af5f92_1579",
+      "full_name_th": "ผศ. พท.ป.ภาณัฐ เดชะยนต์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "bhanuz@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_127cd3b6_7450",
+      "full_name_th": "ผศ.ดร. พท.ป.จิตพิสุทธิ์ จันทร์ทองอ่อน",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "jitpisut@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_390db3c6_1485",
+      "full_name_th": "ผศ.ดร. พท.ป. อรมณี ประจวบจินดา",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "immieon@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_39ed3963_0039",
+      "full_name_th": "ผศ.ดร. ปรรณณวัชญ์ ไชยวัฒนนันทน์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "pannawat@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_32873abc_3946",
+      "full_name_th": "ผศ.ดร. สุมาลี ปานทอง",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "psumalee@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_19aed2e9_5682",
+      "full_name_th": "ผศ.ดร. ผกากรอง ทองดียิ่ง",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "pakakron@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_241f1a7a_7576",
+      "full_name_th": "อ.ดร. พท.ป. ณิชมน มุขสมบัติ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "nschamon@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_2d1922f6_4204",
+      "full_name_th": "ผศ.ดร. พท. เสาวภัค ภูมิรัตน์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "saovapak@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_4d06dba0_2089",
+      "full_name_th": "อ.ดร. พท.ป. อุบลวรรณ แซ่ซิว",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "ubonwans@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_62da9603_5295",
+      "full_name_th": "อ.ดร. พท.ป. จันทร์จิรา อินทร์ประสิทธิ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "janjira@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_1d3b9bd7_4007",
+      "full_name_th": "อ.ดร. พท.ป. กานต์มณี สุขเกษม",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "kanmanee@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_655e1e07_6505",
+      "full_name_th": "อ.ดร. พท.ป. สุชาดา นาคนรินทร์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "suchadan@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_40a6619b_3770",
+      "full_name_th": "อ.ดร. พท.ป. เรียวฟาง สีโยม",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "reawfang@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_26d2e056_6393",
+      "full_name_th": "อ.ดร. พท.ป. ปัทมา ศรีอำไพ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "ipat1518@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_6b5251b2_2717",
+      "full_name_th": "อ.ดร. พท.ป.พัชรพร เหมือนฤทธิ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "pm1996@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_5eab3fcc_0653",
+      "full_name_th": "อ.ดร. พท.ป.ชินพัฒน์ เฉลิมรัมย์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สถานการแพทย์แผนไทยประยุกต์",
+      "new_email": "tuan@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/department/attm/?page_id=124"
+    },
+    {
+      "id": "tu_74d4b85d_8557",
+      "full_name_th": "รศ.ดร. นพ. พสิษฐ์พล วัชรวงศ์วาน",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สาขาวิชาเวชศาสตร์ชุมชน",
+      "new_email": "pasitpon@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/cmfm/?page_id=3164"
+    },
+    {
+      "id": "tu_515c6f20_6843",
+      "full_name_th": "รศ.ดร. ศรีเมือง พลังฤทธิ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สาขาวิชาเวชศาสตร์ชุมชน",
+      "new_email": "srimuang@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/cmfm/?page_id=3164"
+    },
+    {
+      "id": "tu_7e85aa7b_7540",
+      "full_name_th": "ผศ.ดร. สุภิกา แดงกระจ่าง",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สาขาวิชาเวชศาสตร์ชุมชน",
+      "new_email": "dsupika@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/cmfm/?page_id=3164"
+    },
+    {
+      "id": "tu_483363ad_5671",
+      "full_name_th": "ผศ.ดร. อภิชา น้อมศิริ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สาขาวิชาเวชศาสตร์ชุมชน",
+      "new_email": "napicha@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/cmfm/?page_id=3164"
+    },
+    {
+      "id": "tu_3430498f_2451",
+      "full_name_th": "ผศ.ดร. ณฐินี พงศ์ไพฑูรย์สิน",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สาขาวิชาเวชศาสตร์ชุมชน",
+      "new_email": "lonmed@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/cmfm/?page_id=3164"
+    },
+    {
+      "id": "tu_35ae1a56_7928",
+      "full_name_th": "ผศ. มานิดา มณีอินทร์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สาขาวิชาเวชศาสตร์ชุมชน",
+      "new_email": "manida@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/cmfm/?page_id=3164"
+    },
+    {
+      "id": "tu_725ec1eb_6330",
+      "full_name_th": "อ.ดร. พญ. อลิสสา รัตนตะวัน",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สาขาวิชาเวชศาสตร์ชุมชน",
+      "new_email": "alissa@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/cmfm/?page_id=3164"
+    },
+    {
+      "id": "tu_57054b35_1836",
+      "full_name_th": "อ.ดร. สิทธิพล บุญมั่น",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สาขาวิชาเวชศาสตร์ชุมชน",
+      "new_email": "bunman@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/cmfm/?page_id=3164"
+    },
+    {
+      "id": "tu_19ef5ea8_5644",
+      "full_name_th": "อ. นพ. ภัทรภณ แจ่มมิน",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สาขาวิชาเวชศาสตร์ชุมชน",
+      "new_email": "jammin@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/cmfm/?page_id=3164"
+    },
+    {
+      "id": "tu_4acfe645_1779",
+      "full_name_th": "อ. นพ. พีรภาส จิราธิยุต",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สาขาวิชาเวชศาสตร์ครอบครัว",
+      "new_email": "jirpeera@tu.ac.th",
+      "profile_url": "https://www.med.tu.ac.th/cmfm/?page_id=3166"
+    }
+  ],
+  "embedding_texts_rebuilt": 119
+}

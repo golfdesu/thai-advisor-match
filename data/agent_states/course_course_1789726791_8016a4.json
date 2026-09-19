@@ -1,0 +1,18 @@
+{
+  "session_id": "course_1789726791_8016a4",
+  "target_university_th": "มหาวิทยาลัยสงขลานครินทร์",
+  "target_university_en": "Prince of Songkla University",
+  "target_faculty_th": "วิทยาลัยการคอมพิวเตอร์",
+  "target_faculty_en": "College of Computing",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://computing.psu.ac.th/th/masterdegree/"
+  ],
+  "failed_urls": [],
+  "courses": {},
+  "dedup_title_keys": {},
+  "step_count": 1,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

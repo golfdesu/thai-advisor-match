@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789643766_cc34cf",
+  "target_university_th": "มหาวิทยาลัยศิลปากร",
+  "target_university_en": "Silpakorn University",
+  "target_faculty_th": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+  "target_faculty_en": "Faculty of Information and Communication Technology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.ict.su.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 482,
+  "status": "completed",
+  "last_error": null
+}

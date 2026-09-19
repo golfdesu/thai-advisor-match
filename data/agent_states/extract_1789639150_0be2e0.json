@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789639150_0be2e0",
+  "target_university_th": "มหาวิทยาลัยอุบลราชธานี",
+  "target_university_en": "Ubon Ratchathani University",
+  "target_faculty_th": "คณะวิทยาศาสตร์",
+  "target_faculty_en": "Faculty of Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.sci.ubu.ac.th/index.php/Main/search_tel/1/690",
+    "https://chem.sci.ubu.ac.th/assets/upload/files/%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3.pdf"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 6745,
+  "status": "completed",
+  "last_error": null
+}

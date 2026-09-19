@@ -1,0 +1,2807 @@
+{
+  "apply": true,
+  "total_valid_email_items": 280,
+  "updated_emails": [
+    {
+      "id": "ku_agr_wave12_0004",
+      "full_name_th": "รศ. ธีรวิทย์ เป่ยคำภา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrtrw@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510194",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0005",
+      "full_name_th": "รศ. ธนาทิพย์ สุวรรณโสภี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrtts@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500024",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0006",
+      "full_name_th": "รศ. ชาญวิทย์ แก้วตาปี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrcwk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=520133",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0007",
+      "full_name_th": "รศ. อัจฉรา ขยัน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrark@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=550012",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0008",
+      "full_name_th": "ผศ. พงศ์ธร คงมั่น",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrptk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=550011",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0011",
+      "full_name_th": "ผศ. กนกพร พ่วงพงษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrkpp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=530130",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0012",
+      "full_name_th": "ผศ. ดนัย จัตวา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "danai.ja@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=610026",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0017",
+      "full_name_th": "รศ. พิชัย ทองดีเลิศ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpct@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=400133",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0018",
+      "full_name_th": "รศ. พัชราวดี ศรีบุญเรือง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrpds@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=550116",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0019",
+      "full_name_th": "ผศ. ธานินทร์ คงศิลา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrtnk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=470012",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0020",
+      "full_name_th": "ผศ. พนามาศ ตรีวรรณกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpmt@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=460063",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0021",
+      "full_name_th": "ผศ. สุภาภรณ์ เลิศศิริ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrspl@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480187",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0022",
+      "full_name_th": "ผศ. สุพัตรา ศรีสุวรรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrstsw@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500109",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0023",
+      "full_name_th": "ผศ. ปพิชญา จินตพิทักษ์สกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpyc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=440015",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0024",
+      "full_name_th": "ผศ. เมตตา เร่งขวนขวาย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrmec@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510085",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0025",
+      "full_name_th": "ผศ. ชลาธร จูเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "chalathon.c@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=600028",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0026",
+      "full_name_th": "ผศ. ปรีดา สามงามยา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "preeda.s@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=630055",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0027",
+      "full_name_th": "อ. นริศรา อินทะสิริ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "narisara.i@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480935",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0028",
+      "full_name_th": "รศ. เนตรนภิส เขียวขำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrnpk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480533",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0029",
+      "full_name_th": "รศ. ธิดา เดชฮวบ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrtdd@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500237",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0031",
+      "full_name_th": "รศ. วีระณีย์ ทองศรี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrvnt@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=540088",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0032",
+      "full_name_th": "รศ. วันวิสา ศิริวรรณ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "wanwisa.si@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=600107",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0033",
+      "full_name_th": "ผศ. อนงค์นุช สาสนรักกิจ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agransk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480925",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0035",
+      "full_name_th": "ผศ. อุดมศักดิ์ เลิศสุชาตวนิช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrusl@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510004",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0036",
+      "full_name_th": "ผศ. พัชรวิภา ใจจักรคำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpvp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=540038",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0037",
+      "full_name_th": "ผศ. ปัฐวิภา สงกุมาร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrpps@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=570023",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0038",
+      "full_name_th": "ผศ. ติยากร ฉัตรนภารัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrtkc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=580129",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0039",
+      "full_name_th": "ผศ. สวิตา สุวรรณรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "sawita.suw@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=610133",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0041",
+      "full_name_th": "อ. รวิชย์ หลงสวาสดิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "rawit.l@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=660089",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0042",
+      "full_name_th": "อ. วิภาวี ลี้สุทธิพรชัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "wiphawee.l@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=640042",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0043",
+      "full_name_th": "อ. ศรีหรรษา มลิจารย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrssm@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=630121",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0044",
+      "full_name_th": "รศ. อลิศรา มีนะกนิษฐ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrarm@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=400293",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0045",
+      "full_name_th": "รศ. พัชรียา บุญกอแก้ว",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpyb@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=440020",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0046",
+      "full_name_th": "ผศ. กนกวรรณ ถนอมจิตร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrkwt@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=440001",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0047",
+      "full_name_th": "ผศ. เฌอมาลย์ วงศ์ชาวจันท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsmw@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500031",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0048",
+      "full_name_th": "ผศ. ปริยานุช จุลกะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpnc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480874",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0049",
+      "full_name_th": "ผศ. เบญญา มะโนชัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrbym@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500257",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0051",
+      "full_name_th": "ผศ. อัณณ์ชญาน์ มงคลชัยพฤกษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrctt@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510180",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0052",
+      "full_name_th": "ผศ. เจนจิรา ชุมภูคำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrjrc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=550098",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0053",
+      "full_name_th": "ผศ. ทัศไนย จารุวัฒนพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrtnj@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=570021",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0054",
+      "full_name_th": "ผศ. อารยา อาจเจริญ เทียนหอม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrart@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=570083",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0057",
+      "full_name_th": "ผศ. กาญจนา บุญเรือง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "kanchana.boon@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=610139",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0058",
+      "full_name_th": "อ. นิตยา ชูเกาะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "nittaya.cho@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=640004",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0060",
+      "full_name_th": "อ. รัฐพล ฉัตรบรรยงค์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrrtp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500258",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0073",
+      "full_name_th": "ผศ. นพ ตัณมุขยกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrnot@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=530132",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0078",
+      "full_name_th": "อ. ภารดี ธรรมาภิชัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "paradee.tham@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=660027",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0081",
+      "full_name_th": "รศ. เสาวนุช ถาวรพฤกษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsnt@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=440023",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0082",
+      "full_name_th": "รศ. กรรณิการ์ สัจจาพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrkks@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480091",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0083",
+      "full_name_th": "รศ. ณัฐพล จิตมาตย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrnpc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=540070",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0084",
+      "full_name_th": "รศ. วรชาติ วิศวพิพัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrwcw@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=550160",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0089",
+      "full_name_th": "ผศ. เพชรดา ปินใจ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrprj@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480986",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0090",
+      "full_name_th": "ผศ. ดาวจรัส เกตุโรจน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrdrk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=570058",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0091",
+      "full_name_th": "ผศ. ทิมทอง ดรุณสนธยา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrttd@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560101",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0093",
+      "full_name_th": "ผศ. วุฒิดา รัตนพิไชย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrwtd@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510241",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0094",
+      "full_name_th": "อ. รุ่งโรจน์ พิทักษ์ด่านธรรม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrrrp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510073",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0095",
+      "full_name_th": "อ. ฉัตรปวีณ์ เดชจิรรัตนสิริ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "chatprawee.d@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=650137",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0096",
+      "full_name_th": "อ. ปิยาภัสร์ ศรีเจริญเวช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "piyapas.sri@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=670018",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0097",
+      "full_name_th": "อ. มัชฌิมา สระศรีรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "mutchima.phu@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=630067",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0098",
+      "full_name_th": "รศ. ปาริสุทธิ์ เฉลิมชัยวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrpsch@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=570159",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0099",
+      "full_name_th": "รศ. สุธีลักษณ์ ไกรสุวรรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsuk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=450079",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0100",
+      "full_name_th": "รศ. กานต์สุดา วันจันทึก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrkdw@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=600008",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0105",
+      "full_name_th": "ผศ. สาวิตรี พังงา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsvp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480292",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0106",
+      "full_name_th": "ผศ. ศศิประภา รัตนดิลก ณ ภูเก็ต",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsspp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=530008",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0107",
+      "full_name_th": "ผศ. น้องนุช ศิริวงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrnns@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500076",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0108",
+      "full_name_th": "ผศ. อำพร แจ่มผล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agramt@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480900",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0111",
+      "full_name_th": "ผศ. รุ่งทิพย์ ลุยเลา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrrtl@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=460024",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0112",
+      "full_name_th": "ผศ. วัลภา แต้มทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrwpt@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=520066",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0113",
+      "full_name_th": "ผศ. ศิริพร เรียบร้อย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsrpr@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510002",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0114",
+      "full_name_th": "ผศ. กรกฎ แพทย์หลักฟ้า",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "korakot.pha@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=630051",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0115",
+      "full_name_th": "ผศ. ศรันยา เผือกผ่อง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsyp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=450028",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0116",
+      "full_name_th": "ผศ. วิภูษณะ ศุภนคร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "wipoosana.s@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=630052",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0117",
+      "full_name_th": "อ. วสพร นิชรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrwpn@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480912",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0118",
+      "full_name_th": "อ. พิมพ์อร สุขแล้ว",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "phimon.s@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=650128",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0119",
+      "full_name_th": "อ. ศรัญญา ศรีโยธิน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "saranya.sriy@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=650039",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0120",
+      "full_name_th": "อ. สุขกมล ปัญญาจันทร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsmpc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480466",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0121",
+      "full_name_th": "อ. ทิพากร ม่วงถึก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrtkk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=580058",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0122",
+      "full_name_th": "รศ. สุดสายสิน แก้วเรือง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrskr@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=350001",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0123",
+      "full_name_th": "รศ. ศุภกิตต์ สายสุนทร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrspks@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500192",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0124",
+      "full_name_th": "รศ. รติยา ธุวพาณิชยานันท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrrty@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510170",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0125",
+      "full_name_th": "ผศ. เกรียงไกร แก้วตระกูลพงษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrkkk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=450034",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0126",
+      "full_name_th": "ผศ. ดลฤดี ใจสุทธิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrddj@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510049",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0127",
+      "full_name_th": "ผศ. รักศักดิ์ เสริมศักดิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrrss@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=520151",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0129",
+      "full_name_th": "ผศ. สุรัสวดี อรุณวรากรณ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrsda@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=580162",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0130",
+      "full_name_th": "ผศ. ปิยะพงษ์ ศรีวงษ์ราช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpyp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=530116",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0131",
+      "full_name_th": "ผศ. อนุสรณ์ เชื้อสามารถ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "anusron.c@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=620152",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0135",
+      "full_name_th": "ศ. ธีรภาพ เจริญวิริยะภาพ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "faasthc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=400282",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0136",
+      "full_name_th": "รศ. อัญชนา ท่านเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrant@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500184",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0137",
+      "full_name_th": "รศ. อัศเลข รัตนวรรณี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagralr@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560036",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0138",
+      "full_name_th": "รศ. วนิดา อ่วมเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrwda@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=550004",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0139",
+      "full_name_th": "ผศ. วราภรณ์ จันทรจำนงค์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrwpj@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500182",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0140",
+      "full_name_th": "ผศ. เอกวัต วิถีประดิษฐ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrawv@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=520149",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0142",
+      "full_name_th": "ผศ. ประกาย ราชณุวงษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrpkt@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=540122",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0143",
+      "full_name_th": "ผศ. รัชฎาวรรณ เงินกลั่น",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrrwn@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=540124",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0144",
+      "full_name_th": "ผศ. เบญจคุณ แสงทองพราว",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrbks@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=550108",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0145",
+      "full_name_th": "ผศ. ชามา อินซอน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrcmp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560012",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0146",
+      "full_name_th": "ผศ. สุขสวัสดิ์ พลพินิจ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrswp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560196",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0147",
+      "full_name_th": "ผศ. พิสิษฐ์ พูลประเสริฐ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrpspo@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=670013",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0148",
+      "full_name_th": "ผศ. รุ่งอรุณ ทิศกระโทก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "rungarun.tis@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=610006",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0149",
+      "full_name_th": "ผศ. จิโรจน์ นระรักษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "jirod.nar@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=640126",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0002",
+      "full_name_th": "รศ. พรรณวดี โสพรรณรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpds@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480534",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0050",
+      "full_name_th": "ผศ. พิจิตรา แก้วสอน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpctk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510173",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0080",
+      "full_name_th": "อ. อภิเดช รักเป็นไทย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "apidet.r@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=660065",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0101",
+      "full_name_th": "ผศ. ทิพวรรณ ดวงปัญญา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrtwd@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=440006",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0134",
+      "full_name_th": "อ. อิศเรศ กะการดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrirk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=670007",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0001",
+      "full_name_th": "รศ. ศกร คุณวุฒิฤทธิรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrskk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480004",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0010",
+      "full_name_th": "ผศ. เชาว์วิทย์ ระฆังทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrcwr@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560183",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0013",
+      "full_name_th": "ผศ. ก.ทีปลักษณ์ ระงับเหตุ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "kteepalak.r@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=630034",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0014",
+      "full_name_th": "อ. พนัดดา บึงศรีสวัสดิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "panatda.bu@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=630061",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0055",
+      "full_name_th": "ผศ. จรีรัตน์ ฉันทวุฒิพร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "jareerat.c@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=610002",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0061",
+      "full_name_th": "อ. วีรศิลป์ สอนจรูญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "weerasin.sonj@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=610129",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0062",
+      "full_name_th": "รศ. ธานี ศรีวงศ์ชัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrtns@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510141",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0063",
+      "full_name_th": "รศ. เฉลิมพล ภูมิไชย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrcpp@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510020",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0064",
+      "full_name_th": "รศ. ภัศจี คงศีล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrpjk@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=540081",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0066",
+      "full_name_th": "ผศ. ปิยะ กิตติภาดากุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpykd@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=430002",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0067",
+      "full_name_th": "ผศ. ดำรงวุฒิ อ่อนวิมล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrdho@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=580140",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0069",
+      "full_name_th": "ผศ. ธนพล ไชยแสน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrtpc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560184",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0070",
+      "full_name_th": "ผศ. สราวุธ รุ่งเมฆารัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsrw@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500201",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0072",
+      "full_name_th": "ผศ. สุจินต์ เจนวีรวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsjj@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=530048",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0074",
+      "full_name_th": "ผศ. วรรณสิริ วรรณรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "aapwnsr@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=530038",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0076",
+      "full_name_th": "ผศ. อรุณี วงษ์แก้ว",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "arunee.wo@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=640118",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0077",
+      "full_name_th": "อ. เจตษฎา อุตรพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrjda@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=530047",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0079",
+      "full_name_th": "อ. รมิดา กร่ำศรี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "ramida.kr@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=670059",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0085",
+      "full_name_th": "รศ. ศุภิฌา ธนะจิตต์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrspc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500047",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0086",
+      "full_name_th": "รศ. สมชัย อนุสนธิ์พรเพิ่ม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsca@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480987",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0087",
+      "full_name_th": "รศ. สุรเชษฎ์ อร่ามรักษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrscar@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500131",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0088",
+      "full_name_th": "ผศ. เฉลิมชาติ วงศ์ลี้เจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrccw@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480860",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0092",
+      "full_name_th": "ผศ. วิทยา จินดาหลวง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrwyj@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560223",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0102",
+      "full_name_th": "ผศ. สุจิตตา เรืองรัศมี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrstrm@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=450078",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0103",
+      "full_name_th": "ผศ. ทวีศักดิ์ เตชะเกรียงไกร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrtst@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=570057",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0104",
+      "full_name_th": "ผศ. ชุติมา ชวลิตมณเฑียร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrcmc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480866",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0109",
+      "full_name_th": "ผศ. พีรานุช เลิศวัฒนารักษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrpnl@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=530103",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0110",
+      "full_name_th": "ผศ. ฤทัย เรืองธรรมสิงห์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrrtr@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=520052",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0151",
+      "full_name_th": "ผศ. อมรรัตน์ ปันต๊ะวงค์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "amonrat.pan@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=650021",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0003",
+      "full_name_th": "รศ. วิริยา ลุ้งใหญ่",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrwyl@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=510008",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0030",
+      "full_name_th": "รศ. อรอุมา เพียซ้าย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agromj@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=500044",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0034",
+      "full_name_th": "ผศ. สุพจน์ กาเซ็ม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "agrsupot@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480693",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0065",
+      "full_name_th": "รศ. ปิติพงษ์ โตบันลือภพ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrppt@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=550061",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0068",
+      "full_name_th": "ผศ. ทรงยศ โชติชุติมา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrsyc@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=570072",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "ku_agr_wave12_0141",
+      "full_name_th": "ผศ. อธิราช หนูสีดำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร",
+      "department_th": "คณะเกษตร",
+      "new_email": "fagrarn@ku.ac.th",
+      "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=540121",
+      "cluster": "KU Agriculture"
+    },
+    {
+      "id": "khonkaenun_facultyofn_panthuchin_030",
+      "full_name_th": "ผศ. ชลรดา พันธุชิน",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "pchonl@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_chantraphim_013",
+      "full_name_th": "ผศ.ดร. ศรินรัตน์ จันทพิมพ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพจิตและจิตเวช",
+      "new_email": "sariju@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_phothisopha_008",
+      "full_name_th": "ผศ.ดร. วิภาวดี โพธิโสภา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "wiphpo@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_tangpukdee_049",
+      "full_name_th": "รศ.ดร. จุฬาภรณ์ ตั้งภักดี",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "jurtan@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_thepa_011",
+      "full_name_th": "รศ.ดร. ทิวาวรรณ เทพา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "tthiwawan@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_rujiraprasert_029",
+      "full_name_th": "ผศ.ดร. นิลุบล รุจิรประเสริฐ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "nilruj@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_siripoon_009",
+      "full_name_th": "ผศ.ดร. ประกายแก้ว ศิริพูล",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "praksi@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_nuntaboot_059",
+      "full_name_th": "รศ.ดร. ขนิษฐา นันทบุตร",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลครอบครัวและชุมชน",
+      "new_email": "khanitta@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_phangnam_004",
+      "full_name_th": "ผศ.ดร. นิตยา พันธ์งาม",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "nittapa@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_wongkom_007",
+      "full_name_th": "รศ.ดร. ปาริชาติ วงศ์ก้อม",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "parwon@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_mueangpil_002",
+      "full_name_th": "ผศ.ดร. สมจิตร เมืองพิล",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "sompha@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_boontot_006",
+      "full_name_th": "ผศ.ดร. ขวัญสุดา บุญทศ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "kwaboo@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_jaithiang_005",
+      "full_name_th": "ผศ.ดร. อรุณณี ใจเที่ยง",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "arunja@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_kaewjanta_040",
+      "full_name_th": "รศ.ดร. เนตรชนก แก้วจันทา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพจิตและจิตเวช",
+      "new_email": "knetch@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_juntachum_065",
+      "full_name_th": "รศ.ดร. วรรณชนก จันทชุม",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการศึกษาวิจัยและบริหารการพยาบาล",
+      "new_email": "wancha_p@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_jongudomkarn_058",
+      "full_name_th": "ศ.ดร. ดรุณี โชติูกำจร",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลครอบครัวและชุมชน",
+      "new_email": "darjon@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_banharak_003",
+      "full_name_th": "รศ.ดร. สมรภพ บรรหารักษ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "sbanharak@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_changrueang_026",
+      "full_name_th": "อ.ดร. อรวีร์ ช่างเรือง",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "Adult Nursing Department, Faculty of Nursing",
+      "new_email": "orawch@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_choenarom_039",
+      "full_name_th": "ผศ.ดร. ชนกฤทัย ชื่นอารมณ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพจิตและจิตเวช",
+      "new_email": "chacho1@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_kirdpole_047",
+      "full_name_th": "ผศ.ดร. วิไล เกิดผล",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "wilai@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_dapha_012",
+      "full_name_th": "รศ.ดร. สมปรารถนา ดาผา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการศึกษาวิจัยและบริหารการพยาบาล",
+      "new_email": "somdapa@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_neelasmith_032",
+      "full_name_th": "ผศ.ดร. สมสกูล นีละสมิต",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "somsne@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_pearkao_017",
+      "full_name_th": "รศ.ดร. ชัจคเณค์ แพรขาว",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้ใหญ่",
+      "new_email": "porpea@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_phunphanit_014",
+      "full_name_th": "ผศ.ดร. ลดาวัลย์ พันธุ์พาณิชย์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้สูงอายุ",
+      "new_email": "ladpan@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_phinyo_057",
+      "full_name_th": "ผศ.ดร. กิตติภูมิ ภิญโย",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลครอบครัวและชุมชน",
+      "new_email": "kittiphoom@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_phutthikhamin_021",
+      "full_name_th": "ผศ.ดร. ณิชาภัตร พุฒิคามิน",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้ใหญ่",
+      "new_email": "thithi@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_piyabanditkul_010",
+      "full_name_th": "ผศ.ดร. ลัฆวี ปิยะบัณฑิตกุล",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลครอบครัวและชุมชน",
+      "new_email": "plukaw@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_saensom_015",
+      "full_name_th": "ผศ.ดร. ดลวิวัฒน์ แสนโสม",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้ใหญ่",
+      "new_email": "donsae@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_samputtanon_041",
+      "full_name_th": "ผศ.ดร. จุไรพร สัมพุทธานนท์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพจิตและจิตเวช",
+      "new_email": "juraipon@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_sena_060",
+      "full_name_th": "รศ.ดร. วิจิตรา เสนา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลครอบครัวและชุมชน",
+      "new_email": "pwijit@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_silarat_025",
+      "full_name_th": "ผศ.ดร. มะลิวรรณ ศิลารัตน์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้ใหญ่",
+      "new_email": "smaliw@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_somjaivong_023",
+      "full_name_th": "รศ.ดร. บุษบา สมใจวงษ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้ใหญ่",
+      "new_email": "bussom@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_srijakkot_066",
+      "full_name_th": "ผศ.ดร. จิตภินันท์ ศรีจักรโคตร",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการศึกษาวิจัยและบริหารการพยาบาล",
+      "new_email": "jonsri@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_tangvoraphonkch_045",
+      "full_name_th": "รศ.ดร. จินตนา ตั้งวรพงศ์ชัย",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "jintta@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_theeranut_001",
+      "full_name_th": "รศ.ดร. อัมพรพรรณ ธีรานุตร",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "amptee@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_wonginchan_016",
+      "full_name_th": "ผศ.ดร. อัจฉริยา วงษ์อินทร์จันทร์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "watcha@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_ruangsuksud_024",
+      "full_name_th": "ผศ.ดร. พิเชษฐ เรืองสุขสุด",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้ใหญ่",
+      "new_email": "rpiche@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_bubpa_061",
+      "full_name_th": "ผศ.ดร. นิศาชล บุบผา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลครอบครัวและชุมชน",
+      "new_email": "nisachon@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_krairiksh_069",
+      "full_name_th": "รศ.ดร. มาริสา ไกรฤกษ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการศึกษาวิจัยและบริหารการพยาบาล",
+      "new_email": "kmaris@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_aussawamaykin_038",
+      "full_name_th": "อ. รัตนภรณ์ อัศวเมฆิน",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "ratala@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_haungthaisong_051",
+      "full_name_th": "ดร. อุไรวรรณ หอห่างไทยสงฆ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "uraisroi@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_pinsuwan_071",
+      "full_name_th": "ดร. ชนภรณ์ ปิ่นสุวรรณ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการศึกษาวิจัยและบริหารการพยาบาล",
+      "new_email": "chanpi@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_anuphan_055",
+      "full_name_th": "อ. ศศิประภา อนุพันธ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "sasian@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_kulachat_034",
+      "full_name_th": "อ. กนกวรรณ กุลชาติ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "kanoku@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_sriraksar_019",
+      "full_name_th": "ผศ. อมร ศรีรักษา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้ใหญ่",
+      "new_email": "amponsri@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_suearam_046",
+      "full_name_th": "อ. แก้วการ สุยะแรม",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "kaesue@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_sungworawongpan_031",
+      "full_name_th": "ดร. ฐิติ สังวรวงศ์พนา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "kansun@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_kanchanabat_070",
+      "full_name_th": "ผศ. บุษรา กาญจนบาท",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการศึกษาวิจัยและบริหารการพยาบาล",
+      "new_email": "busara@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_khunbutsri_042",
+      "full_name_th": "อ. Nitchakool Khunbutsri",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพจิตและจิตเวช",
+      "new_email": "nidckh@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_manorat_033",
+      "full_name_th": "ดร. มนฤดี มโนรัตน์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "monrka@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_kongkasem_028",
+      "full_name_th": "อ. พชรมน คงเกษม",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": null,
+      "new_email": "picham@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_payjapoh_050",
+      "full_name_th": "อ. จุฑามาศ ปัจจะพงษ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "chupay@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_phakaiya_037",
+      "full_name_th": "อ. ปัทมาภรณ์ ผกายะ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "pattph@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_sookpier_068",
+      "full_name_th": "ผศ. พรพิมล สุขพินิจ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการศึกษาวิจัยและบริหารการพยาบาล",
+      "new_email": "pornsr@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_tanthaisong_035",
+      "full_name_th": "อ. รัตนา ตันไธสง",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "rattta@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_thowannang_044",
+      "full_name_th": "อ. Rungarun Thowannang",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพจิตและจิตเวช",
+      "new_email": "rungtho@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_angsupakorn_048",
+      "full_name_th": "อ. นิภา อังศุภากร",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "nipang@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_boonpaung_020",
+      "full_name_th": "ผศ. พรทิพย์ บุญพ่วง",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้ใหญ่",
+      "new_email": "porboo1@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_chanamarn_043",
+      "full_name_th": "อ. Chompoonoot Chanamarn",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพจิตและจิตเวช",
+      "new_email": "chompoo@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_kuasri_036",
+      "full_name_th": "อ. จตุพร เครือศรี",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการผดุงครรภ์",
+      "new_email": "jatuku@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_lardsena_052",
+      "full_name_th": "อ. ขุนกมล ลาดเสนา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "khunla@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_ponyiem_054",
+      "full_name_th": "อ. ภวันตรี โพธิ์เยี่ยม",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "phawpo@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_rattanaumpa_053",
+      "full_name_th": "อ. นารีดา รัตนอำภา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลสุขภาพเด็ก",
+      "new_email": "rprapim@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_sawatdipirom_063",
+      "full_name_th": "อ. นพพรรณ สวัสดิภิรมย์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลครอบครัวและชุมชน",
+      "new_email": "nochai@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_worasith_027",
+      "full_name_th": "ดร. ชนิกา วรสิทธิ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "Adult Nursing, Faculty of Nursing",
+      "new_email": "chanikawor@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_wongchalee_062",
+      "full_name_th": "ดร. นัชชาภัทร วงศ์ชาลี",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลครอบครัวและชุมชน",
+      "new_email": "nadcwo@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_phromkrathok_064",
+      "full_name_th": "อ. ขนิษฐา พรหมกระทฤก",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลครอบครัวและชุมชน",
+      "new_email": "khaniph@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_methakanjanasak_018",
+      "full_name_th": "ผศ.ดร. นงลักษณ์ เมธากาญจนศักดิ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้ใหญ่",
+      "new_email": "nonchu@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_boonsawasdgulch_067",
+      "full_name_th": "ผศ.ดร. พีรพงษ์ บุญสวัสดิ์กุลชัย",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการศึกษาวิจัยและบริหารการพยาบาล",
+      "new_email": "peeboo@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "khonkaenun_facultyofn_ruaisungnoen_022",
+      "full_name_th": "รศ.ดร. วาสนา รวยสูงเนิน",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "สาขาวิชาการพยาบาลผู้ใหญ่",
+      "new_email": "waskir@kku.ac.th",
+      "profile_url": null,
+      "cluster": "KKU Nursing"
+    },
+    {
+      "id": "ku_eng_cpe_002",
+      "full_name_th": "รศ.ดร. กฤษณะ ไวยมัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengknw@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=16",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_003",
+      "full_name_th": "รศ.ดร. จิตร์ทัศน์ ฝักเจริญผล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "jtf@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=21",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_005",
+      "full_name_th": "รศ.ดร. ภัทร ลีลาพฤทธิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengprl@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=20",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_006",
+      "full_name_th": "รศ.ดร. สมชาย นำประเสริฐชัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "snp@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=19",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_007",
+      "full_name_th": "รศ.ดร. อนันต์ ผลเพิ่ม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fenganp@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=18",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_009",
+      "full_name_th": "รศ.ดร. ยอดเยี่ยม ทิพย์สุวรรณ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "yyt@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=23",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_013",
+      "full_name_th": "ผศ. ปรีดา เลิศพงศ์วิภูษณะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "plw@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=32",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_015",
+      "full_name_th": "ผศ.ดร. สุภาพร เอื้อจงมานี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengspe@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=28",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_016",
+      "full_name_th": "ผศ. สิทธิชัย ศรีอ่อน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengsis@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=33",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_017",
+      "full_name_th": "ผศ.ดร. หัชทัย ชาญเลขา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fenghtc@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=30",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_019",
+      "full_name_th": "ผศ.ดร. อัครพงศ์ พัชรรุ่งเรือง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengstp@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=24",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_021",
+      "full_name_th": "ดร. ชวณัฐ นาคะสันต์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengcnn@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=35",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_024",
+      "full_name_th": "ดร. ศิริศิลป์ กองศิลป์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengssk@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=36",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_025",
+      "full_name_th": "ดร. ปิยะ ลิ้มเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengpil@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=38",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_027",
+      "full_name_th": "ดร. กัญจนสิทธ ทองเล็ก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengkit@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=39",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_ee_012",
+      "full_name_th": "รศ. มงคล รักษาพัชรวงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+      "new_email": "fengmkr@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=123",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_ee_033",
+      "full_name_th": "ผศ. ถิระภัทร จริยะนรวิชช์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+      "new_email": "fengtpj@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=151",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_ee_043",
+      "full_name_th": "รศ. วรฐ คูหิรัญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+      "new_email": "fengwrk@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=126",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0029",
+      "full_name_th": "ดร. ไชยวัฒน์ กล่ำพล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengcwp@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=9",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0030",
+      "full_name_th": "ผศ.ดร. มนต์ชัย สุระรัตน์ชัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengmcsc@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=6",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0031",
+      "full_name_th": "รศ.ดร. เวชพงศ์ ชุติชูเดช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengvej@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=1",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0032",
+      "full_name_th": "ผศ.ดร. ศิริพงศ์ อติพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengspa@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=3",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0033",
+      "full_name_th": "ผศ.ดร. ภาณุมาศ อรุณเดชาวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengpma@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=5",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_018",
+      "full_name_th": "ผศ.ดร. อภิรักษ์ จันทร์สร้าง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengapj@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=26",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_022",
+      "full_name_th": "ดร. ธนะ วัฒนวารุณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengtnw@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=37",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0027",
+      "full_name_th": "ผศ.ดร. ชินภัทร ทิพโยภาส",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengcpt@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=4",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0039",
+      "full_name_th": "อ.ดร. ณรงค์กร กระจ่างสวัสดิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengnok@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=7",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0028",
+      "full_name_th": "รศ.ดร. พัชราภรณ์ บุณยวานิชกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengphb@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=2",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_012",
+      "full_name_th": "ผศ.ดร. กิตติพล โหราพงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengkph@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=31",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_020",
+      "full_name_th": "ดร. จิตติ นิรมิตรานนท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengjini@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=34",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_023",
+      "full_name_th": "ดร. สุวิจักขณ์ ฟังประเสริฐกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengshf@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=40",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0026",
+      "full_name_th": "ดร. นวทัศน์ ก้องสมุทร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengnak@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=11",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0034",
+      "full_name_th": "ผศ. วิศว์ ศรีพวาทกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengvisp@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=8",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0037",
+      "full_name_th": "ดร. ชนินทร์ ตรงจิตภักดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengcht@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=10",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0038",
+      "full_name_th": "ดร. ศุภัชชา ชัยเมธานันท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengscc@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=12",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_wave12_0040",
+      "full_name_th": "ดร. นวิน ญาณภิรัต",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมการบินและอวกาศ",
+      "new_email": "fengnwy@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=13",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_014",
+      "full_name_th": "ผศ.ดร. ภารุจ รัตนวรพันธุ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "fengprrb@ku.ac.th",
+      "profile_url": "https://hr.eng.ku.ac.th/directory.php?id=29",
+      "cluster": "KU Engineering"
+    },
+    {
+      "id": "kmutt_a312d0b4_4097",
+      "full_name_th": "ผศ.ดร. ทรงสิรินธ์ เรืองวิเศษ",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "songsirin.rue@mail.kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/30-dr-songsirin-ruengvisesh",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_1d8f88bd_2745",
+      "full_name_th": "ผศ.ดร. สุคนธ์ ตันติไพบูลย์วุฒิ",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "sukon.tan@mail.kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/22-assist-prof-dr-sukon-tantipaibulvut",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_3674365e_9304",
+      "full_name_th": "ผศ.ดร. นงพงา คุณจักร",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "naongpanga.khu@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/23-asst-prof-dr-nongpanga-khunajakr",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_3bd5ff70_2589",
+      "full_name_th": "รศ.ดร. พงค์ศักดิ์ ขุนแร่",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "pongsak.khu@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/25-asst-prof-dr-pongsak-khunrare",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_45bef6fa_3748",
+      "full_name_th": "ผศ.ดร. ศิววรรณ พูลพันธุ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "sivawan.pho@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/29-asst-prof-dr-sivawan-phoolphundh",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_12363630_8304",
+      "full_name_th": "ผศ.ดร. รริศรา อิ่มภาประเสริฐ",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "rarisara.imp@mail.kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/28-dr-rarisara-impaprasert",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_1e0bc311_6653",
+      "full_name_th": "รศ.ดร. พรรณจิรา วงศ์สวัสดิ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "punchira.von@mail.kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/27-assoc-prof-dr-punchira-vongsawasdi",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_357efe29_9584",
+      "full_name_th": "รศ.ดร. ประเวทย์ ตุ้ยเต็มวงศ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "pravate.tui@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/26-assoc-prof-dr-pravate-tuitemwong",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_50afa4c8_3165",
+      "full_name_th": "รศ.ดร. วรพจน์ สุนทรสุข",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "worapot.sun@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/31-assoc-prof-dr-worapot-suntornsuk",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_13ee518d_7562",
+      "full_name_th": "ผศ.ดร. นุจริน จงรุจา",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "songsirin.rue@mail.kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/30-dr-songsirin-ruengvisesh",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_6258fdba_2219",
+      "full_name_th": "ผศ.ดร. จิรายุส เอื้อนรเศรษฐ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "jirayut.eua@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/24-dr-jirayut-euanorasetr",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_791d8ceb_3344",
+      "full_name_th": "ดร. เอมอร ศักดิ์แสงวิจิตร",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "aimorn.sak@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/63-aimorn",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_4d9ff664_3658",
+      "full_name_th": "รศ.ดร. ชินพงษ์ กฤตยากรนุพงศ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "chinapong.kri@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/58-chinapong",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_55f1faee_5568",
+      "full_name_th": "ดร. ช่อลัดดา ศรีสุวรรณเกศ",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "choladda.sri@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/64-choladda",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_5910e48e_0274",
+      "full_name_th": "ดร. กิตติชัย ไชยสีดา",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "kittichai.cha@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/46-kittichai",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_32729c67_7431",
+      "full_name_th": "ผศ.ดร. กรกันยา ประทุมยศ",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "kornkanya.pra@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/71-kornkanya",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_c9364caf_6762",
+      "full_name_th": "ผศ.ดร. นิศากร ทองก้อน",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "nisakorn.tho@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/66-nisakorn",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_5595f95a_1700",
+      "full_name_th": "ผศ.ดร. นพวรรณ ปาระดี",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "nophawan.par@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/55-nophawan",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_74eabd2a_7714",
+      "full_name_th": "ผศ.ดร. ศาสตราวุธ ตุลาผล",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "sarttrawut.tul@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/65-sarttrawut",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_2540122e_2487",
+      "full_name_th": "ดร. ศิวัตรา ชูเดช",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "siwattra.choo@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/73-siwattra",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_1a2c0735_2301",
+      "full_name_th": "รศ.ดร. สุดธิดา เปลี่ยนคารมย์ธนทรัพย์สิน",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "sudtida.tha@mail.kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/57-sudtida",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_14fb52cd_1574",
+      "full_name_th": "ดร. ธีรภูมิ บุญปราบ",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "theerapoom.boon@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/75-theerapoom",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_553a0902_5152",
+      "full_name_th": "รศ.ดร. วิจิตรา เดือนฉาย",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "wijitar.dun@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/61-wijitar",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_4a62d676_9353",
+      "full_name_th": "ดร. ญาณวุฒิ หมานมานะ",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "yanawut.manm@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/74-yanawut",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "kmutt_6c7db928_8221",
+      "full_name_th": "ผศ.ดร. เยี่ยมพล นัครามนตรี",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "yeampon.nak@kmutt.ac.th",
+      "profile_url": "https://chem.kmutt.ac.th/faculty-staff/faculty-directory/14-faculty-staff/56-yeampon",
+      "cluster": "KMUTT Science"
+    },
+    {
+      "id": "ku_sci_wave13_b_0069",
+      "full_name_th": "ดร. วีระศักดิ์ ฟุ้งเฟื่อง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fsciwsf@ku.ac.th",
+      "profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/weerasak-fungfuang/",
+      "cluster": "KU Science"
+    },
+    {
+      "id": "ku_1d294c8e_2045",
+      "full_name_th": "รศ.ดร. วันชัย ปลื้มภาณุภัทร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fsciwcp@ku.ac.th",
+      "profile_url": "https://maths.sci.ku.ac.th/ku-personnel/wanchai-pluempanupat/",
+      "cluster": "KU Science"
+    },
+    {
+      "id": "ku_3367eb44_3342",
+      "full_name_th": "ผศ.ดร. ธารินี สาลีโภชน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี (สาขาเคมีวิเคราะห์)",
+      "new_email": "fscitna@ku.ac.th",
+      "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/tharinee-saleepochn/",
+      "cluster": "KU Science"
+    },
+    {
+      "id": "ku_549905af_4195",
+      "full_name_th": "ผศ.ดร. วิชชา อิ่มอร่าม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี (สาขาเคมีอินทรีย์)",
+      "new_email": "witcha.i@ku.ac.th",
+      "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/witcha-im-aram/",
+      "cluster": "KU Science"
+    },
+    {
+      "id": "ku_62f8d422_4797",
+      "full_name_th": "รศ.ดร. ไพบูลย์ เงินมีศรี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "paiboon.n@ku.th",
+      "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/paiboon-ngernmeesri/",
+      "cluster": "KU Science"
+    },
+    {
+      "id": "ku_62e73819_8616",
+      "full_name_th": "รศ.ดร. พิทักษ์ เชื้อวงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี (สาขาเคมีอินทรีย์)",
+      "new_email": "fsciptcw@ku.ac.th",
+      "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pitak-chuawong/",
+      "cluster": "KU Science"
+    },
+    {
+      "id": "ku_4e3861be_4093",
+      "full_name_th": "ดร. อาทิตย์ จรัสอรุณฉา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี (สาขาวิชาเคมีอนินทรีย์)",
+      "new_email": "artit.j@ku.th",
+      "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/arthit-jarasharuncha/",
+      "cluster": "KU Science"
+    },
+    {
+      "id": "ku_313471a4_3624",
+      "full_name_th": "รศ.ดร. พิมพา หอมนิรันดร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี (สาขาวิชาเคมีเชิงฟิสิกส์)",
+      "new_email": "fscipph@ku.ac.th",
+      "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pimpa-hormnirun/",
+      "cluster": "KU Science"
+    },
+    {
+      "id": "cu_pharm_wave16_0063",
+      "full_name_th": "รศ.ดร. ภญ. วรรณา ศรีวิริยานุภาพ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "คณะเภสัชศาสตร์",
+      "new_email": "wanna.s@chula.ac.th",
+      "profile_url": "https://www.pharm.chula.ac.th/?p=195",
+      "cluster": "Chula Pharmacy"
+    }
+  ],
+  "embedding_texts_rebuilt": 214
+}

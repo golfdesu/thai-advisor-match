@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789643670_baf61a",
+  "target_university_th": "มหาวิทยาลัยวลัยลักษณ์",
+  "target_university_en": "Walailak University",
+  "target_faculty_th": "สำนักวิชาสหเวชศาสตร์",
+  "target_faculty_en": "School of Allied Health Sciences",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://sah.wu.ac.th/",
+    "https://www.wu.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 3045,
+  "status": "completed",
+  "last_error": null
+}

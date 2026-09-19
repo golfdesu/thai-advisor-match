@@ -1,0 +1,159 @@
+{
+  "mju_fishery": {
+    "seeds": [
+      "https://fishtech.mju.ac.th/",
+      "https://fishery.mju.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_mju_fishery_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "mju_animal": {
+    "seeds": [
+      "https://as.mju.ac.th/",
+      "https://animal.mju.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_mju_animal_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "mju_energy": {
+    "seeds": [
+      "https://erdi.mju.ac.th/",
+      "https://energy.mju.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_mju_energy_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "mfu_law": {
+    "seeds": [
+      "https://law.mfu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_mfu_law_export.py",
+    "fail": null,
+    "raw": 1,
+    "verified": 1
+  },
+  "mfu_chinese": {
+    "seeds": [
+      "https://chinese.mfu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_mfu_chinese_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "mfu_liberalarts": {
+    "seeds": [
+      "https://arts.mfu.ac.th/",
+      "https://liberal-arts.mfu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_mfu_liberalarts_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "mfu_antiaging": {
+    "seeds": [
+      "https://anti-aging.mfu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_mfu_antiaging_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "msu_ph": {
+    "seeds": [
+      "https://ph.msu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_msu_ph_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "msu_finearts": {
+    "seeds": [
+      "https://finearts.msu.ac.th/",
+      "https://fac.msu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_msu_finearts_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "up_agri": {
+    "seeds": [
+      "https://agri.up.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_up_agri_export.py",
+    "fail": null,
+    "raw": 3,
+    "verified": 3
+  },
+  "up_libarts": {
+    "seeds": [
+      "https://libarts.up.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_up_libarts_export.py",
+    "fail": null,
+    "raw": 1,
+    "verified": 1
+  },
+  "up_energy": {
+    "seeds": [
+      "https://energy.up.ac.th/",
+      "https://sce.up.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_up_energy_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "ubu_sci_deep": {
+    "seeds": [
+      "https://www.sci.ubu.ac.th/",
+      "https://math.sci.ubu.ac.th/",
+      "https://phys.sci.ubu.ac.th/",
+      "https://bio.sci.ubu.ac.th/",
+      "https://micro.sci.ubu.ac.th/",
+      "https://it.sci.ubu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_ubu_sci_deep_export.py",
+    "fail": null,
+    "raw": 3,
+    "verified": 3
+  },
+  "psu_phuket_envtech": {
+    "seeds": [
+      "https://www.phuket.psu.ac.th/",
+      "https://envtech.phuket.psu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_psu_phuket_envtech_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "psu_phuket_computing": {
+    "seeds": [
+      "https://computing.phuket.psu.ac.th/",
+      "https://www.phuket.psu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_psu_phuket_computing_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  },
+  "psu_pattani_polisci": {
+    "seeds": [
+      "https://poli.pn.psu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave24_psu_pattani_polisci_export.py",
+    "fail": "static 0 verified",
+    "raw": 0,
+    "verified": 0
+  }
+}

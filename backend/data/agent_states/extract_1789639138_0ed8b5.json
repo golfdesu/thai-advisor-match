@@ -1,0 +1,21 @@
+{
+  "session_id": "extract_1789639138_0ed8b5",
+  "target_university_th": "มหาวิทยาลัยธรรมศาสตร์",
+  "target_university_en": "Thammasat University",
+  "target_faculty_th": "คณะวิทยาศาสตร์และเทคโนโลยี",
+  "target_faculty_en": "Faculty of Science and Technology",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://sci.tu.ac.th/contact-no-rangsit-th/",
+    "https://sci.tu.ac.th/contact-sci-tu/",
+    "https://cs.sci.tu.ac.th/faculty-member-th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

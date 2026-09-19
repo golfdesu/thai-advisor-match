@@ -14,3 +14,4 @@ psycopg2-binary
 pgvector
 scholarly
 rapidfuzz
+playwright>=1.40.0  # JS-rendered directory harvest (Wave 24+); browsers via `playwright install chromium`

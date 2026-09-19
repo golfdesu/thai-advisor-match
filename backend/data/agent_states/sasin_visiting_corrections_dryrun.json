@@ -1,0 +1,53 @@
+{
+  "mode": "DRY-RUN",
+  "re_affiliated": [
+    {
+      "old_id": "cu_sasin_011",
+      "new_id": "mu_muic_dolchai_001",
+      "name": "อ. ดร. ดลชัย ลาภอรุณลักษณ์",
+      "old_uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "new_uni": "มหาวิทยาลัยมหิดล",
+      "old_faculty": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "new_faculty": "วิทยาลัยนานาชาติ",
+      "department": "สาขาวิชาบริหารธุรกิจ",
+      "email": "dolchai.lar@mahidol.ac.th"
+    }
+  ],
+  "purged_foreign_visiting": [
+    {
+      "id": "cu_sasin_014",
+      "name": "อ. Eliane Karsaklian",
+      "email": "ekarsa2@uic.edu",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ"
+    },
+    {
+      "id": "cu_sasin_028",
+      "name": "อ. Mark W. Finn",
+      "email": "m-finn@nwu.edu",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ"
+    },
+    {
+      "id": "cu_sasin_030",
+      "name": "อ. Michael Frenkel",
+      "email": "michael.frenkel@whu.edu",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ"
+    },
+    {
+      "id": "cu_sasin_045",
+      "name": "อ. Sankar Sen",
+      "email": "sankar.sen@baruch.cuny.edu",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ"
+    },
+    {
+      "id": "cu_sasin_052",
+      "name": "อ. Tauhid R. Zaman",
+      "email": "tauhid.zaman@yale.edu",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ"
+    }
+  ]
+}

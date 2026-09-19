@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789643817_ea266b",
+  "target_university_th": "มหาวิทยาลัยสงขลานครินทร์",
+  "target_university_en": "Prince of Songkla University",
+  "target_faculty_th": "คณะรัฐศาสตร์ วิทยาเขตปัตตานี",
+  "target_faculty_en": "Faculty of Political Science, Pattani Campus",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://poli.pn.psu.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

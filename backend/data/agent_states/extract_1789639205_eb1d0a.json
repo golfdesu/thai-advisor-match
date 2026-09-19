@@ -1,0 +1,21 @@
+{
+  "session_id": "extract_1789639205_eb1d0a",
+  "target_university_th": "มหาวิทยาลัยพะเยา",
+  "target_university_en": "University of Phayao",
+  "target_faculty_th": "คณะแพทยศาสตร์",
+  "target_faculty_en": "School of Medicine",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.up.ac.th/"
+  ],
+  "failed_urls": [
+    "https://med.up.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 449,
+  "status": "completed",
+  "last_error": null
+}

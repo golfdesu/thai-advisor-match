@@ -1,0 +1,21 @@
+{
+  "session_id": "wave26_mu_rilca",
+  "target_university_th": "มหาวิทยาลัยมหิดล",
+  "target_university_en": "Mahidol University",
+  "target_faculty_th": "สถาบันวิจัยภาษาและวัฒนธรรมเอเชีย (RILCA)",
+  "target_faculty_en": "Research Institute for Languages and Cultures of Asia",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://rilca.mahidol.ac.th/"
+  ],
+  "failed_urls": [
+    "https://rilca.mahidol.ac.th/en/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 1653,
+  "status": "completed",
+  "last_error": null
+}

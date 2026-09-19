@@ -1,18 +1,56 @@
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session, defer
-from sqlalchemy import or_, cast, String
+from sqlalchemy import or_, cast, String, distinct
 from app.models.schema import SearchRequest, SearchResponse, SearchMatchResult, FacultyMember, AffiliatedLabSchema
-from app.models.db_models import FacultyDB, ResearchLabDB
+from app.models.db_models import FacultyDB, ResearchLabDB, CourseDB
 from app.api.routes_faculty import db_to_pydantic
 from app.core.database import get_db
 from app.core.taxonomy import get_unis_for_region
 from app.core.embedding_service import embedding_service
 from app.core.dsa_utils import TopKHeap  # Trie removed: never used (DSA audit 2026-09-10)
 from app.core.corpus_index import FACULTY_LEXICAL_INDEX, tokenize_mixed
-from typing import List, Tuple, Dict, Any
+from typing import List, Tuple, Dict, Any, Set
 import math
+import re
 
 router = APIRouter(prefix="/search", tags=["Semantic Search & Match"])
+
+GRAD_DEGREE_LEVELS = ("ปริญญาโท", "ปริญญาเอก")
+GRAD_BADGE = "🎓 สังกัดคณะที่เปิดหลักสูตรโท/เอก (พร้อมรับนิสิตบัณฑิต)"
+
+# Lazily-loaded process cache: normalized (university_th, faculty_th) pairs that
+# own at least one Master/PhD course. Small table scan (~366 rows) once per
+# process; empty set on any failure so search degrades to no-boost, never 500.
+_GRAD_PROGRAM_KEYS: Set[Tuple[str, str]] | None = None
+
+
+def _norm_affil_key(s: str | None) -> str:
+    s = re.sub(r"\([^)]*\)", "", s or "")
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def get_grad_program_keys(db: Session) -> Set[Tuple[str, str]]:
+    global _GRAD_PROGRAM_KEYS
+    if _GRAD_PROGRAM_KEYS is not None:
+        return _GRAD_PROGRAM_KEYS
+    try:
+        rows = (
+            db.query(distinct(CourseDB.university_th), CourseDB.faculty_th)
+            .filter(CourseDB.degree_level.in_(GRAD_DEGREE_LEVELS))
+            .all()
+        )
+        _GRAD_PROGRAM_KEYS = {
+            (_norm_affil_key(u), _norm_affil_key(f)) for u, f in rows if f and f.strip()
+        }
+    except Exception:
+        _GRAD_PROGRAM_KEYS = set()
+    return _GRAD_PROGRAM_KEYS
+
+
+def is_grad_backed(keys: Set[Tuple[str, str]], university_th: str | None, faculty_th: str | None) -> bool:
+    if not keys:
+        return False
+    return (_norm_affil_key(university_th), _norm_affil_key(faculty_th)) in keys
 
 
 def _enrich_results_with_labs(results: List[SearchMatchResult], db: Session) -> None:
@@ -178,7 +216,6 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
     """Fallback ranking algorithm based on rich multi-tier matching when AI embedding is unavailable."""
     expanded_query = embedding_service.expand_query(query_str).lower()
     raw_tokens = [t.strip() for t in expanded_query.split() if len(t.strip()) >= 2]
-
     # 1. SQL-level candidate pre-filtering — reuse the caller's deferred options
     # so heavy columns (embedding / pubs / education / emb_text) never ship.
     candidate_query = query_db
@@ -203,6 +240,10 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
 
     # 2. DSA Optimization: Use TopKHeap for O(N log K) selection
     heap = TopKHeap[Tuple[FacultyMember, float, List[str], List[str], List[str], List[str]]](k=top_k)
+    try:
+        grad_keys = get_grad_program_keys(query_db.session)
+    except Exception:
+        grad_keys = set()
 
     for db_fac in faculties:
         fac_model = db_to_pydantic(db_fac)
@@ -213,8 +254,15 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
         hit_bonus = len(matched_kws) * 8.0
         pub_bonus = min(len(matching_pubs) * 5.0, 10.0)
         scholar_bonus = 3.0 if fac_model.scholar_url else 0.0
+        # Grad-program backing: advisors whose faculty owns Master/PhD courses
+        # rank above equally-matching peers (purpose-built for thesis matching).
+        grad_bonus = 0.0
+        if is_grad_backed(grad_keys, db_fac.university_th, db_fac.faculty_th):
+            grad_bonus = 2.0
+            if GRAD_BADGE not in badges:
+                badges.append(GRAD_BADGE)
 
-        total_score = min(96.0, base_score + hit_bonus + pub_bonus + scholar_bonus)
+        total_score = min(96.0, base_score + hit_bonus + pub_bonus + scholar_bonus + grad_bonus)
         if len(matched_kws) == 0:
             total_score = 48.0
 
@@ -337,6 +385,7 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
 
             # DSA Optimization: Min-Heap for Top-K extraction in O(N log K)
             heap = TopKHeap[SearchMatchResult](k=request.top_k)
+            grad_keys = get_grad_program_keys(db)
 
             for db_fac, dist in results:
                 fac_model = db_to_pydantic(db_fac)
@@ -356,13 +405,21 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                 # BM25 lexical bonus, capped below the keyword+pub band so it can
                 # reorder near-ties but never dominate the embedding signal.
                 lexical_bonus = min(lexical_scores_map.get(db_fac.id, 0.0) * 0.10, 0.10)
+                # Grad-program backing bonus: thesis candidates should surface
+                # advisors whose faculty actually runs Master/PhD programs.
+                # Capped at the scholar-bonus band so semantics stay dominant.
+                grad_bonus = 0.0
+                if is_grad_backed(grad_keys, db_fac.university_th, db_fac.faculty_th):
+                    grad_bonus = 0.02
+                    if GRAD_BADGE not in badges:
+                        badges.append(GRAD_BADGE)
 
                 # Sort on the UNCLAMPED composite so the top band keeps its
                 # natural spread (Reciprocal-Rank-Fusion lesson: capping the score
                 # before ranking collapses the ~99 cluster into indistinguishable
                 # ties). The 99.0 ceiling is re-applied for DISPLAY only, after the
                 # heap has already ordered the candidates.
-                sort_score = sim_base + keyword_bonus + pub_bonus + scholar_bonus + lexical_bonus
+                sort_score = sim_base + keyword_bonus + pub_bonus + scholar_bonus + lexical_bonus + grad_bonus
                 ux_score = round(min(0.99, sort_score) * 100.0, 1)
 
                 explanation = embedding_service.generate_smart_explanation(

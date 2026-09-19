@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789639395_6898c5",
+  "target_university_th": "มหาวิทยาลัยแม่โจ้",
+  "target_university_en": "Maejo University",
+  "target_faculty_th": "คณะบริหารธุรกิจ",
+  "target_faculty_en": "Faculty of Business Administration",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://ba.mju.ac.th/",
+    "https://ba.mju.ac.th/web_2022/new/staff_2023.php"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1634,
+  "status": "completed",
+  "last_error": null
+}

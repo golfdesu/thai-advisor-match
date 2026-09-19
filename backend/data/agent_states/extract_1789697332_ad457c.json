@@ -1,0 +1,50 @@
+{
+  "session_id": "extract_1789697332_ad457c",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "King Mongkut's Institute of Technology Ladkrabang",
+  "target_faculty_th": "วิทยาลัยประชากรศาสตร์",
+  "target_faculty_en": "School of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.chula.ac.th/en/news/275194",
+    "https://www.chula.ac.th/en/departments/college-of-population-studies"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "kingmongku_schoolofen_karcharnubarn_001": {
+      "id": "kingmongku_schoolofen_karcharnubarn_001",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "School of Engineering",
+      "faculty_th": "วิทยาลัยประชากรศาสตร์",
+      "department": "วิทยาลัยประชากรศาสตร์",
+      "department_th": "วิทยาลัยประชากรศาสตร์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Rukchanok",
+      "last_name": "Karcharnubarn",
+      "full_name": "Rukchanok Karcharnubarn",
+      "full_name_th": "ผศ.ดร. รัชนก คชารุ바นทร์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Demographic Research",
+        "Population Data Survey Methods"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "รัชนก คชารุ바นทร์": "kingmongku_schoolofen_karcharnubarn_001"
+  },
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 3069,
+  "status": "completed",
+  "last_error": null
+}

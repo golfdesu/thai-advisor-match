@@ -1,0 +1,17 @@
+{
+  "session_id": "phase35_recovery_1789566769",
+  "target_university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+  "target_university_en": "King Mongkut's University of Technology Thonburi",
+  "target_faculty_th": "Multi-Faculty Phase 35 Recovery (Microbiology, SIT)",
+  "target_faculty_en": "Multi-Faculty Phase 35 Recovery (Microbiology, SIT)",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 400,
+  "status": "initialized",
+  "last_error": null
+}

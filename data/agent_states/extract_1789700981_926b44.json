@@ -1,0 +1,22 @@
+{
+  "session_id": "extract_1789700981_926b44",
+  "target_university_th": "มหาวิทยาลัยขอนแก่น",
+  "target_university_en": "Khon Kaen University",
+  "target_faculty_th": "คณะศึกษาศาสตร์",
+  "target_faculty_en": "Faculty of Education",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.kku.ac.th"
+  ],
+  "failed_urls": [
+    "https://ed.kku.ac.th",
+    "https://edu.kku.ac.th"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 2659,
+  "status": "completed",
+  "last_error": null
+}

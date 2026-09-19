@@ -1,0 +1,197 @@
+{
+  "kku_tech": {
+    "univ_th": "มหาวิทยาลัยขอนแก่น",
+    "faculty_th": "คณะเทคโนโลยี",
+    "candidates": []
+  },
+  "_meta": {
+    "queries_used": 14,
+    "keys_available": 2,
+    "quota_state": "retry2: +2 key#1 queries, stopped_429=False",
+    "stopped_on_429": false,
+    "discovery_only": true,
+    "no_db_writes": true,
+    "key_used_index": 1
+  },
+  "_notes": {
+    "kku_tech": {
+      "query": "คณะเทคโนโลยี มหาวิทยาลัยขอนแก่น ทำเนียบอาจารย์",
+      "note": "stopped_429"
+    },
+    "kku_edu": {
+      "query": "คณะศึกษาศาสตร์ มหาวิทยาลัยขอนแก่น ทำเนียบอาจารย์",
+      "note": "ok http=200 n_official=1"
+    },
+    "mju_fishery": {
+      "query": "คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ มหาวิทยาลัยแม่โจ้ ทำเนียบอาจารย์",
+      "note": "ok http=200 n_official=3"
+    },
+    "mju_animal": {
+      "query": "คณะสัตวศาสตร์และเทคโนโลยี มหาวิทยาลัยแม่โจ้ ทำเนียบอาจารย์",
+      "note": "ok http=200 n_official=3"
+    },
+    "mju_energy": {
+      "query": "วิทยาลัยพลังงานทดแทน มหาวิทยาลัยแม่โจ้ ทำเนียบอาจารย์",
+      "note": "ok http=200 n_official=3"
+    },
+    "msu_ph": {
+      "query": "คณะสาธารณสุขศาสตร์ มหาวิทยาลัยมหาสารคาม ทำเนียบอาจารย์",
+      "note": "ok http=200 n=9"
+    },
+    "msu_finearts": {
+      "query": "คณะศิลปกรรมศาสตร์ มหาวิทยาลัยมหาสารคาม ทำเนียบอาจารย์",
+      "note": "ok http=200 n_official=3"
+    },
+    "up_energy": {
+      "query": "คณะพลังงานและสิ่งแวดล้อม มหาวิทยาลัยพะเยา ทำเนียบอาจารย์",
+      "note": "ok http=200 n=9"
+    },
+    "mfu_chinese": {
+      "query": "สำนักวิชาจีนวิทยา มหาวิทยาลัยแม่ฟ้าหลวง ทำเนียบอาจารย์",
+      "note": "ok http=200 n_official=3"
+    },
+    "mfu_liberalarts": {
+      "query": "สำนักวิชาศิลปศาสตร์ มหาวิทยาลัยแม่ฟ้าหลวง ทำเนียบอาจารย์",
+      "note": "ok http=200 n_official=3"
+    },
+    "mfu_antiaging": {
+      "query": "สำนักวิชาเวชศาสตร์ชะลอวัยและฟื้นฟูสุขภาพ มหาวิทยาลัยแม่ฟ้าหลวง ทำเนียบอาจารย์",
+      "note": "ok http=200 n_official=3"
+    },
+    "nida_env_edm": {
+      "query": "คณะบริหารการพัฒนาสิ่งแวดล้อม สถาบันบัณฑิตพัฒนบริหารศาสตร์ ทำเนียบอาจารย์",
+      "note": "ok http=200 n_official=3"
+    }
+  },
+  "kku_edu": {
+    "univ_th": "มหาวิทยาลัยขอนแก่น",
+    "faculty_th": "คณะศึกษาศาสตร์",
+    "candidates": [
+      "https://www.chula.ac.th/departments/institute-of-asian-studies/"
+    ]
+  },
+  "mju_fishery": {
+    "univ_th": "มหาวิทยาลัยแม่โจ้",
+    "faculty_th": "คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ",
+    "candidates": [
+      "https://erp.mju.ac.th/personAllReport.aspx?gid=301",
+      "https://erp.mju.ac.th/faculty_educationLev.aspx?gid=301",
+      "https://fishtech.mju.ac.th/"
+    ]
+  },
+  "mju_animal": {
+    "univ_th": "มหาวิทยาลัยแม่โจ้",
+    "faculty_th": "คณะสัตวศาสตร์และเทคโนโลยี",
+    "candidates": [
+      "https://as.mju.ac.th/staff/academic",
+      "https://erp.mju.ac.th/faculty_educationLev.aspx?gid=300",
+      "https://as.mju.ac.th/"
+    ]
+  },
+  "mju_energy": {
+    "univ_th": "มหาวิทยาลัยแม่โจ้",
+    "faculty_th": "วิทยาลัยพลังงานทดแทน",
+    "candidates": [
+      "https://erp.mju.ac.th/personAllReport.aspx?gid=661",
+      "https://dashboard.mju.ac.th/personNameList?dep=42000-42000",
+      "https://renewable.mju.ac.th/"
+    ]
+  },
+  "msu_ph": {
+    "univ_th": "มหาวิทยาลัยมหาสารคาม",
+    "faculty_th": "คณะสาธารณสุขศาสตร์",
+    "candidates": [
+      {
+        "link": "https://publichealth.msu.ac.th/?page_id=1104",
+        "title": "คณาจารย์ทั้งหมด - คณะสาธารณสุขศาสตร์ มมส | Public Health MSU"
+      },
+      {
+        "link": "https://publichealth.msu.ac.th/",
+        "title": "คณะสาธารณสุขศาสตร์ มมส | Public Health MSU: Home Default"
+      },
+      {
+        "link": "https://publichealth.msu.ac.th/?page_id=713",
+        "title": "บุคลากร - คณะสาธารณสุขศาสตร์ มมส | Public Health MSU"
+      },
+      {
+        "link": "https://www.facebook.com/PublicHealthMSU/",
+        "title": "Public Health Mahasarakham University | Kantharawichai"
+      },
+      {
+        "link": "https://th.wikipedia.org/wiki/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C_%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B2%E0%B8%A1",
+        "title": "คณะสาธารณสุขศาสตร์ มหาวิทยาลัยมหาสารคาม"
+      }
+    ]
+  },
+  "msu_finearts": {
+    "univ_th": "มหาวิทยาลัยมหาสารคาม",
+    "faculty_th": "คณะศิลปกรรมศาสตร์",
+    "candidates": [
+      "https://facs.msu.ac.th/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%97%E0%B8%B1/",
+      "https://facs.msu.ac.th/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A8%E0%B8%B4/",
+      "https://facs.msu.ac.th/facs-msu-%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B4%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%B1%E0%B8%9A-%E0%B8%84%E0%B8%93%E0%B8%9A%E0%B8%94%E0%B8%B5/"
+    ]
+  },
+  "up_energy": {
+    "univ_th": "มหาวิทยาลัยพะเยา",
+    "faculty_th": "คณะพลังงานและสิ่งแวดล้อม",
+    "candidates": [
+      {
+        "link": "https://seen.up.ac.th/th/Personnel-academic",
+        "title": "บุคลากรสายวิชาการ - คณะ พลังงาน และ สิ่งแวดล้อม"
+      },
+      {
+        "link": "https://seen.up.ac.th/th/course",
+        "title": "หลักสูตร - คณะ พลังงาน และ สิ่งแวดล้อม - มหาวิทยาลัยพะเยา"
+      },
+      {
+        "link": "https://seen.up.ac.th/th/Personnel-staff",
+        "title": "บุคลากรสายสนับสนุน - คณะ พลังงาน และ สิ่งแวดล้อม"
+      },
+      {
+        "link": "https://www.seen.up.ac.th/",
+        "title": "คณะ พลังงาน และ สิ่งแวดล้อม - มหาวิทยาลัยพะเยา"
+      },
+      {
+        "link": "https://www.facebook.com/seen.update/",
+        "title": "คณะพลังงานและสิ่งแวดล้อม มหาวิทยาลัยพะเยา (@seen.update)"
+      }
+    ]
+  },
+  "mfu_chinese": {
+    "univ_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "faculty_th": "สำนักวิชาจีนวิทยา",
+    "candidates": [
+      "http://sinology.mfu.ac.th/sinology-executive-staff.html",
+      "https://sinology.mfu.ac.th/sinology-chinese-studies.html",
+      "http://sinology.mfu.ac.th/sin-index.html"
+    ]
+  },
+  "mfu_liberalarts": {
+    "univ_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "faculty_th": "สำนักวิชาศิลปศาสตร์",
+    "candidates": [
+      "http://liberalarts.mfu.ac.th/la-about/la-staff/la-academic-staff.html",
+      "https://www.mfu.ac.th/education/school/sch-liberal-art.html",
+      "http://liberalarts.mfu.ac.th/la-about/la-staff/la-academic-staff/la-english-language-lecturers0.html"
+    ]
+  },
+  "mfu_antiaging": {
+    "univ_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "faculty_th": "สำนักวิชาเวชศาสตร์ชะลอวัยและฟื้นฟูสุขภาพ",
+    "candidates": [
+      "https://mfu.ac.th/education/school/sch-anti-aging.html",
+      "http://antiaging.mfu.ac.th/anti-aging-program/anti-aging-doctoral/anti-aging-7273.html",
+      "https://reg.mfu.ac.th/th/program-infomation/655200202?tab=program-structure"
+    ]
+  },
+  "nida_env_edm": {
+    "univ_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+    "candidates": [
+      "https://gseda.nida.ac.th/",
+      "https://gseda.nida.ac.th/personnels/professors/",
+      "https://nida.ac.th/admission/environmental-development-administration/"
+    ]
+  }
+}

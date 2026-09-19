@@ -1,0 +1,1403 @@
+[
+  {
+    "id": "chula_eng_ee_033",
+    "db_name": "ดร. วัชรพงษ์ โควิดรุ่งโรจน์",
+    "email": "watchara@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-watcharapong-khovidhungij-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0034",
+    "db_name": "ผศ. Pongsun Bunditsakulchai",
+    "email": "pongsun.b@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-pongsun-bunditsakulchai-doctor-of-philosophy",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0027",
+    "db_name": "ผศ. Manop Kaewmoracharoen",
+    "email": "manop.ka@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-manop-kaewmoracharoen-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0021",
+    "db_name": "ผศ. Veerayut Komolvilas",
+    "email": "veerayut.k@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-veerayut-komolvilas-d-eng",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0007",
+    "db_name": "รศ. Chatpan Chintanapakdee",
+    "email": "chatpan.c@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-chatpan-chintanapakdee-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0014",
+    "db_name": "รศ. Chayut Ngamkhanong",
+    "email": "chayut.ng@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-chayut-ngamkhanong-doctor-of-philosophy",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0026",
+    "db_name": "รศ. Charinee Limsawasd",
+    "email": "charinee.l@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-charinee-limsawasd-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0017",
+    "db_name": "รศ. Tirawat Boonyatee",
+    "email": "tirawat.b@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-tirawat-boonyatee-d-eng",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0015",
+    "db_name": "รศ. Tidarut Wisuthseriwong",
+    "email": "tidarut.w@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-tidarut-wisuthseriwong-doctor-of-philosophy",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0023",
+    "db_name": "รศ. Nakhon Kokkaew",
+    "email": "nakhon.k@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-nakhon-kokkaew-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0025",
+    "db_name": "รศ. Noppadon Jokkaw",
+    "email": "noppadon.j@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-noppadon-jokkaw-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0032",
+    "db_name": "รศ. Boonchai Sangpetngam",
+    "email": "boonchai.sa@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-boonchai-sangpetngam-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0028",
+    "db_name": "รศ. Sorawit Narupiti",
+    "email": "kong@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-sorawit-narupiti-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0009",
+    "db_name": "ศ. Jaroon Rungamornrat",
+    "email": "jaroon.r@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-jaroon-rungamornrat-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0006",
+    "db_name": "ศ. Tospol Pinkaew",
+    "email": "fcetpk@eng.chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-tospol-pinkaew-d-eng",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0005",
+    "db_name": "ศ. Thanyawat Pothisiri",
+    "email": "thanyawat.p@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-thanyawat-pothisiri-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0003",
+    "db_name": "ศ. Teerapong Senjuntichai",
+    "email": "fcetsj@eng.chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-teerapong-senjuntichai-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0011",
+    "db_name": "ศ. Withit Pansuk",
+    "email": "withit.p@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-withit-pansuk-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0024",
+    "db_name": "ศ. Veerasak Likhitruangsilp",
+    "email": "veerasak.l@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-veerasak-likhitruangsilp-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0030",
+    "db_name": "ศ. Saksith Chalermpong",
+    "email": "saksith.c@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-saksith-chalermpong-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0019",
+    "db_name": "ศ. Suched Likitlersuang",
+    "email": "fceslk@eng.chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-suched-likitlersuang-d-phil",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0010",
+    "db_name": "ศ. Akhrawat Lenwari",
+    "email": "akhrawat.l@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-akhrawat-lenwari-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0008",
+    "db_name": "ศ. Anat Ruangrassamee",
+    "email": "anat.r@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-anat-ruangrassamee-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0073",
+    "db_name": "ผศ. กนก วีรวงศ์",
+    "email": "kanok.w@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-kanok-weerawong-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0074",
+    "db_name": "ผศ. กรวิก ตนักษรานนท์",
+    "email": "garavig.t@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-garavig-tanaksaranond-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0078",
+    "db_name": "ผศ. ชัยพร กิจประชา",
+    "email": "chaiyaporn.k@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-chaiyaporn-kitpracha-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0075",
+    "db_name": "ผศ. ชัยยุทธ เจริญผล",
+    "email": "chaiyut.c@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-chaiyut-charoenphon-%e0%b8%a7%e0%b8%b4%e0%b8%a8%e0%b8%a7%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%a8%e0%b8%b2%e0%b8%aa%e0%b8%95%e0%b8%a3%e0%b9%8c%e0%b8%94%e0%b8%b8%e0%b8%a9%e0%b8%8e",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0076",
+    "db_name": "ผศ. ปวัน ภิรมย์ทอง",
+    "email": "pawan.p@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-pawan-piromthong-doctor-of-philosophy",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0077",
+    "db_name": "ผศ. วลัญซ์อร เอื้อรัตนวงศ์",
+    "email": "valanon.u@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-valanon-uaratanawong-%e0%b8%a7%e0%b8%b4%e0%b8%a8%e0%b8%a7%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%a8%e0%b8%b2%e0%b8%aa%e0%b8%95%e0%b8%94%e0%b8%b8%e0%b8%a9%e0%b8%8e%e0%b8%b5%e0%b8%9a",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0072",
+    "db_name": "รศ. ธีทัต เจริญกาลัญญูตา",
+    "email": "teetat.c@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-teetat-charoenkalunyuta-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0071",
+    "db_name": "รศ. สรรเพชญ ชื้อนิธิไพศาล",
+    "email": "sanphet.c@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-sanphet-chunithipaisan-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0070",
+    "db_name": "ศ. เฉลิมชนม์ สถิระพจน์",
+    "email": "chalermchon.s@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-chalermchon-satirapod-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0080",
+    "db_name": "อ. ชัยโชค ไวภาษา",
+    "email": "chaichoke.v@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/chaichoke-viphasa-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0079",
+    "db_name": "อ. ธงทิศ ฉายากุล",
+    "email": "thongthit.c@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/thongthit-chayakula-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0081",
+    "db_name": "อ. เทพชัย ศรีน้อย",
+    "email": "thepchai.s@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/thepchai-srinoi",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0060",
+    "db_name": "ผศ.ดร. พิพัฒน์ เหล่าวัฒนบัณฑิต",
+    "email": "pipat.l@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-pipat-laowattanabandit-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0061",
+    "db_name": "ผศ.ดร. ฟ้าลั่น ศรีสุริยชัย",
+    "email": "falan.s@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-falan-srisuriyachai-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0062",
+    "db_name": "ผศ.ดร. อภิสิทธิ์ น้ำประสานไทย",
+    "email": "apisit.nu@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-apisit-numprasanthai-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0066",
+    "db_name": "ดร. อรชนก จันทรสกุล",
+    "email": "onchanok.j@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-onchanok-juntarasakul-doctor-of-engineering",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0063",
+    "db_name": "ผศ.ดร. เพชญ์ ภัคโชตานนท์",
+    "email": "pet.p@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-pet-pakchotanon-techarat-doctor-of-philosophy",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0068",
+    "db_name": "อ.ดร. ดาลัด ณ นคร",
+    "email": "dalad.n@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/dalad-na-nakorn-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0064",
+    "db_name": "ดร. ทศพล ไชยอนันต์สุจริต",
+    "email": "thotsaphon.c@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/thotsaphon-chaianansutcharit-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0065",
+    "db_name": "ดร. ธีระยุทธ เพ็งสะอาด",
+    "email": "theerayut.p@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/theerayut-phengsaart-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_0067",
+    "db_name": "ดร. พีท หอมชื่น",
+    "email": "peet.h@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/peet-homchuen-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0059",
+    "db_name": "ดร. จีรพงษ์ เหล่าน้ำใส",
+    "email": "jeerapong.la@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-jeerapong-laonamsai-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0054",
+    "db_name": "ดร. บุศวรรณ บิดร",
+    "email": "butsawan.p@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-butsawan-bidorn-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0057",
+    "db_name": "ดร. ปิยธิดา เรืองรัศมี",
+    "email": "piyatida.h@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-piyatida-ruangrassamee-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0058",
+    "db_name": "ดร. ภวิสร ชื่นชุ่ม",
+    "email": "pavisorn.c@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-pavisorn-chuenchum-doctor-of-philosophy",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0055",
+    "db_name": "ดร. อนุรักษ์ ศรีอริยวัฒน์",
+    "email": "anurak.s@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-anurak-sriariyawat-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0056",
+    "db_name": "ดร. สุภัทรา วิเศษศรี",
+    "email": "supattra.vi@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-supattra-visessri-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0045",
+    "db_name": "ดร. นภัสสวงศ์ โอสถศิลป์",
+    "email": "napassavong.o@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-napassavong-osothsilp-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0044",
+    "db_name": "ดร. นันทชัย กานตานันทะ",
+    "email": "nantachai.k@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-nantachai-kantanantha-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0050",
+    "db_name": "ดร. สัญญพงศ์ เพชรร่มโพธิ์",
+    "email": "sanyapong.p@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-sanyapong-petchrompo-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0042",
+    "db_name": "ดร. อมรศิริ วิลาสเดชานนท์",
+    "email": "amonsiri.v@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-amonsiri-vilasdaechanont-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0048",
+    "db_name": "ผศ. ประเสริฐ อัครประถมพงศ์",
+    "email": "prasert.a@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-prasert-akkharaprathomphong",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0047",
+    "db_name": "ผศ. ภูมิ เหลืองจามีกร",
+    "email": "poom.l@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/asst-prof-poom-luangjarmekorn",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0039",
+    "db_name": "ดร. ณัฏฐ์ ลีละวัฒน์",
+    "email": "natt.l@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-natt-leelawat-d-eng",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0040",
+    "db_name": "ดร. ปวีณา เชาวลิตวงศ์",
+    "email": "paveena.c@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-paveena-chaovalitwongse-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0041",
+    "db_name": "ดร. วิภาวี ธรรมาภรณ์พิลาศ",
+    "email": "wipawee.t@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-wipawee-tharmmaphornphilas-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0036",
+    "db_name": "ดร. อริศรา เจียมสงวนวงศ์",
+    "email": "arisara.j@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-arisara-jiamsanguanwong-d-eng",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0037",
+    "db_name": "รศ. หฤทัย โลหะศิริวัฒน์",
+    "email": "haruetai.l@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-haruetai-lohasiriwat",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0035",
+    "db_name": "ดร. สมเกียรติ ตั้งจิตสิตเจริญ",
+    "email": "somkiat.t@eng.chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-somkiat-tangsitcharoen-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0004",
+    "db_name": "รศ. Wattanachai Smittakorn",
+    "email": "fcewsk@eng.chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-watanachai-smittakorn-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_kulwirojtham_021",
+    "db_name": "ผศ.ดร. ภรัญโรจน์ กุลวิโรจน์ธรรม",
+    "email": "nsnitikarn@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/Pharanroj-Kulwirojtham",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_takhom_033",
+    "db_name": "อ.ดร. อัครวุฒิ ตาคม",
+    "email": "takkhara@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/akkharawoot-takhom",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_boonmee_006",
+    "db_name": "อ.ดร. ชุมพล บุญมี",
+    "email": "bchoompol@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/choompol-boonmee",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_bunnjaweht_008",
+    "db_name": "ผศ.ดร. ดามพ์เมษ บุณยะเวศ",
+    "email": "dahmmaet@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/dahmmaet-bunnjaweht",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_dejvises_004",
+    "db_name": "ผศ.ดร. จักราวุธ เดชวิเศษ",
+    "email": "djackrav@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/jackravut-dejvises",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_chaicharn_003",
+    "db_name": "รศ.ดร. จรี ไชยชาญ",
+    "email": "cjarree@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/jarree-chaicharn",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_silawarawet_002",
+    "db_name": "อ.ดร. กาญจนา ศิลาวราเวทย์",
+    "email": "skanchan@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/kanchana-silawarawet",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_somyat_012",
+    "db_name": "อ. นาวิน สมญาติ",
+    "email": "snawin@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/nawin-somyat",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_srisrisawang_013",
+    "db_name": "อ.ดร. นิธิกร ศรีศรีสว่าง",
+    "email": "snitikor@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/nitikorn-srisrisawang",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_uchaipichat_011",
+    "db_name": "รศ.ดร. นภดล อุชายภิชาติ",
+    "email": "unopadol@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/nopadol-uchaipichat",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_tanthanuch_007",
+    "db_name": "รศ.ดร. ณัฐพงศ์ ตัณฑนุช",
+    "email": "tanthanuch1@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/nutthaphong-tanthanuch",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_nakmahachalasin_034",
+    "db_name": "รศ.ดร. ไพบูลย์ นาคมหาชลาสินธุ์",
+    "email": "npaiboon@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/paiboon-nakmahachalasint",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_thongkruer_022",
+    "db_name": "อ.ดร. ภัททิยา ทองเครือ",
+    "email": "tpattiya@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/pattiya-thongkruer",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_kaewprapha_020",
+    "db_name": "ผศ.ดร. พิศาล แก้วประภา",
+    "email": "kphisan@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/phisan-kaewprapha2",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_aree_019",
+    "db_name": "ศ.ดร. พิชัย อารีย์",
+    "email": "apichai@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/pichai-aree",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_leelatien_016",
+    "db_name": "ผศ.ดร. พงษ์พันธ์ ลีลาเธียร",
+    "email": "lpongpha@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/pongphan-leelatien",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_mahachoklertwat_017",
+    "db_name": "อ.ดร. พงษ์ศักดิ์ มหาโชคเลิศวัฒนา",
+    "email": "mpongsak@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/pongsak-mahachoklertwattana",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_bhasaputra_018",
+    "db_name": "อ.ดร. พรระพีพัฒน์ ภาสบุตร",
+    "email": "bporr@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/pornrapeepat-bhasaputra",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_ovartchaiyapong_014",
+    "db_name": "ผศ.ดร. ปรีติ โอวาทชัยพงศ์",
+    "email": "opreeti@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/preeti-ovartchaiyapong",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_mitaim_031",
+    "db_name": "ศ.ดร. สัญญา มิตรเอม",
+    "email": "msanya@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/sanya-mitaim",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_chokchaitam_030",
+    "db_name": "รศ.ดร. สมชาติ โชคชัยธรรม",
+    "email": "csomchar@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/somchart-chokchaitam",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_prueksaaroon_028",
+    "db_name": "ผศ.ดร. ศุภกิจ พฤกษอรุณ",
+    "email": "psupakit@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/supakit-prueksaaroon",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_supakwong_029",
+    "db_name": "รศ.ดร. ศุภวัฒน์ สุภัควงศ์",
+    "email": "supawat@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/supawat-supakwong",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_phetmanee_032",
+    "db_name": "อ.ดร. สุรศักดิ์ เพ็ชรมณี",
+    "email": "psurasak@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/surasak-phetmanee",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_kijkanjanarat_009",
+    "db_name": "ผศ.ดร. ทวีศักดิ์ กิจกาญจนารัตน์",
+    "email": "taweesak@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/taweesak-kijkanjanarat",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_promsakanasakol_024",
+    "db_name": "อ. วชิรา พรหมสาขา ณ สกลนคร",
+    "email": "pwachira@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/wachira-promsaka-na-sakolnakorn",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_pijitrojana_025",
+    "db_name": "รศ.ดร. วันชัย ไพจิตโรจนา",
+    "email": "pwanchai@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/wanchai-pijitrojana",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_anotaipaiboon_027",
+    "db_name": "รศ.ดร. วีรชัย อโณทัยไพบูลย์",
+    "email": "wa@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/weerachai-anotaipaiboon",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_asawamethapant_026",
+    "db_name": "รศ.ดร. วีรชัย อัศวเมธาพันธ์",
+    "email": "aweerach@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/weerachai-asawamethapant",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "thammasatu_facultyofe_chongjarearn_023",
+    "db_name": "อ.ดร. ยุทธนา จงเจริญ",
+    "email": "cyutana@engr.tu.ac.th",
+    "source": "https://ece.engr.tu.ac.th/lecturer/profile/yutana-chongjarearn",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0019",
+    "db_name": "ดร. วีรยา ฉิมอ้อย",
+    "email": "sweeraya@engr.tu.ac.th",
+    "source": "https://ce.engr.tu.ac.th/staff/geotechnical-engineering",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0022",
+    "db_name": "ดร. ณฐกร พุกสุขสกุล",
+    "email": "pnatakor@engr.tu.ac.th",
+    "source": "https://ce.engr.tu.ac.th/staff/transportation-engineering",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0021",
+    "db_name": "ดร. สุนิสา สมิทธากร",
+    "email": "ssunisa@engr.tu.ac.th",
+    "source": "https://ce.engr.tu.ac.th/staff/water-resources-engineering",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0001",
+    "db_name": "อ. Wuttinan Nunkaew",
+    "email": "nwuttinan@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0002",
+    "db_name": "อ. Samerjit Homrossukon",
+    "email": "tsamerji@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0003",
+    "db_name": "อ. Busaba Phruksaphanrat",
+    "email": "lbusaba@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0004",
+    "db_name": "อ. Warinthorn Kiadtikornthaweeyot Evans",
+    "email": "kwarinth@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0005",
+    "db_name": "อ. Supamard Sujatanond",
+    "email": "ssupamar@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0015",
+    "db_name": "อ. Jirarat Teeravaraprug",
+    "email": "tjirarat@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0006",
+    "db_name": "อ. Chirattikan Srisook",
+    "email": "schiratt@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0017",
+    "db_name": "อ. Danupun Visuwan",
+    "email": "vdanupun@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0010",
+    "db_name": "อ. Tritos Laosirihongthong",
+    "email": "ltritos@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0013",
+    "db_name": "อ. Naris Charoenporn",
+    "email": "cnaris@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0008",
+    "db_name": "อ. Parichat Chuenwatanakul",
+    "email": "cparicha@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0012",
+    "db_name": "อ. Pongchanun Luangpaiboon",
+    "email": "lpongch@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0007",
+    "db_name": "อ. Rattawut Vongvit",
+    "email": "vrattawut@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0009",
+    "db_name": "อ. Wararat Kangsumrith",
+    "email": "swararat@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0016",
+    "db_name": "อ. Anintaya Khamkanya",
+    "email": "kanintay@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0011",
+    "db_name": "อ. Apiwat Muttamara",
+    "email": "mapiwat@engr.tu.ac.th",
+    "source": "https://iem.engr.tu.ac.th/faculty/",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0020",
+    "db_name": "ดร. สุรภาพ แก้วสวัสดิ์วงศ์",
+    "email": "ksurapap@engr.tu.ac.th",
+    "source": "https://ce.engr.tu.ac.th/staff/geotechnical-engineering",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering"
+  },
+  {
+    "id": "tu_eng_wave16_0018",
+    "db_name": "อ.ดร. ดิเรก",
+    "email": "ndirek@engr.tu.ac.th",
+    "source": "https://me.engr.tu.ac.th/staff/professor_pattaya",
+    "faculty_cluster": "Thammasat University - Faculty of Engineering",
+    "repaired_full_name_th": "อ.ดร. ดิเรก นวลสิงห์"
+  },
+  {
+    "id": "ku_eng_wave12_0001",
+    "db_name": "ดร. Anusorn Seubsai",
+    "email": "fengasn@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=anusorn-seubsai",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0002",
+    "db_name": "ดร. Manop Charoenchaitrakool",
+    "email": "fengmnc@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=manop-charoenchaitrakool",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0003",
+    "db_name": "ดร. Kandis Sudsakorn",
+    "email": "fengkdsk@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=kandis-sudsakorn",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0004",
+    "db_name": "ดร. Chalida Niamnuy",
+    "email": "fengcdni@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=chalida-niamnuy",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0007",
+    "db_name": "ดร. Siripon Anantawaraskul",
+    "email": "fengsia@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=siripon-anantawaraskul",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0005",
+    "db_name": "ดร. Thongchai Srinophakun",
+    "email": "fengtcs@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=thongchai-srinophakun",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0009",
+    "db_name": "ดร. Attasak Jaree",
+    "email": "fengasj@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=attasak-jaree",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0010",
+    "db_name": "ดร. Nanthiya Hansupalak",
+    "email": "fengnyh@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=nanthiya-hansupalak",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0011",
+    "db_name": "ดร. Chanin Panjapornpon",
+    "email": "fengcnp@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=chanin-panjapornpon",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0012",
+    "db_name": "ดร. Maythee Saisriyoot",
+    "email": "fengmts@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=maythee-saisriyoot",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0013",
+    "db_name": "ดร. Paweena Prapainainar",
+    "email": "fengpwn@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=paweena-prapainainar",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0015",
+    "db_name": "ดร. Supacharee Roddecha",
+    "email": "fengsrro@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=supacharee-roddecha",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0016",
+    "db_name": "ดร. Viganda Varabuntoonvit",
+    "email": "fengvgv@ku.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=viganda-varabuntoonvit",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0017",
+    "db_name": "ดร. Waleeporn Donphai",
+    "email": "fengwod@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=waleeporn-donphai",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0018",
+    "db_name": "ดร. Phantisa Limleamthong",
+    "email": "fengpsl@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=phantisa-limleamthong",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0019",
+    "db_name": "ดร. Nutchapon Chiarasumran",
+    "email": "fengnpc@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=nutchapon-chiarasumran",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0020",
+    "db_name": "ดร. Preuk Tangpromphan",
+    "email": "fengpet@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=preuk-tangpromphan",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0021",
+    "db_name": "ดร. Kulpavee Jitapunkul",
+    "email": "fengkvj@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=kulpavee-jitapunkul",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0022",
+    "db_name": "ดร. Thidarat Imyen",
+    "email": "thidarat.im@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=thidarat-imyen",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0023",
+    "db_name": "ดร. Khemmathin Lueangwattanapong",
+    "email": "fengkhl@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=khemmathin-lueangwattanapong",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0024",
+    "db_name": "ดร. Suthasinee Watmanee",
+    "email": "suthasinee.watm@ku.ac.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=suthasinee-watmanee",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "ku_eng_wave12_0025",
+    "db_name": "ดร. Santi Bardeeniz",
+    "email": "santi.bard@ku.th",
+    "source": "https://che.eng.ku.ac.th/prof-details.html?name=santi-bardeeniz",
+    "faculty_cluster": "Kasetsart University - Faculty of Engineering (Chemical Engineering)"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_unban_003",
+    "db_name": "ผศ.ดร. กฤษฎา อุ่นบ้าน",
+    "email": "kridsada.u@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10219",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_khumsap_005",
+    "db_name": "อ.ดร. ทับกฤช ขุมทรัพย์",
+    "email": "tabkrich.khumsap@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10214",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_siriwoharn_006",
+    "db_name": "ผศ.ดร. ธันยพร ศิริโวหาร",
+    "email": "thanyaporn.s@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10156",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_rattanapitigorn_007",
+    "db_name": "รศ.ดร. พนิดา รัตนปิติกรณ์",
+    "email": "panida.r@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10072",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_intipunya_008",
+    "db_name": "ผศ.ดร. พิไลรัก อินธิปัญญา",
+    "email": "pilairuk.intipunya@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10070",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_jirarattanarang_010",
+    "db_name": "ผศ. วชิระ จิระรัตนรังษี",
+    "email": "wachira.j@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10075",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_klangpetchueno_011",
+    "db_name": "รศ.ดร. วรรณพร คลังเพชร อุเอโนะ",
+    "email": "wannaporn.u@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10203",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_baipong_012",
+    "db_name": "ผศ.ดร. ศศิธร ใบผ่อง",
+    "email": "sasitorn.bai@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10076",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_taesuwan_013",
+    "db_name": "ผศ.ดร. สิรภัทร แต่สุวรรณ",
+    "email": "siraphat.t@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10178",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_thuengtung_014",
+    "db_name": "อ.ดร. สุกัญญา ถึงทุ่ง",
+    "email": "sukanya.thu@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10250",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_jiamyangyuen_016",
+    "db_name": "รศ.ดร. สุดารัตน์ เจียมยั่งยืน",
+    "email": "sudarat.j@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10230",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_rungchang_018",
+    "db_name": "ผศ.ดร. เสาวลักษณ์ รุ่งแจ้ง",
+    "email": "saowaluk.run@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10252",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_insomphun_019",
+    "db_name": "ผศ.ดร. ชญาน์ทิพ อินสมพันธ์",
+    "email": "chayatip.i@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10171",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_yakul_020",
+    "db_name": "อ.ดร. กมล ยากูล",
+    "email": "kamon.y@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10227",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_moukamnerd_021",
+    "db_name": "ผศ.ดร. จุไรรัตน์ เม้ากำเนิด",
+    "email": "churairat.m@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10151",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_techapun_022",
+    "db_name": "ศ. ปฏิบัติ ดร. ชรินทร์ เตชะพันธุ์",
+    "email": "charin.t@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10048",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_chaiyaso_023",
+    "db_name": "รศ.ดร. ทนงศักดิ์ ไชยาโส",
+    "email": "thanongsak.c@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10083",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_panti_024",
+    "db_name": "ผศ.ดร. นิภาวรรณ ปันธิ",
+    "email": "niphawan.p@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10210",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_hanmoungjai_025",
+    "db_name": "ผศ.ดร. ประเสริฐ หาญเมืองใจ",
+    "email": "prasert.h@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10046",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_therdtatha_026",
+    "db_name": "อ.ดร. พัฒนพงศ์ เถิดตะถา",
+    "email": "phatthanaphong.th@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10211",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_seesuriyachan_027",
+    "db_name": "รศ.ดร. พิสิฐ ศรีสุริยจันทร์",
+    "email": "phisit.s@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10082",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_pratanaphon_028",
+    "db_name": "อ.ดร. รณชัย ปรารถนาผล",
+    "email": "ronachai.p@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10081",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_sinsuwongwat_029",
+    "db_name": "อ.ดร. ศุภวัฒน์ สินสุวงศ์วัฒน์",
+    "email": "suphawat.s@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10079",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_jinsiriwanit_030",
+    "db_name": "ผศ.ดร. สิริวัฒน์ จินศิริวานิชย์",
+    "email": "siriwat.jin@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10146",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_rachtanapun_031",
+    "db_name": "ศ.ดร. พรชัย ราชตนะพันธุ์",
+    "email": "pornchai.r@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10056",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_thongchai_034",
+    "db_name": "อ.ดร. เปรม ทองชัย",
+    "email": "prem.th@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10038",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_thiraphattaraph_035",
+    "db_name": "ผศ.ดร. ลินดา ถิรภัทรพันธ์",
+    "email": "linda.t@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10102",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_thanakkasaranee_036",
+    "db_name": "ผศ.ดร. ศรินทร์ทิพย์ ธนัคฆเศรณี",
+    "email": "sarinthip.t@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10207",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_sutthasupa_038",
+    "db_name": "รศ.ดร. สุทธิรา สุทธสุภา",
+    "email": "sutthira.s@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10120",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_maniyom_039",
+    "db_name": "ผศ.ดร. สุภเวท มานิยม",
+    "email": "supavej.m@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10087",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_leksawasdi_040",
+    "db_name": "รศ.ดร. นพพล เล็กสวัสดิ์",
+    "email": "noppol.l@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10052",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_poonnoy_042",
+    "db_name": "รศ.ดร. พูนพัฒน์ พูนน้อย",
+    "email": "poonpat.p@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10233",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_pathomrungsiyon_043",
+    "db_name": "ผศ.ดร. ภัทวรา ปฐมรังษิยังกุล",
+    "email": "pattavara.p@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10051",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_chalermchat_044",
+    "db_name": "ผศ.ดร. ยงยุทธ เฉลิมชาติ",
+    "email": "yongyut.c@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10085",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_muangrat_045",
+    "db_name": "รศ.ดร. รัตนา ม่วงรัตน์",
+    "email": "rattana.m@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10088",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_naruenartwongsa_046",
+    "db_name": "ผศ.ดร. ศรีสุวรรณ นฤนาทวงศ์สกุล",
+    "email": "srisuwan.n@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10049",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_khiewnavawongsa_047",
+    "db_name": "ผศ.ดร. สรญา เขียวนาวาวงศ์ษา",
+    "email": "sorraya.k@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10128",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_sukeawsamakradh_049",
+    "db_name": "รศ.ดร. รชนิภาส สุแก้ว สมัครธำรงไทย",
+    "email": "rajnibhas.s@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10213",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_chaisu_050",
+    "db_name": "ผศ.ดร. กรวิทย์ ไชยสุ",
+    "email": "korawit.chaisu@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10245",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_suthapakti_051",
+    "db_name": "ผศ.ดร. กัญญรัตน์ สุทธภักติ",
+    "email": "kanyarat.s@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10095",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_baingew_052",
+    "db_name": "ผศ.ดร. ชิตาพัณณ์ ใบงิ้ว",
+    "email": "shitapan.b@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10168",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_utamaang_053",
+    "db_name": "รศ.ดร. นิรมล อุตมอ่าง",
+    "email": "niramon.u@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10055",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_chompoorattridt_054",
+    "db_name": "ผศ.ดร. ปวาลี ชมภูรัตน์ ธฤติธนเกียรติ์",
+    "email": "pavalee.t@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10224",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_walter_056",
+    "db_name": "ผศ.ดร. พรจันทร์ วอลเตอร์",
+    "email": "ponjan.p@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10198",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_setthaya_057",
+    "db_name": "อ.ดร. พัฒธาวินท์ เสทธะยะ",
+    "email": "phatthawin.l@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10247",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_sriwattana_060",
+    "db_name": "รศ.ดร. สุจินดา ศรีวัฒนะ",
+    "email": "sujinda.s@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10053",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_surawang_061",
+    "db_name": "ผศ.ดร. สุทัศน์ สุระวัง",
+    "email": "suthat.s@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10054",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_rakariyatham_065",
+    "db_name": "ผศ.ดร. กันยาศิริ รักอริยะธรรม",
+    "email": "kanyasiri.r@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10197",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_laokuldilok_066",
+    "db_name": "รศ.ดร. ธรรณพ เหล่ากุลดิลก",
+    "email": "thunnop.l@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10124",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_charoennapharat_067",
+    "db_name": "อ.ดร. ธีระศักดิ์ เจริญนภารัตน์",
+    "email": "teerasak.ch@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10246",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_braspaiboon_069",
+    "db_name": "ผศ.ดร. สุกัลย์ บรัศไพบูลย์",
+    "email": "sukan.bras@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10232",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_yarnpakdee_070",
+    "db_name": "ผศ.ดร. สุธาสินี ญาณภักดี",
+    "email": "suthasinee.y@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10162",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_karnjanapratum_071",
+    "db_name": "รศ.ดร. สุพัตรา กาญจนประทุม",
+    "email": "supatra.ka@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10231",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_jaisan_072",
+    "db_name": "ผศ.ดร. ชลาลัย ใจแสน",
+    "email": "chalalai.jai@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN30002",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_chakrabandhu_073",
+    "db_name": "ผศ.ดร. ม.ล. ญาศินี จักรพันธุ์",
+    "email": "yasinee.c@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10123",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_fac_074_074",
+    "db_name": "ผศ.ดร. พิมลพรรณ แก้วประจุ",
+    "email": "pimonpan.k@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN30003",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_klinmalai_075",
+    "db_name": "ผศ.ดร. ภัทรานิษฐ์ กลิ่นมาลัย",
+    "email": "phatthranit.k@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN30006",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_chanpuypetch_076",
+    "db_name": "รศ.ดร. วิรัชญา จันพายเพ็ชร",
+    "email": "wirachchaya.c@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN30007",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_wangtueai_077",
+    "db_name": "ศ.ดร. สุธี วังเตือย",
+    "email": "sutee.w@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10154",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_saengyo_078",
+    "db_name": "อ. สุวินัย แสงโย",
+    "email": "suwinai.s@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10263",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_sittikho_079",
+    "db_name": "อ. อาคิรา สิทธิโก",
+    "email": "akira.s@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10264",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "chiangmaiu_facultyofa_surayot_080",
+    "db_name": "ผศ.ดร. อุทุมพร สุระยศ",
+    "email": "utoomporn.su@cmu.ac.th",
+    "source": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN30001",
+    "faculty_cluster": "Chiang Mai University - Faculty of Agro-Industry"
+  },
+  {
+    "id": "cu_eng_wave13_b_0022",
+    "db_name": "รศ. Vachara Pheansupap",
+    "email": "fcevps@eng.chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/assoc-prof-vachara-peansupap-ph-d",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  },
+  {
+    "id": "cu_eng_wave13_b_0016",
+    "db_name": "ศ. Supot Techavorasinskul",
+    "email": "supot.t@chula.ac.th",
+    "source": "https://www.eng.chula.ac.th/th/staff/prof-supot-teachavorasinskun-d-eng",
+    "faculty_cluster": "Chulalongkorn University - Faculty of Engineering"
+  }
+]

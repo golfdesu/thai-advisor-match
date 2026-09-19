@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789643705_c30c5f",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชาศิลปศาสตร์",
+  "target_faculty_en": "School of Liberal Arts",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://arts.mfu.ac.th/",
+    "https://liberal-arts.mfu.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

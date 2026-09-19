@@ -1,0 +1,921 @@
+{
+  "mode": "APPLY",
+  "total_candidates": 91,
+  "valid_candidates": 91,
+  "rejected_candidates": 0,
+  "updated_emails": [
+    {
+      "id": "su_eng_teacher_088",
+      "full_name_th": "รศ.ดร. ศุภกิจ สุทธิเรืองวงศ์",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+      "department_th": "ภาควิชาฟิสิกส์และวิทยาการและวิศวกรรมวัสดุ",
+      "new_email": "suttiruengwong_s@su.ac.th",
+      "profile_url": "https://www.eng.su.ac.th/department_teacher_portfolio.php?id=88",
+      "cluster": "Silpakorn Materials Science & Engineering"
+    },
+    {
+      "id": "su_eng_teacher_081",
+      "full_name_th": "ผศ.ดร. วันชัย เลิศวิจิตรจรัส",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+      "department_th": "ภาควิชาฟิสิกส์และวิทยาการและวิศวกรรมวัสดุ",
+      "new_email": "lerdwijitjarud_w@su.ac.th",
+      "profile_url": "https://www.eng.su.ac.th/department_teacher_portfolio.php?id=81",
+      "cluster": "Silpakorn Materials Science & Engineering"
+    },
+    {
+      "id": "su_eng_teacher_028",
+      "full_name_th": "ผศ.ดร. ณัฐวุฒิ ชัยยุตต์",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+      "department_th": "ภาควิชาฟิสิกส์และวิทยาการและวิศวกรรมวัสดุ",
+      "new_email": "chaiyut_n@su.ac.th",
+      "profile_url": "https://www.eng.su.ac.th/department_teacher_portfolio.php?id=28",
+      "cluster": "Silpakorn Materials Science & Engineering"
+    },
+    {
+      "id": "su_eng_teacher_053",
+      "full_name_th": "ผศ.ดร. บุศรินทร์ เฆษะปะบุตร",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+      "department_th": "ภาควิชาฟิสิกส์และวิทยาการและวิศวกรรมวัสดุ",
+      "new_email": "ksapabutr_b@su.ac.th",
+      "profile_url": "https://www.eng.su.ac.th/department_teacher_portfolio.php?id=53",
+      "cluster": "Silpakorn Materials Science & Engineering"
+    },
+    {
+      "id": "ubonratcha_facultyofa_payuhaha_008",
+      "full_name_th": "ผศ.ดร. กาญจนา พยุหะ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "kanjana.p@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=7",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_pongthong_024",
+      "full_name_th": "อ. กิ่งกาญจน์ ป้องทอง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "kingkan.p@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=216",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_krutphan_025",
+      "full_name_th": "ดร. จรุงจิต กรุดพันธ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "jarungjit.g@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=15",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_singthong_002",
+      "full_name_th": "รศ.ดร. จิตรา สิงห์ทอง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "jittra.w@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=16",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_yienphet_026",
+      "full_name_th": "ดร. จิตราภรณ์ เยียนเพชร",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "chittraporn.y@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=214",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_klinubon_027",
+      "full_name_th": "อ. จินดา กลิ่นอุบล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "jinda.g@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=213",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_saengkanjanavan_028",
+      "full_name_th": "ดร. จินดามณี แสงกาญจนวนิช",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "jindamanee.s@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=17",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_musika_009",
+      "full_name_th": "ผศ. จิรายุ มุสิกา",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "jirayu.m@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=232",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_onampai_029",
+      "full_name_th": "ดร. ฉัตรชยา อ่อนอำไพ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "chatchaya.o@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=183",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_siriboon_010",
+      "full_name_th": "ผศ.ดร. ชวลิต ศิริบูรณ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "chawalit.s@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=193",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_krutphan_030",
+      "full_name_th": "ดร. ชัยวุฒิ กรุดพันธ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "chaiwut.k@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=19",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_thongkaew_011",
+      "full_name_th": "ผศ.ดร. ชุติมา ทองแก้ว",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "chutima.t@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=21",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_jekmadan_031",
+      "full_name_th": "อ. ไชยวัฒน์ เจ็กมะดัน",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "chaiwat.j@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=240",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_samart_012",
+      "full_name_th": "ผศ. ณัชพล สามารถ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "natchapol.s@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=23",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_sathornvisit_032",
+      "full_name_th": "อ. ทศพร สาธรวิศิษฐ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "thotsaporn.s@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=118",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_promchote_013",
+      "full_name_th": "ผศ.ดร. ทินน์ พรหมโชติ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "thin.p@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=116",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_laomkom_003",
+      "full_name_th": "รศ.ดร. ธนาทิพย์ แหลมคม",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "tanathip.l@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=29",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_tapalat_033",
+      "full_name_th": "อ. ธนาธิป ทาปลัด",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "thanathip.t@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=225",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_urosophon_034",
+      "full_name_th": "น.สพ. ดร. น.สพ. ดร. นนทกรณ์ อุรโสภณ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "nonthakorn.u@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=33",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_tantisirin_035",
+      "full_name_th": "อ. นพพร ตันติศิรินทร์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "nopporn.t@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=164",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_promthong_036",
+      "full_name_th": "ดร. นิมมานรดี พรหมทอง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "nimmannoradee.p@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=192",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_phiudang_037",
+      "full_name_th": "ดร. นีรนุช ผิวแดง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "neeranuch.p@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=234",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_buakham_014",
+      "full_name_th": "ผศ.ดร. บุษบา บัวคำ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "budsaba.b@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=184",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_thatpitchayangk_015",
+      "full_name_th": "ผศ.ดร. ปัญจภรณ์ ทัดพิชญางกูร พรหมโชติ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "pan.p@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=51",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_pradabwong_038",
+      "full_name_th": "ดร. พิชญาภา ประดับวงษ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "pitchayapa.p@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=239",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_suthamwong_039",
+      "full_name_th": "ดร. ภัทร์ลดา สุธรรมวงศ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "phatlada.s@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=219",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_suebnukarn_040",
+      "full_name_th": "ดร. ภาคภูมิ สืบนุการณ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "parkpoom.s@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=57",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_thunsiri_016",
+      "full_name_th": "ผศ.ดร. ภาษิตา ทุ่นศิริ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "phasita.t@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=221",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_mawiang_041",
+      "full_name_th": "ดร. เมทินี มาเวียง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "metinee.m@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=163",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_chairat_017",
+      "full_name_th": "ผศ.ดร. เรวัติ ชัยราช",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "raywat.c@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=63",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_pilachan_004",
+      "full_name_th": "รศ.ดร. เรืองยศ พิลาจันทร์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "ruangyote.p@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=176",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_boonyaputthipon_042",
+      "full_name_th": "ดร. วชิราพรรณ บุญญาพุทธิพงศ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "wachirapan.b@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=66",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_onsaard_018",
+      "full_name_th": "ผศ.ดร. วิริยา อ่อนสอาด",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "wiriya.p@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=76",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_uttho_005",
+      "full_name_th": "รศ.ดร. วีรเวทย์ อุทโธ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "weerawate.u@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=78",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_klangsinsirikul_043",
+      "full_name_th": "ดร. สุกัญญา คลังสินศิริกุล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "sukanya.k@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=91",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_kamriang_044",
+      "full_name_th": "ดร. สุพัตรา คำเรียง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "supatra.kh@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=73",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_chaiwattrakul_019",
+      "full_name_th": "ผศ.ดร. สุภาวดี ชัยวิวัฒน์ตระกูล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "supawadee.c@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=95",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_suwanlee_020",
+      "full_name_th": "ผศ.ดร. สุรชัย สุวรรณลี",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "surachai.s@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=97",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_ketngam_006",
+      "full_name_th": "รศ.ดร. สุรีพร เกตุงาม",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "sureeporn.k@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=99",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_chanket_021",
+      "full_name_th": "ผศ.ดร. อนนท์ จันทร์เกตุ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "anon.j@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=222",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_khairam_045",
+      "full_name_th": "ดร. อภิญญา ไขรัมย์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชไร่และพืชสวน",
+      "new_email": "apinya.kh@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=236",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_sophawong_046",
+      "full_name_th": "ดร. อริศรา โสภาวงค์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "arissara.s@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=182",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_jutagate_022",
+      "full_name_th": "ผศ.ดร. อัจฉรา จุฑาเกตุ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "achara.j@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=107",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_lunpha_023",
+      "full_name_th": "ผศ.ดร. อารีรัตน์ ลุนผา",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาสัตวศาสตร์และประมง",
+      "new_email": "areerat.l@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=114",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_facultyofa_onsaard_007",
+      "full_name_th": "รศ.ดร. เอกสิทธิ์ อ่อนสอาด",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีการอาหาร",
+      "new_email": "ekasit.o@ubu.ac.th",
+      "profile_url": "https://agri.ubu.ac.th/mis/staff/preview.php?userid=113",
+      "cluster": "UBU Faculty of Agriculture"
+    },
+    {
+      "id": "ubonratcha_collegeofl_thanee_005",
+      "full_name_th": "อ. พัชรี ธานี",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "ภาควิชามนุษยศาสตร์และสังคมศาสตร์",
+      "new_email": "patcharee.t@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=tgJUWuR2XiERfLN9BBwm_g",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_srichan_001",
+      "full_name_th": "อ. กัญญาภัทร ศรีจันทร์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชาการท่องเที่ยวและการบริการ",
+      "new_email": "kanyarat.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=mJN6FShLAiCEBn9yjYWmJQ",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_saksirisophon_002",
+      "full_name_th": "ดร. พรชัย ศักดิ์ศิริโสภณ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชานวัตกรรมการท่องเที่ยวการบริการและวัฒนธรรมไทยร่วมสมัย",
+      "new_email": "pornchai.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=B_WzkOFZVDrmFZ-RjeVItA",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_yingkhong_003",
+      "full_name_th": "ผศ. คำพา ยิ่งคง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "ภาควิชามนุษยศาสตร์และสังคมศาสตร์",
+      "new_email": "khampha.y@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=MpeCitAfuHh8uw3m7gNaZA",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_siritammasakul_004",
+      "full_name_th": "ผศ.ดร. สุวภัทร ศิริธรรมะสกุล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "ภาควิชามนุษยศาสตร์และสังคมศาสตร์",
+      "new_email": "suwaphat.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=fM3qlByeeF-6L2G8icU5Uw",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_jitkosol_006",
+      "full_name_th": "ผศ.ดร. ยุวดี จิตต์โกศล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "ภาควิชามนุษยศาสตร์และสังคมศาสตร์",
+      "new_email": "yuvadee.j@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=N1WFGld6Q8JU1-0OUvDxnQ",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_ajarasirikul_007",
+      "full_name_th": "ดร. อุจฉริต์ อาจาระศิริกุล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "ภาควิชามนุษยศาสตร์และสังคมศาสตร์",
+      "new_email": "udchari.a@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=EzGprSs8R4HsDFjQKNitfg",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_nongpet_008",
+      "full_name_th": "อ. เขมจิรา หนองเป็ด",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "ภาควิชามนุษยศาสตร์และสังคมศาสตร์",
+      "new_email": "khemchira.n@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=L7lOfc26--gUa4Vs0qqbxw",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_thanee_009",
+      "full_name_th": "อ. มัธยา ธานี",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชานิเทศศาสตร์",
+      "new_email": "matthaya.t@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=E2PT56bi33NU_-9_7f5UEg",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_saisamuth_010",
+      "full_name_th": "อ. วิชุดา สายสมุทร",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "vichuda.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=SEJCFMq4W29dqTZfdsjj-A",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_jeepanattigarn_011",
+      "full_name_th": "ดร. จีณัฐชะญา จีปณัฐิกาญจน์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "jeenatchaya.j@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=n-LEz3ICiBuNIW083dl0PQ",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_anmai_012",
+      "full_name_th": "อ. ธีระพล อันมัย",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "teerapon.a@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=RDc-3t-v8OB4-rEY5S5mzw",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_phuphasuk_013",
+      "full_name_th": "อ. นันทวุธ ภูผาสุข",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "nuntawut.p@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=yW_pMuzrnE3bYfaaDi4xOQ",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_kulrach_014",
+      "full_name_th": "อ. ศรายุทธ กุลราช",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "sarayut.k@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=jXooV95higBWhpvzioe8ig",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sewanakunakorn_015",
+      "full_name_th": "อ. สรพจน์ เสวนคุณากร",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "sorapote.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=tz4Qj_R9RDdhdGWCxppj-w",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_saengthong_038",
+      "full_name_th": "ดร. จักรพันธ์ แสงทอง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "หลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาประวัติศาสตร์",
+      "new_email": "jakapan.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=NdPkxtWdm-sevGnzIl9B6Q",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_musika_039",
+      "full_name_th": "ดร. คำล่า มุสิกา",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "หลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาประวัติศาสตร์",
+      "new_email": "khamla.m@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=mr6AW4Tru8ieQuOEODOKaQ",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_itharat_040",
+      "full_name_th": "อ. จักเรศ อิฐรัตน์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "หลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาประวัติศาสตร์",
+      "new_email": "jakares.i@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=yfwJJOwoBlnSRIicv4yJSQ",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_pilaipan_041",
+      "full_name_th": "อ. วิชุลดา พิไลพันธ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "หลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาประวัติศาสตร์",
+      "new_email": "wichulada.p@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=dsuxBa8154UCmeS-GRjlfg",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_bupha_042",
+      "full_name_th": "อ. สุรีรัตน์ บุบผา",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "หลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาประวัติศาสตร์",
+      "new_email": "sureeratana.b@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=zY3LGQ6JRjEP0PzLT6Bt9Q",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_songkhro_043",
+      "full_name_th": "อ. อภินันท์ สงเคราะห์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "หลักสูตรศิลปศาสตรบัณฑิต สาขาวิชาประวัติศาสตร์",
+      "new_email": "apinan.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=tfyMWMFOPz3tfY6Q9OSH_w",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_tanlert_034",
+      "full_name_th": "ผศ. สุธิดา ตันเลิศ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชาภาษาและวัฒนธรรมอาเซียน",
+      "new_email": "sutida.t@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=FlbveAK6kL31Zky57y1Gtg",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_methajiranan_016",
+      "full_name_th": "ศ.ดร. เมชฌ เมธจิรนนท์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชาภาษาจีนและการสื่อสาร",
+      "new_email": "metcha.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=-AZoK2fGnmDb9meDj4oIdQ",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_techarungpaisan_017",
+      "full_name_th": "ดร. ณัฐพัชร์ เตชะรุ่งไพศาล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "nattapat.t@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=S1Wcx5boXRgTfjjywqmb-g",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_chenchi_018",
+      "full_name_th": "อ. Li Chenchi",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "li.c@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=FZf2ukdX5L682cpfixdMWA",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_xiaowen_019",
+      "full_name_th": "อ. Zhao Xiaowen",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "xiaowen.z@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=-WUpNSU3QhMrJVZWTZTy_w",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_jing_020",
+      "full_name_th": "อ. Zhao Jing",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "jing.zh@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=pfPF_wG8XOze9mm6gr8aAA",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_chaowsirikul_021",
+      "full_name_th": "ดร. ชญาพร เชาว์ศิริกุล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "chayaporn.c@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=A6OFifTWKwvgANI-PPB6WQ",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_puyati_022",
+      "full_name_th": "ผศ.ดร. ชิดหทัย ปุยะติ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "chidhathai.pu@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=ZPMC_mh2Ecbngm5BRH43SA",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sasiprapa_023",
+      "full_name_th": "อ. ประภาพร ศศิประภา",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "praphaphon.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=ZVmhcJrkYiCCHFEO8-tGlg",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_nimitsophon_024",
+      "full_name_th": "อ. วกุล นิมิตโสภณ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "wakul.n@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=-EKVDo0SZh4MHpO2xSm4BQ",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_chanphuang_025",
+      "full_name_th": "ดร. สุวภัทร จันทร์พวง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "new_email": "suwaphat.c@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=Dawwj5X1_IbUsDPy9ApXaA",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_phankhot_026",
+      "full_name_th": "อ. สุทธิดา พันธุ์โคตร",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชาภาษาญี่ปุ่นและการสื่อสาร คณะศิลปศาสตร์",
+      "new_email": "suttida.p@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=HdNrg4Y_93OWI8oOg548tg",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_chummuan_030",
+      "full_name_th": "อ. ชาคริยา ชุมมวล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชาภาษาญี่ปุ่นและการสื่อสาร คณะศิลปศาสตร์",
+      "new_email": "chakhariya.c@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=gQjQMHkA7L8sRu291CHKFg",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sukthon_031",
+      "full_name_th": "อ. วนัสนันทน์ สุกทน",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชาภาษาญี่ปุ่นและการสื่อสาร คณะศิลปศาสตร์",
+      "new_email": "wanatsanan.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=CLv2IJdKkhS2cSDY9aLNkw",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_morachat_032",
+      "full_name_th": "อ. วิศรุตา โมราชาติ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชาภาษาญี่ปุ่นและการสื่อสาร คณะศิลปศาสตร์",
+      "new_email": "wisaruta.m@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=LR2FmSFKETi0UxLubO8kSw",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sarapong_033",
+      "full_name_th": "ผศ. เสาวลักษณ์ สาระพงษ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชาภาษาญี่ปุ่นและการสื่อสาร คณะศิลปศาสตร์",
+      "new_email": "saowalak.h@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=SQMXKo01zMPak6lTdjF_fw",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_oudhomyath_035",
+      "full_name_th": "อ. Mr. Loylounant Oudhomyath",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": null,
+      "new_email": "loylounant.o@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=5nZmgzHqAzN45xT_Kz4v4A",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_kongphiantham_036",
+      "full_name_th": "รศ.ดร. ชาญชัย คงเพียรธรรม",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": null,
+      "new_email": "chanchai.k@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=UhQkDJsqGw8ysA1GN84BJw",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_suwanna_037",
+      "full_name_th": "อ. สร้อยสุดา สุวรรณะ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": null,
+      "new_email": "sroysuda.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=56Jtn66oS6fESaKbMG-zwQ",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_masaki_028",
+      "full_name_th": "อ. Koji Masaki",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชาภาษาญี่ปุ่นและการสื่อสาร คณะศิลปศาสตร์",
+      "new_email": "masaki.k@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=aUz22IAY2qdtAUddpEim8g",
+      "cluster": "UBU Faculty of Liberal Arts"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sasaki_029",
+      "full_name_th": "อ. Yohei Sasaki",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "สาขาวิชาภาษาญี่ปุ่นและการสื่อสาร คณะศิลปศาสตร์",
+      "new_email": "yohei.s@ubu.ac.th",
+      "profile_url": "https://la.ubu.ac.th/personel/profiles.php?staff=rOORU3ETplrAcr0gK9_4yw",
+      "cluster": "UBU Faculty of Liberal Arts"
+    }
+  ],
+  "skipped_already_populated": [],
+  "not_found_in_db": [],
+  "embedding_texts_rebuilt": 85
+}

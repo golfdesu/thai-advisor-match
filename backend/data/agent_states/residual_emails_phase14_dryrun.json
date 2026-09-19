@@ -1,0 +1,88 @@
+{
+  "apply": false,
+  "personal_emails_nulled": [
+    {
+      "id": "chula_eng_ee_008",
+      "full_name_th": "ดร. วิวัฒน์ วงศ์วรวิพัฒน์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "old_email": "wiwat@jowit.com"
+    },
+    {
+      "id": "tu_law_039",
+      "full_name_th": "ศ.ดร. ประสิทธิ์ ปิวาวัฒนพานิช",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_email": "prasitpandectist@yahoo.co.th"
+    },
+    {
+      "id": "su_eng_teacher_093",
+      "full_name_th": "ผศ. สมจิตร ลาภโนนเขวา",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "old_email": "somjitlap@hotmail.co"
+    },
+    {
+      "id": "su_eng_teacher_086",
+      "full_name_th": "ผศ. บัญญัติ พันธ์ประสิทธิ์เวช",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "old_email": "otani1443@yahoo.co.th"
+    },
+    {
+      "id": "chulalongk_facultyofp_horstmann_079",
+      "full_name_th": "อ.ดร. Alexander Horstmann",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "old_email": "alexander.horstmann@posteo.net"
+    },
+    {
+      "id": "cmu_3d00ad57_5599",
+      "full_name_th": "อ. สุรินทร์ สายปัญญา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "old_email": "surin_saipanya@hotmail.co.uk"
+    },
+    {
+      "id": "cmu_7645de8c_5935",
+      "full_name_th": "อ. อภิวัฒน์ ธีรวุฒิกุลรักษ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "old_email": "aphiwattee@yahoo.co.uk"
+    },
+    {
+      "id": "cu_cbs_wave11_0297",
+      "full_name_th": "ดร. ธนาดล รักษาพล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "old_email": "thanadol@thanacorp.com"
+    },
+    {
+      "id": "su_eng_teacher_109",
+      "full_name_th": "ผศ.ดร. ธีระศักดิ์ หุดากร",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "old_email": "hudakorn_tee@hotmail.co"
+    },
+    {
+      "id": "cu_wave19_edu_0101",
+      "full_name_th": "รศ.ดร. พรพิมล ศุขะวาที",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "old_email": "jjpornpimol@gamil.com"
+    },
+    {
+      "id": "msu_petchpengchai__8908",
+      "full_name_th": "ผศ.ดร. เพชร เพ็งชัย",
+      "university_th": "มหาวิทยาลัยมหาสารคาม",
+      "old_email": "petchpengchai@zoho.com"
+    }
+  ],
+  "university_emails_corrected": [
+    {
+      "id": "cu_wave19_edu_0116",
+      "full_name_th": "รศ.ดร. วีรพล แสงปัญญา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "old_email": "weeraphol.s@chulalac.th",
+      "new_email": "weeraphol.s@chula.ac.th"
+    },
+    {
+      "id": "thammasatu_sirindhorn_iamprasertkun_001",
+      "full_name_th": "รศ.ดร. ภาวินทร์ เอี่ยมประเสริฐกุล",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_email": "pawin@siit.tu",
+      "new_email": "pawin@siit.tu.ac.th"
+    }
+  ],
+  "embedding_texts_rebuilt": 11
+}

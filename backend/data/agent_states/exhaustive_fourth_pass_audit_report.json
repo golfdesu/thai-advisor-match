@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "faculties": 13409,
+    "labs": 104,
+    "courses": 4184
+  },
+  "findings": {
+    "faculties_names_and_titles": [],
+    "faculties_emails_and_pdpa": [],
+    "faculties_urls_and_media": [],
+    "faculties_metrics_and_openalex": [],
+    "faculties_relational_and_embeddings": [],
+    "research_labs_integrity": [],
+    "courses_integrity": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "session_id": "wave28_mfu_nursing",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชาพยาบาลศาสตร์",
+  "target_faculty_en": "School of Nursing",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.mfu.ac.th/en/academics.html",
+    "https://www.mfu.ac.th/en/academics/school-of-nursing.html",
+    "https://www.mfu.ac.th/th/academics/school-of-nursing.html",
+    "https://nursing.mfu.ac.th/",
+    "https://nursing.mfu.ac.th/en/",
+    "https://nursing.mfu.ac.th/en/nursing-staff/nursing-lecturers.html",
+    "https://nursing.mfu.ac.th/en/nursing-staff/nursing-executives.html"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 7,
+  "total_tokens_used": 3945,
+  "status": "completed",
+  "last_error": null
+}

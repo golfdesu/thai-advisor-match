@@ -1,0 +1,58 @@
+{
+  "session_id": "wave33_mu_ss",
+  "target_university_th": "มหาวิทยาลัยมหิดล",
+  "target_university_en": "Mahidol University",
+  "target_faculty_th": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา",
+  "target_faculty_en": "College of Sports Science and Technology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://ss.mahidol.ac.th/",
+    "https://www.mahidol.ac.th/",
+    "https://mahidol.ac.th/staff/",
+    "https://mahidol.ac.th/faculty-2/",
+    "https://mahidol.ac.th/executive-2024/",
+    "https://mahidol.ac.th/th/staff/",
+    "https://mahidol.ac.th/newstaff/",
+    "https://mahidol.ac.th/th/faculty-2/",
+    "https://mahidol.ac.th/th/executive-2024/"
+  ],
+  "failed_urls": [
+    "https://ss.mahidol.ac.th/en/"
+  ],
+  "faculties": {
+    "mahidoluni_collegeofs_udomphorn_007": {
+      "id": "mahidoluni_collegeofs_udomphorn_007",
+      "university": "Mahidol University",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty": "College of Sports Science and Technology",
+      "faculty_th": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา",
+      "department": "College of Sports Science and Technology",
+      "department_th": "College of Sports Science and Technology",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Yuthana",
+      "last_name": "Udomphorn",
+      "full_name": "Yuthana Udomphorn",
+      "full_name_th": "ผศ. Yuthana Udomphorn",
+      "role": "อาจารย์ประจำ",
+      "email": "deanss@mahidol.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ผศ. Yuthana Udomphorn": "mahidoluni_collegeofs_udomphorn_007"
+  },
+  "dedup_emails": {
+    "deanss@mahidol.ac.th": "mahidoluni_collegeofs_udomphorn_007"
+  },
+  "step_count": 9,
+  "total_tokens_used": 25532,
+  "status": "completed",
+  "last_error": null
+}

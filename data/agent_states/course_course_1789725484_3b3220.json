@@ -1,0 +1,19 @@
+{
+  "session_id": "course_1789725484_3b3220",
+  "target_university_th": "มหาวิทยาลัยแม่โจ้",
+  "target_university_en": "Maejo University",
+  "target_faculty_th": "คณะวิทยาศาสตร์",
+  "target_faculty_en": "Faculty of Science",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://admissions.mju.ac.th/graduate/ProjectProgram.aspx?LevelID=3&ProjectID=Nw%3D%3D&r=1",
+    "https://biotech-grad.mju.ac.th/wtms_webpageDetail.aspx?wID=2344"
+  ],
+  "courses": {},
+  "dedup_title_keys": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

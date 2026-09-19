@@ -72,7 +72,18 @@ class CourseExtractionAgent:
         self.api_keys = [k.strip() for k in raw_keys if k.strip()]
         if not self.api_keys and (settings.GEMINI_API_KEY or os.getenv("GEMINI_API_KEY")):
             self.api_keys = [settings.GEMINI_API_KEY or os.getenv("GEMINI_API_KEY")]
-        self.client = genai.Client(api_key=self.api_keys[0]) if self.api_keys else None
+        self.clients = [genai.Client(api_key=k) for k in self.api_keys if k]
+        self.client = self.clients[0] if self.clients else None
+        self.current_key_idx = 0
+
+    def _get_active_client(self):
+        if not self.clients:
+            raise ValueError("No valid Gemini API key configured.")
+        return self.clients[self.current_key_idx % len(self.clients)]
+
+    def _rotate_key(self):
+        if len(self.clients) > 1:
+            self.current_key_idx = (self.current_key_idx + 1) % len(self.clients)
 
     def add_seed_urls(self, urls: List[str]):
         for u in urls:
@@ -80,7 +91,7 @@ class CourseExtractionAgent:
                 self.state.pending_urls.append(u)
 
     def extract_patch_from_html(self, html_content: str, current_url: str = "") -> CourseStatePatch:
-        if not self.client:
+        if not self.clients:
             raise ValueError("No valid Gemini API key configured.")
 
         # Prune boilerplate nav/footer
@@ -93,18 +104,28 @@ Current URL: {current_url}
 CONTENT:
 {cleaned_text}
 """
-        response = self.client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=prompt,
-            config={
-                'system_instruction': COURSE_SYSTEM_PROMPT,
-                'response_mime_type': 'application/json',
-                'response_schema': CourseStatePatch,
-                'temperature': 0.1
-            }
-        )
-        patch = CourseStatePatch.model_validate_json(response.text)
-        return patch
+        last_err: Optional[Exception] = None
+        for model_name in ('gemini-3.5-flash-lite', 'gemini-3.8-flash', 'gemini-3.6-flash'):
+            for _ in range(max(1, len(self.clients))):
+                try:
+                    response = self._get_active_client().models.generate_content(
+                        model=model_name,
+                        contents=prompt,
+                        config={
+                            'system_instruction': COURSE_SYSTEM_PROMPT,
+                            'response_mime_type': 'application/json',
+                            'response_schema': CourseStatePatch,
+                            'temperature': 0.1
+                        }
+                    )
+                    patch = CourseStatePatch.model_validate_json(response.text)
+                    return patch
+                except Exception as e:
+                    last_err = e
+                    print(f"   -> LLM {model_name} key#{self.current_key_idx} failed ({str(e)[:160]}); rotating...")
+                    self._rotate_key()
+                    time.sleep(2.0)
+        raise ValueError(f"All extraction models/keys failed. Last error: {last_err}")
 
     def run_crawl_loop(self):
         self.state.status = "in_progress"

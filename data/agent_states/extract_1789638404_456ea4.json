@@ -1,0 +1,23 @@
+{
+  "session_id": "extract_1789638404_456ea4",
+  "target_university_th": "มหาวิทยาลัยธรรมศาสตร์",
+  "target_university_en": "Thammasat University",
+  "target_faculty_th": "คณะศิลปศาสตร์",
+  "target_faculty_en": "Faculty of Liberal Arts",
+  "pending_urls": [
+    "https://arts.tu.ac.th/news"
+  ],
+  "visited_urls": [
+    "https://www.tu-japanese.org/index.php?action=view_news&id=684"
+  ],
+  "failed_urls": [
+    "https://la.tu.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 1157,
+  "status": "completed",
+  "last_error": null
+}

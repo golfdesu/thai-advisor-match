@@ -1,0 +1,47 @@
+{
+  "session_id": "extract_1789639065_27b658",
+  "target_university_th": "มหาวิทยาลัยวลัยลักษณ์",
+  "target_university_en": "Walailak University",
+  "target_faculty_th": "สำนักวิชาแพทยศาสตร์",
+  "target_faculty_en": "School of Medicine",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://w1.med.cmu.ac.th/commed/",
+    "https://w1.med.cmu.ac.th/radiology/"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "walailakun_schoolofme_vacharavipa_001": {
+      "id": "walailakun_schoolofme_vacharavipa_001",
+      "university": "Walailak University",
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "faculty": "School of Medicine",
+      "faculty_th": "สำนักวิชาแพทยศาสตร์",
+      "department": "ภาควิชารังสีวิทยา",
+      "department_th": "ภาควิชารังสีวิทยา",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Anirut",
+      "last_name": "Vacharavipa",
+      "full_name": "Anirut Vacharavipa",
+      "full_name_th": "ผศ.ดร. อนิรุทธ์ วัชรวิภา",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "อนิรุทธ์ วัชรวิภา": "walailakun_schoolofme_vacharavipa_001"
+  },
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 3914,
+  "status": "completed",
+  "last_error": null
+}

@@ -1,0 +1,22 @@
+{
+  "session_id": "extract_1789643900_1b2da2",
+  "target_university_th": "มหาวิทยาลัยศิลปากร",
+  "target_university_en": "Silpakorn University",
+  "target_faculty_th": "คณะวิทยาการจัดการ",
+  "target_faculty_en": "Faculty of Management Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.ms.su.ac.th/"
+  ],
+  "failed_urls": [
+    "https://www.ms.su.ac.th/th/about/list/75",
+    "https://www.ms.su.ac.th/th/about/list/80"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 4674,
+  "status": "completed",
+  "last_error": null
+}

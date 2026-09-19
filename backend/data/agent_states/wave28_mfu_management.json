@@ -1,0 +1,78 @@
+{
+  "session_id": "wave28_mfu_management",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชาการจัดการ",
+  "target_faculty_en": "School of Management",
+  "pending_urls": [
+    "https://www.mfu.ac.th"
+  ],
+  "visited_urls": [
+    "https://management.mfu.ac.th/",
+    "https://www.mfu.ac.th/en/academics/school-of-management.html",
+    "https://www.mfu.ac.th/en/academics.html"
+  ],
+  "failed_urls": [
+    "https://mbs.mfu.ac.th/",
+    "https://mbs.mfu.ac.th/en/"
+  ],
+  "faculties": {
+    "maefahluan_schoolofma_prangtham_001": {
+      "id": "maefahluan_schoolofma_prangtham_001",
+      "university": "Mae Fah Luang University",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty": "School of Management",
+      "faculty_th": "สำนักวิชาการจัดการ",
+      "department": "สำนักวิชาการจัดการ",
+      "department_th": "สำนักวิชาการจัดการ",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Piyanuch",
+      "last_name": "Prangtham",
+      "full_name": "Piyanuch Prangtham",
+      "full_name_th": "อ.ดร. ปิยนุช ปรางขำ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "maefahluan_schoolofma_thaveeaphiradee_002": {
+      "id": "maefahluan_schoolofma_thaveeaphiradee_002",
+      "university": "Mae Fah Luang University",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty": "School of Management",
+      "faculty_th": "สำนักวิชาการจัดการ",
+      "department": "สำนักวิชาการจัดการ",
+      "department_th": "สำนักวิชาการจัดการ",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Paponpat",
+      "last_name": "Thaveeaphiradeecharoen",
+      "full_name": "Paponpat Thaveeaphiradeecharoen",
+      "full_name_th": "ผศ.ดร. ปพนพัชร์ ทวีอภิรดีเจริญ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ปิยนุช ปรางขำ": "maefahluan_schoolofma_prangtham_001",
+    "ปพนพัชร์ ทวีอภิรดีเจริญ": "maefahluan_schoolofma_thaveeaphiradee_002"
+  },
+  "dedup_emails": {},
+  "step_count": 3,
+  "total_tokens_used": 3069,
+  "status": "completed",
+  "last_error": null
+}

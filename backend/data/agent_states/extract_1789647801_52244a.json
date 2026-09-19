@@ -1,0 +1,23 @@
+{
+  "session_id": "extract_1789647801_52244a",
+  "target_university_th": "มหาวิทยาลัยอุบลราชธานี",
+  "target_university_en": "Ubon Ratchathani University",
+  "target_faculty_th": "คณะวิทยาศาสตร์",
+  "target_faculty_en": "Faculty of Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.ubu.ac.th/"
+  ],
+  "failed_urls": [
+    "https://micro.sci.ubu.ac.th/",
+    "https://it.sci.ubu.ac.th/",
+    "https://sci.ubu.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 477,
+  "status": "completed",
+  "last_error": null
+}

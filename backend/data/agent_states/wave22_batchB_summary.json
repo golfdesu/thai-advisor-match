@@ -1,0 +1,195 @@
+{
+  "tu_liberalarts": {
+    "univ_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะศิลปศาสตร์",
+    "verified_count": 50,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_tu_liberalarts_export.py",
+    "seeds": [
+      "https://arts.tu.ac.th/th/teacherlarts",
+      "https://arts.tu.ac.th/th/board",
+      "https://arts.tu.ac.th/th/teacher-english"
+    ],
+    "failed_urls": [],
+    "visited": 3
+  },
+  "tu_journalism": {
+    "univ_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะวารสารศาสตร์และสื่อสารมวลชน",
+    "verified_count": 47,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_tu_journalism_export.py",
+    "seeds": [
+      "https://jc.tu.ac.th/th/personnel/faculty",
+      "https://jc.tu.ac.th/th/personnel/staff",
+      "https://jc.tu.ac.th/th/about"
+    ],
+    "failed_urls": [],
+    "visited": 3
+  },
+  "tu_scitech": {
+    "univ_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะวิทยาศาสตร์และเทคโนโลยี",
+    "verified_count": 0,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_tu_scitech_export.py",
+    "seeds": [
+      "https://sci.tu.ac.th/contact-no-rangsit-th/",
+      "https://sci.tu.ac.th/contact-sci-tu/",
+      "https://cs.sci.tu.ac.th/faculty-member-th/"
+    ],
+    "failed_urls": [
+      "https://sci.tu.ac.th/contact-no-rangsit-th/",
+      "https://sci.tu.ac.th/contact-sci-tu/",
+      "https://cs.sci.tu.ac.th/faculty-member-th/"
+    ],
+    "visited": 0
+  },
+  "cu_finearts": {
+    "univ_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะศิลปกรรมศาสตร์",
+    "verified_count": 17,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_cu_finearts_export.py",
+    "seeds": [
+      "https://info.cds.ac.th/7220/",
+      "https://www.cuartculture.chula.ac.th/people/416/",
+      "https://www.chula.ac.th/news/300727/"
+    ],
+    "failed_urls": [],
+    "visited": 3
+  },
+  "cu_sportsci": {
+    "univ_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิทยาศาสตร์การกีฬา",
+    "verified_count": 0,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_cu_sportsci_export.py",
+    "seeds": [
+      "https://www.spsc.chula.ac.th/",
+      "https://www.spsc.chula.ac.th/about-us/team/academic-staff",
+      "https://www.spsc.chula.ac.th/about-us/team/deans"
+    ],
+    "failed_urls": [],
+    "visited": 3
+  },
+  "su_ict": {
+    "univ_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+    "verified_count": 1,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_su_ict_export.py",
+    "seeds": [
+      "https://ict.su.ac.th/?page_id=58",
+      "https://ict.su.ac.th/",
+      "https://www.su.ac.th/en/faculty/13"
+    ],
+    "failed_urls": [],
+    "visited": 4
+  },
+  "su_arts": {
+    "univ_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะอักษรศาสตร์",
+    "verified_count": 19,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_su_arts_export.py",
+    "seeds": [
+      "https://arts.su.ac.th/?page_id=33",
+      "https://arts.su.ac.th/?page_id=1299",
+      "https://www.arts.chula.ac.th/english/maprogram/faculty/"
+    ],
+    "failed_urls": [],
+    "visited": 3
+  },
+  "su_pharmacy": {
+    "univ_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "verified_count": 53,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_su_pharmacy_export.py",
+    "seeds": [
+      "https://www.pharmacy.su.ac.th/main/director-list/",
+      "https://www.su.ac.th/faculty/8",
+      "https://pharm.tu.ac.th/academicstaff"
+    ],
+    "failed_urls": [
+      "https://tu.ac.th/uploads/pharm/pdf/CV/2026/CV_Lalana K_12 Feb 2026_Eng.pdf"
+    ],
+    "visited": 5
+  },
+  "su_arch": {
+    "univ_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+    "verified_count": 0,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_su_arch_export.py",
+    "seeds": [
+      "https://www.su.ac.th/faculty/2",
+      "https://educ.su.ac.th/academic-personnel/",
+      "https://arch.su.ac.th/index.php/component/content/category/8-cabout/27-cstaff/28-cstafff?Itemid=101"
+    ],
+    "failed_urls": [],
+    "visited": 5
+  },
+  "swu_pharmacy": {
+    "univ_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "verified_count": 10,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_swu_pharmacy_export.py",
+    "seeds": [
+      "http://pharmacy.swu.ac.th/%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A3%E0%B8%B2/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3-%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%9A%E0%B8%B8%E0%B8%84/",
+      "http://pharmacy.swu.ac.th/%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A3%E0%B8%B2/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3-%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%9A%E0%B8%B8%E0%B8%84/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-2/",
+      "http://pharmacy.swu.ac.th/%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A3%E0%B8%B2/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3-%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-%E0%B8%9A%E0%B8%B8%E0%B8%84/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C-2/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B9%82%E0%B8%99%E0%B9%82%E0%B8%A5%E0%B8%A2%E0%B8%B5%E0%B9%80%E0%B8%A0%E0%B8%AA%E0%B8%B1%E0%B8%8A-2/"
+    ],
+    "failed_urls": [],
+    "visited": 3
+  },
+  "buu_allied": {
+    "univ_th": "มหาวิทยาลัยบูรพา",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "verified_count": 75,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_buu_allied_export.py",
+    "seeds": [
+      "https://alliedhs.buu.ac.th/teacher/frontend/index",
+      "https://alliedhs.buu.ac.th/",
+      "https://alliedhs.buu.ac.th/structure/frontend/index"
+    ],
+    "failed_urls": [],
+    "visited": 3
+  },
+  "buu_logistics": {
+    "univ_th": "มหาวิทยาลัยบูรพา",
+    "faculty_th": "คณะโลจิสติกส์",
+    "verified_count": 4,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_buu_logistics_export.py",
+    "seeds": [
+      "https://www.buu.ac.th/agency/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%82%E0%B8%A5%E0%B8%88%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C/",
+      "https://www.facebook.com/buu.ac.th/posts/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%82%E0%B8%A5%E0%B8%88%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%9A%E0%B8%B9%E0%B8%A3%E0%B8%9E%E0%B8%B2-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%84%E0%B9%88%E0%B8%B0/2159843937387479/",
+      "http://log.buu.ac.th/"
+    ],
+    "failed_urls": [
+      "https://www.facebook.com/buu.ac.th/posts/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%82%E0%B8%A5%E0%B8%88%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%9A%E0%B8%B9%E0%B8%A3%E0%B8%9E%E0%B8%B2-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%84%E0%B9%88%E0%B8%B0/2159843937387479/"
+    ],
+    "visited": 2
+  },
+  "buu_edu": {
+    "univ_th": "มหาวิทยาลัยบูรพา",
+    "faculty_th": "คณะศึกษาศาสตร์",
+    "verified_count": 49,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_buu_edu_export.py",
+    "seeds": [
+      "https://edu.buu.ac.th/personnel/show/7",
+      "https://edu.buu.ac.th/personnel/show/1",
+      "https://edu.buu.ac.th/main/staff"
+    ],
+    "failed_urls": [],
+    "visited": 3
+  },
+  "ru_law": {
+    "univ_th": "มหาวิทยาลัยรามคำแหง",
+    "faculty_th": "คณะนิติศาสตร์",
+    "verified_count": 18,
+    "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_ru_law_export.py",
+    "seeds": [
+      "https://www.ru.ac.th/th/Faculty/1",
+      "https://laws.ptu.ac.th/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C/",
+      "https://www.ru.ac.th/th/Faculty"
+    ],
+    "failed_urls": [
+      "http://ba.ru.ac.th",
+      "http://edu.ru.ac.th"
+    ],
+    "visited": 12
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "session_id": "wave26_nida_econ",
+  "target_university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+  "target_university_en": "National Institute of Development Administration",
+  "target_faculty_th": "คณะพัฒนาเศรษฐกิจ",
+  "target_faculty_en": "Graduate School of Development Economics",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://econ.nida.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 1218,
+  "status": "completed",
+  "last_error": null
+}

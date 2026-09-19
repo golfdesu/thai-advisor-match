@@ -1,0 +1,22 @@
+{
+  "session_id": "extract_1789647793_183033",
+  "target_university_th": "มหาวิทยาลัยพะเยา",
+  "target_university_en": "University of Phayao",
+  "target_faculty_th": "วิทยาลัยพลังงานและสิ่งแวดล้อม",
+  "target_faculty_en": "School of Energy and Environment",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.up.ac.th/"
+  ],
+  "failed_urls": [
+    "https://energy.up.ac.th/",
+    "https://sce.up.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 459,
+  "status": "completed",
+  "last_error": null
+}

@@ -1,0 +1,21 @@
+{
+  "session_id": "extract_1789639183_70a7a0",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "คณะวิทยาศาสตร์การกีฬา",
+  "target_faculty_en": "Faculty of Sports Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.spsc.chula.ac.th/",
+    "https://www.spsc.chula.ac.th/about-us/team/academic-staff",
+    "https://www.spsc.chula.ac.th/about-us/team/deans"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 3,
+  "total_tokens_used": 1441,
+  "status": "completed",
+  "last_error": null
+}

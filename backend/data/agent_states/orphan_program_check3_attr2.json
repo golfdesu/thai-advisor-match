@@ -1,0 +1,158 @@
+{
+  "digital": {
+    "status": 200,
+    "bytes": 39713,
+    "school_ctxs": [
+      "ญญาเอก ประกาศนียบัตร หลักสูตรระยะสั้น หลักสูตรบัณฑิตพันธุ์ใหม่ Foreign Students สำนักวิชา แนะนำหลักสูตร รับสมัครบุคคลเข้าศึกษา ปฏิทินการศึกษา หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาเทคโนโลยีการแปลงเป็นดิจิทัล ปริ",
+      "ญญาโท สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ สมัครเข้าศึกษาต่อ หลักสูตร แนวทางประกอบอาชีพ ผลลัพธ์การเรียนรู้ระดับหลักสูตร (PLO) ค่าธรรมเนียม"
+    ],
+    "en_ctxs": [],
+    "title_ctx": [
+      "สาขาวิชาเทคโนโลยีการแปลงเป็นดิจิทัล &#124; หลักสูตรที่เปิดสอน มหาวิทยาลัยแม่ฟ้าหลวง ข้ามไปยังเนื้อหาหลัก A- A+ th en หน้าแรก หลักสูตรที่เปิดสอน ปริญญาตรี ปริญญาบัณฑิต ปริญ",
+      "ญาโท ปริญญาเอก ประกาศนียบัตร หลักสูตรระยะสั้น หลักสูตรบัณฑิตพันธุ์ใหม่ Foreign Students สำนักวิชา แนะนำหลักสูตร รับสมัครบุคคลเข้าศึกษา ปฏิทินการศึกษา หลักสูตรวิทยาศาสตรมหาบัณ",
+      "ริญญาโท สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ สมัครเข้าศึกษาต่อ หลักสูตร แนวทางประกอบอาชีพ ผลลัพธ์การเรียนรู้ระดับหลักสูตร (PLO) ค่าธรรมเนียม โครงสร้างหลักสูตร ข้อมูลอ้างอิง หลักสูตร ภาษาไทย: ",
+      "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาเทคโนโลยีการแปลงเป็นดิจิทัล ภาษาอังกฤษ: Master of Science Program in Digital Transformation Technology ชื่อปริญ",
+      "ญา ภาษาไทย: ชื่อเต็ม : วิทยาศาสตรมหาบัณฑิต (เทคโนโลยีการแปลงเป็นดิจิทัล) ชื่อย่อ : วท.ม. (เทคโนโลยีการแปลงเป็นดิจิทัล) ภาษาอังกฤษ: ชื่อเต็ม : Master of Science (D",
+      "l Transformation Technology) ปรัชญา / วัตถุประสงค์ ปรัชญาของหลักสูตร ความก้าวหน้าทางเทคโนโลยีในปัจจุบันได้มีการเปลี่ยนแปลงไปอย่างรวดเร็ว และมีผลกระทบ ต่อการเปลี่ยนแปลงพฤติกรรม รูปแบบธุรกิจ",
+      "แปลงทางเทคโนโลยีดิจิทัลที่กำลังจะเกิดขึ้นในปัจจุบันและอนาคต หลักสูตรนี้นำทฤษฎีการสร้างความรู้ของผู้เรียน คือ ปรัชญา Pragmatism โดยเน้น ทฤษฎี Re-Constructivist มาเป็นกรอบนำทางในการจัดการศึก",
+      "ษาของหลักสูตร โดยเชื่อว่า การเรียนรู้ หรือการสร้างความรู้ เป็นกระบวนการที่เกิดขึ้นภายในของผู้เรียน โดยที่ผู้เรียนเป็นผู้สร้างความรู้ "
+    ]
+  },
+  "compeng": {
+    "status": 200,
+    "bytes": 36420,
+    "school_ctxs": [
+      "ญญาเอก ประกาศนียบัตร หลักสูตรระยะสั้น หลักสูตรบัณฑิตพันธุ์ใหม่ Foreign Students สำนักวิชา แนะนำหลักสูตร รับสมัครบุคคลเข้าศึกษา ปฏิทินการศึกษา หลักสูตรวิศวกรรมศาสตรมหาบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ ปริญญาโท",
+      " สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ สมัครเข้าศึกษาต่อ หลักสูตร แนวทางประกอบอาชีพ ผลลัพธ์การเรียนรู้ระดับหลักสูตร (PLO) ค่าธรรมเนียม"
+    ],
+    "en_ctxs": []
+  },
+  "swu_courses_idx": {
+    "status": 200,
+    "bytes": 177523,
+    "n_course_links": 32,
+    "links": [
+      {
+        "title": "",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE1A;&#xE31;&#xE13;&#xE11;&#xE34;&#xE15;&#xE27;&#xE34;&#xE17;&#xE22;&#xE32;&#xE25;&#xE31;&#xE22;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE2A;&#xE31;&#xE07;&#xE01;&#xE31;&#xE14;&#xE1A;&#xE31;&#xE13;&#xE11;&#xE34;&#xE15;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE17;&#xE35;&#xE48;&#xE40;&#xE1B;&#xE34;&#xE14;&#xE2A;&#xE2D;&#xE19;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE04;&#xE13;&#xE32;&#xE08;&#xE32;&#xE23;&#xE22;&#xE4C;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE19;&#xE34;&#xE2A;&#xE34;&#xE15;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE01;&#xE32;&#xE23;&#xE2A;&#xE2D;&#xE1A;&#xE2A;&#xE21;&#xE34;&#xE17;&#xE18;&#xE34;&#xE20;&#xE32;&#xE1E;&#xE17;&#xE32;&#xE07;&#xE20;&#xE32;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE17;&#xE38;&#xE19;/&#xE27;&#xE34;&#xE08;&#xE31;&#xE22;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE28;&#xE39;&#xE19;&#xE22;&#xE4C;&#xE1E;&#xE31;&#xE12;&#xE19;&#xE32;&#xE28;&#xE31;&#xE01;&#xE22;&#xE20;&#xE32;&#xE1E;&#xE21;&#xE19;&#xE38;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE23;&#xE30;&#xE22;&#xE30;&#xE2A;&#xE31;&#xE49;&#xE19;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE42;&#xE04;&#xE23;&#xE07;&#xE01;&#xE32;&#xE23;&#xE1E;&#xE31;&#xE12;&#xE19;&#xE32;&#xE20;&#xE32;&#xE29;&#xE32;&#xE15;&#xE48;&#xE32;&#xE07;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "ENG I",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "ENG II",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "Advanced English I",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "Advanced English II",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE41;&#xE19;&#xE30;&#xE19;&#xE33;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE28;&#xE39;&#xE19;&#xE22;&#xE4C;&#xE1E;&#xE31;&#xE12;&#xE19;&#xE32;&#xE28;&#xE31;&#xE01;&#xE22;&#xE20;&#xE32;&#xE1E;&#xE21;&#xE19;&#xE38;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE17;&#xE31;&#xE49;&#xE07;&#xE2B;&#xE21;&#xE14;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE27;&#xE34;&#xE17;&#xE22;&#xE32;&#xE28;&#xE32;&#xE2A;&#xE15;&#xE23;&#xE21;&#xE2B;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE27;&#xE34;&#xE17;&#xE22;&#xE32;&#xE28;&#xE32;&#xE2A;&#xE15;&#xE23;&#xE21;&#xE2B;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE27;&#xE34;&#xE17;&#xE22;&#xE32;&#xE28;&#xE32;&#xE2A;&#xE15;&#xE23;&#xE21;&#xE2B;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE1B;&#xE23;&#xE31;&#xE0A;&#xE0D;&#xE32;&#xE14;&#xE38;&#xE29;&#xE0E;&#xE35;&#xE1A;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE27;&#xE34;&#xE17;&#xE22;&#xE32;&#xE28;&#xE32;&#xE2A;&#xE15;&#xE23;&#xE21;&#xE2B;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE1B;&#xE23;&#xE31;&#xE0A;&#xE0D;&#xE32;&#xE14;&#xE38;&#xE29;&#xE0E;&#xE35;&#xE1A;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE28;&#xE34;&#xE25;&#xE1B;&#xE28;&#xE32;&#xE2A;&#xE15;&#xE23;&#xE21;&#xE2B;&#xE32;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE23;&#xE32;&#xE22;&#xE27;&#xE34;&#xE0A;&#xE32;&#xE40;&#xE23;&#xE35;&#xE22;&#xE19;&#xE02;&#xE49;&#xE32;&#xE21;&#xE2A;&#xE16;&#xE32;&#xE1A;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE2A;&#xE31;&#xE07;&#xE01;&#xE31;&#xE14;&#xE1A;&#xE31;&#xE13;&#xE11;&#xE34;&#xE15;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE17;&#xE35;&#xE48;&#xE40;&#xE1B;&#xE34;&#xE14;&#xE2A;&#xE2D;&#xE19;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      },
+      {
+        "title": "&#xE01;&#xE32;&#xE23;&#xE2A;&#xE2D;&#xE1A;&#xE2A;&#xE21;&#xE34;&#xE17;&#xE18;&#xE34;&#xE20;&#xE32;&#xE1E;&#xE17;&#xE32;&#xE07;&#xE20;&#xE32;",
+        "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+      }
+    ]
+  },
+  "swu_cosci_hits": []
+}

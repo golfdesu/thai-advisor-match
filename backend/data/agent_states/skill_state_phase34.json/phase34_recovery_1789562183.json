@@ -1,0 +1,17 @@
+{
+  "session_id": "phase34_recovery_1789562183",
+  "target_university_th": "มหาวิทยาลัยมหิดล, มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+  "target_university_en": "Mahidol University, King Mongkut's University of Technology Thonburi",
+  "target_faculty_th": "Multi-Faculty Phase 34 Recovery (CMMU, FIBO)",
+  "target_faculty_en": "Multi-Faculty Phase 34 Recovery (CMMU, FIBO)",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 600,
+  "status": "initialized",
+  "last_error": null
+}

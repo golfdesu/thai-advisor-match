@@ -1,0 +1,75 @@
+{
+  "apply": false,
+  "purged_foreign_visiting": [
+    {
+      "id": "cu_cbs_wave11_0035",
+      "name": "ศ.ดร. Prof. Dr. Woon Oh Jung",
+      "university": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "email": "wjing@snu.ac.kr"
+    },
+    {
+      "id": "cu_cbs_wave11_0032",
+      "name": "ศ.ดร. Thomas Josef Otto Kirchmaier",
+      "university": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "email": "tk.ccg@cbs.dk"
+    }
+  ],
+  "reaffiliated_faculty": [
+    {
+      "old_id": "thaksinuni_facultyofm_sitthitikul_008",
+      "new_id": "tu_litu_sitthitikul_001",
+      "name": "รศ.ดร. ประกาศิต สิทธิ์ธิติกุล",
+      "old_uni": "มหาวิทยาลัยทักษิณ",
+      "new_uni": "มหาวิทยาลัยธรรมศาสตร์",
+      "new_faculty": "สถาบันภาษา",
+      "email": "pragasit.s@litu.tu.ac.th"
+    },
+    {
+      "old_id": "thammasatu_sirindhorn_chucherd_011",
+      "new_id": "mfu_it_chucherd_011",
+      "name": "ผศ.ดร. สิริกานต์ ชูเชิด",
+      "old_uni": "มหาวิทยาลัยธรรมศาสตร์",
+      "new_uni": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "new_faculty": "สำนักวิชาเทคโนโลยีสารสนเทศ",
+      "email": "sirikan@mfu.ac.th"
+    }
+  ],
+  "cleared_cross_emails": [
+    {
+      "id": "thammasatu_facultyofp_sakulpanich_026",
+      "name": "ผศ.ดร. ภญ. อรภา สกุลพาณิชย์",
+      "university": "มหาวิทยาลัยธรรมศาสตร์",
+      "cleared_email": "narong.sar@mahidol.ac.th"
+    },
+    {
+      "id": "thammasatu_facultyofe_vorapojpisut_001",
+      "name": "ผศ.ดร. ศุภชัย วรพจน์พิศุทธิ์",
+      "university": "มหาวิทยาลัยธรรมศาสตร์",
+      "cleared_email": "supachai.vo@kmitl.ac.th"
+    },
+    {
+      "id": "ubonratcha_facultyofa_jutagate_001",
+      "name": "ศ.ดร. ทวนทอง จุฑาเกตุ",
+      "university": "มหาวิทยาลัยอุบลราชธานี",
+      "cleared_email": "ffisttj@ku.ac.th"
+    },
+    {
+      "id": "thammasatu_facultyofp_suksriwong_002",
+      "name": "รศ.ดร. ภญ. ชะอรสิน สุขศรีวงศ์",
+      "university": "มหาวิทยาลัยธรรมศาสตร์",
+      "cleared_email": "chaoncin.ssw@mahidol.ac.th"
+    },
+    {
+      "id": "thammasatu_facultyofp_sarisut_027",
+      "name": "ศ. เกียรติคุณ ดร. ภก. ณรงค์ สาริสุต",
+      "university": "มหาวิทยาลัยธรรมศาสตร์",
+      "cleared_email": "narong.sar@mahidol.ac.th"
+    },
+    {
+      "id": "thammasatu_facultyofp_suwankoot_003",
+      "name": "รศ.ดร. ภก. อุทัย สุวรรณกูฏ",
+      "university": "มหาวิทยาลัยธรรมศาสตร์",
+      "cleared_email": "uthai.s@chula.ac.th"
+    }
+  ]
+}

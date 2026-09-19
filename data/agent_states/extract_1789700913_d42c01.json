@@ -1,0 +1,75 @@
+{
+  "session_id": "extract_1789700913_d42c01",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "King Mongkut's Institute of Technology Ladkrabang",
+  "target_faculty_th": "วิทยาลัยปิโตรเลียมและปิโตรเคมี",
+  "target_faculty_en": "School of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.ppc.chula.ac.th/"
+  ],
+  "failed_urls": [
+    "https://petroleum.chula.ac.th/",
+    "https://www.ppc.chula.ac.th/en/",
+    "https://www.chula.ac.th/en/academics/faculties-and-colleges/the-petroleum-and-petrochemical-college"
+  ],
+  "faculties": {
+    "kingmongku_schoolofen_supaphol_001": {
+      "id": "kingmongku_schoolofen_supaphol_001",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "School of Engineering",
+      "faculty_th": "วิทยาลัยปิโตรเลียมและปิโตรเคมี",
+      "department": "วิทยาลัยปิโตรเลียมและปิโตรเคมี",
+      "department_th": "วิทยาลัยปิโตรเลียมและปิโตรเคมี",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Pich",
+      "last_name": "Supaphol",
+      "full_name": "Pich Supaphol",
+      "full_name_th": "ศ.ดร. พิชญ์ ศุภผล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_schoolofen_chutipakdeewong_002": {
+      "id": "kingmongku_schoolofen_chutipakdeewong_002",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "School of Engineering",
+      "faculty_th": "วิทยาลัยปิโตรเลียมและปิโตรเคมี",
+      "department": "วิทยาลัยปิโตรเลียมและปิโตรเคมี",
+      "department_th": "วิทยาลัยปิโตรเลียมและปิโตรเคมี",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Jetsada",
+      "last_name": "Chutipakdeewong",
+      "full_name": "Jetsada Chutipakdeewong",
+      "full_name_th": "ดร. เจษฎา ชุติภักดีวงศ์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "พิชญ์ ศุภผล": "kingmongku_schoolofen_supaphol_001",
+    "เจษฎา ชุติภักดีวงศ์": "kingmongku_schoolofen_chutipakdeewong_002"
+  },
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 1855,
+  "status": "completed",
+  "last_error": null
+}

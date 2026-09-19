@@ -1,0 +1,18 @@
+{
+  "session_id": "course_1789726771_59b455",
+  "target_university_th": "มหาวิทยาลัยนเรศวร",
+  "target_university_en": "Naresuan University",
+  "target_faculty_th": "คณะวิทยาศาสตร์การแพทย์",
+  "target_faculty_en": "Faculty of Medical Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.medsci.nu.ac.th/?page_id=5903"
+  ],
+  "failed_urls": [],
+  "courses": {},
+  "dedup_title_keys": {},
+  "step_count": 1,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

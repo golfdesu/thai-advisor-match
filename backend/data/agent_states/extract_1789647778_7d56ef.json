@@ -1,0 +1,21 @@
+{
+  "session_id": "extract_1789647778_7d56ef",
+  "target_university_th": "มหาวิทยาลัยมหาสารคาม",
+  "target_university_en": "Mahasarakham University",
+  "target_faculty_th": "คณะสาธารณสุขศาสตร์",
+  "target_faculty_en": "Faculty of Public Health",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.msu.ac.th/"
+  ],
+  "failed_urls": [
+    "https://ph.msu.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 2701,
+  "status": "completed",
+  "last_error": null
+}

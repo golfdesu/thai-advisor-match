@@ -1,0 +1,1814 @@
+{
+  "apply": false,
+  "total_valid_email_items": 200,
+  "updated_emails": [
+    {
+      "id": "chula_eng_ee_033",
+      "full_name_th": "ดร. วัชรพงษ์ โควิดรุ่งโรจน์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+      "new_email": "watchara@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-watcharapong-khovidhungij-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0034",
+      "full_name_th": "ผศ. Pongsun Bunditsakulchai",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "pongsun.b@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-pongsun-bunditsakulchai-doctor-of-philosophy"
+    },
+    {
+      "id": "cu_eng_wave13_b_0027",
+      "full_name_th": "ผศ. Manop Kaewmoracharoen",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "manop.ka@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-manop-kaewmoracharoen-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0021",
+      "full_name_th": "ผศ. Veerayut Komolvilas",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "veerayut.k@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-veerayut-komolvilas-d-eng"
+    },
+    {
+      "id": "cu_eng_wave13_b_0007",
+      "full_name_th": "รศ. Chatpan Chintanapakdee",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "chatpan.c@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-chatpan-chintanapakdee-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0014",
+      "full_name_th": "รศ. Chayut Ngamkhanong",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "chayut.ng@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-chayut-ngamkhanong-doctor-of-philosophy"
+    },
+    {
+      "id": "cu_eng_wave13_b_0026",
+      "full_name_th": "รศ. Charinee Limsawasd",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "charinee.l@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-charinee-limsawasd-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0017",
+      "full_name_th": "รศ. Tirawat Boonyatee",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "tirawat.b@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-tirawat-boonyatee-d-eng"
+    },
+    {
+      "id": "cu_eng_wave13_b_0015",
+      "full_name_th": "รศ. Tidarut Wisuthseriwong",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "tidarut.w@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-tidarut-wisuthseriwong-doctor-of-philosophy"
+    },
+    {
+      "id": "cu_eng_wave13_b_0023",
+      "full_name_th": "รศ. Nakhon Kokkaew",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "nakhon.k@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-nakhon-kokkaew-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0025",
+      "full_name_th": "รศ. Noppadon Jokkaw",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "noppadon.j@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-noppadon-jokkaw-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0032",
+      "full_name_th": "รศ. Boonchai Sangpetngam",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "boonchai.sa@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-boonchai-sangpetngam-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0028",
+      "full_name_th": "รศ. Sorawit Narupiti",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "kong@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-sorawit-narupiti-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0009",
+      "full_name_th": "ศ. Jaroon Rungamornrat",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "jaroon.r@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-jaroon-rungamornrat-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0006",
+      "full_name_th": "ศ. Tospol Pinkaew",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "fcetpk@eng.chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-tospol-pinkaew-d-eng"
+    },
+    {
+      "id": "cu_eng_wave13_b_0005",
+      "full_name_th": "ศ. Thanyawat Pothisiri",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "thanyawat.p@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-thanyawat-pothisiri-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0003",
+      "full_name_th": "ศ. Teerapong Senjuntichai",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "fcetsj@eng.chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-teerapong-senjuntichai-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0011",
+      "full_name_th": "ศ. Withit Pansuk",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "withit.p@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-withit-pansuk-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0024",
+      "full_name_th": "ศ. Veerasak Likhitruangsilp",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "veerasak.l@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-veerasak-likhitruangsilp-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0030",
+      "full_name_th": "ศ. Saksith Chalermpong",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "saksith.c@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-saksith-chalermpong-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0019",
+      "full_name_th": "ศ. Suched Likitlersuang",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "fceslk@eng.chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-suched-likitlersuang-d-phil"
+    },
+    {
+      "id": "cu_eng_wave13_b_0010",
+      "full_name_th": "ศ. Akhrawat Lenwari",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "akhrawat.l@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-akhrawat-lenwari-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0008",
+      "full_name_th": "ศ. Anat Ruangrassamee",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "anat.r@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-anat-ruangrassamee-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0073",
+      "full_name_th": "ผศ. กนก วีรวงศ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "kanok.w@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-kanok-weerawong-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0074",
+      "full_name_th": "ผศ. กรวิก ตนักษรานนท์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "garavig.t@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-garavig-tanaksaranond-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0078",
+      "full_name_th": "ผศ. ชัยพร กิจประชา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "chaiyaporn.k@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-chaiyaporn-kitpracha-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0075",
+      "full_name_th": "ผศ. ชัยยุทธ เจริญผล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "chaiyut.c@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-chaiyut-charoenphon-%e0%b8%a7%e0%b8%b4%e0%b8%a8%e0%b8%a7%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%a8%e0%b8%b2%e0%b8%aa%e0%b8%95%e0%b8%a3%e0%b9%8c%e0%b8%94%e0%b8%b8%e0%b8%a9%e0%b8%8e"
+    },
+    {
+      "id": "cu_eng_wave13_0076",
+      "full_name_th": "ผศ. ปวัน ภิรมย์ทอง",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "pawan.p@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-pawan-piromthong-doctor-of-philosophy"
+    },
+    {
+      "id": "cu_eng_wave13_0077",
+      "full_name_th": "ผศ. วลัญซ์อร เอื้อรัตนวงศ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "valanon.u@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-valanon-uaratanawong-%e0%b8%a7%e0%b8%b4%e0%b8%a8%e0%b8%a7%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%a8%e0%b8%b2%e0%b8%aa%e0%b8%95%e0%b8%94%e0%b8%b8%e0%b8%a9%e0%b8%8e%e0%b8%b5%e0%b8%9a"
+    },
+    {
+      "id": "cu_eng_wave13_0072",
+      "full_name_th": "รศ. ธีทัต เจริญกาลัญญูตา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "teetat.c@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-teetat-charoenkalunyuta-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0071",
+      "full_name_th": "รศ. สรรเพชญ ชื้อนิธิไพศาล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "sanphet.c@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-sanphet-chunithipaisan-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0070",
+      "full_name_th": "ศ. เฉลิมชนม์ สถิระพจน์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "chalermchon.s@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-chalermchon-satirapod-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0080",
+      "full_name_th": "อ. ชัยโชค ไวภาษา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "chaichoke.v@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/chaichoke-viphasa-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0079",
+      "full_name_th": "อ. ธงทิศ ฉายากุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "thongthit.c@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/thongthit-chayakula-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0081",
+      "full_name_th": "อ. เทพชัย ศรีน้อย",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมสำรวจ",
+      "new_email": "thepchai.s@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/thepchai-srinoi"
+    },
+    {
+      "id": "cu_eng_wave13_0060",
+      "full_name_th": "ผศ.ดร. พิพัฒน์ เหล่าวัฒนบัณฑิต",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม",
+      "new_email": "pipat.l@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-pipat-laowattanabandit-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0061",
+      "full_name_th": "ผศ.ดร. ฟ้าลั่น ศรีสุริยชัย",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม",
+      "new_email": "falan.s@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-falan-srisuriyachai-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0062",
+      "full_name_th": "ผศ.ดร. อภิสิทธิ์ น้ำประสานไทย",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม",
+      "new_email": "apisit.nu@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-apisit-numprasanthai-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0066",
+      "full_name_th": "ดร. อรชนก จันทรสกุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม",
+      "new_email": "onchanok.j@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-onchanok-juntarasakul-doctor-of-engineering"
+    },
+    {
+      "id": "cu_eng_wave13_0063",
+      "full_name_th": "ผศ.ดร. เพชญ์ ภัคโชตานนท์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม",
+      "new_email": "pet.p@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-pet-pakchotanon-techarat-doctor-of-philosophy"
+    },
+    {
+      "id": "cu_eng_wave13_0068",
+      "full_name_th": "อ.ดร. ดาลัด ณ นคร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม",
+      "new_email": "dalad.n@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/dalad-na-nakorn-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0064",
+      "full_name_th": "ดร. ทศพล ไชยอนันต์สุจริต",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม",
+      "new_email": "thotsaphon.c@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/thotsaphon-chaianansutcharit-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0065",
+      "full_name_th": "ดร. ธีระยุทธ เพ็งสะอาด",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม",
+      "new_email": "theerayut.p@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/theerayut-phengsaart-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_0067",
+      "full_name_th": "ดร. พีท หอมชื่น",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเหมืองแร่และปิโตรเลียม",
+      "new_email": "peet.h@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/peet-homchuen-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0059",
+      "full_name_th": "ดร. จีรพงษ์ เหล่าน้ำใส",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมแหล่งน้ำ",
+      "new_email": "jeerapong.la@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-jeerapong-laonamsai-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0054",
+      "full_name_th": "ดร. บุศวรรณ บิดร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมแหล่งน้ำ",
+      "new_email": "butsawan.p@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-butsawan-bidorn-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0057",
+      "full_name_th": "ดร. ปิยธิดา เรืองรัศมี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมแหล่งน้ำ",
+      "new_email": "piyatida.h@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-piyatida-ruangrassamee-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0058",
+      "full_name_th": "ดร. ภวิสร ชื่นชุ่ม",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมแหล่งน้ำ",
+      "new_email": "pavisorn.c@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-pavisorn-chuenchum-doctor-of-philosophy"
+    },
+    {
+      "id": "cu_eng_wave13_b_0055",
+      "full_name_th": "ดร. อนุรักษ์ ศรีอริยวัฒน์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมแหล่งน้ำ",
+      "new_email": "anurak.s@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-anurak-sriariyawat-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0056",
+      "full_name_th": "ดร. สุภัทรา วิเศษศรี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมแหล่งน้ำ",
+      "new_email": "supattra.vi@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-supattra-visessri-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0045",
+      "full_name_th": "ดร. นภัสสวงศ์ โอสถศิลป์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "napassavong.o@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-napassavong-osothsilp-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0044",
+      "full_name_th": "ดร. นันทชัย กานตานันทะ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "nantachai.k@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-nantachai-kantanantha-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0050",
+      "full_name_th": "ดร. สัญญพงศ์ เพชรร่มโพธิ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "sanyapong.p@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-sanyapong-petchrompo-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0042",
+      "full_name_th": "ดร. อมรศิริ วิลาสเดชานนท์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "amonsiri.v@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-amonsiri-vilasdaechanont-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0048",
+      "full_name_th": "ผศ. ประเสริฐ อัครประถมพงศ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "prasert.a@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-prasert-akkharaprathomphong"
+    },
+    {
+      "id": "cu_eng_wave13_b_0047",
+      "full_name_th": "ผศ. ภูมิ เหลืองจามีกร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "poom.l@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/asst-prof-poom-luangjarmekorn"
+    },
+    {
+      "id": "cu_eng_wave13_b_0039",
+      "full_name_th": "ดร. ณัฏฐ์ ลีละวัฒน์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "natt.l@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-natt-leelawat-d-eng"
+    },
+    {
+      "id": "cu_eng_wave13_b_0040",
+      "full_name_th": "ดร. ปวีณา เชาวลิตวงศ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "paveena.c@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-paveena-chaovalitwongse-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0041",
+      "full_name_th": "ดร. วิภาวี ธรรมาภรณ์พิลาศ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "wipawee.t@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-wipawee-tharmmaphornphilas-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0036",
+      "full_name_th": "ดร. อริศรา เจียมสงวนวงศ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "arisara.j@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-arisara-jiamsanguanwong-d-eng"
+    },
+    {
+      "id": "cu_eng_wave13_b_0037",
+      "full_name_th": "รศ. หฤทัย โลหะศิริวัฒน์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "haruetai.l@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-haruetai-lohasiriwat"
+    },
+    {
+      "id": "cu_eng_wave13_b_0035",
+      "full_name_th": "ดร. สมเกียรติ ตั้งจิตสิตเจริญ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "somkiat.t@eng.chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-somkiat-tangsitcharoen-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0004",
+      "full_name_th": "รศ. Wattanachai Smittakorn",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "fcewsk@eng.chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-watanachai-smittakorn-ph-d"
+    },
+    {
+      "id": "thammasatu_facultyofe_kulwirojtham_021",
+      "full_name_th": "ผศ.ดร. ภรัญโรจน์ กุลวิโรจน์ธรรม",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "nsnitikarn@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/Pharanroj-Kulwirojtham"
+    },
+    {
+      "id": "thammasatu_facultyofe_takhom_033",
+      "full_name_th": "อ.ดร. อัครวุฒิ ตาคม",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "takkhara@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/akkharawoot-takhom"
+    },
+    {
+      "id": "thammasatu_facultyofe_boonmee_006",
+      "full_name_th": "อ.ดร. ชุมพล บุญมี",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "bchoompol@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/choompol-boonmee"
+    },
+    {
+      "id": "thammasatu_facultyofe_bunnjaweht_008",
+      "full_name_th": "ผศ.ดร. ดามพ์เมษ บุณยะเวศ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "dahmmaet@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/dahmmaet-bunnjaweht"
+    },
+    {
+      "id": "thammasatu_facultyofe_dejvises_004",
+      "full_name_th": "ผศ.ดร. จักราวุธ เดชวิเศษ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "djackrav@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/jackravut-dejvises"
+    },
+    {
+      "id": "thammasatu_facultyofe_chaicharn_003",
+      "full_name_th": "รศ.ดร. จรี ไชยชาญ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "cjarree@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/jarree-chaicharn"
+    },
+    {
+      "id": "thammasatu_facultyofe_silawarawet_002",
+      "full_name_th": "อ.ดร. กาญจนา ศิลาวราเวทย์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "skanchan@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/kanchana-silawarawet"
+    },
+    {
+      "id": "thammasatu_facultyofe_somyat_012",
+      "full_name_th": "อ. นาวิน สมญาติ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "snawin@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/nawin-somyat"
+    },
+    {
+      "id": "thammasatu_facultyofe_srisrisawang_013",
+      "full_name_th": "อ.ดร. นิธิกร ศรีศรีสว่าง",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "snitikor@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/nitikorn-srisrisawang"
+    },
+    {
+      "id": "thammasatu_facultyofe_uchaipichat_011",
+      "full_name_th": "รศ.ดร. นภดล อุชายภิชาติ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "unopadol@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/nopadol-uchaipichat"
+    },
+    {
+      "id": "thammasatu_facultyofe_tanthanuch_007",
+      "full_name_th": "รศ.ดร. ณัฐพงศ์ ตัณฑนุช",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "tanthanuch1@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/nutthaphong-tanthanuch"
+    },
+    {
+      "id": "thammasatu_facultyofe_nakmahachalasin_034",
+      "full_name_th": "รศ.ดร. ไพบูลย์ นาคมหาชลาสินธุ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "npaiboon@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/paiboon-nakmahachalasint"
+    },
+    {
+      "id": "thammasatu_facultyofe_thongkruer_022",
+      "full_name_th": "อ.ดร. ภัททิยา ทองเครือ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "tpattiya@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/pattiya-thongkruer"
+    },
+    {
+      "id": "thammasatu_facultyofe_kaewprapha_020",
+      "full_name_th": "ผศ.ดร. พิศาล แก้วประภา",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "kphisan@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/phisan-kaewprapha2"
+    },
+    {
+      "id": "thammasatu_facultyofe_aree_019",
+      "full_name_th": "ศ.ดร. พิชัย อารีย์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "apichai@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/pichai-aree"
+    },
+    {
+      "id": "thammasatu_facultyofe_leelatien_016",
+      "full_name_th": "ผศ.ดร. พงษ์พันธ์ ลีลาเธียร",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "lpongpha@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/pongphan-leelatien"
+    },
+    {
+      "id": "thammasatu_facultyofe_mahachoklertwat_017",
+      "full_name_th": "อ.ดร. พงษ์ศักดิ์ มหาโชคเลิศวัฒนา",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "mpongsak@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/pongsak-mahachoklertwattana"
+    },
+    {
+      "id": "thammasatu_facultyofe_bhasaputra_018",
+      "full_name_th": "อ.ดร. พรระพีพัฒน์ ภาสบุตร",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "bporr@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/pornrapeepat-bhasaputra"
+    },
+    {
+      "id": "thammasatu_facultyofe_ovartchaiyapong_014",
+      "full_name_th": "ผศ.ดร. ปรีติ โอวาทชัยพงศ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "opreeti@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/preeti-ovartchaiyapong"
+    },
+    {
+      "id": "thammasatu_facultyofe_mitaim_031",
+      "full_name_th": "ศ.ดร. สัญญา มิตรเอม",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "msanya@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/sanya-mitaim"
+    },
+    {
+      "id": "thammasatu_facultyofe_chokchaitam_030",
+      "full_name_th": "รศ.ดร. สมชาติ โชคชัยธรรม",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "csomchar@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/somchart-chokchaitam"
+    },
+    {
+      "id": "thammasatu_facultyofe_prueksaaroon_028",
+      "full_name_th": "ผศ.ดร. ศุภกิจ พฤกษอรุณ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "psupakit@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/supakit-prueksaaroon"
+    },
+    {
+      "id": "thammasatu_facultyofe_supakwong_029",
+      "full_name_th": "รศ.ดร. ศุภวัฒน์ สุภัควงศ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "supawat@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/supawat-supakwong"
+    },
+    {
+      "id": "thammasatu_facultyofe_phetmanee_032",
+      "full_name_th": "อ.ดร. สุรศักดิ์ เพ็ชรมณี",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "psurasak@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/surasak-phetmanee"
+    },
+    {
+      "id": "thammasatu_facultyofe_kijkanjanarat_009",
+      "full_name_th": "ผศ.ดร. ทวีศักดิ์ กิจกาญจนารัตน์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "taweesak@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/taweesak-kijkanjanarat"
+    },
+    {
+      "id": "thammasatu_facultyofe_promsakanasakol_024",
+      "full_name_th": "อ. วชิรา พรหมสาขา ณ สกลนคร",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "pwachira@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/wachira-promsaka-na-sakolnakorn"
+    },
+    {
+      "id": "thammasatu_facultyofe_pijitrojana_025",
+      "full_name_th": "รศ.ดร. วันชัย ไพจิตโรจนา",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "pwanchai@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/wanchai-pijitrojana"
+    },
+    {
+      "id": "thammasatu_facultyofe_anotaipaiboon_027",
+      "full_name_th": "รศ.ดร. วีรชัย อโณทัยไพบูลย์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "wa@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/weerachai-anotaipaiboon"
+    },
+    {
+      "id": "thammasatu_facultyofe_asawamethapant_026",
+      "full_name_th": "รศ.ดร. วีรชัย อัศวเมธาพันธ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "aweerach@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/weerachai-asawamethapant"
+    },
+    {
+      "id": "thammasatu_facultyofe_chongjarearn_023",
+      "full_name_th": "อ.ดร. ยุทธนา จงเจริญ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์",
+      "new_email": "cyutana@engr.tu.ac.th",
+      "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/yutana-chongjarearn"
+    },
+    {
+      "id": "tu_eng_wave16_0019",
+      "full_name_th": "ดร. วีรยา ฉิมอ้อย",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา (วิศวกรรมธรณีเทคนิค)",
+      "new_email": "sweeraya@engr.tu.ac.th",
+      "profile_url": "https://ce.engr.tu.ac.th/staff/geotechnical-engineering"
+    },
+    {
+      "id": "tu_eng_wave16_0022",
+      "full_name_th": "ดร. ณฐกร พุกสุขสกุล",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา (วิศวกรรมขนส่ง)",
+      "new_email": "pnatakor@engr.tu.ac.th",
+      "profile_url": "https://ce.engr.tu.ac.th/staff/transportation-engineering"
+    },
+    {
+      "id": "tu_eng_wave16_0021",
+      "full_name_th": "ดร. สุนิสา สมิทธากร",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา (วิศวกรรมทรัพยากรน้ำ)",
+      "new_email": "ssunisa@engr.tu.ac.th",
+      "profile_url": "https://ce.engr.tu.ac.th/staff/water-resources-engineering"
+    },
+    {
+      "id": "tu_eng_wave16_0001",
+      "full_name_th": "อ. Wuttinan Nunkaew",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "nwuttinan@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0002",
+      "full_name_th": "อ. Samerjit Homrossukon",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "tsamerji@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0003",
+      "full_name_th": "อ. Busaba Phruksaphanrat",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "lbusaba@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0004",
+      "full_name_th": "อ. Warinthorn Kiadtikornthaweeyot Evans",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "kwarinth@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0005",
+      "full_name_th": "อ. Supamard Sujatanond",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "ssupamar@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0015",
+      "full_name_th": "อ. Jirarat Teeravaraprug",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "tjirarat@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0006",
+      "full_name_th": "อ. Chirattikan Srisook",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "schiratt@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0017",
+      "full_name_th": "อ. Danupun Visuwan",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "vdanupun@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0010",
+      "full_name_th": "อ. Tritos Laosirihongthong",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "ltritos@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0013",
+      "full_name_th": "อ. Naris Charoenporn",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "cnaris@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0008",
+      "full_name_th": "อ. Parichat Chuenwatanakul",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "cparicha@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0012",
+      "full_name_th": "อ. Pongchanun Luangpaiboon",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "lpongch@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0007",
+      "full_name_th": "อ. Rattawut Vongvit",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "vrattawut@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0009",
+      "full_name_th": "อ. Wararat Kangsumrith",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "swararat@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0016",
+      "full_name_th": "อ. Anintaya Khamkanya",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "kanintay@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0011",
+      "full_name_th": "อ. Apiwat Muttamara",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "mapiwat@engr.tu.ac.th",
+      "profile_url": "https://iem.engr.tu.ac.th/personnel/"
+    },
+    {
+      "id": "tu_eng_wave16_0020",
+      "full_name_th": "ดร. สุรภาพ แก้วสวัสดิ์วงศ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา (วิศวกรรมธรณีเทคนิค)",
+      "new_email": "ksurapap@engr.tu.ac.th",
+      "profile_url": "https://ce.engr.tu.ac.th/staff/geotechnical-engineering"
+    },
+    {
+      "id": "tu_eng_wave16_0018",
+      "full_name_th": "อ.ดร. ดิเรก นวลสิงห์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล (ศูนย์พัทยา)",
+      "new_email": "ndirek@engr.tu.ac.th",
+      "profile_url": "https://me.engr.tu.ac.th/staff/professor_pattaya"
+    },
+    {
+      "id": "ku_eng_wave12_0001",
+      "full_name_th": "ดร. Anusorn Seubsai",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengasn@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=anusorn-seubsai"
+    },
+    {
+      "id": "ku_eng_wave12_0002",
+      "full_name_th": "ดร. Manop Charoenchaitrakool",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengmnc@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=manop-charoenchaitrakool"
+    },
+    {
+      "id": "ku_eng_wave12_0003",
+      "full_name_th": "ดร. Kandis Sudsakorn",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengkdsk@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=kandis-sudsakorn"
+    },
+    {
+      "id": "ku_eng_wave12_0004",
+      "full_name_th": "ดร. Chalida Niamnuy",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengcdni@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=chalida-niamnuy"
+    },
+    {
+      "id": "ku_eng_wave12_0007",
+      "full_name_th": "ดร. Siripon Anantawaraskul",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengsia@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=siripon-anantawaraskul"
+    },
+    {
+      "id": "ku_eng_wave12_0005",
+      "full_name_th": "ดร. Thongchai Srinophakun",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengtcs@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=thongchai-srinophakun"
+    },
+    {
+      "id": "ku_eng_wave12_0009",
+      "full_name_th": "ดร. Attasak Jaree",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengasj@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=attasak-jaree"
+    },
+    {
+      "id": "ku_eng_wave12_0010",
+      "full_name_th": "ดร. Nanthiya Hansupalak",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengnyh@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=nanthiya-hansupalak"
+    },
+    {
+      "id": "ku_eng_wave12_0011",
+      "full_name_th": "ดร. Chanin Panjapornpon",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengcnp@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=chanin-panjapornpon"
+    },
+    {
+      "id": "ku_eng_wave12_0012",
+      "full_name_th": "ดร. Maythee Saisriyoot",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengmts@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=maythee-saisriyoot"
+    },
+    {
+      "id": "ku_eng_wave12_0013",
+      "full_name_th": "ดร. Paweena Prapainainar",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengpwn@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=paweena-prapainainar"
+    },
+    {
+      "id": "ku_eng_wave12_0015",
+      "full_name_th": "ดร. Supacharee Roddecha",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengsrro@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=supacharee-roddecha"
+    },
+    {
+      "id": "ku_eng_wave12_0016",
+      "full_name_th": "ดร. Viganda Varabuntoonvit",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengvgv@ku.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=viganda-varabuntoonvit"
+    },
+    {
+      "id": "ku_eng_wave12_0017",
+      "full_name_th": "ดร. Waleeporn Donphai",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengwod@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=waleeporn-donphai"
+    },
+    {
+      "id": "ku_eng_wave12_0018",
+      "full_name_th": "ดร. Phantisa Limleamthong",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengpsl@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=phantisa-limleamthong"
+    },
+    {
+      "id": "ku_eng_wave12_0019",
+      "full_name_th": "ดร. Nutchapon Chiarasumran",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengnpc@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=nutchapon-chiarasumran"
+    },
+    {
+      "id": "ku_eng_wave12_0020",
+      "full_name_th": "ดร. Preuk Tangpromphan",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengpet@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=preuk-tangpromphan"
+    },
+    {
+      "id": "ku_eng_wave12_0021",
+      "full_name_th": "ดร. Kulpavee Jitapunkul",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengkvj@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=kulpavee-jitapunkul"
+    },
+    {
+      "id": "ku_eng_wave12_0022",
+      "full_name_th": "ดร. Thidarat Imyen",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "thidarat.im@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=thidarat-imyen"
+    },
+    {
+      "id": "ku_eng_wave12_0023",
+      "full_name_th": "ดร. Khemmathin Lueangwattanapong",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "fengkhl@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=khemmathin-lueangwattanapong"
+    },
+    {
+      "id": "ku_eng_wave12_0024",
+      "full_name_th": "ดร. Suthasinee Watmanee",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "suthasinee.watm@ku.ac.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=suthasinee-watmanee"
+    },
+    {
+      "id": "ku_eng_wave12_0025",
+      "full_name_th": "ดร. Santi Bardeeniz",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเคมี",
+      "new_email": "santi.bard@ku.th",
+      "profile_url": "https://che.eng.ku.ac.th/prof-details.html?name=santi-bardeeniz"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_unban_003",
+      "full_name_th": "ผศ.ดร. กฤษฎา อุ่นบ้าน",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "kridsada.u@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10219"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_khumsap_005",
+      "full_name_th": "อ.ดร. ทับกฤช ขุมทรัพย์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "tabkrich.khumsap@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10214"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_siriwoharn_006",
+      "full_name_th": "ผศ.ดร. ธันยพร ศิริโวหาร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "thanyaporn.s@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10156"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_rattanapitigorn_007",
+      "full_name_th": "รศ.ดร. พนิดา รัตนปิติกรณ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "panida.r@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10072"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_intipunya_008",
+      "full_name_th": "ผศ.ดร. พิไลรัก อินธิปัญญา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "pilairuk.intipunya@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10070"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_jirarattanarang_010",
+      "full_name_th": "ผศ. วชิระ จิระรัตนรังษี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "wachira.j@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10075"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_klangpetchueno_011",
+      "full_name_th": "รศ.ดร. วรรณพร คลังเพชร อุเอโนะ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "wannaporn.u@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10203"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_baipong_012",
+      "full_name_th": "ผศ.ดร. ศศิธร ใบผ่อง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "sasitorn.bai@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10076"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_taesuwan_013",
+      "full_name_th": "ผศ.ดร. สิรภัทร แต่สุวรรณ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "siraphat.t@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10178"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_thuengtung_014",
+      "full_name_th": "อ.ดร. สุกัญญา ถึงทุ่ง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "sukanya.thu@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10250"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_jiamyangyuen_016",
+      "full_name_th": "รศ.ดร. สุดารัตน์ เจียมยั่งยืน",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "sudarat.j@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10230"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_rungchang_018",
+      "full_name_th": "ผศ.ดร. เสาวลักษณ์ รุ่งแจ้ง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "saowaluk.run@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10252"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_insomphun_019",
+      "full_name_th": "ผศ.ดร. ชญาน์ทิพ อินสมพันธ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "chayatip.i@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10171"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_yakul_020",
+      "full_name_th": "อ.ดร. กมล ยากูล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "kamon.y@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10227"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_moukamnerd_021",
+      "full_name_th": "ผศ.ดร. จุไรรัตน์ เม้ากำเนิด",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "churairat.m@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10151"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_techapun_022",
+      "full_name_th": "ศ. ปฏิบัติ ดร. ชรินทร์ เตชะพันธุ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "charin.t@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10048"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chaiyaso_023",
+      "full_name_th": "รศ.ดร. ทนงศักดิ์ ไชยาโส",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "thanongsak.c@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10083"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_panti_024",
+      "full_name_th": "ผศ.ดร. นิภาวรรณ ปันธิ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "niphawan.p@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10210"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_hanmoungjai_025",
+      "full_name_th": "ผศ.ดร. ประเสริฐ หาญเมืองใจ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "prasert.h@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10046"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_therdtatha_026",
+      "full_name_th": "อ.ดร. พัฒนพงศ์ เถิดตะถา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "phatthanaphong.th@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10211"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_seesuriyachan_027",
+      "full_name_th": "รศ.ดร. พิสิฐ ศรีสุริยจันทร์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "phisit.s@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10082"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_pratanaphon_028",
+      "full_name_th": "อ.ดร. รณชัย ปรารถนาผล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "ronachai.p@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10081"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sinsuwongwat_029",
+      "full_name_th": "อ.ดร. ศุภวัฒน์ สินสุวงศ์วัฒน์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "suphawat.s@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10079"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_jinsiriwanit_030",
+      "full_name_th": "ผศ.ดร. สิริวัฒน์ จินศิริวานิชย์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "siriwat.jin@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10146"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_rachtanapun_031",
+      "full_name_th": "ศ.ดร. พรชัย ราชตนะพันธุ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "pornchai.r@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10056"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_thongchai_034",
+      "full_name_th": "อ.ดร. เปรม ทองชัย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "prem.th@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10038"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_thiraphattaraph_035",
+      "full_name_th": "ผศ.ดร. ลินดา ถิรภัทรพันธ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "linda.t@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10102"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_thanakkasaranee_036",
+      "full_name_th": "ผศ.ดร. ศรินทร์ทิพย์ ธนัคฆเศรณี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "sarinthip.t@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10207"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sutthasupa_038",
+      "full_name_th": "รศ.ดร. สุทธิรา สุทธสุภา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "sutthira.s@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10120"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_maniyom_039",
+      "full_name_th": "ผศ.ดร. สุภเวท มานิยม",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "supavej.m@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10087"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_leksawasdi_040",
+      "full_name_th": "รศ.ดร. นพพล เล็กสวัสดิ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "noppol.l@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10052"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_poonnoy_042",
+      "full_name_th": "รศ.ดร. พูนพัฒน์ พูนน้อย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "poonpat.p@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10233"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_pathomrungsiyon_043",
+      "full_name_th": "ผศ.ดร. ภัทวรา ปฐมรังษิยังกุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "pattavara.p@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10051"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chalermchat_044",
+      "full_name_th": "ผศ.ดร. ยงยุทธ เฉลิมชาติ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "yongyut.c@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10085"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_muangrat_045",
+      "full_name_th": "รศ.ดร. รัตนา ม่วงรัตน์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "rattana.m@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10088"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_naruenartwongsa_046",
+      "full_name_th": "ผศ.ดร. ศรีสุวรรณ นฤนาทวงศ์สกุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "srisuwan.n@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10049"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_khiewnavawongsa_047",
+      "full_name_th": "ผศ.ดร. สรญา เขียวนาวาวงศ์ษา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "sorraya.k@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10128"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sukeawsamakradh_049",
+      "full_name_th": "รศ.ดร. รชนิภาส สุแก้ว สมัครธำรงไทย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "rajnibhas.s@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10213"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chaisu_050",
+      "full_name_th": "ผศ.ดร. กรวิทย์ ไชยสุ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "korawit.chaisu@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10245"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_suthapakti_051",
+      "full_name_th": "ผศ.ดร. กัญญรัตน์ สุทธภักติ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "kanyarat.s@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10095"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_baingew_052",
+      "full_name_th": "ผศ.ดร. ชิตาพัณณ์ ใบงิ้ว",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "shitapan.b@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10168"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_utamaang_053",
+      "full_name_th": "รศ.ดร. นิรมล อุตมอ่าง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "niramon.u@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10055"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chompoorattridt_054",
+      "full_name_th": "ผศ.ดร. ปวาลี ชมภูรัตน์ ธฤติธนเกียรติ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "pavalee.t@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10224"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_walter_056",
+      "full_name_th": "ผศ.ดร. พรจันทร์ วอลเตอร์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "ponjan.p@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10198"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_setthaya_057",
+      "full_name_th": "อ.ดร. พัฒธาวินท์ เสทธะยะ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "phatthawin.l@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10247"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sriwattana_060",
+      "full_name_th": "รศ.ดร. สุจินดา ศรีวัฒนะ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "sujinda.s@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10053"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_surawang_061",
+      "full_name_th": "ผศ.ดร. สุทัศน์ สุระวัง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "suthat.s@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10054"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_rakariyatham_065",
+      "full_name_th": "ผศ.ดร. กันยาศิริ รักอริยะธรรม",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "kanyasiri.r@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10197"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_laokuldilok_066",
+      "full_name_th": "รศ.ดร. ธรรณพ เหล่ากุลดิลก",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "thunnop.l@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10124"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_charoennapharat_067",
+      "full_name_th": "อ.ดร. ธีระศักดิ์ เจริญนภารัตน์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "teerasak.ch@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10246"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_braspaiboon_069",
+      "full_name_th": "ผศ.ดร. สุกัลย์ บรัศไพบูลย์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "sukan.bras@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10232"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_yarnpakdee_070",
+      "full_name_th": "ผศ.ดร. สุธาสินี ญาณภักดี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "suthasinee.y@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10162"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_karnjanapratum_071",
+      "full_name_th": "รศ.ดร. สุพัตรา กาญจนประทุม",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "supatra.ka@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10231"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_jaisan_072",
+      "full_name_th": "ผศ.ดร. ชลาลัย ใจแสน",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "chalalai.jai@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN30002"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chakrabandhu_073",
+      "full_name_th": "ผศ.ดร. ม.ล. ญาศินี จักรพันธุ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "yasinee.c@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10123"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_fac_074_074",
+      "full_name_th": "ผศ.ดร. พิมลพรรณ แก้วประจุ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": null,
+      "new_email": "pimonpan.k@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN30003"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_klinmalai_075",
+      "full_name_th": "ผศ.ดร. ภัทรานิษฐ์ กลิ่นมาลัย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "phatthranit.k@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN30006"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chanpuypetch_076",
+      "full_name_th": "รศ.ดร. วิรัชญา จันพายเพ็ชร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "wirachchaya.c@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN30007"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_wangtueai_077",
+      "full_name_th": "ศ.ดร. สุธี วังเตือย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "sutee.w@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10154"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_saengyo_078",
+      "full_name_th": "อ. สุวินัย แสงโย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "suwinai.s@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10263"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sittikho_079",
+      "full_name_th": "อ. อาคิรา สิทธิโก",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "akira.s@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN10264"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_surayot_080",
+      "full_name_th": "ผศ.ดร. อุทุมพร สุระยศ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "utoomporn.su@cmu.ac.th",
+      "profile_url": "https://www.agro.cmu.ac.th/mis2/personnel/pages/data_show3.php?id=PN30001"
+    },
+    {
+      "id": "cu_eng_wave13_b_0022",
+      "full_name_th": "รศ. Vachara Pheansupap",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "fcevps@eng.chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/assoc-prof-vachara-peansupap-ph-d"
+    },
+    {
+      "id": "cu_eng_wave13_b_0016",
+      "full_name_th": "ศ. Supot Techavorasinskul",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "supot.t@chula.ac.th",
+      "profile_url": "https://www.eng.chula.ac.th/th/staff/prof-supot-teachavorasinskun-d-eng"
+    }
+  ],
+  "names_repaired": [
+    {
+      "id": "tu_eng_wave16_0018",
+      "old_name": "อ.ดร. ดิเรก",
+      "repaired_name": "อ.ดร. ดิเรก นวลสิงห์"
+    }
+  ],
+  "embedding_texts_rebuilt": 100
+}

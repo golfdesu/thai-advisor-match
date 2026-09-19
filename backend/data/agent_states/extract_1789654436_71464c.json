@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789654436_71464c",
+  "target_university_th": "สถาบันวิจัยจุฬาภรณ์",
+  "target_university_en": "Chulabhorn Royal Academy",
+  "target_faculty_th": "ราชวิทยาลัยจุฬาภรณ์",
+  "target_faculty_en": "Chulabhorn Royal Academy",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.cra.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 2844,
+  "status": "completed",
+  "last_error": null
+}

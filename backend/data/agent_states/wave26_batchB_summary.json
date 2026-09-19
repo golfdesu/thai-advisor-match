@@ -1,0 +1,77 @@
+{
+ "mju_fishery": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_mju_fishery_export.py",
+  "portal_finding": "www.mju.ac.th root=398B JS shell; personnel_page .html=JS nav shell, 0 academic density static+browser; moved-host personnel.mju.ac.th=HR-office site (forms/POST searchperson.php, person.php 0 titles); no GET roster for fishery (dead fishery.mju.ac.th)."
+ },
+ "mju_animal": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_mju_animal_export.py",
+  "portal_finding": "Same as fishery: portal personnel shells have 0 staff content; personnel.mju.ac.th HR-only, 0 titles on person/structure pages; no GET roster for animal unit (dead animal.mju.ac.th)."
+ },
+ "mju_energy": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_mju_energy_export.py",
+  "portal_finding": "Same: no static/browser staff content on portal personnel pages; HR site has no rosters; no erdi/energy roster path (dead erdi.mju.ac.th, energy.mju.ac.th)."
+ },
+ "mfu_chinese": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_mfu_chinese_export.py",
+  "portal_finding": "www.mfu.ac.th returns identical 21.3KB JS shell on every path (static+browser, 0 density, 0 staff links, only asset links); school subdomain dead; no staff directory discoverable."
+ },
+ "mfu_liberalarts": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_mfu_liberalarts_export.py",
+  "portal_finding": "Same MFU shell on all paths; 0 staff links static+browser; sla/arts/liberal-arts subdomains dead."
+ },
+ "mfu_antiaging": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_mfu_antiaging_export.py",
+  "portal_finding": "Same MFU shell; 0 staff links; longevity subdomain dead."
+ },
+ "msu_ph": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_msu_ph_export.py",
+  "portal_finding": "www.msu.ac.th rich WP portal (206 links) but roster links are executive-only (ทำเนียบนายก/อธิการบดี, สภาคณาจารย์); no faculty/staff roster links; ph.msu.ac.th dead."
+ },
+ "msu_finearts": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_msu_finearts_export.py",
+  "portal_finding": "Same: portal has no staff roster links, only exec lists + curriculum group pages; finearts.msu.ac.th dead."
+ },
+ "up_energy": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_up_energy_export.py",
+  "portal_finding": "Moved-host discovered: bare up.ac.th portal (324KB/139 links; www=950B shell) + personnel.up.ac.th (HR office, personnel1-6.aspx=office staff, no school rosters). No energy-school staff links; energy/sce subdomains dead. HR lists excluded per anti-hallucination (wrong unit)."
+ },
+ "ubu_sci": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_ubu_sci_export.py",
+  "portal_finding": "cli_runner static on UBU2025+index.php (3 steps, +jobs.ubu.ac.th discovered): 0 verified, pages are news/marketing shells; faculty .php subpages bot-blocked (55B static+browser); sci.ubu.ac.th DNS fail."
+ },
+ "nu_sci": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_nu_sci_export.py",
+  "portal_finding": "Moved-host roster system found via browser: www.sci.nu.ac.th renders dept rosters (?page=department&id=..&emp=.., faculty/faculty2, math/chem/physics subsites). spa --browser 4 seeds: 0 verified (rendered chunks yielded no extractable profiles; likely JS-paginated listings need interaction)."
+ },
+ "psu_phuket_env": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_psu_phuket_env_export.py",
+  "portal_finding": "Portal unreachable from this network: www/psu.ac.th, bare, phuket/pn campus hosts all fail http+https (DNS/conn fail); no staff links discoverable statically."
+ },
+ "psu_phuket_comp": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_psu_phuket_comp_export.py",
+  "portal_finding": "Same PSU network unreachable; no staff links discoverable."
+ },
+ "psu_pattani_polsci": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_psu_pattani_polsci_export.py",
+  "portal_finding": "Same PSU network unreachable; no staff links discoverable."
+ },
+ "psu_pattani_indus": {
+  "verified": 0,
+  "export": "backend/data/agent_states/wave26_psu_pattani_indus_export.py",
+  "portal_finding": "Same PSU network unreachable; no staff links discoverable."
+ }
+}

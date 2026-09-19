@@ -1,0 +1,17 @@
+{
+  "session_id": "phase30_recovery_1789548587",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย, มหาวิทยาลัยเกษตรศาสตร์",
+  "target_university_en": "Chulalongkorn University, Kasetsart University",
+  "target_faculty_th": "Multi-Faculty Phase 30 Recovery",
+  "target_faculty_en": "Multi-Faculty Phase 30 Recovery",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 125,
+  "status": "initialized",
+  "last_error": null
+}

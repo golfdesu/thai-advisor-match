@@ -1,0 +1,61 @@
+{
+  "mode": "DRY-RUN",
+  "total_candidates": 5,
+  "valid_candidates": 5,
+  "rejected_candidates": 0,
+  "updated_emails": [
+    {
+      "id": "cu_eng_wave13_b_0052",
+      "full_name_th": "ดร. พงษ์ศักดิ์ สุทธินนท์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมแหล่งน้ำ",
+      "new_email": "pongsak.su@chula.ac.th",
+      "profile_url": "https://water.eng.chula.ac.th/faculty/",
+      "cluster": "Chula Water Resources Engineering"
+    },
+    {
+      "id": "cu_eng_wave13_b_0060",
+      "full_name_th": "ดร. ธนวัฒน์ ตั้งจารุศรีธนาธร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมแหล่งน้ำ",
+      "new_email": "tanawat.ta@chula.ac.th",
+      "profile_url": "https://water.eng.chula.ac.th/faculty/",
+      "cluster": "Chula Water Resources Engineering"
+    },
+    {
+      "id": "ku_eng_cpe_004",
+      "full_name_th": "รศ.ดร. พันธุ์ปิติ เปี่ยมสง่า",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "pp@ku.ac.th",
+      "profile_url": "https://cpe.ku.ac.th/index.php/teacher-information/?id=213",
+      "cluster": "Kasetsart Computer Engineering"
+    },
+    {
+      "id": "cu_ahs_wave15_0017",
+      "full_name_th": "อ.ดร. กภ. ปวัน ชัยปริญญา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสหเวชศาสตร์",
+      "department_th": "ภาควิชาของคณะฯ",
+      "new_email": "pawan.c@chula.ac.th",
+      "profile_url": "https://www.ahs.chula.ac.th/academic-staff/pawan-chaiparinya/",
+      "cluster": "Chula Allied Health Sciences"
+    },
+    {
+      "id": "cu_cbs_wave11_0185",
+      "full_name_th": "ผศ.ดร. กรุง สินอภิรมย์สราญ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+      "department_th": "ภาควิชาคณิตศาสตร์และวิทยาการคอมพิวเตอร์",
+      "new_email": "krung.s@chula.ac.th",
+      "profile_url": "https://cbs.chula.ac.th/faculty",
+      "cluster": "Chula Science (Math & Computer Science)"
+    }
+  ],
+  "skipped_already_populated": [],
+  "not_found_in_db": [],
+  "embedding_texts_rebuilt": 1
+}

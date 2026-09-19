@@ -1,0 +1,31 @@
+{
+  "apply": true,
+  "purged_foreign_visiting": [],
+  "reaffiliated_faculty": [],
+  "cleared_cross_emails": [
+    {
+      "id": "thammasatu_facultyofp_sakulpanich_026",
+      "name": "ผศ.ดร. ภญ. อรภา สกุลพาณิชย์",
+      "university": "มหาวิทยาลัยธรรมศาสตร์",
+      "cleared_email": null
+    },
+    {
+      "id": "thammasatu_facultyofp_suksriwong_002",
+      "name": "รศ.ดร. ภญ. ชะอรสิน สุขศรีวงศ์",
+      "university": "มหาวิทยาลัยธรรมศาสตร์",
+      "cleared_email": null
+    },
+    {
+      "id": "thammasatu_facultyofp_sarisut_027",
+      "name": "ศ. เกียรติคุณ ดร. ภก. ณรงค์ สาริสุต",
+      "university": "มหาวิทยาลัยธรรมศาสตร์",
+      "cleared_email": null
+    },
+    {
+      "id": "thammasatu_facultyofp_suwankoot_003",
+      "name": "รศ.ดร. ภก. อุทัย สุวรรณกูฏ",
+      "university": "มหาวิทยาลัยธรรมศาสตร์",
+      "cleared_email": null
+    }
+  ]
+}

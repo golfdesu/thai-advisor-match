@@ -1,0 +1,49 @@
+{
+  "session_id": "extract_1789639225_30e740",
+  "target_university_th": "มหาวิทยาลัยศิลปากร",
+  "target_university_en": "Silpakorn University",
+  "target_faculty_th": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+  "target_faculty_en": "Faculty of Information and Communication Technology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://ict.su.ac.th/?page_id=58",
+    "https://ict.su.ac.th/",
+    "https://www.su.ac.th/en/faculty/13",
+    "https://ict.su.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "silpakornu_facultyofi_eiamsaard_001": {
+      "id": "silpakornu_facultyofi_eiamsaard_001",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Information and Communication Technology",
+      "faculty_th": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+      "department": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+      "department_th": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Manop",
+      "last_name": "Eiamsa-ard",
+      "full_name": "Manop Eiamsa-ard",
+      "full_name_th": "ผศ. มานพ เอี่ยมสะอาด",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://ict.su.ac.th/?page_id=58",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "มานพ เอี่ยมสะอาด": "silpakornu_facultyofi_eiamsaard_001"
+  },
+  "dedup_emails": {},
+  "step_count": 4,
+  "total_tokens_used": 2616,
+  "status": "completed",
+  "last_error": null
+}

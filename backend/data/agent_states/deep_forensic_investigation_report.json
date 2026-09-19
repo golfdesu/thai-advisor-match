@@ -1,0 +1,2091 @@
+{
+  "shared_emails_same_person": [
+    {
+      "email": "watis@kku.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "kku_1dd5e0f1_2035",
+          "name": "อ.ดร. วาธิส ลีลาภัทร",
+          "cleaned_name": "วาธิส ลีลาภัทร",
+          "uni": "มหาวิทยาลัยขอนแก่น",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://cvs.enit.kku.ac.th/profile/107483"
+        },
+        {
+          "id": "khonkaenun_collegeofc_leelapatra_062",
+          "name": "อ.ดร. วทิศ ลีลาภัทร",
+          "cleaned_name": "วทิศ ลีลาภัทร",
+          "uni": "มหาวิทยาลัยขอนแก่น",
+          "fac": "วิทยาลัยการคอมพิวเตอร์",
+          "cites": 124,
+          "h_idx": 4,
+          "pubs": 13,
+          "openalex": "https://openalex.org/A5082510995",
+          "profile_url": "https://gear.kku.ac.th/index.php/staff"
+        }
+      ],
+      "sim": 81.4814814814815
+    },
+    {
+      "email": "skanch@kku.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "kku_eng_wave12_0020",
+          "name": "ศ.ดร. กาญจนา เศรษฐนันท์",
+          "cleaned_name": "กาญจนา เศรษฐนันท์",
+          "uni": "มหาวิทยาลัยขอนแก่น",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://cvs.enit.kku.ac.th/profile/103863"
+        },
+        {
+          "id": "kku_eng_kanchana_001",
+          "name": "รศ.ดร. กานดา เซษฐนันท์",
+          "cleaned_name": "กานดา เซษฐนันท์",
+          "uni": "มหาวิทยาลัยขอนแก่น",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 2285,
+          "h_idx": 27,
+          "pubs": 150,
+          "openalex": "https://openalex.org/A5072294176",
+          "profile_url": "https://en.kku.ac.th/staff/kanchana"
+        }
+      ],
+      "sim": 81.25
+    },
+    {
+      "email": "nipon.chat@cmu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cmu_cb0c6016_3425",
+          "name": "ศ. (เชี่ยวชาญพิเศษ)ดร. นพ. นิพนธ์ ฉัตรทิพากร",
+          "cleaned_name": "นิพนธ์ ฉัตรทิพากร",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://dept.med.cmu.ac.th/physiology/personnel-officer/"
+        },
+        {
+          "id": "cmu_med_nipon_001",
+          "name": "ศ.ดร. นพ. นิพนธ์ ฉัตรทิพากร",
+          "cleaned_name": "นพ. นิพนธ์ ฉัตรทิพากร",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะแพทยศาสตร์",
+          "cites": 19318,
+          "h_idx": 69,
+          "pubs": 757,
+          "openalex": "https://openalex.org/A5025939163",
+          "profile_url": "https://cert.med.cmu.ac.th/director"
+        }
+      ],
+      "sim": 89.47368421052632
+    },
+    {
+      "email": "piyarat.c@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chulalongk_facultyofv_chansiriporncha_169",
+          "name": "รศ.ดร. สพ.ญ. ปิยะรัตน์ จันทร์ศิริพรชัย",
+          "cleaned_name": "สพ.ญ. ปิยะรัตน์ จันทร์ศิริพรชัย",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "cites": 167,
+          "h_idx": 6,
+          "pubs": 37,
+          "openalex": "not_indexed",
+          "profile_url": null
+        },
+        {
+          "id": "chulalongk_facultyofv_fac_163_163",
+          "name": "รศ. สพ.ญ. ดร. ปิยะรัตน์ (ศุภชลัสถ์) จันทร์ศิริพรชัย",
+          "cleaned_name": "ปิยะรัตน์ (ศุภชลัสถ์) จันทร์ศิริพรชัย",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": null
+        }
+      ],
+      "sim": 73.52941176470588
+    },
+    {
+      "email": "sumpun.p@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chulalongk_facultyofv_thammacharoen_079",
+          "name": "อ. สัมพันธ์ ธรรมเจริญ",
+          "cleaned_name": "สัมพันธ์ ธรรมเจริญ",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": null
+        },
+        {
+          "id": "chulalongk_facultyofv_thamcharoen_068",
+          "name": "รศ. น.สพ. ดร. สัมพันธ์ ธรรมเจริญ",
+          "cleaned_name": "สัมพันธ์ ธรรมเจริญ",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 7,
+          "openalex": "not_indexed",
+          "profile_url": null
+        }
+      ],
+      "sim": 100.0
+    },
+    {
+      "email": "peter@tbs.tu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "tu_bus_tbs_018",
+          "name": "รศ.ดร. ปิเตอร์ รักธรรม",
+          "cleaned_name": "ปิเตอร์ รักธรรม",
+          "uni": "มหาวิทยาลัยธรรมศาสตร์",
+          "fac": "คณะพาณิชยศาสตร์และการบัญชี",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "http://tbs.tu.ac.th/staff/peter-ractham_th/"
+        },
+        {
+          "id": "tu_tbs_peter_001",
+          "name": "รศ.ดร. ปีเตอร์ รักธรรม",
+          "cleaned_name": "ปีเตอร์ รักธรรม",
+          "uni": "มหาวิทยาลัยธรรมศาสตร์",
+          "fac": "คณะพาณิชยศาสตร์และการบัญชี",
+          "cites": 2320,
+          "h_idx": 23,
+          "pubs": 100,
+          "openalex": "https://openalex.org/A5074213114",
+          "profile_url": "https://tbs.tu.ac.th/staff/peter-ractham"
+        }
+      ],
+      "sim": 93.33333333333333
+    },
+    {
+      "email": "wasu@kku.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "khonkaenun_collegeofc_chaopanon_061",
+          "name": "อ.ดร. วสุ เจ้าพนานนท์",
+          "cleaned_name": "วสุ เจ้าพนานนท์",
+          "uni": "มหาวิทยาลัยขอนแก่น",
+          "fac": "วิทยาลัยการคอมพิวเตอร์",
+          "cites": 44,
+          "h_idx": 1,
+          "pubs": 4,
+          "openalex": "https://openalex.org/A5016572987",
+          "profile_url": "https://gear.kku.ac.th/index.php/staff"
+        },
+        {
+          "id": "kku_5412fb44_5980",
+          "name": "อ.ดร. วสุ เชาว์พานนท์",
+          "cleaned_name": "วสุ เชาว์พานนท์",
+          "uni": "มหาวิทยาลัยขอนแก่น",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 1,
+          "openalex": "https://openalex.org/A5016868372",
+          "profile_url": "https://cvs.enit.kku.ac.th/profile/103358"
+        }
+      ],
+      "sim": 80.0
+    },
+    {
+      "email": "sirikan@mfu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mfu_it_chucherd_011",
+          "name": "ผศ.ดร. สิริกานต์ ชูเชิด",
+          "cleaned_name": "สิริกานต์ ชูเชิด",
+          "uni": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "fac": "สำนักวิชาเทคโนโลยีสารสนเทศ",
+          "cites": 20,
+          "h_idx": 2,
+          "pubs": 11,
+          "openalex": "not_indexed",
+          "profile_url": "https://itschool.mfu.ac.th/it-lecturer/"
+        },
+        {
+          "id": "mfu_sirikan_chucherd_1962",
+          "name": "ผศ.ดร. ศิริกานต์ ชูเชิด",
+          "cleaned_name": "ศิริกานต์ ชูเชิด",
+          "uni": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "fac": "สำนักวิชาเทคโนโลยีสารสนเทศ",
+          "cites": 20,
+          "h_idx": 2,
+          "pubs": 11,
+          "openalex": "https://openalex.org/A5072822328",
+          "profile_url": "https://docs.google.com/document/d/1-CM2oGDaud695XvfSL3rlxBBUavAMkLz5pR3ZYVnWRU/edit?usp=drive_link"
+        }
+      ],
+      "sim": 93.75
+    },
+    {
+      "email": "supawat@engr.tu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "thammasatu_facultyofe_supakwong_029",
+          "name": "รศ.ดร. ศุภวัฒน์ สุภัควงศ์",
+          "cleaned_name": "ศุภวัฒน์ สุภัควงศ์",
+          "uni": "มหาวิทยาลัยธรรมศาสตร์",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 16,
+          "h_idx": 3,
+          "pubs": 13,
+          "openalex": "https://openalex.org/A5081079247",
+          "profile_url": "https://ece.engr.tu.ac.th/lecturer/profile/supawat-supakwong"
+        },
+        {
+          "id": "tu_eng_001",
+          "name": "รศ.ดร. ศุภวัฒน์ สุภสิทธิ์",
+          "cleaned_name": "ศุภวัฒน์ สุภสิทธิ์",
+          "uni": "มหาวิทยาลัยธรรมศาสตร์",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://engr.tu.ac.th/faculty/detail/supawat"
+        }
+      ],
+      "sim": 72.22222222222221
+    },
+    {
+      "email": "marcin.toa@mahidol.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_collegeofm_szawelski_123",
+          "name": "อ. Marcin Szawelski",
+          "cleaned_name": "Marcin Szawelski",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/marcin-szawelski/"
+        },
+        {
+          "id": "mahidoluni_collegeofm_szawelski_213",
+          "name": "อ. Marcin Tomasz Szawelski",
+          "cleaned_name": "Marcin Tomasz Szawelski",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/marcin-szawelski/"
+        }
+      ],
+      "sim": 82.05128205128204
+    },
+    {
+      "email": "nipattra.d@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chulalongk_facultyofv_suwanprparin_172",
+          "name": "ผศ.ดร. สพ.ญ. นิภัทรา สวนไพรินทร์",
+          "cleaned_name": "สพ.ญ. นิภัทรา สวนไพรินทร์",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": null
+        },
+        {
+          "id": "chulalongk_facultyofv_fac_164_164",
+          "name": "ผศ. สพ.ญ. ดร. นิภัทรา (เทพวัลย์) สวนไพรินทร์",
+          "cleaned_name": "นิภัทรา (เทพวัลย์) สวนไพรินทร์",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": null
+        }
+      ],
+      "sim": 69.0909090909091
+    },
+    {
+      "email": "songsak.sri@mahidol.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_instituteo_srianujata_009",
+          "name": "รศ.ดร. ทรงศักดิ์ ศรีอนุชาต",
+          "cleaned_name": "ทรงศักดิ์ ศรีอนุชาต",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "สถาบันโภชนาการ",
+          "cites": 2359,
+          "h_idx": 8,
+          "pubs": 24,
+          "openalex": "https://openalex.org/A5038123591",
+          "profile_url": null
+        },
+        {
+          "id": "mu-ph-014_db2f3f",
+          "name": "ผศ.ดร. ทรงศักดิ์ ศรีมุสิกา",
+          "cleaned_name": "ทรงศักดิ์ ศรีมุสิกา",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "คณะสาธารณสุขศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://ph.mahidol.ac.th/faculty/songsak_srimusika"
+        }
+      ],
+      "sim": 78.94736842105263
+    },
+    {
+      "email": "jitladda.sak@mahidol.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_facultyofs_tsakdapipanich_011",
+          "name": "ศ.ดร. จิตลัดดา ศักดิ์ดาพิพานิช",
+          "cleaned_name": "จิตลัดดา ศักดิ์ดาพิพานิช",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": null
+        },
+        {
+          "id": "mu_sci_wave14_b_0019",
+          "name": "ศ.ดร. จิตต์ลัดดา ศักดาภิพาณิชย์",
+          "cleaned_name": "จิตต์ลัดดา ศักดาภิพาณิชย์",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 3761,
+          "h_idx": 34,
+          "pubs": 128,
+          "openalex": "https://openalex.org/A5106011841",
+          "profile_url": "https://science.mahidol.ac.th/expertise/search_th.php?q=%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%95%E0%B9%8C%E0%B8%A5%E0%B8%B1%E0%B8%94%E0%B8%94%E0%B8%B2%20%E0%B8%A8%E0%B8%B1%E0%B8%81%E0%B8%94%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B8%9E%E0%B8%B2%E0%B8%93%E0%B8%B4%E0%B8%8A%E0%B8%A2%E0%B9%8C"
+        }
+      ],
+      "sim": 77.55102040816327
+    },
+    {
+      "email": "piyanan.t@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chulalongk_facultyofv_taw_112",
+          "name": "รศ. น.สพ. ดร. ปิยนันท์ ทวีถาวรสวัสดิ์",
+          "cleaned_name": "ปิยนันท์ ทวีถาวรสวัสดิ์",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": null
+        },
+        {
+          "id": "chulalongk_facultyofv_taweethavonsawa_126",
+          "name": "ผศ.ดร. ปิยนันท์ ทวีถาวรสวัสดิ์",
+          "cleaned_name": "ปิยนันท์ ทวีถาวรสวัสดิ์",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "cites": 689,
+          "h_idx": 14,
+          "pubs": 76,
+          "openalex": "https://openalex.org/A5034908159",
+          "profile_url": null
+        }
+      ],
+      "sim": 100.0
+    },
+    {
+      "email": "suvich.kli@mahidol.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_collegeofm_klinsmith_057",
+          "name": "อ. Lalin Klinsmith",
+          "cleaned_name": "Lalin Klinsmith",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/suvich-klinsmith/"
+        },
+        {
+          "id": "mahidoluni_collegeofm_klinsmith_120",
+          "name": "อ. Suvich Klinsmith",
+          "cleaned_name": "Suvich Klinsmith",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/suvich-klinsmith/"
+        }
+      ],
+      "sim": 70.96774193548387
+    },
+    {
+      "email": "chatchawan.c@cmu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cmu-eng-011_00e66f",
+          "name": "ศ.ดร. ชัชวาลย์ ชัยวงศ์",
+          "cleaned_name": "ชัชวาลย์ ชัยวงศ์",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://env.eng.cmu.ac.th/people/chatchawan-chaiwong"
+        },
+        {
+          "id": "cmu_eng_department_chatchawan_66",
+          "name": "ผศ.ดร. ชัชวาลย์ ชัยชนะ",
+          "cleaned_name": "ชัชวาลย์ ชัยชนะ",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 1231,
+          "h_idx": 21,
+          "pubs": 122,
+          "openalex": "https://openalex.org/A5037622079",
+          "profile_url": "https://me.eng.cmu.ac.th/staff/38"
+        }
+      ],
+      "sim": 77.41935483870968
+    }
+  ],
+  "shared_emails_diff_person": [
+    {
+      "email": "sulakkana.noi@mfu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mfu_im_32453",
+          "name": "อ.ดร. พญ. สุลัคณา น้อยประเสริฐ",
+          "cleaned_name": "พญ. สุลัคณา น้อยประเสริฐ",
+          "uni": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "fac": "สำนักวิชาการแพทย์บูรณาการ",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://im.mfu.ac.th/en/im-staff/im-academic-staff/im-traditionalchinesemedicine.html"
+        },
+        {
+          "id": "mfu_integ_sulakkana_001",
+          "name": "รศ.ดร. สุลักขณา น้อยผา",
+          "cleaned_name": "สุลักขณา น้อยผา",
+          "uni": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "fac": "สำนักวิชาการแพทย์บูรณาการ",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://integmed.mfu.ac.th/staff/sulakkana"
+        }
+      ],
+      "sim": 56.41025641025641
+    },
+    {
+      "email": "kitt@kku.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "kku_dd282888_5274",
+          "name": "อ.ดร. กิตติ์ เธียรธโนปจัย",
+          "cleaned_name": "กิตติ์ เธียรธโนปจัย",
+          "uni": "มหาวิทยาลัยขอนแก่น",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://cvs.enit.kku.ac.th/profile/107471"
+        },
+        {
+          "id": "khonkaenun_collegeofc_tientanopajai_051",
+          "name": "อ.ดร. กฤต เที่ยงธรรมพจน์",
+          "cleaned_name": "กฤต เที่ยงธรรมพจน์",
+          "uni": "มหาวิทยาลัยขอนแก่น",
+          "fac": "วิทยาลัยการคอมพิวเตอร์",
+          "cites": 64,
+          "h_idx": 4,
+          "pubs": 13,
+          "openalex": "https://openalex.org/A5055521207",
+          "profile_url": "https://gear.kku.ac.th/index.php/staff"
+        }
+      ],
+      "sim": 43.24324324324324
+    },
+    {
+      "email": "somchai.p@cmu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chiangmaiu_facultyofl_preechasilpakul_006",
+          "name": "ศ. สมชาย ปรีชาศิลปกุล",
+          "cleaned_name": "สมชาย ปรีชาศิลปกุล",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะนิติศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": null
+        },
+        {
+          "id": "cmu-eng-019_080c1b",
+          "name": "ศ.ดร. สมชาย ปทุม",
+          "cleaned_name": "สมชาย ปทุม",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://ie.eng.cmu.ac.th/people/somchai-pathum"
+        }
+      ],
+      "sim": 57.14285714285714
+    },
+    {
+      "email": "narissara.e@cmu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cmu_eng_department_narissara_104",
+          "name": "รศ.ดร. นริศรา เอี่ยมคณิตชาติ",
+          "cleaned_name": "นริศรา เอี่ยมคณิตชาติ",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 234,
+          "h_idx": 10,
+          "pubs": 40,
+          "openalex": "https://openalex.org/A5040539984",
+          "profile_url": "https://cpe.eng.cmu.ac.th/lecturer-viewthai.php?view_id=Narissara"
+        },
+        {
+          "id": "camt-cmu-011_fb36c6",
+          "name": "ผศ.ดร. นริศรา เอี่ยมกาญจนาลัย",
+          "cleaned_name": "นริศรา เอี่ยมกาญจนาลัย",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "วิทยาลัยศิลปะ สื่อ และเทคโนโลยี",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.camt.cmu.ac.th/staff/narissara"
+        }
+      ],
+      "sim": 65.11627906976744
+    },
+    {
+      "email": "nattapong.p@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cu_sci_wave14_b_0025",
+          "name": "ศ.ดร. Nattapong Paiboonvorachat",
+          "cleaned_name": "Nattapong Paiboonvorachat",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 54,
+          "h_idx": 2,
+          "pubs": 3,
+          "openalex": "https://openalex.org/A5002897546",
+          "profile_url": "https://chem.sc.chula.ac.th/nattapong-paiboonvorachat/"
+        },
+        {
+          "id": "econ-cu-007_87289a",
+          "name": "รศ.ดร. ณัฐพงษ์ พัฒนพงษ์",
+          "cleaned_name": "ณัฐพงษ์ พัฒนพงษ์",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะเศรษฐศาสตร์",
+          "cites": 510,
+          "h_idx": 13,
+          "pubs": 80,
+          "openalex": "https://openalex.org/A5034982525",
+          "profile_url": "https://www.econ.chula.ac.th/faculty-members/nattapong-puttanapong"
+        }
+      ],
+      "sim": 4.878048780487809
+    },
+    {
+      "email": "pakorn.v@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cu_sci_wave14_b_0034",
+          "name": "รศ.ดร. Pakorn Varanusupakul",
+          "cleaned_name": "Pakorn Varanusupakul",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 1681,
+          "h_idx": 26,
+          "pubs": 67,
+          "openalex": "https://openalex.org/A5073482078",
+          "profile_url": "https://chem.sc.chula.ac.th/pakorn-varanusupakul/"
+        },
+        {
+          "id": "chulalongk_facultyofs_fac_006_006",
+          "name": "รศ.ดร. ปกรณ์ วรานุศุภากุล",
+          "cleaned_name": "ปกรณ์ วรานุศุภากุล",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://chem.sc.chula.ac.th/pakorn-varanusupakul/"
+        }
+      ],
+      "sim": 5.263157894736848
+    },
+    {
+      "email": "panuwat.p@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cu_sci_wave14_b_0037",
+          "name": "ศ.ดร. Panuwat Padungros",
+          "cleaned_name": "Panuwat Padungros",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 386,
+          "h_idx": 12,
+          "pubs": 36,
+          "openalex": "https://openalex.org/A5007535832",
+          "profile_url": "https://chem.sc.chula.ac.th/panuwat-padungros/"
+        },
+        {
+          "id": "chulalongk_facultyofs_fac_014_014",
+          "name": "ผศ.ดร. ภาณุวัฒน์ ผดุงรส",
+          "cleaned_name": "ภาณุวัฒน์ ผดุงรส",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://chem.sc.chula.ac.th/panuwat-padungros/"
+        }
+      ],
+      "sim": 6.060606060606055
+    },
+    {
+      "email": "patchanita.v@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cu_sci_wave14_b_0039",
+          "name": "ศ.ดร. Patchanita Thamyongkit",
+          "cleaned_name": "Patchanita Thamyongkit",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 2081,
+          "h_idx": 25,
+          "pubs": 96,
+          "openalex": "https://openalex.org/A5035288545",
+          "profile_url": "https://chem.sc.chula.ac.th/patchanita-thamyongkit/"
+        },
+        {
+          "id": "chulalongk_facultyofs_fac_021_021",
+          "name": "ศ.ดร. พัชณิตา ธรรมยงค์กิจ",
+          "cleaned_name": "พัชณิตา ธรรมยงค์กิจ",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 1,
+          "openalex": "not_indexed",
+          "profile_url": "https://chem.sc.chula.ac.th/patchanita-thamyongkit/"
+        }
+      ],
+      "sim": 4.878048780487809
+    },
+    {
+      "email": "songsirin.rue@mail.kmutt.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "kmutt_a312d0b4_4097",
+          "name": "ผศ.ดร. ทรงสิรินธ์ เรืองวิเศษ",
+          "cleaned_name": "ทรงสิรินธ์ เรืองวิเศษ",
+          "uni": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/30-dr-songsirin-ruengvisesh"
+        },
+        {
+          "id": "kmutt_13ee518d_7562",
+          "name": "ผศ.ดร. นุจริน จงรุจา",
+          "cleaned_name": "นุจริน จงรุจา",
+          "uni": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/30-dr-songsirin-ruengvisesh"
+        }
+      ],
+      "sim": 29.411764705882348
+    },
+    {
+      "email": "siri.sra@mahidol.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_collegeofm_sirilertworakul_011",
+          "name": "ดร. ณรงค์ ศิริเลิศวรกุล",
+          "cleaned_name": "ณรงค์ ศิริเลิศวรกุล",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/siri-sranoi/"
+        },
+        {
+          "id": "mahidoluni_collegeofm_sranoi_115",
+          "name": "อ. Siri Sranoi",
+          "cleaned_name": "Siri Sranoi",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/siri-sranoi/"
+        }
+      ],
+      "sim": 6.666666666666665
+    },
+    {
+      "email": "krit@tbs.tu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "thammasatu_thammasatb_fac_051_051",
+          "name": "ผศ.ดร. พาณุวงศ์ คัมภิรารักษ์",
+          "cleaned_name": "พาณุวงศ์ คัมภิรารักษ์",
+          "uni": "มหาวิทยาลัยธรรมศาสตร์",
+          "fac": "คณะพาณิชยศาสตร์และการบัญชี",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://tbs.tu.ac.th/staff/head-department-of-operations/"
+        },
+        {
+          "id": "tu_bus_tbs_023",
+          "name": "ผศ.ดร. กฤษณ์ ปัทมะโรจน์",
+          "cleaned_name": "กฤษณ์ ปัทมะโรจน์",
+          "uni": "มหาวิทยาลัยธรรมศาสตร์",
+          "fac": "คณะพาณิชยศาสตร์และการบัญชี",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "http://tbs.tu.ac.th/staff/krit-pattamaroj_th/"
+        }
+      ],
+      "sim": 27.027027027027028
+    },
+    {
+      "email": "fagrkks@ku.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "ku-agro-012_882fb4",
+          "name": "ผศ.ดร. เกรียงไกร สุขห้อง",
+          "cleaned_name": "เกรียงไกร สุขห้อง",
+          "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+          "fac": "คณะอุตสาหกรรมเกษตร",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.agro.ku.ac.th/staff/detail.php?id=012"
+        },
+        {
+          "id": "ku_wave18_agrips_0045",
+          "name": "ผศ.ดร. กนกกร สินมา",
+          "cleaned_name": "กนกกร สินมา",
+          "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+          "fac": "คณะเกษตร กำแพงแสน",
+          "cites": 185,
+          "h_idx": 8,
+          "pubs": 20,
+          "openalex": "https://openalex.org/A5088662996",
+          "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560187"
+        }
+      ],
+      "sim": 21.42857142857143
+    },
+    {
+      "email": "numpon.i@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chulalongk_facultyofs_fac_017_017",
+          "name": "ผศ.ดร. นำพล อินสิน",
+          "cleaned_name": "นำพล อินสิน",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://chem.sc.chula.ac.th/numpon-insin/"
+        },
+        {
+          "id": "cu_sci_wave14_b_0031",
+          "name": "ศ.ดร. Numpon Insin",
+          "cleaned_name": "Numpon Insin",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 2838,
+          "h_idx": 18,
+          "pubs": 60,
+          "openalex": "https://openalex.org/A5074712462",
+          "profile_url": "https://chem.sc.chula.ac.th/numpon-insin/"
+        }
+      ],
+      "sim": 8.695652173913048
+    },
+    {
+      "email": "surgery.med@g.swu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "srinakha_facultyo_06bfc545",
+          "name": "รศ. นพ. ปริญญา อัครานุรักษ์กุล",
+          "cleaned_name": "นพ. ปริญญา อัครานุรักษ์กุล",
+          "uni": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+          "fac": "คณะแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://med.swu.ac.th/surgery/staff/"
+        },
+        {
+          "id": "srinakha_facultyo_6918d2c3",
+          "name": "รศ. นพ. ธวัชชัย ตุลวรรธนะ",
+          "cleaned_name": "นพ. ธวัชชัย ตุลวรรธนะ",
+          "uni": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+          "fac": "คณะแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://med.swu.ac.th/surgery/staff/"
+        }
+      ],
+      "sim": 17.021276595744684
+    },
+    {
+      "email": "hyuk.cha@mahidol.edu",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_collegeofm_jittipichayanan_059",
+          "name": "อ. Pichayasini Jittipichayanan",
+          "cleaned_name": "Pichayasini Jittipichayanan",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/dr-thomas-hyuk-cha/"
+        },
+        {
+          "id": "mahidoluni_collegeofm_cha_073",
+          "name": "ดร. Thomas Hyuk Cha",
+          "cleaned_name": "Thomas Hyuk Cha",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/dr-thomas-hyuk-cha/"
+        }
+      ],
+      "sim": 33.333333333333336
+    },
+    {
+      "email": "shyen.lee@mahidol.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_collegeofm_leeswadtrakul_006",
+          "name": "ดร. สมศักดิ์ ลีวัสดิ์ตระกูล",
+          "cleaned_name": "สมศักดิ์ ลีวัสดิ์ตระกูล",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 1,
+          "openalex": "https://openalex.org/A5062737647",
+          "profile_url": "https://www.music.mahidol.ac.th/people/shyen-lee/"
+        },
+        {
+          "id": "mahidoluni_collegeofm_lee_151",
+          "name": "อ. Shyen Lee",
+          "cleaned_name": "Shyen Lee",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://www.music.mahidol.ac.th/people/shyen-lee/"
+        }
+      ],
+      "sim": 6.25
+    },
+    {
+      "email": "sujin@su.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "su_eng_teacher_079",
+          "name": "ผศ.ดร. สุจินต์ วุฒิชัยวัฒน์",
+          "cleaned_name": "สุจินต์ วุฒิชัยวัฒน์",
+          "uni": "มหาวิทยาลัยศิลปากร",
+          "fac": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 1,
+          "openalex": null,
+          "profile_url": "https://www.eng.su.ac.th/department_teacher_portfolio.php?id=79"
+        },
+        {
+          "id": "su_eng_teacher_090",
+          "name": "อ.ดร. สิทธิชัย แซ่เหล่ม",
+          "cleaned_name": "สิทธิชัย แซ่เหล่ม",
+          "uni": "มหาวิทยาลัยศิลปากร",
+          "fac": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://www.eng.su.ac.th/department_teacher_portfolio.php?id=90"
+        }
+      ],
+      "sim": 27.027027027027028
+    },
+    {
+      "email": "patipat@su.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "su_eng_teacher_125",
+          "name": "ผศ.ดร. เพ็ญพิสุทธิ์ ทองหยวก",
+          "cleaned_name": "เพ็ญพิสุทธิ์ ทองหยวก",
+          "uni": "มหาวิทยาลัยศิลปากร",
+          "fac": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://www.eng.su.ac.th/department_teacher_portfolio.php?id=125"
+        },
+        {
+          "id": "su_eng_teacher_066",
+          "name": "ผศ. ปฏิพัทธ์ หงษ์สุวรรณ",
+          "cleaned_name": "ปฏิพัทธ์ หงษ์สุวรรณ",
+          "uni": "มหาวิทยาลัยศิลปากร",
+          "fac": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 2,
+          "openalex": null,
+          "profile_url": "https://www.eng.su.ac.th/department_teacher_portfolio.php?id=66"
+        }
+      ],
+      "sim": 20.512820512820518
+    },
+    {
+      "email": "treetip.boo@mahidol.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_collegeofm_boonyam_080",
+          "name": "ผศ.ดร. Treetip Boonyam",
+          "cleaned_name": "Treetip Boonyam",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 3,
+          "h_idx": 1,
+          "pubs": 7,
+          "openalex": "https://openalex.org/A5059154249",
+          "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-treetip-boonyam/"
+        },
+        {
+          "id": "mahidoluni_collegeofm_boonyam_035",
+          "name": "ผศ.ดร. เตรทิพย์ บุญแย้ม",
+          "cleaned_name": "เตรทิพย์ บุญแย้ม",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-treetip-boonyam/"
+        }
+      ],
+      "sim": 6.451612903225811
+    },
+    {
+      "email": "joseph.bow@mahidol.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_collegeofm_bowman_143",
+          "name": "ผศ.ดร. Joseph Bowman",
+          "cleaned_name": "Joseph Bowman",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 50,
+          "h_idx": 4,
+          "pubs": 20,
+          "openalex": "https://openalex.org/A5073106839",
+          "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-joseph-bowman/"
+        },
+        {
+          "id": "mahidoluni_collegeofm_bowman_036",
+          "name": "ผศ.ดร. โจเซฟ แอล. บาวแมน",
+          "cleaned_name": "โจเซฟ แอล. บาวแมน",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/asst-prof-dr-joseph-bowman/"
+        }
+      ],
+      "sim": 6.666666666666665
+    },
+    {
+      "email": "korakot.n@cmu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chiangmaiu_facultyofv_nganvongpanit_001",
+          "name": "ศ. เชี่ยวชาญพิเศษ ดร. น.สพ. กรกฎ งานวงศ์พาณิชย์",
+          "cleaned_name": "เชี่ยวชาญพิเศษ ดร. น.สพ. กรกฎ งานวงศ์พาณิชย์",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "cites": 1876,
+          "h_idx": 25,
+          "pubs": 152,
+          "openalex": "https://openalex.org/A5015945178",
+          "profile_url": null
+        },
+        {
+          "id": "cmu-eng-006_75c670",
+          "name": "ผศ.ดร. กรกช นุชิต",
+          "cleaned_name": "กรกช นุชิต",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://civil.eng.cmu.ac.th/people/korakot-nuchit"
+        }
+      ],
+      "sim": 29.629629629629626
+    },
+    {
+      "email": "sanwasan@mju.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mju_755a9882_4790",
+          "name": "ผศ.ดร. แสนวสันต์ ยอดคำ",
+          "cleaned_name": "แสนวสันต์ ยอดคำ",
+          "uni": "มหาวิทยาลัยแม่โจ้",
+          "fac": "คณะวิศวกรรมและอุตสาหกรรมเกษตร",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://engineer.mju.ac.th/wtms_person.aspx?lang=th-TH&dep=31"
+        },
+        {
+          "id": "mju_7ff309f6_7735",
+          "name": "ผศ.ดร. นำพร ปัญโญใหญ่",
+          "cleaned_name": "นำพร ปัญโญใหญ่",
+          "uni": "มหาวิทยาลัยแม่โจ้",
+          "fac": "คณะวิศวกรรมและอุตสาหกรรมเกษตร",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 1,
+          "openalex": "https://openalex.org/A5122382677",
+          "profile_url": "https://engineer.mju.ac.th/wtms_person.aspx?lang=th-TH&dep=31"
+        }
+      ],
+      "sim": 20.68965517241379
+    },
+    {
+      "email": "nongyao.jam@mail.kmutt.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "kmutt_eng_cpe_017",
+          "name": "รศ.ดร. สุเทพ มาดารัศมี",
+          "cleaned_name": "สุเทพ มาดารัศมี",
+          "uni": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 105,
+          "h_idx": 6,
+          "pubs": 40,
+          "openalex": "https://openalex.org/A5081690665",
+          "profile_url": "https://www.cpe.kmutt.ac.th/th/staff/"
+        },
+        {
+          "id": "kmutt_eng_cpe_026",
+          "name": "อ.ดร. Mosiur Rahaman",
+          "cleaned_name": "Mosiur Rahaman",
+          "uni": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+          "fac": "คณะวิศวกรรมศาสตร์",
+          "cites": 786,
+          "h_idx": 12,
+          "pubs": 97,
+          "openalex": "https://openalex.org/A5056061503",
+          "profile_url": "https://www.cpe.kmutt.ac.th/th/staff/"
+        }
+      ],
+      "sim": 6.896551724137934
+    },
+    {
+      "email": "fsciwcp@ku.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "ku_1d294c8e_2045",
+          "name": "รศ.ดร. วันชัย ปลื้มภาณุภัทร",
+          "cleaned_name": "วันชัย ปลื้มภาณุภัทร",
+          "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://maths.sci.ku.ac.th/ku-personnel/wanchai-pluempanupat/"
+        },
+        {
+          "id": "ku-sci-math-007_6f2b83",
+          "name": "ผศ.ดร. วิชัย ปิยรัตน์",
+          "cleaned_name": "วิชัย ปิยรัตน์",
+          "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.sci.ku.ac.th/faculty/wichai-piyarat"
+        }
+      ],
+      "sim": 41.17647058823529
+    },
+    {
+      "email": "natthaphat.s@cmu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cmu_2e9c8e48_6327",
+          "name": "อ. นพ. ณัฐภัทร ศิริอังกุล",
+          "cleaned_name": "นพ. ณัฐภัทร ศิริอังกุล",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 3,
+          "openalex": null,
+          "profile_url": "https://dept.med.cmu.ac.th/physiology/personnel-officer/"
+        },
+        {
+          "id": "cmu-nurse-017_4869dd",
+          "name": "ผศ.ดร. ณัฐภัทร ศรีคำ",
+          "cleaned_name": "ณัฐภัทร ศรีคำ",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะพยาบาลศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.nurse.cmu.ac.th/personnel/natthaphat"
+        }
+      ],
+      "sim": 57.14285714285714
+    },
+    {
+      "email": "sanong.e@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chulalongk_facultyofs_fac_007_007",
+          "name": "รศ.ดร. สนอง เอกสิทธิ์",
+          "cleaned_name": "สนอง เอกสิทธิ์",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://chem.sc.chula.ac.th/sanong-ekgasit/"
+        },
+        {
+          "id": "chula_sci_002_8742ad",
+          "name": "ศ.ดร. สนอง เอกล่าม",
+          "cleaned_name": "สนอง เอกล่าม",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 4158,
+          "h_idx": 36,
+          "pubs": 210,
+          "openalex": "https://openalex.org/A5034405883",
+          "profile_url": "https://www.chem.sc.chula.ac.th/staff/sanong-ekgasit"
+        }
+      ],
+      "sim": 61.53846153846154
+    },
+    {
+      "email": "siriwat.s@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chulalongk_facultyofv_sruatsong_093",
+          "name": "ผศ. น.สพ. ดร. ศิริวัฒน์ ทรวดทรง",
+          "cleaned_name": "ศิริวัฒน์ ทรวดทรง",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": null
+        },
+        {
+          "id": "chula_sci_014_d03e15",
+          "name": "อ.ดร. ศิริวัฒน์ โสมพันธ์",
+          "cleaned_name": "ศิริวัฒน์ โสมพันธ์",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.biology.sc.chula.ac.th/staff/siriwat-soamphan"
+        }
+      ],
+      "sim": 51.42857142857142
+    },
+    {
+      "email": "cooper.wri@mahidol.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_collegeofm_wright_150",
+          "name": "อ. Cooper Wright",
+          "cleaned_name": "Cooper Wright",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://www.music.mahidol.ac.th/people/cooper-wright/"
+        },
+        {
+          "id": "mahidoluni_collegeofm_cooper_031",
+          "name": "ผศ.ดร. เชลลีย์ มาร์ช คูเปอร์",
+          "cleaned_name": "เชลลีย์ มาร์ช คูเปอร์",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "วิทยาลัยดุริยางคศิลป์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.music.mahidol.ac.th/people/cooper-wright/"
+        }
+      ],
+      "sim": 5.882352941176472
+    },
+    {
+      "email": "tana.tac@mahidol.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mahidoluni_facultyofs_laowattanakul_100",
+          "name": "อ. ชัยวัฒน์ เหล่าวัฒนากุล",
+          "cleaned_name": "ชัยวัฒน์ เหล่าวัฒนากุล",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 1,
+          "openalex": "https://openalex.org/A5116803944",
+          "profile_url": null
+        },
+        {
+          "id": "mu_sci_wave14_b_0065",
+          "name": "ดร. ธน เตชะเลิศไพศาล",
+          "cleaned_name": "ธน เตชะเลิศไพศาล",
+          "uni": "มหาวิทยาลัยมหิดล",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 49,
+          "h_idx": 3,
+          "pubs": 7,
+          "openalex": "https://openalex.org/A5102850473",
+          "profile_url": "https://science.mahidol.ac.th/expertise/search_th.php?q=%E0%B8%98%E0%B8%99%20%E0%B9%80%E0%B8%95%E0%B8%8A%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%B4%E0%B8%A8%E0%B9%84%E0%B8%9E%E0%B8%A8%E0%B8%B2%E0%B8%A5"
+        }
+      ],
+      "sim": 31.57894736842105
+    },
+    {
+      "email": "anant@acc.chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cu_cbs_wave11_0147",
+          "name": "รศ. ศศนันท์ วิวัฒนชาต",
+          "cleaned_name": "ศศนันท์ วิวัฒนชาต",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะพาณิชยศาสตร์และการบัญชี",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://cbs.chula.ac.th/faculty"
+        },
+        {
+          "id": "cu_cbs_wave11_0238",
+          "name": "ดร. อ. ดร. อนันตณัฐ กันต์ธัญญรัตน์",
+          "cleaned_name": "อ. ดร. อนันตณัฐ กันต์ธัญญรัตน์",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะพาณิชยศาสตร์และการบัญชี",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://cbs.chula.ac.th/faculty"
+        }
+      ],
+      "sim": 29.78723404255319
+    },
+    {
+      "email": "surapong@as.nida.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "nida_as_001",
+          "name": "รศ.ดร. สุรพงษ์ อังคสกุลเกียรติ",
+          "cleaned_name": "สุรพงษ์ อังคสกุลเกียรติ",
+          "uni": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
+          "fac": "คณะสถิติประยุกต์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://as.nida.ac.th/faculty/surapong"
+        },
+        {
+          "id": "nida_surapong_auwatanamongkol_3811",
+          "name": "รศ.ดร. สุรพงค์ เอื้อวัฒนามงคล",
+          "cleaned_name": "สุรพงค์ เอื้อวัฒนามงคล",
+          "uni": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
+          "fac": "คณะสถิติประยุกต์",
+          "cites": 236,
+          "h_idx": 7,
+          "pubs": 22,
+          "openalex": "https://openalex.org/A5061106498",
+          "profile_url": "https://as.nida.ac.th/personnel/surapong-auwatanamongkol/"
+        }
+      ],
+      "sim": 53.333333333333336
+    },
+    {
+      "email": "fhumnrk@ku.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "ku_wave17_hum_0001",
+          "name": "ผศ. ณรงค์ เขียนทองกุล",
+          "cleaned_name": "ณรงค์ เขียนทองกุล",
+          "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+          "fac": "คณะมนุษยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=380007"
+        },
+        {
+          "id": "ku-hum-020_290f0d",
+          "name": "อ.ดร. ณรงค์ จารุงกิจกุล",
+          "cleaned_name": "ณรงค์ จารุงกิจกุล",
+          "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+          "fac": "คณะมนุษยศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.human.ku.ac.th/personnel/narong_jarungkitkul"
+        }
+      ],
+      "sim": 29.411764705882348
+    },
+    {
+      "email": "fscipph@ku.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "ku_313471a4_3624",
+          "name": "รศ.ดร. พิมพา หอมนิรันดร์",
+          "cleaned_name": "พิมพา หอมนิรันดร์",
+          "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pimpa-hormnirun/"
+        },
+        {
+          "id": "ku-sci-cs-002_cf7bc3",
+          "name": "รศ.ดร. พิพัฒน์ หิรัญวณิชกุล",
+          "cleaned_name": "พิพัฒน์ หิรัญวณิชกุล",
+          "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+          "fac": "คณะวิทยาศาสตร์",
+          "cites": 16,
+          "h_idx": 2,
+          "pubs": 6,
+          "openalex": "https://openalex.org/A5020627651",
+          "profile_url": "https://www.sci.ku.ac.th/faculty/pipat-hiranvanichakorn"
+        }
+      ],
+      "sim": 43.24324324324324
+    },
+    {
+      "email": "siriporn.sa@chula.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cu_ahs_wave15_0030",
+          "name": "ผศ.ดร. ศิริพร แสงสุธรรม",
+          "cleaned_name": "ศิริพร แสงสุธรรม",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะสหเวชศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://www.ahs.chula.ac.th/academic-staff/siriporn-sangsuthum/"
+        },
+        {
+          "id": "cu_sports_siriporn_001",
+          "name": "รศ.ดร. ศิริพร ศศิมณฑลกุล",
+          "cleaned_name": "ศิริพร ศศิมณฑลกุล",
+          "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "fac": "คณะวิทยาศาสตร์การกีฬา",
+          "cites": 242,
+          "h_idx": 5,
+          "pubs": 11,
+          "openalex": "https://openalex.org/A5045314771",
+          "profile_url": "https://spsc.chula.ac.th/staff/siriporn-sasimontonkul"
+        }
+      ],
+      "sim": 36.36363636363637
+    },
+    {
+      "email": "tosaphol@sut.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "sut_tosaphol_ratniyomchai_4553",
+          "name": "ศ.ดร. ทศพล รัตน์นิยมชัย",
+          "cleaned_name": "ทศพล รัตน์นิยมชัย",
+          "uni": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+          "fac": "สำนักวิชาวิศวกรรมศาสตร์",
+          "cites": 366,
+          "h_idx": 8,
+          "pubs": 49,
+          "openalex": "https://openalex.org/A5011229012",
+          "profile_url": "https://eng.sut.ac.th/ENG2023/personnel/tosaphol-ratniyomchai/"
+        },
+        {
+          "id": "sut_apinun_buritatum_6141",
+          "name": "อ.ดร. อภินันท์ บูริตธรรม",
+          "cleaned_name": "อภินันท์ บูริตธรรม",
+          "uni": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+          "fac": "สำนักวิชาวิศวกรรมศาสตร์",
+          "cites": 592,
+          "h_idx": 15,
+          "pubs": 50,
+          "openalex": "https://openalex.org/A5038383259",
+          "profile_url": "https://eng.sut.ac.th/ENG2023/personnel/apinun/"
+        }
+      ],
+      "sim": 22.857142857142854
+    },
+    {
+      "email": "fforpts@ku.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "ku_for_013_f91449",
+          "name": "ผศ.ดร. พิทักษ์ตระกูล ศรีพรม",
+          "cleaned_name": "พิทักษ์ตระกูล ศรีพรม",
+          "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+          "fac": "คณะวนศาสตร์",
+          "cites": 1,
+          "h_idx": 0,
+          "pubs": 3,
+          "openalex": "not_indexed",
+          "profile_url": "https://forest.ku.ac.th/personnel/phitaktrakul-sriprom"
+        },
+        {
+          "id": "ku_forest_wave15_0084",
+          "name": "ผศ.ดร. พสุธา สุนทรห้าว",
+          "cleaned_name": "พสุธา สุนทรห้าว",
+          "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+          "fac": "คณะวนศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://forest.ku.ac.th/personnel/"
+        }
+      ],
+      "sim": 17.14285714285714
+    },
+    {
+      "email": "teeravisit.lao@mfu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "mfu_it_teeravisit_001",
+          "name": "รศ.ดร. ธีรวิสิฏฐ์ เลาหพรหมดี",
+          "cleaned_name": "ธีรวิสิฏฐ์ เลาหพรหมดี",
+          "uni": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "fac": "สำนักวิชาเทคโนโลยีสารสนเทศ",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://it.mfu.ac.th/staff/teeravisit"
+        },
+        {
+          "id": "mfu_teeravisit_laohapensaeng_4118",
+          "name": "ผศ.ดร. ธีรวิศิฏฐ์ เลาหะเพ็ญแสง",
+          "cleaned_name": "ธีรวิศิฏฐ์ เลาหะเพ็ญแสง",
+          "uni": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "fac": "สำนักวิชาเทคโนโลยีสารสนเทศ",
+          "cites": 66,
+          "h_idx": 4,
+          "pubs": 24,
+          "openalex": "https://openalex.org/A5054814768",
+          "profile_url": "https://docs.google.com/document/d/1dtuGuLoxzETd_aIJXgnlECZaXN8VLuLt4ClgLS_ghOQ/edit?usp=drive_link"
+        }
+      ],
+      "sim": 68.18181818181819
+    },
+    {
+      "email": "chantima@sut.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "sut_chantima_deeprasertkul_9848",
+          "name": "ศ.ดร. จันทิมา ดีประเสริฐกุล",
+          "cleaned_name": "จันทิมา ดีประเสริฐกุล",
+          "uni": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+          "fac": "สำนักวิชาวิศวกรรมศาสตร์",
+          "cites": 14,
+          "h_idx": 1,
+          "pubs": 5,
+          "openalex": "https://openalex.org/A5023565611",
+          "profile_url": "https://eng.sut.ac.th/ENG2023/personnel/chantima-deeprasertkul/"
+        },
+        {
+          "id": "sut_eng_chantima_001",
+          "name": "รศ.ดร. จันทิมา บรรเย็น",
+          "cleaned_name": "จันทิมา บรรเย็น",
+          "uni": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+          "fac": "สำนักวิชาวิศวกรรมศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://ceramic.sut.ac.th/staff/chantima"
+        }
+      ],
+      "sim": 55.55555555555556
+    },
+    {
+      "email": "nittaya@sut.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "sut_eng_nittaya_001",
+          "name": "รศ.ดร. นิตยา เกิดเชื้อชื่น",
+          "cleaned_name": "นิตยา เกิดเชื้อชื่น",
+          "uni": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+          "fac": "สำนักวิชาวิศวกรรมศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://env.eng.sut.ac.th/staff/nittaya"
+        },
+        {
+          "id": "sut_nittaya_kerdprasop_8764",
+          "name": "รศ.ดร. นิตยา เกิดประสพ",
+          "cleaned_name": "นิตยา เกิดประสพ",
+          "uni": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+          "fac": "สำนักวิชาวิศวกรรมศาสตร์",
+          "cites": 1189,
+          "h_idx": 15,
+          "pubs": 144,
+          "openalex": "https://openalex.org/A5078033903",
+          "profile_url": "https://eng.sut.ac.th/ENG2023/personnel/nittaya-kerdprasop/"
+        }
+      ],
+      "sim": 58.82352941176471
+    },
+    {
+      "email": "prapun@sut.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "sut_sci_prapun_001",
+          "name": "ศ.ดร. ประพันธ์ แม่นยำ",
+          "cleaned_name": "ประพันธ์ แม่นยำ",
+          "uni": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+          "fac": "สำนักวิชาวิทยาศาสตร์",
+          "cites": 302,
+          "h_idx": 8,
+          "pubs": 18,
+          "openalex": "https://openalex.org/A5109246731",
+          "profile_url": "https://physics.sut.ac.th/staff/prapun"
+        },
+        {
+          "id": "sut_teetut_dolwichai_1031",
+          "name": "ศ.ดร. ธีทัต ดลวิชัย",
+          "cleaned_name": "ธีทัต ดลวิชัย",
+          "uni": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+          "fac": "สำนักวิชาวิศวกรรมศาสตร์",
+          "cites": 17,
+          "h_idx": 3,
+          "pubs": 12,
+          "openalex": "https://openalex.org/A5021577683",
+          "profile_url": "https://eng.sut.ac.th/ENG2023/personnel/teetut-dolwichai/"
+        }
+      ],
+      "sim": 14.28571428571429
+    },
+    {
+      "email": "kumropr@nu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "nu_agr_kumrop_001",
+          "name": "รศ.ดร. คำรพ รักษาศาสตร์",
+          "cleaned_name": "คำรพ รักษาศาสตร์",
+          "uni": "มหาวิทยาลัยนเรศวร",
+          "fac": "คณะเกษตรศาสตร์ ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://agi.nu.ac.th/staff/kumrop-raksasate"
+        },
+        {
+          "id": "nu_kumropr__8257",
+          "name": "รศ.ดร. คำรพ รัตนสุต",
+          "cleaned_name": "คำรพ รัตนสุต",
+          "uni": "มหาวิทยาลัยนเรศวร",
+          "fac": "คณะเกษตรศาสตร์ ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": null,
+          "profile_url": "https://ww2.agi.nu.ac.th/personnel/index.php?view=viewResearcher&userID=92&departID=2"
+        }
+      ],
+      "sim": 64.28571428571428
+    },
+    {
+      "email": "siriporn.c@cmu.ac.th",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cmu-law-0014_2b5111",
+          "name": "รศ.ดร. ศิริพร จันทร",
+          "cleaned_name": "ศิริพร จันทร",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะนิติศาสตร์",
+          "cites": 0,
+          "h_idx": 0,
+          "pubs": 0,
+          "openalex": "not_indexed",
+          "profile_url": "https://www.law.cmu.ac.th/profile/siriporn-chantorn"
+        },
+        {
+          "id": "cmu_bmei_siriporn_001",
+          "name": "ศ.ดร. ทพญ. ศิริพร ฉัตรทิพากร",
+          "cleaned_name": "ทพญ. ศิริพร ฉัตรทิพากร",
+          "uni": "มหาวิทยาลัยเชียงใหม่",
+          "fac": "คณะแพทยศาสตร์",
+          "cites": 11236,
+          "h_idx": 56,
+          "pubs": 559,
+          "openalex": "https://openalex.org/A5074956117",
+          "profile_url": "https://www.med.cmu.ac.th/dept/physiology/staff/siriporn-chattipakorn"
+        }
+      ],
+      "sim": 58.82352941176471
+    }
+  ],
+  "parentheses_records": [
+    {
+      "id": "cmu_58ee6d12_3751",
+      "name": "ศ. (เชี่ยวชาญพิเศษ)ดร. นพ. กิตติพันธุ์ ฤกษ์เกษม",
+      "uni": "มหาวิทยาลัยเชียงใหม่",
+      "fac": "คณะแพทยศาสตร์",
+      "email": null
+    },
+    {
+      "id": "cmu_cb0c6016_3425",
+      "name": "ศ. (เชี่ยวชาญพิเศษ)ดร. นพ. นิพนธ์ ฉัตรทิพากร",
+      "uni": "มหาวิทยาลัยเชียงใหม่",
+      "fac": "คณะแพทยศาสตร์",
+      "email": "nipon.chat@cmu.ac.th"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_158_158",
+      "name": "รศ. สพ.ญ. ดร. วรา (จันทร์ศิริศรี) พานิชเกรียงไกร",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "fac": "คณะสัตวแพทยศาสตร์",
+      "email": null
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_159_159",
+      "name": "รศ. ภญ. ดร. สุพัตรา (นวอภิศักดิ์) ศรีไชยรัตน์",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "fac": "คณะสัตวแพทยศาสตร์",
+      "email": null
+    },
+    {
+      "id": "cmu_6a741569_7688",
+      "name": "ศ. (เชี่ยวชาญพิเศษ)ทพญ. ดร. สิริพร ฉัตรทิพากร",
+      "uni": "มหาวิทยาลัยเชียงใหม่",
+      "fac": "คณะทันตแพทยศาสตร์",
+      "email": null
+    },
+    {
+      "id": "cmu_103fe821_4247",
+      "name": "ศ. (เชี่ยวชาญพิเศษ)ทพ. ดร. อะนัฆ เอี่ยมอรุณ",
+      "uni": "มหาวิทยาลัยเชียงใหม่",
+      "fac": "คณะทันตแพทยศาสตร์",
+      "email": null
+    },
+    {
+      "id": "ku_agro_wave15_0039",
+      "name": "อ. (ผู้ทรงคุณวุฒิ) รศ. ดร. สิรี ชัยเสรี",
+      "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+      "fac": "คณะอุตสาหกรรมเกษตร",
+      "email": "siree.c@ku.ac.th"
+    },
+    {
+      "id": "ku_agro_wave15_0040",
+      "name": "อ. (ผู้ทรงคุณวุฒิ) ศ. ดร. อรอนงค์ นัยวิกุล",
+      "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+      "fac": "คณะอุตสาหกรรมเกษตร",
+      "email": "onanong.n@ku.ac.th"
+    },
+    {
+      "id": "ku_agro_wave15_0041",
+      "name": "อ. (ผู้ทรงคุณวุฒิ) ผศ. ดร. ธนะบูลย์ สัจจาอนันตกุล",
+      "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+      "fac": "คณะอุตสาหกรรมเกษตร",
+      "email": "tanaboon.s@ku.ac.th"
+    },
+    {
+      "id": "ku_agro_wave15_0042",
+      "name": "อ. (ผู้ทรงคุณวุฒิ) รศ. ดร. ปริศนา สุวรรณาภรณ์",
+      "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+      "fac": "คณะอุตสาหกรรมเกษตร",
+      "email": "prisana.s@ku.th"
+    },
+    {
+      "id": "ku_agro_wave15_0043",
+      "name": "อ. (ผู้ทรงคุณวุฒิ) รศ. ดร. ปาริฉัตร หงสประภาส",
+      "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+      "fac": "คณะอุตสาหกรรมเกษตร",
+      "email": "parichat.h@ku.th"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_153_153",
+      "name": "อ. สุพิศ (ถมังรักษ์สัตว์) จินดาวณิค",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "fac": "คณะสัตวแพทยศาสตร์",
+      "email": null
+    },
+    {
+      "id": "chiangmaiu_facultyofv_suriyasathaporn_082",
+      "name": "ศ. (คลินิก) ดร. สพ.ญ. วรรณนา สุริยาสถาพร",
+      "uni": "มหาวิทยาลัยเชียงใหม่",
+      "fac": "คณะสัตวแพทยศาสตร์",
+      "email": "wanna.suri@cmu.ac.th"
+    },
+    {
+      "id": "cu_7baa4e89_2397",
+      "name": "ผศ. (พิเศษ)พญ. สาริน เล็กชื่นสกุล",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "fac": "คณะแพทยศาสตร์",
+      "email": null
+    },
+    {
+      "id": "cu_eddd86df_1649",
+      "name": "ผศ. (พิเศษ)พญ. อังควิภา ทรัพย์รุ่งเรือง",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "fac": "คณะแพทยศาสตร์",
+      "email": null
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_160_160",
+      "name": "รศ. สพ.ญ. ดร. อนงค์ (โรจนโกมล) บิณฑวิหค",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "fac": "คณะสัตวแพทยศาสตร์",
+      "email": null
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_163_163",
+      "name": "รศ. สพ.ญ. ดร. ปิยะรัตน์ (ศุภชลัสถ์) จันทร์ศิริพรชัย",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "fac": "คณะสัตวแพทยศาสตร์",
+      "email": "piyarat.c@chula.ac.th"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_164_164",
+      "name": "ผศ. สพ.ญ. ดร. นิภัทรา (เทพวัลย์) สวนไพรินทร์",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "fac": "คณะสัตวแพทยศาสตร์",
+      "email": "nipattra.d@chula.ac.th"
+    },
+    {
+      "id": "cmu_3bcc79a3_6324",
+      "name": "ศ. (เกียรติคุณ) ดร. ทรงศักดิ์ ศรีบุญจิตต์",
+      "uni": "มหาวิทยาลัยเชียงใหม่",
+      "fac": "คณะเศรษฐศาสตร์",
+      "email": "songsak.s@cmu.ac.th"
+    },
+    {
+      "id": "silpakornu_facultyofa_chainakut_015",
+      "name": "ศ. (เกียรติคุณ)พงศ์เดช ไชยคุตร",
+      "uni": "มหาวิทยาลัยเชียงใหม่",
+      "fac": "คณะวิจิตรศิลป์",
+      "email": null
+    },
+    {
+      "id": "ku_agro_wave15_0038",
+      "name": "อ. (ผู้ทรงคุณวุฒิ) รศ. ดร. สงวนศรี เจริญเหรียญ",
+      "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+      "fac": "คณะอุตสาหกรรมเกษตร",
+      "email": "sanguansri.c@ku.ac.th"
+    },
+    {
+      "id": "ku_agro_wave15_0044",
+      "name": "อ. (ผู้ทรงคุณวุฒิ) รศ. ดร. วราภา มหากาญจนกุล",
+      "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+      "fac": "คณะอุตสาหกรรมเกษตร",
+      "email": "warapa.m@ku.th"
+    },
+    {
+      "id": "cu_cbs_wave11_0096",
+      "name": "รศ.ดร. Assoc. Prof. Dr. Savanid (Nui) Vatanasakdakul",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "fac": "คณะพาณิชยศาสตร์และการบัญชี",
+      "email": null
+    },
+    {
+      "id": "cu_eng_chem_biorefinery_001",
+      "name": "ศ.ดร. อัญชลีพร วาริทสวัสดิ์ (อารตีวรรณ โชติพฤกษ์)",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "fac": "คณะวิศวกรรมศาสตร์",
+      "email": "artiwan.s@chula.ac.th"
+    }
+  ],
+  "intra_uni_duplicate_names": [
+    {
+      "name": "เมทิตา สัสดี",
+      "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "kasetsartu_facultyofv_sasadi_009",
+          "raw_name": "ผศ. สพ.ญ. ดร. เมทิตา สัสดี",
+          "fac": "คณะเทคนิคการสัตวแพทย์",
+          "email": null,
+          "cites": 0,
+          "openalex": "not_indexed"
+        },
+        {
+          "id": "ku_wave17_vettech_0011",
+          "raw_name": "รศ.ดร. เมทิตา สัสดี",
+          "fac": "คณะเทคนิคการสัตวแพทย์",
+          "email": "cvtmts@ku.ac.th",
+          "cites": 115,
+          "openalex": "https://openalex.org/A5034366929"
+        }
+      ]
+    },
+    {
+      "name": "สัมพันธ์ ธรรมเจริญ",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chulalongk_facultyofv_thammacharoen_079",
+          "raw_name": "อ. สัมพันธ์ ธรรมเจริญ",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "email": "sumpun.p@chula.ac.th",
+          "cites": 0,
+          "openalex": "not_indexed"
+        },
+        {
+          "id": "chulalongk_facultyofv_thamcharoen_068",
+          "raw_name": "รศ. น.สพ. ดร. สัมพันธ์ ธรรมเจริญ",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "email": "sumpun.p@chula.ac.th",
+          "cites": 0,
+          "openalex": "not_indexed"
+        }
+      ]
+    },
+    {
+      "name": "ทรงศักดิ์ ศรีบุญจิตต์",
+      "uni": "มหาวิทยาลัยเชียงใหม่",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "cmu_3bcc79a3_6324",
+          "raw_name": "ศ. (เกียรติคุณ) ดร. ทรงศักดิ์ ศรีบุญจิตต์",
+          "fac": "คณะเศรษฐศาสตร์",
+          "email": "songsak.s@cmu.ac.th",
+          "cites": 0,
+          "openalex": null
+        },
+        {
+          "id": "cmu_econ_songsak_001",
+          "raw_name": "ศ.ดร. ทรงศักดิ์ ศรีบุญจิตต์",
+          "fac": "คณะเศรษฐศาสตร์",
+          "email": null,
+          "cites": 4250,
+          "openalex": "https://openalex.org/A5058887761"
+        }
+      ]
+    },
+    {
+      "name": "ปิยนันท์ ทวีถาวรสวัสดิ์",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "chulalongk_facultyofv_taw_112",
+          "raw_name": "รศ. น.สพ. ดร. ปิยนันท์ ทวีถาวรสวัสดิ์",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "email": "piyanan.t@chula.ac.th",
+          "cites": 0,
+          "openalex": null
+        },
+        {
+          "id": "chulalongk_facultyofv_taweethavonsawa_126",
+          "raw_name": "ผศ.ดร. ปิยนันท์ ทวีถาวรสวัสดิ์",
+          "fac": "คณะสัตวแพทยศาสตร์",
+          "email": "piyanan.t@chula.ac.th",
+          "cites": 689,
+          "openalex": "https://openalex.org/A5034908159"
+        }
+      ]
+    },
+    {
+      "name": "รักศักดิ์ รักษาเคน",
+      "uni": "มหาวิทยาลัยเกษตรศาสตร์",
+      "count": 2,
+      "faculties": [
+        {
+          "id": "kasetsartu_facultyofv_raksaken_007",
+          "raw_name": "รศ. น.สพ. ดร. รักศักดิ์ รักษาเคน",
+          "fac": "คณะเทคนิคการสัตวแพทย์",
+          "email": null,
+          "cites": 0,
+          "openalex": "not_indexed"
+        },
+        {
+          "id": "ku_wave17_vettech_0012",
+          "raw_name": "รศ.ดร. รักศักดิ์ รักษาเคน",
+          "fac": "คณะเทคนิคการสัตวแพทย์",
+          "email": "cvtrsr@ku.ac.th",
+          "cites": 317,
+          "openalex": "https://openalex.org/A5052704139"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "session_id": "phase32_recovery_1789558244",
+  "target_university_th": "มหาวิทยาลัยอุบลราชธานี, จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Ubon Ratchathani University, Chulalongkorn University",
+  "target_faculty_th": "Multi-Faculty Phase 32 Recovery (Pharmacy, Science)",
+  "target_faculty_en": "Multi-Faculty Phase 32 Recovery (Pharmacy, Science)",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 1000,
+  "status": "initialized",
+  "last_error": null
+}

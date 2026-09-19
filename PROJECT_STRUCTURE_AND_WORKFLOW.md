@@ -87,6 +87,10 @@ Teacher/
 │   │   │   ├── state_reducer.py                   # ตัดคำนำหน้า (Thai/EN), RapidFuzz Deduplication, Merge Logic
 │   │   │   ├── content_pruner.py                  # ตัด HTML Boilerplate (LLMLingua/Trafilatura)
 │   │   │   └── cli_runner.py                      # CLI Runner สำหรับรัน Autonomous Pipeline
+│   │   ├── dream_rsi/                             # Dream-RSI Adaptation (Replay Simulators & Offline Policy Tuning)
+│   │   │   ├── simulator_faculty_recovery.py      # Replay Simulator จำลองการขุดอีเมลอาจารย์ (Zero Network/LLM cost)
+│   │   │   ├── simulator_dedup_policy.py          # Replay Simulator สำหรับจูนเกณฑ์ Entity Resolution & 3-Pass Dedup
+│   │   │   └── benchmark_dsa_engineering.py       # Algorithmic Engineering Harness + 100% Bit-level Parity Verification
 │   │   ├── crawlers/                              # สคริปต์ Web Crawler แยกตาม Wave
 │   │   │   ├── crawl_wave13_flagships.py          # Intania CU, KU Science, PSU Agro
 │   │   │   ├── crawl_wave14_flagships.py          # MU Science, KKU Science, KKU Agri, CU Science
@@ -103,12 +107,13 @@ Teacher/
 │   │   ├── enrich_openalex_author_metrics.py      # OpenAlex probe: h-index/citations (sentinel + canary)
 │   │   └── sync_local_to_supabase.py              # ซิงค์ข้อมูลที่ผ่านการทดสอบขึ้น Cloud Supabase
 │   │
-│   └── tests/                                     # Pytest Test Suite (34 Test Cases)
+│   └── tests/                                     # Pytest Test Suite
 │       ├── test_search.py                         # ทดสอบ API Search, Filters, Lab Interlinking
 │       ├── test_agentic_pipeline.py               # ทดสอบ State Reducer, Title Stripping, PDPA Redaction
 │       ├── test_audited_bug_regressions.py        # ทดสอบป้องกัน Regression 10 ข้อหลัก
 │       ├── test_taxonomy_and_regional_search.py   # ทดสอบระบบจัดหมวดหมู่และค้นหาระดับภูมิภาค
-│       └── test_wikiskill.py                      # ทดสอบ WikiSkill Architecture
+│       ├── test_wikiskill.py                      # ทดสอบ WikiSkill Architecture
+│       └── test_dream_rsi_simulators.py           # ทดสอบ Dream-RSI Replay Simulators & Parity Harness
 │
 └── .agents/ & memory/                             # ระบบความจำระยะยาว (Persistent Long-term Memory)
     ├── memory/

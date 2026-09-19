@@ -1,0 +1,254 @@
+{
+  "mju_fishery": {
+    "hits_total": 0,
+    "staff_total": 0,
+    "details": [
+      {
+        "sitemap": "https://fishtech.mju.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://fishery.mju.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://www.mju.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://fishtech.mju.ac.th/sitemap_index.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      }
+    ]
+  },
+  "mju_animal": {
+    "hits_total": 0,
+    "staff_total": 0,
+    "details": [
+      {
+        "sitemap": "https://as.mju.ac.th/sitemap.xml",
+        "http": 200,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://animal.mju.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://www.mju.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      }
+    ]
+  },
+  "mju_energy": {
+    "hits_total": 0,
+    "staff_total": 0,
+    "details": [
+      {
+        "sitemap": "https://erdi.mju.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://energy.mju.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://www.mju.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      }
+    ]
+  },
+  "mfu_chinese": {
+    "hits_total": 0,
+    "staff_total": 0,
+    "details": [
+      {
+        "sitemap": "https://chinese.mfu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://sinology.mfu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+        "http": 200,
+        "urls": 0,
+        "staff_hits": []
+      }
+    ]
+  },
+  "mfu_liberalarts": {
+    "hits_total": 0,
+    "staff_total": 0,
+    "details": [
+      {
+        "sitemap": "https://arts.mfu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://sla.mfu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://liberal-arts.mfu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+        "http": 200,
+        "urls": 0,
+        "staff_hits": []
+      }
+    ]
+  },
+  "mfu_antiaging": {
+    "hits_total": 0,
+    "staff_total": 0,
+    "details": [
+      {
+        "sitemap": "https://anti-aging.mfu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://longevity.mfu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+        "http": 200,
+        "urls": 0,
+        "staff_hits": []
+      }
+    ]
+  },
+  "msu_ph": {
+    "hits_total": 7,
+    "staff_total": 0,
+    "details": [
+      {
+        "sitemap": "https://ph.msu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://www.msu.ac.th/sitemap.xml",
+        "http": 200,
+        "urls": 7,
+        "staff_hits": []
+      }
+    ]
+  },
+  "msu_finearts": {
+    "hits_total": 7,
+    "staff_total": 0,
+    "details": [
+      {
+        "sitemap": "https://finearts.msu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://fine-arts.msu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://www.msu.ac.th/sitemap.xml",
+        "http": 200,
+        "urls": 7,
+        "staff_hits": []
+      }
+    ]
+  },
+  "up_energy": {
+    "hits_total": 0,
+    "staff_total": 0,
+    "details": [
+      {
+        "sitemap": "https://energy.up.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://sce.up.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://www.up.ac.th/sitemap.xml",
+        "http": 200,
+        "urls": 0,
+        "staff_hits": []
+      }
+    ]
+  },
+  "ubu_sci": {
+    "hits_total": 0,
+    "staff_total": 0,
+    "details": [
+      {
+        "sitemap": "https://micro.sci.ubu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://it.sci.ubu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://sci.ubu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      },
+      {
+        "sitemap": "https://www.ubu.ac.th/sitemap.xml",
+        "http": null,
+        "urls": 0,
+        "staff_hits": []
+      }
+    ]
+  }
+}

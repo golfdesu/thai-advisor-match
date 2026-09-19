@@ -1,0 +1,168 @@
+{
+  "session_id": "wave29_nida_econ",
+  "target_university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
+  "target_university_en": "National Institute of Development Administration",
+  "target_faculty_th": "คณะพัฒนาการเศรษฐกิจ",
+  "target_faculty_en": "School of Development Economics",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://econ.nida.ac.th/en/faculty-member/",
+    "https://econ.nida.ac.th/en/",
+    "https://econ.nida.ac.th/en/faculty/",
+    "https://econ.nida.ac.th/en/personnel/",
+    "https://econ.nida.ac.th/en/about/",
+    "https://econ.nida.ac.th/en/research/",
+    "https://econ.nida.ac.th/en/research-center/",
+    "https://econ.nida.ac.th/",
+    "https://econ.nida.ac.th/faculty-member/",
+    "https://econ.nida.ac.th/faculty/",
+    "https://econ.nida.ac.th/personnel/",
+    "https://econ.nida.ac.th/about/",
+    "https://econ.nida.ac.th/research/",
+    "https://nida.ac.th/",
+    "https://nida.ac.th/en/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "verified_count": 24,
+  "verified_names": [
+    "ศ.ดร. พิริยะ ผลพิรูฬห์",
+    "ศ.ดร. ศาสตรา สุดสวาท",
+    "ศ.ดร. สรศาสตร์ สุขเจริญสิน",
+    "รศ.ดร. อดิศร ถึงيسรังกูร ณ อยุธยา",
+    "รศ.ดร. อุดมศักดิ์ ศรีประเสริฐสุข",
+    "รศ.ดร. ยุทธนา เซษฐพราโมทย์",
+    "รศ.ดร. อนันต์ วัฒนกุลจรัส",
+    "รศ.ดร. อมรรัตน์ อภินันท์มหากุล",
+    "รศ.ดร. ประสบโชค มงสวัสดิ์",
+    "รศ.ดร. ปริยดา สุขเจริญสิน",
+    "รศ.ดร. ภิรดา ชินประทีป",
+    "รศ.ดร. นดา Chunsom",
+    "รศ.ดร. สรัน สันติศาสตร์",
+    "ผศ.ดร. สันติ ชัยศรีสวัสดิ์สุข",
+    "ผศ.ดร. วิสิฐ ชัยศรีสวัสดิ์สุข",
+    "ผศ.ดร. โตงยศ อยาวรกุล",
+    "ผศ.ดร. นิรมล อภิญาภรณ์",
+    "ผศ.ดร. ฐาณิณี สติมานนท์",
+    "ผศ.ดร. อรรถกฤต เทพมงคล",
+    "รศ.ดร. วิชิต หล่อจีระชุณห์กุล",
+    "ศ.ดร. ธีระพงษ์ วิกิตเศรษฐ",
+    "ศ.ดร. จิราวัลย์ จิตรถเวช",
+    "รศ.ดร. พรเพ็ญ วรสิทธา",
+    "รศ.ดร. ฐิติรัตน์ ศิริบวรรัตนกุล"
+  ],
+  "step_count": 15,
+  "total_tokens_used": 25761,
+  "status": "completed",
+  "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave29_nida_econ_export.py",
+  "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave29_nida_econ.json",
+  "per_url": [
+    {
+      "url": "https://econ.nida.ac.th/en/faculty-member/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=62392_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/en/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=98172_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/en/faculty/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=92104_new=19",
+      "added": 19
+    },
+    {
+      "url": "https://econ.nida.ac.th/en/personnel/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=62387_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/en/about/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=63277_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/en/research/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=62128_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/en/research-center/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=62393_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=121819_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/faculty-member/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=121819_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/faculty/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=121819_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/personnel/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=121819_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/about/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=78503_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://econ.nida.ac.th/research/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=121819_new=0",
+      "added": 0
+    },
+    {
+      "url": "https://nida.ac.th/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=444976_new=5",
+      "added": 5
+    },
+    {
+      "url": "https://nida.ac.th/en/",
+      "attempts": 1,
+      "ok": true,
+      "reason": "render_ok_chars=255872_new=0",
+      "added": 0
+    }
+  ],
+  "sitemap_hits": [],
+  "db_commit": false
+}

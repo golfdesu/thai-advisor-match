@@ -1,0 +1,76 @@
+{
+  "session_id": "wave34_mu_eng",
+  "target": "MU Engineering (eg.mahidol.ac.th WP REST probe, urllib JSON, no browser)",
+  "verified_count": 0,
+  "db_commit": false,
+  "thai_rule": "2-token Thai base-name enforced in Python (self-test ok)",
+  "wp_finding": "all wp-json endpoints + landing return Akamai 403 to headless clients; REST types/search/pages/posts not retrievable; 0 staff posts crawled",
+  "per_url": [
+    {
+      "url": "https://eg.mahidol.ac.th/",
+      "ok": false,
+      "reason": "http=403_chars=374",
+      "added": 0,
+      "role": "landing"
+    },
+    {
+      "url": "https://eg.mahidol.ac.th/wp-json/",
+      "ok": false,
+      "reason": "http=403_chars=390",
+      "added": 0,
+      "role": "wp-probe"
+    },
+    {
+      "url": "https://eg.mahidol.ac.th/wp-json/wp/v2/types",
+      "ok": false,
+      "reason": "http=403_chars=409",
+      "added": 0,
+      "role": "wp-probe"
+    },
+    {
+      "url": "https://eg.mahidol.ac.th/wp-json/wp/v2/search?search=staff&per_page=100",
+      "ok": false,
+      "reason": "http=403_chars=415",
+      "added": 0,
+      "role": "wp-probe"
+    },
+    {
+      "url": "https://eg.mahidol.ac.th/wp-json/wp/v2/search?search=personnel&per_page=100",
+      "ok": false,
+      "reason": "http=403_chars=415",
+      "added": 0,
+      "role": "wp-probe"
+    },
+    {
+      "url": "https://eg.mahidol.ac.th/wp-json/wp/v2/search?search=teacher&per_page=50",
+      "ok": false,
+      "reason": "http=403_chars=415",
+      "added": 0,
+      "role": "wp-probe"
+    },
+    {
+      "url": "https://eg.mahidol.ac.th/wp-json/wp/v2/pages?per_page=100&_fields=link,title,slug",
+      "ok": false,
+      "reason": "http=403_chars=414",
+      "added": 0,
+      "role": "wp-probe"
+    },
+    {
+      "url": "https://eg.mahidol.ac.th/wp-json/wp/v2/posts?per_page=20&_fields=link,title,slug",
+      "ok": false,
+      "reason": "http=403_chars=414",
+      "added": 0,
+      "role": "wp-probe"
+    }
+  ],
+  "failed_urls": [
+    "https://eg.mahidol.ac.th/",
+    "https://eg.mahidol.ac.th/wp-json/",
+    "https://eg.mahidol.ac.th/wp-json/wp/v2/types",
+    "https://eg.mahidol.ac.th/wp-json/wp/v2/search?search=staff&per_page=100",
+    "https://eg.mahidol.ac.th/wp-json/wp/v2/search?search=personnel&per_page=100",
+    "https://eg.mahidol.ac.th/wp-json/wp/v2/search?search=teacher&per_page=50",
+    "https://eg.mahidol.ac.th/wp-json/wp/v2/pages?per_page=100&_fields=link,title,slug",
+    "https://eg.mahidol.ac.th/wp-json/wp/v2/posts?per_page=20&_fields=link,title,slug"
+  ]
+}

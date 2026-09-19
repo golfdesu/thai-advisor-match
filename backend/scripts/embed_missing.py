@@ -6,35 +6,40 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app.core.database import SessionLocal
 from app.models.db_models import FacultyDB
 from app.core.config import settings
+from app.core.embedding_text import build_faculty_embedding_text
 from google import genai
+from sqlalchemy import or_
 
 def embed_missing():
-    if not settings.GEMINI_API_KEY:
-        print("GEMINI_API_KEY not found!")
-        return
-
-    client = genai.Client(api_key=settings.GEMINI_API_KEY)
     db = SessionLocal()
-    missing = db.query(FacultyDB).filter(FacultyDB.embedding == None).all()
+    missing = db.query(FacultyDB).filter(
+        or_(FacultyDB.embedding.is_(None), FacultyDB.embedding_text.is_(None))
+    ).all()
 
     if not missing:
         print("All records already have embeddings.")
         db.close()
         return
 
-    print(f"{len(missing)} records missing embedding")
-    for f in missing:
-        interests = ", ".join(f.research_interests) if f.research_interests else ""
-        courses = ", ".join(f.taught_courses) if f.taught_courses else ""
-        pubs = " | ".join([p["title"] for p in f.featured_publications]) if f.featured_publications else ""
+    needs_embedding = any(f.embedding is None for f in missing)
+    if needs_embedding and not settings.GEMINI_API_KEY:
+        print("GEMINI_API_KEY not found; cannot generate missing vectors.")
+        db.close()
+        return
 
-        text = f"{f.academic_title_th or ''} {f.full_name_th or ''} {f.first_name or ''} {f.last_name or ''}. "
-        text += f"Department: {f.department or ''} {f.department_th or ''}. "
-        text += f"Research Interests: {interests}. "
-        text += f"Taught Courses: {courses}. "
-        text += f"Publications: {pubs}."
+    client = genai.Client(api_key=settings.GEMINI_API_KEY) if needs_embedding else None
+    print(f"{len(missing)} records missing embedding or embedding_text")
+    for f in missing:
+        text = build_faculty_embedding_text(f)
+
+        if not text:
+            print(f"  SKIPPED: {f.id} has no usable source fields")
+            continue
 
         f.embedding_text = text
+        if f.embedding is not None:
+            print(f"  TEXT ONLY: {f.id}")
+            continue
         try:
             response = client.models.embed_content(
                 model='gemini-embedding-2',
@@ -48,6 +53,7 @@ def embed_missing():
             print(f"  FAILED: {f.first_name} {f.last_name}: {e}")
             db.rollback()
             break
+    db.commit()
     db.close()
 
 if __name__ == "__main__":

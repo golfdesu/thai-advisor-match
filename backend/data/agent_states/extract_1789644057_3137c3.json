@@ -1,0 +1,75 @@
+{
+  "session_id": "extract_1789644057_3137c3",
+  "target_university_th": "มหาวิทยาลัยศิลปากร",
+  "target_university_en": "Silpakorn University",
+  "target_faculty_th": "คณะวิทยาการจัดการ",
+  "target_faculty_en": "Faculty of Management Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://ms.su.ac.th/th/about/list/75",
+    "https://ms.su.ac.th/th/about/list/80",
+    "https://ms.su.ac.th/"
+  ],
+  "failed_urls": [
+    "https://www.ms.su.ac.th/th/about/list/75"
+  ],
+  "faculties": {
+    "silpakornu_facultyofm_theppanya_001": {
+      "id": "silpakornu_facultyofm_theppanya_001",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Management Science",
+      "faculty_th": "คณะวิทยาการจัดการ",
+      "department": "คณะวิทยาการจัดการ",
+      "department_th": "คณะวิทยาการจัดการ",
+      "academic_title": "รศ.",
+      "academic_title_th": "รศ.",
+      "first_name": "Pornchai",
+      "last_name": "Theppanya",
+      "full_name": "Pornchai Theppanya",
+      "full_name_th": "รศ. พรชัย เทพปัญญา",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofm_kamsart_002": {
+      "id": "silpakornu_facultyofm_kamsart_002",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Management Science",
+      "faculty_th": "คณะวิทยาการจัดการ",
+      "department": "คณะวิทยาการจัดการ",
+      "department_th": "คณะวิทยาการจัดการ",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Santiphap",
+      "last_name": "Kamsart",
+      "full_name": "Santiphap Kamsart",
+      "full_name_th": "อ.ดร. สันติภาพ คำสะอาด",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "พรชัย เทพปัญญา": "silpakornu_facultyofm_theppanya_001",
+    "สันติภาพ คำสะอาด": "silpakornu_facultyofm_kamsart_002"
+  },
+  "dedup_emails": {},
+  "step_count": 3,
+  "total_tokens_used": 7684,
+  "status": "completed",
+  "last_error": null
+}

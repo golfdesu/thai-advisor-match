@@ -1,0 +1,33 @@
+{
+  "session_id": "wave30_mu_eng",
+  "target_university_th": "มหาวิทยาลัยมหิดล",
+  "target_university_en": "Mahidol University",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://eg.mahidol.ac.th/",
+    "https://eg.mahidol.ac.th/departments/",
+    "https://eg.mahidol.ac.th/railway/",
+    "https://eg.mahidol.ac.th/ee/",
+    "https://eg.mahidol.ac.th/computer/",
+    "https://eg.mahidol.ac.th/me/",
+    "https://eg.mahidol.ac.th/mechanical/",
+    "https://eg.mahidol.ac.th/che/",
+    "https://eg.mahidol.ac.th/chemical/",
+    "https://eg.mahidol.ac.th/civil/",
+    "https://eg.mahidol.ac.th/ie/",
+    "https://eg.mahidol.ac.th/industrial/",
+    "https://eg.mahidol.ac.th/bme/",
+    "https://eg.mahidol.ac.th/env/",
+    "https://eg.mahidol.ac.th/logistics/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 15,
+  "total_tokens_used": 7029,
+  "status": "completed",
+  "last_error": null
+}

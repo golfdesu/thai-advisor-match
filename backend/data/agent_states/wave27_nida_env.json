@@ -1,0 +1,81 @@
+{
+  "session_id": "wave27_nida_env",
+  "target_university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+  "target_university_en": "National Institute of Development Administration",
+  "target_faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+  "target_faculty_en": "Graduate School of Environmental Development Administration",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://nida.ac.th/en/"
+  ],
+  "failed_urls": [
+    "https://edm.nida.ac.th/en/faculty-member/"
+  ],
+  "faculties": {
+    "nationalin_graduatesc_pongpiachan_001": {
+      "id": "nationalin_graduatesc_pongpiachan_001",
+      "university": "National Institute of Development Administration",
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "faculty": "Graduate School of Environmental Development Administration",
+      "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Siwatt",
+      "last_name": "Pongpiachan",
+      "full_name": "Siwatt Pongpiachan",
+      "full_name_th": "ศ.ดร. สิวัฒน์ พงษ์เพียจันทร์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "PM 2.5",
+        "Environmental Science"
+      ],
+      "featured_publications": [
+        "Conversation with Prof. Dr. Siwatt Pongpiachan about Thailand’s PM 2.5 situation"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "nationalin_graduatesc_siriborvornrata_002": {
+      "id": "nationalin_graduatesc_siriborvornrata_002",
+      "university": "National Institute of Development Administration",
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "faculty": "Graduate School of Environmental Development Administration",
+      "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "department": "Graduate School of Applied Statistics",
+      "department_th": "Graduate School of Applied Statistics",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Thitirat",
+      "last_name": "Siriborvornratanakul",
+      "full_name": "Thitirat Siriborvornratanakul",
+      "full_name_th": "รศ.ดร. ฐิติรัตน์ สิริบวรรัตนกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Artificial Intelligence",
+        "Image Processing"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "สิวัฒน์ พงษ์เพียจันทร์": "nationalin_graduatesc_pongpiachan_001",
+    "ฐิติรัตน์ สิริบวรรัตนกุล": "nationalin_graduatesc_siriborvornrata_002"
+  },
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 2099,
+  "status": "completed",
+  "last_error": null
+}

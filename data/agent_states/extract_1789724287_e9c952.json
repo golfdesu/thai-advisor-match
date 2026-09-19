@@ -1,0 +1,73 @@
+{
+  "session_id": "extract_1789724287_e9c952",
+  "target_university_th": "มหาวิทยาลัยมหาสารคาม",
+  "target_university_en": "Mahasarakham University",
+  "target_faculty_th": "คณะศิลปกรรมศาสตร์และวัฒนธรรมศาสตร์",
+  "target_faculty_en": "Faculty of Fine-Applied Arts and Cultural Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://facs.msu.ac.th/",
+    "https://facs.msu.ac.th/en/",
+    "https://facs.msu.ac.th/map-and-directions/"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "mahasarakh_facultyoff_panlukthao_001": {
+      "id": "mahasarakh_facultyoff_panlukthao_001",
+      "university": "Mahasarakham University",
+      "university_th": "มหาวิทยาลัยมหาสารคาม",
+      "faculty": "Faculty of Fine-Applied Arts and Cultural Science",
+      "faculty_th": "คณะศิลปกรรมศาสตร์และวัฒนธรรมศาสตร์",
+      "department": "คณะศิลปกรรมศาสตร์และวัฒนธรรมศาสตร์",
+      "department_th": "คณะศิลปกรรมศาสตร์และวัฒนธรรมศาสตร์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Peera",
+      "last_name": "Panlukthao",
+      "full_name": "Peera Panlukthao",
+      "full_name_th": "ผศ.ดร. พีระ พันลูกท้าว",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "mahasarakh_facultyoff_phanlukthao_002": {
+      "id": "mahasarakh_facultyoff_phanlukthao_002",
+      "university": "Mahasarakham University",
+      "university_th": "มหาวิทยาลัยมหาสารคาม",
+      "faculty": "Faculty of Fine-Applied Arts and Cultural Science",
+      "faculty_th": "คณะศิลปกรรมศาสตร์และวัฒนธรรมศาสตร์",
+      "department": "คณะศิลปกรรมศาสตร์และวัฒนธรรมศาสตร์",
+      "department_th": "คณะศิลปกรรมศาสตร์และวัฒนธรรมศาสตร์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Peera",
+      "last_name": "Phanlukthao",
+      "full_name": "Peera Phanlukthao",
+      "full_name_th": "ผศ.ดร. พีระ พลลักขณา",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "พีระ พันลูกท้าว": "mahasarakh_facultyoff_panlukthao_001",
+    "พีระ พลลักขณา": "mahasarakh_facultyoff_phanlukthao_002"
+  },
+  "dedup_emails": {},
+  "step_count": 3,
+  "total_tokens_used": 6423,
+  "status": "completed",
+  "last_error": null
+}

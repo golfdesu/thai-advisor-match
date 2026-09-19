@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789641374_f661e7",
+  "target_university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+  "target_university_en": "King Mongkut's Institute of Technology Ladkrabang",
+  "target_faculty_th": "คณะแพทยศาสตร์",
+  "target_faculty_en": "Faculty of Medicine",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://md.kmitl.ac.th/",
+    "https://md.kmitl.ac.th/staff/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1720,
+  "status": "completed",
+  "last_error": null
+}

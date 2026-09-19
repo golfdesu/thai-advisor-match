@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789644303_db4a2d",
+  "target_university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+  "target_university_en": "Srinakharinwirot University",
+  "target_faculty_th": "วิทยาลัยนวัตกรรมสื่อสารสังคม",
+  "target_faculty_en": "College of Social Communication Innovation",
+  "pending_urls": [],
+  "visited_urls": [
+    "http://cosci.swu.ac.th/faculties-and-staffs",
+    "http://cosci.swu.ac.th/aboutus"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1692,
+  "status": "completed",
+  "last_error": null
+}

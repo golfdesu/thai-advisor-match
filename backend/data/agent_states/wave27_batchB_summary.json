@@ -1,0 +1,332 @@
+{
+  "batch": "wave27_batchB_micro_deep",
+  "db_commit": false,
+  "units": [
+    {
+      "key": "wave27_mu_rilca",
+      "faculty_th": "สถาบันวิจัยภาษาและวัฒนธรรมเอเชีย (RILCA)",
+      "seeds": [
+        "https://rilca.mahidol.ac.th/"
+      ],
+      "verified_count": 44,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_rilca_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_rilca.json",
+      "dept_paths": [
+        "/rilca-people-all/",
+        "/congrat-202501xx-watcharapol-midcareerresearcher/",
+        "/congrat-202507xx-watcharapol-top-100-researchers/",
+        "/about/library/",
+        "/about/contact/",
+        "/about/thai-house/",
+        "/about/our-profile/",
+        "/about/center-ctls/",
+        "/about/center-bharat/",
+        "/about/rilca-leadership/"
+      ],
+      "per_url": [
+        {
+          "url": "https://rilca.mahidol.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=545336",
+          "added": 0,
+          "role": "landing"
+        },
+        {
+          "url": "https://lc.mahidol.ac.th/rilca-people-all/",
+          "ok": true,
+          "reason": "render_ok_html_chars=306898",
+          "added": 39,
+          "role": "deep"
+        },
+        {
+          "url": "https://lc.mahidol.ac.th/congrat-202501xx-watcharapol-midcareerresearcher/",
+          "ok": true,
+          "reason": "render_ok_html_chars=267966",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://lc.mahidol.ac.th/congrat-202507xx-watcharapol-top-100-researchers/",
+          "ok": true,
+          "reason": "render_ok_html_chars=265887",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://lc.mahidol.ac.th/about/library/",
+          "ok": true,
+          "reason": "render_ok_html_chars=354055",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://lc.mahidol.ac.th/about/contact/",
+          "ok": true,
+          "reason": "render_ok_html_chars=287454",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://lc.mahidol.ac.th/about/thai-house/",
+          "ok": true,
+          "reason": "render_ok_html_chars=268040",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://lc.mahidol.ac.th/about/our-profile/",
+          "ok": true,
+          "reason": "render_ok_html_chars=307167",
+          "added": 5,
+          "role": "deep"
+        },
+        {
+          "url": "https://lc.mahidol.ac.th/about/center-ctls/",
+          "ok": true,
+          "reason": "render_ok_html_chars=285785",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://lc.mahidol.ac.th/about/center-bharat/",
+          "ok": true,
+          "reason": "render_ok_html_chars=281123",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://lc.mahidol.ac.th/about/rilca-leadership/",
+          "ok": true,
+          "reason": "render_ok_html_chars=314464",
+          "added": 0,
+          "role": "deep"
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave27_mu_mb",
+      "faculty_th": "สถาบันชีววิทยาศาสตร์โมเลกุล",
+      "seeds": [
+        "https://mb.mahidol.ac.th/"
+      ],
+      "verified_count": 37,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_mb_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_mb.json",
+      "dept_paths": [
+        "/pride-our-staff/",
+        "/academic-staff-researcher/"
+      ],
+      "per_url": [
+        {
+          "url": "https://mb.mahidol.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=333807",
+          "added": 0,
+          "role": "landing"
+        },
+        {
+          "url": "https://mb.mahidol.ac.th/pride-our-staff/",
+          "ok": true,
+          "reason": "render_ok_html_chars=279928",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://mb.mahidol.ac.th/academic-staff-researcher/",
+          "ok": true,
+          "reason": "render_ok_html_chars=352863",
+          "added": 37,
+          "role": "deep"
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave27_mu_ss",
+      "faculty_th": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา",
+      "seeds": [
+        "https://ss.mahidol.ac.th/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_ss_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_ss.json",
+      "dept_paths": [],
+      "per_url": [
+        {
+          "url": "https://ss.mahidol.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=4238",
+          "added": 0,
+          "role": "landing"
+        },
+        {
+          "url": "(no-staff-links)",
+          "ok": false,
+          "reason": "no_staff_links_on_landing",
+          "added": 0,
+          "role": "follow"
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave27_mu_la",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "seeds": [
+        "https://la.mahidol.ac.th/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_la_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_la.json",
+      "dept_paths": [],
+      "per_url": [
+        {
+          "url": "https://la.mahidol.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=14342",
+          "added": 0,
+          "role": "landing"
+        },
+        {
+          "url": "(no-staff-links)",
+          "ok": false,
+          "reason": "no_staff_links_on_landing",
+          "added": 0,
+          "role": "follow"
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave27_mu_bart",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ภาควิชาวิศวกรรมชีวการแพทย์ (BART LAB)",
+      "seeds": [
+        "https://eg.mahidol.ac.th/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_bart_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_bart.json",
+      "dept_paths": [],
+      "per_url": [
+        {
+          "url": "https://eg.mahidol.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=8723",
+          "added": 0,
+          "role": "landing"
+        },
+        {
+          "url": "(no-staff-links)",
+          "ok": false,
+          "reason": "no_staff_links_on_landing",
+          "added": 0,
+          "role": "follow"
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave27_mu_ipsr",
+      "faculty_th": "สถาบันวิจัยประชากรและสังคม (IPSR)",
+      "seeds": [
+        "https://ipsr.mahidol.ac.th/"
+      ],
+      "verified_count": 19,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_ipsr_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mu_ipsr.json",
+      "dept_paths": [
+        "/people_position/researchers/",
+        "/people_position/postdoctoral/",
+        "/people_position/senior-advisor/",
+        "/people_position/faculty-member/",
+        "/people_position/foreign-expert/",
+        "/people_position/supporting-it-oc/",
+        "/people_position/visiting-scholars/",
+        "/people_position/lecturer-assistant/",
+        "/people_position/adjunct-professors/",
+        "/people_position/supporting-library/"
+      ],
+      "per_url": [
+        {
+          "url": "https://ipsr.mahidol.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=326228",
+          "added": 0,
+          "role": "landing"
+        },
+        {
+          "url": "https://ipsr.mahidol.ac.th/people_position/researchers/",
+          "ok": true,
+          "reason": "render_ok_html_chars=232165",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://ipsr.mahidol.ac.th/people_position/postdoctoral/",
+          "ok": true,
+          "reason": "render_ok_html_chars=202134",
+          "added": 1,
+          "role": "deep"
+        },
+        {
+          "url": "https://ipsr.mahidol.ac.th/people_position/senior-advisor/",
+          "ok": true,
+          "reason": "render_ok_html_chars=218518",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://ipsr.mahidol.ac.th/people_position/faculty-member/",
+          "ok": true,
+          "reason": "render_ok_html_chars=270750",
+          "added": 13,
+          "role": "deep"
+        },
+        {
+          "url": "https://ipsr.mahidol.ac.th/people_position/foreign-expert/",
+          "ok": true,
+          "reason": "render_ok_html_chars=208974",
+          "added": 1,
+          "role": "deep"
+        },
+        {
+          "url": "https://ipsr.mahidol.ac.th/people_position/supporting-it-oc/",
+          "ok": true,
+          "reason": "render_ok_html_chars=225119",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://ipsr.mahidol.ac.th/people_position/visiting-scholars/",
+          "ok": true,
+          "reason": "render_ok_html_chars=243457",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://ipsr.mahidol.ac.th/people_position/lecturer-assistant/",
+          "ok": true,
+          "reason": "render_ok_html_chars=201931",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://ipsr.mahidol.ac.th/people_position/adjunct-professors/",
+          "ok": true,
+          "reason": "render_ok_html_chars=238220",
+          "added": 4,
+          "role": "deep"
+        },
+        {
+          "url": "https://ipsr.mahidol.ac.th/people_position/supporting-library/",
+          "ok": true,
+          "reason": "render_ok_html_chars=204100",
+          "added": 0,
+          "role": "deep"
+        }
+      ],
+      "failed_urls": []
+    }
+  ]
+}

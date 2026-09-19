@@ -1,0 +1,911 @@
+{
+  "batch": "wave28_mfu_batchB_headless",
+  "db_commit": false,
+  "univ_scope": "mfu.ac.th only",
+  "units": [
+    {
+      "key": "wave28_mfu_science",
+      "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+      "faculty_en": "School of Science",
+      "verified_count": 2,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_science_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_science.json",
+      "status": "partial",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        },
+        {
+          "sitemap": "https://scis.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        },
+        {
+          "sitemap": "https://science.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-science.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/th/academics/school-of-science.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://scis.mfu.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://scis.mfu.ac.th/en/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://scis.mfu.ac.th/en/scis-staff/scis-lecturers.html",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://scis.mfu.ac.th/en/scis-staff/scis-executives.html",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://science.mfu.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=81033|patch_new=2|pruned=1",
+          "static_chars": 74162,
+          "static_density": 44,
+          "static_http": 200,
+          "rendered_chars": 81033,
+          "rendered_density": 44,
+          "added": 1,
+          "pruned": 1
+        },
+        {
+          "url": "https://science.mfu.ac.th/en/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=59528|patch_new=1|pruned=0",
+          "static_chars": 52458,
+          "static_density": 8,
+          "static_http": 200,
+          "rendered_chars": 59528,
+          "rendered_density": 8,
+          "added": 1,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [
+        "https://scis.mfu.ac.th/",
+        "https://scis.mfu.ac.th/en/",
+        "https://scis.mfu.ac.th/en/scis-staff/scis-lecturers.html",
+        "https://scis.mfu.ac.th/en/scis-staff/scis-executives.html"
+      ],
+      "serp_needed": false
+    },
+    {
+      "key": "wave28_mfu_nursing",
+      "faculty_th": "สำนักวิชาพยาบาลศาสตร์",
+      "faculty_en": "School of Nursing",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_nursing_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_nursing.json",
+      "status": "bypassed",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        },
+        {
+          "sitemap": "https://nursing.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-nursing.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/th/academics/school-of-nursing.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://nursing.mfu.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=11566|patch_new=0|pruned=0",
+          "static_chars": 11557,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 11566,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://nursing.mfu.ac.th/en/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=11541|patch_new=0|pruned=0",
+          "static_chars": 11532,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 11541,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://nursing.mfu.ac.th/en/nursing-staff/nursing-lecturers.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=4466|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 4466,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://nursing.mfu.ac.th/en/nursing-staff/nursing-executives.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=4466|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 4466,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [],
+      "serp_needed": true
+    },
+    {
+      "key": "wave28_mfu_publichealth",
+      "faculty_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "faculty_en": "School of Public Health",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_publichealth_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_publichealth.json",
+      "status": "partial",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        },
+        {
+          "sitemap": "https://publichealth.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        },
+        {
+          "sitemap": "https://ph.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-public-health.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/th/academics/school-of-public-health.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://publichealth.mfu.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://publichealth.mfu.ac.th/en/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://ph.mfu.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [
+        "https://publichealth.mfu.ac.th/",
+        "https://publichealth.mfu.ac.th/en/",
+        "https://ph.mfu.ac.th/"
+      ],
+      "serp_needed": true
+    },
+    {
+      "key": "wave28_mfu_cosmetic",
+      "faculty_th": "สำนักวิชาเครื่องสำอาง",
+      "faculty_en": "School of Cosmetic Science",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_cosmetic_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_cosmetic.json",
+      "status": "partial",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        },
+        {
+          "sitemap": "https://cosmetic.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-cosmetic-science.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://cosmetic.mfu.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://cosmetic.mfu.ac.th/en/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://cosmetic.mfu.ac.th/en/cosmetic-staff/cosmetic-lecturers.html",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://cosmetic.mfu.ac.th/en/cosmetic-staff/cosmetic-executives.html",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [
+        "https://cosmetic.mfu.ac.th/",
+        "https://cosmetic.mfu.ac.th/en/",
+        "https://cosmetic.mfu.ac.th/en/cosmetic-staff/cosmetic-lecturers.html",
+        "https://cosmetic.mfu.ac.th/en/cosmetic-staff/cosmetic-executives.html"
+      ],
+      "serp_needed": true
+    },
+    {
+      "key": "wave28_mfu_agro",
+      "faculty_th": "สำนักวิชาอุตสาหกรรมเกษตร",
+      "faculty_en": "School of Agro-Industry",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_agro_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_agro.json",
+      "status": "partial",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        },
+        {
+          "sitemap": "https://agro.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        },
+        {
+          "sitemap": "https://agro-industry.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-agro-industry.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://agro.mfu.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://agro.mfu.ac.th/en/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://agro.mfu.ac.th/en/agro-staff/agro-lecturers.html",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://agro.mfu.ac.th/en/agro-staff/agro-executives.html",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [
+        "https://agro.mfu.ac.th/",
+        "https://agro.mfu.ac.th/en/",
+        "https://agro.mfu.ac.th/en/agro-staff/agro-lecturers.html",
+        "https://agro.mfu.ac.th/en/agro-staff/agro-executives.html"
+      ],
+      "serp_needed": true
+    },
+    {
+      "key": "wave28_mfu_healthsci",
+      "faculty_th": "สำนักวิชาวิทยาศาสตร์สุขภาพ",
+      "faculty_en": "School of Health Science",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_healthsci_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_healthsci.json",
+      "status": "bypassed",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        },
+        {
+          "sitemap": "https://healthsci.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-health-science.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://healthsci.mfu.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=109853|patch_new=0|pruned=0",
+          "static_chars": 100157,
+          "static_density": 7,
+          "static_http": 200,
+          "rendered_chars": 109853,
+          "rendered_density": 7,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://healthsci.mfu.ac.th/en/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=111618|patch_new=0|pruned=0",
+          "static_chars": 101570,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 111618,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://healthsci.mfu.ac.th/en/healthsci-staff/healthsci-lecturers.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=4466|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 4466,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://healthsci.mfu.ac.th/en/healthsci-staff/healthsci-executives.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=4466|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 4466,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [],
+      "serp_needed": true
+    },
+    {
+      "key": "wave28_mfu_medicine",
+      "faculty_th": "สำนักวิชาแพทยศาสตร์",
+      "faculty_en": "School of Medicine",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_medicine_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_medicine.json",
+      "status": "bypassed",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        },
+        {
+          "sitemap": "https://medicine.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        },
+        {
+          "sitemap": "https://med.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-medicine.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://medicine.mfu.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=52619|patch_new=0|pruned=0",
+          "static_chars": 49918,
+          "static_density": 9,
+          "static_http": 200,
+          "rendered_chars": 52619,
+          "rendered_density": 9,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://medicine.mfu.ac.th/en/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=49159|patch_new=0|pruned=0",
+          "static_chars": 46449,
+          "static_density": 10,
+          "static_http": 200,
+          "rendered_chars": 49159,
+          "rendered_density": 10,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://medicine.mfu.ac.th/en/medicine-staff/medicine-lecturers.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=4466|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 4466,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://medicine.mfu.ac.th/en/medicine-staff/medicine-executives.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=4466|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 4466,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [],
+      "serp_needed": true
+    },
+    {
+      "key": "wave28_mfu_integrative",
+      "faculty_th": "สำนักวิชาการแพทย์บูรณาการ",
+      "faculty_en": "School of Integrative Medicine",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_integrative_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_integrative.json",
+      "status": "bypassed",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-integrative-medicine.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [],
+      "serp_needed": true
+    },
+    {
+      "key": "wave28_mfu_it",
+      "faculty_th": "สำนักวิชาเทคโนโลยีสารสนเทศ",
+      "faculty_en": "School of Information Technology",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_it_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_it.json",
+      "status": "bypassed",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-information-technology.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [],
+      "serp_needed": true
+    }
+  ]
+}

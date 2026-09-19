@@ -214,8 +214,8 @@ EXPANDED_RESEARCH_LABS = [
         "faculty_th": "คณะเภสัชศาสตร์",
         "department": "Department of Pharmaceutical Technology",
         "department_th": "ภาควิชาเทคโนโลยีเภสัชกรรม",
-        "lead_advisor_id": "srinakhari_facultyofe_jantarasaratoon_077",
-        "member_faculty_ids": ["srinakhari_facultyofe_jantarasaratoon_077"],
+        "lead_advisor_id": "su_pharm_praneet_001",
+        "member_faculty_ids": ["su_pharm_praneet_001"],
         "description": "ศูนย์นวัตกรรมด้านเภสัชกรรมชั้นนำของประเทศ มุ่งเน้นการพัฒนาระบบนำส่งยาผ่านผิวหนัง (Transdermal Microneedles) นาโนอิมัลชันสำหรับยาละลายน้ำยาก และการตั้งตำรับยาสมุนไพรไทยสู่มาตรฐานสากล",
         "research_domains": [
             "Microneedle Arrays for Painless Transdermal Drug Delivery",
@@ -251,8 +251,8 @@ EXPANDED_RESEARCH_LABS = [
         "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
         "department": "Department of Materials Science and Engineering",
         "department_th": "ภาควิชาวิทยาการและวิศวกรรมวัสดุ",
-        "lead_advisor_id": "srinakhari_facultyofe_ltkittikoonrung_006",
-        "member_faculty_ids": ["srinakhari_facultyofe_ltkittikoonrung_006"],
+        "lead_advisor_id": "su_eng_teacher_074",
+        "member_faculty_ids": ["su_eng_teacher_074"],
         "description": "วิจัยพัฒนาพลาสติกชีวภาพย่อยสลายได้ทางชีวภาพ (Biodegradable Plastics) ฟิล์มห่อหุ้มอาหารอัจฉริยะที่บ่งชี้ความสด และการรีไซเคิลพอลิเมอร์เชิงเคมีเพื่อระบบเศรษฐกิจหมุนเวียน (Circular Economy)",
         "research_domains": [
             "Bio-based Polylactic Acid (PLA) & Polyhydroxyalkanoate (PHA) Blends",
@@ -1350,8 +1350,8 @@ EXPANDED_RESEARCH_LABS = [
         "faculty_th": "คณะสถิติประยุกต์",
         "department": "Department of Data Science and Analytics",
         "department_th": "สาขาวิทยาการข้อมูลและการวิเคราะห์",
-        "lead_advisor_id": "chulalongk_facultyofa_silaket_010",
-        "member_faculty_ids": ["chulalongk_facultyofa_silaket_010"],
+        "lead_advisor_id": "nida_as_analytics_002",
+        "member_faculty_ids": ["nida_as_analytics_002"],
         "description": "ศูนย์วิจัยการวิเคราะห์ข้อมูลเชิงนโยบายระดับชาติ ประยุกต์ใช้โมเดล Big Data, AI และ Machine Learning เพื่อแก้ปัญหาความยากจน การกระจายรายได้ และการประเมินผลสัมฤทธิ์ของโครงการรัฐ",
         "research_domains": [
             "Public Policy Impact Evaluation using Quasi-Experimental Big Data",

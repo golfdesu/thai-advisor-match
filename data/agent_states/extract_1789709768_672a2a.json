@@ -1,0 +1,21 @@
+{
+  "session_id": "extract_1789709768_672a2a",
+  "target_university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+  "target_university_en": "Suranaree University of Technology",
+  "target_faculty_th": "สำนักวิชาสาธารณสุขศาสตร์",
+  "target_faculty_en": "Institute of Public Health",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.sut.ac.th/"
+  ],
+  "failed_urls": [
+    "https://publichealth.sut.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 669,
+  "status": "completed",
+  "last_error": null
+}

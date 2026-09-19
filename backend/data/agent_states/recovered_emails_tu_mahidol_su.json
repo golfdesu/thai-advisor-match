@@ -1,0 +1,387 @@
+[
+  {
+    "id": "su_eng_teacher_012",
+    "full_name_th": "รศ.ดร. บุศรากรณ์ มหาโยธี",
+    "email": "mahayothee_b@su.ac.th",
+    "source": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=301",
+    "cluster": "Silpakorn Engineering - Food Tech"
+  },
+  {
+    "id": "su_eng_teacher_135",
+    "full_name_th": "ผศ.ดร. ขวัญใจ กลิ่นจงกล",
+    "email": "klinchongkon_k@su.ac.th",
+    "source": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=5196",
+    "cluster": "Silpakorn Engineering - Food Tech"
+  },
+  {
+    "id": "su_eng_teacher_006",
+    "full_name_th": "ผศ.ดร. ดวงใจ ถิรธรรมถาวร",
+    "email": "thirathumtha_d@su.ac.th",
+    "source": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=218",
+    "cluster": "Silpakorn Engineering - Food Tech"
+  },
+  {
+    "id": "su_eng_teacher_025",
+    "full_name_th": "ผศ.ดร. ธัชพงศ์ ชูศรี",
+    "email": "choosri_t@su.ac.th",
+    "source": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=224",
+    "cluster": "Silpakorn Engineering - Food Tech"
+  },
+  {
+    "id": "su_eng_teacher_128",
+    "full_name_th": "ผศ.ดร. ภาริกา รุ่งพิชยพิเชฐ",
+    "email": "rungpichayapich_p@su.ac.th",
+    "source": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=5049",
+    "cluster": "Silpakorn Engineering - Food Tech"
+  },
+  {
+    "id": "su_eng_teacher_023",
+    "full_name_th": "ผศ.ดร. จันทร์ฉาย ทองปิ่น",
+    "email": "thongpin_c@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-dr-chanchai-thongpin/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_091",
+    "full_name_th": "ผศ.ดร. สุดศิริ เหมศรี",
+    "email": "hemsri_s@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-dr-sudsiri-hemsri/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_081",
+    "full_name_th": "ผศ.ดร. วันชัย เลิศวิจิตรจรัส",
+    "email": "_w@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-dr-wanchai-lerdwijitjarud/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_088",
+    "full_name_th": "รศ.ดร. ศุภกิจ สุทธิเรืองวงศ์",
+    "email": "_s@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-dr-supakij-suttiruengwong/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_095",
+    "full_name_th": "รศ.ดร. ณัฐกาญจน์ หงส์ศรีพันธ์",
+    "email": "hongsriphan_n@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-dr-nattakarn-hongsriphan/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_093",
+    "full_name_th": "ผศ. สมจิตร ลาภโนนเขวา",
+    "email": "lapnonkawow_s@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-somjit-lapnonkawow/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_028",
+    "full_name_th": "ผศ.ดร. ณัฐวุฒิ ชัยยุตต์",
+    "email": "_n@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-dr-nattawut-chaiyut/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_016",
+    "full_name_th": "ผศ.ดร. โสภณ ผู้มีจรรยา",
+    "email": "phumeechanya_s@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_004",
+    "full_name_th": "ผศ. กิตติธัช พาพลเพ็ญ",
+    "email": "paponpen_k@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_010",
+    "full_name_th": "ผศ.ดร. ณัฐพงศ์ วงศ์พร้อมมูล",
+    "email": "wongprommoon_n@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_122",
+    "full_name_th": "อ.ดร. อรทัย วัชรกฤชกรณ์",
+    "email": "watcharakitchak_o@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_132",
+    "full_name_th": "อ.ดร. ศักดิ์ระพี ไพศาลนันทน์",
+    "email": "paisalnan_s@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_140",
+    "full_name_th": "อ.ดร. ปาริฉัตร เสริมวุฒิสาร",
+    "email": "sermwuthisarn_p@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_142",
+    "full_name_th": "อ.ดร. คุณานนต์ คะระวานิช",
+    "email": "karawanich_k@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_082",
+    "full_name_th": "อ. กวินธร สัยเจริญ",
+    "email": "kawintho@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "su_eng_teacher_090",
+    "full_name_th": "อ.ดร. สิทธิชัย แซ่เหล่ม",
+    "email": "sujin@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "su_eng_teacher_079",
+    "full_name_th": "ผศ.ดร. สุจินต์ วุฒิชัยวัฒน์",
+    "email": "sujin@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "su_eng_teacher_125",
+    "full_name_th": "ผศ.ดร. เพ็ญพิสุทธิ์ ทองหยวก",
+    "email": "patipat@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "su_eng_teacher_066",
+    "full_name_th": "ผศ. ปฏิพัทธ์ หงษ์สุวรรณ",
+    "email": "patipat@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "su_eng_teacher_085",
+    "full_name_th": "อ.ดร. ธรรมวิชช์ ประเสริฐ",
+    "email": "thummawit@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "silpakornu_facultyoff_hutanuwatr_019",
+    "full_name_th": "อ.ดร. ณชนก หุตนันท์",
+    "email": "hutanan_n@su.ac.th",
+    "source": "https://arts.su.ac.th/?page_id=1801",
+    "cluster": "Silpakorn Faculty of Arts"
+  },
+  {
+    "id": "mahidoluni_collegeofm_boonyam_035",
+    "full_name_th": "ผศ.ดร. เตรทิพย์ บุญแย้ม",
+    "email": "treetip.boo@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/asst-prof-dr-treetip-boonyam/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_leeswadtrakul_006",
+    "full_name_th": "ดร. สมศักดิ์ ลีวัสดิ์ตระกูล",
+    "email": "shyen.lee@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/shyen-lee/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_cooper_031",
+    "full_name_th": "ผศ.ดร. เชลลีย์ มาร์ช คูเปอร์",
+    "email": "cooper.wri@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/cooper-wright/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_bowman_036",
+    "full_name_th": "ผศ.ดร. โจเซฟ แอล. บาวแมน",
+    "email": "joseph.bow@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/asst-prof-dr-joseph-bowman/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_klinsmith_057",
+    "full_name_th": "อ. Lalin Klinsmith",
+    "email": "suvich.kli@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/suvich-klinsmith/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_jittipichayanan_059",
+    "full_name_th": "อ. Pichayasini Jittipichayanan",
+    "email": "hyuk.cha@mahidol.edu",
+    "source": "https://www.music.mahidol.ac.th/people/dr-thomas-hyuk-cha/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_szawelski_213",
+    "full_name_th": "อ. Marcin Tomasz Szawelski",
+    "email": "marcin.toa@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/marcin-szawelski/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_sirilertworakul_011",
+    "full_name_th": "ดร. ณรงค์ ศิริเลิศวรกุล",
+    "email": "siri.sra@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/siri-sranoi/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mu_sci_wave14_b_0221",
+    "full_name_th": "รศ.ดร. อมรรัตน์ นรานันทรัตน์ เจนเซน",
+    "email": "amornrat.nar@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Amornrat%20Jensen",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "mahidoluni_facultyofs_tsakdapipanich_011",
+    "full_name_th": "ศ.ดร. จิตลัดดา ศักดิ์ดาพิพานิช",
+    "email": "jitladda.sak@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Jitladda%20Sakdapipanich",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "mu_sci_wave14_b_0141",
+    "full_name_th": "รศ.ดร. ไมเคิล แอนโทนี่ เอเลน",
+    "email": "michael.all@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Michael%20Allen",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "mu_sci_wave14_b_0117",
+    "full_name_th": "รศ.ดร. พรพรรณ มาตังคสมบัติ ชูพงศ์",
+    "email": "ponpan.mat@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Ponpan%20Choopong",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "mahidoluni_facultyofs_meejoosmith_031",
+    "full_name_th": "ศ.ดร. ศิวพร มีจู สมิธ",
+    "email": "siwaporn.smi@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Siwaporn%20Smith",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "mahidoluni_facultyofs_laowattanakul_100",
+    "full_name_th": "อ. ชัยวัฒน์ เหล่าวัฒนากุล",
+    "email": "tana.tac@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Tana%20Taechalertpaisarn",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "thammasatu_facultyofp_sakulpanich_026",
+    "full_name_th": "ผศ.ดร. ภญ. อรภา สกุลพาณิชย์",
+    "email": "narong.sar@mahidol.ac.th",
+    "source": "https://pharm.tu.ac.th/academicstaff",
+    "cluster": "Thammasat Faculty of Pharmacy"
+  },
+  {
+    "id": "thammasatu_facultyofn_chaisitsanguan_211",
+    "full_name_th": "ผศ.ดร. กรรณิการ์ ชัยสิทธิ์สงวน",
+    "email": "kunnikar@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_buaboon_208",
+    "full_name_th": "ผศ.ดร. ณัฐพัชร์ บัวบุญ",
+    "email": "natthapat@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_kongwattananon_209",
+    "full_name_th": "รศ.ดร. พวงผกา คงวัฒนานนท์",
+    "email": "puangpaka@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_nirattaradorn_206",
+    "full_name_th": "ผศ.ดร. มยุรี นิรัตธราดร",
+    "email": "nmayuree@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_sanguanklin_214",
+    "full_name_th": "อ.ดร. ณัฏฐนันท์พร สงวนกลิ่น",
+    "email": "snattha@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_kaewsriwong_205",
+    "full_name_th": "ผศ.ดร. ศิริลักษณ์ แก้วศรีวงค์",
+    "email": "siriluck.k@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_mutchim_215",
+    "full_name_th": "รศ.ดร. เยาวรัตน์ มัชฌิม",
+    "email": "yaowarat.m@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_raethong_216",
+    "full_name_th": "ผศ. ปริญญา แร่ทอง",
+    "email": "parinya@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_songprakon_210",
+    "full_name_th": "ผศ.ดร. เสาวนีย์ ทรงประโคน",
+    "email": "saowanee@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_rachanakul_207",
+    "full_name_th": "รศ.ดร. ปรีย์กมล รัชนกุล",
+    "email": "pregamol@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_saengnimitchaik_213",
+    "full_name_th": "ผศ.ดร. วิภาดา แสงนิมิตรชัยกุล",
+    "email": "wipada@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_sangprasert_204",
+    "full_name_th": "รศ.ดร. พานทิพย์ แสงประเสริฐ",
+    "email": "pantip@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_kammabutr_203",
+    "full_name_th": "ผศ.ดร. จีราภรณ์ กรรมบุตร",
+    "email": "jeeraporn.k@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_haniranphisai_218",
+    "full_name_th": "รศ.ดร. ธีรนุช ห้านิรัติศัย",
+    "email": "teeranut@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  }
+]

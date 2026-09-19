@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789647266_7caa45",
+  "target_university_th": "มหาวิทยาลัยขอนแก่น",
+  "target_university_en": "Khon Kaen University",
+  "target_faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+  "target_faculty_en": "Faculty of Humanities and Social Sciences",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://huso.kku.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 462,
+  "status": "completed",
+  "last_error": null
+}

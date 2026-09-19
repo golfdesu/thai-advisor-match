@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789654494_af2b31",
+  "target_university_th": "มหาวิทยาลัยขอนแก่น",
+  "target_university_en": "Khon Kaen University",
+  "target_faculty_th": "คณะเทคโนโลยี",
+  "target_faculty_en": "Faculty of Technology",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://tech.kku.ac.th"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

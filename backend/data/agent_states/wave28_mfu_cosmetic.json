@@ -1,0 +1,25 @@
+{
+  "session_id": "wave28_mfu_cosmetic",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชาเครื่องสำอาง",
+  "target_faculty_en": "School of Cosmetic Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.mfu.ac.th/en/academics.html",
+    "https://www.mfu.ac.th/en/academics/school-of-cosmetic-science.html"
+  ],
+  "failed_urls": [
+    "https://cosmetic.mfu.ac.th/",
+    "https://cosmetic.mfu.ac.th/en/",
+    "https://cosmetic.mfu.ac.th/en/cosmetic-staff/cosmetic-lecturers.html",
+    "https://cosmetic.mfu.ac.th/en/cosmetic-staff/cosmetic-executives.html"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1285,
+  "status": "completed",
+  "last_error": null
+}

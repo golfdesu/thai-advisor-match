@@ -1,0 +1,25 @@
+{
+  "session_id": "wave28_mfu_antiaging",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชาการแพทย์ชะลอวัย",
+  "target_faculty_en": "School of Anti-Aging Medicine",
+  "pending_urls": [
+    "https://www.mfu.ac.th"
+  ],
+  "visited_urls": [
+    "https://www.mfu.ac.th/en/academics.html",
+    "https://www.mfu.ac.th/en/academics/school-of-anti-aging-medicine.html",
+    "https://anti-aging.mfu.ac.th/"
+  ],
+  "failed_urls": [
+    "https://longevity.mfu.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 3,
+  "total_tokens_used": 2637,
+  "status": "completed",
+  "last_error": null
+}

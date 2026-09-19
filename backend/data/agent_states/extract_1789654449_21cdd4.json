@@ -1,0 +1,71 @@
+{
+  "session_id": "extract_1789654449_21cdd4",
+  "target_university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+  "target_university_en": "KMITL",
+  "target_faculty_th": "วิทยาลัยปัญญาประดิษฐ์",
+  "target_faculty_en": "Int. Academy of AI",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://iaai.kmitl.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "kmitl_intacademy_fac_001_001": {
+      "id": "kmitl_intacademy_fac_001_001",
+      "university": "KMITL",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Int. Academy of AI",
+      "faculty_th": "วิทยาลัยปัญญาประดิษฐ์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "",
+      "last_name": "",
+      "full_name": "",
+      "full_name_th": "ผศ.ดร. พัชรินทร์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kmitl_intacademy_yooyen_002": {
+      "id": "kmitl_intacademy_yooyen_002",
+      "university": "KMITL",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Int. Academy of AI",
+      "faculty_th": "วิทยาลัยปัญญาประดิษฐ์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Soemsak",
+      "last_name": "Yooyen",
+      "full_name": "Soemsak Yooyen",
+      "full_name_th": "ผศ.ดร. เสริมศักดิ์ อยู่เย็น",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "พัชรินทร์": "kmitl_intacademy_fac_001_001",
+    "เสริมศักดิ์ อยู่เย็น": "kmitl_intacademy_yooyen_002"
+  },
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 1860,
+  "status": "completed",
+  "last_error": null
+}

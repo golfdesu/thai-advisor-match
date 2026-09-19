@@ -1,0 +1,77 @@
+{
+  "session_id": "extract_1789695461_e30eb9",
+  "target_university_th": "มหาวิทยาลัยขอนแก่น",
+  "target_university_en": "Khon Kaen University",
+  "target_faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+  "target_faculty_en": "Faculty of Humanities and Social Sciences",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://huso.kku.ac.th",
+    "https://huso.kku.ac.th/en",
+    "https://www.kku.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "khonkaenun_facultyofh_khampusaen_001": {
+      "id": "khonkaenun_facultyofh_khampusaen_001",
+      "university": "Khon Kaen University",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty": "Faculty of Humanities and Social Sciences",
+      "faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+      "department": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+      "department_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Dararat",
+      "last_name": "Khampusaen",
+      "full_name": "Dararat Khampusaen",
+      "full_name_th": "ผศ.ดร. ดารารัตน์ คำภูษาอ้น",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "khonkaenun_facultyofh_songpan_002": {
+      "id": "khonkaenun_facultyofh_songpan_002",
+      "university": "Khon Kaen University",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty": "Faculty of Humanities and Social Sciences",
+      "faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Wararat",
+      "last_name": "Songpan",
+      "full_name": "Wararat Songpan",
+      "full_name_th": "รศ.ดร. วรารัตน์ สงฆ์แป้น",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "AI",
+        "Quantum",
+        "HPC"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ดารารัตน์ คำภูษาอ้น": "khonkaenun_facultyofh_khampusaen_001",
+    "วรารัตน์ สงฆ์แป้น": "khonkaenun_facultyofh_songpan_002"
+  },
+  "dedup_emails": {},
+  "step_count": 3,
+  "total_tokens_used": 4733,
+  "status": "completed",
+  "last_error": null
+}

@@ -1,0 +1,131 @@
+{
+  "mode": "APPLY",
+  "total_candidates": 12,
+  "valid_candidates": 12,
+  "rejected_candidates": 0,
+  "updated_emails": [
+    {
+      "id": "tu_d2fed09e_0066",
+      "full_name_th": "อ. นางสาวณัฐภรณ์ กลับทวี",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสหเวชศาสตร์",
+      "department_th": "ภาควิชาเทคนิคการแพทย์",
+      "new_email": "natthaporn.n@allied.tu.ac.th",
+      "profile_url": "https://allied.tu.ac.th/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b8%a7%e0%b8%b4%e0%b8%8a%e0%b8%b2%e0%b9%80%e0%b8%97%e0%b8%84%e0%b8%99%e0%b8%b4%e0%b8%84%e0%b8%81%e0%b8%b2/",
+      "cluster": "TU Allied Health - Medical Technology"
+    },
+    {
+      "id": "tu_1d396f37_4465",
+      "full_name_th": "ผศ.ดร. พัชรี อิศรางกูล ณ อยุธยา",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสหเวชศาสตร์",
+      "department_th": "ภาควิชาเทคนิคการแพทย์",
+      "new_email": "patcharee.i@allied.tu.ac.th",
+      "profile_url": "https://allied.tu.ac.th/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b8%a7%e0%b8%b4%e0%b8%8a%e0%b8%b2%e0%b9%80%e0%b8%97%e0%b8%84%e0%b8%99%e0%b8%b4%e0%b8%84%e0%b8%81%e0%b8%b2/",
+      "cluster": "TU Allied Health - Medical Technology"
+    },
+    {
+      "id": "tu_d48e0f5a_5885",
+      "full_name_th": "อ. ฉัตรนภา นันตื้อ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสหเวชศาสตร์",
+      "department_th": "ภาควิชารังสีเทคนิค",
+      "new_email": "chatnapa@staff.tu.ac.th",
+      "profile_url": "https://allied.tu.ac.th/elementor-3631/",
+      "cluster": "TU Allied Health - Physical Therapy"
+    },
+    {
+      "id": "tu_1f8e5f46_6233",
+      "full_name_th": "อ. กชกร พัธวงค์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสหเวชศาสตร์",
+      "department_th": "ภาควิชารังสีเทคนิค",
+      "new_email": "kochakorn.pha@allied.tu.ac.th",
+      "profile_url": "https://allied.tu.ac.th/elementor-3631/",
+      "cluster": "TU Allied Health - Physical Therapy"
+    },
+    {
+      "id": "ku_2573750b_7634",
+      "full_name_th": "ผศ.ดร. พรรณนรี ศรีน้อย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี (สาขาเคมีอนินทรีย์)",
+      "new_email": "fsciprsr@ku.ac.th",
+      "profile_url": "https://sci.ku.ac.th/web2024/personnel-group/administrative-board/",
+      "cluster": "KU Science - Chemistry"
+    },
+    {
+      "id": "ku_325ee636_3738",
+      "full_name_th": "รศ.ดร. วีกิตติ์ ศิริศักดิ์สุนทร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี (สาขาเคมีอนินทรีย์)",
+      "new_email": "fsciwks@ku.ac.th",
+      "profile_url": "https://sci.ku.ac.th/web2024/personnel-group/administrative-board/",
+      "cluster": "KU Science - Chemistry"
+    },
+    {
+      "id": "ku_be14cea1_6056",
+      "full_name_th": "ดร. วิศกร แสงสุวัน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี (สาขาวิชาเคมีอินทรีย์)",
+      "new_email": "withsakorn.san@ku.th",
+      "profile_url": "https://chemy.sci.ku.ac.th/personnel-group/organic-chemistry-staff/",
+      "cluster": "KU Science - Chemistry"
+    },
+    {
+      "id": "ku_12fb0dd2_0604",
+      "full_name_th": "รศ.ดร. อิงอร กิมกง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "fsciiok@ku.ac.th",
+      "profile_url": "https://sci.ku.ac.th/web2024/personnel-group/head-of-departments/",
+      "cluster": "KU Science - Microbiology"
+    },
+    {
+      "id": "ku_4b78a035_1700",
+      "full_name_th": "ผศ.ดร. ณัฐสมน เพชรแสง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวัสดุศาสตร์",
+      "new_email": "fscinmp@ku.ac.th",
+      "profile_url": "https://sci.ku.ac.th/web2024/personnel-group/head-of-departments/",
+      "cluster": "KU Science - Materials Science"
+    },
+    {
+      "id": "ku_26b46fb4_0870",
+      "full_name_th": "อ. สมโชค เรืองอิทธินันท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาการคอมพิวเตอร์",
+      "new_email": "fsciscr@ku.ac.th",
+      "profile_url": "https://sci.ku.ac.th/web2024/personnel-group/head-of-departments/",
+      "cluster": "KU Science - Computer Science"
+    },
+    {
+      "id": "ku_sci_wave13_b_0077",
+      "full_name_th": "ดร. ภวิกา ลิ้มอุดมพร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscipil@ku.ac.th",
+      "profile_url": "https://zoo.sci.ku.ac.th/personnel-group/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c/",
+      "cluster": "KU Science - Zoology"
+    },
+    {
+      "id": "mahidoluni_collegeofm_harimpanich_165",
+      "full_name_th": "อ. Seri Harimpanich",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+      "department_th": "Thai and Oriental Music Department",
+      "new_email": "lim@mahidol.ac.th",
+      "profile_url": "https://www.music.mahidol.ac.th/people/seri-harimpanich/",
+      "cluster": "Mahidol College of Music"
+    }
+  ],
+  "skipped_already_populated": [],
+  "not_found_in_db": [],
+  "embedding_texts_rebuilt": 6
+}

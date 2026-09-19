@@ -1,0 +1,127 @@
+{
+  "cu_mmri": {
+    "seeds": [
+      "https://mmri.chula.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_cu_mmri_export.py",
+    "verified": 0,
+    "note": "https://mmri.chula.ac.th fail Message: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=152.0.7977.84)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff7711be035+5745]\n\tchromedriver!(No symbol) [0x7ff7710e6a90]\n\tchromedriver!(No symbol) [0x7ff770f15d7d]\n\tchromedriver!(No symbol) [0x7ff770f12b49]\n\tchromedriver!(No symbol) [0x7ff770f02fc1]\n\tchromedriver!(No symbol) [0x7ff770f04e25]\n\tchromedriver!(No symbol) [0x7ff770f03563]\n\tchromedriver!(No symbol) [0x7ff770f02d2b]\n\tchromedriver!(No symbol) [0x7ff770f029e1]\n\tchromedriver!(No symbol) [0x7ff770f00697]\n\tchromedriver!(No symbol) [0x7ff770f00e12]\n\tchromedriver!(No symbol) [0x7ff770f19fd6]\n\tchromedriver!(No symbol) [0x7ff770fbf314]\n\tchromedriver!(No symbol) [0x7ff770f995ca]\n\tchromedriver!(No symbol) [0x7ff770fbe502]\n\tchromedriver!(No symbol) [0x7ff770f62e4b]\n\tchromedriver!(No symbol) [0x7ff770f63d83]\n\tchromedriver!GetHandleVer"
+  },
+  "cu_pop": {
+    "seeds": [
+      "https://cps.chula.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_cu_pop_export.py",
+    "verified": 0,
+    "note": "https://cps.chula.ac.th rendered len=14753 dens=0 | title='วิทยาลัยประชากรศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย' | agent+0 Extracted from 1 text chunk(s)."
+  },
+  "cu_pubhealth": {
+    "seeds": [
+      "https://cphs.chula.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_cu_pubhealth_export.py",
+    "verified": 0,
+    "note": "https://cphs.chula.ac.th fail Message: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=152.0.7977.84)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff7711be035+5745]\n\tchromedriver!(No symbol) [0x7ff7710e6a90]\n\tchromedriver!(No symbol) [0x7ff770f15d7d]\n\tchromedriver!(No symbol) [0x7ff770f12b49]\n\tchromedriver!(No symbol) [0x7ff770f02fc1]\n\tchromedriver!(No symbol) [0x7ff770f04e25]\n\tchromedriver!(No symbol) [0x7ff770f03563]\n\tchromedriver!(No symbol) [0x7ff770f02d2b]\n\tchromedriver!(No symbol) [0x7ff770f029e1]\n\tchromedriver!(No symbol) [0x7ff770f00697]\n\tchromedriver!(No symbol) [0x7ff770f00e12]\n\tchromedriver!(No symbol) [0x7ff770f19fd6]\n\tchromedriver!(No symbol) [0x7ff770fbf314]\n\tchromedriver!(No symbol) [0x7ff770f995ca]\n\tchromedriver!(No symbol) [0x7ff770fbe502]\n\tchromedriver!(No symbol) [0x7ff770f62e4b]\n\tchromedriver!(No symbol) [0x7ff770f63d83]\n\tchromedriver!GetHandleVer"
+  },
+  "cu_agri": {
+    "seeds": [
+      "https://sar.chula.ac.th",
+      "https://www.are.chula.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_cu_agri_export.py",
+    "verified": 0,
+    "note": "https://sar.chula.ac.th fail Message: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=152.0.7977.84)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff7711be035+5745]\n\tchromedriver!(No symbol) [0x7ff7710e6a90]\n\tchromedriver!(No symbol) [0x7ff770f15d7d]\n\tchromedriver!(No symbol) [0x7ff770f12b49]\n\tchromedriver!(No symbol) [0x7ff770f02fc1]\n\tchromedriver!(No symbol) [0x7ff770f04e25]\n\tchromedriver!(No symbol) [0x7ff770f03563]\n\tchromedriver!(No symbol) [0x7ff770f02d2b]\n\tchromedriver!(No symbol) [0x7ff770f029e1]\n\tchromedriver!(No symbol) [0x7ff770f00697]\n\tchromedriver!(No symbol) [0x7ff770f00e12]\n\tchromedriver!(No symbol) [0x7ff770f19fd6]\n\tchromedriver!(No symbol) [0x7ff770fbf314]\n\tchromedriver!(No symbol) [0x7ff770f995ca]\n\tchromedriver!(No symbol) [0x7ff770fbe502]\n\tchromedriver!(No symbol) [0x7ff770f62e4b]\n\tchromedriver!(No symbol) [0x7ff770f63d83]\n\tchromedriver!GetHandleVeri"
+  },
+  "cra_chulabhorn": {
+    "seeds": [
+      "https://www.cra.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_cra_chulabhorn_export.py",
+    "verified": 0,
+    "note": "https://www.cra.ac.th rendered len=218847 dens=4 | title='CRA ราชวิทยาลัยจุฬาภรณ์ - Chulabhorn Royal Academy' | agent+0 Extracted from 1 text chunk(s)."
+  },
+  "kmitl_iaai": {
+    "seeds": [
+      "https://iaai.kmitl.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_kmitl_iaai_export.py",
+    "verified": 1,
+    "note": "static len=133124 dens=11; title now 'International Academy of Aviation Industry' (repurposed; demo-template NOT still live, no kingsteruni/Bruce Willis); 1 verified Dean Soemsak Yooyen; 1 single-token row discarded per 2-token rule"
+  },
+  "ku_ifrpd": {
+    "seeds": [
+      "https://ifrpd.ku.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_ku_ifrpd_export.py",
+    "verified": 0,
+    "note": "https://ifrpd.ku.ac.th rendered len=110701 dens=0 | title='Home title - IFRPD - สถาบันค้นคว้าและพัฒนาผลิตภัณฑ์อาหาร' | agent+0 Extracted from 1 text chunk(s)."
+  },
+  "ku_grad": {
+    "seeds": [
+      "https://grad.ku.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_ku_grad_export.py",
+    "verified": 0,
+    "note": "https://grad.ku.ac.th static len=132469 dens=17 | title='หน้าแรก - บัณฑิตวิทยาลัย มหาวิทยาลัยเกษตรศาสตร์' | agent+0 Extracted from 1 text chunk(s)."
+  },
+  "kku_huso": {
+    "seeds": [
+      "https://huso.kku.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_kku_huso_export.py",
+    "verified": 0,
+    "note": "https://huso.kku.ac.th rendered len=148561 dens=4 | title='Faculty of Humanities and Social Sciences, Khon Kaen University : คณะมนุษยศาสตร์และสังคมศาสตร์ มหาวิทยาลัยขอนแก่น' | agent+0 Extracted from 1 text chunk(s)."
+  },
+  "kku_tech": {
+    "seeds": [
+      "https://tech.kku.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_kku_tech_export.py",
+    "verified": 0,
+    "note": "https://tech.kku.ac.th fail Message: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=152.0.7977.84)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff7711be035+5745]\n\tchromedriver!(No symbol) [0x7ff7710e6a90]\n\tchromedriver!(No symbol) [0x7ff770f15d7d]\n\tchromedriver!(No symbol) [0x7ff770f12b49]\n\tchromedriver!(No symbol) [0x7ff770f02fc1]\n\tchromedriver!(No symbol) [0x7ff770f04e25]\n\tchromedriver!(No symbol) [0x7ff770f03563]\n\tchromedriver!(No symbol) [0x7ff770f02d2b]\n\tchromedriver!(No symbol) [0x7ff770f029e1]\n\tchromedriver!(No symbol) [0x7ff770f00697]\n\tchromedriver!(No symbol) [0x7ff770f00e12]\n\tchromedriver!(No symbol) [0x7ff770f19fd6]\n\tchromedriver!(No symbol) [0x7ff770fbf314]\n\tchromedriver!(No symbol) [0x7ff770f995ca]\n\tchromedriver!(No symbol) [0x7ff770fbe502]\n\tchromedriver!(No symbol) [0x7ff770f62e4b]\n\tchromedriver!(No symbol) [0x7ff770f63d83]\n\tchromedriver!GetHandleVerif"
+  },
+  "kku_edu": {
+    "seeds": [
+      "https://ed.kku.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_kku_edu_export.py",
+    "verified": 0,
+    "note": "https://ed.kku.ac.th fail Message: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome=152.0.7977.84)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x7ff7711be035+5745]\n\tchromedriver!(No symbol) [0x7ff7710e6a90]\n\tchromedriver!(No symbol) [0x7ff770f15d7d]\n\tchromedriver!(No symbol) [0x7ff770f12b49]\n\tchromedriver!(No symbol) [0x7ff770f02fc1]\n\tchromedriver!(No symbol) [0x7ff770f04e25]\n\tchromedriver!(No symbol) [0x7ff770f03563]\n\tchromedriver!(No symbol) [0x7ff770f02d2b]\n\tchromedriver!(No symbol) [0x7ff770f029e1]\n\tchromedriver!(No symbol) [0x7ff770f00697]\n\tchromedriver!(No symbol) [0x7ff770f00e12]\n\tchromedriver!(No symbol) [0x7ff770f19fd6]\n\tchromedriver!(No symbol) [0x7ff770fbf314]\n\tchromedriver!(No symbol) [0x7ff770f995ca]\n\tchromedriver!(No symbol) [0x7ff770fbe502]\n\tchromedriver!(No symbol) [0x7ff770f62e4b]\n\tchromedriver!(No symbol) [0x7ff770f63d83]\n\tchromedriver!GetHandleVerifie"
+  },
+  "_do_not_retry": [
+    "cu_mmri",
+    "cu_pop",
+    "cu_pubhealth",
+    "cu_agri",
+    "cra_chulabhorn",
+    "ku_ifrpd",
+    "ku_grad",
+    "kku_huso",
+    "kku_tech",
+    "kku_edu"
+  ],
+  "_meta": {
+    "batch": "wave26_batchC",
+    "mode": "checkpoint-only, NO DB commit",
+    "official_ac_th_only": true
+  },
+  "psu_dent": {
+    "seeds": [
+      "https://www.dent.psu.ac.th/",
+      "https://dent.psu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_psu_dent_export.py",
+    "verified": 0,
+    "tabs_clicked": 0,
+    "tab_labels": [],
+    "note": "selenium loaded https://www.dent.psu.ac.th/ base_len=191727 dens=24 imgs=41; 0 tab candidates across 11 selectors (nav-tabs/role=tab/elementor/vc_tta); nothing clickable; agent+0; no OCR per rule => 0"
+  },
+  "wu_allied": {
+    "seeds": [
+      "https://sah.wu.ac.th/?page_id=17274 (sample of 15 ?p=/?page_id= URLs)"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_wu_allied_export.py",
+    "verified": 2,
+    "note": "sitemap 2570 locs, 601 ?p=/?page_id=; sample of 15: 3x HTTP 404, rest are news posts (student awards, meeting minutes, CoE pages, games physio duty), 0 roster pages; 2 news-derived physio lecturers from ?p=16991 (weak provenance, no email/profile)"
+  }
+}

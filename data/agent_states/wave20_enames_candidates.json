@@ -1,0 +1,2236 @@
+{
+"chulalongk_facultyofp_fac_036_036": {
+"en": [
+"Jennit",
+"Manyaem"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jennit",
+"Manyaem"
+]
+},
+"th_ok": false
+},
+"cu_ahs_wave15_0008": {
+"en": [
+"James",
+"Brimson"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"James",
+"Brimson"
+],
+"T4": [
+"James Michael",
+"Brimson"
+]
+},
+"th_ok": false
+},
+"ku_wave18_agrips_0115": {
+"en": [
+"Panawat",
+"Sikhandakasmita"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Panawat",
+"Sikhandakasmita"
+]
+},
+"th_ok": false
+},
+"ku_wave18_asc_0132": {
+"en": [
+"Jutatip",
+"Poubol"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jutatip",
+"Poubol"
+]
+},
+"th_ok": false
+},
+"ku_wave18_ifrpd_0026": {
+"en": [
+"Thussanee",
+"Plangklang"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Thussanee",
+"Plangklang"
+]
+},
+"th_ok": false
+},
+"ku_wave18_nrai_0002": {
+"en": [
+"Pancheewan",
+"Ponphang"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Pancheewan",
+"Ponphang"
+]
+},
+"th_ok": false
+},
+"ku_wave18_scie_0086": {
+"en": [
+"Rungsan",
+"Chaiyachet"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Rungsan",
+"Chaiyachet"
+]
+},
+"th_ok": false
+},
+"kku_sci_wave14_b_0104": {
+"en": [
+"Chakrit",
+"Pongkitivanichkul"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Chakrit",
+"Pongkitivanichkul"
+]
+},
+"th_ok": false
+},
+"msu_tawatchai_k_6914": {
+"en": [
+"Tawatchai",
+"Kunakote"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Tawatchai",
+"Kunakote"
+]
+},
+"th_ok": false
+},
+"kingmongku_schoolofen_leewiwatwong_038": {
+"en": [
+"Suphachart",
+"Leewiwatwong"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Suphachart",
+"Leewiwatwong"
+]
+},
+"th_ok": false
+},
+"khonkaenun_facultyofm_fac_004_004": {
+"en": [
+"Yutthaphong",
+"Wongsawatdiwat"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Yutthaphong",
+"Wongsawatdiwat"
+]
+},
+"th_ok": false
+},
+"khonkaenun_facultyofm_fac_005_005": {
+"en": [
+"Ratthaphon",
+"Upala"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Ratthaphon",
+"Upala"
+]
+},
+"th_ok": false
+},
+"khonkaenun_facultyofm_fac_006_006": {
+"en": [
+"Siraphum",
+"Niamsanit"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Siraphum",
+"Niamsanit"
+]
+},
+"th_ok": false
+},
+"ku_wave18_asc_0050": {
+"en": [
+"Kamolphan",
+"Jangarun"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Kamolphan",
+"Jangarun"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_cutietta_027": {
+"en": [
+"Robert",
+"Cutietta"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Robert",
+"Cutietta"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_haaland_019": {
+"en": [
+"Ingolv",
+"Haaland"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Ingolv",
+"Haaland"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_ishikawa_034": {
+"en": [
+"Yoshi",
+"Ishikawa"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Yoshi",
+"Ishikawa"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_meyer_024": {
+"en": [
+"Jeffery",
+"Meyer"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jeffery",
+"Meyer"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_reid_014": {
+"en": [
+"Anna",
+"Reid"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Anna",
+"Reid"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_prchal_017": {
+"en": [
+"Martin",
+"Prchal"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Martin",
+"Prchal"
+]
+},
+"th_ok": false
+},
+"thammasatu_facultyofl_thirawat_021": {
+"en": [
+"Jaturon",
+"Thirawat"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jaturon",
+"Thirawat"
+]
+},
+"th_ok": false
+},
+"thaksinuni_collegeofi_arunphalungsant_003": {
+"en": [
+"Kittipun",
+"Arunphalungsanti"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Kittipun",
+"Arunphalungsanti"
+]
+},
+"th_ok": false
+},
+"thaksinuni_collegeofi_hiransai_019": {
+"en": [
+"Poonsit",
+"Hiransai"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Poonsit",
+"Hiransai"
+]
+},
+"th_ok": false
+},
+"thaksinuni_collegeofi_hmoteh_018": {
+"en": [
+"Jutharat",
+"Hmoteh"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jutharat",
+"Hmoteh"
+]
+},
+"th_ok": false
+},
+"thaksinuni_collegeofi_rattanawan_008": {
+"en": [
+"Prathomchai",
+"Rattanawan"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Prathomchai",
+"Rattanawan"
+]
+},
+"th_ok": false
+},
+"thaksinuni_collegeofi_suwannasin_005": {
+"en": [
+"Surasit",
+"Suwannasin"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Surasit",
+"Suwannasin"
+]
+},
+"th_ok": false
+},
+"thaksinuni_facultyofe_saneha_029": {
+"en": [
+"Jarumas",
+"Saneha"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jarumas",
+"Saneha"
+]
+},
+"th_ok": false
+},
+"thaksinuni_facultyofe_wanlem_039": {
+"en": [
+"Rofeekee",
+"Wanlem"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Rofeekee",
+"Wanlem"
+]
+},
+"th_ok": false
+},
+"thaksinuni_facultyofl_singkaneti_013": {
+"en": [
+"Banjerd",
+"Singkaneti"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Banjerd",
+"Singkaneti"
+]
+},
+"th_ok": false
+},
+"thaksinuni_facultyofm_sitthitikul_008": {
+"en": [
+"Pragasit",
+"Sitthitikul"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Pragasit",
+"Sitthitikul"
+]
+},
+"th_ok": false
+},
+"ku_wave17_hum_0125": {
+"en": [
+"Boonlert",
+"Wiwan"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Boonlert",
+"Wiwan"
+]
+},
+"th_ok": false
+},
+"princeofso_facultyofs_ngamdee_045": {
+"en": [
+"Wantapon",
+"Ngamdee"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Wantapon",
+"Ngamdee"
+]
+},
+"th_ok": false
+},
+"kingmongku_schoolofen_tarnsangpradit_005": {
+"en": [
+"Jirameth",
+"Tarnsangpradit"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jirameth",
+"Tarnsangpradit"
+]
+},
+"th_ok": false
+},
+"ku_wave18_ifrpd_0016": {
+"en": [
+"Chansuda",
+"Jariyavatanavijit"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Chansuda",
+"Jariyavatanavijit"
+]
+},
+"th_ok": false
+},
+"ku_wave18_pubh_0012": {
+"en": [
+"ANAN",
+"IFTIKHAL"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"ANAN",
+"IFTIKHAL"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_williams_026": {
+"en": [
+"Lindsey",
+"Williams"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Lindsey",
+"Williams"
+]
+},
+"th_ok": false
+},
+"ku_wave18_scie_0103": {
+"en": [
+"Aran",
+"PRAKOBSANT"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Aran",
+"PRAKOBSANT"
+]
+},
+"th_ok": false
+},
+"nu_kanchaleej__0384": {
+"en": [
+"Kanchalee",
+"Jetiyanon"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Kanchalee",
+"Jetiyanon"
+]
+},
+"th_ok": false
+},
+"cmu_398c4c40_5859": {
+"en": [
+"Pasiri",
+"Singhasiri"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Pasiri",
+"Singhasiri"
+]
+},
+"th_ok": false
+},
+"cmu_35d07752_0597": {
+"en": [
+"Natcha",
+"Arunphairojanakul"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Natcha",
+"Arunphairojanakul"
+]
+},
+"th_ok": false
+},
+"cmu_50eeedb9_4586": {
+"en": [
+"Naruephorn",
+"Vinaikosol"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Naruephorn",
+"Vinaikosol"
+]
+},
+"th_ok": false
+},
+"ubonratcha_facultyofp_wongveerakul_014": {
+"en": [
+"Pongpanot",
+"Wongveerakul"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Pongpanot",
+"Wongveerakul"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_grund_129": {
+"en": [
+"Martin",
+"Grund"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Martin",
+"Grund"
+],
+"T4": [
+"Martin",
+"Grund"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_matsushima_148": {
+"en": [
+"Hiroshi",
+"Matsushima"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Hiroshi",
+"Matsushima"
+],
+"T4": [
+"Hiroshi",
+"Matsushima"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_wright_150": {
+"en": [
+"Cooper",
+"Wright"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Cooper",
+"Wright"
+],
+"T4": [
+"Cooper",
+"Wright"
+]
+},
+"th_ok": false
+},
+"cmu_630ed296_6818": {
+"en": [
+"Derek",
+"Bunn"
+],
+"conf": "high",
+"tiers": {
+"T2": [
+"Derek",
+"Bunn"
+],
+"T4": [
+"Derek",
+"Bunn"
+]
+},
+"th_ok": false
+},
+"cmu_6c77b1e6_7673": {
+"en": [
+"Xuefeng",
+"Zhang"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Xuefeng",
+"Zhang"
+],
+"T2": [
+"Xuefeng",
+"Zhang"
+],
+"T4": [
+"Xuefeng",
+"Zhang"
+]
+},
+"th_ok": false
+},
+"cmu_1c5854e7_6808": {
+"en": [
+"Chumpol",
+"Chetjamnong"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Chumpol",
+"Chetjamnong"
+]
+},
+"th_ok": false
+},
+"ubonratcha_collegeofl_jing_020": {
+"en": [
+"Zhao",
+"Jing"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Zhao",
+"Jing"
+],
+"T4": [
+"Zhao",
+"Jing"
+]
+},
+"th_ok": false
+},
+"ubonratcha_collegeofl_kondo_027": {
+"en": [
+"Rina",
+"Kondo"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Rina",
+"Kondo"
+],
+"T4": [
+"Rina",
+"Kondo"
+]
+},
+"th_ok": false
+},
+"ubonratcha_collegeofl_masaki_028": {
+"en": [
+"Koji",
+"Masaki"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Koji",
+"Masaki"
+],
+"T4": [
+"Koji",
+"Masaki"
+]
+},
+"th_ok": false
+},
+"ubonratcha_collegeofl_sasaki_029": {
+"en": [
+"Yohei",
+"Sasaki"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Yohei",
+"Sasaki"
+],
+"T4": [
+"Yohei",
+"Sasaki"
+]
+},
+"th_ok": false
+},
+"ubonratcha_collegeofl_xiaowen_019": {
+"en": [
+"Zhao",
+"Xiaowen"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Zhao",
+"Xiaowen"
+],
+"T4": [
+"Zhao",
+"Xiaowen"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_jung_155": {
+"en": [
+"Yu-Jin",
+"Jung"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Yu-Jin",
+"Jung"
+],
+"T4": [
+"Yu-Jin",
+"Jung"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_lynch_170": {
+"en": [
+"Nathan",
+"Lynch"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Nathan",
+"Lynch"
+],
+"T4": [
+"Nathan",
+"Lynch"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_matsushima_111": {
+"en": [
+"Yoshimi",
+"Matsushima"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Yoshimi",
+"Matsushima"
+],
+"T4": [
+"Yoshimi",
+"Matsushima"
+]
+},
+"th_ok": false
+},
+"mahidoluni_collegeofm_parente_094": {
+"en": [
+"David",
+"Parente"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"David",
+"Parente"
+],
+"T4": [
+"David",
+"Parente"
+]
+},
+"th_ok": false
+},
+"cmu_d542da29_8423": {
+"en": [
+"Tri",
+"Wirjantoro"
+],
+"conf": "medium",
+"tiers": {
+"T1": [
+"Tri",
+"Wirjantoro"
+],
+"T4": [
+"Tri Indrarini",
+"Wirjantoro"
+]
+},
+"th_ok": false
+},
+"ubonratcha_collegeofl_chenchi_018": {
+"en": [
+"Li",
+"Chenchi"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Li",
+"Chenchi"
+],
+"T4": [
+"Li",
+"Chenchi"
+]
+},
+"th_ok": false
+},
+"cmu_ds_wave11_0016": {
+"en": [
+"Pattarahathai",
+"Na Lamphun"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Pattarahathai",
+"Na Lamphun"
+]
+},
+"th_ok": false
+},
+"cmu_eng_department_james_84": {
+"en": [
+"James",
+"Christopher"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"James",
+"Christopher"
+],
+"T2": [
+"James",
+"Moran"
+],
+"T4": [
+"James",
+"Christopher"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0014": {
+"en": [
+"Hillol",
+"Bala"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Hillol",
+"Bala"
+],
+"T4": [
+"Hillol",
+"Bala"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0038": {
+"en": [
+"Deborah",
+"Lucas"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Deborah",
+"Lucas"
+],
+"T4": [
+"Deborah",
+"Lucas"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0044": {
+"en": [
+"Morten",
+"Bennedsen"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Morten",
+"Bennedsen"
+],
+"T4": [
+"Morten",
+"Bennedsen"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0045": {
+"en": [
+"Paul",
+"Embrechts"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Paul",
+"Embrechts"
+],
+"T4": [
+"Paul",
+"Embrechts"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0046": {
+"en": [
+"Roger",
+"King"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Roger",
+"King"
+],
+"T4": [
+"Roger",
+"King"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0047": {
+"en": [
+"Shawn",
+"Cole"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Shawn",
+"Cole"
+],
+"T4": [
+"Shawn",
+"Cole"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0048": {
+"en": [
+"Söhnke",
+"Bartram"
+],
+"conf": "medium",
+"tiers": {
+"T1": [
+"Söhnke",
+"Bartram"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0049": {
+"en": [
+"Tony",
+"Kang"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Tony",
+"Kang"
+],
+"T4": [
+"Tony",
+"Kang"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0259": {
+"en": [
+"Kongmanas",
+"Yavaprabhas"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Kongmanas",
+"Yavaprabhas"
+]
+},
+"th_ok": false
+},
+"cu_eng_wave13_0068": {
+"en": [
+"Dalad",
+"Na Nakorn"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Dalad",
+"Na Nakorn"
+]
+},
+"th_ok": false
+},
+"econ-cu-009_9efc88": {
+"en": [
+"Thitima",
+"Puttitanun"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Thitima",
+"Puttitanun"
+]
+},
+"th_ok": false
+},
+"arch-chula-012_c60c3c": {
+"en": [
+"Wandee",
+"Pinijvarasin"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Wandee",
+"Pinijvarasin"
+]
+},
+"th_ok": false
+},
+"universi_schoolof_560b2cd6": {
+"en": [
+"Adisaya",
+"Charoenphon"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Adisaya",
+"Charoenphon"
+]
+},
+"th_ok": false
+},
+"universi_schoolof_b7555d98": {
+"en": [
+"Jirawat",
+"Sukkaew"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jirawat",
+"Sukkaew"
+]
+},
+"th_ok": false
+},
+"universi_schoolof_fde34f16": {
+"en": [
+"Sakphan",
+"Daengmanee"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Sakphan",
+"Daengmanee"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0214": {
+"en": [
+"Sansakrit",
+"Vichitlekarn"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Sansakrit",
+"Vichitlekarn"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0298": {
+"en": [
+"Thanasak",
+"Sathitwitayakul"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Thanasak",
+"Sathitwitayakul"
+]
+},
+"th_ok": false
+},
+"cu_cbs_wave11_0354": {
+"en": [
+"Mustafa",
+"Moussa"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Mustafa",
+"Moussa"
+],
+"T4": [
+"Mustafa",
+"Moussa"
+]
+},
+"th_ok": false
+},
+"cu_pharm_wave16_0078": {
+"en": [
+"Sompop",
+"Thompho"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Sompop",
+"Thompho"
+]
+},
+"th_ok": false
+},
+"ku_sci_wave13_0003": {
+"en": [
+"Jiraroj",
+"T-Thienprasert"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jiraroj",
+"T-Thienprasert"
+]
+},
+"th_ok": false
+},
+"ku_sci_wave13_0048": {
+"en": [
+"Suriya",
+"Na Nongkhai"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Suriya",
+"Na Nongkhai"
+]
+},
+"th_ok": false
+},
+"ku_sci_wave13_b_0008": {
+"en": [
+"Nuttanan",
+"T-Thienprasert"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Nuttanan",
+"T-Thienprasert"
+]
+},
+"th_ok": false
+},
+"ku_wave18_agrips_0153": {
+"en": [
+"Srisuwan",
+"Chomchai"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Srisuwan",
+"Chomchai"
+]
+},
+"th_ok": false
+},
+"cu_wave19_psy_0001": {
+"en": [
+"Adi",
+"Shaked"
+],
+"conf": "high",
+"tiers": {
+"T3": [
+"Adi",
+"Shaked"
+],
+"T4": [
+"Adi",
+"Shaked"
+]
+},
+"th_ok": false
+},
+"msu_anongrit_k_0212": {
+"en": [
+"Anongrit",
+"Kangrang"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Anongrit",
+"Kangrang"
+]
+},
+"th_ok": false
+},
+"msu_banri_k_5720": {
+"en": [
+"Banri",
+"Khemkladmook"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Banri",
+"Khemkladmook"
+]
+},
+"th_ok": false
+},
+"msu_bopit_b_0099": {
+"en": [
+"Bopit",
+"Bubphachot"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Bopit",
+"Bubphachot"
+]
+},
+"th_ok": false
+},
+"msu_chaicharn_c_5614": {
+"en": [
+"Chaicharn",
+"Chotithanorm"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Chaicharn",
+"Chotithanorm"
+]
+},
+"th_ok": false
+},
+"msu_chaiyong_s_0283": {
+"en": [
+"Chaiyong",
+"Sermphol"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Chaiyong",
+"Sermphol"
+]
+},
+"th_ok": false
+},
+"msu_chanat_v_9242": {
+"en": [
+"Chanat",
+"Wiphatthanaporn"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Chanat",
+"Wiphatthanaporn"
+]
+},
+"th_ok": false
+},
+"msu_chonlatee_p_6174": {
+"en": [
+"Chonlatee",
+"Photong"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Chonlatee",
+"Photong"
+]
+},
+"th_ok": false
+},
+"msu_grit_n_8347": {
+"en": [
+"Grit",
+"Ngowtanasuwan"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Grit",
+"Ngowtanasuwan"
+]
+},
+"th_ok": false
+},
+"msu_juckamas_l_4507": {
+"en": [
+"Juckamas",
+"Laohavanich"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Juckamas",
+"Laohavanich"
+]
+},
+"th_ok": false
+},
+"msu_kiattisin_k_3747": {
+"en": [
+"Kiattisin",
+"Kanjanavapibul"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Kiattisin",
+"Kanjanavapibul"
+]
+},
+"th_ok": false
+},
+"msu_krit_l_4881": {
+"en": [
+"Krit",
+"Lertlum"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Krit",
+"Lertlum"
+]
+},
+"th_ok": false
+},
+"msu_napanom_k_2355": {
+"en": [
+"Napanom",
+"Kaewhanam"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Napanom",
+"Kaewhanam"
+]
+},
+"th_ok": false
+},
+"msu_narin_s_7129": {
+"en": [
+"Narin",
+"Siriwan"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Narin",
+"Siriwan"
+]
+},
+"th_ok": false
+},
+"msu_nattapol_p_5635": {
+"en": [
+"Nattapol",
+"Poomsa-ad"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Nattapol",
+"Poomsa-ad"
+]
+},
+"th_ok": false
+},
+"msu_nattawoot_s_8088": {
+"en": [
+"Nattawoot",
+"Suwannatha"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Nattawoot",
+"Suwannatha"
+]
+},
+"th_ok": false
+},
+"msu_nawarat_p_0611": {
+"en": [
+"Nawarat",
+"Piladaeng"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Nawarat",
+"Piladaeng"
+]
+},
+"th_ok": false
+},
+"msu_niwat_a_7429": {
+"en": [
+"Niwat",
+"Angkawisittpan"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Niwat",
+"Angkawisittpan"
+]
+},
+"th_ok": false
+},
+"msu_noppadol_s_2683": {
+"en": [
+"Noppadol",
+"Sangiamsak"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Noppadol",
+"Sangiamsak"
+]
+},
+"th_ok": false
+},
+"msu_nutnicha_i_5206": {
+"en": [
+"Nutnicha",
+"Imnamkhao"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Nutnicha",
+"Imnamkhao"
+]
+},
+"th_ok": false
+},
+"msu_nuttapon_c_2074": {
+"en": [
+"Nuttapon",
+"Chaiduangsri"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Nuttapon",
+"Chaiduangsri"
+]
+},
+"th_ok": false
+},
+"msu_piyanat_j_4588": {
+"en": [
+"Piyanat",
+"Janthosut"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Piyanat",
+"Janthosut"
+]
+},
+"th_ok": false
+},
+"msu_rattana_h_7637": {
+"en": [
+"Rattana",
+"Homwichian"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Rattana",
+"Homwichian"
+]
+},
+"th_ok": false
+},
+"ku_wave17_hum_0018": {
+"en": [
+"Jayanat",
+"Wisaijorn"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jayanat",
+"Wisaijorn"
+]
+},
+"th_ok": false
+},
+"ku_wave17_hum_0039": {
+"en": [
+"Theerat",
+"Saengkaew"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Theerat",
+"Saengkaew"
+]
+},
+"th_ok": false
+},
+"msu_raungrut_c_8434": {
+"en": [
+"Raungrut",
+"Cheerarot"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Raungrut",
+"Cheerarot"
+]
+},
+"th_ok": false
+},
+"msu_sahalaph_h_0461": {
+"en": [
+"Sahalaph",
+"Homwuttiwong"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Sahalaph",
+"Homwuttiwong"
+]
+},
+"th_ok": false
+},
+"msu_sattawat_t_6447": {
+"en": [
+"Sattawat",
+"Thuangchon"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Sattawat",
+"Thuangchon"
+]
+},
+"th_ok": false
+},
+"msu_siriluk_w_7692": {
+"en": [
+"Siriluk",
+"Wongkhasem"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Siriluk",
+"Wongkhasem"
+]
+},
+"th_ok": false
+},
+"msu_siwa_k_5790": {
+"en": [
+"Siwa",
+"Kaewplang"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Siwa",
+"Kaewplang"
+]
+},
+"th_ok": false
+},
+"msu_songchai_w_4502": {
+"en": [
+"Songchai",
+"Wiriyaumpaiwong"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Songchai",
+"Wiriyaumpaiwong"
+]
+},
+"th_ok": false
+},
+"msu_sopa_c_4740": {
+"en": [
+"Sopa",
+"Cansee"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Sopa",
+"Cansee"
+]
+},
+"th_ok": false
+},
+"msu_sudsakorn_i_1740": {
+"en": [
+"Sudsakorn",
+"Inthidech"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Sudsakorn",
+"Inthidech"
+]
+},
+"th_ok": false
+},
+"msu_supannika_w_0693": {
+"en": [
+"Supannika",
+"Wattana"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Supannika",
+"Wattana"
+]
+},
+"th_ok": false
+},
+"ku_wave17_hum_0129": {
+"en": [
+"DIREK",
+"HONGTHONG"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"DIREK",
+"HONGTHONG"
+]
+},
+"th_ok": false
+},
+"msu_suphan_y_8562": {
+"en": [
+"Suphan",
+"Yangyuen"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Suphan",
+"Yangyuen"
+]
+},
+"th_ok": false
+},
+"msu_surachai_w_2113": {
+"en": [
+"Surachai",
+"Wongcharee"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Surachai",
+"Wongcharee"
+]
+},
+"th_ok": false
+},
+"msu_surapong_l_6760": {
+"en": [
+"Surapong",
+"Liwthaisong"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Surapong",
+"Liwthaisong"
+]
+},
+"th_ok": false
+},
+"ku_wave17_hum_0155": {
+"en": [
+"JIRAWUT",
+"KITKARUL"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"JIRAWUT",
+"KITKARUL"
+]
+},
+"th_ok": false
+},
+"msu_tanayut_c_9888": {
+"en": [
+"Tanayut",
+"Chaithongrat"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Tanayut",
+"Chaithongrat"
+]
+},
+"th_ok": false
+},
+"msu_teerapat_c_3786": {
+"en": [
+"Teerapat",
+"Chomphukham"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Teerapat",
+"Chomphukham"
+]
+},
+"th_ok": false
+},
+"msu_theerayuth_c_0672": {
+"en": [
+"Theerayuth",
+"Chatchanayunyong"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Theerayuth",
+"Chatchanayunyong"
+]
+},
+"th_ok": false
+},
+"msu_wajussakorn_k_6227": {
+"en": [
+"Wajussakorn",
+"Kanjana"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Wajussakorn",
+"Kanjana"
+]
+},
+"th_ok": false
+},
+"msu_wasan_d_9549": {
+"en": [
+"Wasan",
+"Duangkhamchan"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Wasan",
+"Duangkhamchan"
+]
+},
+"th_ok": false
+},
+"msu_yottha_s_3427": {
+"en": [
+"Yottha",
+"Srithep"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Yottha",
+"Srithep"
+]
+},
+"th_ok": false
+},
+"ku_wave17_soc_0095": {
+"en": [
+"Panipa",
+"Suksom"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Panipa",
+"Suksom"
+]
+},
+"th_ok": false
+},
+"ku_wave18_arch_0041": {
+"en": [
+"pornpas",
+"siricururatana"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"pornpas",
+"siricururatana"
+]
+},
+"th_ok": false
+},
+"ku_wave18_arch_0045": {
+"en": [
+"Suchon",
+"Mallikamarl"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Suchon",
+"Mallikamarl"
+]
+},
+"th_ok": false
+},
+"ku_wave18_asc_0072": {
+"en": [
+"Sureerut",
+"Wongsaming"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Sureerut",
+"Wongsaming"
+]
+},
+"th_ok": false
+},
+"mu_envs_006_8baa4f": {
+"en": [
+"Ratcha",
+"Chaichana"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Ratcha",
+"Chaichana"
+]
+},
+"th_ok": false
+},
+"mu_envs_008_7217e5": {
+"en": [
+"Thanit",
+"Pattamapitoon"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Thanit",
+"Pattamapitoon"
+]
+},
+"th_ok": false
+},
+"ku_wave18_eduks_0039": {
+"en": [
+"somboon",
+"silrungtham"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"somboon",
+"silrungtham"
+]
+},
+"th_ok": false
+},
+"ku_wave18_engsrc_0027": {
+"en": [
+"Tamnuwat",
+"Valeeprakhon"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Tamnuwat",
+"Valeeprakhon"
+]
+},
+"th_ok": false
+},
+"ku_wave18_engsrc_0029": {
+"en": [
+"Jirawat",
+"Jitprasutwit"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Jirawat",
+"Jitprasutwit"
+]
+},
+"th_ok": false
+},
+"ku_wave18_engsrc_0030": {
+"en": [
+"Nut",
+"Aroon"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Nut",
+"Aroon"
+]
+},
+"th_ok": false
+},
+"ku_wave18_msc_0026": {
+"en": [
+"SARUN",
+"DUNSATHIT"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"SARUN",
+"DUNSATHIT"
+]
+},
+"th_ok": false
+},
+"ku_wave18_msc_0064": {
+"en": [
+"THITISAK",
+"DUADSUNTIA"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"THITISAK",
+"DUADSUNTIA"
+]
+},
+"th_ok": false
+},
+"ku_wave18_srv_0002": {
+"en": [
+"Chanmatha",
+"Sriraksa"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Chanmatha",
+"Sriraksa"
+]
+},
+"th_ok": false
+},
+"ku_wave18_srv_0042": {
+"en": [
+"Chris",
+"Chan"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Chris",
+"Chan"
+]
+},
+"th_ok": false
+},
+"nu_teerapornk__3400": {
+"en": [
+"Teeraporn",
+"Kongbangkerd"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Teeraporn",
+"Kongbangkerd"
+]
+},
+"th_ok": false
+},
+"psu_kasrin_s_9930": {
+"en": [
+"Kasrin",
+"Saisahas"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Kasrin",
+"Saisahas"
+]
+},
+"th_ok": false
+},
+"psu_rawiporn_p_3998": {
+"en": [
+"Rawiporn",
+"Promsoong"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Rawiporn",
+"Promsoong"
+]
+},
+"th_ok": false
+},
+"psu_suparat_c_0400": {
+"en": [
+"Suparat",
+"Khotchim"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Suparat",
+"Khotchim"
+]
+},
+"th_ok": false
+},
+"psu_thanawit_k_8357": {
+"en": [
+"Thanawit",
+"Kueamitr"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Thanawit",
+"Kueamitr"
+]
+},
+"th_ok": false
+},
+"thammasatu_facultyofn_raethong_216": {
+"en": [
+"Parinya",
+"Raethong"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Parinya",
+"Raethong"
+]
+},
+"th_ok": false
+},
+"tu_77228bb7_6146": {
+"en": [
+"Isaac",
+"Jamieson"
+],
+"conf": "high",
+"tiers": {
+"T1": [
+"Isaac",
+"Jamieson"
+],
+"T4": [
+"Isaac Adam",
+"Jamieson"
+]
+},
+"th_ok": false
+},
+"tu_somsiri_indramanee_9083": {
+"en": [
+"Somsiri",
+"Indramanee"
+],
+"conf": "medium",
+"tiers": {
+"T4": [
+"Somsiri",
+"Indramanee"
+]
+},
+"th_ok": false
+}
+}

@@ -1,0 +1,1042 @@
+{
+  "apply": true,
+  "total_valid_email_items": 115,
+  "updated_emails": [
+    {
+      "id": "ku_fish_wave11_0002",
+      "full_name_th": "อ. ณัฎฐิกาฑ์ เหมภัทรสุวรรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาการจัดการประมง",
+      "new_email": "ffisngh@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/nadthikath-ehmphathrsuwrrn"
+    },
+    {
+      "id": "ku_fish_wave11_0003",
+      "full_name_th": "อ. วรัณทัต ดุลยพฤกษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาการจัดการประมง",
+      "new_email": "ffisvtd@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peoples/wranthat-dulyphvks"
+    },
+    {
+      "id": "ku_fish_wave11_0004",
+      "full_name_th": "อ. เณรตา ปิ่นเนตรหาญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาการจัดการประมง",
+      "new_email": "ffisurnh@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/enrta-pinentrhay"
+    },
+    {
+      "id": "ku_fish_wave11_0005",
+      "full_name_th": "อ. มณช์นิศาษ์ ศรีสมวงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาการจัดการประมง",
+      "new_email": "ffisjts@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/mnchnisas-sriismwngs"
+    },
+    {
+      "id": "ku_fish_wave11_0006",
+      "full_name_th": "อ. มานิต ชาญสุภาพ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาการจัดการประมง",
+      "new_email": "ffismnc@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/manit-chaysuphaph"
+    },
+    {
+      "id": "ku_fish_wave11_0007",
+      "full_name_th": "อ. เกริกไกร สงค์อินทร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาการจัดการประมง",
+      "new_email": "krerkkrai.s@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/ekrikikr-sngkhxinthr"
+    },
+    {
+      "id": "ku_fish_wave11_0009",
+      "full_name_th": "อ. จันทนา ไพรบูรณ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "ffisjtn@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/canthna-iphrbuurn"
+    },
+    {
+      "id": "ku_fish_wave11_0012",
+      "full_name_th": "อ. จารุมาศ เจริญพานิช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "ffiscmc@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/carumas-ecriyphanich"
+    },
+    {
+      "id": "ku_fish_wave11_0014",
+      "full_name_th": "อ. นิติ ชูเชิด",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "ffisntc@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/niti-chuuechid"
+    },
+    {
+      "id": "ku_fish_wave11_0015",
+      "full_name_th": "อ. สันติ พ่วงเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "fisstpr@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/santi-phwngecriy"
+    },
+    {
+      "id": "ku_fish_wave11_0022",
+      "full_name_th": "อ. นันทิภา พันธุ์สวัสดิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาผลิตภัณฑ์ประมง",
+      "new_email": "ffisntp@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/nanthipha-phanthuswasdi"
+    },
+    {
+      "id": "ku_fish_wave11_0024",
+      "full_name_th": "อ. กังสดาลย์ บุญปราบ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาผลิตภัณฑ์ประมง",
+      "new_email": "ffisksb@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/kangsdaly-buyprab"
+    },
+    {
+      "id": "ku_fish_wave11_0028",
+      "full_name_th": "อ. ภาสกร กิ่งวัชระพงค์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาผลิตภัณฑ์ประมง",
+      "new_email": "passakorn.ki@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/phaskr-kingwachraphngkh"
+    },
+    {
+      "id": "ku_fish_wave11_0029",
+      "full_name_th": "อ. สุธาสินี ชิ้นทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาผลิตภัณฑ์ประมง",
+      "new_email": "ffissnc@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/suthasinii-chinthxng"
+    },
+    {
+      "id": "ku_fish_wave11_0034",
+      "full_name_th": "อ. วราห์ เทพาหุดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffiswrt@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/wrah-ethphahudii"
+    },
+    {
+      "id": "ku_fish_wave11_0037",
+      "full_name_th": "อ. เรืองชาย ยุ้นพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffisrvy@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/eruuexngwichy-yunphanth"
+    },
+    {
+      "id": "ku_fish_wave11_0039",
+      "full_name_th": "อ. ธนาคม บัณฑิตวงศ์รัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffistkb@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/thnakhm-banthitwngsratn"
+    },
+    {
+      "id": "ku_fish_wave11_0042",
+      "full_name_th": "อ. อัครศิริ แสงสว่าง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffisais@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/xakhrsiri-aesngswang"
+    },
+    {
+      "id": "ku_fish_wave11_0045",
+      "full_name_th": "อ. สิลา สุขวัจน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffissis@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/sila-sukhwacn"
+    },
+    {
+      "id": "ku_fish_wave11_0046",
+      "full_name_th": "อ. จักร อรัณยกานนท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffischa@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peoples/cakr-xranykannth"
+    },
+    {
+      "id": "ku_fish_wave11_0047",
+      "full_name_th": "อ. ชลธิดา ภูถาวร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "chontida.phut@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/chlthida-phuuthawr"
+    },
+    {
+      "id": "ku_fish_wave11_0050",
+      "full_name_th": "อ. ธีระพงศ์ ด้วงดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "teerapong.d@ku.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/thiiraphngs-dwngdii"
+    },
+    {
+      "id": "ku_fish_wave11_0051",
+      "full_name_th": "อ. จินตนา สและน้อย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "ffisjid@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/cintna-saelanxy"
+    },
+    {
+      "id": "ku_fish_wave11_0052",
+      "full_name_th": "อ. ปริญญา ลิมป์วิริยะกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "parinya.l@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/priyya-limpwiriyakul"
+    },
+    {
+      "id": "ku_fish_wave11_0054",
+      "full_name_th": "อ. จรวย สุขแสงจันทร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "ffiscrs@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/crwy-sukhaesngcanthr"
+    },
+    {
+      "id": "ku_fish_wave11_0056",
+      "full_name_th": "อ. จิตราภรณ์ ฟักโสภา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "ffisjpp@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/citraphrn-fakospha"
+    },
+    {
+      "id": "ku_fish_wave11_0058",
+      "full_name_th": "อ. นภาขวัญ แหวนเพชร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "ffisnww@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/nphakhway-aehwnephchr"
+    },
+    {
+      "id": "ku_fish_wave11_0059",
+      "full_name_th": "อ. ชาคริต เรืองสอน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "ffiscrr@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/chakhrit-eruuexngsxn"
+    },
+    {
+      "id": "ku_fish_wave11_0060",
+      "full_name_th": "อ. วชิระ ใจงาม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "wachirah.j@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peoples/wachirah-jaingam"
+    },
+    {
+      "id": "ku_fish_wave11_0063",
+      "full_name_th": "อ. จิรวัฒน์ ดีหมื่นไวย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "jirawat.de@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/cirwathn-diihmuueniwy"
+    },
+    {
+      "id": "ku_fish_wave11_0008",
+      "full_name_th": "อ. พัชรี ครูขยัน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "ffisprk@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/phachrii-khruukhyan"
+    },
+    {
+      "id": "ku_fish_wave11_0010",
+      "full_name_th": "อ. สมหมาย เจนกิจการ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "ffissoj@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/smhmay-ecnkickar"
+    },
+    {
+      "id": "ku_fish_wave11_0011",
+      "full_name_th": "อ. ชัชรี แก้วสุรลิขิต",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "chatcharee.s@ku.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/chachrii-aekwsurlikhit"
+    },
+    {
+      "id": "ku_fish_wave11_0016",
+      "full_name_th": "อ. ไพลิน จิตรชุ่ม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "ffisplj@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/iphlin-citrchum"
+    },
+    {
+      "id": "ku_fish_wave11_0026",
+      "full_name_th": "อ. วรรณวิมล คล้ายประดิษฐ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาผลิตภัณฑ์ประมง",
+      "new_email": "ffiswak@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/wrrnwiml-khlaypradisth"
+    },
+    {
+      "id": "ku_fish_wave11_0030",
+      "full_name_th": "อ. อิสริยา วุฒิสินธุ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "idsariya.w@ku.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/xisriya-wuthisinthu"
+    },
+    {
+      "id": "ku_fish_wave11_0032",
+      "full_name_th": "อ. พงศ์เชฏฐ์ พิชิตกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffispcp@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/phngsechtth-phichitkul"
+    },
+    {
+      "id": "ku_fish_wave11_0036",
+      "full_name_th": "อ. อรพินท์ จินตสถาพร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffisora@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/xrphinth-cintsthaphr"
+    },
+    {
+      "id": "ku_fish_wave11_0038",
+      "full_name_th": "อ. ประพันธ์ศักดิ์ ศีรษะภูมิ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffispssp@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/praphanthsakdi-siirsaphuumi"
+    },
+    {
+      "id": "ku_fish_wave11_0048",
+      "full_name_th": "อ. อนุรักษ์ อุชุวิทยากุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffisarb@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/xnuraks-xuchuwithyakul"
+    },
+    {
+      "id": "ku_fish_wave11_0062",
+      "full_name_th": "อ. ขนิษฐา อุทัยพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "khanittha.ut@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/khnistha-xuthayphanth"
+    },
+    {
+      "id": "ku_fish_wave11_0001",
+      "full_name_th": "อ. ศิริสุดา จำนงทรง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาการจัดการประมง",
+      "new_email": "ffissdj@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/sirisuda-canngthrng"
+    },
+    {
+      "id": "ku_fish_wave11_0013",
+      "full_name_th": "อ. ปรัชญา มุสิกสินธร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "ffispcm@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/prachya-musiksinthr"
+    },
+    {
+      "id": "ku_fish_wave11_0017",
+      "full_name_th": "อ. ณรงค์ฤทธิ์ เมืองใหม่",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "ffisnrm@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/nrngkhvththi-emuuexngihm"
+    },
+    {
+      "id": "ku_fish_wave11_0018",
+      "full_name_th": "อ. ถิรวัฒน์ รายรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "ffistwr@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/thirwathn-rayratn"
+    },
+    {
+      "id": "ku_fish_wave11_0019",
+      "full_name_th": "อ. ปัทมา ทองกอก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "aappat@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/pathma-thxngkxk"
+    },
+    {
+      "id": "ku_fish_wave11_0020",
+      "full_name_th": "อ. ธนิดา แซ่ตั้ง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาชีววิทยาประมง",
+      "new_email": "thanida.sa@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/thnida-aestang"
+    },
+    {
+      "id": "ku_fish_wave11_0023",
+      "full_name_th": "อ. นวพร วรรณวิศาล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาผลิตภัณฑ์ประมง",
+      "new_email": "ffisnpw@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/nwphr-wrrnwisal"
+    },
+    {
+      "id": "ku_fish_wave11_0025",
+      "full_name_th": "อ. เยาวภา ไหวพริบ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาผลิตภัณฑ์ประมง",
+      "new_email": "ffisywp@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/eyawpha-ihwphrib"
+    },
+    {
+      "id": "ku_fish_wave11_0027",
+      "full_name_th": "อ. ลลิตพรรณ กฤษณยรรยง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาผลิตภัณฑ์ประมง",
+      "new_email": "ffislhk@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/llitphrrn-kvsnyrryng"
+    },
+    {
+      "id": "ku_fish_wave11_0031",
+      "full_name_th": "อ. สหภพ ดอกแก้ว",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffisspd@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/shphph-dxkaekw"
+    },
+    {
+      "id": "ku_fish_wave11_0033",
+      "full_name_th": "อ. สุภาวดี พุ่มพวง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "supawadee.p@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/suphawdii-phumphwng"
+    },
+    {
+      "id": "ku_fish_wave11_0035",
+      "full_name_th": "อ. สรณัฏฐ์ ศิริสวย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffissns@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/srnatth-siriswy"
+    },
+    {
+      "id": "ku_fish_wave11_0041",
+      "full_name_th": "อ. สาทิต ฉัตรชัยพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "satid.ch@ku.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/sathit-chatrchayphanth"
+    },
+    {
+      "id": "ku_fish_wave11_0043",
+      "full_name_th": "อ. รุ่งพฤทธิ์ จงเจริญสุข",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "ffisrrj@ku.ac.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/rungphvththi-cngecriysukh"
+    },
+    {
+      "id": "ku_fish_wave11_0044",
+      "full_name_th": "อ. นรธัช ประชุม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "noratat.p@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/nrthach-prachum"
+    },
+    {
+      "id": "ku_fish_wave11_0049",
+      "full_name_th": "อ. ว่าที่ร้อยตรี พูนสิน กันทา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ",
+      "new_email": "phunsin.k@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/wathiirxytrii-phuunsin-kantha"
+    },
+    {
+      "id": "ku_fish_wave11_0055",
+      "full_name_th": "อ. สุชาย วรชนะนันท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "suchai.w@ku.th",
+      "profile_url": "https://fish.ku.ac.th/en/peoples/suchay-wrchnananth"
+    },
+    {
+      "id": "ku_fish_wave11_0061",
+      "full_name_th": "อ. สุรัสวดี สุขีสาร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "suratsawadee.suk@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/suraswdii-sukhiisar"
+    },
+    {
+      "id": "ku_fish_wave11_0064",
+      "full_name_th": "อ. ธนกร เสงี่ยมวงษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะประมง",
+      "department_th": "ภาควิชาวิทยาศาสตร์ทางทะเล",
+      "new_email": "thanakorn.sangea@ku.th",
+      "profile_url": "https://fish.ku.ac.th/th/peopleths/thnkr-esngiiymwngs"
+    },
+    {
+      "id": "chulalongk_facultyofs_asawatangtrakul_024",
+      "full_name_th": "ผศ.ดร. ชญานิษฐ์ อัศวตั้งตระกูลดี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "chayanit@cern.ch",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_006_006",
+      "full_name_th": "รศ.ดร. ปกรณ์ วรานุศุภากุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "pakorn.v@chula.ac.th",
+      "profile_url": "https://chem.sc.chula.ac.th/pakorn-varanusupakul/"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_014_014",
+      "full_name_th": "ผศ.ดร. ภาณุวัฒน์ ผดุงรส",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "panuwat.p@chula.ac.th",
+      "profile_url": "https://chem.sc.chula.ac.th/panuwat-padungros/"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_021_021",
+      "full_name_th": "ศ.ดร. พัชณิตา ธรรมยงค์กิจ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "patchanita.v@chula.ac.th",
+      "profile_url": "https://chem.sc.chula.ac.th/patchanita-thamyongkit/"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_007_007",
+      "full_name_th": "รศ.ดร. สนอง เอกสิทธิ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "sanong.e@chula.ac.th",
+      "profile_url": "https://chem.sc.chula.ac.th/sanong-ekgasit/"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_017_017",
+      "full_name_th": "ผศ.ดร. นำพล อินสิน",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "numpon.i@chula.ac.th",
+      "profile_url": "https://chem.sc.chula.ac.th/numpon-insin/"
+    },
+    {
+      "id": "cmu_3097ff5e_4125",
+      "full_name_th": "ผศ.ดร. ภาคภูมิ เพ็ชรประดับ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "parkpoom.phetpradap@cmu.ac.th",
+      "profile_url": "https://math.science.cmu.ac.th/personal.php"
+    },
+    {
+      "id": "kku_1dd5e0f1_2035",
+      "full_name_th": "อ.ดร. วาธิส ลีลาภัทร",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "watis@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/107483"
+    },
+    {
+      "id": "kku_dd282888_5274",
+      "full_name_th": "อ.ดร. กิตติ์ เธียรธโนปจัย",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "kitt@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/107471"
+    },
+    {
+      "id": "kku_eng_wave12_0002",
+      "full_name_th": "ผศ.ดร. เด่นพงษ์ สุดภักดี",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "denpong@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/107487"
+    },
+    {
+      "id": "kku_eng_wave12_0004",
+      "full_name_th": "ผศ.ดร. เขมจิต เสนา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "skhema@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/111884"
+    },
+    {
+      "id": "kku_eng_wave12_0006",
+      "full_name_th": "ผศ.ดร. ปิโยรส จิระวัฒนา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "piyoro@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/108646"
+    },
+    {
+      "id": "kku_eng_wave12_0007",
+      "full_name_th": "ผศ.ดร. จารุพล สุริยวนากุล",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "jarupol@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/116367"
+    },
+    {
+      "id": "kku_eng_wave12_0008",
+      "full_name_th": "ผศ.ดร. ชนกนันท์ สุขกำเนิด",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "chasoo@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/108323"
+    },
+    {
+      "id": "kku_eng_wave12_0009",
+      "full_name_th": "ศ.ดร. ธนากร วงศ์วัฒนาเสถียร",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "tanwon@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/107292"
+    },
+    {
+      "id": "kku_eng_wave12_0013",
+      "full_name_th": "อ.ดร. วศกร ตรีเดช",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "wasatr@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/121625"
+    },
+    {
+      "id": "kku_eng_wave12_0014",
+      "full_name_th": "รศ.ดร. สุรสิทธิ์ ปิยะศิลป์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "surasith@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/104228"
+    },
+    {
+      "id": "kku_eng_wave12_0015",
+      "full_name_th": "รศ.ดร. อนุสรณ์ ชินสุวรรณ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "anuchi@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/107782"
+    },
+    {
+      "id": "kku_eng_wave12_0016",
+      "full_name_th": "รศ.ดร. อัครพล จันทร์อ่อน",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "akraphon@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/116445"
+    },
+    {
+      "id": "kku_eng_wave12_0017",
+      "full_name_th": "รศ.ดร. สัปปินันทน์ เอกอําพน",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "sappak@kku.ac.th",
+      "profile_url": "https://www.en.kku.ac.th/web/mech/staff/academic_staff/sappinandana"
+    },
+    {
+      "id": "kku_eng_wave12_0018",
+      "full_name_th": "อ.ดร. สุภชัย พลน้ำเที่ยง",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "supapol@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/130529"
+    },
+    {
+      "id": "kku_eng_wave12_0019",
+      "full_name_th": "รศ.ดร. ดนัยพงศ์ เชษฐโชติศักดิ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "cdanai@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/111543"
+    },
+    {
+      "id": "kku_eng_wave12_0020",
+      "full_name_th": "ศ.ดร. กาญจนา เศรษฐนันท์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "skanch@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/103863"
+    },
+    {
+      "id": "kku_eng_wave12_0021",
+      "full_name_th": "รศ.ดร. ปณิธาน พีรพัฒนา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "panpee@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/103348"
+    },
+    {
+      "id": "kku_eng_wave12_0023",
+      "full_name_th": "รศ.ดร. ศีขรินทร์ สุขโต",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "seesuk@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/108085"
+    },
+    {
+      "id": "kku_eng_wave12_0024",
+      "full_name_th": "รศ.ดร. รักน้อย อัครรุ่งเรืองกุล",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "raxaka@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/108618"
+    },
+    {
+      "id": "kku_eng_wave12_0025",
+      "full_name_th": "รศ.ดร. ธนา ราษฎร์ภักดี",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "rthana@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/111749"
+    },
+    {
+      "id": "kku_eng_wave12_0027",
+      "full_name_th": "รศ.ดร. ธีรวัฒน์ เหล่านภากุล",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "teerla@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/119386"
+    },
+    {
+      "id": "kku_eng_wave12_0028",
+      "full_name_th": "ผศ.ดร. ฐนวรรธน์ นิยะโมสถ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "thanani@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/120695"
+    },
+    {
+      "id": "kku_eng_wave12_0031",
+      "full_name_th": "ผศ.ดร. ศิรวดี อรัญนารถ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "sirawadee@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/118235"
+    },
+    {
+      "id": "kku_eng_wave12_0032",
+      "full_name_th": "ผศ.ดร. ฐิติพงศ์ จำรัส",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "thitja@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/119387"
+    },
+    {
+      "id": "kku_eng_wave12_0033",
+      "full_name_th": "ผศ.ดร. ศิโรรัตน์ พัฒนไพโรจน์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "siropa@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/121035"
+    },
+    {
+      "id": "kku_eng_wave12_0034",
+      "full_name_th": "ผศ.ดร. กฤษณรัช นิติสิริ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "krisni@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/126779"
+    },
+    {
+      "id": "kku_eng_wave12_0035",
+      "full_name_th": "ผศ.ดร. โกวิทย์ พลหาญ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "kowipo@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/119873"
+    },
+    {
+      "id": "kku_eng_wave12_0036",
+      "full_name_th": "อ.ดร. คมกริช จันทรเสนา",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "komkju@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/128587"
+    },
+    {
+      "id": "kku_eng_wave12_0039",
+      "full_name_th": "รศ.ดร. เจษฏา โพธิ์สม",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเกษตร",
+      "new_email": "jetspo@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/123551"
+    },
+    {
+      "id": "kku_eng_wave12_0042",
+      "full_name_th": "รศ.ดร. ขวัญตรี แสงประชาธนารักษ์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเกษตร",
+      "new_email": "khwantri@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/116368"
+    },
+    {
+      "id": "kku_eng_wave12_0045",
+      "full_name_th": "อ.ดร. อาทิตย์ ภูผาผุด",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเกษตร",
+      "new_email": "arthphu@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/129001"
+    },
+    {
+      "id": "kku_eng_wave12_0011",
+      "full_name_th": "รศ.ดร. ณัญธิวัฒน์ พลดี",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "nantiwat@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/118584"
+    },
+    {
+      "id": "kku_eng_wave12_0010",
+      "full_name_th": "ผศ.ดร. จุฬาภรณ์ เบญจปิยะพร",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "julkae@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/107291"
+    },
+    {
+      "id": "kku_eng_wave12_0003",
+      "full_name_th": "ผศ.ดร. นที พนากานต์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "natepa@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/124803"
+    },
+    {
+      "id": "kku_eng_wave12_0038",
+      "full_name_th": "รศ.ดร. ชัยยันย์ จันทร์ศิริ",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเกษตร",
+      "new_email": "chaich@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/116366"
+    },
+    {
+      "id": "khonkaenun_facultyofm_sureephat_041",
+      "full_name_th": "รศ.ดร. ปนิทัศน์ สุรียธนาภาส",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมอุตสาหการ",
+      "new_email": "panisu@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/120380"
+    },
+    {
+      "id": "kku_5412fb44_5980",
+      "full_name_th": "อ.ดร. วสุ เชาว์พานนท์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "wasu@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/103358"
+    },
+    {
+      "id": "khonkaenun_facultyofm_wanchantuk_038",
+      "full_name_th": "ผศ. ภาณุพงษ์ วันจันทึก",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "panupong@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/107484"
+    },
+    {
+      "id": "kku_eng_wave12_0001",
+      "full_name_th": "อ. จิตติน ตรีพุทธรัตน์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "jittri@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/109048"
+    },
+    {
+      "id": "kku_eng_wave12_0029",
+      "full_name_th": "ผศ. ทวี นาครัชตะอมร",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "thawna@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/120291"
+    },
+    {
+      "id": "kku_eng_wave12_0022",
+      "full_name_th": "รศ.ดร. ชาญณรงค์ สายแก้ว",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "charn_sa@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/103969"
+    },
+    {
+      "id": "kku_eng_wave12_0026",
+      "full_name_th": "รศ.ดร. ปาพจน์ เจริญอภิบาล",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "papoja@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/115720"
+    },
+    {
+      "id": "kku_eng_wave12_0043",
+      "full_name_th": "ผศ.ดร. โพยม สราภิรมย์",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเกษตร",
+      "new_email": "payosa@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/111034"
+    },
+    {
+      "id": "kku_eng_wave12_0044",
+      "full_name_th": "ผศ.ดร. กิตติพงษ์ ลาลูน",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเกษตร",
+      "new_email": "kittila@kku.ac.th",
+      "profile_url": "https://cvs.enit.kku.ac.th/profile/120825"
+    },
+    {
+      "id": "cu_342cdc4e_4440",
+      "full_name_th": "ผศ. พญ. พร ไตรรัตน์วรกุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชากุมารเวชศาสตร์",
+      "new_email": "pon.t@chula.md",
+      "profile_url": "https://md.chula.ac.th/staff/pon-trairatvorakul-m-d/"
+    },
+    {
+      "id": "cu_2ca33b4e_2369",
+      "full_name_th": "ศ. พญ. พรพิมล เรียนถาวร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชากุมารเวชศาสตร์",
+      "new_email": "pornpimol.r@chula.ac.th",
+      "profile_url": "https://md.chula.ac.th/staff/pornpimol-ruangvejvorachai-m-d/"
+    },
+    {
+      "id": "cu_65283ea6_1225",
+      "full_name_th": "ผศ. พญ. ลลิดา ก้องเกียรติกุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชากุมารเวชศาสตร์",
+      "new_email": "lalida.k@chula.ac.th",
+      "profile_url": "https://md.chula.ac.th/staff/lalida-kongkham-m-d/"
+    },
+    {
+      "id": "cu_2e2b5b7b_3490",
+      "full_name_th": "รศ.ดร. พญ. พลิตถิยา สินธุเสก",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชากุมารเวชศาสตร์",
+      "new_email": "palittiya.s@chula.ac.th",
+      "profile_url": "https://md.chula.ac.th/staff/palittiya-sintusek-m-d/"
+    }
+  ],
+  "embedding_texts_rebuilt": 6
+}

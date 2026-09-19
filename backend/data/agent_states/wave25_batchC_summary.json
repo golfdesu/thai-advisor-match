@@ -1,0 +1,255 @@
+{
+  "nida_env": {
+    "seeds": [
+      "https://edm.nida.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_nida_env_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://edm.nida.ac.th sitemap[sitemap fail: URLError]"
+  },
+  "nida_econ": {
+    "seeds": [
+      "https://econ.nida.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_nida_econ_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://econ.nida.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "nida_gspa": {
+    "seeds": [
+      "https://gspa.nida.ac.th",
+      "https://nida.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_nida_gspa_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://gspa.nida.ac.th sitemap[sitemap fail: HTTPError]; https://nida.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "nida_bus": {
+    "seeds": [
+      "https://mba.nida.ac.th",
+      "https://bus.nida.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_nida_bus_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://mba.nida.ac.th sitemap[sitemap fail: HTTPError]; https://bus.nida.ac.th sitemap[sitemap fail: URLError]; https://nida.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "ku_kapi": {
+    "seeds": [
+      "https://kapi.ku.ac.th/personnel-sitemap.xml",
+      "https://kapi.ku.ac.th/personnel_category-sitemap.xml"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_ku_kapi_export.py",
+    "fail": null,
+    "verified": 6,
+    "note": "sitemap staff-url seeds | https://kapi.ku.ac.th sitemap[ok:2 staff-urls]"
+  },
+  "ku_ifrpd": {
+    "seeds": [
+      "https://ifrpd.ku.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_ku_ifrpd_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://ifrpd.ku.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "ku_grad": {
+    "seeds": [
+      "https://grad.ku.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_ku_grad_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://grad.ku.ac.th sitemap[ok:0 staff-urls]"
+  },
+  "kku_huso": {
+    "seeds": [
+      "https://huso.kku.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_kku_huso_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://huso.kku.ac.th sitemap[ok:0 staff-urls]"
+  },
+  "kku_tech": {
+    "seeds": [
+      "https://tech.kku.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_kku_tech_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://tech.kku.ac.th sitemap[sitemap fail: URLError]"
+  },
+  "kku_edu": {
+    "seeds": [
+      "https://ed.kku.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_kku_edu_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://ed.kku.ac.th sitemap[sitemap fail: URLError]"
+  },
+  "mu_rilca": {
+    "seeds": [
+      "https://rilca.mahidol.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mu_rilca_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://rilca.mahidol.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "mu_molecular": {
+    "seeds": [
+      "https://mb.mahidol.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mu_molecular_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://mb.mahidol.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "mu_sport": {
+    "seeds": [
+      "https://ss.mahidol.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mu_sport_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://ss.mahidol.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "mu_la": {
+    "seeds": [
+      "https://la.mahidol.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mu_la_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://la.mahidol.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "mu_bart": {
+    "seeds": [
+      "https://bart.mahidol.ac.th",
+      "https://www.mahidol.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mu_bart_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://bart.mahidol.ac.th sitemap[sitemap fail: URLError]; https://www.mahidol.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "mu_ipsr": {
+    "seeds": [
+      "https://ipsr.mahidol.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mu_ipsr_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://ipsr.mahidol.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "psu_phuket_env": {
+    "seeds": [
+      "https://envtech.phuket.psu.ac.th",
+      "https://www.phuket.psu.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_psu_phuket_env_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://envtech.phuket.psu.ac.th sitemap[sitemap fail: URLError]; https://www.phuket.psu.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "psu_phuket_comp": {
+    "seeds": [
+      "https://computing.phuket.psu.ac.th",
+      "https://www.phuket.psu.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_psu_phuket_comp_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://computing.phuket.psu.ac.th sitemap[sitemap fail: URLError]; https://www.phuket.psu.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "psu_pattani_polsci": {
+    "seeds": [
+      "https://poli.pn.psu.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_psu_pattani_polsci_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://poli.pn.psu.ac.th sitemap[sitemap fail: URLError]"
+  },
+  "psu_pattani_indus": {
+    "seeds": [
+      "https://indus.pn.psu.ac.th",
+      "https://fti.pn.psu.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_psu_pattani_indus_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://indus.pn.psu.ac.th sitemap[sitemap fail: URLError]; https://fti.pn.psu.ac.th sitemap[sitemap fail: URLError]; https://www.pn.psu.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "cu_mmri": {
+    "seeds": [
+      "https://mmri.chula.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_cu_mmri_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://mmri.chula.ac.th sitemap[sitemap fail: URLError]"
+  },
+  "cu_pop": {
+    "seeds": [
+      "https://cps.chula.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_cu_pop_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://cps.chula.ac.th sitemap[sitemap fail: HTTPError]"
+  },
+  "cu_pubhealth": {
+    "seeds": [
+      "https://cphs.chula.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_cu_pubhealth_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://cphs.chula.ac.th sitemap[sitemap fail: URLError]"
+  },
+  "cu_agri": {
+    "seeds": [
+      "https://sar.chula.ac.th",
+      "https://www.are.chula.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_cu_agri_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://sar.chula.ac.th sitemap[sitemap fail: URLError]; https://www.are.chula.ac.th sitemap[sitemap fail: URLError]"
+  },
+  "cru_chulabhorn": {
+    "seeds": [
+      "https://www.cra.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_cru_chulabhorn_export.py",
+    "fail": null,
+    "verified": 0,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://www.cra.ac.th sitemap[ok:0 staff-urls]"
+  },
+  "kmitl_iaai": {
+    "seeds": [
+      "https://iaai.kmitl.ac.th/wp-sitemap-posts-personnel-1.xml",
+      "https://iaai.kmitl.ac.th/wp-sitemap-taxonomies-personnel_category-1.xml"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_kmitl_iaai_export.py",
+    "fail": "verify-only zero: demo-template personnel on official host (kingsteruni.edu emails, placeholder/actor names e.g. Bruce Willis, identical copy-pasted bios); single-token TH names rejected; 10 raw LLM rows discarded per anti-hallucination invariant",
+    "verified": 0,
+    "note": "sitemap staff-url seeds | https://iaai.kmitl.ac.th sitemap[ok:2 staff-urls]"
+  },
+  "kmutnb_indtech": {
+    "seeds": [
+      "https://itech.kmutnb.ac.th",
+      "https://www.kmutnb.ac.th"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_kmutnb_indtech_export.py",
+    "fail": null,
+    "verified": 1,
+    "note": "no staff roster in sitemap.xml (or sitemap unreachable) -> homepage seed, verify-only | https://itech.kmutnb.ac.th sitemap[sitemap fail: URLError]; https://www.kmutnb.ac.th sitemap[sitemap fail: HTTPError] | EN surname split artifact repaired (stripped non-Latin frag, no invention); TH name rank-titled 2-token kept"
+  }
+}

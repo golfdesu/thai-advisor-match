@@ -1,0 +1,251 @@
+{
+  "mode": "DRY-RUN",
+  "total_candidates": 24,
+  "valid_candidates": 24,
+  "rejected_candidates": 0,
+  "updated_emails": [
+    {
+      "id": "mu_cmmu_001",
+      "full_name_th": "รศ.ดร. กิตติชัย ราชจำเริญ",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "ENTREPRENEURSHIP",
+      "new_email": "kittichai.raj@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/kittichai-rajchamaha",
+      "cluster": "Mahidol CMMU - Entrepreneurship"
+    },
+    {
+      "id": "mu_cmmu_002",
+      "full_name_th": "รศ.ดร. ณัฐวุฒิ พิมพิ์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "ENTREPRENEURSHIP",
+      "new_email": "nattavud.pim@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/nattavud-pimpa",
+      "cluster": "Mahidol CMMU - Entrepreneurship"
+    },
+    {
+      "id": "mu_cmmu_003",
+      "full_name_th": "ผศ.ดร. สุเทพ นิ่มสาย",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "ENTREPRENEURSHIP",
+      "new_email": "suthep.nim@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/suthep-nimsai",
+      "cluster": "Mahidol CMMU - Entrepreneurship"
+    },
+    {
+      "id": "mu_cmmu_004",
+      "full_name_th": "ผศ.ดร. ตริน ธนานุศักดิ์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "ENTREPRENEURSHIP",
+      "new_email": "trin.tha@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/trin-thananusak",
+      "cluster": "Mahidol CMMU - Entrepreneurship"
+    },
+    {
+      "id": "mu_cmmu_005",
+      "full_name_th": "ผศ.ดร. ตรียุทธ โปร่งศิริ",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "ENTREPRENEURSHIP",
+      "new_email": "triyuth.pro@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/triyuth-promsiri",
+      "cluster": "Mahidol CMMU - Entrepreneurship"
+    },
+    {
+      "id": "mu_cmmu_006",
+      "full_name_th": "รศ.ดร. วินัย วงศ์สุรวัฒน์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "ENTREPRENEURSHIP",
+      "new_email": "winai.won@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/winai-wongsurawat",
+      "cluster": "Mahidol CMMU - Entrepreneurship"
+    },
+    {
+      "id": "mu_cmmu_007",
+      "full_name_th": "รศ.ดร. ชนินทร์ ยูเพ็ชร",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Finance",
+      "new_email": "chanin.yoo@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/chanin-yoopetch",
+      "cluster": "Mahidol CMMU - Finance"
+    },
+    {
+      "id": "mu_cmmu_009",
+      "full_name_th": "รศ.ดร. ปิยภัสร์ ธาระวณิช",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Finance",
+      "new_email": "piyapas.tha@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/piyapas-tharavanij",
+      "cluster": "Mahidol CMMU - Finance"
+    },
+    {
+      "id": "mu_cmmu_010",
+      "full_name_th": "ศ.ดร. Roy Kouwenberg",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Finance",
+      "new_email": "roy.kou@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/roy-kouwenberg",
+      "cluster": "Mahidol CMMU - Finance"
+    },
+    {
+      "id": "mu_cmmu_011",
+      "full_name_th": "รศ.ดร. Simon Zaby",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Finance",
+      "new_email": "simon.zab@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/simon-zaby",
+      "cluster": "Mahidol CMMU - Finance"
+    },
+    {
+      "id": "mu_cmmu_012",
+      "full_name_th": "ผศ.ดร. บุญยิ่ง คงอาชาภัทร",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Marketing",
+      "new_email": "boonying.kon@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/boonying-kongarchapatara",
+      "cluster": "Mahidol CMMU - Marketing"
+    },
+    {
+      "id": "mu_cmmu_013",
+      "full_name_th": "รศ.ดร. ผัลย์ภา เพทิสันต์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Marketing",
+      "new_email": "phallapa.pet@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/phallapa-petison",
+      "cluster": "Mahidol CMMU - Marketing"
+    },
+    {
+      "id": "mu_cmmu_014",
+      "full_name_th": "รศ.ดร. Randall Shannon",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Marketing",
+      "new_email": "randall.sha@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/randall-shannon",
+      "cluster": "Mahidol CMMU - Marketing"
+    },
+    {
+      "id": "mu_cmmu_015",
+      "full_name_th": "รศ.ดร. Astrid Kainzbauer",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Management",
+      "new_email": "astrid.kai@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/astrid-kainzbauer",
+      "cluster": "Mahidol CMMU - Management"
+    },
+    {
+      "id": "mu_cmmu_016",
+      "full_name_th": "รศ.ดร. ปาริสา รุ่งเรือง",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Management",
+      "new_email": "parisa.run@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/parisa-rungruang",
+      "cluster": "Mahidol CMMU - Management"
+    },
+    {
+      "id": "mu_cmmu_017",
+      "full_name_th": "ศ.ดร. Philip Hallinger",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Management",
+      "new_email": "philip.hal@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/philip-hallinger",
+      "cluster": "Mahidol CMMU - Management"
+    },
+    {
+      "id": "mu_cmmu_019",
+      "full_name_th": "รศ.ดร. สุภารักษ์ สุรัมยังกิจแก้ว",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Management",
+      "new_email": "suparak.sur@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/suparak-suriyankietkaew",
+      "cluster": "Mahidol CMMU - Management"
+    },
+    {
+      "id": "mu_cmmu_020",
+      "full_name_th": "รศ.ดร. ณฐสิทธิ์ เกิดศรี",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Strategy and Innovation",
+      "new_email": "nathasit.ger@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/nathasit-gerdsri",
+      "cluster": "Mahidol CMMU - Strategy and Innovation"
+    },
+    {
+      "id": "mu_cmmu_022",
+      "full_name_th": "ผศ.ดร. สิริสุข รักถิ่น",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "faculty_th": "วิทยาลัยการจัดการ (CMMU)",
+      "department_th": "Strategy and Innovation",
+      "new_email": "sirisuhk.rak@mahidol.ac.th",
+      "profile_url": "https://www.cmmu.mahidol.ac.th/web/faculty-research/full-time/sirisuhk-rakthin",
+      "cluster": "Mahidol CMMU - Strategy and Innovation"
+    },
+    {
+      "id": "leadingtha_engineerin_pengwang_008",
+      "full_name_th": "ผศ.ดร. เอกชัย เป็งวัง",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
+      "department_th": "สาขาวิชาวิทยาการหุ่นยนต์และระบบอัตโนมัติ",
+      "new_email": "eakkachai.pen@kmutt.ac.th",
+      "profile_url": "https://fibo.kmutt.ac.th/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b9%80%e0%b8%ad%e0%b8%81%e0%b8%8a%e0%b8%b1%e0%b8%a2-%e0%b9%80%e0%b8%9b%e0%b9%87%e0%b8%87%e0%b8%a7%e0%b8%b1%e0%b8%87-asst-prof-dr-eakkachai-pengwang/",
+      "cluster": "KMUTT FIBO - Robotics"
+    },
+    {
+      "id": "kmutt_fibo_prakarnkiat_y",
+      "full_name_th": "ดร. ปราการเกียรติ ยังคง",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
+      "department_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
+      "new_email": "prakarnkiat.you@kmutt.ac.th",
+      "profile_url": "https://fibo.kmutt.ac.th//ดร-ปราการเกียรติ-ยังคง-dr-prakarnkiat/",
+      "cluster": "KMUTT FIBO - Robotics"
+    },
+    {
+      "id": "kmutt_fibo_warasinee_c",
+      "full_name_th": "ดร. วราสิณี ฉายแสงมงคล",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
+      "department_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
+      "new_email": "warasinee.cha@kmutt.ac.th",
+      "profile_url": "https://fibo.kmutt.ac.th//ดร-วราสิณี-ฉายแสงมงคล-dr-warasinee-chaisangmongk/",
+      "cluster": "KMUTT FIBO - Robotics"
+    },
+    {
+      "id": "kmutt_fibo_arbtip_d",
+      "full_name_th": "ดร. อาบทิพย์ ธีรวงศ์กิจ",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
+      "department_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
+      "new_email": "arbtip.dhe@kmutt.ac.th",
+      "profile_url": "https://fibo.kmutt.ac.th//ดร-อาบทิพย์-ธีรวงศ์กิจ-dr-arbtip-dheer/",
+      "cluster": "KMUTT FIBO - Robotics"
+    },
+    {
+      "id": "kmutt_fibo_chaowwalit_t",
+      "full_name_th": "นายเชาวลิต ธรรมทินโน",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
+      "department_th": "สถาบันวิทยาการหุ่นยนต์ภาคสนาม",
+      "new_email": "chaowwalit.tha@kmutt.ac.th",
+      "profile_url": "https://fibo.kmutt.ac.th//นายเชาวลิต-ธรรมทินโน-mr-chaowwalit-thammatinno/",
+      "cluster": "KMUTT FIBO - Robotics"
+    }
+  ],
+  "skipped_already_populated": [],
+  "not_found_in_db": [],
+  "embedding_texts_rebuilt": 24
+}

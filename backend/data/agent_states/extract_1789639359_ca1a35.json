@@ -1,0 +1,50 @@
+{
+  "session_id": "extract_1789639359_ca1a35",
+  "target_university_th": "มหาวิทยาลัยสงขลานครินทร์",
+  "target_university_en": "Prince of Songkla University",
+  "target_faculty_th": "คณะทันตแพทยศาสตร์",
+  "target_faculty_en": "Faculty of Dentistry",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.dent.psu.ac.th/dent/",
+    "https://dt.mahidol.ac.th/event-pic/20240524-2/"
+  ],
+  "failed_urls": [
+    "https://dent.psu.ac.th/",
+    "https://www.psu.ac.th/"
+  ],
+  "faculties": {
+    "princeofso_facultyofd_jirajariyavej_001": {
+      "id": "princeofso_facultyofd_jirajariyavej_001",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "Faculty of Dentistry",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department": "คณะทันตแพทยศาสตร์ มหาวิทยาลัยมหิดล",
+      "department_th": "คณะทันตแพทยศาสตร์ มหาวิทยาลัยมหิดล",
+      "academic_title": "รศ.",
+      "academic_title_th": "รศ.",
+      "first_name": "Bundhit",
+      "last_name": "Jirajariyavej",
+      "full_name": "Bundhit Jirajariyavej",
+      "full_name_th": "รศ. ทพ.บัณฑิต จิรจริยเวช",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ทพ.บัณฑิต จิรจริยเวช": "princeofso_facultyofd_jirajariyavej_001"
+  },
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 2195,
+  "status": "completed",
+  "last_error": null
+}

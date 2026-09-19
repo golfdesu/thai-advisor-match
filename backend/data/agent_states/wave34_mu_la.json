@@ -1,0 +1,46 @@
+{
+  "session_id": "wave34_mu_la",
+  "target": "MU Liberal Arts (la.mahidol.ac.th only)",
+  "seeds": [
+    "https://la.mahidol.ac.th/en/staff/",
+    "https://la.mahidol.ac.th/en/for-staff/"
+  ],
+  "verified_count": 0,
+  "db_commit": false,
+  "thai_rule": "2-token Thai base-name enforced in Python (self-test ok)",
+  "second_hop": "cap 20 planned; 0 attempted — seeds returned Akamai 403 to urllib+requests+curl, no profile links retrievable headlessly",
+  "per_url": [
+    {
+      "url": "https://la.mahidol.ac.th/en/staff/",
+      "ok": false,
+      "reason": "fetch_fail:HTTP Error 403: Forbidden",
+      "added": 0,
+      "role": "seed-urllib"
+    },
+    {
+      "url": "https://la.mahidol.ac.th/en/staff/",
+      "ok": false,
+      "reason": "http=403_chars=391",
+      "added": 0,
+      "role": "seed-requests"
+    },
+    {
+      "url": "https://la.mahidol.ac.th/en/for-staff/",
+      "ok": false,
+      "reason": "fetch_fail:HTTP Error 403: Forbidden",
+      "added": 0,
+      "role": "seed-urllib"
+    },
+    {
+      "url": "https://la.mahidol.ac.th/en/for-staff/",
+      "ok": false,
+      "reason": "http=403_chars=399",
+      "added": 0,
+      "role": "seed-requests"
+    }
+  ],
+  "failed_urls": [
+    "https://la.mahidol.ac.th/en/staff/",
+    "https://la.mahidol.ac.th/en/for-staff/"
+  ]
+}

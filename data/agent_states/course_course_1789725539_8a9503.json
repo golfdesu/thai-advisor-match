@@ -1,0 +1,19 @@
+{
+  "session_id": "course_1789725539_8a9503",
+  "target_university_th": "มหาวิทยาลัยมหาสารคาม",
+  "target_university_en": "Mahasarakham University",
+  "target_faculty_th": "คณะเทคโนโลยี",
+  "target_faculty_en": "Faculty of Technology",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://grad.msu.ac.th/?page_id=5206",
+    "https://techno.msu.ac.th/"
+  ],
+  "courses": {},
+  "dedup_title_keys": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

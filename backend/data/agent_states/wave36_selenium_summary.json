@@ -1,0 +1,75 @@
+{
+  "batch": "wave36_selenium_interaction_retry2",
+  "db_commit": false,
+  "univ_scope": "su.ac.th + kku.ac.th only",
+  "units": [
+    {
+      "key": "wave36_su_ict",
+      "faculty_th": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+      "faculty_en": "Faculty of Information and Communication Technology",
+      "verified_count": 1,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave36_su_ict_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave36_su_ict.json",
+      "status": "verified",
+      "per_url": [
+        {
+          "url": "https://ict.su.ac.th/?page_id=58",
+          "ok": true,
+          "reason": "render_ok_html_chars=228412|patch_new=1|pruned=0|js_clicks=5",
+          "rendered_chars": 228412,
+          "rendered_density": 102,
+          "clicks": 5,
+          "click_detail": [
+            "nav_candidates=13 base_chars=228412 dens=102 patch=1 err=-",
+            "js_clicked:<a cls='elementor-item elementor-i' text='สำหรับบุคลากร'>:chars=228608:patch=1:err=-",
+            "js_clicked:<a cls='elementor-item' text='ITA'>:chars=228611:patch=1:err=-",
+            "js_clicked:<a cls='elementor-item has-submenu' text='สำหรับนักศึกษา'>:chars=228792:patch=1:err=-",
+            "js_clicked:<a cls='elementor-item' text='ลูกศิลป์ออนไลน์'>:chars=228763:patch=1:err=-",
+            "js_clicked:<a cls='elementor-item' text='วารสารไอซีทีศิลปาก'>:chars=17244:patch=0:err=-",
+            "click_failed:<el?>:StaleElementReferenceException",
+            "click_failed:<el?>:StaleElementReferenceException",
+            "click_failed:<el?>:StaleElementReferenceException"
+          ],
+          "added": 1,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [],
+      "total_clicks": 5,
+      "step_calls": 6
+    },
+    {
+      "key": "wave36_kku_huso",
+      "faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+      "faculty_en": "Faculty of Humanities and Social Sciences",
+      "verified_count": 126,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave36_kku_huso_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave36_kku_huso.json",
+      "status": "verified",
+      "per_url": [
+        {
+          "url": "https://huso.kku.ac.th/en/staff/",
+          "ok": true,
+          "reason": "render_ok_html_chars=107627|patch_new=0|pruned=0|hops=6/6",
+          "rendered_chars": 107627,
+          "rendered_density": 16,
+          "clicks": 6,
+          "click_detail": [
+            "base_chars=107627 dens=16 patch=0 err=- get=ok hops_found=6",
+            "hop:https://huso.kku.ac.th/en/info/Contact%20Us.html:chars=51971:dens=0:patch=0:err=-:get=ok:linktext='Contact us'",
+            "hop:https://huso.kku.ac.th/en/info/FacultyOverview.html:chars=53921:dens=0:patch=0:err=-:get=ok:linktext=''",
+            "hop:https://huso.kku.ac.th/en/info/Staff.html:chars=51972:dens=0:patch=0:err=-:get=ok:linktext=''",
+            "hop:https://huso.kku.ac.th/en/info/SupportServices.html:chars=70613:dens=0:patch=0:err=-:get=ok:linktext='SUPPORT & SERVICES'",
+            "hop:https://huso.kku.ac.th/en/staff/hr:chars=107629:dens=16:patch=0:err=-:get=ok:linktext=''",
+            "hop:https://huso.kku.ac.th/en/staff/instructor:chars=222086:dens=120:patch=142:err=-:get=ok:linktext=''"
+          ],
+          "added": 126,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [],
+      "total_clicks": 6,
+      "step_calls": 7
+    }
+  ]
+}

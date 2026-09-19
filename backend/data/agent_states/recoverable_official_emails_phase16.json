@@ -1,0 +1,1393 @@
+[
+  {
+    "id": "ku_wave18_engsrc_0086",
+    "email": "sfengyps@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_engsrc_0089",
+    "email": "srcjtp@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_engsrc_0092",
+    "email": "srcacl@kps.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_lams_0006",
+    "email": "occnpb@csc.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_lams_0070",
+    "email": "famkmt@csc.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_mar_0008",
+    "email": "imccdl@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_mar_0011",
+    "email": "imcwrp@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_mar_0035",
+    "email": "imcrsf@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_msc_0008",
+    "email": "fmsntn@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_msc_0027",
+    "email": "fmspmw@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_msc_0055",
+    "email": "fmstcs@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_pubh_0033",
+    "email": "fphppp@csc.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_scie_0007",
+    "email": "fsewca@csc.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_scie_0073",
+    "email": "sitthichai.pr@nontri.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_scie_0083",
+    "email": "fseats@csc.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_scie_0094",
+    "email": "phoempol.ku@nontri.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_scie_0099",
+    "email": "kitichoke.pr@nontri.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_sisc_0018",
+    "email": "sfscispc@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_sisc_0072",
+    "email": "sfscikbb@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_scie_0075",
+    "email": "rapepun.m@nontri.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_mar_0031",
+    "email": "imcspk@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_scie_0116",
+    "email": "fsetwp@csc.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave17_bus_0035",
+    "email": "fbussns@nontri.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_edu_0039",
+    "email": "fedunds@nontri.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_engsrc_0048",
+    "email": "sfengnpc@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_msc_0076",
+    "email": "fmscoj@nontri.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_scie_0017",
+    "email": "wirach.hi@nontri.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_scie_0049",
+    "email": "rujirat.ha@nontri.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "ku_wave18_engsrc_0080",
+    "email": "sfengttp@src.ku.ac.th",
+    "source": "ku_forest_retry"
+  },
+  {
+    "id": "cmu_27a704ea_6941",
+    "email": "warit.p@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/warit.p@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_28f5f8c5_1901",
+    "email": "natnicha.ketc@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/natnicha.ketc@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_3776dc46_1051",
+    "email": "tarin.p@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/tarin.p@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_3804cd23_5874",
+    "email": "praween.p@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/praween.p@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_39c89331_0938",
+    "email": "anat.dewi@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/anat.dewi@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_401cb17c_3204",
+    "email": "marasri.chai@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/marasri.chai@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_438617a4_3938",
+    "email": "panwadee.b@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/panwadee.b@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_25bcefeb_4041",
+    "email": "pinpinut.w@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/pinpinut.w@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_50eeedb9_4586",
+    "email": "naruephorn.v@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/naruephorn.v@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_36f04818_7623",
+    "email": "phattharanat.banthit@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/phattharanat.banthit@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_536e17d8_4050",
+    "email": "kachaphol.ku@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kachaphol.ku@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_58e7c3aa_4316",
+    "email": "patcharawan.sil@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/patcharawan.sil@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_5c9c5263_6704",
+    "email": "kanich.t@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kanich.t@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_5cdeb3c7_1680",
+    "email": "kittipit.k@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kittipit.k@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_6179dad4_8216",
+    "email": "apichai.y@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/apichai.y@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_6588a2cd_5438",
+    "email": "chayarop.supanchart@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/chayarop.supanchart@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_6725a9e9_9948",
+    "email": "pattanin.m@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/pattanin.m@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_68eef7a1_0279",
+    "email": "piriya.ya@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/piriya.ya@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_6f40b250_2095",
+    "email": "sitthichai.w@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/sitthichai.w@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_6fe74dff_8657",
+    "email": "aetas.a@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/aetas.a@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_76915952_6860",
+    "email": "areerat.n@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/areerat.n@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_770b088f_4643",
+    "email": "kanyarat.korwanich@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kanyarat.korwanich@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_779d929f_5635",
+    "email": "kullapop.s@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kullapop.s@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_78190b2c_0504",
+    "email": "teerapong.m@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/teerapong.m@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_791f53e2_9580",
+    "email": "pimduen.rungsiyakull@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/pimduen.rungsiyakull@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_7a50a033_0752",
+    "email": "napatsorn.i@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/napatsorn.i@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_7ba4368f_9786",
+    "email": "worakanya.b@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/worakanya.b@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_7cc71fb1_1711",
+    "email": "taweesak.p@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/taweesak.p@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_8ece809c_5799",
+    "email": "kittipong.l@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kittipong.l@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_96e989b4_1072",
+    "email": "varisara.s@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/varisara.s@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_9a73998b_7836",
+    "email": "marisa.suka@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/marisa.suka@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_9cbb07c3_4732",
+    "email": "kathawut.t@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kathawut.t@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_b67b688f_2479",
+    "email": "piyanart.c@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/piyanart.c@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_393e8814_8148",
+    "email": "suwat.t@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/suwat.t@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_3b7bc9d7_2414",
+    "email": "sitthikorn.k@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/sitthikorn.k@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_7cf22eaa_9529",
+    "email": "bhumrapee.s@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/bhumrapee.s@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_134ab256_2115",
+    "email": "woraporn.hom@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/woraporn.hom@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_16f227a4_7330",
+    "email": "warat.leelapornpisid@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/warat.leelapornpisid@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_216d6080_9377",
+    "email": "narumanas.k@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/narumanas.k@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_22f31510_0954",
+    "email": "tadkamol.k@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/tadkamol.k@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_27fbdf93_0774",
+    "email": "pisaisit.c@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/pisaisit.c@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_2c1b8c7d_3623",
+    "email": "danupong.c@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/danupong.c@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_2ec46739_7947",
+    "email": "jitjiroj.itti@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/jitjiroj.itti@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_301c82e9_3061",
+    "email": "wannakamon.p@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/wannakamon.p@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_30fb3deb_4563",
+    "email": "savitri.v@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/savitri.v@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_33545cb9_4795",
+    "email": "sakarat.pramo@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/sakarat.pramo@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_3531de20_3658",
+    "email": "kotchakorn.boon@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kotchakorn.boon@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_35c365ae_8898",
+    "email": "tanida.srisuwan@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/tanida.srisuwan@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_3f3aa1ae_6399",
+    "email": "puttipong.s@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/puttipong.s@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_431edc7f_7385",
+    "email": "phumisak.l@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/phumisak.l@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_49ce8b2d_0900",
+    "email": "nattanan.w@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/nattanan.w@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_4eafefda_8604",
+    "email": "supatra.sa@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/supatra.sa@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_4f205674_2679",
+    "email": "pattriyaporn.b@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/pattriyaporn.b@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_4f4d0fa4_2315",
+    "email": "thanaporn.pare@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/thanaporn.pare@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_184b258e_2921",
+    "email": "tanida.k@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/tanida.k@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_158b217b_0251",
+    "email": "teerat.sawang@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/teerat.sawang@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_305b6ae8_1373",
+    "email": "yuthakran.a@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/yuthakran.a@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_53521a07_7267",
+    "email": "arnon.c@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/arnon.c@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_539fdbcb_2835",
+    "email": "weeranuch.th@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/weeranuch.th@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_59263267_4381",
+    "email": "atisak.ch@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/atisak.ch@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_5a5ba350_3280",
+    "email": "nattakan.chai@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/nattakan.chai@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_5c832c18_0777",
+    "email": "chonatee.ch@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/chonatee.ch@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_5e59c5c8_5356",
+    "email": "kitanon.ang@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kitanon.ang@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_5ec7eaa8_6281",
+    "email": "phattaranant.mah@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/phattaranant.mah@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_5f20ffb4_6123",
+    "email": "pattarika.a@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/pattarika.a@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_5fd24c32_4743",
+    "email": "surawut.pongsiriwet@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/surawut.pongsiriwet@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_1c9c2645_5034",
+    "email": "treephop.p@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/treephop.p@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_65fd46ae_8981",
+    "email": "kasemsun.s@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kasemsun.s@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_67201718_7140",
+    "email": "wikanda.k@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/wikanda.k@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_68619d32_0850",
+    "email": "wannapa.c@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/Wannapa.c@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_6a0133f8_0835",
+    "email": "lapon.m@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/lapon.m@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_6b7fc63b_4570",
+    "email": "kongphop.p@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/kongphop.p@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_6ad1f81d_0590",
+    "email": "panarat.k@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/panarat.k@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_713d6895_1928",
+    "email": "pornpattra.c@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/Pornpattra.c@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_72152964_0326",
+    "email": "chanutda.ratt@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/chanutda.ratt@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_778f5d6a_2419",
+    "email": "piranit.k@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/piranit.k@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_7e957e65_4371",
+    "email": "sangsom.prapaya@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/sangsom.prapaya@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_7f180d96_2769",
+    "email": "nathawat.p@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/nathawat.p@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_991ee7cd_4039",
+    "email": "thikumpond.m@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/thikumpond.m@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_a4110d07_9843",
+    "email": "chanika.m@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/chanika.m@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_b170cbc6_0870",
+    "email": "benyapha.s@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/benyapha.s@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_2459f04f_7859",
+    "email": "boonchai.ch@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/boonchai.ch@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_33b542ce_7986",
+    "email": "natcha.thanind@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/Natcha.thanind@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_1507c882_1396",
+    "email": "darunee.o@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/darunee.o@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_4a33b6ea_9048",
+    "email": "papimon.c@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/papimon.c@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_57e7c915_6069",
+    "email": "piriya.che@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/piriya.che@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_6ac07f79_2620",
+    "email": "supitchaya.tec@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/supitchaya.tec@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_ed664dd8_0154",
+    "email": "rattanaporn.kh@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/rattanaporn.kh@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_103b4d1a_9411",
+    "email": "nutchapon.c@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/nutchapon.c@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_13004af8_8554",
+    "email": "nattanit.b@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/Nattanit.b@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_13397137_1763",
+    "email": "supassara.siraban@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/supassara.siraban@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_18dfc5fa_2941",
+    "email": "patchanee.ch@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/patchanee.ch@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_1b978ac4_5139",
+    "email": "watcharaphong.a@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/watcharaphong.a@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_23b43596_1781",
+    "email": "onnida.wattanarat@cmu.ac.th",
+    "profile_url": "https://www.dent.cmu.ac.th/web/staff/onnida.wattanarat@cmu.ac.th",
+    "source": "cmu_dent"
+  },
+  {
+    "id": "cmu_19b9cfbb_1507",
+    "email": "suthep.s@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=12",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_253e3d42_4971",
+    "email": "kanyuta.p@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=23",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_398d9dbe_9597",
+    "email": "nawinda.chuts@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=51",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_3ae35187_8157",
+    "email": "sompop.m@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=42",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_42319c20_1576",
+    "email": "piyashat.sripratak@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=54",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_4700e4f9_5492",
+    "email": "narawadee.nanan@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=47",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_4f005f37_2894",
+    "email": "ben.wongsaijai@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=39",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_5f9a7565_5031",
+    "email": "pradthana.j@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=31",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_619fb1d0_1278",
+    "email": "somlak.u@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=35",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_68f53dbb_6664",
+    "email": "chalermpon.b@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=20",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_6a9f621e_9562",
+    "email": "attapol.k@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=19",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_70913f6e_4070",
+    "email": "worapong.fupinwong@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=38",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_1b8deec3_8786",
+    "email": "warunun.i@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=37",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_7683163e_7082",
+    "email": "phakdi.c@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=30",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_7c17bf38_6130",
+    "email": "chulin.l@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=15",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_f05d4de3_1757",
+    "email": "pharunyou.chanthorn@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=53",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_57c601b6_3603",
+    "email": "nattapol.p@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=49",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_11938100_0638",
+    "email": "khuanchanok.c@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=63",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_1309b592_5501",
+    "email": "chaiporn.t@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=40",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_278831ab_3545",
+    "email": "kritsada.s@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=46",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_2aad5c0f_9223",
+    "email": "supreedee.dangskul@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=57",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_3613027d_2753",
+    "email": "santi.tasena@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=33",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_45381d1d_1229",
+    "email": "supaluk.p@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=55",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_4fe824da_3617",
+    "email": "kobkoon.j@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=68",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_51dd81cc_1761",
+    "email": "khwanchai.kun@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=65",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_5723be07_7328",
+    "email": "wannasiri.w@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=61",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_5dfc8308_9921",
+    "email": "thaned.r@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=36",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_5e0ab14b_2837",
+    "email": "dhiranuch.b@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=21",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_5f86dda4_4848",
+    "email": "teeranush.s@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=60",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_789ce25f_2617",
+    "email": "raweerote.s@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=66",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_795dfb4c_2490",
+    "email": "suttida.wongkaew@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=58",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_79b39dd7_4718",
+    "email": "preeyanuch.h@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=27",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_ae05ea27_3431",
+    "email": "wanchalerm.s@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=64",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_c9a2f75e_5486",
+    "email": "kamonwan.k@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=41",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_700d1c7d_5607",
+    "email": "wipawinee.ch@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=70",
+    "source": "cmu_math"
+  },
+  {
+    "id": "cmu_7f346076_1284",
+    "email": "nuttawat.s@cmu.ac.th",
+    "profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=50",
+    "source": "cmu_math"
+  },
+  {
+    "id": "psu_agro_wave13_0006",
+    "email": "jirakrit.s@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0023",
+    "email": "pornsatit.s@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0004",
+    "email": "kongkarn.k@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0009",
+    "email": "punnanee.s@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0021",
+    "email": "supachai.p@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0032",
+    "email": "benjamas.che@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0035",
+    "email": "apichat.u@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0001",
+    "email": "saowakon.w@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0003",
+    "email": "wirote.y@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0005",
+    "email": "sunisa.s@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0007",
+    "email": "worapong.u@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0008",
+    "email": "piyarat.n@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0010",
+    "email": "dusida.t@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0013",
+    "email": "krisana.n@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0014",
+    "email": "kwanhathai.c@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0015",
+    "email": "jirayu.b@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0018",
+    "email": "thawean.b@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0019",
+    "email": "waranyou.s@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0020",
+    "email": "ponusa.j@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0022",
+    "email": "thummanoon.p@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0024",
+    "email": "ladawan.so@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0026",
+    "email": "bhudsawan.h@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0028",
+    "email": "karnjapan.j@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0029",
+    "email": "darika.a@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0031",
+    "email": "piyarat.b@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0033",
+    "email": "suppasil.m@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0034",
+    "email": "wasana.suy@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0038",
+    "email": "aem.n@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0040",
+    "email": "santad.w@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0041",
+    "email": "chutha.s@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0042",
+    "email": "vatcharee.s@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0043",
+    "email": "nualpun.s@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0044",
+    "email": "preeya.h@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0045",
+    "email": "worapanit.c@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0012",
+    "email": "pochanart.k@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0037",
+    "email": "uschara.t@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0036",
+    "email": "wiriya.d@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0002",
+    "email": "mutita.m@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0027",
+    "email": "kanya.a@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0017",
+    "email": "suriya.pal@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0025",
+    "email": "somporn.ni@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0030",
+    "email": "kasidate.c@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0039",
+    "email": "vorasan.s@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "psu_agro_wave13_0046",
+    "email": "natchaphol.b@psu.ac.th",
+    "source": "psu_agro"
+  },
+  {
+    "id": "ku_2b205080_0714",
+    "email": "fscipdy@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/peerada-yingyuad/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_3bbf7a85_4727",
+    "email": "fsciwsh@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/wisit-hirunpinyopas/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_6d8f4033_9676",
+    "email": "fscirdr@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/ramida-rattanakam/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_65bafd24_0438",
+    "email": "fscibnw@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/boontana-wannalerse/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_1413ba3f_3721",
+    "email": "fscitcl@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/theerachart-leepasert/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_22a0ce80_0586",
+    "email": "fscicyp@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/chaiya-prasittichai/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_3d0a8626_7393",
+    "email": "pipat.k@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pipat-khongpracha/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_52088221_8537",
+    "email": "fsciwyk@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/wirunya-keawwattana/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_5e615a7a_0317",
+    "email": "fscicpn@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/chompunuch-warakulwit/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_66a19cf2_6510",
+    "email": "fsciswsm@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/songwut-suramitr/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_6f52e65a_7505",
+    "email": "fscijkp@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/jakkapan-sirijaraensre/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_6fb6fd34_4828",
+    "email": "fscipths@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/panitat-hasin/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_75a2f185_1803",
+    "email": "fscistsn@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/sutasinee-kityakarn/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_792b15ec_6800",
+    "email": "fscipplu@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/patraporn-luksirikul/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_799119e7_8228",
+    "email": "fsciprpo@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/prapasiri-pongprayoon/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_79d21335_6397",
+    "email": "fscikij@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/kannika-jeamjumnunja/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_ac21d07a_9202",
+    "email": "kuntawit.wit@ku.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/kuntawit-witthayolankowit/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_fb10e0a0_7946",
+    "email": "fscimtr@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/montida-raoarun/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_1e55e114_1626",
+    "email": "fscitnn@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/tanin-nanok/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_13923a5c_4248",
+    "email": "fscipsl@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pongsak-lowmonkong/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_1f0b8d31_3607",
+    "email": "fscipdv@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pinsuda-viravathana/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_21a09240_1062",
+    "email": "fscipbp@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/piboon-pantu/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_64401af6_6702",
+    "email": "fscikwa@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/khrongkhwan-akkarachaneeyakorn/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_6480b66a_0851",
+    "email": "fscithn@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/thitaphat-ngernsutivorakul/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_40d91982_5855",
+    "email": "sorachat.thar@ku.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%a3%e0%b8%89%e0%b8%b1%e0%b8%95%e0%b8%a3-%e0%b8%98%e0%b8%b2%e0%b8%a3%e0%b8%a1%e0%b8%a3%e0%b8%a3%e0%b8%84/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_4992a789_4278",
+    "email": "fscispm@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/supattra-midpanon/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_600fd6e0_3474",
+    "email": "nattapong.chant@ku.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%93%e0%b8%b1%e0%b8%90%e0%b8%9e%e0%b8%87%e0%b8%a8%e0%b9%8c-%e0%b8%88%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%a3%e0%b9%8c%e0%b8%97%e0%b8%b4%e0%b8%9e%e0%b8%a2%e0%b9%8c%e0%b8%a1/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_61b026d5_0745",
+    "email": "fsciclr@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/chadchalerm-ruksakorn/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_6caf92f6_1528",
+    "email": "fsciwisu@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/wannisa-sukjee/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_4e6c55b7_3815",
+    "email": "fscipnsk@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/patchreenart-saparpakorn/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_51c76444_9265",
+    "email": "fscisknb@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/somkiat-nokbin/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_564f6bd2_7272",
+    "email": "fsciska@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/supakit-achiwawanich/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_5f29861a_8033",
+    "email": "siree.t@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/siree-tangbunsuk/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_69617028_7176",
+    "email": "fscitnm@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/thitinun-karpkird/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_7cfed11e_1926",
+    "email": "fscisia@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/sunisa-akkarasamiyo/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_7f312dd6_5960",
+    "email": "fsciwls@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/wilai-siriwatcharapiboon/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_15c83bd1_4290",
+    "email": "fscitwd@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/tanwawan-duangthongyou/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_279cebc6_7178",
+    "email": "fscijyk@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/junya-jettanasen/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_42277a73_8010",
+    "email": "fscinwc@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/nutthawat-chuanopparat/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_436f33dd_7648",
+    "email": "fscipwa@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pakorn-wattana-amorn/",
+    "source": "chem_ku"
+  },
+  {
+    "id": "ku_60dd92cb_0213",
+    "email": "fscipjs@ku.ac.th",
+    "profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/potjanart-suwanruji/",
+    "source": "chem_ku"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "session_id": "phase29_recovery_1789540809",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย, มหาวิทยาลัยธรรมศาสตร์, มหาวิทยาลัยเชียงใหม่",
+  "target_university_en": "Chulalongkorn, Thammasat, Chiang Mai Universities",
+  "target_faculty_th": "Multi-Faculty Phase 29 Recovery",
+  "target_faculty_en": "Multi-Faculty Phase 29 Recovery",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 325,
+  "status": "initialized",
+  "last_error": null
+}

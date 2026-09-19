@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789639438_460bcd",
+  "target_university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+  "target_university_en": "Suranaree University of Technology",
+  "target_faculty_th": "สำนักวิชาพยาบาลศาสตร์",
+  "target_faculty_en": "Institute of Nursing",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://nurse.sut.ac.th/",
+    "https://www.sut.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1158,
+  "status": "completed",
+  "last_error": null
+}

@@ -1,0 +1,80 @@
+{
+  "session_id": "wave28_mfu_science",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชาวิทยาศาสตร์",
+  "target_faculty_en": "School of Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.mfu.ac.th/en/academics.html",
+    "https://www.mfu.ac.th/en/academics/school-of-science.html",
+    "https://www.mfu.ac.th/th/academics/school-of-science.html",
+    "https://science.mfu.ac.th/",
+    "https://science.mfu.ac.th/en/"
+  ],
+  "failed_urls": [
+    "https://scis.mfu.ac.th/",
+    "https://scis.mfu.ac.th/en/",
+    "https://scis.mfu.ac.th/en/scis-staff/scis-lecturers.html",
+    "https://scis.mfu.ac.th/en/scis-staff/scis-executives.html"
+  ],
+  "faculties": {
+    "maefahluan_schoolofsc_mahanil_002": {
+      "id": "maefahluan_schoolofsc_mahanil_002",
+      "university": "Mae Fah Luang University",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty": "School of Science",
+      "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+      "department": "สำนักวิชาวิทยาศาสตร์",
+      "department_th": "สำนักวิชาวิทยาศาสตร์",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Siraprapa",
+      "last_name": "Mahanil",
+      "full_name": "Siraprapa Mahanil",
+      "full_name_th": "รศ.ดร. ศิระประภา มหานิล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "maefahluan_schoolofsc_khongphinitbunj_002": {
+      "id": "maefahluan_schoolofsc_khongphinitbunj_002",
+      "university": "Mae Fah Luang University",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty": "School of Science",
+      "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+      "department": "สำนักวิชาวิทยาศาสตร์",
+      "department_th": "สำนักวิชาวิทยาศาสตร์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Kitiphong",
+      "last_name": "Khongphinitbunjong",
+      "full_name": "Kitiphong Khongphinitbunjong",
+      "full_name_th": "ผศ.ดร. กิติพงษ์ คงพินิจบุญจง",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ศิระประภา มหานิล": "maefahluan_schoolofsc_mahanil_002",
+    "กิติพงษ์ คงพินิจบุญจง": "maefahluan_schoolofsc_khongphinitbunj_002"
+  },
+  "dedup_emails": {},
+  "step_count": 5,
+  "total_tokens_used": 4687,
+  "status": "completed",
+  "last_error": null
+}

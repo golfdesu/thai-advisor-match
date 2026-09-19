@@ -38,6 +38,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -48,32 +49,54 @@ from sqlalchemy import and_, or_
 
 from app.core.database import SessionLocal                        # noqa: E402
 from app.models.db_models import FacultyDB                        # noqa: E402
-from fetch_openalex_publication_metrics import fetch_with_retry   # noqa: E402
+from fetch_openalex_publication_metrics import (                  # noqa: E402
+    fetch_with_retry, all_keys_exhausted
+)
 
 CHECKPOINT_DIR = os.path.join("backend", "data", "agent_states")
 SENTINEL_MISS = "not_indexed"
+# Deliberately disambiguated homonyms (Phase 5/10 approved repairs): their
+# metrics were proven to belong to ANOTHER person (e.g. MFU physician
+# mfu_med_komsan_001 vs the MFU/CMU economist of the same name). Never
+# re-probe these, even with --include-sentinel — a wrong-but-confident
+# match is far worse than a miss. See audits/apply_phase10_metric_repairs.py.
+PROTECTED_SENTINEL_IDS = frozenset({
+    "mfu_med_komsan_001",
+    "chulalongk_facultyofp_fac_036_036",
+})
 _TOKEN_RE = re.compile(r"[a-z]+")
+
+
+def strip_accents(s: str) -> str:
+    """Normalize Latin diacritics: 'Söhnke' -> 'Sohnke'."""
+    return "".join(c for c in unicodedata.normalize("NFKD", s or "") if not unicodedata.combining(c))
 
 
 def tokens(name: str) -> set:
     """Lowercase alphabetic tokens: 'M. Sarikaputi' -> {'m', 'sarikaputi'}."""
-    return set(_TOKEN_RE.findall((name or "").lower()))
+    return set(_TOKEN_RE.findall(strip_accents(name or "").lower()))
 
 
 def inst_frag(u: str) -> str:
     return re.sub(r"[^a-z ]", "", (u or "").lower()).strip()
 
 
+COMMON_INST_STOP = {
+    "university", "institute", "technology", "of", "and", "the", "for",
+    "state", "rajabhat", "campus", "college", "school", "king"
+}
+
+
 def corroborates(cand: dict, uni: str) -> bool:
     """True if an author affiliation string shares a meaningful token with the DB university."""
     if not uni:
         return False
-    utok = {t for t in inst_frag(uni).split() if len(t) > 4 and t not in ("university", "institute")}
+    utok = {t for t in inst_frag(uni).split() if len(t) >= 4 and t not in COMMON_INST_STOP}
     if not utok:
         return False
     for a in cand.get("affiliations") or []:
-        disp = inst_frag((a.get("institution") or {}).get("display_name", ""))
-        if any(t in disp for t in utok):
+        disp_toks = set(inst_frag((a.get("institution") or {}).get("display_name", "")).split())
+        if bool(utok & disp_toks):
             return True
     return False
 
@@ -95,15 +118,66 @@ def search_authors(name: str, per_page: int = 10) -> list:
     return (d or {}).get("results", []) or []
 
 
+TOPIC_STOP = frozenset({
+    "and", "the", "of", "for", "with", "using", "based", "under", "from",
+    "research", "study", "studies", "analysis", "effects", "effect", "role",
+    "among", "between", "through", "their", "into", "over", "more", "general",
+})
+
+
+def topic_tokens(text: str) -> set:
+    """English content tokens from a topic/interest string (len>=4, no stop)."""
+    return {t for t in _TOKEN_RE.findall(strip_accents(text or "").lower())
+            if len(t) >= 4 and t not in TOPIC_STOP}
+
+
+def candidate_topic_tokens(cand: dict) -> set:
+    toks = set()
+    for t in cand.get("topics") or []:
+        toks |= topic_tokens(t.get("display_name") or "")
+        sub = t.get("subfield") or {}
+        toks |= topic_tokens(sub.get("display_name") or "")
+        fld = t.get("field") or {}
+        toks |= topic_tokens(fld.get("display_name") or "")
+    return toks
+
+
+def person_named(cand: dict) -> bool:
+    """Reject degenerate OpenAlex author records whose display_name is a
+    topic/field, not a person (observed: 'Physical and Colloid Chemistry').
+    Every token must be Title-Case or a single initial."""
+    toks = (cand.get("display_name") or "").split()
+    if len(toks) < 2:
+        return False
+    return all(bool(re.fullmatch(r"[A-Z][a-z'\-]+|[A-Z]\.?", t)) for t in toks)
+
+
+def topic_disambiguate(qualifying: list, interests) -> "dict | None":
+    """Pick one ambiguous candidate by research-topic overlap with the row's
+    own research_interests. Returns winner iff best_score >= 3 AND margin >= 2
+    over runner-up; else None (stay ambiguous). Pure function, thread-safe."""
+    pool = [c for c in qualifying if person_named(c)]
+    if not pool:
+        return None
+    want = set()
+    for item in interests or []:
+        want |= topic_tokens(str(item))
+    if not want:
+        return None
+    scored = sorted(
+        ((len(want & candidate_topic_tokens(c)), c) for c in pool),
+        key=lambda x: x[0], reverse=True)
+    if not scored or scored[0][0] < 3:
+        return None
+    if len(scored) > 1 and scored[0][0] - scored[1][0] < 2:
+        return None
+    return scored[0][1]
+
+
 def resolve(first: str, last: str, uni: str):
     """Return (author_dict|None, verdict). verdict ∈ {'match','no_hit','ambiguous'}."""
-    cands = search_authors(f"{first} {last}")
-    if not cands:
-        return None, "no_hit"
-    last_tok, first_tok = last.lower(), first.lower()
-    qualifying = [c for c in cands
-                  if last_tok in tokens(c.get("display_name"))
-                  and (first_tok in tokens(c.get("display_name")) or first_tok[:1] in tokens(c.get("display_name")))]
+    cands = search_authors(f"{strip_accents(first).strip()} {strip_accents(last).strip()}")
+    qualifying = qualify_candidates(first, last, cands)
     if not qualifying:
         return None, "no_hit"
     corr = [c for c in qualifying if corroborates(c, uni)]
@@ -118,11 +192,63 @@ def resolve(first: str, last: str, uni: str):
     return None, "ambiguous"   # several uncorroborated people → don't guess
 
 
+def qualify_candidates(first: str, last: str, cands: list) -> list:
+    """Name-gate filter shared by resolve() and topic disambiguation."""
+    first_clean = strip_accents(first).strip()
+    last_clean = strip_accents(last).strip()
+    last_toks = tokens(last_clean)
+    first_toks = tokens(first_clean)
+    first_collapsed = "".join(c for c in first_clean.lower() if c.isalpha())
+    qualifying = []
+    for c in cands or []:
+        cand_toks = tokens(c.get("display_name"))
+        # Must match surname token
+        if not bool(last_toks & cand_toks):
+            continue
+        cand_given_toks = cand_toks - last_toks
+        cand_given_collapsed = "".join(c for c in (c.get("display_name") or "").lower() if c.isalpha() and c not in "".join(last_toks))
+
+        # Must match given name token, initial, or compound/hyphenated prefix
+        given_match = (
+            bool(first_toks & cand_toks) or
+            any(t[:1] in cand_toks for t in first_toks if t) or
+            any(ct[:1] in first_toks for ct in cand_given_toks if ct) or
+            (first_collapsed and first_collapsed in cand_given_collapsed) or
+            (cand_given_collapsed and cand_given_collapsed in first_collapsed) or
+            any(ct.startswith(t) or t.startswith(ct) for ct in cand_given_toks for t in first_toks if len(ct) >= 2 and len(t) >= 2)
+        )
+        if given_match:
+            qualifying.append(c)
+    return qualifying
+
+
+DISAMBIGUATE = False  # set from --disambiguate flag (module-level for worker threads)
+
+
 def probe(row):
     """NETWORK ONLY — no DB access (runs in worker threads). row is a plain tuple."""
-    rid, fn, ln, uni = row
+    rid, fn, ln, uni = row[:4]
+    interests = row[4] if len(row) > 4 else None
     try:
-        author, verdict = resolve(fn.strip(), ln.strip(), uni or "")
+        if DISAMBIGUATE:
+            cands = search_authors(f"{strip_accents(fn).strip()} {strip_accents(ln).strip()}")
+            qualifying = qualify_candidates(fn.strip(), ln.strip(), cands)
+            if not qualifying:
+                return rid, None, "no_hit", ""
+            corr = [c for c in qualifying if corroborates(c, uni or "")]
+            if corr:
+                corr.sort(key=lambda c: ((c.get("summary_stats") or {}).get("h_index") or 0), reverse=True)
+                author, verdict = corr[0], "match"
+            elif len(qualifying) == 1:
+                author, verdict = qualifying[0], "match"
+            else:
+                winner = topic_disambiguate(qualifying, interests)
+                if winner is None:
+                    return rid, None, "ambiguous", ""
+                author, verdict, via_topic = winner, "match", True
+        else:
+            author, verdict = resolve(fn.strip(), ln.strip(), uni or "")
+            via_topic = False
     except Exception as e:
         return rid, None, f"error", str(e)[:160]
     if verdict != "match":
@@ -135,6 +261,9 @@ def probe(row):
         "total_citations": author.get("cited_by_count") or 0,
         "total_publications_count": author.get("works_count") or 0,
         "corroborated": corroborates(author, uni),
+        "disambiguated_via_topic": via_topic,
+        "first_name": fn,
+        "last_name": ln,
     }
     return rid, payload, "match", ""
 
@@ -148,7 +277,13 @@ def main():
     ap.add_argument("--include-sentinel", action="store_true",
                     help="also re-probe rows marked 'not_indexed' with h_index=0 "
                          "(use after a rate-limited run; quota resets daily)")
+    ap.add_argument("--disambiguate", action="store_true",
+                    help="for ambiguous verdicts, pick a winner by research-topic "
+                         "overlap with the row's own research_interests "
+                         "(score>=3, margin>=2; else stays ambiguous)")
     args = ap.parse_args()
+    global DISAMBIGUATE
+    DISAMBIGUATE = args.disambiguate
 
     db = SessionLocal()
     # Plain column query: no ORM objects cross thread boundaries, ever.
@@ -159,17 +294,43 @@ def main():
                  if not args.include_sentinel
                  else (or_(FacultyDB.openalex_id.is_(None),
                            and_(FacultyDB.openalex_id == SENTINEL_MISS, FacultyDB.h_index == 0))))
-    rows = (db.query(FacultyDB.id, FacultyDB.first_name, FacultyDB.last_name, FacultyDB.university)
-            .filter(id_filter,
-                    FacultyDB.first_name.isnot(None),
-                    FacultyDB.last_name.isnot(None))
+    rows = (db.query(FacultyDB.id, FacultyDB.first_name, FacultyDB.last_name, FacultyDB.university, FacultyDB.profile_url, FacultyDB.email, FacultyDB.research_interests)
+            .filter(id_filter)
+            .filter(~FacultyDB.id.in_(PROTECTED_SENTINEL_IDS))
             .all())
-    # romanized-only: OpenAlex keys on latin names; require a real surname (>=3 chars)
-    rows = [r for r in rows if r.first_name.isascii() and r.last_name.isascii()
-            and len(r.last_name.strip()) >= 3]
+
+    SLUG_PATTERN = re.compile(r"/(?:academic-staff|people|faculty|staff|teams|profile|person)/([a-zA-Z0-9_\-]+)/?", re.I)
+    NOISE_SLUGS = {"index", "detail", "profile", "people", "staff", "faculty", "team", "academic-staff"}
+
+    # romanized-only: OpenAlex keys on latin names; require surname >= 2 chars
+    norm_rows = []
+    for r in rows:
+        fn_norm = strip_accents(r.first_name).strip() if r.first_name else ""
+        ln_norm = strip_accents(r.last_name).strip() if r.last_name else ""
+        if fn_norm.isascii() and ln_norm.isascii() and len(ln_norm) >= 2 and fn_norm and ln_norm:
+            norm_rows.append((r.id, fn_norm, ln_norm, r.university, r.research_interests))
+            continue
+
+        extracted = None
+        if r.profile_url:
+            m = SLUG_PATTERN.search(r.profile_url)
+            if m:
+                raw_slug = m.group(1).strip().lower()
+                raw_slug = re.sub(r"-(?:th|en)$", "", raw_slug)
+                parts = [p for p in raw_slug.split("-") if p.isalpha() and len(p) >= 2 and p not in NOISE_SLUGS]
+                if len(parts) >= 2:
+                    extracted = (parts[0].title(), " ".join(parts[1:]).title())
+        if not extracted and r.email and "@" in r.email:
+            local = r.email.split("@")[0].lower()
+            parts = [p for p in re.split(r"[\._]", local) if p.isalpha() and len(p) >= 3]
+            if len(parts) >= 2:
+                extracted = (parts[0].title(), " ".join(parts[1:]).title())
+        if extracted:
+            norm_rows.append((r.id, extracted[0], extracted[1], r.university, r.research_interests))
+    rows = norm_rows
     if args.limit:
         rows = rows[: args.limit]
-    print(f"Targets (openalex_id IS NULL, romanized, surname>=3): {len(rows)}", flush=True)
+    print(f"Targets (openalex_id IS NULL, romanized, surname>=2): {len(rows)}", flush=True)
     if not rows:
         db.close()
         return
@@ -180,7 +341,7 @@ def main():
         db.close()
         return
 
-    counts = {"match": 0, "no_hit": 0, "ambiguous": 0, "error": 0, "metric_gain": 0}
+    counts = {"match": 0, "no_hit": 0, "ambiguous": 0, "error": 0, "metric_gain": 0, "topic_pick": 0}
     changes = []
     done = 0
 
@@ -198,15 +359,27 @@ def main():
             fac.openalex_id = payload["openalex_id"]
             fac.h_index = payload["h_index"]
             fac.total_citations = payload["total_citations"]
-            fac.total_publications_count = payload["total_publications_count"]
+            applied_publications = max(
+                fac.total_publications_count or 0,
+                payload["total_publications_count"],
+            )
+            fac.total_publications_count = applied_publications
+            if payload.get("first_name") and payload.get("last_name"):
+                if not (fac.first_name and fac.first_name.isascii()):
+                    fac.first_name = payload["first_name"]
+                if not (fac.last_name and fac.last_name.isascii()):
+                    fac.last_name = payload["last_name"]
             rec = {"id": rid, "verdict": "match", "corroborated": payload["corroborated"],
                    "openalex_id": payload["openalex_id"],
                    "matched_author_name": payload["matched_author_name"],
                    "h_index": payload["h_index"], "total_citations": payload["total_citations"],
-                   "total_publications_count": payload["total_publications_count"],
+                   "total_publications_count": applied_publications,
                    "before": before}
             if gained:
                 counts["metric_gain"] += 1
+            if payload.get("disambiguated_via_topic"):
+                counts["topic_pick"] += 1
+                rec["disambiguated_via_topic"] = True
             changes.append(rec)
         elif verdict == "no_hit":
             fac.openalex_id = SENTINEL_MISS    # stop re-querying a confirmed miss
@@ -227,14 +400,14 @@ def main():
                 if done % args.batch == 0:
                     db.commit()
                     write_checkpoint(args.apply, counts, changes)
-                    # keys can expire MID-run (observed: quota burned after ~500 queries).
-                    # If the API goes dark, give the polite pool a minute, then stop cleanly
+                    # keys can expire MID-run.
+                    # If all keys exhausted or the API goes dark, give polite pool a minute, then stop cleanly
                     # rather than stamping 'not_indexed' onto throttle blinks.
-                    if not api_healthy():
-                        print(f"  ⏸ API degraded at {done}/{len(rows)} — waiting 60s…", flush=True)
+                    if all_keys_exhausted() or not api_healthy():
+                        print(f"  ⏸ API degraded or keys exhausted at {done}/{len(rows)} — waiting 60s…", flush=True)
                         time.sleep(60)
                         if not api_healthy():
-                            print("  ✋ still degraded — stopping this wave (resumable).", flush=True)
+                            print("  ✋ still degraded or quota exhausted — stopping this wave (resumable).", flush=True)
                             break
             else:
                 # Dry-run checkpoints must preserve every verdict for review,
@@ -243,10 +416,13 @@ def main():
                 if verdict == "match":
                     entry.update({
                         "corroborated": payload["corroborated"],
+                        "disambiguated_via_topic": payload.get("disambiguated_via_topic", False),
                         "matched_author_name": payload["matched_author_name"],
                         "openalex_id": payload["openalex_id"],
                         "h_index": payload["h_index"],
                     })
+                    if payload.get("disambiguated_via_topic"):
+                        counts["topic_pick"] += 1
                 changes.append(entry)
 
             if done % 100 == 0:

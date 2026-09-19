@@ -1,0 +1,23 @@
+{
+  "session_id": "extract_1789639639_4820d0",
+  "target_university_th": "มหาวิทยาลัยศิลปากร",
+  "target_university_en": "Silpakorn University",
+  "target_faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Architecture",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://arch.su.ac.th/index.php/component/content/category/8-cabout?Itemid=101",
+    "https://www.su.ac.th/en/faculty/2",
+    "https://arch.su.ac.th"
+  ],
+  "failed_urls": [
+    "https://arch.su.ac.th/index.php/en/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 3,
+  "total_tokens_used": 2833,
+  "status": "completed",
+  "last_error": null
+}

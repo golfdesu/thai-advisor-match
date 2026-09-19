@@ -1,0 +1,19 @@
+{
+  "session_id": "wave27_mu_bart",
+  "target_university_th": "มหาวิทยาลัยมหิดล",
+  "target_university_en": "Mahidol University",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์ ภาควิชาวิศวกรรมชีวการแพทย์ (BART LAB)",
+  "target_faculty_en": "Faculty of Engineering, Dept. of Biomedical Engineering (BART LAB)",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://eg.mahidol.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 480,
+  "status": "completed",
+  "last_error": null
+}

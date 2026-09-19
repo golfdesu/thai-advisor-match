@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789643739_d40e7c",
+  "target_university_th": "มหาวิทยาลัยมหาสารคาม",
+  "target_university_en": "Mahasarakham University",
+  "target_faculty_th": "คณะศิลปกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Fine Arts",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://finearts.msu.ac.th/",
+    "https://fac.msu.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

@@ -1,0 +1,458 @@
+{
+  "mfu_master": {
+    "status": 200,
+    "method": "urllib",
+    "bytes": 48758,
+    "n_links": 51,
+    "it_hits": [],
+    "sample": [
+      {
+        "title": "ข้ามไปยังเนื้อหาหลัก",
+        "link": "https://programme.mfu.ac.th/mfu-programme/programme-master-degree.html#main-content"
+      },
+      {
+        "title": "หน้าแรก",
+        "link": "https://programme.mfu.ac.th/programme-index.html"
+      },
+      {
+        "title": "ปริญญาตรี",
+        "link": "https://programme.mfu.ac.th/mfu-programme/programme-bachelor-degree.html"
+      },
+      {
+        "title": "ปริญญาบัณฑิต",
+        "link": "https://programme.mfu.ac.th/education/program/graduate-diploma-program.html"
+      },
+      {
+        "title": "ปริญญาโท",
+        "link": "https://programme.mfu.ac.th/mfu-programme/programme-master-degree.html"
+      },
+      {
+        "title": "ปริญญาเอก",
+        "link": "https://programme.mfu.ac.th/mfu-programme/programme-doctoral-degree.html"
+      },
+      {
+        "title": "ประกาศนียบัตร",
+        "link": "https://programme.mfu.ac.th/mfu-programme/certificate-programme.html"
+      },
+      {
+        "title": "หลักสูตรระยะสั้น",
+        "link": "https://cas.mfu.ac.th/cas-news/cas-news-registration-fee.html"
+      },
+      {
+        "title": "หลักสูตรบัณฑิตพันธุ์ใหม่",
+        "link": "https://mfu.ac.th/nxtgen"
+      },
+      {
+        "title": "Foreign Students",
+        "link": "https://en.mfu.ac.th/admission/admission-guide.html"
+      },
+      {
+        "title": "สำนักวิชา",
+        "link": "https://programme.mfu.ac.th/school.html"
+      },
+      {
+        "title": "แนะนำหลักสูตร",
+        "link": "https://admission.mfu.ac.th/bachelor-degree/intro-document/admission-7723.html"
+      },
+      {
+        "title": "รับสมัครบุคคลเข้าศึกษา",
+        "link": "https://admission.mfu.ac.th/"
+      },
+      {
+        "title": "ปฏิทินการศึกษา",
+        "link": "https://reg.mfu.ac.th/academic-calendar"
+      },
+      {
+        "title": "รับสมัครบุคคลเข้าศึกษา ระดับปริญญาโท",
+        "link": "https://admission.mfu.ac.th/master-degree/master-formal.html"
+      }
+    ],
+    "error": ""
+  },
+  "mfu_doctoral": {
+    "status": 200,
+    "method": "urllib",
+    "bytes": 35428,
+    "n_links": 40,
+    "it_hits": [],
+    "sample": [
+      {
+        "title": "ข้ามไปยังเนื้อหาหลัก",
+        "link": "https://programme.mfu.ac.th/mfu-programme/programme-doctoral-degree.html#main-content"
+      },
+      {
+        "title": "หน้าแรก",
+        "link": "https://programme.mfu.ac.th/programme-index.html"
+      },
+      {
+        "title": "ปริญญาตรี",
+        "link": "https://programme.mfu.ac.th/mfu-programme/programme-bachelor-degree.html"
+      },
+      {
+        "title": "ปริญญาบัณฑิต",
+        "link": "https://programme.mfu.ac.th/education/program/graduate-diploma-program.html"
+      },
+      {
+        "title": "ปริญญาโท",
+        "link": "https://programme.mfu.ac.th/mfu-programme/programme-master-degree.html"
+      },
+      {
+        "title": "ปริญญาเอก",
+        "link": "https://programme.mfu.ac.th/mfu-programme/programme-doctoral-degree.html"
+      },
+      {
+        "title": "ประกาศนียบัตร",
+        "link": "https://programme.mfu.ac.th/mfu-programme/certificate-programme.html"
+      },
+      {
+        "title": "หลักสูตรระยะสั้น",
+        "link": "https://cas.mfu.ac.th/cas-news/cas-news-registration-fee.html"
+      },
+      {
+        "title": "หลักสูตรบัณฑิตพันธุ์ใหม่",
+        "link": "https://mfu.ac.th/nxtgen"
+      },
+      {
+        "title": "Foreign Students",
+        "link": "https://en.mfu.ac.th/admission/admission-guide.html"
+      },
+      {
+        "title": "สำนักวิชา",
+        "link": "https://programme.mfu.ac.th/school.html"
+      },
+      {
+        "title": "แนะนำหลักสูตร",
+        "link": "https://admission.mfu.ac.th/bachelor-degree/intro-document/admission-7723.html"
+      },
+      {
+        "title": "รับสมัครบุคคลเข้าศึกษา",
+        "link": "https://admission.mfu.ac.th/"
+      },
+      {
+        "title": "ปฏิทินการศึกษา",
+        "link": "https://reg.mfu.ac.th/academic-calendar"
+      },
+      {
+        "title": "รับสมัครบุคคลเข้าศึกษา ระดับปริญญาเอก",
+        "link": "https://admission.mfu.ac.th/doctoral-degree/doctoral-formal.html"
+      }
+    ],
+    "error": ""
+  },
+  "mfu_index": {
+    "status": 200,
+    "bytes": 18205,
+    "it_school_links": [],
+    "all_school_links": []
+  },
+  "host_sit": {
+    "status": 200,
+    "bytes": 716,
+    "snippet": "Site Maintenance body { text-align: center; padding: 150px; } h1 { font-size: 50px; } body { font: 20px Helvetica, sans-serif; color: #333; } article { display: block; text-align: left; width: 650px; margin: 0 auto; } a { color: #dc8100; text-decoration: none; } a:hover { color: #333; text-decoration: none; } We&rsquo;ll be back soon! Sorry for the inconvenience but we&rsquo;re performing some mai",
+    "error": ""
+  },
+  "host_itschool": {
+    "status": 200,
+    "bytes": 13764,
+    "snippet": "itschool.mfu.ac.th (Redirect Site) &#124; สำนักวิชาเทคโนโลยีสารสนเทศ มหาวิทยาลัยแม่ฟ้าหลวง You are using an outdated browser. Please upgrade your browser to improve your experience. Toggle navigation (success) th en นักศึกษาปัจจุบัน บุคลากร นักศึกษาเก่า 404 Page Not Found (success) th en นักศึกษาปัจจุบัน บุคลากร นักศึกษาเก่า สำนักวิชาเทคโนโลยีสารสนเทศ มหาวิทยาลัยแม่ฟ้าหลวง Contact สำนักวิชาเทคโนโล",
+    "error": ""
+  },
+  "host_sic": {
+    "status": -1,
+    "bytes": 0,
+    "snippet": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "host_computing": {
+    "status": -1,
+    "bytes": 0,
+    "snippet": "",
+    "error": "<urlopen error timed out>"
+  },
+  "host_mfu_it_portal": {
+    "status": -1,
+    "bytes": 0,
+    "snippet": "",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "cosci_home": {
+    "status": 200,
+    "method": "urllib",
+    "bytes": 31887,
+    "grad_menu": [],
+    "all_menu": [
+      {
+        "title": "About us",
+        "link": "http://cosci.swu.ac.th"
+      },
+      {
+        "title": "History",
+        "link": "http://cosci.swu.ac.th/aboutus"
+      },
+      {
+        "title": "Strategic Planning",
+        "link": "http://cosci.swu.ac.th/organization-chart"
+      },
+      {
+        "title": "Faculties & Staffs",
+        "link": "http://cosci.swu.ac.th/faculties-and-staffs"
+      },
+      {
+        "title": "Admission",
+        "link": "http://cosci.swu.ac.th/admission"
+      },
+      {
+        "title": "Academic",
+        "link": "http://cosci.swu.ac.th/academic"
+      },
+      {
+        "title": "Research",
+        "link": "http://cosci.swu.ac.th/"
+      },
+      {
+        "title": "Journal",
+        "link": "http://cosci.swu.ac.th/journal"
+      },
+      {
+        "title": "SSAMIC",
+        "link": "https://www.facebook.com/ssamicthailand/"
+      },
+      {
+        "title": "News",
+        "link": "http://cosci.swu.ac.th/"
+      },
+      {
+        "title": "Awards",
+        "link": "http://cosci.swu.ac.th/awards"
+      },
+      {
+        "title": "Events",
+        "link": "http://cosci.swu.ac.th/news-event"
+      },
+      {
+        "title": "Showcase",
+        "link": "http://cosci.swu.ac.th/showcase"
+      },
+      {
+        "title": "Contact",
+        "link": "http://cosci.swu.ac.th/contactus"
+      },
+      {
+        "title": "More",
+        "link": "http://cosci.swu.ac.th/news-event/admission/2026/อัปโหลด-portfolio-วิทยาลัยนวัตกรรมสื่อสารสังคม-เปิดรับสมัครนิสิตใหม่-tcas70-รอบ-11-portfolio-ปีการศึกษา-2570"
+      },
+      {
+        "title": "More",
+        "link": "http://cosci.swu.ac.th/academic"
+      },
+      {
+        "title": "More",
+        "link": "https://pdpa.swu.ac.th/"
+      },
+      {
+        "title": "More",
+        "link": "http://bit.ly/3HR7cdU"
+      },
+      {
+        "title": "More",
+        "link": "http://bit.ly/3Y2CtjI"
+      },
+      {
+        "title": "More",
+        "link": "https://forms.gle/LnfpTEfRxRYRDfTf8"
+      },
+      {
+        "title": "COSCI FACULTIES / STAFFS",
+        "link": "http://cosci.swu.ac.th/faculties-and-staffs"
+      },
+      {
+        "title": "COSCI CURRICULUMS",
+        "link": "http://cosci.swu.ac.th/academic"
+      },
+      {
+        "title": "COSCI :Q&amp;A Line ID : @cosci",
+        "link": "https://page.line.me/cosci"
+      },
+      {
+        "title": "กิจกรรมนิสิต COSCI FESTIVAL (CO-FEST) : Chapter 3 - Neon Cosiety ...",
+        "link": "http://cosci.swu.ac.th/news-event/student/2019/cofest-3rd"
+      },
+      {
+        "title": "ข่าวประชาสัมพันธ์ ภาพบรรยากาศการจัดกิจกรรม Swu student affair road show ...",
+        "link": "http://cosci.swu.ac.th/news-event/information/2024/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1-swu-student-affair-road-show"
+      },
+      {
+        "title": "รับนิสิตใหม่ วิทยาลัยนวัตกรรมสื่อสารสังคม เปิดรับสมัครนิสิตใหม่ TCAS63 รอบที่ 4 (Admission 2) ...",
+        "link": "http://cosci.swu.ac.th/news-event/admission/2020/tcas63-r4"
+      },
+      {
+        "title": "รับนิสิตใหม่ อัปโหลด Portfolio : วิทยาลัยนวัตกรรมสื่อสารสังคม เปิดรับสมัครนิสิตใหม่ TCAS70 รอบ ...",
+        "link": "http://cosci.swu.ac.th/news-event/admission/2026/%E0%B8%AD%E0%B8%B1%E0%B8%9B%E0%B9%82%E0%B8%AB%E0%B8%A5%E0%B8%94-portfolio-%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A1-%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%AA%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%A3%E0%B8%99%E0%B8%B4%E0%B8%AA%E0%B8%B4%E0%B8%95%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-tcas70-%E0%B8%A3%E0%B8%AD%E0%B8%9A-11-portfolio-%E0%B8%9B%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2-2570"
+      },
+      {
+        "title": "View All News",
+        "link": "http://cosci.swu.ac.th/news-event"
+      },
+      {
+        "title": "COSCI SHOWCASE",
+        "link": "http://cosci.swu.ac.th/showcase"
+      },
+      {
+        "title": "COSCI Borrow Equipment System",
+        "link": "http://borrow-equipment.cosci.swu.ac.th/"
+      },
+      {
+        "title": "COSCI ENG. VERSION",
+        "link": "https://drive.google.com/file/d/1Hu-_FsV5AViYl5keRRHCzoXq-qW_DCFd/view?usp=drive_link"
+      },
+      {
+        "title": "History",
+        "link": "http://cosci.swu.ac.th/aboutus"
+      },
+      {
+        "title": "Strategic Planning",
+        "link": "http://cosci.swu.ac.th/organization-chart"
+      },
+      {
+        "title": "Faculties & Staffs",
+        "link": "http://cosci.swu.ac.th/faculties-and-staffs"
+      },
+      {
+        "title": "Research",
+        "link": "http://cosci.swu.ac.th/"
+      },
+      {
+        "title": "Journal",
+        "link": "http://cosci.swu.ac.th/journal"
+      },
+      {
+        "title": "Awards",
+        "link": "http://cosci.swu.ac.th/awards"
+      },
+      {
+        "title": "Event",
+        "link": "http://cosci.swu.ac.th/news-event"
+      },
+      {
+        "title": "Showcase",
+        "link": "http://cosci.swu.ac.th/showcase"
+      },
+      {
+        "title": "Admission",
+        "link": "http://cosci.swu.ac.th/admission"
+      },
+      {
+        "title": "AcaDemic",
+        "link": "http://cosci.swu.ac.th/academic"
+      },
+      {
+        "title": "Contact",
+        "link": "http://cosci.swu.ac.th/contactus"
+      },
+      {
+        "title": "Downloads",
+        "link": "http://cosci.swu.ac.th/download"
+      },
+      {
+        "title": "prcosciswu@gmail.com",
+        "link": "mailto:prcosciswu@gmail.com"
+      },
+      {
+        "title": "History",
+        "link": "http://cosci.swu.ac.th/aboutus"
+      },
+      {
+        "title": "Strategic Planning",
+        "link": "http://cosci.swu.ac.th/organization-chart"
+      },
+      {
+        "title": "Faculties & Staffs",
+        "link": "http://cosci.swu.ac.th/faculties-and-staffs"
+      },
+      {
+        "title": "Admission",
+        "link": "http://cosci.swu.ac.th/admission"
+      },
+      {
+        "title": "Academic",
+        "link": "http://cosci.swu.ac.th/academic"
+      },
+      {
+        "title": "Journal",
+        "link": "http://cosci.swu.ac.th/journal"
+      },
+      {
+        "title": "SSAMIC",
+        "link": "https://www.google.co.th"
+      },
+      {
+        "title": "Awards",
+        "link": "http://cosci.swu.ac.th/awards"
+      },
+      {
+        "title": "Events",
+        "link": "http://cosci.swu.ac.th/news-event"
+      },
+      {
+        "title": "Showcase",
+        "link": "http://cosci.swu.ac.th/showcase"
+      },
+      {
+        "title": "Contact",
+        "link": "http://cosci.swu.ac.th/contactus"
+      },
+      {
+        "title": "Downloads",
+        "link": "http://cosci.swu.ac.th/download"
+      }
+    ]
+  },
+  "cosci_course": {
+    "status": 200,
+    "bytes": 15200,
+    "snippet": "About Us - Journal | COSCI --> COSCI SWU - วิทยาลัยนวัตกรรมสื่อสารสังคม มหาวิทยาลัยศรีนครินทรวิโรฒ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-54014424-1'); About us History Strategic Planning Faculties &amp; Staffs Admission Academic Research Journal SSAMIC News Awards Events Showcase Contact Not Found Home | Not Found 404 Not Found about us History Strategic Planning Faculties &amp; Staffs Research Journal Ne",
+    "grad_menu": []
+  },
+  "cosci_prog": {
+    "status": 200,
+    "bytes": 15200,
+    "snippet": "About Us - Journal | COSCI --> COSCI SWU - วิทยาลัยนวัตกรรมสื่อสารสังคม มหาวิทยาลัยศรีนครินทรวิโรฒ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-54014424-1'); About us History Strategic Planning Faculties &amp; Staffs Admission Academic Research Journal SSAMIC News Awards Events Showcase Contact Not Found Home | Not Found 404 Not Found about us History Strategic Planning Faculties &amp; Staffs Research Journal Ne",
+    "grad_menu": []
+  },
+  "cosci_curr": {
+    "status": 200,
+    "bytes": 15200,
+    "snippet": "About Us - Journal | COSCI --> COSCI SWU - วิทยาลัยนวัตกรรมสื่อสารสังคม มหาวิทยาลัยศรีนครินทรวิโรฒ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-54014424-1'); About us History Strategic Planning Faculties &amp; Staffs Admission Academic Research Journal SSAMIC News Awards Events Showcase Contact Not Found Home | Not Found 404 Not Found about us History Strategic Planning Faculties &amp; Staffs Research Journal Ne",
+    "grad_menu": []
+  },
+  "cosci_study": {
+    "status": 200,
+    "bytes": 15200,
+    "snippet": "About Us - Journal | COSCI --> COSCI SWU - วิทยาลัยนวัตกรรมสื่อสารสังคม มหาวิทยาลัยศรีนครินทรวิโรฒ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-54014424-1'); About us History Strategic Planning Faculties &amp; Staffs Admission Academic Research Journal SSAMIC News Awards Events Showcase Contact Not Found Home | Not Found 404 Not Found about us History Strategic Planning Faculties &amp; Staffs Research Journal Ne",
+    "grad_menu": []
+  },
+  "swu_grad_http": {
+    "status": 200,
+    "bytes": 122464,
+    "snippet": "Graduate School of Srinakharinwirot University. | บัณฑิตวิทยาลัย มหาวิทยาลัยศรีนครินทรวิโรฒ .icon-bar { position: fixed; top: 30%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); z-index: 1009; } .icon-bar a { display: block; text-align: center; padding: 8px; transition: all 0.3s ease; color: white; font-size: 20px; } .icon-bar a:hover {",
+    "error": ""
+  },
+  "swu_graduate": {
+    "status": -1,
+    "bytes": 0,
+    "snippet": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "swu_swu_grad": {
+    "status": -1,
+    "bytes": 0,
+    "snippet": "",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "swu_swu_ac_grad": {
+    "status": -1,
+    "bytes": 0,
+    "snippet": "",
+    "error": "<urlopen error timed out>"
+  }
+}

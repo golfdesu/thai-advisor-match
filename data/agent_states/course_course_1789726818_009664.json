@@ -1,0 +1,18 @@
+{
+  "session_id": "course_1789726818_009664",
+  "target_university_th": "มหาวิทยาลัยศิลปากร",
+  "target_university_en": "Silpakorn University",
+  "target_faculty_th": "คณะโบราณคดี",
+  "target_faculty_en": "Faculty of Archaeology",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://archae.su.ac.th/course-master-degree/archeology/"
+  ],
+  "courses": {},
+  "dedup_title_keys": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

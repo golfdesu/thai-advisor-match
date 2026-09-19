@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789643701_da3233",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชาจีนวิทยา",
+  "target_faculty_en": "School of Sinology",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://chinese.mfu.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

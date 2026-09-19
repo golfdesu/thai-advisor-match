@@ -1,0 +1,2239 @@
+{
+ "su_eng_teacher_006": {
+  "en": [
+   "Surojanametakul",
+   "Satmalee"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=218",
+  "xconf": false
+ },
+ "srinakha_facultyo_26001e8d": {
+  "en": [
+   "Chitraporn",
+   "Kuanpradit"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://med.swu.ac.th/anatomy/staff/",
+  "xconf": false
+ },
+ "srinakha_facultyo_4699e785": {
+  "en": [
+   "Wanlaya",
+   "Tanechpongtamb"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://med.swu.ac.th/biochemistry/staff/",
+  "xconf": false
+ },
+ "srinakha_facultyo_56f9e0e5": {
+  "en": [
+   "Patiwat",
+   "Kongdang"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://med.swu.ac.th/biochemistry/staff/",
+  "xconf": false
+ },
+ "srinakha_facultyo_664fbffc": {
+  "en": [
+   "Yotin",
+   "Juprasong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://med.swu.ac.th/biochemistry/staff/",
+  "xconf": false
+ },
+ "srinakha_facultyo_9115df77": {
+  "en": [
+   "Nattakorn",
+   "Mahasupashai"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://med.swu.ac.th/ortho/staff/",
+  "xconf": false
+ },
+ "srinakha_facultyo_0219e95a": {
+  "en": [
+   "Wanaporn",
+   "Burivong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://med.swu.ac.th/radiology/staff/",
+  "xconf": false
+ },
+ "msu_keartisaks__8531": {
+  "en": [
+   "Keartisak",
+   "Sriprateep"
+  ],
+  "conf": "high",
+  "method": "P-title",
+  "url": "https://scholar.google.com/citations?hl=en&user=2VKSV1gAAAAJ"
+ },
+ "msu_lamulwiset__0417": {
+  "en": [
+   "Lamul",
+   "Wiset"
+  ],
+  "conf": "high",
+  "method": "P-title",
+  "url": "https://scholar.google.com/citations?hl=th&user=yS53PJ8AAAAJ"
+ },
+ "tu_38b198b1_2990": {
+  "en": [
+   "Jitiporn",
+   "Director"
+  ],
+  "conf": "high",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://tds.tu.ac.th/FacultyMember"
+ },
+ "tu_55874d9d_2896": {
+  "en": [
+   "Santirak",
+   "Prasertsuk"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://tds.tu.ac.th/FacultyMember",
+  "xconf": false
+ },
+ "tu_3b41b1a0_2210": {
+  "en": [
+   "Pawinee",
+   "Director"
+  ],
+  "conf": "high",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://tds.tu.ac.th/FacultyMember"
+ },
+ "cmu_1d9faf96_1920": {
+  "en": [
+   "Chanodom",
+   "Piankusol"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/commed/professor/",
+  "xconf": true
+ },
+ "cmu_f86ebda9_4228": {
+  "en": [
+   "Krongporn",
+   "Ongprasert"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/commed/professor/",
+  "xconf": true
+ },
+ "cmu_14885cf4_9160": {
+  "en": [
+   "Phunphai",
+   "Somkearti"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/commed/professor/",
+  "xconf": true
+ },
+ "cmu_10266e92_0612": {
+  "en": [
+   "Kumpol",
+   "Klunklin"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_3da962e5_6048": {
+  "en": [
+   "Weerasak",
+   "Nawarawong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_3f667f70_1350": {
+  "en": [
+   "Wachira",
+   "Mokmol"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_46308960_9120": {
+  "en": [
+   "Wachira",
+   "Jiraratsatit"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_4adbcaf7_1842": {
+  "en": [
+   "Siwaporn",
+   "Chankrachang"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_56d7b59f_8470": {
+  "en": [
+   "Siwaporn",
+   "Tiyapun"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_5a4dda7f_2742": {
+  "en": [
+   "Noparat",
+   "Benjanuwattra"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_620541ba_7056": {
+  "en": [
+   "Boonsom",
+   "Chaimongkol"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_794ff12b_6753": {
+  "en": [
+   "Sumitra",
+   "Thongprasert"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_10bfc820_5551": {
+  "en": [
+   "Phoom",
+   "Narongkiatikhun"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_184e9142_1706": {
+  "en": [
+   "Kumpol",
+   "Praisontarangkul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_c92ca186_1596": {
+  "en": [
+   "Supawan",
+   "Buranapin"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_264caa8b_4055": {
+  "en": [
+   "Natapong",
+   "Kosachunhanun"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_5e9c3a90_7926": {
+  "en": [
+   "Rujira",
+   "Rujiwetpongstorn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_6d66f8f2_5697": {
+  "en": [
+   "Karn",
+   "Pongsuwan"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_ab2ed70a_1682": {
+  "en": [
+   "Narawudt",
+   "Prasertwitayakij"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_72405672_6798": {
+  "en": [
+   "Pokpong",
+   "Piriyakhuntorn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_134e09de_0617": {
+  "en": [
+   "Kawisara",
+   "Krasaewes"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_18877db0_2686": {
+  "en": [
+   "Pattraporn",
+   "Tajarernmuang"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_1f29b19b_5823": {
+  "en": [
+   "Nutchanok",
+   "Niyatiwatchanchai"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_22274b05_7613": {
+  "en": [
+   "Wasuwit",
+   "Wanchaitanawong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_315a6450_0570": {
+  "en": [
+   "Phongsakorn",
+   "Chewedit"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_31834dde_4742": {
+  "en": [
+   "Boonsom",
+   "Wangsuekul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_39271953_5763": {
+  "en": [
+   "Rungsrit",
+   "Kanjanavanit"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_3b073aee_4973": {
+  "en": [
+   "Surachet",
+   "Vongsanim"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_3d42ed8d_7326": {
+  "en": [
+   "Srun",
+   "Kuanprasert"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_3f6aa791_8866": {
+  "en": [
+   "Narakorn",
+   "Muentabutr"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_59dcd5b6_8688": {
+  "en": [
+   "Nipawan",
+   "Waisayanand"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_6508cece_6783": {
+  "en": [
+   "Phonphimon",
+   "Ruankham"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_7475e895_9581": {
+  "en": [
+   "Chayasak",
+   "Wantaneeyawong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_184dbb3e_1761": {
+  "en": [
+   "Ekarat",
+   "Rattarittamrong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_4203cfa7_1644": {
+  "en": [
+   "Sittikul",
+   "Thipbumrung"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_50d988a5_0311": {
+  "en": [
+   "Nonthakorn",
+   "Hantrakun"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_515db598_3507": {
+  "en": [
+   "Thanika",
+   "Ketpueak"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_5580b123_5628": {
+  "en": [
+   "Somchai",
+   "Hunsakunachai"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_5f6c8eff_7394": {
+  "en": [
+   "Wanitcha",
+   "Gumtorntip"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_706bdf38_0697": {
+  "en": [
+   "Chartchai",
+   "Kwangsukstith"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_77b0281a_4941": {
+  "en": [
+   "Tasalak",
+   "Thonghong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_7a3577fe_2276": {
+  "en": [
+   "Harit",
+   "Thongwitokomarn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_c51cf4a3_4712": {
+  "en": [
+   "Nontakan",
+   "Nuntachit"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_1e7abea1_9005": {
+  "en": [
+   "Geriatrics",
+   "Jesadaporn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_21aee730_7555": {
+  "en": [
+   "Poramed",
+   "Winichakoon"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_2439ec6d_3993": {
+  "en": [
+   "Nithi",
+   "Thinrungroj"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_27823b93_7309": {
+  "en": [
+   "Napatra",
+   "Tovanabutra"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_27ffcdf7_9445": {
+  "en": [
+   "Somchai",
+   "Sukonthasarn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_37ebbc6e_4890": {
+  "en": [
+   "Khuanchai",
+   "Supparatpinyo"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_41dfc5b2_6932": {
+  "en": [
+   "Chaicharn",
+   "Pothirat"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_42fe3173_5069": {
+  "en": [
+   "Suparaporn",
+   "Wangkaew"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_44f02b75_7142": {
+  "en": [
+   "Jitsupa",
+   "Mongkolchaiarunya"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_4a25ecc7_1227": {
+  "en": [
+   "Thatthan",
+   "Suksombooncharoen"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_50259d8d_7298": {
+  "en": [
+   "Ampica",
+   "Mangklabruks"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_50a1b60d_7573": {
+  "en": [
+   "Pulmonology",
+   "Deesomchok"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_5107426b_3925": {
+  "en": [
+   "Lalita",
+   "Norasetthada"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_68099197_9285": {
+  "en": [
+   "Saikhuan",
+   "Towachiraporn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_692c3f34_3746": {
+  "en": [
+   "Dusit",
+   "Lumlertgul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": false
+ },
+ "cmu_73e0f40b_6433": {
+  "en": [
+   "Theerakorn",
+   "Theerakittikul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_76a3d388_0050": {
+  "en": [
+   "Nopdana",
+   "Sirimaharaj"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_7baab961_3072": {
+  "en": [
+   "Salin",
+   "Kiratikanon"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_7eb084c6_4551": {
+  "en": [
+   "Arintaya",
+   "Phrommintikul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_98bb14bf_1223": {
+  "en": [
+   "Pawut",
+   "Gumrai"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_b6b93b83_2138": {
+  "en": [
+   "Kitti",
+   "Thiankhaw"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_dd5f4fbd_8727": {
+  "en": [
+   "Jitnarong",
+   "Karnmanee"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/intmed/faculty-directory/",
+  "xconf": true
+ },
+ "cmu_3b89a384_8659": {
+  "en": [
+   "Songkiet",
+   "Suwansirikul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/patho/about-us/medical-teacher/",
+  "xconf": false
+ },
+ "cmu_b69214cc_4005": {
+  "en": [
+   "Pimtawan",
+   "Chanduean"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/patho/about-us/medical-teacher/",
+  "xconf": false
+ },
+ "cmu_1b39bfc3_9592": {
+  "en": [
+   "Piyahatai",
+   "Niamsup"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/patho/about-us/medical-teacher/",
+  "xconf": false
+ },
+ "cmu_38b9a60b_1555": {
+  "en": [
+   "Watchareepohn",
+   "Palangmonthip"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/patho/about-us/medical-teacher/",
+  "xconf": false
+ },
+ "cmu_3384d5b2_1854": {
+  "en": [
+   "Samreung",
+   "FIAC"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/patho/about-us/medical-teacher/",
+  "xconf": false
+ },
+ "cmu_e05ca2c7_7794": {
+  "en": [
+   "Suree",
+   "Lekawanvijit"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/patho/about-us/medical-teacher/",
+  "xconf": false
+ },
+ "cmu_6da5c7f8_0236": {
+  "en": [
+   "Tip",
+   "Pongsuvareeyakul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/patho/about-us/medical-teacher/",
+  "xconf": true
+ },
+ "cmu_5176a27a_4054": {
+  "en": [
+   "Kunlanit",
+   "Suesatsakun"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/patho/about-us/medical-teacher/",
+  "xconf": true
+ },
+ "cmu_5c980834_4127": {
+  "en": [
+   "Sayanan",
+   "Chowsilpa"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/patho/about-us/medical-teacher/",
+  "xconf": true
+ },
+ "cmu_66ad7d5e_6916": {
+  "en": [
+   "Teerada",
+   "Daroontum"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://w1.med.cmu.ac.th/patho/about-us/medical-teacher/",
+  "xconf": true
+ },
+ "cmu_1586b385_0212": {
+  "en": [
+   "Reanpang",
+   "Apichartpiyakul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_20f79854_8631": {
+  "en": [
+   "Suppatrakul",
+   "Vipudhamorn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_2ab28f21_8519": {
+  "en": [
+   "Wongmaneerung",
+   "Ditsatham"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_430ca0d3_3183": {
+  "en": [
+   "Chakrabandhu",
+   "Tanprasert"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_493a5353_6744": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_702a8ab3_9019": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_718d5b22_9408": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_726faf11_1373": {
+  "en": [
+   "Thepbanchornchai",
+   "Sandhu"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_7cad6551_2907": {
+  "en": [
+   "Uea",
+   "Varopas"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_a1cc041e_2381": {
+  "en": [
+   "Apichartpiyakul",
+   "Chansakao"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_af041856_7701": {
+  "en": [
+   "Wongpuk",
+   "Seehakulang"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_e822a81f_2507": {
+  "en": [
+   "Khangtragool",
+   "Sanmee"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_2a33f0fb_0802": {
+  "en": [
+   "Taksaudom",
+   "Phothikun"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_6a8c112d_7409": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_11e349a5_2710": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_736959b3_5384": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_124d75b2_0957": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_318baa7d_1909": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_781088ee_1913": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_14e584a8_2007": {
+  "en": [
+   "Lapisatepun",
+   "Thepbanchornchai"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_25ea859c_7717": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_353fb645_8679": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_48b06f91_1837": {
+  "en": [
+   "Ditsatham",
+   "Duangkaew"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_5f116dc8_7328": {
+  "en": [
+   "Tantraworasin",
+   "Kattipattanapong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_637d8e65_3115": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_106ced41_9390": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_6821b670_1043": {
+  "en": [
+   "Phothikun",
+   "Horsatidkul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_14ed4bcb_3500": {
+  "en": [
+   "Thiraphat",
+   "Saengmearnuparp"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://w1.med.cmu.ac.th/surgery/personnel/professor/",
+  "xconf": false
+ },
+ "cmu_76915952_6860": {
+  "en": [
+   "Areerat",
+   "Nirunsittirat"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://www.dent.cmu.ac.th/web/staff/areerat.n@cmu.ac.th",
+  "xconf": true
+ },
+ "cmu_536e17d8_4050": {
+  "en": [
+   "Kachaphol",
+   "Kuharattanachai"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://www.dent.cmu.ac.th/web/staff/kachaphol.ku@cmu.ac.th",
+  "xconf": true
+ },
+ "cmu_9cbb07c3_4732": {
+  "en": [
+   "Kathawut",
+   "Tachasuttirut"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://www.dent.cmu.ac.th/web/staff/kathawut.t@cmu.ac.th",
+  "xconf": true
+ },
+ "cmu_5cdeb3c7_1680": {
+  "en": [
+   "Kittipit",
+   "Klanliang"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://www.dent.cmu.ac.th/web/staff/kittipit.k@cmu.ac.th",
+  "xconf": true
+ },
+ "cmu_6725a9e9_9948": {
+  "en": [
+   "PATTANIN",
+   "MONTREEKACHON"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://www.dent.cmu.ac.th/web/staff/pattanin.m@cmu.ac.th",
+  "xconf": true
+ },
+ "cmu_27fbdf93_0774": {
+  "en": [
+   "Pisaisit",
+   "Chaijareenont"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://www.dent.cmu.ac.th/web/staff/pisaisit.c@cmu.ac.th",
+  "xconf": true
+ },
+ "cmu_6f40b250_2095": {
+  "en": [
+   "Sitthichai",
+   "Wanachantararak"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://www.dent.cmu.ac.th/web/staff/sitthichai.w@cmu.ac.th",
+  "xconf": true
+ },
+ "cmu_7cc71fb1_1711": {
+  "en": [
+   "Taweesak",
+   "Prasansuttiporn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://www.dent.cmu.ac.th/web/staff/taweesak.p@cmu.ac.th",
+  "xconf": true
+ },
+ "cmu_7ba4368f_9786": {
+  "en": [
+   "Worakanya",
+   "Buranaphatthana"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "P-block",
+  "url": "https://www.dent.cmu.ac.th/web/staff/worakanya.b@cmu.ac.th",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0010": {
+  "en": [
+   "Jiraphan",
+   "Ritsamdang"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0016": {
+  "en": [
+   "Chayanis",
+   "Sutcharitchan"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0017": {
+  "en": [
+   "Chaisak",
+   "Chansriniyom"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0023": {
+  "en": [
+   "Nutthada",
+   "Areepium"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0022": {
+  "en": [
+   "Natchagorn",
+   "Lumlerdkij"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0025": {
+  "en": [
+   "Dusadee",
+   "Charnvanich"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0026": {
+  "en": [
+   "Trai",
+   "Tharnpanich"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0027": {
+  "en": [
+   "Taksina",
+   "Chuanasa"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0028": {
+  "en": [
+   "Tatta",
+   "Sriboonruang"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0029": {
+  "en": [
+   "Tippawan",
+   "Siritientong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0030": {
+  "en": [
+   "Thongchai",
+   "Sooksawate"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0033": {
+  "en": [
+   "Chula",
+   "Nalinratana"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0034": {
+  "en": [
+   "Narueporn",
+   "Sutanthavibul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0035": {
+  "en": [
+   "Bodin",
+   "Tuesuwan"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0040": {
+  "en": [
+   "Pithi",
+   "Chanvorachote"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0043": {
+  "en": [
+   "Phantipa",
+   "Sakthong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0044": {
+  "en": [
+   "Phanphen",
+   "Wattanaarsakit"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0050": {
+  "en": [
+   "Chula",
+   "Towiwat"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0051": {
+  "en": [
+   "Phatsawee",
+   "Jansook"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0055": {
+  "en": [
+   "Rossarin",
+   "Tansawat"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0065": {
+  "en": [
+   "Varalee",
+   "Yodsurang"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0066": {
+  "en": [
+   "Varisa",
+   "Pongrakhananon"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0068": {
+  "en": [
+   "Walaisiri",
+   "Muangsiri"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0071": {
+  "en": [
+   "Vipaporn",
+   "Panapisal"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0074": {
+  "en": [
+   "Weerachai",
+   "Chaijamorn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0075": {
+  "en": [
+   "Chula",
+   "Boonkanokwong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0081": {
+  "en": [
+   "Sirichai",
+   "Chusiri"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0082": {
+  "en": [
+   "Chula",
+   "Palapinyo"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0090": {
+  "en": [
+   "Suree",
+   "Jianmongkol"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0092": {
+  "en": [
+   "Alisara",
+   "sujarit"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0094": {
+  "en": [
+   "Sang",
+   "Usayaporn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0095": {
+  "en": [
+   "Chula",
+   "Nakaranurack"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0021": {
+  "en": [
+   "Natapol",
+   "Pornputtapong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0052": {
+  "en": [
+   "Puree",
+   "Anantachoti"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0011": {
+  "en": [
+   "Chirasak",
+   "Kusonwiriyawong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0038": {
+  "en": [
+   "Parnnaphat",
+   "Luksameesate"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0006": {
+  "en": [
+   "Khachen",
+   "Kongpakwattana"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0004": {
+  "en": [
+   "Kitiyot",
+   "Yotsombut"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0085": {
+  "en": [
+   "Sudartip",
+   "Areecheewakul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0005": {
+  "en": [
+   "Kulwara",
+   "Meksawan"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0036": {
+  "en": [
+   "Bunchai",
+   "Chongmelaxme"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0045": {
+  "en": [
+   "Pornpen",
+   "Werawatganone"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0056": {
+  "en": [
+   "Ratchanee",
+   "Rodsiri"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0057": {
+  "en": [
+   "RUTTHAPOL",
+   "SRITHARADOL"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0064": {
+  "en": [
+   "Warangkana",
+   "Warisnoicharoen"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0070": {
+  "en": [
+   "Witchuda",
+   "Thanakijcharoenpaph"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0080": {
+  "en": [
+   "Sornkanok",
+   "Vimolmangkang"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0086": {
+  "en": [
+   "Chula",
+   "Taychakhoonavudh"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0088": {
+  "en": [
+   "Supannikar",
+   "Tawinwung"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0093": {
+  "en": [
+   "Angkana",
+   "Tantituvanont"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0002": {
+  "en": [
+   "Krittikan",
+   "Chanpaisaeng"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0003": {
+  "en": [
+   "Krittin",
+   "Bunditanukul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0008": {
+  "en": [
+   "Jittima",
+   "Chatchawalsaisin"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0013": {
+  "en": [
+   "Chula",
+   "Kitsongsermthon"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0012": {
+  "en": [
+   "Jeerapat",
+   "Doungchawee"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0014": {
+  "en": [
+   "Chatchai",
+   "Chaotham"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0015": {
+  "en": [
+   "Chanthawat",
+   "Patikorn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0018": {
+  "en": [
+   "Chankit",
+   "Puttilerpong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0020": {
+  "en": [
+   "Chidchanok",
+   "Rungruang"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0024": {
+  "en": [
+   "Nattika",
+   "Nimmano"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0031": {
+  "en": [
+   "Thitima",
+   "Wattanavijitkul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0032": {
+  "en": [
+   "Nonthalert",
+   "Lertnitikul"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0037": {
+  "en": [
+   "Chula",
+   "Sritularak"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0039": {
+  "en": [
+   "Preedakorn",
+   "Chunhacha"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0042": {
+  "en": [
+   "Pornchai",
+   "Rojsitthisak"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0047": {
+  "en": [
+   "Patanachai",
+   "Limpikirati"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0048": {
+  "en": [
+   "PANTIRA",
+   "PARINYARUX"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0049": {
+  "en": [
+   "Pasrawin",
+   "Taechawattananant"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0053": {
+  "en": [
+   "Yotsaya",
+   "Kunlamas"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0054": {
+  "en": [
+   "Romchat",
+   "Chutoprapat"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0058": {
+  "en": [
+   "Chula",
+   "Luechapudiporn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0059": {
+  "en": [
+   "Rutt",
+   "Suttisri"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0062": {
+  "en": [
+   "Worathat",
+   "Thitikornpong"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0069": {
+  "en": [
+   "Wanchai",
+   "Chongcharoen"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0073": {
+  "en": [
+   "Visarut",
+   "Buranasudja"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0076": {
+  "en": [
+   "Vudhiporn",
+   "Limprasutr"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0079": {
+  "en": [
+   "Somratai",
+   "Vadcharavivad"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": false
+ },
+ "cu_pharm_wave16_0084": {
+  "en": [
+   "Suyanee",
+   "Pongthananikorn"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "cu_pharm_wave16_0087": {
+  "en": [
+   "Suntaree",
+   "Watcharadamrongkun"
+  ],
+  "conf": "medium",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://www.pharm.chula.ac.th/?p=195",
+  "xconf": true
+ },
+ "ku_sci_wave13_b_0060": {
+  "en": [
+   "Printrakoon",
+   "Milieu"
+  ],
+  "conf": "high",
+  "strict": false,
+  "method": "L-block",
+  "url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%8a%e0%b8%b5%e0%b8%a7%e0%b8%b2%e0%b8%a3%e0%b8%b1%e0%b8%95%e0%b8%99%e0%b9%8c-%e0%b8%9e%e0%b8%a3%e0%b8%b4%e0%b8%99%e0%b8%97%e0%b8%a3%e0%b8%b2%e0%b8%81/"
+ }
+}

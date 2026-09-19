@@ -6,15 +6,15 @@ import { GraduationCap } from "lucide-react";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="border-t border-[var(--theme-border)] bg-[var(--theme-card-subtle)] mt-20 text-[var(--theme-text-muted)] text-xs">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <footer className="site-footer mt-20 border-t border-[var(--theme-border)] bg-[var(--theme-card-subtle)] text-xs text-[var(--theme-text-muted)]">
+      <div className="mx-auto max-w-[1440px] px-4 py-10 sm:px-6 lg:px-8 lg:py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-3 md:col-span-2">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-[var(--theme-primary)] flex items-center justify-center text-[var(--theme-primary-contrast)] shadow-xs">
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)]">
                 <GraduationCap className="w-4 h-4" />
               </div>
-              <span className="font-extrabold text-base text-[var(--theme-primary)]">Thai EduCenter</span>
+              <span className="text-base font-extrabold text-[var(--theme-primary)]">Thai EduCenter</span>
             </div>
             <p className="text-[var(--theme-text-muted)] leading-relaxed max-w-md">
               ศูนย์รวมข้อมูลดัชนีหลักสูตรการศึกษาและทำเนียบคณาจารย์ที่ปรึกษาวิทยานิพนธ์จากมหาวิทยาลัยชั้นนำในประเทศไทย พัฒนาขึ้นเพื่อช่วยให้นักศึกษาค้นพบเส้นทางวิชาการและงานวิจัยที่ตรงเป้าหมายที่สุด

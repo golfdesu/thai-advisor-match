@@ -1,0 +1,202 @@
+{
+  "mfu_comp_links": [
+    {
+      "title": "สาขาวิชาเทคโนโลยีการแปลงเป็นดิจิทัล",
+      "link": "https://programme.mfu.ac.th/master-of-science-program-in-digital-transformation-technology.html"
+    },
+    {
+      "title": "สาขาวิชาวิศวกรรมคอมพิวเตอร์",
+      "link": "https://programme.mfu.ac.th/master-of-engineering-program-in-computer-engineering.html"
+    }
+  ],
+  "mfu_attr": {
+    "https://programme.mfu.ac.th/master-of-science-program-in-digital-transformation-technology.html": {
+      "status": 200,
+      "bytes": 39713,
+      "school_ctx": " หลักสูตรระยะสั้น หลักสูตรบัณฑิตพันธุ์ใหม่ Foreign Students สำนักวิชา แนะนำหลักสูตร รับสมัครบุคคลเข้าศึกษา ปฏิทินการศึกษา หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาเทคโนโลยีกา",
+      "is_it": true
+    },
+    "https://programme.mfu.ac.th/master-of-engineering-program-in-computer-engineering.html": {
+      "status": 200,
+      "bytes": 36420,
+      "school_ctx": " หลักสูตรระยะสั้น หลักสูตรบัณฑิตพันธุ์ใหม่ Foreign Students สำนักวิชา แนะนำหลักสูตร รับสมัครบุคคลเข้าศึกษา ปฏิทินการศึกษา หลักสูตรวิศวกรรมศาสตรมหาบัณฑิต สาขาวิชาวิศวกรรม",
+      "is_it": false
+    }
+  },
+  "swu_grad_nlinks": 193,
+  "swu_grad_plinks": [
+    {
+      "title": "&#xE25;&#xE07;&#xE17;&#xE30;&#xE40;&#xE1A;&#xE35;&#xE22;&#xE19;&#xE40;&#xE23;&#xE35;&#xE22;&#xE19;&#xE02;&#xE49;&#xE32;&#xE21;&#xE2A;&#xE16;",
+      "link": "https://graduate.mahidol.ac.th/cgau/courses.php"
+    },
+    {
+      "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE23;&#xE30;&#xE22;&#xE30;&#xE2A;&#xE31;&#xE49;&#xE19;",
+      "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+    },
+    {
+      "title": "Special Education and Care Program",
+      "link": "http://grad.swu.ac.th/TH/Contents/Special%20Education%20and%20Care%20Program"
+    },
+    {
+      "title": "&#xE2A;&#xE21;&#xE31;&#xE04;&#xE23;&#xE40;&#xE23;&#xE35;&#xE22;&#xE19;",
+      "link": "http://admission.swu.ac.th/"
+    },
+    {
+      "title": "",
+      "link": "http://grad.swu.ac.th/TH/RedirectPage/LANDING%20PAGE/Index/538?url=https%3A%2F%2Fadmission.swu.ac.th%2F"
+    },
+    {
+      "title": "",
+      "link": "http://grad.swu.ac.th/TH/RedirectPage/LANDING%20PAGE/Index/144?url=https%3A%2F%2Fadmission.swu.ac.th"
+    },
+    {
+      "title": "&#xE23;&#xE31;&#xE1A;&#xE19;&#xE34;&#xE2A;&#xE34;&#xE15;&#xE43;&#xE2B;&#xE21;&#xE48;",
+      "link": "http://grad.swu.ac.th/TH/RedirectPage/LANDING%20PAGE/Index/144?url=https%3A%2F%2Fadmission.swu.ac.th"
+    },
+    {
+      "title": "",
+      "link": "http://grad.swu.ac.th/TH/RedirectPage/LANDING%20PAGE/Index/174?url=http%3A%2F%2Fwww.curriculumandlearning.com%2Findex.php%3Fpage%3DHome%26language%3Dth"
+    },
+    {
+      "title": "&#xE28;&#xE39;&#xE19;&#xE22;&#xE4C;&#xE1C;&#xE39;&#xE49;&#xE19;&#xE33;&#xE19;&#xE27;&#xE31;&#xE15;&#xE01;&#xE23;&#xE23;&#xE21;&#xE2B;&#xE25;",
+      "link": "http://grad.swu.ac.th/TH/RedirectPage/LANDING%20PAGE/Index/174?url=http%3A%2F%2Fwww.curriculumandlearning.com%2Findex.php%3Fpage%3DHome%26language%3Dth"
+    },
+    {
+      "title": "บัณฑิตวิทยาลัย มศว ขอแสดงความยินดีกับ ผศ.ดร.ปริชัย ดาวอุดม ในโอกา...",
+      "link": "http://grad.swu.ac.th/TH/Posts/%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C/Details/256"
+    },
+    {
+      "title": "ข้อปฏิบัติการจอดรถสำหรับนิสิตระดับบัณฑิตศึกษา 🎓✨",
+      "link": "http://grad.swu.ac.th/TH/Posts/%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C/Details/202"
+    },
+    {
+      "title": "บัณฑิตวิทยาลัย ร่วมงานวันศาสตราจารย์ ดร.สาโรช บัวศรี และวันสถาปนา...",
+      "link": "http://grad.swu.ac.th/TH/Posts/%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Details/259"
+    },
+    {
+      "title": "บัณฑิตวิทยาลัย มศว จัดโครงการส่งเสริมสัมพันธภาพและความผูกพันกับอง...",
+      "link": "http://grad.swu.ac.th/TH/Posts/%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Details/258"
+    },
+    {
+      "title": "บัณฑิตวิทยาลัย แสดงความยินดีเนื่องในโอกาส วันสถาปนาวิทยาลัยนานาชา...",
+      "link": "http://grad.swu.ac.th/TH/Posts/%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Details/257"
+    },
+    {
+      "title": "บัณฑิตวิทยาลัย มศว ร่วมแสดงความยินดีเนื่องในโอกาสวันสถาปนาสถาบันว...",
+      "link": "http://grad.swu.ac.th/TH/Posts/%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%9A%E0%B8%B1%E0%B8%93%E0%B8%91%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2/Details/251"
+    },
+    {
+      "title": "&#xE25;&#xE07;&#xE17;&#xE30;&#xE40;&#xE1A;&#xE35;&#xE22;&#xE19;&#xE40;&#xE23;&#xE35;&#xE22;&#xE19;&#xE02;&#xE49;&#xE32;&#xE21;&#xE2A;&#xE16;",
+      "link": "https://graduate.mahidol.ac.th/cgau/courses.php"
+    },
+    {
+      "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE23;&#xE30;&#xE22;&#xE30;&#xE2A;&#xE31;&#xE49;&#xE19;",
+      "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99"
+    },
+    {
+      "title": "Special Education and Care Program",
+      "link": "http://grad.swu.ac.th/TH/Contents/Special%20Education%20and%20Care%20Program"
+    },
+    {
+      "title": "&#xE01;&#xE32;&#xE23;&#xE2A;&#xE21;&#xE31;&#xE04;&#xE23;&#xE40;&#xE23;&#xE35;&#xE22;&#xE19;",
+      "link": "https://admission.swu.ac.th/admissions2/"
+    }
+  ],
+  "swu_grad_pages": [
+    {
+      "link": "https://graduate.mahidol.ac.th/cgau/courses.php",
+      "title": "&#xE25;&#xE07;&#xE17;&#xE30;&#xE40;&#xE1A;&#xE35;&#xE22;&#xE19;&#xE40;&#xE23;&#xE35;&#xE22;&#xE19;&#xE02;&#xE49;&#xE32;&#xE21;&#xE2A;&#xE16;",
+      "status": 200,
+      "bytes": 79654,
+      "has_cosci": false,
+      "has_master": false,
+      "has_doc": false
+    },
+    {
+      "link": "http://grad.swu.ac.th/TH/Courses/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%A3%E0%B8%B0%E0%B8%A2%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99",
+      "title": "&#xE2B;&#xE25;&#xE31;&#xE01;&#xE2A;&#xE39;&#xE15;&#xE23;&#xE23;&#xE30;&#xE22;&#xE30;&#xE2A;&#xE31;&#xE49;&#xE19;",
+      "status": 200,
+      "bytes": 177523,
+      "has_cosci": false,
+      "has_master": false,
+      "has_doc": false
+    },
+    {
+      "link": "http://grad.swu.ac.th/TH/Contents/Special%20Education%20and%20Care%20Program",
+      "title": "Special Education and Care Program",
+      "status": 200,
+      "bytes": 78414,
+      "has_cosci": false,
+      "has_master": false,
+      "has_doc": false
+    },
+    {
+      "link": "http://admission.swu.ac.th/",
+      "title": "&#xE2A;&#xE21;&#xE31;&#xE04;&#xE23;&#xE40;&#xE23;&#xE35;&#xE22;&#xE19;",
+      "status": -1,
+      "bytes": 0,
+      "has_cosci": false,
+      "has_master": false,
+      "has_doc": false
+    },
+    {
+      "link": "http://grad.swu.ac.th/TH/RedirectPage/LANDING%20PAGE/Index/538?url=https%3A%2F%2Fadmission.swu.ac.th%2F",
+      "title": "",
+      "status": -1,
+      "bytes": 0,
+      "has_cosci": false,
+      "has_master": false,
+      "has_doc": false
+    },
+    {
+      "link": "http://grad.swu.ac.th/TH/RedirectPage/LANDING%20PAGE/Index/144?url=https%3A%2F%2Fadmission.swu.ac.th",
+      "title": "",
+      "status": -1,
+      "bytes": 0,
+      "has_cosci": false,
+      "has_master": false,
+      "has_doc": false
+    },
+    {
+      "link": "http://grad.swu.ac.th/TH/RedirectPage/LANDING%20PAGE/Index/144?url=https%3A%2F%2Fadmission.swu.ac.th",
+      "title": "&#xE23;&#xE31;&#xE1A;&#xE19;&#xE34;&#xE2A;&#xE34;&#xE15;&#xE43;&#xE2B;&#xE21;&#xE48;",
+      "status": -1,
+      "bytes": 0,
+      "has_cosci": false,
+      "has_master": false,
+      "has_doc": false
+    },
+    {
+      "link": "http://grad.swu.ac.th/TH/RedirectPage/LANDING%20PAGE/Index/174?url=http%3A%2F%2Fwww.curriculumandlearning.com%2Findex.php%3Fpage%3DHome%26language%3Dth",
+      "title": "",
+      "status": 200,
+      "bytes": 71322,
+      "has_cosci": false,
+      "has_master": false,
+      "has_doc": false
+    },
+    {
+      "link": "http://grad.swu.ac.th/TH/RedirectPage/LANDING%20PAGE/Index/174?url=http%3A%2F%2Fwww.curriculumandlearning.com%2Findex.php%3Fpage%3DHome%26language%3Dth",
+      "title": "&#xE28;&#xE39;&#xE19;&#xE22;&#xE4C;&#xE1C;&#xE39;&#xE49;&#xE19;&#xE33;&#xE19;&#xE27;&#xE31;&#xE15;&#xE01;&#xE23;&#xE23;&#xE21;&#xE2B;&#xE25;",
+      "status": 200,
+      "bytes": 71322,
+      "has_cosci": false,
+      "has_master": false,
+      "has_doc": false
+    },
+    {
+      "link": "http://grad.swu.ac.th/TH/Posts/%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C/Details/256",
+      "title": "บัณฑิตวิทยาลัย มศว ขอแสดงความยินดีกับ ผศ.ดร.ปริชัย ดาวอุดม ในโอกา...",
+      "status": 200,
+      "bytes": 87910,
+      "has_cosci": false,
+      "has_master": false,
+      "has_doc": true
+    }
+  ],
+  "swu_main": {
+    "status": -1,
+    "bytes": 0,
+    "has_cosci_grad": false
+  }
+}

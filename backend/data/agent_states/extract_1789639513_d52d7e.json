@@ -1,0 +1,614 @@
+{
+  "session_id": "extract_1789639513_d52d7e",
+  "target_university_th": "มหาวิทยาลัยพะเยา",
+  "target_university_en": "University of Phayao",
+  "target_faculty_th": "คณะแพทยศาสตร์",
+  "target_faculty_en": "School of Medicine",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://medicine.up.ac.th/th/Personnel.aspx",
+    "https://medicine.up.ac.th/th/Personnel2.aspx",
+    "https://www.up.ac.th/"
+  ],
+  "failed_urls": [
+    "https://med.up.ac.th/"
+  ],
+  "faculties": {
+    "university_schoolofme_thelingsok_001": {
+      "id": "university_schoolofme_thelingsok_001",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชากุมารเวชศาสตร์",
+      "department_th": "ภาควิชากุมารเวชศาสตร์",
+      "academic_title": "พญ.",
+      "academic_title_th": "พญ.",
+      "first_name": "Saraswadee",
+      "last_name": "TheLingsok",
+      "full_name": "Saraswadee TheLingsok",
+      "full_name_th": "พญ. พญ.สรัสวดี เถลิงศก",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2564 วุฒิบัตรเพื่อแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม อนุสาขากุมารเวชศาสตร์โรคหัวใจ คณะแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2559 วุฒิบัตรเพื่อแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม สาขากุมารเวชศาสตร์ คณะแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2557 ประกาศนียบัตรบัณฑิตชั้นสูง วิทยาศาสตร์การแพทย์คลินิก (กุมารเวชศาสตร์) มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2553 แพทยศาสตรบัณฑิต คณะแพทยศาสตร์ มหาวิทยาลัยนเรศวร"
+      ],
+      "research_interests": [
+        "กุมารเวชศาสตร์",
+        "กุมารเวชศาสตร์โรคหัวใจ"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_kantasa_002": {
+      "id": "university_schoolofme_kantasa_002",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชากุมารเวชศาสตร์",
+      "department_th": "ภาควิชากุมารเวชศาสตร์",
+      "academic_title": "พญ.",
+      "academic_title_th": "พญ.",
+      "first_name": "Phenphan",
+      "last_name": "Kantasa",
+      "full_name": "Phenphan Kantasa",
+      "full_name_th": "พญ. พญ.เพ็ญพรรณ กัณฑะษา",
+      "role": "อาจารย์ประจำ",
+      "email": "phenphan.ka@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2566 วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม (กุมารเวชศาสตร์) มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2565 ประกาศนียบัตรบัณฑิตชั้นสูง สาขาวิทยาศาสตร์การแพทย์คลินิก มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2560 แพทยศาสตรบัณฑิต มหาวิทยาลัยพะเยา",
+        "พ.ศ. 2552 วิทยาศาสตรมหาบัณฑิต สาขาวิชาสรีรวิทยา คณะวิทยาศาสตร์การแพทย์ มหาวิทยาลัยนเรศวร",
+        "พ.ศ. 2548 วิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีหัวใจและทรวงอก คณะสหเวชศาสตร์ มหาวิทยาลัยนเรศวร"
+      ],
+      "research_interests": [
+        "กุมารเวชศาสตร์",
+        "สรีรวิทยา"
+      ],
+      "featured_publications": [
+        "Anti-cancer and anti-inflammatory activities of curcumin and curcumin analogs in human hepatocellular carcinoma cell (HepG2)"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_vivattanaseth_003": {
+      "id": "university_schoolofme_vivattanaseth_003",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชาจักษุวิทยา",
+      "department_th": "ภาควิชาจักษุวิทยา",
+      "academic_title": "พญ.",
+      "academic_title_th": "พญ.",
+      "first_name": "Chayanee",
+      "last_name": "Vivattanaseth",
+      "full_name": "Chayanee Vivattanaseth",
+      "full_name_th": "พญ. พญ.ชญานี วิวัฒนเศรษฐ์",
+      "role": "อาจารย์ประจำ",
+      "email": "inkky_bio@hotmail.com",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2561 วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม สาขาจักษุวิทยา มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2560 ประกาศนียบัตรบัณฑิตวิทยาศาสตร์การแพทย์คลินิก สาขาจักษุวิทยา มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2555 ปริญญาแพทยศาสตร์บัณฑิต มหาวิทยาลัยเชียงใหม่"
+      ],
+      "research_interests": [
+        "จักษุวิทยา",
+        "Optic Neuritis"
+      ],
+      "featured_publications": [
+        "Linda Hansapinyo, Chayanee Vivattanaseth 2018. Clinical Characteristics, Treatment Outcomes and Predictive Factors in Optic Neuritis. Open Ophthalmol J. 2018 Aug 31;12:247-255."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_srisomboon_004": {
+      "id": "university_schoolofme_srisomboon_004",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "คณะแพทยศาสตร์",
+      "department_th": "คณะแพทยศาสตร์",
+      "academic_title": "นพ.",
+      "academic_title_th": "นพ.",
+      "first_name": "Jirawong",
+      "last_name": "Srisomboon",
+      "full_name": "Jirawong Srisomboon",
+      "full_name_th": "นพ. นพ.จิรวงศ์ ศรีสมบูรณ์",
+      "role": "อาจารย์ประจำ",
+      "email": "jirawong.sr@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2557 แพทยศาสตรบัณฑิต สาขาวิชาจิตเวชศาสตร์, Our Lady of Fatima University, Philippines"
+      ],
+      "research_interests": [
+        "จิตเวชศาสตร์"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_boonyathee_005": {
+      "id": "university_schoolofme_boonyathee_005",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชาเวชศาสตร์ครอบครัวและชุมชน",
+      "department_th": "ภาควิชาเวชศาสตร์ครอบครัวและชุมชน",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Sorawit",
+      "last_name": "Boonyathee",
+      "full_name": "Sorawit Boonyathee",
+      "full_name_th": "ผศ. นพ.สรวิศ บุญญฐี",
+      "role": "อาจารย์ประจำ",
+      "email": "sorawit.bo@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2564 ศึกษาศาสตรบัณฑิต (การวัดและการประเมินผลการศึกษา) มหาวิทยาลัยสุโขทัยธรรมาธิราช",
+        "พ.ศ. 2560 วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม (เวชศาสตร์ครอบครัว) มหาวิทยาลัยมหิดล",
+        "พ.ศ. 2556 แพทยศาสตรบัณฑิต มหาวิทยาลัยเชียงใหม่"
+      ],
+      "research_interests": [
+        "เวชศาสตร์ครอบครัว",
+        "Public Health",
+        "Elderly Health",
+        "Ergonomic Risk Factors"
+      ],
+      "featured_publications": [
+        "Self-care Behaviors and Lipid Profiles among an Ethnic Minority Adult Population in Thai Rural Communities. The open public health journal, 16 (2023).",
+        "Health literacy, self-efficacy, self-care behaviors, and glycemic control among older adults with type 2 diabetes mellitus: a cross-sectional study in Thai communities. BMC Geriatrics, 23, Article number: 297 (2023).",
+        "Ergonomic Risk Factors for Musculoskeletal Disorders among Ethnic Lychee–Longan Harvesting Workers in Northern Thailand. Healthcare, 10(12), 2446 (2022).",
+        "COVID-19-related knowledge influences mental health, self-care behaviors, and quality of life among elderly with non-communicable diseases in Northern Thailand. Frontiers in Public Health, 10 (2022)."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_kloypan_006": {
+      "id": "university_schoolofme_kloypan_006",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "สาขาวิชาแพทยศาสตร์",
+      "department_th": "สาขาวิชาแพทยศาสตร์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Chiraphat",
+      "last_name": "Kloypan",
+      "full_name": "Chiraphat Kloypan",
+      "full_name_th": "ผศ.ดร. ทนพ.จิรพัฒน์ คล้อยปาน",
+      "role": "อาจารย์ประจำ",
+      "email": "chiraphat.kl@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2564 Research fellow Institute of Transfusion Medicine, Charité – Universitätsmedizin Berlin, Berlin, Germany",
+        "พ.ศ. 2562 Dr. rer. medic. Institute of Transfusion Medicine, Charité – Universitätsmedizin Berlin, Berlin, Germany",
+        "พ.ศ. 2557 M.Sc. (Medical Biochemistry) Faculty of Medicine, Chulalongkorn Univerity, Thailand",
+        "พ.ศ. 2554 B.Sc. (Medical Technology), Honor awarded School of Allied Health Sciences, Naresuan University Phayao, Thailand"
+      ],
+      "research_interests": [
+        "Transfusion Medicine",
+        "Medical Biochemistry",
+        "Pharmacogenomics",
+        "Precision Medicine"
+      ],
+      "featured_publications": [
+        "Tiwattanon, K., et al. (2022). Implementation of HLA-B*15:02 Genotyping as Standard-of-Care for Reducing Carbamazepine/ Oxcarbazepine Induced Cutaneous Adverse Drug Reactions in Thailand. Frontiers in Pharmacology, 13(867490), 1–10.",
+        "Koomdee, N., Kloypan, C., et al. (2022). Evolution of HLA-B Pharmacogenomics and the Importance of PGx Data Integration in Health Care System: A 10 Years Retrospective Study in Thailand. Frontiers in Pharmacology, 13.",
+        "Kloypan, C., et al. (2021). A comprehensive review of hla and severe cutaneous adverse drug reactions: Implication for clinical pharmacogenomics and precision medicine. Pharmaceuticals, 14(11)."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_fac_007_007": {
+      "id": "university_schoolofme_fac_007_007",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "",
+      "last_name": "",
+      "full_name": "",
+      "full_name_th": "อ. แพทย์หญิงวรัทยา ตันติวรวิทย์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "นิติเวชศาสตร์",
+        "พยาธิวิทยา"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_munkong_008": {
+      "id": "university_schoolofme_munkong_008",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชาพยาธิวิทยา",
+      "department_th": "ภาควิชาพยาธิวิทยา",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Narongsuk",
+      "last_name": "Munkong",
+      "full_name": "Narongsuk Munkong",
+      "full_name_th": "ผศ.ดร. ณรงค์ศักดิ์ มั่นคง",
+      "role": "อาจารย์ประจำ",
+      "email": "jittmunkong@gmail.com",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปรัชญาดุษฎีบัณฑิต (วิทยาศาสตร์การแพทย์) มหาวิทยาลัยธรรมศาสตร์",
+        "วิทยาศาสตรบัณฑิต (วิทยาศาสตร์การแพทย์) เกียรตินิยมอันดับ 1 มหาวิทยาลัยนเรศวร"
+      ],
+      "research_interests": [
+        "Pharmacogenomics",
+        "Precision Medicine",
+        "Hepatoprotective effects",
+        "Metabolic diseases"
+      ],
+      "featured_publications": [
+        "Hepatoprotective effects of Elaeagnus latifolia fruit extract against acetaminophen-induced hepatotoxicity in mice : Mechanistic insights",
+        "Red rice bran extract alleviates high-fat diet-induced non-alcoholic fatty liver disease and dyslipidemia in mice"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_praphasawat_009": {
+      "id": "university_schoolofme_praphasawat_009",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชาพยาธิวิทยา คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาพยาธิวิทยา คณะแพทยศาสตร์",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Ratsada",
+      "last_name": "Praphasawat",
+      "full_name": "Ratsada Praphasawat",
+      "full_name_th": "รศ.ดร. รัษฎา ประภาสะวัต",
+      "role": "อาจารย์ประจำ",
+      "email": "ratsada.pr@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2563 Doctor of Phylosophy (Medical Science) Oita University Japan",
+        "พ.ศ. 2553 วิทยาศาสตรมหาบัณฑิต สาขาพยาธิชีววิทยา (หลักสูตรนานชาติ) มหาวิทยาลัยมหิดล",
+        "พ.ศ. 2550 วิทยาศาสตรบัณฑิต (เกียรตินิยมอันดับ 1) สาขาจุลชีวิทยา มหาวิทยาลัยนเรศวร"
+      ],
+      "research_interests": [],
+      "featured_publications": [
+        "Review article : Cancer Signaling Pathway and Anti-Cancer Mechanism of Cannabidiol. The Journal of the Medical Association of Thailand, 2023.",
+        "Restoring Ampicillin Sensitivity in Multidrug-Resistant Escherichia coli Following Treatment in Combination with Coffee Pulp Extracts. Journal of Microbiology and Biotechnology, 2023.",
+        "Anticancer and Antimutagenic Properties of Pogonatherum paniceum on Colorectal Cancer Cells. World Journal of Oncology, 2023.",
+        "Dinactin: A New Antitumor Antibiotic with Cell Cycle Progression and Cancer Stemness Inhibiting Activities in Lung Cancer. Antibiotics, 2022.",
+        "DUSP4 is involved in the enhanced proliferation and survival of DUSP4-overexpressing cancer cells. Biochemical and Biophysical Research Communications, 2020."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_sooksaen_010": {
+      "id": "university_schoolofme_sooksaen_010",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชาพยาธิวิทยา คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาพยาธิวิทยา คณะแพทยศาสตร์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Pornchai",
+      "last_name": "Sooksaen",
+      "full_name": "Pornchai Sooksaen",
+      "full_name_th": "อ. นายแพทย์พรชัย สุขแสน",
+      "role": "อาจารย์ประจำ",
+      "email": "pornchai.so@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2561 แพทยศาสตรบัณฑิต มหาวิทยาลัยมหิดล จังหวัดกรุงเทพฯ",
+        "พ.ศ. 2550 วิทยาศาสตรมหาบัณฑิต (กายวิภาคศาสตร์) มหาวิทยาลัยนเรศวร จังหวัดพิษณุโลก",
+        "พ.ศ. 2548 วิทยาศาสตรบัณฑิต (รังสีเทคนิค) เกียรตินิยมอันดับ 2 มหาวิทยาลัยเชียงใหม่ จังหวัดเชียงใหม่"
+      ],
+      "research_interests": [
+        "Antimutagenicity",
+        "Antioxidative DNA damage properties",
+        "Anticancer and Antimutagenic Properties",
+        "Butea Superba"
+      ],
+      "featured_publications": [
+        "Antimutagenicity and Antioxidative DNA damage properties of Oligemeric Proantho cyanidins (OPCs) from Thai grape seeds in TK6 cells (2011)",
+        "Anticancer and Antimutagenic Properties of Pogonatherum paniceum on Colorectal Cancer Cells (2023)",
+        "Butea Superba (Roxb.) improves penile erection in diabetic rats (2012)"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_nabheerong_011": {
+      "id": "university_schoolofme_nabheerong_011",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชารังสีวิทยา",
+      "department_th": "ภาควิชารังสีวิทยา",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Pennipat",
+      "last_name": "Nabheerong",
+      "full_name": "Pennipat Nabheerong",
+      "full_name_th": "ผศ. พญ.เพ็ญนิภัท นภีรงค์",
+      "role": "อาจารย์ประจำ",
+      "email": "pennipat.na@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2558 วุฒิบัตรแสดงความรู้ความชำนาญ ในการประกอบวิชาชีพเวชกรรม (รังสีวิทยาวินิจฉัย) มหาวิทยาลัยเชียงใหม่ จังหวัดเชียงใหม่",
+        "พ.ศ. 2557 ประกาศนียบัตรบัณฑิตชั้นสูง สาขาวิทยาศาสตร์การแพทย์คลินิก (รังสีวิทยาวินิจฉัย) มหาวิทยาลัยเชียงใหม่ จังหวัดเชียงใหม่",
+        "พ.ศ. 2552 แพทยศาสตรบัณฑิต มหาวิทยาลัยนเรศวร จังหวัดพิษณุโลก"
+      ],
+      "research_interests": [
+        "รังสีวิทยาวินิจฉัย",
+        "Diagnostic accuracy of Doppler twinkling artifact",
+        "Age estimation"
+      ],
+      "featured_publications": [
+        "Age estimation by hand and wrist radiographs using the Greulich and Pyle method in a southern Thailand population (2024)",
+        "Diagnostic accuracy of Doppler twinkling artifact for identifying urolithiasis: a systematic review and meta-analysis (2023)"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_jeamtrakool_012": {
+      "id": "university_schoolofme_jeamtrakool_012",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชารังสีวิทยา",
+      "department_th": "ภาควิชารังสีวิทยา",
+      "academic_title": "นายแพทย์",
+      "academic_title_th": "นายแพทย์",
+      "first_name": "Suttiwat",
+      "last_name": "Jeamtrakool",
+      "full_name": "Suttiwat Jeamtrakool",
+      "full_name_th": "นายแพทย์ นายแพทย์สุทธิวัฒน์ เจียมตระกูล",
+      "role": "อาจารย์ประจำ",
+      "email": "suttiwat.je@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2564 วุฒิบัตรแสดงความรู้ความชำนาญ ในการประกอบวิชาชีพเวชกรรม (รังสีวิทยาวินิจฉัย) มหาวิทยาลัยเชียงใหม่ จังหวัดเชียงใหม่",
+        "พ.ศ. 2563 ประกาศนียบัตรบัณฑิตชั้นสูง สาขาวิทยาศาสตร์การแพทย์คลินิก มหาวิทยาลัยเชียงใหม่ จังหวัดเชียงใหม่",
+        "พ.ศ. 2557 แพทยศาสตรบัณฑิต มหาวิทยาลัยเชียงใหม่ จังหวัดเชียงใหม่"
+      ],
+      "research_interests": [
+        "รังสีวิทยาวินิจฉัย",
+        "Age estimation by hand and wrist radiographs"
+      ],
+      "featured_publications": [
+        "Age estimation by hand and wrist radiographs using the Greulich and Pyle method in a southern Thailand population (2024)"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_ngiamphaisan_013": {
+      "id": "university_schoolofme_ngiamphaisan_013",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "สาขาวิชาแพทยศาสตร์",
+      "department_th": "สาขาวิชาแพทยศาสตร์",
+      "academic_title": "นายแพทย์",
+      "academic_title_th": "นายแพทย์",
+      "first_name": "Warunyou",
+      "last_name": "Ngiamphaisan",
+      "full_name": "Warunyou Ngiamphaisan",
+      "full_name_th": "นายแพทย์ นายแพทย์วรัญญู เหงี่ยมไพศาล",
+      "role": "อาจารย์ประจำ",
+      "email": "warunyou.ng@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2563 วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม สาขา วิสัญญีวิทยา คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี มหาวิทยาลัยมหิดล",
+        "พ.ศ. 2557 แพทยศาสตรบัณฑิต คณะแพทยศาสตร์ โรงพยาบาลรามาธิบดี มหาวิทยาลัยมหิดล"
+      ],
+      "research_interests": [
+        "วิสัญญีวิทยา"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_srichairatanako_014": {
+      "id": "university_schoolofme_srichairatanako_014",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชาวิสัญญีวิทยา คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาวิสัญญีวิทยา คณะแพทยศาสตร์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Pattaranee",
+      "last_name": "Srichairatanakool",
+      "full_name": "Pattaranee Srichairatanakool",
+      "full_name_th": "อ. แพทย์หญิงภัทรณี ศรีชัยรัตนกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "bumbim_babe@hotmail.com",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2562-2564 ประกาศนียบัตรบัณฑิตชั้นสูงทางวิทยาศาสตร์การแพทย์คลินิก สาขาวิสัญญีวิทยา คณะแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2562-2564 วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม (วิสัญญีวิทยา) มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2559-2561 ประกาศนียบัตรบัณฑิตชั้นสูงทางวิทยาศาสตร์การแพทย์คลินิก สาขาเวชศาสตร์ครอบครัว คณะแพทยศาสตร์ มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2559-2561 วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม (เวชศาสตร์ครอบครัว) มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2553-2558 แพทยศาสตรบัณฑิต มหาวิทยาลัยเชียงใหม่"
+      ],
+      "research_interests": [
+        "วิสัญญีวิทยา",
+        "เวชศาสตร์ครอบครัว"
+      ],
+      "featured_publications": [
+        "Srichairatanakool P., Samerchau A. (2021). Comparison of the external and the radiological landmark techniques for determining the optimal depth of a right internal jugular venous catheterization.",
+        "Srichairatanakool P., Yingchankul N. (2018). Prevalence and risk factors of falls of elders who visited the out-patient department in Maharaj Nakorn Chiang Mai Hospital."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_mala_015": {
+      "id": "university_schoolofme_mala_015",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "ภาควิชาวิสัญญีวิทยา คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาวิสัญญีวิทยา คณะแพทยศาสตร์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Onanong",
+      "last_name": "Mala",
+      "full_name": "Onanong Mala",
+      "full_name_th": "อ. แพทย์หญิงอรอนงค์ มาลา",
+      "role": "อาจารย์ประจำ",
+      "email": "onanong.ma@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2566 วุฒิบัตรแสดงความรู้ความชำนาญในการประกอบวิชาชีพเวชกรรม สาขาวิสัญญีวิทยา มหาวิทยาลัยเชียงใหม่",
+        "พ.ศ. 2559 แพทยศาสตรบัณฑิต มหาวิทยาลัยขอนแก่น"
+      ],
+      "research_interests": [
+        "วิสัญญีวิทยา"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_nootor_016": {
+      "id": "university_schoolofme_nootor_016",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "คณะแพทยศาสตร์",
+      "department_th": "คณะแพทยศาสตร์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Vanisra",
+      "last_name": "Nootor",
+      "full_name": "Vanisra Nootor",
+      "full_name_th": "อ. นางสาววนิศรา หนูตอ",
+      "role": "อาจารย์ประจำ",
+      "email": "vanisara.no@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปริญญาตรี : นิติศาสตรบัณฑิต สาขาวิชากฎหมาย คณะนิติศาสตร์ มหาวิทยาลัยพะเยา",
+        "ปริญญาโท : คณะนิติศาสตรมหาบัณฑิต คณะนิติศาสตร์ มหาวิทยาลัยเชียงใหม่"
+      ],
+      "research_interests": [],
+      "featured_publications": [
+        "วนิศรา หนูตอ. (2563,20 พฤศจิกายน). กลืนไม่เข้าคายไม่ออก : สภาพปัญหาและงานไม่มั่นคงของเจ้าหน้าที่ดับไฟ. หนังสือประมวลบทความในการประชุมวิชาการนิติสังคมศาสตร์ระดับชาติ ครั้งที่ 1. มหาวิทยาลัยเชียงใหม่."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofme_intharawichit_017": {
+      "id": "university_schoolofme_intharawichit_017",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Medicine",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department": "คณะแพทยศาสตร์",
+      "department_th": "คณะแพทยศาสตร์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Nutthariya",
+      "last_name": "Intharawichit",
+      "full_name": "Nutthariya Intharawichit",
+      "full_name_th": "อ. นางสาวนัฐทริยา อินทรวิจิตร",
+      "role": "อาจารย์ประจำ",
+      "email": "nutthariya.in@up.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "พ.ศ. 2558 ปริญญาตรี : บริหารธุรกิจบัณฑิต สาขาการท่องเที่ยว มหาวิทยาลัยพะเยา",
+        "พ.ศ. 2565 ปริญญาโท : ศิลปศาสตรมหาบัณฑิต สาขาการจัดการโรงแรมและการท่องเที่ยว มหาวิทยาลัยพะเยา"
+      ],
+      "research_interests": [],
+      "featured_publications": [
+        "นัฐทริยา จิระดา , ดร.พัจน์พิตตา ศรีสมพงษ์. , ดร.วารัชต์ มัธยมบุรุษ (2562),ศักยภาพการท่องเที่ยวบนความหลากหลายทางชีวภาพ ตำบลผาช้างน้อย จังหวัดพะเยา,การประชุมนำเสนอผลงานวิจัยบัณฑิตศึกษาระดับชาติ มหาวิทยาลัยราชภัฏอุดรธานี ครั้งที่ 12 ประจำปีการศึกษา2562.(หน้าที่ 190-200 )"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "พญ.สรัสวดี เถลิงศก": "university_schoolofme_thelingsok_001",
+    "พญ.เพ็ญพรรณ กัณฑะษา": "university_schoolofme_kantasa_002",
+    "พญ.ชญานี วิวัฒนเศรษฐ์": "university_schoolofme_vivattanaseth_003",
+    "นพ.จิรวงศ์ ศรีสมบูรณ์": "university_schoolofme_srisomboon_004",
+    "นพ.สรวิศ บุญญฐี": "university_schoolofme_boonyathee_005",
+    "ทนพ.จิรพัฒน์ คล้อยปาน": "university_schoolofme_kloypan_006",
+    "แพทย์หญิงวรัทยา ตันติวรวิทย์": "university_schoolofme_fac_007_007",
+    "ณรงค์ศักดิ์ มั่นคง": "university_schoolofme_munkong_008",
+    "รัษฎา ประภาสะวัต": "university_schoolofme_praphasawat_009",
+    "นายแพทย์พรชัย สุขแสน": "university_schoolofme_sooksaen_010",
+    "พญ.เพ็ญนิภัท นภีรงค์": "university_schoolofme_nabheerong_011",
+    "นายแพทย์สุทธิวัฒน์ เจียมตระกูล": "university_schoolofme_jeamtrakool_012",
+    "นายแพทย์วรัญญู เหงี่ยมไพศาล": "university_schoolofme_ngiamphaisan_013",
+    "แพทย์หญิงภัทรณี ศรีชัยรัตนกุล": "university_schoolofme_srichairatanako_014",
+    "แพทย์หญิงอรอนงค์ มาลา": "university_schoolofme_mala_015",
+    "นางสาววนิศรา หนูตอ": "university_schoolofme_nootor_016",
+    "นางสาวนัฐทริยา อินทรวิจิตร": "university_schoolofme_intharawichit_017"
+  },
+  "dedup_emails": {
+    "phenphan.ka@up.ac.th": "university_schoolofme_kantasa_002",
+    "inkky_bio@hotmail.com": "university_schoolofme_vivattanaseth_003",
+    "jirawong.sr@up.ac.th": "university_schoolofme_srisomboon_004",
+    "sorawit.bo@up.ac.th": "university_schoolofme_boonyathee_005",
+    "chiraphat.kl@up.ac.th": "university_schoolofme_kloypan_006",
+    "jittmunkong@gmail.com": "university_schoolofme_munkong_008",
+    "ratsada.pr@up.ac.th": "university_schoolofme_praphasawat_009",
+    "pennipat.na@up.ac.th": "university_schoolofme_nabheerong_011",
+    "suttiwat.je@up.ac.th": "university_schoolofme_jeamtrakool_012",
+    "warunyou.ng@up.ac.th": "university_schoolofme_ngiamphaisan_013",
+    "bumbim_babe@hotmail.com": "university_schoolofme_srichairatanako_014",
+    "onanong.ma@up.ac.th": "university_schoolofme_mala_015",
+    "vanisara.no@up.ac.th": "university_schoolofme_nootor_016",
+    "nutthariya.in@up.ac.th": "university_schoolofme_intharawichit_017"
+  },
+  "step_count": 3,
+  "total_tokens_used": 25209,
+  "status": "completed",
+  "last_error": null
+}

@@ -1,0 +1,436 @@
+{
+  "apply": true,
+  "deleted_records": [
+    {
+      "id": "chulalongk_facultyofs_fac_009_009",
+      "full_name_th": "อ.ดร. นำพล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "reason": "scraper stub"
+    },
+    {
+      "id": "mu-sci-001_41f1bd",
+      "full_name_th": "ศ.ดร. กัญญา ศรีสุข",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-002_296615",
+      "full_name_th": "รศ.ดร. ประโยชน์ วัฒนา",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-003_6d8bcd",
+      "full_name_th": "ผศ.ดร. ณภัทร ตั้งจิต",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-004_575311",
+      "full_name_th": "ศ.ดร. ศุภชัย ประเสริฐ",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-005_f6b64c",
+      "full_name_th": "รศ.ดร. สมชาย จันทร์ทา",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-006_43e0d6",
+      "full_name_th": "ผศ.ดร. อนันต์ ภักดี",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-007_83af46",
+      "full_name_th": "ศ.ดร. พิชัย สุทธิ",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-008_107e9b",
+      "full_name_th": "รศ.ดร. มาลี บุญมี",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-009_169543",
+      "full_name_th": "ผศ.ดร. กิตติศักดิ์ ชัย",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-010_4f78b1",
+      "full_name_th": "ศ.ดร. สุนิสา วงศ์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-011_a2d648",
+      "full_name_th": "รศ.ดร. ธนวัฒน์ รัตน์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-012_973f30",
+      "full_name_th": "รศ.ดร. ฉัตรชัย ศิริพร",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-013_7a1fa2",
+      "full_name_th": "ศ.ดร. วรภัทร แก้ว",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-014_950b3f",
+      "full_name_th": "รศ.ดร. สุระ สุข",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-015_c22e94",
+      "full_name_th": "ผศ.ดร. ณัฐพงษ์ พรหม",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-016_ecc60e",
+      "full_name_th": "ศ.ดร. เพ็ญพร สุวรรณ",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-017_81e4f9",
+      "full_name_th": "รศ.ดร. วันชัย มงคล",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-018_f76373",
+      "full_name_th": "ผศ.ดร. รัตนา พงษ์",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-019_cee9fd",
+      "full_name_th": "ศ.ดร. บุญชัย เจริญ",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    },
+    {
+      "id": "mu-sci-020_75da4b",
+      "full_name_th": "รศ.ดร. ศิริพร เตชะ",
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "reason": "synthetic mock"
+    }
+  ],
+  "openalex_resets": [
+    {
+      "id": "chulalongk_facultyofp_fac_036_036",
+      "full_name_th": "ผศ. ภญ. เจนนิษฐ์ มั่นคงปรีดากุล",
+      "before": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      },
+      "after": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "id": "khonkaenun_facultyofm_fac_035_035",
+      "full_name_th": "ผศ.ดร. ปริญญา คงพรม",
+      "before": {
+        "openalex_id": "https://openalex.org/A5016951527",
+        "total_publications_count": 95,
+        "total_citations": 5967,
+        "h_index": 20
+      },
+      "after": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofp_fac_010_010",
+      "full_name_th": "ผศ.ดร. ภก. นพดล",
+      "before": {
+        "openalex_id": "https://openalex.org/A5025835750",
+        "total_publications_count": 107,
+        "total_citations": 5206,
+        "h_index": 38
+      },
+      "after": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofa_fac_008_008",
+      "full_name_th": "รศ.ดร. กภ. อนงค์",
+      "before": {
+        "openalex_id": "https://openalex.org/A5017130028",
+        "total_publications_count": 247,
+        "total_citations": 3920,
+        "h_index": 33
+      },
+      "after": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "id": "khonkaenun_facultyofm_fac_031_031",
+      "full_name_th": "รศ.ดร. ดริศ สามารถ",
+      "before": {
+        "openalex_id": "https://openalex.org/A5109813649",
+        "total_publications_count": 86,
+        "total_citations": 2084,
+        "h_index": 22
+      },
+      "after": {
+        "openalex_id": "https://openalex.org/A5025322553",
+        "total_publications_count": 80,
+        "total_citations": 511,
+        "h_index": 12
+      }
+    },
+    {
+      "id": "regionalun_facultymem_fac_050_050",
+      "full_name_th": "ผศ.ดร. วชิราภรณ์ พลวัต",
+      "before": {
+        "openalex_id": "https://openalex.org/A5046364570",
+        "total_publications_count": 8,
+        "total_citations": 200,
+        "h_index": 6
+      },
+      "after": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "id": "khonkaenun_facultyofm_fac_036_036",
+      "full_name_th": "ผศ.ดร. ภาสกร ชัยวิริยะวงศ์",
+      "before": {
+        "openalex_id": "https://openalex.org/A5028681316",
+        "total_publications_count": 7,
+        "total_citations": 241,
+        "h_index": 6
+      },
+      "after": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofd_fac_028_028",
+      "full_name_th": "อ. ทพ. ชัยพล",
+      "before": {
+        "openalex_id": "https://openalex.org/A5002218472",
+        "total_publications_count": 3,
+        "total_citations": 43,
+        "h_index": 1
+      },
+      "after": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofd_fac_020_020",
+      "full_name_th": "รศ.ดร. ทพญ. สุนทรา พรรณเชษฐ์",
+      "before": {
+        "openalex_id": "https://openalex.org/A5068843506",
+        "total_publications_count": 4,
+        "total_citations": 25,
+        "h_index": 2
+      },
+      "after": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "id": "chulalongk_facultyofa_fac_001_001",
+      "full_name_th": "ผศ.ดร. ทนพญ. เขมาภรณ์",
+      "before": {
+        "openalex_id": "https://openalex.org/A5085148744",
+        "total_publications_count": 5,
+        "total_citations": 10,
+        "h_index": 2
+      },
+      "after": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "id": "mahidoluni_facultyofm_fac_015_015",
+      "full_name_th": "ผศ. นพ. ธีรวุฒิ",
+      "before": {
+        "openalex_id": "https://openalex.org/A5066387931",
+        "total_publications_count": 33,
+        "total_citations": 1275,
+        "h_index": 14
+      },
+      "after": {
+        "openalex_id": "not_indexed",
+        "total_publications_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      }
+    },
+    {
+      "id": "chula_eng_cp_020",
+      "full_name_th": "ศ.ดร. ชิดชนก เหลือสินทรัพย์",
+      "before": {
+        "openalex_id": "https://openalex.org/A5038009786",
+        "total_publications_count": 229,
+        "total_citations": 3446,
+        "h_index": 25
+      },
+      "after": {
+        "openalex_id": "https://openalex.org/A5038009786",
+        "total_publications_count": 229,
+        "total_citations": 3446,
+        "h_index": 25
+      }
+    }
+  ],
+  "regional_faculty_fixes": [
+    {
+      "id": "regionalun_facultymem_fac_088_088",
+      "before": {
+        "full_name_th": "รศ.ดร. รุ่งรวี สุวรรณจินดา",
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "faculty_th": "คณะดุริยางคศาสตร์และศิลปะการแสดง",
+        "department_th": null
+      },
+      "after": {
+        "full_name_th": "รศ.ดร. รุ่งรวี จิตภักดี",
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "faculty_th": "คณะสหวิทยาการและการประกอบการ",
+        "department_th": "สหวิทยาการและการประกอบการ"
+      }
+    },
+    {
+      "id": "regionalun_facultymem_fac_089_089",
+      "before": {
+        "full_name_th": "อ.ดร. ศันสนีย์ สุรเนตร",
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "faculty_th": "คณะดุริยางคศาสตร์และศิลปะการแสดง",
+        "department_th": null
+      },
+      "after": {
+        "full_name_th": "อ.ดร. ศันสนีย์ วงศ์สวัสดิ์",
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "faculty_th": "คณะสหวิทยาการและการประกอบการ",
+        "department_th": "สหวิทยาการและการประกอบการ"
+      }
+    },
+    {
+      "id": "regionalun_facultymem_fac_090_090",
+      "before": {
+        "full_name_th": "อ. เทียนทิพย์ ธนชิตกุล",
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "faculty_th": "คณะดุริยางคศาสตร์และศิลปะการแสดง",
+        "department_th": null
+      },
+      "after": {
+        "full_name_th": "อ. เทียนทิพย์ เดียวกี่",
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "faculty_th": "คณะสหวิทยาการและการประกอบการ",
+        "department_th": "สหวิทยาการและการประกอบการ"
+      }
+    },
+    {
+      "id": "regionalun_facultymem_fac_091_091",
+      "before": {
+        "full_name_th": "อ. วันพระ อ่อนน้อม",
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "faculty_th": "คณะดุริยางคศาสตร์และศิลปะการแสดง",
+        "department_th": null
+      },
+      "after": {
+        "full_name_th": "อ. วันพระ สืบสกุลจินดา",
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "faculty_th": "คณะสหวิทยาการและการประกอบการ",
+        "department_th": "สหวิทยาการและการประกอบการ"
+      }
+    },
+    {
+      "id": "regionalun_facultymem_fac_092_092",
+      "before": {
+        "full_name_th": "อ. วันวิสา มูฮำหมัด",
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "faculty_th": "คณะดุริยางคศาสตร์และศิลปะการแสดง",
+        "department_th": null
+      },
+      "after": {
+        "full_name_th": "อ. วันวิสา วัชรากร",
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "faculty_th": "คณะสหวิทยาการและการประกอบการ",
+        "department_th": "สหวิทยาการและการประกอบการ"
+      }
+    },
+    {
+      "id": "regionalun_facultymem_fac_096_096",
+      "before": {
+        "full_name_th": "อ. มิตต ทรัพย์ผุด",
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "faculty_th": "คณะศึกษาศาสตร์",
+        "department_th": "หลักสูตรศึกษาศาสตรบัณฑิต วิชาเอกดนตรีศึกษา"
+      },
+      "after": {
+        "full_name_th": "อ. มิตต ทรัพย์ผุด",
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "faculty_th": "คณะศิลปศาสตร์",
+        "department_th": "หลักสูตรศึกษาศาสตรบัณฑิต วิชาเอกดนตรีศึกษา"
+      }
+    }
+  ],
+  "double_title_fixes": [],
+  "whitespace_name_fixes": [
+    {
+      "id": "cmu_eng_ee_015",
+      "fields": {
+        "full_name_th": "รศ.ดร. สมบูรณ์ นุชประยูร"
+      }
+    }
+  ],
+  "courses_collapsed_whitespace": 111,
+  "empty_strings_normalized": {
+    "first_name": 1244,
+    "last_name": 1355,
+    "email": 0,
+    "profile_url": 0,
+    "image_url": 0,
+    "scholar_url": 0
+  },
+  "embedding_texts_rebuilt": 1275
+}

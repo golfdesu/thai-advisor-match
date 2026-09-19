@@ -1,0 +1,19 @@
+{
+  "session_id": "wave26_mu_ipsr",
+  "target_university_th": "มหาวิทยาลัยมหิดล",
+  "target_university_en": "Mahidol University",
+  "target_faculty_th": "สถาบันวิจัยประชากรและสังคม (IPSR)",
+  "target_faculty_en": "Institute for Population and Social Research",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://ipsr.mahidol.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 830,
+  "status": "completed",
+  "last_error": null
+}

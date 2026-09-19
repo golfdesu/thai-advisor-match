@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789647347_ed053c",
+  "target_university_th": "สถาบันพระบรมราชชนกชุฬาภรณ์",
+  "target_university_en": "Chulabhorn Royal Academy",
+  "target_faculty_th": "คณะแพทยศาสตร์/พยาบาล",
+  "target_faculty_en": "Faculty of Medicine",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.cra.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 1923,
+  "status": "completed",
+  "last_error": null
+}

@@ -1,0 +1,1325 @@
+{
+  "session_id": "extract_1789643961_2ab06e",
+  "target_university_th": "มหาวิทยาลัยศิลปากร",
+  "target_university_en": "Silpakorn University",
+  "target_faculty_th": "คณะโบราณคดี",
+  "target_faculty_en": "Faculty of Archaeology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://archae.su.ac.th/about/departments/archeology/",
+    "https://archae.su.ac.th/about/departments/anthropology/",
+    "https://archae.su.ac.th/about/departments/art-history/",
+    "https://archae.su.ac.th/about/departments/division-of-history/",
+    "https://ebookservicepro.com/showcase/silpakorn/06/",
+    "https://ebookservicepro.com/showcase/silpakorn/10/",
+    "https://ebookservicepro.com/showcase/silpakorn/05/"
+  ],
+  "failed_urls": [
+    "https://anyflip.com/bbglm/jcmu/basic"
+  ],
+  "faculties": {
+    "silpakornu_facultyofa_suteerattanapir_001": {
+      "id": "silpakornu_facultyofa_suteerattanapir_001",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาโบราณคดี",
+      "department_th": "ภาควิชาโบราณคดี",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Kannikar",
+      "last_name": "Suteerattanapirom",
+      "full_name": "Kannikar Suteerattanapirom",
+      "full_name_th": "รศ.ดร. กรรณิการ์ สุธีรัตนาภิรมย์",
+      "role": "อาจารย์ประจำ",
+      "email": "suteerattana_k@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปร.ด. (โบราณคดีสมัยประวัติศาสตร์), มหาวิทยาลัยศิลปากร (2555)",
+        "ศศ.ม. (การอนุรักษ์ศิลปกรรม), มหาวิทยาลัยศิลปากร (2563)",
+        "ศศ.ม. (ประวัติศาสตร์สถาปัตยกรรม), มหาวิทยาลัยศิลปากร (2549)",
+        "ศศ.บ. (โบราณคดี), เกียรตินิยมอันดับ 2 มหาวิทยาลัยศิลปากร (2543)"
+      ],
+      "research_interests": [
+        "โบราณคดีเมือง",
+        "โบราณคดีหลังพุทธศตวรรษที่ 19",
+        "การจัดการมรดกวัฒนธรรม",
+        "การอนุรักษ์โบราณสถาน",
+        "การประเมินผลกระทบทางโบราณคดี"
+      ],
+      "featured_publications": [
+        "ชาตรี ประกิตนนทการ, กรรณิการ์ สุธีรัตนาภิรมย์, สุภาพร หนูก้าน และ พิเชฐ ธิถา. “Revive Bangkok: การออกแบบเกมดิจิทัลเพื่อการเรียนรู้ประวัติศาสตร์กรุงเทพฯ.” หน้าจั่ว, Vol.21 Iss.1 (มกราคม - มิถุนายน 2567), 201-236.",
+        "กรรณิการ์ สุธีรัตนาภิรมย์, (2565). “อับดุลราฮิมในแผ่นดินสยาม” กรุงเทพ: อมรินทร์พริ้นติ้ง แอนด์พับลิชชิ่ง.",
+        "กรรณิการ์ สุธีรัตนาภิรมย์. (2565). “โบราณคดีกรุงธนบุรี” กรุงเทพ: สำนักพิมพ์มติชน",
+        "Venunan, P., Ploymukda, S., Boripon, B., Kwansakul, P., Suteerattanapirom, K., & Pryce, T. O. (2022). A royal wreck? Morpho-technological, elemental and lead isotope analysis of ingots from the Bang Kachai II shipwreck, Thailand. Journal of Archaeological Science: Reports, 42, 103414."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_shoocongdej_002": {
+      "id": "silpakornu_facultyofa_shoocongdej_002",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาโบราณคดี",
+      "department_th": "ภาควิชาโบราณคดี",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Rasmi",
+      "last_name": "Shoocongdej",
+      "full_name": "Rasmi Shoocongdej",
+      "full_name_th": "ศ.ดร. รัศมี ชูทรงเดช",
+      "role": "อาจารย์ประจำ",
+      "email": "shoocongdej_r@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. (Anthropology) University of Michigan,USA (1996)",
+        "M.A. (Anthropology) University of Michigan, USA (1986)",
+        "ศศ.บ. (โบราณคดี) มหาวิทยาลัยศิลปากร (2526)"
+      ],
+      "research_interests": [
+        "ทฤษฎีทางโบราณคดี (Archaeological Theory)",
+        "โบราณคดียุคก่อนประวัติศาสตร์ในเอเชียตะวันออกเฉียงใต้ (Southeast Asian Prehistory)",
+        "โบราณคดีถ้ำ (Cave Archaeology)",
+        "โบราณคดีกับชาตินิยม (Nationalism and archaeology)",
+        "โบราณคดีกับการศึกษา (Archaeology and Education)",
+        "การค้าโบราณวัตถุ (Illicit Antiquities Trade)"
+      ],
+      "featured_publications": [
+        "Suraprasit, K., Shoocongdej, R., Wattanapituksakul, A., Chintakanon, K., & Bocherens, H. (2024). The late occurrence of specialized hunter-gatherer occupation of tropical rainforests in Pang Mapha, northwestern Thailand. Quaternary Science Reviews, 329, 108573.",
+        "Ward, S. M., Barker, A.-C. L., Shoocongdej, R., Wangthongchaicharoen, N., Miszkiewicz, J. J., King, C. L., & Halcrow, S. E. (2023). Investigating the Effectiveness of Online Bioarchaeology Education through Participant Survey of a Cohort of International Adult Learners. Advances in Archaeological Practice, 11(4), 421-433.",
+        "Carlhoff, S., Kutanan, W., Rohrlach, A. B., Posth, C., Stoneking, M., Nägele, K., Shoocongdej, R., & Krause, J. (2023). Genomic portrait and relatedness patterns of the Iron Age Log Coffin culture in northwestern Thailand. Nature Communications, 14(1), 8527."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_khunsong_003": {
+      "id": "silpakornu_facultyofa_khunsong_003",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาโบราณคดี",
+      "department_th": "ภาควิชาโบราณคดี",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Saritpong",
+      "last_name": "Khunsong",
+      "full_name": "Saritpong Khunsong",
+      "full_name_th": "รศ.ดร. สฤษดิ์พงศ์ ขุนทรง",
+      "role": "อาจารย์ประจำ",
+      "email": "khunsong_s@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปร.ด. (โบราณคดีสมัยประวัติศาสตร์) มหาวิทยาลัยศิลปากร (2553)",
+        "ศศ.ม. (ประวัติศาสตร์ศิลปะ) มหาวิทยาลัยศิลปากร (2548)",
+        "ศศ.บ. (โบราณคดี) เกียรตินิยมอันดับ 1 มหาวิทยาลัยศิลปากร (2546)"
+      ],
+      "research_interests": [
+        "โบราณคดียุคประวัติศาสตร์ในประเทศไทย ก่อน พ.ศ. 1800 (Historical Archaeology in Thailand prior to the 13th century AD)",
+        "โบราณคดียุคประวัติศาสตร์ในเอเชียตะวันออกเฉียงใต้ ก่อน พ.ศ. 1800 (Historical Archaeology in Southeast Asia prior to the 13th century AD)",
+        "เครือข่ายศาสนาและการค้าบนเส้นทางสายไหมทางทะเล (Religious and trading networks across the Maritime Silk Road)"
+      ],
+      "featured_publications": [
+        "ตำราโบราณคดีทวารวดี (2568)",
+        "สฤษดิ์พงศ์ ขุนทรง. (2564). “ปราสาท ตระพัง และบารายของชุมชนเขมรสมัยบาปวนในภาค ตะวันออกเฉียงเหนือของไทย” ดำรงวิชาการ 20, 1: 11 - 34.",
+        "Chittavichai, T., et al. (2021). “Origin and Distribution of Ancient Thai Pig Lineages” International Journal of Osteoarchaeology 31: 406-416.",
+        "สฤษดิ์พงศ์ ขุนทรง. (2561). แนวคิดใหม่เกี่ยวกับพัฒนาการทางวัฒนธรรมของเมืองโบราณอู่ทอง. Veridian, 11(2), 2885-2899.",
+        "สฤษดิ์พงศ์ ขุนทรง. (2561). เปิดประตูสู่ทวารวดี : ชุมชนและเมืองโบราณในกลุ่มจังหวัดภาคกลางตอนล่างและภาคตะวันตก.",
+        "สฤษดิ์พงศ์ ขุนทรง. (2559). โบราณคดีเมืองนครปฐม การศึกษาอดีตของศูนย์กลางแห่งทวารวดี.",
+        "สฤษดิ์พงศ์ ขุนทรง. (2558). ทวารวดี ประตูสู่การค้าบนเส้นทางสายไหมทางทะเล."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_rodcharoen_004": {
+      "id": "silpakornu_facultyofa_rodcharoen_004",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาโบราณคดี",
+      "department_th": "ภาควิชาโบราณคดี",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Phusadee",
+      "last_name": "Rodcharoen",
+      "full_name": "Phusadee Rodcharoen",
+      "full_name_th": "ผศ.ดร. ผุสดี รอดเจริญ",
+      "role": "อาจารย์ประจำ",
+      "email": "rodcharoen_p2@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปร.ด. (โบราณคดีสมัยประวัติศาสตร์) มหาวิทยาลัยศิลปากร (2557)",
+        "ศศ.ม. (โบราณคดีสมัยก่อนประวัติศาสตร์) มหาวิทยาลัยศิลปากร (2549)",
+        "ศศ.บ. (ประวัติศาสตร์ศิลปะ) มหาวิทยาลัยศิลปากร (2543)"
+      ],
+      "research_interests": [
+        "พิพิธภัณฑสถานศึกษา (Museology)",
+        "การวิเคราะห์ลูกปัดแก้วในงานโบราณคดี (Glass bead studies)"
+      ],
+      "featured_publications": [
+        "ผุสดี รอดเจริญ และทนงศักดิ์ เลิศพิพัฒน์วรกุล. (2564). “การศึกษาลูกปัดแก้วยุคก่อน ประวัติศาสตร์ตอนปลายถึงยุคประวัติศาสตร์ตอนต้นจากแหล่งโบราณคดีในพื้นที่ภาคกลางของประเทศไทย” วารสารมานุษยวิทยา 4, 2: 143-185.",
+        "ผุสดี รอดเจริญ. (2563). “หลังบ้านพิพิธภัณฑ์” กรุงเทพ: ภาควิชาโบราณคดี คณะโบราณคดี มหาวิทยาลัยศิลปากร.",
+        "ผุสดี รอดเจริญ. (2559). “ความรู้เรื่องลูกปัดแก้วในงานโบราณคดีไทย” กรุงเทพ: ภาควิชาโบราณคดี คณะโบราณคดี มหาวิทยาลัยศิลปากร."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_khaokhiew_005": {
+      "id": "silpakornu_facultyofa_khaokhiew_005",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาโบราณคดี",
+      "department_th": "ภาควิชาโบราณคดี",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Chawalit",
+      "last_name": "Khaokhiew",
+      "full_name": "Chawalit Khaokhiew",
+      "full_name_th": "ผศ. ชวลิต ขาวเขียว",
+      "role": "อาจารย์ประจำ",
+      "email": "khaokhiew_c@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วท.ม. โลกศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย (2547)",
+        "ศศ.ม. (โบราณคดีสมัยก่อนประวัติศาสตร์) มหาวิทยาลัยศิลปากร (2546)",
+        "วท.บ. (ธรณีวิทยา) มหาวิทยาลัยขอนแก่น (2541)"
+      ],
+      "research_interests": [
+        "ธรณีโบราณคดี (Geoarchaeology)"
+      ],
+      "featured_publications": [
+        "Khamsiri, S., Venunan, P., Khaokheiw, C., et al. (2023). “Luminescence dating of archaeometallurgical slag from Buriram Province, northeastern Thailand” ScienceAsia, 48, 788-796.",
+        "Khamsiri, S., Venunan, P., Khaokheiw, C., et al. (2023). “Reconstructing the ancient route network in the Thailand–Cambodia borders: A case study of the Angkorian Royal Road” Archaeological Prospection, 30(3), 357-368.",
+        "Forestier, H., Zhou, Y., Auetrakulvit, P., Khaokhiew, C., et al. (2021). “Hoabinhian variability in Mainland Southeast Asia revisited: The lithic assemblage of Moh Khiew Cave, Southwestern Thailand” Archaeological Research in Asia, 25, 100236."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_silapanth_006": {
+      "id": "silpakornu_facultyofa_silapanth_006",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "คณะโบราณคดี",
+      "department_th": "คณะโบราณคดี",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Praorn",
+      "last_name": "Silapanth",
+      "full_name": "Praorn Silapanth",
+      "full_name_th": "ผศ. ประอร ศิลาพันธุ์",
+      "role": "อาจารย์ประจำ",
+      "email": "silapanth_p@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วท.ม. (โลกศาสตร์), จุฬาลงกรณ์มหาวิทยาลัย (2549)",
+        "ศศ.ม. (โบราณคดี), มหาวิทยาลัยศิลปากร (2537)",
+        "ศศ.บ. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร (2532)"
+      ],
+      "research_interests": [
+        "โบราณคดียุคประวัติศาสตร์ (Historical Archaeology)",
+        "โบราณคดีทางทะเล (Maritime Archaeology)",
+        "ธรณีโบราณคดี (Geoarchaeology)"
+      ],
+      "featured_publications": [
+        "Khamsiri, S., Venunan, P., Khaokheiw, C., Silapanth, P., Banron, S., & Pailoplee, S. (2023). “Luminescence dating of archaeometallurgical slag from Buriram Province, northeastern Thailand” ScienceAsia, 48, 788-796.",
+        "Khamsiri, S., Venunan, P., Khaokheiw, C., Silapanth, P., & Pailoplee, S. (2023). “Reconstructing the ancient route network in the Thailand–Cambodia borders: A case study of the Angkorian Royal Road” Archaeological Prospection, 30(3), 357-368.",
+        "Khamsiri, S., Venunan, P., Khaokheiw, C., Silapanth, P., Banron, S., & Pailoplee, S. (2022). “Late iron-smelting production of Angkor Highland, metallurgical site at Buriram Province, northeastern Thailand: A view from luminescence dating” Archaeological Research in Asia, 31, 100395.",
+        "ประอร ศิลาพันธุ์, ชวลิต ขาวเขียว และพัชรพร เงินเกิด. (2563). “ภูมิลักษณ์การตั้งถิ่นฐานของชุมชนโบราณในคาบสมุทรมลายูตอนบน” ใน หนังสือรวมบทความ วิจัย เเละบทความทางวิชาการเนื่องในงานประชุมวิชาการ ครบรอบ 65 ปี คณะโบราณคดี. 129-148."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_wangthongchaich_007": {
+      "id": "silpakornu_facultyofa_wangthongchaich_007",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "คณะโบราณคดี",
+      "department_th": "คณะโบราณคดี",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Narupon",
+      "last_name": "Wangthongchaicharoen",
+      "full_name": "Narupon Wangthongchaicharoen",
+      "full_name_th": "อ.ดร. นฤพล หวังธงชัยเจริญ",
+      "role": "อาจารย์ประจำ",
+      "email": "wangthongchai_n@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปร.ด. (โบราณคดี) มหาวิทยาลัยศิลปากร (2561)",
+        "ศศ.ม. (โบราณคดีสมัยก่อนประวัติศาสตร์) มหาวิทยาลัยศิลปากร (2552)",
+        "ศศ.บ. (โบราณคดี) มหาวิทยาลัยศิลปากร (2543)"
+      ],
+      "research_interests": [
+        "โบราณคดียุคก่อนประวัติศาสตร์ตอนปลาย (Late Prehistory)",
+        "การวิเคราะห์โครงกระดูกในงานโบราณคดี (Human Osteoarchaeology)",
+        "โบราณคดีชีววิทยา (Bioarchaeology)"
+      ],
+      "featured_publications": [
+        "Ward, S. M., Barker, A.-C. L., Shoocongdej, R., Wangthongchaicharoen, N., Miszkiewicz, J. J., King, C. L., & Halcrow, S. E. (2023). Investigating the Effectiveness of Online Bioarchaeology Education through Participant Survey of a Cohort of International Adult Learners. Advances in Archaeological Practice, 11(4), 421-433.",
+        "Wangthongchaicharoen, N., Duangsakul, S., Venunan, P., Lertwinitnun, S., & Tubpenthai, S. (2021). The Bronze Age people of Ban Kao: a preliminary analysis of the human remains from Ban Ta Po archaeological site, western Thailand.",
+        "นฤพล หวังธงชัยเจริญ และบริสุทธิ์ บริพนธ์. (2563). “ยุคก่อนประวัติศาสตร์ในอำเภอไพศาลี: ผลการศึกษาทางโบราณคดี พ.ศ. 2560”",
+        "Siripan, S., Wonnapinij, P., Auetrakulvit, P., Wangthongchaicharoen, N., & Surat, W. (2019). Origin of prehistoric cattle excavated from four archaeological sites in central and northeastern Thailand. Mitochondrial DNA Part A, 30(4), 609–617."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_auetrakulvit_008": {
+      "id": "silpakornu_facultyofa_auetrakulvit_008",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "คณะโบราณคดี",
+      "department_th": "คณะโบราณคดี",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Prasit",
+      "last_name": "Auetrakulvit",
+      "full_name": "Prasit Auetrakulvit",
+      "full_name_th": "อ.ดร. ประสิทธิ์ เอื้อตระกูลวิทย์",
+      "role": "อาจารย์ประจำ",
+      "email": "auetrakulvit_p@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Docteur (Préhistoire, archéologie, histoire et civilization de l’antiquité et du moyen-âge) de I’Université de Provence (Aix-Marseille I), France (2004)",
+        "ศศ.ม. (โบราณคดีสมัยก่อนประวัติศาสตร์), มหาวิทยาลัยศิลปากร (2538)",
+        "ศศ.บ. (โบราณคดี), มหาวิทยาลัยศิลปากร (2534)"
+      ],
+      "research_interests": [
+        "โบราณสัตววิทยา (Zooarchaeology)",
+        "โบราณคดีฮัวบินเนียน (The Hoabinhian of Southeast Asia)"
+      ],
+      "featured_publications": [
+        "FORESTIER H., GUIBERT J., PÉREZ-BALAREZO A., AUETRAKULVIT P., TIAMTINKRIT C., SUKKASEN Y. & ZEITOUN V. 2025. — Technological variability in the Hoabinhian: the example of slab lithic production from the Doi Pha Kan site (Northern Thailand). Comptes Rendus Palevol 2025 (2): 19-44.",
+        "Zeitoun, V., Winayalai, C., Auetrakulvit, P., Debruyne, R., Mallye, J.-B., & Lenoble, A. (2023). Transgressing the limits of palaeoenvironmental data for Southeast Asian Pleistocene faunal assemblages: A critical review to go further. Annales de Paléontologie, 109(4), 102657.",
+        "Chittavichai, T., Surat, W., Wetchaphan, S., Poungpan, S., Boonmala, S., Netmanee, S., Auetrakulvit, P., Khunsong, S., Wattanapituksakul, A., Shoocongdej, R., & Wonnapinij, P. (2021). Origin and distribution of ancient Thai pig lineages. International Journal of Osteoarchaeology, 31(3), 406-416.",
+        "Forestier, H., Zhou, Y., Sophady, H., Li, Y., Codeluppi, D., Auetrakulvit, P., & Zeitoun, V. (2022). The first lithic industry of mainland Southeast Asia: Evidence of the earliest hominin in a tropical context. L'Anthropologie, 126(1), 102996."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_venunan_009": {
+      "id": "silpakornu_facultyofa_venunan_009",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "",
+      "department_th": "",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Phee",
+      "last_name": "Venunan",
+      "full_name": "Phee Venunan",
+      "full_name_th": "อ.ดร. ภีร์ เวณุนันทน์",
+      "role": "อาจารย์ประจำ",
+      "email": "venunan_p@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. (Archaeometallurgy) University College of London, UK (2016)",
+        "M.Sc. (Technology and Analysis of Archaeological Materials) University College of London, UK (2011)",
+        "ศศ.ม. (โบราณคดีสมัยก่อนประวัติศาสตร์) มหาวิทยาลัยศิลปากร (2553)",
+        "ศศ.บ. (โบราณคดี) มหาวิทยาลัยศิลปากร (2548)"
+      ],
+      "research_interests": [
+        "โบราณคดียุคก่อนประวัติศาสตร์ตอนปลายในเอเชียตะวันออกเฉียงใต้ (Later Prehistory of Southeast Asia)",
+        "วัตถุทางวัฒนธรรมกับเทคโนโลยี (Material Culture and Technology)",
+        "โบราณโลหะวิทยา (Archaeometallurgy)",
+        "ผลกระทบของโลหะที่มีต่อต่อสังคมและสิ่งแวดล้อม (Social and Environmental Impact of Metal Production)"
+      ],
+      "featured_publications": [
+        "Cadet, M., Pryce, T. O., Ciarla, R., Rispoli, F., Venunan, P., Lertcharnrit, T., & Iizuka, Y. (2024). Beyond ‘Community Craft Specialisation’ in Prehistoric Mainland Southeast Asian Metallurgy: Copper Smelting Behaviours at Khao Sai On, Nil Kham Haeng, Non Pa Wai, Phromthin Tai, and Tha Kae in Central Thailand. Asian Per"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_montrivade_010": {
+      "id": "silpakornu_facultyofa_montrivade_010",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชามานุษยวิทยา",
+      "department_th": "ภาควิชามานุษยวิทยา",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Waraporn",
+      "last_name": "Montrivade",
+      "full_name": "Waraporn Montrivade",
+      "full_name_th": "ผศ.ดร. วราภรณ์ มนต์ไตรเวศย์",
+      "role": "อาจารย์ประจำ",
+      "email": "montrivade_v@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (มานุษยวิทยา), มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (พัฒนาชนบทศึกษา), มหาวิทยาลัยมหิดล",
+        "ปร.ด. (สังคมศาสตร์การแพทย์และสาธารณสุข), มหาวิทยาลัยมหิดล"
+      ],
+      "research_interests": [
+        "มานุษยวิทยา",
+        "พัฒนาชนบทศึกษา",
+        "สังคมศาสตร์การแพทย์และสาธารณสุข"
+      ],
+      "featured_publications": [
+        "การเมืองเรื่องน้ำ : กรณีศึกษาชุมชนเกษตรกรรมแห่งหนึ่งในจังหวัดสุพรรณบุรี",
+        "สวนชานเมืองสู่สวนกลางเมือง: การดำรงอยู่ของการทำสวนในพื้นที่ธนบุรี",
+        "พลวัตชุมชนชาติพันธุ์กะเหรี่ยงภาคตะวันตกของไทย ระยะที่ 1"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_singkul_011": {
+      "id": "silpakornu_facultyofa_singkul_011",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชามานุษยวิทยา",
+      "department_th": "ภาควิชามานุษยวิทยา",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Nattawut",
+      "last_name": "Singkul",
+      "full_name": "Nattawut Singkul",
+      "full_name_th": "อ.ดร. นัฐวุฒิ สิงห์กุล",
+      "role": "อาจารย์ประจำ",
+      "email": "singkul_n@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (การพัฒนาชุมชน) เกียรตินิยมอันดับ 1, มหาวิทยาลัยขอนแก่น",
+        "สม.ม. (มานุษยวิทยา), มหาวิทยาลัยธรรมศาสตร์",
+        "ปร.ด.(สังคมศาสตร์และสุขภาพ) มหาวิทยาลัยมหิดล"
+      ],
+      "research_interests": [
+        "มานุษยวิทยา",
+        "สังคมศาสตร์และสุขภาพ",
+        "การพัฒนาชุมชน"
+      ],
+      "featured_publications": [
+        "การเดินทางของชีวิต : ความหมายต่อความชราภาพและการใช้ชีวิตของกลุ่มผู้สูงอายุไทดำ",
+        "ประสบการณ์ชีวิต ความหมายและปฏิบัติการต่อความชราภาพของกลุ่มชาติพันธุ์ไทโซ่งในพื้นที่ภาคตะวันตกของประเทศไทย"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_phungpracha_012": {
+      "id": "silpakornu_facultyofa_phungpracha_012",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชามานุษยวิทยา",
+      "department_th": "ภาควิชามานุษยวิทยา",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Ekarin",
+      "last_name": "Phungpracha",
+      "full_name": "Ekarin Phungpracha",
+      "full_name_th": "รศ.ดร. เอกรินทร์ พึ่งประชา",
+      "role": "อาจารย์ประจำ",
+      "email": "phungpracha_e@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร",
+        "สม.ม. (มานุษยวิทยา), มหาวิทยาลัยธรรมศาสตร์",
+        "ปร.ด. (สิ่งแวดล้อมและทรัพยากรศาสตร์), มหาวิทยาลัยมหิดล"
+      ],
+      "research_interests": [
+        "มานุษยวิทยา",
+        "สิ่งแวดล้อมและทรัพยากรศาสตร์",
+        "ประวัติศาสตร์ศิลปะ"
+      ],
+      "featured_publications": [
+        "จากป่าสู่ครัวไทด่าน",
+        "การจัดการลุ่มน้ำหมันโดยเครือข่ายทางสังคม",
+        "มานุษยวิทยานิเวศ: ภูมิปัญญาและความมั่นคงทางอาหาร"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_arunpark_013": {
+      "id": "silpakornu_facultyofa_arunpark_013",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชามานุษยวิทยา",
+      "department_th": "ภาควิชามานุษยวิทยา",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Kulsiri",
+      "last_name": "Arunpark",
+      "full_name": "Kulsiri Arunpark",
+      "full_name_th": "ผศ.ดร. กุลศิริ อรุณภาคย์",
+      "role": "อาจารย์ประจำ",
+      "email": "arunpark_k@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ร.บ. (บริหารรัฐกิจ), มหาวิทยาลัยธรรมศาสตร์",
+        "ศศ.ม. (มานุษยวิทยา), มหาวิทยาลัยศิลปากร"
+      ],
+      "research_interests": [
+        "มานุษยวิทยา",
+        "บริหารรัฐกิจ"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_inchan_014": {
+      "id": "silpakornu_facultyofa_inchan_014",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชามานุษยวิทยา",
+      "department_th": "ภาควิชามานุษยวิทยา",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Damrongphon",
+      "last_name": "Inchan",
+      "full_name": "Damrongphon Inchan",
+      "full_name_th": "ผศ.ดร. ดำรงพล อินทร์จันทร์",
+      "role": "อาจารย์ประจำ",
+      "email": "inchan_d@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วท.บ. (เกษตรศาสตร์), มหาวิทยาลัยเชียงใหม่",
+        "สม.ม. (มานุษยวิทยา), มหาวิทยาลัยธรรมศาสตร์",
+        "ปร.ด. (สหวิทยาการ), มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "มานุษยวิทยา",
+        "สหวิทยาการ",
+        "เกษตรศาสตร์"
+      ],
+      "featured_publications": [
+        "ข้อมูลกลุ่มชาติพันธุ์กะซอง กลุ่มชาติพันธุ์ซำเร และกลุ่มชาติพันธุ์พม่าชายแดน",
+        "ตัวแบบการพัฒนานโยบายการจัดการศึกษาปฐมวัย สำหรับเด็กกลุ่มชาติพันธุ์เพื่อการสร้างความยุติธรรมทางสังคม",
+        "การเปลี่ยนแปลงประเพณีและพิธีกรรม \"เม-ด้ำ-เม-ผี\" ของคนไทอาหม รัฐอัสสัม อินเดีย"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_chantaruphan_015": {
+      "id": "silpakornu_facultyofa_chantaruphan_015",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชามานุษยวิทยา",
+      "department_th": "ภาควิชามานุษยวิทยา",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Prartana",
+      "last_name": "Chantaruphan",
+      "full_name": "Prartana Chantaruphan",
+      "full_name_th": "ผศ.ดร. ปรารถนา จันทรุพันธุ์",
+      "role": "อาจารย์ประจำ",
+      "email": "chantaruphan_p@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (สังคมวิทยา - มานุษยวิทยา), มหาวิทยาลัยเกษตรศาสตร์",
+        "ศศ.ม. (มานุษยวิทยา), มหาวิทยาลัยศิลปากร"
+      ],
+      "research_interests": [
+        "กลุ่มชาติพันธุ์",
+        "นโยบายการจัดการศึกษาปฐมวัย",
+        "ชาติพันธุ์กะซอง",
+        "ชาติพันธุ์ซำเร",
+        "ชาติพันธุ์พม่าชายแดน",
+        "ไทอาหม"
+      ],
+      "featured_publications": [
+        "ข้อมูลกลุ่มชาติพันธุ์กะซอง กลุ่มชาติพันธุ์ซำเร และกลุ่มชาติพันธุ์พม่าชายแดน (อ.แม่สอด จ.ตาก)",
+        "ตัวแบบการพัฒนานโยบายการจัดการศึกษาปฐมวัย สำหรับเด็กกลุ่มชาติพันธุ์เพื่อการสร้างความยุติธรรมทางสังคม",
+        "การเปลี่ยนแปลงประเพณีและพิธีกรรม \"เม-ด้ำ-เม-ผี\" ของคนไทอาหม รัฐอัสสัม อินเดีย",
+        "พลวัตชุมชนชาติพันธุ์กะเหรี่ยงภาคตะวันตกของไทย"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_fardittee_016": {
+      "id": "silpakornu_facultyofa_fardittee_016",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชามานุษยวิทยา",
+      "department_th": "ภาควิชามานุษยวิทยา",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Chinaworn",
+      "last_name": "Fardittee",
+      "full_name": "Chinaworn Fardittee",
+      "full_name_th": "ผศ. ชินวร ฟ้าดิษฐี",
+      "role": "อาจารย์ประจำ",
+      "email": "fardittee_c@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (มานุษยวิทยา) เกียรตินิยมอันดับ 2, มหาวิทยาลัยศิลปากร",
+        "สม.ม. (มานุษยวิทยา), มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "ความเชื่อปู่ฤาษีบรมครู",
+        "การบริโภคสินค้าที่จับต้องไม่ได้"
+      ],
+      "featured_publications": [
+        "ความเชื่อปู่ฤาษีบรมครู: กรณีศึกษาตำหนักปู่ฤาษีบรมครู ตำบลคูคต อำเภอลำลูกกา จังหวัดปทุมธานี",
+        "“7 ปี ที่พ้นผ่าน กับการบริโภคสินค้าที่จับต้องไม่ได้,” ใน สาส์นมานุษยวิทยา 40 ปี"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_chalee_017": {
+      "id": "silpakornu_facultyofa_chalee_017",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชามานุษยวิทยา",
+      "department_th": "ภาควิชามานุษยวิทยา",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Varatchaya",
+      "last_name": "Chalee",
+      "full_name": "Varatchaya Chalee",
+      "full_name_th": "อ.ดร. วรัชญา ชาลี",
+      "role": "อาจารย์ประจำ",
+      "email": "chalee_w@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "อักษรศาสตร์บัณฑิต (สังคมศาสตร์การพัฒนา), มหาวิทยาลัยศิลปากร",
+        "สังคมวิทยาและมานุษยวิทยามหาบัณฑิต (มานุษยวิทยา), มหาวิทยาลัยธรรมศาสตร์",
+        "ปรัชญาดุษฎีบัณฑิต (มานุษยวิทยา), มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "โลกของคนหูหนวก",
+        "ประสาทหูเทียม",
+        "ผัสสะ"
+      ],
+      "featured_publications": [
+        "โลกของคนหูหนวก",
+        "อยู่กับเสียง: ประสบการณ์ผัสสะของผู้ใช้ประสาทหูเทียมในประเทศไทย"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_sinvuttaya_018": {
+      "id": "silpakornu_facultyofa_sinvuttaya_018",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชามานุษยวิทยา",
+      "department_th": "ภาควิชามานุษยวิทยา",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Sasithorn",
+      "last_name": "Sinvuttaya",
+      "full_name": "Sasithorn Sinvuttaya",
+      "full_name_th": "อ. ศศิธร ศิลป์วุฒยา",
+      "role": "อาจารย์ประจำ",
+      "email": "sinvuttaya_s@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (มานุษยวิทยา) เกียรตินิยมอันดับ 2, มหาวิทยาลัยศิลปากร",
+        "สม.ม. (มานุษยวิทยา), มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "เศรษฐกิจกับย่านการค้าเก่า",
+        "ความเป็นเมืองและความสัมพันธ์ระหว่างสินค้าและผู้คนย่านธนบุรี",
+        "ชุมชนบางลำพู ท่าเตียน ปากคลองตลาด"
+      ],
+      "featured_publications": [
+        "การประเมินหลักสูตรศิลปศาสตรบัณฑิต คณะโบราณคดี มหาวิทยาลัยศิลปากร",
+        "โครงการเก็บข้อมูลเชิงวัฒนธรรม : ระบบเศรษฐกิจกับย่านการค้าเก่า",
+        "ความเป็นเมืองและความสัมพันธ์ระหว่างสินค้าและผู้คนย่านธนบุรี",
+        "อุปาทวาทศมาสโคลงดั้น: บทกวีว่า \"ด้วยอารมณ์ และพิศวาสรัก\""
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_namtham_019": {
+      "id": "silpakornu_facultyofa_namtham_019",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชามานุษยวิทยา",
+      "department_th": "ภาควิชามานุษยวิทยา",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Wanlaya",
+      "last_name": "Namtham",
+      "full_name": "Wanlaya Namtham",
+      "full_name_th": "อ.ดร. วัลยา นามธรรม",
+      "role": "อาจารย์ประจำ",
+      "email": "namtham_w@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (มานุษยวิทยา) เกียรตินิยมอันดับ 2, คณะโบราณคดี, มหาวิทยาลัยศิลปากร",
+        "M.A. (History) Distinction, Mysore University, Karnataka, India",
+        "Ph.D. in Cultural Studies, Tezpur University, Assam, India"
+      ],
+      "research_interests": [
+        "ไทศึกษา",
+        "ไทใหญ่",
+        "ไทอายตอน",
+        "กลุ่มชาติพันธุ์และสิ่งทอ",
+        "ภูมิปัญญาอาหารท้องถิ่น",
+        "เอเชียตะวันออกเฉียงใต้",
+        "มานุษยวิทยาความทรงจำ",
+        "การเคลื่อนที่"
+      ],
+      "featured_publications": [
+        "พลิกฟื้นระกำ สู่การใช้ประโยชน์ เพิ่มมูลค่าและอนุรักษ์ทรัพยากรท้องถิ่น",
+        "การทำนาลุ่มวัฒนธรรมร่วมของคนไท",
+        "Ethnic Identity through Textile: The Case Study of Tai Lue of Phayao Province, Thailand and Tai Aiton of Assam, India",
+        "รายงานการศึกษาสถานภาพและทบทวนวรรณกรรมด้านไทศึกษาในภูมิภาคเอเชียตะวันออกเฉียงใต้ ประเทศจีนและประเทศอินเดีย",
+        "วัลยา นามธรรม. (2567). สำรวจวิถีชุมชนพ่อค้าพลอยอินเดียและความเป็นพลวัตรของการค้าอัญมณี: การเคลื่อนย้ายของกลุ่มพ่อค้าพลอยชาวอินเดียในตลาดพลอยตรอกกระจ่างและถนนศรีจันทร์ อ.เมือง จ.จันทบุรี.",
+        "Wanlaya Namtham and Juri Gogoi Konwar (2021). Poi Sanglong/Poi Khamsang: The Study of Rite of Passage in Tai man's life in Tai Yai Community of Ban Pangmoo Village, Maehongson, Thailand and Tai Aiton Community of Banlung Mantai, Assam, India.",
+        "Juri Gogoi Konwar and Wanlaya Namtham (2017). Retracing the Shared Culture: Tai Aitons of Assam,India and Tai Luangs of Maehongson, Thailand."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_chuvichean_020": {
+      "id": "silpakornu_facultyofa_chuvichean_020",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Prapassorn",
+      "last_name": "Chuvichean",
+      "full_name": "Prapassorn Chuvichean",
+      "full_name_th": "รศ.ดร. ประภัสสร์ ชูวิเชียร",
+      "role": "อาจารย์ประจำ",
+      "email": "chuvichean_p@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร",
+        "ปร.ด. (ประวัติศาสตร์ศิลปะไทย), มหาวิทยาลัยศิลปากร"
+      ],
+      "research_interests": [
+        "ประวัติศาสตร์ศิลปะไทย",
+        "ศิลปกรรมชานนครเวียงจัน",
+        "ศิลปกรรมอยุธยา"
+      ],
+      "featured_publications": [
+        "ธรรมเนียมสร้างวัดบนที่ถวายพระเพลิงพระบรมศพในสมัยอยุธยา เรื่องจริงหรือเรื่องแต่ง",
+        "อยุธยาในย่านกรุงเทพฯ ศิลปกรรมที่สัมพันธ์กับแม่น้ำลำคลอง"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_saisingha_021": {
+      "id": "silpakornu_facultyofa_saisingha_021",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Sakchai",
+      "last_name": "Saisingha",
+      "full_name": "Sakchai Saisingha",
+      "full_name_th": "ศ.ดร. ศักดิ์ชัย สายสิงห์",
+      "role": "อาจารย์ประจำ",
+      "email": "saisingha_s@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ.(โบราณคดี) เกียรตินิยมอันดับ 2, มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร",
+        "D.E.A. (en Histoire de l’ art), Université de Paris Sorbonne (Paris IV), France",
+        "Doctorat (en Histoire de l’ art et Archéologie), Université de Paris Sorbonne (Paris IV), France",
+        "ศศ.บ. (ประวัติศาสตร์ศิลปะ) เกียรตินิยมอันดับ 2, มหาวิทยาลัยศิลปากร",
+        "ปร.ด. (ประวัติศาสตร์ศิลปะไทย), มหาวิทยาลัยศิลปากร"
+      ],
+      "research_interests": [
+        "พุทธศิลป์ไทย",
+        "ประวัติศาสตร์ศิลปะ",
+        "โบราณคดี",
+        "จิตรกรรมสมัยรัชกาลที่ 4",
+        "ศิลปะรัตนโกสินทร์"
+      ],
+      "featured_publications": [
+        "ลพบุรีหลังวัฒนธรรมเขมร",
+        "เจดีย์ในประเทศไทย : รูปแบบ พัฒนาการและพลังศรัทธา",
+        "จิตรกรรมสมัยรัชกาลที่ 4 : ความสมจริงผ่านภาพเหตุการณ์ทางประวัติศาสตร์ ภาพบุคคล และความสัมพันธ์กับภาพถ่าย",
+        "ศิลปะรัตนโกสินทร์",
+        "สถาปัตยกรรมโบราณในประเทศไทย"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_tingsanchali_022": {
+      "id": "silpakornu_facultyofa_tingsanchali_022",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Chet",
+      "last_name": "Tingsanchali",
+      "full_name": "Chet Tingsanchali",
+      "full_name_th": "ศ.ดร. เชษฐ์ ติงสัญชลี",
+      "role": "อาจารย์ประจำ",
+      "email": "tingsanchali_c@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (ประวัติศาสตร์ศิลปะ) เกียรตินิยมอันดับ 1, มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร",
+        "Ph.D. (History of Art), Nation Museum Institute New Delhi, India"
+      ],
+      "research_interests": [
+        "ศิลปะอินเดีย",
+        "ประติมากรรมในเอเชียอาคเนย์",
+        "ประวัติศาสตร์ศิลปะ"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_thamrungraeng_023": {
+      "id": "silpakornu_facultyofa_thamrungraeng_023",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Rungroj",
+      "last_name": "Thamrungraeng",
+      "full_name": "Rungroj Thamrungraeng",
+      "full_name_th": "รศ.ดร. รุ่งโรจน์ ธรรมรุ่งเรือง",
+      "role": "อาจารย์ประจำ",
+      "email": "thamrungraeng_r@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร",
+        "ศศ.บ. (ประวัติศาสตร์ศิลปะ) เกียรตินิยมอันดับ 1, มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร",
+        "ปร.ด. (ประวัติศาสตร์ศิลปะไทย), มหาวิทยาลัยศิลปากร"
+      ],
+      "research_interests": [
+        "ประวัติศาสตร์ศิลปะ",
+        "พุทธศิลป์ไทย",
+        "ศิลปะทวารวดีและศรีวิชัย",
+        "สถาปัตยกรรมโบราณในเอเชียตะวันออกเฉียงใต้"
+      ],
+      "featured_publications": [
+        "ความคิด ความหมาย ความเชื่อ ในงานพุทธศิลป์ไทย",
+        "รู้เรื่องพระพุทธรูป",
+        "ลังกาทวีปอันศักดิ์สิทธิ์ในจิตรกรรมไทยสมัยรัตนโกสินทร์",
+        "ศิลปะทวารวดีและศรีวิชัย",
+        "ศิลปะเขมร"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_chaiyapotpanit_024": {
+      "id": "silpakornu_facultyofa_chaiyapotpanit_024",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Achiraya",
+      "last_name": "Chaiyapotpanit",
+      "full_name": "Achiraya Chaiyapotpanit",
+      "full_name_th": "รศ.ดร. อชิรัชญ์ ไชยพจน์พานิช",
+      "role": "อาจารย์ประจำ",
+      "email": "chaiyapotpanit_a@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "อ.บ. (ภาษาอังกฤษ) เกียรตินิยมอันดับ 2, จุฬาลงกรณ์มหาวิทยาลัย",
+        "ศศ.ม. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร",
+        "Ph.D. (Art Studies), Peking University, China"
+      ],
+      "research_interests": [
+        "ประวัติศาสตร์ศิลปะ",
+        "ศิลปกรรมจีน",
+        "สถาปัตยกรรมศาลเจ้าจีน"
+      ],
+      "featured_publications": [
+        "ร้อยเรื่องราววังต้องห้าม",
+        "สถาปัตยกรรมโบราณในประเทศเวียดนาม",
+        "ศาลเจ้าจีนในกรุงเทพฯ"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_singhalampong_025": {
+      "id": "silpakornu_facultyofa_singhalampong_025",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Eksuda",
+      "last_name": "Singhalampong",
+      "full_name": "Eksuda Singhalampong",
+      "full_name_th": "ผศ.ดร. เอกสุดา สิงห์ลำพอง",
+      "role": "อาจารย์ประจำ",
+      "email": "singhalampong_e@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ (ประวัติศาสตร์ศิลปะ) เกียรตินิยมอันดับ 1, มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร",
+        "Doctor of Philosophy Art History (Art History), University of Sussex, United Kingdom"
+      ],
+      "research_interests": [
+        "ประวัติศาสตร์ศิลปะ",
+        "เครื่องเคราตะวันตก-อัตลักษณ์นำสมัยของชนชั้นนำไทยช่วงต้นสมัยใหม่"
+      ],
+      "featured_publications": [
+        "อาภรณ์ตะวันตกบนกายาตะวันออก: การเมืองเรื่องเสื้อผ้าของชาวสยามและความเป็นเอกภาพ. 2561.",
+        "Picturing Femininity: Portraits of the Early Modern Siamese Women. Gender in Southeast Asian Art histories, University of Sydney, Australia, 10-15 October 2017."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_tangcharatwong_026": {
+      "id": "silpakornu_facultyofa_tangcharatwong_026",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Kawit",
+      "last_name": "Tangcharatwong",
+      "full_name": "Kawit Tangcharatwong",
+      "full_name_th": "อ.ดร. กวิฎ ตั้งจรัสวงศ์",
+      "role": "อาจารย์ประจำ",
+      "email": "tangcharatwong_k@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ (ประวัติศาสตร์ศิลปะ) เกียรตินิยมอันดับ 2, มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร",
+        "ศศ.ด. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร"
+      ],
+      "research_interests": [],
+      "featured_publications": [
+        "สถาปัตยกรรมโบราณในประเทศเวียดนาม. ภาพพิมพ์, 2560, 20 หน้า."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_angkasuparakul_027": {
+      "id": "silpakornu_facultyofa_angkasuparakul_027",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Pichit",
+      "last_name": "Angkasuparakul",
+      "full_name": "Pichit Angkasuparakul",
+      "full_name_th": "อ.ดร. พิชิต อังคศุภรกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "angkasuparakul_p@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (ภาษาอังกฤษ) เกียรตินิยมอันดับ 1 มหาวิทยาลัยศิลปากร (2550)",
+        "ศศ.ม. (ประวัติศาสตร์ศิลปะ) มหาวิทยาลัยศิลปากร (2557)",
+        "ปร.ด. (ประวัติศาสตร์ศิลปะ) มหาวิทยาลัยศิลปากร (2564)"
+      ],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_purichanont_028": {
+      "id": "silpakornu_facultyofa_purichanont_028",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Vipash",
+      "last_name": "Purichanont",
+      "full_name": "Vipash Purichanont",
+      "full_name_th": "อ.ดร. วิภาช ภูริชานนท์",
+      "role": "อาจารย์ประจำ",
+      "email": "purichanont_v@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ (ประวัติศาสตร์ศิลปะ) เกียรตินิยมอันดับ 2, มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (ประวัติศาสตร์ศิลปะ), มหาวิทยาลัยศิลปากร"
+      ],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_daengklom_029": {
+      "id": "silpakornu_facultyofa_daengklom_029",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Sayan",
+      "last_name": "Daengklom",
+      "full_name": "Sayan Daengklom",
+      "full_name_th": "อ.ดร. สายัณห์ แดงกลม",
+      "role": "อาจารย์ประจำ",
+      "email": "daengklom_s@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Diplôme d'Etudes Universitaires Generales, Histoire de l'art, Université de Tours, France",
+        "Licence : Histoire de l'art et Université de Tours, France",
+        "Maîtrise d'Histoire de l'art et Archaeologie, Université de Tours, France",
+        "D.E.A. de Histoire de l'art Université de Paris I - Pantheon - Sorbonne, France",
+        "Docteur de l'École des Haute Études en Sciences Sociales (Histoire de l'art), France"
+      ],
+      "research_interests": [
+        "คราบสามานย์และมลทินความเสื่อมทรามในศิลปะและวรรณกรรม"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_jangkitchai_030": {
+      "id": "silpakornu_facultyofa_jangkitchai_030",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "department_th": "ภาควิชาประวัติศาสตร์ศิลปะ",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Praphan",
+      "last_name": "Jangkitchai",
+      "full_name": "Praphan Jangkitchai",
+      "full_name_th": "อ. ประพันธ์ แจ้งกิจชัย",
+      "role": "อาจารย์ประจำ",
+      "email": "jangkitchai_p@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ (ประวัติศาสตร์ศิลปะ) เกียรตินิยมอันดับ 1, มหาวิทยาลัยศิลปากร",
+        "Master of Arts (Asian Art Histories) with Distinction, Lasalle College of the Arts, Singapore"
+      ],
+      "research_interests": [],
+      "featured_publications": [
+        "เสียงของสิ่งที่ไม่ใช่มนุษย์: ศิลปะ สภาวะดิจิทัล และการเป็นตัวแทนของสิ่งแวดล้อม. งานประชุมวิชาการมานุษยวิทยา 68 “พหุปฏิสัมพันธ์: มนุษย์กับสิ่งไม่ใช่มนุษย์” Interactive Pluralism: Human-Nonhumam วันที่ 7-9 กรกฎาคม 2568 จัดโดย ศูนย์มานุษยวิทยาสิรินธร (องค์การมหาชน)"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_siravanich_031": {
+      "id": "silpakornu_facultyofa_siravanich_031",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์",
+      "department_th": "ภาควิชาประวัติศาสตร์",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Siriwan",
+      "last_name": "Siravanich",
+      "full_name": "Siriwan Siravanich",
+      "full_name_th": "ผศ. สิริวรรณ สิรวณิชย์",
+      "role": "อาจารย์ประจำ",
+      "email": "siravanich_s@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "อ.ม. (ประวัติศาสตร์), มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (ประวัติศาสตร์), มหาวิทยาลัยเชียงใหม่"
+      ],
+      "research_interests": [
+        "ประวัติศาสตร์ท้องถิ่น",
+        "ความหลากหลายทางวัฒนธรรม",
+        "กลุ่มชาติพันธุ์"
+      ],
+      "featured_publications": [
+        "การศึกษาสำรวจสถานภาพความรู้ทางประวัติศาสตร์ท้องถิ่นชุมชนบ้านท่าจีน สมุทรสาคร, 2561.",
+        "“การจัดการความรู้บนฐานความหลากหลายทางวัฒนธรรม : กรณีศึกษากลุ่มชาติพันธุ์ ในตำบลคลองน้ำไหล อำเภอคลองลาน จังหวัดกำแพงเพชร,” สักทอง : วารสารมนุษยศาสตร์และสังคมศาสตร์"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_chumdee_032": {
+      "id": "silpakornu_facultyofa_chumdee_032",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์",
+      "department_th": "ภาควิชาประวัติศาสตร์",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Nutchanapang",
+      "last_name": "Chumdee",
+      "full_name": "Nutchanapang Chumdee",
+      "full_name_th": "ผศ. นุชนภางค์ ชุมดี",
+      "role": "อาจารย์ประจำ",
+      "email": "chumdee_n@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (โบราณคดี) เกียรตินิยมอันดับ 2, มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (ประวัติศาสตร์), มหาวิทยาลัยเชียงใหม่"
+      ],
+      "research_interests": [
+        "ประวัติศาสตร์"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_manakit_033": {
+      "id": "silpakornu_facultyofa_manakit_033",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์",
+      "department_th": "ภาควิชาประวัติศาสตร์",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Salinee",
+      "last_name": "Manakit",
+      "full_name": "Salinee Manakit",
+      "full_name_th": "ผศ. สาลินี มานะกิจ",
+      "role": "อาจารย์ประจำ",
+      "email": "manakit_s@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (ประวัติศาสตร์ศิลปะ) เกียรตินิยมอันดับ 1, มหาวิทยาลัยศิลปากร",
+        "ศศ.ม. (จารึกภาษาตะวันออก), มหาวิทยาลัยศิลปากร",
+        "อ.ม. (ประวัติศาสตร์), จุฬาลงกรณ์มหาวิทยาลัย"
+      ],
+      "research_interests": [
+        "ประวัติศาสตร์",
+        "ประวัติศาสตร์ศิลปะ",
+        "จารึกภาษาตะวันออก"
+      ],
+      "featured_publications": [
+        "“กบฎบวรเดชในนวนิยายอิงประวัติศาสตร์,” ดำรงวิชาการ ปีที่ 15 ฉบับที่ 1 (มกราคม-มิถุนายน 2559): หน้า 279-310"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_putimahtama_034": {
+      "id": "silpakornu_facultyofa_putimahtama_034",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์",
+      "department_th": "ภาควิชาประวัติศาสตร์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Poome",
+      "last_name": "Putimahtama",
+      "full_name": "Poome Putimahtama",
+      "full_name_th": "อ. ภูมิ ภูติมหาตมะ",
+      "role": "อาจารย์ประจำ",
+      "email": "putimahtama_p@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ศศ.บ. (ภาษาอังกฤษ) เกียรตินิยมอันดับ 2, มหาวิทยาลัยศิลปากร",
+        "ศ.ม. (ประวัติศาสตร์), มหาวิทยาลัยธรรมศาสตร์"
+      ],
+      "research_interests": [
+        "ประวัติศาสตร์",
+        "ประวัติศาสตร์สังคมชุมชนจีน"
+      ],
+      "featured_publications": [
+        "การเปลี่ยนแปลงทางสังคมของชุมชนจีนคาทอลิกวัดแม่พระประจักษ์เมืองลูร์ด บางสะแก, 2560-2561."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "silpakornu_facultyofa_iamchae_035": {
+      "id": "silpakornu_facultyofa_iamchae_035",
+      "university": "Silpakorn University",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty": "Faculty of Archaeology",
+      "faculty_th": "คณะโบราณคดี",
+      "department": "ภาควิชาประวัติศาสตร์",
+      "department_th": "ภาควิชาประวัติศาสตร์",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Preedaporn",
+      "last_name": "Iamchae",
+      "full_name": "Preedaporn Iamchae",
+      "full_name_th": "อ.ดร. ปรีดาภรณ์ เอี่ยมแจ๋",
+      "role": "อาจารย์ประจำ",
+      "email": "iamchae_p@su.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปร.ด. (สาขาประวัติศาสตร์), มหาวิทยาลัยธรรมศาสตร์ (2568)",
+        "ศศ.ม. (ประวัติศาสตร์) มหาวิทยาลัยธรรมศาสตร์ (2561)",
+        "ศศ.บ. (ประวัติศาสตร์ศิลปะ), เกียรตินิยมอันดับ 2 มหาวิทยาลัยศิลปากร (2556)"
+      ],
+      "research_interests": [
+        "ประวัติศาสตร์",
+        "ประวัติศาสตร์สาธารณสุข",
+        "อุตุนิยมวิทยา"
+      ],
+      "featured_publications": [
+        "“ถ้าจะใคร่รู้ฝนแล้ง ให้สังเกตดูพุธ”: ตำราดูฝนแล้งฝนตกของสมเด็จพระมหาสมณเจ้า กรมพระยาปวเรศวริยาลงกรณ์และองค์ความรู้ทางโหราศาสตร์อุตุนิยมวิทยา, 2568.",
+        "“ฉันอยากเป็นทันตแพทย์”: จอมพล ป. พิบูลสงครามกับการเรียนการสอนด้านทันตกรรม ทศวรรษ 2480-2490, 2565."
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "กรรณิการ์ สุธีรัตนาภิรมย์": "silpakornu_facultyofa_suteerattanapir_001",
+    "รัศมี ชูทรงเดช": "silpakornu_facultyofa_shoocongdej_002",
+    "สฤษดิ์พงศ์ ขุนทรง": "silpakornu_facultyofa_khunsong_003",
+    "ผุสดี รอดเจริญ": "silpakornu_facultyofa_rodcharoen_004",
+    "ชวลิต ขาวเขียว": "silpakornu_facultyofa_khaokhiew_005",
+    "ประอร ศิลาพันธุ์": "silpakornu_facultyofa_silapanth_006",
+    "นฤพล หวังธงชัยเจริญ": "silpakornu_facultyofa_wangthongchaich_007",
+    "ประสิทธิ์ เอื้อตระกูลวิทย์": "silpakornu_facultyofa_auetrakulvit_008",
+    "ภีร์ เวณุนันทน์": "silpakornu_facultyofa_venunan_009",
+    "วราภรณ์ มนต์ไตรเวศย์": "silpakornu_facultyofa_montrivade_010",
+    "นัฐวุฒิ สิงห์กุล": "silpakornu_facultyofa_singkul_011",
+    "เอกรินทร์ พึ่งประชา": "silpakornu_facultyofa_phungpracha_012",
+    "กุลศิริ อรุณภาคย์": "silpakornu_facultyofa_arunpark_013",
+    "ดำรงพล อินทร์จันทร์": "silpakornu_facultyofa_inchan_014",
+    "ปรารถนา จันทรุพันธุ์": "silpakornu_facultyofa_chantaruphan_015",
+    "ชินวร ฟ้าดิษฐี": "silpakornu_facultyofa_fardittee_016",
+    "วรัชญา ชาลี": "silpakornu_facultyofa_chalee_017",
+    "ศศิธร ศิลป์วุฒยา": "silpakornu_facultyofa_sinvuttaya_018",
+    "วัลยา นามธรรม": "silpakornu_facultyofa_namtham_019",
+    "ประภัสสร์ ชูวิเชียร": "silpakornu_facultyofa_chuvichean_020",
+    "ศักดิ์ชัย สายสิงห์": "silpakornu_facultyofa_saisingha_021",
+    "เชษฐ์ ติงสัญชลี": "silpakornu_facultyofa_tingsanchali_022",
+    "รุ่งโรจน์ ธรรมรุ่งเรือง": "silpakornu_facultyofa_thamrungraeng_023",
+    "อชิรัชญ์ ไชยพจน์พานิช": "silpakornu_facultyofa_chaiyapotpanit_024",
+    "เอกสุดา สิงห์ลำพอง": "silpakornu_facultyofa_singhalampong_025",
+    "กวิฎ ตั้งจรัสวงศ์": "silpakornu_facultyofa_tangcharatwong_026",
+    "พิชิต อังคศุภรกุล": "silpakornu_facultyofa_angkasuparakul_027",
+    "วิภาช ภูริชานนท์": "silpakornu_facultyofa_purichanont_028",
+    "สายัณห์ แดงกลม": "silpakornu_facultyofa_daengklom_029",
+    "ประพันธ์ แจ้งกิจชัย": "silpakornu_facultyofa_jangkitchai_030",
+    "สิริวรรณ สิรวณิชย์": "silpakornu_facultyofa_siravanich_031",
+    "นุชนภางค์ ชุมดี": "silpakornu_facultyofa_chumdee_032",
+    "สาลินี มานะกิจ": "silpakornu_facultyofa_manakit_033",
+    "ภูมิ ภูติมหาตมะ": "silpakornu_facultyofa_putimahtama_034",
+    "ปรีดาภรณ์ เอี่ยมแจ๋": "silpakornu_facultyofa_iamchae_035"
+  },
+  "dedup_emails": {
+    "suteerattana_k@su.ac.th": "silpakornu_facultyofa_suteerattanapir_001",
+    "shoocongdej_r@su.ac.th": "silpakornu_facultyofa_shoocongdej_002",
+    "khunsong_s@su.ac.th": "silpakornu_facultyofa_khunsong_003",
+    "rodcharoen_p2@su.ac.th": "silpakornu_facultyofa_rodcharoen_004",
+    "khaokhiew_c@su.ac.th": "silpakornu_facultyofa_khaokhiew_005",
+    "silapanth_p@su.ac.th": "silpakornu_facultyofa_silapanth_006",
+    "wangthongchai_n@su.ac.th": "silpakornu_facultyofa_wangthongchaich_007",
+    "auetrakulvit_p@su.ac.th": "silpakornu_facultyofa_auetrakulvit_008",
+    "venunan_p@su.ac.th": "silpakornu_facultyofa_venunan_009",
+    "montrivade_v@su.ac.th": "silpakornu_facultyofa_montrivade_010",
+    "singkul_n@su.ac.th": "silpakornu_facultyofa_singkul_011",
+    "phungpracha_e@su.ac.th": "silpakornu_facultyofa_phungpracha_012",
+    "arunpark_k@su.ac.th": "silpakornu_facultyofa_arunpark_013",
+    "inchan_d@su.ac.th": "silpakornu_facultyofa_inchan_014",
+    "chantaruphan_p@su.ac.th": "silpakornu_facultyofa_chantaruphan_015",
+    "fardittee_c@su.ac.th": "silpakornu_facultyofa_fardittee_016",
+    "chalee_w@su.ac.th": "silpakornu_facultyofa_chalee_017",
+    "sinvuttaya_s@su.ac.th": "silpakornu_facultyofa_sinvuttaya_018",
+    "namtham_w@su.ac.th": "silpakornu_facultyofa_namtham_019",
+    "chuvichean_p@su.ac.th": "silpakornu_facultyofa_chuvichean_020",
+    "saisingha_s@su.ac.th": "silpakornu_facultyofa_saisingha_021",
+    "tingsanchali_c@su.ac.th": "silpakornu_facultyofa_tingsanchali_022",
+    "thamrungraeng_r@su.ac.th": "silpakornu_facultyofa_thamrungraeng_023",
+    "chaiyapotpanit_a@su.ac.th": "silpakornu_facultyofa_chaiyapotpanit_024",
+    "singhalampong_e@su.ac.th": "silpakornu_facultyofa_singhalampong_025",
+    "tangcharatwong_k@su.ac.th": "silpakornu_facultyofa_tangcharatwong_026",
+    "angkasuparakul_p@su.ac.th": "silpakornu_facultyofa_angkasuparakul_027",
+    "purichanont_v@su.ac.th": "silpakornu_facultyofa_purichanont_028",
+    "daengklom_s@su.ac.th": "silpakornu_facultyofa_daengklom_029",
+    "jangkitchai_p@su.ac.th": "silpakornu_facultyofa_jangkitchai_030",
+    "siravanich_s@su.ac.th": "silpakornu_facultyofa_siravanich_031",
+    "chumdee_n@su.ac.th": "silpakornu_facultyofa_chumdee_032",
+    "manakit_s@su.ac.th": "silpakornu_facultyofa_manakit_033",
+    "putimahtama_p@su.ac.th": "silpakornu_facultyofa_putimahtama_034",
+    "iamchae_p@su.ac.th": "silpakornu_facultyofa_iamchae_035"
+  },
+  "step_count": 7,
+  "total_tokens_used": 50515,
+  "status": "completed",
+  "last_error": null
+}

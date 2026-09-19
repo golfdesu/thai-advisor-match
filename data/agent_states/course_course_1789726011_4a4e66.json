@@ -1,0 +1,19 @@
+{
+  "session_id": "course_1789726011_4a4e66",
+  "target_university_th": "มหาวิทยาลัยมหาสารคาม",
+  "target_university_en": "Mahasarakham University",
+  "target_faculty_th": "คณะเทคโนโลยี",
+  "target_faculty_en": "Faculty of Technology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://techno.msu.ac.th/%e0%b8%ab%e0%b8%a5%e0%b8%b1%e0%b8%81%e0%b8%aa%e0%b8%b9%e0%b8%95%e0%b8%a3%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b9%80%e0%b8%9b%e0%b8%b4%e0%b8%94%e0%b8%aa%e0%b8%ad%e0%b8%99/%e0%b8%ab%e0%b8%a5%e0%b8%b1%e0%b8%81%e0%b8%aa%e0%b8%b9%e0%b8%95%e0%b8%a3%e0%b8%a3%e0%b8%b0%e0%b8%94%e0%b8%b1%e0%b8%9a%e0%b8%9b%e0%b8%a3%e0%b8%b4%e0%b8%8d%e0%b8%8d%e0%b8%b2%e0%b9%82%e0%b8%97/",
+    "https://techno.msu.ac.th/%e0%b8%ab%e0%b8%a5%e0%b8%b1%e0%b8%81%e0%b8%aa%e0%b8%b9%e0%b8%95%e0%b8%a3%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b9%80%e0%b8%9b%e0%b8%b4%e0%b8%94%e0%b8%aa%e0%b8%ad%e0%b8%99/%e0%b8%ab%e0%b8%a5%e0%b8%b1%e0%b8%81%e0%b8%aa%e0%b8%b9%e0%b8%95%e0%b8%a3%e0%b8%a3%e0%b8%b0%e0%b8%94%e0%b8%b1%e0%b8%9a%e0%b8%9b%e0%b8%a3%e0%b8%b4%e0%b8%8d%e0%b8%8d%e0%b8%b2%e0%b9%80%e0%b8%ad%e0%b8%81/"
+  ],
+  "failed_urls": [],
+  "courses": {},
+  "dedup_title_keys": {},
+  "step_count": 2,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

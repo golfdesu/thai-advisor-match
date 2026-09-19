@@ -1,0 +1,862 @@
+[
+  {
+    "id": "kmutnb_40ffcc9a_9782",
+    "full_name_th": "รศ.ดร. เพียรพูล กมลจิตร์ประภา",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาสถิติประยุกต์",
+    "email": "pianpool.k@sci.kmutnb.ac.th",
+    "source": "http://stat.sci.kmutnb.ac.th/?page_id=30",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_163b849f_0144",
+    "full_name_th": "อ. เชิดชัย ละอองทิพรส",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาเคมีอุตสาหกรรม",
+    "email": "cherdchai.l@sci.kmutnb.ac.th",
+    "source": "http://ic.sci.kmutnb.ac.th/people/profile/30",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_3baf2675_5976",
+    "full_name_th": "รศ.ดร. สุกัญญา เทพวาที",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาเคมีอุตสาหกรรม",
+    "email": "sukanya.t@sci.kmutnb.ac.th",
+    "source": "http://ic.sci.kmutnb.ac.th/people/profile/26",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_18880cb2_0659",
+    "full_name_th": "ผศ.ดร. ธนากร รัตนะ",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาเคมีอุตสาหกรรม",
+    "email": "tanakorn.r@sci.kmutnb.ac.th",
+    "source": "http://ic.sci.kmutnb.ac.th/people/profile/21",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_1bbdce3c_7113",
+    "full_name_th": "รศ.ดร. อวัช วิเศษสัย",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาเคมีอุตสาหกรรม",
+    "email": "awat.w@sci.kmutnb.ac.th",
+    "source": "http://ic.sci.kmutnb.ac.th/people/profile/57",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_275a85b1_1168",
+    "full_name_th": "รศ.ดร. มนฤดี ผ่องอักษร",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาเคมีอุตสาหกรรม",
+    "email": "monrudee.p@sci.kmutnb.ac.th",
+    "source": "http://ic.sci.kmutnb.ac.th/people/profile/4",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_3362541d_3672",
+    "full_name_th": "อ.ดร. ยนต์ชนก เขาแก้ว",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาวิทยาการคอมพิวเตอร์และสารสนเทศ",
+    "email": "yonchanok.k@sci.kmutnb.ac.th",
+    "source": "http://cs.kmutnb.ac.th/chr_detail.jsp?username=yck",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_416a779c_8102",
+    "full_name_th": "อ.ดร. ชัชลิฎา บุญพะเนียด",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาเคมีอุตสาหกรรม",
+    "email": "chatchalida.b@sci.kmutnb.ac.th",
+    "source": "http://ic.sci.kmutnb.ac.th/people/profile/18",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_4e1b3c3c_4868",
+    "full_name_th": "อ.ดร. จารุวรรณ ตาฬวัฒน์",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาเคมีอุตสาหกรรม",
+    "email": "jaruwan.t@sci.kmutnb.ac.th",
+    "source": "http://ic.sci.kmutnb.ac.th/people/profile/19",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_56a0f7ec_3258",
+    "full_name_th": "ศ.ดร. เสาวณิต สุขภารังษี",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาสถิติประยุกต์",
+    "email": "saowanit.s@sci.kmutnb.ac.th",
+    "source": "http://stat.sci.kmutnb.ac.th/?page_id=30",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_6bf33db9_1799",
+    "full_name_th": "ผศ.ดร. สรร รัตนสัญญา",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาวิทยาการคอมพิวเตอร์และสารสนเทศ",
+    "email": "san.r@sci.kmutnb.ac.th",
+    "source": "http://cs.kmutnb.ac.th/chr_detail.jsp?username=srs",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_79787718_0261",
+    "full_name_th": "อ.ดร. ตรัยนพ พรหมกูล",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาเคมีอุตสาหกรรม",
+    "email": "trinop.p@sci.kmutnb.ac.th",
+    "source": "http://ic.sci.kmutnb.ac.th/people/profile/61",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kmutnb_d6f57384_0013",
+    "full_name_th": "อ.ดร. จิรายุ เสมกันทา",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+    "department_th": "ภาควิชาวิทยาการคอมพิวเตอร์และสารสนเทศ",
+    "email": "jirayu.s@sci.kmutnb.ac.th",
+    "source": "http://cs.kmutnb.ac.th/chr_detail.jsp?username=jsa",
+    "cluster": "KMUTNB Applied Science"
+  },
+  {
+    "id": "kingmongku_facultyofe_jongprasithporn_012",
+    "full_name_th": "รศ. สมเกียรติ จงประสิทธิ์พร",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "somkiat.j@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_tuntitippawan_005",
+    "full_name_th": "ดร. นริศศักดิ์ ตันติทิพยวรรณ",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "naritsak.t@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_yodpijit_009",
+    "full_name_th": "รศ.ดร. นันทกฤต ยอดพิจิตร",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "nantakrit.y@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_asawarungsaengk_007",
+    "full_name_th": "รศ.ดร. กฤษดา อัศวรังสฤษฎ์",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "krisada.a@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_kengpol_008",
+    "full_name_th": "ศ.ดร. อรรถกร เก่งพล",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "athakorn@kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_bunterngchit_011",
+    "full_name_th": "รศ.ดร. ยุทธชัย บันเทิงจิตร",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "yuthachai.b@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_khemavuk_006",
+    "full_name_th": "ผศ.ดร. เปรมพร เขมะวุกข์",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "premporn.k@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_meethom_001",
+    "full_name_th": "ผศ.ดร. วรพจน์ มีถม",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "warapoj.m@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_rungreunganun_010",
+    "full_name_th": "ผศ.ดร. วิชัย รุ่งเรืองอนันต์",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "vichai.r@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_phuaksaman_002",
+    "full_name_th": "ผศ.ดร. ชยธัช พฤกษ์สมาน",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "chayathach.p@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_pimapunsri_016",
+    "full_name_th": "ผศ.ดร. กุศล พิมผึ้งศรี",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "kusol.p@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_swangnop_018",
+    "full_name_th": "ผศ.ดร. ศิรวิชญ์ สว่างนพ",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "siravit.s@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_tantiwattanakul_003",
+    "full_name_th": "ผศ.ดร. ภัทรศยา ตันติวัฒนกุล",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "phattarasaya.t@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_wuttipornpun_013",
+    "full_name_th": "รศ.ดร. ธีรเดช วุฒิพรพันธุ์",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "teeradej.w@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_phaisalpanumas_017",
+    "full_name_th": "ผศ.ดร. พิพัฒน์ ไพศาลปานุมาศ",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "pipat.p@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_chumphoo_004",
+    "full_name_th": "ผศ.ดร. อมรรัตน์ ชมภู",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "amonrat.c@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_intarakumthornc_014",
+    "full_name_th": "ผศ.ดร. ธนสันต์ อินทรกำธรชัย",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "thanasan.i@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "kingmongku_facultyofe_usadornsak_015",
+    "full_name_th": "ผศ.ดร. ฉัตรชัย อัษฎาศักดิ์",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+    "email": "chartchai.u@eng.kmutnb.ac.th",
+    "source": "https://www.ie.kmutnb.ac.th/index.php/faculty-members/",
+    "cluster": "KMUTNB Industrial Engineering"
+  },
+  {
+    "id": "silpakornu_facultyofa_anantacha_017",
+    "full_name_th": "รศ.ดร. ธนา อนันต์อาชา",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะสถาปัตยกรรมและการออกแบบ",
+    "department_th": "ภาควิชาสถาปัตยกรรม",
+    "email": "thana.a@archd.kmutnb.ac.th",
+    "source": "https://archd.kmutnb.ac.th/about/profile?c=8ac87937bbc5c9b604a141d83e7599c172d114df&type=board",
+    "cluster": "KMUTNB Architecture"
+  },
+  {
+    "id": "silpakornu_facultyofa_chintanawat_020",
+    "full_name_th": "อ. อมรรัตน์ ชินธนวัฒน์",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะสถาปัตยกรรมและการออกแบบ",
+    "department_th": "ภาควิชาสถาปัตยกรรม",
+    "email": "amornrat.c@archd.kmutnb.ac.th",
+    "source": "https://archd.kmutnb.ac.th/about/profile?c=f9ff3d3157e5e4a3f652bd428628f9186fa7c368&type=advisor-architecture",
+    "cluster": "KMUTNB Architecture"
+  },
+  {
+    "id": "silpakornu_facultyofa_piriyasurawong_019",
+    "full_name_th": "ดร. ศวิษฐ์ พิริยะสุรวงศ์",
+    "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+    "faculty_th": "คณะสถาปัตยกรรมและการออกแบบ",
+    "department_th": "ภาควิชาการจัดการงานออกแบบ",
+    "email": "svit.p@archd.kmutnb.ac.th",
+    "source": "https://archd.kmutnb.ac.th/about/profile?c=1bdf6ef96c343e777ef97a92d03ef396d8ecfc9e&type=advisor-design",
+    "cluster": "KMUTNB Architecture"
+  },
+  {
+    "id": "su_eng_teacher_012",
+    "full_name_th": "รศ.ดร. บุศรากรณ์ มหาโยธี",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาเทคโนโลยีอาหาร",
+    "email": "mahayothee_b@su.ac.th",
+    "source": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=301",
+    "cluster": "Silpakorn Engineering - Food Tech"
+  },
+  {
+    "id": "su_eng_teacher_135",
+    "full_name_th": "ผศ.ดร. ขวัญใจ กลิ่นจงกล",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาเทคโนโลยีอาหาร",
+    "email": "klinchongkon_k@su.ac.th",
+    "source": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=5196",
+    "cluster": "Silpakorn Engineering - Food Tech"
+  },
+  {
+    "id": "su_eng_teacher_006",
+    "full_name_th": "ผศ.ดร. ดวงใจ ถิรธรรมถาวร",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาเทคโนโลยีอาหาร",
+    "email": "thirathumtha_d@su.ac.th",
+    "source": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=218",
+    "cluster": "Silpakorn Engineering - Food Tech"
+  },
+  {
+    "id": "su_eng_teacher_025",
+    "full_name_th": "ผศ.ดร. ธัชพงศ์ ชูศรี",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาเทคโนโลยีอาหาร",
+    "email": "choosri_t@su.ac.th",
+    "source": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=224",
+    "cluster": "Silpakorn Engineering - Food Tech"
+  },
+  {
+    "id": "su_eng_teacher_128",
+    "full_name_th": "ผศ.ดร. ภาริกา รุ่งพิชยพิเชฐ",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาเทคโนโลยีอาหาร",
+    "email": "rungpichayapich_p@su.ac.th",
+    "source": "https://foodtech.su.ac.th/Teacher.aspx?PeopleID=5049",
+    "cluster": "Silpakorn Engineering - Food Tech"
+  },
+  {
+    "id": "su_eng_teacher_023",
+    "full_name_th": "ผศ.ดร. จันทร์ฉาย ทองปิ่น",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาฟิสิกส์และวิทยาการและวิศวกรรมวัสดุ",
+    "email": "thongpin_c@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-dr-chanchai-thongpin/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_091",
+    "full_name_th": "ผศ.ดร. สุดศิริ เหมศรี",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาฟิสิกส์และวิทยาการและวิศวกรรมวัสดุ",
+    "email": "hemsri_s@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-dr-sudsiri-hemsri/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_095",
+    "full_name_th": "รศ.ดร. ณัฐกาญจน์ หงส์ศรีพันธ์",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาฟิสิกส์และวิทยาการและวิศวกรรมวัสดุ",
+    "email": "hongsriphan_n@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-dr-nattakarn-hongsriphan/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_093",
+    "full_name_th": "ผศ. สมจิตร ลาภโนนเขวา",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาฟิสิกส์และวิทยาการและวิศวกรรมวัสดุ",
+    "email": "lapnonkawow_s@su.ac.th",
+    "source": "https://matse.su.ac.th/index.php/asst-prof-somjit-lapnonkawow/",
+    "cluster": "Silpakorn Engineering - Materials Science"
+  },
+  {
+    "id": "su_eng_teacher_016",
+    "full_name_th": "ผศ.ดร. โสภณ ผู้มีจรรยา",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+    "email": "phumeechanya_s@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_004",
+    "full_name_th": "ผศ. กิตติธัช พาพลเพ็ญ",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+    "email": "paponpen_k@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_010",
+    "full_name_th": "ผศ.ดร. ณัฐพงศ์ วงศ์พร้อมมูล",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+    "email": "wongprommoon_n@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_122",
+    "full_name_th": "อ.ดร. อรทัย วัชรกฤชกรณ์",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+    "email": "watcharakitchak_o@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_132",
+    "full_name_th": "อ.ดร. ศักดิ์ระพี ไพศาลนันทน์",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+    "email": "paisalnan_s@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_140",
+    "full_name_th": "อ.ดร. ปาริฉัตร เสริมวุฒิสาร",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+    "email": "sermwuthisarn_p@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_142",
+    "full_name_th": "อ.ดร. คุณานนต์ คะระวานิช",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+    "email": "karawanich_k@su.ac.th",
+    "source": "https://ee-eng.su.ac.th/Staff.aspx?Type=Lecturer",
+    "cluster": "Silpakorn Engineering - Electrical"
+  },
+  {
+    "id": "su_eng_teacher_082",
+    "full_name_th": "อ. กวินธร สัยเจริญ",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการและการจัดการ",
+    "email": "kawintho@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "su_eng_teacher_090",
+    "full_name_th": "อ.ดร. สิทธิชัย แซ่เหล่ม",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการและการจัดการ",
+    "email": "sujin@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "su_eng_teacher_079",
+    "full_name_th": "ผศ.ดร. สุจินต์ วุฒิชัยวัฒน์",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการและการจัดการ",
+    "email": "sujin@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "su_eng_teacher_125",
+    "full_name_th": "ผศ.ดร. เพ็ญพิสุทธิ์ ทองหยวก",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการและการจัดการ",
+    "email": "patipat@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "su_eng_teacher_066",
+    "full_name_th": "ผศ. ปฏิพัทธ์ หงษ์สุวรรณ",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการและการจัดการ",
+    "email": "patipat@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "su_eng_teacher_085",
+    "full_name_th": "อ.ดร. ธรรมวิชช์ ประเสริฐ",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+    "department_th": "ภาควิชาวิศวกรรมอุตสาหการและการจัดการ",
+    "email": "thummawit@su.ac.th",
+    "source": "https://sites.google.com/site/iesilpakorn/staff",
+    "cluster": "Silpakorn Engineering - Industrial"
+  },
+  {
+    "id": "silpakornu_facultyoff_hutanuwatr_019",
+    "full_name_th": "อ.ดร. ณชนก หุตนันท์",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะอักษรศาสตร์",
+    "department_th": "ภาควิชาภาษาอังกฤษ",
+    "email": "hutanan_n@su.ac.th",
+    "source": "https://arts.su.ac.th/?page_id=1801",
+    "cluster": "Silpakorn Faculty of Arts"
+  },
+  {
+    "id": "mahidoluni_collegeofm_boonyam_035",
+    "full_name_th": "ผศ.ดร. เตรทิพย์ บุญแย้ม",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+    "department_th": null,
+    "email": "treetip.boo@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/asst-prof-dr-treetip-boonyam/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_leeswadtrakul_006",
+    "full_name_th": "ดร. สมศักดิ์ ลีวัสดิ์ตระกูล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+    "department_th": null,
+    "email": "shyen.lee@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/shyen-lee/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_cooper_031",
+    "full_name_th": "ผศ.ดร. เชลลีย์ มาร์ช คูเปอร์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+    "department_th": null,
+    "email": "cooper.wri@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/cooper-wright/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_bowman_036",
+    "full_name_th": "ผศ.ดร. โจเซฟ แอล. บาวแมน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+    "department_th": null,
+    "email": "joseph.bow@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/asst-prof-dr-joseph-bowman/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_klinsmith_057",
+    "full_name_th": "อ. Lalin Klinsmith",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+    "department_th": null,
+    "email": "suvich.kli@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/suvich-klinsmith/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_jittipichayanan_059",
+    "full_name_th": "อ. Pichayasini Jittipichayanan",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+    "department_th": null,
+    "email": "hyuk.cha@mahidol.edu",
+    "source": "https://www.music.mahidol.ac.th/people/dr-thomas-hyuk-cha/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_szawelski_213",
+    "full_name_th": "อ. Marcin Tomasz Szawelski",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+    "department_th": "Strings",
+    "email": "marcin.toa@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/marcin-szawelski/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mahidoluni_collegeofm_sirilertworakul_011",
+    "full_name_th": "ดร. ณรงค์ ศิริเลิศวรกุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "วิทยาลัยดุริยางคศิลป์",
+    "department_th": null,
+    "email": "siri.sra@mahidol.ac.th",
+    "source": "https://www.music.mahidol.ac.th/people/siri-sranoi/",
+    "cluster": "Mahidol College of Music"
+  },
+  {
+    "id": "mu_sci_wave14_b_0221",
+    "full_name_th": "รศ.ดร. อมรรัตน์ นรานันทรัตน์ เจนเซน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "คณะวิทยาศาสตร์",
+    "email": "amornrat.nar@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Amornrat%20Jensen",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "mahidoluni_facultyofs_tsakdapipanich_011",
+    "full_name_th": "ศ.ดร. จิตลัดดา ศักดิ์ดาพิพานิช",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ภาควิชาเคมี",
+    "email": "jitladda.sak@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Jitladda%20Sakdapipanich",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "mu_sci_wave14_b_0141",
+    "full_name_th": "รศ.ดร. ไมเคิล แอนโทนี่ เอเลน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "คณะวิทยาศาสตร์",
+    "email": "michael.all@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Michael%20Allen",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "mu_sci_wave14_b_0117",
+    "full_name_th": "รศ.ดร. พรพรรณ มาตังคสมบัติ ชูพงศ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "คณะวิทยาศาสตร์",
+    "email": "ponpan.mat@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Ponpan%20Choopong",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "mahidoluni_facultyofs_meejoosmith_031",
+    "full_name_th": "ศ.ดร. ศิวพร มีจู สมิธ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ภาควิชาเคมี",
+    "email": "siwaporn.smi@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Siwaporn%20Smith",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "mahidoluni_facultyofs_laowattanakul_100",
+    "full_name_th": "อ. ชัยวัฒน์ เหล่าวัฒนากุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ภาควิชาฟิสิกส์",
+    "email": "tana.tac@mahidol.ac.th",
+    "source": "https://science.mahidol.ac.th/expertise/search.php?q=Tana%20Taechalertpaisarn",
+    "cluster": "Mahidol Faculty of Science"
+  },
+  {
+    "id": "thammasatu_facultyofp_sakulpanich_026",
+    "full_name_th": "ผศ.ดร. ภญ. อรภา สกุลพาณิชย์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม",
+    "email": "narong.sar@mahidol.ac.th",
+    "source": "https://pharm.tu.ac.th/academicstaff",
+    "cluster": "Thammasat Faculty of Pharmacy"
+  },
+  {
+    "id": "thammasatu_facultyofn_chaisitsanguan_211",
+    "full_name_th": "ผศ.ดร. กรรณิการ์ ชัยสิทธิ์สงวน",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "kunnikar@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_buaboon_208",
+    "full_name_th": "ผศ.ดร. ณัฐพัชร์ บัวบุญ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "natthapat@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_kongwattananon_209",
+    "full_name_th": "รศ.ดร. พวงผกา คงวัฒนานนท์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "puangpaka@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_nirattaradorn_206",
+    "full_name_th": "ผศ.ดร. มยุรี นิรัตธราดร",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "nmayuree@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_sanguanklin_214",
+    "full_name_th": "อ.ดร. ณัฏฐนันท์พร สงวนกลิ่น",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "snattha@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_kaewsriwong_205",
+    "full_name_th": "ผศ.ดร. ศิริลักษณ์ แก้วศรีวงค์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "siriluck.k@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_mutchim_215",
+    "full_name_th": "รศ.ดร. เยาวรัตน์ มัชฌิม",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "คณะพยาบาลศาสตร์",
+    "email": "yaowarat.m@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_raethong_216",
+    "full_name_th": "ผศ. ปริญญา แร่ทอง",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "คณะพยาบาลศาสตร์",
+    "email": "parinya@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_songprakon_210",
+    "full_name_th": "ผศ.ดร. เสาวนีย์ ทรงประโคน",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "saowanee@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_rachanakul_207",
+    "full_name_th": "รศ.ดร. ปรีย์กมล รัชนกุล",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "pregamol@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_saengnimitchaik_213",
+    "full_name_th": "ผศ.ดร. วิภาดา แสงนิมิตรชัยกุล",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "wipada@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_sangprasert_204",
+    "full_name_th": "รศ.ดร. พานทิพย์ แสงประเสริฐ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "pantip@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_kammabutr_203",
+    "full_name_th": "ผศ.ดร. จีราภรณ์ กรรมบุตร",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "สาขาวิชาการพยาบาลเวชปฏิบัติชุมชน",
+    "email": "jeeraporn.k@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  },
+  {
+    "id": "thammasatu_facultyofn_haniranphisai_218",
+    "full_name_th": "รศ.ดร. ธีรนุช ห้านิรัติศัย",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "คณะพยาบาลศาสตร์",
+    "email": "teeranut@nurse.tu.ac.th",
+    "source": "https://nurse.tu.ac.th/professor",
+    "cluster": "Thammasat Faculty of Nursing"
+  }
+]

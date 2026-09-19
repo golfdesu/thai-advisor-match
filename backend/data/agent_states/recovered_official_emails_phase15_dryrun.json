@@ -1,0 +1,2472 @@
+{
+  "apply": false,
+  "total_candidates": 356,
+  "total_valid_items": 352,
+  "updated_faculties": [
+    {
+      "id": "ku_wave18_econsrc_0017",
+      "full_name_th": "อ.ดร. กอบกาญจน์ ปั้นพงษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "feconkkp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0011",
+      "full_name_th": "ผศ. เบญญาภา ศรีปัญญา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fphbpk@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0034",
+      "full_name_th": "ผศ. เกศริน จันทรสุนทร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciksc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0011",
+      "full_name_th": "ผศ. ฐาปนี เฮงสนั่นกูล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "thapranee.h@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_asc_0016",
+      "full_name_th": "อ. ทิพวรรณ ฤทธิชัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาศาสตร์ กำแพงแสน",
+      "new_email": "faastwri@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0004",
+      "full_name_th": "อ. มนต์ชัย ลีลาถาวรสุข",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "feconmcl@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0015",
+      "full_name_th": "ผศ. กนกพร เพียรประเสริฐ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "feconknp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0004",
+      "full_name_th": "อ. ปิยะพงษ์ ศรีรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengpys@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0016",
+      "full_name_th": "ผศ. จิดาภา ใช้ฮวดเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengppc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0021",
+      "full_name_th": "อ. ไพรัช สร้อยทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengprs@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0022",
+      "full_name_th": "อ. คทาวัชร เสถียรปกิรณกรณ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengkts@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0007",
+      "full_name_th": "อ. ดุจดาว มังคละศิริ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famddm@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0001",
+      "full_name_th": "อ. ทิพวัลย์ พันธ์จันทึก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "thippawun.kh@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0020",
+      "full_name_th": "อ. สุวคนธ์ สมไพรพิทักษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famsws@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0021",
+      "full_name_th": "ผศ. นัฐนันท์ ศักดิ์สัมฤทธิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famnns@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0036",
+      "full_name_th": "อ. พัณณ์ไพลิน เหมะธุลิน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famplk@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0046",
+      "full_name_th": "ผศ. เกรียงไกร พร้อมนฤฤทธิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "kriangkrai.pro@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0048",
+      "full_name_th": "อ. กัณฐิกา กล่อมสุวรรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famkkk@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0053",
+      "full_name_th": "ผศ. นิรันดร์ ทรงนิรันดร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "nirun.th@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0065",
+      "full_name_th": "ผศ. กฤตพงศ์ วัชระนุกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "krittapong.wat@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0067",
+      "full_name_th": "ผศ. เบญจวรรณ ศุภภัทรพร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "fambws@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0068",
+      "full_name_th": "ผศ. กันยารัตน์ ดาษจันทึก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famkrd@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0005",
+      "full_name_th": "ผศ. วารุณี ตันติวงศ์วาณิช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmswrt@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0010",
+      "full_name_th": "ผศ. พัชนิจ เนาวพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmspcn@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0016",
+      "full_name_th": "อ. มุขสุดา พูลสวัสดิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsmsp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0041",
+      "full_name_th": "ผศ. พรทิวา วิจิตรโกเมน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsptw@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0050",
+      "full_name_th": "ผศ. พชร สุขสุเมฆ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmspcs@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_nrai_0029",
+      "full_name_th": "ผศ. ณรงค์ กมลรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร สกลนคร",
+      "new_email": "fnankr@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_nrai_0043",
+      "full_name_th": "อ. เสาวคนธ์ ต่วนเทศ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร สกลนคร",
+      "new_email": "fnaskt@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_nrai_0064",
+      "full_name_th": "อ. วิภามาศ ไชยภักดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร สกลนคร",
+      "new_email": "fnawmc@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0005",
+      "full_name_th": "ผศ. ไกรวิชญ์ เรืองฤาหาร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fsekwr@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0027",
+      "full_name_th": "ผศ. อมรเดช นวลมณี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fseadn@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0029",
+      "full_name_th": "อ. วิภาดา ไชยเชษฐ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsewdp@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0047",
+      "full_name_th": "ผศ. วัชระ เทพารส",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "watchara.tha@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0054",
+      "full_name_th": "อ. ปิยนุช เนตรคุณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsepnk@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0057",
+      "full_name_th": "อ. ณัฐปภัสร์ จันทร์สาขาธนา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fserpc@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0061",
+      "full_name_th": "อ. อรพรรณ อินทรักษา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fseopi@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0063",
+      "full_name_th": "อ. ณัฐิกา ธนูทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsentt@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0064",
+      "full_name_th": "อ. กรรณิการ์ ถนอมสิทธิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "kannikar.tha@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0074",
+      "full_name_th": "อ. ไกรศักดิ์ ไกรษรวงค์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fseksk@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0100",
+      "full_name_th": "รศ. ศุษมา โชคเพิ่มพูน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsesms@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0001",
+      "full_name_th": "อ. อุดมพร ตุงคะศิริ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciudt@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0003",
+      "full_name_th": "อ. สุชาดา ชมจันทร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciscc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0008",
+      "full_name_th": "อ. อานนท์ ผ่องรัศมีเพ็ญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscianp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0010",
+      "full_name_th": "อ. จารุวรรณ สุระเสียง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscijrp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0016",
+      "full_name_th": "ผศ. สมภพ สาครดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscisps@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0039",
+      "full_name_th": "ผศ. ดลลักษณ์ มานพ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscirtm@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0053",
+      "full_name_th": "อ. อรนุช นิลเขต",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciork@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0054",
+      "full_name_th": "อ. เมธี จันทโรปกรณ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscimtc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0061",
+      "full_name_th": "อ. เกริก วงศ์สอนธรรม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscikws@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0063",
+      "full_name_th": "อ. จันทร์ทรงกลด ข่ายม่าน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscicsk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0006",
+      "full_name_th": "รศ.ดร. ณรงค์ฤทธิ์ ว่องไว",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengnrw@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0069",
+      "full_name_th": "อ. พัชรินทร์ นันทพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fseprn@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0087",
+      "full_name_th": "อ. จิรวัฒน์ อรรถเศรษฐ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsejwa@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0023",
+      "full_name_th": "อ. ชัยฤกษ์ ตั้งเฮงเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciclt@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_asc_0164",
+      "full_name_th": "ผศ. พีรพจน์ ปิ่นทองดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาศาสตร์ กำแพงแสน",
+      "new_email": "phiraphot.p@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0052",
+      "full_name_th": "ผศ. ชาติชาย วิริยะเจริญกิจ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famccw@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0018",
+      "full_name_th": "อ. อำพล วิจิตขจี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsapw@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0043",
+      "full_name_th": "ผศ. มนัสรา เรียนสุเมธธราดล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsmnr@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0056",
+      "full_name_th": "อ. วุฒิชัย วงศ์ณะรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsewcw@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0102",
+      "full_name_th": "ผศ. ธนวัฒน์ ภัทรวรเมธ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsetnp@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0017",
+      "full_name_th": "อ. ปุณณะ ยศปัญญา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengpny@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0046",
+      "full_name_th": "รศ.ดร. ภัทราวดี ประเสริฐสังข์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "patarawadee.s@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_nrai_0055",
+      "full_name_th": "อ. โก้ ยาลัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร สกลนคร",
+      "new_email": "fnakyl@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0020",
+      "full_name_th": "ผศ. ต่อศักดิ์ ประเสริฐสังข์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "torsak.p@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0026",
+      "full_name_th": "ผศ. ศรัณย์ ดั่นสถิตย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmssrd@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0082",
+      "full_name_th": "อ. จักรพันธุ์ จันภิลม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengckc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_ifrpd_0059",
+      "full_name_th": "อ. สาวิณี กฤตผล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "สถาบันค้นคว้าและพัฒนาผลิตภัณฑ์อาหาร",
+      "new_email": "ifrsnsam@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0012",
+      "full_name_th": "ผศ. อนันต์ อิฟติคาร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fseani@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0003",
+      "full_name_th": "ผศ. ศิริพร ทับทิม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsespt@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0015",
+      "full_name_th": "อ. ปฏิพัทธ์ สิทธิ์ประเสริฐ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsepps@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0025",
+      "full_name_th": "ผศ. ฐิตาภรณ์ พ่อบุตรดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsetpp@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0060",
+      "full_name_th": "อ. กนกทิพย์ โคตรสำราญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsektk@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0101",
+      "full_name_th": "ผศ. พนม ท้าวดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "pranom.t@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0103",
+      "full_name_th": "อ. อรัญ ประกอบสัญท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "aran.pr@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0058",
+      "full_name_th": "ผศ. ว่าที่ร้อยตรี วรสิทธิ์ ปาลกะวงศ์ ณ อยุธยา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciwrp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0067",
+      "full_name_th": "อ. ธนบัตร พรมจันทร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscitnp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0066",
+      "full_name_th": "ผศ. พิชชานันท์ ภาโสภะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "fampcp@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0012",
+      "full_name_th": "ผศ. ประไพพิศ สวัสดิ์รัมย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsppsr@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0003",
+      "full_name_th": "ผศ.ดร. พัสกร องอาจ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fampka@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0016",
+      "full_name_th": "ผศ.ดร. นิรวรรณ แสนโพธิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fphnws@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_nrai_0026",
+      "full_name_th": "ผศ.ดร. เกตุนภัส ศรีไพโรจน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร สกลนคร",
+      "new_email": "fnaksp@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_nrai_0053",
+      "full_name_th": "ผศ.ดร. อัมพร ศรีคราม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร สกลนคร",
+      "new_email": "fnaaps@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_nrai_0058",
+      "full_name_th": "อ.ดร. ฤทัยทิพย์ สุระเสียง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร สกลนคร",
+      "new_email": "fnarss@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0002",
+      "full_name_th": "รศ.ดร. ศรีบุษย์ ศรีไชยจรูญพง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fphsbs@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0002",
+      "full_name_th": "อ. อังศุธร เถื่อนนาดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "feconast@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0002",
+      "full_name_th": "ผศ.ดร. จิรวรรณ เจริญสุข",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscijrc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engkps_0094",
+      "full_name_th": "ผศ.ดร. จิรเกียรติ ทรายทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ กำแพงแสน",
+      "new_email": "sfengcrs@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0010",
+      "full_name_th": "ผศ.ดร. ถนอมศักดิ์ วงศ์มีแก้ว",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "tanomsak.wo@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0107",
+      "full_name_th": "ผศ.ดร. ศราวุฒิ สุพรรณราช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsesws@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0035",
+      "full_name_th": "รศ.ดร. สมภพ จรุงธรรมโชติ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengspj@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0009",
+      "full_name_th": "ผศ.ดร. ชาตินักรบ แสงสว่าง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imccrs@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0023",
+      "full_name_th": "อ.ดร. จุมพฏ บริราช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsjpb@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0064",
+      "full_name_th": "ผศ.ดร. ชัยฤกษ์ จักรพัฒนจิต",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengcrj@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0104",
+      "full_name_th": "ผศ.ดร. ณธกร ทัศนัส",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsenkt@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0004",
+      "full_name_th": "ผศ.ดร. สุภาพ กัญญาคำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsespk@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0022",
+      "full_name_th": "ผศ.ดร. วุฒิพงศ์ อาจริยอาจอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "feconwpa@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0022",
+      "full_name_th": "ผศ.ดร. วลีพรรณ กันเนื่อง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcwlg@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0020",
+      "full_name_th": "ผศ.ดร. กรวิทย์ ออกผล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengkro@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0058",
+      "full_name_th": "ผศ.ดร. เตือนใจ น้อยพา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "thunjai.y@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0024",
+      "full_name_th": "รศ.ดร. อธิกา วงค์กวานกลม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fseakw@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0073",
+      "full_name_th": "รศ.ดร. สิรางค์ กลั่นคำสอน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengsrk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0009",
+      "full_name_th": "ผศ.ดร. ชิราภรณ์ วงศ์แสน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "feconcrw@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_agrips_0114",
+      "full_name_th": "ผศ.ดร. ชัชมาศ กาญจนอุดมการ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเกษตร กำแพงแสน",
+      "new_email": "fagrcmk@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_asc_0108",
+      "full_name_th": "อ.ดร. ประดุจเนตร เกตุวงค์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาศาสตร์ กำแพงแสน",
+      "new_email": "faaspnke@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0003",
+      "full_name_th": "ผศ.ดร. พัฒน์ พัฒนรังสรรค์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "feconppt@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0014",
+      "full_name_th": "ผศ.ดร. ฆนัทนันท์ ทวีวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "gradknt@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0016",
+      "full_name_th": "ผศ.ดร. นรารัก บุญญานาม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "gradnrb@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0018",
+      "full_name_th": "ผศ.ดร. ปาริฉัตร เต็งสุวรรณ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "feconprt@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0019",
+      "full_name_th": "อ.ดร. วรยศ ละม้ายศรี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "gradwrl@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0063",
+      "full_name_th": "อ.ดร. วสันต์ ตันเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengwst@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0020",
+      "full_name_th": "อ.ดร. เอกภัทร ลักษณะคำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "feconakl@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0021",
+      "full_name_th": "ผศ.ดร. จุฑารัตน์ หนูสุวรรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "feconctn@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0001",
+      "full_name_th": "รศ.ดร. พูลพงษ์ พงษ์วิทยภานุ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengpup@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0002",
+      "full_name_th": "รศ.ดร. ศักรธร บุญทวียุวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengskb@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0023",
+      "full_name_th": "ผศ.ดร. รัฐกฤต เรียบร้อย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcrkr@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0018",
+      "full_name_th": "ผศ.ดร. ฐนียา สัตยพานิช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengtns@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0019",
+      "full_name_th": "ผศ.ดร. วัชรพัฐ เมตตานันท",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengvcm@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0025",
+      "full_name_th": "ผศ.ดร. ประวิทย์ ชุมชู",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengpwc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0036",
+      "full_name_th": "ผศ.ดร. สุภัทร พัฒน์วิชัยโชติ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengspp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0039",
+      "full_name_th": "ผศ.ดร. บุญธรรม วงศ์ไชย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengbtw@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0041",
+      "full_name_th": "รศ.ดร. รจนา ประไพนพ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengrcp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0042",
+      "full_name_th": "รศ.ดร. สืบสกุล คุรุรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengssg@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0043",
+      "full_name_th": "ผศ.ดร. จิรโรจน์ บูรณะโรจน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengjrb@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0044",
+      "full_name_th": "รศ.ดร. อบ นิลผาย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengonp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0045",
+      "full_name_th": "ผศ.ดร. สุธาทิพย์ วิทยปิยานนท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengstw@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0050",
+      "full_name_th": "ผศ.ดร. กิตติพงษ์ เยาวาจา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengkty@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0054",
+      "full_name_th": "ผศ.ดร. สุภัทรชัย ชมพันธุ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "suphattharachai@eng.src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0057",
+      "full_name_th": "ผศ.ดร. อุมารินทร์ แสงพานิช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengums@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0066",
+      "full_name_th": "ผศ.ดร. ธีรพงษ์ ศรีเชียงสา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengtrs@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0077",
+      "full_name_th": "ผศ.ดร. จันจิรา คงชื่นใจ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengjjk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0058",
+      "full_name_th": "รศ.ดร. ปรีชานนท์ คุ้มกระทึก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengpck@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0059",
+      "full_name_th": "ผศ.ดร. สาริณี อุ่ยตระกูล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengsro@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0060",
+      "full_name_th": "ผศ.ดร. ศิริชัย วัฒนาโสภณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengsrw@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0062",
+      "full_name_th": "ผศ.ดร. ไพศักดิ์ พูลผกา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengpsp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0076",
+      "full_name_th": "ผศ.ดร. ประภาพรรณ เกษราพงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengppk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0083",
+      "full_name_th": "ผศ.ดร. เชฎฐา ชำนาญหล่อ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengctc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0084",
+      "full_name_th": "ผศ.ดร. จิราภรณ์ ประดับวงษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengjrp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0012",
+      "full_name_th": "รศ.ดร. กันยารัตน์ สุขะวัธนกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "kanyarat.suk@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0022",
+      "full_name_th": "ผศ.ดร. สุพรรณิการ์ สุภพล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famsns@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0024",
+      "full_name_th": "ผศ.ดร. กุลนันทน์ ศรีพงษ์พันธุ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "kullanun.s@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0034",
+      "full_name_th": "ผศ.ดร. พีรียา ทักษานันท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "fampyt@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0047",
+      "full_name_th": "ผศ.ดร. วรเมธ ยอดบุ่น",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "worameta.y@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0049",
+      "full_name_th": "อ.ดร. ภควรรณพร พิศุทธิสุวรรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famppp@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0054",
+      "full_name_th": "ผศ.ดร. เพชรประกาย กุลตังวัฒนา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famppk@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0021",
+      "full_name_th": "ผศ.ดร. นนทิพัฒน์ ทวีวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcnpt@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0071",
+      "full_name_th": "ผศ.ดร. ปรัชญา งามจันทร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "fampyng@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0001",
+      "full_name_th": "ศ.ดร. เชิดวงศ์ แสงศุภวานิช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imccvs@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0004",
+      "full_name_th": "ผศ.ดร. แพรวพรรณ ออเรืองเอก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcppo@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0005",
+      "full_name_th": "ผศ.ดร. วัลลีย์ นวนมุสิก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcwln@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0010",
+      "full_name_th": "ผศ.ดร. ศุภวัฒน์ ชัยเกษม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcspc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0007",
+      "full_name_th": "ผศ.ดร. พัชรา ศรีพระบุ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcpcs@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0011",
+      "full_name_th": "ผศ.ดร. ศิรินุช อินละคร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmssri@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0017",
+      "full_name_th": "รศ.ดร. ยอดชาย เตียเปิ้น",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcyct@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0020",
+      "full_name_th": "รศ.ดร. สุรศักดิ์ เพิ่มทรัพย์ทวี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcsrp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0027",
+      "full_name_th": "ผศ.ดร. กันตภณ ธนกิจกร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcktt@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0009",
+      "full_name_th": "ผศ.ดร. พิมพรรณ สุจารินพงค์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmspps@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0028",
+      "full_name_th": "ผศ.ดร. พงศ์ภัค บานชื่น",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsppb@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0015",
+      "full_name_th": "รศ.ดร. วรินท์มาศ เกษทองมา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fphwkm@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0020",
+      "full_name_th": "ผศ.ดร. สาธินี ศิริวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fsesas@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0040",
+      "full_name_th": "ผศ.ดร. นวลลักษณ์ แสงเพิ่ม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsnls@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0047",
+      "full_name_th": "ผศ.ดร. สิทธิเดช บำรุงทรัพย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmssdb@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_nrai_0024",
+      "full_name_th": "รศ.ดร. พิชาด เขจรศาสตร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร สกลนคร",
+      "new_email": "fnapck@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0064",
+      "full_name_th": "อ.ดร. ธิติศักดิ์ เดือดสันเทียะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsttd@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0053",
+      "full_name_th": "ผศ.ดร. ณภสินธุ์ พัฒนากุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsensp@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_nrai_0021",
+      "full_name_th": "รศ.ดร. พัดชา เศรษฐากา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร สกลนคร",
+      "new_email": "fnapcs@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0006",
+      "full_name_th": "รศ.ดร. รัชฎาภรณ์ อึ้งเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fserdu@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0008",
+      "full_name_th": "อ.ดร. จิรพิชชา บุญพอ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fsejcb@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0014",
+      "full_name_th": "รศ.ดร. รพีพรรณ ยงยอด",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fphrpy@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0012",
+      "full_name_th": "ผศ.ดร. สุรศักดิ์ ตั้งสกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsesst@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0014",
+      "full_name_th": "ผศ.ดร. ศศิธร สุชัยยะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsests@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0016",
+      "full_name_th": "รศ.ดร. ยุวดี แซ่ตั้ง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "yuwadee.h@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0035",
+      "full_name_th": "ผศ.ดร. นารีรัตน์ กิติศรีปัญญา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "nareerat.k@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0036",
+      "full_name_th": "รศ.ดร. ประครอง วรกา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "prakrong.v@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0048",
+      "full_name_th": "ผศ.ดร. นงค์ลักษณ์ เหลาพรม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsenll@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0051",
+      "full_name_th": "อ.ดร. พรรณนิภา รินทระ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fseppr@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0006",
+      "full_name_th": "ผศ.ดร. สุพาพร บรรดาศักดิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscispr@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0065",
+      "full_name_th": "ผศ.ดร. สายฝน จันผกา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsespc@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0098",
+      "full_name_th": "ผศ.ดร. ศุภลักษณ์ สถิรชีวิน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "supalak.sat@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0068",
+      "full_name_th": "ผศ.ดร. เพ็ญศิริ สมพงษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fseprs@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0077",
+      "full_name_th": "อ.ดร. ประภากรณ์ แสงวิจิตร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsepgs@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0082",
+      "full_name_th": "ผศ.ดร. รุ่งทวี ผดากาล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsertp@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0004",
+      "full_name_th": "ผศ.ดร. อรวรรณ วัชนุภาพร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciorw@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0007",
+      "full_name_th": "ผศ.ดร. วีระยุทธ พิมพาภรณ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciwyp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0011",
+      "full_name_th": "อ.ดร. บุญชู จิตนุพงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscibcj@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0015",
+      "full_name_th": "อ.ดร. สมสวัสดิ์ นิลดำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciswn@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0017",
+      "full_name_th": "ผศ.ดร. วิเชียร ศิริพรม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciwcs@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0025",
+      "full_name_th": "ผศ.ดร. อัมภิกา บุญมี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciapb@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0026",
+      "full_name_th": "รศ.ดร. ปัญญา แขน้ำแก้ว",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscipyk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0028",
+      "full_name_th": "อ.ดร. ณัชชา กุลจิราธนโชติ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscinck@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0037",
+      "full_name_th": "ผศ.ดร. สุวพร เหลืองขมิ้น",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciswl@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0040",
+      "full_name_th": "อ.ดร. ดลภา พศกชาติ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciknp@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0042",
+      "full_name_th": "ผศ.ดร. ยงยุทธิ์ มั่นจิต",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciyym@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0051",
+      "full_name_th": "อ.ดร. ณัฐฐนนท์ ทรงสุวรรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscinns@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0055",
+      "full_name_th": "ผศ.ดร. จันทร์เพ็ญ ตั้งจิตรเจริญกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscijpt@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0060",
+      "full_name_th": "อ.ดร. จรรยา เจตน์เจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscijyj@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0003",
+      "full_name_th": "ผศ.ดร. ศรินยา สนิทวงศ์ ณ อยุธยา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcsrs@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0024",
+      "full_name_th": "ผศ.ดร. ประสิทธิชัย ณรงค์เลิศฤทธิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengpsn@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0023",
+      "full_name_th": "ผศ.ดร. พิมพ์อมร โปร่งมณี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "fampmn@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_econsrc_0008",
+      "full_name_th": "รศ.ดร. ฐิติวรรณ ศรีเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์ ศรีราชา",
+      "new_email": "fecontws@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_nrai_0002",
+      "full_name_th": "ผศ.ดร. ปานชีวัน ปอนพังงา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะทรัพยากรธรรมชาติและอุตสาหกรรมเกษตร สกลนคร",
+      "new_email": "fnapwp@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0086",
+      "full_name_th": "ผศ.ดร. รังสรรค์ ไชยเชษฐ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsersc@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0035",
+      "full_name_th": "ผศ.ดร. วิศวัฒน์ สกุลศักดิ์นิมิตร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciwws@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0056",
+      "full_name_th": "ผศ.ดร. ภัทรวดี สุ่มทอง นาคมี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscipts@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0032",
+      "full_name_th": "ผศ.ดร. ยุวดี ศิริยทรัพย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsyvs@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0046",
+      "full_name_th": "ผศ.ดร. อรรถพล ชัยมนัสกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengatc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0003",
+      "full_name_th": "ผศ.ดร. สุภัชญา ชวนพงษ์พานิช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengsyc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0007",
+      "full_name_th": "ผศ.ดร. รัตนี คำมูลคร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fsernk@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0081",
+      "full_name_th": "ผศ.ดร. อมลิน ต้องกระโทก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fseart@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0032",
+      "full_name_th": "ผศ.ดร. กุลวดี สมบูรณ์วิวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengkds@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0056",
+      "full_name_th": "ผศ.ดร. นาตยา คล้ายเรือง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengntk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0078",
+      "full_name_th": "ผศ.ดร. จักรินทร์ กลั่นเงิน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengjkk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0065",
+      "full_name_th": "ผศ.ดร. ธเนศ วงศ์หงษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengtnw@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0037",
+      "full_name_th": "ผศ.ดร. รัฐพล สาครสินธุ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengrts@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0047",
+      "full_name_th": "รศ.ดร. สมพล สกุลหลง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengsps@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0074",
+      "full_name_th": "ผศ.ดร. เพ็ญสุดา พันฤทธิ์ดำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "pensuda.p@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0075",
+      "full_name_th": "ผศ.ดร. ชัยวัฒน์ นุ่มทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengcwn@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0081",
+      "full_name_th": "ผศ.ดร. ธนพันธ์ คงทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengtnk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_lams_0026",
+      "full_name_th": "ผศ.ดร. เปรมฤดี จิตรเกื้อกูล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "fampdj@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0019",
+      "full_name_th": "รศ.ดร. ประชากร แก้วเขียว",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcpkk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_mar_0024",
+      "full_name_th": "ผศ.ดร. ฉัตรชัย เอี่ยมพรสิน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imccca@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0034",
+      "full_name_th": "อ.ดร. ศุภาภาส คำโตนด",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsspk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0001",
+      "full_name_th": "ผศ.ดร. สาวิณี แสงสุริยันต์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsesns@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_msc_0035",
+      "full_name_th": "ผศ.ดร. ถิตรัตน์ พิมพาภรณ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsttk@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_pubh_0001",
+      "full_name_th": "รศ.ดร. วุธิพงศ์ ภักดีกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fsewtp@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave17_hum_0055",
+      "full_name_th": "ผศ.ดร. ธนภัส สนธิรักษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะมนุษยศาสตร์",
+      "new_email": "fhumkas@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0019",
+      "full_name_th": "ผศ.ดร. ภักดี คบกลาง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "pakdee.k@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0021",
+      "full_name_th": "ผศ.ดร. รฐานิษฐ์ สุขธนาภิรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "rathanit.s@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0028",
+      "full_name_th": "ผศ.ดร. นัทกาญจน์ ประเสริฐสังข์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsenkp@csc.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0066",
+      "full_name_th": "ผศ.ดร. อธิสุนทร ตระกูลบุญตา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "soontorn.bo@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0045",
+      "full_name_th": "ผศ.ดร. แพรทอง เหลาภา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "paethong.s@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0005",
+      "full_name_th": "ผศ.ดร. ฉัตรชัย เกษมทวีโชค",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscicck@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0009",
+      "full_name_th": "ผศ.ดร. ชโลธร ชูทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciclc@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_sisc_0036",
+      "full_name_th": "ผศ.ดร. วรสิทธิ ศรีบุญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfsciwss@src.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_scie_0044",
+      "full_name_th": "ผศ.ดร. ธนิกา ขันอาสา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "tanika.k@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave17_soc_0056",
+      "full_name_th": "อ.ดร. กุลปราโมช ประทุมชัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสังคมศาสตร์",
+      "new_email": "fsockop@nontri.ku.ac.th"
+    },
+    {
+      "id": "ku_wave18_engsrc_0038",
+      "full_name_th": "ผศ.ดร. ประทีป ชัยเสริมเทวัญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengptc@src.ku.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0011",
+      "full_name_th": "ดร. Chanat Aonbangkhen",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chanat.a@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0018",
+      "full_name_th": "ศ.ดร. Khanitha Pudhom",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "khanitha.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0005",
+      "full_name_th": "ศ.ดร. Aroonsiri Shitangkoon",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "aroonsiri.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0026",
+      "full_name_th": "รศ.ดร. Nattaya Ngamrojanavanich",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nattaya.n@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0027",
+      "full_name_th": "รศ.ดร. Nawaporn Vinayavekhin",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nawaporn.v@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0028",
+      "full_name_th": "ศ.ดร. Nipaka Sukpirom",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nipaka.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0029",
+      "full_name_th": "ศ.ดร. Nongnuj Muangsin",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nongnuj.j@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0001",
+      "full_name_th": "ศ.ดร. Amit Jaisi",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "amit.j@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0002",
+      "full_name_th": "รศ.ดร. Anawat Ajavakom",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "anawat.a@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0003",
+      "full_name_th": "ดร. Andrew William King",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "andrew.w@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0008",
+      "full_name_th": "รศ.ดร. Boosayarat Tomapatanaget",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "boosayarat.t@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0012",
+      "full_name_th": "รศ.ดร. Charoenkwan Kraiya",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "charoenkwan.k@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0017",
+      "full_name_th": "รศ.ดร. Kanet Wongravee",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "kanet.w@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0022",
+      "full_name_th": "ศ.ดร. Nadnudda Rodthongkum",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nadnudda.r@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0031",
+      "full_name_th": "ศ.ดร. Numpon Insin",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "numpon.i@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0035",
+      "full_name_th": "ศ.ดร. Panawan Vanaphuti",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "panawan.v@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0040",
+      "full_name_th": "รศ.ดร. Pattara Thiraphibundet",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "pattara.t@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0048",
+      "full_name_th": "ศ.ดร. Puttaruksa Varanusupakul",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "puttaruksa.w@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0060",
+      "full_name_th": "ศ.ดร. Supawan Tantayanon",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "supawan.t@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0070",
+      "full_name_th": "ศ.ดร. Varol Intasanta",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "varol.i@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0079",
+      "full_name_th": "รศ.ดร. Worawan Bhanthumnavin",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "worawan.b@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0080",
+      "full_name_th": "รศ.ดร. Yongsak Sritana-anant",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "yongsak.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0004",
+      "full_name_th": "รศ.ดร. Apichat Imyim",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "apichat.i@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0006",
+      "full_name_th": "ศ.ดร. Benjaporn Narupai",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "benjaporn.n@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0007",
+      "full_name_th": "ศ.ดร. Boodsarin Sawatlon",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "boodsarin.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0009",
+      "full_name_th": "ศ.ดร. Buncha Pulpoka",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "buncha.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0010",
+      "full_name_th": "รศ.ดร. Chadin Kulsing",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chadin.k@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0013",
+      "full_name_th": "รศ.ดร. Duangamol Tungasmita",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "duangamol.n@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0014",
+      "full_name_th": "รศ.ดร. Fuangfa Unob",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fuangfa.u@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0015",
+      "full_name_th": "ศ.ดร. Janjira Panchompoo",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "janjira.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0016",
+      "full_name_th": "ศ.ดร. Junjuda Unruangsri",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "junjuda.u@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0019",
+      "full_name_th": "ศ.ดร. Luxsana Dubas",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "luxsana.l@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0021",
+      "full_name_th": "รศ.ดร. Monpichar Srisa-Art",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "monpichar.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0023",
+      "full_name_th": "ศ.ดร. Nakara Bhawawet",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nakara.b@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0024",
+      "full_name_th": "รศ.ดร. Narong Praphairaksit",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "narong.pr@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0025",
+      "full_name_th": "ศ.ดร. Nattapong Paiboonvorachat",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nattapong.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0034",
+      "full_name_th": "รศ.ดร. Pakorn Varanusupakul",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "pakorn.v@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0036",
+      "full_name_th": "ศ.ดร. Pannee Leeladee",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "pannee.l@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0037",
+      "full_name_th": "ศ.ดร. Panuwat Padungros",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "panuwat.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0038",
+      "full_name_th": "ศ.ดร. Parichatr Vanalabhpatana",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "parichatr.v@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0039",
+      "full_name_th": "ศ.ดร. Patchanita Thamyongkit",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "patchanita.v@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0041",
+      "full_name_th": "ศ.ดร. Polkit Sangvanich",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "polkit.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0042",
+      "full_name_th": "ศ.ดร. Pongphak Chidchob",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "pongphak.c@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0043",
+      "full_name_th": "ศ.ดร. Pornthep Sompornpisut",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "pornthep.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0047",
+      "full_name_th": "ศ.ดร. Pumidech Puthongkham",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "pumidech.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0049",
+      "full_name_th": "รศ.ดร. Rojrit Rojanathanes",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "rojrit.r@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0050",
+      "full_name_th": "ศ.ดร. Sakulsuk Unarunotai",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "sakulsuk.u@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0052",
+      "full_name_th": "รศ.ดร. Saowarux Fuangswasdi",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "saowarux.f@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0053",
+      "full_name_th": "ศ. Siripastr Jayanta",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "siripastr.ja@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0055",
+      "full_name_th": "รศ.ดร. Soamwadee Chaianansucharit",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "soamwadee.c@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0056",
+      "full_name_th": "รศ.ดร. Somsak Pianwanit",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "somsak.t@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0058",
+      "full_name_th": "ดร. Supacha Wirojsaengthong",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "supacha.w@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0061",
+      "full_name_th": "ดร. Suppachai Srisantitham",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "suppachai.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0062",
+      "full_name_th": "รศ.ดร. Surachai Pornpakakul",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "surachai.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0063",
+      "full_name_th": "รศ.ดร. Tanatorn Khotavivattana",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "tanatorn.k@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0064",
+      "full_name_th": "ดร. Tatchamapan Yoskamtorn",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "tatchamapan.y@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0065",
+      "full_name_th": "ศ.ดร. Thammarat Aree",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "thammarat.a@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0066",
+      "full_name_th": "ศ.ดร. Thanit Praneenararat",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "thanit.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0067",
+      "full_name_th": "ศ.ดร. Thawatchai Tuntulani",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "thawatchai.t@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0068",
+      "full_name_th": "รศ.ดร. Thumnoon Nhujak",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "thumnoon.n@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0071",
+      "full_name_th": "รศ.ดร. Viwat Vchirawongkwin",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "viwat.v@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0074",
+      "full_name_th": "ศ.ดร. Waleed Alahmad",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "waleed.al@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0075",
+      "full_name_th": "รศ.ดร. Wanlapa Aeungmaitrepirom",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "wanlapa.a@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0076",
+      "full_name_th": "รศ.ดร. Warinthorn Chavasiri",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "warinthorn.c@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0077",
+      "full_name_th": "ศ.ดร. Wid Mekseriwattana",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "wid.m@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0078",
+      "full_name_th": "รศ.ดร. Wipark Anutrasakda",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "wipark.a@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0081",
+      "full_name_th": "ศ. กฤษณะ เนียมมณี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "kritsana.n@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0099",
+      "full_name_th": "รศ. นกุล คูหะโรจนานนท์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nagul.c@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0100",
+      "full_name_th": "ผศ. นฤมล ประทานวณิช",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "naruemon.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0101",
+      "full_name_th": "ผศ. นิธิ รุ่งธนาภิรมย์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nithi.r@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0086",
+      "full_name_th": "รศ. จริยา อุ่ยยะเสถียร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chariya.u@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0088",
+      "full_name_th": "รศ. จิราพรรณ สุนทรโชติ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "jiraphan.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0082",
+      "full_name_th": "ผศ. ก่อเกียรติ ก่อเกียรติคุณ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "korkeat.k@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0083",
+      "full_name_th": "รศ. กิติพร พลายมาศ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "kitiporn.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0084",
+      "full_name_th": "รศ. กีรติ ศรีอมร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "kirati.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0089",
+      "full_name_th": "รศ. ชัชวิทย์ อาภรณ์เทวัญ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chatchawit.a@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0090",
+      "full_name_th": "ผศ. ฑิตยา หวานวารี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "dittaya.w@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0091",
+      "full_name_th": "ผศ. ณัฐพล สนพะเนาว์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nattapon.so@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0092",
+      "full_name_th": "รศ. ณัฐพันธ์ กิติสิน",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nataphan.k@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0093",
+      "full_name_th": "รศ. ตวงรัตน์ ไชยชนะ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "tuangrat.c@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0094",
+      "full_name_th": "ศ. ทรงเกียรติ สุเมธกิจการ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "songkiat.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0095",
+      "full_name_th": "ผศ. ทรรปณ์ ปณิธานะรักษ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "thap.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0096",
+      "full_name_th": "รศ. ทิพวัลย์ สันติวิภานนท์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "tippawan.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0097",
+      "full_name_th": "ผศ. ธีรพงษ์ พงษ์พัฒนเจริญ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "teeraphong.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0098",
+      "full_name_th": "รศ. ธีระเดช กิตติภัสสร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "teeradej.k@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0154",
+      "full_name_th": "ผศ.ดร. นนทิวิชญ ตัณฑวณิช",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nontivich.t@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0160",
+      "full_name_th": "ผศ. สพ.ญ. ดร. วัชราภรณ์ ติยะสัตย์กุลโกวิท",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "wacharaporn.ti@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0162",
+      "full_name_th": "ผศ.ดร. เกรียง กาญจนวตี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "krieng.k@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0155",
+      "full_name_th": "รศ.ดร. ปิโยรส ทองเกิด",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "piyoros.t@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0141",
+      "full_name_th": "ศ.ดร. จันทร์เพ็ญ จันทร์เจ้า",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chanpen.c@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0144",
+      "full_name_th": "รศ.ดร. บัณฑิกา อารีย์กุล บุทเชอร์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "buntika.a@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0147",
+      "full_name_th": "ผศ.ดร. พงชัย หาญยุทธนากร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "pongchai.h@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0148",
+      "full_name_th": "รศ.ดร. วิเชฏฐ์ คนซื่อ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "wichase.k@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0156",
+      "full_name_th": "ผศ.ดร. ธงชัย งามประเสริฐวงศ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "thongchai.n@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0142",
+      "full_name_th": "ศ.ดร. สุจินดา มาลัยวิจิตรนนท์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "suchinda.m@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0143",
+      "full_name_th": "ศ.ดร. จิรศักดิ์ สุจริต",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chirasak.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0145",
+      "full_name_th": "รศ.ดร. ธนะกุล วรรณประเสริฐ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "thanakul.w@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0146",
+      "full_name_th": "ผศ.ดร. สุรีรัตน์ เดี่ยววาณิชย์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "sureerat.d@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0149",
+      "full_name_th": "ผศ.ดร. นพดล กิตนะ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "noppadon.k@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0150",
+      "full_name_th": "ผศ.ดร. จิรารัช กิตนะ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "jirarach.s@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0151",
+      "full_name_th": "รศ.ดร. สุกัญญา เจริญพร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "sukanya.ja@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0152",
+      "full_name_th": "ผศ.ดร. นิพาดา เรือนแก้ว ดิษยทัต",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nipada.r@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0153",
+      "full_name_th": "ผศ.ดร. อัมพร วิเวกแว่ว",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "amporn.w@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0157",
+      "full_name_th": "ผศ.ดร. มารุต เฟื่องอาวรณ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "marut.f@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0158",
+      "full_name_th": "ผศ.ดร. ณัฐพจน์ วาฤทธิ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "natapot.w@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0159",
+      "full_name_th": "ผศ.ดร. ชิดชัย จันทร์ตั้งสี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chitchai.c@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0161",
+      "full_name_th": "รศ.ดร. ปรวีร์ พรหมโชติ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "porrawee.p@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0163",
+      "full_name_th": "ผศ.ดร. ภาณุพงศ์ ธรรมโชติ จรูญโรจน์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "panupong.th@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0164",
+      "full_name_th": "ผศ.ดร. ณัฏฐ์ ทรงวรวิทย์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nut.so@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0165",
+      "full_name_th": "ผศ.ดร. ฉัตรชัย ภู่มาก",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chatchai.ph@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0166",
+      "full_name_th": "อ.ดร. วรัญญา อรัญวาลัย",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "varanya.a@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0168",
+      "full_name_th": "อ.ดร. ชวธัช ธนูสิงห์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chawatat.t@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0169",
+      "full_name_th": "อ.ดร. อาทิตย์ พลโยธา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "arthit.ph@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0171",
+      "full_name_th": "อ.ดร. ขัตพันธุ์ จันทะวงษ์ศรี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "khattapan.j@chula.ac.th"
+    },
+    {
+      "id": "cu_sci_wave14_b_0172",
+      "full_name_th": "อ.ดร. ธีรนัย อิทธิอุดมรักษ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "teeranai.i@chula.ac.th"
+    }
+  ],
+  "embedding_texts_rebuilt": 302
+}

@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789647203_c694e4",
+  "target_university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+  "target_university_en": "National Institute of Development Administration",
+  "target_faculty_th": "คณะรัฐประศาสนศาสตร์",
+  "target_faculty_en": "School of Public Administration",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://gspa.nida.ac.th",
+    "https://nida.ac.th"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

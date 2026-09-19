@@ -1,0 +1,93 @@
+{
+  "session_id": "extract_1789654089_f2db69",
+  "target_university_th": "มหาวิทยาลัยวลัยลักษณ์",
+  "target_university_en": "Walailak University",
+  "target_faculty_th": "สำนักวิชาสหเวชศาสตร์",
+  "target_faculty_en": "School of Allied Health Sciences",
+  "pending_urls": [
+    "https://sah.wu.ac.th/?page_id=16736&lang=en"
+  ],
+  "visited_urls": [
+    "https://sah.wu.ac.th/?page_id=17274",
+    "https://sah.wu.ac.th/?page_id=17219",
+    "https://sah.wu.ac.th/?page_id=17200",
+    "https://sah.wu.ac.th/?page_id=17174",
+    "https://sah.wu.ac.th/?p=17133",
+    "https://sah.wu.ac.th/?p=17121",
+    "https://sah.wu.ac.th/?p=17120",
+    "https://sah.wu.ac.th/?page_id=17088",
+    "https://sah.wu.ac.th/?page_id=17020",
+    "https://sah.wu.ac.th/?p=16991",
+    "https://sah.wu.ac.th/?page_id=16930",
+    "https://sah.wu.ac.th/?page_id=16920",
+    "https://sah.wu.ac.th/?page_id=16905",
+    "https://sah.wu.ac.th/?page_id=16894",
+    "https://sah.wu.ac.th/?page_id=16736&amp;lang=en"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "walailakun_schoolofal_chaikool_001": {
+      "id": "walailakun_schoolofal_chaikool_001",
+      "university": "Walailak University",
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "faculty": "School of Allied Health Sciences",
+      "faculty_th": "สำนักวิชาสหเวชศาสตร์",
+      "department": "สาขาวิชากายภาพบำบัด สำนักวิชาสหเวชศาสตร์",
+      "department_th": "สาขาวิชากายภาพบำบัด สำนักวิชาสหเวชศาสตร์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Salinee",
+      "last_name": "Chaikool",
+      "full_name": "Salinee Chaikool",
+      "full_name_th": "ผศ.ดร. สาลินี ไชยกูล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "กายภาพบำบัด",
+        "การรักษาอาการบาดเจ็บจากการกีฬา"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "walailakun_schoolofal_chaiban_002": {
+      "id": "walailakun_schoolofal_chaiban_002",
+      "university": "Walailak University",
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "faculty": "School of Allied Health Sciences",
+      "faculty_th": "สำนักวิชาสหเวชศาสตร์",
+      "department": "สาขาวิชากายภาพบำบัด สำนักวิชาสหเวชศาสตร์",
+      "department_th": "สาขาวิชากายภาพบำบัด สำนักวิชาสหเวชศาสตร์",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Suphattra",
+      "last_name": "Chaiban",
+      "full_name": "Suphattra Chaiban",
+      "full_name_th": "ผศ. สุพัตรา ไชยบาล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "กายภาพบำบัด",
+        "การรักษาอาการบาดเจ็บจากการกีฬา"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "สาลินี ไชยกูล": "walailakun_schoolofal_chaikool_001",
+    "สุพัตรา ไชยบาล": "walailakun_schoolofal_chaiban_002"
+  },
+  "dedup_emails": {},
+  "step_count": 15,
+  "total_tokens_used": 9466,
+  "status": "completed",
+  "last_error": null
+}

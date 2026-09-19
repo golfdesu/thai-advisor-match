@@ -1,0 +1,191 @@
+{
+  "mode": "DRY-RUN",
+  "total_candidates": 18,
+  "valid_candidates": 18,
+  "rejected_candidates": 0,
+  "updated_emails": [
+    {
+      "id": "cu_sasin_011",
+      "full_name_th": "อ. Dolchai La-ornual",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "dolchai.lar@mahidol.ac.th",
+      "profile_url": "https://www.sasin.edu/team/profile/dolchai-la-ornual",
+      "cluster": "Chula Sasin"
+    },
+    {
+      "id": "cu_sasin_014",
+      "full_name_th": "อ. Eliane Karsaklian",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "ekarsa2@uic.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/eliane-karsaklian",
+      "cluster": "Chula Sasin"
+    },
+    {
+      "id": "cu_sasin_028",
+      "full_name_th": "อ. Mark W. Finn",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "m-finn@nwu.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/mark-w-finn",
+      "cluster": "Chula Sasin"
+    },
+    {
+      "id": "cu_sasin_030",
+      "full_name_th": "อ. Michael Frenkel",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "michael.frenkel@whu.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/michael-frenkel",
+      "cluster": "Chula Sasin"
+    },
+    {
+      "id": "cu_sasin_045",
+      "full_name_th": "อ. Sankar Sen",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "sankar.sen@baruch.cuny.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/sankar-sen",
+      "cluster": "Chula Sasin"
+    },
+    {
+      "id": "cu_sasin_052",
+      "full_name_th": "อ. Tauhid R. Zaman",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันบัณฑิตบริหารธุรกิจ ศศินทร์ฯ",
+      "department_th": null,
+      "new_email": "tauhid.zaman@yale.edu",
+      "profile_url": "https://www.sasin.edu/team/profile/tauhid-r-zaman",
+      "cluster": "Chula Sasin"
+    },
+    {
+      "id": "chulalongk_centerofex_palaga_003",
+      "full_name_th": "ดร. ธนภัทร ปาลกะวงศ์ ณ อยุธยา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "ศูนย์วิจัยวัคซีน คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา คณะวิทยาศาสตร์",
+      "new_email": "tanapat.p@chula.ac.th",
+      "profile_url": "https://www.chulavrc.org/staff/tanapat-palaga/",
+      "cluster": "Chula VRC"
+    },
+    {
+      "id": "thammasatu_sirindhorn_hsu_009",
+      "full_name_th": "ดร. ซู-ฮัน ซู",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+      "department_th": null,
+      "new_email": "shuhanhsu@siit.tu.ac.th",
+      "profile_url": "https://www.siit.tu.ac.th/page_a.php?cid=88",
+      "cluster": "Thammasat SIIT"
+    },
+    {
+      "id": "cmu_eng_department_pawarut_73",
+      "full_name_th": "รศ.ดร. ปวรุตม์ จงชาญสิทโธ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "new_email": "pawarut.j@cmu.ac.th",
+      "profile_url": "https://me.eng.cmu.ac.th/staff/4",
+      "cluster": "CMU Engineering Administration"
+    },
+    {
+      "id": "cmu_eng_department_prof_60",
+      "full_name_th": "รศ.ดร. ดำรงศักดิ์ รินชุมภู",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "new_email": "damrongsak.r@cmu.ac.th",
+      "profile_url": "https://civil.eng.cmu.ac.th/?page_id=1096",
+      "cluster": "CMU Civil Engineering"
+    },
+    {
+      "id": "cmu_eng_cpe_002",
+      "full_name_th": "ผศ.ดร. กานต์ ปทานุคม",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "karn@eng.cmu.ac.th",
+      "profile_url": "https://cpe.eng.cmu.ac.th/lecturer-viewthai.php?view_id=Karn",
+      "cluster": "CMU Computer Engineering"
+    },
+    {
+      "id": "cmu_eng_department_santi_107",
+      "full_name_th": "ศ.ดร. สันติ พิทักษ์กิจนุกูร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "santi@eng.cmu.ac.th",
+      "profile_url": "https://cpe.eng.cmu.ac.th/lecturer-viewthai.php?view_id=Santi",
+      "cluster": "CMU Computer Engineering"
+    },
+    {
+      "id": "cmu_eng_cpe_003",
+      "full_name_th": "รศ.ดร. ปฏิเวธ วุฒิสารวัฒนา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "patiwet@eng.cmu.ac.th",
+      "profile_url": "https://cpe.eng.cmu.ac.th/lecturer-viewthai.php?view_id=Patiwet",
+      "cluster": "CMU Computer Engineering"
+    },
+    {
+      "id": "cmu_eng_cpe_006",
+      "full_name_th": "รศ.ดร. อัญญา อาภาวัชรุตม์ วีระประพันธ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "anya@eng.cmu.ac.th",
+      "profile_url": "https://cpe.eng.cmu.ac.th/lecturer-viewthai.php?view_id=Anya",
+      "cluster": "CMU Computer Engineering"
+    },
+    {
+      "id": "cmu_eng_department_lachana_112",
+      "full_name_th": "ผศ.ดร. ลัชนา ระมิงค์วงศ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "lachana@eng.cmu.ac.th",
+      "profile_url": "https://cpe.eng.cmu.ac.th/lecturer-viewthai.php?view_id=Lachana",
+      "cluster": "CMU Computer Engineering"
+    },
+    {
+      "id": "cmu_eng_department_paskorn_113",
+      "full_name_th": "ผศ.ดร. ภาสกร แช่มประเสริฐ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "paskorn@eng.cmu.ac.th",
+      "profile_url": "https://cpe.eng.cmu.ac.th/lecturer-viewthai.php?view_id=Paskorn",
+      "cluster": "CMU Computer Engineering"
+    },
+    {
+      "id": "chiangmaiu_facultyofe_boonma_009",
+      "full_name_th": "ผศ.ดร. พฤษภ์ บุญมา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "pruet@eng.cmu.ac.th",
+      "profile_url": "https://www.cpe.eng.cmu.ac.th/lecturer-thai.php",
+      "cluster": "CMU Computer Engineering"
+    },
+    {
+      "id": "cmu_eng_department_yuthapong_115",
+      "full_name_th": "ผศ.ดร. ยุทธพงษ์ สมจิต",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "yuthapong@eng.cmu.ac.th",
+      "profile_url": "https://cpe.eng.cmu.ac.th/lecturer-viewthai.php?view_id=Yuthapong",
+      "cluster": "CMU Computer Engineering"
+    }
+  ],
+  "skipped_already_populated": [],
+  "not_found_in_db": [],
+  "embedding_texts_rebuilt": 1
+}

@@ -1,0 +1,34 @@
+{
+  "session_id": "extract_1789709952_14b1cd",
+  "target_university_th": "มหาวิทยาลัยนเรศวร",
+  "target_university_en": "Naresuan University",
+  "target_faculty_th": "คณะวิทยาศาสตร์",
+  "target_faculty_en": "Faculty of Science",
+  "pending_urls": [
+    "https://chemistry.sci.nu.ac.th/personnel/industrial-chemistry",
+    "https://physics.sci.nu.ac.th/",
+    "https://physics.sci.nu.ac.th/staff",
+    "https://physics.sci.nu.ac.th/personnel/lecturer",
+    "https://physics.sci.nu.ac.th/personnel/staff"
+  ],
+  "visited_urls": [
+    "https://www.sci.nu.ac.th/",
+    "https://math.sci.nu.ac.th/index.php?page=team_academic",
+    "https://math.sci.nu.ac.th/",
+    "https://chemistry.sci.nu.ac.th/personnel/analytical-chemistry",
+    "https://chemistry.sci.nu.ac.th/",
+    "https://physics.sci.nu.ac.th/personal-service",
+    "https://physics.sci.nu.ac.th/personnel/executive",
+    "https://chemistry.sci.nu.ac.th/personnel/physical-chemistry",
+    "https://chemistry.sci.nu.ac.th/personnel/organic-chemistry",
+    "https://chemistry.sci.nu.ac.th/personnel/inorganic-chemistry"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 10,
+  "total_tokens_used": 7437,
+  "status": "completed",
+  "last_error": null
+}

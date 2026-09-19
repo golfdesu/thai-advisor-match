@@ -1,0 +1,1959 @@
+{
+  "apply": false,
+  "total_valid_items": 244,
+  "updated_faculties": [
+    {
+      "id": "ku_wave18_engsrc_0086",
+      "full_name_th": "อ. ยุพิน รักเกียรติ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengyps@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=520176"
+    },
+    {
+      "id": "ku_wave18_engsrc_0089",
+      "full_name_th": "อ. จตุพร เหรียญเจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "srcjtp@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=520191"
+    },
+    {
+      "id": "ku_wave18_engsrc_0092",
+      "full_name_th": "อ. อัญชลี รื่นฤทธิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "srcacl@kps.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=520195"
+    },
+    {
+      "id": "ku_wave18_lams_0006",
+      "full_name_th": "อ. เนตรนภา บาคำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "occnpb@csc.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=670063"
+    },
+    {
+      "id": "ku_wave18_lams_0070",
+      "full_name_th": "อ. กิตติมา งามวิไลกร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศิลปศาสตร์และวิทยาการจัดการ สกลนคร",
+      "new_email": "famkmt@csc.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=590096"
+    },
+    {
+      "id": "ku_wave18_mar_0008",
+      "full_name_th": "ผศ. ชลธิดา หลงพลอยพัด",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imccdl@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=580146"
+    },
+    {
+      "id": "ku_wave18_mar_0011",
+      "full_name_th": "ผศ. วรวุฒิ โป๊ะมา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcwrp@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=590163"
+    },
+    {
+      "id": "ku_wave18_mar_0035",
+      "full_name_th": "อ. ริสา ฟองสายชล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcrsf@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=670084"
+    },
+    {
+      "id": "ku_wave18_msc_0008",
+      "full_name_th": "ผศ. นิตยา โหราเรือง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmsntn@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480638"
+    },
+    {
+      "id": "ku_wave18_msc_0027",
+      "full_name_th": "อ. พรหมมินทร์ วงศ์รัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmspmw@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=540133"
+    },
+    {
+      "id": "ku_wave18_msc_0055",
+      "full_name_th": "ผศ. ทัชชกร สัมมะสุต",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmstcs@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=590157"
+    },
+    {
+      "id": "ku_wave18_pubh_0033",
+      "full_name_th": "อ. พงษ์พัฒน์ ภะวะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะสาธารณสุขศาสตร์ สกลนคร",
+      "new_email": "fphppp@csc.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=650045"
+    },
+    {
+      "id": "ku_wave18_scie_0007",
+      "full_name_th": "อ. วีรชาติ อักษรศักดิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsewca@csc.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=580032"
+    },
+    {
+      "id": "ku_wave18_scie_0073",
+      "full_name_th": "อ. สิทธิชัย ประพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "sitthichai.pr@nontri.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=640124"
+    },
+    {
+      "id": "ku_wave18_scie_0083",
+      "full_name_th": "ผศ. อาทิตย์ แสงงาม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fseats@csc.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=540010"
+    },
+    {
+      "id": "ku_wave18_scie_0094",
+      "full_name_th": "ผศ. พันจ่าอากาศเอก เพิ่มพล กุดจอมศรี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "phoempol.ku@nontri.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480465"
+    },
+    {
+      "id": "ku_wave18_scie_0099",
+      "full_name_th": "ผศ. กิติโชค พรหมณีวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "kitichoke.pr@nontri.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560083"
+    },
+    {
+      "id": "ku_wave18_sisc_0018",
+      "full_name_th": "ผศ. สุภารัตน์ จิตรแจ้ง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscispc@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480618"
+    },
+    {
+      "id": "ku_wave18_sisc_0072",
+      "full_name_th": "อ. กรบงกช บูรณ์เจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์ ศรีราชา",
+      "new_email": "sfscikbb@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=660150"
+    },
+    {
+      "id": "ku_wave18_scie_0075",
+      "full_name_th": "อ. ระพีพรรณ มาเห็ม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "rapepun.m@nontri.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=640130"
+    },
+    {
+      "id": "ku_wave18_mar_0031",
+      "full_name_th": "อ. โสภณา คุณุทัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะพาณิชยนาวีนานาชาติ",
+      "new_email": "imcspk@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=550140"
+    },
+    {
+      "id": "ku_wave18_scie_0116",
+      "full_name_th": "อ. ทัศวรรณ ปีคุณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "fsetwp@csc.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=580054"
+    },
+    {
+      "id": "ku_wave17_bus_0035",
+      "full_name_th": "ผศ.ดร. สุชัญญา สายชนะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "new_email": "fbussns@nontri.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=640097"
+    },
+    {
+      "id": "ku_wave18_edu_0039",
+      "full_name_th": "อ.ดร. นฤดล เสมชูโชติ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะศึกษาศาสตร์",
+      "new_email": "fedunds@nontri.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=660094"
+    },
+    {
+      "id": "ku_wave18_engsrc_0048",
+      "full_name_th": "รศ.ดร. ณัฐพล จันทร์พาณิชย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengnpc@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560164"
+    },
+    {
+      "id": "ku_wave18_msc_0076",
+      "full_name_th": "อ.ดร. ชลธร จันทะโสต",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาการจัดการ ศรีราชา",
+      "new_email": "fmscoj@nontri.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=660060"
+    },
+    {
+      "id": "ku_wave18_scie_0017",
+      "full_name_th": "รศ.ดร. วิรัช หิรัญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "wirach.hi@nontri.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=480242"
+    },
+    {
+      "id": "ku_wave18_scie_0049",
+      "full_name_th": "รศ.ดร. รุจิรัตน์ หาตรงจิตต์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์และวิศวกรรมศาสตร์ สกลนคร",
+      "new_email": "rujirat.ha@nontri.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=560209"
+    },
+    {
+      "id": "ku_wave18_engsrc_0080",
+      "full_name_th": "ผศ.ดร. ฐิติกร พัตนพิบูล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ศรีราชา",
+      "new_email": "sfengttp@src.ku.ac.th",
+      "new_profile_url": "https://research.ku.ac.th/forest/Person.aspx?id=550146"
+    },
+    {
+      "id": "cmu_27a704ea_6941",
+      "full_name_th": "รศ. ทพ. วริศ เผ่าเจริญ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "warit.p@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/warit.p@cmu.ac.th"
+    },
+    {
+      "id": "cmu_28f5f8c5_1901",
+      "full_name_th": "อ. ทพญ. ณัฐณิชา เกตุชัยโกศล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "natnicha.ketc@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/natnicha.ketc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3776dc46_1051",
+      "full_name_th": "อ. ทพ. ธารินทร์ เพียงสุข",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "tarin.p@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/tarin.p@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3804cd23_5874",
+      "full_name_th": "อ. ทพ. ประวีณ ไผ่วงษ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "praween.p@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/praween.p@cmu.ac.th"
+    },
+    {
+      "id": "cmu_39c89331_0938",
+      "full_name_th": "รศ. ทพ. อาณัติ เดวี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "anat.dewi@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/anat.dewi@cmu.ac.th"
+    },
+    {
+      "id": "cmu_401cb17c_3204",
+      "full_name_th": "รศ. ทพญ. มารศรี ชัยวรวิทย์กุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "marasri.chai@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/marasri.chai@cmu.ac.th"
+    },
+    {
+      "id": "cmu_438617a4_3938",
+      "full_name_th": "ผศ. ทพญ. พรรณวดี พันธัย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "panwadee.b@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/panwadee.b@cmu.ac.th"
+    },
+    {
+      "id": "cmu_25bcefeb_4041",
+      "full_name_th": "ผศ. ทพญ. ดร. ปิ่นปินัทธ์ วณิชย์สายทอง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "pinpinut.w@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/pinpinut.w@cmu.ac.th"
+    },
+    {
+      "id": "cmu_50eeedb9_4586",
+      "full_name_th": "อ. ทพญ. ดร. นฤภร วินัยโกศล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "naruephorn.v@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/naruephorn.v@cmu.ac.th"
+    },
+    {
+      "id": "cmu_36f04818_7623",
+      "full_name_th": "ผศ. ทพญ. ดร. ภัทรณัฏฐ์ บัณฑิตคุณานนต์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "phattharanat.banthit@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/phattharanat.banthit@cmu.ac.th"
+    },
+    {
+      "id": "cmu_536e17d8_4050",
+      "full_name_th": "อ. ทพ. ดร. กชพล คูหารัตนไชย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kachaphol.ku@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kachaphol.ku@cmu.ac.th"
+    },
+    {
+      "id": "cmu_58e7c3aa_4316",
+      "full_name_th": "ผศ. ทพญ. ดร. พัชราวรรณ ศีลธรรมพิทักษ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "patcharawan.sil@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/patcharawan.sil@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5c9c5263_6704",
+      "full_name_th": "รศ. ทพ. ดร. คณิช ตรีภูวพฤทธิ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kanich.t@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kanich.t@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5cdeb3c7_1680",
+      "full_name_th": "ผศ. ทพ. ดร. กิตติพิชญ์ กลั่นเลี้ยง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kittipit.k@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kittipit.k@cmu.ac.th"
+    },
+    {
+      "id": "cmu_6179dad4_8216",
+      "full_name_th": "อ. ทพ. ดร. อภิชัย ยาวิราช",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "apichai.y@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/apichai.y@cmu.ac.th"
+    },
+    {
+      "id": "cmu_6588a2cd_5438",
+      "full_name_th": "ผศ. ทพ. ดร. ชยารพ สุพรรณชาติ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "chayarop.supanchart@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/chayarop.supanchart@cmu.ac.th"
+    },
+    {
+      "id": "cmu_6725a9e9_9948",
+      "full_name_th": "ผศ. ทพญ. ดร. พัทนินทร์ มนตรีขจร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "pattanin.m@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/pattanin.m@cmu.ac.th"
+    },
+    {
+      "id": "cmu_68eef7a1_0279",
+      "full_name_th": "ผศ. ทพ. ดร. พิริยะ ยาวิราช",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "piriya.ya@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/piriya.ya@cmu.ac.th"
+    },
+    {
+      "id": "cmu_6f40b250_2095",
+      "full_name_th": "ศ. ทพ. ดร. สิทธิชัย วนจันทรรักษ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "sitthichai.w@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/sitthichai.w@cmu.ac.th"
+    },
+    {
+      "id": "cmu_6fe74dff_8657",
+      "full_name_th": "อ. ทพ. ดร. เอธัส อำพนนวรัตน์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "aetas.a@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/aetas.a@cmu.ac.th"
+    },
+    {
+      "id": "cmu_76915952_6860",
+      "full_name_th": "ผศ. ทพญ. ดร. อารีรัตน์ นิรันต์สิทธิรัชต์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "areerat.n@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/areerat.n@cmu.ac.th"
+    },
+    {
+      "id": "cmu_770b088f_4643",
+      "full_name_th": "ผศ. ทพญ. ดร. กันยารัตน์ คอวนิช",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kanyarat.korwanich@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kanyarat.korwanich@cmu.ac.th"
+    },
+    {
+      "id": "cmu_779d929f_5635",
+      "full_name_th": "รศ. ทพ. ดร. กุลภพ สุทธิอาจ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kullapop.s@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kullapop.s@cmu.ac.th"
+    },
+    {
+      "id": "cmu_78190b2c_0504",
+      "full_name_th": "ผศ. ทพ. ดร. ธีระพงษ์ ม้ามณี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "teerapong.m@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/teerapong.m@cmu.ac.th"
+    },
+    {
+      "id": "cmu_791f53e2_9580",
+      "full_name_th": "รศ. ทพญ. ดร. พิมพ์เดือน รังสิยากูล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "pimduen.rungsiyakull@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/pimduen.rungsiyakull@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7a50a033_0752",
+      "full_name_th": "ผศ. ทพญ. ดร. นภัสสร อิ่มเอิบ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "napatsorn.i@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/napatsorn.i@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7ba4368f_9786",
+      "full_name_th": "ผศ. ทพญ. ดร. วรกัญญา บูรณพัฒนา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "worakanya.b@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/worakanya.b@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7cc71fb1_1711",
+      "full_name_th": "รศ. ทพ. ดร. ทวีศักดิ์ ประสานสุทธิพร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "taweesak.p@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/taweesak.p@cmu.ac.th"
+    },
+    {
+      "id": "cmu_8ece809c_5799",
+      "full_name_th": "ผศ. ทพ. ดร. กิตติพงศ์ เลาสุวรรณ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kittipong.l@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kittipong.l@cmu.ac.th"
+    },
+    {
+      "id": "cmu_96e989b4_1072",
+      "full_name_th": "รศ. ทพญ. ดร. วริศรา ศิริมหาราช",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "varisara.s@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/varisara.s@cmu.ac.th"
+    },
+    {
+      "id": "cmu_9a73998b_7836",
+      "full_name_th": "รศ. ทพญ. ดร. มาริสา สุขพัทธี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "marisa.suka@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/marisa.suka@cmu.ac.th"
+    },
+    {
+      "id": "cmu_9cbb07c3_4732",
+      "full_name_th": "ผศ. ทพ. ดร. คธาวุธ เตชะสุทธิรัฐ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kathawut.t@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kathawut.t@cmu.ac.th"
+    },
+    {
+      "id": "cmu_b67b688f_2479",
+      "full_name_th": "ผศ. ทพญ. ดร. ปิยะนารถ จาติเกตุ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "piyanart.c@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/piyanart.c@cmu.ac.th"
+    },
+    {
+      "id": "cmu_393e8814_8148",
+      "full_name_th": "อ. ทพ. ดร. สุวัฒน์ ตันยะ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "suwat.t@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/suwat.t@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3b7bc9d7_2414",
+      "full_name_th": "ผศ. ทพ. ดร. สิทธิกร คุณวโรตม์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "sitthikorn.k@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/sitthikorn.k@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7cf22eaa_9529",
+      "full_name_th": "อ. ทพ. ดร. ภูมิรพี ศรีวิจิตร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "bhumrapee.s@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/bhumrapee.s@cmu.ac.th"
+    },
+    {
+      "id": "cmu_134ab256_2115",
+      "full_name_th": "ผศ. ทพญ. ดร. วรพร หอมเสียง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "woraporn.hom@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/woraporn.hom@cmu.ac.th"
+    },
+    {
+      "id": "cmu_16f227a4_7330",
+      "full_name_th": "รศ. ทพ. ดร. วรัตม์ ลีลาพรพิสิฐ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "warat.leelapornpisid@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/warat.leelapornpisid@cmu.ac.th"
+    },
+    {
+      "id": "cmu_216d6080_9377",
+      "full_name_th": "ผศ. ทพ. ดร. นฤมนัส คอวนิช",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "narumanas.k@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/narumanas.k@cmu.ac.th"
+    },
+    {
+      "id": "cmu_22f31510_0954",
+      "full_name_th": "ผศ. ทพญ. ดร. ทัดกมล ครองบารมี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "tadkamol.k@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/tadkamol.k@cmu.ac.th"
+    },
+    {
+      "id": "cmu_27fbdf93_0774",
+      "full_name_th": "ผศ. ทพ. ดร. พิสัยศิษฏ์ ชัยจรีนนท์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "pisaisit.c@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/pisaisit.c@cmu.ac.th"
+    },
+    {
+      "id": "cmu_2c1b8c7d_3623",
+      "full_name_th": "อ. ทพ. ดร. ดนุพงษ์ ชัยอริยะกุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "danupong.c@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/danupong.c@cmu.ac.th"
+    },
+    {
+      "id": "cmu_2ec46739_7947",
+      "full_name_th": "ผศ. ทพ. ดร. จิตจิโรจน์ อิทธิชัยเจริญ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "jitjiroj.itti@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/jitjiroj.itti@cmu.ac.th"
+    },
+    {
+      "id": "cmu_301c82e9_3061",
+      "full_name_th": "ผศ. ทพญ. ดร. วรรณกมล ปัญญารักษ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "wannakamon.p@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/wannakamon.p@cmu.ac.th"
+    },
+    {
+      "id": "cmu_30fb3deb_4563",
+      "full_name_th": "ผศ. ทพญ. ดร. สาวิตรี วะสีนนท์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "savitri.v@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/savitri.v@cmu.ac.th"
+    },
+    {
+      "id": "cmu_33545cb9_4795",
+      "full_name_th": "ผศ. ทพญ. ดร. สการัตห์ ณ ลำปาง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "sakarat.pramo@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/sakarat.pramo@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3531de20_3658",
+      "full_name_th": "อ. ทพญ. ดร. กชกร บุญยะเลขา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kotchakorn.boon@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kotchakorn.boon@cmu.ac.th"
+    },
+    {
+      "id": "cmu_35c365ae_8898",
+      "full_name_th": "รศ. ทพญ. ดร. ธนิดา ศรีสุวรรณ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "tanida.srisuwan@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/tanida.srisuwan@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3f3aa1ae_6399",
+      "full_name_th": "อ. ทพ. ดร. พุฒิพงศ์ ศรีภินันท์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "puttipong.s@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/puttipong.s@cmu.ac.th"
+    },
+    {
+      "id": "cmu_431edc7f_7385",
+      "full_name_th": "รศ. ทพ. ดร. ภูมิศักดิ์ เลาวกุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "phumisak.l@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/phumisak.l@cmu.ac.th"
+    },
+    {
+      "id": "cmu_49ce8b2d_0900",
+      "full_name_th": "อ. ทพญ. ดร. ณัฐนันท์ วัฒนอเนก",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "nattanan.w@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/nattanan.w@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4eafefda_8604",
+      "full_name_th": "ผศ. ทพญ. สุพัตรา แสงอินทร์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "supatra.sa@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/supatra.sa@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4f205674_2679",
+      "full_name_th": "ผศ. ทพญ. ภัทริยาภรณ์ บุญญวงศ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "pattriyaporn.b@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/pattriyaporn.b@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4f4d0fa4_2315",
+      "full_name_th": "อ. ทพญ. ธนพร พารีสอน",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "thanaporn.pare@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/thanaporn.pare@cmu.ac.th"
+    },
+    {
+      "id": "cmu_184b258e_2921",
+      "full_name_th": "อ. ทพญ. ฐานิดา กอเจริญรัตนกุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "tanida.k@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/tanida.k@cmu.ac.th"
+    },
+    {
+      "id": "cmu_158b217b_0251",
+      "full_name_th": "ผศ. ทพ. ธีรัช สว่างปัญญางกูร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "teerat.sawang@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/teerat.sawang@cmu.ac.th"
+    },
+    {
+      "id": "cmu_305b6ae8_1373",
+      "full_name_th": "ผศ. ทพ. ยุทธการ อัศว์ไชยตระกูล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "yuthakran.a@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/yuthakran.a@cmu.ac.th"
+    },
+    {
+      "id": "cmu_53521a07_7267",
+      "full_name_th": "รศ. ทพ. อานนท์ จารุอัคระ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "arnon.c@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/arnon.c@cmu.ac.th"
+    },
+    {
+      "id": "cmu_539fdbcb_2835",
+      "full_name_th": "ผศ. ทพญ. วีรนุช ทองงาม",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "weeranuch.th@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/weeranuch.th@cmu.ac.th"
+    },
+    {
+      "id": "cmu_59263267_4381",
+      "full_name_th": "ผศ. ทพ. อติศักดิ์ จึงพัฒนาวดี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "atisak.ch@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/atisak.ch@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5a5ba350_3280",
+      "full_name_th": "ผศ. ทพ. ณัฐกานต์ ชัยพัฒนาวรรณ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "nattakan.chai@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/nattakan.chai@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5c832c18_0777",
+      "full_name_th": "ผศ. ทพ. ชนธีร์ ชิณเครือ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "chonatee.ch@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/chonatee.ch@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5e59c5c8_5356",
+      "full_name_th": "อ. ทพ. กฤตานน อังคนาวราพันธุ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kitanon.ang@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kitanon.ang@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5ec7eaa8_6281",
+      "full_name_th": "ผศ. ทพญ. ภัทรานันท์ มหาสันติปิยะ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "phattaranant.mah@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/phattaranant.mah@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5f20ffb4_6123",
+      "full_name_th": "ผศ. ทพญ. ภัทริกา อังกสิทธิ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "pattarika.a@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/pattarika.a@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5fd24c32_4743",
+      "full_name_th": "รศ. ทพ. สุรวุฒน์ พงษ์ศิริเวทย์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "surawut.pongsiriwet@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/surawut.pongsiriwet@cmu.ac.th"
+    },
+    {
+      "id": "cmu_1c9c2645_5034",
+      "full_name_th": "อ. ทพ. ตรีภพ ปิติวรรณ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "treephop.p@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/treephop.p@cmu.ac.th"
+    },
+    {
+      "id": "cmu_65fd46ae_8981",
+      "full_name_th": "อ. ทพ. เกษมสันต์ สุจริตวณิช",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kasemsun.s@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kasemsun.s@cmu.ac.th"
+    },
+    {
+      "id": "cmu_67201718_7140",
+      "full_name_th": "ผศ. ทพญ. วิกันดา เขมาลีลากุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "wikanda.k@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/wikanda.k@cmu.ac.th"
+    },
+    {
+      "id": "cmu_68619d32_0850",
+      "full_name_th": "รศ. ทพญ. วรรณภา จินาเดช",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "wannapa.c@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/Wannapa.c@cmu.ac.th"
+    },
+    {
+      "id": "cmu_6a0133f8_0835",
+      "full_name_th": "อ. ทพ. ลภน มุทธาพงศ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "lapon.m@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/lapon.m@cmu.ac.th"
+    },
+    {
+      "id": "cmu_6b7fc63b_4570",
+      "full_name_th": "อ. ทพ. ก้องภพ พิทักษ์สินสุข",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "kongphop.p@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/kongphop.p@cmu.ac.th"
+    },
+    {
+      "id": "cmu_6ad1f81d_0590",
+      "full_name_th": "ศ. ปฏิบัติ ทพญ. ดร. พนารัตน์ ขอดแก้ว",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "panarat.k@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/panarat.k@cmu.ac.th"
+    },
+    {
+      "id": "cmu_713d6895_1928",
+      "full_name_th": "อ. ทพญ. พรภัทรา จุฬามณี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "pornpattra.c@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/Pornpattra.c@cmu.ac.th"
+    },
+    {
+      "id": "cmu_72152964_0326",
+      "full_name_th": "อ. ทพญ. ชนัดดา รัตนกรพันธ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "chanutda.ratt@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/chanutda.ratt@cmu.ac.th"
+    },
+    {
+      "id": "cmu_778f5d6a_2419",
+      "full_name_th": "ศ. ทพ. พีรนิธ กันตะบุตร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "piranit.k@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/piranit.k@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7e957e65_4371",
+      "full_name_th": "รศ. ทพญ. สั่งสม ประภายสาธก",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "sangsom.prapaya@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/sangsom.prapaya@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7f180d96_2769",
+      "full_name_th": "อ. ทพ. ณัฐวรรธน์ ปลื้มสำราญ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "nathawat.p@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/nathawat.p@cmu.ac.th"
+    },
+    {
+      "id": "cmu_991ee7cd_4039",
+      "full_name_th": "อ. ทพญ. ทิฆัมพร มะลิซ้อน",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "thikumpond.m@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/thikumpond.m@cmu.ac.th"
+    },
+    {
+      "id": "cmu_a4110d07_9843",
+      "full_name_th": "รศ. ทพญ. ชนิกา แมนมนตรี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "chanika.m@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/chanika.m@cmu.ac.th"
+    },
+    {
+      "id": "cmu_b170cbc6_0870",
+      "full_name_th": "ผศ. ทพญ. เบญญาภา ศิรินิรันดร์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "benyapha.s@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/benyapha.s@cmu.ac.th"
+    },
+    {
+      "id": "cmu_2459f04f_7859",
+      "full_name_th": "ผศ. ทพ. บุญชัย เชาวน์ไกลวงศ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "boonchai.ch@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/boonchai.ch@cmu.ac.th"
+    },
+    {
+      "id": "cmu_33b542ce_7986",
+      "full_name_th": "อ. ทพญ. ณัชชา ธานินทร์ธราธาร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "natcha.thanind@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/Natcha.thanind@cmu.ac.th"
+    },
+    {
+      "id": "cmu_1507c882_1396",
+      "full_name_th": "ผศ. ทพญ. ดรุณี โอวิทยากุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "darunee.o@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/darunee.o@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4a33b6ea_9048",
+      "full_name_th": "รศ. ทพญ. ภาพิมล ชมภูอินไหว",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "papimon.c@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/papimon.c@cmu.ac.th"
+    },
+    {
+      "id": "cmu_57e7c915_6069",
+      "full_name_th": "ผศ. ทพ. พิริยะ เชิดสถิรกุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "piriya.che@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/piriya.che@cmu.ac.th"
+    },
+    {
+      "id": "cmu_6ac07f79_2620",
+      "full_name_th": "อ. ทพญ. สุพิชญา เตชาชาญ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "supitchaya.tec@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/supitchaya.tec@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ed664dd8_0154",
+      "full_name_th": "อ. ทพญ. รัฐธนาภรณ์ เครือมูล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "rattanaporn.kh@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/rattanaporn.kh@cmu.ac.th"
+    },
+    {
+      "id": "cmu_103b4d1a_9411",
+      "full_name_th": "ผศ. ทพ. ณัชพล จมูศรี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "nutchapon.c@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/nutchapon.c@cmu.ac.th"
+    },
+    {
+      "id": "cmu_13004af8_8554",
+      "full_name_th": "อ. ทพญ. ณัฐนิช บุญทรง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "nattanit.b@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/Nattanit.b@cmu.ac.th"
+    },
+    {
+      "id": "cmu_13397137_1763",
+      "full_name_th": "ผศ. ทพญ. สุภัสสรา ศิรบรรจงกราน",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "supassara.siraban@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/supassara.siraban@cmu.ac.th"
+    },
+    {
+      "id": "cmu_18dfc5fa_2941",
+      "full_name_th": "ผศ. ทพญ. พัชนี ชูวีระ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "patchanee.ch@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/patchanee.ch@cmu.ac.th"
+    },
+    {
+      "id": "cmu_1b978ac4_5139",
+      "full_name_th": "ผศ. ทพ. วัชรพงษ์ อริยเกรียงไกร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "watcharaphong.a@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/watcharaphong.a@cmu.ac.th"
+    },
+    {
+      "id": "cmu_23b43596_1781",
+      "full_name_th": "ผศ. ทพญ. อรนิดา วัฒนรัตน์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "onnida.wattanarat@cmu.ac.th",
+      "new_profile_url": "https://www.dent.cmu.ac.th/web/staff/onnida.wattanarat@cmu.ac.th"
+    },
+    {
+      "id": "cmu_19b9cfbb_1507",
+      "full_name_th": "ศ.ดร. สุเทพ สวนใต้",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "suthep.s@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=12"
+    },
+    {
+      "id": "cmu_253e3d42_4971",
+      "full_name_th": "รศ.ดร. กัญญุตา ภู่ชินาพันธุ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "kanyuta.p@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=23"
+    },
+    {
+      "id": "cmu_398d9dbe_9597",
+      "full_name_th": "ผศ.ดร. นวินดา ฉัตรสกุลพรหม",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nawinda.chuts@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=51"
+    },
+    {
+      "id": "cmu_3ae35187_8157",
+      "full_name_th": "รศ.ดร. สมภพ มูลชัย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "sompop.m@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=42"
+    },
+    {
+      "id": "cmu_42319c20_1576",
+      "full_name_th": "ผศ.ดร. ปิยฉัตร ศรีประทักษ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "piyashat.sripratak@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=54"
+    },
+    {
+      "id": "cmu_4700e4f9_5492",
+      "full_name_th": "รศ.ดร. นราวดี ภูดลสิทธิพัฒน์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "narawadee.nanan@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=47"
+    },
+    {
+      "id": "cmu_4f005f37_2894",
+      "full_name_th": "รศ.ดร. เบน วงศ์สายใจ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "ben.wongsaijai@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=39"
+    },
+    {
+      "id": "cmu_5f9a7565_5031",
+      "full_name_th": "รศ.ดร. ปรารถนา ใจผ่อง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "pradthana.j@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=31"
+    },
+    {
+      "id": "cmu_619fb1d0_1278",
+      "full_name_th": "รศ.ดร. สมลักษณ์ อุตุดี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "somlak.u@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=35"
+    },
+    {
+      "id": "cmu_68f53dbb_6664",
+      "full_name_th": "ผศ.ดร. เฉลิมพล บุญปก",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chalermpon.b@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=20"
+    },
+    {
+      "id": "cmu_6a9f621e_9562",
+      "full_name_th": "รศ.ดร. อรรถพล แก้วขาว",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "attapol.k@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=19"
+    },
+    {
+      "id": "cmu_70913f6e_4070",
+      "full_name_th": "รศ.ดร. วรพงศ์ ฟูปินวงศ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "worapong.fupinwong@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=38"
+    },
+    {
+      "id": "cmu_1b8deec3_8786",
+      "full_name_th": "รศ.ดร. วารุนันท์ อินถาก้อน",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "warunun.i@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=37"
+    },
+    {
+      "id": "cmu_7683163e_7082",
+      "full_name_th": "รศ.ดร. ภักดี เจริญสวรรค์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "phakdi.c@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=30"
+    },
+    {
+      "id": "cmu_7c17bf38_6130",
+      "full_name_th": "รศ.ดร. จูลิน ลิคะสิริ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chulin.l@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=15"
+    },
+    {
+      "id": "cmu_f05d4de3_1757",
+      "full_name_th": "ผศ.ดร. ภรัณยู จันทร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "pharunyou.chanthorn@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=53"
+    },
+    {
+      "id": "cmu_57c601b6_3603",
+      "full_name_th": "ผศ.ดร. ณัฐพล พลอยมะกล่ำ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nattapol.p@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=49"
+    },
+    {
+      "id": "cmu_11938100_0638",
+      "full_name_th": "รศ.ดร. ขวัญชนก ไชยชนะ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "khuanchanok.c@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=63"
+    },
+    {
+      "id": "cmu_1309b592_5501",
+      "full_name_th": "ผศ.ดร. ชัยพร ตั้งทอง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "chaiporn.t@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=40"
+    },
+    {
+      "id": "cmu_278831ab_3545",
+      "full_name_th": "รศ.ดร. กฤษฎา สังขนันท์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "kritsada.s@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=46"
+    },
+    {
+      "id": "cmu_2aad5c0f_9223",
+      "full_name_th": "ผศ.ดร. สุปรีดี แดงสกุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "supreedee.dangskul@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=57"
+    },
+    {
+      "id": "cmu_3613027d_2753",
+      "full_name_th": "รศ.ดร. สันติ ทาเสนา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "santi.tasena@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=33"
+    },
+    {
+      "id": "cmu_45381d1d_1229",
+      "full_name_th": "ผศ.ดร. ศุภลักษณ์ โพธิ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "supaluk.p@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=55"
+    },
+    {
+      "id": "cmu_4fe824da_3617",
+      "full_name_th": "ดร. กอบกูล จันทร์งาม",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "kobkoon.j@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=68"
+    },
+    {
+      "id": "cmu_51dd81cc_1761",
+      "full_name_th": "อ.ดร. ขวัญชัย กันไว",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "khwanchai.kun@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=65"
+    },
+    {
+      "id": "cmu_5723be07_7328",
+      "full_name_th": "รศ.ดร. วรรณศิริ วรรณสิทธิ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "wannasiri.w@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=61"
+    },
+    {
+      "id": "cmu_5dfc8308_9921",
+      "full_name_th": "รศ.ดร. ธเนศร์ โรจน์ศิรพิศาล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "thaned.r@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=36"
+    },
+    {
+      "id": "cmu_5e0ab14b_2837",
+      "full_name_th": "ผศ.ดร. ธีรนุช บุนนาค",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "dhiranuch.b@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=21"
+    },
+    {
+      "id": "cmu_5f86dda4_4848",
+      "full_name_th": "รศ.ดร. ธีรนุช สืบเจริญ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "teeranush.s@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=60"
+    },
+    {
+      "id": "cmu_789ce25f_2617",
+      "full_name_th": "ดร. รวีโรจน์ ศุภรตุลธร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "raweerote.s@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=66"
+    },
+    {
+      "id": "cmu_795dfb4c_2490",
+      "full_name_th": "ผศ.ดร. สุทธิดา วงศ์แก้ว",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "suttida.wongkaew@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=58"
+    },
+    {
+      "id": "cmu_79b39dd7_4718",
+      "full_name_th": "ผศ.ดร. ปรียานุช โหนแหยม",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "preeyanuch.h@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=27"
+    },
+    {
+      "id": "cmu_ae05ea27_3431",
+      "full_name_th": "อ.ดร. วันเฉลิม สุขภิการนนท์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "wanchalerm.s@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=64"
+    },
+    {
+      "id": "cmu_c9a2f75e_5486",
+      "full_name_th": "ผศ.ดร. กมลวรรณ ก่อเจริญ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "kamonwan.k@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=41"
+    },
+    {
+      "id": "cmu_700d1c7d_5607",
+      "full_name_th": "ดร. วิภาวินี ไชยวิโน",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "wipawinee.ch@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=70"
+    },
+    {
+      "id": "cmu_7f346076_1284",
+      "full_name_th": "ผศ.ดร. ณัฐวัชร์ สนธิชัย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nuttawat.s@cmu.ac.th",
+      "new_profile_url": "http://math.science.cmu.ac.th/personals-detail.php?id=50"
+    },
+    {
+      "id": "psu_agro_wave13_0006",
+      "full_name_th": "รศ.ดร. จิรกฤต แซ่ตั้ง",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "jirakrit.s@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0023",
+      "full_name_th": "ผศ.ดร. พรสถิตย์ สุขชู",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "pornsatit.s@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0004",
+      "full_name_th": "รศ.ดร. ก่องกาญจน์ กิจรุ่งโรจน์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "kongkarn.k@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0009",
+      "full_name_th": "ผศ.ดร. ปุณณาณี สัมภวะผล",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "punnanee.s@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0021",
+      "full_name_th": "ผศ.ดร. ศุภชัย ภิสัชเพ็ญ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "supachai.p@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0032",
+      "full_name_th": "ศ.ดร. เบญจมาส เชียรศิลป์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "benjamas.che@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0035",
+      "full_name_th": "ผศ.ดร. อภิชาติ อู๋ไพจิตร",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "apichat.u@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0001",
+      "full_name_th": "รศ.ดร. เสาวคนธ์ วัฒนจันทร์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "saowakon.w@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0003",
+      "full_name_th": "รศ.ดร. วิโรจน์ ยูรวงศ์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "wirote.y@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0005",
+      "full_name_th": "รศ.ดร. สุนิสา ศิริพงศ์วุฒิกร",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "sunisa.s@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0007",
+      "full_name_th": "ผศ.ดร. วรพงษ์ อัศวเกศมณี",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "worapong.u@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0008",
+      "full_name_th": "ผศ.ดร. ปิยรัตน์ ศิริวงศ์ไพศาล",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "piyarat.n@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0010",
+      "full_name_th": "ผศ.ดร. ดุสิดา หนูทอง",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "dusida.t@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0013",
+      "full_name_th": "ผศ.ดร. กฤษณะ นิลสุวรรณ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "krisana.n@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0014",
+      "full_name_th": "ผศ.ดร. ขวัญหทัย แช่ทอง",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "kwanhathai.c@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0015",
+      "full_name_th": "ผศ.ดร. จิรายุ บัวทอง",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "jirayu.b@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0018",
+      "full_name_th": "รศ.ดร. เถวียน วิทยา",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "thawean.b@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0019",
+      "full_name_th": "รศ.ดร. วรัญญู ศรีเดช",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "waranyou.s@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0020",
+      "full_name_th": "รศ.ดร. พรอุษา จิตพุทธิ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "ponusa.j@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0022",
+      "full_name_th": "ผศ.ดร. ธรรมนูญ โปรดปราน",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "thummanoon.p@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0024",
+      "full_name_th": "ผศ.ดร. ลดาวัลย์ สงทิพย์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "ladawan.so@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0026",
+      "full_name_th": "ผศ.ดร. บุษวรรณ หิรัญวรชาติ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "bhudsawan.h@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0028",
+      "full_name_th": "ดร. กาญจพรรณ จันทรถาวรพงศ์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "karnjapan.j@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0029",
+      "full_name_th": "ดร. ดาริกา อวะภาค",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "darika.a@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0031",
+      "full_name_th": "รศ.ดร. ปิยะรัตน์ บุญแสวง",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "piyarat.b@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0033",
+      "full_name_th": "รศ.ดร. ศุภศิลป์ มณีรัตน์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "suppasil.m@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0034",
+      "full_name_th": "รศ.ดร. วาสนา สุโยธา",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "wasana.suy@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0038",
+      "full_name_th": "ดร. เอ็ม นุ้ยเลิศ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "aem.n@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0040",
+      "full_name_th": "รศ.ดร. สันทัด วิเชียรโชติ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "santad.w@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0041",
+      "full_name_th": "ผศ.ดร. จุฑา ทาคาฮาชิ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "chutha.s@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0042",
+      "full_name_th": "ผศ.ดร. วัชรี สีห์ชำนาญธุระกิจ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "vatcharee.s@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0043",
+      "full_name_th": "ผศ.ดร. นวลพรรณ ศิรินุพงศ์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "nualpun.s@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0044",
+      "full_name_th": "ผศ.ดร. ปรียาภรณ์ เดชอรัญ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "preeya.h@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0045",
+      "full_name_th": "ดร. วรพนิต จันทร์สุวรรณ์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "worapanit.c@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0012",
+      "full_name_th": "ผศ.ดร. พจนารถ แก่นจันทร์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "pochanart.k@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0037",
+      "full_name_th": "ผศ.ดร. อัจฉรา ธรรมรัตน์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "uschara.t@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0036",
+      "full_name_th": "ผศ.ดร. วิริยะ ดวงสุวรรณ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "wiriya.d@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0002",
+      "full_name_th": "รศ.ดร. มุทิตา มีนุ่น",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "mutita.m@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0027",
+      "full_name_th": "ดร. กันยา อัครอารีย์",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "kanya.a@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0017",
+      "full_name_th": "ดร. สุริยา ปาละแม",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "suriya.pal@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0025",
+      "full_name_th": "ดร. สมพร นิลมณี",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "somporn.ni@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0030",
+      "full_name_th": "ดร. กษิเดช ฉันทกุล",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "kasidate.c@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0039",
+      "full_name_th": "อ. วรสันต์ โสภณ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "vorasan.s@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "psu_agro_wave13_0046",
+      "full_name_th": "ดร. ณัชพล บัวมาศ",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "new_email": "natchaphol.b@psu.ac.th",
+      "new_profile_url": "https://agro.psu.ac.th/agro6/staff/"
+    },
+    {
+      "id": "ku_2b205080_0714",
+      "full_name_th": "ผศ.ดร. พีรดา ยิ่งยวด",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscipdy@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/peerada-yingyuad/"
+    },
+    {
+      "id": "ku_3bbf7a85_4727",
+      "full_name_th": "รศ.ดร. วิศิษฎ์ หิรัณย์ภิญโญภาศ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fsciwsh@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/wisit-hirunpinyopas/"
+    },
+    {
+      "id": "ku_6d8f4033_9676",
+      "full_name_th": "ผศ.ดร. รมิดา รัตนคาม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscirdr@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/ramida-rattanakam/"
+    },
+    {
+      "id": "ku_65bafd24_0438",
+      "full_name_th": "รศ.ดร. บุญธนา วรรณเลิศ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscibnw@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/boontana-wannalerse/"
+    },
+    {
+      "id": "ku_1413ba3f_3721",
+      "full_name_th": "ผศ.ดร. ธีระชาติ ลี้ประเสริฐ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscitcl@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/theerachart-leepasert/"
+    },
+    {
+      "id": "ku_22a0ce80_0586",
+      "full_name_th": "รศ.ดร. ไชยา ประสิทธิชัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscicyp@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/chaiya-prasittichai/"
+    },
+    {
+      "id": "ku_3d0a8626_7393",
+      "full_name_th": "ผศ.ดร. พิพัฒน์ คงประชา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "pipat.k@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pipat-khongpracha/"
+    },
+    {
+      "id": "ku_52088221_8537",
+      "full_name_th": "ผศ.ดร. วิรัญญา แก้ววัฒนะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fsciwyk@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/wirunya-keawwattana/"
+    },
+    {
+      "id": "ku_5e615a7a_0317",
+      "full_name_th": "ผศ.ดร. ชมพูนุท วรากุลวิทย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscicpn@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/chompunuch-warakulwit/"
+    },
+    {
+      "id": "ku_66a19cf2_6510",
+      "full_name_th": "รศ.ดร. ทรงวุฒิ สุรมิตร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fsciswsm@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/songwut-suramitr/"
+    },
+    {
+      "id": "ku_6f52e65a_7505",
+      "full_name_th": "รศ.ดร. จักรพันธ์ ศิริเจริญศรี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscijkp@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/jakkapan-sirijaraensre/"
+    },
+    {
+      "id": "ku_6fb6fd34_4828",
+      "full_name_th": "รศ.ดร. ปณิทัต หาสิน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscipths@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/panitat-hasin/"
+    },
+    {
+      "id": "ku_75a2f185_1803",
+      "full_name_th": "รศ.ดร. สุธาสินี กิตยาการ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscistsn@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/sutasinee-kityakarn/"
+    },
+    {
+      "id": "ku_792b15ec_6800",
+      "full_name_th": "ผศ.ดร. ภัทราพร ลักษณ์สิริกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscipplu@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/patraporn-luksirikul/"
+    },
+    {
+      "id": "ku_799119e7_8228",
+      "full_name_th": "รศ.ดร. ประภาศิริ พงษ์ประยูร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fsciprpo@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/prapasiri-pongprayoon/"
+    },
+    {
+      "id": "ku_79d21335_6397",
+      "full_name_th": "ผศ.ดร. กรรณิกา เจียมจำนรรจา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscikij@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/kannika-jeamjumnunja/"
+    },
+    {
+      "id": "ku_ac21d07a_9202",
+      "full_name_th": "ผศ.ดร. กัลตวิทย์ วิทโยฬารโกวิทย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "kuntawit.wit@ku.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/kuntawit-witthayolankowit/"
+    },
+    {
+      "id": "ku_fb10e0a0_7946",
+      "full_name_th": "ดร. มนธิดา เร้าอรุณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscimtr@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/montida-raoarun/"
+    },
+    {
+      "id": "ku_1e55e114_1626",
+      "full_name_th": "ผศ.ดร. ธานิน นานอก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscitnn@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/tanin-nanok/"
+    },
+    {
+      "id": "ku_13923a5c_4248",
+      "full_name_th": "ผศ.ดร. พงษ์ศักดิ์ โล้วมั่นคง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscipsl@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pongsak-lowmonkong/"
+    },
+    {
+      "id": "ku_1f0b8d31_3607",
+      "full_name_th": "รศ.ดร. พินทุ์สุดา วีรวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscipdv@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pinsuda-viravathana/"
+    },
+    {
+      "id": "ku_21a09240_1062",
+      "full_name_th": "ผศ.ดร. พิบูลย์ พันธุ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscipbp@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/piboon-pantu/"
+    },
+    {
+      "id": "ku_64401af6_6702",
+      "full_name_th": "ผศ.ดร. ครองขวัญ อัครชนียากร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscikwa@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/khrongkhwan-akkarachaneeyakorn/"
+    },
+    {
+      "id": "ku_6480b66a_0851",
+      "full_name_th": "ผศ.ดร. ฐิตพัฒน์ เงินสุทธิวรกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscithn@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/thitaphat-ngernsutivorakul/"
+    },
+    {
+      "id": "ku_40d91982_5855",
+      "full_name_th": "ดร. สรฉัตร ธารมรรค",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "sorachat.thar@ku.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%a3%e0%b8%89%e0%b8%b1%e0%b8%95%e0%b8%a3-%e0%b8%98%e0%b8%b2%e0%b8%a3%e0%b8%a1%e0%b8%a3%e0%b8%a3%e0%b8%84/"
+    },
+    {
+      "id": "ku_4992a789_4278",
+      "full_name_th": "ดร. สุพัตรา มิตรภานนท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscispm@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/supattra-midpanon/"
+    },
+    {
+      "id": "ku_600fd6e0_3474",
+      "full_name_th": "ดร. ณัฐพงศ์ จันทร์ทิพย์มณี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "nattapong.chant@ku.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%93%e0%b8%b1%e0%b8%90%e0%b8%9e%e0%b8%87%e0%b8%a8%e0%b9%8c-%e0%b8%88%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%a3%e0%b9%8c%e0%b8%97%e0%b8%b4%e0%b8%9e%e0%b8%a2%e0%b9%8c%e0%b8%a1/"
+    },
+    {
+      "id": "ku_61b026d5_0745",
+      "full_name_th": "ดร. ชาติเฉลิม รักษากุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fsciclr@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/chadchalerm-ruksakorn/"
+    },
+    {
+      "id": "ku_6caf92f6_1528",
+      "full_name_th": "ดร. วรรณิสา สุขจี๋",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fsciwisu@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/wannisa-sukjee/"
+    },
+    {
+      "id": "ku_4e6c55b7_3815",
+      "full_name_th": "รศ.ดร. พัชรีนารถ ทรัพย์อาภากร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscipnsk@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/patchreenart-saparpakorn/"
+    },
+    {
+      "id": "ku_51c76444_9265",
+      "full_name_th": "ผศ.ดร. สมเกียรติ นกบิน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscisknb@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/somkiat-nokbin/"
+    },
+    {
+      "id": "ku_564f6bd2_7272",
+      "full_name_th": "ผศ.ดร. ศุภกิจ อาชีวะวานิช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fsciska@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/supakit-achiwawanich/"
+    },
+    {
+      "id": "ku_5f29861a_8033",
+      "full_name_th": "ผศ.ดร. สิรี ตั้งบุญสุข",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "siree.t@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/siree-tangbunsuk/"
+    },
+    {
+      "id": "ku_69617028_7176",
+      "full_name_th": "รศ.ดร. ธิตินันท์ กาพย์เกิด",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscitnm@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/thitinun-karpkird/"
+    },
+    {
+      "id": "ku_7cfed11e_1926",
+      "full_name_th": "ผศ.ดร. สุนิสา อัคคะรัสมิโย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscisia@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/sunisa-akkarasamiyo/"
+    },
+    {
+      "id": "ku_7f312dd6_5960",
+      "full_name_th": "ผศ.ดร. วิไล ศิริวัชรไพบูลย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fsciwls@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/wilai-siriwatcharapiboon/"
+    },
+    {
+      "id": "ku_15c83bd1_4290",
+      "full_name_th": "รศ.ดร. ธันวาวรรณ ด้วงทองอยู่",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscitwd@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/tanwawan-duangthongyou/"
+    },
+    {
+      "id": "ku_279cebc6_7178",
+      "full_name_th": "ผศ.ดร. จรรยา เจตนาเสน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscijyk@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/junya-jettanasen/"
+    },
+    {
+      "id": "ku_42277a73_8010",
+      "full_name_th": "รศ.ดร. ณัฐวัชร เชื้อนพรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscinwc@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/nutthawat-chuanopparat/"
+    },
+    {
+      "id": "ku_436f33dd_7648",
+      "full_name_th": "รศ.ดร. ปกรณ์ วรรธนะอมร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscipwa@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/pakorn-wattana-amorn/"
+    },
+    {
+      "id": "ku_60dd92cb_0213",
+      "full_name_th": "รศ.ดร. พจนารถ สุวรรณรุจิ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscipjs@ku.ac.th",
+      "new_profile_url": "https://chemy.sci.ku.ac.th/ku-personnel/potjanart-suwanruji/"
+    }
+  ],
+  "embedding_texts_rebuilt": 122
+}

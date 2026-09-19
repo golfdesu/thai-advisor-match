@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789647342_deee26",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "สำนักทรัพยากรการเกษตร",
+  "target_faculty_en": "School of Agricultural Resources",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://sar.chula.ac.th",
+    "https://www.are.chula.ac.th"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

@@ -1,0 +1,94 @@
+{
+  "psu_dent": {
+    "verified": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_psu_dent_export.py",
+    "dept_urls_found": [
+      "https://www.dent.psu.ac.th/"
+    ],
+    "roster_links": [],
+    "failed_urls": [],
+    "single_token_dropped": 0,
+    "note": "per_url_n=10"
+  },
+  "nu_sci": {
+    "verified": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_nu_sci_export.py",
+    "dept_urls_found": [
+      "https://www.sci.nu.ac.th/",
+      "https://www.sci.nu.ac.th/faculty/",
+      "https://www.sci.nu.ac.th/faculty2/",
+      "https://math.sci.nu.ac.th/",
+      "https://chemistry.sci.nu.ac.th/",
+      "https://physics.sci.nu.ac.th/",
+      "https://www.sci.nu.ac.th/?page=department&id=1",
+      "https://www.sci.nu.ac.th/?page=department&id=2",
+      "https://www.sci.nu.ac.th/?page=department&id=3",
+      "https://www.sci.nu.ac.th/?page=department&id=4",
+      "https://www.sci.nu.ac.th/?page=department&id=5",
+      "https://www.sci.nu.ac.th/?page=department&id=6",
+      "https://www.sci.nu.ac.th/?page=department&id=7",
+      "https://www.sci.nu.ac.th/?page=department&id=8",
+      "https://www.sci.nu.ac.th/?page=department&id=9",
+      "https://www.sci.nu.ac.th/?page=department&id=10",
+      "https://www.sci.nu.ac.th/?page=department&id=11",
+      "https://www.sci.nu.ac.th/?page=department&id=12",
+      "https://www.sci.nu.ac.th/?page=department&id=13",
+      "https://www.sci.nu.ac.th/?page=department&id=14",
+      "https://www.sci.nu.ac.th/?page=department&id=15",
+      "https://www.sci.nu.ac.th/?page=department&id=16",
+      "https://www.sci.nu.ac.th/?page=department&id=17",
+      "https://www.sci.nu.ac.th/?page=department&id=18",
+      "https://www.sci.nu.ac.th/?page=department&id=19",
+      "https://www.sci.nu.ac.th/?page=department&id=20"
+    ],
+    "roster_links": [],
+    "failed_urls": [],
+    "single_token_dropped": 0,
+    "note": "per_url_n=26"
+  },
+  "ubu_sci": {
+    "verified": 1,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_ubu_sci_export.py",
+    "dept_urls_found": [],
+    "roster_links": [
+      "http://www.sci.ubu.ac.th/teacher/advisor"
+    ],
+    "failed_urls": [],
+    "single_token_dropped": 0,
+    "note": "per_url_n=6"
+  },
+  "mfu_law": {
+    "verified": 1,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_mfu_law_export.py",
+    "dept_urls_found": [],
+    "roster_links": [
+      "https://law.mfu.ac.th/law-staff/committee.html",
+      "https://law.mfu.ac.th/law-staff/law-lecturers.html",
+      "https://law.mfu.ac.th/law-staff/law-executives.html",
+      "https://law.mfu.ac.th/online-service-for-law-staff.html",
+      "https://law.mfu.ac.th/law-staff/law-visitingscholars.html",
+      "https://law.mfu.ac.th/law-staff/law-administrative-staff.html",
+      "https://law.mfu.ac.th/law-staff/law-knowledge-management.html",
+      "https://law.mfu.ac.th/law-aboutus/law-goal.html",
+      "https://law.mfu.ac.th/law-aboutus/law-history.html",
+      "https://law.mfu.ac.th/law-aboutus/law-organization.html",
+      "https://law.mfu.ac.th/en/law-staff/committee.html",
+      "https://law.mfu.ac.th/en/law-staff/law-lecturers.html",
+      "https://law.mfu.ac.th/en/law-staff/law-executives.html",
+      "https://law.mfu.ac.th/en/online-service-for-law-staff.html",
+      "https://law.mfu.ac.th/en/law-staff/law-visitingscholars.html",
+      "https://law.mfu.ac.th/en/law-staff/knowledge-management.html",
+      "https://law.mfu.ac.th/en/law-staff/law-administrative-staff.html",
+      "https://law.mfu.ac.th/en/law-aboutus/law-history.html",
+      "https://law.mfu.ac.th/en/law-aboutus/law-5576/law-5417.html"
+    ],
+    "failed_urls": [],
+    "single_token_dropped": 0,
+    "note": "per_url_n=5; hygiene: 2 agent rows -> 1 (corrupt dup dropped)"
+  },
+  "_meta": {
+    "batch": "wave27_batchC",
+    "mode": "checkpoint-only, NO DB commit",
+    "official_ac_th_only": true
+  }
+}

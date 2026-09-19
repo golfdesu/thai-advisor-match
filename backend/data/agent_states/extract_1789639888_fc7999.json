@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789639888_fc7999",
+  "target_university_th": "มหาวิทยาลัยสงขลานครินทร์",
+  "target_university_en": "Prince of Songkla University",
+  "target_faculty_th": "คณะทันตแพทยศาสตร์",
+  "target_faculty_en": "Faculty of Dentistry",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.dent.psu.ac.th/dent/",
+    "https://www.dent.psu.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 3972,
+  "status": "completed",
+  "last_error": null
+}

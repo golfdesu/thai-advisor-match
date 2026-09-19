@@ -1,0 +1,166 @@
+{
+  "session_id": "course_1789726804_f81f2c",
+  "target_university_th": "มหาวิทยาลัยสงขลานครินทร์",
+  "target_university_en": "Prince of Songkla University",
+  "target_faculty_th": "วิทยาลัยการคอมพิวเตอร์",
+  "target_faculty_en": "College of Computing",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://computing.psu.ac.th/th/"
+  ],
+  "failed_urls": [],
+  "courses": {
+    "princeof_collegeo_digitalengineer_001": {
+      "id": "princeof_collegeo_digitalengineer_001",
+      "title_th": "วิศวกรรมดิจิทัล",
+      "title_en": "Digital Engineering",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "College of Computing",
+      "faculty_th": "วิทยาลัยการคอมพิวเตอร์",
+      "department": "College of Computing",
+      "department_th": "วิทยาลัยการคอมพิวเตอร์",
+      "program_type": "ภาคปกติ",
+      "duration_years": "4 ปี",
+      "total_credits": "",
+      "tuition_per_semester": "",
+      "tuition_total": "",
+      "description": "หลักสูตรด้านวิศวกรรมดิจิทัลและคอมพิวเตอร์ มุ่งเน้นการพัฒนานักพัฒนาและวิศวกรซอฟต์แวร์ สมองกลฝังตัวและอินเทอร์เน็ตของสรรพสิ่ง",
+      "curriculum_highlights": [
+        "วิศวกรดิจิทัล/วิศวกรคอมพิวเตอร์",
+        "นักพัฒนาและวิศวกรซอฟต์แวร์",
+        "นักพัฒนาโปรแกรมบน Smart Phone",
+        "วิศวกรระบบสมองกลฝังตัวและอินเทอร์เน็ตของสรรพสิ่ง"
+      ],
+      "career_paths": [
+        "วิศวกรคอมพิวเตอร์",
+        "วิศวกรซอฟต์แวร์",
+        "นักพัฒนาโปรแกรมบน Smart Phone",
+        "วิศวกรระบบสมองกลฝังตัวและอินเทอร์เน็ตของสรรพสิ่ง"
+      ],
+      "tags": [
+        "Digital Engineering",
+        "Software Engineering",
+        "IoT"
+      ],
+      "website_url": "https://computing.psu.ac.th/th/"
+    },
+    "princeof_collegeo_digitalbusiness_002": {
+      "id": "princeof_collegeo_digitalbusiness_002",
+      "title_th": "ธุรกิจดิจิทัล",
+      "title_en": "Digital Business",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "College of Computing",
+      "faculty_th": "วิทยาลัยการคอมพิวเตอร์",
+      "department": "College of Computing",
+      "department_th": "วิทยาลัยการคอมพิวเตอร์",
+      "program_type": "ภาคปกติ",
+      "duration_years": "4 ปี",
+      "total_credits": "",
+      "tuition_per_semester": "",
+      "tuition_total": "",
+      "description": "หลักสูตรด้านธุรกิจดิจิทัล มุ่งเน้นผู้เชี่ยวชาญการวิเคราะห์ธุรกิจ การตลาดดิจิทัล และการออกแบบเว็บ",
+      "curriculum_highlights": [
+        "ผู้เชี่ยวชาญการวิเคราะห์ธุรกิจ",
+        "ผู้เชี่ยวชาญการตลาดดิจิทัล",
+        "ผู้เชี่ยวชาญการการออกแบบและปรับแต่งเว็บ",
+        "ผู้เชี่ยวชาญการบูรณาการธุรกิจ"
+      ],
+      "career_paths": [
+        "นักวิเคราะห์ธุรกิจ",
+        "ผู้เชี่ยวชาญการตลาดดิจิทัล",
+        "นักออกแบบเว็บไซต์"
+      ],
+      "tags": [
+        "Digital Business",
+        "Business Analytics",
+        "Digital Marketing"
+      ],
+      "website_url": "https://computing.psu.ac.th/th/"
+    },
+    "princeof_collegeo_computing_003": {
+      "id": "princeof_collegeo_computing_003",
+      "title_th": "คอมพิวติ้ง",
+      "title_en": "Computing",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "College of Computing",
+      "faculty_th": "วิทยาลัยการคอมพิวเตอร์",
+      "department": "College of Computing",
+      "department_th": "วิทยาลัยการคอมพิวเตอร์",
+      "program_type": "ภาคปกติ",
+      "duration_years": "4 ปี",
+      "total_credits": "",
+      "tuition_per_semester": "",
+      "tuition_total": "",
+      "description": "หลักสูตรคอมพิวติ้ง วิทยาการข้อมูล และระบบอัจฉริยะ",
+      "curriculum_highlights": [
+        "นักวิทยาการข้อมูล",
+        "นักวิเคราะห์ข้อมูล",
+        "นักพัฒนาระบบอัจฉริยะ",
+        "นักออกแบบสื่อดิจิทัล",
+        "นักออกแบบกราฟิกส์"
+      ],
+      "career_paths": [
+        "นักวิทยาการข้อมูล",
+        "นักวิเคราะห์ข้อมูล",
+        "นักออกแบบสื่อดิจิทัล"
+      ],
+      "tags": [
+        "Computing",
+        "Data Science",
+        "Digital Media"
+      ],
+      "website_url": "https://computing.psu.ac.th/th/"
+    },
+    "princeof_collegeo_artificialintel_004": {
+      "id": "princeof_collegeo_artificialintel_004",
+      "title_th": "ปัญญาประดิษฐ์และระบบ",
+      "title_en": "Artificial Intelligence and System",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "",
+      "university": "Prince of Songkla University",
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "faculty": "College of Computing",
+      "faculty_th": "วิทยาลัยการคอมพิวเตอร์",
+      "department": "College of Computing",
+      "department_th": "วิทยาลัยการคอมพิวเตอร์",
+      "program_type": "ภาคปกติ",
+      "duration_years": "4 ปี",
+      "total_credits": "",
+      "tuition_per_semester": "",
+      "tuition_total": "",
+      "description": "หลักสูตรด้านปัญญาประดิษฐ์ วิศวกรรม AI และระบบแมชชีนเลิร์นนิง",
+      "curriculum_highlights": [
+        "วิศวกรปัญญาประดิษฐ์",
+        "นักพัฒนาระบบอัจฉริยะ",
+        "วิศวกร ML",
+        "โปรแกรมเมอร์",
+        "นักวิทยาการข้อมูล"
+      ],
+      "career_paths": [
+        "วิศวกรปัญญาประดิษฐ์",
+        "Machine Learning Engineer",
+        "นักวิทยาการข้อมูล"
+      ],
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      "website_url": "https://computing.psu.ac.th/th/"
+    }
+  },
+  "dedup_title_keys": {},
+  "step_count": 1,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

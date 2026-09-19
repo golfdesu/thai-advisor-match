@@ -1,0 +1,22 @@
+{
+  "session_id": "extract_1789724270_bac824",
+  "target_university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
+  "target_university_en": "National Institute of Development Administration",
+  "target_faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+  "target_faculty_en": "Graduate School of Environmental Development Administration",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://gseda.nida.ac.th",
+    "https://nida.ac.th/admission/environmental-development-administration/",
+    "https://nida.ac.th/en/admission/environmental-development-administration/",
+    "https://nida.ac.th/teams/witchuda/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

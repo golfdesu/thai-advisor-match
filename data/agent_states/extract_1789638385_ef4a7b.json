@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789638385_ef4a7b",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "คณะศิลปกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Fine and Applied Arts",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.faa.chula.ac.th/th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 472,
+  "status": "completed",
+  "last_error": null
+}

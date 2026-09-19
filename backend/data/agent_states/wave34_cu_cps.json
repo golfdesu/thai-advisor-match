@@ -1,0 +1,30 @@
+{
+  "session_id": "wave34_cu_cps",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "วิทยาลัยประชากรศาสตร์",
+  "target_faculty_en": "College of Population Studies",
+  "pending_urls": [
+    "https://www.chula.ac.th",
+    "https://www.chula.ac.th/en/academics/programs/faculties-and-schools/"
+  ],
+  "visited_urls": [
+    "https://cps.chula.ac.th/",
+    "https://cps.chula.ac.th/#click1",
+    "https://cps.chula.ac.th/#click2",
+    "https://www.chula.ac.th/",
+    "https://www.chula.ac.th/academics/faculty-and-staff/",
+    "https://www.chula.ac.th/en/academics/faculty-and-staff/",
+    "https://www.chula.ac.th/staff/"
+  ],
+  "failed_urls": [
+    "https://cps.chula.ac.th/en/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 7,
+  "total_tokens_used": 9802,
+  "status": "completed",
+  "last_error": null
+}

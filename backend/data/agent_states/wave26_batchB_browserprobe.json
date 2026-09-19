@@ -1,0 +1,106 @@
+{
+ "https://www.mju.ac.th/en/personnel_page.html": {
+  "bytes": 26066,
+  "dens": {
+   "ผศ.": 0,
+   "รศ.": 0,
+   "อาจารย์": 0,
+   "Prof": 0,
+   "Lecturer": 0,
+   "บุคลากร": 0,
+   "ดร.": 0
+  },
+  "n_ac": 50,
+  "staff_links": [
+   "https://www.mju.ac.th/en/css/personnel_page.css",
+   "https://www.mju.ac.th/th/personnel_page.html",
+   "https://www.mju.ac.th/en/personnel_page.html",
+   "http://personnel.mju.ac.th/",
+   "http://personnel.mju.ac.th/searchperson.php",
+   "https://www.mju.ac.th/en/personnel_page2.html"
+  ]
+ },
+ "https://www.mfu.ac.th/": {
+  "bytes": 18886,
+  "dens": {
+   "ผศ.": 0,
+   "รศ.": 0,
+   "อาจารย์": 0,
+   "Prof": 0,
+   "Lecturer": 0,
+   "บุคลากร": 0,
+   "ดร.": 0
+  },
+  "n_ac": 35,
+  "staff_links": []
+ },
+ "https://www.sci.nu.ac.th/": {
+  "bytes": 88070,
+  "dens": {
+   "ผศ.": 4,
+   "รศ.": 6,
+   "อาจารย์": 11,
+   "Prof": 4,
+   "Lecturer": 0,
+   "บุคลากร": 5,
+   "ดร.": 50
+  },
+  "n_ac": 156,
+  "staff_links": [
+   "https://www.sci.nu.ac.th/images/favicon.ico",
+   "https://www.sci.nu.ac.th/plugins/bootstrap/bootstrap.min.css",
+   "https://www.sci.nu.ac.th/plugins/fontawesome/css/all.min.css",
+   "https://www.sci.nu.ac.th/plugins/animate-css/animate.css",
+   "https://www.sci.nu.ac.th/plugins/slick/slick.css",
+   "https://www.sci.nu.ac.th/plugins/slick/slick-theme.css",
+   "https://www.sci.nu.ac.th/plugins/colorbox/colorbox.css",
+   "https://www.sci.nu.ac.th/css/style.css",
+   "https://www.sci.nu.ac.th/index.php",
+   "https://www.sci.nu.ac.th/gateway/",
+   "https://www.sci.nu.ac.th/",
+   "https://www.sci.nu.ac.th/?page=history",
+   "https://www.sci.nu.ac.th/?page=deanpost",
+   "https://www.sci.nu.ac.th/?page=dean-all",
+   "https://www.sci.nu.ac.th/?page=faculty",
+   "https://www.sci.nu.ac.th/?page=faculty2",
+   "https://www.sci.nu.ac.th/?page=org_chart",
+   "https://www.sci.nu.ac.th/?page=executive_sci",
+   "https://math.sci.nu.ac.th/th/index.php?page=team_director",
+   "https://chemistry.sci.nu.ac.th/about-us/?id=3",
+   "https://physics.sci.nu.ac.th/personnel/executive",
+   "https://www.sci.nu.ac.th/?page=comittee",
+   "https://www.sci.nu.ac.th/?page=consulter",
+   "https://www.sci.nu.ac.th/?page=adjunct_professor",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=11&amp;emp=1",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=8&amp;emp=1",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=9&amp;emp=1",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=10&amp;emp=1",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=12&amp;emp=1",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=14&amp;emp=2",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=11&amp;emp=2",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=8&amp;emp=2",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=9&amp;emp=2",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=10&amp;emp=2",
+   "https://www.sci.nu.ac.th/?page=department&amp;id=12&amp;emp=2",
+   "https://www.sci.nu.ac.th/?page=mou1",
+   "https://www.sci.nu.ac.th/?page=mou2",
+   "https://www.sci.nu.ac.th/?page=award_detail",
+   "https://www.sci.nu.ac.th/?page=curriculum/b_degree_math",
+   "https://www.sci.nu.ac.th/?page=curriculum/b_degree_stat"
+  ]
+ },
+ "https://www.ubu.ac.th/faculty01.php": {
+  "bytes": 55,
+  "dens": {
+   "ผศ.": 0,
+   "รศ.": 0,
+   "อาจารย์": 0,
+   "Prof": 0,
+   "Lecturer": 0,
+   "บุคลากร": 0,
+   "ดร.": 0
+  },
+  "n_ac": 0,
+  "staff_links": []
+ }
+}

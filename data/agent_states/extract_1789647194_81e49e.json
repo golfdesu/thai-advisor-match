@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789647194_81e49e",
+  "target_university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+  "target_university_en": "National Institute of Development Administration",
+  "target_faculty_th": "คณะสิ่งแวดล้อม",
+  "target_faculty_en": "School of Environment",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://edm.nida.ac.th"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

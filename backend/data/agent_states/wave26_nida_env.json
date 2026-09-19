@@ -1,0 +1,159 @@
+{
+  "session_id": "wave26_nida_env",
+  "target_university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+  "target_university_en": "National Institute of Development Administration",
+  "target_faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+  "target_faculty_en": "Graduate School of Environmental Development Administration",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://nida.ac.th/"
+  ],
+  "failed_urls": [
+    "https://edm.nida.ac.th/"
+  ],
+  "faculties": {
+    "nationalin_graduatesc_lorchirachoonku_001": {
+      "id": "nationalin_graduatesc_lorchirachoonku_001",
+      "university": "National Institute of Development Administration",
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "faculty": "Graduate School of Environmental Development Administration",
+      "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Vichit",
+      "last_name": "Lorchirachoonkul",
+      "full_name": "Vichit Lorchirachoonkul",
+      "full_name_th": "รศ.ดร. วิชิต หล่อจีระชุณห์กุล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [
+        "แนวทางการปรับโครงสร้างราคาน้ำมันที่เป็นประโยชน์ต่อสังคมส่วนรวม"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "nationalin_graduatesc_vikitset_002": {
+      "id": "nationalin_graduatesc_vikitset_002",
+      "university": "National Institute of Development Administration",
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "faculty": "Graduate School of Environmental Development Administration",
+      "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Teerapong",
+      "last_name": "Vikitset",
+      "full_name": "Teerapong Vikitset",
+      "full_name_th": "ศ.ดร. ธีระพงษ์ วิกิตเศรษฐ",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [
+        "แนวทางการปรับโครงสร้างราคาน้ำมันที่เป็นประโยชน์ต่อสังคมส่วนรวม"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "nationalin_graduatesc_jitthavech_003": {
+      "id": "nationalin_graduatesc_jitthavech_003",
+      "university": "National Institute of Development Administration",
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "faculty": "Graduate School of Environmental Development Administration",
+      "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Jirawan",
+      "last_name": "Jitthavech",
+      "full_name": "Jirawan Jitthavech",
+      "full_name_th": "ศ.ดร. จิราวัลย์ จิตรถเวช",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [
+        "แนวทางการปรับโครงสร้างราคาน้ำมันที่เป็นประโยชน์ต่อสังคมส่วนรวม"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "nationalin_graduatesc_worasith_004": {
+      "id": "nationalin_graduatesc_worasith_004",
+      "university": "National Institute of Development Administration",
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "faculty": "Graduate School of Environmental Development Administration",
+      "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Pornpen",
+      "last_name": "Worasith",
+      "full_name": "Pornpen Worasith",
+      "full_name_th": "รศ.ดร. พรเพ็ญ วรสิทธา",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [
+        "หวยเกษียณ = ผ่าทางออกประเทศ?"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "nationalin_graduatesc_siriborvornrata_005": {
+      "id": "nationalin_graduatesc_siriborvornrata_005",
+      "university": "National Institute of Development Administration",
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "faculty": "Graduate School of Environmental Development Administration",
+      "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "department": "คณะสถิติประยุกต์",
+      "department_th": "คณะสถิติประยุกต์",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Thitirat",
+      "last_name": "Siriborvornratanakul",
+      "full_name": "Thitirat Siriborvornratanakul",
+      "full_name_th": "รศ.ดร. ฐิติรัตน์ ศิริบวรรัตนกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Artificial Intelligence",
+        "Image Processing"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "วิชิต หล่อจีระชุณห์กุล": "nationalin_graduatesc_lorchirachoonku_001",
+    "ธีระพงษ์ วิกิตเศรษฐ": "nationalin_graduatesc_vikitset_002",
+    "จิราวัลย์ จิตรถเวช": "nationalin_graduatesc_jitthavech_003",
+    "พรเพ็ญ วรสิทธา": "nationalin_graduatesc_worasith_004",
+    "ฐิติรัตน์ ศิริบวรรัตนกุล": "nationalin_graduatesc_siriborvornrata_005"
+  },
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 6090,
+  "status": "completed",
+  "last_error": null
+}

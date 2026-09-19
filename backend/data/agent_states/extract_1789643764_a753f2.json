@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789643764_a753f2",
+  "target_university_th": "มหาวิทยาลัยพะเยา",
+  "target_university_en": "University of Phayao",
+  "target_faculty_th": "วิทยาลัยพลังงาน",
+  "target_faculty_en": "School of Energy",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://energy.up.ac.th/",
+    "https://sce.up.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

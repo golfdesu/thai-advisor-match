@@ -1,0 +1,47 @@
+{
+  "session_id": "wave27_ubu_sci",
+  "target_university_th": "มหาวิทยาลัยอุบลราชธานี",
+  "target_university_en": "Ubon Ratchathani University",
+  "target_faculty_th": "คณะวิทยาศาสตร์",
+  "target_faculty_en": "Faculty of Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.sci.ubu.ac.th/",
+    "https://www.ubu.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "ubonratcha_facultyofs_jarujarus_001": {
+      "id": "ubonratcha_facultyofs_jarujarus_001",
+      "university": "Ubon Ratchathani University",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Purim",
+      "last_name": "Jarujarus",
+      "full_name": "Purim Jarujarus",
+      "full_name_th": "ศ.ดร. ปุริม จารุจำรัส",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ปุริม จารุจำรัส": "ubonratcha_facultyofs_jarujarus_001"
+  },
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 2139,
+  "status": "completed",
+  "last_error": null
+}

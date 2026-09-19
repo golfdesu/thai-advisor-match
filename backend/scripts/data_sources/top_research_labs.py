@@ -684,8 +684,8 @@ TOP_RESEARCH_LABS = [
         "faculty_th": "คณะพาณิชยศาสตร์และการบัญชีและคณะวิทยาศาสตร์และเทคโนโลยี",
         "department": "Department of Computer Science & Finance",
         "department_th": "สาขาวิชาวิทยาการคอมพิวเตอร์และการเงิน",
-        "lead_advisor_id": "tu_eng_001",
-        "member_faculty_ids": ["tu_eng_001", "tu_sci_001"],
+        "lead_advisor_id": "thammasatu_facultyofe_supakwong_029",
+        "member_faculty_ids": ["thammasatu_facultyofe_supakwong_029", "tu_sci_001"],
         "description": "ศูนย์วิจัยและบ่มเพาะนวัตกรรมระบบการเงินยุคใหม่ มุ่งเน้นการวิเคราะห์ข้อมูลความเสี่ยงสินเชื่อด้วย AI (Credit Scoring), การเทรดเชิงปริมาณ (Algorithmic Trading), และเทคโนโลยีบล็อกเชนสำหรับพันธบัตรดิจิทัล",
         "research_domains": [
             "Explainable AI for Credit Risk & Fraud Detection",
@@ -721,8 +721,8 @@ TOP_RESEARCH_LABS = [
         "faculty_th": "คณะวิศวกรรมศาสตร์และคณะแพทยศาสตร์ ศูนย์พัทยา",
         "department": "Department of Mechanical & Medical Engineering",
         "department_th": "ภาควิชาวิศวกรรมเครื่องกลและการแพทย์",
-        "lead_advisor_id": "tu_eng_001",
-        "member_faculty_ids": ["tu_eng_001"],
+        "lead_advisor_id": "thammasatu_facultyofe_supakwong_029",
+        "member_faculty_ids": ["thammasatu_facultyofe_supakwong_029"],
         "description": "ศูนย์วิจัยตั้งอยู่ ณ เขตนวัตกรรมการแพทย์ EECmd พัทยา มุ่งพัฒนานวัตกรรมหุ่นยนต์ผ่าตัดส่องกล้องนำทางด้วยเลเซอร์ เตียงผู้ป่วยอัจฉริยะป้องกันแผลกดทับ และระบบ Tele-Health ทางไกลสำหรับพื้นที่ห่างไกล",
         "research_domains": [
             "Laser-Guided Laparoscopic Surgical Robotics",
@@ -1121,8 +1121,8 @@ TOP_RESEARCH_LABS = [
         "faculty_th": "สำนักวิชาวิทยาศาสตร์",
         "department": "School of Physics & Materials Science",
         "department_th": "สาขาวิชาฟิสิกส์และวัสดุศาสตร์",
-        "lead_advisor_id": "sut_eng_pitiwat_001",
-        "member_faculty_ids": ["sut_eng_pitiwat_001", "sut_sci_sukathida_001"],
+        "lead_advisor_id": "sut_eng_sarawut_001",
+        "member_faculty_ids": ["sut_eng_sarawut_001", "sut_sci_ayut_001"],
         "description": "ศูนย์วิจัยที่ใช้ประโยชน์จากแสงซินโครตรอน (Synchrotron Light) ในการวิเคราะห์โครงสร้างอะตอมของวัสดุขั้วแบตเตอรี่โซเดียมไอออน ตัวเร่งปฏิกิริยาพลังงานแสงอาทิตย์ และสารกึ่งตัวนำรุ่นใหม่",
         "research_domains": [
             "Synchrotron X-Ray Absorption Spectroscopy (XAS/XPS) for Catalysts",

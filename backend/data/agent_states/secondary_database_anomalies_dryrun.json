@@ -1,0 +1,252 @@
+{
+  "apply": false,
+  "deleted_faculty_ids": [
+    {
+      "id": "srinakha_facultyo_6dde3ed5",
+      "full_name_th": "อ. องครักษ์ จ.นครนายก",
+      "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+      "faculty_th": "คณะแพทยศาสตร์"
+    }
+  ],
+  "cleared_contaminated_emails": [
+    {
+      "id": "khonkaenun_facultyofm_fac_012_012",
+      "full_name_th": "รศ.ดร. นพ. ณัฐ คูณรังษีสมบูรณ์",
+      "old_email": "kitti.th@cmu.ac.th",
+      "new_email": null
+    }
+  ],
+  "cleaned_profile_urls": [
+    {
+      "id": "cmu_eng_ee_015",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=15&t=สมบูรณ์  นุชประยูร",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=15&t=สมบูรณ์%20นุชประยูร"
+    },
+    {
+      "id": "thammasatu_facultyofp_kongkaneramit_031",
+      "old": "https://tu.ac.th/uploads/pharm/pdf/CV/2026/CV_Lalana K_12 Feb 2026_Eng.pdf",
+      "new": "https://tu.ac.th/uploads/pharm/pdf/CV/2026/CV_Lalana%20K_12%20Feb%202026_Eng.pdf"
+    },
+    {
+      "id": "cmu_eng_ee_001",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=1&t=กสิณ ประกอบไวทยกิจ",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=1&t=กสิณ%20ประกอบไวทยกิจ"
+    },
+    {
+      "id": "cmu_eng_ee_006",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=6&t=ธนะพงษ์ ธนะศักดิ์ศิริ",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=6&t=ธนะพงษ์%20ธนะศักดิ์ศิริ"
+    },
+    {
+      "id": "cmu_eng_ee_007",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=7&t=ธราดล โกมลมิศร์",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=7&t=ธราดล%20โกมลมิศร์"
+    },
+    {
+      "id": "cmu_eng_ee_030",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=30&t=พีรพนธ์ อนุสารสุนทร",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=30&t=พีรพนธ์%20อนุสารสุนทร"
+    },
+    {
+      "id": "cmu_eng_ee_034",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=34&t=วิศรุต อัจฉริยวิริยะ",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=34&t=วิศรุต%20อัจฉริยวิริยะ"
+    },
+    {
+      "id": "cmu_eng_department__131",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=5&t=ภาคภูมิ รักร่วม",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=5&t=ภาคภูมิ%20รักร่วม"
+    },
+    {
+      "id": "cmu_eng_ee_010",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=10&t=บุญศรี แก้วคำอ้าย",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=10&t=บุญศรี%20แก้วคำอ้าย"
+    },
+    {
+      "id": "cmu_eng_ee_016",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=16&t=สิโรตม์ คุณกิตติ",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=16&t=สิโรตม์%20คุณกิตติ"
+    },
+    {
+      "id": "cmu_eng_department__121",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=2&t=ปฏิรูป ผลจันทร์",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=2&t=ปฏิรูป%20ผลจันทร์"
+    },
+    {
+      "id": "cmu_eng_department__125",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=11&t=พวงรัตน์ แก้วล้อม",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=11&t=พวงรัตน์%20แก้วล้อม"
+    },
+    {
+      "id": "cmu_eng_ee_009",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=9&t=อุกฤษฏ์ มั่นคง",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=9&t=อุกฤษฏ์%20มั่นคง"
+    },
+    {
+      "id": "cmu_eng_ee_008",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=8&t=นิพนธ์ ธีรอำพน",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=8&t=นิพนธ์%20ธีรอำพน"
+    },
+    {
+      "id": "cmu_eng_ee_018",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=18&t=เสริมศักดิ์ เอื้อตรงจิตต์",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=18&t=เสริมศักดิ์%20เอื้อตรงจิตต์"
+    },
+    {
+      "id": "cmu_eng_ee_033",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=33&t=ปณิดา ธารารักษ์",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=33&t=ปณิดา%20ธารารักษ์"
+    },
+    {
+      "id": "cmu_eng_ee_037",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=37&t=สรพล กิจศิริสิน",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=37&t=สรพล%20กิจศิริสิน"
+    },
+    {
+      "id": "cmu_eng_department__120",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=4&t=เสาหฤท นิตยวรรธนะ",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=4&t=เสาหฤท%20นิตยวรรธนะ"
+    },
+    {
+      "id": "cmu_eng_department__122",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=3&t=พิมพ์ลักษณ์ กิจจนะพานิช",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=3&t=พิมพ์ลักษณ์%20กิจจนะพานิช"
+    },
+    {
+      "id": "cmu_eng_department__123",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=8&t=อรรณพ วงศ์เรือง",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=8&t=อรรณพ%20วงศ์เรือง"
+    },
+    {
+      "id": "cmu_eng_department__124",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=9&t=สุลักษณ์ สุมิตสวรรค์",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=9&t=สุลักษณ์%20สุมิตสวรรค์"
+    },
+    {
+      "id": "cmu_eng_department__126",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=20&t=ปรัตถกร สิทธิสม",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=20&t=ปรัตถกร%20สิทธิสม"
+    },
+    {
+      "id": "cmu_eng_department__127",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=7&t=สิริชัย คุณภาพดีเลิศ",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=7&t=สิริชัย%20คุณภาพดีเลิศ"
+    },
+    {
+      "id": "cmu_eng_department__128",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=21&t=อนุชิต สอนไวย์",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=21&t=อนุชิต%20สอนไวย์"
+    },
+    {
+      "id": "cmu_eng_department__129",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=10&t=ณภัทร จักรวัฒนา",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=10&t=ณภัทร%20จักรวัฒนา"
+    },
+    {
+      "id": "cmu_eng_department__130",
+      "old": "https://env.eng.cmu.ac.th/personnel_detail.php?id=6&t=สรัลนุช ภู่พิสิฐ",
+      "new": "https://env.eng.cmu.ac.th/personnel_detail.php?id=6&t=สรัลนุช%20ภู่พิสิฐ"
+    },
+    {
+      "id": "cmu_eng_ee_012",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=12&t=พีรพล จิราพงศ์",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=12&t=พีรพล%20จิราพงศ์"
+    },
+    {
+      "id": "cmu_eng_ee_002",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=2&t=เกษมศักดิ์ อุทัยชนะ",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=2&t=เกษมศักดิ์%20อุทัยชนะ"
+    },
+    {
+      "id": "cmu_eng_ee_004",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=4&t=ดลเดช ตันตระวิวัฒน์",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=4&t=ดลเดช%20ตันตระวิวัฒน์"
+    },
+    {
+      "id": "cmu_eng_ee_011",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=11&t=ปารเมศ วิระสันติ",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=11&t=ปารเมศ%20วิระสันติ"
+    },
+    {
+      "id": "cmu_eng_ee_013",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=13&t=ยุทธนา ขำสุวรรณ์",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=13&t=ยุทธนา%20ขำสุวรรณ์"
+    },
+    {
+      "id": "cmu_eng_ee_014",
+      "old": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=14&t=วัชริน ศรีรัตนาวิชัยกุล",
+      "new": "https://ee.eng.cmu.ac.th/web/personnel_detail.php?id=14&t=วัชริน%20ศรีรัตนาวิชัยกุล"
+    }
+  ],
+  "cleaned_image_urls": [
+    {
+      "id": "chiangmaiu_facultyofv_phosri_071",
+      "old": "https://vmcmu.vet.cmu.ac.th/images/imageBranch/9_อภินนท์ _โพธิ์ศรี_kPBD.png",
+      "new": "https://vmcmu.vet.cmu.ac.th/images/imageBranch/9_อภินนท์%20_โพธิ์ศรี_kPBD.png"
+    },
+    {
+      "id": "chiangmaiu_facultyofv_klinhom_079",
+      "old": "https://vmcmu.vet.cmu.ac.th/images/imageBranch/16_สาริศา _กลิ่นหอม_tkp1.png",
+      "new": "https://vmcmu.vet.cmu.ac.th/images/imageBranch/16_สาริศา%20_กลิ่นหอม_tkp1.png"
+    },
+    {
+      "id": "cmu_eng_department_kunanon_74",
+      "old": "https://me.eng.cmu.ac.th/file_all/staff/Screenshot at Jul 27 12-02-43.jpg",
+      "new": "https://me.eng.cmu.ac.th/file_all/staff/Screenshot%20at%20Jul%2027%2012-02-43.jpg"
+    },
+    {
+      "id": "cmu_eng_department_nad_64",
+      "old": "https://me.eng.cmu.ac.th/file_all/staff/my photo.jpg",
+      "new": "https://me.eng.cmu.ac.th/file_all/staff/my%20photo.jpg"
+    },
+    {
+      "id": "ku_wave18_sisc_0059",
+      "old": "https://research.ku.ac.th/forest/ForestImages/Avata/Person/4806219000000000225    .jpg",
+      "new": "https://research.ku.ac.th/forest/ForestImages/Avata/Person/4806219000000000225.jpg"
+    },
+    {
+      "id": "chiangmaiu_facultyofv_nalampang_060",
+      "old": "https://vmcmu.vet.cmu.ac.th/images/imageBranch/12_กรรณิการ์_ณ ลำปาง_njnr.png",
+      "new": "https://vmcmu.vet.cmu.ac.th/images/imageBranch/12_กรรณิการ์_ณ%20ลำปาง_njnr.png"
+    },
+    {
+      "id": "cmu_eng_department_nakorn_96",
+      "old": "https://me.eng.cmu.ac.th/file_all/staff/Screen Shot 2563-07-30 at 11.26.41.jpg",
+      "new": "https://me.eng.cmu.ac.th/file_all/staff/Screen%20Shot%202563-07-30%20at%2011.26.41.jpg"
+    },
+    {
+      "id": "cmu_6ad1f81d_0590",
+      "old": "https://dent-revproxy.dent.cmu.ac.th/pis/129.jpg (New)",
+      "new": "https://dent-revproxy.dent.cmu.ac.th/pis/129.jpg"
+    },
+    {
+      "id": "ku_wave17_soc_0049",
+      "old": "https://research.ku.ac.th/forest/ForestImages/Avata/Person/5600483010201568891    .png",
+      "new": "https://research.ku.ac.th/forest/ForestImages/Avata/Person/5600483010201568891.png"
+    },
+    {
+      "id": "cmu_eng_me_002",
+      "old": "https://me.eng.cmu.ac.th/file_all/staff/Niti Square.jpg",
+      "new": "https://me.eng.cmu.ac.th/file_all/staff/Niti%20Square.jpg"
+    },
+    {
+      "id": "cmu_eng_department_arpiruk_70",
+      "old": "https://me.eng.cmu.ac.th/file_all/staff/ผศ ดร อาภิรักษ์  หกพันนา Arpiruk_hokpunna.jpg",
+      "new": "https://me.eng.cmu.ac.th/file_all/staff/ผศ%20ดร%20อาภิรักษ์%20หกพันนา%20Arpiruk_hokpunna.jpg"
+    },
+    {
+      "id": "cmu_eng_department_kordkwan_79",
+      "old": "https://me.eng.cmu.ac.th/file_all/staff/IMG_20210301_153846 (2).jpg",
+      "new": "https://me.eng.cmu.ac.th/file_all/staff/IMG_20210301_153846%20(2).jpg"
+    }
+  ],
+  "normalized_empty_string_faculties": {
+    "department": 903,
+    "department_th": 852,
+    "role": 40
+  },
+  "normalized_empty_string_courses": {
+    "degree_name": 16
+  },
+  "embedding_texts_rebuilt": 901
+}

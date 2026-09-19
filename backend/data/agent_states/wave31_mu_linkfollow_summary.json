@@ -1,0 +1,120 @@
+{
+  "batch": "wave31_mu_eng_la_linkfollow",
+  "db_commit": false,
+  "univ_scope": "mahidol.ac.th only",
+  "max_steps": 15,
+  "no_wiki": true,
+  "units": [
+    {
+      "key": "wave31_mu_eng",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "faculty_en": "Faculty of Engineering",
+      "seeds": [
+        "https://eg.mahidol.ac.th/",
+        "https://eg.mahidol.ac.th/departments/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave31_mu_eng_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave31_mu_eng.json",
+      "staff_links": [],
+      "dept_paths": [],
+      "intermediates": [],
+      "per_url": [
+        {
+          "url": "https://eg.mahidol.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=8723|patch_new=0|pruned=0",
+          "added": 0,
+          "role": "landing"
+        },
+        {
+          "url": "https://eg.mahidol.ac.th/departments/",
+          "ok": true,
+          "reason": "render_ok_html_chars=1687|patch_new=0|pruned=0",
+          "added": 0,
+          "role": "landing"
+        },
+        {
+          "url": "(no-staff-links)",
+          "ok": false,
+          "reason": "no_staff_links_on_landing_nor_intermediates",
+          "added": 0,
+          "role": "follow"
+        }
+      ],
+      "failed_urls": [],
+      "steps_used": 2
+    },
+    {
+      "key": "wave31_mu_la",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "faculty_en": "Faculty of Liberal Arts",
+      "seeds": [
+        "https://la.mahidol.ac.th/",
+        "https://la.mahidol.ac.th/en/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave31_mu_la_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave31_mu_la.json",
+      "staff_links": [
+        "https://la.mahidol.ac.th/en/staff/",
+        "https://la.mahidol.ac.th/en/for-staff/",
+        "https://smartedu.mahidol.ac.th/Authen/staff/login.aspx",
+        "https://la.mahidol.ac.th/en/about-mula/"
+      ],
+      "dept_paths": [
+        "/en/staff/",
+        "/en/for-staff/",
+        "/Authen/staff/login.aspx",
+        "/en/about-mula/"
+      ],
+      "intermediates": [],
+      "per_url": [
+        {
+          "url": "https://la.mahidol.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=14342|patch_new=0|pruned=0",
+          "added": 0,
+          "role": "landing"
+        },
+        {
+          "url": "https://la.mahidol.ac.th/en/",
+          "ok": true,
+          "reason": "render_ok_html_chars=214790|patch_new=0|pruned=0",
+          "added": 0,
+          "role": "landing"
+        },
+        {
+          "url": "https://la.mahidol.ac.th/en/staff/",
+          "ok": true,
+          "reason": "render_ok_html_chars=132368|patch_new=0|pruned=0",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://la.mahidol.ac.th/en/for-staff/",
+          "ok": true,
+          "reason": "render_ok_html_chars=144148|patch_new=0|pruned=0",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://smartedu.mahidol.ac.th/Authen/staff/login.aspx",
+          "ok": true,
+          "reason": "render_ok_html_chars=108461|patch_new=0|pruned=0",
+          "added": 0,
+          "role": "deep"
+        },
+        {
+          "url": "https://la.mahidol.ac.th/en/about-mula/",
+          "ok": true,
+          "reason": "render_ok_html_chars=128358|patch_new=0|pruned=0",
+          "added": 0,
+          "role": "deep"
+        }
+      ],
+      "failed_urls": [],
+      "steps_used": 6
+    }
+  ]
+}

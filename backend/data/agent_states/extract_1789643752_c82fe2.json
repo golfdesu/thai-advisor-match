@@ -1,0 +1,48 @@
+{
+  "session_id": "extract_1789643752_c82fe2",
+  "target_university_th": "มหาวิทยาลัยพะเยา",
+  "target_university_en": "University of Phayao",
+  "target_faculty_th": "คณะศิลปศาสตร์",
+  "target_faculty_en": "School of Liberal Arts",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://libarts.up.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "university_schoolofli_yawiloeng_001": {
+      "id": "university_schoolofli_yawiloeng_001",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Liberal Arts",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department": "คณะศิลปศาสตร์",
+      "department_th": "คณะศิลปศาสตร์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Rattana",
+      "last_name": "Yawiloeng",
+      "full_name": "Rattana Yawiloeng",
+      "full_name_th": "ผศ.ดร. รัตนา ยาวิโลเห็ง",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [
+        "Comparative Move Analysis in Introduction Section of Tourism Research Articles Published in International and Thai Journals"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "รัตนา ยาวิโลเห็ง": "university_schoolofli_yawiloeng_001"
+  },
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 2227,
+  "status": "completed",
+  "last_error": null
+}

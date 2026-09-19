@@ -1,0 +1,58 @@
+{
+  "session_id": "course_1789726781_f46396",
+  "target_university_th": "มหาวิทยาลัยนเรศวร",
+  "target_university_en": "Naresuan University",
+  "target_faculty_th": "คณะวิทยาศาสตร์การแพทย์",
+  "target_faculty_en": "Faculty of Medical Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://biochemistry.medsci.nu.ac.th/?page_id=205"
+  ],
+  "failed_urls": [],
+  "courses": {
+    "naresuan_facultyo_masterofscience_001": {
+      "id": "naresuan_facultyo_masterofscience_001",
+      "title_th": "วิทยาศาสตรมหาบัณฑิต สาขาวิชาชีวเคมี",
+      "title_en": "Master of Science in Biochemistry",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "วท.ม. (ชีวเคมี)",
+      "university": "Naresuan University",
+      "university_th": "มหาวิทยาลัยนเรศวร",
+      "faculty": "Faculty of Medical Science",
+      "faculty_th": "คณะวิทยาศาสตร์การแพทย์",
+      "department": "Department of Biochemistry",
+      "department_th": "ภาควิชาชีวเคมี",
+      "program_type": "ภาคปกติ",
+      "duration_years": "2 ปี",
+      "total_credits": "36 หน่วยกิต",
+      "tuition_per_semester": "20,000 บาท",
+      "tuition_total": "80,000 บาท",
+      "description": "หลักสูตรระดับปริญญาโท วิทยาศาสตรมหาบัณฑิต สาขาวิชาชีวเคมี เน้นการผลิตมหาบัณฑิตที่มีความรู้ในศาสตร์ด้านชีวเคมีในระดับสูง มีทักษะและศักยภาพในการค้นคว้าวิจัย ตลอดจนสามารถนำทักษะไปประยุกต์ใช้เพื่อต่อยอดองค์ความรู้ในการพัฒนาอุตสาหกรรม สิ่งแวดล้อม สุขภาพ และธุรกิจ",
+      "curriculum_highlights": [
+        "รายวิชาทันสมัยตามความก้าวหน้าในศาสตร์สาขาวิชาชีวเคมีและชีววิทยาโมเลกุล",
+        "งานวิจัยหลากหลายครอบคลุมชีวเคมีการแพทย์ ชีวเคมีเทคโนโลยีชีวเคมีอุตสาหกรรมและสิ่งแวดล้อม และชีวสารสนเทศ",
+        "สอดแทรกแนวคิดเชิงธุรกิจและการเป็นผู้ประกอบการและการเขียนโมเดลธุรกิจ"
+      ],
+      "career_paths": [
+        "นักวิจัยชีวเคมีในหน่วยงานทั้งของภาครัฐและเอกชน",
+        "อาจารย์สอนในสถาบันอุดมศึกษาทั้งของภาครัฐและเอกชน",
+        "ที่ปรึกษาด้านชีวเคมีในหน่วยงานภาครัฐและเอกชน",
+        "ที่ปรึกษาทางด้านวิทยาศาสตร์",
+        "นักธุรกิจทางด้านวิทยาศาสตร์",
+        "ผู้เชี่ยวชาญเฉพาะทางด้านเทคนิควิจัยทางชีวเคมี"
+      ],
+      "tags": [
+        "ชีวเคมี",
+        "Biochemistry",
+        "ชีววิทยาโมเลกุล",
+        "วิทยาศาสตร์การแพทย์"
+      ],
+      "website_url": "https://biochemistry.medsci.nu.ac.th/?page_id=205"
+    }
+  },
+  "dedup_title_keys": {},
+  "step_count": 1,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

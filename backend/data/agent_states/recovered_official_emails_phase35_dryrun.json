@@ -1,0 +1,171 @@
+{
+  "mode": "DRY-RUN",
+  "total_candidates": 16,
+  "valid_candidates": 16,
+  "rejected_candidates": 0,
+  "updated_emails": [
+    {
+      "id": "kmutt_4bf8615a_9065",
+      "full_name_th": "ผศ.ดร. ดวงทิพย์ มูลมั่งมี",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "duangtip.moo@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff",
+      "cluster": "KMUTT Science - Microbiology"
+    },
+    {
+      "id": "kmutt_3b0ec732_2197",
+      "full_name_th": "ผศ.ดร. นิยม กำลังดี",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "niyom.kam@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff",
+      "cluster": "KMUTT Science - Microbiology"
+    },
+    {
+      "id": "kmutt_5482c64f_9833",
+      "full_name_th": "ผศ.ดร. วิทยา เขาหนองบัว",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "wittaya.kao@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff",
+      "cluster": "KMUTT Science - Microbiology"
+    },
+    {
+      "id": "kmutt_44a91424_9581",
+      "full_name_th": "ผศ.ดร. สุกัญญา พึ่งจะแย้ม",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "sukanya.phu@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff",
+      "cluster": "KMUTT Science - Microbiology"
+    },
+    {
+      "id": "kmutt_295b713f_1735",
+      "full_name_th": "ผศ.ดร. กรรณิการ์ กุลยะณี",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "kannika.kuny@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff",
+      "cluster": "KMUTT Science - Microbiology"
+    },
+    {
+      "id": "kmutt_79b26f7e_5520",
+      "full_name_th": "ดร. จริญญา เชาวน์ปรีชา",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "arinya.chao@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff",
+      "cluster": "KMUTT Science - Microbiology"
+    },
+    {
+      "id": "kmutt_381fedf1_8538",
+      "full_name_th": "ดร. อานนท์ ชูกำเนิด",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "arnon.chuk@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff",
+      "cluster": "KMUTT Science - Microbiology"
+    },
+    {
+      "id": "kmutt_13ee518d_7562",
+      "full_name_th": "ผศ.ดร. นุจริน จงรุจา",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "nujarin.jon@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff/12-about/30-dr-songsirin-ruengvisesh",
+      "cluster": "KMUTT Science - Microbiology"
+    },
+    {
+      "id": "kmutt_411aa867_0808",
+      "full_name_th": "ดร. พฤทธิ์ กฤษณะพันธ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาจุลชีววิทยา",
+      "new_email": "prit.khr@kmutt.ac.th",
+      "profile_url": "https://mic.kmutt.ac.th/index.php/about/staff",
+      "cluster": "KMUTT Science - Microbiology"
+    },
+    {
+      "id": "kmutt_sit_narongrit_waraporn",
+      "full_name_th": "ผศ.ดร. ณรงค์ฤทธิ์ วราภรณ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+      "department_th": null,
+      "new_email": "narongrit@sit.kmutt.ac.th",
+      "profile_url": "https://www.sit.kmutt.ac.th/people/academic-staff/",
+      "cluster": "KMUTT SIT - Information Technology"
+    },
+    {
+      "id": "kmutt_sit_siam_yamsangsung",
+      "full_name_th": "ดร. สยาม แย้มแสงสังข์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+      "department_th": null,
+      "new_email": "siam@sit.kmutt.ac.th",
+      "profile_url": "https://www.sit.kmutt.ac.th/people/academic-staff/",
+      "cluster": "KMUTT SIT - Information Technology"
+    },
+    {
+      "id": "kmutt_sit_tul",
+      "full_name_th": "ผศ.ดร. ตุลย์ ไตรยสรรค์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+      "department_th": null,
+      "new_email": "tuul.tri@sit.kmutt.ac.th",
+      "profile_url": "https://www.sit.kmutt.ac.th/people/academic-staff/",
+      "cluster": "KMUTT SIT - Information Technology"
+    },
+    {
+      "id": "kmutt_sit_tuul_t",
+      "full_name_th": "ดร. ตุลย์ ตรียะซอน",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+      "department_th": "วิทยาการคอมพิวเตอร์",
+      "new_email": "tuul.tri@sit.kmutt.ac.th",
+      "profile_url": "https://www.sit.kmutt.ac.th/en/",
+      "cluster": "KMUTT SIT - Information Technology"
+    },
+    {
+      "id": "kmutt_sit_wichian_chutimaskul",
+      "full_name_th": "รศ.ดร. วิเชียร ชุติมาสกุล",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+      "department_th": "เทคโนโลยีสารสนเทศ",
+      "new_email": "wichian@sit.kmutt.ac.th",
+      "profile_url": "https://www.sit.kmutt.ac.th/aun-qa-2025/",
+      "cluster": "KMUTT SIT - Information Technology"
+    },
+    {
+      "id": "kmutt_sit_vajirasak_vanijja",
+      "full_name_th": "รศ.ดร. วชิรศักดิ์ วณิชชา",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+      "department_th": "คณะเทคโนโลยีสารสนเทศ",
+      "new_email": "vachee@sit.kmutt.ac.th",
+      "profile_url": "https://www.sit.kmutt.ac.th/en/utm/",
+      "cluster": "KMUTT SIT - Information Technology"
+    },
+    {
+      "id": "kmutt_sit_umaporn_supasitthimethee",
+      "full_name_th": "ผศ.ดร. อุมาพร สุภสิทธิเมธี",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+      "faculty_th": "คณะเทคโนโลยีสารสนเทศ",
+      "department_th": null,
+      "new_email": "umaporn@sit.kmutt.ac.th",
+      "profile_url": "https://www.sit.kmutt.ac.th/people/academic-staff/",
+      "cluster": "KMUTT SIT - Information Technology"
+    }
+  ],
+  "skipped_already_populated": [],
+  "not_found_in_db": [],
+  "embedding_texts_rebuilt": 3
+}

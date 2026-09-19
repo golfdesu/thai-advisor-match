@@ -1,0 +1,256 @@
+{
+  "apply": true,
+  "changed_records": [
+    {
+      "id": "chulalongk_facultyofc_nimmapirat_007",
+      "full_name_th": "อ.ดร. พิมพ์จุฑา นิมมาภิรัตน์",
+      "profile_url": null,
+      "education_old": [
+        "edDegree: null,selectedMajor: null,modalOpen: false, modalContent: null, modalTitle: null, modalHeader: null, isS",
+        "ปริญญาบัณฑิต",
+        "ปริญญาตรี",
+        "ปริญญาโทและปริญญาเอก",
+        "ปริญญาเอก",
+        "ปริญญาบัณฑิต"
+      ],
+      "education_new": [
+        "ปริญญาบัณฑิต",
+        "ปริญญาตรี",
+        "ปริญญาโทและปริญญาเอก",
+        "ปริญญาเอก"
+      ],
+      "research_interests_old": [
+        "คณะจิตวิทยา",
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development",
+        "คณะจิตวิทยา คณะจิตวิทยา",
+        "งานวิจัยและวิชาการด้านคณะจิตวิทยา"
+      ],
+      "research_interests_new": [
+        "คณะจิตวิทยา",
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development",
+        "คณะจิตวิทยา คณะจิตวิทยา",
+        "งานวิจัยและวิชาการด้านคณะจิตวิทยา"
+      ],
+      "featured_publications_old": [],
+      "featured_publications_new": [],
+      "embedding_changed": true,
+      "codepoints_before": {
+        "education": [],
+        "research_interests": [],
+        "featured_publications": []
+      },
+      "codepoints_after": {
+        "education": [],
+        "research_interests": [],
+        "featured_publications": []
+      }
+    },
+    {
+      "id": "chulalongk_facultyofc_pornprasertmani_002",
+      "full_name_th": "อ.ดร. สันทัด พรประเสริฐมานิต",
+      "profile_url": null,
+      "education_old": [
+        "ปริญญาเอก (Postdoctoral Researcher), Institute for Measurement, Methodology, Analysis & Policy (IMMAP) University o",
+        "edDegree: null,selectedMajor: null,modalOpen: false, modalContent: null, modalTitle: null, modalHeader: null, isS",
+        "ปริญญาบัณฑิต",
+        "ปริญญาตรี",
+        "ปริญญาโทและปริญญาเอก",
+        "ปริญญาเอก"
+      ],
+      "education_new": [
+        "ปริญญาเอก (Postdoctoral Researcher), Institute for Measurement, Methodology, Analysis & Policy (IMMAP) University o",
+        "ปริญญาบัณฑิต",
+        "ปริญญาตรี",
+        "ปริญญาโทและปริญญาเอก",
+        "ปริญญาเอก"
+      ],
+      "research_interests_old": [
+        "จิตวิทยาปริชาน",
+        "คณะจิตวิทยา คณะจิตวิทยา",
+        "งานวิจัยและวิชาการด้านคณะจิตวิทยา"
+      ],
+      "research_interests_new": [
+        "จิตวิทยาปริชาน",
+        "คณะจิตวิทยา คณะจิตวิทยา",
+        "งานวิจัยและวิชาการด้านคณะจิตวิทยา"
+      ],
+      "featured_publications_old": [],
+      "featured_publications_new": [],
+      "embedding_changed": true,
+      "codepoints_before": {
+        "education": [],
+        "research_interests": [],
+        "featured_publications": []
+      },
+      "codepoints_after": {
+        "education": [],
+        "research_interests": [],
+        "featured_publications": []
+      }
+    },
+    {
+      "id": "chulalongk_facultyofc_tepphan_004",
+      "full_name_th": "ผศ.ดร. ณัฐสุดา เต้พันธ์",
+      "profile_url": null,
+      "education_old": [
+        "Ph.D. from Oregon State University in Counseling. She has been actively involved in enhancing psychological [&hell",
+        "edDegree: null,selectedMajor: null,modalOpen: false, modalContent: null, modalTitle: null, modalHeader: null, isS",
+        "ปริญญาบัณฑิต",
+        "ปริญญาตรี",
+        "ปริญญาโทและปริญญาเอก",
+        "ปริญญาเอก"
+      ],
+      "education_new": [
+        "Ph.D. from Oregon State University in Counseling. She has been actively involved in enhancing psychological [&hell",
+        "ปริญญาบัณฑิต",
+        "ปริญญาตรี",
+        "ปริญญาโทและปริญญาเอก",
+        "ปริญญาเอก"
+      ],
+      "research_interests_old": [
+        "คณะจิตวิทยา",
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development",
+        "คณะจิตวิทยา คณะจิตวิทยา",
+        "งานวิจัยและวิชาการด้านคณะจิตวิทยา"
+      ],
+      "research_interests_new": [
+        "คณะจิตวิทยา",
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development",
+        "คณะจิตวิทยา คณะจิตวิทยา",
+        "งานวิจัยและวิชาการด้านคณะจิตวิทยา"
+      ],
+      "featured_publications_old": [],
+      "featured_publications_new": [],
+      "embedding_changed": true,
+      "codepoints_before": {
+        "education": [],
+        "research_interests": [],
+        "featured_publications": []
+      },
+      "codepoints_after": {
+        "education": [],
+        "research_interests": [],
+        "featured_publications": []
+      }
+    },
+    {
+      "id": "chulalongk_facultyofc_chawowanich_005",
+      "full_name_th": "อ.ดร. เจนนิเฟอร์ ชวโนวานิช",
+      "profile_url": null,
+      "education_old": [
+        "Ph.D. in Cross-Cultural Psychology from Brunel University, London, UK, where she completed her dissertation on acc",
+        "edDegree: null,selectedMajor: null,modalOpen: false, modalContent: null, modalTitle: null, modalHeader: null, isS",
+        "ปริญญาบัณฑิต",
+        "ปริญญาตรี",
+        "ปริญญาโทและปริญญาเอก",
+        "ปริญญาเอก"
+      ],
+      "education_new": [
+        "Ph.D. in Cross-Cultural Psychology from Brunel University, London, UK, where she completed her dissertation on acc",
+        "ปริญญาบัณฑิต",
+        "ปริญญาตรี",
+        "ปริญญาโทและปริญญาเอก",
+        "ปริญญาเอก"
+      ],
+      "research_interests_old": [
+        "คณะจิตวิทยา",
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development",
+        "คณะจิตวิทยา คณะจิตวิทยา",
+        "งานวิจัยและวิชาการด้านคณะจิตวิทยา"
+      ],
+      "research_interests_new": [
+        "คณะจิตวิทยา",
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development",
+        "คณะจิตวิทยา คณะจิตวิทยา",
+        "งานวิจัยและวิชาการด้านคณะจิตวิทยา"
+      ],
+      "featured_publications_old": [
+        {
+          "title": "ปัจจัยเชิงสาเหตุที่มีต่อการพัฒนาหัวข้อวิจัยและการเผยแพร่ผลงานวิจัยของ อาจารย์มหาวิทยาลัยศรีนครินทรวิโรฒ โดยส่งผ่านคุณลักษณะที่ดีของการเป็นนักวิจัยพี่เลี้ยง",
+          "venue": "ThaiJO (JBSD)",
+          "url": "https://so02.tci-thaijo.org/index.php/JBSD/article/view/110763",
+          "year": 2018,
+          "citation_count": 0
+        }
+      ],
+      "featured_publications_new": [
+        {
+          "title": "ปัจจัยเชิงสาเหตุที่มีต่อการพัฒนาหัวข้อวิจัยและการเผยแพร่ผลงานวิจัยของ อาจารย์มหาวิทยาลัยศรีนครินทรวิโรฒ โดยส่งผ่านคุณลักษณะที่ดีของการเป็นนักวิจัยพี่เลี้ยง",
+          "venue": "ThaiJO (JBSD)",
+          "url": "https://so02.tci-thaijo.org/index.php/JBSD/article/view/110763",
+          "year": 2018,
+          "citation_count": 0
+        }
+      ],
+      "embedding_changed": true,
+      "codepoints_before": {
+        "education": [],
+        "research_interests": [],
+        "featured_publications": []
+      },
+      "codepoints_after": {
+        "education": [],
+        "research_interests": [],
+        "featured_publications": []
+      }
+    },
+    {
+      "id": "chulalongk_facultyofc_jantawarint_006",
+      "full_name_th": "อ.ดร. สุภสิรี จันทวรินทร์",
+      "profile_url": null,
+      "education_old": [
+        "ปริญญาโทและปริญญาเอก สาขาจิตวิทยา จาก University of California Davis ประเทศสหรัฐอเมริกา มีความเชี่ยวชาญในด้านจิตวิทยาการรับรู้ การ",
+        "edDegree: null,selectedMajor: null,modalOpen: false, modalContent: null, modalTitle: null, modalHeader: null, isS",
+        "ปริญญาบัณฑิต",
+        "ปริญญาตรี",
+        "ปริญญาโทและปริญญาเอก",
+        "ปริญญาเอก"
+      ],
+      "education_new": [
+        "ปริญญาโทและปริญญาเอก สาขาจิตวิทยา จาก University of California Davis ประเทศสหรัฐอเมริกา มีความเชี่ยวชาญในด้านจิตวิทยาการรับรู้ การ",
+        "ปริญญาบัณฑิต",
+        "ปริญญาตรี",
+        "ปริญญาโทและปริญญาเอก",
+        "ปริญญาเอก"
+      ],
+      "research_interests_old": [
+        "คณะจิตวิทยา",
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development",
+        "คณะจิตวิทยา คณะจิตวิทยา",
+        "งานวิจัยและวิชาการด้านคณะจิตวิทยา"
+      ],
+      "research_interests_new": [
+        "คณะจิตวิทยา",
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development",
+        "คณะจิตวิทยา คณะจิตวิทยา",
+        "งานวิจัยและวิชาการด้านคณะจิตวิทยา"
+      ],
+      "featured_publications_old": [],
+      "featured_publications_new": [],
+      "embedding_changed": true,
+      "codepoints_before": {
+        "education": [],
+        "research_interests": [],
+        "featured_publications": []
+      },
+      "codepoints_after": {
+        "education": [],
+        "research_interests": [],
+        "featured_publications": []
+      }
+    }
+  ],
+  "education_duplicate_records": 5,
+  "education_artifact_removals": 5,
+  "control_character_records": 0,
+  "publication_control_records": 0,
+  "embedding_text_rebuilt": 5
+}

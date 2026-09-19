@@ -4,7 +4,7 @@
 > [!IMPORTANT]
 > **Strict Process Compliance & Zero-Bypass Policy:**
 > 1. **Master Architecture & Runbook:** Refer to [`PROJECT_STRUCTURE_AND_WORKFLOW.md`](./PROJECT_STRUCTURE_AND_WORKFLOW.md) for the complete directory index, 5-stage acquisition SOP, and CLI runbooks before taking action in new sessions.
-> 2. **No Direct Data Synthesis / Manual Shortcuts:** When instructed to acquire, scrape, or enrich faculty, curriculum, or laboratory data, NEVER manually author/synthesize data directly into files or bypass pipelines to save time. You MUST strictly execute the designated Autonomous Pipeline CLI Runners (e.g., `python backend/scripts/agentic_pipeline/cli_runner.py` for `SKILL.state` or established crawlers).
+> 2. **Mandatory SKILL.state / Zero In-Chat Crawling:** When instructed to acquire, scrape, search, or enrich faculty (including missing emails/profiles), curriculum, or laboratory data, NEVER run ad-hoc multi-turn scrapers in chat or parse raw HTML/DOM in conversation turns. You MUST strictly execute the designated Autonomous Pipeline CLI Runners (`python backend/scripts/agentic_pipeline/cli_runner.py` for `SKILL.state`). Keep all crawling, Trafilatura pruning, and RapidFuzz dedup headlessly in Python to maintain a flat token footprint (<2,000 tokens/turn). Never manually synthesize data.
 > 3. **Process Integrity Over Speed:** Always follow the full lifecycle: Real-time Extraction/Crawl → State Reducer (RapidFuzz Dedup & Title Normalization) → Disk Checkpointing (`backend/data/agent_states/`) → Multi-Threaded Vectorization → Database Commit.
 > 4. **Adhere to Defined Skills & Protocols:** If a specialized agent skill exists (e.g., `data-acquire-faculty-elites`, `data-acquire-academic`, `db-optimization`), you MUST execute according to that skill's documented CLI tools and architectural contracts.
 
@@ -111,6 +111,7 @@ Teacher/
 │   │   └── agent_states/         # Checkpointed extraction states & deduplication checkpoints
 │   └── scripts/                  # Data Ingestion, Crawlers & Canonical Merging Pipelines
 │       ├── agentic_pipeline/     # Autonomous Pipeline (State Reducer, Content Pruner, CLI Runner)
+│       ├── dream_rsi/            # Dream-RSI Replay Simulators, Policy Optimization & DSA Benchmark
 │       ├── crawlers/             # Targeted University & Faculty Web Crawlers
 │       ├── audits/               # Database validation, index verification, & hygiene audit scripts
 │       ├── legacy_archive/       # Archived historical crawl scripts and experimental test suites
@@ -142,6 +143,11 @@ Teacher/
 - **Pre-compiled Regex:** Compile dictionary transformations (`re.compile`) once at module level.
 - **SQL Pre-filtering:** Enforce `filter(...).limit(...)` at SQL level. Never execute unconstrained `.all()` into Python memory.
 - **Batch Processing:** Use `Model.id.in_(batch_ids)` and commit once per batch in ingestion pipelines. Delete temporary/one-off ingestion scripts after verification.
+
+### 4. Dream-RSI Offline Replay Simulation & Algorithmic Parity Standards:
+- **Offline Replay over Frozen Traces:** Exploration policies for faculty recovery, web probing, and deduplication must be evaluated and tuned using Replay Simulators (`backend/scripts/dream_rsi/`) constructed from historical checkpoints before running live execution. This guarantees zero network egress and zero LLM cost during hyperparameter tuning.
+- **Replay Objective Metric:** Exploration policies are scored via `V = Quality - beta1 * Cost + beta2 * (Cost / max(1, Rounds))`, favoring high-yield, parallelized batch exploration over sequential single-node probing.
+- **Strict Bit-Level Parity Invariant:** Algorithmic modifications to backend DSA primitives (`tokenize_mixed`, `TopKHeap`, `InvertedIndex`) must undergo 100% exact parity verification across diverse benchmark corpora before adoption to protect lexical indexing symmetry (Section 9 Invariant 2).
 
 ---
 
@@ -194,6 +200,7 @@ The project implements the 3-Layer **WikiSkill Architecture** for autonomous dat
 - **Academic Faculty Acquisition (SKILL.state & WikiSkill):** `.agents/skills/data-acquire-academic/SKILL.md` & `data-acquire-faculty-elites/SKILL.md`
 - **Curriculum & Tuition Discovery:** `.agents/skills/data-curriculum-tuition-discovery/SKILL.md`
 - **Scraper & SPA Builders:** `.agents/skills/data-build-scraper/SKILL.md` & `data-scrape-spa/SKILL.md`
+- **Dream-RSI Replay Simulation & Policy Tuning:** `backend/scripts/dream_rsi/` (Faculty Recovery, Dedup Policy, DSA Engineering)
 
 ---
 

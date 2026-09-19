@@ -1,0 +1,501 @@
+{
+  "batch": "wave34_selenium_interaction",
+  "db_commit": false,
+  "univ_scope": "nu.ac.th + chula.ac.th only",
+  "units": [
+    {
+      "key": "wave34_nu_sci",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "faculty_en": "Faculty of Science",
+      "verified_count": 13,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave34_nu_sci_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave34_nu_sci.json",
+      "status": "verified",
+      "per_url": [
+        {
+          "url": "https://www.sci.nu.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=87807|patch_new=13|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 87807,
+          "rendered_density": 87,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 13,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/faculty/",
+          "ok": true,
+          "reason": "render_ok_html_chars=18753|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 15046,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18753,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/faculty2/",
+          "ok": true,
+          "reason": "render_ok_html_chars=18754|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 15047,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18754,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=1",
+          "ok": true,
+          "reason": "render_ok_html_chars=18774|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18774,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=2",
+          "ok": true,
+          "reason": "render_ok_html_chars=18770|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18770,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=3",
+          "ok": true,
+          "reason": "render_ok_html_chars=18770|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18770,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=4",
+          "ok": true,
+          "reason": "render_ok_html_chars=18770|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18770,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=5",
+          "ok": true,
+          "reason": "render_ok_html_chars=18774|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18774,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=6",
+          "ok": true,
+          "reason": "render_ok_html_chars=18774|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18774,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=7",
+          "ok": true,
+          "reason": "render_ok_html_chars=18770|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18770,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=8",
+          "ok": true,
+          "reason": "render_ok_html_chars=18774|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18774,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=9",
+          "ok": true,
+          "reason": "render_ok_html_chars=18770|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18770,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=10",
+          "ok": true,
+          "reason": "render_ok_html_chars=18775|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18775,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=11",
+          "ok": true,
+          "reason": "render_ok_html_chars=18775|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18775,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=12",
+          "ok": true,
+          "reason": "render_ok_html_chars=18771|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18771,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=13",
+          "ok": true,
+          "reason": "render_ok_html_chars=18775|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18775,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=14",
+          "ok": true,
+          "reason": "render_ok_html_chars=18771|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18771,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=15",
+          "ok": true,
+          "reason": "render_ok_html_chars=18775|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18775,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=16",
+          "ok": true,
+          "reason": "render_ok_html_chars=18775|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18775,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=17",
+          "ok": true,
+          "reason": "render_ok_html_chars=18779|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18779,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=18",
+          "ok": true,
+          "reason": "render_ok_html_chars=18771|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18771,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=19",
+          "ok": true,
+          "reason": "render_ok_html_chars=18775|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18775,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.sci.nu.ac.th/?page=department&id=20",
+          "ok": true,
+          "reason": "render_ok_html_chars=18775|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 125494,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 18775,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "stop:no_clickable_pagination"
+          ],
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [],
+      "total_clicks": 0,
+      "step_calls": 23
+    },
+    {
+      "key": "wave34_cu_cps",
+      "faculty_th": "วิทยาลัยประชากรศาสตร์",
+      "faculty_en": "College of Population Studies",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave34_cu_cps_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave34_cu_cps.json",
+      "status": "verified",
+      "per_url": [
+        {
+          "url": "https://cps.chula.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=14754|patch_new=0|pruned=0|clicks=3",
+          "static_chars": 212,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 14754,
+          "rendered_density": 0,
+          "clicks": 3,
+          "click_detail": [
+            "clicked:<button text='>'>:chars=14792:patch=0:err=-",
+            "clicked:<button text='>'>:chars=14789:patch=0:err=-",
+            "dup_content_stop:<button text='>'>"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://cps.chula.ac.th/en/",
+          "ok": false,
+          "reason": "browser_thin_or_block_page",
+          "static_chars": 212,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 935,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.chula.ac.th/",
+          "ok": true,
+          "reason": "render_ok_html_chars=833364|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 716880,
+          "static_density": 23,
+          "static_http": 200,
+          "rendered_chars": 833364,
+          "rendered_density": 23,
+          "clicks": 0,
+          "click_detail": [
+            "click_failed:<a text=''>:ElementClickInterceptedException"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.chula.ac.th/academics/faculty-and-staff/",
+          "ok": true,
+          "reason": "render_ok_html_chars=288415|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 288415,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "click_failed:<a text=''>:ElementClickInterceptedException"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.chula.ac.th/en/academics/faculty-and-staff/",
+          "ok": true,
+          "reason": "render_ok_html_chars=242904|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 242904,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "click_failed:<a text=''>:ElementClickInterceptedException"
+          ],
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.chula.ac.th/staff/",
+          "ok": true,
+          "reason": "render_ok_html_chars=288390|patch_new=0|pruned=0|clicks=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 288390,
+          "rendered_density": 0,
+          "clicks": 0,
+          "click_detail": [
+            "click_failed:<a text=''>:ElementClickInterceptedException"
+          ],
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [
+        "https://cps.chula.ac.th/en/"
+      ],
+      "total_clicks": 3,
+      "step_calls": 7
+    }
+  ]
+}

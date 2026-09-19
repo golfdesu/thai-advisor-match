@@ -1,0 +1,124 @@
+{
+  "batch": "wave27_batchA_browser_only",
+  "db_commit": false,
+  "units": [
+    {
+      "key": "wave27_nida_econ",
+      "faculty_th": "คณะพัฒนาเศรษฐกิจ",
+      "seeds": [
+        "https://econ.nida.ac.th/en/faculty-member/",
+        "https://econ.nida.ac.th/en/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_nida_econ_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_nida_econ.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://econ.nida.ac.th/en/faculty-member/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=62392",
+          "added": 0
+        },
+        {
+          "url": "https://econ.nida.ac.th/en/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=98172",
+          "added": 0
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave27_nida_env",
+      "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "seeds": [
+        "https://edm.nida.ac.th/en/faculty-member/",
+        "https://nida.ac.th/en/"
+      ],
+      "verified_count": 2,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_nida_env_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_nida_env.json",
+      "status": "partial",
+      "per_url": [
+        {
+          "url": "https://edm.nida.ac.th/en/faculty-member/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "added": 0
+        },
+        {
+          "url": "https://nida.ac.th/en/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=255866",
+          "added": 2
+        }
+      ],
+      "failed_urls": [
+        "https://edm.nida.ac.th/en/faculty-member/"
+      ]
+    },
+    {
+      "key": "wave27_nida_bus",
+      "faculty_th": "คณะบริหารธุรกิจ (NIDA Business School)",
+      "seeds": [
+        "https://mba.nida.ac.th/en/about/professor/",
+        "https://mba.nida.ac.th/en/faculty-member/"
+      ],
+      "verified_count": 20,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_nida_bus_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_nida_bus.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://mba.nida.ac.th/en/about/professor/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=340442",
+          "added": 20
+        },
+        {
+          "url": "https://mba.nida.ac.th/en/faculty-member/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=243443",
+          "added": 0
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave27_su_ict",
+      "faculty_th": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+      "seeds": [
+        "https://ict.su.ac.th/?page_id=58",
+        "https://ict.su.ac.th/"
+      ],
+      "verified_count": 1,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_su_ict_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave27_su_ict.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://ict.su.ac.th/?page_id=58",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=227479",
+          "added": 1
+        },
+        {
+          "url": "https://ict.su.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=189472",
+          "added": 0
+        }
+      ],
+      "failed_urls": []
+    }
+  ]
+}

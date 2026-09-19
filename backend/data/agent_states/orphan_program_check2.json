@@ -1,0 +1,116 @@
+{
+  "msu_engineering": {
+    "query": "มหาสารคาม วิศวกรรมศาสตร์ ปริญญาโท หลักสูตร",
+    "verdict": "EXISTS",
+    "evidence": [
+      {
+        "link": "https://eng.msu.ac.th/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B9%82%E0%B8%97/",
+        "title": "หลักสูตรปริญญาโท"
+      },
+      {
+        "link": "https://www.msu.ac.th/th/%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2/%E0%B8%AB%E0%B8%A5%E0%B8%81%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B9%82%E0%B8%97/",
+        "title": "หลักสูตรปริญญาโท - มหาวิทยาลัยมหาสารคาม (msu.ac.th)"
+      }
+    ],
+    "note": "key_idx=1 queries_used=1 organic=9 official_ac_th=3",
+    "http_status": 200
+  },
+  "swu_cosci": {
+    "query": "มศว นวัตกรรมสื่อสารสังคม ปริญญาโท หลักสูตร",
+    "verdict": "UNCLEAR",
+    "evidence": [],
+    "note": "HTTP -1: {'error': 'The read operation timed out'}",
+    "http_status": -1
+  },
+  "mfu_it": {
+    "query": "แม่ฟ้าหลวง เทคโนโลยีสารสนเทศ ปริญญาโท หลักสูตร",
+    "verdict": "UNCLEAR",
+    "evidence": [],
+    "note": "key_idx=1 queries_used=3 organic=9 official_ac_th=0",
+    "http_status": 200
+  },
+  "nu_medsci": {
+    "query": "นเรศวร วิทยาศาสตร์การแพทย์ ปริญญาโท หลักสูตร",
+    "verdict": "EXISTS",
+    "evidence": [
+      {
+        "link": "https://www.medsci.nu.ac.th/?page_id=5903",
+        "title": "หลักสูตรปริญญาโท_NEW"
+      },
+      {
+        "link": "https://www.acad.nu.ac.th/devcourse/StdManual_2565/programs/cluster_hlt_sci/05_medsci.html",
+        "title": ":: NU - คู่มือนิสิต ปีการศึกษา 2565"
+      },
+      {
+        "link": "https://biochemistry.medsci.nu.ac.th/?page_id=205",
+        "title": "ปริญญาโท - ภาควิชาชีวเคมี คณะวิทยาศาสตร์การแพทย์"
+      }
+    ],
+    "note": "key_idx=1 queries_used=4 organic=9 official_ac_th=3",
+    "http_status": 200
+  },
+  "psu_computing": {
+    "query": "สงขลานครินทร์ วิทยาลัยการคอมพิวเตอร์ ปริญญาโท หลักสูตร",
+    "verdict": "EXISTS",
+    "evidence": [
+      {
+        "link": "https://computing.psu.ac.th/th/masterdegree/",
+        "title": "หลักสูตร ปริญญาโท PROGRAM (MASTER DEGREE)"
+      },
+      {
+        "link": "https://www.sci.psu.ac.th/academic-programs/masters-degree/master-of-science-computer-science/",
+        "title": "วิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์"
+      }
+    ],
+    "note": "key_idx=1 queries_used=5 organic=9 official_ac_th=3",
+    "http_status": 200
+  },
+  "su_archaeo": {
+    "query": "ศิลปากร โบราณคดี ปริญญาโท หลักสูตร",
+    "verdict": "EXISTS",
+    "evidence": [
+      {
+        "link": "https://archae.su.ac.th/course-master-degree/archeology/",
+        "title": "หลักสูตรศิลปศาสตรมหาบัณฑิต สาขาวิชาโบราณคดี – Faculty of ..."
+      },
+      {
+        "link": "https://archae.su.ac.th/course-master-degree/archeology-2/",
+        "title": "หลักสูตรศิลปศาสตรมหาบัณฑิต สาขาวิชาโบราณคดี (หลักสูตรปรับปรุง ..."
+      },
+      {
+        "link": "https://archae.su.ac.th/news/2458/",
+        "title": "รับสมัครเข้าศึกษาต่อในระดับปริญญาโทและปริญญาเอก ภาคปกติ ..."
+      }
+    ],
+    "note": "key_idx=1 queries_used=6 organic=9 official_ac_th=3",
+    "http_status": 200
+  },
+  "_meta": {
+    "key_index": 1,
+    "queries_used": 6,
+    "max_queries": 6,
+    "stopped_on_429": false
+  },
+  "_ingest": {
+    "script": "backend/scripts/ingest_wave37_graduate_courses.py",
+    "db": "local-docker-only",
+    "total_added": 14,
+    "null_embeddings": 0,
+    "per_faculty": {
+      "msu_engineering": 2,
+      "swu_cosci": 0,
+      "mfu_it": 0,
+      "nu_medsci": 1,
+      "psu_computing": 1,
+      "su_archaeo": 10
+    },
+    "exports": [
+      "wave37_course_msu_eng.py",
+      "wave37_course_nu_medsci.py",
+      "wave37_course_psu_comp.py",
+      "wave37_course_psu_comp_grad.py",
+      "wave37_course_su_archaeo.py"
+    ],
+    "notes": "SWU COSCI + MFU IT UNCLEAR -> skipped, no ingest. PSU per-track detail pages absent from official hub static links; single grounded โท hub row kept."
+  }
+}

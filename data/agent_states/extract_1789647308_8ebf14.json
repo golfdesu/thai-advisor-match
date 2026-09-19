@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789647308_8ebf14",
+  "target_university_th": "มหาวิทยาลัยสงขลานครินทร์",
+  "target_university_en": "Prince of Songkla University",
+  "target_faculty_th": "สาขา EnvTech ภูเก็ต",
+  "target_faculty_en": "Phuket EnvTech",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://envtech.phuket.psu.ac.th",
+    "https://www.phuket.psu.ac.th"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

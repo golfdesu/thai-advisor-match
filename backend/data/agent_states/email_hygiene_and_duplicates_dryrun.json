@@ -1,0 +1,5447 @@
+{
+  "apply": false,
+  "deleted_stubs": [
+    {
+      "id": "chulalongk_facultyofa_siriprikphong_026",
+      "full_name_th": "รศ.ดร. พิไลวรรณ ศิริพฤกษ์พงษ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "tu_law_021",
+      "full_name_th": "อ.ดร. พญ. ณัฐนิช ลิมปโอวาท",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    }
+  ],
+  "shared_department_emails_nulled": [
+    {
+      "id": "cmu_11938100_0638",
+      "full_name_th": "รศ.ดร. ขวัญชนก ไชยชนะ",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_1309b592_5501",
+      "full_name_th": "ผศ.ดร. ชัยพร ตั้งทอง",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_278831ab_3545",
+      "full_name_th": "รศ.ดร. กฤษฎา สังขนันท์",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_2aad5c0f_9223",
+      "full_name_th": "ผศ.ดร. สุปรีดี แดงสกุล",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3097ff5e_4125",
+      "full_name_th": "ผศ.ดร. ภาคภูมิ เพ็ชรประดับ",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3613027d_2753",
+      "full_name_th": "รศ.ดร. สันติ ทาเสนา",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_45381d1d_1229",
+      "full_name_th": "ผศ.ดร. ศุภลักษณ์ โพธิ",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4d2c15ff_4319",
+      "full_name_th": "ดร. จตุรนต์ วัฒนาพันธ์",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4fe824da_3617",
+      "full_name_th": "ดร. กอบกูล จันทร์งาม",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_51dd81cc_1761",
+      "full_name_th": "อ.ดร. ขวัญชัย กันไว",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5723be07_7328",
+      "full_name_th": "รศ.ดร. วรรณศิริ วรรณสิทธิ์",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_57c601b6_3603",
+      "full_name_th": "ผศ.ดร. ณัฐพล พลอยมะกล่ำ",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5dfc8308_9921",
+      "full_name_th": "รศ.ดร. ธเนศร์ โรจน์ศิรพิศาล",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5e0ab14b_2837",
+      "full_name_th": "ผศ.ดร. ธีรนุช บุนนาค",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5f86dda4_4848",
+      "full_name_th": "รศ.ดร. ธีรนุช สืบเจริญ",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_621e1485_4836",
+      "full_name_th": "ดร. ศุภารัตน์ เกษรพรม",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_789ce25f_2617",
+      "full_name_th": "ดร. รวีโรจน์ ศุภรตุลธร",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_795dfb4c_2490",
+      "full_name_th": "ผศ.ดร. สุทธิดา วงศ์แก้ว",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_79b39dd7_4718",
+      "full_name_th": "ผศ.ดร. ปรียานุช โหนแหยม",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ae05ea27_3431",
+      "full_name_th": "อ.ดร. วันเฉลิม สุขภิการนนท์",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "kmutt_sit_narongrit_waraporn",
+      "full_name_th": "ผศ.ดร. ณรงค์ฤทธิ์ วราภรณ์",
+      "old_email": "webadmin@sit.kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_sit_tul",
+      "full_name_th": "ผศ.ดร. ตุลย์ ไตรยสรรค์",
+      "old_email": "webadmin@sit.kmutt.ac.th"
+    },
+    {
+      "id": "tu_52ae2b86_6102",
+      "full_name_th": "ผศ.ดร. ภก. อินทัช ศักดิ์ภักดีเจริญ",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "kmutt_sit_siam_yamsangsung",
+      "full_name_th": "ดร. สยาม แย้มแสงสังข์",
+      "old_email": "webadmin@sit.kmutt.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_0219e95a",
+      "full_name_th": "ผศ. พญ. วรรณพร บรีวงษ์",
+      "old_email": "radiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_062fdcfb",
+      "full_name_th": "ผศ. พญ. พรรณลักษณ์ สินสวัสดิ์",
+      "old_email": "eye.med@g.swu.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_002",
+      "full_name_th": "รศ.ดร. กฤษณะ ไวยมัย",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_07f1bba0",
+      "full_name_th": "อ. พญ. มุทิตา ลีละศิธร",
+      "old_email": "radiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_133552a9",
+      "full_name_th": "อ. นพ. กุลวิวัฒน์ พรหมสวัสดิ์",
+      "old_email": "radiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_1b6f765e",
+      "full_name_th": "รศ.ดร. พัชรินทร์ เทพอารีนันท์",
+      "old_email": "physiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_1c0c8a5d",
+      "full_name_th": "ผศ. พญ. สุมาลี บุญยะลีพรรณ",
+      "old_email": "eye.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_1ff2f199",
+      "full_name_th": "อ.ดร. พงษ์ศักดิ์ ขันธ์เพ็ชร",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_28908a9f",
+      "full_name_th": "ศ.ดร. รมิดา วัฒนโภคาสิน",
+      "old_email": "biochemistry.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_2e255499",
+      "full_name_th": "อ. นพ. วาทิตต์ รุจิราวรรณ",
+      "old_email": "forensic.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_31ce85ed",
+      "full_name_th": "ผศ.ดร. สิรินันท์ พงศ์เมธีกุล",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_37066b89",
+      "full_name_th": "อ. นพ. รัตนภูมิ ส่งเสริมสวัสดิ์",
+      "old_email": "radiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_3b767928",
+      "full_name_th": "ผศ.ดร. ศิวพร วรรณะเอี่ยมพิกุล",
+      "old_email": "biochemistry.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_43445e7a",
+      "full_name_th": "รศ.ดร. วิสุทธิ์ ประดิษฐ์อาชีพ",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_44027f8e",
+      "full_name_th": "อ. นพ. อภิชาติ ท่าช้าง",
+      "old_email": "radiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_4699e785",
+      "full_name_th": "รศ.ดร. วัลยา ธเนศพงศ์ธรรม",
+      "old_email": "biochemistry.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_498d1392",
+      "full_name_th": "ศ.ดร. ฉัตรศรี เดชะปัญญา",
+      "old_email": "physiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_56f9e0e5",
+      "full_name_th": "อ.ดร. ปฏิวัติ ก๋องแดง",
+      "old_email": "biochemistry.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_57648d91",
+      "full_name_th": "รศ. นพ. ยิ่งยง ต่ออุดม",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_58deae2e",
+      "full_name_th": "ผศ. พญ. ศิรินทร์ บุษยามานนท์",
+      "old_email": "forensic.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_5a48082d",
+      "full_name_th": "รศ. นพ. วิศิษฎ์ รังษิณาภรณ์",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_5ac1c815",
+      "full_name_th": "อ.ดร. วธัญญู บัวแก้ว",
+      "old_email": "microbiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_61efa5fc",
+      "full_name_th": "อ.ดร. เพชรรัตน์ เชียงแสน",
+      "old_email": "physiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_664fbffc",
+      "full_name_th": "อ.ดร. โยธิน จูประสงค์",
+      "old_email": "biochemistry.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_6b75d52d",
+      "full_name_th": "อ. นพ. ธนา ศิริพิสิฐศักดิ์",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_6bd8c5a9",
+      "full_name_th": "รศ.ดร. รักษวรรณ พูนคำ",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_73d25370",
+      "full_name_th": "รศ.ดร. สมฤดี สายหยุดทอง",
+      "old_email": "physiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_7b0c16b0",
+      "full_name_th": "อ. นพ. ปริวรรต วิเศษวงษา",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_7f9b368e",
+      "full_name_th": "ผศ. พญ. จันทร์ทรา ตนันท์ยุทธวงศ์",
+      "old_email": "biochemistry.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_807e9075",
+      "full_name_th": "อ. พญ. อรวิภา รัตนไพฑูรย์",
+      "old_email": "eye.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_894b7701",
+      "full_name_th": "อ. นพ. นิคม โนรีย์",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_8c12adab",
+      "full_name_th": "อ. นพ. ณัฐชนน ใจคำวัง",
+      "old_email": "radiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_8e8c1169",
+      "full_name_th": "ผศ.ดร. สมใจ อภิเศวตกานต์",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_9115df77",
+      "full_name_th": "ผศ. นพ. ณัฐกร มหสุภาชัย",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_945c97b4",
+      "full_name_th": "ผศ.ดร. ศรีสมบัติ พุฒิกมลกุล",
+      "old_email": "microbiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_95cd9f65",
+      "full_name_th": "อ.ดร. อรรถบุญญ์ วัฒน์ธรรมาวุธ",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_9a8c9e57",
+      "full_name_th": "อ. นพ. อภิชัย แผลงศร",
+      "old_email": "forensic.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_9a8ee961",
+      "full_name_th": "ผศ. นพ. ฐิติณัฐ ดิลกหัตถการ",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_a376efd6",
+      "full_name_th": "อ. นพ. พนิตพงศ์ มารุ่งโรจน์",
+      "old_email": "radiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_a4faeb34",
+      "full_name_th": "อ. พญ. รพีพร ยอดพรหม",
+      "old_email": "eye.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_a57f085b",
+      "full_name_th": "อ.ดร. เจนจิรา ทวีวัฒโนดม",
+      "old_email": "physiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_ab88e959",
+      "full_name_th": "รศ. นพ. ชาญณรงค์ เกษมกิจวัฒนา",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_b0dd4a35",
+      "full_name_th": "ผศ. นพ. วิทวัส บุญญานุวัตร",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_b29df4e7",
+      "full_name_th": "อ. พญ. ณิชาบูล โชติขจรเกียรติ",
+      "old_email": "eye.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_b68b97bb",
+      "full_name_th": "ผศ. นพ. ชัชวาลย์ เจริญธรรมรักษา",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_bad7d274",
+      "full_name_th": "อ. พญ. วัธนีย์ ศรีพวาทกุล",
+      "old_email": "eye.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_bc7e1c9e",
+      "full_name_th": "รศ. พญ. วรัทพร จันทร์ลลิต",
+      "old_email": "eye.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_c9e0180f",
+      "full_name_th": "อ. พญ. วรัทพร สิทธิจรูญ",
+      "old_email": "forensic.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_d27a653d",
+      "full_name_th": "อ.ดร. ปิยะนุช ปัทมสถาน",
+      "old_email": "physiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_d7488533",
+      "full_name_th": "อ.ดร. พัฒนพงษ์ บุญพรม",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_d86bec5d",
+      "full_name_th": "อ. นพ. ภรัณยู วิไล",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_d889be64",
+      "full_name_th": "อ. นพ. ชนกันต์ วณิชชานนท์",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_df69ea1f",
+      "full_name_th": "อ. นพ. ภัทรัฐ อิทธิพรวณิชย์",
+      "old_email": "radiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_e32b9d09",
+      "full_name_th": "รศ. นพ. วีระศักดิ์ จรัสชัยศรี",
+      "old_email": "forensic.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_e3364e72",
+      "full_name_th": "ผศ. น.สพ. ดร. รัฐจักร รังสิวิวัฒน์",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_e5a4037e",
+      "full_name_th": "ผศ. นพ. คมสัน ปลั่งศิริ",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_fdc329d5",
+      "full_name_th": "อ. นพ. ธัญญศักดิ์ เอกเวชวิท",
+      "old_email": "forensic.med@g.swu.ac.th"
+    },
+    {
+      "id": "cmu_3f667f70_1350",
+      "full_name_th": "ผศ. นพ. วชิระ โมกมล",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4adbcaf7_1842",
+      "full_name_th": "รศ. พญ. ศิวาพร จันทร์กระจ่าง",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5a4dda7f_2742",
+      "full_name_th": "อ. นพ. ธนวัฒน์ เบญจานุวัตรา",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_ff3613ae",
+      "full_name_th": "ผศ. นพ. เฉง นิลบุหงา",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_4cb0f006",
+      "full_name_th": "อ. นพ. อาร์ต อาดำ",
+      "old_email": "physiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_ed6356f7",
+      "full_name_th": "ผศ. นพ. ศุภกิจ พิมลธเรศ",
+      "old_email": "ortho.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_109af4d3",
+      "full_name_th": "อ. นพ. วศิน รุ่งเรืองวุฒิไกร",
+      "old_email": "radiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_17959a39",
+      "full_name_th": "อ. นพ. ธนัท บุญให้เจริญ",
+      "old_email": "eye.med@g.swu.ac.th"
+    },
+    {
+      "id": "cmu_61cc91a2_9552",
+      "full_name_th": "ผศ. นพ. นพรัตน์ ธนะชัยขันธ์",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "tu_4813b65c_2016",
+      "full_name_th": "อ. สุนิษา โอบด้อม",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_018",
+      "full_name_th": "ผศ.ดร. อภิรักษ์ จันทร์สร้าง",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "tu_58504fd1_7364",
+      "full_name_th": "ผศ. ชวนพิศ บุญเกิดอาจารย์ประจำ",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_b3251a1a_8975",
+      "full_name_th": "ผศ. นวลพรรณ แสงเพชร",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_17d1b22c_8119",
+      "full_name_th": "อ. ณัฐชยาภรณ์ โทนะพันธ์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_d48e0f5a_5885",
+      "full_name_th": "อ. ฉัตรนภา นันตื้อ",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "kmutt_381fedf1_8538",
+      "full_name_th": "ดร. อานนท์ ชูกำเนิด",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_4a62d676_9353",
+      "full_name_th": "ดร. ญาณวุฒิ หมานมานะ",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_119",
+      "full_name_th": "ผศ. นพพงศ์ ศรีตระกูล",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "ku_eng_cpe_022",
+      "full_name_th": "ดร. ธนะ วัฒนวารุณ",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "kmutt_2540122e_2487",
+      "full_name_th": "ดร. ศิวัตรา ชูเดช",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "ku_1e55e114_1626",
+      "full_name_th": "ผศ.ดร. ธานิน นานอก",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_22a0ce80_0586",
+      "full_name_th": "รศ.ดร. ไชยา ประสิทธิชัย",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_3d0a8626_7393",
+      "full_name_th": "ผศ.ดร. พิพัฒน์ คงประชา",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_ac21d07a_9202",
+      "full_name_th": "ผศ.ดร. กัลตวิทย์ วิทโยฬารโกวิทย์",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0027",
+      "full_name_th": "ผศ.ดร. ชินภัทร ทิพโยภาส",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0030",
+      "full_name_th": "ผศ.ดร. มนต์ชัย สุระรัตน์ชัย",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0008",
+      "full_name_th": "อ. พัชรี ครูขยัน",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0033",
+      "full_name_th": "ผศ.ดร. ภาณุมาศ อรุณเดชาวัฒน์",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0035",
+      "full_name_th": "รศ.ดร. ปองวิทย์ ศิริโพธิ์",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0009",
+      "full_name_th": "อ. จันทนา ไพรบูรณ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0010",
+      "full_name_th": "อ. สมหมาย เจนกิจการ",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0039",
+      "full_name_th": "อ.ดร. ณรงค์กร กระจ่างสวัสดิ์",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0011",
+      "full_name_th": "อ. ชัชรี แก้วสุรลิขิต",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "cmu_6aea0aec_3979",
+      "full_name_th": "อ.ดร. จุฑารัตน์ ปัญจขันธ์",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0012",
+      "full_name_th": "อ. จารุมาศ เจริญพานิช",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "cmu_d9d10ba1_2174",
+      "full_name_th": "ผศ.ดร. สรินยา ศรีเพชราวุธ",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0014",
+      "full_name_th": "อ. นิติ ชูเชิด",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0015",
+      "full_name_th": "อ. สันติ พ่วงเจริญ",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0016",
+      "full_name_th": "อ. ไพลิน จิตรชุ่ม",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0024",
+      "full_name_th": "อ. กังสดาลย์ บุญปราบ",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0026",
+      "full_name_th": "อ. วรรณวิมล คล้ายประดิษฐ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0030",
+      "full_name_th": "อ. อิสริยา วุฒิสินธุ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0032",
+      "full_name_th": "อ. พงศ์เชฏฐ์ พิชิตกุล",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0034",
+      "full_name_th": "อ. วราห์ เทพาหุดี",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0036",
+      "full_name_th": "อ. อรพินท์ จินตสถาพร",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "kku_1dd5e0f1_2035",
+      "full_name_th": "อ.ดร. วาธิส ลีลาภัทร",
+      "old_email": "cpe@kku.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0005",
+      "full_name_th": "รศ.ดร. สุนิสา ศิริพงศ์วุฒิกร",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0037",
+      "full_name_th": "อ. เรืองชาย ยุ้นพันธ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "kku_dd282888_5274",
+      "full_name_th": "อ.ดร. กิตติ์ เธียรธโนปจัย",
+      "old_email": "cpe@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0008",
+      "full_name_th": "ผศ.ดร. ชนกนันท์ สุขกำเนิด",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0038",
+      "full_name_th": "อ. ประพันธ์ศักดิ์ ศีรษะภูมิ",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0011",
+      "full_name_th": "รศ.ดร. ณัญธิวัฒน์ พลดี",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0012",
+      "full_name_th": "ผศ.ดร. นำพล มหายศนันท์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0039",
+      "full_name_th": "อ. ธนาคม บัณฑิตวงศ์รัตน์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0040",
+      "full_name_th": "อ. สุขกฤช นิมิตรกุล",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0042",
+      "full_name_th": "อ. อัครศิริ แสงสว่าง",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0016",
+      "full_name_th": "รศ.ดร. อัครพล จันทร์อ่อน",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0018",
+      "full_name_th": "อ.ดร. สุภชัย พลน้ำเที่ยง",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0020",
+      "full_name_th": "ศ.ดร. กาญจนา เศรษฐนันท์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0025",
+      "full_name_th": "รศ.ดร. ธนา ราษฎร์ภักดี",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0046",
+      "full_name_th": "อ. จักร อรัณยกานนท์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0048",
+      "full_name_th": "อ. อนุรักษ์ อุชุวิทยากุล",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0028",
+      "full_name_th": "ผศ.ดร. ฐนวรรธน์ นิยะโมสถ",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0050",
+      "full_name_th": "อ. ธีระพงศ์ ด้วงดี",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0051",
+      "full_name_th": "อ. จินตนา สและน้อย",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0052",
+      "full_name_th": "อ. ปริญญา ลิมป์วิริยะกุล",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0031",
+      "full_name_th": "ผศ.ดร. ศิรวดี อรัญนารถ",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0054",
+      "full_name_th": "อ. จรวย สุขแสงจันทร์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0057",
+      "full_name_th": "อ. เยาวลักษณ์ มั่นธรรม",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0059",
+      "full_name_th": "อ. ชาคริต เรืองสอน",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "kmutnb_1638a3e9_4313",
+      "full_name_th": "ศ.ดร. ยุพาภรณ์ อารีพงษ์",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0060",
+      "full_name_th": "อ. วชิระ ใจงาม",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0062",
+      "full_name_th": "อ. ขนิษฐา อุทัยพันธ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "kmutnb_18880cb2_0659",
+      "full_name_th": "ผศ.ดร. ธนากร รัตนะ",
+      "old_email": "ic@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_2a9f49b2_7127",
+      "full_name_th": "อ.ดร. สถาพร เทพสัมฤทธิ์พร",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_3339e100_0871",
+      "full_name_th": "รศ.ดร. กอบเกียรติ สระอุบล",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0063",
+      "full_name_th": "อ. จิรวัฒน์ ดีหมื่นไวย์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "kmutnb_40ffcc9a_9782",
+      "full_name_th": "รศ.ดร. เพียรพูล กมลจิตร์ประภา",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_51f30694_2596",
+      "full_name_th": "ผศ.ดร. ชนาพันธุ์ ชนาเนตร",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_56a0f7ec_3258",
+      "full_name_th": "ศ.ดร. เสาวณิต สุขภารังษี",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_5f75e638_9860",
+      "full_name_th": "รศ.ดร. คณิตา เพ็ชรัตน์",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_67c5c84c_4248",
+      "full_name_th": "ผศ.ดร. สุวัจชัย กมลสันติโรจน์",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_6b73d087_6681",
+      "full_name_th": "รศ.ดร. กฤดาภัทร สีหารี",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_71b1e1b5_0932",
+      "full_name_th": "ผศ.ดร. ชนนิกานต์ รอดมรณ์",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_7640dbbe_3565",
+      "full_name_th": "ผศ.ดร. อัครา ประโยชน์",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "ku_13923a5c_4248",
+      "full_name_th": "ผศ.ดร. พงษ์ศักดิ์ โล้วมั่นคง",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_1413ba3f_3721",
+      "full_name_th": "ผศ.ดร. ธีระชาติ ลี้ประเสริฐ",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_1f0b8d31_3607",
+      "full_name_th": "รศ.ดร. พินทุ์สุดา วีรวัฒน์",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_21a09240_1062",
+      "full_name_th": "ผศ.ดร. พิบูลย์ พันธุ",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_5e615a7a_0317",
+      "full_name_th": "ผศ.ดร. ชมพูนุท วรากุลวิทย์",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_64401af6_6702",
+      "full_name_th": "ผศ.ดร. ครองขวัญ อัครชนียากร",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_6480b66a_0851",
+      "full_name_th": "ผศ.ดร. ฐิตพัฒน์ เงินสุทธิวรกุล",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_6f52e65a_7505",
+      "full_name_th": "รศ.ดร. จักรพันธ์ ศิริเจริญศรี",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_6fb6fd34_4828",
+      "full_name_th": "รศ.ดร. ปณิทัต หาสิน",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_75a2f185_1803",
+      "full_name_th": "รศ.ดร. สุธาสินี กิตยาการ",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_79d21335_6397",
+      "full_name_th": "ผศ.ดร. กรรณิกา เจียมจำนรรจา",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0062",
+      "full_name_th": "ผศ.ดร. อภิสิทธิ์ น้ำประสานไทย",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0063",
+      "full_name_th": "ผศ.ดร. เพชญ์ ภัคโชตานนท์",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0012",
+      "full_name_th": "ผศ.ดร. พจนารถ แก่นจันทร์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0013",
+      "full_name_th": "ผศ.ดร. กฤษณะ นิลสุวรรณ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0014",
+      "full_name_th": "ผศ.ดร. ขวัญหทัย แช่ทอง",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0015",
+      "full_name_th": "ผศ.ดร. จิรายุ บัวทอง",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0024",
+      "full_name_th": "ผศ.ดร. ลดาวัลย์ สงทิพย์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0037",
+      "full_name_th": "ผศ.ดร. อัจฉรา ธรรมรัตน์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0036",
+      "full_name_th": "ผศ.ดร. วิริยะ ดวงสุวรรณ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_ac6f0f05",
+      "full_name_th": "ผศ.ดร. รัชฎาภรณ์ ประมงค์",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0028",
+      "full_name_th": "รศ.ดร. พัชราภรณ์ บุณยวานิชกุล",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0032",
+      "full_name_th": "ผศ.ดร. ศิริพงศ์ อติพันธ์",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0010",
+      "full_name_th": "ผศ.ดร. จุฬาภรณ์ เบญจปิยะพร",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0045",
+      "full_name_th": "อ.ดร. อาทิตย์ ภูผาผุด",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0026",
+      "full_name_th": "ผศ.ดร. ปาริชาต ภัทรพานิชชัย",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0068",
+      "full_name_th": "อ.ดร. ดาลัด ณ นคร",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0011",
+      "full_name_th": "ผศ.ดร. ธนศักดิ์ แซ่เลี่ยว",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0034",
+      "full_name_th": "รศ.ดร. วาสนา สุโยธา",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0041",
+      "full_name_th": "ผศ.ดร. จุฑา ทาคาฮาชิ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0043",
+      "full_name_th": "ผศ.ดร. นวลพรรณ ศิรินุพงศ์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0044",
+      "full_name_th": "ผศ.ดร. ปรียาภรณ์ เดชอรัญ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "kmutnb_109ea506_4655",
+      "full_name_th": "รศ.ดร. ปรวัฒน์ วิสูตรศักดิ์",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0042",
+      "full_name_th": "ผศ.ดร. วัชรี สีห์ชำนาญธุระกิจ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0040",
+      "full_name_th": "รศ.ดร. สันทัด วิเชียรโชติ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0002",
+      "full_name_th": "ผศ.ดร. เด่นพงษ์ สุดภักดี",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0007",
+      "full_name_th": "ผศ.ดร. จารุพล สุริยวนากุล",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0009",
+      "full_name_th": "ศ.ดร. ธนากร วงศ์วัฒนาเสถียร",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0015",
+      "full_name_th": "รศ.ดร. อนุสรณ์ ชินสุวรรณ",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0017",
+      "full_name_th": "รศ.ดร. สัปปินันทน์ เอกอําพน",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0019",
+      "full_name_th": "รศ.ดร. ดนัยพงศ์ เชษฐโชติศักดิ์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0024",
+      "full_name_th": "รศ.ดร. รักน้อย อัครรุ่งเรืองกุล",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kmutnb_32e5bf6f_0147",
+      "full_name_th": "รศ.ดร. เฉียบวุฒิ รัตนวิไลสกุล",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_6bf33db9_1799",
+      "full_name_th": "ผศ.ดร. สรร รัตนสัญญา",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_6e896cc8_0760",
+      "full_name_th": "รศ.ดร. อรไท พลเสน",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_71293ff3_9233",
+      "full_name_th": "ผศ.ดร. ศิรประภา มโนมัธย์",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "ku_52088221_8537",
+      "full_name_th": "ผศ.ดร. วิรัญญา แก้ววัฒนะ",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_66a19cf2_6510",
+      "full_name_th": "รศ.ดร. ทรงวุฒิ สุรมิตร",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_792b15ec_6800",
+      "full_name_th": "ผศ.ดร. ภัทราพร ลักษณ์สิริกุล",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_799119e7_8228",
+      "full_name_th": "รศ.ดร. ประภาศิริ พงษ์ประยูร",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0031",
+      "full_name_th": "รศ.ดร. เวชพงศ์ ชุติชูเดช",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0002",
+      "full_name_th": "รศ.ดร. มุทิตา มีนุ่น",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0001",
+      "full_name_th": "รศ.ดร. เสาวคนธ์ วัฒนจันทร์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0003",
+      "full_name_th": "รศ.ดร. วิโรจน์ ยูรวงศ์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0007",
+      "full_name_th": "ผศ.ดร. วรพงษ์ อัศวเกศมณี",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0008",
+      "full_name_th": "ผศ.ดร. ปิยรัตน์ ศิริวงศ์ไพศาล",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0010",
+      "full_name_th": "ผศ.ดร. ดุสิดา หนูทอง",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0018",
+      "full_name_th": "รศ.ดร. เถวียน วิทยา",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0019",
+      "full_name_th": "รศ.ดร. วรัญญู ศรีเดช",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0020",
+      "full_name_th": "รศ.ดร. พรอุษา จิตพุทธิ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0022",
+      "full_name_th": "ผศ.ดร. ธรรมนูญ โปรดปราน",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0026",
+      "full_name_th": "ผศ.ดร. บุษวรรณ หิรัญวรชาติ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0031",
+      "full_name_th": "รศ.ดร. ปิยะรัตน์ บุญแสวง",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0033",
+      "full_name_th": "รศ.ดร. ศุภศิลป์ มณีรัตน์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "cmu_16c8981f_9609",
+      "full_name_th": "ผศ.ดร. เดีย พนิตนาถ แชนนอน",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_1bd3935f_5239",
+      "full_name_th": "ผศ.ดร. จารุณี จูงกลาง",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_1e629b8e_1464",
+      "full_name_th": "รศ.ดร. จตุพล คำปวนสาย",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_20f06b68_5382",
+      "full_name_th": "ผศ.ดร. นรินทร์ พรินทรากุล",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_2315d15a_2364",
+      "full_name_th": "รศ.ดร. อุษรา ปัญญา",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_287e36fe_8520",
+      "full_name_th": "ผศ.ดร. สหัสชัย อินวงศ์วาร",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_2bcdb80b_8854",
+      "full_name_th": "อ.ดร. ภัทรสุดา ฉายาภักดี",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_2f1b8e42_0426",
+      "full_name_th": "รศ.ดร. อลิส ชาร์ป",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_351a8e1b_0968",
+      "full_name_th": "ผศ.ดร. สุทธาธร ไชยเรืองศรี",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_355cf068_4330",
+      "full_name_th": "รศ.ดร. อุษาวดี ชนสุต",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_35dd9b9b_8639",
+      "full_name_th": "รศ.ดร. อรุโณทัย จำปีทอง",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3600809e_2760",
+      "full_name_th": "ผศ.ดร. หทัยชนก ปันดิษฐ์",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_37bc1206_6908",
+      "full_name_th": "ผศ.ดร. ชิตชล ผลารักษ์",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4610e0bb_2017",
+      "full_name_th": "รศ.ดร. ประสิทธิ์ วังภคพัฒนวงศ์",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_466beafe_3767",
+      "full_name_th": "ผศ.ดร. วาทิต โคกทอง",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_48e50e9c_0252",
+      "full_name_th": "อ.ดร. เกวลิน ปัญโญ",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_1435431d_1082",
+      "full_name_th": "ผศ.ดร. อนุชาติ เขื่อนนิล",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_625dd8bc_3186",
+      "full_name_th": "อ.ดร. วรัญญา จริงจิตร",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_627a5421_1426",
+      "full_name_th": "รศ.ดร. สุจิตรพร เลอศิลป์",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_72ea930b_7952",
+      "full_name_th": "ผศ.ดร. สาวิตรี ชารุนันทกร",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_73422034_0328",
+      "full_name_th": "อ.ดร. อัจฉริยา ปัญญาแก้ว",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_73aecd86_0998",
+      "full_name_th": "รศ.ดร. สุภาพร ชินชัย",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_754c0c68_1011",
+      "full_name_th": "ผศ.ดร. สายฝน บุญฉัตรกุล",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7844eb6a_3291",
+      "full_name_th": "อ.ดร. พัชญ์พิไล ไชยวงศ์",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7a3217d1_1177",
+      "full_name_th": "ผศ.ดร. พีรยา มั่นเขตวิทย์",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0001",
+      "full_name_th": "รศ.ดร. ภาสิทธิ์ เจริญขวัญ",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0003",
+      "full_name_th": "ผศ.ดร. พร้อมพงศ์ สุกัณศีล",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0004",
+      "full_name_th": "ผศ.ดร. ภาสกร พรรณจิตต์",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0008",
+      "full_name_th": "ผศ.ดร. ปฏิสนธิ์ ปาลี",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0009",
+      "full_name_th": "ผศ.ดร. อฬิญญา พงษ์วาท",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0018",
+      "full_name_th": "รศ.ดร. มานัดถุ์ คำกอง",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0019",
+      "full_name_th": "ผศ.ดร. กุณฑลี ไชยสี",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0020",
+      "full_name_th": "อ.ดร. ดลภาค พรนพรัตน์",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0022",
+      "full_name_th": "ผศ.ดร. วรัญญา มหานันท์",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0023",
+      "full_name_th": "อ.ดร. สาลินี ธำรงเลาหะพันธุ์",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cu_46a830cc_0361",
+      "full_name_th": "ผศ.ดร. ปิติพร กิติรัตน์ตระการ",
+      "old_email": "commarts@chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0057",
+      "full_name_th": "รศ.ดร. กิตติพงค์ จงกิตตินฤกร",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0059",
+      "full_name_th": "รศ.ดร. ราฟาเอล บิสเซ่น",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0060",
+      "full_name_th": "ผศ.ดร. พิพัฒน์ เหล่าวัฒนบัณฑิต",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0003",
+      "full_name_th": "ผศ.ดร. นที พนากานต์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0004",
+      "full_name_th": "ผศ.ดร. เขมจิต เสนา",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0006",
+      "full_name_th": "ผศ.ดร. ปิโยรส จิระวัฒนา",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0013",
+      "full_name_th": "อ.ดร. วศกร ตรีเดช",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0014",
+      "full_name_th": "รศ.ดร. สุรสิทธิ์ ปิยะศิลป์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0021",
+      "full_name_th": "รศ.ดร. ปณิธาน พีรพัฒนา",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0023",
+      "full_name_th": "รศ.ดร. ศีขรินทร์ สุขโต",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0027",
+      "full_name_th": "รศ.ดร. ธีรวัฒน์ เหล่านภากุล",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0032",
+      "full_name_th": "ผศ.ดร. ฐิติพงศ์ จำรัส",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0033",
+      "full_name_th": "ผศ.ดร. ศิโรรัตน์ พัฒนไพโรจน์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0034",
+      "full_name_th": "ผศ.ดร. กฤษณรัช นิติสิริ",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0035",
+      "full_name_th": "ผศ.ดร. โกวิทย์ พลหาญ",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0036",
+      "full_name_th": "อ.ดร. คมกริช จันทรเสนา",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0037",
+      "full_name_th": "ผศ.ดร. คำนึง วาทโยธา",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0038",
+      "full_name_th": "รศ.ดร. ชัยยันย์ จันทร์ศิริ",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0039",
+      "full_name_th": "รศ.ดร. เจษฏา โพธิ์สม",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0042",
+      "full_name_th": "รศ.ดร. ขวัญตรี แสงประชาธนารักษ์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0044",
+      "full_name_th": "ผศ.ดร. กิตติพงษ์ ลาลูน",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kmutnb_1bbdce3c_7113",
+      "full_name_th": "รศ.ดร. อวัช วิเศษสัย",
+      "old_email": "ic@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_1b19cc4c_0064",
+      "full_name_th": "ศ.ดร. สอาด นิวิศพงศ์",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_275a85b1_1168",
+      "full_name_th": "รศ.ดร. มนฤดี ผ่องอักษร",
+      "old_email": "ic@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_3362541d_3672",
+      "full_name_th": "อ.ดร. ยนต์ชนก เขาแก้ว",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_36282605_3527",
+      "full_name_th": "ผศ.ดร. กอบกุล รวีสวัสดิ์",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_393009e6_2960",
+      "full_name_th": "อ.ดร. มนัสยา ละอองแก้ว",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_3971584f_4028",
+      "full_name_th": "รศ.ดร. เบญจพร ลิ้มธรรมาภรณ์",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_416a779c_8102",
+      "full_name_th": "อ.ดร. ชัชลิฎา บุญพะเนียด",
+      "old_email": "ic@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_46e20da8_0732",
+      "full_name_th": "ผศ.ดร. วิลาสินี ปีระจิตร",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_485a40c8_5586",
+      "full_name_th": "ผศ.ดร. มูรตี สมบูรณ์",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_4e1b3c3c_4868",
+      "full_name_th": "อ.ดร. จารุวรรณ ตาฬวัฒน์",
+      "old_email": "ic@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_4b02d535_3710",
+      "full_name_th": "รศ.ดร. นวลพรรณ ลอว์สัน",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_4f6dfc66_2139",
+      "full_name_th": "ผศ.ดร. นุชรินทร์ ทิพยวรรณากร",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_600f2ecf_0553",
+      "full_name_th": "รศ.ดร. วิกานดา ผาพันธ์",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_73a293be_0177",
+      "full_name_th": "ผศ.ดร. จีรภา สรรพกิจกำจร",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_7823a5b6_7795",
+      "full_name_th": "ผศ.ดร. ปิยะฉัตร ลีลาศิลปศาสน์",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_79787718_0261",
+      "full_name_th": "อ.ดร. ตรัยนพ พรหมกูล",
+      "old_email": "ic@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_7aa809df_4889",
+      "full_name_th": "ผศ.ดร. ณัฐกิตติ์ จิตรเอื้อตระกูล",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_d6f57384_0013",
+      "full_name_th": "อ.ดร. จิรายุ เสมกันทา",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0005",
+      "full_name_th": "รศ. พิษณุ เจียวคุณ",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "khonkaenun_facultyofm_sureephat_041",
+      "full_name_th": "รศ.ดร. ปนิทัศน์ สุรียธนาภาส",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_004",
+      "full_name_th": "รศ.ดร. พันธุ์ปิติ เปี่ยมสง่า",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_006",
+      "full_name_th": "รศ.ดร. สมชาย นำประเสริฐชัย",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_007",
+      "full_name_th": "รศ.ดร. อนันต์ ผลเพิ่ม",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_009",
+      "full_name_th": "รศ.ดร. ยอดเยี่ยม ทิพย์สุวรรณ์",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_015",
+      "full_name_th": "ผศ.ดร. สุภาพร เอื้อจงมานี",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_003",
+      "full_name_th": "รศ.ดร. จิตร์ทัศน์ ฝักเจริญผล",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_005",
+      "full_name_th": "รศ.ดร. ภัทร ลีลาพฤทธิ์",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "cmu_10d3e720_7163",
+      "full_name_th": "ผศ. นพ. วินัย สุริยานนท์",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_13ae1d03_3199",
+      "full_name_th": "รศ. นพ. ศตวรรษ ทองสวัสดิ์",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_31834dde_4742",
+      "full_name_th": "อ. นพ. วริทธิ์ หวังซื่อกุล",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_45a310e9_9187",
+      "full_name_th": "รศ. พญ. เกวลี อุณจักร",
+      "old_email": "pediatrics@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3da962e5_6048",
+      "full_name_th": "รศ. นพ. วีระศักดิ์ นาวารวงศ์",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_604ce57f_8251",
+      "full_name_th": "ผศ. นพ. ดำรงศักดิ์ บุญยเลิศ",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_10266e92_0612",
+      "full_name_th": "ศ. เกียรติคุณ นพ. กำพล กลั่นกลิ่น",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_286070b4_1575",
+      "full_name_th": "อ. พญ. สุภาณี ศุกระฤกษ์",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_35c8c5fc_2135",
+      "full_name_th": "ศ. เกียรติคุณ นพ. เกษม วัฒนชัย",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5580b123_5628",
+      "full_name_th": "รศ. นพ. สมชาย หรรษคุณาชัย",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_56d7b59f_8470",
+      "full_name_th": "ผศ. พญ. นันทพร ตียพันธ์",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5a43b522_4370",
+      "full_name_th": "ศ. นพ. ธีระ ศิริสันธนะ",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_706bdf38_0697",
+      "full_name_th": "รศ. นพ. ชาติชาย กว้างสุขสถิตย์",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7fe62634_5911",
+      "full_name_th": "ศ. คลินิก นพ. วัฒนา นาวาเจริญ",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_012",
+      "full_name_th": "ผศ.ดร. กิตติพล โหราพงศ์",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_017",
+      "full_name_th": "ผศ.ดร. หัชทัย ชาญเลขา",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_019",
+      "full_name_th": "ผศ.ดร. อัครพงศ์ พัชรรุ่งเรือง",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_013",
+      "full_name_th": "ผศ. ปรีดา เลิศพงศ์วิภูษณะ",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_016",
+      "full_name_th": "ผศ. สิทธิชัย ศรีอ่อน",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_020",
+      "full_name_th": "ดร. จิตติ นิรมิตรานนท์",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_021",
+      "full_name_th": "ดร. ชวณัฐ นาคะสันต์",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_023",
+      "full_name_th": "ดร. สุวิจักขณ์ ฟังประเสริฐกุล",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_024",
+      "full_name_th": "ดร. ศิริศิลป์ กองศิลป์",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_025",
+      "full_name_th": "ดร. ปิยะ ลิ้มเจริญ",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_027",
+      "full_name_th": "ดร. กัญจนสิทธ ทองเล็ก",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0029",
+      "full_name_th": "ดร. ดาริกา อวะภาค",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0038",
+      "full_name_th": "ดร. เอ็ม นุ้ยเลิศ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "cmu_628f5275_4052",
+      "full_name_th": "ศ. พญ. จุฬาภรณ์ พฤกษชาติคุณ",
+      "old_email": "pediatrics@cmu.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0070",
+      "full_name_th": "ศ. เฉลิมชนม์ สถิระพจน์",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0071",
+      "full_name_th": "รศ. สรรเพชญ ชื้อนิธิไพศาล",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0074",
+      "full_name_th": "ผศ. กรวิก ตนักษรานนท์",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0075",
+      "full_name_th": "ผศ. ชัยยุทธ เจริญผล",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cmu_6b898605_6332",
+      "full_name_th": "อ. นพ. ภคณัฐ พิธุพันธ์",
+      "old_email": "pediatrics@cmu.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0076",
+      "full_name_th": "ผศ. ปวัน ภิรมย์ทอง",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0077",
+      "full_name_th": "ผศ. วลัญซ์อร เอื้อรัตนวงศ์",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0078",
+      "full_name_th": "ผศ. ชัยพร กิจประชา",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0081",
+      "full_name_th": "อ. เทพชัย ศรีน้อย",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0035",
+      "full_name_th": "ดร. สมเกียรติ ตั้งจิตสิตเจริญ",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0040",
+      "full_name_th": "ดร. ปวีณา เชาวลิตวงศ์",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0041",
+      "full_name_th": "ดร. วิภาวี ธรรมาภรณ์พิลาศ",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0042",
+      "full_name_th": "ดร. อมรศิริ วิลาสเดชานนท์",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0044",
+      "full_name_th": "ดร. นันทชัย กานตานันทะ",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0045",
+      "full_name_th": "ดร. นภัสสวงศ์ โอสถศิลป์",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0047",
+      "full_name_th": "ผศ. ภูมิ เหลืองจามีกร",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0048",
+      "full_name_th": "ผศ. ประเสริฐ อัครประถมพงศ์",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0051",
+      "full_name_th": "ดร. อนวัช สรรพศรี",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0052",
+      "full_name_th": "ดร. พงษ์ศักดิ์ สุทธินนท์",
+      "old_email": "water@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0053",
+      "full_name_th": "ดร. อักษรา พฤทธิวิทยา",
+      "old_email": "water@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0054",
+      "full_name_th": "ดร. บุศวรรณ บิดร",
+      "old_email": "water@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0055",
+      "full_name_th": "ดร. อนุรักษ์ ศรีอริยวัฒน์",
+      "old_email": "water@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0057",
+      "full_name_th": "ดร. ปิยธิดา เรืองรัศมี",
+      "old_email": "water@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0058",
+      "full_name_th": "ดร. ภวิสร ชื่นชุ่ม",
+      "old_email": "water@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0059",
+      "full_name_th": "ดร. จีรพงษ์ เหล่าน้ำใส",
+      "old_email": "water@eng.chula.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0029",
+      "full_name_th": "ดร. ไชยวัฒน์ กล่ำพล",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_fb10e0a0_7946",
+      "full_name_th": "ดร. มนธิดา เร้าอรุณ",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0027",
+      "full_name_th": "ดร. กันยา อัครอารีย์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0028",
+      "full_name_th": "ดร. กาญจพรรณ จันทรถาวรพงศ์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0045",
+      "full_name_th": "ดร. วรพนิต จันทร์สุวรรณ์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "cmu_199e2040_5979",
+      "full_name_th": "รศ. นพ. มุนี แก้วปลั่ง",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "kku_5412fb44_5980",
+      "full_name_th": "อ.ดร. วสุ เชาว์พานนท์",
+      "old_email": "cpe@kku.ac.th"
+    },
+    {
+      "id": "cmu_23392a4c_8003",
+      "full_name_th": "ศ. พญ. มุฑิตา ตระกูลทิวากร",
+      "old_email": "pediatrics@cmu.ac.th"
+    },
+    {
+      "id": "cmu_46308960_9120",
+      "full_name_th": "ศ. นพ. จิตร จิรรัตน์สถิต",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_476a2fc1_0147",
+      "full_name_th": "รศ. พญ. บุญหลง ศิวะสมบูรณ",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4b3d2c3a_8378",
+      "full_name_th": "ศ. คลินิก นพ. นิเวศน์ นันทจิต",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4b94d89d_7564",
+      "full_name_th": "ผศ. นพ. พินิจ ลิ้มสุคนธ์",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_52458e3f_0647",
+      "full_name_th": "ศ. เกียรติคุณ นพ. ชาญ สถาปนกุล",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0011",
+      "full_name_th": "ผศ. นพ. กฤษณ์ ขวัญเงิน",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_496e3ed3_7411",
+      "full_name_th": "ผศ. ศศิธร สังข์อู๋",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_620541ba_7056",
+      "full_name_th": "ศ. คลินิก พญ. บุญสม ชัยมงคล",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_700d1c7d_5607",
+      "full_name_th": "ดร. วิภาวินี ไชยวิโน",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_794ff12b_6753",
+      "full_name_th": "ศ. เกียรติคุณ พญ. สุมิตรา ทองประเสริฐ",
+      "old_email": "intmed@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0010",
+      "full_name_th": "รศ. พญ. ลินดา หรรษภิญโญ",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0025",
+      "full_name_th": "อ. พญ. กณิกนันท์ อินตุ้ย",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0027",
+      "full_name_th": "ดร. ภรัณยา ชัยวัฒน์",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0067",
+      "full_name_th": "ดร. พีท หอมชื่น",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0080",
+      "full_name_th": "อ. ชัยโชค ไวภาษา",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0036",
+      "full_name_th": "ดร. อริศรา เจียมสงวนวงศ์",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0037",
+      "full_name_th": "รศ. หฤทัย โลหะศิริวัฒน์",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0038",
+      "full_name_th": "ดร. จิตรา รู้กิจการพานิช",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0039",
+      "full_name_th": "ดร. ณัฏฐ์ ลีละวัฒน์",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0050",
+      "full_name_th": "ดร. สัญญพงศ์ เพชรร่มโพธิ์",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0026",
+      "full_name_th": "ดร. นวทัศน์ ก้องสมุทร",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0064",
+      "full_name_th": "ดร. ทศพล ไชยอนันต์สุจริต",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0065",
+      "full_name_th": "ดร. ธีระยุทธ เพ็งสะอาด",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0066",
+      "full_name_th": "ดร. อรชนก จันทรสกุล",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0073",
+      "full_name_th": "ผศ. กนก วีรวงศ์",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0079",
+      "full_name_th": "อ. ธงทิศ ฉายากุล",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0043",
+      "full_name_th": "ดร. มานิดา สว่างเนตร",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0056",
+      "full_name_th": "ดร. สุภัทรา วิเศษศรี",
+      "old_email": "water@eng.chula.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0005",
+      "full_name_th": "อ. ทรงศักดิ์ สุวรรณศรี",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0040",
+      "full_name_th": "รศ. ดร ชัยยันต์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0041",
+      "full_name_th": "รศ. ดร ศุภสิทธิ์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kmutnb_163b849f_0144",
+      "full_name_th": "อ. เชิดชัย ละอองทิพรส",
+      "old_email": "ic@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_1e49c758_6724",
+      "full_name_th": "อ. ณัฐวุฒิ สร้อยดอกสน",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_2866d736_1679",
+      "full_name_th": "อ. เอิญ สุริยะฉาย",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_373d15fc_8733",
+      "full_name_th": "อ. อนุสรณ์ วงษ์สนิท",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_54f31d42_2218",
+      "full_name_th": "อ. ธารา มานะงาน",
+      "old_email": "ic@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_65833726_0810",
+      "full_name_th": "ผศ. สถิตย์ ประสมพันธ์",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_7cb9914f_9924",
+      "full_name_th": "อ. ปรัชญาพร เลี้ยงสุทธิสกนธ์",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_d8d33cad_8176",
+      "full_name_th": "ผศ. นนทกร สถิตานนท์",
+      "old_email": "cs@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutt_14fb52cd_1574",
+      "full_name_th": "ดร. ธีรภูมิ บุญปราบ",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_3524e45d_4694",
+      "full_name_th": "ดร. วิทวัส มิ่งวานิช",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_411aa867_0808",
+      "full_name_th": "ดร. พฤทธิ์ กฤษณะพันธ์",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_432435de_1069",
+      "full_name_th": "ดร. ณัฐวดี วิสิฐเรืองสกุล",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_49caa3db_7509",
+      "full_name_th": "ผศ. ศุภลักษณ์ อ่างแก้ว",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_55f1faee_5568",
+      "full_name_th": "ดร. ช่อลัดดา ศรีสุวรรณเกศ",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_5910e48e_0274",
+      "full_name_th": "ดร. กิตติชัย ไชยสีดา",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_791d8ceb_3344",
+      "full_name_th": "ดร. เอมอร ศักดิ์แสงวิจิตร",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_79b26f7e_5520",
+      "full_name_th": "ดร. จริญญา เชาวน์ปรีชา",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "ku_40d91982_5855",
+      "full_name_th": "ดร. สรฉัตร ธารมรรค",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_4992a789_4278",
+      "full_name_th": "ดร. สุพัตรา มิตรภานนท์",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_4e3861be_4093",
+      "full_name_th": "ดร. อาทิตย์ จรัสอรุณฉา",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_600fd6e0_3474",
+      "full_name_th": "ดร. ณัฐพงศ์ จันทร์ทิพย์มณี",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_61b026d5_0745",
+      "full_name_th": "ดร. ชาติเฉลิม รักษากุล",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_6caf92f6_1528",
+      "full_name_th": "ดร. วรรณิสา สุขจี๋",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_ea3969b6",
+      "full_name_th": "อ. นพ. พลากร สุนทรมโนกุล",
+      "old_email": "eye.med@g.swu.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0069",
+      "full_name_th": "รศ. สมชาย เกรียงไกรวศิน",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0072",
+      "full_name_th": "รศ. ธีทัต เจริญกาลัญญูตา",
+      "old_email": "survey@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0046",
+      "full_name_th": "ดร. ไพโรจน์ ลดาวิจิตรกุล",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0049",
+      "full_name_th": "ดร. ภูวดล ดุษฎีรังสีกุล",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_b_0060",
+      "full_name_th": "ดร. ธนวัฒน์ ตั้งจารุศรีธนาธร",
+      "old_email": "water@eng.chula.ac.th"
+    },
+    {
+      "id": "ku_be14cea1_6056",
+      "full_name_th": "ดร. วิศกร แสงสุวัน",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0034",
+      "full_name_th": "ผศ. วิศว์ ศรีพวาทกุล",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0037",
+      "full_name_th": "ดร. ชนินทร์ ตรงจิตภักดี",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0038",
+      "full_name_th": "ดร. ศุภัชชา ชัยเมธานันท์",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0040",
+      "full_name_th": "ดร. นวิน ญาณภิรัต",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0001",
+      "full_name_th": "อ. ศิริสุดา จำนงทรง",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0002",
+      "full_name_th": "อ. ณัฎฐิกาฑ์ เหมภัทรสุวรรณ",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0003",
+      "full_name_th": "อ. วรัณทัต ดุลยพฤกษ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0004",
+      "full_name_th": "อ. เณรตา ปิ่นเนตรหาญ",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0005",
+      "full_name_th": "อ. มณช์นิศาษ์ ศรีสมวงศ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0006",
+      "full_name_th": "อ. มานิต ชาญสุภาพ",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0007",
+      "full_name_th": "อ. เกริกไกร สงค์อินทร์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0013",
+      "full_name_th": "อ. ปรัชญา มุสิกสินธร",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0017",
+      "full_name_th": "อ. ณรงค์ฤทธิ์ เมืองใหม่",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0018",
+      "full_name_th": "อ. ถิรวัฒน์ รายรัตน์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0019",
+      "full_name_th": "อ. ปัทมา ทองกอก",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0020",
+      "full_name_th": "อ. ธนิดา แซ่ตั้ง",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0021",
+      "full_name_th": "อ. ปกรณ์ ทองบุญเกื้อ",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0022",
+      "full_name_th": "อ. นันทิภา พันธุ์สวัสดิ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0023",
+      "full_name_th": "อ. นวพร วรรณวิศาล",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0025",
+      "full_name_th": "อ. เยาวภา ไหวพริบ",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0027",
+      "full_name_th": "อ. ลลิตพรรณ กฤษณยรรยง",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0028",
+      "full_name_th": "อ. ภาสกร กิ่งวัชระพงค์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0029",
+      "full_name_th": "อ. สุธาสินี ชิ้นทอง",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0031",
+      "full_name_th": "อ. สหภพ ดอกแก้ว",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0033",
+      "full_name_th": "อ. สุภาวดี พุ่มพวง",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0035",
+      "full_name_th": "อ. สรณัฏฐ์ ศิริสวย",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0041",
+      "full_name_th": "อ. สาทิต ฉัตรชัยพันธ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0043",
+      "full_name_th": "อ. รุ่งพฤทธิ์ จงเจริญสุข",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0044",
+      "full_name_th": "อ. นรธัช ประชุม",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0045",
+      "full_name_th": "อ. สิลา สุขวัจน์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0047",
+      "full_name_th": "อ. ชลธิดา ภูถาวร",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0049",
+      "full_name_th": "อ. ว่าที่ร้อยตรี พูนสิน กันทา",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0053",
+      "full_name_th": "อ. ธรณ์ ธำรงนาวาสวัสดิ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0055",
+      "full_name_th": "อ. สุชาย วรชนะนันท์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0056",
+      "full_name_th": "อ. จิตราภรณ์ ฟักโสภา",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0058",
+      "full_name_th": "อ. นภาขวัญ แหวนเพชร",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0061",
+      "full_name_th": "อ. สุรัสวดี สุขีสาร",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "ku_fish_wave11_0064",
+      "full_name_th": "อ. ธนกร เสงี่ยมวงษ์",
+      "old_email": "fish@ku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0001",
+      "full_name_th": "อ. จิตติน ตรีพุทธรัตน์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0029",
+      "full_name_th": "ผศ. ทวี นาครัชตะอมร",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0016",
+      "full_name_th": "ดร. ทิพวรรณ ศิรินุพงศ์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0017",
+      "full_name_th": "ดร. สุริยา ปาละแม",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0025",
+      "full_name_th": "ดร. สมพร นิลมณี",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0030",
+      "full_name_th": "ดร. กษิเดช ฉันทกุล",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0039",
+      "full_name_th": "อ. วรสันต์ โสภณ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0046",
+      "full_name_th": "ดร. ณัชพล บัวมาศ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_066",
+      "full_name_th": "ผศ. ปฏิพัทธ์ หงษ์สุวรรณ",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_096",
+      "full_name_th": "รศ. มาณพ ปานะโปย",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_097",
+      "full_name_th": "รศ. อาชาไนย บัวศรี",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "tu_14348f41_7173",
+      "full_name_th": "อ. พท.ป. ธันญาดา เลิศดำรงค์เดช",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_169da454_9893",
+      "full_name_th": "อ. ศศิภา บูรณพันธฤกษ์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_1e1bf9a4_9760",
+      "full_name_th": "ผศ. สุขวิดา มโนรังสรรค์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_1f8e5f46_6233",
+      "full_name_th": "อ. กชกร พัธวงค์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_2a658b55_1297",
+      "full_name_th": "อ. นพวรรณ จารุสุสินธ์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_2b98c33c_1992",
+      "full_name_th": "อ. พท.ป. ณัฐากาญจน์ จิตต์กระจ่าง",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_31daee4a_3208",
+      "full_name_th": "อ. รัฐพงษ์ นันตาแพร่ อ.เคน",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_348ac405_5090",
+      "full_name_th": "ผศ. พท.ป.ปฐมพงษ์ เผือกลี",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_37991aa4_4542",
+      "full_name_th": "ผศ. พิไลวรรณ ศิริพฤกษ์พงษ์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_3e579247_5022",
+      "full_name_th": "อ. สิรินารถ ชูเมียน",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_411a4a15_2500",
+      "full_name_th": "ผศ. การันต์ พงษ์พานิช",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_43af5f92_1579",
+      "full_name_th": "ผศ. พท.ป.ภาณัฐ เดชะยนต์",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_4aca8d5f_1738",
+      "full_name_th": "ผศ. กฤษณา ครุฑนาค",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_4d91cdce_2803",
+      "full_name_th": "อ. พท.ป. ยุพา งานโคกสูง",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_5200d1b2_4797",
+      "full_name_th": "อ. เฉลิมพงศ์ ไพนุพงศ์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_53bc1040_8024",
+      "full_name_th": "อ. พท.ป. ดวงพชรภรณ์ ขวัญเชียร",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_5636d763_5376",
+      "full_name_th": "อ. ธนวัฒน์ กิจสุขสันต์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_5671dd53_0452",
+      "full_name_th": "ดร. หิรัญญา",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_57924e58_9988",
+      "full_name_th": "รศ. สมชาติ แตรตุลาการ",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_639d4a29_9031",
+      "full_name_th": "อ. ณัฏฐพร ประดิษฐพจน์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_6d9b0fd7_1139",
+      "full_name_th": "อ. พท.ป. จิตติภรณ์ ชาวไร่",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_6d9e7108_9058",
+      "full_name_th": "อ. ธีรพัฒน์ ลัดดาวงศ์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_7576f9d3_9086",
+      "full_name_th": "อ. นางสาวโสวิชญา หัวคำ",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_d2fed09e_0066",
+      "full_name_th": "อ. นางสาวณัฐภรณ์ กลับทวี",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_e323d8f2_9762",
+      "full_name_th": "ผศ. ปิยาภา แก้วอุทาน",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_f3eb6ae6_0404",
+      "full_name_th": "อ. ผ่องพรรณ ตันติพูล",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_26001e8d",
+      "full_name_th": "ผศ.ดร. จิตราภรณ์ ควรประดิษฐ์",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "ku_4e6c55b7_3815",
+      "full_name_th": "รศ.ดร. พัชรีนารถ ทรัพย์อาภากร",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_51c76444_9265",
+      "full_name_th": "ผศ.ดร. สมเกียรติ นกบิน",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_564f6bd2_7272",
+      "full_name_th": "ผศ.ดร. ศุภกิจ อาชีวะวานิช",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_5f29861a_8033",
+      "full_name_th": "ผศ.ดร. สิรี ตั้งบุญสุข",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_69617028_7176",
+      "full_name_th": "รศ.ดร. ธิตินันท์ กาพย์เกิด",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_7cfed11e_1926",
+      "full_name_th": "ผศ.ดร. สุนิสา อัคคะรัสมิโย",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_7f312dd6_5960",
+      "full_name_th": "ผศ.ดร. วิไล ศิริวัชรไพบูลย์",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "cu_1e3e6825_1059",
+      "full_name_th": "อ.ดร. กมลรัตน์ กิจรุ่งไพศาล",
+      "old_email": "commarts@chula.ac.th"
+    },
+    {
+      "id": "cu_cbs_wave11_0272",
+      "full_name_th": "ดร. อ. ดร. โอฬาร กิตติธีรพรชัย",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_039",
+      "full_name_th": "รศ.ดร. วรพล เกียรติกิตติพงษ์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "ku_15c83bd1_4290",
+      "full_name_th": "รศ.ดร. ธันวาวรรณ ด้วงทองอยู่",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_279cebc6_7178",
+      "full_name_th": "ผศ.ดร. จรรยา เจตนาเสน",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_313471a4_3624",
+      "full_name_th": "รศ.ดร. พิมพา หอมนิรันดร์",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_42277a73_8010",
+      "full_name_th": "รศ.ดร. ณัฐวัชร เชื้อนพรัตน์",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_052",
+      "full_name_th": "ผศ.ดร. ณัชพล โชติกไกร",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_057",
+      "full_name_th": "อ.ดร. สุนทร ปิติเจริญพันธ์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_059",
+      "full_name_th": "รศ.ดร. พิมพ์ชนก จตุรพิรีย์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "ku_436f33dd_7648",
+      "full_name_th": "รศ.ดร. ปกรณ์ วรรธนะอมร",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_60dd92cb_0213",
+      "full_name_th": "รศ.ดร. พจนารถ สุวรรณรุจิ",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "cmu_7f346076_1284",
+      "full_name_th": "ผศ.ดร. ณัฐวัชร์ สนธิชัย",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cu_576a6a10_0657",
+      "full_name_th": "อ.ดร. ไกรวุฒิ จุลพงศธร",
+      "old_email": "commarts@chula.ac.th"
+    },
+    {
+      "id": "ku_2b205080_0714",
+      "full_name_th": "ผศ.ดร. พีรดา ยิ่งยวด",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_3bbf7a85_4727",
+      "full_name_th": "รศ.ดร. วิศิษฎ์ หิรัณย์ภิญโญภาศ",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_wave12_0036",
+      "full_name_th": "รศ.ดร. ศานติ วิริยะวิทย์",
+      "old_email": "ase@eng.ku.ac.th"
+    },
+    {
+      "id": "cmu_3c4b2594_1491",
+      "full_name_th": "ผศ.ดร. เพื่อนใจ รัตตากร",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cu_cbs_wave11_0077",
+      "full_name_th": "รศ.ดร. นระเกณฑ์ พุ่มชูศรี",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_cbs_wave11_0168",
+      "full_name_th": "ผศ.ดร. อังศุมาลิน เสนจันทร์ฒิไชย",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_cbs_wave11_0199",
+      "full_name_th": "ผศ.ดร. พิศิษฎ์ จารุมณีโรจน์",
+      "old_email": "ie@eng.chula.ac.th"
+    },
+    {
+      "id": "kmutnb_129939e7_6525",
+      "full_name_th": "รศ.ดร. อุไรวรรณ เจริญกีรติกุล",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_23c2c15f_4579",
+      "full_name_th": "รศ.ดร. สุภารัตน์ นิวิศพงศ์",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_3802c045_4941",
+      "full_name_th": "รศ.ดร. สุวิมล พันธ์แย้ม",
+      "old_email": "stat@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutnb_3baf2675_5976",
+      "full_name_th": "รศ.ดร. สุกัญญา เทพวาที",
+      "old_email": "ic@sci.kmutnb.ac.th"
+    },
+    {
+      "id": "kmutt_1a2c0735_2301",
+      "full_name_th": "รศ.ดร. สุดธิดา เปลี่ยนคารมย์ธนทรัพย์สิน",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_1d8f88bd_2745",
+      "full_name_th": "ผศ.ดร. สุคนธ์ ตันติไพบูลย์วุฒิ",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_357efe29_9584",
+      "full_name_th": "รศ.ดร. ประเวทย์ ตุ้ยเต็มวงศ์",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_3c27dc4c_7050",
+      "full_name_th": "ผศ.ดร. วันเพ็ญ ช้อนแก้ว",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_45bef6fa_3748",
+      "full_name_th": "ผศ.ดร. ศิววรรณ พูลพันธุ์",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_4bf8615a_9065",
+      "full_name_th": "ผศ.ดร. ดวงทิพย์ มูลมั่งมี",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_512cff5a_2993",
+      "full_name_th": "ผศ.ดร. อนวัช พินิจศักดิ์กุล",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_553a0902_5152",
+      "full_name_th": "รศ.ดร. วิจิตรา เดือนฉาย",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "ku_6d8f4033_9676",
+      "full_name_th": "ผศ.ดร. รมิดา รัตนคาม",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_006",
+      "full_name_th": "ผศ.ดร. ดวงใจ ถิรธรรมถาวร",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_036",
+      "full_name_th": "ผศ.ดร. ชูวงศ์ ชัยสุข",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_037",
+      "full_name_th": "ผศ.ดร. ธรวิภา พวงเพ็ชร",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_041",
+      "full_name_th": "ผศ.ดร. วีรยุทธ เลิศบำรุงสุข",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_048",
+      "full_name_th": "รศ.ดร. ศิริรัตน์ วัชรวิชานันท์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_050",
+      "full_name_th": "รศ.ดร. โอกร เมฆาสุวรรณดำรง",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_069",
+      "full_name_th": "ผศ.ดร. สินธุวัฒน์ ฤทธิธรรม",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_074",
+      "full_name_th": "รศ.ดร. พูนทรัพย์ ตรีภพนาถกูล",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_088",
+      "full_name_th": "รศ.ดร. ศุภกิจ สุทธิเรืองวงศ์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_094",
+      "full_name_th": "รศ.ดร. ประกร รามกุล",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_095",
+      "full_name_th": "รศ.ดร. ณัฐกาญจน์ หงส์ศรีพันธ์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_101",
+      "full_name_th": "อ.ดร. ศราวุธ ภู่ไพจิตร์กุล",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "srinakha_facultyo_4aacad33",
+      "full_name_th": "อ.ดร. จรรยารักษ์ สุริยุทธ",
+      "old_email": "anatomy.med@g.swu.ac.th"
+    },
+    {
+      "id": "tu_127cd3b6_7450",
+      "full_name_th": "ผศ.ดร. พท.ป.จิตพิสุทธิ์ จันทร์ทองอ่อน",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_13490b6d_4821",
+      "full_name_th": "รศ.ดร. พท.ป.จุไรรัตน์ บุญรวบ",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_18c6668d_3925",
+      "full_name_th": "รศ.ดร. นพพล ประโมทยกุล",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_19aed2e9_5682",
+      "full_name_th": "ผศ.ดร. ผกากรอง ทองดียิ่ง",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_1d3b9bd7_4007",
+      "full_name_th": "อ.ดร. พท.ป. กานต์มณี สุขเกษม",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_22c23467_7043",
+      "full_name_th": "ผศ.ดร. ณัฐมน นิยมเดชา",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_22eaf040_5262",
+      "full_name_th": "รศ.ดร. เสกสรรค์ สโมสรสุข",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_2d1922f6_4204",
+      "full_name_th": "ผศ.ดร. พท. เสาวภัค ภูมิรัตน์",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_32873abc_3946",
+      "full_name_th": "ผศ.ดร. สุมาลี ปานทอง",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_36d08081_6702",
+      "full_name_th": "อ.ดร. ปราโมทย์ ศรีวาณิชรักษ์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_378d0ef8_2719",
+      "full_name_th": "ผศ.ดร. ไข่มุกด์ ช่างศรี",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_390db3c6_1485",
+      "full_name_th": "ผศ.ดร. พท.ป. อรมณี ประจวบจินดา",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_39ed3963_0039",
+      "full_name_th": "ผศ.ดร. ปรรณณวัชญ์ ไชยวัฒนนันทน์",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_40a6619b_3770",
+      "full_name_th": "อ.ดร. พท.ป. เรียวฟาง สีโยม",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_429b1581_8215",
+      "full_name_th": "ผศ.ดร. กัญญาณัฐ เปี่ยมงาม",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_443e9b64_8338",
+      "full_name_th": "อ.ดร. สิริลักษณ์ กาญจโนมัย",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_44c8cb05_6244",
+      "full_name_th": "ผศ.ดร. สันทณี เครือขอน",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_4a34be8f_3890",
+      "full_name_th": "อ.ดร. ดุษฎี สุทโธ",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_4d06dba0_2089",
+      "full_name_th": "อ.ดร. พท.ป. อุบลวรรณ แซ่ซิว",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_4da8f685_1755",
+      "full_name_th": "ผศ.ดร. วิมลพักตร์ ศรีไวย์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_574984de_3354",
+      "full_name_th": "อ.ดร. สว่าง เพชรวิเศษ",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_5765376e_5669",
+      "full_name_th": "อ.ดร. เอกชล มุกดา",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_58007762_0684",
+      "full_name_th": "อ.ดร. ไพเราะ ไพรหิรัญกิจ",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_5bea82c0_3338",
+      "full_name_th": "รศ.ดร. กรอนงค์ ยืนยงชัยวัฒน์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_5ca9adcf_6510",
+      "full_name_th": "อ.ดร. องค์อุมา ณ ถลาง",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_5d3ee575_2251",
+      "full_name_th": "อ.ดร. พท.ป. ปิยะพล พูลสุข",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_5eab3fcc_0653",
+      "full_name_th": "อ.ดร. พท.ป.ชินพัฒน์ เฉลิมรัมย์",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_5f0280c3_3308",
+      "full_name_th": "รศ.ดร. ไพลวรรณ สัทธานนท์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_606a9742_1534",
+      "full_name_th": "อ.ดร. ปรเมศร์ เอิร์ด",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_62da9603_5295",
+      "full_name_th": "อ.ดร. พท.ป. จันทร์จิรา อินทร์ประสิทธิ์",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_655e1e07_6505",
+      "full_name_th": "อ.ดร. พท.ป. สุชาดา นาคนรินทร์",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_656b4b6c_5988",
+      "full_name_th": "อ.ดร. ปฤณภัก มหาทรัพย์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_65ea460f_9853",
+      "full_name_th": "ผศ.ดร. พท.ป.กตัญชลี ห่วงเอี่ยม",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_67599d7c_0839",
+      "full_name_th": "อ.ดร. วัลลภา ใช้บางยาง",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_67db83a3_7415",
+      "full_name_th": "อ.ดร. ฌลณต เกษตร",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_6806d8b8_0014",
+      "full_name_th": "ผศ.ดร. ดวงเนตร พิพัฒน์สถิตพงศ์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_69a2459b_1769",
+      "full_name_th": "อ.ดร. พท.ป. องอาจ สินสมบูรณ์",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_69c0a296_7624",
+      "full_name_th": "ผศ.ดร. พท.ป. ภูริทัต กนกกังสดาล",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_69d1474d_0930",
+      "full_name_th": "ผศ.ดร. ดุจดาว ทรงธรรมวัฒน์",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_6a3b3f2d_7399",
+      "full_name_th": "ผศ.ดร. พินัยลัค ตันติลีปิกร เอิร์ด",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_6b5251b2_2717",
+      "full_name_th": "อ.ดร. พท.ป.พัชรพร เหมือนฤทธิ์",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_6de9cebe_3594",
+      "full_name_th": "ผศ.ดร. จิตานันท์ เหล่าศิริไพศาล",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_6e5ef2e9_8871",
+      "full_name_th": "ผศ.ดร. ศรีโสภา เรืองหนู",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_78968b78_7896",
+      "full_name_th": "ผศ.ดร. ศรีนวล สมรูป",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_7909f9e3_7871",
+      "full_name_th": "ผศ.ดร. สุดาวดี คงขำ",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_79ac7a0a_1642",
+      "full_name_th": "ผศ.ดร. อรฤดี ขันติสิทธิพร",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_79cd4397_1267",
+      "full_name_th": "ผศ.ดร. จรีภรณ์ เอกวัฒน์ชัย",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_7d251fe4_9397",
+      "full_name_th": "ผศ.ดร. รุ่งทิพย์ ดวงแก้ว",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0016",
+      "full_name_th": "ผศ.ดร. ภัทรหทัย ณ ลำพูน",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_018",
+      "full_name_th": "ผศ.ดร. ปริญดา เพ็ญโรจน์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "kku_eng_wave12_0022",
+      "full_name_th": "รศ.ดร. ชาญณรงค์ สายแก้ว",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_023",
+      "full_name_th": "ผศ.ดร. จันทร์ฉาย ทองปิ่น",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "cmu_e43e0520_1503",
+      "full_name_th": "ผศ.ดร. ปิยะวัฒน์ ตรีวิทยา",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_056",
+      "full_name_th": "รศ.ดร. สุวัฒนา พฤกษะศรี",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_081",
+      "full_name_th": "ผศ.ดร. วันชัย เลิศวิจิตรจรัส",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "psu_agro_wave13_0006",
+      "full_name_th": "รศ.ดร. จิรกฤต แซ่ตั้ง",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0023",
+      "full_name_th": "ผศ.ดร. พรสถิตย์ สุขชู",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "tu_78332273_2711",
+      "full_name_th": "ผศ.ดร. เอนก ภู่ทอง",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_e726c446_5807",
+      "full_name_th": "ผศ.ดร. เกษรา รักษ์พงษ์สิริ",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_5ede3bc4",
+      "full_name_th": "ผศ.ดร. สุนทราภรณ์ หันตุลา",
+      "old_email": "physiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_13b00a8b",
+      "full_name_th": "อ.ดร. สิรัชชา พันทอง",
+      "old_email": "microbiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "cmu_eng_cpe_006",
+      "full_name_th": "รศ.ดร. อัญญา อาภาวัชรุตม์ วีระประพันธ์",
+      "old_email": "cpe@eng.cmu.ac.th"
+    },
+    {
+      "id": "kmutt_3b0ec732_2197",
+      "full_name_th": "ผศ.ดร. นิยม กำลังดี",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_36fb2b3a_6924",
+      "full_name_th": "รศ.ดร. นคร เนียมนนท์",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "ku_65bafd24_0438",
+      "full_name_th": "รศ.ดร. บุญธนา วรรณเลิศ",
+      "old_email": "chemy@ku.ac.th"
+    },
+    {
+      "id": "ku_eng_cpe_014",
+      "full_name_th": "ผศ.ดร. ภารุจ รัตนวรพันธุ์",
+      "old_email": "cpe@ku.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_027",
+      "full_name_th": "ผศ.ดร. สินี หนองเต่าดำ",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_028",
+      "full_name_th": "ผศ.ดร. ณัฐวุฒิ ชัยยุตต์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "chiangmaiu_facultyofe_boonma_009",
+      "full_name_th": "ผศ.ดร. พฤษภ์ บุญมา",
+      "old_email": "cpe@eng.cmu.ac.th"
+    },
+    {
+      "id": "tu_20710be8_2457",
+      "full_name_th": "รศ.ดร. นวลจันทร์ ใจอารีย์",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_241f1a7a_7576",
+      "full_name_th": "อ.ดร. พท.ป. ณิชมน มุขสมบัติ",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_26d2e056_6393",
+      "full_name_th": "อ.ดร. พท.ป. ปัทมา ศรีอำไพ",
+      "old_email": "attm@med.tu.ac.th"
+    },
+    {
+      "id": "tu_5df19b38_8833",
+      "full_name_th": "ผศ.ดร. ปรียาภรณ์ สองศร",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_651a4139_1203",
+      "full_name_th": "ผศ.ดร. พัชรี คุณค้ำชู",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "kmutt_3bd5ff70_2589",
+      "full_name_th": "รศ.ดร. พงค์ศักดิ์ ขุนแร่",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_13ee518d_7562",
+      "full_name_th": "ผศ.ดร. นุจริน จงรุจา",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_4d9ff664_3658",
+      "full_name_th": "รศ.ดร. ชินพงษ์ กฤตยากรนุพงศ์",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_140",
+      "full_name_th": "อ.ดร. ปาริฉัตร เสริมวุฒิสาร",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_137",
+      "full_name_th": "อ.ดร. พีรพงศ์ ภควณิช",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_136",
+      "full_name_th": "ผศ.ดร. นพคุณ แสงเขียว",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "psu_agro_wave13_0004",
+      "full_name_th": "รศ.ดร. ก่องกาญจน์ กิจรุ่งโรจน์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0009",
+      "full_name_th": "ผศ.ดร. ปุณณาณี สัมภวะผล",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0021",
+      "full_name_th": "ผศ.ดร. ศุภชัย ภิสัชเพ็ญ",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0032",
+      "full_name_th": "ศ.ดร. เบญจมาส เชียรศิลป์",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "psu_agro_wave13_0035",
+      "full_name_th": "ผศ.ดร. อภิชาติ อู๋ไพจิตร",
+      "old_email": "agro@psu.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_122",
+      "full_name_th": "อ.ดร. อรทัย วัชรกฤชกรณ์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_054",
+      "full_name_th": "ผศ.ดร. สิริพร พงศ์ทองผาสุข",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_044",
+      "full_name_th": "ผศ.ดร. วีรวัฒน์ ปัตทวีคงคา",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_046",
+      "full_name_th": "รศ.ดร. บุษราภรณ์ งามปัญญา",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_047",
+      "full_name_th": "ผศ.ดร. พิทยา หลิวเสรี",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_049",
+      "full_name_th": "รศ.ดร. รุจิกาญจน์ นาสนิท",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_128",
+      "full_name_th": "ผศ.ดร. ภาริกา รุ่งพิชยพิเชฐ",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_061",
+      "full_name_th": "ผศ.ดร. กัญจน์อมล เรียงวงษ์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "kmutt_12363630_8304",
+      "full_name_th": "ผศ.ดร. รริศรา อิ่มภาประเสริฐ",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_065",
+      "full_name_th": "อ.ดร. ธีรวัฒน์ รังกุพันธุ์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_073",
+      "full_name_th": "ผศ.ดร. คเณศ พันธุ์สวาสดิ์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "tu_1d396f37_4465",
+      "full_name_th": "ผศ.ดร. พัชรี อิศรางกูล ณ อยุธยา",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_144",
+      "full_name_th": "อ.ดร. สิรินทรา อารยเวทย์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_131",
+      "full_name_th": "อ.ดร. จงรัก ปริวัตรนานนท์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_132",
+      "full_name_th": "อ.ดร. ศักดิ์ระพี ไพศาลนันทน์",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_139",
+      "full_name_th": "อ.ดร. ธันยพร ศรีมหาเอก",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_143",
+      "full_name_th": "อ.ดร. กฤษณะ นามแฮด",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_141",
+      "full_name_th": "อ.ดร. จันทร์จิรา ตั้งสันทัศน์กุล",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "su_eng_teacher_142",
+      "full_name_th": "อ.ดร. คุณานนต์ คะระวานิช",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "tu_250e75d4_9883",
+      "full_name_th": "อ.ดร. นริสา เก่งตรง บดีรัฐ",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "tu_4ae72da5_4182",
+      "full_name_th": "ผศ.ดร. พรพิมล อังคเศกวินัย",
+      "old_email": "allied@allied.tu.ac.th"
+    },
+    {
+      "id": "cmu_10ecc612_6099",
+      "full_name_th": "รศ.ดร. รอ.พิศักดิ์ ชินชัย",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_19b9cfbb_1507",
+      "full_name_th": "ศ.ดร. สุเทพ สวนใต้",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_1fc403b3_5937",
+      "full_name_th": "ผศ.ดร. อิสสระ ปะทะวัง",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_253e3d42_4971",
+      "full_name_th": "รศ.ดร. กัญญุตา ภู่ชินาพันธุ์",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_34732e43_8275",
+      "full_name_th": "ผศ.ดร. พิมลรัตน์ เทียนสวัสดิ์",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_398d9dbe_9597",
+      "full_name_th": "ผศ.ดร. นวินดา ฉัตรสกุลพรหม",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3ae35187_8157",
+      "full_name_th": "รศ.ดร. สมภพ มูลชัย",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3c861083_3909",
+      "full_name_th": "ผศ.ดร. สิริพร แจ้งสุทธิวรวัฒน์",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_42319c20_1576",
+      "full_name_th": "ผศ.ดร. ปิยฉัตร ศรีประทักษ์",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_44c0e7a0_2174",
+      "full_name_th": "ผศ.ดร. นฎา อารยะสกุล",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4700e4f9_5492",
+      "full_name_th": "รศ.ดร. นราวดี ภูดลสิทธิพัฒน์",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4ca2dfe3_2607",
+      "full_name_th": "ผศ.ดร. ธนียา เจติยานุกรกุล",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4f005f37_2894",
+      "full_name_th": "รศ.ดร. เบน วงศ์สายใจ",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_55d103e7_8675",
+      "full_name_th": "รศ.ดร. จนัญญา ปัญญามี ทิพย์พยอม",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_52e94dfa_7029",
+      "full_name_th": "รศ.ดร. สตีเฟ่น เอลเลียต",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_54dda5f7_9022",
+      "full_name_th": "รศ.ดร. อังคณา อินตา",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_31f45f4f_0693",
+      "full_name_th": "ผศ.ดร. พรเพ็ญ ศิริสัตยะวงศ์",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_23276890_1234",
+      "full_name_th": "รศ.ดร. สุภาวดี พุฒิหน่อย",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_4a92ef58_1317",
+      "full_name_th": "ผศ.ดร. นภาลัย ชัยมะหา",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_422fb0eb_9267",
+      "full_name_th": "ผศ.ดร. โสภิฎา อภิชัย",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_3dd575fc_0322",
+      "full_name_th": "ผศ.ดร. กัลยาณี มกราภิรมย์",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_144a9d8d_3563",
+      "full_name_th": "อ.ดร. ณัฐวิภา วาณิชย์เจริญ",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5d6edcd4_8304",
+      "full_name_th": "รศ.ดร. ภัทรพล ลีธนัชอุดม",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5ef8c9a2_1809",
+      "full_name_th": "ผศ.ดร. จิรนันท์ กริฟฟิทส์",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_5f9a7565_5031",
+      "full_name_th": "รศ.ดร. ปรารถนา ใจผ่อง",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_60e63b54_8938",
+      "full_name_th": "รศ.ดร. ธนวัฒน์ เชาวสกู",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_619fb1d0_1278",
+      "full_name_th": "รศ.ดร. สมลักษณ์ อุตุดี",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_68f53dbb_6664",
+      "full_name_th": "ผศ.ดร. เฉลิมพล บุญปก",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_eng_cpe_002",
+      "full_name_th": "ผศ.ดร. กานต์ ปทานุคม",
+      "old_email": "cpe@eng.cmu.ac.th"
+    },
+    {
+      "id": "cmu_eng_cpe_003",
+      "full_name_th": "รศ.ดร. ปฏิเวธ วุฒิสารวัฒนา",
+      "old_email": "cpe@eng.cmu.ac.th"
+    },
+    {
+      "id": "cmu_6a9f621e_9562",
+      "full_name_th": "รศ.ดร. อรรถพล แก้วขาว",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_4d8ed400",
+      "full_name_th": "รศ.ดร. มาลัย ทวีโชติภัทร์",
+      "old_email": "microbiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "cmu_6d9af7f5_6031",
+      "full_name_th": "ผศ.ดร. เดชา ทาปัญญา",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_702352ff_7153",
+      "full_name_th": "ศ.ดร. มัสลิน โอสถานันต์กุล",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_70913f6e_4070",
+      "full_name_th": "รศ.ดร. วรพงศ์ ฟูปินวงศ์",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_1b8deec3_8786",
+      "full_name_th": "รศ.ดร. วารุนันท์ อินถาก้อน",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7388334b_2017",
+      "full_name_th": "ผศ.ดร. สิทธิศักดิ์ อินทรสิทธิ์",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7683163e_7082",
+      "full_name_th": "รศ.ดร. ภักดี เจริญสวรรค์",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_7c17bf38_6130",
+      "full_name_th": "รศ.ดร. จูลิน ลิคะสิริ",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_967b2be7_3365",
+      "full_name_th": "อ.ดร. ศุภลักษณ์ ผาดศรี",
+      "old_email": "ams@cmu.ac.th"
+    },
+    {
+      "id": "cmu_b01e79b8_0604",
+      "full_name_th": "อ.ดร. นิลิตา มุขแจ้ง",
+      "old_email": "biology@cmu.ac.th"
+    },
+    {
+      "id": "cmu_c9a2f75e_5486",
+      "full_name_th": "ผศ.ดร. กมลวรรณ ก่อเจริญ",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0002",
+      "full_name_th": "ผศ.ดร. พิมผกา ธานินพงศ์",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0007",
+      "full_name_th": "ผศ.ดร. ปรีดิ์ เที่ยงบูรณธรรม",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_e1768128",
+      "full_name_th": "ผศ.ดร. เครือวัลย์ โชติเลอศักดิ์",
+      "old_email": "microbiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0015",
+      "full_name_th": "ผศ.ดร. ชาติชาย ดวงสอาด",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0017",
+      "full_name_th": "ผศ.ดร. วฐา มินเสน",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0021",
+      "full_name_th": "ผศ.ดร. ภวัต ภักดิ์ศรานุวัต",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0024",
+      "full_name_th": "ผศ.ดร. สุมาลี สง่าเมือง",
+      "old_email": "dsc@cmu.ac.th"
+    },
+    {
+      "id": "cmu_eng_department_lachana_112",
+      "full_name_th": "ผศ.ดร. ลัชนา ระมิงค์วงศ์",
+      "old_email": "cpe@eng.cmu.ac.th"
+    },
+    {
+      "id": "cmu_eng_department_paskorn_113",
+      "full_name_th": "ผศ.ดร. ภาสกร แช่มประเสริฐ",
+      "old_email": "cpe@eng.cmu.ac.th"
+    },
+    {
+      "id": "cmu_eng_department_santi_107",
+      "full_name_th": "ศ.ดร. สันติ พิทักษ์กิจนุกูร",
+      "old_email": "cpe@eng.cmu.ac.th"
+    },
+    {
+      "id": "cmu_eng_department_yuthapong_115",
+      "full_name_th": "ผศ.ดร. ยุทธพงษ์ สมจิต",
+      "old_email": "cpe@eng.cmu.ac.th"
+    },
+    {
+      "id": "cmu_f05d4de3_1757",
+      "full_name_th": "ผศ.ดร. ภรัณยู จันทร",
+      "old_email": "math@cmu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_c66576d3",
+      "full_name_th": "ผศ.ดร. ขวัญนันท์ นันทวิสัย",
+      "old_email": "microbiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_e7514a34",
+      "full_name_th": "อ.ดร. อนิรุทธิ์ ลิ้มตระกูล",
+      "old_email": "microbiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_de2c28cb",
+      "full_name_th": "อ.ดร. สุรศักดิ์ อยู่ยงสะถิต",
+      "old_email": "microbiology.med@g.swu.ac.th"
+    },
+    {
+      "id": "su_eng_teacher_120",
+      "full_name_th": "ผศ.ดร. วิชุดา เมตตานันท",
+      "old_email": "fac-en@silpakorn.edu"
+    },
+    {
+      "id": "cu_eng_wave13_0058",
+      "full_name_th": "รศ.ดร. เกรียงไกร มณีอินทร์",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "cu_eng_wave13_0061",
+      "full_name_th": "ผศ.ดร. ฟ้าลั่น ศรีสุริยชัย",
+      "old_email": "mining@eng.chula.ac.th"
+    },
+    {
+      "id": "kmutt_1e0bc311_6653",
+      "full_name_th": "รศ.ดร. พรรณจิรา วงศ์สวัสดิ์",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_sit_umaporn_supasitthimethee",
+      "full_name_th": "ผศ.ดร. อุมาพร สุภสิทธิเมธี",
+      "old_email": "webadmin@sit.kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_3674365e_9304",
+      "full_name_th": "ผศ.ดร. นงพงา คุณจักร",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0026",
+      "full_name_th": "รศ.ดร. ปาพจน์ เจริญอภิบาล",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0043",
+      "full_name_th": "ผศ.ดร. โพยม สราภิรมย์",
+      "old_email": "engineering@kku.ac.th"
+    },
+    {
+      "id": "kmutt_2636ca75_6368",
+      "full_name_th": "ผศ.ดร. ลีลา รักษ์ทอง",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_295b713f_1735",
+      "full_name_th": "ผศ.ดร. กรรณิการ์ กุลยะณี",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_32729c67_7431",
+      "full_name_th": "ผศ.ดร. กรกันยา ประทุมยศ",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_43e7d512_7941",
+      "full_name_th": "รศ.ดร. มนภัทร วงษ์บุตร",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_44a91424_9581",
+      "full_name_th": "ผศ.ดร. สุกัญญา พึ่งจะแย้ม",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_50afa4c8_3165",
+      "full_name_th": "รศ.ดร. วรพจน์ สุนทรสุข",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_5482c64f_9833",
+      "full_name_th": "ผศ.ดร. วิทยา เขาหนองบัว",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_5595f95a_1700",
+      "full_name_th": "ผศ.ดร. นพวรรณ ปาระดี",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_6258fdba_2219",
+      "full_name_th": "ผศ.ดร. จิรายุส เอื้อนรเศรษฐ์",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_6c7db928_8221",
+      "full_name_th": "ผศ.ดร. เยี่ยมพล นัครามนตรี",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_74eabd2a_7714",
+      "full_name_th": "ผศ.ดร. ศาสตราวุธ ตุลาผล",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_a312d0b4_4097",
+      "full_name_th": "ผศ.ดร. ทรงสิรินธ์ เรืองวิเศษ",
+      "old_email": "microbiology@kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_c9364caf_6762",
+      "full_name_th": "ผศ.ดร. นิศากร ทองก้อน",
+      "old_email": "chemistry@kmutt.ac.th"
+    },
+    {
+      "id": "cmu_ds_wave11_0006",
+      "full_name_th": "รศ.ดร. พญ. จิราภรณ์ โกรานา",
+      "old_email": "dsc@cmu.ac.th"
+    }
+  ],
+  "personal_emails_nulled": [
+    {
+      "id": "chiangmaiu_facultyofe_sucharitakul_007",
+      "full_name_th": "รศ. ตะวัน สุจริตกุล",
+      "old_email": "thawansu@yahoo.com"
+    },
+    {
+      "id": "cu_med_somchai_eiam_001",
+      "full_name_th": "ศ.ดร. นพ. สมชาย เอี่ยมอ่อง",
+      "old_email": "somchai80754@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofl_jumpa_017",
+      "full_name_th": "รศ.ดร. มานิตย์ จุมปา",
+      "old_email": "manit_j@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofl_khowilaikul_036",
+      "full_name_th": "ผศ.ดร. สิริกัญญา โฆวิไลกูล",
+      "old_email": "ksirikanya@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofl_malsukhum_033",
+      "full_name_th": "ผศ.ดร. วรพล มาลสุขุม",
+      "old_email": "v.malsukhum@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofl_pinkaew_021",
+      "full_name_th": "รศ.ดร. อังคณาวดี ปิ่นแก้ว",
+      "old_email": "angkanawadee@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofl_sothipan_004",
+      "full_name_th": "ศ.ดร. ศนันท์กรณ์ โสตถิพันธุ์",
+      "old_email": "ajarnkorn@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofl_sribuaiam_008",
+      "full_name_th": "รศ.ดร. คนึงนิจ ศรีบัวเอี่ยม",
+      "old_email": "ajarnnoi@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_chaiperm_053",
+      "full_name_th": "ผศ.ดร. อัครเดช ไชยเพิ่ม",
+      "old_email": "ackadej.chaiperm@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_chaiporn_082",
+      "full_name_th": "ศ.ดร. ไชยันต์ ไชยพร",
+      "old_email": "cchaiyan@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_chanrojkit_030",
+      "full_name_th": "รศ.ดร. บัณฑิต จันทร์โรจนกิจ",
+      "old_email": "panditc@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_kruatep_052",
+      "full_name_th": "รศ.ดร. วีระศักดิ์ เครือเทพ",
+      "old_email": "weerasak.k@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_chuenpitayatorn_071",
+      "full_name_th": "ผศ.ดร. กีรติ ชื่นพิทยาธร",
+      "old_email": "keerati.chenp@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_jitsawang_063",
+      "full_name_th": "รศ.ดร. สุมนทิพย์ จิตสว่าง",
+      "old_email": "sumonthip99@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_kraisoraphong_026",
+      "full_name_th": "รศ.ดร. แก้วคำ ไกรสรพงษ์",
+      "old_email": "keokamk@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_kunmas_040",
+      "full_name_th": "รศ.ดร. ณัฐนันท์ คุณมาศ",
+      "old_email": "kunnamas@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_lerttomornsakul_064",
+      "full_name_th": "รศ.ดร. อุนิษา เลิศโตมรสกุล",
+      "old_email": "unisa@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_netipoh_028",
+      "full_name_th": "รศ.ดร. เวียงรัฐ เนติโพธิ์",
+      "old_email": "viengrat@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_palakawongnaayu_068",
+      "full_name_th": "รศ.ดร. ศิริพงศ์ ปาลกะวงศ์ ณ อยุธยา",
+      "old_email": "siripong.spa@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_panaspornprasit_086",
+      "full_name_th": "รศ.ดร. ชูเกียรติ พนัสพรประสิทธิ์",
+      "old_email": "anuwales@yahoo.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_niamthaworn_016",
+      "full_name_th": "ผศ.ดร. ภญ. ปวลี เนียมถาวร",
+      "old_email": "pawalee.n@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_pawakapan_036",
+      "full_name_th": "ศ.ดร. พวงทอง ภวัครพันธุ์",
+      "old_email": "p.pawakapan@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_phuapansawat_046",
+      "full_name_th": "ผศ.ดร. กรพินธุ์ พัวพันสวัสดิ์",
+      "old_email": "phuak238@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_pintobtapong_084",
+      "full_name_th": "รศ.ดร. ประภาส ปิ่นตบแต่ง",
+      "old_email": "prapart.p@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_pitisant_039",
+      "full_name_th": "รศ.ดร. ศุภมิตร ปิติพัฒน์",
+      "old_email": "spitipat@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_pongsawat_029",
+      "full_name_th": "รศ.ดร. พิชญ์ พงษ์สวัสดิ์",
+      "old_email": "madpitch@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_rojananon_054",
+      "full_name_th": "ผศ.ดร. ชฎิล โรจนานนท์",
+      "old_email": "chadinroch@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_rukumnuaykit_050",
+      "full_name_th": "ศ.ดร. ปังปอนด์ รักอํานวยกิจ",
+      "old_email": "pungpond_r@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_sakwit_073",
+      "full_name_th": "ผศ.ดร. กุลพธู ศักดิ์วิทย์",
+      "old_email": "platuna42@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_sangiampongsa_025",
+      "full_name_th": "รศ.ดร. พิษณุ เสงี่ยมพงษ์",
+      "old_email": "pisanu.sangiampongsa@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_sirikod_051",
+      "full_name_th": "รศ.ดร. ปกรณ์ ศิริประกอบ",
+      "old_email": "popsiri@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_hiranrat_010",
+      "full_name_th": "รศ.ดร. ภญ. ศนิตา หิรัญรัศมี",
+      "old_email": "sanitah@yahoo.com"
+    },
+    {
+      "id": "su_eng_teacher_112",
+      "full_name_th": "ผศ.ดร. วีระนุช อินทะกันฑ์",
+      "old_email": "weeranut_n@hotmail.com"
+    },
+    {
+      "id": "cmu_d5ea9798_3957",
+      "full_name_th": "อ. ธีรบุญ พจนการุณ",
+      "old_email": "teraboon1@hotmail.com"
+    },
+    {
+      "id": "cmu_eng_department__63",
+      "full_name_th": "อ. ไพศาล จั่วทอง",
+      "old_email": "paisanjour@hotmail.com"
+    },
+    {
+      "id": "cmu_eng_department_salinee_23",
+      "full_name_th": "ผศ.ดร. สาลินี สันติธีรากุล",
+      "old_email": "s.santiteerakul@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department_warisa_9",
+      "full_name_th": "รศ.ดร. วริษา นาคเขียว",
+      "old_email": "warisa.o@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department_wichai_1",
+      "full_name_th": "รศ.ดร. วิชัย ฉัตรทินวัฒน์",
+      "old_email": "chattinw@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_siriprapanukul_055",
+      "full_name_th": "ผศ.ดร. ภาวิน ศิริประภานุกูล",
+      "old_email": "s.pawin@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_bunnag_042",
+      "full_name_th": "อ. สพ.ญ. ดร. ภัทร์มนฉัตร บุนนาค",
+      "old_email": "bnadhapat@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_suputtikul_045",
+      "full_name_th": "ผศ.ดร. ธีวินท์ สุพุทธิกุล",
+      "old_email": "teewino@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_thianthai_066",
+      "full_name_th": "รศ.ดร. จุลนี เทียนไทย",
+      "old_email": "chulanee00@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_wanichwiwatana_074",
+      "full_name_th": "อ.ดร. อมร วาณิชวิวัฒน์",
+      "old_email": "a.wanichwiwatana@gmail.com"
+    },
+    {
+      "id": "cu_pharm_wave16_0021",
+      "full_name_th": "ผศ. ภก. ดร. ณฐพล พรพุทธพงศ์",
+      "old_email": "natapol.por@gmail.com"
+    },
+    {
+      "id": "kingmongku_schoolofen_suampun_065",
+      "full_name_th": "ดร. วรุตม์ สุอำพันธน์",
+      "old_email": "w.suampun@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department__126",
+      "full_name_th": "ผศ.ดร. ปรัตถกร สิทธิสม",
+      "old_email": "p.sittisom@gmail.com"
+    },
+    {
+      "id": "kingmongku_schoolofen_maneeinn_053",
+      "full_name_th": "ผศ. ชัยทัช มณีอินทร์",
+      "old_email": "chaitouch.maneeinn@gmail.com"
+    },
+    {
+      "id": "kingmongku_schoolofen_ngamroo_060",
+      "full_name_th": "ศ.ดร. อิสระชัย งามรู",
+      "old_email": "ngamroo@gmail.com"
+    },
+    {
+      "id": "chiangmaiu_facultyofv_arunorat_012",
+      "full_name_th": "ผศ.ดร. น.สพ. จิรภัทธ อรุโณรัตน์",
+      "old_email": "darkxeres@hotmail.com"
+    },
+    {
+      "id": "cu_pharm_wave16_0052",
+      "full_name_th": "รศ. ร.ต.ท.หญิง ภญ. ดร. ภูรี อนันตโชติ",
+      "old_email": "tigpuree@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_chaipan_018",
+      "full_name_th": "อ. ปทิตตา ไชยปาน",
+      "old_email": "patitta.nart@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_daengsakul_004",
+      "full_name_th": "อ. จุมพล แดงสกุล",
+      "old_email": "djumpol@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_limpaowart_005",
+      "full_name_th": "อ.ดร. ณัฐนิช ลิมปโอวาท",
+      "old_email": "leelapatana.r@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_rojmahamongkol_003",
+      "full_name_th": "อ. ธันยธรณ์ โรจน์มหามงคล",
+      "old_email": "trojmahamongkol@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_tangdham_006",
+      "full_name_th": "อ. กฤษฎิคุณ ตั้งธรรม",
+      "old_email": "krisadhikhun.t@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_yamklin_007",
+      "full_name_th": "อ. ภิชยา แย้มกลิ่น",
+      "old_email": "phichaya.yaemklin@gmail.com"
+    },
+    {
+      "id": "tu_law_004",
+      "full_name_th": "ผศ.ดร. กริช ภูญียามา",
+      "old_email": "krich.jurist@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofc_saengsingkeo_003",
+      "full_name_th": "รศ.ดร. นิธิดา แสงสิงแก้ว",
+      "old_email": "niitiidaa@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_jaiharn_012",
+      "full_name_th": "ศ. ณรงค์ ใจหาญ",
+      "old_email": "narongjaiharn@gmail.com"
+    },
+    {
+      "id": "thammasatu_thammasatb_fac_009_009",
+      "full_name_th": "ผศ.ดร. ลภินี โกศลบุญ",
+      "old_email": "lapinee@hotmail.com"
+    },
+    {
+      "id": "thammasatu_thammasatb_fac_026_026",
+      "full_name_th": "รศ.ดร. พิชญ์วดี กิตติปัญญางาม",
+      "old_email": "pichawadee@gmail.com"
+    },
+    {
+      "id": "thammasatu_thammasatb_fac_044_044",
+      "full_name_th": "รศ.ดร. จุฑามน สิทธิผลวนิชกุล",
+      "old_email": "juthamon@hotmail.com"
+    },
+    {
+      "id": "thammasatu_thammasatb_fac_047_047",
+      "full_name_th": "รศ.ดร. วรรณี เตโชโยธิน",
+      "old_email": "wannee.taechoyotin@gmail.com"
+    },
+    {
+      "id": "thammasatu_thammasatb_fac_073_073",
+      "full_name_th": "ผศ. วิภาดา ตันติประภา",
+      "old_email": "wipadata@hotmail.com"
+    },
+    {
+      "id": "tu_law_042",
+      "full_name_th": "อ.ดร. พวงรัตน์ ปฐมสิริรักษ์",
+      "old_email": "puangrat.ch@gmail.com"
+    },
+    {
+      "id": "tu_pakpoom_kheolamai_1525",
+      "full_name_th": "ศ.ดร. นพ. ภาคภูมิ เขียวละม้าย",
+      "old_email": "pkheolamia@hotmail.com"
+    },
+    {
+      "id": "tu_pathanin_chantree_7650",
+      "full_name_th": "รศ.ดร. น.สพ. ปธานิน จันทร์ตรี",
+      "old_email": "pathaninchan@gmail.com"
+    },
+    {
+      "id": "tu_pholawat_tingpej_5222",
+      "full_name_th": "ผศ.ดร. นพ. พลวัฒน์ ติ่งเพ็ชร",
+      "old_email": "mpholawat@hotmail.com"
+    },
+    {
+      "id": "ku_agro_wave15_0089",
+      "full_name_th": "ผศ.ดร. พรรณภัทร พรหมเพ็ญ",
+      "old_email": "pannapat605@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department_wassanai_3",
+      "full_name_th": "รศ.ดร. วัสสนัย วรรธนัจฉริยา",
+      "old_email": "wattanwa@gmail.com"
+    },
+    {
+      "id": "ku_forest_wave15_0061",
+      "full_name_th": "ผศ. สพ.ญ. ดร. สิทธิณี กุลประเสริฐศรี",
+      "old_email": "jubjub.sk@gmail.com"
+    },
+    {
+      "id": "msu_aurasopon__3311",
+      "full_name_th": "รศ.ดร. อภินันท์ อุรโสภณ",
+      "old_email": "aurasopon@yahoo.com"
+    },
+    {
+      "id": "msu_civilphongphan__8799",
+      "full_name_th": "ผศ.ดร. พงษ์พันธ์",
+      "old_email": "civilphongphan@gmail.com"
+    },
+    {
+      "id": "msu_keartisaks__8531",
+      "full_name_th": "รศ.ดร. เกียรติศักดิ์",
+      "old_email": "keartisaks@hotmail.com"
+    },
+    {
+      "id": "msu_lamulwiset__0417",
+      "full_name_th": "รศ.ดร. ละมุล วิเศษ",
+      "old_email": "lamulwiset@hotmail.com"
+    },
+    {
+      "id": "ku_eng_ee_012",
+      "full_name_th": "รศ. มงคล รักษาพัชรวงศ์",
+      "old_email": "fengmkr@gmail.com"
+    },
+    {
+      "id": "ku_eng_ee_033",
+      "full_name_th": "ผศ. ถิระภัทร จริยะนรวิชช์",
+      "old_email": "terapass@hotmail.com"
+    },
+    {
+      "id": "ku_eng_ee_043",
+      "full_name_th": "รศ. วรฐ คูหิรัญ",
+      "old_email": "fengwrk@yahoo.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_018_018",
+      "full_name_th": "อ.ดร. ครรชิต แสนอุบล",
+      "old_email": "chi-ta20119@hotmail.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_020_020",
+      "full_name_th": "ผศ.ดร. อรอุมา เจริญสุข",
+      "old_email": "o_charoensuk@hotmail.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_024_024",
+      "full_name_th": "อ.ดร. โอภาส สุขหวาน",
+      "old_email": "ophast@hotmail.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_032_032",
+      "full_name_th": "ผศ.ดร. จันทรัศม์ ภูติอริยวัฒน์",
+      "old_email": "jantaphu@gmail.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_035_035",
+      "full_name_th": "รศ.ดร. วิไลลักษณ์ ลังกา",
+      "old_email": "w_langka@hotmail.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_036_036",
+      "full_name_th": "รศ.ดร. อิทธิพัทธ์ สุวทันพรกูล",
+      "old_email": "ittipaatresearch@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_082",
+      "full_name_th": "อ. กวินธร สัยเจริญ",
+      "old_email": "kawinpun@hotmail.com"
+    },
+    {
+      "id": "kingmongku_schoolofen_pothisarn_056",
+      "full_name_th": "ผศ. ชัยชาญ โพธิสาร",
+      "old_email": "pothisarn@gmail.com"
+    },
+    {
+      "id": "tu_khosit_pinmai_2700",
+      "full_name_th": "ผศ. นพ. โฆษิต พินใหม่",
+      "old_email": "all_sants@hotmail.com"
+    },
+    {
+      "id": "tu_bus_tbs_006",
+      "full_name_th": "รศ.ดร. นิติ รัตนปรีชาเวช",
+      "old_email": "nitir2001@yahoo.com"
+    },
+    {
+      "id": "tu_bus_tbs_019",
+      "full_name_th": "รศ.ดร. สถาพร โอภาสานนท์",
+      "old_email": "opasanon@gmail.com"
+    },
+    {
+      "id": "tu_bus_tbs_057",
+      "full_name_th": "รศ.ดร. เนตรนภา ไวทย์เลิศศักดิ์",
+      "old_email": "wailerdsak@hotmail.com"
+    },
+    {
+      "id": "su_eng_teacher_083",
+      "full_name_th": "อ. เกษรินทร์ พูลทรัพย์",
+      "old_email": "snappykate@hotmail.com"
+    },
+    {
+      "id": "chiangmaiu_facultyofv_nambooppha_021",
+      "full_name_th": "อ.ดร. สพ.ญ. บุณฑริกา นามบุปผา",
+      "old_email": "boondarika.n@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofl_phiromphanit_038",
+      "full_name_th": "ผศ. ฉัฏฐเมษ ภิรมย์พานิช",
+      "old_email": "chattames@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofl_rodcharoen_052",
+      "full_name_th": "อ. ณัฏฐพร รอดเจริญ",
+      "old_email": "natthaporn.rodcharoen@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_bumrungsuk_081",
+      "full_name_th": "ศ. กิตติคุณ ดร. สุรชาติ บำรุงสุข",
+      "old_email": "newsecproject@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_chainam_038",
+      "full_name_th": "ศ. สรวิศ ชัยนาม",
+      "old_email": "soravis@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_jaturachinda_058",
+      "full_name_th": "ผศ. ชญานุช จาตุรจินดา",
+      "old_email": "salicupt@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_mahatthanobol_087",
+      "full_name_th": "รศ. วรศักดิ์ มหัทธโนบล",
+      "old_email": "vmahatdhanobol@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_malakulnaayudhy_090",
+      "full_name_th": "ผศ. ปัณรส มาลากุล ณ อยุธยา",
+      "old_email": "panaros44@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_meechart_088",
+      "full_name_th": "รศ. วันชัย มีชาติ",
+      "old_email": "wanchaimeechart@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_yavaprapas_080",
+      "full_name_th": "ศ. กิตติคุณ ดร. ศุภชัย ยาวะประภาษ",
+      "old_email": "supachai.yava1@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_123",
+      "full_name_th": "ผศ. ศุภชัย วาสนานนท์",
+      "old_email": "wasananon@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_sakulpanich_026",
+      "full_name_th": "ผศ.ดร. ภญ. อรภา สกุลพาณิชย์",
+      "old_email": "aurier888@yahoo.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_pongpisuttinant_036",
+      "full_name_th": "ผศ.ดร. ภญ. อังศุมา พงษ์พิสุทธินันท์",
+      "old_email": "aangs@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_kadangnga_044",
+      "full_name_th": "ผศ. สพ.ญ. ดร. กฤชพร กระดังงา",
+      "old_email": "krishaporn@gmail.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_019_019",
+      "full_name_th": "ผศ. ว่าที่ร้อยตรี ดร. ภุชงค์ จันทร์จิระ",
+      "old_email": "dr.puchong.chan@gmail.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_sompongjaideech_002",
+      "full_name_th": "อ. สมปอง ใจดีเฉย",
+      "old_email": "plapann@hotmail.com"
+    },
+    {
+      "id": "thaksinuni_collegeofi_nhukhongnui_022",
+      "full_name_th": "อ. นายภูมิวัชร์ หนูคงนุ้ย",
+      "old_email": "phummiwatnukhongnui@gmail.com"
+    },
+    {
+      "id": "psu_eng_wave11_0024",
+      "full_name_th": "รศ.ดร. ธีระยุทธ หลีวิจิตร",
+      "old_email": "leetheerayut@yahoo.com"
+    },
+    {
+      "id": "cu_eng_wave13_0005",
+      "full_name_th": "รศ.ดร. ญาใจ ลิ่มปิยะกรณ์",
+      "old_email": "limpyac@gmail.com"
+    },
+    {
+      "id": "chula_eng_ee_001",
+      "full_name_th": "ศ.ดร. สมศักดิ์ เพียรแก้ว",
+      "old_email": "s_panyakeow@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofc_ronawech_005",
+      "full_name_th": "ผศ.ดร. โมไนยพล รณเวช",
+      "old_email": "monaiphol2026@gmail.com"
+    },
+    {
+      "id": "princeofso_facultyofs_chanadee_051",
+      "full_name_th": "รศ.ดร. ธวัช ชนะดี",
+      "old_email": "chanadee.mst@gmail.com"
+    },
+    {
+      "id": "princeofso_facultyofs_phuphumirat_221",
+      "full_name_th": "รศ.ดร. วงศ์กฏ ภู่ภูมิรัตน์",
+      "old_email": "pwongkot@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_chaturapoollap_014",
+      "full_name_th": "อ. ภญ. ศิริรัตน์ จตุรพูลลาภ",
+      "old_email": "sirirat.jatu@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_detkaew_015",
+      "full_name_th": "ดร. ภญ. ฐิติณัชช์ เด็ดแก้ว",
+      "old_email": "thitinatcha@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_middleton_078",
+      "full_name_th": "รศ.ดร. Carl Middleton",
+      "old_email": "carl.chulalongkorn@gmail.com"
+    },
+    {
+      "id": "chula_eng_ee_033",
+      "full_name_th": "ดร. วัชรพงษ์ โควิดรุ่งโรจน์",
+      "old_email": "bodeplots@hotmail.com"
+    },
+    {
+      "id": "kmutt_jgsee_staff_022",
+      "full_name_th": "รศ.ดร. Bundit Fungtammasan",
+      "old_email": "bundit.fun@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_lamlertpanya_019",
+      "full_name_th": "อ. ภญ. สุพิชชา ล้ำเลิศปัญญา",
+      "old_email": "supicha.lam0901@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_rujanathamrong_008",
+      "full_name_th": "ผศ. ภก. ปรุฬห์ รุจนธำรงค์",
+      "old_email": "parun0416@yahoo.com"
+    },
+    {
+      "id": "princeofso_facultyofs_kalkornsuraphan_067",
+      "full_name_th": "รศ.ดร. เอกวิภู กาลกรณ์สุรปราณี",
+      "old_email": "ekwipoo@gmail.com"
+    },
+    {
+      "id": "princeofso_facultyofs_nakkaew_114",
+      "full_name_th": "ผศ.ดร. อลิษา หนักแก้ว",
+      "old_email": "joy_alisa@yahoo.com"
+    },
+    {
+      "id": "princeofso_facultyofs_sukhumungoon_074",
+      "full_name_th": "รศ.ดร. ภารนัย สุขุมังกูร",
+      "old_email": "pharanai82@gmail.com"
+    },
+    {
+      "id": "princeofso_facultyofs_sungkhapaitoon_053",
+      "full_name_th": "รศ.ดร. ไพโรจน์ สังขไพฑูรย์",
+      "old_email": "p.sungkhaphaitoon@gmail.com"
+    },
+    {
+      "id": "princeofso_facultyofs_trakulmaykee_168",
+      "full_name_th": "ผศ.ดร. น้ำทิพย์ ตระกูลเมฆี",
+      "old_email": "n.trakulmaykee@gmail.com"
+    },
+    {
+      "id": "mahidoluni_instituteo_pachotikarn_023",
+      "full_name_th": "ผศ.ดร. ชนิดา ปโชติการ",
+      "old_email": "chanida.p1957@gmail.com"
+    },
+    {
+      "id": "thaksinuni_facultyofe_jaidamrong_016",
+      "full_name_th": "อ.ดร. นุชนาฏ ใจดำรงค์",
+      "old_email": "jnuchanat@hotmail.com"
+    },
+    {
+      "id": "thaksinuni_facultyofe_nuanpradit_023",
+      "full_name_th": "ผศ.ดร. ศิรดา นวลประดิษฐ์",
+      "old_email": "sirada_cu@hotmail.com"
+    },
+    {
+      "id": "chiangmaiu_facultyofe_somnam_020",
+      "full_name_th": "ผศ.ดร. สิระ สมนาม",
+      "old_email": "siraedthai@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofc_hinwiman_018",
+      "full_name_th": "รศ.ดร. สมสุข หินวิมาน",
+      "old_email": "acfb2@hotmail.com"
+    },
+    {
+      "id": "tu_law_053",
+      "full_name_th": "รศ.ดร. มาตาลักษณ์ เสรเมธากุล",
+      "old_email": "ajanmata@yahoo.com"
+    },
+    {
+      "id": "tu_law_011",
+      "full_name_th": "รศ.ดร. จารุประภา รักพงษ์",
+      "old_email": "jaruprapa@hotmail.com"
+    },
+    {
+      "id": "tu_law_018",
+      "full_name_th": "อ.ดร. ฐาปนันท์ นิพิฏฐกุล",
+      "old_email": "thapanan@yahoo.com"
+    },
+    {
+      "id": "tu_law_069",
+      "full_name_th": "อ.ดร. สิรินทิพย์ สมใจ",
+      "old_email": "sirin.somj@gmail.com"
+    },
+    {
+      "id": "tu_law_071",
+      "full_name_th": "รศ.ดร. สุรศักดิ์ บุญเรือง",
+      "old_email": "boonrueangsurasak@gmail.com"
+    },
+    {
+      "id": "cu_cbs_wave11_0085",
+      "full_name_th": "รศ.ดร. เพชรอาภา บุญเสริม",
+      "old_email": "petarpa.boonserm@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofd_srimaneekarn_029",
+      "full_name_th": "รศ.ดร. ทพญ. นัจชลี ศรีมณีกาญจน์",
+      "old_email": "snatchalee@yahoo.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_tantivit_021",
+      "full_name_th": "อ. ภก. จิตติพล ตันติวิท",
+      "old_email": "maitantivit@gmail.com"
+    },
+    {
+      "id": "chula_eng_ee_055",
+      "full_name_th": "ดร. Panida Jirutitijaroen",
+      "old_email": "aireka@gmail.com"
+    },
+    {
+      "id": "cmu_315a6450_0570",
+      "full_name_th": "อ. นพ. พงศกร เชเวดิต",
+      "old_email": "phongsakornda@gmail.com"
+    },
+    {
+      "id": "mahidoluni_instituteo_chittchang_021",
+      "full_name_th": "ผศ.ดร. อุไรพร จิตต์แจ้ง",
+      "old_email": "uraiporn.chittchang@gmail.com"
+    },
+    {
+      "id": "princeofso_facultyofs_kalsuwan_039",
+      "full_name_th": "ผศ.ดร. พฤฒิ กาฬสุวรรณ",
+      "old_email": "pruet.kal@gmail.com"
+    },
+    {
+      "id": "tu_law_006",
+      "full_name_th": "ผศ. กิตติพงศ์ กมลธรรมวงศ์",
+      "old_email": "buckthammasat@yahoo.com"
+    },
+    {
+      "id": "tu_law_026",
+      "full_name_th": "ผศ. ทวีศักดิ์ เอื้ออมรวนิช",
+      "old_email": "tao_oasis@hotmail.com"
+    },
+    {
+      "id": "princeofso_facultyofs_amornpitoksuk_011",
+      "full_name_th": "รศ.ดร. พงศธร อมรพิทักษ์สุข",
+      "old_email": "ampongsa@yahoo.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_pirarat_021",
+      "full_name_th": "ศ. น.สพ. ดร. นพดล พิฬารัตน์",
+      "old_email": "nopadonpirarat@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_techakriangkrai_017",
+      "full_name_th": "ผศ. น.สพ. ดร. นวพล เตชะเกรียงไกร",
+      "old_email": "navapont@gmail.com"
+    },
+    {
+      "id": "tu_law_068",
+      "full_name_th": "รศ. สาวตรี สุขศรี",
+      "old_email": "pan.sawatree@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_phodha_017",
+      "full_name_th": "ผศ.ดร. ภญ. ตวงรัตน์ โพธะ",
+      "old_email": "t.phodha@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_techangamsuwan_114",
+      "full_name_th": "ศ. สพ.ญ. ดร. สมพร เตชะงามสุวรรณ",
+      "old_email": "somporn62@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_komin_038",
+      "full_name_th": "ผศ. น.สพ. เกียรติพิเชษฐ์ โคมิน",
+      "old_email": "komin3182@hotmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_jitaree_022",
+      "full_name_th": "อ.ดร. ภญ. กมลชนก จิตอารี",
+      "old_email": "kjitaree@hotmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_sangmalee_041",
+      "full_name_th": "อ.ดร. ภญ. สุภัทรา แสงมาลี",
+      "old_email": "bs.sangmalee@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_sodata_037",
+      "full_name_th": "ผศ.ดร. ภญ. พัทธ์ธีรา โสดาตา",
+      "old_email": "boompts@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofa_worasinchai_013",
+      "full_name_th": "ผศ.ดร. ทนพญ. นวพร วรศิลป์ชัย",
+      "old_email": "worasilchai.navaporn1@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_wangboonskul_028",
+      "full_name_th": "รศ.ดร. ภญ. จินดา หวังบุญสกุล",
+      "old_email": "jindawangboonskul@gmail.com"
+    },
+    {
+      "id": "kmutt_jgsee_staff_006",
+      "full_name_th": "ดร. Pariyapat Nilsalab",
+      "old_email": "n.pariyapat@gmail.com"
+    },
+    {
+      "id": "kmutt_jgsee_staff_007",
+      "full_name_th": "ดร. Khatiya Weerasai",
+      "old_email": "k.weerasai@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_asasujarit_029",
+      "full_name_th": "รศ.ดร. ภก. รัฐพล อาษาสุจริต",
+      "old_email": "rathapona@hotmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_chantrathaniwat_013",
+      "full_name_th": "ผศ.ดร. ภญ. กิตติยา จันทรธานีวัฒน์",
+      "old_email": "geekittiya@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_kosuma_011",
+      "full_name_th": "ผศ.ดร. ภญ. ปัทมวรรณ โกสุมา",
+      "old_email": "kpattamawan@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_kittivisuit_038",
+      "full_name_th": "ผศ.ดร. ภญ. ศิริพร กิตติวิสุทธิ์",
+      "old_email": "siriporn.kit@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_maluengnon_006",
+      "full_name_th": "ผศ.ดร. ภญ. กุสาวดี เมลืองนนท์",
+      "old_email": "kusawadeem@yahoo.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_pongwecharak_004",
+      "full_name_th": "รศ.ดร. ภญ. จุราพร พงศ์เวชรักษ์",
+      "old_email": "pjurapor@yahoo.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_rungsardthong_007",
+      "full_name_th": "ผศ.ดร. ภก. คณินทร์ รังสาดทอง",
+      "old_email": "kaninrungsardthong@yahoo.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_suebsasana_035",
+      "full_name_th": "ผศ.ดร. ภญ. สุภาวดี สืบศาสนา",
+      "old_email": "hnungnet@yahoo.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_suwannanoi_039",
+      "full_name_th": "ผศ.ดร. ภญ. พนิตา สุวรรณน้อย",
+      "old_email": "mynameispani@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_thanavut_018",
+      "full_name_th": "ผศ.ดร. ภญ. ณัฐาศิริ ฐานะวุฑฒ์",
+      "old_email": "nattasiri.tha1@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_wangdee_040",
+      "full_name_th": "รศ. สพ.ญ. ดร. ชาลิกา หวังดี",
+      "old_email": "c.wangdee@hotmail.com"
+    },
+    {
+      "id": "mahidoluni_instituteo_viriyapanich_013",
+      "full_name_th": "รศ. ธรา วิริยะพานิช",
+      "old_email": "thara.vir@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_hunprasit_140",
+      "full_name_th": "ผศ. น.สพ. ดร. วชิรา หุ่นประสิทธิ์",
+      "old_email": "vachira.hun@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_inchaisri_134",
+      "full_name_th": "รศ. น.สพ. ดร. ชัยเดช อินทร์ชัยศรี",
+      "old_email": "chaidate@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_sirisophaphitme_045",
+      "full_name_th": "ผศ. สพ.ญ. ดร. นิโคล ศิริโศภิษฐ์ เมห์ล",
+      "old_email": "cudnicole@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_surachetpong_149",
+      "full_name_th": "รศ. สพ.ญ. ดร. สิริลักษณ์ สุรเชษฐพงษ์",
+      "old_email": "sirilakd27@gmail.com"
+    },
+    {
+      "id": "princeofso_facultyofm_suttishe_034",
+      "full_name_th": "อ. ปาลิดา สุทธิชี",
+      "old_email": "suttishe.p@gmail.com"
+    },
+    {
+      "id": "princeofso_facultyofm_suwannasin_020",
+      "full_name_th": "ดร. สิวัฒน์ สุวรรณศิลป์",
+      "old_email": "s.suwannasin@hotmail.com"
+    },
+    {
+      "id": "princeofso_facultyofs_deethaisong_177",
+      "full_name_th": "ดร. ทิราพร ดีไทยสง",
+      "old_email": "thiraphon.dee1@gmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_kaewamatawong_119",
+      "full_name_th": "รศ. น.สพ. ดร. ธีระยุทธ แก้วอมตวงศ์",
+      "old_email": "theerayuth71@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofv_nilubol_035",
+      "full_name_th": "ผศ. น.สพ. ดร. เดชฤทธิ์ นิลอุบล",
+      "old_email": "dachrit@gmail.com"
+    },
+    {
+      "id": "thaksinuni_facultyofm_wirapornsawan_009",
+      "full_name_th": "ดร. ประพล วิระพรสวรรค์",
+      "old_email": "praponaec@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_asanasak_023",
+      "full_name_th": "อ. สุประวีณ์ อาสนศักดิ์",
+      "old_email": "sasanasak@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_pruksadachan_016",
+      "full_name_th": "อ. ศศิภา พฤกษฎาจันทร์",
+      "old_email": "sasipa.pruk@gmail.com"
+    },
+    {
+      "id": "cmu_13b506f6_4009",
+      "full_name_th": "อ. นาวี กังวาลย์",
+      "old_email": "naweekung@gmail.com"
+    },
+    {
+      "id": "cmu_16a4f0d3_6040",
+      "full_name_th": "อ. นัทธี สุรีย์",
+      "old_email": "sortase@gmail.com"
+    },
+    {
+      "id": "cmu_16f82415_7802",
+      "full_name_th": "อ. ก้องเกียรติ ไตรสุวรรณ",
+      "old_email": "kongkiat.t@hotmail.com"
+    },
+    {
+      "id": "cmu_23122f89_2559",
+      "full_name_th": "อ. สิทธิชัย วิโรจนุปถัมภ์",
+      "old_email": "wish-2000@hotmail.com"
+    },
+    {
+      "id": "cmu_26c7e153_8919",
+      "full_name_th": "อ. ณปภา พรหมสวรรค์",
+      "old_email": "np.promsawan@gmail.com"
+    },
+    {
+      "id": "cmu_2943756f_5566",
+      "full_name_th": "อ. วรอนงค์ ลี้วัฒนาผาสุข",
+      "old_email": "l.worraanong@gmail.com"
+    },
+    {
+      "id": "cmu_2e6a7981_7631",
+      "full_name_th": "อ. กรธัช อุ่นนันกาศ",
+      "old_email": "suriyacmu@yahoo.com"
+    },
+    {
+      "id": "thammasatu_facultyofp_temsiririrkkul_030",
+      "full_name_th": "รศ. ภญ. รุ่งระวี เต็มศิริฤกษ์กุล",
+      "old_email": "rungtem2012@gmail.com"
+    },
+    {
+      "id": "cmu_3a54a038_3756",
+      "full_name_th": "อ. วิมล นาคสาทา",
+      "old_email": "wimolnaksata@gmail.com"
+    },
+    {
+      "id": "cmu_473ee563_1548",
+      "full_name_th": "อ. สุลาวัลย์ ขาวผ่อง",
+      "old_email": "sulawank@gmail.com"
+    },
+    {
+      "id": "cmu_4e834cc1_4725",
+      "full_name_th": "อ. ทินกร กันยานี",
+      "old_email": "tkanyanee3@hotmail.com"
+    },
+    {
+      "id": "cmu_50a908ac_2745",
+      "full_name_th": "อ. ชำนาญ ราญฎร",
+      "old_email": "crandorn@gmail.com"
+    },
+    {
+      "id": "cmu_32a07516_3905",
+      "full_name_th": "อ. ชมนาด สวาสดิ์มิตร",
+      "old_email": "scchi011@gmail.com"
+    },
+    {
+      "id": "cmu_50b29aad_0710",
+      "full_name_th": "อ. พัฒนพงศ์ ทังสุนันท์",
+      "old_email": "thangsunanp@gmail.com"
+    },
+    {
+      "id": "cmu_218803e4_6616",
+      "full_name_th": "อ. มุกดา ภัทราวราพันธ์",
+      "old_email": "mookdap55@gmail.com"
+    },
+    {
+      "id": "cmu_5a4e874d_9643",
+      "full_name_th": "อ. สรพงษ์ จันทร์หอม",
+      "old_email": "sorapongj@gmail.com"
+    },
+    {
+      "id": "cmu_6177b882_1926",
+      "full_name_th": "อ. อุไร เต็งเจริญสกุล",
+      "old_email": "urai.teng@gmail.com"
+    },
+    {
+      "id": "cmu_67350322_0485",
+      "full_name_th": "อ. อภินันท์ กันเปียงใจ",
+      "old_email": "ak.apinun@gmail.com"
+    },
+    {
+      "id": "cmu_6ad70009_3416",
+      "full_name_th": "อ. ธัญวดี ลิ้มธรากุล",
+      "old_email": "othunwadee@gmail.com"
+    },
+    {
+      "id": "cmu_6c1907a2_2428",
+      "full_name_th": "อ. จิดาภา ทิน้อย",
+      "old_email": "rtinoi@hotmail.com"
+    },
+    {
+      "id": "cmu_7427ab26_3134",
+      "full_name_th": "อ. วงศ์ พะโคดี",
+      "old_email": "wongp2577@gmail.com"
+    },
+    {
+      "id": "cmu_c217e6b5_5884",
+      "full_name_th": "อ. ว่าน วิริยา",
+      "old_email": "wanwiriya484@hotmail.com"
+    },
+    {
+      "id": "cmu_f6960165_6965",
+      "full_name_th": "อ. ธิติ จันทร์ภิรมย์",
+      "old_email": "junpirom3@gmail.com"
+    },
+    {
+      "id": "cu_pharm_wave16_0064",
+      "full_name_th": "รศ. ภญ. ดร. วรางคณา วารีสน้อยเจริญ",
+      "old_email": "wwarangk@gmail.com"
+    },
+    {
+      "id": "cu_pharm_wave16_0086",
+      "full_name_th": "รศ. ภญ. ดร. สุธีรา เตชคุณวุฒิ",
+      "old_email": "suthira.tay@gmail.com"
+    },
+    {
+      "id": "cu_pharm_wave16_0093",
+      "full_name_th": "รศ. ภญ. ดร. อังคณา ตันติธุวานนท์",
+      "old_email": "tuvanont@gmail.com"
+    },
+    {
+      "id": "mahidoluni_instituteo_tontisirin_008",
+      "full_name_th": "ศ. เกียรติคุณ นพ. ไกรสิทธิ์ ตันติศิรินทร์",
+      "old_email": "kraisid.tontisirin@gmail.com"
+    },
+    {
+      "id": "cu_cbs_wave11_0300",
+      "full_name_th": "ดร. ธันยานี โพธิสาร",
+      "old_email": "thunyanee@hotmail.com"
+    },
+    {
+      "id": "cu_pharm_wave16_0009",
+      "full_name_th": "รศ. ภญ. ดร. จิตติมา ลัคนากุล",
+      "old_email": "jittima.luck@gmail.com"
+    },
+    {
+      "id": "cu_pharm_wave16_0013",
+      "full_name_th": "ผศ. ภญ. ดร. จุฑารัตน์ กิจส่งเสริมธน",
+      "old_email": "jutarat.kit@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_117",
+      "full_name_th": "อ.ดร. ณัฐ ธัชยะพงษ์",
+      "old_email": "woobwarb@hotmail.com"
+    },
+    {
+      "id": "cu_wave19_edu_0094",
+      "full_name_th": "ผศ. อรรถพล อนันตวรสกุล",
+      "old_email": "anun.atha@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_004",
+      "full_name_th": "ผศ. กิตติธัช พาพลเพ็ญ",
+      "old_email": "koanoi@hotmail.com"
+    },
+    {
+      "id": "su_eng_teacher_084",
+      "full_name_th": "อ. ธนาธร เกรอต",
+      "old_email": "ttkarot@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_113",
+      "full_name_th": "ผศ. พงษ์ศิริ จรุยนนท์",
+      "old_email": "airypoly@yahoo.com"
+    },
+    {
+      "id": "tu_amornnat_thuppia_8645",
+      "full_name_th": "ผศ. อมรณัฏฐ์ ทับเปีย",
+      "old_email": "phungamornnat@hotmail.com"
+    },
+    {
+      "id": "tu_kajorn_lakchayapakorn_1368",
+      "full_name_th": "รศ. นพ. ขจร ลักษณ์ชยปกรณ์",
+      "old_email": "kajorn2554@gmail.com"
+    },
+    {
+      "id": "tu_nattapol_sukprasert_1873",
+      "full_name_th": "อ. นพ. ณัฐพล สุขประเสริฐ",
+      "old_email": "nsook617@hotmail.com"
+    },
+    {
+      "id": "tu_pholasit_chamod_0176",
+      "full_name_th": "ผศ. พลสิทธิ์ ชะมด",
+      "old_email": "mrchamod@gmail.com"
+    },
+    {
+      "id": "tu_pochong_rhonbutsri_0865",
+      "full_name_th": "รศ. โพชฌงค์ หร่องบุตรศรี",
+      "old_email": "pochongr@hotmail.com"
+    },
+    {
+      "id": "tu_pornrut_rabintossaporn_2032",
+      "full_name_th": "ผศ. พญ. พรรัตน์ ระบิลทศพร",
+      "old_email": "pornrut_r@yahoo.com"
+    },
+    {
+      "id": "tu_siripen_tor_7224",
+      "full_name_th": "รศ. ศิริเพ็ญ ต่ออุดม",
+      "old_email": "siripentt@gmail.com"
+    },
+    {
+      "id": "tu_suphaket_saenthaweesuk_0047",
+      "full_name_th": "รศ. ศุภเกต แสนทวีสุข",
+      "old_email": "suphaket18_s@hotmail.com"
+    },
+    {
+      "id": "tu_urarat_nanna_2947",
+      "full_name_th": "ผศ. อุรารัตน์ แน่นหนา",
+      "old_email": "urarat_dvpdip@hotmail.com"
+    },
+    {
+      "id": "tu_law_013",
+      "full_name_th": "ผศ.ดร. จุณวิทย์ ชลิดาพงศ์",
+      "old_email": "jnvtchal@yahoo.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_thirawat_021",
+      "full_name_th": "ศ.ดร. จตุรนต์ ถิระวัฒน์",
+      "old_email": "jathirawat@yahoo.com"
+    },
+    {
+      "id": "tu_law_065",
+      "full_name_th": "รศ.ดร. สมเกียรติ วรปัญญาอนันต์",
+      "old_email": "somkiatwora@yahoo.com"
+    },
+    {
+      "id": "cu_cbs_wave11_0429",
+      "full_name_th": "นาย อ. นาย วันใหม่ รัตนไพจิตร",
+      "old_email": "wanmai.rat@gmail.com"
+    },
+    {
+      "id": "cu_cbs_wave11_0437",
+      "full_name_th": "นาย อ. นาย ยสินธร วงศ์วุฒิสาโรช",
+      "old_email": "yasinthorn2534@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_rattanapijit_020",
+      "full_name_th": "ศ.ดร. สหธน รัตนไพจิตร",
+      "old_email": "sahaton10@gmail.com"
+    },
+    {
+      "id": "cu_cbs_wave11_0316",
+      "full_name_th": "นางสาว อ. นางสาว อัษฎาพร มัจฉวานิช",
+      "old_email": "aussdapm93@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_butrindr_026",
+      "full_name_th": "ศ.ดร. ภูมินทร์ บุตรอินทร์",
+      "old_email": "bhumindr@gmail.com"
+    },
+    {
+      "id": "chula_eng_ee_016",
+      "full_name_th": "รศ.ดร. ฉันทชนะ ตั้งวงศ์สาน",
+      "old_email": "tchanchana@yahoo.com"
+    },
+    {
+      "id": "cmu_eng_department_nakorn_96",
+      "full_name_th": "ศ.ดร. นคร ทิพยาวงศ์",
+      "old_email": "n.tippayawong@yahoo.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_kunamornpong_015",
+      "full_name_th": "อ.ดร. วรรษมน คุณอมรพงศ์",
+      "old_email": "wkunamornpong@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_saeneewongnaayu_002",
+      "full_name_th": "อ.ดร. นวพร เสนีย์วงศ์ ณ อยุธยา",
+      "old_email": "na.nawaporn@gmail.com"
+    },
+    {
+      "id": "thammasatu_facultyofl_techaapikun_029",
+      "full_name_th": "ผศ. เอมผกา เตชะอภัยคุณ",
+      "old_email": "aimpaga@gmail.com"
+    },
+    {
+      "id": "tu_kant_sangpairoj_3928",
+      "full_name_th": "รศ.ดร. กานต์ แสงไพโรจน์",
+      "old_email": "ksangpairoj@gmail.com"
+    },
+    {
+      "id": "tu_nongluk_sriwilaijaroen_4592",
+      "full_name_th": "รศ.ดร. นงลักษณ์ ศรีวิไลเจริญ",
+      "old_email": "snongluk@hotmail.com"
+    },
+    {
+      "id": "tu_sirikul_manochantr_0033",
+      "full_name_th": "ศ.ดร. ศิริกุล มะโนจันทร์",
+      "old_email": "bsirikul@gmail.com"
+    },
+    {
+      "id": "tu_sophapun_ekarattanawong_8931",
+      "full_name_th": "รศ.ดร. โสภาพรรณ เอกรัตนวงศ์",
+      "old_email": "sophapun@gmail.com"
+    },
+    {
+      "id": "psu_eng_wave11_0022",
+      "full_name_th": "รศ.ดร. เจริญยุตร เดชวายุกุล",
+      "old_email": "dechwac@gmail.com"
+    },
+    {
+      "id": "msu_n_meeso_6596",
+      "full_name_th": "ผศ.ดร. นเรศ มีโส",
+      "old_email": "n_meeso@yahoo.com"
+    },
+    {
+      "id": "msu_n_seelsaen_4159",
+      "full_name_th": "ผศ.ดร. นิดา ชัยมูล",
+      "old_email": "n.seelsaen@gmail.com"
+    },
+    {
+      "id": "psu_eng_wave11_0023",
+      "full_name_th": "รศ.ดร. ชยุต นันทดุสิต",
+      "old_email": "chayut.n@gmail.com"
+    },
+    {
+      "id": "msu_wor_nui_6925",
+      "full_name_th": "ศ.ดร. วรวัฒน์ เสงี่ยมวิบูล",
+      "old_email": "wor_nui@yahoo.com"
+    },
+    {
+      "id": "princeofso_facultyofs_phetwarotai_062",
+      "full_name_th": "รศ.ดร. วรศักดิ์ เพชรวโรทัย",
+      "old_email": "w.phetwarotai@hotmail.com"
+    },
+    {
+      "id": "cmu_eng_department_alonggot_21",
+      "full_name_th": "ผศ.ดร. อลงกต แก้วโชติช่วงกูล",
+      "old_email": "limcharoena@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_106",
+      "full_name_th": "ผศ.ดร. เดชาพันธ์ รัฐศาสนศาสตร์",
+      "old_email": "dechaphansu@gmail.com"
+    },
+    {
+      "id": "tu_natwadee_poomipark_9731",
+      "full_name_th": "ผศ.ดร. นารถวดี ภูมิภาค",
+      "old_email": "natwadeep@hotmail.com"
+    },
+    {
+      "id": "su_eng_teacher_104",
+      "full_name_th": "รศ.ดร. กษมา ศิริสมบูรณ์",
+      "old_email": "kasama_jan@yahoo.com"
+    },
+    {
+      "id": "ku_agro_wave15_0080",
+      "full_name_th": "ผศ.ดร. ปวริน ตันตริยานนท์",
+      "old_email": "pawarin.tun@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_012",
+      "full_name_th": "รศ.ดร. บุศรากรณ์ มหาโยธี",
+      "old_email": "busarakornm@yahoo.com"
+    },
+    {
+      "id": "su_eng_teacher_010",
+      "full_name_th": "ผศ.ดร. ณัฐพงศ์ วงศ์พร้อมมูล",
+      "old_email": "w.natapong@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_078",
+      "full_name_th": "รศ.ดร. วรดา หล่อยืนยง",
+      "old_email": "vorrada@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_079",
+      "full_name_th": "ผศ.ดร. สุจินต์ วุฒิชัยวัฒน์",
+      "old_email": "sujinwoot@yahoo.com"
+    },
+    {
+      "id": "su_eng_teacher_110",
+      "full_name_th": "รศ.ดร. นิติพงศ์ โสภณพงศ์พิพัฒน์",
+      "old_email": "nitipongsopon@hotmail.com"
+    },
+    {
+      "id": "su_eng_teacher_111",
+      "full_name_th": "รศ.ดร. ปรเมศร์ อารมย์ดี",
+      "old_email": "porametr@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_118",
+      "full_name_th": "ผศ.ดร. ณัฐวุฒิ ธาราวดี",
+      "old_email": "aeeygamer@hotmail.com"
+    },
+    {
+      "id": "su_eng_teacher_116",
+      "full_name_th": "ผศ.ดร. ชัชธานนท์ โพธิคุณ",
+      "old_email": "chatthanon@outlook.com"
+    },
+    {
+      "id": "su_eng_teacher_145",
+      "full_name_th": "อ.ดร. ไพศาล คำสว่าง",
+      "old_email": "paisan.csw@gmail.com"
+    },
+    {
+      "id": "cu_wave19_edu_0067",
+      "full_name_th": "อ.ดร. อุไรวาส ธำรงอรรถ",
+      "old_email": "preededilok@yahoo.com"
+    },
+    {
+      "id": "cu_wave19_edu_0103",
+      "full_name_th": "อ.ดร. เส้า ลี่หมิ่น",
+      "old_email": "imin_7289@yahoo.com"
+    },
+    {
+      "id": "cu_wave19_edu_0121",
+      "full_name_th": "อ.ดร. สตีเฟน ลิม",
+      "old_email": "stephen.l.chula@gmail.com"
+    },
+    {
+      "id": "tu_chairat_tantrawatpan_1239",
+      "full_name_th": "รศ.ดร. ชัยรัตน์ ตัณทราวัฒน์พันธ์",
+      "old_email": "talent3003@yahoo.com"
+    },
+    {
+      "id": "tu_nuntiya_somparn_3909",
+      "full_name_th": "รศ.ดร. นันทิยา สมภาร",
+      "old_email": "nuntiya_tom@hotmail.com"
+    },
+    {
+      "id": "tu_chalinee_ronpirin_2141",
+      "full_name_th": "รศ.ดร. ชาลินี รอนไพริน",
+      "old_email": "cronpirin@hotmail.com"
+    },
+    {
+      "id": "tu_anongnad_ngamjariyawat_5921",
+      "full_name_th": "ผศ.ดร. อนงค์นาฎ งามจริยาวัตร",
+      "old_email": "ae_anongnad@yahoo.com"
+    },
+    {
+      "id": "tu_bhronprom_yoysungnoen_6706",
+      "full_name_th": "รศ.ดร. พรพรหม ย่อยสูงเนิน",
+      "old_email": "pornprom_y@hotmail.com"
+    },
+    {
+      "id": "tu_chawalit_ngernsombat_5829",
+      "full_name_th": "อ.ดร. ชวลิต เงินสมบัติ",
+      "old_email": "chawalit.tua@gmail.com"
+    },
+    {
+      "id": "tu_decha_buranajitpirom_9907",
+      "full_name_th": "ผศ.ดร. เดชา บูรณจิตร์ภิรมย์",
+      "old_email": "dechabur@yahoo.com"
+    },
+    {
+      "id": "msu_adisak_pattiya_5466",
+      "full_name_th": "รศ.ดร. อดิศักดิ์ ปัตติยะ",
+      "old_email": "adisak_pattiya@yahoo.com"
+    },
+    {
+      "id": "tu_jarinyaporn_naowaboot_7970",
+      "full_name_th": "รศ.ดร. จริญญาพร เนาวบุตร",
+      "old_email": "naowaboot@yahoo.com"
+    },
+    {
+      "id": "tu_jarunee_kaulpiboon_8939",
+      "full_name_th": "รศ.ดร. จารุณี ควรพิบูลย์",
+      "old_email": "jkaulpiboon@yahoo.com"
+    },
+    {
+      "id": "tu_kamontip_rasri_4549",
+      "full_name_th": "ผศ.ดร. กมลทิพย์ ราศรี โคลเซ็น",
+      "old_email": "krasri@yahoo.com"
+    },
+    {
+      "id": "tu_nantawan_soonklang_7159",
+      "full_name_th": "ผศ.ดร. นันทวรรณ ศูนย์กลาง",
+      "old_email": "nansoon13@hotmail.com"
+    },
+    {
+      "id": "tu_linda_chularojmontri_5704",
+      "full_name_th": "รศ.ดร. ลินดา จุฬาโรจน์มนตรี",
+      "old_email": "ning.phd@gmail.com"
+    },
+    {
+      "id": "tu_nadthaganya_suwanlikhid_9828",
+      "full_name_th": "ผศ.ดร. ณัฏฐกัญญา สุวรรณลิขิต",
+      "old_email": "nadthaganya@gmail.com"
+    },
+    {
+      "id": "tu_naphatsanan_duansak_6683",
+      "full_name_th": "รศ.ดร. นภัสนันท์ เดือนศักดิ์",
+      "old_email": "dnaphat@hotmail.com"
+    },
+    {
+      "id": "tu_nipapan_malisorn_7070",
+      "full_name_th": "ผศ.ดร. นิภาพรรณ มะลิซ้อน",
+      "old_email": "dr.nipapan@gmail.com"
+    },
+    {
+      "id": "tu_phornphan_sornchuer_8419",
+      "full_name_th": "รศ.ดร. พรพรรณ สอนเชื้อ",
+      "old_email": "p.sornchuer@gmail.com"
+    },
+    {
+      "id": "tu_pichayanoot_rotkrua_2586",
+      "full_name_th": "รศ.ดร. พิชญานุช รสเครือ",
+      "old_email": "pichayanoot@gmail.com"
+    },
+    {
+      "id": "tu_pintusorn_hansakul_4528",
+      "full_name_th": "รศ.ดร. พินทุสร หาญสกุล",
+      "old_email": "hansakul@yahoo.com"
+    },
+    {
+      "id": "tu_rungrat_jitvaropas_3565",
+      "full_name_th": "รศ.ดร. รุ่งรัตน์ จิตวโรภาส",
+      "old_email": "live.and.learn@hotmail.com"
+    },
+    {
+      "id": "tu_sasichai_kangsadalampai_1417",
+      "full_name_th": "รศ.ดร. ศศิชัย กังสดาลอำไพ",
+      "old_email": "sasichai.613@gmail.com"
+    },
+    {
+      "id": "tu_sumon_thitiorul_7657",
+      "full_name_th": "ผศ.ดร. สุมน ธิติโอฬาร",
+      "old_email": "sumonjung@yahoo.com"
+    },
+    {
+      "id": "tu_thanakorn_surarak_8044",
+      "full_name_th": "อ.ดร. ธนกร สุรารักษ์",
+      "old_email": "thanakorn.surara@gmail.com"
+    },
+    {
+      "id": "tu_wanwarang_hiriote_4366",
+      "full_name_th": "ผศ.ดร. วรรณวรางค์ หิริโอตป์",
+      "old_email": "hiriote@gmail.com"
+    },
+    {
+      "id": "wu_ahs_jitbanjong_001",
+      "full_name_th": "รศ.ดร. จิตรบรรจง ตั้งปอง",
+      "old_email": "njitbanjong@gmail.com"
+    },
+    {
+      "id": "msu_jindaporn_msu_2240",
+      "full_name_th": "ผศ.ดร. จินดาพร จำรัสเลิศลักษณ์",
+      "old_email": "jindaporn.msu@gmail.com"
+    },
+    {
+      "id": "ku_agro_wave15_0071",
+      "full_name_th": "ผศ.ดร. อุศมา สุนทรนฤรังษี",
+      "old_email": "aussama.soon@gmail.com"
+    },
+    {
+      "id": "kingmongku_schoolofen_chompooinwai_048",
+      "full_name_th": "ผศ.ดร. ชัย ชมภูอินไหว",
+      "old_email": "chaichompoo@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department__125",
+      "full_name_th": "ศ.ดร. พวงรัตน์ แก้วล้อม",
+      "old_email": "kpuangrat@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department_wimalin_7",
+      "full_name_th": "รศ.ดร. วิมลิน เหล่าศิริถาวร",
+      "old_email": "wimalin@hotmail.com"
+    },
+    {
+      "id": "tu_duangrat_tantikanlayaporn_7283",
+      "full_name_th": "รศ.ดร. ดวงรัตน์ ตันติกัลยาภรณ์",
+      "old_email": "dkanlayaporn@gmail.com"
+    },
+    {
+      "id": "tu_sutheera_sangsiri_6777",
+      "full_name_th": "ผศ.ดร. สุธีรา สังข์ศิริ",
+      "old_email": "preclinictu@gmail.com"
+    },
+    {
+      "id": "wu_sci_phongpichit_001",
+      "full_name_th": "รศ.ดร. พงษ์พิชิต จันทร์นุ้ย",
+      "old_email": "channuie@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_107",
+      "full_name_th": "ผศ.ดร. ทสพล เขตเจนการ",
+      "old_email": "thosaponk@hotmail.com"
+    },
+    {
+      "id": "su_eng_teacher_085",
+      "full_name_th": "อ.ดร. ธรรมวิชช์ ประเสริฐ",
+      "old_email": "thammawit@hotmail.com"
+    },
+    {
+      "id": "chulalongk_facultyofp_nogsuansawasdee_023",
+      "full_name_th": "ศ.ดร. สิริพรรณ นกสวน สวัสดี",
+      "old_email": "nogsuan@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_135",
+      "full_name_th": "ผศ.ดร. ขวัญใจ กลิ่นจงกล",
+      "old_email": "kkhwanjai@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_013",
+      "full_name_th": "รศ.ดร. ประสงค์ ศิริวงศ์วิไลชาติ",
+      "old_email": "deersong1@yahoo.com"
+    },
+    {
+      "id": "su_eng_teacher_016",
+      "full_name_th": "ผศ.ดร. โสภณ ผู้มีจรรยา",
+      "old_email": "soponpu@yahoo.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_031_031",
+      "full_name_th": "อ.ดร. กุสุมา แย้มเกตุ",
+      "old_email": "kusuma13.y@gmail.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_037_037",
+      "full_name_th": "ผศ.ดร. กฤติญา ณวลัยมาศ",
+      "old_email": "matong.swu@gmail.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_suthasinobon_016",
+      "full_name_th": "รศ.ดร. กิตติชัย สุธาสิโนบล",
+      "old_email": "dr.kittichai2010@gmail.com"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_005_005",
+      "full_name_th": "อ.ดร. วีรภัทร์ สุขศิริ",
+      "old_email": "suksiri.weeraphat@gmail.com"
+    },
+    {
+      "id": "su_eng_teacher_090",
+      "full_name_th": "อ.ดร. สิทธิชัย แซ่เหล่ม",
+      "old_email": "firstdeck@hotmail.com"
+    },
+    {
+      "id": "su_eng_teacher_125",
+      "full_name_th": "ผศ.ดร. เพ็ญพิสุทธิ์ ทองหยวก",
+      "old_email": "penpisuth.ft@gmail.com"
+    },
+    {
+      "id": "cu_wave19_edu_0046",
+      "full_name_th": "ผศ.ดร. สิวะโชติ ศรีสุทธิยากร",
+      "old_email": "choat.cu@gmail.com"
+    },
+    {
+      "id": "cu_wave19_edu_0063",
+      "full_name_th": "อ.ดร. ณฐิณี เจียรกุล",
+      "old_email": "nathinee.edu@gmail.com"
+    },
+    {
+      "id": "cu_wave19_edu_0066",
+      "full_name_th": "ผศ.ดร. ปนัฐษรณ์ จารุชัยนิวัฒน์",
+      "old_email": "tapattamasir@hotmail.com"
+    },
+    {
+      "id": "cu_wave19_edu_0068",
+      "full_name_th": "อ.ดร. ภัสรำไพ จ้อยเจริญ",
+      "old_email": "pasrampai@gmail.com"
+    },
+    {
+      "id": "cu_wave19_edu_0069",
+      "full_name_th": "รศ.ดร. ภาวิณี โสธายะเพ็ชร",
+      "old_email": "pavineenui@gmail.com"
+    },
+    {
+      "id": "cu_wave19_edu_0071",
+      "full_name_th": "ผศ.ดร. กีรติ คุวสานนท์",
+      "old_email": "kiratikhu@gmail.com"
+    },
+    {
+      "id": "cu_wave19_edu_0078",
+      "full_name_th": "ผศ.ดร. สร้อยสน สกลรักษ์",
+      "old_email": "ssoison@yahoo.com"
+    },
+    {
+      "id": "cu_wave19_edu_0080",
+      "full_name_th": "ผศ.ดร. มนสิการ เฮงสุวรรณ",
+      "old_email": "manasikarn@live.com"
+    },
+    {
+      "id": "cu_wave19_edu_0106",
+      "full_name_th": "ผศ.ดร. สุรศักดิ์ เก้าเอี้ยน",
+      "old_email": "surasak.stat.edu.cu@gmail.com"
+    },
+    {
+      "id": "cu_wave19_edu_0110",
+      "full_name_th": "รศ.ดร. กมลวรรณ ตังธนกานนท์",
+      "old_email": "tkamonwan@hotmail.com"
+    },
+    {
+      "id": "su_eng_teacher_105",
+      "full_name_th": "ผศ.ดร. กิตติศักดิ์ คู่วรัญญู",
+      "old_email": "kittisak_mesu@yahoo.com"
+    },
+    {
+      "id": "cmu_econ_songsak_001",
+      "full_name_th": "ศ.ดร. ทรงศักดิ์ ศรีบุญจิตต์",
+      "old_email": "songsakecon@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department_adirek_31",
+      "full_name_th": "ผศ.ดร. อดิเรก ใบสุขันธ์",
+      "old_email": "adirek.ba@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department_nivit_2",
+      "full_name_th": "รศ.ดร. นิวิท เจริญใจ",
+      "old_email": "xnivit@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department_parida_8",
+      "full_name_th": "รศ.ดร. ปริดา จิ๋วปัญญา",
+      "old_email": "parida.jewpanya@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department_pawarut_73",
+      "full_name_th": "รศ.ดร. ปวรุตม์ จงชาญสิทโธ",
+      "old_email": "pawarutj37@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department_rungchat_22",
+      "full_name_th": "รศ.ดร. รุ่งฉัตร ชมภูอินไหว",
+      "old_email": "rungchatc@hotmail.com"
+    },
+    {
+      "id": "cmu_eng_department_prof_60",
+      "full_name_th": "รศ.ดร. ดำรงศักดิ์ รินชุมภู",
+      "old_email": "3806122@gmail.com"
+    },
+    {
+      "id": "cmu_eng_department_thongmunee_46",
+      "full_name_th": "ผศ.ดร. สุริยะ ทองมุณี",
+      "old_email": "s.thongmunee@gmail.com"
+    },
+    {
+      "id": "mahidoluni_instituteo_taechangam_020",
+      "full_name_th": "ผศ.ดร. สุนาฏ เตชางาม",
+      "old_email": "s.taechangam@gmail.com"
+    },
+    {
+      "id": "cu_med_sunchai_001",
+      "full_name_th": "ศ.ดร. สัญชัย พยุงภรณ์",
+      "old_email": "spayungporn@gmail.com"
+    }
+  ],
+  "publication_urls_cleaned": 343,
+  "faculty_publications_modified": 92,
+  "embedding_texts_rebuilt": 998
+}

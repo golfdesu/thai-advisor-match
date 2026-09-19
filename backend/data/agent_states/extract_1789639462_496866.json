@@ -1,0 +1,130 @@
+{
+  "session_id": "extract_1789639462_496866",
+  "target_university_th": "มหาวิทยาลัยบูรพา",
+  "target_university_en": "Burapha University",
+  "target_faculty_th": "คณะโลจิสติกส์",
+  "target_faculty_en": "Faculty of Logistics",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.buu.ac.th/agency/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%82%E0%B8%A5%E0%B8%88%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C/",
+    "http://log.buu.ac.th/"
+  ],
+  "failed_urls": [
+    "https://www.facebook.com/buu.ac.th/posts/%E0%B8%A1%E0%B8%B2%E0%B8%97%E0%B8%B3%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%82%E0%B8%A5%E0%B8%88%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%AA%E0%B9%8C-%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2%E0%B8%9A%E0%B8%B9%E0%B8%A3%E0%B8%9E%E0%B8%B2-%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%84%E0%B9%88%E0%B8%B0/2159843937387479/"
+  ],
+  "faculties": {
+    "buraphauni_facultyofl_theppitak_001": {
+      "id": "buraphauni_facultyofl_theppitak_001",
+      "university": "Burapha University",
+      "university_th": "มหาวิทยาลัยบูรพา",
+      "faculty": "Faculty of Logistics",
+      "faculty_th": "คณะโลจิสติกส์",
+      "department": "คณะโลจิสติกส์",
+      "department_th": "คณะโลจิสติกส์",
+      "academic_title": "ศ.",
+      "academic_title_th": "ศ.",
+      "first_name": "Taweesak",
+      "last_name": "Theppitak",
+      "full_name": "Taweesak Theppitak",
+      "full_name_th": "ศ. Taweesak Theppitak, D.B.A.",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "D.B.A."
+      ],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "buraphauni_facultyofl_luksanato_002": {
+      "id": "buraphauni_facultyofl_luksanato_002",
+      "university": "Burapha University",
+      "university_th": "มหาวิทยาลัยบูรพา",
+      "faculty": "Faculty of Logistics",
+      "faculty_th": "คณะโลจิสติกส์",
+      "department": "คณะโลจิสติกส์",
+      "department_th": "คณะโลจิสติกส์",
+      "academic_title": "รศ.",
+      "academic_title_th": "รศ.",
+      "first_name": "Sarawut",
+      "last_name": "Luksanato",
+      "full_name": "Sarawut Luksanato",
+      "full_name_th": "รศ. Sarawut Luksanato, Ph.D.",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D."
+      ],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "buraphauni_facultyofl_kitjacharoencha_003": {
+      "id": "buraphauni_facultyofl_kitjacharoencha_003",
+      "university": "Burapha University",
+      "university_th": "มหาวิทยาลัยบูรพา",
+      "faculty": "Faculty of Logistics",
+      "faculty_th": "คณะโลจิสติกส์",
+      "department": "คณะโลจิสติกส์",
+      "department_th": "คณะโลจิสติกส์",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Patchara",
+      "last_name": "Kitjacharoenchai",
+      "full_name": "Patchara Kitjacharoenchai",
+      "full_name_th": "ดร. Patchara Kitjacharoenchai, Ph.D.",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D."
+      ],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "buraphauni_facultyofl_pleasai_004": {
+      "id": "buraphauni_facultyofl_pleasai_004",
+      "university": "Burapha University",
+      "university_th": "มหาวิทยาลัยบูรพา",
+      "faculty": "Faculty of Logistics",
+      "faculty_th": "คณะโลจิสติกส์",
+      "department": "คณะโลจิสติกส์",
+      "department_th": "คณะโลจิสติกส์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Panthip",
+      "last_name": "Pleasai",
+      "full_name": "Panthip Pleasai",
+      "full_name_th": "อ. Panthip Pleasai",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "Taweesak Theppitak, D.B.A.": "buraphauni_facultyofl_theppitak_001",
+    "Sarawut Luksanato, Ph.D.": "buraphauni_facultyofl_luksanato_002",
+    "Patchara Kitjacharoenchai, Ph.D.": "buraphauni_facultyofl_kitjacharoencha_003",
+    "Panthip Pleasai": "buraphauni_facultyofl_pleasai_004"
+  },
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 6684,
+  "status": "completed",
+  "last_error": null
+}

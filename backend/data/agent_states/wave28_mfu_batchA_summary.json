@@ -1,0 +1,475 @@
+{
+  "batch": "wave28_mfu_batchA_headless",
+  "db_commit": false,
+  "univ_scope": "mfu.ac.th only",
+  "units": [
+    {
+      "key": "wave28_mfu_liberalarts",
+      "faculty_th": "สำนักวิชาศิลปศาสตร์",
+      "faculty_en": "School of Liberal Arts",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_liberalarts_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_liberalarts.json",
+      "status": "partial",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        },
+        {
+          "sitemap": "https://liberal-arts.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        },
+        {
+          "sitemap": "https://sla.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-liberal-arts.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/th/academics/school-of-liberal-arts.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://liberal-arts.mfu.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://liberal-arts.mfu.ac.th/en/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://sla.mfu.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [
+        "https://liberal-arts.mfu.ac.th/",
+        "https://liberal-arts.mfu.ac.th/en/",
+        "https://sla.mfu.ac.th/"
+      ],
+      "serp_needed": true
+    },
+    {
+      "key": "wave28_mfu_sinology",
+      "faculty_th": "สำนักวิชาจีนวิทยา",
+      "faculty_en": "School of Sinology",
+      "verified_count": 3,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_sinology_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_sinology.json",
+      "status": "partial",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        },
+        {
+          "sitemap": "https://sinology.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        },
+        {
+          "sitemap": "https://chinese.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-sinology.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://sinology.mfu.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=77933|patch_new=3|pruned=0",
+          "static_chars": 74444,
+          "static_density": 32,
+          "static_http": 200,
+          "rendered_chars": 77933,
+          "rendered_density": 32,
+          "added": 3,
+          "pruned": 0
+        },
+        {
+          "url": "https://sinology.mfu.ac.th/en/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=78813|patch_new=3|pruned=0",
+          "static_chars": 75352,
+          "static_density": 18,
+          "static_http": 200,
+          "rendered_chars": 78813,
+          "rendered_density": 18,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://chinese.mfu.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_block_marker:403 Forbidden",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 144,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [
+        "https://chinese.mfu.ac.th/"
+      ],
+      "serp_needed": false
+    },
+    {
+      "key": "wave28_mfu_law",
+      "faculty_th": "สำนักวิชานิติศาสตร์",
+      "faculty_en": "School of Law",
+      "verified_count": 39,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_law_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_law.json",
+      "status": "bypassed",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://law.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        },
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://law.mfu.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=52692|patch_new=1|pruned=0",
+          "static_chars": 49668,
+          "static_density": 5,
+          "static_http": 200,
+          "rendered_chars": 52692,
+          "rendered_density": 5,
+          "added": 1,
+          "pruned": 0
+        },
+        {
+          "url": "https://law.mfu.ac.th/en/law-staff/law-lecturers.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=90005|patch_new=33|pruned=0",
+          "static_chars": 89830,
+          "static_density": 58,
+          "static_http": 200,
+          "rendered_chars": 90005,
+          "rendered_density": 58,
+          "added": 33,
+          "pruned": 0
+        },
+        {
+          "url": "https://law.mfu.ac.th/en/law-staff/law-executives.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=34253|patch_new=6|pruned=0",
+          "static_chars": 34104,
+          "static_density": 10,
+          "static_http": 200,
+          "rendered_chars": 34253,
+          "rendered_density": 10,
+          "added": 5,
+          "pruned": 0
+        },
+        {
+          "url": "https://law.mfu.ac.th/en/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=51637|patch_new=0|pruned=0",
+          "static_chars": 48547,
+          "static_density": 5,
+          "static_http": 200,
+          "rendered_chars": 51637,
+          "rendered_density": 5,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [],
+      "serp_needed": false
+    },
+    {
+      "key": "wave28_mfu_management",
+      "faculty_th": "สำนักวิชาการจัดการ",
+      "faculty_en": "School of Management",
+      "verified_count": 2,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_management_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_management.json",
+      "status": "partial",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://mbs.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        },
+        {
+          "sitemap": "https://management.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        },
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://mbs.mfu.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://mbs.mfu.ac.th/en/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://management.mfu.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=83594|patch_new=2|pruned=0",
+          "static_chars": 79696,
+          "static_density": 15,
+          "static_http": 200,
+          "rendered_chars": 83594,
+          "rendered_density": 15,
+          "added": 2,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-management.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [
+        "https://mbs.mfu.ac.th/",
+        "https://mbs.mfu.ac.th/en/"
+      ],
+      "serp_needed": false
+    },
+    {
+      "key": "wave28_mfu_antiaging",
+      "faculty_th": "สำนักวิชาการแพทย์ชะลอวัย",
+      "faculty_en": "School of Anti-Aging Medicine",
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_antiaging_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave28_mfu_antiaging.json",
+      "status": "partial",
+      "sitemap_findings": [
+        {
+          "sitemap": "https://www.mfu.ac.th/sitemap.xml",
+          "note": "http_200_no_locs",
+          "kept": []
+        },
+        {
+          "sitemap": "https://longevity.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        },
+        {
+          "sitemap": "https://anti-aging.mfu.ac.th/sitemap.xml",
+          "note": "fetch_failed_or_empty",
+          "kept": []
+        }
+      ],
+      "per_url": [
+        {
+          "url": "https://www.mfu.ac.th/en/academics.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://www.mfu.ac.th/en/academics/school-of-anti-aging-medicine.html",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=39516|patch_new=0|pruned=0",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 39516,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://longevity.mfu.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "static_chars": 0,
+          "static_density": 0,
+          "static_http": 0,
+          "rendered_chars": 0,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        },
+        {
+          "url": "https://anti-aging.mfu.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=10776|patch_new=0|pruned=0",
+          "static_chars": 10941,
+          "static_density": 0,
+          "static_http": 200,
+          "rendered_chars": 10776,
+          "rendered_density": 0,
+          "added": 0,
+          "pruned": 0
+        }
+      ],
+      "failed_urls": [
+        "https://longevity.mfu.ac.th/"
+      ],
+      "serp_needed": true
+    }
+  ]
+}

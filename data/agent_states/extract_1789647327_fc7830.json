@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789647327_fc7830",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "สถาบัน MMRI",
+  "target_faculty_en": "MMRI",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://mmri.chula.ac.th"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

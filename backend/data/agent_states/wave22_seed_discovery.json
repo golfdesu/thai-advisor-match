@@ -1,0 +1,221 @@
+{
+  "cmu_pharmacy": {
+    "univ_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "fresh_serp": [
+      "https://www.cmu.ac.th/th/faculty/pharmacy/teacher",
+      "https://webs.pharmacy.cmu.ac.th/science/staff-group/menu/107"
+    ],
+    "seeds_used": [
+      "https://www.cmu.ac.th/th/faculty/pharmacy/teacher",
+      "https://webs.pharmacy.cmu.ac.th/science/staff-group/menu/107",
+      "https://www.pharmacy.cmu.ac.th/",
+      "https://webs.pharmacy.cmu.ac.th/doc/staff-group/menu/208"
+    ],
+    "n_candidates": 8,
+    "n_serp_keys": 2
+  },
+  "cmu_agro": {
+    "univ_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะเกษตรศาสตร์",
+    "fresh_serp": [
+      "https://mis.agri.cmu.ac.th/mis/Main/professor",
+      "https://www.cmu.ac.th/th/faculty/agriculture/teacher",
+      "https://www.cmu.ac.th/th/faculty/agriculture/aboutus"
+    ],
+    "seeds_used": [
+      "https://mis.agri.cmu.ac.th/mis/Main/professor",
+      "https://www.cmu.ac.th/th/faculty/agriculture/teacher",
+      "https://agro.cmu.ac.th/",
+      "https://www.agro.cmu.ac.th/mis2/personnel/pages/personal_new.php"
+    ],
+    "n_candidates": 18,
+    "n_serp_keys": 2
+  },
+  "up_med": {
+    "univ_th": "มหาวิทยาลัยพะเยา",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "fresh_serp": [
+      "https://medicine.up.ac.th/th/Personnel.aspx",
+      "https://medicine.up.ac.th/th/Personnel2.aspx",
+      "https://www.medsci.up.ac.th/hr_medsci/show_bio.php"
+    ],
+    "seeds_used": [
+      "https://medicine.up.ac.th/th/Personnel.aspx",
+      "https://medicine.up.ac.th/th/Personnel2.aspx",
+      "https://med.up.ac.th/",
+      "https://www.up.ac.th/"
+    ],
+    "n_candidates": 18,
+    "n_serp_keys": 2
+  },
+  "nu_dent": {
+    "univ_th": "มหาวิทยาลัยนเรศวร",
+    "faculty_th": "คณะทันตแพทยศาสตร์",
+    "fresh_serp": [
+      "https://www.dent.nu.ac.th/?page_id=1039",
+      "https://www.dent.nu.ac.th/?page_id=3380",
+      "https://www.nation.ac.th/dean-teacher-dent/"
+    ],
+    "seeds_used": [
+      "https://www.dent.nu.ac.th/?page_id=1039",
+      "https://www.dent.nu.ac.th/?page_id=3380",
+      "https://www.dent.nu.ac.th/",
+      "https://www.nu.ac.th/"
+    ],
+    "n_candidates": 9,
+    "n_serp_keys": 2
+  },
+  "nu_ahs": {
+    "univ_th": "มหาวิทยาลัยนเรศวร",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "fresh_serp": [
+      "https://telerad.ahs.nu.ac.th/ahs_web/department/index.php",
+      "https://telerad.ahs.nu.ac.th/ahs_web/department/mt.php",
+      "http://www.ahs.nu.ac.th/web2022/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%84%E0%B8%93%E0%B8%B0/"
+    ],
+    "seeds_used": [
+      "https://telerad.ahs.nu.ac.th/ahs_web/department/index.php",
+      "https://telerad.ahs.nu.ac.th/ahs_web/department/mt.php",
+      "https://www.ahs.nu.ac.th/",
+      "https://www.nu.ac.th/"
+    ],
+    "n_candidates": 17,
+    "n_serp_keys": 2
+  },
+  "kku_dent": {
+    "univ_th": "มหาวิทยาลัยขอนแก่น",
+    "faculty_th": "คณะทันตแพทยศาสตร์",
+    "fresh_serp": [
+      "https://dentistry.kku.ac.th/course/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B8%8D%E0%B8%B2/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3",
+      "https://dentistry.kku.ac.th/admin-board",
+      "https://dentistry.kku.ac.th/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3"
+    ],
+    "seeds_used": [
+      "https://dentistry.kku.ac.th/course/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B8%8D%E0%B8%B2/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3",
+      "https://dentistry.kku.ac.th/admin-board",
+      "https://dent.kku.ac.th/",
+      "https://www.kku.ac.th/"
+    ],
+    "n_candidates": 9,
+    "n_serp_keys": 2
+  },
+  "kku_medtech": {
+    "univ_th": "มหาวิทยาลัยขอนแก่น",
+    "faculty_th": "คณะเทคนิคการแพทย์",
+    "fresh_serp": [
+      "https://amsapp.kku.ac.th/webth/page/8/%E0%B8%84%E0%B8%93%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B8%99%E0%B8%B4%E0%B8%84%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C",
+      "https://amsapp.kku.ac.th/webth/page/67/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3",
+      "https://www.kku.ac.th/en/227291/"
+    ],
+    "seeds_used": [
+      "https://amsapp.kku.ac.th/webth/page/8/%E0%B8%84%E0%B8%93%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B8%99%E0%B8%B4%E0%B8%84%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C",
+      "https://amsapp.kku.ac.th/webth/page/67/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3",
+      "https://medtech.kku.ac.th/",
+      "https://www.kku.ac.th/"
+    ],
+    "n_candidates": 17,
+    "n_serp_keys": 2
+  },
+  "psu_dent": {
+    "univ_th": "มหาวิทยาลัยสงขลานครินทร์",
+    "faculty_th": "คณะทันตแพทยศาสตร์",
+    "fresh_serp": [
+      "https://www.dent.psu.ac.th/dent/",
+      "https://dt.mahidol.ac.th/event-pic/20240524-2/",
+      "https://www.dent.psu.ac.th/dent/department/"
+    ],
+    "seeds_used": [
+      "https://www.dent.psu.ac.th/dent/",
+      "https://dt.mahidol.ac.th/event-pic/20240524-2/",
+      "https://dent.psu.ac.th/",
+      "https://www.psu.ac.th/"
+    ],
+    "n_candidates": 21,
+    "n_serp_keys": 2
+  },
+  "psu_pharmacy": {
+    "univ_th": "มหาวิทยาลัยสงขลานครินทร์",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "fresh_serp": [
+      "https://www.pharmacy.psu.ac.th/th/administrator-team.html",
+      "https://www.pharmacy.psu.ac.th/th/clinic-staff.html",
+      "https://www.pharmacy.psu.ac.th/th/"
+    ],
+    "seeds_used": [
+      "https://www.pharmacy.psu.ac.th/th/administrator-team.html",
+      "https://www.pharmacy.psu.ac.th/th/clinic-staff.html",
+      "https://pharmacy.psu.ac.th/",
+      "https://www.psu.ac.th/"
+    ],
+    "n_candidates": 18,
+    "n_serp_keys": 2
+  },
+  "sut_med": {
+    "univ_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "faculty_th": "สำนักวิชาแพทยศาสตร์",
+    "fresh_serp": [
+      "http://imdata.sut.ac.th/im-sut/",
+      "http://imdata.sut.ac.th/im-sut/team-lecturer.php",
+      "http://imdata.sut.ac.th/im-sut/team-board.php"
+    ],
+    "seeds_used": [
+      "http://imdata.sut.ac.th/im-sut/",
+      "http://imdata.sut.ac.th/im-sut/team-lecturer.php",
+      "https://med.sut.ac.th/",
+      "https://www.sut.ac.th/"
+    ],
+    "n_candidates": 9,
+    "n_serp_keys": 2
+  },
+  "sut_nursing": {
+    "univ_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "faculty_th": "สำนักวิชาพยาบาลศาสตร์",
+    "fresh_serp": [
+      "http://nurse.sut.ac.th/about-us/personal/academic/",
+      "https://nurse.sut.ac.th/",
+      "http://nurse.sut.ac.th/nursingteachers/"
+    ],
+    "seeds_used": [
+      "http://nurse.sut.ac.th/about-us/personal/academic/",
+      "https://nurse.sut.ac.th/",
+      "https://www.sut.ac.th/"
+    ],
+    "n_candidates": 18,
+    "n_serp_keys": 2
+  },
+  "mu_vet": {
+    "univ_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะสัตวแพทยศาสตร์",
+    "fresh_serp": [
+      "https://vs.mahidol.ac.th/new/personnel.aspx?dept_id=4&divID=21",
+      "https://vs.mahidol.ac.th/th/executive-council.html",
+      "https://channel.mahidol.ac.th/view/3412/50%20Facts%20%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B8%95%E0%B8%A7%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%20%E0%B8%A1.%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%94%E0%B8%A5"
+    ],
+    "seeds_used": [
+      "https://vs.mahidol.ac.th/new/personnel.aspx?dept_id=4&divID=21",
+      "https://vs.mahidol.ac.th/th/executive-council.html",
+      "https://vs.mahidol.ac.th/new/facultyprofiles.aspx",
+      "https://www.mahidol.ac.th/"
+    ],
+    "n_candidates": 9,
+    "n_serp_keys": 2
+  },
+  "mu_medtech": {
+    "univ_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเทคนิคการแพทย์",
+    "fresh_serp": [
+      "https://mt.mahidol.ac.th/about-us-2/faculty-senate/",
+      "https://mt.mahidol.ac.th/administrative-team/",
+      "https://mt.mahidol.ac.th/department-th/"
+    ],
+    "seeds_used": [
+      "https://mt.mahidol.ac.th/about-us-2/faculty-senate/",
+      "https://mt.mahidol.ac.th/administrative-team/",
+      "https://mt.mahidol.ac.th/",
+      "https://www.mahidol.ac.th/"
+    ],
+    "n_candidates": 18,
+    "n_serp_keys": 2
+  }
+}

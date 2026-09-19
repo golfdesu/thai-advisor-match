@@ -1,6 +1,7 @@
-from sqlalchemy import Column, String, Text, JSON, Integer
+from sqlalchemy import Column, String, Text, JSON, Integer, event, inspect
 from pgvector.sqlalchemy import Vector
 from app.core.database import Base
+from app.core.embedding_text import build_faculty_embedding_text
 
 class FacultyDB(Base):
     __tablename__ = "faculties"
@@ -40,6 +41,19 @@ class FacultyDB(Base):
     
     # Store the 768-dimensional vector from Gemini (text-embedding-004)
     embedding = Column(Vector(768))
+
+
+def _ensure_faculty_embedding_text(_mapper, _connection, faculty: FacultyDB) -> None:
+    """Keep lexical source text present whenever a faculty vector is stored."""
+    state = inspect(faculty)
+    embedding_changed = state.attrs.embedding.history.has_changes()
+    embedding_added = state.attrs.embedding.history.added
+    if embedding_changed and embedding_added and embedding_added[0] is not None and not (faculty.embedding_text or "").strip():
+        faculty.embedding_text = build_faculty_embedding_text(faculty)
+
+
+event.listen(FacultyDB, "before_insert", _ensure_faculty_embedding_text)
+event.listen(FacultyDB, "before_update", _ensure_faculty_embedding_text)
 
 
 class CourseDB(Base):

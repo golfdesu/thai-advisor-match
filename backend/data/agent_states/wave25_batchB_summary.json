@@ -1,0 +1,130 @@
+{
+  "mju_fishery": {
+    "verified": 0,
+    "raw": 0,
+    "rej_name": 0,
+    "rej_src": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mju_fishery_export.py",
+    "visited": 2,
+    "failed": 1,
+    "failed_urls": [
+      "https://fishery.mju.ac.th/"
+    ]
+  },
+  "mju_animal": {
+    "verified": 0,
+    "raw": 0,
+    "rej_name": 0,
+    "rej_src": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mju_animal_export.py",
+    "visited": 2,
+    "failed": 1,
+    "failed_urls": [
+      "https://animal.mju.ac.th/"
+    ]
+  },
+  "mju_energy": {
+    "verified": 0,
+    "raw": 0,
+    "rej_name": 0,
+    "rej_src": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mju_energy_export.py",
+    "visited": 1,
+    "failed": 2,
+    "failed_urls": [
+      "https://erdi.mju.ac.th/",
+      "https://energy.mju.ac.th/"
+    ]
+  },
+  "mfu_chinese": {
+    "verified": 0,
+    "raw": 3,
+    "rej_name": 0,
+    "rej_src": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mfu_chinese_export.py",
+    "visited": 2,
+    "failed": 1,
+    "failed_urls": [
+      "https://chinese.mfu.ac.th/"
+    ],
+    "quarantined": 3,
+    "quarantine_reason": "names absent from all fetched official pages (0 hits); withheld per anti-hallucination invariant"
+  },
+  "mfu_liberalarts": {
+    "verified": 0,
+    "raw": 0,
+    "rej_name": 0,
+    "rej_src": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mfu_liberalarts_export.py",
+    "visited": 1,
+    "failed": 3,
+    "failed_urls": [
+      "https://arts.mfu.ac.th/",
+      "https://sla.mfu.ac.th/",
+      "https://liberal-arts.mfu.ac.th/"
+    ]
+  },
+  "mfu_antiaging": {
+    "verified": 0,
+    "raw": 0,
+    "rej_name": 0,
+    "rej_src": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_mfu_antiaging_export.py",
+    "visited": 2,
+    "failed": 1,
+    "failed_urls": [
+      "https://longevity.mfu.ac.th/"
+    ]
+  },
+  "msu_ph": {
+    "verified": 0,
+    "raw": 0,
+    "rej_name": 0,
+    "rej_src": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_msu_ph_export.py",
+    "visited": 1,
+    "failed": 1,
+    "failed_urls": [
+      "https://ph.msu.ac.th/"
+    ]
+  },
+  "msu_finearts": {
+    "verified": 0,
+    "raw": 0,
+    "rej_name": 0,
+    "rej_src": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_msu_finearts_export.py",
+    "visited": 1,
+    "failed": 1,
+    "failed_urls": [
+      "https://finearts.msu.ac.th/"
+    ]
+  },
+  "up_energy": {
+    "verified": 0,
+    "raw": 0,
+    "rej_name": 0,
+    "rej_src": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_up_energy_export.py",
+    "visited": 1,
+    "failed": 2,
+    "failed_urls": [
+      "https://energy.up.ac.th/",
+      "https://sce.up.ac.th/"
+    ]
+  },
+  "ubu_sci": {
+    "verified": 0,
+    "raw": 0,
+    "rej_name": 0,
+    "rej_src": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave25_ubu_sci_export.py",
+    "visited": 1,
+    "failed": 3,
+    "failed_urls": [
+      "https://micro.sci.ubu.ac.th/",
+      "https://it.sci.ubu.ac.th/",
+      "https://sci.ubu.ac.th/"
+    ]
+  }
+}

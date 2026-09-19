@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789641374_e78fe2",
+  "target_university_th": "มหาวิทยาลัยนเรศวร",
+  "target_university_en": "Naresuan University",
+  "target_faculty_th": "คณะวิทยาศาสตร์",
+  "target_faculty_en": "Faculty of Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.sci.nu.ac.th/",
+    "https://chemistry.sci.nu.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1215,
+  "status": "completed",
+  "last_error": null
+}

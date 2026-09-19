@@ -1,0 +1,800 @@
+{
+  "apply": true,
+  "en_university_synced": [
+    {
+      "id": "chulalongk_facultyofc_saengsingkeo_003",
+      "name": "รศ.ดร. นิธิดา แสงสิงแก้ว",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "khonkaenun_facultyofm_sothhiphan_021",
+      "name": "รศ.ดร. สุนทร โสตถิพันธุ์",
+      "th": "มหาวิทยาลัยสงขลานครินทร์",
+      "old_en": "Khon Kaen University",
+      "new_en": "Prince of Songkla University"
+    },
+    {
+      "id": "mahidoluni_facultyofp_narin_027",
+      "name": "ผศ.ดร. รังสิยา นารินทร์",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Mahidol University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "regionalun_facultymem_lianghiranthawo_075",
+      "name": "อ. สุวรรณ เลียงหิรัญถาวร",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "regionalun_facultymem_tirawong_070",
+      "name": "อ.ดร. เกศราพร ทิราวงศ์",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "chulalongk_facultyofe_fakthong_015",
+      "name": "ผศ.ดร. ถิรภาพ ฟักทอง",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "chulalongk_facultyofe_jithitikulchai_038",
+      "name": "รศ.ดร. ทีปกร จิร์ฐิติกุลชัย",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "chulalongk_facultyofe_koedruang_037",
+      "name": "ผศ.ดร. ภัททา เกิดเรือง",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "chulalongk_facultyofe_kulkantrakorn_011",
+      "name": "รศ.ดร. กิริยา กุลกลการ",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "chulalongk_facultyofe_phankitnirundor_014",
+      "name": "อ.ดร. กฤต ภัทรกิจนิรันดร์",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "chulalongk_facultyofe_pitidol_016",
+      "name": "ผศ.ดร. ธร ปีติดล",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "chulalongk_facultyofe_thanasomboonyag_040",
+      "name": "ผศ.ดร. อลงกรณ์ ธนศรีธัญญากุล",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "chulalongk_facultyofe_wongcharoen_044",
+      "name": "ผศ. เพ็ชรธรินทร์ วงศ์เจริญ",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "silpakornu_facultyofa_gasorngatsara_016",
+      "name": "รศ.ดร. สุกรี เกษรเกศรา",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "silpakornu_facultyofa_panhiphak_001",
+      "name": "รศ.ดร. กุณฑลทิพย พานิชภักดิ์",
+      "th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "old_en": "Silpakorn University",
+      "new_en": "Chulalongkorn University"
+    },
+    {
+      "id": "silpakornu_facultyoff_katumanee_034",
+      "name": "อ.ดร. ธีรพงศ์ เกตุมณี",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "mahidoluni_facultyofp_mahikul_014",
+      "name": "รศ.ดร. วิริยะ มหิกุล",
+      "th": "ราชวิทยาลัยจุฬาภรณ์",
+      "old_en": "Mahidol University",
+      "new_en": "Chulabhorn Royal Academy"
+    },
+    {
+      "id": "silpakornu_facultyofa_anantacha_017",
+      "name": "รศ.ดร. ธนา อนันต์อาชา",
+      "th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "old_en": "Silpakorn University",
+      "new_en": "King Mongkut's University of Technology North Bangkok"
+    },
+    {
+      "id": "regionalun_facultymem_phansaensri_074",
+      "name": "ผศ.ดร. ลักขณา พันธุ์แสนศรี",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "chulalongk_facultyofc_ronawech_005",
+      "name": "ผศ.ดร. โมไนยพล รณเวช",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "regionalun_facultymem_lertkanjanaporn_071",
+      "name": "อ.ดร. นฤพนธ์ เลิศกาญจนาพร",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "silpakornu_facultyoff_chumsai_027",
+      "name": "ศ.ดร. หม่อมหลวงตุ้ย ชุมสาย",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "khonkaenun_facultyofm_siritanont_019",
+      "name": "รศ.ดร. ธีรนันท์ ศิริตานนท์",
+      "th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "old_en": "Khon Kaen University",
+      "new_en": "Suranaree University of Technology"
+    },
+    {
+      "id": "chulalongk_facultyofc_hinwiman_018",
+      "name": "รศ.ดร. สมสุข หินวิมาน",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "chulalongk_facultyofe_liewskul_012",
+      "name": "อ.ดร. กุศล เลี้ยวสกุล",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "chulalongk_facultyofe_saelee_010",
+      "name": "ผศ.ดร. กิตติชัย แซ่ลี้",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "chulalongk_facultyofe_techakanont_013",
+      "name": "รศ.ดร. เกรียงไกร เตชกานนท์",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "silpakornu_facultyoff_tainta_024",
+      "name": "อ.ดร. ภูวัตร ทาอินต๊ะ",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "chulalongk_facultyofe_charoenporn_039",
+      "name": "รศ.ดร. พีระ เจริญพร",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "silpakornu_facultyoff_pattiya_029",
+      "name": "ศ. พันตรีอาคม พัฒิยะ",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "chulalongk_facultyofe_phanishsarn_006",
+      "name": "รศ. อักษรศรี พานิชสาส์น",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "silpakornu_facultyofa_sirithanawat_005",
+      "name": "อ. ชัยบูรณ์ ศิริธนะวัฒน์",
+      "th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "old_en": "Silpakorn University",
+      "new_en": "Chulalongkorn University"
+    },
+    {
+      "id": "silpakornu_facultyofa_chainakut_015",
+      "name": "ศ. (เกียรติคุณ)พงศ์เดช ไชยคุตร",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "regionalun_facultymem_kumput_094",
+      "name": "อ. ชาญสิทธิ์ คำพุฒ",
+      "th": "มหาวิทยาลัยอุบลราชธานี",
+      "old_en": "Naresuan University",
+      "new_en": "Ubon Ratchathani University"
+    },
+    {
+      "id": "silpakornu_facultyoff_santasombat_031",
+      "name": "ศ. เกียรติคุณ ดร. ยศ สันตสมบัติ",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "regionalun_facultymem_khammoon_076",
+      "name": "ผศ. ชยุตภัฎ คำมูล",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "regionalun_facultymem_maneechookate_077",
+      "name": "ผศ. ศิริพร มณีชูเกตุ",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "regionalun_facultymem_sreenorchan_068",
+      "name": "ผศ. สุรชัย ศรีนรจันทร์",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "regionalun_facultymem_srivorakul_065",
+      "name": "อ. สพ.ญ. ดร. สราลี ศรีวรกุล",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "regionalun_facultymem_tulawattanakul_061",
+      "name": "อ. ประภาพร ตุลวัฒนกุล",
+      "th": "มหาวิทยาลัยพะเยา",
+      "old_en": "Naresuan University",
+      "new_en": "University of Phayao"
+    },
+    {
+      "id": "regionalun_facultymem_witool_093",
+      "name": "อ. สุรศักดิ์ วิฑูรย์",
+      "th": "มหาวิทยาลัยอุบลราชธานี",
+      "old_en": "Naresuan University",
+      "new_en": "Ubon Ratchathani University"
+    },
+    {
+      "id": "regionalun_facultymem_uphoyo_080",
+      "name": "อ. สพ.ญ. ดร. ทิพย์ภาภรณ์ อุปโย",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "silpakornu_facultyofa_chintanawat_020",
+      "name": "อ. อมรรัตน์ ชินธนวัฒน์",
+      "th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "old_en": "Silpakorn University",
+      "new_en": "King Mongkut's University of Technology North Bangkok"
+    },
+    {
+      "id": "silpakornu_facultyofa_piriyasurawong_019",
+      "name": "ดร. ศวิษฐ์ พิริยะสุรวงศ์",
+      "th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "old_en": "Silpakorn University",
+      "new_en": "King Mongkut's University of Technology North Bangkok"
+    },
+    {
+      "id": "silpakornu_facultyoff_channgam_030",
+      "name": "ศ. แสง จันทร์งาม",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "silpakornu_facultyoff_rattakanok_028",
+      "name": "อ. ถิ่น รัติกนก",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "silpakornu_facultyoff_rattanawong_023",
+      "name": "ผศ. พงษ์ศักดิ์ รัตนวงศ์",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "khonkaenun_facultyofm_fac_010_010",
+      "name": "ศ. นพ. ธาดา ยิบอินซอย",
+      "th": "มหาวิทยาลัยสงขลานครินทร์",
+      "old_en": "Khon Kaen University",
+      "new_en": "Prince of Songkla University"
+    },
+    {
+      "id": "khonkaenun_facultyofm_tantanuch_018",
+      "name": "ผศ.ดร. เจษฎา ตัณฑนุช",
+      "th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "old_en": "Khon Kaen University",
+      "new_en": "Suranaree University of Technology"
+    },
+    {
+      "id": "mahidoluni_facultyofp_kongsawat_030",
+      "name": "ผศ.ดร. ศิริพันธุ์ คงสวัสดิ์",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Mahidol University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "regionalun_facultymem_pokkaew_073",
+      "name": "ผศ.ดร. รัฐพงศ์ ปกแก้ว",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "regionalun_facultymem_rakprayoon_072",
+      "name": "ผศ.ดร. น้ำฝน รักประยูร",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "regionalun_facultymem_bunthichak_095",
+      "name": "ผศ.ดร. อรัญญา บุทธิจักร์",
+      "th": "มหาวิทยาลัยอุบลราชธานี",
+      "old_en": "Naresuan University",
+      "new_en": "Ubon Ratchathani University"
+    },
+    {
+      "id": "regionalun_facultymem_maneewan_063",
+      "name": "ผศ.ดร. บัวเรียม มณีวรรณ์",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "silpakornu_facultyoff_chansong_026",
+      "name": "ผศ.ดร. ระวี จันทร์ส่อง",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "chulalongk_facultyofc_nanthasri_025",
+      "name": "ผศ.ดร. ชัยวัฒน์ นันทศรี",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "chulalongk_facultyofc_promyiam_026",
+      "name": "ผศ.ดร. กรวรรณ พรหมแย้ม",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Chiang Mai University"
+    },
+    {
+      "id": "chulalongk_facultyofe_stimanont_045",
+      "name": "ผศ.ดร. มณเฑียร สติมานนท์",
+      "th": "มหาวิทยาลัยธรรมศาสตร์",
+      "old_en": "Chulalongkorn University",
+      "new_en": "Thammasat University"
+    },
+    {
+      "id": "regionalun_facultymem_klaivitphat_086",
+      "name": "อ.ดร. พลกฤษณ์ คล้ายวิตภัทร",
+      "th": "มหาวิทยาลัยทักษิณ",
+      "old_en": "Naresuan University",
+      "new_en": "Thaksin University"
+    },
+    {
+      "id": "regionalun_facultymem_phositthiphan_081",
+      "name": "อ.ดร. ทิพย์วดี โพธิ์สิทธิพรรณ",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "regionalun_facultymem_pisitsakul_079",
+      "name": "ผศ.ดร. ทิพปภา พิสิษฐ์กุล",
+      "th": "มหาวิทยาลัยแม่โจ้",
+      "old_en": "Naresuan University",
+      "new_en": "Maejo University"
+    },
+    {
+      "id": "silpakornu_facultyoff_kongthweesak_032",
+      "name": "รศ.ดร. ไพโรจน์ คงทวีศักดิ์",
+      "th": "มหาวิทยาลัยเชียงใหม่",
+      "old_en": "Silpakorn University",
+      "new_en": "Chiang Mai University"
+    }
+  ],
+  "cross_urls_sanitized": [
+    {
+      "id": "thammasatu_facultyofe_vorapojpisut_001",
+      "field": "profile_url",
+      "old": "https://cheme.kmitl.ac.th/staff/supachai-vorapojpisut",
+      "new": "https://me.engr.tu.ac.th/th/department_me/personel_detail/3"
+    },
+    {
+      "id": "mu_398425a6_1356",
+      "field": "image_url",
+      "old": "https://www.camt.cmu.ac.th/images/personnel/chaiyong.jpg",
+      "new": "https://www.ict.mahidol.ac.th/wp-content/uploads/2021/05/Chaiyong-1.jpg"
+    },
+    {
+      "id": "walailak_schoolof_e7211fe0",
+      "field": "profile_url",
+      "old": "https://www.science.cmu.ac.th/profile/surapol.naowarat",
+      "new": "https://science.wu.ac.th/"
+    },
+    {
+      "id": "walailak_schoolof_e7211fe0",
+      "field": "image_url",
+      "old": "https://www.science.cmu.ac.th/images/faculty/surapol_n.jpg",
+      "new": null
+    },
+    {
+      "id": "walailak_schoolof_ebb717ab",
+      "field": "profile_url",
+      "old": "https://www.sci.psu.ac.th/personnel-info/?id=0047380",
+      "new": "https://science.wu.ac.th/"
+    },
+    {
+      "id": "walailak_schoolof_ebb717ab",
+      "field": "image_url",
+      "old": "https://www.sci.psu.ac.th/staffpic/0047380.webp",
+      "new": null
+    },
+    {
+      "id": "ku_sci_wave13_b_0003",
+      "field": "image_url",
+      "old": "https://science.mahidol.ac.th/wp-content/uploads/faculty/kiattawee_choowongkomon.jpg",
+      "new": null
+    }
+  ],
+  "tsu_muse_duplicates_merged": [
+    {
+      "donor_id": "thaksinuni_facultyofm_jitpakdee_001",
+      "target_id": "regionalun_facultymem_fac_088_088",
+      "name": "รศ.ดร. รุ่งรวี จิตภักดี",
+      "email": "rungrawee.j@tsu.ac.th"
+    },
+    {
+      "donor_id": "thaksinuni_facultyofm_wongsawat_002",
+      "target_id": "regionalun_facultymem_fac_089_089",
+      "name": "อ.ดร. ศันสนีย์ วงศ์สวัสดิ์",
+      "email": "sunsanee.w@tsu.ac.th"
+    },
+    {
+      "donor_id": "thaksinuni_facultyofm_diawkee_003",
+      "target_id": "regionalun_facultymem_fac_090_090",
+      "name": "อ. เทียนทิพย์ เดียวกี่",
+      "email": "thianthip.d@tsu.ac.th"
+    },
+    {
+      "donor_id": "thaksinuni_facultyofm_seubsakulajinda_004",
+      "target_id": "regionalun_facultymem_fac_091_091",
+      "name": "อ. วันพระ สืบสกุลจินดา",
+      "email": "vanpra.s@tsu.ac.th"
+    },
+    {
+      "donor_id": "thaksinuni_facultyofm_watcharakorn_005",
+      "target_id": "regionalun_facultymem_fac_092_092",
+      "name": "อ. วันวิสา วัชรากร",
+      "email": "wanwisa.w@tsu.ac.th"
+    }
+  ],
+  "tsu_muse_faculty_realigned": [
+    {
+      "id": "thaksinuni_facultyofm_khunphon_011",
+      "name": "ผศ.ดร. เสริมศักดิ์ ขุนพล",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_dumchoo_017",
+      "name": "อ. ศุภธิดา ดำชู",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_musikaew_022",
+      "name": "อ. ภาสกร มุสิแก้ว",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_opatzjr_021",
+      "name": "อ. Bradley Eugene Opatz Jr",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_dittaapichai_006",
+      "name": "ผศ.ดร. มรกต ดิษฐาอภิชัย",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_bunsai_007",
+      "name": "อ.ดร. พลากร บุญใส",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_klompklao_010",
+      "name": "ศ.ดร. สรรพสิทธิ์ กล่อมเกล้า",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_shimray_023",
+      "name": "อ. Hormungphi M Shimray",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_praditsilp_012",
+      "name": "อ.ดร. วศิน ประดิษฐศิลป์",
+      "cleaned_interests": [
+        "Internet of Things (IoT) & Smart Systems"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_maneepruk_018",
+      "name": "อ. ธนา มณีพฤกษ์",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_songsri_016",
+      "name": "อ. ปุริมปรัชญ์ ส่งศรี",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_tawisuwan_014",
+      "name": "อ. สุวิมล ทวิสุวรรณ์",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_thana_020",
+      "name": "อ. ปกรณ์สิทธิ ฐานา",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_kosalwit_015",
+      "name": "อ. ปทิตตา โกศัลวิตร",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_ruchiramaytha_019",
+      "name": "อ. พิมพ์แพร รุจิรเมธา",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_wirapornsawan_009",
+      "name": "ดร. ประพล วิระพรสวรรค์",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    },
+    {
+      "id": "thaksinuni_facultyofm_panwichartkul_013",
+      "name": "อ.ดร. สิริกาณณ์ พันธุ์วิชาติกุล",
+      "cleaned_interests": [
+        "นวัตกรรมและเทคโนโลยีประยุกต์",
+        "Academic Research & Development"
+      ]
+    }
+  ],
+  "mahidol_medicine_de_compounded": [
+    {
+      "id": "mahidoluni_facultyofm_pookriyakamee_009",
+      "name": "ผศ. นพ. ปเนต ผู้กฤตยาคามี",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี"
+    },
+    {
+      "id": "mahidoluni_facultyofm_kitiyakara_013",
+      "name": "ศ. นพ. ม.ล.ชาครีย์ กิติยากร",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี"
+    },
+    {
+      "id": "mahidoluni_facultyofm_leerapan_019",
+      "name": "อ.ดร. นพ.บวรศม ลีระพันธ์",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี"
+    },
+    {
+      "id": "mahidoluni_facultyofm_sukhato_023",
+      "name": "อ. กนกพร สุขโข",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี"
+    },
+    {
+      "id": "mahidoluni_facultyofm_homsanit_026",
+      "name": "ผศ.ดร. พญ. มยุรี หอมสนิท",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี"
+    },
+    {
+      "id": "mahidoluni_facultyofm_songsivilai_001",
+      "name": "ศ. นพ. สิริฤกษ์ ทรงศิวิไล",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_luangwechakan_002",
+      "name": "อ. นพ. วรวิชญ์ เหลืองเวชการ",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_thuvasethakul_003",
+      "name": "รศ.ดร. นพ.ปีติ ธุวะเศรษฐกุล",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_kamtorntip_004",
+      "name": "ผศ. นพ. วิษณุ กัมทรทิพย์",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_jiarakul_005",
+      "name": "รศ. นพ. นิธิพัฒน์ เจียรกุล",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_chotireungnapa_006",
+      "name": "ผศ. นพ. ชวลิต โชติเรืองนภา",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_ruangtrakool_008",
+      "name": "รศ. นพ. รวิศ เรืองตระกูล",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_prateepavanich_010",
+      "name": "รศ. นพ. ประดิษฐ์ ประทีปะวณิช",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_vasuvattakul_011",
+      "name": "อ. นพ. สมเกียรติ วสุวัฎฎกุล",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_pajareya_012",
+      "name": "รศ. พญ. กิ่งแก้ว ปาจรีย์",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_dankulchai_014",
+      "name": "รศ. นพ. พิทยา ด่านกุลชัย",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_duangthongpol_016",
+      "name": "รศ. นพ. พิชเยนทร์ ดวงทองพล",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_sampattavanich_017",
+      "name": "ดร. สมพรณัฐ สัมปัตตะวนิช",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_sungkaworn_021",
+      "name": "ดร. ติติวัฒน์ สังขวร",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_dangprapai_022",
+      "name": "ผศ.ดร. ยิ่งยศ ด่านประไพ",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_sutharatanapong_024",
+      "name": "อ. นปุณ สุธารทานพงศ์",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    },
+    {
+      "id": "mahidoluni_facultyofm_nainetr_025",
+      "name": "อ.ดร. นพ. พรนพ นัยเนตร",
+      "faculty_th": "คณะแพทยศาสตร์ศิริราชพยาบาล"
+    }
+  ],
+  "chula_medicine_reaffiliated": [
+    {
+      "id": "mahidoluni_facultyofm_pisitkun_018",
+      "name": "รศ.ดร. ไตรรักษ์ พิศุทธ์สะกุล",
+      "to_uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "to_fac": "คณะแพทยศาสตร์"
+    },
+    {
+      "id": "mahidoluni_facultyofm_wannakrairot_020",
+      "name": "ผศ. สุรศักดิ์ วรรณไกรโรจน์",
+      "to_uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "to_fac": "คณะแพทยศาสตร์"
+    }
+  ],
+  "ku_and_buu_de_compounded": [
+    {
+      "id": "kasetsartu_facultyofa_vityakiat_009",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร"
+    },
+    {
+      "id": "kasetsartu_facultyofa_tansakul_008",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร"
+    },
+    {
+      "id": "kasetsartu_facultyofa_pichai_022",
+      "faculty_th": "คณะสัตวแพทยศาสตร์"
+    },
+    {
+      "id": "buu_sci_sarawut_001",
+      "faculty_th": "คณะวิทยาศาสตร์"
+    },
+    {
+      "id": "buu_marine_voranop_001",
+      "faculty_th": "คณะวิทยาศาสตร์"
+    }
+  ]
+}

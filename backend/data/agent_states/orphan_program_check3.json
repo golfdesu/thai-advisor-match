@@ -1,0 +1,70 @@
+{
+  "swu_cosci": {
+    "query": "COSCI official curriculum + SWU grad program list filtered to COSCI (direct fetch, no SERPAPI)",
+    "verdict": "ABSENT",
+    "evidence": [
+      {
+        "link": "http://cosci.swu.ac.th/academic",
+        "title": "COSCI CURRICULUMS page (HTTP 200, 27KB): lists BACHELOR programs only (2565 Social Communication Innovation, 2565 Cinema & Digital Media, 2564 Communication Innovation, 2560); zero โท/เอก curriculum rows"
+      },
+      {
+        "link": "http://cosci.swu.ac.th/admission",
+        "title": "COSCI admission page (HTTP 200, 53KB): single unnamed grad pointer ('ระดับบัณฑิตศึกษา (ปริญญาโท) ตรวจสอบรายละเอียดผ่านหน้าข่าวประชาสัมพันธ์/เว็บไซต์...'); no named โท/เอก program"
+      },
+      {
+        "link": "http://grad.swu.ac.th/TH/Courses/",
+        "title": "SWU Grad School course index (HTTP 200): 32 /TH/Courses/ links enumerated, 0 containing COSCI/นวัตกรรมสื่อสารสังคม/Social Communication"
+      }
+    ],
+    "note": "cosci https TLS EOF (http used); grad.swu.ac.th https timeout (http used); BrowserScraper render attempted per page",
+    "http_status": 200
+  },
+  "mfu_it": {
+    "query": "MFU programme Tier-1 master/doctoral lists + IT school host via school index (direct fetch, no SERPAPI)",
+    "verdict": "ABSENT",
+    "evidence": [
+      {
+        "link": "https://programme.mfu.ac.th/mfu-programme/programme-master-degree.html",
+        "title": "MFU Tier-1 master list (HTTP 200, 48KB, 27 <li> programs): no Information Technology/เทคโนโลยีสารสนเทศ entry; closest computing rows = Computer Engineering + Digital Transformation Technology"
+      },
+      {
+        "link": "https://programme.mfu.ac.th/mfu-programme/programme-doctoral-degree.html",
+        "title": "MFU Tier-1 doctoral list (HTTP 200, 35KB, 16 <li> programs): no IT entry"
+      },
+      {
+        "link": "https://programme.mfu.ac.th/master-of-science-program-in-digital-transformation-technology.html",
+        "title": "Attribution check: Digital Transformation Tech + Computer Engineering detail pages both state owner = สำนักวิชาเทคโนโลยีดิจิทัลประยุกต์ (School of Applied Digital Technology), NOT สำนักวิชาเทคโนโลยีสารสนเทศ"
+      },
+      {
+        "link": "https://itschool.mfu.ac.th/",
+        "title": "MFU IT school host (HTTP 200, 13KB): redirect/404 shell, zero program/grad links"
+      }
+    ],
+    "note": "www.mfu.ac.th/en/academics* return 404 JS-shell; it.mfu.ac.th NXDOMAIN; sit/computing hosts dead; Tier-1 programme portal used per curriculum skill",
+    "http_status": 200
+  },
+  "_meta": {
+    "method": "direct-official-only",
+    "serpapi": false,
+    "db_writes": false,
+    "probes": [
+      "orphan_program_check3_deep.json",
+      "orphan_program_check3_curr.json",
+      "orphan_program_check3_tables.json",
+      "orphan_program_check3_attr.json",
+      "orphan_program_check3_attr2.json"
+    ]
+  },
+  "_ingest": {
+    "script": null,
+    "db": "local-docker-only",
+    "total_added": 0,
+    "null_embeddings": 0,
+    "per_faculty": {
+      "swu_cosci": 0,
+      "mfu_it": 0
+    },
+    "exports": [],
+    "notes": "Both ABSENT -> no ingest, no invented programs, no DB writes."
+  }
+}

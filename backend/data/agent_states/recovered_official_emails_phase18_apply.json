@@ -1,0 +1,1132 @@
+{
+  "apply": true,
+  "total_valid_items": 125,
+  "updated_faculties": [
+    {
+      "id": "kmutnb_1638a3e9_4313",
+      "full_name_th": "ศ.ดร. ยุพาภรณ์ อารีพงษ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "yupaporn.a@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_51f30694_2596",
+      "full_name_th": "ผศ.ดร. ชนาพันธุ์ ชนาเนตร",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "chanaphun.c@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_4b02d535_3710",
+      "full_name_th": "รศ.ดร. นวลพรรณ ลอว์สัน",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "nuanpan.n@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_3802c045_4941",
+      "full_name_th": "รศ.ดร. สุวิมล พันธ์แย้ม",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "suvimol.p@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_5f75e638_9860",
+      "full_name_th": "รศ.ดร. คณิตา เพ็ชรัตน์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "kanita.p@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_485a40c8_5586",
+      "full_name_th": "ผศ.ดร. มูรตี สมบูรณ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "murati.s@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_46e20da8_0732",
+      "full_name_th": "ผศ.ดร. วิลาสินี ปีระจิตร",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "wilasinee.p@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_1b19cc4c_0064",
+      "full_name_th": "ศ.ดร. สอาด นิวิศพงศ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "sa-aat.n@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_23c2c15f_4579",
+      "full_name_th": "รศ.ดร. สุภารัตน์ นิวิศพงศ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "suparat.n@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_73a293be_0177",
+      "full_name_th": "ผศ.ดร. จีรภา สรรพกิจกำจร",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "jeerapa.s@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_129939e7_6525",
+      "full_name_th": "รศ.ดร. อุไรวรรณ เจริญกีรติกุล",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "uraiwan.j@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_4f6dfc66_2139",
+      "full_name_th": "ผศ.ดร. นุชรินทร์ ทิพยวรรณากร",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "noocharin.t@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_71293ff3_9233",
+      "full_name_th": "ผศ.ดร. ศิรประภา มโนมัธย์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "siraprapa.m@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_6e896cc8_0760",
+      "full_name_th": "รศ.ดร. อรไท พลเสน",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "orathai.p@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_2a9f49b2_7127",
+      "full_name_th": "อ.ดร. สถาพร เทพสัมฤทธิ์พร",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "sthaporn.t@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_36282605_3527",
+      "full_name_th": "ผศ.ดร. กอบกุล รวีสวัสดิ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "kobkun.r@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_7823a5b6_7795",
+      "full_name_th": "ผศ.ดร. ปิยะฉัตร ลีลาศิลปศาสน์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "piyachat.l@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_600f2ecf_0553",
+      "full_name_th": "รศ.ดร. วิกานดา ผาพันธ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "wikanda.p@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_71b1e1b5_0932",
+      "full_name_th": "ผศ.ดร. ชนนิกานต์ รอดมรณ์",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "chonnikarn.r@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "kmutnb_393009e6_2960",
+      "full_name_th": "อ.ดร. มนัสยา ละอองแก้ว",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ",
+      "faculty_th": "คณะวิทยาศาสตร์ประยุกต์",
+      "department_th": "ภาควิชาสถิติประยุกต์",
+      "new_email": "manussaya.l@sci.kmutnb.ac.th",
+      "profile_url": "http://stat.sci.kmutnb.ac.th/?page_id=30"
+    },
+    {
+      "id": "cu_sci_wave14_b_0173",
+      "full_name_th": "รศ.ดร. กิติพงศ์ อัศตรกุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "kitipong.a@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0174",
+      "full_name_th": "ศ.ดร. อุบลรัตน์ สิริภัทราวรรณ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "ubonratana.s@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "chulalongk_facultyofs_prakitchaiwatta_054",
+      "full_name_th": "รศ.ดร. ชื่นจิต ประกิตชัยวัฒนา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "cheunjit.p@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofs_anantakool_056",
+      "full_name_th": "รศ.ดร. จิรารัตน์ อนันตกูล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "jirarat.t@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "cu_sci_wave14_b_0175",
+      "full_name_th": "รศ.ดร. ขนิษฐา ธนานุวงศ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "kanitha.t@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0177",
+      "full_name_th": "รศ.ดร. อินทาวุธ สรรพวรสถิตย์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "inthawoot.s@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0178",
+      "full_name_th": "รศ.ดร. ศานต์ เศรษฐชัยมงคล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "sarn.s@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "chulalongk_facultyofs_duangmal_047",
+      "full_name_th": "ผศ.ดร. เกียรติศักดิ์ ดวงมาลย์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "kiattisak.d@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "cu_sci_wave14_b_0180",
+      "full_name_th": "ผศ.ดร. ศศิกานต์ กู้พงษ์ศักดิ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "sasikan.k@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0181",
+      "full_name_th": "ผศ.ดร. วรภา คงเป็นสุข",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "varapha.l@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0183",
+      "full_name_th": "ผศ.ดร. ศิริมา พ่วงประพันธ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "sirima.pu@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0184",
+      "full_name_th": "ผศ.ดร. ณัฐธิดา โชติช่วง",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "nattida.c@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0185",
+      "full_name_th": "ผศ.ดร. สาริศา สุริยรักษ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "sarisa.s@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0186",
+      "full_name_th": "อ.ดร. นนทชา ธนธรวรากุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "nonthacha.t@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0187",
+      "full_name_th": "อ.ดร. ชญาภา เยี่ยงวีรชน",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "chayapa.y@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0188",
+      "full_name_th": "อ.ดร. ธนเทพ เหลืองทองคำ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "tanathep.l@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cu_sci_wave14_b_0189",
+      "full_name_th": "อ.ดร. สุเมธ กีรติมโนชญ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "sumate.k@chula.ac.th",
+      "profile_url": "http://foodtech.sc.chula.ac.th/faculties/lecturer"
+    },
+    {
+      "id": "cmu_3c861083_3909",
+      "full_name_th": "ผศ.ดร. สิริพร แจ้งสุทธิวรวัฒน์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "new_email": "siriphorn.jang@cmu.ac.th",
+      "profile_url": "http://www.biology.science.cmu.ac.th/teacher.php"
+    },
+    {
+      "id": "cmu_2315d15a_2364",
+      "full_name_th": "รศ.ดร. อุษรา ปัญญา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "new_email": "aussara.pan@cmu.ac.th",
+      "profile_url": "http://www.biology.science.cmu.ac.th/teacher.php"
+    },
+    {
+      "id": "cmu_37bc1206_6908",
+      "full_name_th": "ผศ.ดร. ชิตชล ผลารักษ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "new_email": "chitchol.p@cmu.ac.th",
+      "profile_url": "http://www.biology.science.cmu.ac.th/teacher.php"
+    },
+    {
+      "id": "cmu_1fc403b3_5937",
+      "full_name_th": "ผศ.ดร. อิสสระ ปะทะวัง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "new_email": "isara.p@cmu.ac.th",
+      "profile_url": "http://www.biology.science.cmu.ac.th/teacher.php"
+    },
+    {
+      "id": "cmu_287e36fe_8520",
+      "full_name_th": "ผศ.ดร. สหัสชัย อินวงศ์วาร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "new_email": "sahutchai.inwongwan@cmu.ac.th",
+      "profile_url": "http://www.biology.science.cmu.ac.th/teacher.php"
+    },
+    {
+      "id": "cmu_7388334b_2017",
+      "full_name_th": "ผศ.ดร. สิทธิศักดิ์ อินทรสิทธิ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "new_email": "sitthisak.inta@cmu.ac.th",
+      "profile_url": "http://www.biology.science.cmu.ac.th/teacher.php"
+    },
+    {
+      "id": "cmu_34732e43_8275",
+      "full_name_th": "ผศ.ดร. พิมลรัตน์ เทียนสวัสดิ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "new_email": "pimonrat.t@cmu.ac.th",
+      "profile_url": "http://www.biology.science.cmu.ac.th/teacher.php"
+    },
+    {
+      "id": "cmu_702352ff_7153",
+      "full_name_th": "ศ.ดร. มัสลิน โอสถานันต์กุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "new_email": "maslin.o@cmu.ac.th",
+      "profile_url": "http://www.biology.science.cmu.ac.th/teacher.php"
+    },
+    {
+      "id": "cmu_466beafe_3767",
+      "full_name_th": "ผศ.ดร. วาทิต โคกทอง",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "new_email": "watit.khokthong@cmu.ac.th",
+      "profile_url": "http://www.biology.science.cmu.ac.th/teacher.php"
+    },
+    {
+      "id": "cmu_54dda5f7_9022",
+      "full_name_th": "รศ.ดร. อังคณา อินตา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "new_email": "angkhana.inta@cmu.ac.th",
+      "profile_url": "http://www.biology.science.cmu.ac.th/teacher.php"
+    },
+    {
+      "id": "cmu_d9d10ba1_2174",
+      "full_name_th": "ผศ.ดร. สรินยา ศรีเพชราวุธ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "sarinya.sri@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_627a5421_1426",
+      "full_name_th": "รศ.ดร. สุจิตรพร เลอศิลป์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "suchitporn.l@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_10ecc612_6099",
+      "full_name_th": "รศ.ดร. รอ.พิศักดิ์ ชินชัย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "pisak.c@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_73aecd86_0998",
+      "full_name_th": "รศ.ดร. สุภาพร ชินชัย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "supaporn.c@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_e43e0520_1503",
+      "full_name_th": "ผศ.ดร. ปิยะวัฒน์ ตรีวิทยา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "piya.trevit@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_3c4b2594_1491",
+      "full_name_th": "ผศ.ดร. เพื่อนใจ รัตตากร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "phuanjai.rattakorn@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_31f45f4f_0693",
+      "full_name_th": "ผศ.ดร. พรเพ็ญ ศิริสัตยะวงศ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "pornpen.siri@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_55d103e7_8675",
+      "full_name_th": "รศ.ดร. จนัญญา ปัญญามี ทิพย์พยอม",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "jananya.p@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_7a3217d1_1177",
+      "full_name_th": "ผศ.ดร. พีรยา มั่นเขตวิทย์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "peeraya.m@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_23276890_1234",
+      "full_name_th": "รศ.ดร. สุภาวดี พุฒิหน่อย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "supawadee.p@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_5ef8c9a2_1809",
+      "full_name_th": "ผศ.ดร. จิรนันท์ กริฟฟิทส์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "jiranan.gr@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_754c0c68_1011",
+      "full_name_th": "ผศ.ดร. สายฝน บุญฉัตรกุล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "saifon.bun@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_1435431d_1082",
+      "full_name_th": "ผศ.ดร. อนุชาติ เขื่อนนิล",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "anuchart.kau@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_496e3ed3_7411",
+      "full_name_th": "ผศ. ศศิธร สังข์อู๋",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "sasithorn.sung-u@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_4a92ef58_1317",
+      "full_name_th": "ผศ.ดร. นภาลัย ชัยมะหา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "napalai.chai@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_422fb0eb_9267",
+      "full_name_th": "ผศ.ดร. โสภิฎา อภิชัย",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "sopida.apichai@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_72ea930b_7952",
+      "full_name_th": "ผศ.ดร. สาวิตรี ชารุนันทกร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "savitree.c@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_625dd8bc_3186",
+      "full_name_th": "อ.ดร. วรัญญา จริงจิตร",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "waranya.chingchit@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_967b2be7_3365",
+      "full_name_th": "อ.ดร. ศุภลักษณ์ ผาดศรี",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "supaluck.phad@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_7844eb6a_3291",
+      "full_name_th": "อ.ดร. พัชญ์พิไล ไชยวงศ์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "pachpilai.c@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_48e50e9c_0252",
+      "full_name_th": "อ.ดร. เกวลิน ปัญโญ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "kewalin.panyo@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_73422034_0328",
+      "full_name_th": "อ.ดร. อัจฉริยา ปัญญาแก้ว",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "autchariya.punyakaew@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_3dd575fc_0322",
+      "full_name_th": "ผศ.ดร. กัลยาณี มกราภิรมย์",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "kalyanee.mak@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cmu_144a9d8d_3563",
+      "full_name_th": "อ.ดร. ณัฐวิภา วาณิชย์เจริญ",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะเทคนิคการแพทย์",
+      "department_th": "ภาควิชากิจกรรมบำบัด",
+      "new_email": "natwipa.w@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff"
+    },
+    {
+      "id": "cu_sci_wave14_b_0044",
+      "full_name_th": "ศ.ดร. Preecha Kittikhunnatham",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "preecha.ki@chula.ac.th",
+      "profile_url": "https://chem.sc.chula.ac.th/preecha-kittikhunnatham/"
+    },
+    {
+      "id": "cu_sci_wave14_b_0045",
+      "full_name_th": "ศ.ดร. Preecha Phuwapraisirisan",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "preecha.p@chula.ac.th",
+      "profile_url": "https://chem.sc.chula.ac.th/preecha-phuwapraisirisan/"
+    },
+    {
+      "id": "cu_sci_wave14_b_0046",
+      "full_name_th": "รศ.ดร. Prompong Pienpinijtham",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "prompong.p@chula.ac.th",
+      "profile_url": "https://chem.sc.chula.ac.th/prompong-pienpinijtham/"
+    },
+    {
+      "id": "cu_dent_wave15_0079",
+      "full_name_th": "รศ. ทพญ. ดร. ภฑิตา ภูริเดช",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาทันตกรรมชุมชน",
+      "new_email": "patita_s@chula.ac.th",
+      "profile_url": "https://www.dent.chula.ac.th/teams/patita-bhuridej/"
+    },
+    {
+      "id": "cu_dent_wave15_0138",
+      "full_name_th": "ผศ. ทพ. ดร. อิสระพงศ์ แก้วกำเหนิดพงษ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาทันตกรรมชุมชน",
+      "new_email": "issarapong.k@chula.ac.th",
+      "profile_url": "https://www.dent.chula.ac.th/teams/issarapong-kaewkamnerdpong/"
+    },
+    {
+      "id": "cu_dent_wave15_0067",
+      "full_name_th": "อ. ภญ. ดร. พิชชาภา ลินแสนกาศ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาเภสัชวิทยา",
+      "new_email": "pichchapa.l@chula.ac.th",
+      "profile_url": "https://www.dent.chula.ac.th/teams/pichchapa-linsaenkart/"
+    },
+    {
+      "id": "cu_dent_wave15_0004",
+      "full_name_th": "ผศ. ทพ. กฤษณ์ชัย เบศรภิญโญวงศ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชากายวิภาคศาสตร์",
+      "new_email": "kritchai.b@chula.ac.th",
+      "profile_url": "https://www.dent.chula.ac.th/teams/kritchai-bespinyowong/"
+    },
+    {
+      "id": "cu_dent_wave15_0052",
+      "full_name_th": "อ. ทพญ. ปณัทชา วีระพล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาทันตกรรมชุมชน",
+      "new_email": "panatcha.w@chula.ac.th",
+      "profile_url": "https://www.dent.chula.ac.th/teams/panatcha-weerapol/"
+    },
+    {
+      "id": "tu_15e99a37_2286",
+      "full_name_th": "ผศ.ดร. อาชัญญ์ บุญญานันต์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "archan@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_26896d71_6209",
+      "full_name_th": "ผศ.ดร. วรากร ลิขิตอนุภาค",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชานวัตกรรมการพัฒนาอสังหาริมทรัพย์",
+      "new_email": "warakorn@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_2922c732_9316",
+      "full_name_th": "รศ.ดร. ทิพย์สุดา จันทร์แจ่มหล้า",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "tipsuda@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_2f76c09a_7761",
+      "full_name_th": "รศ.ดร. วิจิตรบุษบา มารมย์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "wijitbusaba@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_34f6e610_7846",
+      "full_name_th": "ผศ.ดร. วิญญู อาจรักษา",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "ardrugsa@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_377b68ef_3373",
+      "full_name_th": "ผศ.ดร. สาธิดา สกุลรัตนกุลชัย",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "satida@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_38b198b1_2990",
+      "full_name_th": "ผศ.ดร. จิฐิพร วงศ์วัชรไพบูลย์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "jitiporn@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_3934436a_8251",
+      "full_name_th": "รศ.ดร. พีรดร แก้วลาย",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "peeradorn@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_39f4350f_1049",
+      "full_name_th": "ผศ. นภมณี ทรัพย์สุนทรกุล",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "nopmanee@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_3d54cfc4_0545",
+      "full_name_th": "ผศ. ธัชพงศ์ ศรีสุวรรณ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "touchaphong@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_3f81a758_3362",
+      "full_name_th": "รศ.ดร. อลิษา สหวัชรินทร์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "s_alisa@tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_42c2d01c_2850",
+      "full_name_th": "ผศ. สุภณัฐ เดชนิรัติศัย",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "dsupanut@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_4e35b66d_7094",
+      "full_name_th": "รศ.ดร. สุดาภรณ์ สุดประเสริฐ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "sudaporn@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_52d640c8_7280",
+      "full_name_th": "ผศ.ดร. วิรุจน์ สมโสภณ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "wirujsom@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_53e0f37e_1581",
+      "full_name_th": "ผศ.ดร. บุญอนันต์ นทกุล",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "boonanan@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_55874d9d_2896",
+      "full_name_th": "ผศ.ดร. พิมลมาศ ประเสริฐสุข",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "pimonmart@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_57be7c4b_5796",
+      "full_name_th": "ผศ.ดร. ชัญญรัชต์ นิธิธีรพัชร์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "chunyarat.n@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_5e7c56b8_0662",
+      "full_name_th": "ผศ.ดร. อรรฆพันธ์ เธียรถาวร",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "akapan@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_63153023_4405",
+      "full_name_th": "รศ.ดร. นิจ ตันติศิรินทร์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาการผังเมืองและสิ่งแวดล้อม",
+      "new_email": "nij@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_63ab1a25_8892",
+      "full_name_th": "รศ.ดร. กิจชัย จิตขจรวานิช",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "kitchaij@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_6cb1f83d_4802",
+      "full_name_th": "รศ.ดร. สุกุลพัฒน์ คุ้มไพศาล",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "sukulpat@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_6d6574f7_3291",
+      "full_name_th": "รศ.ดร. ชุมเขต แสวงเจริญ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "choomket@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_6f38fa6a_7206",
+      "full_name_th": "ผศ.ดร. ชาวี บุษยรัตน์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "chaweebu@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_7452f7ed_4350",
+      "full_name_th": "ผศ.ดร. ศิวาพร กลิ่นมาลัย",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "siwaporn@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_78d23748_1979",
+      "full_name_th": "รศ.ดร. พัทมน เสลานนท์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "pattamon@tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_7b3aeb86_6560",
+      "full_name_th": "ศ.ดร. ภูษิต เลิศวัฒนารักษ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "lertwatt@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_93ce0a47_3519",
+      "full_name_th": "ผศ.ดร. สุรพิชย์ พรหมสิทธิ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "surapit@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_19c0c80b_5656",
+      "full_name_th": "รศ. กันตพัชญ์ ศรีสุธาพรรณ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "awi_cl@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_20fea81d_3525",
+      "full_name_th": "รศ. เฉลิมวัฒน์ ตันตสวัสดิ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "tchalerm@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_2136d8ca_4571",
+      "full_name_th": "ผศ. ศุภวัจน์ แก้วขาว",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "suppawad@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_33697494_5140",
+      "full_name_th": "ผศ. นิรันดร ทองอรุณ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "nirandorn@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_3970587e_4296",
+      "full_name_th": "ผศ. ม.ล.วโรดม ศุขสวัสดิ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "varodom@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_39a3fb31_9746",
+      "full_name_th": "ผศ. เอนก สุวรรณชัยสกุล",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "anake_s@tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_3a5a49a2_0221",
+      "full_name_th": "ผศ. บุษกร รมยานนท์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "busakorn@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_3d80235e_7503",
+      "full_name_th": "รศ. ศรีศักดิ์ พัฒนวศิน",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "srisak@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_40af8fb9_7200",
+      "full_name_th": "รศ. กรกมล ตันติวนิช",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "kornkamon@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_4740d33c_5801",
+      "full_name_th": "รศ. สันติรักษ์ ประเส",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "santirak@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_5dbff50f_9023",
+      "full_name_th": "รศ. ภวินท์ สิริสาลี",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "pawin@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_60c897cd_9754",
+      "full_name_th": "ผศ. ฟ้า ลิขิตสวัสดิ์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "flikitsw@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_69d8fd18_2104",
+      "full_name_th": "ผศ. ธนากร ตาระกา",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "thanakorn@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_7b80d9cf_9943",
+      "full_name_th": "ผศ. ศรา สุขียศ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "sara@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_7d737276_5829",
+      "full_name_th": "ผศ. ปราณิศา บุญค้ำนนท์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "pranisa@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_223d1433_5160",
+      "full_name_th": "รศ.ดร. สุปรีดี ฤทธิรงค์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "supreedee@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_33942a4a_9088",
+      "full_name_th": "รศ.ดร. กัลยา ตันติยาสวัสดิกุล",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "kallayat@tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_5be655e4_9138",
+      "full_name_th": "ศ.ดร. กองกูณฑ์ โตชัยวัฒน์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "kongkoon@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    },
+    {
+      "id": "tu_77228bb7_6146",
+      "full_name_th": "ผศ.ดร. Isaac Adam Jamieson",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง (TDS)",
+      "department_th": "สาขาวิชาสถาปัตยกรรม",
+      "new_email": "isaac@ap.tu.ac.th",
+      "profile_url": "https://tds.tu.ac.th/FacultyMember"
+    }
+  ],
+  "embedding_texts_rebuilt": 57
+}

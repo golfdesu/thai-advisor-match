@@ -1,12 +1,586 @@
 {
   "mode": "dry-run",
   "counts": {
-    "match": 0,
-    "no_hit": 99,
-    "ambiguous": 1,
-    "error": 0,
-    "metric_gain": 0
+    "match": 8,
+    "no_hit": 0,
+    "ambiguous": 120,
+    "error": 5,
+    "metric_gain": 0,
+    "topic_pick": 8
   },
-  "changes": [],
-  "saved_at": "2026-09-11 08:01:48"
+  "changes": [
+    {
+      "id": "wave22_0734_126",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_ifrpd_0026",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave22_0741_837",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave36b_0011_380",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_haaland_019",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cmu_eng_department_matthew_69",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave24_0053_334",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_ishikawa_034",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "kingmongku_schoolofen_leewiwatwong_038",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "thaksinuni_collegeofi_arunphalungsant_003",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_reid_014",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "srinakha_facultyo_f30ead63",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave22_0927_948",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cmu_50eeedb9_4586",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "tu_eng_wave16_0019",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "thaksinuni_collegeofi_rattanawan_008",
+      "verdict": "match",
+      "corroborated": false,
+      "disambiguated_via_topic": true,
+      "matched_author_name": "Prathomchai Rattanawan",
+      "openalex_id": "https://openalex.org/A5062086852",
+      "h_index": 1
+    },
+    {
+      "id": "tu_eng_wave16_0021",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "tu_eng_wave16_0022",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "thaksinuni_facultyofe_wanlem_039",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_yi_033",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cu_cbs_wave11_0044",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cu_cbs_wave11_0047",
+      "verdict": "match",
+      "corroborated": false,
+      "disambiguated_via_topic": true,
+      "matched_author_name": "Shawn Cole",
+      "openalex_id": "https://openalex.org/A5063566266",
+      "h_index": 35
+    },
+    {
+      "id": "cu_cbs_wave11_0049",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cmu_eng_department_james_84",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_matsushima_111",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_parente_094",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_lynch_170",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "kingmongku_schoolofen_tarnsangpradit_005",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cmu_6c77b1e6_7673",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_ifrpd_0016",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0064_382",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0003_294",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0016_949",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0021_236",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0022_510",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0025_209",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_matsushima_148",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0047_276",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0060_181",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0049_273",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0066_885",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave22_0788_551",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0074_840",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave22_1044_287",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0163_705",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0157_143",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave22_1052_465",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "thaksinuni_facultyofe_saneha_029",
+      "verdict": "match",
+      "corroborated": false,
+      "disambiguated_via_topic": true,
+      "matched_author_name": "Jarumas Saneha",
+      "openalex_id": "https://openalex.org/A5107667881",
+      "h_index": 1
+    },
+    {
+      "id": "wave22_1045_851",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0161_465",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cu_cbs_wave11_0041",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave22_1162_264",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0058_373",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cu_cbs_wave11_0014",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave36b_0001_350",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave36b_0006_387",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave36b_0005_675",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave36b_0007_800",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave36b_0016_588",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave36b_0009_885",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_facultyofp_wongveerakul_014",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave36b_0011_535",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave36b_0010_113",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave24_0056_397",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave24_0072_490",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave24_0080_387",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave24_0083_191",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave24_0100_407",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave24_0159_193",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave24_0161_841",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cu_cbs_wave11_0259",
+      "verdict": "match",
+      "corroborated": false,
+      "disambiguated_via_topic": true,
+      "matched_author_name": "Kongmanas Yavaprabhas",
+      "openalex_id": "https://openalex.org/A5087094217",
+      "h_index": 3
+    },
+    {
+      "id": "wave24_0286_365",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_meyer_024",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cu_cbs_wave11_0298",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave26_0023_200",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "kmitl_aad_wave16_0135",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "kmitl_aad_wave16_0136",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave24_0372_562",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "thaksinuni_facultyofl_singkaneti_013",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "thaksinuni_collegeofi_suwannasin_005",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave28_0038_731",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "thaksinuni_collegeofi_hiransai_019",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0083_538",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave22_0652_912",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "thaksinuni_collegeofi_hmoteh_018",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave22_0683_829",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_wright_150",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave30_0083_479",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_collegeofl_xiaowen_019",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "princeofso_facultyofs_ngamdee_045",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_collegeofl_masaki_028",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "wave22_0665_678",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_collegeofl_kondo_027",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_collegeofl_jing_020",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_collegeofl_chenchi_018",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ubonratcha_collegeofl_sasaki_029",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jung_155",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_pubh_0012",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_grund_129",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cmu_630ed296_6818",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_scie_0103",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_cutietta_027",
+      "verdict": "error"
+    },
+    {
+      "id": "mu_envs_006_8baa4f",
+      "verdict": "match",
+      "corroborated": false,
+      "disambiguated_via_topic": true,
+      "matched_author_name": "Ratcha Chaichana",
+      "openalex_id": "https://openalex.org/A5056206887",
+      "h_index": 14
+    },
+    {
+      "id": "kmutt_432435de_1069",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_agrips_0153",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_engsrc_0029",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "tu_169da454_9893",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_engsrc_0030",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "tu_37991aa4_4542",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "thammasatu_facultyofl_thirawat_021",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cu_cbs_wave11_0310",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cu_cbs_wave11_0354",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_srv_0042",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cu_cbs_wave11_0046",
+      "verdict": "match",
+      "corroborated": false,
+      "disambiguated_via_topic": true,
+      "matched_author_name": "Roger King",
+      "openalex_id": "https://openalex.org/A5033135910",
+      "h_index": 14
+    },
+    {
+      "id": "cmu_6ad1f81d_0590",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mahidoluni_collegeofm_prchal_017",
+      "verdict": "error"
+    },
+    {
+      "id": "cu_cbs_wave11_0038",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "cu_cbs_wave11_0045",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "arch-chula-012_c60c3c",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_arch_0041",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_srv_0002",
+      "verdict": "error"
+    },
+    {
+      "id": "ku_wave17_hum_0018",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_asc_0072",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_engsrc_0027",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "tu_606a9742_1534",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "tu_somsiri_indramanee_9083",
+      "verdict": "match",
+      "corroborated": false,
+      "disambiguated_via_topic": true,
+      "matched_author_name": "Somsiri Indramanee",
+      "openalex_id": "https://openalex.org/A5080375096",
+      "h_index": 5
+    },
+    {
+      "id": "ku_wave18_asc_0050",
+      "verdict": "error"
+    },
+    {
+      "id": "ku_wave17_hum_0125",
+      "verdict": "error"
+    },
+    {
+      "id": "ku_wave18_agrips_0115",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_asc_0132",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "ku_wave18_msc_0064",
+      "verdict": "match",
+      "corroborated": false,
+      "disambiguated_via_topic": true,
+      "matched_author_name": "Thitisak Duadsuntia",
+      "openalex_id": "https://openalex.org/A5014627831",
+      "h_index": 0
+    },
+    {
+      "id": "mahidoluni_collegeofm_williams_026",
+      "verdict": "ambiguous"
+    },
+    {
+      "id": "mu_sci_wave14_b_0141",
+      "verdict": "ambiguous"
+    }
+  ],
+  "saved_at": "2026-09-19 16:16:23"
 }

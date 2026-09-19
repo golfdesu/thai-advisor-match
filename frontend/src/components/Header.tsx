@@ -139,32 +139,34 @@ export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) 
   const ActiveIcon = activeThemeOption.icon;
 
   return (
-    <header className="sticky top-0 z-40 backdrop-blur-xl bg-[var(--theme-card)]/85 border-b border-[var(--theme-border)] px-4 sm:px-6 lg:px-12 py-3.5 flex items-center justify-between transition-colors shadow-xs">
+    <header className="site-header sticky top-0 z-40 border-b border-[var(--theme-border)] px-4 py-3 sm:px-6 lg:px-12">
+      <div className="mx-auto flex max-w-[1440px] items-center justify-between gap-4">
       {/* Brand Identity */}
-      <Link href="/" className="flex items-center gap-3.5 group">
-        <div className="w-11 h-11 rounded-xl bg-[var(--theme-primary)] flex items-center justify-center text-[var(--theme-primary-contrast)] transition-transform duration-200 group-hover:scale-105">
+      <Link href="/" className="group flex min-w-0 items-center gap-3.5">
+        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] transition-transform duration-200 group-hover:scale-[1.03]">
           <GraduationCap className="w-6 h-6" />
         </div>
-        <div>
+        <div className="min-w-0">
           <div className="flex items-center gap-2">
-            <span className="font-black text-xl sm:text-2xl tracking-tight text-[var(--theme-primary)] transition-colors">
+            <span className="hidden truncate text-lg font-extrabold tracking-tight text-[var(--theme-primary)] transition-colors sm:inline sm:text-xl">
               Thai EduCenter
             </span>
-            <span className="text-xs font-bold tracking-wider px-2.5 py-0.5 rounded-full bg-[var(--theme-accent-subtle)] text-[var(--theme-accent)] border border-[var(--theme-accent-border)] transition-colors">
+            <span className="text-lg font-extrabold tracking-tight text-[var(--theme-primary)] sm:hidden">TE</span>
+            <span className="hidden rounded-full border border-[var(--theme-accent-border)] bg-[var(--theme-accent-subtle)] px-2 py-0.5 text-[10px] font-bold tracking-[0.12em] text-[var(--theme-accent)] transition-colors sm:inline-flex">
               Academic Hub
             </span>
           </div>
-          <p className="text-xs text-[var(--theme-text-muted)] font-medium hidden sm:block mt-0.5">
+          <p className="mt-0.5 hidden truncate text-xs font-medium text-[var(--theme-text-muted)] sm:block">
             ศูนย์รวมหลักสูตรและทำเนียบคณาจารย์ที่ปรึกษางานวิจัยระดับประเทศ
           </p>
         </div>
       </Link>
 
       {/* Navigation & Theme Controls */}
-      <nav className="flex items-center gap-2 sm:gap-3">
+      <nav className="flex shrink-0 items-center gap-1.5 sm:gap-2.5">
         <Link
           href="/career-discovery"
-          className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[var(--theme-card-subtle)] hover:bg-[var(--theme-card)] text-xs sm:text-sm font-bold text-[var(--theme-text-body)] border border-[var(--theme-border)] transition-all hover:border-[var(--theme-primary)] hover:shadow-xs group cursor-pointer"
+          className="group flex items-center gap-2 rounded-lg border border-transparent px-2.5 py-2 text-xs font-bold text-[var(--theme-text-body)] transition-colors hover:border-[var(--theme-border)] hover:bg-[var(--theme-card-subtle)] hover:text-[var(--theme-primary)] sm:px-3 sm:text-sm"
         >
           <Compass className="w-4 h-4 text-[var(--theme-primary)] group-hover:rotate-45 transition-transform" />
           <span className="hidden sm:inline">ค้นหาตนเอง (RIASEC)</span>
@@ -173,13 +175,13 @@ export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) 
 
         <button
           onClick={onOpenSavedModal}
-          className="relative flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[var(--theme-card-subtle)] hover:bg-[var(--theme-card)] text-xs sm:text-sm font-bold text-[var(--theme-text-body)] border border-[var(--theme-border)] transition-all hover:border-[var(--theme-accent)] hover:shadow-xs cursor-pointer"
+          className="relative flex items-center gap-2 rounded-lg border border-transparent px-2.5 py-2 text-xs font-bold text-[var(--theme-text-body)] transition-colors hover:border-[var(--theme-border)] hover:bg-[var(--theme-card-subtle)] hover:text-[var(--theme-accent)] sm:px-3 sm:text-sm"
           title="รายการที่บันทึกไว้"
         >
           <Bookmark className="w-4 h-4 text-[var(--theme-accent)]" />
           <span className="hidden sm:inline">บันทึกไว้</span>
           {savedCount > 0 && (
-            <span className="w-5 h-5 rounded-full bg-[var(--theme-accent)] text-[var(--theme-accent-contrast)] text-xs font-black flex items-center justify-center shadow-xs">
+            <span className="flex h-5 w-5 items-center justify-center rounded-full bg-[var(--theme-accent)] text-xs font-black text-[var(--theme-accent-contrast)]">
               {savedCount}
             </span>
           )}
@@ -189,7 +191,7 @@ export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) 
         <div className="relative" ref={dropdownRef}>
           <button
             onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-            className="flex items-center gap-2 px-3.5 py-2.5 rounded-xl bg-[var(--theme-card-subtle)] hover:bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all shadow-2xs text-xs sm:text-sm font-bold text-[var(--theme-text-body)] cursor-pointer group shrink-0"
+            className="group flex shrink-0 items-center gap-2 rounded-lg border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] px-2.5 py-2 text-xs font-bold text-[var(--theme-text-body)] transition-colors hover:border-[var(--theme-primary)] hover:bg-[var(--theme-card)] sm:px-3 sm:text-sm"
             aria-label="Select Color Theme"
             aria-expanded={isDropdownOpen}
           >
@@ -209,7 +211,7 @@ export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) 
 
           {/* Dropdown Menu Modal */}
           {isDropdownOpen && (
-            <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] shadow-2xl p-2.5 z-50 animate-in fade-in zoom-in-95 duration-150 backdrop-blur-xl">
+            <div className="absolute right-0 z-50 mt-2 w-64 rounded-xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-2.5 shadow-xl animate-in fade-in zoom-in-95 duration-150">
               <div className="px-3 py-2 border-b border-[var(--theme-border-subtle)] mb-1.5 flex items-center justify-between text-xs font-black text-[var(--theme-text-muted)]">
                 <div className="flex items-center gap-2">
                   <Palette className="w-4 h-4 text-[var(--theme-primary)]" />
@@ -257,7 +259,7 @@ export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) 
         {/* Light / Dark Mode Toggle Switch */}
         <button
           onClick={toggleDarkMode}
-          className={`flex items-center justify-center w-10 h-10 rounded-xl border transition-all shadow-2xs cursor-pointer ${
+          className={`flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border transition-colors ${
             isDark
               ? "bg-[var(--theme-primary-subtle)] border-[var(--theme-primary-border)] text-[var(--theme-primary)] hover:bg-[var(--theme-card-subtle)]"
               : "bg-[var(--theme-card-subtle)] border-[var(--theme-border)] text-[var(--theme-text-body)] hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)]"
@@ -272,6 +274,7 @@ export const Header: React.FC<HeaderProps> = ({ savedCount, onOpenSavedModal }) 
           )}
         </button>
       </nav>
+      </div>
     </header>
   );
 };

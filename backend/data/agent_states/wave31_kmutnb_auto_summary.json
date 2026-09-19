@@ -1,0 +1,90 @@
+{
+  "batch": "wave31_kmutnb_auto_headless",
+  "db_commit": false,
+  "univ_scope": "kmutnb.ac.th only",
+  "units": [
+    {
+      "key": "wave31_kmutnb_auto",
+      "verified_count": 176,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave31_kmutnb_auto_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave31_kmutnb_auto.json",
+      "per_url": [
+        {
+          "url": "https://mm.cit.kmutnb.ac.th/%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%a5%e0%b8%b2%e0%b8%81%e0%b8%a3/",
+          "ok": true,
+          "reason": "static_200_chars=309343|patch_new=63|pruned=2",
+          "added": 57
+        },
+        {
+          "url": "https://ascs.cit.kmutnb.ac.th/%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%a5%e0%b8%b2%e0%b8%81%e0%b8%a3/",
+          "ok": true,
+          "reason": "static_200_chars=258200|patch_new=50|pruned=1",
+          "added": 45
+        },
+        {
+          "url": "https://electrical.cit.kmutnb.ac.th/%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%a5%e0%b8%b2%e0%b8%81%e0%b8%a3/",
+          "ok": true,
+          "reason": "static_200_chars=174081|patch_new=24|pruned=0",
+          "added": 24
+        },
+        {
+          "url": "https://civil.cit.kmutnb.ac.th/%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%a5%e0%b8%b2%e0%b8%81%e0%b8%a3/",
+          "ok": false,
+          "reason": "empty_static_0"
+        },
+        {
+          "url": "https://powereng.cit.kmutnb.ac.th/%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%a5%e0%b8%b2%e0%b8%81%e0%b8%a3/",
+          "ok": false,
+          "reason": "empty_static_0"
+        },
+        {
+          "url": "https://mm.cit.kmutnb.ac.th/",
+          "ok": true,
+          "reason": "static_200_chars=171109|patch_new=1|pruned=0",
+          "added": 0
+        },
+        {
+          "url": "https://ascs.cit.kmutnb.ac.th/",
+          "ok": true,
+          "reason": "static_200_chars=153144|patch_new=0|pruned=0",
+          "added": 0
+        },
+        {
+          "url": "https://electrical.cit.kmutnb.ac.th/",
+          "ok": true,
+          "reason": "static_200_chars=161719|patch_new=0|pruned=0",
+          "added": 0
+        },
+        {
+          "url": "https://civil.cit.kmutnb.ac.th/",
+          "ok": true,
+          "reason": "static_200_chars=112996|patch_new=0|pruned=0",
+          "added": 0
+        },
+        {
+          "url": "https://powereng.cit.kmutnb.ac.th/",
+          "ok": true,
+          "reason": "static_200_chars=145347|patch_new=0|pruned=0",
+          "added": 0
+        },
+        {
+          "url": "http://civil.cit.kmutnb.ac.th/%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%a5%e0%b8%b2%e0%b8%81%e0%b8%a3/",
+          "ok": true,
+          "reason": "static_chars=178678|patch_new=17|pruned=0",
+          "added": 17
+        },
+        {
+          "url": "http://powereng.cit.kmutnb.ac.th/%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%a5%e0%b8%b2%e0%b8%81%e0%b8%a3/",
+          "ok": true,
+          "reason": "static_chars=170248|patch_new=34|pruned=1",
+          "added": 33
+        }
+      ],
+      "failed_urls": [
+        "https://civil.cit.kmutnb.ac.th/%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%a5%e0%b8%b2%e0%b8%81%e0%b8%a3/",
+        "https://powereng.cit.kmutnb.ac.th/%e0%b8%9a%e0%b8%b8%e0%b8%84%e0%b8%a5%e0%b8%b2%e0%b8%81%e0%b8%a3/"
+      ],
+      "serp_needed": false
+    }
+  ]
+}

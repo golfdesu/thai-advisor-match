@@ -1,0 +1,20 @@
+{
+  "session_id": "wave28_mfu_integrative",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชาการแพทย์บูรณาการ",
+  "target_faculty_en": "School of Integrative Medicine",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.mfu.ac.th/en/academics.html",
+    "https://www.mfu.ac.th/en/academics/school-of-integrative-medicine.html"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1288,
+  "status": "completed",
+  "last_error": null
+}

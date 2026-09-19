@@ -1,0 +1,24 @@
+{
+  "session_id": "wave31_mu_la",
+  "target_university_th": "มหาวิทยาลัยมหิดล",
+  "target_university_en": "Mahidol University",
+  "target_faculty_th": "คณะศิลปศาสตร์",
+  "target_faculty_en": "Faculty of Liberal Arts",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://la.mahidol.ac.th/",
+    "https://la.mahidol.ac.th/en/",
+    "https://la.mahidol.ac.th/en/staff/",
+    "https://la.mahidol.ac.th/en/for-staff/",
+    "https://smartedu.mahidol.ac.th/Authen/staff/login.aspx",
+    "https://la.mahidol.ac.th/en/about-mula/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 6,
+  "total_tokens_used": 3239,
+  "status": "completed",
+  "last_error": null
+}

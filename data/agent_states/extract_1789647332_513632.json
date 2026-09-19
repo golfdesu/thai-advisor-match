@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789647332_513632",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "Chulalongkorn University",
+  "target_faculty_th": "วิทยาลัยประชากรศาสตร์",
+  "target_faculty_en": "College of Population Studies",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://cps.chula.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 708,
+  "status": "completed",
+  "last_error": null
+}

@@ -1,0 +1,22 @@
+{
+  "session_id": "extract_1789644325_81b4e5",
+  "target_university_th": "มหาวิทยาลัยธรรมศาสตร์",
+  "target_university_en": "Thammasat University",
+  "target_faculty_th": "คณะสังคมสงเคราะห์ศาสตร์",
+  "target_faculty_en": "Faculty of Social Administration",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://socadmin.tu.ac.th/faculty-teacher",
+    "https://socadmin.tu.ac.th/listteacher",
+    "https://socadmin.tu.ac.th/staff",
+    "https://socadmin.tu.ac.th/person"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 4,
+  "total_tokens_used": 5042,
+  "status": "completed",
+  "last_error": null
+}

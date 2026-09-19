@@ -1,0 +1,799 @@
+{
+  "apply": false,
+  "total_valid_email_items": 65,
+  "updated_emails": [
+    {
+      "id": "chula_eng_cp_pornsiri",
+      "full_name_th": "รศ.ดร. พรศิริ หมื่นไชยศรี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "pornsiri.mu@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_wanchai",
+      "full_name_th": "รศ.ดร. วันชัย ริ้วไพบูลย์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "wanchai.r@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_sartid",
+      "full_name_th": "รศ.ดร. สาธิต วงศ์ประทีป",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "sartid.v@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_008",
+      "full_name_th": "รศ. มัณฑนา ปราการสมุทร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "mandhana@cp.eng.chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_010",
+      "full_name_th": "ผศ.ดร. สืบสกุล พิภพมงคล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "suebskul.p@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_013",
+      "full_name_th": "ผศ. ธนาวรรณ จันทรัตนไพบูลย์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "thanawan.c@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_014",
+      "full_name_th": "ผศ. บุญชัย โสวรรณวณิชกุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "boonchai@cp.eng.chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_018",
+      "full_name_th": "อ.ดร. ยรรยง เต็งอำนวย",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "yunyong.t@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_021",
+      "full_name_th": "รศ. นงลักษณ์ โควาวิสารัช",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "nongluk.c@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_023",
+      "full_name_th": "อ.ดร. ชัยรัต พงศ์พันธุ์ภาณี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "chai.p@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_027",
+      "full_name_th": "อ. ฐานิศรา เกียรติบารมี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "thanisara.k@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chula_eng_cp_029",
+      "full_name_th": "อ.ดร. ฐิต ศิริบูรณ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+      "new_email": "thit@cp.eng.chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_fakthong_015",
+      "full_name_th": "ผศ.ดร. ถิรภาพ ฟักทอง",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "tiraphap@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_kulkantrakorn_011",
+      "full_name_th": "รศ.ดร. กิริยา กุลกลการ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "kiriya@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_pitidol_016",
+      "full_name_th": "ผศ.ดร. ธร ปีติดล",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "thorn@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_thanasomboonyag_040",
+      "full_name_th": "ผศ.ดร. อลงกรณ์ ธนศรีธัญญากุล",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "alongkorn@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_jithitikulchai_038",
+      "full_name_th": "รศ.ดร. ทีปกร จิร์ฐิติกุลชัย",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "theepakorn@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_liewskul_012",
+      "full_name_th": "อ.ดร. กุศล เลี้ยวสกุล",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "kuson@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_koedruang_037",
+      "full_name_th": "ผศ.ดร. ภัททา เกิดเรือง",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "phatta@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_saelee_010",
+      "full_name_th": "ผศ.ดร. กิตติชัย แซ่ลี้",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "kittichai_lee@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_techakanont_013",
+      "full_name_th": "รศ.ดร. เกรียงไกร เตชกานนท์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "krieng@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_charoenporn_039",
+      "full_name_th": "รศ.ดร. พีระ เจริญพร",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "peera@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_phanishsarn_006",
+      "full_name_th": "รศ. อักษรศรี พานิชสาส์น",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "aksornsri@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_wongcharoen_044",
+      "full_name_th": "ผศ. เพ็ชรธรินทร์ วงศ์เจริญ",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "petchtharin.w@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_stimanont_045",
+      "full_name_th": "ผศ.ดร. มณเฑียร สติมานนท์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "monthien@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofe_phankitnirundor_014",
+      "full_name_th": "อ.ดร. กฤต ภัทรกิจนิรันดร์",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "faculty_th": "คณะเศรษฐศาสตร์",
+      "department_th": "คณะเศรษฐศาสตร์",
+      "new_email": "kritpk@econ.tu.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofv_taweethavonsawa_126",
+      "full_name_th": "ผศ.ดร. ปิยนันท์ ทวีถาวรสวัสดิ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "หน่วยพยาธิวิทยา",
+      "new_email": "piyanan.t@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_163_163",
+      "full_name_th": "รศ. สพ.ญ. ดร. ปิยะรัตน์ (ศุภชลัสถ์) จันทร์ศิริพรชัย",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "ภาควิชาเภสัชวิทยา",
+      "new_email": "piyarat.c@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_164_164",
+      "full_name_th": "ผศ. สพ.ญ. ดร. นิภัทรา (เทพวัลย์) สวนไพรินทร์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "ภาควิชาเภสัชวิทยา",
+      "new_email": "nipattra.d@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofv_vasutharamarak_174",
+      "full_name_th": "อ. สพ.ญ. ดร. กานต์อนุช วสุนธรารักษ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "ภาควิชาเภสัชวิทยา",
+      "new_email": "kananuch.v@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofv_thammacharoen_079",
+      "full_name_th": "อ. สัมพันธ์ ธรรมเจริญ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "สรีรวิทยา",
+      "new_email": "sumpun.p@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofn_rojnawee_030",
+      "full_name_th": "ผศ.ดร. สุวิมล โรจน์วีระ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "suwimon.r@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/pediatric-nursing/288-asst-prof-dr-suwimon-rojnawee.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_jongsomjitt_031",
+      "full_name_th": "อ.ดร. ชลลดา จงสมจิตต์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "chollada.j@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/pediatric-nursing/934-chollada-jongsomjitt-ph-d-rn.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_rohmah_032",
+      "full_name_th": "อ.ดร. อิฟติตาคูร์ โรมาห์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "iftitakhur.r@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/content_page/item/1522-lecturer-dr-iftitakhur-rohmah.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_saiklang_033",
+      "full_name_th": "อ. ปารวีย์ สายกลาง",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "parvinee.s@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/pediatric-nursing/1088-lecturer-parvinee-saiklang.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_thato_001",
+      "full_name_th": "ศ.ดร. รัชนี ศรีสัตย์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "ratsiri.t@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/adults-nursing/185-assoc-prof-dr-ratsiri-thato.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_watthayu_004",
+      "full_name_th": "รศ.ดร. นันทิยา วัฒยุ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "nantiya.w@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/adults-nursing/1280-assoc-prof-dr.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_polsook_005",
+      "full_name_th": "รศ. พ.ต.ต.ญ.ดร. รพินทร์ ผลสุข",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "rapin.p@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/adults-nursing/199-lecturer-pol-capt-dr-rapin-polsook.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_supametaporn_006",
+      "full_name_th": "ผศ.ดร. ภิญหทัย ศุภเมธาพร",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "pinhatai.s@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/adults-nursing/941-lecturer-dr-pinhatai-supametaporn.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_nunthaitaweekul_007",
+      "full_name_th": "ผศ. ร.ต.ต.ดร. ภัชนุช นันทไทวีคูณ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "pachanut.t@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/about-cu-fon/faculty-and-staff.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_anuruang_008",
+      "full_name_th": "ผศ.ดร. ศกุนตลา อนันตรูชา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "sakuntala.a@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/adults-nursing/202-lecturer-dr-sakuntala-anuruang.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_laochai_009",
+      "full_name_th": "ผศ.ดร. วิวัฒน์ เลาชัย",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "wiwat.la@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/content_page/item/1529-asst-prof-dr-wiwat-laochai.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_jittimanee_010",
+      "full_name_th": "อ.ดร. ศิรินภา จิตติมณี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "sirinapha.j@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/adults-nursing/1089-lecturer-dr-sirinapha-jittimanee.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_hasan_011",
+      "full_name_th": "อ.ดร. ไฟซุล ฮาซัน",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "faizul.h@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/content_page/item/1385-lecturer-dr-faizul-hasan.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_syahruromadlon_012",
+      "full_name_th": "อ.ดร. เด็บบี้ ซาห์รู โรมาดลอน",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "debbysyahru.r@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/content_page/item/1386-lecturer-dr-debby-syahru-romadlon.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_kheawwan_013",
+      "full_name_th": "อ.ดร. ภัทราภรณ์ เขียววัน",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "pataraporn.k@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/faculty/adults-nursing/1493-lecturer-dr-pataraporn-kheawwan.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_waraphok_014",
+      "full_name_th": "อ. สินีนาถ วาราพุก",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "sineenat.w@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/pediatric-nursing/1184-lecturer-sineenat.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_jaroensuk_015",
+      "full_name_th": "อ. ภิญโญ เจริญสุข",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "pinyo.ja@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/content_page/item/1469-lecturer-pinyo-jaroensuk.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_uthis_023",
+      "full_name_th": "รศ.ดร. เพ็ญพักตร์ อุทิศ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "penpaktr.u@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/psychiatric-and-mental-health-nursing/192-assoc-prof-dr-penpaktr-uthis.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_vatanasin_024",
+      "full_name_th": "รศ.ดร. ดวงใจ วัฒนสิน",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "duangjai.v@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/content_page/item/1533-associate-professor-dr-duangjai-vatanasin.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_upasen_025",
+      "full_name_th": "รศ.ดร. รัชนีกร อุบเสน",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "ratchaneekorn.u@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/psychiatric-and-mental-health-nursing/170-asst-prof-dr-ratchaneekorn-upasen.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_suktrakul_026",
+      "full_name_th": "ผศ.ดร. สุนิสา สุขตระกูล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "sunisa.su@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/psychiatric-and-mental-health-nursing/198-lecturer-dr-sunisa-suktrakul.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_stithyudhakarn_027",
+      "full_name_th": "ผศ.ดร. สุดาภรณ์ สถิตยุทธการ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "sudaporn.st@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/psychiatric-and-mental-health-nursing/203-lecturer-dr-sudaporn-stithyudhakarn.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_krongtham_028",
+      "full_name_th": "อ.ดร. พัชรินทร์ กรองธรรม",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "patcharin.kr@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/content_page/item/1482-lecturer-patcharin-krongtham.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_wisesrith_018",
+      "full_name_th": "รศ. นาวาอากาศตรีหญิง ดร. วาสินี วิเศษศิริ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "sasinee.w@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/faculty/nursing-administration/195-assoc-prof-capt-dr-wasinee-wisesrith.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_pokasem_019",
+      "full_name_th": "ผศ.ดร. บุญยภา โพธิ์เกษม",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "boonyapa.p@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/faculty/adults-nursing/1502-lecturer-dr-boonyapa-pokasem.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_kamonratananun_020",
+      "full_name_th": "ผศ.ดร. เนตรชนก กมลรัตนานันท์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "netrachanee.k@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/content_page/item/1328-lecturer-dr-netrachanee-kamonratananun.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_ngernthaisong_021",
+      "full_name_th": "อ.ดร. เชาวฤทธิ์ เงินไทสง",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "chaowarit.n@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/content_page/item/1468-lecturer-dr-chaowarit-ngernthaisong.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_darach_022",
+      "full_name_th": "อ. ณาธิฑิพย์ ดาราชีพ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "nathidathip.d@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/content_page/item/1325-lecturer-nathidathip-darach.html"
+    },
+    {
+      "id": "chulalongk_facultyofn_prachusilpa_016",
+      "full_name_th": "รศ.ดร. กันยดา ประจุศิลป์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะพยาบาลศาสตร์",
+      "department_th": "คณะพยาบาลศาสตร์",
+      "new_email": "gunyadar.p@chula.ac.th",
+      "profile_url": "https://nurs.chula.ac.th/th/staff/administrative-division-staff/182-assoc-prof-dr-gunyadar-prachusilpa.html"
+    },
+    {
+      "id": "chulalongk_facultyofa_techaiya_017",
+      "full_name_th": "อ.ดร. จักรพันธ์ เตไชยา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะอักษรศาสตร์",
+      "department_th": "คณะอักษรศาสตร์",
+      "new_email": "jakapun.t@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofa_chanchaochai_009",
+      "full_name_th": "ผศ.ดร. ณัฏฐนันท์ จันทร์เจ้าฉาย",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะอักษรศาสตร์",
+      "department_th": "คณะอักษรศาสตร์",
+      "new_email": "nattanun.c@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "chulalongk_facultyofa_ratithamakul_008",
+      "full_name_th": "รศ.ดร. ธีราภรณ์ รติธรรมกุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะอักษรศาสตร์",
+      "department_th": "คณะอักษรศาสตร์",
+      "new_email": "theeraporn.r@chula.ac.th",
+      "profile_url": null
+    },
+    {
+      "id": "cu_dent_wave15_0015",
+      "full_name_th": "รศ. ทพ. ดร. โจวแอล นูนู่ แอนดร้าดรึ รึคิชะ ฟึเร้ยระ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "คณะทันตแพทยศาสตร์",
+      "new_email": "joao.f@chula.ac.th",
+      "profile_url": "https://www.dent.chula.ac.th/teams/joao-nuno-andrade-requicha-ferreira/"
+    },
+    {
+      "id": "ku_230570fa_1484",
+      "full_name_th": "ผศ.ดร. นภพล ภู่พนิตพันธ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "new_email": "fscinpp@ku.ac.th",
+      "profile_url": "https://sci.ku.ac.th/web2024/personnel-group/head-of-departments/"
+    }
+  ],
+  "university_affiliation_fixed": [
+    {
+      "id": "chulalongk_facultyofe_fakthong_015",
+      "full_name_th": "ผศ.ดร. ถิรภาพ ฟักทอง",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_kulkantrakorn_011",
+      "full_name_th": "รศ.ดร. กิริยา กุลกลการ",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_pitidol_016",
+      "full_name_th": "ผศ.ดร. ธร ปีติดล",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_thanasomboonyag_040",
+      "full_name_th": "ผศ.ดร. อลงกรณ์ ธนศรีธัญญากุล",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_jithitikulchai_038",
+      "full_name_th": "รศ.ดร. ทีปกร จิร์ฐิติกุลชัย",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_liewskul_012",
+      "full_name_th": "อ.ดร. กุศล เลี้ยวสกุล",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_koedruang_037",
+      "full_name_th": "ผศ.ดร. ภัททา เกิดเรือง",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_saelee_010",
+      "full_name_th": "ผศ.ดร. กิตติชัย แซ่ลี้",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_techakanont_013",
+      "full_name_th": "รศ.ดร. เกรียงไกร เตชกานนท์",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_charoenporn_039",
+      "full_name_th": "รศ.ดร. พีระ เจริญพร",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_phanishsarn_006",
+      "full_name_th": "รศ. อักษรศรี พานิชสาส์น",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_wongcharoen_044",
+      "full_name_th": "ผศ. เพ็ชรธรินทร์ วงศ์เจริญ",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_stimanont_045",
+      "full_name_th": "ผศ.ดร. มณเฑียร สติมานนท์",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    },
+    {
+      "id": "chulalongk_facultyofe_phankitnirundor_014",
+      "full_name_th": "อ.ดร. กฤต ภัทรกิจนิรันดร์",
+      "new_university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    }
+  ],
+  "deduplicated_records_deleted": [
+    {
+      "deleted_id": "chulalongk_facultyofe_tanasritunyakul_007",
+      "merged_into_id": "chulalongk_facultyofe_thanasomboonyag_040",
+      "name": "ผศ. อลงกรณ์ ธนศรีตระกูล"
+    },
+    {
+      "deleted_id": "ku_2354332d_7230",
+      "name": "รศ.ดร. ฉัตรชัย เงินแสงสรวยอาจารย์ประจำ"
+    },
+    {
+      "deleted_id": "ku_285b9111_9427",
+      "name": "รศ.ดร. ภาคภูมิ เรือนจันทร์อาจารย์ประจำ"
+    },
+    {
+      "deleted_id": "ku_43dde539_3137",
+      "name": "ผศ.ดร. เสรี พงศ์พันธุ์ภาณีอาจารย์ประจำ"
+    },
+    {
+      "deleted_id": "ku_682d440e_2212",
+      "name": "รศ.ดร. ภาสกร ปนานนท์อาจารย์ประจำ"
+    }
+  ],
+  "names_sanitized": [
+    {
+      "id": "tu_58504fd1_7364",
+      "old_name": "ผศ. ชวนพิศ บุญเกิดอาจารย์ประจำ",
+      "clean_name": "ผศ. ชวนพิศ บุญเกิด"
+    },
+    {
+      "id": "psu_eng_wave11_0036",
+      "old_name": "ผศ.ดร. กิตติคุณ ทองพูล อาจารย์ประจำแขนงไฟฟ้าอิเล็กทรอนิกส์",
+      "clean_name": "ผศ.ดร. กิตติคุณ ทองพูล"
+    },
+    {
+      "id": "psu_eng_wave11_0040",
+      "old_name": "รศ.ดร. ชลากร ครุพงศ์สิริ อาจารย์ประจำแขนงไฟฟ้าสื่อสาร",
+      "clean_name": "รศ.ดร. ชลากร ครุพงศ์สิริ"
+    },
+    {
+      "id": "psu_eng_wave11_0042",
+      "old_name": "ผศ.ดร. ดุจดาว บูรณะพาณิชย์กิจ อาจารย์ประจำแขนงไฟฟ้าสื่อสาร",
+      "clean_name": "ผศ.ดร. ดุจดาว บูรณะพาณิชย์กิจ"
+    },
+    {
+      "id": "psu_eng_wave11_0044",
+      "old_name": "ผศ.ดร. พลสิทธิ์ ศานติประพันธ์ อาจารย์ประจำแขนงไฟฟ้ากำลัง",
+      "clean_name": "ผศ.ดร. พลสิทธิ์ ศานติประพันธ์"
+    },
+    {
+      "id": "psu_eng_wave11_0045",
+      "old_name": "ผศ.ดร. ไพโรจน์ วุ่นชุม อาจารย์ประจำแขนงไฟฟ้าสื่อสาร",
+      "clean_name": "ผศ.ดร. ไพโรจน์ วุ่นชุม"
+    },
+    {
+      "id": "psu_eng_wave11_0047",
+      "old_name": "รศ.ดร. ภาณุมาส คำสัตย์ อาจารย์ประจำแขนงไฟฟ้าอิเล็กทรอนิกส์",
+      "clean_name": "รศ.ดร. ภาณุมาส คำสัตย์"
+    },
+    {
+      "id": "psu_eng_wave11_0049",
+      "old_name": "ศ.ดร. มิตรชัย จงเชี่ยวชำนาญ อาจารย์ประจำแขนงไฟฟ้าสื่อสาร",
+      "clean_name": "ศ.ดร. มิตรชัย จงเชี่ยวชำนาญ"
+    },
+    {
+      "id": "psu_eng_wave11_0050",
+      "old_name": "รศ.ดร. รักกฤตว์ ดวงสร้อยทอง อาจารย์ประจำวิศวกรรมชีวการแพทย์",
+      "clean_name": "รศ.ดร. รักกฤตว์ ดวงสร้อยทอง"
+    },
+    {
+      "id": "psu_eng_wave11_0052",
+      "old_name": "ผศ.ดร. วสันต์ จันทรโชติ อาจารย์ประจำแขนงไฟฟ้าสื่อสาร",
+      "clean_name": "ผศ.ดร. วสันต์ จันทรโชติ"
+    },
+    {
+      "id": "psu_eng_wave11_0053",
+      "old_name": "รศ.ดร. วิกลม ธีรภาพขจรเดช อาจารย์ประจำแขนงไฟฟ้าสื่อสาร",
+      "clean_name": "รศ.ดร. วิกลม ธีรภาพขจรเดช"
+    },
+    {
+      "id": "psu_eng_wave11_0057",
+      "old_name": "รศ.ดร. อภิเดช บูรณวงศ์ อาจารย์ประจำแขนงไฟฟ้าสื่อสาร",
+      "clean_name": "รศ.ดร. อภิเดช บูรณวงศ์"
+    },
+    {
+      "id": "psu_eng_wave11_0056",
+      "old_name": "ผศ. อนุวัตร ประเสริฐสิทธิ์ อาจารย์ประจำแขนงไฟฟ้ากำลัง",
+      "clean_name": "ผศ. อนุวัตร ประเสริฐสิทธิ์"
+    },
+    {
+      "id": "psu_eng_wave11_0058",
+      "old_name": "ดร. พิเชฐ เกศมี อาจารย์ประจำแขนงไฟฟ้ากำลัง",
+      "clean_name": "ดร. พิเชฐ เกศมี"
+    },
+    {
+      "id": "psu_eng_wave11_0038",
+      "old_name": "รศ. คณดิถ เจษฎ์พัฒนานนท์ อาจารย์ประจำแขนงไฟฟ้าอิเล็กทรอนิกส์",
+      "clean_name": "รศ. คณดิถ เจษฎ์พัฒนานนท์"
+    },
+    {
+      "id": "psu_eng_wave11_0039",
+      "old_name": "ดร. จินดาภรณ์ เยาถัก อาจารย์ประจำวิศวกรรมชีวการแพทย์",
+      "clean_name": "ดร. จินดาภรณ์ เยาถัก"
+    },
+    {
+      "id": "psu_eng_wave11_0046",
+      "old_name": "ดร. ภาคภูมิ หอยิ่งเจริญ อาจารย์ประจำแขนงไฟฟ้าสื่อสาร",
+      "clean_name": "ดร. ภาคภูมิ หอยิ่งเจริญ"
+    },
+    {
+      "id": "psu_eng_wave11_0048",
+      "old_name": "ดร. มงคล แซ่เจีย อาจารย์ประจำแขนงไฟฟ้ากำลัง",
+      "clean_name": "ดร. มงคล แซ่เจีย"
+    },
+    {
+      "id": "psu_eng_wave11_0051",
+      "old_name": "ดร. วฤทธิ์ วิชกูล อาจารย์ประจำแขนงไฟฟ้าอิเล็กทรอนิกส์",
+      "clean_name": "ดร. วฤทธิ์ วิชกูล"
+    },
+    {
+      "id": "psu_eng_wave11_0054",
+      "old_name": "ผศ. สาวิตร์ ตัณฑนุช อาจารย์ประจำวิศวกรรมชีวการแพทย์",
+      "clean_name": "ผศ. สาวิตร์ ตัณฑนุช"
+    },
+    {
+      "id": "psu_eng_wave11_0055",
+      "old_name": "ผศ. สุระพล เธียรมนตรี อาจารย์ประจำแขนงไฟฟ้ากำลัง",
+      "clean_name": "ผศ. สุระพล เธียรมนตรี"
+    },
+    {
+      "id": "psu_eng_wave11_0043",
+      "old_name": "ศ.ดร. พรชัย พฤกษ์ภัทรานนต์ อาจารย์ประจำวิศวกรรมชีวการแพทย์",
+      "clean_name": "ศ.ดร. พรชัย พฤกษ์ภัทรานนต์"
+    }
+  ],
+  "embedding_texts_rebuilt": 85
+}

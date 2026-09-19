@@ -1,0 +1,182 @@
+{
+  "wu_med": {
+    "seeds": [
+      "https://w1.med.cmu.ac.th/commed/",
+      "https://w1.med.cmu.ac.th/radiology/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_wu_med_export.py",
+    "fail": null,
+    "raw": 1,
+    "verified": 1
+  },
+  "wu_allied": {
+    "seeds": [
+      "https://sah.wu.ac.th/?page_id=456",
+      "https://sah.wu.ac.th/?page_id=5463"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_wu_allied_export.py",
+    "fail": null,
+    "raw": 0,
+    "verified": 0
+  },
+  "mfu_med": {
+    "seeds": [
+      "http://medicine.mfu.ac.th/medicine-about/medicine-staff/medicine-staff-academic.html",
+      "http://medicine.mfu.ac.th/medicine-about/medicine-staff/medicine-staff-executive.html"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_mfu_med_export.py",
+    "fail": null,
+    "raw": 8,
+    "verified": 8
+  },
+  "mfu_healthsci": {
+    "seeds": [
+      "http://healthsci.mfu.ac.th/health-sci-aboutus/hs-staff/hs-academic.html",
+      "http://healthsci.mfu.ac.th/health-sci-aboutus/hs-staff/hs-academic/public-health-science.html"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_mfu_healthsci_export.py",
+    "fail": null,
+    "raw": 18,
+    "verified": 18
+  },
+  "ubu_sci": {
+    "seeds": [
+      "https://www.sci.ubu.ac.th/index.php/Main/search_tel/1/690",
+      "https://chem.sci.ubu.ac.th/assets/upload/files/%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%A3%E0%B8%A3%E0%B8%93%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3.pdf"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_ubu_sci_export.py",
+    "fail": null,
+    "raw": 0,
+    "verified": 0
+  },
+  "ubu_edu": {
+    "seeds": [
+      "https://www.ubu.ac.th/web/edu/content//",
+      "https://www.ubu.ac.th/web/edu/content/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%8A%E0%B8%B5%E0%B8%9E%E0%B8%84%E0%B8%A3%E0%B8%B9%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%20/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_ubu_edu_export.py",
+    "fail": null,
+    "raw": 12,
+    "verified": 12
+  },
+  "msu_sci": {
+    "seeds": [
+      "https://science.msu.ac.th/",
+      "https://science.msu.ac.th/th/?page_id=1481"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_msu_sci_export.py",
+    "fail": null,
+    "raw": 53,
+    "verified": 52
+  },
+  "mju_sci": {
+    "seeds": [
+      "https://math.mju.ac.th/wtms_personOnStructure.aspx",
+      "https://erp.mju.ac.th/personAllReport.aspx?gid=290"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_mju_sci_export.py",
+    "fail": null,
+    "raw": 146,
+    "verified": 142
+  },
+  "mju_vet": {
+    "seeds": [
+      "https://vet.mju.ac.th/wtms_person.aspx",
+      "https://vet.mju.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_mju_vet_export.py",
+    "fail": null,
+    "raw": 8,
+    "verified": 8
+  },
+  "mju_bus": {
+    "seeds": [
+      "https://ba.mju.ac.th/",
+      "https://ba.mju.ac.th/web_2022/new/staff_2023.php"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_mju_bus_export.py",
+    "fail": null,
+    "raw": 0,
+    "verified": 0
+  },
+  "nu_medsci": {
+    "seeds": [
+      "https://www.medsci.nu.ac.th/?page_id=434",
+      "https://biochemistry.medsci.nu.ac.th/?page_id=1215"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_nu_medsci_export.py",
+    "fail": null,
+    "raw": 38,
+    "verified": 38
+  },
+  "nu_sgtech": {
+    "seeds": [
+      "https://sgtech.nu.ac.th/ourteam.html",
+      "https://sgtech.nu.ac.th/application.html"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_nu_sgtech_export.py",
+    "fail": null,
+    "raw": 20,
+    "verified": 19
+  },
+  "nu_sci": {
+    "seeds": [
+      "https://ldsc.nu.ac.th/",
+      "https://web.nurse.nu.ac.th/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_nu_sci_export.py",
+    "fail": null,
+    "raw": 4,
+    "verified": 4
+  },
+  "tsu_sci": {
+    "seeds": [
+      "https://scidi.tsu.ac.th/biosciences/page/212",
+      "https://scidi.tsu.ac.th/staff/%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3?staffacadamic=2"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_tsu_sci_export.py",
+    "fail": null,
+    "raw": 25,
+    "verified": 25
+  },
+  "kmitl_bus": {
+    "seeds": [
+      "https://www.kbs.kmitl.ac.th/th/about/people_academic/",
+      "https://www.kbs.kmitl.ac.th/th/category-person/person/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_kmitl_bus_export.py",
+    "fail": null,
+    "raw": 43,
+    "verified": 39
+  },
+  "kmitl_agritech": {
+    "seeds": [
+      "https://www.agri.kmitl.ac.th/main/personnel/",
+      "https://www.agri.kmitl.ac.th/main/backoffice/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_kmitl_agritech_export.py",
+    "fail": null,
+    "raw": 81,
+    "verified": 81
+  },
+  "kmitl_med": {
+    "seeds": [
+      "https://www.kmitl.ac.th/th/faculty/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C",
+      "https://www.kmitl.ac.th/article/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C-%E0%B8%AA%E0%B8%88%E0%B8%A5-%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%A3%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%9A-10-%E0%B8%9B%E0%B8%B5-%E0%B8%95%E0%B8%AD%E0%B8%81%E0%B8%A2%E0%B9%89%E0%B8%B3%E0%B8%9A%E0%B8%97%E0%B8%9A%E0%B8%B2%E0%B8%97%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%A0%E0%B8%B2%E0%B8%9E"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_kmitl_med_export.py",
+    "fail": null,
+    "raw": 4,
+    "verified": 4
+  },
+  "kmutt_biores": {
+    "seeds": [
+      "https://sbt.kmutt.ac.th/en/executives_and_staff/",
+      "https://sbt.kmutt.ac.th/for-staff-unused/"
+    ],
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_kmutt_biores_export.py",
+    "fail": null,
+    "raw": 14,
+    "verified": 13
+  }
+}

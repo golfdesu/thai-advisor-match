@@ -13,6 +13,15 @@ import threading
 import urllib.request
 import urllib.parse
 import ssl
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Ensure backend/.env is reliably loaded regardless of execution working directory
+_backend_env = Path(__file__).resolve().parent.parent / ".env"
+if _backend_env.exists():
+    load_dotenv(dotenv_path=_backend_env)
+else:
+    load_dotenv()
 
 # Keep certificate and hostname verification enabled for all OpenAlex requests.
 SSL_CTX = ssl.create_default_context()
@@ -50,7 +59,16 @@ def mark_key_exhausted(api_key: str):
         if api_key and api_key not in EXHAUSTED_KEYS:
             EXHAUSTED_KEYS.add(api_key)
             remaining = len(API_KEYS_POOL) - len(EXHAUSTED_KEYS)
-            print(f"\n⚠️ Key ...{api_key[-6:]} reached daily quota! Active keys remaining: {remaining} (Falling back to polite pool)", flush=True)
+            # ascii-safe: Windows consoles (cp1252/cp874) crash on emoji
+            print(f"\n[!] Key ...{api_key[-6:]} reached daily quota! "
+                  f"Active keys remaining: {remaining} (Falling back to polite pool)",
+                  flush=True)
+
+
+def all_keys_exhausted() -> bool:
+    """Return True if all configured API keys have hit their daily quota."""
+    with KEY_LOCK:
+        return len(API_KEYS_POOL) > 0 and len(EXHAUSTED_KEYS) >= len(API_KEYS_POOL)
 
 OPENALEX_HEADERS = {
     "User-Agent": "ThaiEduCenterAcademicMatcher/2.0 (mailto:golf_chayanon@hotmail.com)"

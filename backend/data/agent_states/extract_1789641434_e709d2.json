@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789641434_e709d2",
+  "target_university_th": "มหาวิทยาลัยแม่โจ้",
+  "target_university_en": "Maejo University",
+  "target_faculty_th": "คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ",
+  "target_faculty_en": "Faculty of Fisheries Technology and Aquatic Resources",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://fishtech.mju.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 478,
+  "status": "completed",
+  "last_error": null
+}

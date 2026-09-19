@@ -1,0 +1,312 @@
+[
+  {
+    "id": "thammasatu_thammasatb_fac_094_094",
+    "full_name_th": "อ.ดร. นราภรณ์ ธรรมดี",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+    "department_th": "Department of Organization, Entrepreneurship, and Human Resource Management",
+    "email": "naraporn@tbs.tu.ac.th",
+    "source": "http://tbs.tu.ac.th/staff/dr-naraporn-thammadee/",
+    "cluster": "Thammasat Business School"
+  },
+  {
+    "id": "tu_bus_tbs_018",
+    "full_name_th": "รศ.ดร. ปิเตอร์ รักธรรม",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+    "department_th": "สาขาวิชาระบบสารสนเทศเพื่อการจัดการ",
+    "email": "peter@tbs.tu.ac.th",
+    "source": "http://tbs.tu.ac.th/staff/peter-ractham_th/",
+    "cluster": "Thammasat Business School"
+  },
+  {
+    "id": "thammasatu_thammasatb_fac_044_044",
+    "full_name_th": "รศ.ดร. จุฑามน สิทธิผลวนิชกุล",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+    "department_th": "Department of Accounting",
+    "email": "juthamon@tbs.tu.ac.th",
+    "source": "http://tbs.tu.ac.th/staff/juthamon-sithipolwanichkul_th/",
+    "cluster": "Thammasat Business School"
+  },
+  {
+    "id": "tu_bus_tbs_023",
+    "full_name_th": "ผศ.ดร. กฤษณ์ ปัทมะโรจน์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+    "department_th": "สาขาวิชาบริหารการปฏิบัติการ",
+    "email": "krit@tbs.tu.ac.th",
+    "source": "http://tbs.tu.ac.th/staff/krit-pattamaroj_th/",
+    "cluster": "Thammasat Business School"
+  },
+  {
+    "id": "chulalongk_centerofex_patarakul_002",
+    "full_name_th": "ผศ.ดร. คณิตา ภัทรกุล",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "ศูนย์วิจัยวัคซีน คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาจุลชีววิทยา",
+    "email": "kanitha.pa@chula.ac.th",
+    "source": "https://www.chulavrc.org/staff/",
+    "cluster": "Chula VRC"
+  },
+  {
+    "id": "chulalongk_centerofex_sirivichayakul_004",
+    "full_name_th": "ดร. สุนีย์ สิริวิชยากุล",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "ศูนย์วิจัยวัคซีน คณะแพทยศาสตร์",
+    "department_th": null,
+    "email": "sunee.s@chula.ac.th",
+    "source": "https://www.chulavrc.org/staff/",
+    "cluster": "Chula VRC"
+  },
+  {
+    "id": "chulalongk_centerofex_ketloy_005",
+    "full_name_th": "ผศ.ดร. ชุติธร เกตุลอย",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "ศูนย์วิจัยวัคซีน คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาห้องปฏิบัติการทางการแพทย์",
+    "email": "chutitorn.k@chula.ac.th",
+    "source": "https://www.chulavrc.org/staff/",
+    "cluster": "Chula VRC"
+  },
+  {
+    "id": "chulalongk_centerofex_prompetchara_006",
+    "full_name_th": "อ.ดร. เอกชัย พรเพชราภรณ์",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "ศูนย์วิจัยวัคซีน คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาชีวเคมีและจุลชีววิทยา คณะเภสัชศาสตร์",
+    "email": "eakachai.p@chula.ac.th",
+    "source": "https://www.chulavrc.org/staff/",
+    "cluster": "Chula VRC"
+  },
+  {
+    "id": "chulalongk_centerofex_boonyasuppayako_007",
+    "full_name_th": "ดร. สิริพร บุญสุพยากร",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "ศูนย์วิจัยวัคซีน คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาจุลชีววิทยา คณะแพทยศาสตร์",
+    "email": "siwaporn.b@chula.ac.th",
+    "source": "https://www.chulavrc.org/staff/",
+    "cluster": "Chula VRC"
+  },
+  {
+    "id": "chulalongk_centerofex_buranapraditkun_008",
+    "full_name_th": "ดร. สุปราณี บูรณประดิษฐ์กุล",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "ศูนย์วิจัยวัคซีน คณะแพทยศาสตร์",
+    "department_th": null,
+    "email": "supranee.b@chula.ac.th",
+    "source": "https://www.chulavrc.org/staff/",
+    "cluster": "Chula VRC"
+  },
+  {
+    "id": "chulalongk_centerofex_pitakpolrat_009",
+    "full_name_th": "อ. ภัทรวดี พิทักษ์พลรัตน์",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "ศูนย์วิจัยวัคซีน คณะแพทยศาสตร์",
+    "department_th": null,
+    "email": "patrawadee.pit@chula.ac.th",
+    "source": "https://www.chulavrc.org/staff/",
+    "cluster": "Chula VRC"
+  },
+  {
+    "id": "chulalongk_centerofex_tharakhet_010",
+    "full_name_th": "อ. กิตติพันธ์ ธาระเขตต์",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "ศูนย์วิจัยวัคซีน คณะแพทยศาสตร์",
+    "department_th": null,
+    "email": "kittipan.tha@chulavrc.org",
+    "source": "https://www.chulavrc.org/staff/",
+    "cluster": "Chula VRC"
+  },
+  {
+    "id": "thammasatu_sirindhorn_rianmora_021",
+    "full_name_th": "รศ.ดร. สุชาดา เหรียญโมรา",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Manufacturing Systems and Mechanical Engineering (MSME)",
+    "email": "suchada@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=110&cno=105&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_olapiriyakul_024",
+    "full_name_th": "รศ.ดร. สันต์ โอภาสพิริยะกุล",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Manufacturing Systems and Mechanical Engineering (MSME)",
+    "email": "suno@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=110&cno=106&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_pannakkong_023",
+    "full_name_th": "รศ.ดร. วรุฒ พรรณาก้ง",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Manufacturing Systems and Mechanical Engineering (MSME)",
+    "email": "warut@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=110&cno=108&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_traipattanakul_022",
+    "full_name_th": "อ. ภวัต ไตรพัฒนากุล",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Manufacturing Systems and Mechanical Engineering (MSME)",
+    "email": "bhawat@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=110&cno=110&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_kunnapapdeelert_020",
+    "full_name_th": "ผศ.ดร. ศิวพร คุณปภากรเดช",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Manufacturing Systems and Mechanical Engineering (MSME)",
+    "email": "siwaporn@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=110&cno=959&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_usanavasin_008",
+    "full_name_th": "ผศ.ดร. ศศิพร อุสาหะวาสิน",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": null,
+    "email": "sasiporn.us@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=106&cno=72&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_horanont_012",
+    "full_name_th": "อ. ธีรยุทธ โหราศาสตร์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": null,
+    "email": "teerayut@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=106&cno=70&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_laitrakun_007",
+    "full_name_th": "ผศ.ดร. เสกสรรค์ ลายไตรภพ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": null,
+    "email": "seksan@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=106&cno=73&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_suksompong_014",
+    "full_name_th": "รศ.ดร. ประพันธ์ สุขสมปอง",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Information, Computer, and Communication Technology (ICT)",
+    "email": "prapun@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=106&cno=68&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_bhooanusas_013",
+    "full_name_th": "ดร. นันทนัฐ ภู่อนุสรณ์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Information, Computer, and Communication Technology (ICT)",
+    "email": "nutt_nuntanut@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=106&cno=908&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_panuwatwanich_003",
+    "full_name_th": "รศ.ดร. เกรียงศักดิ์ ภานุวัฒนวงศ์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": null,
+    "email": "kriengsak@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=337&cno=1019",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_opaprakasit_005",
+    "full_name_th": "อ. ปกรณ์ โอประประกิจ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": null,
+    "email": "pakorn@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=337&cno=1020",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_piantanakulchai_030",
+    "full_name_th": "ดร. มงกุฎ เปียนตานากุลชัย",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "ภาควิชาวิศวกรรมโยธาและเทคโนโลยี",
+    "email": "mongkut@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=337&cno=1030",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_nueangnoraj_016",
+    "full_name_th": "รศ.ดร. ขนิษฐ์ เนืองนอราช",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Bio-Chemical Engineering and Technology (BCET)",
+    "email": "khanin@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=337&cno=1032",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_sreearunothai_018",
+    "full_name_th": "รศ.ดร. ไพบูลย์ ศรีอรุณโณทัย",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Bio-Chemical Engineering and Technology (BCET)",
+    "email": "paiboon_sree@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=337&cno=1033",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_toochinda_017",
+    "full_name_th": "รศ.ดร. พิษณุ ตู้จินดา",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Bio-Chemical Engineering and Technology (BCET)",
+    "email": "pisanu@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=102&cno=39&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_takahashi_015",
+    "full_name_th": "ผศ.ดร. Kaito Takahashi",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Bio-Chemical Engineering and Technology (BCET)",
+    "email": "kaitot@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=102&cno=884&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_sancharoen_028",
+    "full_name_th": "ผศ.ดร. ภาควัต สังข์เจริญ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": "School of Civil Engineering and Technology (CET)",
+    "email": "pakawat@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=304&cno=1061&show=",
+    "cluster": "Thammasat SIIT"
+  },
+  {
+    "id": "thammasatu_sirindhorn_seesanea_004",
+    "full_name_th": "ผศ.ดร. อดิศักดิ์ ซีเสงี่ยม",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "สถาบันเทคโนโลยีนานาชาติสิรินธร (SIIT)",
+    "department_th": null,
+    "email": "adisak.see@siit.tu.ac.th",
+    "source": "https://www.siit.tu.ac.th/page_bx.php?cid=112&cno=123&show=",
+    "cluster": "Thammasat SIIT"
+  }
+]

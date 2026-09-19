@@ -88,6 +88,8 @@ SHARED_DEPARTMENTAL_EMAILS = {
     "family@cmu.ac.th", "community@cmu.ac.th", "patho@cmu.ac.th", "micro@cmu.ac.th",
     "pharmacol@cmu.ac.th", "physiol@cmu.ac.th", "biochem@cmu.ac.th", "anatomy@cmu.ac.th",
     "parasit@cmu.ac.th", "dental@kku.ac.th", "vet@cmu.ac.th", "nurse@cmu.ac.th", "pharmacy@cmu.ac.th",
+    "math@cmu.ac.th", "attm@med.tu.ac.th", "anatomy.med@g.swu.ac.th", "forensic.med@g.swu.ac.th",
+    "medicine.med@g.swu.ac.th", "webadmin@sit.kmutt.ac.th", "allied@allied.tu.ac.th",
 }
 
 

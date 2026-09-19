@@ -1,0 +1,656 @@
+{
+  "total_scanned": 13436,
+  "total_with_email": 11140,
+  "foreign_emails": [
+    {
+      "id": "chulalongk_facultyofs_asawatangtrakul_024",
+      "name": "ผศ.ดร. ชญานิษฐ์ อัศวตั้งตระกูลดี",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "chayanit@cern.ch",
+      "domain": "cern.ch"
+    },
+    {
+      "id": "mahidoluni_facultyofs_kiatisevi_034",
+      "name": "รศ.ดร. สุภาวดี เกียรติเสวี",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "supavadee.mon@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_facultyofs_pongsawakul_071",
+      "name": "อ.ดร. ภัคพล พงศาวกุล",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "pagkapol.pon@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0135",
+      "name": "ดร. มิคาอิล โควาชอฟ",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "mikhail.khv@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jittipichayanan_059",
+      "name": "อ. Pichayasini Jittipichayanan",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "hyuk.cha@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_bunnag_175",
+      "name": "อ. Sita Bunnag",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "sita.bun@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_capp_076",
+      "name": "ดร. Tyler Capp",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "tyler.cap@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_komolpamorn_050",
+      "name": "ดร. Pamornpan Komolpamorn",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "pamornpan.kom@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_facultyofs_cheiwchanchamna_085",
+      "name": "ผศ. ทวีนันท์ เชี่ยวชาญชำนาญกิจ",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "tawinan.che@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_lynch_170",
+      "name": "อ. Nathan Lynch",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "nathan.lyn@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sumrueng_187",
+      "name": "อ. Jinda Sumrueng",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "jinda.sur@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_parente_094",
+      "name": "อ. David Parente",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "david.par@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_pokaratsiri_062",
+      "name": "ดร. Duangruthai Pokaratsiri",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "duangruthai.pok@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_youdyingyong_194",
+      "name": "อ. Jittiset Youdyingyong",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "jittiset.you@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sookjaeng_075",
+      "name": "ดร. Attakorn Sookjaeng",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "attakorn.soo@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_tangsinmonkong_108",
+      "name": "ดร. Sornsuang Tangsinmonkong",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "sornsuang.tan@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sitthiwanit_174",
+      "name": "อ. Chonnakan Sitthiwanit",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "chonnakan.sit@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_facultyoft_kusolsuk_090",
+      "name": "ผศ. ธีระ กุศลสุข",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะเวชศาสตร์เขตร้อน",
+      "email": "teera.kus@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_facultyoft_nguitragool_007",
+      "name": "รศ.ดร. หวัง งุ้ยตรากูล",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะเวชศาสตร์เขตร้อน",
+      "email": "wang.ngu@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_facultyoft_petmitr_002",
+      "name": "ศ.ดร. ทรงศักดิ์ เพชรมิตร",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะเวชศาสตร์เขตร้อน",
+      "email": "porntip.pet@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_ratanapol_154",
+      "name": "อ. Sooksan Ratanapol",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "sooksan.rat@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_boonranapanitpa_090",
+      "name": "อ. Taweesak Boonranapanitpan",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "taweesak.boo@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_laothanasin_079",
+      "name": "อ. Penyarporn Laothanasin",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "penyaporn.lao@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sriwiset_149",
+      "name": "อ. Thanapoom Sriwiset",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "thanapoom.sri@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_suwanlao_147",
+      "name": "อ. Kraisit Suwanlao",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "kraisit.suw@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_matsushima_148",
+      "name": "อ. Hiroshi Matsushima",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "hiroshi.mat@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_natchanawakul_159",
+      "name": "ผศ.ดร. Nachaya Natchanawakul",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "nachaya.nat@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_buranaprapuk_065",
+      "name": "ผศ.ดร. Ampai Buranaprapuk",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "ampai.bur@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_longsawas_164",
+      "name": "อ. Duangduan Longsawas",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "duangduan.lon@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_rizayev_074",
+      "name": "อ. Valeriy Rizayev",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "valeriy.riz@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_saisaeng_093",
+      "name": "อ. Juthamas Saisaeng",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "juthamas.sas@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_preamcharoen_185",
+      "name": "อ. Nittaya Preamcharoen",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "nittaya.pre@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sarintu_186",
+      "name": "อ. Radanat Sarintu",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "radanut.sar@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_somchoo_188",
+      "name": "อ. Phongphan Somchoo",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "phongphan.som@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_molee_056",
+      "name": "อ. Kittima Molee",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "kittima.mol@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_nitisingkarin_110",
+      "name": "ดร. Onpavee Nitisingkarin",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "onpavee.nit@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_tirachomsri_117",
+      "name": "อ. Jaruda Tirachomsri",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "jaruda.tir@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_chalermsub_173",
+      "name": "อ. Supawarat Chalermsub",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "supawarat.wat@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_suriyayothin_133",
+      "name": "อ. Chorlada Suriyayothin",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "chorlada.sur@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_bampenyou_039",
+      "name": "ดร. รัตนัย บำเพ็ญ",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "rattanai.bam@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_laosaichuea_144",
+      "name": "อ. Alongkorn Laosaichuea",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "alongkorn.lao@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_lynch_169",
+      "name": "อ. Nadhapach Jane Lynch",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "nadhapach.chu@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_tawasinchanadec_046",
+      "name": "อ. Phoowich Tawasinchanadech",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "phoowich.taw@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_facultyoft_matsee_054",
+      "name": "ผศ. วศิน มัตซี",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะเวชศาสตร์เขตร้อน",
+      "email": "wasin.mat@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_arakawa_051",
+      "name": "อ. Junta Arakawa",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "junta.ara@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_mongkonsiriswad_083",
+      "name": "อ. Patcharapon Mongkonsiriswad",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "patcharapon.mon@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_siyapong_114",
+      "name": "อ. Rasikamon Siyapong",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "rasikamon.siy@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_cha_073",
+      "name": "ดร. Thomas Hyuk Cha",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "hyuk.cha@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_supaniti_048",
+      "name": "อ. Kalteera Supaniti",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "kalteera.sup@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jongprasert_118",
+      "name": "อ. Jetjumnong Jongprasert",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "jetjumnong.jon@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_kehasuwan_168",
+      "name": "อ. Wiputh Kehasuwan",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "wiputh.keh@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jirasirikul_113",
+      "name": "ดร. Teeranai Jirasirikul",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "teeranai.jir@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0036",
+      "name": "ดร. ญาณิศา โอฬารานนท์",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "yanisa.ola@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0129",
+      "name": "ดร. ภาคภูมิ แจ่มใส",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "bharkbhoom.jae@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0151",
+      "name": "ดร. รัชรา กาละวงค์",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "ratchara.kal@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0162",
+      "name": "ดร. วรธน สวัสดิ์วงษ์",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "vorthon.saw@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0228",
+      "name": "ดร. อุทิศ สุริยา",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "utid.sur@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_carlson_140",
+      "name": "ดร. Dr. Fueanglada Prawang Carlson",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "fueanglada.pra@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_collegeofm_yannavut_141",
+      "name": "ดร. Dr. Wannapha Yannavut",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "วิทยาลัยดุริยางคศิลป์",
+      "email": "wannapha.yan@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0084",
+      "name": "ผศ.ดร. นฤพัฒน์ หงษ์ดิลกกุล",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "narupat.hon@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0136",
+      "name": "ผศ.ดร. มัณฑนา ชุดทอง",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "mantana.chu@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mahidoluni_facultyoft_denpetkul_128",
+      "name": "รศ.ดร. ธรรมนิตยพล เด่นเพชรกุล",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะเวชศาสตร์เขตร้อน",
+      "email": "thammanitchpol.den@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0001",
+      "name": "รศ.ดร. กรกมล เลิศสุวรรณ",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "kornkamon.ler@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0007",
+      "name": "รศ.ดร. กัลยา เกตุวงศา",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "kanlaya.pra@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0025",
+      "name": "รศ.ดร. ชรินทร์ โหมดชัง",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "charin.mod@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0070",
+      "name": "รศ.ดร. ธรรมสิทธิ์ วงศ์เศรษฐสกุล",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "thammasit.von@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0056",
+      "name": "ผศ.ดร. ดาราภรณ์ เตรียมโพธิ์",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "darapond.tri@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0061",
+      "name": "รศ.ดร. ทิพาลัคน์ กฤตยาเกียรณ์",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "tipaluck.kri@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0082",
+      "name": "ผศ.ดร. ธีรา ฉันทโรจน์ศิริ",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "teera.cha@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0093",
+      "name": "ผศ.ดร. นิสา ปฏิการมณฑล",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "nisa.pat@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0101",
+      "name": "รศ.ดร. ปรียานุช แสงไตรรัตน์นุกูล",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "preeyanuch.san@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0110",
+      "name": "รศ.ดร. พงศกร กาญจนบุษย์",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "pongsakorn.kan@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0113",
+      "name": "รศ.ดร. พรรณนภา ช่างเพ็ชร",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "pannapa.cha@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0190",
+      "name": "รศ.ดร. สาโรจน์ รุจิสรรค์สกุล",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "saroj.ruc@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0156",
+      "name": "ผศ.ดร. ลภัสรดา ยุรศักดิ์พงศ์",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "laphatrada.yur@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0172",
+      "name": "ผศ.ดร. วิทวัชร์ โฆษิตวัฒนฤกษ์",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "wittawat.kos@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0180",
+      "name": "รศ.ดร. ศศิวิมล แสวงผล",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "sasivimon.swa@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0194",
+      "name": "รศ.ดร. สิทธินันท์ ชนะรัตน์",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "sittinan.cha@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "mu_sci_wave14_b_0216",
+      "name": "รศ.ดร. อลิสา สจ๊วต",
+      "uni": "มหาวิทยาลัยมหิดล",
+      "faculty": "คณะวิทยาศาสตร์",
+      "email": "alyssa.ste@mahidol.edu",
+      "domain": "mahidol.edu"
+    },
+    {
+      "id": "su_eng_teacher_089",
+      "name": "ผศ.ดร. วรฤทัย ชูเทียร",
+      "uni": "มหาวิทยาลัยศิลปากร",
+      "faculty": "คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม",
+      "email": "choothian_w@silpakorn.edu",
+      "domain": "silpakorn.edu"
+    },
+    {
+      "id": "cu_wave19_edu_0090",
+      "name": "ผศ.ดร. สลา สามิภักดิ์",
+      "uni": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty": "คณะครุศาสตร์",
+      "email": "sara.s@g.chula.edu",
+      "domain": "g.chula.edu"
+    }
+  ],
+  "cross_uni_mismatches": [],
+  "visiting_roles": []
+}

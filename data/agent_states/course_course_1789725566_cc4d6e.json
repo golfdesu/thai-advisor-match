@@ -1,0 +1,48 @@
+{
+  "session_id": "course_1789725566_cc4d6e",
+  "target_university_th": "มหาวิทยาลัยมหาสารคาม",
+  "target_university_en": "Mahasarakham University",
+  "target_faculty_th": "คณะเทคโนโลยี",
+  "target_faculty_en": "Faculty of Technology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://grad.msu.ac.th/?page_id=5206",
+    "https://techno.msu.ac.th/"
+  ],
+  "failed_urls": [
+    "https://grad.msu.ac.th/?page_id=5206"
+  ],
+  "courses": {
+    "mahasara_facultyo__001": {
+      "id": "mahasara_facultyo__001",
+      "title_th": "วิทยาศาสตร์บัณฑิต สาขาวิชาสัตวศาสตร์",
+      "title_en": "วิทยาศาสตร์บัณฑิต สาขาวิชาสัตวศาสตร์",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "วท.บ.",
+      "university": "Mahasarakham University",
+      "university_th": "มหาวิทยาลัยมหาสารคาม",
+      "faculty": "Faculty of Technology",
+      "faculty_th": "คณะเทคโนโลยี",
+      "department": "",
+      "department_th": "ภาควิชาเทคโนโลยีการเกษตร",
+      "program_type": "ภาคปกติ",
+      "duration_years": "4 ปี",
+      "total_credits": "",
+      "tuition_per_semester": "",
+      "tuition_total": "",
+      "description": "",
+      "curriculum_highlights": [],
+      "career_paths": [],
+      "tags": [
+        "สัตวศาสตร์",
+        "เทคโนโลยีการเกษตร"
+      ],
+      "website_url": "https://techno.msu.ac.th/"
+    }
+  },
+  "dedup_title_keys": {},
+  "step_count": 2,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

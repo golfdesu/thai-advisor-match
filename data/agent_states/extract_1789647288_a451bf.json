@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789647288_a451bf",
+  "target_university_th": "มหาวิทยาลัยมหิดล",
+  "target_university_en": "Mahidol University",
+  "target_faculty_th": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา",
+  "target_faculty_en": "College of Sports Science",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://ss.mahidol.ac.th"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

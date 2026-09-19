@@ -1,0 +1,17 @@
+{
+  "session_id": "unexamined_937_investigation_1789567306",
+  "target_university_th": "All Universities (937 Remaining Pool)",
+  "target_university_en": "All Universities (937 Remaining Pool)",
+  "target_faculty_th": "Exhaustive Forensic Investigation",
+  "target_faculty_en": "Exhaustive Forensic Investigation",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 18740,
+  "status": "initialized",
+  "last_error": null
+}

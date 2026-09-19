@@ -7,32 +7,46 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from app.core.database import SessionLocal
 from app.models.db_models import FacultyDB
 from app.core.config import settings
+from app.core.embedding_text import build_faculty_embedding_text
 from google import genai
+from sqlalchemy import or_
 
 def generate_embedding_text(f):
-    interests = ", ".join(f.research_interests) if f.research_interests else ""
-    courses = ", ".join(f.taught_courses) if f.taught_courses else ""
-    pubs = ", ".join(f.featured_publications) if f.featured_publications else ""
-    
-    text = f"{f.academic_title_th or ''} {f.full_name_th or ''} {f.first_name or ''} {f.last_name or ''}. "
-    text += f"University: {f.university or ''}. "
-    text += f"Faculty: {f.faculty or ''}. "
-    text += f"Department: {f.department or ''} {f.department_th or ''}. "
-    text += f"Research Interests: {interests}. "
-    text += f"Taught Courses: {courses}. "
-    text += f"Publications: {pubs}."
-    return text
+    return build_faculty_embedding_text(f)
+
+
+def _stringify_items(items, key=None):
+    """Return non-empty text values from legacy strings or structured objects."""
+    values = []
+    for item in items or []:
+        value = item.get(key) if key and isinstance(item, dict) else item
+        if value:
+            values.append(str(value).strip())
+    return values
+
+
 
 def recompute_embeddings_fast():
-    client = genai.Client(api_key=settings.GEMINI_API_KEY)
-    
     db = SessionLocal()
-    faculties = db.query(FacultyDB).filter(FacultyDB.embedding == None).all()
-    print(f"Found {len(faculties)} advisors needing embeddings...")
+    faculties = db.query(FacultyDB).filter(
+        or_(FacultyDB.embedding.is_(None), FacultyDB.embedding_text.is_(None))
+    ).all()
+    print(f"Found {len(faculties)} advisors needing embeddings or embedding_text...")
+    needs_embedding = any(f.embedding is None for f in faculties)
+    if needs_embedding and not settings.GEMINI_API_KEY:
+        print("GEMINI_API_KEY not found; cannot generate missing vectors.")
+        db.close()
+        return
+    client = genai.Client(api_key=settings.GEMINI_API_KEY) if needs_embedding else None
     
     for i, f in enumerate(faculties):
         text = generate_embedding_text(f)
         f.embedding_text = text
+
+        if f.embedding is not None:
+            if i % 100 == 0:
+                db.commit()
+            continue
         
         success = False
         while not success:

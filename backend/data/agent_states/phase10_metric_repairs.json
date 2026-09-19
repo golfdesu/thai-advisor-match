@@ -1,0 +1,44 @@
+{
+  "phase": 10,
+  "applied_at": "2026-09-19T06:21:52.151654+00:00",
+  "changes": [
+    {
+      "id": "chulalongk_facultyofp_fac_036_036",
+      "reason": "False CERN/Peter Jenni homonym was cleared; source record has no verified publications.",
+      "before": {
+        "total_publications_count": 0,
+        "first_author_count": 0,
+        "co_author_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      },
+      "after": {
+        "total_publications_count": 0,
+        "first_author_count": 0,
+        "co_author_count": 0,
+        "total_citations": 0,
+        "h_index": 0
+      },
+      "changed": false
+    },
+    {
+      "id": "mfu_med_komsan_001",
+      "reason": "Cross-person OpenAlex metrics were cleared in Phase 5; stale authorship sub-counts remained.",
+      "before": {
+        "first_author_count": 0,
+        "co_author_count": 0,
+        "total_citations": 409,
+        "h_index": 8,
+        "openalex_id": "https://openalex.org/A5065187413"
+      },
+      "after": {
+        "first_author_count": 0,
+        "co_author_count": 0,
+        "total_citations": 0,
+        "h_index": 0,
+        "openalex_id": "not_indexed"
+      },
+      "changed": true
+    }
+  ]
+}

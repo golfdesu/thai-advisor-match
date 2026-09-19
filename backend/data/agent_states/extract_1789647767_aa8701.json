@@ -1,0 +1,22 @@
+{
+  "session_id": "extract_1789647767_aa8701",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชาการชะลอวัยและฟื้นฟูสุขภาพ",
+  "target_faculty_en": "School of Anti-Aging and Regenerative Medicine",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://anti-aging.mfu.ac.th/",
+    "https://www.mfu.ac.th/"
+  ],
+  "failed_urls": [
+    "https://longevity.mfu.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 1844,
+  "status": "completed",
+  "last_error": null
+}

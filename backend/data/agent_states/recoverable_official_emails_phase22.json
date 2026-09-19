@@ -1,0 +1,2190 @@
+[
+  {
+    "id": "cu_pharm_wave16_0006",
+    "full_name_th": "อ. ภก. ดร. คาเชน คงภัควรรธนะ",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "คณะเภสัชศาสตร์",
+    "email": "khachen.k@chula.ac.th",
+    "source": "https://www.pharm.chula.ac.th/?p=195"
+  },
+  {
+    "id": "cu_pharm_wave16_0007",
+    "full_name_th": "อ. ภญ. ดร. จันทิมา เมทนีธร",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "คณะเภสัชศาสตร์",
+    "email": "janthima.m@chula.ac.th",
+    "source": "https://www.pharm.chula.ac.th/?p=195"
+  },
+  {
+    "id": "cu_pharm_wave16_0022",
+    "full_name_th": "อ. ภญ. ดร. ณัชกร ล้ำเลิศกิจ",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "คณะเภสัชศาสตร์",
+    "email": "natchagorn.l@chula.ac.th",
+    "source": "https://www.pharm.chula.ac.th/?p=195"
+  },
+  {
+    "id": "cu_pharm_wave16_0072",
+    "full_name_th": "อ. ภก. ดร. วิรุฬห์ คงคติธรรม",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "คณะเภสัชศาสตร์",
+    "email": "virunh.k@chula.ac.th",
+    "source": "https://www.pharm.chula.ac.th/?p=195"
+  },
+  {
+    "id": "cu_pharm_wave16_0093",
+    "full_name_th": "รศ. ภญ. ดร. อังคณา ตันติธุวานนท์",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "คณะเภสัชศาสตร์",
+    "email": "angkana.t@chula.ac.th",
+    "source": "https://www.pharm.chula.ac.th/?p=195"
+  },
+  {
+    "id": "kmitl_siet_wave16_0083",
+    "full_name_th": "ศ.ดร. ภัคพงศ์ ปวงสุข",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "pakkapong.po@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/150"
+  },
+  {
+    "id": "kmitl_siet_wave16_0086",
+    "full_name_th": "ผศ. จำลอง ศรีสุวรรณ์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "chamlong.sr@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/155"
+  },
+  {
+    "id": "kmitl_siet_wave16_0087",
+    "full_name_th": "ผศ.ดร. ปิยะนารถ จันทร์เล็ก",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "piyanard.ju@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/156"
+  },
+  {
+    "id": "kmitl_siet_wave16_0088",
+    "full_name_th": "ผศ. สุเมธ ตรีศักดิ์ศรี",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "sumet.tr@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/157"
+  },
+  {
+    "id": "kmitl_siet_wave16_0089",
+    "full_name_th": "ผศ. ปานจิต ป้อมอาสา",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "panjit.po@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/159"
+  },
+  {
+    "id": "kmitl_siet_wave16_0090",
+    "full_name_th": "รศ.ดร. จันทร์พร เจ้าทรัพย์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "chanporn.ch@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/160"
+  },
+  {
+    "id": "kmitl_siet_wave16_0091",
+    "full_name_th": "รศ.ดร. สุริยัณห์ สุภาพวานิช",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "suriyan.su@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/161"
+  },
+  {
+    "id": "kmitl_siet_wave16_0094",
+    "full_name_th": "รศ.ดร. พรรณิภา ศิวะพิรุฬห์เทพ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "panneepa.si@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/164"
+  },
+  {
+    "id": "kmitl_siet_wave16_0095",
+    "full_name_th": "รศ.ดร. ชัยรัตน์ เตชวุฒิพร",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "chairat.te@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/166"
+  },
+  {
+    "id": "kmitl_siet_wave16_0055",
+    "full_name_th": "รศ.ดร. ฉันทนา วิริยเวชกุล",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "chantana.vi@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/173"
+  },
+  {
+    "id": "kmitl_siet_wave16_0056",
+    "full_name_th": "รศ.ดร. กาญจนา บุญภักดิ์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "kanchana.bo@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/174"
+  },
+  {
+    "id": "kmitl_siet_wave16_0057",
+    "full_name_th": "ศ.ดร. ไพฑูรย์ พิมดี",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "paitoon.pi@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/175"
+  },
+  {
+    "id": "kmitl_siet_wave16_0058",
+    "full_name_th": "ศ.ดร. ปริยาภรณ์ ตั้งคุณานันต์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "pariyaporn.tu@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/176"
+  },
+  {
+    "id": "kmitl_siet_wave16_0059",
+    "full_name_th": "รศ.ดร. อัคพงศ์ สุขมาตย์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "aukkapong.su@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/178"
+  },
+  {
+    "id": "kmitl_siet_wave16_0060",
+    "full_name_th": "รศ.ดร. สมเกียรติ ตันติวงศ์วาณิช",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "somkiat.tu@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/180"
+  },
+  {
+    "id": "kmitl_siet_wave16_0061",
+    "full_name_th": "รศ.ดร. กฤษณา คิดดี",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "krissana.ki@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/182"
+  },
+  {
+    "id": "kmitl_siet_wave16_0064",
+    "full_name_th": "ผศ.ดร. แสงอุทัย มอโท",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "sangutai.mo@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/185"
+  },
+  {
+    "id": "kmitl_siet_wave16_0065",
+    "full_name_th": "รศ.ดร. สุวรรณา เบ็งทอง",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "suwanna.in@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/186"
+  },
+  {
+    "id": "kmitl_siet_wave16_0067",
+    "full_name_th": "ผศ.ดร. อำภาพรรณ ตันตินาครกูล",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "ampapan.tu@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/188"
+  },
+  {
+    "id": "kmitl_siet_wave16_0068",
+    "full_name_th": "ผศ.ดร. ศิรินทร มีขอบทอง",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "sirinthorn.me@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/189"
+  },
+  {
+    "id": "kmitl_siet_wave16_0070",
+    "full_name_th": "ดร. ขวัญธิศศรา อภิสุขสกุล",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "kwantitsara.ap@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/191"
+  },
+  {
+    "id": "kmitl_siet_wave16_0003",
+    "full_name_th": "รศ.ดร. วิสุทธิ์ สุนทรกนกพงศ์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "wisuit.su@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/220"
+  },
+  {
+    "id": "kmitl_siet_wave16_0004",
+    "full_name_th": "รศ.ดร. พีระวุฒิ สุวรรณจันทร์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "peerawut.su@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/221"
+  },
+  {
+    "id": "kmitl_siet_wave16_0006",
+    "full_name_th": "ผศ.ดร. พิชญ์สินี มะโน",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "pitsini.ma@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/222"
+  },
+  {
+    "id": "kmitl_siet_wave16_0007",
+    "full_name_th": "ผศ.ดร. สุชิน อาจหาญ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "suchin.ad@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/223"
+  },
+  {
+    "id": "kmitl_siet_wave16_0008",
+    "full_name_th": "รศ.ดร. วรวิทย์ สมหา",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "worawit.so@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/224"
+  },
+  {
+    "id": "kmitl_siet_wave16_0010",
+    "full_name_th": "ผศ.ดร. สมชาย หมื่นสายญาติ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "somchai.ma@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/225"
+  },
+  {
+    "id": "kmitl_siet_wave16_0011",
+    "full_name_th": "ผศ. โกศล ตราชู",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "koson.tr@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/227"
+  },
+  {
+    "id": "kmitl_siet_wave16_0012",
+    "full_name_th": "อ. ปิยะ จิตธรรมมาภิรมย์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "piya.ji@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/228"
+  },
+  {
+    "id": "kmitl_siet_wave16_0013",
+    "full_name_th": "รศ.ดร. พรพิมล ฉายรัศมี",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "pornpimon.ch@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/229"
+  },
+  {
+    "id": "kmitl_siet_wave16_0014",
+    "full_name_th": "รศ.ดร. ประเสริฐ เคนพันค้อ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "prasert.ke@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/230"
+  },
+  {
+    "id": "kmitl_siet_wave16_0015",
+    "full_name_th": "ผศ. พงษ์เกียรติ จงไตรลักษณ์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "pongkiat.jo@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/231"
+  },
+  {
+    "id": "kmitl_siet_wave16_0016",
+    "full_name_th": "ผศ.ดร. ไพบูลย์ พวงวงศ์ตระกูล",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "paiboon.po@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/232"
+  },
+  {
+    "id": "kmitl_siet_wave16_0017",
+    "full_name_th": "รศ.ดร. ปิยะ ศุภวราสุวัฒน์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "piya.su@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/233"
+  },
+  {
+    "id": "kmitl_siet_wave16_0018",
+    "full_name_th": "ผศ. สุระชัย พิมพ์สาลี",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "surachai.pi@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/235"
+  },
+  {
+    "id": "kmitl_siet_wave16_0019",
+    "full_name_th": "รศ.ดร. วินัย ใจกล้า",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "winai.ja@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/237"
+  },
+  {
+    "id": "kmitl_siet_wave16_0020",
+    "full_name_th": "ผศ.ดร. อภิรัฐ ลิ่มมณี",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "apirath.li@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/238"
+  },
+  {
+    "id": "kmitl_siet_wave16_0022",
+    "full_name_th": "ดร. ศุภวัฒน์ ชัยสวัสดิ์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "subhawat.ja@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/239"
+  },
+  {
+    "id": "kmitl_siet_wave16_0062",
+    "full_name_th": "ดร. ใหม่ เจริญธรรม",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "mai.ch@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/378"
+  },
+  {
+    "id": "kmitl_siet_wave16_0001",
+    "full_name_th": "รศ.ดร. อมรชัย ชัยชนะ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "amornchai.ch@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/380"
+  },
+  {
+    "id": "kmitl_siet_wave16_0080",
+    "full_name_th": "ดร. ภัทราภรณ์ ภัทรรังสฤษฏิ์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "pattraphorn.pa@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/381"
+  },
+  {
+    "id": "kmitl_siet_wave16_0053",
+    "full_name_th": "รศ.ดร. ทนงศักดิ์ โสวจัสสตากุล",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "thanongsak.so@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/382"
+  },
+  {
+    "id": "kmitl_siet_wave16_0071",
+    "full_name_th": "อ. กฤตเมธ ธีระสุนทรไท",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "krittameth.te@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/398"
+  },
+  {
+    "id": "kmitl_siet_wave16_0005",
+    "full_name_th": "รศ.ดร. กิติพงค์ มะโน",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "kitipong.ma@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/44"
+  },
+  {
+    "id": "kmitl_siet_wave16_0081",
+    "full_name_th": "ดร. ราตรี ศิริพันธุ์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "ratree.si@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/45"
+  },
+  {
+    "id": "kmitl_siet_wave16_0054",
+    "full_name_th": "รศ.ดร. ฐิยาพร กันตาธนวัฒน์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "thiyaporn.ka@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/46"
+  },
+  {
+    "id": "kmitl_siet_wave16_0002",
+    "full_name_th": "ผศ. อำพล ทองระอา",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "amphon.th@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/47"
+  },
+  {
+    "id": "kmitl_siet_wave16_0023",
+    "full_name_th": "ผศ.ดร. วาสณา บุญส่ง",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "wasana.bo@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/888"
+  },
+  {
+    "id": "kmitl_siet_wave16_0063",
+    "full_name_th": "รศ.ดร. บุญจันทร์ สีสันต์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "boonchan.si@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/90"
+  },
+  {
+    "id": "kmitl_siet_wave16_0082",
+    "full_name_th": "รศ.ดร. ปิ่นมณี ขวัญเมือง",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "pinmanee.kw@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/91"
+  },
+  {
+    "id": "kmitl_siet_wave16_0092",
+    "full_name_th": "ผศ.ดร. จตุพร เลิศศิรรังสรรค์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "jatuporn.an@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/94"
+  },
+  {
+    "id": "kmitl_siet_wave16_0021",
+    "full_name_th": "ผศ.ดร. วรพงษ์ ไพรินทร์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "worapong.pa@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/index.php/node/95"
+  },
+  {
+    "id": "kmitl_siet_wave16_0084",
+    "full_name_th": "รศ.ดร. รัชดากร พลภักดี",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "ratchadakorn.ph@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/152"
+  },
+  {
+    "id": "kmitl_siet_wave16_0085",
+    "full_name_th": "ผศ.ดร. ศราวุธ อินทรเทศ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "sarawut.in@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/153"
+  },
+  {
+    "id": "kmitl_siet_wave16_0093",
+    "full_name_th": "รศ.ดร. สิริมา สินธุสำราญ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "sirima.ta@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/163"
+  },
+  {
+    "id": "kmitl_siet_wave16_0079",
+    "full_name_th": "ผศ.ดร. น้ำเพชร นาสารีย์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "namphet.na@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/1867"
+  },
+  {
+    "id": "kmitl_siet_wave16_0066",
+    "full_name_th": "ดร. วัชรินทร์ คงพิบูลย์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "watcharin.ko@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/187"
+  },
+  {
+    "id": "kmitl_siet_wave16_0069",
+    "full_name_th": "ผศ.ดร. จารุวรรณ พลอยดวงรัตน์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "jaruwan.pl@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/190"
+  },
+  {
+    "id": "kmitl_siet_wave16_0026",
+    "full_name_th": "ศ.ดร. คุ้มพงศ์ หนูบรรจง",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "koompong.no@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/193"
+  },
+  {
+    "id": "kmitl_siet_wave16_0027",
+    "full_name_th": "ผศ. สรรวดี เจริญชาศรี",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "sanwadee.ja@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/194"
+  },
+  {
+    "id": "kmitl_siet_wave16_0028",
+    "full_name_th": "อ. ทศพร โสดาบรรลุ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "thosaporn.so@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/195"
+  },
+  {
+    "id": "kmitl_siet_wave16_0029",
+    "full_name_th": "รศ. สุรศักดิ์ กังขาว",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "surasak.ka@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/196"
+  },
+  {
+    "id": "kmitl_siet_wave16_0030",
+    "full_name_th": "ผศ.ดร. ธเนศ ภิรมย์การ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "thanate.pi@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/197"
+  },
+  {
+    "id": "kmitl_siet_wave16_0031",
+    "full_name_th": "ดร. สุพรชัย แสงรัตน์วัชรา",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "supornchai.sa@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/199"
+  },
+  {
+    "id": "kmitl_siet_wave16_0032",
+    "full_name_th": "รศ.ดร. จตุรงค์ เลาหะเพ็ญแสง",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "chaturong.lo@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/200"
+  },
+  {
+    "id": "kmitl_siet_wave16_0033",
+    "full_name_th": "รศ.ดร. พัสตราภรณ์ ทิพยโสธร",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "pastraporn.th@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/201"
+  },
+  {
+    "id": "kmitl_siet_wave16_0052",
+    "full_name_th": "อ. มนชญา สระบัว",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "monchaya.sa@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/2011"
+  },
+  {
+    "id": "kmitl_siet_wave16_0034",
+    "full_name_th": "ผศ.ดร. สุธาสินีน์ บุรีคำพันธุ์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "suthasini.bu@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/203"
+  },
+  {
+    "id": "kmitl_siet_wave16_0036",
+    "full_name_th": "ผศ.ดร. ธีราทัต เลิศช่ำชองกุล",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "teeratat.lo@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/204"
+  },
+  {
+    "id": "kmitl_siet_wave16_0037",
+    "full_name_th": "ผศ. อัครพงศ์ อนุพันธ์พงศ์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "akkraphong.an@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/205"
+  },
+  {
+    "id": "kmitl_siet_wave16_0039",
+    "full_name_th": "ผศ.ดร. พรเทพ จิวไพโรจน์กิจ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "pornthep.je@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/206"
+  },
+  {
+    "id": "kmitl_siet_wave16_0040",
+    "full_name_th": "ผศ.ดร. ปิยะ ตันศิริ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "piya.ta@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/207"
+  },
+  {
+    "id": "kmitl_siet_wave16_0041",
+    "full_name_th": "ผศ.ดร. อภิสักก์ สินธุภัค",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "apisak.si@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/208"
+  },
+  {
+    "id": "kmitl_siet_wave16_0042",
+    "full_name_th": "ผศ.ดร. กรวรรณ งามวรธรรม",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "khorawan.ng@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/209"
+  },
+  {
+    "id": "kmitl_siet_wave16_0043",
+    "full_name_th": "ผศ.ดร. สมชาย เซะวิเศษ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "somchai.se@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/210"
+  },
+  {
+    "id": "kmitl_siet_wave16_0044",
+    "full_name_th": "ผศ. สันติ กวินวงศ์ไพบูลย์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "santi.ka@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/211"
+  },
+  {
+    "id": "kmitl_siet_wave16_0045",
+    "full_name_th": "ดร. พรหมปพร นวลแสง",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "prompaporn.nu@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/212"
+  },
+  {
+    "id": "kmitl_siet_wave16_0046",
+    "full_name_th": "รศ.ดร. ทรงวุฒิ เอกวุฒิวงศา",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "songwut.ae@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/213"
+  },
+  {
+    "id": "kmitl_siet_wave16_0047",
+    "full_name_th": "ดร. ธาดาพัฒน์ ลิมาภรณ์วณิชย์",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "thadharphut.li@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/214"
+  },
+  {
+    "id": "kmitl_siet_wave16_0048",
+    "full_name_th": "ดร. อฏฐม สาริบุตร",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "attama.sa@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/215"
+  },
+  {
+    "id": "kmitl_siet_wave16_0049",
+    "full_name_th": "อ. รัฐภัทร์ อุปละ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "rattapat.ou@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/216"
+  },
+  {
+    "id": "kmitl_siet_wave16_0050",
+    "full_name_th": "อ. ชนิตา ไกรคง",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "chanita.kr@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/217"
+  },
+  {
+    "id": "kmitl_siet_wave16_0009",
+    "full_name_th": "รศ.ดร. สันติ ตันตระกูล",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "sunti.tu@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/226"
+  },
+  {
+    "id": "kmitl_siet_wave16_0024",
+    "full_name_th": "ดร. ปฏิภาณ สำเนียง",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "patiphan.su@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/243"
+  },
+  {
+    "id": "kmitl_siet_wave16_0078",
+    "full_name_th": "รศ.ดร. จิรารัตน์ สิทธิวรชาติ",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "jirarat.si@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/245"
+  },
+  {
+    "id": "kmitl_siet_wave16_0077",
+    "full_name_th": "รศ.ดร. ปิยพงษ์ สุเมตติกุล",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "piyapong.su@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/246"
+  },
+  {
+    "id": "kmitl_siet_wave16_0076",
+    "full_name_th": "รศ.ดร. ธนินทร์ รัตนโอฬาร",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "thanin.ra@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/247"
+  },
+  {
+    "id": "kmitl_siet_wave16_0075",
+    "full_name_th": "รศ.ดร. กันยารัตน์ ศรีวิสทิยกุล",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "kanyarat.sr@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/248"
+  },
+  {
+    "id": "kmitl_siet_wave16_0074",
+    "full_name_th": "ผศ.ดร. พูลศรี เวศย์อุฬาร",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "poonsri.va@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/250"
+  },
+  {
+    "id": "kmitl_siet_wave16_0073",
+    "full_name_th": "รศ.ดร. ศิริรัตน์ เพ็ชร์แสงศรี",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "sirirat.pe@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/377"
+  },
+  {
+    "id": "kmitl_siet_wave16_0025",
+    "full_name_th": "รศ.ดร. สมพล ดำรงเสถียร",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "sompol.du@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/383"
+  },
+  {
+    "id": "kmitl_siet_wave16_0072",
+    "full_name_th": "ดร. ชลธวัฒน์ มีดี",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "chontawat.me@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/418"
+  },
+  {
+    "id": "kmitl_siet_wave16_0051",
+    "full_name_th": "อ. ปิยะวรรค์ ปิ่นแก้ว",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "piyawan.pi@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/561"
+  },
+  {
+    "id": "kmitl_siet_wave16_0038",
+    "full_name_th": "ผศ. ชูเกียรติ แซ่ตั้ง",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "chukiat.sa@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/92"
+  },
+  {
+    "id": "kmitl_siet_wave16_0035",
+    "full_name_th": "ผศ. ณธทัย จันเสน",
+    "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+    "faculty_th": "คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี",
+    "department_th": "ภาควิชาครุศาสตร์วิศวกรรม",
+    "email": "nathatai.ch@kmitl.ac.th",
+    "source": "http://siet.kmitl.ac.th/node/93"
+  },
+  {
+    "id": "mahidoluni_facultyoft_soonthornworasi_095",
+    "full_name_th": "อ. Ngamphol Soonthornworasiri",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาเวชศาสตร์เขตร้อน",
+    "email": "ngamphol.soo@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/hygiene/our-team/ngamphol-soonthornworasiri-2/"
+  },
+  {
+    "id": "mahidoluni_facultyoft_lawpoolsriniyom_094",
+    "full_name_th": "อ. Saranath Lawpoolsri Niyom",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาเวชศาสตร์เขตร้อน",
+    "email": "saranath.law@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/hygiene/our-team/saranath-lawpoolsri-niyom/"
+  },
+  {
+    "id": "mahidoluni_facultyoft_thussachan_070",
+    "full_name_th": "อ.ดร. อัจฉิมา ทุสฌาน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชากุมารเวชศาสตร์เขตร้อน",
+    "email": "ajjima.thu@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Ajjima-Thussachan.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_jittmittraphap_021",
+    "full_name_th": "ผศ. อคณิฏฐ์ จิตต์มิตรภาพ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "akanitt.jit@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Akanitt-Jittmittraphap.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_aroonnual_138",
+    "full_name_th": "ผศ.ดร. อมรรัตน์ อรุณนวล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "amornrat.aro@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Amornrat-Aroonnual.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_mahittikorn_081",
+    "full_name_th": "รศ.ดร. องอาจ มหิทธิกร",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาโปรโตซัววิทยา",
+    "email": "aongart.mah@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Aongart-Mahittikorn.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_phetrak_127",
+    "full_name_th": "รศ.ดร. อธิศ เพชรรัก",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "คณะเวชศาสตร์เขตร้อน",
+    "email": "athit.phe@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Athit-Phetrak.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_hanboonkunupaka_029",
+    "full_name_th": "รศ.ดร. บอริมาส หาญบุญทรงคุณูปการ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "borimas.han@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Borimas-Hanboonkunupakarn.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_thawornkuno_011",
+    "full_name_th": "ผศ. จารินทร์ ถาวรกูร",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "charin.tha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Charin-Thawornkuno.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_kittitrakul_028",
+    "full_name_th": "ผศ.ดร. ฉัตรพร กิตติตระกูล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "chatporn.kit@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Chatporn-Kittitrakul.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_ngamlerst_141",
+    "full_name_th": "อ.ดร. ฉัตรชญา งามเลิศ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "chattraya.nga@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Chattraya-Ngamlerst.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_mansanguan_043",
+    "full_name_th": "รศ. ชยศิลป์ มั่นสงวน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "chayasin.man@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Chayasin-Mansanguan.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_sirivichayakul_067",
+    "full_name_th": "รศ.ดร. ชูเกียรติ ศิริวิชยกุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชากุมารเวชศาสตร์เขตร้อน",
+    "email": "chukiat.sir@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Chukiat-Sirivichayakul.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_watthanakulpani_085",
+    "full_name_th": "รศ.ดร. ดรณ์ วัฒนากุลพานิช",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิชีววิทยา",
+    "email": "dorn.wat@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Dorn-Watthanakulpanich.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_arthan_137",
+    "full_name_th": "รศ.ดร. ดำรงเกียรติ อัถอันต์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "dumrongkiet.art@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Dumrongkiet-Arthan.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_ahmedimad_056",
+    "full_name_th": "ดร. ฮิชาม อาเหม็ด อิมัด",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "hishamahmed.ima@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Hisham-Ahmed-Imad.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_thaipadungpanit_057",
+    "full_name_th": "ดร. จันจิรา ไทปะดับพันธุ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "janjira.tha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Janjira-Thaipadungpanit.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_ruangsittichai_074",
+    "full_name_th": "รศ.ดร. จิราภรณ์ เรืองสิทธิชัย",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "jiraporn.rua@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Jiraporn-Ruangsittichai.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_dhitavat_046",
+    "full_name_th": "รศ. จิตติมา ฐิตวัฒน์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "jittima.dhi@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Jittima-Dhitavat.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_chewapreecha_061",
+    "full_name_th": "ดร. กมลชนก เควพรีชา",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "kamolchanok.che@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Kamolchanok-Chewapreecha.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_fongsodsri_122",
+    "full_name_th": "อ.ดร. กมลพรรณ ฟองสดศรี",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิวิทยาเขตร้อน",
+    "email": "kamonpan.fon@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Kamonpan-Fongsodsri.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_kwanbunjan_136",
+    "full_name_th": "ศ.ดร. การุณี Kwanbunjan",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "karunee.kwa@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Karunee-Kwanbunjan.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_koompapong_083",
+    "full_name_th": "อ. ขวัญชัย ภูมิพงษ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาโปรโตซัววิทยา",
+    "email": "khuanchai.koo@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Khuanchai-Koompapong.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_chaisiri_091",
+    "full_name_th": "ผศ. กิตติพงศ์ ชัยศิริ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิชีววิทยา",
+    "email": "kittipong.cha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Kittipong-Chaisiri.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_poovorawan_047",
+    "full_name_th": "รศ. กิตติยศ ภูวรวรรณ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "kittiyod.poo@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Kittiyod-Poovorawan.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_limkittikul_068",
+    "full_name_th": "รศ.ดร. เกรียงศักดิ์ ลิ้มกิตติกุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชากุมารเวชศาสตร์เขตร้อน",
+    "email": "kriengsak.lim@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Kriengsak-Limkittikul.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_tajasuwan_140",
+    "full_name_th": "อ.ดร. ลลีวรรณ ตะจะสุวรรณ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "laleewan.taj@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Laleewan-Tajasuwan.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_imwong_003",
+    "full_name_th": "ศ. มัลลิกา อิ่มวงศ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "mallika.imw@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Mallika-Imwong.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_phanchana_010",
+    "full_name_th": "ผศ. แมทธิว ภานุชนะ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "matthew.pha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Matthew-Phanchana.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_vanaporn_020",
+    "full_name_th": "ผศ.ดร. มุทิตา วนาภรณ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "muthita.van@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Muthita-Vanaporn.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_saralamba_001",
+    "full_name_th": "รศ.ดร. เนาวรัตน์ สาราลำภ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "naowarat.sar@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Naowarat-Saralamba.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_uthailak_130",
+    "full_name_th": "ดร. ณภัทรสมณ อุทัยลักษณ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "คณะเวชศาสตร์เขตร้อน",
+    "email": "naphatsamon.uth@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Naphatsamon-Uthailak.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_sutthanont_077",
+    "full_name_th": "ดร. ณตญา สุทธนนท์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "nataya.sut@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Nataya-Sutthanont.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_ngaosuwankul_013",
+    "full_name_th": "รศ.ดร. ณฐมน ง้าวสุวรรณกุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "nathamon.kos@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Nathamon-Kosoltanapiwat.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_pinthong_084",
+    "full_name_th": "อ. ณัฐพล ปิ่นทอง",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาโปรโตซัววิทยา",
+    "email": "nattapon.pin@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Nattapon-Pinthong.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_sriboonvorakul_044",
+    "full_name_th": "รศ. ณัฐธิดา ศรีบุญวรกุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "natthida.srn@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Natthida-Sriboonvorakul.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_tangpukdee_045",
+    "full_name_th": "รศ. นพดล ตั้งภักดี",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "noppadon.tan@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Noppadon-Tangpukdee.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_reamtong_005",
+    "full_name_th": "รศ. อรพักตร์ เรืองทอง",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "onrapak.rea@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Onrapak-Reamtong.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_looareesuwan_131",
+    "full_name_th": "ดร. ปณิตา หล่อสุวรรณ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "คณะเวชศาสตร์เขตร้อน",
+    "email": "panita.loo@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Panita-Looareesuwan.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_pitaksajjakul_126",
+    "full_name_th": "รศ.ดร. พรรณอำทิพย์ พิทักษ์สัจจากุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "คณะเวชศาสตร์เขตร้อน",
+    "email": "pannamthip.pit@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Pannamthip-Pitaksajjakul.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_viriyavejakul_117",
+    "full_name_th": "ศ.ดร. ปานเพ็ญ วิริยะเวชกุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิวิทยาเขตร้อน",
+    "email": "parnpen.vir@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Parnpen-Viriyavejakul.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_dekumyoy_087",
+    "full_name_th": "รศ.ดร. ปรัณ ฎีกำยอย",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิชีววิทยา",
+    "email": "paron.dek@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Paron-Dekumyoy.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_sukphopetch_017",
+    "full_name_th": "ศ.ดร. ภัสณิศ สุขภิผ็ชร",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "natthanej.lup@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Passanesh-Sukphopetch.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_sriwichai_073",
+    "full_name_th": "รศ.ดร. พัชรา ศรีวิชัย",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "patchara.sri@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Patchara-Sriwichai.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_prangthip_132",
+    "full_name_th": "รศ.ดร. พัชนี ปรางค์ทิพย์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "pattaneeya.pra@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Pattaneeya-Prangthip.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_sonthayanon_004",
+    "full_name_th": "รศ. เพียงจันทร์ สนทนายอน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "piengchan.son@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Piengchan-Sonthayanon.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_wilairatana_040",
+    "full_name_th": "ศ. พลรัตน์ วิไลรัตน์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "polrat.wil@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Polrat-Wilairatana.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_adisakwattana_089",
+    "full_name_th": "รศ.ดร. ภูมิ อดิสวัตนากุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิชีววิทยา",
+    "email": "poom.adi@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Poom-Adisakwattana.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_pumirat_014",
+    "full_name_th": "รศ.ดร. พรพรรณ พุมิรัตน์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "pornpan.pum@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Pornpan-Pumirat.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_leaungwutiwong_018",
+    "full_name_th": "รศ.ดร. พรสวรรค์ เหลืองวุฒิวงษ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "pornsawan.lea@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Pornsawan-Leaungwutiwong.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_chanthavanich_065",
+    "full_name_th": "รศ.ดร. พรเทพ จันทวานิช",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชากุมารเวชศาสตร์เขตร้อน",
+    "email": "pornthep.cha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Pornthep-Chanthavanich.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_petmitr_002",
+    "full_name_th": "ศ.ดร. ทรงศักดิ์ เพชรมิตร",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "porntip.pet@mahidol.edu",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Porntip-Petmitr.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_charunwatthana_052",
+    "full_name_th": "ผศ. ประกายแก้ว เจริญวัฒนา",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "prakaykaew.cha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Prakaykaew-Charunwatthana.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_poolchanuan_026",
+    "full_name_th": "ดร. ประภาสร พูลชนวน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "prapassorn.pol@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Prapassorn-Poolchanuan.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_pitisuttithum_032",
+    "full_name_th": "ศ. พญ. พรรณี ปิติสุทธิธรรม",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "punnee.pit@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Punnee-Pitisuttithum.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_chiabchalard_082",
+    "full_name_th": "อ. รชตวรรณ เจียพจน์ฉลาด",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาโปรโตซัววิทยา",
+    "email": "rachatawan.chi@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Rachatawan-Chiabchalard.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_moonsom_080",
+    "full_name_th": "รศ.ดร. แสงเดือน มูลสม",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาโปรโตซัววิทยา",
+    "email": "saengduen.moo@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Saengduen-Moonsom.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_sirinam_069",
+    "full_name_th": "ผศ.ดร. สลิน ศิรินาม",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชากุมารเวชศาสตร์เขตร้อน",
+    "email": "salin.sir@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Salin-Sirinam.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_muangnoicharoen_053",
+    "full_name_th": "ผศ. สันต์ ม่วงน้อยเจริญ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "sant.mua@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Sant-Muangnoicharoen.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_maneewatcharara_008",
+    "full_name_th": "รศ. สันติ มณีวัชรารังษี",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "santi.man@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Santi-Maneewatchararangsri.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_tandhavanant_025",
+    "full_name_th": "ดร. ศรัณย์พร ตัณฑวนันท์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "sarunporn.tan@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Sarunporn-Tandhavanant.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_pukrittayakamee_034",
+    "full_name_th": "ศ. ศศิธร พุกตระกูล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "sasithon.puk@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Sasithon-Pukrittayakamee.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_koosakulnirand_024",
+    "full_name_th": "ดร. ศิริกมล กุศลกุลนิรันดร์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "sirikamon.koo@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Sirikamon-Koosakulnirand.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_petmitr_079",
+    "full_name_th": "ศ. เกียรติคุณ พรทิพย์ เพ็ชรมาก",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาโปรโตซัววิทยา",
+    "email": "songsak.pet@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Songsak-Petmitr.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_khusmith_015",
+    "full_name_th": "ศ.ดร. ศรีสิน คุสุมภ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "srisin.khu@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Srisin-Khusmith.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_supasai_012",
+    "full_name_th": "ดร. สวงสุดา สุภาใส",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "suangsuda.sup@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Suangsuda-Supasai.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_sumruayphol_072",
+    "full_name_th": "รศ.ดร. สุชาดา สำรวยผล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "suchada.sum@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Suchada-Sumruayphol.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_ampawong_120",
+    "full_name_th": "รศ. สุเมธ อำพวง",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิวิทยาเขตร้อน",
+    "email": "sumate.aum@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Sumate-Ampawong.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_sungvornyothin_076",
+    "full_name_th": "ดร. สุงสิทธิ์ สังข์วรโยธิน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "sungsit.sun@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Sungsit-Sungvornyothin.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_topanurak_009",
+    "full_name_th": "ผศ. ศุภชัย โตภานุรักษ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "supachai.top@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Supachai-Topanurak.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_popruk_078",
+    "full_name_th": "รศ.ดร. สุภลักษณ์ ปอปรุฬห์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาโปรโตซัววิทยา",
+    "email": "supaluk.pop@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Supaluk-Popruk.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_phuanukoonnon_129",
+    "full_name_th": "ผศ.ดร. สุภารัตน์ พัวนุคุณนนท์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "คณะเวชศาสตร์เขตร้อน",
+    "email": "suparat.phu@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Suparat-Phuanukoonnon.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_chamnanchanunt_048",
+    "full_name_th": "รศ. สุพัทธ์ ชำนาญจันทร์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "supat.cha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Supat-Chamnanchanunt.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_chatchen_064",
+    "full_name_th": "ผศ.ดร. สุพวัฒน์ ฉัตรเฉิน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชากุมารเวชศาสตร์เขตร้อน",
+    "email": "supawat.cht@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Supawat-Chatchen.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_kamolratanakul_031",
+    "full_name_th": "ผศ.ดร. สุพิชชา กมลรัตนากุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "supitcha.kam@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Supitcha-Kamolratanakul.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_techarang_121",
+    "full_name_th": "อ.ดร. ทัชพล เตชะรัง",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิวิทยาเขตร้อน",
+    "email": "tachpon.tec@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Tachpon-Techarang.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_siripoon_060",
+    "full_name_th": "ดร. ธนญา ศิริพูน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "tanaya.sir@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Tanaya-Siripoon.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_thavorasak_023",
+    "full_name_th": "ดร. เตชิต ถาวรศักดิ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "techit.tha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Techit-Thavorasak.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_kusolsuk_090",
+    "full_name_th": "ผศ. ธีระ กุศลสุข",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิชีววิทยา",
+    "email": "teera.kus@mahidol.edu",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Teera-Kusolsuk.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_denpetkul_128",
+    "full_name_th": "รศ.ดร. ธรรมนิตยพล เด่นเพชรกุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "คณะเวชศาสตร์เขตร้อน",
+    "email": "thammanitchpol.den@mahidol.edu",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Thammanitchpol-Denpetkul.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_phanitchat_075",
+    "full_name_th": "ผศ.ดร. ทิพฤทัย พานิชชาติ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "thipruethai.pha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Thipruethai-phanitchat.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_kitisin_022",
+    "full_name_th": "ผศ.ดร. ฐิติณัฐ ิติสิน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "thitinan.kit@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Thitinan-Kitisin.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_yakasaem_071",
+    "full_name_th": "อ.ดร. ธิติยา ยาคะเสม",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชากุมารเวชศาสตร์เขตร้อน",
+    "email": "thitiya.yak@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Thitiya-Yakasaem.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_silachamroon_049",
+    "full_name_th": "รศ. อุดมศักดิ์ ศิลาจำรูญ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "udomsak.sil@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Udomsak-silachamroon.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_chaisri_119",
+    "full_name_th": "รศ. อุไร ชัยศรี",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิวิทยาเขตร้อน",
+    "email": "urai.cha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Urai-Chaisri.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_thaenkham_086",
+    "full_name_th": "รศ.ดร. อุรุษา แท่นคำ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิชีววิทยา",
+    "email": "urusa.tha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Urusa-Thaenkham.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_boonyuen_006",
+    "full_name_th": "รศ. อุษา บุญยืน",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "usa.boo@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Usa-Boonyuen.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_thanachartwet_042",
+    "full_name_th": "ศ. วิภา ธนชาติเวทย์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "vipa.tha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Vipa-Thanachartwet.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_luvira_030",
+    "full_name_th": "รศ.ดร. วิวรรณ ลูวีระ",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "viravarn.luv@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Viravarn-Luvira.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_nguitragool_007",
+    "full_name_th": "รศ.ดร. หวัง งุ้ยตรากูล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "wang.ngu@mahidol.edu",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Wang-Nguitragool.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_matsee_054",
+    "full_name_th": "ผศ. วศิน มัตซี",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "wasin.mat@mahidol.edu",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Wasin-Matsee.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_piyaphanee_027",
+    "full_name_th": "รศ.ดร. วัชรพงศ์ พียะพันธ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "watcharapong.piy@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Watcharapong-Piyaphanee.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_arunsodsai_066",
+    "full_name_th": "ผศ.ดร. วัชรี อรุณสดใส",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชากุมารเวชศาสตร์เขตร้อน",
+    "email": "watcharee.cho@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Watcharee-Arunsodsai.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_leowattana_033",
+    "full_name_th": "รศ.ดร. วัฒนา เลี่ยววัฒนา",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "wattana.leo@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Wattana-Leowattana.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_hattasingh_063",
+    "full_name_th": "ผศ.ดร. วีรวรรณ หัตถสิงห์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชากุมารเวชศาสตร์เขตร้อน",
+    "email": "weerawan.hat@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Weerawan-Hattasingh.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_chierakul_055",
+    "full_name_th": "ผศ. วิรงรอง เชื้อกุล",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "wirongrong.chi@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Wirongrong-Chierakul.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_panvongsa_139",
+    "full_name_th": "อ.ดร. วิทยา ปานวงษ์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "wittaya.pan@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Wittaya-Panvongsa.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_chancharoenthan_050",
+    "full_name_th": "รศ. วิวัฒน์ ชาญเฉลิมธนา",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "wiwat.cha@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Wiwat-Chancharoenthana.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_limpanont_124",
+    "full_name_th": "ผศ.ดร. ญาณิน ลิมปนทุ่ง",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "คณะเวชศาสตร์เขตร้อน",
+    "email": "yanin.lim@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Yanin-Limpanont.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_maneerat_118",
+    "full_name_th": "รศ. เยาวภา มณีรัตน์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาพยาธิวิทยาเขตร้อน",
+    "email": "yaowapa.man@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/Yaowapa-Maneerat.php"
+  },
+  {
+    "id": "mahidoluni_facultyoft_tungtrongchitr_135",
+    "full_name_th": "ศ.ดร. รังสรรค์ จึงตรงจิตต์",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": "rungsunn.tun@mahidol.ac.th",
+    "source": "https://www.tm.mahidol.ac.th/tropmed-staff/rungsunn-tun/Rungsunn-Tungtrongchitr-Expertise.php"
+  },
+  {
+    "id": "tu_5765376e_5669",
+    "full_name_th": "อ.ดร. เอกชล มุกดา",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "ekkmukda@tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=%e0%b8%94%e0%b8%a3-%e0%b9%80%e0%b8%ad%e0%b8%81%e0%b8%8a%e0%b8%a5-%e0%b8%a1%e0%b8%b8%e0%b8%81%e0%b8%94%e0%b8%b2"
+  },
+  {
+    "id": "tu_e323d8f2_9762",
+    "full_name_th": "ผศ. ปิยาภา แก้วอุทาน",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "piyapa.k@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=294"
+  },
+  {
+    "id": "tu_378d0ef8_2719",
+    "full_name_th": "ผศ.ดร. ไข่มุกด์ ช่างศรี",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "khaimuk.c@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=321"
+  },
+  {
+    "id": "tu_78332273_2711",
+    "full_name_th": "ผศ.ดร. เอนก ภู่ทอง",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "anek.p@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=anek-phuthong"
+  },
+  {
+    "id": "tu_5200d1b2_4797",
+    "full_name_th": "อ. เฉลิมพงศ์ ไพนุพงศ์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "chalermpong.p@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=chalermpong-pinupong"
+  },
+  {
+    "id": "tu_67db83a3_7415",
+    "full_name_th": "อ.ดร. ฌลณต เกษตร",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "chollanot.k@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=chollanot-kaset"
+  },
+  {
+    "id": "tu_58504fd1_7364",
+    "full_name_th": "ผศ. ชวนพิศ บุญเกิด",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "chuanpis.b@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=chuanpis-boonkerd"
+  },
+  {
+    "id": "tu_4a34be8f_3890",
+    "full_name_th": "อ.ดร. ดุษฎี สุทโธ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชารังสีเทคนิค",
+    "email": "dutsadee.s@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=dutsadee-suttho"
+  },
+  {
+    "id": "tu_5671dd53_0452",
+    "full_name_th": "ดร. หิรัญญา",
+    "repaired_full_name_th": "รศ.ดร. หิรัญญา ศรีธาตุ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "hiranya.s@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=hiranya-sritart"
+  },
+  {
+    "id": "tu_6de9cebe_3594",
+    "full_name_th": "ผศ.ดร. จิตานันท์ เหล่าศิริไพศาล",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "jitanan.l@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=jitanan-laosiripisan"
+  },
+  {
+    "id": "tu_429b1581_8215",
+    "full_name_th": "ผศ.ดร. กัญญาณัฐ เปี่ยมงาม",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "kanyanath.p@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=kanyanath-plumngam"
+  },
+  {
+    "id": "tu_411a4a15_2500",
+    "full_name_th": "ผศ. การันต์ พงษ์พานิช",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "karan.p@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=karan-pongpanit"
+  },
+  {
+    "id": "tu_e726c446_5807",
+    "full_name_th": "ผศ.ดร. เกษรา รักษ์พงษ์สิริ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "kesara.r@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=kedsara-rakpongsiri"
+  },
+  {
+    "id": "tu_4aca8d5f_1738",
+    "full_name_th": "ผศ. กฤษณา ครุฑนาค",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "kitsana.k@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=kitsana-krootnark"
+  },
+  {
+    "id": "tu_5bea82c0_3338",
+    "full_name_th": "รศ.ดร. กรอนงค์ ยืนยงชัยวัฒน์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "kornanong.y@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=kornanong-yuenyongchaiwat"
+  },
+  {
+    "id": "tu_250e75d4_9883",
+    "full_name_th": "อ.ดร. นริสา เก่งตรง บดีรัฐ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "narisa.k@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=narisa-kengtrong-bordeerat"
+  },
+  {
+    "id": "tu_17d1b22c_8119",
+    "full_name_th": "อ. ณัฐชยาภรณ์ โทนะพันธ์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชารังสีเทคนิค",
+    "email": "natchayaporn.t@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=natchayaporn-thonapan"
+  },
+  {
+    "id": "tu_b3251a1a_8975",
+    "full_name_th": "ผศ. นวลพรรณ แสงเพชร",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "naunpun.n@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=naunpun-sangphech"
+  },
+  {
+    "id": "tu_2a658b55_1297",
+    "full_name_th": "อ. นพวรรณ จารุสุสินธ์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "noppawan.c@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=noppawan-charususin"
+  },
+  {
+    "id": "tu_18c6668d_3925",
+    "full_name_th": "รศ.ดร. นพพล ประโมทยกุล",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "noppol.p@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=noppol-pramodhyakul"
+  },
+  {
+    "id": "tu_639d4a29_9031",
+    "full_name_th": "อ. ณัฏฐพร ประดิษฐพจน์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "nuttaporn.p@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=nuttaporn-praditpod"
+  },
+  {
+    "id": "tu_79ac7a0a_1642",
+    "full_name_th": "ผศ.ดร. อรฤดี ขันติสิทธิพร",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "onruedee.k@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=onruedee-khantisitthiporn"
+  },
+  {
+    "id": "tu_651a4139_1203",
+    "full_name_th": "ผศ.ดร. พัชรี คุณค้ำชู",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "patcharee.k@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=patcharee-kooncumchoo"
+  },
+  {
+    "id": "tu_f3eb6ae6_0404",
+    "full_name_th": "อ. ผ่องพรรณ ตันติพูล",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "phongpan.t@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=phongpan-tantipoon"
+  },
+  {
+    "id": "tu_37991aa4_4542",
+    "full_name_th": "ผศ. พิไลวรรณ ศิริพฤกษ์พงษ์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "pilaiwan.s@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=pilaiwan-siripurkpong"
+  },
+  {
+    "id": "tu_6a3b3f2d_7399",
+    "full_name_th": "ผศ.ดร. พินัยลัค ตันติลีปิกร เอิร์ด",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "pinailug.e@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=pinailug-tantilipikorn-earde"
+  },
+  {
+    "id": "tu_5f0280c3_3308",
+    "full_name_th": "รศ.ดร. ไพลวรรณ สัทธานนท์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "plaiwan.s@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=plaiwan-suttanon"
+  },
+  {
+    "id": "tu_606a9742_1534",
+    "full_name_th": "อ.ดร. ปรเมศร์ เอิร์ด",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "poramet.e@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=poramet-earde"
+  },
+  {
+    "id": "tu_5df19b38_8833",
+    "full_name_th": "ผศ.ดร. ปรียาภรณ์ สองศร",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "preeyaphorn.s@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=preeyaphorn-songsorn"
+  },
+  {
+    "id": "tu_656b4b6c_5988",
+    "full_name_th": "อ.ดร. ปฤณภัก มหาทรัพย์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "prinnapak.m@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=prinnapak-mahasup"
+  },
+  {
+    "id": "tu_44c8cb05_6244",
+    "full_name_th": "ผศ.ดร. สันทณี เครือขอน",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "santhanee.k@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=santhanee-khruakhorn"
+  },
+  {
+    "id": "tu_169da454_9893",
+    "full_name_th": "อ. ศศิภา บูรณพันธฤกษ์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "sasipa.b@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=sasipa-buranapuntalug"
+  },
+  {
+    "id": "tu_574984de_3354",
+    "full_name_th": "อ.ดร. สว่าง เพชรวิเศษ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "sawang.p@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=sawang-petvises"
+  },
+  {
+    "id": "tu_443e9b64_8338",
+    "full_name_th": "อ.ดร. สิริลักษณ์ กาญจโนมัย",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "siriluck.c@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=siriluck-kanchanomai"
+  },
+  {
+    "id": "tu_3e579247_5022",
+    "full_name_th": "อ. สิรินารถ ชูเมียน",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "sirinat.c@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=sirinart-chomean"
+  },
+  {
+    "id": "tu_57924e58_9988",
+    "full_name_th": "รศ. สมชาติ แตรตุลาการ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "somchat@tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=somchat-taertulakar"
+  },
+  {
+    "id": "tu_7576f9d3_9086",
+    "full_name_th": "อ. นางสาวโสวิชญา หัวคำ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชารังสีเทคนิค",
+    "email": "sowitchaya.h@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=sowitchaya-huakham"
+  },
+  {
+    "id": "tu_7909f9e3_7871",
+    "full_name_th": "ผศ.ดร. สุดาวดี คงขำ",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "sudawadee.k@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=sudawadee-kongkhum"
+  },
+  {
+    "id": "tu_1e1bf9a4_9760",
+    "full_name_th": "ผศ. สุขวิดา มโนรังสรรค์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "sukwida.m@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=sukwida-manorungsan"
+  },
+  {
+    "id": "tu_6d9e7108_9058",
+    "full_name_th": "อ. ธีรพัฒน์ ลัดดาวงศ์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "teerapat.l@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=teerapat-laddawong"
+  },
+  {
+    "id": "tu_5636d763_5376",
+    "full_name_th": "อ. ธนวัฒน์ กิจสุขสันต์",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชากายภาพบำบัด",
+    "email": "thanawat.k@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=thanawat-kitsuksan"
+  },
+  {
+    "id": "tu_67599d7c_0839",
+    "full_name_th": "อ.ดร. วัลลภา ใช้บางยาง",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชาเทคนิคการแพทย์",
+    "email": "wanlapa.c@allied.tu.ac.th",
+    "source": "https://allied.tu.ac.th/cv/?professor=wanlapa-chaibangyang"
+  }
+]

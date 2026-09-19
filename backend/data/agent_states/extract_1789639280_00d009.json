@@ -1,0 +1,20 @@
+{
+  "session_id": "extract_1789639280_00d009",
+  "target_university_th": "มหาวิทยาลัยนเรศวร",
+  "target_university_en": "Naresuan University",
+  "target_faculty_th": "คณะสหเวชศาสตร์",
+  "target_faculty_en": "Faculty of Allied Health Sciences",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.ahs.nu.ac.th/",
+    "https://www.nu.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 968,
+  "status": "completed",
+  "last_error": null
+}

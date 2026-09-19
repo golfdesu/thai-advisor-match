@@ -1,0 +1,717 @@
+{
+  "apply": false,
+  "total_valid_email_items": 351,
+  "updated_emails": [
+    {
+      "id": "kmitl_aad_wave16_0049",
+      "full_name_th": "ผศ.ดร. ถิรายุ ชุมสาย ณ อยุธยา",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "thirayu.ju@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/asst-prof-dr-thirayu/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0065",
+      "full_name_th": "ผศ.ดร. สมพิศ ฟูสกุล",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "sompit.fu@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/asst-prof-dr-sompit/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0063",
+      "full_name_th": "ผศ.ดร. ญาดา ชวาลกุล",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "yada.ch@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/asst-prof-dr-yada/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0031",
+      "full_name_th": "ผศ. พิเชฐ โสวิทยสกุล",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "kspichat@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/asst-prof-piches/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0069",
+      "full_name_th": "ผศ.ดร. วัชราธร เพ็ญศศิธร",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "watcharatorn.pe@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/asst-dr-watcharatorn/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0087",
+      "full_name_th": "ดร. มนวดี ศิริเปรมฤดี",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "monvadee.si@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/t-monwadee/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0026",
+      "full_name_th": "ผศ.ดร. พรพุฒิ ศุภเอม",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "kspornph@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/t-phornput/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0023",
+      "full_name_th": "รศ. ชนินทร์ ทิพโยภาส",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "ktchanin@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/assoc-prof-chanin/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0022",
+      "full_name_th": "รศ. วรวรรณ โรจนไพบูลย์",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "worawan.ro@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/assoc-prof-warawan/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0109",
+      "full_name_th": "ผศ. วุฒิกร คงคา",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "fineart02@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/asst-prof-wuttikorn/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0124",
+      "full_name_th": "อ. มงคล เกิดวัน",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "kemongko@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/t-mongkol/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0005",
+      "full_name_th": "รศ. วีระยุต ขุ้ยศร",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "wirayut.ku@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/assoc-prof-weerayut/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0083",
+      "full_name_th": "รศ.ดร. กิตติชัย เกษมศานติ์",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "kittichai.ka@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/asst-prof-dr-kittichai/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0120",
+      "full_name_th": "ผศ. ยุทธนา นิ่มเกตุ",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "knyuttan@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/asst-prof-yuttana/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0117",
+      "full_name_th": "ผศ. ชัชวาล อ่ำสมคิด",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "jubjojobar@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/asst-prof-chatchawarn/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0043",
+      "full_name_th": "อ. อนุรักษ์ ศรีสวัสดิ์",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "ksanurak@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/t-anuruck/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0147",
+      "full_name_th": "รศ.ดร. อมร กฤษณพันธุ์",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "kkamorn@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/assoc-prof-dr-amorn/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "kmitl_aad_wave16_0102",
+      "full_name_th": "ศ. สุรพงษ์ สมสุข",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty_th": "คณะสถาปัตยกรรม ศิลปะและการออกแบบ",
+      "department_th": "สถาปัตยกรรม ศิลปะและการออกแบบ",
+      "new_email": "kosurapo@kmitl.ac.th",
+      "profile_url": "https://www.aad.kmitl.ac.th/our_team/prof-suraphong/",
+      "cluster": "KMITL Architecture"
+    },
+    {
+      "id": "chulalongk_facultyofp_phuapansawat_046",
+      "full_name_th": "ผศ.ดร. กรพินธุ์ พัวพันสวัสดิ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะรัฐศาสตร์",
+      "department_th": "ภาควิชาความสัมพันธ์ระหว่างประเทศ",
+      "new_email": "khorapin.p@chula.ac.th",
+      "profile_url": "https://www.polsci.chula.ac.th/content/view?pid=8&ref=CLNhhqwkt0",
+      "cluster": "Chula Pol Sci"
+    },
+    {
+      "id": "chulalongk_facultyofp_rukumnuaykit_050",
+      "full_name_th": "ศ.ดร. ปังปอนด์ รักอํานวยกิจ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะรัฐศาสตร์",
+      "department_th": "ภาควิชารัฐประศาสนศาสตร์",
+      "new_email": "pungpond.r@chula.ac.th",
+      "profile_url": "https://www.polsci.chula.ac.th/content/view?pid=8&ref=MgBN8swXcf",
+      "cluster": "Chula Pol Sci"
+    },
+    {
+      "id": "chulalongk_facultyofp_rojananon_054",
+      "full_name_th": "ผศ.ดร. ชฎิล โรจนานนท์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะรัฐศาสตร์",
+      "department_th": "ภาควิชารัฐประศาสนศาสตร์",
+      "new_email": "chadin.r@chula.ac.th",
+      "profile_url": "https://www.polsci.chula.ac.th/content/view?pid=8&ref=Mwi1t9Ljwz",
+      "cluster": "Chula Pol Sci"
+    },
+    {
+      "id": "cmu_eng_department_parida_8",
+      "full_name_th": "รศ.ดร. ปริดา จิ๋วปัญญา",
+      "university_th": "มหาวิทยาลัยเชียงใหม่",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "new_email": "parida.jewpanya@cmu.ac.th",
+      "profile_url": "https://ie.eng.cmu.ac.th/people/faculty/291",
+      "cluster": "CMU Engineering"
+    },
+    {
+      "id": "chulalongk_instituteo_sindhupun_003",
+      "full_name_th": "ผศ.ดร. จิรยุทธ์ สินธุพันธุ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "สถาบันเอเชียศึกษา",
+      "new_email": "jirayudh.s@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_thienthong_004",
+      "full_name_th": "ดร. ดลยา เทียนทอง",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "สถาบันเอเชียศึกษา",
+      "new_email": "dollaya.t@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_borompichaichar_006",
+      "full_name_th": "รศ.ดร. ชาลีดา บรมพิชัยชาติกุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ภาควิชาเทคโนโลยีทางอาหาร",
+      "new_email": "chaleeda.b@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_aree_007",
+      "full_name_th": "ดร. ศราวุฒิ อารีย์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "สถาบันเอเชียศึกษา",
+      "new_email": "srawut.a@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_nukitrungsan_010",
+      "full_name_th": "ดร. กุลนรี นุกิจรังสรรค์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์จีนศึกษา",
+      "new_email": "kulnaree.n@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_chantharapaha_011",
+      "full_name_th": "ดร. กรองจันทน์ จันทรพาหา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์จีนศึกษา",
+      "new_email": "krongchan.c@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_chaiakup_013",
+      "full_name_th": "ดร. รัชดา ไชยคุปต์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์วิจัยการย้ายถิ่นแห่งเอเชีย",
+      "new_email": "ratchada.ja@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_vangsiripaisal_015",
+      "full_name_th": "ดร. เปรมใจ วังศิริไพศาล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์วิจัยการย้ายถิ่นแห่งเอเชีย",
+      "new_email": "premjai.v@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_charoensilp_016",
+      "full_name_th": "ดร. พิมพ์มาดา เจริญศิลป์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์วิจัยการย้ายถิ่นแห่งเอเชีย",
+      "new_email": "pimmada.c@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_prateepwattanaw_017",
+      "full_name_th": "ดร. มุกดา ประทีปวัฒนะวงศ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์แม่โขงศึกษา",
+      "new_email": "mukda.p@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_lohpatananont_018",
+      "full_name_th": "ดร. ฐณยศ โล่ห์พัฒนานนท์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์แม่โขงศึกษา",
+      "new_email": "thanayod.l@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_yama_020",
+      "full_name_th": "ดร. อารีฝีน ยามา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์มุสลิมศึกษา",
+      "new_email": "arifeen.y@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_mugem_021",
+      "full_name_th": "ดร. อับดุรเราะฮหมาน มูเก็ม",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์เอเชียใต้ศึกษา",
+      "new_email": "abdunrohman.m@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_guo_022",
+      "full_name_th": "ดร. เหวินซวน กัว",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์เอเชียใต้ศึกษา",
+      "new_email": "wenxuan.g@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_srisawat_024",
+      "full_name_th": "ดร. วรวัฒน์ ศรีสวัสดิ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์พหุวัฒนธรรมศึกษาและนวัตกรรมทางสังคม",
+      "new_email": "worawat.sr@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_vipavakul_025",
+      "full_name_th": "ดร. กฤตพล วิภาวีกุล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์ญี่ปุ่น-อาเซียนศึกษา",
+      "new_email": "krittaphol.v@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_instituteo_barthel_026",
+      "full_name_th": "ดร. อเล็กซองดร์ บาร์แตล",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "สถาบันเอเชียศึกษา",
+      "department_th": "ศูนย์ญี่ปุ่น-อาเซียนศึกษา",
+      "new_email": "alexandrelaurentarnaud.b@chula.ac.th",
+      "profile_url": "http://www.ias.chula.ac.th/personnel/",
+      "cluster": "Chula Asian Studies"
+    },
+    {
+      "id": "chulalongk_facultyofv_wangdee_040",
+      "full_name_th": "รศ. สพ.ญ. ดร. ชาลิกา หวังดี",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "ภาควิชาศัลยศาสตร์",
+      "new_email": "chalika.w@chula.ac.th",
+      "profile_url": "https://www.vet.chula.ac.th/researcher_info/44",
+      "cluster": "Chula Veterinary Science"
+    },
+    {
+      "id": "chulalongk_facultyofv_hunprasit_140",
+      "full_name_th": "ผศ. น.สพ. ดร. วชิรา หุ่นประสิทธิ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "ภาควิชาอายุรศาสตร์",
+      "new_email": "vachira.h@chula.ac.th",
+      "profile_url": "https://www.vet.chula.ac.th/researcher_info/49",
+      "cluster": "Chula Veterinary Science"
+    },
+    {
+      "id": "chulalongk_facultyofv_techangamsuwan_114",
+      "full_name_th": "ศ. สพ.ญ. ดร. สมพร เตชะงามสุวรรณ",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "ภาควิชาพยาธิวิทยา",
+      "new_email": "somporn.t@chula.ac.th",
+      "profile_url": "https://www.vet.chula.ac.th/researcher_info/57",
+      "cluster": "Chula Veterinary Science"
+    },
+    {
+      "id": "chulalongk_facultyofv_kaewamatawong_119",
+      "full_name_th": "รศ. น.สพ. ดร. ธีระยุทธ แก้วอมตวงศ์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "หน่วยพยาธิวิทยา",
+      "new_email": "theerayuth.k@chula.ac.th",
+      "profile_url": "https://www.vet.chula.ac.th/researcher_info/65",
+      "cluster": "Chula Veterinary Science"
+    },
+    {
+      "id": "chulalongk_facultyofv_pirarat_021",
+      "full_name_th": "ศ. น.สพ. ดร. นพดล พิฬารัตน์",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": null,
+      "new_email": "nopadon.p@chula.ac.th",
+      "profile_url": "https://www.vet.chula.ac.th/researcher_info/66",
+      "cluster": "Chula Veterinary Science"
+    },
+    {
+      "id": "chulalongk_facultyofv_kadangnga_044",
+      "full_name_th": "ผศ. สพ.ญ. ดร. กฤชพร กระดังงา",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "ภาควิชาศัลยศาสตร์",
+      "new_email": "krishaporn.k@chula.ac.th",
+      "profile_url": "https://www.vet.chula.ac.th/researcher_info/81",
+      "cluster": "Chula Veterinary Science"
+    },
+    {
+      "id": "chulalongk_facultyofv_komin_038",
+      "full_name_th": "ผศ. น.สพ. เกียรติพิเชษฐ์ โคมิน",
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "faculty_th": "คณะสัตวแพทยศาสตร์",
+      "department_th": "ภาควิชาศัลยศาสตร์",
+      "new_email": "kiatpichet.k@chula.ac.th",
+      "profile_url": "https://www.vet.chula.ac.th/researcher_info/116",
+      "cluster": "Chula Veterinary Science"
+    },
+    {
+      "id": "ubonratcha_facultyofp_butsri_016",
+      "full_name_th": "อ.ดร. ศิริวุฒิ บุตรศรี",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาชีวเภสัชศาสตร์",
+      "new_email": "siriwoot.b@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/NDgx",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_chuengwattanako_036",
+      "full_name_th": "ผศ.ดร. ภก. ทวีศักดิ์ จึงวัฒนตระกูล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม",
+      "new_email": "thaweesak.j@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MTI0",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_dongtai_042",
+      "full_name_th": "อ.ดร. ภญ. วันนิศา ดงใต้",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "wannisa.d@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MTIx",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_homhuan_039",
+      "full_name_th": "ผศ.ดร. ภญ. สุดารัตน์ หอมหวล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม",
+      "new_email": "sudarat.h@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/NzY=",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_hongthong_008",
+      "full_name_th": "อ.ดร. ภญ. จุฑามาศ หงษ์ทอง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาชีวเภสัชศาสตร์",
+      "new_email": "juthamas.c@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MTIz",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_jaksupa_007",
+      "full_name_th": "อ.ดร. ภก. ณรงค์ชัย จักษุพา",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาชีวเภสัชศาสตร์",
+      "new_email": "narongchai.c@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MzE0",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_kunwaradisai_051",
+      "full_name_th": "ผศ.ดร. ภญ. น้องเล็ก คุณวราดิศัย",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "nonglek.k@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/Mzg=",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_lapmark_046",
+      "full_name_th": "อ. ภญ. อัญมณี ลาภมาก",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "anyamanee.l@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MzI2",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_nettong_062",
+      "full_name_th": "ผศ.ดร. ภญ. รจเรศ เนตรทอง",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "rojjares.n@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/Mzc0",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_pholtham_060",
+      "full_name_th": "อ. ภก. ดุรงค์กร พลทม",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "durongkorn.p@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/NDMw",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_prasanphan_041",
+      "full_name_th": "อ.ดร. ภก. ศักดิ์สกล ปรัสพันธ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "saksakol.p@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MTE1",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_preprem_011",
+      "full_name_th": "ผศ.ดร. ภญ. ธนวดี ปรีเปรม",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาชีวเภสัชศาสตร์",
+      "new_email": "thanawadee.p@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/ODg=",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_sanguanboonpong_057",
+      "full_name_th": "ผศ. ภญ. พิชญ์จิรา สงวนบุญญพงษ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "phitjira.s@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/Mzcz",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_sasibunya_021",
+      "full_name_th": "อ. ภญ. ลลิตา ศศิบุญญา",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม",
+      "new_email": "lalita.s@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/NTg3",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_senarat_017",
+      "full_name_th": "อ.ดร. ภก. เศรษฐพงศ์ เสนารัตน์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม",
+      "new_email": "setthapong.s@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/NTA3",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_silppipat_028",
+      "full_name_th": "อ. ภก. พลพันธ์ ศิลปพิบูลย์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม",
+      "new_email": "polpan.s@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/NDk2",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_sripa_058",
+      "full_name_th": "อ.ดร. ภก. ศักดิ์สิทธิ์ ศรีภา",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "saksit.s@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/NjM=",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_srithananuwat_012",
+      "full_name_th": "ผศ.ดร. ภญ. ไพจิตร ศรีธนานุวัฒน์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาชีวเภสัชศาสตร์",
+      "new_email": "phaijit.s@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MTA0",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_sutthipan_038",
+      "full_name_th": "ผศ.ดร. ภญ. นิธิมา สุทธิพันธุ์",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม",
+      "new_email": "nitima.s@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MzIx",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_suwannakul_043",
+      "full_name_th": "อ.ดร. ภญ. สุทธาสินี สุวรรณกุล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "suttasinee.s@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MTI5",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_techangoon_045",
+      "full_name_th": "อ. ภญ. พนัชกร เตชอังกูร",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "phanutgorn.t@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/NDE1",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_waiwut_002",
+      "full_name_th": "รศ.ดร. พรทิพย์ ไววุฒิ",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาชีวเภสัชศาสตร์",
+      "new_email": "porntip.w@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/NTI=",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_wattanapitchaya_059",
+      "full_name_th": "อ.ดร. ภก. อนุวัฒน์ วัฒนพิชญากูล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ",
+      "new_email": "anuwat.w@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MzE1",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_wongveerakul_014",
+      "full_name_th": "อ.ดร. พงศ์ปณต วงศ์วีรกูล",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาชีวเภสัชศาสตร์",
+      "new_email": "pongpanot.w@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/NTYx",
+      "cluster": "UBU Pharmacy"
+    },
+    {
+      "id": "ubonratcha_facultyofp_yingngam_034",
+      "full_name_th": "รศ.ดร. ภก. บัญชา ยิ่งงาม",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม",
+      "new_email": "bancha.y@ubu.ac.th",
+      "profile_url": "https://phar.ubu.ac.th/main/profile/MTAz",
+      "cluster": "UBU Pharmacy"
+    }
+  ],
+  "embedding_texts_rebuilt": 42
+}

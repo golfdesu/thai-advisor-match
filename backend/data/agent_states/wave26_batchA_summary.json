@@ -1,0 +1,252 @@
+{
+  "batch": "wave26_batchA_browser_only",
+  "db_commit": false,
+  "units": [
+    {
+      "key": "wave26_mu_rilca",
+      "faculty_th": "สถาบันวิจัยภาษาและวัฒนธรรมเอเชีย (RILCA)",
+      "seeds": [
+        "https://rilca.mahidol.ac.th/",
+        "https://rilca.mahidol.ac.th/en/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_rilca_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_rilca.json",
+      "status": "partial",
+      "per_url": [
+        {
+          "url": "https://rilca.mahidol.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=545342",
+          "added": 0
+        },
+        {
+          "url": "https://rilca.mahidol.ac.th/en/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_thin_or_block_page",
+          "added": 0
+        }
+      ],
+      "failed_urls": [
+        "https://rilca.mahidol.ac.th/en/"
+      ]
+    },
+    {
+      "key": "wave26_mu_molecular",
+      "faculty_th": "สถาบันชีววิทยาศาสตร์โมเลกุล",
+      "seeds": [
+        "https://mb.mahidol.ac.th/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_molecular_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_molecular.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://mb.mahidol.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=333892",
+          "added": 0
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave26_mu_sport",
+      "faculty_th": "วิทยาลัยวิทยาศาสตร์และเทคโนโลยีการกีฬา",
+      "seeds": [
+        "https://ss.mahidol.ac.th/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_sport_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_sport.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://ss.mahidol.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=4238",
+          "added": 0
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave26_mu_la",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "seeds": [
+        "https://la.mahidol.ac.th/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_la_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_la.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://la.mahidol.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=14342",
+          "added": 0
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave26_mu_bart",
+      "faculty_th": "คณะวิศวกรรมศาสตร์ ภาควิชาวิศวกรรมชีวการแพทย์ (BART LAB)",
+      "seeds": [
+        "https://eg.mahidol.ac.th/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_bart_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_bart.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://eg.mahidol.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=8723",
+          "added": 0
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave26_mu_ipsr",
+      "faculty_th": "สถาบันวิจัยประชากรและสังคม (IPSR)",
+      "seeds": [
+        "https://ipsr.mahidol.ac.th/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_ipsr_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_mu_ipsr.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://ipsr.mahidol.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=326219",
+          "added": 0
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave26_nida_env",
+      "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "seeds": [
+        "https://edm.nida.ac.th/",
+        "https://nida.ac.th/"
+      ],
+      "verified_count": 5,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_nida_env_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_nida_env.json",
+      "status": "partial",
+      "per_url": [
+        {
+          "url": "https://edm.nida.ac.th/",
+          "attempts": 2,
+          "ok": false,
+          "reason": "browser_empty_or_exception",
+          "added": 0
+        },
+        {
+          "url": "https://nida.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=444976",
+          "added": 5
+        }
+      ],
+      "failed_urls": [
+        "https://edm.nida.ac.th/"
+      ]
+    },
+    {
+      "key": "wave26_nida_econ",
+      "faculty_th": "คณะพัฒนาเศรษฐกิจ",
+      "seeds": [
+        "https://econ.nida.ac.th/"
+      ],
+      "verified_count": 0,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_nida_econ_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_nida_econ.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://econ.nida.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=121819",
+          "added": 0
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave26_nida_gspa",
+      "faculty_th": "คณะรัฐประศาสนศาสตร์",
+      "seeds": [
+        "https://gspa.nida.ac.th/",
+        "https://gspa.nida.ac.th/en/faculty-member/"
+      ],
+      "verified_count": 25,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_nida_gspa_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_nida_gspa.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://gspa.nida.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=472167",
+          "added": 3
+        },
+        {
+          "url": "https://gspa.nida.ac.th/en/faculty-member/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=255295",
+          "added": 22
+        }
+      ],
+      "failed_urls": []
+    },
+    {
+      "key": "wave26_nida_bus",
+      "faculty_th": "คณะบริหารธุรกิจ (NIDA Business School)",
+      "seeds": [
+        "https://mba.nida.ac.th/",
+        "https://mba.nida.ac.th/en/about/professor/"
+      ],
+      "verified_count": 20,
+      "export_path": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_nida_bus_export.py",
+      "checkpoint": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave26_nida_bus.json",
+      "status": "bypassed",
+      "per_url": [
+        {
+          "url": "https://mba.nida.ac.th/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=426663",
+          "added": 0
+        },
+        {
+          "url": "https://mba.nida.ac.th/en/about/professor/",
+          "attempts": 1,
+          "ok": true,
+          "reason": "render_ok_html_chars=340442",
+          "added": 20
+        }
+      ],
+      "failed_urls": []
+    }
+  ]
+}

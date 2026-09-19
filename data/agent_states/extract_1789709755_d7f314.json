@@ -1,0 +1,51 @@
+{
+  "session_id": "extract_1789709755_d7f314",
+  "target_university_th": "มหาวิทยาลัยขอนแก่น",
+  "target_university_en": "Khon Kaen University",
+  "target_faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+  "target_faculty_en": "Faculty of Humanities and Social Sciences",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://huso.kku.ac.th/",
+    "https://www.kku.ac.th/",
+    "https://phonedirectory.kku.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "khonkaenun_facultyofh_songpan_001": {
+      "id": "khonkaenun_facultyofh_songpan_001",
+      "university": "Khon Kaen University",
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "faculty": "Faculty of Humanities and Social Sciences",
+      "faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Wararat",
+      "last_name": "Songpan",
+      "full_name": "Wararat Songpan",
+      "full_name_th": "รศ.ดร. วรารัตน์ สงฆ์แป้น",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "AI",
+        "Quantum"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "วรารัตน์ สงฆ์แป้น": "khonkaenun_facultyofh_songpan_001"
+  },
+  "dedup_emails": {},
+  "step_count": 3,
+  "total_tokens_used": 4292,
+  "status": "completed",
+  "last_error": null
+}

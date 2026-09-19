@@ -1,0 +1,22 @@
+{
+  "session_id": "extract_1789647726_680cfc",
+  "target_university_th": "มหาวิทยาลัยแม่โจ้",
+  "target_university_en": "Maejo University",
+  "target_faculty_th": "วิทยาลัยพลังงานทดแทน",
+  "target_faculty_en": "School of Renewable Energy",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.mju.ac.th/"
+  ],
+  "failed_urls": [
+    "https://erdi.mju.ac.th/",
+    "https://energy.mju.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 459,
+  "status": "completed",
+  "last_error": null
+}

@@ -423,27 +423,25 @@ export default function Home() {
       />
 
       {/* New Academic Command Center hero */}
-      <section className="relative overflow-hidden border-b border-[var(--theme-border)] bg-[var(--theme-bg-subtle)]">
-        <div aria-hidden="true" className="pointer-events-none absolute -right-32 -top-40 h-96 w-96 rounded-full bg-[var(--theme-primary)]/10 blur-3xl" />
-        <div aria-hidden="true" className="pointer-events-none absolute -bottom-48 left-1/3 h-96 w-96 rounded-full bg-[var(--theme-accent)]/10 blur-3xl" />
+      <section className="hero-shell relative overflow-hidden border-b border-[var(--theme-border)]">
 
-        <div className="relative mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.1fr_.9fr] lg:gap-16 lg:px-8 lg:py-20">
+        <div className="relative mx-auto grid max-w-[1440px] gap-7 px-4 py-8 sm:gap-10 sm:px-6 sm:py-12 lg:grid-cols-[1.1fr_.9fr] lg:gap-16 lg:px-8 lg:py-20">
           <div className="flex flex-col justify-center">
-            <div className="mb-5 inline-flex w-fit items-center gap-2 rounded-full border border-[var(--theme-primary-border)] bg-[var(--theme-primary-subtle)] px-3.5 py-1.5 text-xs font-black text-[var(--theme-primary)]">
+            <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-[var(--theme-primary-border)] bg-[var(--theme-primary-subtle)] px-3 py-1 text-[11px] font-black text-[var(--theme-primary)] sm:mb-5 sm:px-3.5 sm:py-1.5 sm:text-xs">
               <Sparkles size={14} className="text-[var(--theme-accent)]" aria-hidden="true" />
               <span>หลักสูตร · อาจารย์ · ห้องวิจัย</span>
             </div>
 
-            <h1 className="max-w-3xl text-4xl font-black leading-[1.08] tracking-tight text-[var(--theme-text-title)] sm:text-6xl">
+            <h1 className="max-w-3xl text-3xl font-black leading-[1.12] tracking-tight text-[var(--theme-text-title)] sm:text-6xl sm:leading-[1.08]">
               วางแผนอนาคตทางการศึกษา
-              <span className="mt-2 block text-[var(--theme-primary)]">ด้วยข้อมูลที่ใช่สำหรับคุณ</span>
+              <span className="mt-1.5 block text-[var(--theme-primary)] sm:mt-2">ด้วยข้อมูลที่ใช่สำหรับคุณ</span>
             </h1>
-            <p className="mt-6 max-w-2xl text-base font-medium leading-relaxed text-[var(--theme-text-muted)] sm:text-lg">
+            <p className="mt-4 max-w-2xl text-sm font-medium leading-relaxed text-[var(--theme-text-muted)] sm:mt-6 sm:text-lg">
               ค้นหาหลักสูตร อาจารย์ที่ปรึกษา และห้องวิจัยจากคำค้นเดียว แล้วดูผลที่เกี่ยวข้องกับเป้าหมายการเรียนหรือหัวข้อวิจัยของคุณ
             </p>
 
-            <div className="mt-8 rounded-[1.75rem] border border-[var(--theme-border)] bg-[var(--theme-card)] p-3 shadow-xl shadow-[var(--theme-primary-glow)]/10 sm:p-4">
-              <div role="tablist" aria-label="ประเภทการค้นหา" className="grid grid-cols-3 gap-1 rounded-2xl bg-[var(--theme-card-subtle)] p-1">
+            <div className="search-panel mt-6 rounded-2xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-2.5 sm:mt-8 sm:p-4">
+              <div role="tablist" aria-label="ประเภทการค้นหา" className="grid grid-cols-3 gap-1 rounded-xl bg-[var(--theme-card-subtle)] p-1 sm:rounded-2xl">
                 {([
                   ["courses", BookOpen, "หลักสูตร"],
                   ["advisors", Users, "อาจารย์ที่ปรึกษา"],
@@ -457,7 +455,7 @@ export default function Home() {
                       setActiveTab(tab);
                       executeSearch(searchQuery, selectedUni, selectedDegree, tab);
                     }}
-                    className={`flex min-h-11 items-center justify-center gap-2 rounded-xl px-2 py-2.5 text-xs font-black transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] sm:text-sm ${
+                    className={`flex min-h-10 items-center justify-center gap-1 rounded-lg px-1.5 py-2 text-[11px] font-black transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] sm:min-h-11 sm:gap-2 sm:rounded-xl sm:px-2 sm:py-2.5 sm:text-sm ${
                       activeTab === tab
                         ? "bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-md"
                         : "text-[var(--theme-text-muted)] hover:bg-[var(--theme-card)] hover:text-[var(--theme-text-title)]"
@@ -485,7 +483,7 @@ export default function Home() {
                       : "เช่น Robotics, Clean Energy, Genomics"
                   }
                   aria-label="ค้นหาหลักสูตร อาจารย์ หรือห้องวิจัย"
-                  className="min-h-14 w-full rounded-2xl border border-[var(--theme-border)] bg-[var(--theme-bg)] pl-12 pr-32 text-sm font-semibold text-[var(--theme-text-title)] placeholder:text-[var(--theme-text-muted)] focus:border-[var(--theme-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)]/25 sm:text-base"
+                  className="min-h-12 w-full rounded-xl border border-[var(--theme-border)] bg-[var(--theme-bg)] pl-11 pr-28 text-sm font-semibold text-[var(--theme-text-title)] placeholder:text-[var(--theme-text-muted)] focus:border-[var(--theme-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)]/25 sm:min-h-14 sm:rounded-2xl sm:pl-12 sm:pr-32 sm:text-base"
                 />
                 <div className="absolute right-2 top-1/2 flex -translate-y-1/2 items-center gap-1.5">
                   {searchQuery && (
@@ -505,7 +503,7 @@ export default function Home() {
                     type="button"
                     onClick={() => executeSearch()}
                     disabled={loading}
-                    className="flex min-h-10 items-center gap-2 rounded-xl bg-[var(--theme-primary)] px-3.5 text-xs font-black text-[var(--theme-primary-contrast)] transition hover:bg-[var(--theme-primary-hover)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 sm:px-4 sm:text-sm"
+                    className="flex min-h-9 items-center gap-1.5 rounded-lg bg-[var(--theme-primary)] px-3 text-xs font-black text-[var(--theme-primary-contrast)] transition hover:bg-[var(--theme-primary-hover)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 sm:min-h-10 sm:gap-2 sm:rounded-xl sm:px-4 sm:text-sm"
                   >
                     {loading ? <Loader2 className="h-4 w-4 animate-spin" aria-hidden="true" /> : <Search className="h-4 w-4" aria-hidden="true" />}
                     <span>ค้นหา</span>
@@ -513,7 +511,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="mt-3 flex flex-wrap items-center gap-2">
+              <div className="mt-2.5 flex flex-wrap items-center gap-1.5 sm:mt-3 sm:gap-2">
                 <span className="mr-1 flex items-center gap-1 text-xs font-black text-[var(--theme-text-muted)]">
                   <TrendingUp className="h-3.5 w-3.5 text-[var(--theme-accent)]" aria-hidden="true" />
                   เริ่มจากหัวข้อยอดนิยม
@@ -526,7 +524,7 @@ export default function Home() {
                       setSearchQuery(topic.query);
                       executeSearch(topic.query);
                     }}
-                    className="rounded-full border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] px-3 py-1.5 text-xs font-bold text-[var(--theme-text-body)] transition hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)]"
+                    className="rounded-full border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] px-2.5 py-1 text-[11px] font-bold text-[var(--theme-text-body)] transition hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] sm:px-3 sm:py-1.5 sm:text-xs"
                   >
                     {topic.label}
                   </button>
@@ -536,9 +534,9 @@ export default function Home() {
           </div>
 
           <div className="flex items-center">
-            <div className="relative w-full overflow-hidden rounded-[2rem] bg-[var(--theme-card)] dark:bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] p-6 text-[var(--theme-text-title)] shadow-xl sm:p-8">
-              <div aria-hidden="true" className="absolute -right-14 -top-14 h-48 w-48 rounded-full border-[24px] border-[var(--theme-primary)]/10 pointer-events-none" />
-              <div aria-hidden="true" className="absolute -bottom-20 -left-10 h-48 w-48 rounded-full border-[24px] border-[var(--theme-accent)]/10 pointer-events-none" />
+            <div className="hero-feature-card relative w-full overflow-hidden rounded-2xl border border-[var(--theme-border)] p-5 text-[var(--theme-text-title)] sm:p-8">
+              <div aria-hidden="true" className="pointer-events-none absolute -right-12 -top-12 h-36 w-36 rounded-full border-[18px] border-[var(--theme-primary)]/10 sm:-right-14 sm:-top-14 sm:h-48 sm:w-48 sm:border-[24px]" />
+              <div aria-hidden="true" className="pointer-events-none absolute -bottom-16 -left-8 h-36 w-36 rounded-full border-[18px] border-[var(--theme-accent)]/10 sm:-bottom-20 sm:-left-10 sm:h-48 sm:w-48 sm:border-[24px]" />
               <div className="relative">
                 <div className="flex items-center justify-between">
                   <span className="rounded-full bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] border border-[var(--theme-primary-border)] px-3 py-1 text-xs font-black tracking-wide">
@@ -546,17 +544,17 @@ export default function Home() {
                   </span>
                   <Compass className="h-6 w-6 text-[var(--theme-accent)]" aria-hidden="true" />
                 </div>
-                <h2 className="mt-8 max-w-sm text-2xl font-black leading-tight sm:text-3xl text-[var(--theme-text-title)]">
+                <h2 className="mt-6 max-w-sm text-xl font-black leading-tight text-[var(--theme-text-title)] sm:mt-8 sm:text-3xl">
                   จากคำถามสั้น ๆ สู่เส้นทางที่ชัดเจนขึ้น
                 </h2>
-                <p className="mt-4 max-w-sm text-sm font-medium leading-relaxed text-[var(--theme-text-muted)]">
+                <p className="mt-3 max-w-sm text-sm font-medium leading-relaxed text-[var(--theme-text-muted)] sm:mt-4">
                   เลือกเครื่องมือที่ตรงกับช่วงเวลาของคุณ แล้วเริ่มสำรวจได้ทันที
                 </p>
 
-                <div className="mt-8 grid gap-3">
+                <div className="mt-6 grid gap-2.5 sm:mt-8 sm:gap-3">
                   <Link
                     href="/career-discovery"
-                    className="flex items-center gap-3 rounded-2xl bg-[var(--theme-card-subtle)] dark:bg-[var(--theme-card)] border border-[var(--theme-border)] p-3.5 transition hover:border-[var(--theme-primary)] hover:shadow-xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] group"
+                    className="flex items-center gap-3 rounded-xl border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] p-3 transition hover:border-[var(--theme-primary)] hover:shadow-xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] group dark:bg-[var(--theme-card)] sm:rounded-2xl sm:p-3.5"
                   >
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[var(--theme-accent)] text-[var(--theme-accent-contrast)]">
                       <Compass className="h-5 w-5" aria-hidden="true" />
@@ -578,7 +576,7 @@ export default function Home() {
                       setSearchQuery("");
                       executeSearch("", selectedUni, selectedDegree, "advisors");
                     }}
-                    className="flex items-center gap-3 rounded-2xl bg-[var(--theme-card-subtle)] dark:bg-[var(--theme-card)] border border-[var(--theme-border)] p-3.5 text-left transition hover:border-[var(--theme-primary)] hover:shadow-xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] group cursor-pointer"
+                    className="flex cursor-pointer items-center gap-3 rounded-xl border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] p-3 text-left transition hover:border-[var(--theme-primary)] hover:shadow-xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] group dark:bg-[var(--theme-card)] sm:rounded-2xl sm:p-3.5"
                   >
                     <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)]">
                       <Users className="h-5 w-5" aria-hidden="true" />
@@ -595,7 +593,7 @@ export default function Home() {
                   </button>
                 </div>
 
-                <div className="mt-8 grid grid-cols-3 gap-3 border-t border-[var(--theme-border)] pt-5">
+                <div className="mt-6 grid grid-cols-3 gap-3 border-t border-[var(--theme-border)] pt-4 sm:mt-8 sm:pt-5">
                   <div>
                     <div className="text-xl font-black text-[var(--theme-text-title)]">2.8K+</div>
                     <div className="mt-1 text-[11px] font-semibold text-[var(--theme-text-muted)]">หลักสูตร</div>
@@ -664,7 +662,7 @@ export default function Home() {
         </div>
 
         {/* Filter Controls */}
-        <div className="mb-7 rounded-3xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-4 shadow-sm sm:p-5">
+        <div className="catalog-filter mb-7 rounded-2xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-4 sm:p-5">
           <FilterBar
             activeTab={activeTab}
             selectedRegion={selectedRegion}

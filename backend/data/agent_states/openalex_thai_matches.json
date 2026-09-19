@@ -1,0 +1,5501 @@
+[
+  {
+    "id": "cmu_13b506f6_4009",
+    "openalex_id": "https://openalex.org/A5021249563",
+    "matched_author_name": "นาวี กังวาลย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_forest_wave15_0110",
+    "openalex_id": "https://openalex.org/A5150622224",
+    "matched_author_name": "ปิยวัตน์ ดิลกสัมพันธ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cmu_2485e39d_2496",
+    "openalex_id": "https://openalex.org/A5038033399",
+    "matched_author_name": "พรรัตน์ วัฒนกสิวิชช์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_262f8311_9596",
+    "openalex_id": "https://openalex.org/A5119873197",
+    "matched_author_name": "จารึก สิงหปรีชา",
+    "h_index": 1,
+    "total_citations": 2,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cmu_2829c5c1_5997",
+    "openalex_id": "https://openalex.org/A5055728249",
+    "matched_author_name": "ดร.อนุภาค เสาร์เสาวภาคย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cmu_2923cb4a_0237",
+    "openalex_id": "https://openalex.org/A5116688508",
+    "matched_author_name": "นันทสิทธิ์ กิตติวรากูล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0079",
+    "openalex_id": "https://openalex.org/A5127348264",
+    "matched_author_name": "อนุวัตร แจ้งชัด",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cmu_3013e025_8260",
+    "openalex_id": "https://openalex.org/A5030818576",
+    "matched_author_name": "อัคริมา นันทนาสิทธิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_306b587a_9041",
+    "openalex_id": "https://openalex.org/A5116654130",
+    "matched_author_name": "ศศิกานต์ ลิมปิติ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_30dc2e75_7256",
+    "openalex_id": "https://openalex.org/A5116688303",
+    "matched_author_name": "วิทยา พานิชล้อเจริญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_forest_wave15_0111",
+    "openalex_id": "https://openalex.org/A5127316817",
+    "matched_author_name": "ลัดดาวรรณ เหรียญตระกูล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "cmu_45026578_5162",
+    "openalex_id": "https://openalex.org/A5116666542",
+    "matched_author_name": "พิมลพรรณ ไชยนันท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "ku_forest_wave15_0112",
+    "openalex_id": "https://openalex.org/A5127321844",
+    "matched_author_name": "เดชฤทธิ์ สิทธิบาล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "thammasatu_thammasatb_fac_077_077",
+    "openalex_id": "https://openalex.org/A5116792202",
+    "matched_author_name": "กิตติ สิริพัลลภ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_4dd8180d_3847",
+    "openalex_id": "https://openalex.org/A5068358065",
+    "matched_author_name": "สุภาพ ชูพันธ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_4f666118_5973",
+    "openalex_id": "https://openalex.org/A5092883196",
+    "matched_author_name": "ไพรัตน์ โคสะพละกิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0098",
+    "openalex_id": "https://openalex.org/A5116444737",
+    "matched_author_name": "ธนโชติ บุญวรโชติ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cmu_21e52ee0_5110",
+    "openalex_id": "https://openalex.org/A5116800672",
+    "matched_author_name": "เทพฤทธิ์ มณีกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_55d103e7_8675",
+    "openalex_id": "https://openalex.org/A5084176457",
+    "matched_author_name": "จนัญญา ปัญญามี ทิพย์พยอม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "cmu_3c4b2594_1491",
+    "openalex_id": "https://openalex.org/A5011970501",
+    "matched_author_name": "เพื่อนใจ รัตตากร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_496e3ed3_7411",
+    "openalex_id": "https://openalex.org/A5053810869",
+    "matched_author_name": "ศศิธร สังข์อู๋",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_144a9d8d_3563",
+    "openalex_id": "https://openalex.org/A5132547663",
+    "matched_author_name": "ณัฐวิภา วาณิชย์เจริญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cmu_5d813c7f_7438",
+    "openalex_id": "https://openalex.org/A5055430736",
+    "matched_author_name": "สังวรณ์ สมบัติใหม่",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_618cd4c2_7734",
+    "openalex_id": "https://openalex.org/A5116738229",
+    "matched_author_name": "นรินทร์ นําเจริญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_630e8c72_1158",
+    "openalex_id": "https://openalex.org/A5018063901",
+    "matched_author_name": "พรสุรีย์ คูวิจิตรสุวรรณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_657381b0_0857",
+    "openalex_id": "https://openalex.org/A5116058386",
+    "matched_author_name": "กันต์สินี กันทะวงศ์วาร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "ku_forest_wave15_0115",
+    "openalex_id": "https://openalex.org/A5092690123",
+    "matched_author_name": "ธีรัตว์ อาจสําอางค์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_66c44663_9855",
+    "openalex_id": "https://openalex.org/A5118643218",
+    "matched_author_name": "ปิยะพงษ์ อิงไธสง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_6b3e81c2_8243",
+    "openalex_id": "https://openalex.org/A5073270835",
+    "matched_author_name": "วรลักษณ์ หิมะกลัส",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_6aea0aec_3979",
+    "openalex_id": "https://openalex.org/A5116677577",
+    "matched_author_name": "จุฑารัตน์ ปัญจขันธ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_6b7701df_9919",
+    "openalex_id": "https://openalex.org/A5116655149",
+    "matched_author_name": "ศุภฤกษ์ โพธิไพรัตนา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_782826aa_1619",
+    "openalex_id": "https://openalex.org/A5051222258",
+    "matched_author_name": "นพกาญจน์ จันทร์เดช Nopakarn Chandet",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cmu_7a77a2e2_8013",
+    "openalex_id": "https://openalex.org/A5059717897",
+    "matched_author_name": "พุฒินันท์ มีเผ่าพันธ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_8906724d_8055",
+    "openalex_id": "https://openalex.org/A5116802174",
+    "matched_author_name": "ณหทัย แสนมงคล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "su_eng_teacher_020",
+    "openalex_id": "https://openalex.org/A5127037267",
+    "matched_author_name": "โสภาค สอนไว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_d9d10ba1_2174",
+    "openalex_id": "https://openalex.org/A5078218025",
+    "matched_author_name": "สรินยา ศรีเพชราวุธ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_ds_wave11_0005",
+    "openalex_id": "https://openalex.org/A5116764672",
+    "matched_author_name": "พิษณุ เจียวคุณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_ds_wave11_0015",
+    "openalex_id": "https://openalex.org/A5116696859",
+    "matched_author_name": "ชาติชาย ดวงสอาด",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_ds_wave11_0026",
+    "openalex_id": "https://openalex.org/A5090126116",
+    "matched_author_name": "ปาริชาต ภัทรพานิชชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_e43e0520_1503",
+    "openalex_id": "https://openalex.org/A5034547111",
+    "matched_author_name": "ปิยะวัฒน์ ตรีวิทยา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_eng_department__121",
+    "openalex_id": "https://openalex.org/A5116690827",
+    "matched_author_name": "ปฏิรูป ผลจันทร์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_eng_department__125",
+    "openalex_id": "https://openalex.org/A5116753507",
+    "matched_author_name": "พวงรัตน์ แก้วล้อม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_eng_department__131",
+    "openalex_id": "https://openalex.org/A5080710025",
+    "matched_author_name": "ภาคภูมิ รักร่วม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_eng_department_arunotayanun_56",
+    "openalex_id": "https://openalex.org/A5072287660",
+    "matched_author_name": "เกรียงไกร อรุโณทยานันท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_eng_department_kanangkaew_62",
+    "openalex_id": "https://openalex.org/A5096443787",
+    "matched_author_name": "สมจินตนา แขนงแก้ว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_eng_department_kronprasert_49",
+    "openalex_id": "https://openalex.org/A5010192780",
+    "matched_author_name": "นพดล กรประเสริฐ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_eng_department_pichayapan_48",
+    "openalex_id": "https://openalex.org/A5074727515",
+    "matched_author_name": "ปรีดา พิชยาพันธ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_eng_department_sethabouppha_42",
+    "openalex_id": "https://openalex.org/A5091163335",
+    "matched_author_name": "เศรษฐพงศ์ เศรษฐบุปผา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cmu_eng_department_upayokin_52",
+    "openalex_id": "https://openalex.org/A5031531571",
+    "matched_author_name": "ผศ.ดร. อรรถวิทย์ อุปโยคิน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_172de699_5850",
+    "openalex_id": "https://openalex.org/A5116655543",
+    "matched_author_name": "ธนสิน ชุตินธรานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_1e3e6825_1059",
+    "openalex_id": "https://openalex.org/A5092870905",
+    "matched_author_name": "กมลรัตน์ กิจรุ่งไพศาล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_2187ab61_1599",
+    "openalex_id": "https://openalex.org/A5027286025",
+    "matched_author_name": "สุกัญญา สมไพบูลย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_324b07ab_4553",
+    "openalex_id": "https://openalex.org/A5009417270",
+    "matched_author_name": "สราวุธ อนันตชาติ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_7ab92317_2603",
+    "openalex_id": "https://openalex.org/A5035256499",
+    "matched_author_name": "ฐิตินัน บุญภาพ คอมมอน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ahs_wave15_0016",
+    "openalex_id": "https://openalex.org/A5116672357",
+    "matched_author_name": "ธันยวัน สวนทวี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ahs_wave15_0048",
+    "openalex_id": "https://openalex.org/A5092351293",
+    "matched_author_name": "สุวิมล ทรัพย์วโรบล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "maejouni_facultyo_c6db2c30",
+    "openalex_id": "https://openalex.org/A5119147904",
+    "matched_author_name": "นภารัศม์ เวชสิทธิ์นิรภัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_ds_wave11_0001",
+    "openalex_id": "https://openalex.org/A5116725959",
+    "matched_author_name": "พิมพ์พร ไชยพร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0003",
+    "openalex_id": "https://openalex.org/A5126862797",
+    "matched_author_name": "พรรณชลัท สุริโยธิน",
+    "h_index": 1,
+    "total_citations": 1,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_ds_wave11_0004",
+    "openalex_id": "https://openalex.org/A5116725856",
+    "matched_author_name": "สริน พินิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0008",
+    "openalex_id": "https://openalex.org/A5116725117",
+    "matched_author_name": "จักรพร สุวรรณนคร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0010",
+    "openalex_id": "https://openalex.org/A5116712355",
+    "matched_author_name": "พรพรหม แม้นนนทรัตน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "maejouni_facultyo_67a76684",
+    "openalex_id": "https://openalex.org/A5049247388",
+    "matched_author_name": "เทิดศักดิ์ โทณลักษณ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0011",
+    "openalex_id": "https://openalex.org/A5096548868",
+    "matched_author_name": "ธีรเนตร เทียนถาวร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0005",
+    "openalex_id": "https://openalex.org/A5094353907",
+    "matched_author_name": "วรสัณฑ์ บูรณากาญจน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0013",
+    "openalex_id": "https://openalex.org/A5116691793",
+    "matched_author_name": "ชวนนท์ โฆษกิจจาเลิศ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0012",
+    "openalex_id": "https://openalex.org/A5088673770",
+    "matched_author_name": "นภัส ขวัญเมือง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0015",
+    "openalex_id": "https://openalex.org/A5096258117",
+    "matched_author_name": "วิกรม เหล่าวิสุทธิชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_ds_wave11_0017",
+    "openalex_id": "https://openalex.org/A5116724852",
+    "matched_author_name": "วาริชา วงศ์พยัต",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0014",
+    "openalex_id": "https://openalex.org/A5116636813",
+    "matched_author_name": "วิมลรัตน์ อิสระธรรมนูญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0019",
+    "openalex_id": "https://openalex.org/A5116712449",
+    "matched_author_name": "ภัทร์ สีอัมพรโรจน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0020",
+    "openalex_id": "https://openalex.org/A5116753518",
+    "matched_author_name": "กวีไกร ศรีหิรัญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0025",
+    "openalex_id": "https://openalex.org/A5116726150",
+    "matched_author_name": "วีระพงศ์ เอี๋ยวพานิช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0023",
+    "openalex_id": "https://openalex.org/A5116744565",
+    "matched_author_name": "ประชา แสงสายัณห์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0026",
+    "openalex_id": "https://openalex.org/A5116692377",
+    "matched_author_name": "ชัยพัทธ์ งามบุษบงโสภิน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0027",
+    "openalex_id": "https://openalex.org/A5094122702",
+    "matched_author_name": "พีรศรี โพวาทอง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 11,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0071",
+    "openalex_id": "https://openalex.org/A5116751633",
+    "matched_author_name": "สรรเพชญ ชื้อนิธิไพศาล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0067",
+    "openalex_id": "https://openalex.org/A5116701715",
+    "matched_author_name": "พีท หอมชื่น",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0070",
+    "openalex_id": "https://openalex.org/A5116637465",
+    "matched_author_name": "เฉลิมชนม์ สถิระพจน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0074",
+    "openalex_id": "https://openalex.org/A5092045282",
+    "matched_author_name": "กรวิก ตนักษรานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0075",
+    "openalex_id": "https://openalex.org/A5116700741",
+    "matched_author_name": "ชัยยุทธ เจริญผล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0077",
+    "openalex_id": "https://openalex.org/A5116714727",
+    "matched_author_name": "วลัญซ์อร เอื้อรัตนวงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0076",
+    "openalex_id": "https://openalex.org/A5116709864",
+    "matched_author_name": "ปวัน ภิรมย์ทอง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0078",
+    "openalex_id": "https://openalex.org/A5022141167",
+    "matched_author_name": "ชัยพร กิจประชา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0081",
+    "openalex_id": "https://openalex.org/A5116811360",
+    "matched_author_name": "เทพชัย ศรีน้อย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0035",
+    "openalex_id": "https://openalex.org/A5028412590",
+    "matched_author_name": "สมเกียรติ ตั้งจิตสิตเจริญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0041",
+    "openalex_id": "https://openalex.org/A5116637127",
+    "matched_author_name": "วิภาวี ธรรมาภรณ์พิลาศ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0040",
+    "openalex_id": "https://openalex.org/A5053536405",
+    "matched_author_name": "ปวีณา เชาวลิตวงศ์",
+    "h_index": 1,
+    "total_citations": 3,
+    "total_publications_count": 22,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0042",
+    "openalex_id": "https://openalex.org/A5116699552",
+    "matched_author_name": "อมรศิริ วิลาสเดชานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0044",
+    "openalex_id": "https://openalex.org/A5032593674",
+    "matched_author_name": "นันทชัย กานตานันทะ",
+    "h_index": 1,
+    "total_citations": 1,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0045",
+    "openalex_id": "https://openalex.org/A5116637128",
+    "matched_author_name": "นภัสสวงศ์ โอสถศิลป์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0048",
+    "openalex_id": "https://openalex.org/A5013043224",
+    "matched_author_name": "ประเสริฐ อัครประถมพงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "cu_eng_wave13_b_0051",
+    "openalex_id": "https://openalex.org/A5116637411",
+    "matched_author_name": "อนวัช สรรพศรี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0052",
+    "openalex_id": "https://openalex.org/A5116697036",
+    "matched_author_name": "พงษ์ศักดิ์ สุทธินนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0053",
+    "openalex_id": "https://openalex.org/A5039449536",
+    "matched_author_name": "อักษรา พฤทธิวิทยา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0054",
+    "openalex_id": "https://openalex.org/A5116643315",
+    "matched_author_name": "บุศวรรณ บิดร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0047",
+    "openalex_id": "https://openalex.org/A5116637539",
+    "matched_author_name": "ภูมิ เหลืองจามีกร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0055",
+    "openalex_id": "https://openalex.org/A5116637530",
+    "matched_author_name": "อนุรักษ์ ศรีอริยวัฒน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0057",
+    "openalex_id": "https://openalex.org/A5116637233",
+    "matched_author_name": "ผู้วิจัย ปิยธิดา เรืองรัศมี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0058",
+    "openalex_id": "https://openalex.org/A5116710024",
+    "matched_author_name": "ภวิสร ชื่นชุ่ม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0059",
+    "openalex_id": "https://openalex.org/A5096520287",
+    "matched_author_name": "จีรพงษ์ เหล่าน้ําใส",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_econ_0014",
+    "openalex_id": "https://openalex.org/A5116691128",
+    "matched_author_name": "นรชิต จิรสัทธรรม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_5412fb44_5980",
+    "openalex_id": "https://openalex.org/A5016868372",
+    "matched_author_name": "วสุ เชาว์พานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "psu_eng_wave11_0008",
+    "openalex_id": "https://openalex.org/A5145252473",
+    "matched_author_name": "ธนันท์ ชุบอุปการ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0005",
+    "openalex_id": "https://openalex.org/A5145809146",
+    "matched_author_name": "สุนิสา ศิริพงศ์วุฒิกร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "kku_eng_wave12_0002",
+    "openalex_id": "https://openalex.org/A5070352968",
+    "matched_author_name": "เด่นพงษ์ สุดภักดี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_eng_wave12_0007",
+    "openalex_id": "https://openalex.org/A5061556008",
+    "matched_author_name": "จารุพล สุริยวนากุล และคณะ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_eng_wave12_0009",
+    "openalex_id": "https://openalex.org/A5031052157",
+    "matched_author_name": "ดร.ธนากร วงศ์วัฒนาเสถียร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kku_eng_wave12_0015",
+    "openalex_id": "https://openalex.org/A5116753479",
+    "matched_author_name": "อนุสรณ์ ชินสุวรรณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_eng_wave12_0017",
+    "openalex_id": "https://openalex.org/A5047855593",
+    "matched_author_name": "สัปปินันทน์ เอกอําพน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_eng_wave12_0019",
+    "openalex_id": "https://openalex.org/A5051330647",
+    "matched_author_name": "ดนัยพงศ์ เชษฐโชติศักดิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_eng_wave12_0022",
+    "openalex_id": "https://openalex.org/A5023883984",
+    "matched_author_name": "ชาญณรงค์ สายแก้ว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kku_eng_wave12_0024",
+    "openalex_id": "https://openalex.org/A5116752451",
+    "matched_author_name": "รักน้อย อัครรุ่งเรืองกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0009",
+    "openalex_id": "https://openalex.org/A5145560155",
+    "matched_author_name": "ปฐเมศ ผาณิตพจมาน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_1638a3e9_4313",
+    "openalex_id": "https://openalex.org/A5026021913",
+    "matched_author_name": "ยุพาภรณ์ อารีพงษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_cbs_wave11_0214",
+    "openalex_id": "https://openalex.org/A5021091629",
+    "matched_author_name": "สันสกฤต วิจิตรเลขการ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_129939e7_6525",
+    "openalex_id": "https://openalex.org/A5116746662",
+    "matched_author_name": "อุไรวรรณ เจริญกีรติกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_1b19cc4c_0064",
+    "openalex_id": "https://openalex.org/A5116758022",
+    "matched_author_name": "สอาด นิวิศพงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_32e5bf6f_0147",
+    "openalex_id": "https://openalex.org/A5054972798",
+    "matched_author_name": "เฉียบวุฒิ รัตนวิไลสกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_3971584f_4028",
+    "openalex_id": "https://openalex.org/A5116747005",
+    "matched_author_name": "เบญจพร ลิ้มธรรมาภรณ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_416a779c_8102",
+    "openalex_id": "https://openalex.org/A5042770060",
+    "matched_author_name": "ชัชลิฎา บุญพะเนียด",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_4b02d535_3710",
+    "openalex_id": "https://openalex.org/A5000085292",
+    "matched_author_name": "นวลพรรณ ลอว์สัน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_4f6dfc66_2139",
+    "openalex_id": "https://openalex.org/A5116750164",
+    "matched_author_name": "นุชรินทร์ ทิพยวรรณากร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_56a0f7ec_3258",
+    "openalex_id": "https://openalex.org/A5027091058",
+    "matched_author_name": "เสาวณิต สุขภารังษี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_65833726_0810",
+    "openalex_id": "https://openalex.org/A5116699076",
+    "matched_author_name": "สถิตย์ ประสมพันธ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_6bf33db9_1799",
+    "openalex_id": "https://openalex.org/A5081332308",
+    "matched_author_name": "สรร รัตนสัญญา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_6e896cc8_0760",
+    "openalex_id": "https://openalex.org/A5116742854",
+    "matched_author_name": "อรไท พลเสน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_71293ff3_9233",
+    "openalex_id": "https://openalex.org/A5051723717",
+    "matched_author_name": "ศิรประภา มโนมัธย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutnb_73a293be_0177",
+    "openalex_id": "https://openalex.org/A5116763652",
+    "matched_author_name": "จีรภา สรรพกิจกําจร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutt_12363630_8304",
+    "openalex_id": "https://openalex.org/A5116675916",
+    "matched_author_name": "รริศรา อิ่มภาประเสริฐ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutt_1e0bc311_6653",
+    "openalex_id": "https://openalex.org/A5062266398",
+    "matched_author_name": "พรรณจิรา วงศ์สวัสดิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutt_2540122e_2487",
+    "openalex_id": "https://openalex.org/A5070728594",
+    "matched_author_name": "ศิวัตรา ชูเดช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutt_3674365e_9304",
+    "openalex_id": "https://openalex.org/A5049377863",
+    "matched_author_name": "นงพงา คุณจักร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutt_3b0ec732_2197",
+    "openalex_id": "https://openalex.org/A5144897150",
+    "matched_author_name": "นิยม กำลังดี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutt_45bef6fa_3748",
+    "openalex_id": "https://openalex.org/A5116763018",
+    "matched_author_name": "ศิววรรณ พูลพันธุ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmutt_4bf8615a_9065",
+    "openalex_id": "https://openalex.org/A5053481863",
+    "matched_author_name": "ดวงทิพย์ มูลมั่งมี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "khonkaenun_facultyofm_fac_003_003",
+    "openalex_id": "https://openalex.org/A5076993729",
+    "matched_author_name": "ปาริฉัตร ประจะเนย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "ku_forest_wave15_0126",
+    "openalex_id": "https://openalex.org/A5074348963",
+    "matched_author_name": "พรเทพ เหมือนพงษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0017",
+    "openalex_id": "https://openalex.org/A5114297223",
+    "matched_author_name": "กชวร จุ๋ยมณี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0077",
+    "openalex_id": "https://openalex.org/A5052481344",
+    "matched_author_name": "เปรม สวนสมุทร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_mahattaneep__2062",
+    "openalex_id": "https://openalex.org/A5116676160",
+    "matched_author_name": "มหัทธนี ภิญโญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0051",
+    "openalex_id": "https://openalex.org/A5094081297",
+    "matched_author_name": "อัศวนนทปกรณ์ ธเนศวีรภัทร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_134d11a2_0004",
+    "openalex_id": "https://openalex.org/A5127103553",
+    "matched_author_name": "พีรนุช จอมพุก",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_26b46fb4_0870",
+    "openalex_id": "https://openalex.org/A5116736670",
+    "matched_author_name": "สมโชค เรืองอิทธินันท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_2e6bba33_3441",
+    "openalex_id": "https://openalex.org/A5038767469",
+    "matched_author_name": "ธิดาพร ศุภภากร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_forest_wave15_0128",
+    "openalex_id": "https://openalex.org/A5055805633",
+    "matched_author_name": "รุ่งเรือง พูลศิริ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_376f9311_9323",
+    "openalex_id": "https://openalex.org/A5016729545",
+    "matched_author_name": "ชุรภา ธีรภัทรสกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_436f33dd_7648",
+    "openalex_id": "https://openalex.org/A5088440333",
+    "matched_author_name": "ปกรณ์ วรรธนะอมร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_44a93dd3_9264",
+    "openalex_id": "https://openalex.org/A5127225553",
+    "matched_author_name": "ปิยังกูล เหลืองเจริญกิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_52088221_8537",
+    "openalex_id": "https://openalex.org/A5003367514",
+    "matched_author_name": "วิรัญญา แก้ววัฒนะ",
+    "h_index": 1,
+    "total_citations": 1,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_5a33f235_4828",
+    "openalex_id": "https://openalex.org/A5024820232",
+    "matched_author_name": "ชัชวาล จันทราสุริยารัตน์",
+    "h_index": 1,
+    "total_citations": 1,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "ku_5adf1e54_2866",
+    "openalex_id": "https://openalex.org/A5115080192",
+    "matched_author_name": "ฉัตรเฉลิม เกษเวชสุริยา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_60dd92cb_0213",
+    "openalex_id": "https://openalex.org/A5007650029",
+    "matched_author_name": "พจนารถ สุวรรณรุจิ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "ku_64277a9b_9043",
+    "openalex_id": "https://openalex.org/A5080721592",
+    "matched_author_name": "ฉัตรชัย เงินแสงสรวย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_66a19cf2_6510",
+    "openalex_id": "https://openalex.org/A5047605652",
+    "matched_author_name": "ทรงวุฒิ สุรมิตร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_65bafd24_0438",
+    "openalex_id": "https://openalex.org/A5116676121",
+    "matched_author_name": "บุญธนา วรรณเลิศ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_799119e7_8228",
+    "openalex_id": "https://openalex.org/A5018671990",
+    "matched_author_name": "ประภาศิริ พงษ์ประยูร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_792b15ec_6800",
+    "openalex_id": "https://openalex.org/A5003409454",
+    "matched_author_name": "ภัทราพร ลักษณ์สิริกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_forest_wave15_0130",
+    "openalex_id": "https://openalex.org/A5073190285",
+    "matched_author_name": "วิรงรอง ดวงใจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0007",
+    "openalex_id": "https://openalex.org/A5116712845",
+    "matched_author_name": "สยาณี วิโรจน์รัตน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_ds_wave11_0032",
+    "openalex_id": "https://openalex.org/A5094122692",
+    "matched_author_name": "พงศกร ยิ้มสวัสดิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0069",
+    "openalex_id": "https://openalex.org/A5116698631",
+    "matched_author_name": "สมชาย เกรียงไกรวศิน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_b_0046",
+    "openalex_id": "https://openalex.org/A5019921497",
+    "matched_author_name": "ไพโรจน์ ลดาวิจิตรกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": true
+  },
+  {
+    "id": "cu_eng_wave13_0062",
+    "openalex_id": "https://openalex.org/A5116697072",
+    "matched_author_name": "อภิสิทธิ์ น้ําประสานไทย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_eng_wave13_0072",
+    "openalex_id": "https://openalex.org/A5116707718",
+    "matched_author_name": "ธีทัต เจริญกาลัญญูตา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0080",
+    "openalex_id": "https://openalex.org/A5116726552",
+    "matched_author_name": "ปวริน ตันตริยานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "cu_pharm_wave16_0077",
+    "openalex_id": "https://openalex.org/A5116643222",
+    "matched_author_name": "ศุภกาญจน์ ชํานิ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_forest_wave15_0137",
+    "openalex_id": "https://openalex.org/A5036049793",
+    "matched_author_name": "กิติชัย รัตนะ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_eng_wave12_0029",
+    "openalex_id": "https://openalex.org/A5127258112",
+    "matched_author_name": "ไชยวัฒน์ กล่ำพล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_eng_wave12_0031",
+    "openalex_id": "https://openalex.org/A5042140986",
+    "matched_author_name": "เวชพงศ์ ชุติชูเดช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fb10e0a0_7946",
+    "openalex_id": "https://openalex.org/A5127124010",
+    "matched_author_name": "มนธิดา เร้าอรุณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0008",
+    "openalex_id": "https://openalex.org/A5127147258",
+    "matched_author_name": "พัชรี ครูขยัน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0009",
+    "openalex_id": "https://openalex.org/A5086722980",
+    "matched_author_name": "จันทนา ไพรบูรณ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fish_wave11_0010",
+    "openalex_id": "https://openalex.org/A5127047214",
+    "matched_author_name": "สมหมาย เจนกิจการ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0012",
+    "openalex_id": "https://openalex.org/A5139771361",
+    "matched_author_name": "จารุมาศ เจริญพานิช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fish_wave11_0011",
+    "openalex_id": "https://openalex.org/A5150693706",
+    "matched_author_name": "ชัชรี แก้วสุรลิขิต",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0014",
+    "openalex_id": "https://openalex.org/A5066177291",
+    "matched_author_name": "นิติ ชูเชิด",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0015",
+    "openalex_id": "https://openalex.org/A5150683224",
+    "matched_author_name": "สันติ พ่วงเจริญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0016",
+    "openalex_id": "https://openalex.org/A5127067063",
+    "matched_author_name": "ไพลิน จิตรชุ่ม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0018",
+    "openalex_id": "https://openalex.org/A5127224386",
+    "matched_author_name": "ถิรวัฒน์ รายรัตน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0019",
+    "openalex_id": "https://openalex.org/A5150614002",
+    "matched_author_name": "ปัทมา ทองกอก",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0020",
+    "openalex_id": "https://openalex.org/A5145439359",
+    "matched_author_name": "ธนิดา แซ่ตั้ง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fish_wave11_0024",
+    "openalex_id": "https://openalex.org/A5036299850",
+    "matched_author_name": "กังสดาลย์ บุญปราบ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fish_wave11_0026",
+    "openalex_id": "https://openalex.org/A5032815626",
+    "matched_author_name": "วรรณวิมล คล้ายประดิษฐ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fish_wave11_0030",
+    "openalex_id": "https://openalex.org/A5063658311",
+    "matched_author_name": "อิสริยา วุฒิสินธ์ุ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0032",
+    "openalex_id": "https://openalex.org/A5127203874",
+    "matched_author_name": "พงศ์เชฏฐ์ พิชิตกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0034",
+    "openalex_id": "https://openalex.org/A5150596217",
+    "matched_author_name": "วราห์ เทพาหุดี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0037",
+    "openalex_id": "https://openalex.org/A5127375678",
+    "matched_author_name": "เรืองชาย ยุ้นพันธ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0036",
+    "openalex_id": "https://openalex.org/A5001194083",
+    "matched_author_name": "อรพินท์ จินตสถาพร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fish_wave11_0038",
+    "openalex_id": "https://openalex.org/A5127226753",
+    "matched_author_name": "ประพันธ์ศักดิ์ ศีรษะภูมิ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0039",
+    "openalex_id": "https://openalex.org/A5116674788",
+    "matched_author_name": "ธนาคม บัณฑิตวงศ์รัตน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fish_wave11_0040",
+    "openalex_id": "https://openalex.org/A5127124920",
+    "matched_author_name": "สุขกฤช นิมิตรกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0042",
+    "openalex_id": "https://openalex.org/A5148164267",
+    "matched_author_name": "อัครศิริ แสงสว่าง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fish_wave11_0046",
+    "openalex_id": "https://openalex.org/A5150666352",
+    "matched_author_name": "จักร อรัณยกานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0048",
+    "openalex_id": "https://openalex.org/A5127126128",
+    "matched_author_name": "อนุรักษ์ อุชุวิทยากุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0050",
+    "openalex_id": "https://openalex.org/A5150708956",
+    "matched_author_name": "ธีระพงศ์ ด้วงดี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0051",
+    "openalex_id": "https://openalex.org/A5021619328",
+    "matched_author_name": "จินตนา สและน้อย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fish_wave11_0052",
+    "openalex_id": "https://openalex.org/A5127436846",
+    "matched_author_name": "ปริญญา ลิมป์วิริยะกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0054",
+    "openalex_id": "https://openalex.org/A5045605166",
+    "matched_author_name": "จรวย สุขแสงจันทร์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0057",
+    "openalex_id": "https://openalex.org/A5127357531",
+    "matched_author_name": "เยาวลักษณ์ มั่นธรรม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0058",
+    "openalex_id": "https://openalex.org/A5127179726",
+    "matched_author_name": "นภาขวัญ แหวนเพชร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0059",
+    "openalex_id": "https://openalex.org/A5150049619",
+    "matched_author_name": "ชาคริต เรืองสอน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0060",
+    "openalex_id": "https://openalex.org/A5150626109",
+    "matched_author_name": "วชิระ ใจงาม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_fish_wave11_0062",
+    "openalex_id": "https://openalex.org/A5116677569",
+    "matched_author_name": "ขนิษฐา อุทัยพันธ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_fish_wave11_0063",
+    "openalex_id": "https://openalex.org/A5115518629",
+    "matched_author_name": "จิรวัฒน์ ดีหมื่นไวย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0002",
+    "openalex_id": "https://openalex.org/A5026095212",
+    "matched_author_name": "ศิริกาญจนา ทองมี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0008",
+    "openalex_id": "https://openalex.org/A5116699903",
+    "matched_author_name": "ปพิชญา ชัยสกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0013",
+    "openalex_id": "https://openalex.org/A5083278775",
+    "matched_author_name": "สุธี บุญช่วย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0012",
+    "openalex_id": "https://openalex.org/A5046210151",
+    "matched_author_name": "วิวัฒน์ วงศ์ก่อเกื้อ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_0014",
+    "openalex_id": "https://openalex.org/A5116754384",
+    "matched_author_name": "สุรศักดิ์ เชียงกา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_0017",
+    "openalex_id": "https://openalex.org/A5127077854",
+    "matched_author_name": "นพฤทธิ์ จินันทุยา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_0018",
+    "openalex_id": "https://openalex.org/A5038956989",
+    "matched_author_name": "มณีเนตร เวชกามา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0022",
+    "openalex_id": "https://openalex.org/A5006905875",
+    "matched_author_name": "สุธารัตน์ โชติกประคัลภ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0047",
+    "openalex_id": "https://openalex.org/A5078775196",
+    "matched_author_name": "วัชรพล พิมพ์เสริฐ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0059",
+    "openalex_id": "https://openalex.org/A5127213953",
+    "matched_author_name": "มิ่งขวัญ นิพิฐวัธนะผล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_0060",
+    "openalex_id": "https://openalex.org/A5149982826",
+    "matched_author_name": "ศุภชัย วุฒิพงศ์ชัยกิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_0062",
+    "openalex_id": "https://openalex.org/A5039256093",
+    "matched_author_name": "อรินทิพย์ ธรรมชัยพิเนต",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0064",
+    "openalex_id": "https://openalex.org/A5150597274",
+    "matched_author_name": "วรรณรดา สุราช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_0067",
+    "openalex_id": "https://openalex.org/A5001352347",
+    "matched_author_name": "ภัสสร วรรณพินิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0070",
+    "openalex_id": "https://openalex.org/A5091261904",
+    "matched_author_name": "Sompid Samipak",
+    "h_index": 7,
+    "total_citations": 159,
+    "total_publications_count": 25,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_0076",
+    "openalex_id": "https://openalex.org/A5116692934",
+    "matched_author_name": "ศิริญญา ธีระอนันต์ชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0079",
+    "openalex_id": "https://openalex.org/A5009890182",
+    "matched_author_name": "ลี่ลี อิงศรีสว่าง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0080",
+    "openalex_id": "https://openalex.org/A5116763415",
+    "matched_author_name": "วินัย โพธิ์สุวรรณ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_0084",
+    "openalex_id": "https://openalex.org/A5120538197",
+    "matched_author_name": "สุดารัตน์ นิจสุนกิจ",
+    "h_index": 1,
+    "total_citations": 1,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_b_0011",
+    "openalex_id": "https://openalex.org/A5127367891",
+    "matched_author_name": "ชมดาว สินธุวณิชย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_b_0019",
+    "openalex_id": "https://openalex.org/A5086460591",
+    "matched_author_name": "ประศาสตร์ เกื้อมณี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0022",
+    "openalex_id": "https://openalex.org/A5021550597",
+    "matched_author_name": "สุดสวาสดิ์ ดวงศรีไสย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0024",
+    "openalex_id": "https://openalex.org/A5145266558",
+    "matched_author_name": "พรสวรรค์ สุทธินนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0031",
+    "openalex_id": "https://openalex.org/A5025093122",
+    "matched_author_name": "สรัญญา วัชโรทัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0033",
+    "openalex_id": "https://openalex.org/A5116697197",
+    "matched_author_name": "มานิตย์ จิตรภักดี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0037",
+    "openalex_id": "https://openalex.org/A5116736771",
+    "matched_author_name": "ฤทธี มีสัตย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0034",
+    "openalex_id": "https://openalex.org/A5127454875",
+    "matched_author_name": "เกียรติศักดิ์ แสนบุญเรือง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_b_0047",
+    "openalex_id": "https://openalex.org/A5116638285",
+    "matched_author_name": "กฤษณ์ วันอินทร์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0056",
+    "openalex_id": "https://openalex.org/A5067686841",
+    "matched_author_name": "พรสวาท วัฒนกูล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0057",
+    "openalex_id": "https://openalex.org/A5116754750",
+    "matched_author_name": "อรรณพ หอมจันทร์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0058",
+    "openalex_id": "https://openalex.org/A5116759750",
+    "matched_author_name": "ดีเซลล์ สวนบุรี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0064",
+    "openalex_id": "https://openalex.org/A5089808710",
+    "matched_author_name": "วรรณวิภา วงศ์แสงนาค",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0068",
+    "openalex_id": "https://openalex.org/A5150621890",
+    "matched_author_name": "วชิรญาณ์ ธงอาสา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_b_0069",
+    "openalex_id": "https://openalex.org/A5127301585",
+    "matched_author_name": "วีระศักดิ์ ฟุ้งเฟื่อง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_b_0075",
+    "openalex_id": "https://openalex.org/A5116676805",
+    "matched_author_name": "พัชร ดนัยสวัสดิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_sci_wave13_b_0081",
+    "openalex_id": "https://openalex.org/A5144683938",
+    "matched_author_name": "อธิภัทร เงินหมื่น",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0086",
+    "openalex_id": "https://openalex.org/A5052437948",
+    "matched_author_name": "จริยา อุ่ยยะเสถียร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0089",
+    "openalex_id": "https://openalex.org/A5094357215",
+    "matched_author_name": "ชัชวิทย์ อาภรณ์เทวัญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0109",
+    "openalex_id": "https://openalex.org/A5116637649",
+    "matched_author_name": "นคร ไพศาลกิตติสกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0110",
+    "openalex_id": "https://openalex.org/A5116637475",
+    "matched_author_name": "นรพัทธ์ ศรีมโนภาษ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0115",
+    "openalex_id": "https://openalex.org/A5116762968",
+    "matched_author_name": "พงษ์ ทรงพงษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0117",
+    "openalex_id": "https://openalex.org/A5116638016",
+    "matched_author_name": "ไพศาล ตู้ประกาย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0118",
+    "openalex_id": "https://openalex.org/A5116676210",
+    "matched_author_name": "ภาวิน อิทธิสมัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0119",
+    "openalex_id": "https://openalex.org/A5116765450",
+    "matched_author_name": "มนต์เทียน เทียนประทีป",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0129",
+    "openalex_id": "https://openalex.org/A5116638000",
+    "matched_author_name": "โศจิพงศ์ ฉัตราภรณ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0131",
+    "openalex_id": "https://openalex.org/A5116763238",
+    "matched_author_name": "สธน วิจารณ์วรรณลักษณ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0132",
+    "openalex_id": "https://openalex.org/A5116638015",
+    "matched_author_name": "สมชาย เกียรติกมลชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0133",
+    "openalex_id": "https://openalex.org/A5116765426",
+    "matched_author_name": "สมฤทธิ์ วงศ์มณีโรจน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0134",
+    "openalex_id": "https://openalex.org/A5122342759",
+    "matched_author_name": "พงศธรณ พันธ์บูรณะ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0136",
+    "openalex_id": "https://openalex.org/A5116765471",
+    "matched_author_name": "สุคคเณศ ตุงคะสมิต",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0139",
+    "openalex_id": "https://openalex.org/A5116626951",
+    "matched_author_name": "อรรณพ เอกธาราวงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0141",
+    "openalex_id": "https://openalex.org/A5116637477",
+    "matched_author_name": "จันทร์เพ็ญ จันทร์เจ้า",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0142",
+    "openalex_id": "https://openalex.org/A5094353949",
+    "matched_author_name": "สุจินดา มาลัยวิจิตรนนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0146",
+    "openalex_id": "https://openalex.org/A5031613256",
+    "matched_author_name": "สุรีรัตน์ เดี่ยววาณิชย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 9,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0143",
+    "openalex_id": "https://openalex.org/A5061258688",
+    "matched_author_name": "Chirasak Sutcharit",
+    "h_index": 20,
+    "total_citations": 1601,
+    "total_publications_count": 334,
+    "corroborated": true
+  },
+  {
+    "id": "cu_sci_wave14_b_0149",
+    "openalex_id": "https://openalex.org/A5116636475",
+    "matched_author_name": "นพดล กิตนะ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 12,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0144",
+    "openalex_id": "https://openalex.org/A5116643090",
+    "matched_author_name": "บัณฑิกา อารีย์กุล บุทเชอร์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0147",
+    "openalex_id": "https://openalex.org/A5116643271",
+    "matched_author_name": "พงชัย หาญยุทธนากร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 15,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0150",
+    "openalex_id": "https://openalex.org/A5116637889",
+    "matched_author_name": "จิรารัช กิตนะ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0148",
+    "openalex_id": "https://openalex.org/A5116636485",
+    "matched_author_name": "วิเชฏฐ์ คนซื่อ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 19,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0152",
+    "openalex_id": "https://openalex.org/A5116643318",
+    "matched_author_name": "นิพาดา เรือนแก้ว ดิษยทัต",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0151",
+    "openalex_id": "https://openalex.org/A5116638248",
+    "matched_author_name": "สุกัญญา เจริญพร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0154",
+    "openalex_id": "https://openalex.org/A5116637921",
+    "matched_author_name": "นนทิวิชญ ตัณฑวณิช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0157",
+    "openalex_id": "https://openalex.org/A5116636480",
+    "matched_author_name": "มารุต เฟื่องอาวรณ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 11,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0153",
+    "openalex_id": "https://openalex.org/A5116643273",
+    "matched_author_name": "อัมพร วิเวกแว่ว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0155",
+    "openalex_id": "https://openalex.org/A5091710415",
+    "matched_author_name": "Piyoros Tongkerd",
+    "h_index": 15,
+    "total_citations": 547,
+    "total_publications_count": 165,
+    "corroborated": true
+  },
+  {
+    "id": "cu_sci_wave14_b_0158",
+    "openalex_id": "https://openalex.org/A5116637881",
+    "matched_author_name": "ณัฐพจน์ วาฤทธิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0156",
+    "openalex_id": "https://openalex.org/A5116637882",
+    "matched_author_name": "ธงชัย งามประเสริฐวงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0162",
+    "openalex_id": "https://openalex.org/A5116637875",
+    "matched_author_name": "เกรียง กาญจนวตี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0159",
+    "openalex_id": "https://openalex.org/A5116643321",
+    "matched_author_name": "ชิดชัย จันทร์ตั้งสี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0166",
+    "openalex_id": "https://openalex.org/A5116638949",
+    "matched_author_name": "วรัญญา อรัญวาลัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0173",
+    "openalex_id": "https://openalex.org/A5116675885",
+    "matched_author_name": "กิติพงศ์ อัศตรกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0171",
+    "openalex_id": "https://openalex.org/A5116643061",
+    "matched_author_name": "ขัตพันธุ์ จันทะวงษ์ศรี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0181",
+    "openalex_id": "https://openalex.org/A5144715246",
+    "matched_author_name": "คงเป็นสุข วรภา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0179",
+    "openalex_id": "https://openalex.org/A5116637946",
+    "matched_author_name": "ธนจันทร์ มหาวนิช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0177",
+    "openalex_id": "https://openalex.org/A5116637669",
+    "matched_author_name": "อินทาวุธ สรรพวรสถิตย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0176",
+    "openalex_id": "https://openalex.org/A5116638236",
+    "matched_author_name": "จันทร์ประภา อิ่มจงใจรัก",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0174",
+    "openalex_id": "https://openalex.org/A5116637634",
+    "matched_author_name": "อุบลรัตน์ สิริภัทราวรรณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_sci_wave14_b_0186",
+    "openalex_id": "https://openalex.org/A5116677601",
+    "matched_author_name": "นนทชา ธนธรวรากุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_econ_0004",
+    "openalex_id": "https://openalex.org/A5116631319",
+    "matched_author_name": "กุลลินี มุทธากลิน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_econ_0005",
+    "openalex_id": "https://openalex.org/A5127305371",
+    "matched_author_name": "ขนิษฐา แต้มบุญเลิศชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_econ_0008",
+    "openalex_id": "https://openalex.org/A5116691375",
+    "matched_author_name": "ดนุพล อริยสัจจากร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_econ_0011",
+    "openalex_id": "https://openalex.org/A5031613893",
+    "matched_author_name": "ต่อภัสสร์ ยมนาค",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_econ_0030",
+    "openalex_id": "https://openalex.org/A5116691451",
+    "matched_author_name": "สินีนาฏ เสริมชีพ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0001",
+    "openalex_id": "https://openalex.org/A5148462190",
+    "matched_author_name": "ศิริก้อย ชุตาทวีสวัสดิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0004",
+    "openalex_id": "https://openalex.org/A5094085860",
+    "matched_author_name": "ใจทิพย์ ณ สงขลา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0005",
+    "openalex_id": "https://openalex.org/A5096169176",
+    "matched_author_name": "สุกานดา จงเสริมตระกูล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0007",
+    "openalex_id": "https://openalex.org/A5001468976",
+    "matched_author_name": "เฟื่องอรุณ ปรีดีดิลก",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0008",
+    "openalex_id": "https://openalex.org/A5099524353",
+    "matched_author_name": "วรรัตน์ ปทุมเจริญวัฒนา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0003",
+    "openalex_id": "https://openalex.org/A5004473489",
+    "matched_author_name": "ประกอบ กรณีกิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0002",
+    "openalex_id": "https://openalex.org/A5118617050",
+    "matched_author_name": "สริตา เจือศรีกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0010",
+    "openalex_id": "https://openalex.org/A5091748166",
+    "matched_author_name": "อุบลวรรณ หงษ์วิทยากร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 5,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0006",
+    "openalex_id": "https://openalex.org/A5114592112",
+    "matched_author_name": "วีระเทพ ปทุมเจริญวัฒนา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0011",
+    "openalex_id": "https://openalex.org/A5116650367",
+    "matched_author_name": "มนัสวาสน์ โกวิทยา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0013",
+    "openalex_id": "https://openalex.org/A5046718358",
+    "matched_author_name": "สุวิธิดา จรุงเกียรติกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 7,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0012",
+    "openalex_id": "https://openalex.org/A5092039614",
+    "matched_author_name": "ดวงกมล บางชวด",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0009",
+    "openalex_id": "https://openalex.org/A5116659958",
+    "matched_author_name": "อรุณี หงษ์ศิริวัฒน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0014",
+    "openalex_id": "https://openalex.org/A5116649079",
+    "matched_author_name": "พัชราภรณ์ ทัพมาลี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0018",
+    "openalex_id": "https://openalex.org/A5094081971",
+    "matched_author_name": "ชาริณี ตรีวรัญญู",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0015",
+    "openalex_id": "https://openalex.org/A5119859470",
+    "matched_author_name": "ระวี จูฑศฤงค์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0020",
+    "openalex_id": "https://openalex.org/A5118592888",
+    "matched_author_name": "สิริน ฉกามานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0019",
+    "openalex_id": "https://openalex.org/A5094085886",
+    "matched_author_name": "ยศวีร์ สายฟ้า",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0025",
+    "openalex_id": "https://openalex.org/A5139614829",
+    "matched_author_name": "เพ็ญวรา ชูประวัติ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0021",
+    "openalex_id": "https://openalex.org/A5048742892",
+    "matched_author_name": "ธีรภัทร กุโลภาส",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0026",
+    "openalex_id": "https://openalex.org/A5116660287",
+    "matched_author_name": "ธีรวดี ถังคบุตร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0027",
+    "openalex_id": "https://openalex.org/A5092767971",
+    "matched_author_name": "พงษ์ลิขิต เพชรผล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0023",
+    "openalex_id": "https://openalex.org/A5025831121",
+    "matched_author_name": "นันทรัตน์ เจริญกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 7,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0022",
+    "openalex_id": "https://openalex.org/A5023702703",
+    "matched_author_name": "ปิยวรรณ วิเศษสุวรรณภูมิ",
+    "h_index": 1,
+    "total_citations": 2,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0024",
+    "openalex_id": "https://openalex.org/A5139584933",
+    "matched_author_name": "วิชัย เสวกงาม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0029",
+    "openalex_id": "https://openalex.org/A5116667181",
+    "matched_author_name": "อภิรดี จริยารังษีโรจน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0028",
+    "openalex_id": "https://openalex.org/A5123109547",
+    "matched_author_name": "โสมฉาย บุญญานันต์",
+    "h_index": 1,
+    "total_citations": 1,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0030",
+    "openalex_id": "https://openalex.org/A5002739816",
+    "matched_author_name": "ชนิศา ตันติเฉลิม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0032",
+    "openalex_id": "https://openalex.org/A5052771851",
+    "matched_author_name": "ชนัญชิดา ทุมมานนท์",
+    "h_index": 1,
+    "total_citations": 2,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0034",
+    "openalex_id": "https://openalex.org/A5116751233",
+    "matched_author_name": "ศรียา เนตรน้อย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0036",
+    "openalex_id": "https://openalex.org/A5094078392",
+    "matched_author_name": "สุพัตรา อุตมัง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0037",
+    "openalex_id": "https://openalex.org/A5116652688",
+    "matched_author_name": "ปรเมศวร์ ชรอยนุช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0038",
+    "openalex_id": "https://openalex.org/A5116674947",
+    "matched_author_name": "จิณดิษฐ์ ละออปักษิณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0035",
+    "openalex_id": "https://openalex.org/A5043186319",
+    "matched_author_name": "Sukanya Chaemchoy",
+    "h_index": 3,
+    "total_citations": 23,
+    "total_publications_count": 24,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0040",
+    "openalex_id": "https://openalex.org/A5030335598",
+    "matched_author_name": "อภิภา ปรัชญพฤทธิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 6,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0041",
+    "openalex_id": "https://openalex.org/A5003343595",
+    "matched_author_name": "กนิษฐ์ ศรีเคลือบ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0043",
+    "openalex_id": "https://openalex.org/A5096578841",
+    "matched_author_name": "เธียรดนัย เสริมบุญไพศาล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0044",
+    "openalex_id": "https://openalex.org/A5092870596",
+    "matched_author_name": "มารุต ทรรศนากรกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0039",
+    "openalex_id": "https://openalex.org/A5116660355",
+    "matched_author_name": "ศรเนตร อารีโสภณพิเชฐ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0045",
+    "openalex_id": "https://openalex.org/A5094085784",
+    "matched_author_name": "บุณฑริกา บูลภักดิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0047",
+    "openalex_id": "https://openalex.org/A5016024058",
+    "matched_author_name": "วิรุจ กิจนันทวิวัฒน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0042",
+    "openalex_id": "https://openalex.org/A5091378344",
+    "matched_author_name": "ปัญญา อัครพุทธพงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 6,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0048",
+    "openalex_id": "https://openalex.org/A5062657301",
+    "matched_author_name": "ฤดีรัตน์ ชุษณะโชติ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0046",
+    "openalex_id": "https://openalex.org/A5090787133",
+    "matched_author_name": "สิวะโชติ ศรีสุทธิยากร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0054",
+    "openalex_id": "https://openalex.org/A5092735254",
+    "matched_author_name": "กรกนก เลิศเดชาภัทร",
+    "h_index": 1,
+    "total_citations": 1,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0055",
+    "openalex_id": "https://openalex.org/A5116650244",
+    "matched_author_name": "จีระศักดิ์ จิตรโรจนรักษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0049",
+    "openalex_id": "https://openalex.org/A5120538142",
+    "matched_author_name": "สิริฉันท์ สถิรกุล เตชพาหพงษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0058",
+    "openalex_id": "https://openalex.org/A5137170871",
+    "matched_author_name": "สยา ทันตะเวช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0056",
+    "openalex_id": "https://openalex.org/A5042271609",
+    "matched_author_name": "กิตติทัศน์ หวานฉ่ํา",
+    "h_index": 1,
+    "total_citations": 130,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0063",
+    "openalex_id": "https://openalex.org/A5096325003",
+    "matched_author_name": "ณฐิณี เจียรกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0061",
+    "openalex_id": "https://openalex.org/A5083532586",
+    "matched_author_name": "ดนีญา อุทัยสุข",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0064",
+    "openalex_id": "https://openalex.org/A5084326639",
+    "matched_author_name": "ศศิลักษณ์ ขยันกิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0065",
+    "openalex_id": "https://openalex.org/A5073067241",
+    "matched_author_name": "วรวรรณ เหมชะญาติ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 6,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0060",
+    "openalex_id": "https://openalex.org/A5139212721",
+    "matched_author_name": "ยุทธนา ฉัพพรรณรัตน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0066",
+    "openalex_id": "https://openalex.org/A5094081536",
+    "matched_author_name": "ปนัฐษรณ์ จารุชัยนิวัฒน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0062",
+    "openalex_id": "https://openalex.org/A5085696749",
+    "matched_author_name": "Vitchatalum Laovanich",
+    "h_index": 1,
+    "total_citations": 14,
+    "total_publications_count": 6,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0068",
+    "openalex_id": "https://openalex.org/A5148442718",
+    "matched_author_name": "ภัสรำไพ จ้อยเจริญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0070",
+    "openalex_id": "https://openalex.org/A5060714238",
+    "matched_author_name": "ฉัตรวรรณ์ ลัญฉวรรธนะกร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0069",
+    "openalex_id": "https://openalex.org/A5081802510",
+    "matched_author_name": "ภาวิณี โสธายะเพ็ชร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0071",
+    "openalex_id": "https://openalex.org/A5094085811",
+    "matched_author_name": "กีรติ คุวสานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0072",
+    "openalex_id": "https://openalex.org/A5094082417",
+    "matched_author_name": "ภาวศุทธิ์ พิริยะพงษ์รัตน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0074",
+    "openalex_id": "https://openalex.org/A5094081664",
+    "matched_author_name": "วีวรรณ โทนชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0075",
+    "openalex_id": "https://openalex.org/A5057977677",
+    "matched_author_name": "วีระกิจ สุวรรณพิทักษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0076",
+    "openalex_id": "https://openalex.org/A5092885078",
+    "matched_author_name": "เฉลิมพันธุ์ ฤาวิชา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0079",
+    "openalex_id": "https://openalex.org/A5010755437",
+    "matched_author_name": "วิภาวรรณ วงษ์สุวรรณ์ คงเผ่า",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0080",
+    "openalex_id": "https://openalex.org/A5114684773",
+    "matched_author_name": "มนสิการ เฮงสุวรรณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0082",
+    "openalex_id": "https://openalex.org/A5059222064",
+    "matched_author_name": "ศันสนีย์ เณรเทียน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0084",
+    "openalex_id": "https://openalex.org/A5094085598",
+    "matched_author_name": "จงกล ทําสวน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0078",
+    "openalex_id": "https://openalex.org/A5119932233",
+    "matched_author_name": "สร้อยสน สกลรักษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0085",
+    "openalex_id": "https://openalex.org/A5055295176",
+    "matched_author_name": "ไพโรจน์ น่วมนุ่ม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0088",
+    "openalex_id": "https://openalex.org/A5004729847",
+    "matched_author_name": "สกลรัชต์ แก้วดี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0083",
+    "openalex_id": "https://openalex.org/A5116755261",
+    "matched_author_name": "อัมพร ม้าคนอง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0089",
+    "openalex_id": "https://openalex.org/A5005015639",
+    "matched_author_name": "สายรุ้ง ซาวสุภา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0092",
+    "openalex_id": "https://openalex.org/A5096325452",
+    "matched_author_name": "วิชญาดา นวนิจบํารุง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0095",
+    "openalex_id": "https://openalex.org/A5095066333",
+    "matched_author_name": "Jatupol Sangwanglao",
+    "h_index": 1,
+    "total_citations": 4,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0090",
+    "openalex_id": "https://openalex.org/A5119859842",
+    "matched_author_name": "สลา สามิภักดิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0097",
+    "openalex_id": "https://openalex.org/A5048995345",
+    "matched_author_name": "รุ่งระวี สมะวรรธนะ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0098",
+    "openalex_id": "https://openalex.org/A5096421238",
+    "matched_author_name": "สริญญา รอดพิพัฒน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0091",
+    "openalex_id": "https://openalex.org/A5080800603",
+    "matched_author_name": "พรเทพ จันทราอุกฤษฎ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0100",
+    "openalex_id": "https://openalex.org/A5116749880",
+    "matched_author_name": "จุฑารัตน์ วิบูลผล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0096",
+    "openalex_id": "https://openalex.org/A5116745569",
+    "matched_author_name": "สุธนะ ติงศภัทิย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0101",
+    "openalex_id": "https://openalex.org/A5006153901",
+    "matched_author_name": "พรพิมล ศุขะวาที",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0102",
+    "openalex_id": "https://openalex.org/A5066836989",
+    "matched_author_name": "มณีรัตน์ เอกโยคยะ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0105",
+    "openalex_id": "https://openalex.org/A5001027610",
+    "matched_author_name": "ชยุตม์ ภิรมย์สมบัติ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0107",
+    "openalex_id": "https://openalex.org/A5019469124",
+    "matched_author_name": "ลภัสพิชชา สุรวาทกุล",
+    "h_index": 1,
+    "total_citations": 13,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0106",
+    "openalex_id": "https://openalex.org/A5116660147",
+    "matched_author_name": "สุรศักดิ์ เก้าเอี้ยน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0109",
+    "openalex_id": "https://openalex.org/A5136424285",
+    "matched_author_name": "ประภาศิริ รัชชประภาพรกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0104",
+    "openalex_id": "https://openalex.org/A5029422752",
+    "matched_author_name": "วรรณี แกมเกตุ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0108",
+    "openalex_id": "https://openalex.org/A5082911016",
+    "matched_author_name": "Watcharasak Sudla",
+    "h_index": 1,
+    "total_citations": 6,
+    "total_publications_count": 8,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0113",
+    "openalex_id": "https://openalex.org/A5116503476",
+    "matched_author_name": "ณภัทร ชัยมงคล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0114",
+    "openalex_id": "https://openalex.org/A5114296660",
+    "matched_author_name": "จรินทร วินทะไชย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0110",
+    "openalex_id": "https://openalex.org/A5118687645",
+    "matched_author_name": "กมลวรรณ ตังธนกานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0116",
+    "openalex_id": "https://openalex.org/A5116659642",
+    "matched_author_name": "วีรพล แสงปัญญา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0112",
+    "openalex_id": "https://openalex.org/A5071462104",
+    "matched_author_name": "ณัฏฐภรณ์ หลาวทอง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 5,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0111",
+    "openalex_id": "https://openalex.org/A5017608591",
+    "matched_author_name": "Siridej Sujiva",
+    "h_index": 9,
+    "total_citations": 559,
+    "total_publications_count": 37,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0118",
+    "openalex_id": "https://openalex.org/A5139569788",
+    "matched_author_name": "วาทินี อมรไพศาลเลิศ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0115",
+    "openalex_id": "https://openalex.org/A5015021813",
+    "matched_author_name": "ชุติมา สุรเศรษฐ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0119",
+    "openalex_id": "https://openalex.org/A5116659188",
+    "matched_author_name": "นพรัตน์ ศรีเจริญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0120",
+    "openalex_id": "https://openalex.org/A5096042136",
+    "matched_author_name": "กณิชชา ศิริศักดิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0123",
+    "openalex_id": "https://openalex.org/A5079272174",
+    "matched_author_name": "ขนบพร วัฒนสุขชัย-แสงวณิช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "cu_wave19_edu_0124",
+    "openalex_id": "https://openalex.org/A5096643575",
+    "matched_author_name": "สุชาติ อิ่มสําราญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_agri_wave14_b_0001",
+    "openalex_id": "https://openalex.org/A5126900193",
+    "matched_author_name": "สมพงศ์ จันทร์แก้ว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kku_agri_wave14_b_0002",
+    "openalex_id": "https://openalex.org/A5005303386",
+    "matched_author_name": "ดร.จิรวัฒน์ สนิทชน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "cu_wave19_edu_0122",
+    "openalex_id": "https://openalex.org/A5118614645",
+    "matched_author_name": "อินทิรา พรมพันธุ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kku_agri_wave14_b_0005",
+    "openalex_id": "https://openalex.org/A5091188622",
+    "matched_author_name": "พัชริน ส่งศรี และ นันทวุฒิ จงรั้งกลาง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_agri_wave14_b_0016",
+    "openalex_id": "https://openalex.org/A5127449969",
+    "matched_author_name": "ชานนท์ ลาภจิตร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_agri_wave14_b_0021",
+    "openalex_id": "https://openalex.org/A5136951275",
+    "matched_author_name": "ศุภัชญา นามพิลา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_agri_wave14_b_0031",
+    "openalex_id": "https://openalex.org/A5136986800",
+    "matched_author_name": "สมยศ มีทา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kku_agri_wave14_b_0032",
+    "openalex_id": "https://openalex.org/A5062501520",
+    "matched_author_name": "ดร.สุภาภรณ์ พวงชมภู",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kku_agri_wave14_b_0051",
+    "openalex_id": "https://openalex.org/A5065894597",
+    "matched_author_name": "ดร. กฤตพล สมมาตย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kku_eng_wave12_0001",
+    "openalex_id": "https://openalex.org/A5116749474",
+    "matched_author_name": "จิตติน ตรีพุทธรัตน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kku_pharm_wave16_0044",
+    "openalex_id": "https://openalex.org/A5061382668",
+    "matched_author_name": "ดร.ทวีศักดิ์ ธิติเมธาโรจน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "mju_1e8fd7b9_6060",
+    "openalex_id": "https://openalex.org/A5145903218",
+    "matched_author_name": "วรวรรณ เพชรอุไร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "mju_20192677_2639",
+    "openalex_id": "https://openalex.org/A5022204203",
+    "matched_author_name": "หยาดฝน ทนงการกิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "mju_3056c9b8_5213",
+    "openalex_id": "https://openalex.org/A5018550327",
+    "matched_author_name": "อุทัยวรรณ ศรีวิชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "mju_393f1825_0015",
+    "openalex_id": "https://openalex.org/A5004851615",
+    "matched_author_name": "ฤทธิชัย อัศวราชันย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "mju_3f07ddbf_1431",
+    "openalex_id": "https://openalex.org/A5058914720",
+    "matched_author_name": "สมเกียรติ ชัยพิบูลย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "mju_56aefddb_6382",
+    "openalex_id": "https://openalex.org/A5128425161",
+    "matched_author_name": "วิชญา โคตรฐิติธรรม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0002",
+    "openalex_id": "https://openalex.org/A5028977385",
+    "matched_author_name": "สุพัฒน์ บุณยฤทธิกิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0005",
+    "openalex_id": "https://openalex.org/A5022777171",
+    "matched_author_name": "วีระยุต ขุ้ยศร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0008",
+    "openalex_id": "https://openalex.org/A5023556940",
+    "matched_author_name": "เขมพัทธ์ พัชรวิชญ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0012",
+    "openalex_id": "https://openalex.org/A5029365131",
+    "matched_author_name": "นุชนภางค์ แก้วนิล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0013",
+    "openalex_id": "https://openalex.org/A5116662026",
+    "matched_author_name": "โมทนา สิทธิพิทักษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0014",
+    "openalex_id": "https://openalex.org/A5078644163",
+    "matched_author_name": "พิจักษณ์ ทนันชัยบุตร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "mju_6eab228f_5009",
+    "openalex_id": "https://openalex.org/A5135158158",
+    "matched_author_name": "ณภัทร เรืองนภากุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "mju_7ff309f6_7735",
+    "openalex_id": "https://openalex.org/A5122382677",
+    "matched_author_name": "นำพร ปัญโญใหญ่",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0020",
+    "openalex_id": "https://openalex.org/A5116724464",
+    "matched_author_name": "สมโชค สินนุกูล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0019",
+    "openalex_id": "https://openalex.org/A5069603625",
+    "matched_author_name": "ทรงเกียรติ เที้ยธิทรัพย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0023",
+    "openalex_id": "https://openalex.org/A5023684316",
+    "matched_author_name": "ชนินทร์ ทิพโยภาส",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0022",
+    "openalex_id": "https://openalex.org/A5010580034",
+    "matched_author_name": "วรวรรณ โรจนไพบูลย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0024",
+    "openalex_id": "https://openalex.org/A5074862144",
+    "matched_author_name": "รุ่งโรจน์ วงศ์มหาศิริ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0021",
+    "openalex_id": "https://openalex.org/A5000542363",
+    "matched_author_name": "โอชกร ภาคสุวรรณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0025",
+    "openalex_id": "https://openalex.org/A5070310869",
+    "matched_author_name": "ปริญญา ชูแก้ว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0026",
+    "openalex_id": "https://openalex.org/A5073154048",
+    "matched_author_name": "พรพุฒิ ศุภเอม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0027",
+    "openalex_id": "https://openalex.org/A5037427979",
+    "matched_author_name": "ปูรณ์ ขวัญสุวรรณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0028",
+    "openalex_id": "https://openalex.org/A5116764774",
+    "matched_author_name": "รวิช ควรประเสริฐ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0029",
+    "openalex_id": "https://openalex.org/A5116724794",
+    "matched_author_name": "ณรงค์ฤทธิ์ จินต์จันทรวงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0030",
+    "openalex_id": "https://openalex.org/A5116747386",
+    "matched_author_name": "โชติวิทย์ พงษ์เสริมผล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0035",
+    "openalex_id": "https://openalex.org/A5116712573",
+    "matched_author_name": "วนัสสุดา ไชยมนตรี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0038",
+    "openalex_id": "https://openalex.org/A5116725300",
+    "matched_author_name": "พิสิฐ พินิจจันทร์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0032",
+    "openalex_id": "https://openalex.org/A5023703733",
+    "matched_author_name": "ธีรชัย ลี้สุรพลานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0040",
+    "openalex_id": "https://openalex.org/A5116725661",
+    "matched_author_name": "มนสินี อรรถวานิช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0042",
+    "openalex_id": "https://openalex.org/A5096004069",
+    "matched_author_name": "วนิดา หนุ่มสุข",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0044",
+    "openalex_id": "https://openalex.org/A5050626104",
+    "matched_author_name": "พลกฤต กฤตโยภาส",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0045",
+    "openalex_id": "https://openalex.org/A5116726297",
+    "matched_author_name": "จักรวิดา จันทนวรางกูร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0047",
+    "openalex_id": "https://openalex.org/A5096196368",
+    "matched_author_name": "รตินันท์ วิรัชติ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0049",
+    "openalex_id": "https://openalex.org/A5039094631",
+    "matched_author_name": "ถิรายุ ชุมสาย ณ อยุธยา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0057",
+    "openalex_id": "https://openalex.org/A5116726127",
+    "matched_author_name": "กิตติธัช ชัยประสิทธิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0063",
+    "openalex_id": "https://openalex.org/A5116693408",
+    "matched_author_name": "ญาดา ชวาลกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0072",
+    "openalex_id": "https://openalex.org/A5012605623",
+    "matched_author_name": "สมประสงค์ รุ่งเรือง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0069",
+    "openalex_id": "https://openalex.org/A5116693835",
+    "matched_author_name": "วัชราธร เพ็ญศศิธร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0067",
+    "openalex_id": "https://openalex.org/A5016104805",
+    "matched_author_name": "ศศิกาญจน์ นารถโคษา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0070",
+    "openalex_id": "https://openalex.org/A5042378685",
+    "matched_author_name": "ชิตชัย ควรเดชะคุปต์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0071",
+    "openalex_id": "https://openalex.org/A5074832621",
+    "matched_author_name": "อภินภัศ จิตรกร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0081",
+    "openalex_id": "https://openalex.org/A5119447197",
+    "matched_author_name": "นฤดี ภู่รัตนรักษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0077",
+    "openalex_id": "https://openalex.org/A5053388404",
+    "matched_author_name": "สุรเชษฐ ไชยอุปละ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0084",
+    "openalex_id": "https://openalex.org/A5006367725",
+    "matched_author_name": "แข มังกรวงษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0085",
+    "openalex_id": "https://openalex.org/A5091761566",
+    "matched_author_name": "สุวรรณณี สุรเชษฐคมสัน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0083",
+    "openalex_id": "https://openalex.org/A5031672706",
+    "matched_author_name": "กิตติชัย เกษมศานติ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0086",
+    "openalex_id": "https://openalex.org/A5116743825",
+    "matched_author_name": "ทรงศิริ พันธุเสวี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0094",
+    "openalex_id": "https://openalex.org/A5119447030",
+    "matched_author_name": "ภาพแพรว รัตรสาร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0098",
+    "openalex_id": "https://openalex.org/A5116693639",
+    "matched_author_name": "นวรัตน์ สิทธิมงคลชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0105",
+    "openalex_id": "https://openalex.org/A5064222956",
+    "matched_author_name": "ถนอมนวล เดชาคนีวงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0109",
+    "openalex_id": "https://openalex.org/A5118614634",
+    "matched_author_name": "วุฒิกร คงคา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0123",
+    "openalex_id": "https://openalex.org/A5128262519",
+    "matched_author_name": "อคราส พรขจรกิจกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0128",
+    "openalex_id": "https://openalex.org/A5116751435",
+    "matched_author_name": "กมล เกียรติเรืองกมลา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0130",
+    "openalex_id": "https://openalex.org/A5118614805",
+    "matched_author_name": "วสมน สาณะเสน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0131",
+    "openalex_id": "https://openalex.org/A5120034194",
+    "matched_author_name": "ณัฐพล ชัยวรวัฒน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0132",
+    "openalex_id": "https://openalex.org/A5093084806",
+    "matched_author_name": "ต่อพงษ์ ลิ่มลัญจกร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0138",
+    "openalex_id": "https://openalex.org/A5092869331",
+    "matched_author_name": "เอกเทพ ไมเกิ้ล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0149",
+    "openalex_id": "https://openalex.org/A5077147207",
+    "matched_author_name": "ณัฏฐกิษฐ นบนอบ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0147",
+    "openalex_id": "https://openalex.org/A5118687237",
+    "matched_author_name": "อมร กฤษณพันธุ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kmitl_aad_wave16_0148",
+    "openalex_id": "https://openalex.org/A5010429053",
+    "matched_author_name": "ปนายุ ไชยรัตนานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0146",
+    "openalex_id": "https://openalex.org/A5054183381",
+    "matched_author_name": "ประพัทธ์พงษ์ อุปลา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_aad_wave16_0152",
+    "openalex_id": "https://openalex.org/A5147627267",
+    "matched_author_name": "วิรัตน์ รัตนพิทักษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0004",
+    "openalex_id": "https://openalex.org/A5067368668",
+    "matched_author_name": "พีระวุฒิ สุวรรณจันทร์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0019",
+    "openalex_id": "https://openalex.org/A5083077448",
+    "matched_author_name": "วินัย ใจกล้า",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0023",
+    "openalex_id": "https://openalex.org/A5119260802",
+    "matched_author_name": "วาสณา บุญส่ง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0026",
+    "openalex_id": "https://openalex.org/A5069850066",
+    "matched_author_name": "คุ้มพงศ์ หนูบรรจง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0028",
+    "openalex_id": "https://openalex.org/A5006572142",
+    "matched_author_name": "ทศพร โสดาบรรลุ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0030",
+    "openalex_id": "https://openalex.org/A5123108795",
+    "matched_author_name": "ธเนศ ภิรมย์การ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kmitl_siet_wave16_0032",
+    "openalex_id": "https://openalex.org/A5085992313",
+    "matched_author_name": "จตุรงค์ เลาหะเพ็ญแสง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 5,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0041",
+    "openalex_id": "https://openalex.org/A5015290597",
+    "matched_author_name": "อภิสักก์ สินธุภัค",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0043",
+    "openalex_id": "https://openalex.org/A5041286034",
+    "matched_author_name": "สมชาย เซะวิเศษ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "kmitl_siet_wave16_0045",
+    "openalex_id": "https://openalex.org/A5041846308",
+    "matched_author_name": "พรหมปพร นวลแสง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0046",
+    "openalex_id": "https://openalex.org/A5118722964",
+    "matched_author_name": "ทรงวุฒิ เอกวุฒิวงศา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kmitl_siet_wave16_0052",
+    "openalex_id": "https://openalex.org/A5079708555",
+    "matched_author_name": "มนชญา สระบัว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0055",
+    "openalex_id": "https://openalex.org/A5062399018",
+    "matched_author_name": "ฉันทนา วิริยเวชกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0057",
+    "openalex_id": "https://openalex.org/A5016699806",
+    "matched_author_name": "ไพฑูรย์ พิมดี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0056",
+    "openalex_id": "https://openalex.org/A5040319550",
+    "matched_author_name": "กาญจนา บุญภักดิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0058",
+    "openalex_id": "https://openalex.org/A5119859418",
+    "matched_author_name": "ปริยาภรณ์ ตั้งคุณานันต์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0059",
+    "openalex_id": "https://openalex.org/A5144925459",
+    "matched_author_name": "อัคพงศ์ สุขมาตย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0054",
+    "openalex_id": "https://openalex.org/A5119859419",
+    "matched_author_name": "ฐิยาพร กันตาธนวัฒน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0063",
+    "openalex_id": "https://openalex.org/A5020698935",
+    "matched_author_name": "บุญจันทร์ สีสันต์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0064",
+    "openalex_id": "https://openalex.org/A5071321041",
+    "matched_author_name": "แสงอุทัย มอโท",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0061",
+    "openalex_id": "https://openalex.org/A5116766221",
+    "matched_author_name": "กฤษณา คิดดี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0069",
+    "openalex_id": "https://openalex.org/A5080638707",
+    "matched_author_name": "จารุวรรณ พลอยดวงรัตน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0072",
+    "openalex_id": "https://openalex.org/A5048416498",
+    "matched_author_name": "ชลธวัฒน์ มีดี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0073",
+    "openalex_id": "https://openalex.org/A5048546979",
+    "matched_author_name": "ดร.ศิริรัตน์ เพ็ชร์แสงศรี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kmitl_siet_wave16_0075",
+    "openalex_id": "https://openalex.org/A5119785637",
+    "matched_author_name": "กันยารัตน์ ศรีวิสทิยกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "kmitl_siet_wave16_0074",
+    "openalex_id": "https://openalex.org/A5053664690",
+    "matched_author_name": "พูลศรี เวศย์อุฬาร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 5,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0076",
+    "openalex_id": "https://openalex.org/A5079334969",
+    "matched_author_name": "ธนินทร์ รัตนโอฬาร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0077",
+    "openalex_id": "https://openalex.org/A5026255663",
+    "matched_author_name": "ปิยพงษ์ สุเมตติกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 6,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0083",
+    "openalex_id": "https://openalex.org/A5041526748",
+    "matched_author_name": "Pukkapong Poungsuk ภัคพงศ์ ปวงสุข",
+    "h_index": 1,
+    "total_citations": 1,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0084",
+    "openalex_id": "https://openalex.org/A5002088842",
+    "matched_author_name": "รัชดากร พลภักดี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "kmitl_siet_wave16_0085",
+    "openalex_id": "https://openalex.org/A5062358442",
+    "matched_author_name": "Sarawut Intrarathed ศราวุธ อินทรเทศ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0004",
+    "openalex_id": "https://openalex.org/A5085523825",
+    "matched_author_name": "กิติพงษ์ รัตนาภรณ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "msu_aurasopon__3311",
+    "openalex_id": "https://openalex.org/A5081654750",
+    "matched_author_name": "อภินันท์ อุรโสภณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0009",
+    "openalex_id": "https://openalex.org/A5037245704",
+    "matched_author_name": "สาโรจน์ ศิริศันสนียกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0019",
+    "openalex_id": "https://openalex.org/A5127164066",
+    "matched_author_name": "กฤษกมล ณ จอม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0023",
+    "openalex_id": "https://openalex.org/A5040846767",
+    "matched_author_name": "ปัทธิมา อุดมไพจิตรกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0021",
+    "openalex_id": "https://openalex.org/A5127333103",
+    "matched_author_name": "น้ำฝน ลำดับวงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0027",
+    "openalex_id": "https://openalex.org/A5127065100",
+    "matched_author_name": "เยาวภา หล่อเจริญผล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0033",
+    "openalex_id": "https://openalex.org/A5063302447",
+    "matched_author_name": "สุดาทิพย์ แซ่ตั้น",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0036",
+    "openalex_id": "https://openalex.org/A5127402431",
+    "matched_author_name": "วรรธินี เกตุคง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0034",
+    "openalex_id": "https://openalex.org/A5116676433",
+    "matched_author_name": "สุวิมล เจริญสิทธิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0054",
+    "openalex_id": "https://openalex.org/A5027293604",
+    "matched_author_name": "ภัทรินทร์ ลีลาภิวัฒน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0058",
+    "openalex_id": "https://openalex.org/A5150634428",
+    "matched_author_name": "ธัญญารัตน์ จิญกาญจน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0063",
+    "openalex_id": "https://openalex.org/A5088736535",
+    "matched_author_name": "ปิติพร ฤทธิเรืองเดช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0062",
+    "openalex_id": "https://openalex.org/A5029586828",
+    "matched_author_name": "สุนทรี สุวรรณสิชณน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0065",
+    "openalex_id": "https://openalex.org/A5127200209",
+    "matched_author_name": "นันทวัน เทอดไทย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0067",
+    "openalex_id": "https://openalex.org/A5127222438",
+    "matched_author_name": "เทพกัญญา หาญศีลวัต",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0066",
+    "openalex_id": "https://openalex.org/A5127463281",
+    "matched_author_name": "วิษฐิดา จันทราพรชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0068",
+    "openalex_id": "https://openalex.org/A5127035469",
+    "matched_author_name": "กมลวรรณ แจ้งชัด",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0081",
+    "openalex_id": "https://openalex.org/A5056847004",
+    "matched_author_name": "ดวงรัตน์ หิรัญญะสิริ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0089",
+    "openalex_id": "https://openalex.org/A5127006882",
+    "matched_author_name": "พรรณภัทร พรหมเพ็ญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0086",
+    "openalex_id": "https://openalex.org/A5092329781",
+    "matched_author_name": "กรทิพย์ วัชรปัญญาวงศ์ เตชะเมธีกุล",
+    "h_index": 1,
+    "total_citations": 1,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0090",
+    "openalex_id": "https://openalex.org/A5116675079",
+    "matched_author_name": "ผุสดี แซ่ลิ่ม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "ku_agro_wave15_0094",
+    "openalex_id": "https://openalex.org/A5083208449",
+    "matched_author_name": "อภิชญา ลีลาวณิชกุล",
+    "h_index": 1,
+    "total_citations": 1,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0101",
+    "openalex_id": "https://openalex.org/A5069755818",
+    "matched_author_name": "พรสิริ ชาติปรีชา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_agro_wave15_0102",
+    "openalex_id": "https://openalex.org/A5150589579",
+    "matched_author_name": "อริสรา ทองเพ็ชร์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_forest_wave15_0080",
+    "openalex_id": "https://openalex.org/A5146191124",
+    "matched_author_name": "กฤษฎาพันธุ์ ผลากิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_forest_wave15_0081",
+    "openalex_id": "https://openalex.org/A5146259123",
+    "matched_author_name": "ขวัญชัย ดวงสถาพร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_forest_wave15_0140",
+    "openalex_id": "https://openalex.org/A5127189319",
+    "matched_author_name": "นภวรรณ ฐานะกาญจน์ พงษ์เขียว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_forest_wave15_0142",
+    "openalex_id": "https://openalex.org/A5088823156",
+    "matched_author_name": "ปิยพงษ์ ทองดีนอก",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_forest_wave15_0143",
+    "openalex_id": "https://openalex.org/A5013666287",
+    "matched_author_name": "พัชเรศร์ ชคัตตรัยกุล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_sci_wave13_0001",
+    "openalex_id": "https://openalex.org/A5073313351",
+    "matched_author_name": "จิรศักดิ์ วงศ์เอกบุตร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_wave17_econ_0034",
+    "openalex_id": "https://openalex.org/A5091336852",
+    "matched_author_name": "ศานิต เก้าเอี้ยน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "msu_petchpengchai__8908",
+    "openalex_id": "https://openalex.org/A5067276597",
+    "matched_author_name": "ดร.เพชร เพ็งชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "ku_wave17_hum_0039",
+    "openalex_id": "https://openalex.org/A5016369885",
+    "matched_author_name": "ธีรัตม์ แสงแก้ว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_wave17_hum_0155",
+    "openalex_id": "https://openalex.org/A5096325526",
+    "matched_author_name": "จิรวุฒิ กิจการุณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_wave17_soc_0012",
+    "openalex_id": "https://openalex.org/A5148822686",
+    "matched_author_name": "เอื้ออนุช ถนอมวงษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_wave17_soc_0046",
+    "openalex_id": "https://openalex.org/A5061137357",
+    "matched_author_name": "เรวัตร หินอ่อน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_wave17_soc_0095",
+    "openalex_id": "https://openalex.org/A5014361178",
+    "matched_author_name": "ปาณิภา สุขสม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_nattaponm__9578",
+    "openalex_id": "https://openalex.org/A5004380203",
+    "matched_author_name": "นัฐพล มหาวิค",
+    "h_index": 1,
+    "total_citations": 2,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "ku_wave18_arch_0045",
+    "openalex_id": "https://openalex.org/A5116725227",
+    "matched_author_name": "สุชล มัลลิกะมาลย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_wave17_hum_0129",
+    "openalex_id": "https://openalex.org/A5121537773",
+    "matched_author_name": "ดิเรก หงษ์ทอง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_wave18_asc_0061",
+    "openalex_id": "https://openalex.org/A5005019135",
+    "matched_author_name": "เบญจอาภา พิเศษสกุลวงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_wave18_econsrc_0012",
+    "openalex_id": "https://openalex.org/A5064123552",
+    "matched_author_name": "ศรีอร สมบูรณ์ทรัพย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0059",
+    "openalex_id": "https://openalex.org/A5144980432",
+    "matched_author_name": "กุลชนาฐ ประเสริฐสิทธิ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "nu_riantongs__3125",
+    "openalex_id": "https://openalex.org/A5004965184",
+    "matched_author_name": "เหรียญทอง สิงห์จานุสงค์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "ku_wave18_eduks_0039",
+    "openalex_id": "https://openalex.org/A5127349446",
+    "matched_author_name": "สมบุญ ศิลป์รุ่งธรรม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "ku_wave18_msc_0026",
+    "openalex_id": "https://openalex.org/A5119870880",
+    "matched_author_name": "ศรัณย์ ดั่นสถิตย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_anurakk__7447",
+    "openalex_id": "https://openalex.org/A5016834650",
+    "matched_author_name": "อนุรักษ์ เขียวขจรเขต",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "nu_charoons__3499",
+    "openalex_id": "https://openalex.org/A5116759624",
+    "matched_author_name": "จรูญ สารินทร์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_med_wave15_0092",
+    "openalex_id": "https://openalex.org/A5041634391",
+    "matched_author_name": "อิมรัน สะมะแอ มิ่งขวัญ ยิ่งขจร และณัฏฐนันท์ ปิ่นชัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "tu_eng_wave16_0020",
+    "openalex_id": "https://openalex.org/A5120033505",
+    "matched_author_name": "สุรภาพ แก้วสวัสดิ์วงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_pantipk__3543",
+    "openalex_id": "https://openalex.org/A5025077246",
+    "matched_author_name": "พันธ์ทิพย์ กล่อมเจ๊ก",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_pattarapornt__9169",
+    "openalex_id": "https://openalex.org/A5038641769",
+    "matched_author_name": "ภัทรภร ทัศพงษ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_paweenan__3157",
+    "openalex_id": "https://openalex.org/A5032486696",
+    "matched_author_name": "ปวีนา น้อยทัพ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_prasitme__9494",
+    "openalex_id": "https://openalex.org/A5090717357",
+    "matched_author_name": "ประสิทธิ์ เมฆอรุณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_punnarongi__9435",
+    "openalex_id": "https://openalex.org/A5116759610",
+    "matched_author_name": "พันธ์ณรงค์ จันทร์แสงศรี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_rangsunc__7453",
+    "openalex_id": "https://openalex.org/A5076464651",
+    "matched_author_name": "รังสรรค์ เจริญสุข และทินกร ทาตระกูล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_suphannikai__6653",
+    "openalex_id": "https://openalex.org/A5082848687",
+    "matched_author_name": "สุพรรณิกา อินต๊ะนนท์",
+    "h_index": 1,
+    "total_citations": 2,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "nu_wandeeta__5214",
+    "openalex_id": "https://openalex.org/A5057243887",
+    "matched_author_name": "วันดี ทาตระกูล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0001",
+    "openalex_id": "https://openalex.org/A5144575671",
+    "matched_author_name": "เสาวคนธ์ วัฒนจันทร์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 6,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0003",
+    "openalex_id": "https://openalex.org/A5145534542",
+    "matched_author_name": "วิโรจน์ ยูรวงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0007",
+    "openalex_id": "https://openalex.org/A5144636944",
+    "matched_author_name": "วรพงษ์ อัศวเกศมณี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0004",
+    "openalex_id": "https://openalex.org/A5145478652",
+    "matched_author_name": "ก่องกาญจน์ กิจรุ่งโรจน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0009",
+    "openalex_id": "https://openalex.org/A5144761687",
+    "matched_author_name": "ปุณณาณี สัมภวะผล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0010",
+    "openalex_id": "https://openalex.org/A5119147916",
+    "matched_author_name": "ดุสิดา หนูทอง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "psu_agro_wave13_0002",
+    "openalex_id": "https://openalex.org/A5085096399",
+    "matched_author_name": "มุทิตา มีนุ่น",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": true
+  },
+  {
+    "id": "psu_agro_wave13_0019",
+    "openalex_id": "https://openalex.org/A5116759622",
+    "matched_author_name": "วรัญญู ศรีเดช",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0008",
+    "openalex_id": "https://openalex.org/A5144608954",
+    "matched_author_name": "ปิยรัตน์ ศิริวงศ์ไพศาล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 5,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0020",
+    "openalex_id": "https://openalex.org/A5145575610",
+    "matched_author_name": "พรอุษา จิตพุทธิ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0018",
+    "openalex_id": "https://openalex.org/A5145203576",
+    "matched_author_name": "เถวียน วิทยา",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0021",
+    "openalex_id": "https://openalex.org/A5145899383",
+    "matched_author_name": "ศุภชัย ภิสัชเพ็ญ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0028",
+    "openalex_id": "https://openalex.org/A5119147914",
+    "matched_author_name": "กาญจพรรณ จันทรถาวรพงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "psu_agro_wave13_0026",
+    "openalex_id": "https://openalex.org/A5119147915",
+    "matched_author_name": "บุษวรรณ หิรัญวรชาติ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "psu_agro_wave13_0027",
+    "openalex_id": "https://openalex.org/A5116696265",
+    "matched_author_name": "กันยา อัครอารีย์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0022",
+    "openalex_id": "https://openalex.org/A5144758984",
+    "matched_author_name": "ธรรมนูญ โปรดปราน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0029",
+    "openalex_id": "https://openalex.org/A5145346157",
+    "matched_author_name": "ดาริกา อวะภาค",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0033",
+    "openalex_id": "https://openalex.org/A5144772562",
+    "matched_author_name": "ศุภศิลป์ มณีรัตน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0031",
+    "openalex_id": "https://openalex.org/A5144593942",
+    "matched_author_name": "ปิยะรัตน์ บุญแสวง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0032",
+    "openalex_id": "https://openalex.org/A5144604909",
+    "matched_author_name": "เบญจมาส เชียรศิลป์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0035",
+    "openalex_id": "https://openalex.org/A5145200364",
+    "matched_author_name": "อภิชาติ อู๋ไพจิตร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0040",
+    "openalex_id": "https://openalex.org/A5145223971",
+    "matched_author_name": "สันทัด วิเชียรโชติ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0042",
+    "openalex_id": "https://openalex.org/A5145689042",
+    "matched_author_name": "วัชรี สีห์ชำนาญธุระกิจ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0045",
+    "openalex_id": "https://openalex.org/A5145727012",
+    "matched_author_name": "วรพนิต จันทร์สุวรรณ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "su_eng_teacher_054",
+    "openalex_id": "https://openalex.org/A5048412672",
+    "matched_author_name": "สิริพร พงศ์ทองผาสุข",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0001",
+    "openalex_id": "https://openalex.org/A5145363126",
+    "matched_author_name": "ธนิต เฉลิมยานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 9,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0002",
+    "openalex_id": "https://openalex.org/A5072042572",
+    "matched_author_name": "สราวุธ จริตงาม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": true
+  },
+  {
+    "id": "psu_eng_wave11_0003",
+    "openalex_id": "https://openalex.org/A5145474521",
+    "matched_author_name": "พยอม รัตนมณี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0038",
+    "openalex_id": "https://openalex.org/A5144498926",
+    "matched_author_name": "เอ็ม นุ้ยเลิศ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0015",
+    "openalex_id": "https://openalex.org/A5145792329",
+    "matched_author_name": "สุเมธ ไชยประพัทธ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 6,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0016",
+    "openalex_id": "https://openalex.org/A5145579625",
+    "matched_author_name": "ธนิยา เกาศล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0017",
+    "openalex_id": "https://openalex.org/A5145025990",
+    "matched_author_name": "จรงค์พันธ์ มุสิกะวงศ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0010",
+    "openalex_id": "https://openalex.org/A5145285206",
+    "matched_author_name": "ปรเมศวร์ เหลือเทพ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0019",
+    "openalex_id": "https://openalex.org/A5144977390",
+    "matched_author_name": "วัสสา คงนคร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0018",
+    "openalex_id": "https://openalex.org/A5144595810",
+    "matched_author_name": "จรีรัตน์ สกุลรัตน์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0060",
+    "openalex_id": "https://openalex.org/A5145465145",
+    "matched_author_name": "จันทิมา ชั่งสิริพร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 9,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0062",
+    "openalex_id": "https://openalex.org/A5145035505",
+    "matched_author_name": "ทรงธรรม โพธิ์ถาวร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0063",
+    "openalex_id": "https://openalex.org/A5145088581",
+    "matched_author_name": "ผกามาศ เจษฎ์พัฒนานนท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0065",
+    "openalex_id": "https://openalex.org/A5144733531",
+    "matched_author_name": "ราม แย้มแสงสังข์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0066",
+    "openalex_id": "https://openalex.org/A5145131301",
+    "matched_author_name": "สินินาฏ จงคง",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 4,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0067",
+    "openalex_id": "https://openalex.org/A5145537659",
+    "matched_author_name": "สุกฤทธิรา รัตนวิไล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0068",
+    "openalex_id": "https://openalex.org/A5144575923",
+    "matched_author_name": "สุรัสวดี กังสนันท์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0069",
+    "openalex_id": "https://openalex.org/A5145823924",
+    "matched_author_name": "พรศิริ แก้วประดิษฐ์",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0071",
+    "openalex_id": "https://openalex.org/A5145616823",
+    "matched_author_name": "พงศ์พัฒน์ สนทะมิโน",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0072",
+    "openalex_id": "https://openalex.org/A5145126696",
+    "matched_author_name": "มนูญ มาศนิยม",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0061",
+    "openalex_id": "https://openalex.org/A5145191653",
+    "matched_author_name": "ชญานุช แสงวิเชียร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0070",
+    "openalex_id": "https://openalex.org/A5021210146",
+    "matched_author_name": "Prapas Muangjunburee",
+    "h_index": 11,
+    "total_citations": 382,
+    "total_publications_count": 64,
+    "corroborated": true
+  },
+  {
+    "id": "psu_eng_wave11_0074",
+    "openalex_id": "https://openalex.org/A5144754774",
+    "matched_author_name": "วิษณุ ราชเพ็ชร",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "psu_agro_wave13_0036",
+    "openalex_id": "https://openalex.org/A5145023089",
+    "matched_author_name": "วิริยะ ดวงสุวรรณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0082",
+    "openalex_id": "https://openalex.org/A5145254611",
+    "matched_author_name": "ธเนศ รัตนวิไล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0084",
+    "openalex_id": "https://openalex.org/A5145604736",
+    "matched_author_name": "นิกร ศิริวงศ์ไพศาล",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0073",
+    "openalex_id": "https://openalex.org/A5144841342",
+    "matched_author_name": "มัทนา ฆังคะมโณ",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0087",
+    "openalex_id": "https://openalex.org/A5145135494",
+    "matched_author_name": "วนัฐฌพงษ์ คงแก้ว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0088",
+    "openalex_id": "https://openalex.org/A5145136334",
+    "matched_author_name": "วนิดา รัตนมณี",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 2,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0090",
+    "openalex_id": "https://openalex.org/A5124084290",
+    "matched_author_name": "สิริรัตน์ พึ่งชมภู",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": true
+  },
+  {
+    "id": "psu_eng_wave11_0091",
+    "openalex_id": "https://openalex.org/A5144487128",
+    "matched_author_name": "กุลภัสร์ ทองแก้ว",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 1,
+    "corroborated": false
+  },
+  {
+    "id": "psu_eng_wave11_0089",
+    "openalex_id": "https://openalex.org/A5145175153",
+    "matched_author_name": "รัญชนา สินธวาลัย",
+    "h_index": 0,
+    "total_citations": 0,
+    "total_publications_count": 3,
+    "corroborated": false
+  }
+]

@@ -1,0 +1,976 @@
+{
+  "apply": false,
+  "duplicate_merges": [
+    {
+      "donor_id": "cmu_cb0c6016_3425",
+      "donor_name": "ศ. (เชี่ยวชาญพิเศษ)ดร. นพ. นิพนธ์ ฉัตรทิพากร",
+      "target_id": "cmu_med_nipon_001",
+      "target_name": "ศ.ดร. นพ. นิพนธ์ ฉัตรทิพากร",
+      "citations_preserved": 19318,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "cmu_6a741569_7688",
+      "donor_name": "ศ. (เชี่ยวชาญพิเศษ)ทพญ. ดร. สิริพร ฉัตรทิพากร",
+      "target_id": "cmu_bmei_siriporn_001",
+      "target_name": "ศ.ดร. ทพญ. สิริพร ฉัตรทิพากร",
+      "citations_preserved": 11236,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "cmu_3bcc79a3_6324",
+      "donor_name": "ศ. (เกียรติคุณ) ดร. ทรงศักดิ์ ศรีบุญจิตต์",
+      "target_id": "cmu_econ_songsak_001",
+      "target_name": "ศ.ดร. ทรงศักดิ์ ศรีบุญจิตต์",
+      "citations_preserved": 4250,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "tu_bus_tbs_018",
+      "donor_name": "รศ.ดร. ปิเตอร์ รักธรรม",
+      "target_id": "tu_tbs_peter_001",
+      "target_name": "รศ.ดร. ปีเตอร์ รักธรรม",
+      "citations_preserved": 2320,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "chulalongk_facultyofs_fac_007_007",
+      "donor_name": "รศ.ดร. สนอง เอกสิทธิ์",
+      "target_id": "chula_sci_002_8742ad",
+      "target_name": "ศ.ดร. สนอง เอกสิทธิ์",
+      "citations_preserved": 4158,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "chulalongk_facultyofs_fac_017_017",
+      "donor_name": "ผศ.ดร. นำพล อินสิน",
+      "target_id": "cu_sci_wave14_b_0031",
+      "target_name": "ผศ.ดร. นำพล อินสิน",
+      "citations_preserved": 2838,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "chulalongk_facultyofs_fac_021_021",
+      "donor_name": "ศ.ดร. พัชณิตา ธรรมยงค์กิจ",
+      "target_id": "cu_sci_wave14_b_0039",
+      "target_name": "ศ.ดร. พัชณิตา ธรรมยงค์กิจ",
+      "citations_preserved": 2081,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "chulalongk_facultyofs_fac_006_006",
+      "donor_name": "รศ.ดร. ปกรณ์ วรานุศุภากุล",
+      "target_id": "cu_sci_wave14_b_0034",
+      "target_name": "รศ.ดร. ปกรณ์ วรานุศุภากุล",
+      "citations_preserved": 1681,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "chulalongk_facultyofs_fac_014_014",
+      "donor_name": "ผศ.ดร. ภาณุวัฒน์ ผดุงรส",
+      "target_id": "cu_sci_wave14_b_0037",
+      "target_name": "ผศ.ดร. ภาณุวัฒน์ ผดุงรส",
+      "citations_preserved": 386,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "mahidoluni_facultyofs_tsakdapipanich_011",
+      "donor_name": "ศ.ดร. จิตลัดดา ศักดิ์ดาพิพานิช",
+      "target_id": "mu_sci_wave14_b_0019",
+      "target_name": "ศ.ดร. จิตต์ลัดดา ศักดาภิพาณิชย์",
+      "citations_preserved": 3761,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "chulalongk_facultyofv_taw_112",
+      "donor_name": "รศ. น.สพ. ดร. ปิยนันท์ ทวีถาวรสวัสดิ์",
+      "target_id": "chulalongk_facultyofv_taweethavonsawa_126",
+      "target_name": "รศ.ดร. ปิยนันท์ ทวีถาวรสวัสดิ์",
+      "citations_preserved": 689,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "kku_eng_wave12_0020",
+      "donor_name": "ศ.ดร. กาญจนา เศรษฐนันท์",
+      "target_id": "kku_eng_kanchana_001",
+      "target_name": "ศ.ดร. กาญจนา เศรษฐนันท์",
+      "citations_preserved": 2285,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "kku_1dd5e0f1_2035",
+      "donor_name": "อ.ดร. วาธิส ลีลาภัทร",
+      "target_id": "khonkaenun_collegeofc_leelapatra_062",
+      "target_name": "อ.ดร. วทิศ ลีลาภัทร",
+      "citations_preserved": 124,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "kku_dd282888_5274",
+      "donor_name": "อ.ดร. กิตติ์ เธียรธโนปจัย",
+      "target_id": "khonkaenun_collegeofc_tientanopajai_051",
+      "target_name": "อ.ดร. กิตติ์ เธียรธโนปจัย",
+      "citations_preserved": 64,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "kku_5412fb44_5980",
+      "donor_name": "อ.ดร. วสุ เชาว์พานนท์",
+      "target_id": "khonkaenun_collegeofc_chaopanon_061",
+      "target_name": "อ.ดร. วสุ เจ้าพนานนท์",
+      "citations_preserved": 44,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "mfu_it_chucherd_011",
+      "donor_name": "ผศ.ดร. สิริกานต์ ชูเชิด",
+      "target_id": "mfu_sirikan_chucherd_1962",
+      "target_name": "ผศ.ดร. ศิริกานต์ ชูเชิด",
+      "citations_preserved": 20,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "mfu_it_teeravisit_001",
+      "donor_name": "รศ.ดร. ธีรวิสิฏฐ์ เลาหพรหมดี",
+      "target_id": "mfu_teeravisit_laohapensaeng_4118",
+      "target_name": "ผศ.ดร. ธีรวิศิฏฐ์ เลาหะเพ็ญแสง",
+      "citations_preserved": 66,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "mahidoluni_collegeofm_boonyam_035",
+      "donor_name": "ผศ.ดร. เตรทิพย์ บุญแย้ม",
+      "target_id": "mahidoluni_collegeofm_boonyam_080",
+      "target_name": "ผศ.ดร. เตรทิพย์ บุญแย้ม",
+      "citations_preserved": 3,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "mahidoluni_collegeofm_bowman_036",
+      "donor_name": "ผศ.ดร. โจเซฟ แอล. บาวแมน",
+      "target_id": "mahidoluni_collegeofm_bowman_143",
+      "target_name": "ผศ.ดร. Joseph Bowman",
+      "citations_preserved": 50,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "mahidoluni_collegeofm_szawelski_213",
+      "donor_name": "อ. Marcin Tomasz Szawelski",
+      "target_id": "mahidoluni_collegeofm_szawelski_123",
+      "target_name": "อ. Marcin Szawelski",
+      "citations_preserved": 0,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "mahidoluni_collegeofm_leeswadtrakul_006",
+      "donor_name": "ดร. สมศักดิ์ ลีวัสดิ์ตระกูล",
+      "target_id": "mahidoluni_collegeofm_lee_151",
+      "target_name": "อ. Shyen Lee",
+      "citations_preserved": 0,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "chulalongk_facultyofv_fac_163_163",
+      "donor_name": "รศ. สพ.ญ. ดร. ปิยะรัตน์ (ศุภชลัสถ์) จันทร์ศิริพรชัย",
+      "target_id": "chulalongk_facultyofv_chansiriporncha_169",
+      "target_name": "รศ.ดร. สพ.ญ. ปิยะรัตน์ จันทร์ศิริพรชัย",
+      "citations_preserved": 167,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "chulalongk_facultyofv_fac_164_164",
+      "donor_name": "ผศ. สพ.ญ. ดร. นิภัทรา (เทพวัลย์) สวนไพรินทร์",
+      "target_id": "chulalongk_facultyofv_suwanprparin_172",
+      "target_name": "ผศ.ดร. สพ.ญ. นิภัทรา สวนไพรินทร์",
+      "citations_preserved": 0,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "chulalongk_facultyofv_thammacharoen_079",
+      "donor_name": "อ. สัมพันธ์ ธรรมเจริญ",
+      "target_id": "chulalongk_facultyofv_thamcharoen_068",
+      "target_name": "รศ. น.สพ. ดร. สัมพันธ์ ธรรมเจริญ",
+      "citations_preserved": 0,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "kasetsartu_facultyofv_sasadi_009",
+      "donor_name": "ผศ. สพ.ญ. ดร. เมทิตา สัสดี",
+      "target_id": "ku_wave17_vettech_0011",
+      "target_name": "รศ.ดร. เมทิตา สัสดี",
+      "citations_preserved": 115,
+      "labs_repointed": 0
+    },
+    {
+      "donor_id": "kasetsartu_facultyofv_raksaken_007",
+      "donor_name": "รศ. น.สพ. ดร. รักศักดิ์ รักษาเคน",
+      "target_id": "ku_wave17_vettech_0012",
+      "target_name": "รศ.ดร. รักศักดิ์ รักษาเคน",
+      "citations_preserved": 317,
+      "labs_repointed": 0
+    }
+  ],
+  "email_sanitizations": [
+    {
+      "id": "tu_eng_001",
+      "name": "รศ.ดร. ศุภวัฒน์ สุภสิทธิ์",
+      "cleared_email": "supawat@engr.tu.ac.th",
+      "reason": "supawat@engr.tu.ac.th belongs to Supawat Supakwong"
+    },
+    {
+      "id": "mu-ph-014_db2f3f",
+      "name": "ผศ.ดร. ทรงศักดิ์ ศรีมุสิกา",
+      "cleared_email": "songsak.sri@mahidol.ac.th",
+      "reason": "songsak.sri@mahidol.ac.th belongs to Songsak Srianujata"
+    },
+    {
+      "id": "mahidoluni_collegeofm_klinsmith_057",
+      "name": "อ. Lalin Klinsmith",
+      "cleared_email": "suvich.kli@mahidol.ac.th",
+      "reason": "suvich.kli@mahidol.ac.th belongs to Suvich Klinsmith"
+    },
+    {
+      "id": "cmu-eng-011_00e66f",
+      "name": "ศ.ดร. ชัชวาลย์ ชัยวงศ์",
+      "cleared_email": "chatchawan.c@cmu.ac.th",
+      "reason": "chatchawan.c@cmu.ac.th belongs to Chatchawan Chaichana"
+    },
+    {
+      "id": "mfu_integ_sulakkana_001",
+      "name": "รศ.ดร. สุลักขณา น้อยผา",
+      "cleared_email": "sulakkana.noi@mfu.ac.th",
+      "reason": "sulakkana.noi@mfu.ac.th belongs to Sulakkana Noiprasert"
+    },
+    {
+      "id": "cmu-eng-019_080c1b",
+      "name": "ศ.ดร. สมชาย ปทุม",
+      "cleared_email": "somchai.p@cmu.ac.th",
+      "reason": "somchai.p@cmu.ac.th belongs to Somchai Preechasilpakul"
+    },
+    {
+      "id": "camt-cmu-011_fb36c6",
+      "name": "ผศ.ดร. นริศรา เอี่ยมกาญจนาลัย",
+      "cleared_email": "narissara.e@cmu.ac.th",
+      "reason": "narissara.e@cmu.ac.th belongs to Narissara Eiamkanitchat"
+    },
+    {
+      "id": "cu_sci_wave14_b_0025",
+      "name": "ศ.ดร. Nattapong Paiboonvorachat",
+      "cleared_email": "nattapong.p@chula.ac.th",
+      "reason": "nattapong.p@chula.ac.th belongs to Nattapong Puttanapong"
+    },
+    {
+      "id": "kmutt_13ee518d_7562",
+      "name": "ผศ.ดร. นุจริน จงรุจา",
+      "cleared_email": "songsirin.rue@mail.kmutt.ac.th",
+      "reason": "songsirin.rue@mail.kmutt.ac.th belongs to Songsirin Ruengvisesh"
+    },
+    {
+      "id": "mahidoluni_collegeofm_sirilertworakul_011",
+      "name": "ดร. ณรงค์ ศิริเลิศวรกุล",
+      "cleared_email": "siri.sra@mahidol.ac.th",
+      "reason": "siri.sra@mahidol.ac.th belongs to Siri Sranoi"
+    },
+    {
+      "id": "thammasatu_thammasatb_fac_051_051",
+      "name": "ผศ.ดร. พาณุวงศ์ คัมภิรารักษ์",
+      "cleared_email": "krit@tbs.tu.ac.th",
+      "reason": "krit@tbs.tu.ac.th belongs to Krit Pattamaroj"
+    },
+    {
+      "id": "ku_wave18_agrips_0045",
+      "name": "ผศ.ดร. กนกกร สินมา",
+      "cleared_email": "fagrkks@ku.ac.th",
+      "reason": "fagrkks@ku.ac.th belongs to Kriangkrai Sookhong"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jittipichayanan_059",
+      "name": "อ. Pichayasini Jittipichayanan",
+      "cleared_email": "hyuk.cha@mahidol.edu",
+      "reason": "hyuk.cha@mahidol.edu belongs to Thomas Hyuk Cha"
+    },
+    {
+      "id": "su_eng_teacher_090",
+      "name": "อ.ดร. สิทธิชัย แซ่เหล่ม",
+      "cleared_email": "sujin@su.ac.th",
+      "reason": "sujin@su.ac.th belongs to Sujin Wuttichaiwat"
+    },
+    {
+      "id": "su_eng_teacher_125",
+      "name": "ผศ.ดร. เพ็ญพิสุทธิ์ ทองหยวก",
+      "cleared_email": "patipat@su.ac.th",
+      "reason": "patipat@su.ac.th belongs to Patipat Hongsuwan"
+    },
+    {
+      "id": "cmu-eng-006_75c670",
+      "name": "ผศ.ดร. กรกช นุชิต",
+      "cleared_email": "korakot.n@cmu.ac.th",
+      "reason": "korakot.n@cmu.ac.th belongs to Korakot Nganvongpanit"
+    },
+    {
+      "id": "mju_7ff309f6_7735",
+      "name": "ผศ.ดร. นำพร ปัญโญใหญ่",
+      "cleared_email": "sanwasan@mju.ac.th",
+      "reason": "sanwasan@mju.ac.th belongs to Sanwasan Yodkham"
+    },
+    {
+      "id": "ku-sci-math-007_6f2b83",
+      "name": "ผศ.ดร. วิชัย ปิยรัตน์",
+      "cleared_email": "fsciwcp@ku.ac.th",
+      "reason": "fsciwcp@ku.ac.th belongs to Wanchai Pluempanupat"
+    },
+    {
+      "id": "cmu-nurse-017_4869dd",
+      "name": "ผศ.ดร. ณัฐภัทร ศรีคำ",
+      "cleared_email": "natthaphat.s@cmu.ac.th",
+      "reason": "natthaphat.s@cmu.ac.th belongs to Natthaphat Siri-angkul"
+    },
+    {
+      "id": "chula_sci_014_d03e15",
+      "name": "อ.ดร. ศิริวัฒน์ โสมพันธ์",
+      "cleared_email": "siriwat.s@chula.ac.th",
+      "reason": "siriwat.s@chula.ac.th belongs to Siriwat Suatsong"
+    },
+    {
+      "id": "mahidoluni_collegeofm_cooper_031",
+      "name": "ผศ.ดร. เชลลีย์ มาร์ช คูเปอร์",
+      "cleared_email": "cooper.wri@mahidol.ac.th",
+      "reason": "cooper.wri@mahidol.ac.th belongs to Cooper Wright"
+    },
+    {
+      "id": "mahidoluni_facultyofs_laowattanakul_100",
+      "name": "อ. ชัยวัฒน์ เหล่าวัฒนากุล",
+      "cleared_email": "tana.tac@mahidol.ac.th",
+      "reason": "tana.tac@mahidol.ac.th belongs to Tana Taechalertpaisarn"
+    },
+    {
+      "id": "cu_cbs_wave11_0147",
+      "name": "รศ. ศศนันท์ วิวัฒนชาต",
+      "cleared_email": "anant@acc.chula.ac.th",
+      "reason": "anant@acc.chula.ac.th belongs to Anantanat Kunthanyarat"
+    },
+    {
+      "id": "nida_as_001",
+      "name": "รศ.ดร. สุรพงษ์ อังคสกุลเกียรติ",
+      "cleared_email": "surapong@as.nida.ac.th",
+      "reason": "surapong@as.nida.ac.th belongs to Surapong Auwatanamongkol"
+    },
+    {
+      "id": "ku-hum-020_290f0d",
+      "name": "อ.ดร. ณรงค์ จารุงกิจกุล",
+      "cleared_email": "fhumnrk@ku.ac.th",
+      "reason": "fhumnrk@ku.ac.th belongs to Narong Khienthongkul"
+    },
+    {
+      "id": "ku-sci-cs-002_cf7bc3",
+      "name": "รศ.ดร. พิพัฒน์ หิรัญวณิชกุล",
+      "cleared_email": "fscipph@ku.ac.th",
+      "reason": "fscipph@ku.ac.th belongs to Pimpa Hormnirun"
+    },
+    {
+      "id": "cu_sports_siriporn_001",
+      "name": "รศ.ดร. ศิริพร ศศิมณฑลกุล",
+      "cleared_email": "siriporn.sa@chula.ac.th",
+      "reason": "siriporn.sa@chula.ac.th belongs to Siriporn Sangsuthum"
+    },
+    {
+      "id": "sut_apinun_buritatum_6141",
+      "name": "อ.ดร. อภินันท์ บูริตธรรม",
+      "cleared_email": "tosaphol@sut.ac.th",
+      "reason": "tosaphol@sut.ac.th belongs to Tosaphol Ratniyomchai"
+    },
+    {
+      "id": "ku_forest_wave15_0084",
+      "name": "ผศ.ดร. พสุธา สุนทรห้าว",
+      "cleared_email": "fforpts@ku.ac.th",
+      "reason": "fforpts@ku.ac.th belongs to Phitaktrakul Sriprom"
+    },
+    {
+      "id": "sut_eng_chantima_001",
+      "name": "รศ.ดร. จันทิมา บรรเย็น",
+      "cleared_email": "chantima@sut.ac.th",
+      "reason": "chantima@sut.ac.th belongs to Chantima Deeprasertkul"
+    },
+    {
+      "id": "sut_eng_nittaya_001",
+      "name": "รศ.ดร. นิตยา เกิดเชื้อชื่น",
+      "cleared_email": "nittaya@sut.ac.th",
+      "reason": "nittaya@sut.ac.th belongs to Nittaya Kerdprasop"
+    },
+    {
+      "id": "sut_teetut_dolwichai_1031",
+      "name": "ศ.ดร. ธีทัต ดลวิชัย",
+      "cleared_email": "prapun@sut.ac.th",
+      "reason": "prapun@sut.ac.th belongs to Prapun Manyum"
+    },
+    {
+      "id": "nu_kumropr__8257",
+      "name": "รศ.ดร. คำรพ รัตนสุต",
+      "cleared_email": "kumropr@nu.ac.th",
+      "reason": "kumropr@nu.ac.th belongs to Kumrop Raksasate"
+    },
+    {
+      "id": "cmu-law-0014_2b5111",
+      "name": "รศ.ดร. ศิริพร จันทร",
+      "cleared_email": "siriporn.c@cmu.ac.th",
+      "reason": "siriporn.c@cmu.ac.th belongs to Siriporn Chattipakorn"
+    },
+    {
+      "id": "srinakha_facultyo_06bfc545",
+      "name": "รศ. นพ. ปริญญา อัครานุรักษ์กุล",
+      "cleared_email": "surgery.med@g.swu.ac.th",
+      "reason": "generic departmental surgery inbox surgery.med@g.swu.ac.th"
+    },
+    {
+      "id": "srinakha_facultyo_6918d2c3",
+      "name": "รศ. นพ. ธวัชชัย ตุลวรรธนะ",
+      "cleared_email": "surgery.med@g.swu.ac.th",
+      "reason": "generic departmental surgery inbox surgery.med@g.swu.ac.th"
+    },
+    {
+      "id": "kmutt_eng_cpe_017",
+      "name": "รศ.ดร. สุเทพ มาดารัศมี",
+      "cleared_email": "nongyao.jam@mail.kmutt.ac.th",
+      "reason": "generic staff email nongyao.jam@mail.kmutt.ac.th"
+    },
+    {
+      "id": "kmutt_eng_cpe_026",
+      "name": "อ.ดร. Mosiur Rahaman",
+      "cleared_email": "nongyao.jam@mail.kmutt.ac.th",
+      "reason": "generic staff email nongyao.jam@mail.kmutt.ac.th"
+    }
+  ],
+  "parentheses_normalizations": [
+    {
+      "id": "cmu_58ee6d12_3751",
+      "old_name": "ศ. (เชี่ยวชาญพิเศษ)ดร. นพ. กิตติพันธุ์ ฤกษ์เกษม",
+      "new_name": "ศ.เชี่ยวชาญพิเศษ ดร. นพ. กิตติพันธุ์ ฤกษ์เกษม",
+      "new_title": "ศ.เชี่ยวชาญพิเศษ ดร. นพ."
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_158_158",
+      "old_name": "รศ. สพ.ญ. ดร. วรา (จันทร์ศิริศรี) พานิชเกรียงไกร",
+      "new_name": "รศ.ดร. สพ.ญ. วรา พานิชเกรียงไกร",
+      "new_title": "รศ.ดร. สพ.ญ."
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_159_159",
+      "old_name": "รศ. ภญ. ดร. สุพัตรา (นวอภิศักดิ์) ศรีไชยรัตน์",
+      "new_name": "รศ.ดร. ภญ. สุพัตรา ศรีไชยรัตน์",
+      "new_title": "รศ.ดร. ภญ."
+    },
+    {
+      "id": "cmu_103fe821_4247",
+      "old_name": "ศ. (เชี่ยวชาญพิเศษ)ทพ. ดร. อะนัฆ เอี่ยมอรุณ",
+      "new_name": "ศ.เชี่ยวชาญพิเศษ ดร. ทพ. อะนัฆ เอี่ยมอรุณ",
+      "new_title": "ศ.เชี่ยวชาญพิเศษ ดร. ทพ."
+    },
+    {
+      "id": "ku_agro_wave15_0038",
+      "old_name": "อ. (ผู้ทรงคุณวุฒิ) รศ. ดร. สงวนศรี เจริญเหรียญ",
+      "new_name": "รศ.ดร. สงวนศรี เจริญเหรียญ",
+      "new_title": "รศ.ดร."
+    },
+    {
+      "id": "ku_agro_wave15_0039",
+      "old_name": "อ. (ผู้ทรงคุณวุฒิ) รศ. ดร. สิรี ชัยเสรี",
+      "new_name": "รศ.ดร. สิรี ชัยเสรี",
+      "new_title": "รศ.ดร."
+    },
+    {
+      "id": "ku_agro_wave15_0040",
+      "old_name": "อ. (ผู้ทรงคุณวุฒิ) ศ. ดร. อรอนงค์ นัยวิกุล",
+      "new_name": "ศ.ดร. อรอนงค์ นัยวิกุล",
+      "new_title": "ศ.ดร."
+    },
+    {
+      "id": "ku_agro_wave15_0041",
+      "old_name": "อ. (ผู้ทรงคุณวุฒิ) ผศ. ดร. ธนะบูลย์ สัจจาอนันตกุล",
+      "new_name": "ผศ.ดร. ธนะบูลย์ สัจจาอนันตกุล",
+      "new_title": "ผศ.ดร."
+    },
+    {
+      "id": "ku_agro_wave15_0042",
+      "old_name": "อ. (ผู้ทรงคุณวุฒิ) รศ. ดร. ปริศนา สุวรรณาภรณ์",
+      "new_name": "รศ.ดร. ปริศนา สุวรรณาภรณ์",
+      "new_title": "รศ.ดร."
+    },
+    {
+      "id": "ku_agro_wave15_0043",
+      "old_name": "อ. (ผู้ทรงคุณวุฒิ) รศ. ดร. ปาริฉัตร หงสประภาส",
+      "new_name": "รศ.ดร. ปาริฉัตร หงสประภาส",
+      "new_title": "รศ.ดร."
+    },
+    {
+      "id": "ku_agro_wave15_0044",
+      "old_name": "อ. (ผู้ทรงคุณวุฒิ) รศ. ดร. วราภา มหากาญจนกุล",
+      "new_name": "รศ.ดร. วราภา มหากาญจนกุล",
+      "new_title": "รศ.ดร."
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_153_153",
+      "old_name": "อ. สุพิศ (ถมังรักษ์สัตว์) จินดาวณิค",
+      "new_name": "อ. สุพิศ จินดาวณิค",
+      "new_title": "อ."
+    },
+    {
+      "id": "chiangmaiu_facultyofv_suriyasathaporn_082",
+      "old_name": "ศ. (คลินิก) ดร. สพ.ญ. วรรณนา สุริยาสถาพร",
+      "new_name": "ศ.คลินิก ดร. สพ.ญ. วรรณนา สุริยาสถาพร",
+      "new_title": "ศ.คลินิก ดร. สพ.ญ."
+    },
+    {
+      "id": "cu_7baa4e89_2397",
+      "old_name": "ผศ. (พิเศษ)พญ. สาริน เล็กชื่นสกุล",
+      "new_name": "ผศ.พิเศษ พญ. สาริน เล็กชื่นสกุล",
+      "new_title": "ผศ.พิเศษ พญ."
+    },
+    {
+      "id": "cu_eddd86df_1649",
+      "old_name": "ผศ. (พิเศษ)พญ. อังควิภา ทรัพย์รุ่งเรือง",
+      "new_name": "ผศ.พิเศษ พญ. อังควิภา ทรัพย์รุ่งเรือง",
+      "new_title": "ผศ.พิเศษ พญ."
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_160_160",
+      "old_name": "รศ. สพ.ญ. ดร. อนงค์ (โรจนโกมล) บิณฑวิหค",
+      "new_name": "รศ.ดร. สพ.ญ. อนงค์ บิณฑวิหค",
+      "new_title": "รศ.ดร. สพ.ญ."
+    },
+    {
+      "id": "silpakornu_facultyofa_chainakut_015",
+      "old_name": "ศ. (เกียรติคุณ)พงศ์เดช ไชยคุตร",
+      "new_name": "ศ.เกียรติคุณ พงศ์เดช ไชยคุตร",
+      "new_title": "ศ.เกียรติคุณ"
+    },
+    {
+      "id": "cu_cbs_wave11_0096",
+      "old_name": "รศ.ดร. Assoc. Prof. Dr. Savanid (Nui) Vatanasakdakul",
+      "new_name": "รศ.ดร. Savanid Vatanasakdakul",
+      "new_title": "รศ.ดร."
+    },
+    {
+      "id": "cu_eng_chem_biorefinery_001",
+      "old_name": "ศ.ดร. อัญชลีพร วาริทสวัสดิ์ (อารตีวรรณ โชติพฤกษ์)",
+      "new_name": "ศ.ดร. อัญชลีพร วาริทสวัสดิ์",
+      "new_title": "ศ.ดร."
+    }
+  ],
+  "glued_title_normalizations": [
+    {
+      "id": "cu_cbs_wave11_0293",
+      "old_name": "ดร. อ. ดร. ศุภมิตร เตชะมนตรีกุล",
+      "new_name": "อ.ดร. ศุภมิตร เตชะมนตรีกุล",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0295",
+      "old_name": "ดร. อ. ดร. ธนัย ชรินทร์สาร",
+      "new_name": "อ.ดร. ธนัย ชรินทร์สาร",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0243",
+      "old_name": "ดร. อ. ดร. บุญฤทธิ์ อินทิยศ",
+      "new_name": "อ.ดร. บุญฤทธิ์ อินทิยศ",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0246",
+      "old_name": "ดร. อ. ดร. โชติชัย สุวรรณาภรณ์",
+      "new_name": "อ.ดร. โชติชัย สุวรรณาภรณ์",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0280",
+      "old_name": "ดร. อ. ดร. ปิยภัสร ธาระวาณิช",
+      "new_name": "อ.ดร. ปิยภัสร ธาระวาณิช",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0309",
+      "old_name": "ดร. อ. ดร. วรพจน์ สิริวรรณสกุล",
+      "new_name": "อ.ดร. วรพจน์ สิริวรรณสกุล",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0262",
+      "old_name": "ดร. อ. ดร. ไมตรี วสันติวงศ์",
+      "new_name": "อ.ดร. ไมตรี วสันติวงศ์",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0006",
+      "old_name": "ศ.ดร. Prof. Dr. Andreas Engelen",
+      "new_name": "ศ.ดร. Andreas Engelen",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0008",
+      "old_name": "ศ.ดร. Prof. Dr. Craig E.N. Emby",
+      "new_name": "ศ.ดร. Craig E.N. Emby",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0015",
+      "old_name": "ศ.ดร. Prof. Dr. Jack Bailes",
+      "new_name": "ศ.ดร. Jack Bailes",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0017",
+      "old_name": "ศ.ดร. Prof. Dr. Jurgen Huber",
+      "new_name": "ศ.ดร. Jurgen Huber",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0024",
+      "old_name": "ศ.ดร. Prof. Dr. Parporn Akathaporn",
+      "new_name": "ศ.ดร. Parporn Akathaporn",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0031",
+      "old_name": "ศ.ดร. Prof. Dr. Terrence Hendershott",
+      "new_name": "ศ.ดร. Terrence Hendershott",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0245",
+      "old_name": "ดร. Dr. Chairat Chuwonganant",
+      "new_name": "ดร. Chairat Chuwonganant",
+      "title": "ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0248",
+      "old_name": "ดร. Dr. Daniel Fuchs",
+      "new_name": "ดร. Daniel Fuchs",
+      "title": "ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0263",
+      "old_name": "ดร. Dr. Mark Paul Curtis",
+      "new_name": "ดร. Mark Paul Curtis",
+      "title": "ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0270",
+      "old_name": "ดร. Dr. Oliver Gottschall",
+      "new_name": "ดร. Oliver Gottschall",
+      "title": "ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0023",
+      "old_name": "ศ.ดร. Prof. Dr. Pamela Shaw",
+      "new_name": "ศ.ดร. Pamela Shaw",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0241",
+      "old_name": "ดร. อ. ดร. อรุณี กำลัง",
+      "new_name": "อ.ดร. อรุณี กำลัง",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0277",
+      "old_name": "ดร. อ. ดร. พีรพงศ์ ทั่งวัฒโนทัย",
+      "new_name": "อ.ดร. พีรพงศ์ ทั่งวัฒโนทัย",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "tu_siit_004",
+      "old_name": "รศ.ดร. Dr. Somchart Fugkeaw",
+      "new_name": "รศ.ดร. Somchart Fugkeaw",
+      "title": "รศ.ดร."
+    },
+    {
+      "id": "mahidoluni_collegeofm_carlson_140",
+      "old_name": "ดร. Dr. Fueanglada Prawang Carlson",
+      "new_name": "ดร. Fueanglada Prawang Carlson",
+      "title": "ดร."
+    },
+    {
+      "id": "mahidoluni_collegeofm_yannavut_141",
+      "old_name": "ดร. Dr. Wannapha Yannavut",
+      "new_name": "ดร. Wannapha Yannavut",
+      "title": "ดร."
+    },
+    {
+      "id": "mahidoluni_collegeofm_jittivadhna_172",
+      "old_name": "ดร. Dr. Karnyupha Jittivadhna",
+      "new_name": "ดร. Karnyupha Jittivadhna",
+      "title": "ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0005",
+      "old_name": "ศ.ดร. Prof. Dr. Akihito Kamata",
+      "new_name": "ศ.ดร. Akihito Kamata",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0007",
+      "old_name": "ศ.ดร. Prof. Brenda Porter",
+      "new_name": "ศ.ดร. Brenda Porter",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0021",
+      "old_name": "ศ.ดร. Prof. Dr. Marc Paolella",
+      "new_name": "ศ.ดร. Marc Paolella",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0025",
+      "old_name": "ศ.ดร. Prof. Dr. Phil Holmes",
+      "new_name": "ศ.ดร. Phil Holmes",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0028",
+      "old_name": "ศ.ดร. Prof. Dr. Steen Thomsen",
+      "new_name": "ศ.ดร. Steen Thomsen",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0060",
+      "old_name": "รศ.ดร. Assoc. Prof. Dr. Chadi Aoun",
+      "new_name": "รศ.ดร. Chadi Aoun",
+      "title": "รศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0238",
+      "old_name": "ดร. อ. ดร. อนันตณัฐ กันต์ธัญญรัตน์",
+      "new_name": "อ.ดร. อนันตณัฐ กันต์ธัญญรัตน์",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0272",
+      "old_name": "ดร. อ. ดร. โอฬาร กิตติธีรพรชัย",
+      "new_name": "อ.ดร. โอฬาร กิตติธีรพรชัย",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0285",
+      "old_name": "ดร. อ. ดร. สันต์ สัมปัตตะวนิช",
+      "new_name": "อ.ดร. สันต์ สัมปัตตะวนิช",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0120",
+      "old_name": "รศ.ดร. Assoc. Prof. Dr. Tim G. Andrews",
+      "new_name": "รศ.ดร. Tim G. Andrews",
+      "title": "รศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0009",
+      "old_name": "ศ.ดร. Prof. Dr. David Ding",
+      "new_name": "ศ.ดร. David Ding",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0128",
+      "old_name": "รศ.ดร. Assoc. Prof. Dr. Yue Wang",
+      "new_name": "รศ.ดร. Yue Wang",
+      "title": "รศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0010",
+      "old_name": "ศ.ดร. Prof. Dr. Eckhard Platen",
+      "new_name": "ศ.ดร. Eckhard Platen",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0011",
+      "old_name": "ศ.ดร. Prof. Dr. EHUD I. Ronn",
+      "new_name": "ศ.ดร. EHUD I. Ronn",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0174",
+      "old_name": "ผศ.ดร. Asst. Prof. Dr. Jap Efendi",
+      "new_name": "ผศ.ดร. Jap Efendi",
+      "title": "ผศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0012",
+      "old_name": "ศ.ดร. Prof. Dr. Gary Oddou",
+      "new_name": "ศ.ดร. Gary Oddou",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0013",
+      "old_name": "ศ.ดร. Prof. Dr. Heidi Meier",
+      "new_name": "ศ.ดร. Heidi Meier",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0255",
+      "old_name": "ดร. อ. ดร. กาญจนา พรสัมฤทธิสกุล",
+      "new_name": "อ.ดร. กาญจนา พรสัมฤทธิสกุล",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0261",
+      "old_name": "ดร. อ. ดร. เกรียงไกร ตั้งคุณสมบัติ",
+      "new_name": "อ.ดร. เกรียงไกร ตั้งคุณสมบัติ",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0266",
+      "old_name": "ดร. อ. ดร. นรีรัตน์ เตชพิรุณทอง",
+      "new_name": "อ.ดร. นรีรัตน์ เตชพิรุณทอง",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0016",
+      "old_name": "ศ.ดร. Prof. Dr. Joseph Bylinski",
+      "new_name": "ศ.ดร. Joseph Bylinski",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0274",
+      "old_name": "ดร. อ. ดร. ไพโรจน์ ลิขิตธนเศรษฐ์",
+      "new_name": "อ.ดร. ไพโรจน์ ลิขิตธนเศรษฐ์",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0275",
+      "old_name": "ดร. อ. ดร. พนิต ธีรภาพวงศ์",
+      "new_name": "อ.ดร. พนิต ธีรภาพวงศ์",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0282",
+      "old_name": "ดร. อ. ดร. พรพรรณ ดำรงค์สุขนิวัฒน์",
+      "new_name": "อ.ดร. พรพรรณ ดำรงค์สุขนิวัฒน์",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0289",
+      "old_name": "ดร. อ. ดร. สมเกียรติ ดีกระจ่างเพชร",
+      "new_name": "อ.ดร. สมเกียรติ ดีกระจ่างเพชร",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0290",
+      "old_name": "ดร. อ. ดร. โสภณ ธัญญาเวชกิจ",
+      "new_name": "อ.ดร. โสภณ ธัญญาเวชกิจ",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0292",
+      "old_name": "ดร. อ. ดร. สุภาภรณ์ พลนิกร",
+      "new_name": "อ.ดร. สุภาภรณ์ พลนิกร",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0296",
+      "old_name": "ดร. อ. ดร. ธนะพงษ์ โพธิปิติ",
+      "new_name": "อ.ดร. ธนะพงษ์ โพธิปิติ",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0306",
+      "old_name": "ดร. อ. ดร. วิน อุดมรัชตวนิชย์",
+      "new_name": "อ.ดร. วิน อุดมรัชตวนิชย์",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0019",
+      "old_name": "ศ.ดร. Prof. Dr. Malte Brettel",
+      "new_name": "ศ.ดร. Malte Brettel",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0029",
+      "old_name": "ศ.ดร. Prof. Dr. Sun Qian",
+      "new_name": "ศ.ดร. Sun Qian",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0020",
+      "old_name": "ศ.ดร. Prof. Dr. Mannsoo Shin",
+      "new_name": "ศ.ดร. Mannsoo Shin",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0026",
+      "old_name": "ศ.ดร. Prof. Dr. Russell Richard Wermers",
+      "new_name": "ศ.ดร. Russell Richard Wermers",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0030",
+      "old_name": "ศ.ดร. Prof. Dr. Tan Hun Tong",
+      "new_name": "ศ.ดร. Tan Hun Tong",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0033",
+      "old_name": "ศ.ดร. Prof. Dr. Timothy Dean Keeley",
+      "new_name": "ศ.ดร. Timothy Dean Keeley",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0209",
+      "old_name": "ผศ.ดร. Asst. Prof. Dr. Richard Mead",
+      "new_name": "ผศ.ดร. Richard Mead",
+      "title": "ผศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0249",
+      "old_name": "ดร. Dr. Daniel Milton Norris",
+      "new_name": "ดร. Daniel Milton Norris",
+      "title": "ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0239",
+      "old_name": "ดร. อ. ดร. อภิรักษ์ ปรีชญสมบูรณ์",
+      "new_name": "อ.ดร. อภิรักษ์ ปรีชญสมบูรณ์",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0278",
+      "old_name": "ดร. อ. ดร. พันธ์ณภัทร์ เศวตภาณุวงศ์",
+      "new_name": "อ.ดร. พันธ์ณภัทร์ เศวตภาณุวงศ์",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0273",
+      "old_name": "ดร. อ. ดร. โอวาท สุนันท์",
+      "new_name": "อ.ดร. โอวาท สุนันท์",
+      "title": "อ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0003",
+      "old_name": "ศ.ดร. Prof. Howard Combs",
+      "new_name": "ศ.ดร. Howard Combs",
+      "title": "ศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0004",
+      "old_name": "ดร. Dr. Paul Thirakhupt",
+      "new_name": "ดร. Paul Thirakhupt",
+      "title": "ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0075",
+      "old_name": "รศ.ดร. Assoc. Prof. Dr. Michael Favere-Marchesi",
+      "new_name": "รศ.ดร. Michael Favere-Marchesi",
+      "title": "รศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0207",
+      "old_name": "ผศ.ดร. Asst. Prof. Dr. Randall Shannon",
+      "new_name": "ผศ.ดร. Randall Shannon",
+      "title": "ผศ.ดร."
+    },
+    {
+      "id": "cu_cbs_wave11_0216",
+      "old_name": "ผศ.ดร. Asst. Prof. Dr. Shiuann-Shuoh Chen",
+      "new_name": "ผศ.ดร. Shiuann-Shuoh Chen",
+      "title": "ผศ.ดร."
+    }
+  ],
+  "embeddings_updated": 152
+}

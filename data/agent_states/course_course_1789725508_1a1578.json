@@ -1,0 +1,51 @@
+{
+  "session_id": "course_1789725508_1a1578",
+  "target_university_th": "มหาวิทยาลัยแม่โจ้",
+  "target_university_en": "Maejo University",
+  "target_faculty_th": "คณะวิทยาศาสตร์",
+  "target_faculty_en": "Faculty of Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://biotech-grad.mju.ac.th/wtms_webpageDetail.aspx?wID=2344"
+  ],
+  "failed_urls": [
+    "https://admissions.mju.ac.th/graduate/ProjectProgram.aspx?LevelID=3&ProjectID=Nw%3D%3D&r=1"
+  ],
+  "courses": {
+    "maejouni_facultyo_masterofscience_001": {
+      "id": "maejouni_facultyo_masterofscience_001",
+      "title_th": "วิทยาศาสตรมหาบัณฑิต สาขาวิชาเทคโนโลยีชีวภาพ",
+      "title_en": "Master of Science Program in Biotechnology",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "วท.ม.",
+      "university": "Maejo University",
+      "university_th": "มหาวิทยาลัยแม่โจ้",
+      "faculty": "Faculty of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department": "Department of Biotechnology",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "program_type": "ภาคปกติ",
+      "duration_years": "4 ปี",
+      "total_credits": "36 หน่วยกิต",
+      "tuition_per_semester": "",
+      "tuition_total": "",
+      "description": "หลักสูตรปริญญาโท สาขาวิชาเทคโนโลยีชีวภาพ แผน ก แบบ ก 1 เน้นการทำวิทยานิพนธ์ 36 หน่วยกิต พร้อมศึกษารายวิชาที่ไม่นับหน่วยกิตและการสอบประมวลความรู้",
+      "curriculum_highlights": [
+        "แผน ก แบบ ก 1 เน้นวิทยานิพนธ์ 36 หน่วยกิต",
+        "ระเบียบวิธีวิจัยทางเทคโนโลยีชีวภาพ",
+        "สัมมนา 1 - 4"
+      ],
+      "career_paths": [],
+      "tags": [
+        "Biotechnology",
+        "เทคโนโลยีชีวภาพ"
+      ],
+      "website_url": "https://biotech-grad.mju.ac.th/wtms_webpageDetail.aspx?wID=2344"
+    }
+  },
+  "dedup_title_keys": {},
+  "step_count": 1,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

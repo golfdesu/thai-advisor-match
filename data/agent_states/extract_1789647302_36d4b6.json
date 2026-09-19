@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789647302_36d4b6",
+  "target_university_th": "มหาวิทยาลัยมหิดล",
+  "target_university_en": "Mahidol University",
+  "target_faculty_th": "สถาบัน IPSR",
+  "target_faculty_en": "IPSR",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [
+    "https://ipsr.mahidol.ac.th"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 0,
+  "total_tokens_used": 0,
+  "status": "completed",
+  "last_error": null
+}

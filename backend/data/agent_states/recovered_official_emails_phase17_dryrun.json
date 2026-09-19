@@ -1,0 +1,1564 @@
+{
+  "apply": false,
+  "total_valid_items": 173,
+  "updated_faculties": [
+    {
+      "id": "ku_sci_wave13_0011",
+      "full_name_th": "รศ.ดร. วัชรี รัตนสกุลทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fsciwrr@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%b1%e0%b8%8a%e0%b8%a3%e0%b8%b5-%e0%b8%a3%e0%b8%b1%e0%b8%95%e0%b8%99%e0%b8%aa%e0%b8%81%e0%b8%b8%e0%b8%a5%e0%b8%97%e0%b8%ad%e0%b8%87/"
+    },
+    {
+      "id": "ku_sci_wave13_0005",
+      "full_name_th": "รศ.ดร. ชัยยะ เหลืองวิริยะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscicyl@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%8a%e0%b8%a2%e0%b8%a2%e0%b8%b0-%e0%b9%80%e0%b8%ab%e0%b8%a5%e0%b8%ad%e0%b8%87%e0%b8%a7%e0%b8%a3%e0%b8%a2%e0%b8%b0/"
+    },
+    {
+      "id": "ku_sci_wave13_0012",
+      "full_name_th": "รศ.ดร. วิวัฒน์ วงศ์ก่อเกื้อ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "wiwat.w@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%a7%e0%b8%92%e0%b8%99-%e0%b8%a7%e0%b8%87%e0%b8%a8%e0%b8%81%e0%b8%ad%e0%b9%80%e0%b8%81/"
+    },
+    {
+      "id": "ku_sci_wave13_0014",
+      "full_name_th": "รศ.ดร. สุรศักดิ์ เชียงกา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscissc@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%b8%e0%b8%a3%e0%b8%a8%e0%b8%b1%e0%b8%81%e0%b8%94%e0%b8%b4%e0%b9%8c-%e0%b9%80%e0%b8%8a%e0%b8%b5%e0%b8%a2%e0%b8%87%e0%b8%81%e0%b8%b2/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0052",
+      "full_name_th": "อ. วงศ์เวชช เชาวน์ชูเวชช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "wongwech.chowchu@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%ad-%e0%b8%a7%e0%b8%87%e0%b8%a8%e0%b9%8c%e0%b9%80%e0%b8%a7%e0%b8%8a%e0%b8%8a-%e0%b9%80%e0%b8%8a%e0%b8%b2%e0%b8%a7%e0%b8%99%e0%b9%8c%e0%b8%8a%e0%b8%b9%e0%b9%80%e0%b8%a7%e0%b8%8a%e0%b8%8a/"
+    },
+    {
+      "id": "ku_56b0e1c6_0956",
+      "full_name_th": "รศ.ดร. อดิศักดิ์ บุญชื่น",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fsciasb@ku.ac.th",
+      "new_profile_url": "https://sci.ku.ac.th/web2024/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%94%e0%b8%b4%e0%b8%a8%e0%b8%b1%e0%b8%81%e0%b8%94%e0%b8%b4%e0%b9%8c-%e0%b8%9a%e0%b8%b8%e0%b8%8d%e0%b8%8a%e0%b8%b7%e0%b9%88%e0%b8%99/"
+    },
+    {
+      "id": "ku_sci_wave13_0059",
+      "full_name_th": "ดร. มิ่งขวัญ นิพิฐวัธนะผล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fscimkn@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a1%e0%b8%b4%e0%b9%88%e0%b8%87%e0%b8%82%e0%b8%a7%e0%b8%b1%e0%b8%8d-%e0%b8%99%e0%b8%b4%e0%b8%9e%e0%b8%b4%e0%b8%90%e0%b8%a7%e0%b8%b1%e0%b8%98%e0%b8%99/"
+    },
+    {
+      "id": "ku_sci_wave13_0050",
+      "full_name_th": "ผศ.ดร. อุดมศักดิ์ รักวงษ์วาน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "udomsak.ra@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%b8%e0%b8%94%e0%b8%a1%e0%b8%a8%e0%b8%b1%e0%b8%81%e0%b8%94%e0%b8%b4%e0%b9%8c-%e0%b8%a3%e0%b8%b1%e0%b8%81%e0%b8%a7%e0%b8%87%e0%b8%a9%e0%b9%8c/"
+    },
+    {
+      "id": "ku_24cef617_6503",
+      "full_name_th": "ดร. สมจิตต์ ปาละกาศ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "somchit.p@ku.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%a1%e0%b8%88%e0%b8%b4%e0%b8%95%e0%b8%95%e0%b9%8c-%e0%b8%9b%e0%b8%b2%e0%b8%a5%e0%b8%b0%e0%b8%81%e0%b8%b2%e0%b8%a8/"
+    },
+    {
+      "id": "ku_51afa9e9_5899",
+      "full_name_th": "ผศ.ดร. วันดี วณิชย์ศักดิ์พงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fsciwdw@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fsciwdw/"
+    },
+    {
+      "id": "ku_sci_wave13_0078",
+      "full_name_th": "ดร. สวพร หิญชีระนันทน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fsciswp@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fsciswp/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0082",
+      "full_name_th": "อ.ดร. มงคล พงษ์สุชาติ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscimkp@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%ad-%e0%b8%94%e0%b8%a3-%e0%b8%a1%e0%b8%87%e0%b8%84%e0%b8%a5-%e0%b8%9e%e0%b8%87%e0%b8%a9%e0%b9%8c%e0%b8%aa%e0%b8%b8%e0%b8%8a%e0%b8%b2%e0%b8%95%e0%b8%b4/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0061",
+      "full_name_th": "รศ.ดร. อัญชลี เอาผล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "anchalee.a@ku.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%b1%e0%b8%8d%e0%b8%8a%e0%b8%a5%e0%b8%b5-%e0%b9%80%e0%b8%ad%e0%b8%b2%e0%b8%9c%e0%b8%a5/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0049",
+      "full_name_th": "ผศ.ดร. ภาณุ ตรัยเวช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscipntr@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%a0%e0%b8%b2%e0%b8%93%e0%b8%b8-%e0%b8%95%e0%b8%a3%e0%b8%b1%e0%b8%a2%e0%b9%80%e0%b8%a7%e0%b8%8a/"
+    },
+    {
+      "id": "ku_134d11a2_0004",
+      "full_name_th": "รศ.ดร. พีรนุช จอมพุก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fsciprk@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%b5%e0%b8%a3%e0%b8%99%e0%b8%b8%e0%b8%8a-%e0%b8%88%e0%b8%ad%e0%b8%a1%e0%b8%9e%e0%b8%b8%e0%b8%81/"
+    },
+    {
+      "id": "ku_sci_wave13_0019",
+      "full_name_th": "ผศ.ดร. วิทชุกร ภู่ทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fsciwop@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%97%e0%b8%8a%e0%b8%81%e0%b8%a3-%e0%b8%a0%e0%b8%97%e0%b8%ad%e0%b8%87/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0067",
+      "full_name_th": "รศ.ดร. สุปิยนิตย์ ไม้แพ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "supiyanit.m@ku.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%b8%e0%b8%9b%e0%b8%b4%e0%b8%a2%e0%b8%99%e0%b8%b4%e0%b8%95%e0%b8%a2%e0%b9%8c-%e0%b9%84%e0%b8%a1%e0%b9%89%e0%b9%81%e0%b8%9e/"
+    },
+    {
+      "id": "ku_2c3055f9_6471",
+      "full_name_th": "ผศ.ดร. จริน โอษะคลัง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscijro@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%88%e0%b8%a3%e0%b8%b4%e0%b8%99-%e0%b9%82%e0%b8%ad%e0%b8%a9%e0%b8%b0%e0%b8%84%e0%b8%a5%e0%b8%b1%e0%b8%87/"
+    },
+    {
+      "id": "ku_7554ccb8_7716",
+      "full_name_th": "อ. พงศกร จิวาภรณ์คุปต์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscipsw@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%ad-%e0%b8%9e%e0%b8%87%e0%b8%a8%e0%b8%81%e0%b8%a3-%e0%b8%88%e0%b8%b4%e0%b8%a7%e0%b8%b2%e0%b8%a0%e0%b8%a3%e0%b8%93%e0%b9%8c%e0%b8%84%e0%b8%b8%e0%b8%9b%e0%b8%95%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0055",
+      "full_name_th": "ผศ.ดร. พีรพัฒน์ สุทธิมาศ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "phiraphat.sut@ku.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%b5%e0%b8%a3%e0%b8%9e%e0%b8%b1%e0%b8%92%e0%b8%99%e0%b9%8c-%e0%b8%aa%e0%b8%b8%e0%b8%97%e0%b8%98%e0%b8%b4%e0%b8%a1%e0%b8%b2%e0%b8%a8/"
+    },
+    {
+      "id": "ku_sci_wave13_0068",
+      "full_name_th": "รศ.ดร. ธีรศักดิ์ เอโกบล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "teerasak.e@ku.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%98%e0%b8%a3%e0%b8%a8%e0%b8%81%e0%b8%94-%e0%b9%80%e0%b8%ad%e0%b9%82%e0%b8%81%e0%b8%9a%e0%b8%a5/"
+    },
+    {
+      "id": "ku_sci_wave13_0085",
+      "full_name_th": "ดร. ปูเป้ สุดศิลา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "pupe.suds@ku.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fscippsl/"
+    },
+    {
+      "id": "ku_sci_wave13_0004",
+      "full_name_th": "รศ.ดร. ชัชวาล วงศ์ชูสุข",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "chatchawal.w@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%8a%e0%b8%b1%e0%b8%8a%e0%b8%a7%e0%b8%b2%e0%b8%a5-%e0%b8%a7%e0%b8%87%e0%b8%a8%e0%b9%8c%e0%b8%8a%e0%b8%b9%e0%b8%aa%e0%b8%b8%e0%b8%82/"
+    },
+    {
+      "id": "ku_sci_wave13_0041",
+      "full_name_th": "ผศ.ดร. พงศ์พล เรือนคง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "pongpol.r@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%87%e0%b8%a8%e0%b9%8c%e0%b8%9e%e0%b8%a5-%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b8%ad%e0%b8%99%e0%b8%84%e0%b8%87/"
+    },
+    {
+      "id": "ku_sci_wave13_0080",
+      "full_name_th": "ดร. วินัย โพธิ์สุวรรณ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fsciwnb@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fsciwnb/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0070",
+      "full_name_th": "รศ.ดร. ปราโมทย์ ชำนาญปืน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "pramote.c@ku.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9b%e0%b8%a3%e0%b8%b2%e0%b9%82%e0%b8%a1%e0%b8%97%e0%b8%a2%e0%b9%8c-%e0%b8%8a%e0%b8%b3%e0%b8%99%e0%b8%b2%e0%b8%8d%e0%b8%9b%e0%b8%b7%e0%b8%99/"
+    },
+    {
+      "id": "ku_sci_wave13_0003",
+      "full_name_th": "รศ.ดร. จิรโรจน์ ต.เทียนประเสริฐ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscicwt@ku.ac.th",
+      "new_profile_url": "https://sci.ku.ac.th/web2024/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%88%e0%b8%b4%e0%b8%a3%e0%b9%82%e0%b8%a3%e0%b8%88%e0%b8%99%e0%b9%8c-%e0%b8%95-%e0%b9%80%e0%b8%97%e0%b8%b5%e0%b8%a2%e0%b8%99%e0%b8%9b%e0%b8%a3%e0%b8%b0/"
+    },
+    {
+      "id": "ku_sci_wave13_0034",
+      "full_name_th": "รศ.ดร. มนตรี มาลีวงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "montri.m@ku.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a1%e0%b8%99%e0%b8%95%e0%b8%a3%e0%b8%b5-%e0%b8%a1%e0%b8%b2%e0%b8%a5%e0%b8%b5%e0%b8%a7%e0%b8%87%e0%b8%a8%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0044",
+      "full_name_th": "ผศ. มนต์ฤดี สิริวรวิทย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscimdy@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%a1%e0%b8%99%e0%b8%95%e0%b9%8c%e0%b8%a4%e0%b8%94%e0%b8%b5-%e0%b8%aa%e0%b8%b4%e0%b8%a3%e0%b8%b4%e0%b8%a7%e0%b8%a3%e0%b8%a7%e0%b8%b4%e0%b8%97%e0%b8%a2%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0047",
+      "full_name_th": "ผศ.ดร. วัชรพล พิมพ์เสริฐ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fsciwcrp@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%b1%e0%b8%8a%e0%b8%a3%e0%b8%9e%e0%b8%a5-%e0%b8%9e%e0%b8%b4%e0%b8%a1%e0%b8%9e%e0%b9%8c%e0%b9%80%e0%b8%aa%e0%b8%a3%e0%b8%b4%e0%b8%90/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0079",
+      "full_name_th": "ผศ. อภิสิทธิ์ ทิพย์อักษร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fsciast@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%ad%e0%b8%a0%e0%b8%b4%e0%b8%aa%e0%b8%b4%e0%b8%97%e0%b8%98%e0%b8%b4%e0%b9%8c-%e0%b8%97%e0%b8%b4%e0%b8%9e%e0%b8%a2%e0%b9%8c%e0%b8%ad%e0%b8%b1%e0%b8%81%e0%b8%a9%e0%b8%a3/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0058",
+      "full_name_th": "ผศ. ดีเซลล์ สวนบุรี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscidss@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%b5%e0%b9%80%e0%b8%8b%e0%b8%a5%e0%b8%a5%e0%b9%8c-%e0%b8%aa%e0%b8%a7%e0%b8%99%e0%b8%9a%e0%b8%b8%e0%b8%a3%e0%b8%b5/"
+    },
+    {
+      "id": "ku_sci_wave13_0053",
+      "full_name_th": "ผศ.ดร. ธรณินทร์ ทันศรี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscitnt@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%98%e0%b8%a3%e0%b8%93%e0%b8%b4%e0%b8%99%e0%b8%97%e0%b8%a3%e0%b9%8c-%e0%b8%97%e0%b8%b1%e0%b8%99%e0%b8%a8%e0%b8%a3%e0%b8%b5/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0059",
+      "full_name_th": "รศ.ดร. นพรัตน์ สระแก้ว",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscinrsr@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%99%e0%b8%9e%e0%b8%a3%e0%b8%b1%e0%b8%95%e0%b8%99%e0%b9%8c-%e0%b8%aa%e0%b8%a3%e0%b8%b0%e0%b9%81%e0%b8%81%e0%b9%89%e0%b8%a7/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0034",
+      "full_name_th": "รศ.ดร. เกียรติศักดิ์ แสนบุญเรือง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fscikssa@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b9%80%e0%b8%81%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b8%95%e0%b8%b4%e0%b8%a8%e0%b8%b1%e0%b8%81%e0%b8%94%e0%b8%b4%e0%b9%8c-%e0%b9%81%e0%b8%aa%e0%b8%99%e0%b8%9a/"
+    },
+    {
+      "id": "ku_sci_wave13_0026",
+      "full_name_th": "ดร. เกศกนก ศิธราชู",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "kedkanok.si@ku.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b9%80%e0%b8%81%e0%b8%a8%e0%b8%81%e0%b8%99%e0%b8%81-%e0%b8%a8%e0%b8%b4%e0%b8%98%e0%b8%a3%e0%b8%b2%e0%b8%8a%e0%b8%b9/"
+    },
+    {
+      "id": "ku_sci_wave13_0002",
+      "full_name_th": "ศ.ดร. ศิริกาญจนา ทองมี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscisjn@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a8%e0%b8%b4%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%8d%e0%b8%88%e0%b8%99%e0%b8%b2-%e0%b8%97%e0%b8%ad%e0%b8%87%e0%b8%a1%e0%b8%b5/"
+    },
+    {
+      "id": "ku_sci_wave13_0071",
+      "full_name_th": "ผศ.ดร. อนงค์ภัทร สุทธางคกูล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fsciapsu@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%99%e0%b8%87%e0%b8%84%e0%b9%8c%e0%b8%a0%e0%b8%b1%e0%b8%97%e0%b8%a3-%e0%b8%aa%e0%b8%b8%e0%b8%97%e0%b8%98%e0%b8%b2%e0%b8%87%e0%b8%84%e0%b8%81/"
+    },
+    {
+      "id": "ku_sci_wave13_0065",
+      "full_name_th": "รศ.ดร. อัญชณี สังข์เจริญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fsciacs@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%b1%e0%b8%8d%e0%b8%8a%e0%b8%93%e0%b8%b5-%e0%b8%aa%e0%b8%b1%e0%b8%87%e0%b8%82%e0%b9%8c%e0%b9%80%e0%b8%88%e0%b8%a3%e0%b8%b4%e0%b8%8d/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0038",
+      "full_name_th": "ผศ.ดร. คทารัตน์ ชุตินันทกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fscikac@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%84%e0%b8%97%e0%b8%b2%e0%b8%a3%e0%b8%b1%e0%b8%95%e0%b8%99%e0%b9%8c-%e0%b8%8a%e0%b8%b8%e0%b8%95%e0%b8%b4%e0%b8%99%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%81/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0074",
+      "full_name_th": "ผศ.ดร. นริศรา ปิยะแสงทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscinap@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%99%e0%b8%a3%e0%b8%b4%e0%b8%a8%e0%b8%a3%e0%b8%b2-%e0%b8%9b%e0%b8%b4%e0%b8%a2%e0%b8%b0%e0%b9%81%e0%b8%aa%e0%b8%87%e0%b8%97%e0%b8%ad%e0%b8%87/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0065",
+      "full_name_th": "รศ.ดร. จินดาวรรณ สิรันทวิเนติ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscijws@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%88%e0%b8%b4%e0%b8%99%e0%b8%94%e0%b8%b2%e0%b8%a7%e0%b8%a3%e0%b8%a3%e0%b8%93-%e0%b8%aa%e0%b8%b4%e0%b8%a3%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%a7%e0%b8%b4/"
+    },
+    {
+      "id": "ku_sci_wave13_0010",
+      "full_name_th": "รศ.ดร. พีระ พงษ์กิติวณิชกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "peera.po@ku.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%a3%e0%b8%b0-%e0%b8%9e%e0%b8%87%e0%b8%a9%e0%b8%81%e0%b8%95%e0%b8%a7%e0%b8%93%e0%b8%8a%e0%b8%81/"
+    },
+    {
+      "id": "ku_5adf1e54_2866",
+      "full_name_th": "ผศ.ดร. ฉัตรเฉลิม เกษเวชสุริยา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscicek@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%89%e0%b8%b1%e0%b8%95%e0%b8%a3%e0%b9%80%e0%b8%89%e0%b8%a5%e0%b8%b4%e0%b8%a1-%e0%b9%80%e0%b8%81%e0%b8%a9%e0%b9%80%e0%b8%a7%e0%b8%8a%e0%b8%aa%e0%b8%b8/"
+    },
+    {
+      "id": "ku_sci_wave13_0015",
+      "full_name_th": "ผศ.ดร. เฉลิมพล กาญจนวรินทร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscicpk@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b9%80%e0%b8%89%e0%b8%a5%e0%b8%b4%e0%b8%a1%e0%b8%9e%e0%b8%a5-%e0%b8%81%e0%b8%b2%e0%b8%8d%e0%b8%88%e0%b8%99%e0%b8%a7%e0%b8%a3%e0%b8%b4%e0%b8%99%e0%b8%97/"
+    },
+    {
+      "id": "ku_sci_wave13_0020",
+      "full_name_th": "ผศ.ดร. วีรพัฒน์ พลอัน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fsciwpp@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%b5%e0%b8%a3%e0%b8%9e%e0%b8%b1%e0%b8%92%e0%b8%99%e0%b9%8c-%e0%b8%9e%e0%b8%a5%e0%b8%ad%e0%b8%b1%e0%b8%99/"
+    },
+    {
+      "id": "ku_sci_wave13_0067",
+      "full_name_th": "รศ.ดร. ภัสสร วรรณพินิจ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fscipswo@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a0%e0%b8%aa%e0%b8%aa%e0%b8%a3-%e0%b8%a7%e0%b8%a3%e0%b8%a3%e0%b8%93%e0%b8%9e%e0%b8%99%e0%b8%88/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0046",
+      "full_name_th": "ดร. ศริญญา ไพศาลสมบัติ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscisnpa@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%a8%e0%b8%a3%e0%b8%b4%e0%b8%8d%e0%b8%8d%e0%b8%b2-%e0%b9%84%e0%b8%9e%e0%b8%a8%e0%b8%b2%e0%b8%a5%e0%b8%aa%e0%b8%a1%e0%b8%9a%e0%b8%b1%e0%b8%95%e0%b8%b4/"
+    },
+    {
+      "id": "ku_sci_wave13_0072",
+      "full_name_th": "ดร. สิริธร ก้งเส้ง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "sirithorn.kon@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%b4%e0%b8%a3%e0%b8%b4%e0%b8%98%e0%b8%a3-%e0%b8%81%e0%b9%89%e0%b8%87%e0%b9%80%e0%b8%aa%e0%b9%89%e0%b8%87/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0066",
+      "full_name_th": "รศ.ดร. บุญเสฐียร บุญสูง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscibtb@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9a%e0%b8%b8%e0%b8%8d%e0%b9%80%e0%b8%aa%e0%b8%90%e0%b8%b5%e0%b8%a2%e0%b8%a3-%e0%b8%9a%e0%b8%b8%e0%b8%8d%e0%b8%aa%e0%b8%b9%e0%b8%87/"
+    },
+    {
+      "id": "ku_sci_wave13_0060",
+      "full_name_th": "รศ.ดร. ศุภชัย วุฒิพงศ์ชัยกิจ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fsciscv@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a8%e0%b8%b8%e0%b8%a0%e0%b8%8a%e0%b8%b1%e0%b8%a2-%e0%b8%a7%e0%b8%b8%e0%b8%92%e0%b8%b4%e0%b8%9e%e0%b8%87%e0%b8%a8%e0%b9%8c%e0%b8%8a%e0%b8%b1%e0%b8%a2/"
+    },
+    {
+      "id": "ku_sci_wave13_0022",
+      "full_name_th": "ผศ.ดร. สุธารัตน์ โชติกประคัลภ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "sutharat.c@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%b8%e0%b8%98%e0%b8%b2%e0%b8%a3%e0%b8%b1%e0%b8%95%e0%b8%99%e0%b9%8c-%e0%b9%82%e0%b8%8a%e0%b8%95%e0%b8%b4%e0%b8%81%e0%b8%9b%e0%b8%a3%e0%b8%b0/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0042",
+      "full_name_th": "ผศ.ดร. ธีรศานต์ เพียรพานิชย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fscitap@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%98%e0%b8%b5%e0%b8%a3%e0%b8%a8%e0%b8%b2%e0%b8%99%e0%b8%95%e0%b9%8c-%e0%b9%80%e0%b8%9e%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b8%9e%e0%b8%b2%e0%b8%99%e0%b8%b4/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0045",
+      "full_name_th": "รศ.ดร. ลัดดา แต่งวัฒนานุกูล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscildt@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a5%e0%b8%b1%e0%b8%94%e0%b8%94%e0%b8%b2-%e0%b9%81%e0%b8%95%e0%b9%88%e0%b8%87%e0%b8%a7%e0%b8%b1%e0%b8%92%e0%b8%99%e0%b8%b2%e0%b8%99%e0%b8%b8%e0%b8%81/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0068",
+      "full_name_th": "รศ.ดร. วชิรญาณ์ ธงอาสา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fsciwyth@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%8a%e0%b8%b4%e0%b8%a3%e0%b8%8d%e0%b8%b2%e0%b8%93%e0%b9%8c-%e0%b8%98%e0%b8%87%e0%b8%ad%e0%b8%b2%e0%b8%aa%e0%b8%b2/"
+    },
+    {
+      "id": "ku_5460f045_9472",
+      "full_name_th": "ผศ.ดร. สมฤดี สักการเวช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscisrd@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%a1%e0%b8%a4%e0%b8%94%e0%b8%b5-%e0%b8%aa%e0%b8%b1%e0%b8%81%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%80%e0%b8%a7%e0%b8%8a/"
+    },
+    {
+      "id": "ku_sci_wave13_0086",
+      "full_name_th": "ดร. อริญชย์ บุญมีคำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "arin.boo@ku.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fsciarb/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0051",
+      "full_name_th": "ดร. ชวิศา ภู่เจริญชัยวรรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "chawisa.phuj@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%8a%e0%b8%a7%e0%b8%b4%e0%b8%a8%e0%b8%b2-%e0%b8%a0%e0%b8%b9%e0%b9%88%e0%b9%80%e0%b8%88%e0%b8%a3%e0%b8%b4%e0%b8%8d%e0%b8%8a%e0%b8%b1%e0%b8%a2%e0%b8%a7%e0%b8%a3%e0%b8%a3%e0%b8%93/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0062",
+      "full_name_th": "ศ.ดร. พนัส ธรรมกีรติวงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscipnt@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%99%e0%b8%b1%e0%b8%aa-%e0%b8%98%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%81%e0%b8%b5%e0%b8%a3%e0%b8%95%e0%b8%b4%e0%b8%a7%e0%b8%87%e0%b8%a8%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0027",
+      "full_name_th": "ดร. ดวงฤทัย จารุกานนท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "daungruthai.j@ku.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%94%e0%b8%a7%e0%b8%87%e0%b8%a4%e0%b8%97%e0%b8%b1%e0%b8%a2-%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%b8%e0%b8%81%e0%b8%b2%e0%b8%99%e0%b8%99%e0%b8%97%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0073",
+      "full_name_th": "ผศ.ดร. กรอร วงษ์กำแหง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscikaw@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%81%e0%b8%a3%e0%b8%ad%e0%b8%a3-%e0%b8%a7%e0%b8%87%e0%b8%a9%e0%b9%8c%e0%b8%81%e0%b8%b3%e0%b9%81%e0%b8%ab%e0%b8%87/"
+    },
+    {
+      "id": "ku_sci_wave13_0077",
+      "full_name_th": "ดร. จีราพร ไทยถานันดร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fscijpt@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fscijpt/"
+    },
+    {
+      "id": "ku_sci_wave13_0079",
+      "full_name_th": "ดร. ลี่ลี อิงศรีสว่าง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fscilli@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fscilli/"
+    },
+    {
+      "id": "ku_sci_wave13_0030",
+      "full_name_th": "ดร. อัจฉรา ชินกร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "atchara.chin@ku.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%b1%e0%b8%88%e0%b8%89%e0%b8%a3%e0%b8%b2-%e0%b8%8a%e0%b8%b4%e0%b8%99%e0%b8%81%e0%b8%a3/"
+    },
+    {
+      "id": "ku_1aca319e_9900",
+      "full_name_th": "รศ.ดร. จุฑาภรณ์ สินสมบูรณ์ทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fscijps@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fscijps/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0044",
+      "full_name_th": "ดร. กัญจน์นรี ช่วงฉ่ำ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fsciknr@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%81%e0%b8%b1%e0%b8%8d%e0%b8%88%e0%b8%99%e0%b9%8c%e0%b8%99%e0%b8%a3%e0%b8%b5-%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%87%e0%b8%89%e0%b9%88%e0%b8%b3/"
+    },
+    {
+      "id": "ku_sci_wave13_0064",
+      "full_name_th": "รศ.ดร. วรรณรดา สุราช",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fsciwrds@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%a3%e0%b8%a3%e0%b8%93%e0%b8%a3%e0%b8%94%e0%b8%b2-%e0%b8%aa%e0%b8%b8%e0%b8%a3%e0%b8%b2%e0%b8%8a/"
+    },
+    {
+      "id": "ku_sci_wave13_0033",
+      "full_name_th": "ศ.ดร. อุษณีย์ ลีรวัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fsciutl@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%b8%e0%b8%a9%e0%b8%93%e0%b8%b5%e0%b8%a2%e0%b9%8c-%e0%b8%a5%e0%b8%b5%e0%b8%a3%e0%b8%a7%e0%b8%b1%e0%b8%92%e0%b8%99%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0025",
+      "full_name_th": "ผศ. ภุชงค์ กิจอำนาจสุข",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "puchong.k@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%a0%e0%b8%b8%e0%b8%8a%e0%b8%87%e0%b8%84%e0%b9%8c-%e0%b8%81%e0%b8%b4%e0%b8%88%e0%b8%ad%e0%b8%b3%e0%b8%99%e0%b8%b2%e0%b8%88%e0%b8%aa%e0%b8%b8%e0%b8%82/"
+    },
+    {
+      "id": "ku_sci_wave13_0023",
+      "full_name_th": "ผศ.ดร. อภิชาติ พัฒนโภครัตนา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fsciacp@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%a0%e0%b8%8a%e0%b8%b2%e0%b8%95-%e0%b8%9e%e0%b8%92%e0%b8%99%e0%b9%82%e0%b8%a0%e0%b8%84%e0%b8%a3%e0%b8%95%e0%b8%99%e0%b8%b2/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0076",
+      "full_name_th": "ผศ.ดร. อรรถพล รุจิราวรรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fsciapr@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%a3%e0%b8%a3%e0%b8%96%e0%b8%9e%e0%b8%a5-%e0%b8%a3%e0%b8%b8%e0%b8%88%e0%b8%b4%e0%b8%a3%e0%b8%b2%e0%b8%a7%e0%b8%a3%e0%b8%a3%e0%b8%93/"
+    },
+    {
+      "id": "ku_sci_wave13_0056",
+      "full_name_th": "ดร. วิจิต ยังจิตร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "wijit.y@ku.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%b4%e0%b8%88%e0%b8%b4%e0%b8%95-%e0%b8%a2%e0%b8%b1%e0%b8%87%e0%b8%88%e0%b8%b4%e0%b8%95%e0%b8%a3/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0056",
+      "full_name_th": "ผศ.ดร. พรสวาท วัฒนกูล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscipww@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%a3%e0%b8%aa%e0%b8%a7%e0%b8%b2%e0%b8%97-%e0%b8%a7%e0%b8%b1%e0%b8%92%e0%b8%99%e0%b8%81%e0%b8%b9%e0%b8%a5/"
+    },
+    {
+      "id": "ku_sci_wave13_0075",
+      "full_name_th": "ดร. จันทร์ธา วงษ์อู่ทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fscictw@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fscictw/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0047",
+      "full_name_th": "ผศ.ดร. กฤษณ์ วันอินทร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscikrit@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%81%e0%b8%a4%e0%b8%a9%e0%b8%93%e0%b9%8c-%e0%b8%a7%e0%b8%b1%e0%b8%99%e0%b8%ad%e0%b8%b4%e0%b8%99%e0%b8%97%e0%b8%a3%e0%b9%8c/"
+    },
+    {
+      "id": "ku_c934908d_9384",
+      "full_name_th": "รศ.ดร. ภาสกร ปนานนท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscipkp@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a0%e0%b8%b2%e0%b8%aa%e0%b8%81%e0%b8%a3-%e0%b8%9b%e0%b8%99%e0%b8%b2%e0%b8%99%e0%b8%99%e0%b8%97%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0041",
+      "full_name_th": "ผศ.ดร. ชนิศ รัตนพงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fscicnp@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%8a%e0%b8%99%e0%b8%b4%e0%b8%a8-%e0%b8%a3%e0%b8%b1%e0%b8%95%e0%b8%99%e0%b8%9e%e0%b8%87%e0%b8%a8%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0076",
+      "full_name_th": "ดร. ศิริญญา ธีระอนันต์ชัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "sirinya.te@ku.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fscisryt/"
+    },
+    {
+      "id": "ku_sci_wave13_0017",
+      "full_name_th": "ผศ.ดร. นพฤทธิ์ จินันทุยา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscinpr@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%99%e0%b8%9e%e0%b8%a4%e0%b8%97%e0%b8%98%e0%b8%b4%e0%b9%8c-%e0%b8%88%e0%b8%b4%e0%b8%99%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%b8%e0%b8%a2%e0%b8%b2/"
+    },
+    {
+      "id": "ku_sci_wave13_0046",
+      "full_name_th": "ผศ.ดร. ลัญจกร กิตติรัตนวศิน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscilkk@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a5%e0%b8%b1%e0%b8%8d%e0%b8%88%e0%b8%81%e0%b8%a3-%e0%b8%81%e0%b8%b4%e0%b8%95%e0%b8%95%e0%b8%b4%e0%b8%a3%e0%b8%b1%e0%b8%95%e0%b8%99%e0%b8%a7%e0%b8%a8/"
+    },
+    {
+      "id": "ku_sci_wave13_0069",
+      "full_name_th": "ผศ.ดร. จตุพร กุลอึ้ง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fscictp@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%88%e0%b8%95%e0%b8%b8%e0%b8%9e%e0%b8%a3-%e0%b8%81%e0%b8%b8%e0%b8%a5%e0%b8%ad%e0%b8%b6%e0%b9%89%e0%b8%87/"
+    },
+    {
+      "id": "ku_sci_wave13_0081",
+      "full_name_th": "ดร. บุญอ้อม โฉมที",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fsciboc@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fsciboc/"
+    },
+    {
+      "id": "ku_sci_wave13_0024",
+      "full_name_th": "ผศ. กุลพันธ์ พิมพ์สมาน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fsciklpp@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%81%e0%b8%a5%e0%b8%9e%e0%b8%99%e0%b8%98-%e0%b8%9e%e0%b8%a1%e0%b8%9e%e0%b8%aa%e0%b8%a1%e0%b8%b2%e0%b8%99/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0039",
+      "full_name_th": "ผศ.ดร. ไพบูลย์ เรืองพัฒนพงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fscipbr@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b9%84%e0%b8%9e%e0%b8%9a%e0%b8%b9%e0%b8%a5%e0%b8%a2%e0%b9%8c-%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b8%ad%e0%b8%87%e0%b8%9e%e0%b8%b1%e0%b8%92%e0%b8%99%e0%b8%9e/"
+    },
+    {
+      "id": "ku_sci_wave13_0039",
+      "full_name_th": "รศ.ดร. จันฒิมา มากมูล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscijtm@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%88%e0%b8%b1%e0%b8%99%e0%b8%92%e0%b8%b4%e0%b8%a1%e0%b8%b2-%e0%b8%a1%e0%b8%b2%e0%b8%81%e0%b8%a1%e0%b8%b9%e0%b8%a5/"
+    },
+    {
+      "id": "ku_sci_wave13_0066",
+      "full_name_th": "รศ.ดร. อุไรวรรณ อรัญวาสน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fsciuwa@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%b8%e0%b9%84%e0%b8%a3%e0%b8%a7%e0%b8%a3%e0%b8%a3%e0%b8%93-%e0%b8%ad%e0%b8%a3%e0%b8%b1%e0%b8%8d%e0%b8%a7%e0%b8%b2%e0%b8%aa%e0%b8%99%e0%b9%8c/"
+    },
+    {
+      "id": "ku_78ee97f5_0095",
+      "full_name_th": "ผศ.ดร. เสรี พงศ์พันธุ์ภาณี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "คณะวิทยาศาสตร์",
+      "new_email": "fscisrph@ku.ac.th",
+      "new_profile_url": "https://sci.ku.ac.th/web2024/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b9%80%e0%b8%aa%e0%b8%a3%e0%b8%b5-%e0%b8%9e%e0%b8%87%e0%b8%a8%e0%b9%8c%e0%b8%9e%e0%b8%b1%e0%b8%99%e0%b8%98%e0%b8%b8%e0%b9%8c%e0%b8%a0%e0%b8%b2%e0%b8%93/"
+    },
+    {
+      "id": "ku_sci_wave13_0006",
+      "full_name_th": "รศ.ดร. ณัฐพร ฉัตรแถม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscinpc@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%93%e0%b8%90%e0%b8%9e%e0%b8%a3-%e0%b8%89%e0%b8%95%e0%b8%a3%e0%b9%81%e0%b8%96%e0%b8%a1/"
+    },
+    {
+      "id": "ku_sci_wave13_0048",
+      "full_name_th": "ผศ.ดร. สุริยา ณ หนองคาย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "suriya.n@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%b8%e0%b8%a3%e0%b8%b4%e0%b8%a2%e0%b8%b2-%e0%b8%93-%e0%b8%ab%e0%b8%99%e0%b8%ad%e0%b8%87%e0%b8%84%e0%b8%b2%e0%b8%a2/"
+    },
+    {
+      "id": "ku_sci_wave13_0087",
+      "full_name_th": "ดร. ชานนท์ ทองประยูร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "chanon.tho@ku.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fscicnt/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0071",
+      "full_name_th": "ผศ.ดร. วุฒิ ทักษิณธรรม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fsciwut@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%b8%e0%b8%92%e0%b8%b4-%e0%b8%97%e0%b8%b1%e0%b8%81%e0%b8%a9%e0%b8%b4%e0%b8%93%e0%b8%98%e0%b8%a3%e0%b8%a3%e0%b8%a1/"
+    },
+    {
+      "id": "ku_4ea2372a_9268",
+      "full_name_th": "รศ.ดร. วัชริยา ภูรีวิโรจน์กุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fsciwyp@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%b1%e0%b8%8a%e0%b8%a3%e0%b8%b4%e0%b8%a2%e0%b8%b2-%e0%b8%a0%e0%b8%b9%e0%b8%a3%e0%b8%b5%e0%b8%a7%e0%b8%b4%e0%b9%82%e0%b8%a3%e0%b8%88%e0%b8%99/"
+    },
+    {
+      "id": "ku_sci_wave13_0001",
+      "full_name_th": "ศ.ดร. จิรศักดิ์ วงศ์เอกบุตร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "jirasak.w@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%88%e0%b8%a3%e0%b8%a8%e0%b8%81%e0%b8%94-%e0%b8%a7%e0%b8%87%e0%b8%a8%e0%b9%80%e0%b8%ad%e0%b8%81%e0%b8%9a/"
+    },
+    {
+      "id": "ku_sci_wave13_0082",
+      "full_name_th": "ดร. อำไพ ทองธีรภาพ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fsciamu@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fsciamu/"
+    },
+    {
+      "id": "ku_sci_wave13_0054",
+      "full_name_th": "ดร. บุญเลิศ ศรีหิรัญ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscibls@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%9a%e0%b8%b8%e0%b8%8d%e0%b9%80%e0%b8%a5%e0%b8%b4%e0%b8%a8-%e0%b8%a8%e0%b8%a3%e0%b8%b5%e0%b8%ab%e0%b8%b4%e0%b8%a3%e0%b8%b1%e0%b8%8d/"
+    },
+    {
+      "id": "ku_45549736_0682",
+      "full_name_th": "ผศ.ดร. กันย์ สุ่นยี่ขัน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscigsy@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%81%e0%b8%b1%e0%b8%99%e0%b8%a2%e0%b9%8c-%e0%b8%aa%e0%b8%b8%e0%b9%88%e0%b8%99%e0%b8%a2%e0%b8%b5%e0%b9%88%e0%b8%82%e0%b8%b1%e0%b8%99/"
+    },
+    {
+      "id": "ku_a8ec71cd_4339",
+      "full_name_th": "ผศ.ดร. นิตยา สมทรัพย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscinys@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%99%e0%b8%b4%e0%b8%95%e0%b8%a2%e0%b8%b2-%e0%b8%aa%e0%b8%a1%e0%b8%97%e0%b8%a3%e0%b8%b1%e0%b8%9e%e0%b8%a2%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0029",
+      "full_name_th": "ดร. สรศักดิ์ พันธุ์ผัก",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscissp@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%a3%e0%b8%a8%e0%b8%b1%e0%b8%81%e0%b8%94%e0%b8%b4%e0%b9%8c-%e0%b8%9e%e0%b8%b1%e0%b8%99%e0%b8%98%e0%b8%b8%e0%b9%8c%e0%b8%9c%e0%b8%b1%e0%b8%81/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0075",
+      "full_name_th": "ผศ.ดร. พัชร ดนัยสวัสดิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscipad@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%b1%e0%b8%8a%e0%b8%a3-%e0%b8%94%e0%b8%99%e0%b8%b1%e0%b8%a2%e0%b8%aa%e0%b8%a7%e0%b8%b1%e0%b8%aa%e0%b8%94%e0%b8%b4%e0%b9%8c/"
+    },
+    {
+      "id": "ku_7477a23f_7590",
+      "full_name_th": "รศ.ดร. ภาคภูมิ เรือนจันทร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscippr@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a0%e0%b8%b2%e0%b8%84%e0%b8%a0%e0%b8%b9%e0%b8%a1%e0%b8%b4-%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b8%ad%e0%b8%99%e0%b8%88%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%a3/"
+    },
+    {
+      "id": "ku_sci_wave13_0016",
+      "full_name_th": "ผศ.ดร. ธีรภัทร วัชรธาราพงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "teeraphat.wat@ku.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%98%e0%b8%a3%e0%b8%a0%e0%b8%97%e0%b8%a3-%e0%b8%a7%e0%b8%8a%e0%b8%a3%e0%b8%98%e0%b8%b2%e0%b8%a3%e0%b8%b2%e0%b8%9e%e0%b8%87%e0%b8%a8/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0060",
+      "full_name_th": "รศ.ดร. ชีวารัตน์ พรินทรากูล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscicrp@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%8a%e0%b8%b5%e0%b8%a7%e0%b8%b2%e0%b8%a3%e0%b8%b1%e0%b8%95%e0%b8%99%e0%b9%8c-%e0%b8%9e%e0%b8%a3%e0%b8%b4%e0%b8%99%e0%b8%97%e0%b8%a3%e0%b8%b2%e0%b8%81/"
+    },
+    {
+      "id": "ku_sci_wave13_0037",
+      "full_name_th": "รศ.ดร. กันตภณ คูหาพัฒนกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscikpkk@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%81%e0%b8%b1%e0%b8%99%e0%b8%95%e0%b8%a0%e0%b8%93-%e0%b8%84%e0%b8%b9%e0%b8%ab%e0%b8%b2%e0%b8%9e%e0%b8%b1%e0%b8%92%e0%b8%99%e0%b8%81%e0%b8%b8%e0%b8%a5/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0037",
+      "full_name_th": "ผศ.ดร. ฤทธี มีสัตย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fscirim@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a4%e0%b8%97%e0%b8%98%e0%b8%b5-%e0%b8%a1%e0%b8%b5%e0%b8%aa%e0%b8%b1%e0%b8%95%e0%b8%a2%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0063",
+      "full_name_th": "ศ.ดร. ครศร ศรีกุลนาถ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fscikss@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%84%e0%b8%a3%e0%b8%a8%e0%b8%a3-%e0%b8%a8%e0%b8%a3%e0%b8%81%e0%b8%a5%e0%b8%99%e0%b8%b2%e0%b8%96/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0064",
+      "full_name_th": "ศ.ดร. วรรณวิภา วงศ์แสงนาค",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fsciwpv@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%a3%e0%b8%a3%e0%b8%93%e0%b8%a7%e0%b8%a0%e0%b8%b2-%e0%b8%a7%e0%b8%87%e0%b8%a8%e0%b9%81%e0%b8%aa%e0%b8%87%e0%b8%99%e0%b8%b2/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0040",
+      "full_name_th": "ดร. ปกรณ์ ตั้งปอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fscipota@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%9b%e0%b8%81%e0%b8%a3%e0%b8%93%e0%b9%8c-%e0%b8%95%e0%b8%b1%e0%b9%89%e0%b8%87%e0%b8%9b%e0%b8%ad%e0%b8%87/"
+    },
+    {
+      "id": "ku_5a33f235_4828",
+      "full_name_th": "รศ.ดร. ชัชวาล จันทราสุริยารัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fscicwj@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%8a%e0%b8%b1%e0%b8%8a%e0%b8%a7%e0%b8%b2%e0%b8%a5-%e0%b8%88%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%a3%e0%b8%b2%e0%b8%aa%e0%b8%b8%e0%b8%a3%e0%b8%b4%e0%b8%a2/"
+    },
+    {
+      "id": "ku_sci_wave13_0043",
+      "full_name_th": "ผศ.ดร. ภัททิรา เรืองสินทรัพย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscipar@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a0%e0%b8%b1%e0%b8%97%e0%b8%97%e0%b8%b4%e0%b8%a3%e0%b8%b2-%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b8%ad%e0%b8%87%e0%b8%aa%e0%b8%b4%e0%b8%99%e0%b8%97%e0%b8%a3/"
+    },
+    {
+      "id": "ku_sci_wave13_0061",
+      "full_name_th": "ผศ.ดร. พีรภัฏ รุ่งสัทธรรม",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "peerapat.ro@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%b5%e0%b8%a3%e0%b8%a0%e0%b8%b1%e0%b8%8f-%e0%b8%a3%e0%b8%b8%e0%b9%88%e0%b8%87%e0%b8%aa%e0%b8%b1%e0%b8%97%e0%b8%98%e0%b8%a3%e0%b8%a3%e0%b8%a1/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0053",
+      "full_name_th": "รศ.ดร. นิตยา เลาหะจินดา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscinyl@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%99%e0%b8%b4%e0%b8%95%e0%b8%a2%e0%b8%b2-%e0%b9%80%e0%b8%a5%e0%b8%b2%e0%b8%ab%e0%b8%b0%e0%b8%88%e0%b8%b4%e0%b8%99%e0%b8%94%e0%b8%b2/"
+    },
+    {
+      "id": "ku_sci_wave13_0009",
+      "full_name_th": "รศ.ดร. พงศกร จันทรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscipsj@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%87%e0%b8%a8%e0%b8%81%e0%b8%a3-%e0%b8%88%e0%b8%99%e0%b8%97%e0%b8%a3%e0%b8%95%e0%b8%99/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0008",
+      "full_name_th": "รศ.ดร. ณัฐนันท์ ต.เทียนประเสริฐ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "fscinnp@ku.ac.th",
+      "new_profile_url": "https://sci.ku.ac.th/web2024/ku-personnel/35086-2/"
+    },
+    {
+      "id": "ku_2e6bba33_3441",
+      "full_name_th": "รศ.ดร. ธิดาพร ศุภภากร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fscitdps@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fscitdps/"
+    },
+    {
+      "id": "ku_sci_wave13_0040",
+      "full_name_th": "ผศ.ดร. จิตรลดา สมทรัพย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscichs@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%88%e0%b8%b4%e0%b8%95%e0%b8%a3%e0%b8%a5%e0%b8%94%e0%b8%b2-%e0%b8%aa%e0%b8%a1%e0%b8%97%e0%b8%a3%e0%b8%b1%e0%b8%9e%e0%b8%a2%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0070",
+      "full_name_th": "ผศ.ดร. สมพิศ สามิภักดิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fscispsp@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%a1%e0%b8%9e%e0%b8%b4%e0%b8%a8-%e0%b8%aa%e0%b8%b2%e0%b8%a1%e0%b8%b4%e0%b8%a0%e0%b8%b1%e0%b8%81%e0%b8%94%e0%b8%b4%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0049",
+      "full_name_th": "ผศ. อังคณา ศรีพยัพ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscianr@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%ad%e0%b8%b1%e0%b8%87%e0%b8%84%e0%b8%93%e0%b8%b2-%e0%b8%a8%e0%b8%a3%e0%b8%b5%e0%b8%9e%e0%b8%a2%e0%b8%b1%e0%b8%9e/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0048",
+      "full_name_th": "ผศ.ดร. ประหยัด นันทศีล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscipyn@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%ab%e0%b8%a2%e0%b8%b1%e0%b8%94-%e0%b8%99%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%a8%e0%b8%b5%e0%b8%a5/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0083",
+      "full_name_th": "อ.ดร. ณัฏฐาลักษณ์ ลักษณะวิลาศ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "nutthalak.la@ku.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%ad-%e0%b8%94%e0%b8%a3-%e0%b8%93%e0%b8%b1%e0%b8%8f%e0%b8%90%e0%b8%b2%e0%b8%a5%e0%b8%b1%e0%b8%81%e0%b8%a9%e0%b8%93%e0%b9%8c-%e0%b8%a5%e0%b8%b1%e0%b8%81%e0%b8%a9%e0%b8%93%e0%b8%b0%e0%b8%a7/"
+    },
+    {
+      "id": "ku_sci_wave13_0083",
+      "full_name_th": "ดร. เสาวภา ชัยพิทักษ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fscispc@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fscispc/"
+    },
+    {
+      "id": "ku_68ec5ad0_1140",
+      "full_name_th": "รศ.ดร. อัญชลี ศิริขจรกิจ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fscialsk@ku.ac.th",
+      "new_profile_url": "https://sci.ku.ac.th/web2024/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%b1%e0%b8%8d%e0%b8%8a%e0%b8%a5%e0%b8%b5-%e0%b8%a8%e0%b8%b4%e0%b8%a3%e0%b8%b4%e0%b8%82%e0%b8%88%e0%b8%a3%e0%b8%81%e0%b8%b4%e0%b8%88/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0033",
+      "full_name_th": "ดร. มานิตย์ จิตรภักดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fscimnj@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a1%e0%b8%b2%e0%b8%99%e0%b8%b4%e0%b8%95%e0%b8%a2%e0%b9%8c-%e0%b8%88%e0%b8%b4%e0%b8%95%e0%b8%a3%e0%b8%a0%e0%b8%b1%e0%b8%81%e0%b8%94%e0%b8%b5/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0078",
+      "full_name_th": "ผศ.ดร. ศจี วรามิตร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "sajee.wa@ku.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a8%e0%b8%88-%e0%b8%a7%e0%b8%a3%e0%b8%b2%e0%b8%a1%e0%b8%95%e0%b8%a3/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0055",
+      "full_name_th": "รศ.ดร. วีระศักดิ์ อุดมโชค",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscivsu@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%b5%e0%b8%a3%e0%b8%b0%e0%b8%a8%e0%b8%b1%e0%b8%81%e0%b8%94%e0%b8%b4%e0%b9%8c-%e0%b8%ad%e0%b8%b8%e0%b8%94%e0%b8%a1%e0%b9%82%e0%b8%8a%e0%b8%84/"
+    },
+    {
+      "id": "ku_sci_wave13_0028",
+      "full_name_th": "ดร. สิทธิชัย ปิ่นกาญจนโรจน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscispr@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%aa%e0%b8%97%e0%b8%98%e0%b8%8a%e0%b8%a2-%e0%b8%9b%e0%b8%99%e0%b8%81%e0%b8%b2%e0%b8%8d%e0%b8%88%e0%b8%99%e0%b9%82%e0%b8%a3%e0%b8%88%e0%b8%99/"
+    },
+    {
+      "id": "ku_43336011_8149",
+      "full_name_th": "ผศ.ดร. ประดิษฐ์ แสงทอง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fscipds@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%94%e0%b8%b4%e0%b8%a9%e0%b8%90%e0%b9%8c-%e0%b9%81%e0%b8%aa%e0%b8%87%e0%b8%97%e0%b8%ad%e0%b8%87/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0043",
+      "full_name_th": "ผศ.ดร. มยุรา วีระนะ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fscimuv@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a1%e0%b8%a2%e0%b8%b8%e0%b8%a3%e0%b8%b2-%e0%b8%a7%e0%b8%b5%e0%b8%a3%e0%b8%b0%e0%b8%99%e0%b8%b0/"
+    },
+    {
+      "id": "ku_sci_wave13_0008",
+      "full_name_th": "รศ.ดร. ปพิชญา ชัยสกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "new_email": "fscipac@ku.ac.th",
+      "new_profile_url": "https://physics.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9b%e0%b8%9e%e0%b8%b4%e0%b8%8a%e0%b8%8d%e0%b8%b2-%e0%b8%8a%e0%b8%b1%e0%b8%a2%e0%b8%aa%e0%b8%81%e0%b8%b8%e0%b8%a5/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0050",
+      "full_name_th": "ผศ.ดร. ณัฐพงศ์ โมนฤมิตร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscinom@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%93%e0%b8%b1%e0%b8%90%e0%b8%9e%e0%b8%87%e0%b8%a8%e0%b9%8c-%e0%b9%82%e0%b8%a1%e0%b8%99%e0%b8%a4%e0%b8%a1%e0%b8%b4%e0%b8%95%e0%b8%a3/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0080",
+      "full_name_th": "อ.ดร. ปิยมา ทัศนสุวรรณ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "piyama.t@ku.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%ad-%e0%b8%94%e0%b8%a3-%e0%b8%9b%e0%b8%b4%e0%b8%a2%e0%b8%a1%e0%b8%b2-%e0%b8%97%e0%b8%b1%e0%b8%a8%e0%b8%99%e0%b8%aa%e0%b8%b8%e0%b8%a7%e0%b8%a3%e0%b8%a3%e0%b8%93/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0084",
+      "full_name_th": "อ.ดร. รัชนี ดวงรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "ratchanee.d@ku.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%ad-%e0%b8%94%e0%b8%a3-%e0%b8%a3%e0%b8%b1%e0%b8%8a%e0%b8%99%e0%b8%b5-%e0%b8%94%e0%b8%a7%e0%b8%87%e0%b8%a3%e0%b8%b1%e0%b8%95%e0%b8%99%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0036",
+      "full_name_th": "ดร. วันวิสา สุดประเสริฐ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชารังสีประยุกต์และไอโซโทป",
+      "new_email": "fsciwasu@ku.ac.th",
+      "new_profile_url": "https://apprad.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%b1%e0%b8%99%e0%b8%a7%e0%b8%b4%e0%b8%aa%e0%b8%b2-%e0%b8%aa%e0%b8%b8%e0%b8%94%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b9%80%e0%b8%aa%e0%b8%a3%e0%b8%b4/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0081",
+      "full_name_th": "อ.ดร. อธิภัทร เงินหมื่น",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "athipat.ng@ku.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%ad-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%98%e0%b8%b4%e0%b8%a0%e0%b8%b1%e0%b8%97%e0%b8%a3-%e0%b9%80%e0%b8%87%e0%b8%b4%e0%b8%99%e0%b8%ab%e0%b8%a1%e0%b8%b7%e0%b9%88%e0%b8%99/"
+    },
+    {
+      "id": "ku_sci_wave13_0032",
+      "full_name_th": "ศ.ดร. วิเชียร เลาหโกศล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscivil@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%b4%e0%b9%80%e0%b8%8a%e0%b8%b5%e0%b8%a2%e0%b8%a3-%e0%b9%80%e0%b8%a5%e0%b8%b2%e0%b8%ab%e0%b9%82%e0%b8%81%e0%b8%a8%e0%b8%a5/"
+    },
+    {
+      "id": "ku_sci_wave13_0038",
+      "full_name_th": "รศ.ดร. แคทลียา ดาวสุด",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscikyd@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b9%81%e0%b8%84%e0%b8%97%e0%b8%a5%e0%b8%b5%e0%b8%a2%e0%b8%b2-%e0%b8%94%e0%b8%b2%e0%b8%a7%e0%b8%aa%e0%b8%b8%e0%b8%94/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0054",
+      "full_name_th": "รศ.ดร. มิ่งขวัญ มิ่งเมือง",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์พื้นพิภพ",
+      "new_email": "fscimkm@ku.ac.th",
+      "new_profile_url": "https://earth.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a1%e0%b8%b4%e0%b9%88%e0%b8%87%e0%b8%82%e0%b8%a7%e0%b8%b1%e0%b8%8d-%e0%b8%a1%e0%b8%b4%e0%b9%88%e0%b8%87%e0%b9%80%e0%b8%a1%e0%b8%b7%e0%b8%ad%e0%b8%87/"
+    },
+    {
+      "id": "ku_7f2eac45_0906",
+      "full_name_th": "ผศ.ดร. ธีราพร อนันตะเศรษฐกูล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscitpa@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%98%e0%b8%b5%e0%b8%a3%e0%b8%b2%e0%b8%9e%e0%b8%a3-%e0%b8%ad%e0%b8%99%e0%b8%b1%e0%b8%99%e0%b8%95%e0%b8%b0%e0%b9%80%e0%b8%a8%e0%b8%a3%e0%b8%a9%e0%b8%90/"
+    },
+    {
+      "id": "ku_sci_wave13_0035",
+      "full_name_th": "รศ.ดร. พิมพ์ชนา ศิริจารุอนันต์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscispns@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%b4%e0%b8%a1%e0%b8%9e%e0%b9%8c%e0%b8%8a%e0%b8%99%e0%b8%b2-%e0%b8%a8%e0%b8%b4%e0%b8%a3%e0%b8%b4%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%b8%e0%b8%ad/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0063",
+      "full_name_th": "ศ.ดร. วสกร บัลลังก์โพธิ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสัตววิทยา",
+      "new_email": "fscivkb@ku.ac.th",
+      "new_profile_url": "https://zoo.sci.ku.ac.th/ku-personnel/%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%aa%e0%b8%81%e0%b8%a3-%e0%b8%9a%e0%b8%b1%e0%b8%a5%e0%b8%a5%e0%b8%b1%e0%b8%87%e0%b8%81%e0%b9%8c%e0%b9%82%e0%b8%9e%e0%b8%98%e0%b8%b4%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_0073",
+      "full_name_th": "ดร. พุธิตา จิรานันท์สกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fscipij@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%9e%e0%b8%b8%e0%b8%98%e0%b8%b4%e0%b8%95%e0%b8%b2-%e0%b8%88%e0%b8%b4%e0%b8%a3%e0%b8%b2%e0%b8%99%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b9%8c%e0%b8%aa%e0%b8%81%e0%b8%b8%e0%b8%a5/"
+    },
+    {
+      "id": "ku_sci_wave13_0062",
+      "full_name_th": "ศ.ดร. อรินทิพย์ ธรรมชัยพิเนต",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพันธุศาสตร์",
+      "new_email": "fsciatt@ku.ac.th",
+      "new_profile_url": "https://genetics.sci.ku.ac.th/ku-personnel/%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%a3%e0%b8%b4%e0%b8%99%e0%b8%97%e0%b8%b4%e0%b8%9e%e0%b8%a2%e0%b9%8c-%e0%b8%98%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%8a%e0%b8%b1%e0%b8%a2%e0%b8%9e%e0%b8%b4/"
+    },
+    {
+      "id": "ku_sci_wave13_0084",
+      "full_name_th": "ดร. สุดารัตน์ นิจสุนกิจ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "new_email": "fscisrni@ku.ac.th",
+      "new_profile_url": "https://stat.sci.ku.ac.th/ku-personnel/fscisrni/"
+    },
+    {
+      "id": "ku_sci_wave13_0045",
+      "full_name_th": "ผศ.ดร. เรืองลักษณ์ จงโชตินนท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscirlj@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%9c%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b9%80%e0%b8%a3%e0%b8%b7%e0%b8%ad%e0%b8%87%e0%b8%a5%e0%b8%b1%e0%b8%81%e0%b8%a9%e0%b8%93%e0%b9%8c-%e0%b8%88%e0%b8%87%e0%b9%82%e0%b8%8a%e0%b8%95%e0%b8%b4/"
+    },
+    {
+      "id": "ku_sci_wave13_0052",
+      "full_name_th": "ดร. ธนสิน นำไพศาล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscidsna@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%94%e0%b8%a3-%e0%b8%98%e0%b8%99%e0%b8%aa%e0%b8%b4%e0%b8%99-%e0%b8%99%e0%b8%b3%e0%b9%84%e0%b8%9e%e0%b8%a8%e0%b8%b2%e0%b8%a5/"
+    },
+    {
+      "id": "ku_sci_wave13_0051",
+      "full_name_th": "ผศ. ชาญ เขตจตุรัส",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscichk@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%ad-%e0%b8%8a%e0%b8%b2%e0%b8%8d-%e0%b9%80%e0%b8%82%e0%b8%95%e0%b8%88%e0%b8%95%e0%b8%b8%e0%b8%a3%e0%b8%b1%e0%b8%aa/"
+    },
+    {
+      "id": "ku_sci_wave13_0036",
+      "full_name_th": "รศ.ดร. ธีรภัทร ศรีจันทร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "new_email": "fscitrp@ku.ac.th",
+      "new_profile_url": "https://maths.sci.ku.ac.th/ku-personnel/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%98%e0%b8%b5%e0%b8%a3%e0%b8%a0%e0%b8%b1%e0%b8%97%e0%b8%a3-%e0%b8%a8%e0%b8%a3%e0%b8%b5%e0%b8%88%e0%b8%b1%e0%b8%99%e0%b8%97%e0%b8%a3%e0%b9%8c/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0018",
+      "full_name_th": "ศ.ดร. คณพล จุฑามณี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "faaskpj@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0019",
+      "full_name_th": "รศ.ดร. ประศาสตร์ เกื้อมณี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fscipsk@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_64277a9b_9043",
+      "full_name_th": "รศ.ดร. ฉัตรชัย เงินแสงสรวย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fsciccn@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0020",
+      "full_name_th": "รศ.ดร. เฉลิมพล สุวรรณภักดี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fscicps@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0021",
+      "full_name_th": "รศ.ดร. ณัฎฐา เสนีวาส",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fscintsv@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0022",
+      "full_name_th": "รศ.ดร. สุดสวาสดิ์ ดวงศรีไสย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fscissw@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_7500a401_9448",
+      "full_name_th": "รศ.ดร. เอกพันธ์ ไกรจักร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "ekaphan.k@ku.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0023",
+      "full_name_th": "ผศ.ดร. อรอุษา คำสุข",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fsciosk@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0024",
+      "full_name_th": "ผศ.ดร. พรสวรรค์ สุทธินนท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fscipwsu@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0025",
+      "full_name_th": "ดร. มินตา ชัยประสงค์สุข",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fscimtc@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0026",
+      "full_name_th": "ดร. ณรงค์ วงศ์กันทรากร",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fscinrw@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0027",
+      "full_name_th": "ดร. จรัสวัน วารกานนท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "jaruswan.w@ku.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0028",
+      "full_name_th": "ดร. คณิณ รุ่งวัฒนา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "kanin.run@ku.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0030",
+      "full_name_th": "ดร. ศรีสม สุวรรณวงศ์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fscisss@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0031",
+      "full_name_th": "ดร. สรัญญา วัชโรทัย",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาพฤกษศาสตร์",
+      "new_email": "fscisyv@ku.ac.th",
+      "new_profile_url": "http://www.botany.sci.ku.ac.th/staff/"
+    },
+    {
+      "id": "ku_sci_wave13_b_0003",
+      "full_name_th": "รศ.ดร. เกียรติทวี ชูวงศ์โกมล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "fsciktc@ku.ac.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_sci_wave13_b_0004",
+      "full_name_th": "รศ.ดร. ประชุมพร คงเสรี",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "fscippt@ku.ac.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_sci_wave13_b_0005",
+      "full_name_th": "รศ.ดร. ราตรี วงศ์ปัญญา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "fscirtw@ku.ac.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_sci_wave13_b_0006",
+      "full_name_th": "รศ.ดร. ศศิมนัส อุณจักร์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "fscissmn@ku.ac.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_sci_wave13_b_0007",
+      "full_name_th": "รศ.ดร. โชติกา หยกทองวัฒนา",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "fscicks@ku.ac.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_sci_wave13_b_0009",
+      "full_name_th": "รศ.ดร. พิชามญชุ์ เกียรติวุฒินนท์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "fscipmk@ku.ac.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_sci_wave13_b_0010",
+      "full_name_th": "รศ.ดร. นภชนก สเวนสัน",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "fscinnm@ku.ac.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_sci_wave13_b_0011",
+      "full_name_th": "รศ.ดร. ชมดาว สินธุวณิชย์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "fscicds@ku.ac.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_2f4a4acd_2958",
+      "full_name_th": "รศ.ดร. ภานุ พิมพ์วิริยะกุล",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "panu.p@ku.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_sci_wave13_b_0012",
+      "full_name_th": "ผศ.ดร. สุทธิดา ชูเกียรติศิริ",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "fscistd@ku.ac.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_sci_wave13_b_0015",
+      "full_name_th": "ดร. ตวงทอง วงศ์พิพัฒน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "tuangtong.v@ku.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    },
+    {
+      "id": "ku_sci_wave13_b_0017",
+      "full_name_th": "ดร. ดวงทิพย์ ไตรศรีวิรัตน์",
+      "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีวเคมี",
+      "new_email": "duangthip.t@ku.th",
+      "new_profile_url": "https://biochemistry.sci.ku.ac.th/?page_id=298"
+    }
+  ],
+  "embedding_texts_rebuilt": 173
+}

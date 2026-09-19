@@ -1,0 +1,17 @@
+{
+  "session_id": "phase33_recovery_1789559860",
+  "target_university_th": "มหาวิทยาลัยธรรมศาสตร์, มหาวิทยาลัยเกษตรศาสตร์, มหาวิทยาลัยมหิดล",
+  "target_university_en": "Thammasat University, Kasetsart University, Mahidol University",
+  "target_faculty_th": "Multi-Faculty Phase 33 Recovery (Allied Health, Science, Music)",
+  "target_faculty_en": "Multi-Faculty Phase 33 Recovery (Allied Health, Science, Music)",
+  "pending_urls": [],
+  "visited_urls": [],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 300,
+  "status": "initialized",
+  "last_error": null
+}

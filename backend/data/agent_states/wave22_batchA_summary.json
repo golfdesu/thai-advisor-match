@@ -1,0 +1,191 @@
+{
+  "up_med": {
+    "verified": 17,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_up_med_export.py",
+    "seeds": [
+      "https://medicine.up.ac.th/th/Personnel.aspx",
+      "https://medicine.up.ac.th/th/Personnel2.aspx",
+      "https://med.up.ac.th/",
+      "https://www.up.ac.th/"
+    ],
+    "failed": [
+      "https://med.up.ac.th/"
+    ]
+  },
+  "nu_ahs": {
+    "verified": 24,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_nu_ahs_export.py",
+    "seeds": [
+      "https://telerad.ahs.nu.ac.th/ahs_web/department/index.php",
+      "https://telerad.ahs.nu.ac.th/ahs_web/department/mt.php",
+      "https://www.ahs.nu.ac.th/",
+      "https://www.nu.ac.th/"
+    ],
+    "failed": []
+  },
+  "kku_medtech": {
+    "verified": 32,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_kku_medtech_export.py",
+    "seeds": [
+      "https://amsapp.kku.ac.th/webth/page/8/%E0%B8%84%E0%B8%93%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2%E0%B9%80%E0%B8%97%E0%B8%84%E0%B8%99%E0%B8%B4%E0%B8%84%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C",
+      "https://amsapp.kku.ac.th/webth/page/67/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3",
+      "https://medtech.kku.ac.th/",
+      "https://www.kku.ac.th/"
+    ],
+    "failed": [
+      "https://medtech.kku.ac.th/"
+    ]
+  },
+  "psu_dent": {
+    "verified": 0,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_psu_dent_export.py",
+    "seeds": [
+      "https://www.dent.psu.ac.th/dent/",
+      "https://www.dent.psu.ac.th/"
+    ],
+    "failed": [],
+    "via": "browser-always-crawl"
+  },
+  "psu_pharmacy": {
+    "verified": 30,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_psu_pharmacy_export.py",
+    "seeds": [
+      "https://www.pharmacy.psu.ac.th/th/administrator-team.html",
+      "https://www.pharmacy.psu.ac.th/th/clinic-staff.html",
+      "https://pharmacy.psu.ac.th/",
+      "https://www.psu.ac.th/"
+    ],
+    "failed": [
+      "https://pharmacy.psu.ac.th/",
+      "https://www.psu.ac.th/"
+    ]
+  },
+  "sut_nursing": {
+    "verified": 33,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_sut_nursing_export.py",
+    "seeds": [
+      "http://nurse.sut.ac.th/about-us/personal/academic/",
+      "https://nurse.sut.ac.th/",
+      "https://www.sut.ac.th/"
+    ],
+    "failed": []
+  },
+  "mu_medtech": {
+    "verified": 21,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_mu_medtech_export.py",
+    "seeds": [
+      "https://mt.mahidol.ac.th/about-us-2/faculty-senate/",
+      "https://mt.mahidol.ac.th/administrative-team/",
+      "https://channel.mahidol.ac.th/view/2293/Faculty%20of%20Medical%20Technology,%20Mahidol%20University",
+      "https://mt.mahidol.ac.th/en/home/",
+      "https://mt.mahidol.ac.th/en/academic-programs-en/"
+    ],
+    "failed": [
+      "https://channel.mahidol.ac.th/view/2293/Faculty%20of%20Medical%20Technology,%20Mahidol%20University",
+      "https://mt.mahidol.ac.th/en/home/",
+      "https://mt.mahidol.ac.th/en/academic-programs-en/"
+    ],
+    "via": "browser-pass"
+  },
+  "cmu_pharmacy": {
+    "verified": 56,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_cmu_pharmacy_export.py",
+    "seeds": [
+      "https://www.cmu.ac.th/th/faculty/pharmacy/teacher",
+      "https://webs.pharmacy.cmu.ac.th/science/staff-group/menu/107",
+      "https://www.pharmacy.cmu.ac.th/",
+      "https://webs.pharmacy.cmu.ac.th/doc/staff-group/menu/208"
+    ],
+    "failed": [],
+    "fresh_serp": [
+      "https://www.cmu.ac.th/th/faculty/pharmacy/teacher",
+      "https://webs.pharmacy.cmu.ac.th/science/staff-group/menu/107"
+    ]
+  },
+  "cmu_agro": {
+    "verified": 171,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_cmu_agro_export.py",
+    "seeds": [
+      "https://mis.agri.cmu.ac.th/mis/Main/professor",
+      "https://www.cmu.ac.th/th/faculty/agriculture/teacher",
+      "https://agro.cmu.ac.th/",
+      "https://www.agro.cmu.ac.th/mis2/personnel/pages/personal_new.php"
+    ],
+    "failed": [],
+    "fresh_serp": [
+      "https://mis.agri.cmu.ac.th/mis/Main/professor",
+      "https://www.cmu.ac.th/th/faculty/agriculture/teacher",
+      "https://www.cmu.ac.th/th/faculty/agriculture/aboutus"
+    ]
+  },
+  "nu_dent": {
+    "verified": 94,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_nu_dent_export.py",
+    "seeds": [
+      "https://www.dent.nu.ac.th/?page_id=1039",
+      "https://www.dent.nu.ac.th/?page_id=3380",
+      "https://www.dent.nu.ac.th/",
+      "https://www.nu.ac.th/"
+    ],
+    "failed": [],
+    "fresh_serp": [
+      "https://www.dent.nu.ac.th/?page_id=1039",
+      "https://www.dent.nu.ac.th/?page_id=3380",
+      "https://www.nation.ac.th/dean-teacher-dent/"
+    ]
+  },
+  "kku_dent": {
+    "verified": 68,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_kku_dent_export.py",
+    "seeds": [
+      "https://dentistry.kku.ac.th/course/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B8%8D%E0%B8%B2/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3",
+      "https://dentistry.kku.ac.th/admin-board",
+      "https://dent.kku.ac.th/",
+      "https://www.kku.ac.th/"
+    ],
+    "failed": [
+      "https://dent.kku.ac.th/"
+    ],
+    "fresh_serp": [
+      "https://dentistry.kku.ac.th/course/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B8%8D%E0%B8%B2/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3",
+      "https://dentistry.kku.ac.th/admin-board",
+      "https://dentistry.kku.ac.th/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3"
+    ]
+  },
+  "sut_med": {
+    "verified": 97,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_sut_med_export.py",
+    "seeds": [
+      "http://imdata.sut.ac.th/im-sut/",
+      "http://imdata.sut.ac.th/im-sut/team-lecturer.php",
+      "https://med.sut.ac.th/",
+      "https://www.sut.ac.th/"
+    ],
+    "failed": [
+      "https://med.sut.ac.th/"
+    ],
+    "fresh_serp": [
+      "http://imdata.sut.ac.th/im-sut/",
+      "http://imdata.sut.ac.th/im-sut/team-lecturer.php",
+      "http://imdata.sut.ac.th/im-sut/team-board.php"
+    ]
+  },
+  "mu_vet": {
+    "verified": 20,
+    "export": "C:\\Users\\chaya\\Documents\\Program\\Project\\Teacher\\backend\\data\\agent_states\\wave22_mu_vet_export.py",
+    "seeds": [
+      "https://vs.mahidol.ac.th/new/personnel.aspx?dept_id=4&divID=21",
+      "https://vs.mahidol.ac.th/th/executive-council.html",
+      "https://vs.mahidol.ac.th/new/facultyprofiles.aspx",
+      "https://www.mahidol.ac.th/"
+    ],
+    "failed": [
+      "https://www.mahidol.ac.th/"
+    ],
+    "fresh_serp": [
+      "https://vs.mahidol.ac.th/new/personnel.aspx?dept_id=4&divID=21",
+      "https://vs.mahidol.ac.th/th/executive-council.html",
+      "https://channel.mahidol.ac.th/view/3412/50%20Facts%20%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%AA%E0%B8%B1%E0%B8%95%E0%B8%A7%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%20%E0%B8%A1.%E0%B8%A1%E0%B8%AB%E0%B8%B4%E0%B8%94%E0%B8%A5"
+    ]
+  }
+}

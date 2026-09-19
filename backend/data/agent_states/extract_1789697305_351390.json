@@ -1,0 +1,21 @@
+{
+  "session_id": "extract_1789697305_351390",
+  "target_university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+  "target_university_en": "King Mongkut's Institute of Technology Ladkrabang",
+  "target_faculty_th": "วิทยาลัยประชากรศาสตร์",
+  "target_faculty_en": "School of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.chula.ac.th/en/departments/college-of-population-studies",
+    "https://cps.chula.ac.th/",
+    "https://cps.chula.ac.th/newcps/"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 3,
+  "total_tokens_used": 2319,
+  "status": "completed",
+  "last_error": null
+}

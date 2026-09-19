@@ -1,0 +1,105 @@
+{
+  "session_id": "wave28_mfu_sinology",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชาจีนวิทยา",
+  "target_faculty_en": "School of Sinology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.mfu.ac.th/en/academics.html",
+    "https://www.mfu.ac.th/en/academics/school-of-sinology.html",
+    "https://sinology.mfu.ac.th/",
+    "https://sinology.mfu.ac.th/en/"
+  ],
+  "failed_urls": [
+    "https://chinese.mfu.ac.th/"
+  ],
+  "faculties": {
+    "maefahluan_schoolofsi_meachaiyo_001": {
+      "id": "maefahluan_schoolofsi_meachaiyo_001",
+      "university": "Mae Fah Luang University",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty": "School of Sinology",
+      "faculty_th": "สำนักวิชาจีนวิทยา",
+      "department": "สาขาวิชาจีนศึกษา",
+      "department_th": "สาขาวิชาจีนศึกษา",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Nattawut",
+      "last_name": "Meachaiyo",
+      "full_name": "Nattawut Meachaiyo",
+      "full_name_th": "ผศ.ดร. ณัฐวุฒิ มีชัยโย",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Chinese Studies"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "maefahluan_schoolofsi_thaveepvorachai_002": {
+      "id": "maefahluan_schoolofsi_thaveepvorachai_002",
+      "university": "Mae Fah Luang University",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty": "School of Sinology",
+      "faculty_th": "สำนักวิชาจีนวิทยา",
+      "department": "สาขาวิชามานุษยวิทยา",
+      "department_th": "สาขาวิชามานุษยวิทยา",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Ekkachai",
+      "last_name": "Thaveepvorachai",
+      "full_name": "Ekkachai Thaveepvorachai",
+      "full_name_th": "ผศ. เอกชัย ทวีปวรชัย",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Anthropology"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "maefahluan_schoolofsi_preedipot_003": {
+      "id": "maefahluan_schoolofsi_preedipot_003",
+      "university": "Mae Fah Luang University",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty": "School of Sinology",
+      "faculty_th": "สำนักวิชาจีนวิทยา",
+      "department": "สำนักวิชาจีนวิทยา",
+      "department_th": "สำนักวิชาจีนวิทยา",
+      "academic_title": "อ.ดร.",
+      "academic_title_th": "อ.ดร.",
+      "first_name": "Theeraphap",
+      "last_name": "Preedipot",
+      "full_name": "Theeraphap Preedipot",
+      "full_name_th": "อ.ดร. ธีรภาพ ปรีดีพจน์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ณัฐวุฒิ มีชัยโย": "maefahluan_schoolofsi_meachaiyo_001",
+    "เอกชัย ทวีปวรชัย": "maefahluan_schoolofsi_thaveepvorachai_002",
+    "ธีรภาพ ปรีดีพจน์": "maefahluan_schoolofsi_preedipot_003"
+  },
+  "dedup_emails": {},
+  "step_count": 4,
+  "total_tokens_used": 4944,
+  "status": "completed",
+  "last_error": null
+}

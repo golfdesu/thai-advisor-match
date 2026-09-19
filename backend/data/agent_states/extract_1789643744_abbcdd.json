@@ -1,0 +1,108 @@
+{
+  "session_id": "extract_1789643744_abbcdd",
+  "target_university_th": "มหาวิทยาลัยพะเยา",
+  "target_university_en": "University of Phayao",
+  "target_faculty_th": "คณะเกษตรศาสตร์",
+  "target_faculty_en": "School of Agriculture",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://agri.up.ac.th/"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "university_schoolofag_wuttinithisanan_001": {
+      "id": "university_schoolofag_wuttinithisanan_001",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Agriculture",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department": "หลักสูตรวิทยาศาสตร์และเทคโนโลยีการอาหาร คณะเกษตรศาสตร์และทรัพยากรธรรมชาติ",
+      "department_th": "หลักสูตรวิทยาศาสตร์และเทคโนโลยีการอาหาร คณะเกษตรศาสตร์และทรัพยากรธรรมชาติ",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Nevichayan",
+      "last_name": "Wuttinithisanan",
+      "full_name": "Nevichayan Wuttinithisanan",
+      "full_name_th": "อ. เนวิชญานิ์ วุฒินิธิศานันท์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "วิทยาศาสตร์และเทคโนโลยีการอาหาร",
+        "การพัฒนาผลิตภัณฑ์อาหาร"
+      ],
+      "featured_publications": [
+        "งานวิจัยเชิงพื้นที่ในการพัฒนาผลิตภัณฑ์อาหาร : ไส้อั่วปลานิล"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofag_kannikar_002": {
+      "id": "university_schoolofag_kannikar_002",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Agriculture",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department": "หลักสูตรเทคโนโลยีและนวัตกรรมการประมง คณะเกษตรศาสตร์และทรัพยากรธรรมชาติ",
+      "department_th": "หลักสูตรเทคโนโลยีและนวัตกรรมการประมง คณะเกษตรศาสตร์และทรัพยากรธรรมชาติ",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Korntip",
+      "last_name": "Kannikar",
+      "full_name": "Korntip Kannikar",
+      "full_name_th": "ดร. กรทิพย์ กันนิการ์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "เทคโนโลยีและนวัตกรรมการประมง",
+        "สารกระตุ้นภูมิคุ้มกันในสัตว์น้ำ"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "university_schoolofag_promjak_003": {
+      "id": "university_schoolofag_promjak_003",
+      "university": "University of Phayao",
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "faculty": "School of Agriculture",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department": "สาขาวิชาความปลอดภัยทางอาหาร คณะเกษตรศาสตร์และทรัพยากรธรรมชาติ",
+      "department_th": "สาขาวิชาความปลอดภัยทางอาหาร คณะเกษตรศาสตร์และทรัพยากรธรรมชาติ",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Trakul",
+      "last_name": "Promjak",
+      "full_name": "Trakul Promjak",
+      "full_name_th": "ผศ.ดร. ตระกูล พรหมจักร",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "ความปลอดภัยทางอาหาร"
+      ],
+      "featured_publications": [
+        "การปฏิเสธการนำเข้าอาหารไทยจากสหภาพยุโรปและสหรัฐอเมริกา"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "เนวิชญานิ์ วุฒินิธิศานันท์": "university_schoolofag_wuttinithisanan_001",
+    "กรทิพย์ กันนิการ์": "university_schoolofag_kannikar_002",
+    "ตระกูล พรหมจักร": "university_schoolofag_promjak_003"
+  },
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 1967,
+  "status": "completed",
+  "last_error": null
+}

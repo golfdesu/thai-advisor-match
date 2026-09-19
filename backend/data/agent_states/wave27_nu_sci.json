@@ -1,0 +1,33 @@
+{
+  "session_id": "wave27_nu_sci",
+  "target_university_th": "มหาวิทยาลัยนเรศวร",
+  "target_university_en": "Naresuan University",
+  "target_faculty_th": "คณะวิทยาศาสตร์",
+  "target_faculty_en": "Faculty of Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.sci.nu.ac.th/",
+    "https://www.sci.nu.ac.th/faculty/",
+    "https://www.sci.nu.ac.th/faculty2/",
+    "https://math.sci.nu.ac.th/",
+    "https://chemistry.sci.nu.ac.th/",
+    "https://physics.sci.nu.ac.th/",
+    "https://www.sci.nu.ac.th/?page=department&id=1",
+    "https://www.sci.nu.ac.th/?page=department&id=2",
+    "https://www.sci.nu.ac.th/?page=department&id=3",
+    "https://www.sci.nu.ac.th/?page=department&id=4",
+    "https://www.sci.nu.ac.th/?page=department&id=5",
+    "https://www.sci.nu.ac.th/?page=department&id=6",
+    "https://www.sci.nu.ac.th/?page=department&id=7",
+    "https://www.sci.nu.ac.th/?page=department&id=8",
+    "https://www.sci.nu.ac.th/?page=department&id=9"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 15,
+  "total_tokens_used": 11395,
+  "status": "in_progress",
+  "last_error": null
+}

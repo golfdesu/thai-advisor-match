@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789654455_334065",
+  "target_university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+  "target_university_en": "Kasetsart University",
+  "target_faculty_th": "IFRPD",
+  "target_faculty_en": "Inst. of Food Research and Product Development",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://ifrpd.ku.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 1606,
+  "status": "completed",
+  "last_error": null
+}

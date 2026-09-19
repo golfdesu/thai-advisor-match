@@ -1,0 +1,200 @@
+{
+  "mfu_chinese": [
+    {
+      "url": "https://www.mfu.ac.th",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/about",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/personnel",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/staff",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/people",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    }
+  ],
+  "mfu_liberalarts": [
+    {
+      "url": "https://www.mfu.ac.th/",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/staff",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/personnel",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/about",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/people",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    }
+  ],
+  "mfu_antiaging": [
+    {
+      "url": "https://www.mfu.ac.th/personnel",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/staff",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/people",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.mfu.ac.th/about",
+      "bytes": 18205,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    }
+  ],
+  "msu_ph": [
+    {
+      "url": "https://www.msu.ac.th",
+      "bytes": 279375,
+      "title_hits": 1,
+      "staff_links": 0,
+      "score": 1
+    },
+    {
+      "url": "https://www.msu.ac.th/",
+      "bytes": 279375,
+      "title_hits": 1,
+      "staff_links": 0,
+      "score": 1
+    },
+    {
+      "url": "https://www.msu.ac.th/about",
+      "bytes": 191945,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    }
+  ],
+  "msu_finearts": [
+    {
+      "url": "https://www.msu.ac.th",
+      "bytes": 279375,
+      "title_hits": 1,
+      "staff_links": 0,
+      "score": 1
+    },
+    {
+      "url": "https://www.msu.ac.th/",
+      "bytes": 279375,
+      "title_hits": 1,
+      "staff_links": 0,
+      "score": 1
+    },
+    {
+      "url": "https://www.msu.ac.th/about",
+      "bytes": 191945,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    }
+  ],
+  "ubu_sci": [
+    {
+      "url": "https://www.ubu.ac.th/",
+      "bytes": 5418,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    },
+    {
+      "url": "https://www.ubu.ac.th",
+      "bytes": 5418,
+      "title_hits": 0,
+      "staff_links": 0,
+      "score": 0
+    }
+  ],
+  "mju_fishery": [],
+  "mju_animal": [],
+  "mju_energy": [],
+  "up_energy": []
+}

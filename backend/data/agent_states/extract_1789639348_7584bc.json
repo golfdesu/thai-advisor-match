@@ -1,0 +1,21 @@
+{
+  "session_id": "extract_1789639348_7584bc",
+  "target_university_th": "มหาวิทยาลัยขอนแก่น",
+  "target_university_en": "Khon Kaen University",
+  "target_faculty_th": "คณะเทคนิคการแพทย์",
+  "target_faculty_en": "Faculty of Medical Technology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.kku.ac.th/"
+  ],
+  "failed_urls": [
+    "https://medtech.kku.ac.th/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 2651,
+  "status": "completed",
+  "last_error": null
+}

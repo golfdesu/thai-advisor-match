@@ -1,0 +1,21 @@
+{
+  "session_id": "extract_1789654467_3f7c68",
+  "target_university_th": "มหาวิทยาลัยอุบลราชธานี",
+  "target_university_en": "Ubon Ratchathani University",
+  "target_faculty_th": "คณะวิทยาศาสตร์",
+  "target_faculty_en": "Faculty of Science",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.ubu.ac.th/UBU2025",
+    "https://www.ubu.ac.th/index.php",
+    "https://jobs.ubu.ac.th"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 3,
+  "total_tokens_used": 7766,
+  "status": "completed",
+  "last_error": null
+}

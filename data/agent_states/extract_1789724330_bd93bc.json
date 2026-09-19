@@ -1,0 +1,62 @@
+{
+  "session_id": "extract_1789724330_bd93bc",
+  "target_university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
+  "target_university_en": "National Institute of Development Administration",
+  "target_faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+  "target_faculty_en": "Graduate School of Environmental Development Administration",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://nida.ac.th/admission/environmental-development-administration/",
+    "https://nida.ac.th/en/admission/environmental-development-administration/",
+    "https://nida.ac.th/teams/witchuda/"
+  ],
+  "failed_urls": [
+    "https://gseda.nida.ac.th"
+  ],
+  "faculties": {
+    "nationalin_graduatesc_srangiam_001": {
+      "id": "nationalin_graduatesc_srangiam_001",
+      "university": "National Institute of Development Administration",
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)",
+      "faculty": "Graduate School of Environmental Development Administration",
+      "faculty_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "department": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "department_th": "คณะบริหารการพัฒนาสิ่งแวดล้อม",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Witchuda",
+      "last_name": "Srang-iam",
+      "full_name": "Witchuda Srang-iam",
+      "full_name_th": "รศ.ดร. วิชชุดา สร้างเอี่ยม",
+      "role": "อาจารย์ประจำ",
+      "email": "witchuda.s@nida.ac.th",
+      "image_url": "",
+      "profile_url": "https://nida.ac.th/teams/witchuda/",
+      "education": [
+        "Ph.D. (Natural Resources and Environment), University of Michigan, USA",
+        "M.S. (Urban Environmental Management), Asian Institute of Technology, Thailand",
+        "ศศ.บ. มหาวิทยาลัยสุโขทัยธรรมาธิราช",
+        "สถ.บ. เกียรตินิยมอันดับ 2 มหาวิทยาลัยศิลปากร"
+      ],
+      "research_interests": [
+        "นโยบายสิ่งแวดล้อม",
+        "การเมืองและการอภิบาลสิ่งแวดล้อม",
+        "โลกาภิบาลสิ่งแวดล้อม",
+        "ธุรกิจสีเขียว"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "วิชชุดา สร้างเอี่ยม": "nationalin_graduatesc_srangiam_001"
+  },
+  "dedup_emails": {
+    "witchuda.s@nida.ac.th": "nationalin_graduatesc_srangiam_001"
+  },
+  "step_count": 3,
+  "total_tokens_used": 2854,
+  "status": "completed",
+  "last_error": null
+}

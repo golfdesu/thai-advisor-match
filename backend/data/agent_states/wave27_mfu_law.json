@@ -1,0 +1,72 @@
+{
+  "session_id": "wave27_mfu_law",
+  "target_university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+  "target_university_en": "Mae Fah Luang University",
+  "target_faculty_th": "สำนักวิชานิติศาสตร์",
+  "target_faculty_en": "School of Law",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://law.mfu.ac.th/",
+    "https://law.mfu.ac.th/en/"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "maefahluan_schoolofla_noichim_001": {
+      "id": "maefahluan_schoolofla_noichim_001",
+      "university": "Mae Fah Luang University",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty": "School of Law",
+      "faculty_th": "สำนักวิชานิติศาสตร์",
+      "department": "สำนักวิชานิติศาสตร์",
+      "department_th": "สำนักวิชานิติศาสตร์",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Chukiat",
+      "last_name": "Noichim",
+      "full_name": "Chukiat Noichim",
+      "full_name_th": "รศ.ดร. ชูเกียรติ น้อยฉิม",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "maefahluan_schoolofla_noichim_002": {
+      "id": "maefahluan_schoolofla_noichim_002",
+      "university": "Mae Fah Luang University",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty": "School of Law",
+      "faculty_th": "สำนักวิชานิติศาสตร์",
+      "department": "สำนักวิชานิติศาสตร์",
+      "department_th": "สำนักวิชานิติศาสตร์",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Chukeat",
+      "last_name": "Noichim",
+      "full_name": "Chukeat Noichim",
+      "full_name_th": "รศ.ดร. ชูเกียรติ นอยಚಿม",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "https://law.mfu.ac.th/en/",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ชูเกียรติ น้อยฉิม": "maefahluan_schoolofla_noichim_001",
+    "ชูเกียรติ นอยಚಿม": "maefahluan_schoolofla_noichim_002"
+  },
+  "dedup_emails": {},
+  "step_count": 2,
+  "total_tokens_used": 2190,
+  "status": "completed",
+  "last_error": null
+}

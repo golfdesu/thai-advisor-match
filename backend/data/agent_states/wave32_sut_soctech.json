@@ -1,0 +1,23 @@
+{
+  "session_id": "extract_1789701227_1de607",
+  "target_university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+  "target_university_en": "Suranaree University of Technology",
+  "target_faculty_th": "สำนักวิชาเทคโนโลยีสังคม",
+  "target_faculty_en": "Institute of Social Technology",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.sut.ac.th/content/detail/%E0%B8%AA%E0%B8%B3%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%A7%E0%B8%B4%E0%B8%8A%E0%B8%B2"
+  ],
+  "failed_urls": [
+    "https://beta.sut.ac.th/ist",
+    "https://beta.sut.ac.th/ist-mt",
+    "http://soctech.sut.ac.th/ist_information/"
+  ],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 941,
+  "status": "completed",
+  "last_error": null
+}
