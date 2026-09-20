@@ -37,7 +37,7 @@ export const LabCard: React.FC<LabCardProps> = ({ lab, onOpenInquiry }) => {
 
   return (
     <>
-      <div className="group relative bg-[var(--theme-card)] rounded-2xl border border-[var(--theme-border)] hover:border-[var(--theme-primary)] hover:shadow-lg transition-all duration-200 flex flex-col justify-between overflow-hidden">
+      <div className="ui-card group relative flex flex-col justify-between overflow-hidden">
         {/* Top Banner Image with Gradient Overlay */}
         <div className="relative h-44 w-full overflow-hidden bg-[var(--theme-card-subtle)] border-b border-[var(--theme-border)]">
           {lab.image_url && !labImgError ? (
@@ -210,6 +210,8 @@ export const LabCard: React.FC<LabCardProps> = ({ lab, onOpenInquiry }) => {
 
             <button
               onClick={handleInquiryClick}
+              type="button"
+              aria-label={`ติดต่อแล็บ ${lab.name_th || "นี้"} ด้วย AI`}
               className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl bg-[var(--theme-primary)] hover:opacity-90 text-[var(--theme-primary-contrast)] text-xs font-bold shadow-xs transition-all cursor-pointer"
               title="สร้างข้อความติดต่อสมัครเข้าร่วมแล็บด้วย AI"
             >

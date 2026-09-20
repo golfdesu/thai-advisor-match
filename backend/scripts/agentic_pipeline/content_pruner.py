@@ -66,8 +66,22 @@ class ContentPruner:
             # 3. Locate candidate high-density containers (tables, cards, article, main)
             candidate_blocks: List[Tuple[int, str]] = []
 
-            # Check main or body
-            container = soup.find("main") or soup.find("article") or soup.find("body") or soup
+            # Check main, article, or the densest body/container (handles malformed multi-body HTML)
+            container = soup.find("main") or soup.find("article")
+            if not container:
+                bodies = soup.find_all("body")
+                if len(bodies) > 1:
+                    container = max(
+                        bodies,
+                        key=lambda b: (
+                            ContentPruner._calculate_academic_density_score(b.get_text()),
+                            len(b.get_text())
+                        )
+                    )
+                elif len(bodies) == 1:
+                    container = bodies[0]
+                else:
+                    container = soup
 
             # Scan tables, grids, and staff card lists
             staff_containers = container.find_all(["table", "ul", "div", "section"])
@@ -101,6 +115,8 @@ class ContentPruner:
 
             # Fallback: General text cleaning
             cleaned_text = container.get_text(separator="\n", strip=True)
+            if not cleaned_text and container != soup:
+                cleaned_text = soup.get_text(separator="\n", strip=True)
             # Remove excessive consecutive blank lines
             cleaned_text = re.sub(r"\n{3,}", "\n\n", cleaned_text)
             return cleaned_text[:max_output_chars]

@@ -1,0 +1,434 @@
+{
+  "session_id": "extract_1789880156_5b00c7",
+  "target_university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+  "target_university_en": "King Mongkut's Institute of Technology Ladkrabang",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://rai.kmitl.ac.th/people"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "kingmongku_facultyofe_konghuayrob_001": {
+      "id": "kingmongku_facultyofe_konghuayrob_001",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Poom",
+      "last_name": "Konghuayrob",
+      "full_name": "Poom Konghuayrob",
+      "full_name_th": "ผศ.ดร. ภูมิ คงห้วยรอบ",
+      "role": "อาจารย์ประจำ",
+      "email": "poom.ko@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "D.Eng. Electrical Engineering, King Mongkut's Institute of Technology Ladkrabang, 2017"
+      ],
+      "research_interests": [
+        "Industrial Robot",
+        "Automation System",
+        "Manufacturing Process"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_sooraksa_002": {
+      "id": "kingmongku_facultyofe_sooraksa_002",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Pitikhate",
+      "last_name": "Sooraksa",
+      "full_name": "Pitikhate Sooraksa",
+      "full_name_th": "ศ.ดร. ปิติเขต สร้อยศักดิ์",
+      "role": "อาจารย์ประจำ",
+      "email": "pitikhate.so@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. Electrical Engineering, University of Houston, 1996"
+      ],
+      "research_interests": [
+        "Entertainment Robots",
+        "Chaos Robotic",
+        "Control System Engineering"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_kaitwanidvilai_003": {
+      "id": "kingmongku_facultyofe_kaitwanidvilai_003",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Somyot",
+      "last_name": "Kaitwanidvilai",
+      "full_name": "Somyot Kaitwanidvilai",
+      "full_name_th": "รศ.ดร. สมยศ เกตุوانิชกิจ",
+      "role": "อาจารย์ประจำ",
+      "email": "somyot.ka@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "D.Eng. Mechatronics Engineering, Asian Institute of Technology, 2005"
+      ],
+      "research_interests": [
+        "Robotics and Mechatronics",
+        "Robust and Adaptive Control",
+        "Neural Network and Fuzzy Logic Control"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_saenthon_004": {
+      "id": "kingmongku_facultyofe_saenthon_004",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Anakkapon",
+      "last_name": "Saenthon",
+      "full_name": "Anakkapon Saenthon",
+      "full_name_th": "ผศ.ดร. อนัคพล แสนทวีสุข",
+      "role": "อาจารย์ประจำ",
+      "email": "anakkapon.sa@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "D.Eng. Electrical Engineering, King Mongkut's Institute of Technology Ladkrabang, 2011"
+      ],
+      "research_interests": [
+        "Vision Systems",
+        "Artificial Intelligence",
+        "Manufacturing Inspection Systems"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_petchmaneelumka_005": {
+      "id": "kingmongku_facultyofe_petchmaneelumka_005",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Wandee",
+      "last_name": "Petchmaneelumka",
+      "full_name": "Wandee Petchmaneelumka",
+      "full_name_th": "รศ.ดร. วันดี เพชรมณีลัมภก",
+      "role": "อาจารย์ประจำ",
+      "email": "wandee.pe@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "D.Eng. Electrical Engineering, King Mongkut's Institute of Technology Ladkrabang, 2009"
+      ],
+      "research_interests": [
+        "Analog Signal Processing",
+        "Instrumentation and Measurement",
+        "Control Systems"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_songsuwankit_006": {
+      "id": "kingmongku_facultyofe_songsuwankit_006",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Kanoknuch",
+      "last_name": "Songsuwankit",
+      "full_name": "Kanoknuch Songsuwankit",
+      "full_name_th": "ผศ.ดร. กนกนุช ทรงสุวรรณกิจ",
+      "role": "อาจารย์ประจำ",
+      "email": "kanoknuch.so@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "D.Eng. Electrical Engineering, King Mongkut's Institute of Technology Ladkrabang, 2018"
+      ],
+      "research_interests": [
+        "Analog Circuit",
+        "Instrumentation and Measurement"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_chaoraingern_007": {
+      "id": "kingmongku_facultyofe_chaoraingern_007",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Jutarut",
+      "last_name": "Chaoraingern",
+      "full_name": "Jutarut Chaoraingern",
+      "full_name_th": "ผศ.ดร. จุฑารัตน์ เชาว์ไกรเงิน",
+      "role": "อาจารย์ประจำ",
+      "email": "jutarut.ch@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "D.Eng. Electrical Engineering, King Mongkut's Institute of Technology Ladkrabang, 2021"
+      ],
+      "research_interests": [
+        "TinyML",
+        "IoT",
+        "Instrumentation",
+        "Embedded Systems"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_yanyong_008": {
+      "id": "kingmongku_facultyofe_yanyong_008",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Sarucha",
+      "last_name": "Yanyong",
+      "full_name": "Sarucha Yanyong",
+      "full_name_th": "ดร. สรุชา ยันโยง",
+      "role": "อาจารย์ประจำ",
+      "email": "sarucha.ya@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "D.Eng. Electrical Engineering, King Mongkut's Institute of Technology Ladkrabang, 2023"
+      ],
+      "research_interests": [
+        "AI-driven Robotics and Control Systems",
+        "Mobile Robotics",
+        "Railway Signalling",
+        "AIoT"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_gullayanon_009": {
+      "id": "kingmongku_facultyofe_gullayanon_009",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Rutchanee",
+      "last_name": "Gullayanon",
+      "full_name": "Rutchanee Gullayanon",
+      "full_name_th": "ผศ.ดร. รัชนี กัลยาณมิตร",
+      "role": "อาจารย์ประจำ",
+      "email": "rutchanee.gu@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. Electrical Engineering, Georgia Institute of Technology, 2011"
+      ],
+      "research_interests": [
+        "Mobile Robotics",
+        "Artificial Intelligent Control"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_song_010": {
+      "id": "kingmongku_facultyofe_song_010",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Weon Keun",
+      "last_name": "Song",
+      "full_name": "Weon Keun Song",
+      "full_name_th": "ผศ.ดร. เหวอน กึน ซอง",
+      "role": "อาจารย์ประจำ",
+      "email": "weon.sa@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. Mechanical Engineering, Moscow State Technical University, 1998"
+      ],
+      "research_interests": [
+        "Non-linear System",
+        "AI"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_khuntontong_011": {
+      "id": "kingmongku_facultyofe_khuntontong_011",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Puttachat",
+      "last_name": "Khuntontong",
+      "full_name": "Puttachat Khuntontong",
+      "full_name_th": "ผศ.ดร. พุฒชาด ขุนทอง",
+      "role": "อาจารย์ประจำ",
+      "email": "puttachat.kh@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Dr.-Ing. Engineering, RWTH-Aachen University"
+      ],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_thongjantar_012": {
+      "id": "kingmongku_facultyofe_thongjantar_012",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Sanchai",
+      "last_name": "Thongjantar",
+      "full_name": "Sanchai Thongjantar",
+      "full_name_th": "อ. สันชัย ทองจันทร์",
+      "role": "อาจารย์ประจำ",
+      "email": "sanchai.th@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "M.Sc. Industrial Engineering, University of New Haven, 1992"
+      ],
+      "research_interests": [
+        "Production Engineering",
+        "Manufacturing Process"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_suppaadirek_013": {
+      "id": "kingmongku_facultyofe_suppaadirek_013",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Natchanon",
+      "last_name": "Suppaadirek",
+      "full_name": "Natchanon Suppaadirek",
+      "full_name_th": "ดร. ณัชนนท์ ศุภأдиเรк",
+      "role": "อาจารย์ประจำ",
+      "email": "natchanon.su@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. Life Science and Systems Engineering, Kyushu Institute of Technology, 2025"
+      ],
+      "research_interests": [
+        "Robotics",
+        "Control Systems",
+        "Wind Power Systems",
+        "Life Science",
+        "Systems Engineering"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "ภูมิ คงห้วยรอบ": "kingmongku_facultyofe_konghuayrob_001",
+    "ปิติเขต สร้อยศักดิ์": "kingmongku_facultyofe_sooraksa_002",
+    "สมยศ เกตุوانิชกิจ": "kingmongku_facultyofe_kaitwanidvilai_003",
+    "อนัคพล แสนทวีสุข": "kingmongku_facultyofe_saenthon_004",
+    "วันดี เพชรมณีลัมภก": "kingmongku_facultyofe_petchmaneelumka_005",
+    "กนกนุช ทรงสุวรรณกิจ": "kingmongku_facultyofe_songsuwankit_006",
+    "จุฑารัตน์ เชาว์ไกรเงิน": "kingmongku_facultyofe_chaoraingern_007",
+    "สรุชา ยันโยง": "kingmongku_facultyofe_yanyong_008",
+    "รัชนี กัลยาณมิตร": "kingmongku_facultyofe_gullayanon_009",
+    "เหวอน กึน ซอง": "kingmongku_facultyofe_song_010",
+    "พุฒชาด ขุนทอง": "kingmongku_facultyofe_khuntontong_011",
+    "สันชัย ทองจันทร์": "kingmongku_facultyofe_thongjantar_012",
+    "ณัชนนท์ ศุภأдиเรк": "kingmongku_facultyofe_suppaadirek_013"
+  },
+  "dedup_emails": {
+    "poom.ko@kmitl.ac.th": "kingmongku_facultyofe_konghuayrob_001",
+    "pitikhate.so@kmitl.ac.th": "kingmongku_facultyofe_sooraksa_002",
+    "somyot.ka@kmitl.ac.th": "kingmongku_facultyofe_kaitwanidvilai_003",
+    "anakkapon.sa@kmitl.ac.th": "kingmongku_facultyofe_saenthon_004",
+    "wandee.pe@kmitl.ac.th": "kingmongku_facultyofe_petchmaneelumka_005",
+    "kanoknuch.so@kmitl.ac.th": "kingmongku_facultyofe_songsuwankit_006",
+    "jutarut.ch@kmitl.ac.th": "kingmongku_facultyofe_chaoraingern_007",
+    "sarucha.ya@kmitl.ac.th": "kingmongku_facultyofe_yanyong_008",
+    "rutchanee.gu@kmitl.ac.th": "kingmongku_facultyofe_gullayanon_009",
+    "weon.sa@kmitl.ac.th": "kingmongku_facultyofe_song_010",
+    "puttachat.kh@kmitl.ac.th": "kingmongku_facultyofe_khuntontong_011",
+    "sanchai.th@kmitl.ac.th": "kingmongku_facultyofe_thongjantar_012",
+    "natchanon.su@kmitl.ac.th": "kingmongku_facultyofe_suppaadirek_013"
+  },
+  "step_count": 1,
+  "total_tokens_used": 4332,
+  "status": "completed",
+  "last_error": null
+}

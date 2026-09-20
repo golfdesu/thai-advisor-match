@@ -84,7 +84,7 @@ export const CourseCard: React.FC<CourseCardProps> = ({
   return (
     <div
       onClick={() => onSelectCourse && onSelectCourse(course)}
-      className="group relative p-5 sm:p-6 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all duration-200 flex flex-col justify-between hover:shadow-md cursor-pointer"
+      className="ui-card group relative p-5 sm:p-6 flex flex-col justify-between cursor-pointer"
     >
       <div className="space-y-4">
         {/* Top Header Meta */}
@@ -101,6 +101,7 @@ export const CourseCard: React.FC<CourseCardProps> = ({
           <div className="flex items-center gap-1.5" onClick={(e) => e.stopPropagation()}>
             <button
               onClick={() => onToggleCompare(course)}
+              aria-label={isCompared ? "ยกเลิกเปรียบเทียบหลักสูตร" : "เปรียบเทียบหลักสูตร"}
               className={`p-2 rounded-xl border text-xs transition-all cursor-pointer ${
                 isCompared
                   ? "bg-[var(--theme-primary)] border-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-xs"
@@ -112,6 +113,7 @@ export const CourseCard: React.FC<CourseCardProps> = ({
             </button>
             <button
               onClick={() => onToggleBookmark(course.id)}
+              aria-label={isSaved ? "ยกเลิกบันทึกหลักสูตร" : "บันทึกหลักสูตร"}
               className={`p-2 rounded-xl border text-xs transition-all cursor-pointer ${
                 isSaved
                   ? "bg-[var(--theme-accent-subtle)] border-[var(--theme-accent-border)] text-[var(--theme-accent)] shadow-xs"

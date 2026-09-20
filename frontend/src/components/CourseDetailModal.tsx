@@ -59,8 +59,8 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
   )}`;
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/75 backdrop-blur-md flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
-      <div className="bg-[var(--theme-card)] border-2 border-[var(--theme-border)] rounded-3xl max-w-2xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden relative shadow-black/30">
+    <div className="ui-modal-backdrop fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
+      <div className="ui-modal max-w-2xl w-full max-h-[90vh] flex flex-col overflow-hidden relative" role="dialog" aria-modal="true" aria-labelledby="course-detail-title">
         {/* Modal Top Header with ambient lighting */}
         <div className="p-6 sm:p-8 border-b border-[var(--theme-border)] flex items-start justify-between gap-4 bg-[var(--theme-card-subtle)]/70 relative">
           <div className="flex-1 min-w-0">
@@ -74,7 +74,7 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
                 </span>
               )}
             </div>
-            <h3 className="text-xl sm:text-2xl font-black text-[var(--theme-text-title)] leading-snug">
+            <h3 id="course-detail-title" className="text-xl sm:text-2xl font-black text-[var(--theme-text-title)] leading-snug">
               {course.title_th}
             </h3>
             {course.title_en && course.title_en !== "Not specified" && (
@@ -88,6 +88,8 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
             {onToggleBookmark && (
               <button
                 onClick={() => onToggleBookmark(course.id)}
+                type="button"
+                aria-label={isSaved ? "ยกเลิกบันทึกหลักสูตร" : "บันทึกหลักสูตร"}
                 className={`p-2.5 rounded-xl border transition-all cursor-pointer shadow-xs ${
                   isSaved
                     ? "bg-[var(--theme-accent-subtle)] border-[var(--theme-accent-border)] text-[var(--theme-accent)]"
@@ -100,6 +102,8 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
             )}
             <button
               onClick={handleShare}
+              type="button"
+              aria-label="แชร์หลักสูตรนี้"
               className="p-2.5 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-[var(--theme-text-muted)] hover:text-[var(--theme-primary)] hover:border-[var(--theme-primary)] transition-all shadow-xs cursor-pointer"
               title="แชร์หลักสูตรนี้"
             >
@@ -107,6 +111,8 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
             </button>
             <button
               onClick={onClose}
+              type="button"
+              aria-label="ปิดรายละเอียดหลักสูตร"
               className="p-2.5 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] hover:border-[var(--theme-border)] transition-all shadow-xs cursor-pointer"
             >
               <X size={20} />

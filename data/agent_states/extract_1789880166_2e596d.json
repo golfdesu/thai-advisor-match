@@ -1,0 +1,1437 @@
+{
+  "session_id": "extract_1789880166_2e596d",
+  "target_university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+  "target_university_en": "King Mongkut's Institute of Technology Ladkrabang",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://www.iote.kmitl.ac.th/faculty-research/"
+  ],
+  "failed_urls": [],
+  "faculties": {
+    "kingmongku_facultyofe_locharoenrat_001": {
+      "id": "kingmongku_facultyofe_locharoenrat_001",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Kitsakorn",
+      "last_name": "Locharoenrat",
+      "full_name": "Kitsakorn Locharoenrat",
+      "full_name_th": "รศ.ดร. กฤษกร โล้เจริญรัตน์",
+      "role": "อาจารย์ประจำ",
+      "email": "kitsakorn.lo@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D./ Physical Materials Science, Japan Advanced Institute of Science and Technology, 2550, Japan"
+      ],
+      "research_interests": [
+        "CANCER",
+        "PLASMONIC",
+        "NANOPARTICLES"
+      ],
+      "featured_publications": [
+        "Evaluation of a docetaxel-cisplatin-fluorouracil-Au complex in human oral carcinoma cell line",
+        "Use of Ag-Au-ICG to increase fluorescence image of human hepatocellular carcinoma cell lines"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_kitiwan_002": {
+      "id": "kingmongku_facultyofe_kitiwan_002",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Mettaya",
+      "last_name": "Kitiwan",
+      "full_name": "Mettaya Kitiwan",
+      "full_name_th": "ผศ.ดร. เมตยา กิติวรรณ",
+      "role": "อาจารย์ประจำ",
+      "email": "mettaya.ki@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D.(Materials Processing), Tohoku University, Japan"
+      ],
+      "research_interests": [
+        "NANO-COATING BY ROTARY CHEMICAL VAPOR DEPOSITION",
+        "SINTERING OF ADVANCED CERAMICS",
+        "MICROWAVE PROCESSING OF MATERIALS",
+        "HYDROGEN SEPARATION MEMBRANE"
+      ],
+      "featured_publications": [
+        "Effect of AlN addition on the reaction sintering of Al 2 TiO 5 composites fabricated by spark plasma sintering",
+        "Preparation of SiO 2 -diamond composites by spark plasma sintering"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_lekchaaum_003": {
+      "id": "kingmongku_facultyofe_lekchaaum_003",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Sarai",
+      "last_name": "Lekchaaum",
+      "full_name": "Sarai Lekchaaum",
+      "full_name_th": "รศ.ดร. สาหร่าย เล็กชะอุ่ม",
+      "role": "อาจารย์ประจำ",
+      "email": "sarai.le@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปริญญาโท/วศ.ม.(นิวเคลียร์เทคโนโลยี) จุฬาลงกรณ์มหาวิทยาลัย"
+      ],
+      "research_interests": [
+        "STIRLING ENGINE",
+        "TISSUE",
+        "SIMULATION",
+        "MEASURING METHOD",
+        "INTERNET OF THING TECHNOLOGY"
+      ],
+      "featured_publications": [
+        "Design and fabrication of instrument for extension and contraction of muscle model",
+        "Modeling and Numerical Simulation for a Spherical Vector-Potential Coil"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_tangtisanon_004": {
+      "id": "kingmongku_facultyofe_tangtisanon_004",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Pikulkaew",
+      "last_name": "Tangtisanon",
+      "full_name": "Pikulkaew Tangtisanon",
+      "full_name_th": "ผศ.ดร. พิกุลแก้ว ตังติสานนท์",
+      "role": "อาจารย์ประจำ",
+      "email": "pikulkaew.ta@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วศ.บ. (วิศวกรรมสารสนเทศ) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ม. (วิศวกรรมสารสนเทศ) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "D.Eng. (Science and Technology) Tokai University, JAPAN"
+      ],
+      "research_interests": [
+        "Web Application",
+        "Mobile Application",
+        "Information Security"
+      ],
+      "featured_publications": [
+        "ค้นหาความถนัดในอาชีพของเด็กบนสมาร์ททีวี",
+        "แอพพลิเคชั่นแนะนำวิศวกรรมศาสตร์ บนสมาร์ทโฟนแบบปฏิสัมพันธ์"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_cherntanomwong_005": {
+      "id": "kingmongku_facultyofe_cherntanomwong_005",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Panarat",
+      "last_name": "Cherntanomwong",
+      "full_name": "Panarat Cherntanomwong",
+      "full_name_th": "ผศ.ดร. พนารัตน์ เชิญถนอมวงศ์",
+      "role": "อาจารย์ประจำ",
+      "email": "panarat.ch@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วศ.บ. (โทรคมนาคม) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ม. (วิศวกรรมไฟฟ้า) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "D.Eng. (International Development Engineering) Tokyo Institute of Technology, JAPAN"
+      ],
+      "research_interests": [
+        "Telecommunication",
+        "Zigbee"
+      ],
+      "featured_publications": [
+        "แอพพลิเคชั่นสำหรับการระบุตำแหน่งด้วยการสื่อสารด้วยแสงที่ตามองเห็นได้",
+        "หน้าจอสัมผัสอัจฉริยะโดยใช้เทคโนโลยีอินฟราเรด"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_chutchavong_006": {
+      "id": "kingmongku_facultyofe_chutchavong_006",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Vanvisa",
+      "last_name": "Chutchavong",
+      "full_name": "Vanvisa Chutchavong",
+      "full_name_th": "ผศ.ดร. วันวิสา ชัชวงษ์",
+      "role": "อาจารย์ประจำ",
+      "email": "vanvisa.ch@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "อส.บ. เกียรตินิยมอันดับ 2 (เทคโนโลยีอิเล็กทรอนิกส์) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ม. (วิศวกรรมสารสนเทศ) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ด. (วิศวกรรมไฟฟ้า) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "Electronic",
+        "Bernstein Filter",
+        "Railway Signaling and Operation",
+        "Pattern recognition",
+        "Railway Communications"
+      ],
+      "featured_publications": [
+        "เครื่องปรับเท่าทางเวลาประวิงของสัญญาณสี โดยใช้โพลีโนเมียลแบบเบิร์นสไตน์",
+        "Optimized Gaussian Pulse Design for UWB System Using Particle Swarm Optimization Based-on Generalized Bessel Polynomials"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_khlayboonme_007": {
+      "id": "kingmongku_facultyofe_khlayboonme_007",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "S.Tipawan",
+      "last_name": "Khlayboonme",
+      "full_name": "S.Tipawan Khlayboonme",
+      "full_name_th": "ผศ.ดร. ทิพวรรณ คล้ายบุญมี",
+      "role": "อาจารย์ประจำ",
+      "email": "s.tipawan.kh@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วท.บ. ฟิสิกส์ประยุกต์, สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วท.ม. ฟิสิกส์ประยุกต์, สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "ปร.ด. ฟิสิกส์ประยุกต์, สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_sakulkalavek_008": {
+      "id": "kingmongku_facultyofe_sakulkalavek_008",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Aparporn",
+      "last_name": "Sakulkalavek",
+      "full_name": "Aparporn Sakulkalavek",
+      "full_name_th": "รศ.ดร. อาภาภรณ์ สกุลการะเวก",
+      "role": "อาจารย์ประจำ",
+      "email": "aparporn.sa@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วิทยาศาสตรดุษฎีบัณฑิต/ฟิสิกส์ จุฬาลงกรณ์มหาวิทยาลัย"
+      ],
+      "research_interests": [
+        "THIN FILM",
+        "THERMOELECTRIC MATERIAL",
+        "THERMAL PROPERTY",
+        "MATERIAL SCIENCE",
+        "MATERIAL CHARACTERIZATION"
+      ],
+      "featured_publications": [
+        "Stability, thermodynamic, electronic, and thermoelectric properties of triclinic Cu 2 Se structure",
+        "Thermodynamic and dynamic stability of NaLiC4: Exploring superconductivity in a layered hexagonal compound through first-principles calculations"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_sukwisute_009": {
+      "id": "kingmongku_facultyofe_sukwisute_009",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Pisan",
+      "last_name": "Sukwisute",
+      "full_name": "Pisan Sukwisute",
+      "full_name_th": "ผศ.ดร. พิศาล สุขวิสูตร",
+      "role": "อาจารย์ประจำ",
+      "email": "pisan.su@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปรัชญาดุษฎีบัณฑิต/ฟิสิกส์ มหาวิทยาลัยสงขลานครินทร์"
+      ],
+      "research_interests": [
+        "PIEZOELECTRIC MATERIAL",
+        "MATERIALS SCIENCE",
+        "ENERGY HARVESTING SENSOR",
+        "MATERIAL CHARACTERIZATION"
+      ],
+      "featured_publications": [
+        "Simultaneous Seebeck coefficient and electrical conductivity enhancement of GeSbTe films via Sn addition",
+        "Improving the Thermoelectric Properties of Thick Sb2Te3 Film via Cu Doping and Annealing Deposited by DC Magnetron",
+        "Improving the Thermoelectric Properties of Thick Sb2Te3 Film via Cu Doping and Annealing Deposited by DC Magnetron Sputtering using a Mosaic Target"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_klongratog_010": {
+      "id": "kingmongku_facultyofe_klongratog_010",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Bhanupol",
+      "last_name": "Klongratog",
+      "full_name": "Bhanupol Klongratog",
+      "full_name_th": "ผศ.ดร. ภาณุพล โขลนกระโทก",
+      "role": "อาจารย์ประจำ",
+      "email": "bhanupol.kl@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วิศวกรรมศาสตรดุษฎีบัณฑิต/วิศวกรรมไฟฟ้า สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "MEASUREMENT AND INSTRUMENTATIONS",
+        "FORENSIC SCIENCE",
+        "IMAGE PROCESSING",
+        "SPORT SCIENCE",
+        "COMPUTER AND ELECTRONICS IN AGRICULTURE"
+      ],
+      "featured_publications": [
+        "Optimizing Waste Heat Conversion: Integrating Phase-Change Material Heatsinks and Wind Speed Dynamics to Enhance Flexible Thermoelectric Generator Efficiency",
+        "High-performance flexible thermoelectric generator based on silicone rubber and cover with graphite sheet"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_somphonsane_011": {
+      "id": "kingmongku_facultyofe_somphonsane_011",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Ratchanok",
+      "last_name": "Somphonsane",
+      "full_name": "Ratchanok Somphonsane",
+      "full_name_th": "รศ.ดร. รัชนก สมพรเสน่ห์",
+      "role": "อาจารย์ประจำ",
+      "email": "ratchanok.so@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Doctor of Philosophy/Physics, University at Buffalo, The State University of NY"
+      ],
+      "research_interests": [
+        "NANOELECTRONICS",
+        "2D MATERIALS",
+        "GRAPHENE",
+        "QUANTUM TRANSPORT PHENOMENA",
+        "ELECTRICAL CHARACTERIZATION"
+      ],
+      "featured_publications": [
+        "“Freeing” Graphene from Its Substrate: Observing Intrinsic Velocity Saturation with Rapid Electrical Pulsing",
+        "Plasmon-mediated energy relaxation in graphene"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_ruttanapun_012": {
+      "id": "kingmongku_facultyofe_ruttanapun_012",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Chesta",
+      "last_name": "Ruttanapun",
+      "full_name": "Chesta Ruttanapun",
+      "full_name_th": "รศ.ดร. เชรษฐา รัตนพันธ์",
+      "role": "อาจารย์ประจำ",
+      "email": "chesta.ru@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปรัชญาดุษฎีบัณฑิต/ฟิสิกส์ประยุกต์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "SYNTHESIS",
+        "CHARACTERIZATION",
+        "IMPROVEMENT OF THERMOELECTRIC MATERIALS"
+      ],
+      "featured_publications": [
+        "Hydrothermal transforming phase structure and chemical composition of V2O5 for elevating electrochemical property of zinc ion batteries",
+        "Two Steps for Improving Reduced Graphene Oxide/Activated Durian Shell Carbon Composite by Hydrothermal and 3-D Ball Milling Process for Symmetry Supercapacitor Device"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_promros_013": {
+      "id": "kingmongku_facultyofe_promros_013",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Nathaporn",
+      "last_name": "Promros",
+      "full_name": "Nathaporn Promros",
+      "full_name_th": "ผศ.ดร. ณัฐพร พรหมรส",
+      "role": "อาจารย์ประจำ",
+      "email": "kpnathap@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Doctor of Engineering/Applied Science fro Electronics and Materials, Kyushu University. ญี่ปุ่น"
+      ],
+      "research_interests": [
+        "THIN FILM",
+        "THERMOELECTRIC MATERIAL",
+        "THERMAL PROPERTY",
+        "MATERIAL SCIENCE",
+        "MATERIAL CHARACTERIZATION"
+      ],
+      "featured_publications": [
+        "Wetting state and mechanical property alteration for the Fe3Si films using rapid thermal annealing under various temperatures",
+        "Impedance characteristics under different voltages of n-beta-FeSi2/p-Si heterojunctions constructed via facing target sputtering"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_buranasiri_014": {
+      "id": "kingmongku_facultyofe_buranasiri_014",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Prathan",
+      "last_name": "Buranasiri",
+      "full_name": "Prathan Buranasiri",
+      "full_name_th": "ผศ.ดร. ประธาน บุรณศิริ",
+      "role": "อาจารย์ประจำ",
+      "email": "prathan.bu@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Doctor of Philosophy/Electrical Engineering ,University of Dayton, USA"
+      ],
+      "research_interests": [
+        "QUANTITATIVE PHASE IMAGING",
+        "DIGITAL HOLOGRAPHY",
+        "NONLINEAR OPTIC",
+        "LASER STABILIZEATION",
+        "PHOTONIC CRYSTAL",
+        "METAMATERIAL",
+        "METAMATERIAL-MEDICAL PHYSICS",
+        "APPLICATIONS OF SYNCHROTRON RADIATION"
+      ],
+      "featured_publications": [
+        "Digital holography with deep learning for algae identification and classification",
+        "Deep convolutional neural networks-based scatterer density and resolution estimators in optical coherence tomography: erratum"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_puntheeranurak_015": {
+      "id": "kingmongku_facultyofe_puntheeranurak_015",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "หลักสูตร",
+      "department_th": "หลักสูตร",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Sutheera",
+      "last_name": "Puntheeranurak",
+      "full_name": "Sutheera Puntheeranurak",
+      "full_name_th": "ผศ.ดร. สุธีรา พันธ์ธีรานุรักษ์",
+      "role": "อาจารย์ประจำ",
+      "email": "sutheera.pu@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วท.บ. เกียรตินิยมอันดับ 2 (คณิตศาสตร์ประยุกต์) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ม. (วิศวกรรมไฟฟ้า) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "D.Eng. (Science and Technology) Tokai University, JAPAN"
+      ],
+      "research_interests": [
+        "Data mining",
+        "Big Data"
+      ],
+      "featured_publications": [
+        "An improvement of video streaming service using dynamic routing over OpenFlow networks",
+        "The integrated system for finding diverse journey methods"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_lasakul_016": {
+      "id": "kingmongku_facultyofe_lasakul_016",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "หลักสูตร",
+      "department_th": "หลักสูตร",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Attasit",
+      "last_name": "Lasakul",
+      "full_name": "Attasit Lasakul",
+      "full_name_th": "รศ.ดร. อรรถสิทธิ์ หล่าสกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "attasit.la@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "อส.บ. (เทคโนโลยีอิเล็กทรอนิกส์) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ม. (วิศวกรรมไฟฟ้า) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "D.Eng. (Electrical Engineering) Tokai University, JAPAN"
+      ],
+      "research_interests": [
+        "Digital Processing",
+        "Image Watermarking",
+        "Embedded Systems",
+        "Image Processing",
+        "Machine Vision"
+      ],
+      "featured_publications": [
+        "เครื่องเฝ้าระวังผู้ป่วยแบบใหม่",
+        "เครื่องบันทึกการเข้าสอน"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_purahong_017": {
+      "id": "kingmongku_facultyofe_purahong_017",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "สาขาวิชาวิศวกรรมสารสนเทศ",
+      "department_th": "สาขาวิชาวิศวกรรมสารสนเทศ",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Boonchana",
+      "last_name": "Purahong",
+      "full_name": "Boonchana Purahong",
+      "full_name_th": "รศ.ดร. บุณย์ชนะ ภู่ระหงษ์",
+      "role": "อาจารย์ประจำ",
+      "email": "boonchana.pu@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "อส.บ. (เทคโนโลยีอิเล็กทรอนิกส์) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ม. (วิศวกรรมสารสนเทศ) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "Microprocessor Application",
+        "Microcontroller",
+        "Robotic",
+        "Internet of Things and Smart System"
+      ],
+      "featured_publications": [
+        "หุ่นยนต์เลียนแบบพฤติกรรมนำทางของมด",
+        "Comparison of logistic regression and artificial neural network model for apron allocation assignment"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_pomsathit_018": {
+      "id": "kingmongku_facultyofe_pomsathit_018",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "หลักสูตร",
+      "department_th": "หลักสูตร",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Auttapon",
+      "last_name": "Pomsathit",
+      "full_name": "Auttapon Pomsathit",
+      "full_name_th": "ผศ.ดร. อรรถพล ป้อมสถิตย์",
+      "role": "อาจารย์ประจำ",
+      "email": "auttapon.po@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "B.Eng.(Electronics Engineering) King Mongkuts Institute of Technology Ladkrabang",
+        "M.Eng.(Information Engineering) King Mongkuts Institute of Technology Ladkrabang",
+        "D.Eng.(Electrical Engineering) King Mongkuts Institute of Technology Ladkrabang",
+        "B.Eng. (Electronics Engineering) King Mongkuts Institute of Technology Ladkrabang",
+        "M.Eng. (Information Engineering) King Mongkuts Institute of Technology Ladkrabang",
+        "D.Eng. (Electrical Engineering) King Mongkuts Institute of Technology Ladkrabang"
+      ],
+      "research_interests": [
+        "Cyber Security",
+        "Internetworkind Design",
+        "Information Security"
+      ],
+      "featured_publications": [
+        "แนวทางการบริหารจัดการระบบสารสนเทศเพื่อการคุ้มครองข้อมูลส่วนบุคคลของหน่วยงานรัฐ",
+        "การวิเคราะห์ประสิทธิภาพการโจมตีระบบโทรศัพท์ผ่านอินเทอร์เน็ตด้วยระบบตรวจจับการบุกรุก"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_roongmuanpha_019": {
+      "id": "kingmongku_facultyofe_roongmuanpha_019",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Natchanai",
+      "last_name": "Roongmuanpha",
+      "full_name": "Natchanai Roongmuanpha",
+      "full_name_th": "ผศ.ดร. นัชนัยน์ รุ่งเหมือนฟ้า",
+      "role": "อาจารย์ประจำ",
+      "email": "natchanai.ro@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "B.Eng. (Electronics Engineering) King Mongkuts Institute of Technology Ladkrabang",
+        "M.Eng. (Control Engineering) King Mongkuts Institute of Technology Ladkrabang",
+        "D.Eng. (Electrical Engineering) King Mongkuts Institute of Technology Ladkrabang"
+      ],
+      "research_interests": [
+        "immittance function simulators",
+        "active analog filters",
+        "oscillator design",
+        "chaotic circuit realization"
+      ],
+      "featured_publications": [
+        "Design of Mixed-Mode Analog PID Controller with CFOAs",
+        "Single VDGA-Based Mixed-Mode Electronically Tunable First-Order Universal Filter"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_damrongsak_020": {
+      "id": "kingmongku_facultyofe_damrongsak_020",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชาฟิสิกส์",
+      "department_th": "ภาควิชาฟิสิกส์",
+      "academic_title": "รศ.ดร.",
+      "academic_title_th": "รศ.ดร.",
+      "first_name": "Pattareeya",
+      "last_name": "Damrongsak",
+      "full_name": "Pattareeya Damrongsak",
+      "full_name_th": "รศ.ดร. ภัทรียา ดำรงศักดิ์",
+      "role": "อาจารย์ประจำ",
+      "email": "pattareeya.da@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Doctor of Philosophy/Engineering Materials University of Southampton อังกฤษ"
+      ],
+      "research_interests": [
+        "OPTICAL SPECTROSCOPY",
+        "SILICON PHOTOVOLTAICS",
+        "FLUORESCENT CONCENTRATORS",
+        "THIN FILM LUMINESCENCE",
+        "FLUORESCENCE SPECTROSCOPY"
+      ],
+      "featured_publications": [
+        "Implementation of a Measurement System for Inspection of Magnetic Force Microscopy Probes",
+        "Optical performance of fluorescent collectors integrated with microlens arrays"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_satcharoen_021": {
+      "id": "kingmongku_facultyofe_satcharoen_021",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Kleddao",
+      "last_name": "Satcharoen",
+      "full_name": "Kleddao Satcharoen",
+      "full_name_th": "ผศ.ดร. เกล็ดดาว สัตย์เจริญ",
+      "role": "อาจารย์ประจำ",
+      "email": "kleddao.sa@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Doctoral of Philosophy in Computer Science, University of Buckingham, UK",
+        "Master of Science in Computing (MERIT), University of Buckingham, UK",
+        "Master of Art (Political Science), THAILAND",
+        "Bachelor of Science in Management Technology, KMITL, THAILAND"
+      ],
+      "research_interests": [
+        "Human computer interaction",
+        "User Interfaces"
+      ],
+      "featured_publications": [
+        "ระบบการจัดการธุรกิจรถเช่าของฝ่ายบัญชีและฝ่ายควบคุมรถ",
+        "The Redesigning Icons to Reduce User Confusion"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_anuwongpinit_022": {
+      "id": "kingmongku_facultyofe_anuwongpinit_022",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.ดร.",
+      "academic_title_th": "ผศ.ดร.",
+      "first_name": "Thanavit",
+      "last_name": "Anuwongpinit",
+      "full_name": "Thanavit Anuwongpinit",
+      "full_name_th": "ผศ.ดร. ธนวิชญ์ อนุวงศ์พินิจ",
+      "role": "อาจารย์ประจำ",
+      "email": "thanavit.an@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "B.Eng. (Information Engineering) King Mongkuts Institute of Technology Ladkrabang",
+        "M.Eng. (Information Engineering) King Mongkuts Institute of Technology Ladkrabang",
+        "D.Eng. (Electrical Engineering) King Mongkuts Institute of Technology Ladkrabang"
+      ],
+      "research_interests": [
+        "Microprocessor Application",
+        "Internet of Things",
+        "Embedded Systems",
+        "Integrated System",
+        "Railway Signaling, Communication and Operation"
+      ],
+      "featured_publications": [
+        "การตรวจสอบอัตลักษณ์เชิงวัตถุโดยใช้การสื่อสารทางแสง",
+        "ระบบตรวจสอบอัตลักษณ์โดยใช้แสง"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_sooraksa_023": {
+      "id": "kingmongku_facultyofe_sooraksa_023",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ศ.ดร.",
+      "academic_title_th": "ศ.ดร.",
+      "first_name": "Pitikhate",
+      "last_name": "Sooraksa",
+      "full_name": "Pitikhate Sooraksa",
+      "full_name_th": "ศ.ดร. ปิติเขต สู้รักษา",
+      "role": "อาจารย์ประจำ",
+      "email": "pitikhate.so@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "กศ.บ. เกียรตินิยม (ฟิสิกส์) มหาวิทยาลัยศรีนครินทรวิโรฒ ปทุมวัน",
+        "วท.ม. (ฟิสิกส์) มหาวิทยาลัยศรีนครินทรวิโรฒ ประสานมิตร",
+        "M.S. (Electrical Engineering) George Washington University, USA",
+        "Ph.D. (Electrical Engineering) University of Houston, USA"
+      ],
+      "research_interests": [
+        "IT Automation",
+        "Industrial Informatics"
+      ],
+      "featured_publications": [
+        "การประยุกต์สัญญาณอลวนเพื่อสร้างความมั่นคงแก่ข้อมูลความลับสำหรับใช้ในสามจังหวัดชายแดนภาคใต้",
+        "Design of a Cyber-Physical System using STEM: Chicken Egg Incubator"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_satayarak_024": {
+      "id": "kingmongku_facultyofe_satayarak_024",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Nitjaree",
+      "last_name": "Satayarak",
+      "full_name": "Nitjaree Satayarak",
+      "full_name_th": "ผศ. นิจจารีย์ สัตยารักษ์",
+      "role": "อาจารย์ประจำ",
+      "email": "nitjaree.sa@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วศ.บ. (วิศวกรรมคอมพิวเตอร์) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ม. (วิศวกรรมไฟฟ้า) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "Software Engineering",
+        "Distributed Testing System"
+      ],
+      "featured_publications": [
+        "Blood Vessel Extraction and Optic Disk Localization for Diabetic Retinopathy",
+        "Optic Disk and Fovea Localization by Using the Direction of Blood Vessels and Morphology Operation"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_sithiyopasakul_025": {
+      "id": "kingmongku_facultyofe_sithiyopasakul_025",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Paisan",
+      "last_name": "Sithiyopasakul",
+      "full_name": "Paisan Sithiyopasakul",
+      "full_name_th": "ผศ. ไพศาล สิทธิโยภาสกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "paisan-si@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "อส.บ. (เทคโนโลยีคอมพิวเตอร์อุตสาหกรรม) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ม. (วิศวกรรมไฟฟ้า) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "Wireless Communication",
+        "Microprocessor Applications",
+        "Digital Filter"
+      ],
+      "featured_publications": [
+        "การออกแบบและการประยุกต์ใช้งานของวงจรแอกทีฟดิสทริบิวท์อาซีไลน์ฟิลเตอร์",
+        "Performance Evaluation of Infrastructure as a Service across Cloud Service Providers"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_ruttanasirawit_026": {
+      "id": "kingmongku_facultyofe_ruttanasirawit_026",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Chinnapat",
+      "last_name": "Ruttanasirawit",
+      "full_name": "Chinnapat Ruttanasirawit",
+      "full_name_th": "ดร. ชินพรรธน์ รัตนศิรวิทย์",
+      "role": "อาจารย์ประจำ",
+      "email": "woraka.ne@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Ph.D. Physics North Carolina State University, USA"
+      ],
+      "research_interests": [
+        "SURFACE PLASMONIC RESONANCE",
+        "NANOTECHNOLOGY",
+        "OPTICAL SENSOR",
+        "SMART FARMING",
+        "STEM EDUCATION"
+      ],
+      "featured_publications": [
+        "The Moina Gender Investigation using In-Line Digital Holographic Microscopy",
+        "Antitumor activities of carboplatin-doxorubicin-ZnO complexes in different human cancer cell lines (breast, cervix uteri, colon, liver and oral) under UV exposition"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_pipatsart_027": {
+      "id": "kingmongku_facultyofe_pipatsart_027",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Surasak",
+      "last_name": "Pipatsart",
+      "full_name": "Surasak Pipatsart",
+      "full_name_th": "ผศ. สุรศักดิ์ พิพัฒน์ศาสตร์",
+      "role": "อาจารย์ประจำ",
+      "email": "",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วท.ม.(ฟิสิกส์ประยุกต์) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "OPTICS",
+        "ENERGY"
+      ],
+      "featured_publications": [
+        "Molecular network using molecular circuit for drug delivery use",
+        "Geometrically distributed one‐dimensional photonic crystals for all angle optical filters"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_leelawattananon_028": {
+      "id": "kingmongku_facultyofe_leelawattananon_028",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Thanaporn",
+      "last_name": "Leelawattananon",
+      "full_name": "Thanaporn Leelawattananon",
+      "full_name_th": "ผศ. ธนภรณ์ ลีลาวัฒนานนท์",
+      "role": "อาจารย์ประจำ",
+      "email": "tanaporn.le@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วท.ม./เทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "MODELING AND SIMULATION",
+        "SURFACE PLASMONS",
+        "OPTICAL DATA COMMUNICATION"
+      ],
+      "featured_publications": [
+        "Simulation Effects on the Optical Response of Gold Nanoparticles",
+        "Surface Roughness Measurement Application Using Multi-frame Techniques"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_sookcharoenphol_029": {
+      "id": "kingmongku_facultyofe_sookcharoenphol_029",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Dolchai",
+      "last_name": "Sookcharoenphol",
+      "full_name": "Dolchai Sookcharoenphol",
+      "full_name_th": "ผศ. ดลชัย สุขเจริญผล",
+      "role": "อาจารย์ประจำ",
+      "email": "dolchai.so@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "อส.บ. (เทคโนโลยีโทรคมนาคม) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ม. (วิศวกรรมไฟฟ้า) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "Digital Communications",
+        "Digital Signal Processing",
+        "Digital Audio Engineering System"
+      ],
+      "featured_publications": [
+        "การจำกัดความยาวของตัวกรองความถี่ IIR ที่ให้ผลตอบสนองทางเฟสเป็นเชิงเส้น และผลกระทบต่อการหน่วง",
+        "การปรับปรุงผลตอบสนองของกรุ๊ปดีเลย์ และการลดความซับซ้อนของโครงสร้างของวงจร กรองความถี่ IIR ที่มีเฟสเป็นเชิงเส้น"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_wachirarattanap_030": {
+      "id": "kingmongku_facultyofe_wachirarattanap_030",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ผศ.",
+      "academic_title_th": "ผศ.",
+      "first_name": "Sorapong",
+      "last_name": "Wachirarattanapornkul",
+      "full_name": "Sorapong Wachirarattanapornkul",
+      "full_name_th": "ผศ. สรพงษ์ วชิรรัตนพรกุล",
+      "role": "อาจารย์ประจำ",
+      "email": "sorapong.wa@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "อส.บ.(เทคโนโลยีอิเล็กทรอนิกส์) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "วศ.ม. (วิศวกรรมไฟฟ้า) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "Analog and Digital Filter",
+        "Embedded System",
+        "RFID and Application",
+        "Pattern recognition",
+        "Information for Energy"
+      ],
+      "featured_publications": [
+        "ระบบการระบุเอกลักษณ์สัตว์เศรษฐกิจ โดยลายพิมพ์จมูก และอาร์เอฟไอดี",
+        "The Voltage-Mode TITO Biquadratic Filter Based on CCDCVC and URC"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_teesetsopon_031": {
+      "id": "kingmongku_facultyofe_teesetsopon_031",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Pichanan",
+      "last_name": "Teesetsopon",
+      "full_name": "Pichanan Teesetsopon",
+      "full_name_th": "ดร. พิชชานันท์ ธีเศรษฐ์โศภน",
+      "role": "อาจารย์ประจำ",
+      "email": "pichanan.te@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วท.บ. ฟิสิกส์, มหาวิทยาลัยเกษตรศาสตร์",
+        "วท.ม. ฟิสิกส์เชิงเคมี, มหาวิทยาลัยมหิดล",
+        "Ph.D. Energy, สถาบันเทคโนโลยีแห่งเอเซีย"
+      ],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_taengtang_032": {
+      "id": "kingmongku_facultyofe_taengtang_032",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Thammarat",
+      "last_name": "Taengtang",
+      "full_name": "Thammarat Taengtang",
+      "full_name_th": "อ. ธรรมรัตน์ แต่งตั้ง",
+      "role": "อาจารย์ประจำ",
+      "email": "thammarat.ta@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วศ.ม.วิศวกรรมไฟฟ้า สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "IMAGE PROCESSING",
+        "DATA PROCESSING",
+        "NP-HARD PROBLEM",
+        "ARTIFICIAL INTELLIGENCE",
+        "OPTIMIZATION PROBLEM"
+      ],
+      "featured_publications": [
+        "A Fabrication of Galvanic Cell from Pineapple Peel Residue in Agricultural Industries",
+        "An Electricity Generator Model by the Water Delivery System of Sanitary Ware"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_yindeesuk_033": {
+      "id": "kingmongku_facultyofe_yindeesuk_033",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Witoon",
+      "last_name": "Yindeesuk",
+      "full_name": "Witoon Yindeesuk",
+      "full_name_th": "ดร. วิฑูรย์ ยินดีสุข",
+      "role": "อาจารย์ประจำ",
+      "email": "witoon.yi@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "Doctor of Philosophy/Engineering Science, The University of Electro-Communications, Japan"
+      ],
+      "research_interests": [
+        "SOLAR CELLS",
+        "QUANTUM DOTS",
+        "SOLAR ENERGY",
+        "THIN FILMS",
+        "SILAR METHODS"
+      ],
+      "featured_publications": [
+        "Temperature Dependent Photoluminescence of ZnSe/Alq 3 Hybrid Heterostructure",
+        "Dry film holographic grating based on computer-generated mask lithography"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_phumpho_034": {
+      "id": "kingmongku_facultyofe_phumpho_034",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "",
+      "department_th": "",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Suwilai",
+      "last_name": "Phumpho",
+      "full_name": "Suwilai Phumpho",
+      "full_name_th": "ดร. สุวิไล พุ่มโพธิ์",
+      "role": "อาจารย์ประจำ",
+      "email": "suwilai.ph@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "immittance function simulators"
+      ],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_kamoldilok_035": {
+      "id": "kingmongku_facultyofe_kamoldilok_035",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "อ.",
+      "academic_title_th": "อ.",
+      "first_name": "Surachart",
+      "last_name": "Kamoldilok",
+      "full_name": "Surachart Kamoldilok",
+      "full_name_th": "อ. สุรชาติ กมลดิลก",
+      "role": "อาจารย์ประจำ",
+      "email": "kamoldiloks@gmail.com",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "ปริญญาโท/วท.ม.(สาขาฟิสิกส์ประยุกต์) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [
+        "LASERS",
+        "OPTICAL INSTRUMENTS",
+        "PHOTONICS",
+        "FORENSIC SCIENCE",
+        "PHYSICS EDUCATION"
+      ],
+      "featured_publications": [
+        "Ultrawide-range refractive-index sensor based on asymmetric integrated Y-junction optical waveguide",
+        "Electronic nose ammonia gas monitoring via IoT system for Chlorella sp. Cultivation"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_srinuanjan_036": {
+      "id": "kingmongku_facultyofe_srinuanjan_036",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Keerayoot",
+      "last_name": "Srinuanjan",
+      "full_name": "Keerayoot Srinuanjan",
+      "full_name_th": "ดร. กีรยุทธ์ ศรีนวลจันทร์",
+      "role": "อาจารย์ประจำ",
+      "email": "keerayoot.sr@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [
+        "วท.ม.(ฟิสิกส์ประยุกต์)/ฟิสิกส์ประยุกต์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง"
+      ],
+      "research_interests": [],
+      "featured_publications": [
+        "Electronic nose ammonia gas monitoring via IoT system for Chlorella sp. Cultivation",
+        "Ultrawide-range refractive-index sensor based on asymmetric integrated Y-junction optical waveguide"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_kaewjumras_037": {
+      "id": "kingmongku_facultyofe_kaewjumras_037",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Yongyut",
+      "last_name": "Kaewjumras",
+      "full_name": "Yongyut Kaewjumras",
+      "full_name_th": "ดร. ยงยุทธ แก้วจำรัส",
+      "role": "อาจารย์ประจำ",
+      "email": "yongyut.ka@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_rudradawong_038": {
+      "id": "kingmongku_facultyofe_rudradawong_038",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Chalermpol",
+      "last_name": "Rudradawong",
+      "full_name": "Chalermpol Rudradawong",
+      "full_name_th": "ดร. เฉลิมพล รุจรดาวงศ์",
+      "role": "อาจารย์ประจำ",
+      "email": "chalermpol.ru@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_tannukij_039": {
+      "id": "kingmongku_facultyofe_tannukij_039",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Lunchakurn",
+      "last_name": "Tannukij",
+      "full_name": "Lunchakurn Tannukij",
+      "full_name_th": "ดร. ลัญจกร ตันนุกิจ",
+      "role": "อาจารย์ประจำ",
+      "email": "lunchakurn.ta@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [],
+      "featured_publications": [
+        "Thermodynamics and Phase Transition of Spherically Symmetric Black Hole in de Sitter Space from Renyi Statistics",
+        "Partially massless theory as a quantum gravity candidate"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    },
+    "kingmongku_facultyofe_somdock_040": {
+      "id": "kingmongku_facultyofe_somdock_040",
+      "university": "King Mongkut's Institute of Technology Ladkrabang",
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "faculty": "Faculty of Engineering",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department": "ภาควิชา",
+      "department_th": "ภาควิชา",
+      "academic_title": "ดร.",
+      "academic_title_th": "ดร.",
+      "first_name": "Nuttakrit",
+      "last_name": "Somdock",
+      "full_name": "Nuttakrit Somdock",
+      "full_name_th": "ดร. ณัฏกฤษ สมดอก",
+      "role": "อาจารย์ประจำ",
+      "email": "nuttakrit.so@kmitl.ac.th",
+      "image_url": "",
+      "profile_url": "",
+      "education": [],
+      "research_interests": [
+        "Optimizing Waste Heat Conversion",
+        "Integrating Phase-Change Material Heatsinks",
+        "Wind Speed Dynamics to Enhance Flexible Thermoelectric Generator Efficiency",
+        "Enhancement of thermoelectric properties in rapidly synthesized beta-Cu2Se using optimized Cu content and microwave hybrid heating"
+      ],
+      "featured_publications": [
+        "Optimizing Waste Heat Conversion: Integrating Phase-Change Material Heatsinks and Wind Speed Dynamics to Enhance Flexible Thermoelectric Generator Efficiency",
+        "Enhancement of thermoelectric properties in rapidly synthesized ̢-Cu2Se using optimized Cu content and microwave hybrid heating"
+      ],
+      "scholar_url": "",
+      "confidence_score": 0.95
+    }
+  },
+  "dedup_thai_names": {
+    "กฤษกร โล้เจริญรัตน์": "kingmongku_facultyofe_locharoenrat_001",
+    "เมตยา กิติวรรณ": "kingmongku_facultyofe_kitiwan_002",
+    "สาหร่าย เล็กชะอุ่ม": "kingmongku_facultyofe_lekchaaum_003",
+    "พิกุลแก้ว ตังติสานนท์": "kingmongku_facultyofe_tangtisanon_004",
+    "พนารัตน์ เชิญถนอมวงศ์": "kingmongku_facultyofe_cherntanomwong_005",
+    "วันวิสา ชัชวงษ์": "kingmongku_facultyofe_chutchavong_006",
+    "ทิพวรรณ คล้ายบุญมี": "kingmongku_facultyofe_khlayboonme_007",
+    "อาภาภรณ์ สกุลการะเวก": "kingmongku_facultyofe_sakulkalavek_008",
+    "พิศาล สุขวิสูตร": "kingmongku_facultyofe_sukwisute_009",
+    "ภาณุพล โขลนกระโทก": "kingmongku_facultyofe_klongratog_010",
+    "รัชนก สมพรเสน่ห์": "kingmongku_facultyofe_somphonsane_011",
+    "เชรษฐา รัตนพันธ์": "kingmongku_facultyofe_ruttanapun_012",
+    "ณัฐพร พรหมรส": "kingmongku_facultyofe_promros_013",
+    "ประธาน บุรณศิริ": "kingmongku_facultyofe_buranasiri_014",
+    "สุธีรา พันธ์ธีรานุรักษ์": "kingmongku_facultyofe_puntheeranurak_015",
+    "อรรถสิทธิ์ หล่าสกุล": "kingmongku_facultyofe_lasakul_016",
+    "บุณย์ชนะ ภู่ระหงษ์": "kingmongku_facultyofe_purahong_017",
+    "อรรถพล ป้อมสถิตย์": "kingmongku_facultyofe_pomsathit_018",
+    "นัชนัยน์ รุ่งเหมือนฟ้า": "kingmongku_facultyofe_roongmuanpha_019",
+    "ภัทรียา ดำรงศักดิ์": "kingmongku_facultyofe_damrongsak_020",
+    "เกล็ดดาว สัตย์เจริญ": "kingmongku_facultyofe_satcharoen_021",
+    "ธนวิชญ์ อนุวงศ์พินิจ": "kingmongku_facultyofe_anuwongpinit_022",
+    "ปิติเขต สู้รักษา": "kingmongku_facultyofe_sooraksa_023",
+    "นิจจารีย์ สัตยารักษ์": "kingmongku_facultyofe_satayarak_024",
+    "ไพศาล สิทธิโยภาสกุล": "kingmongku_facultyofe_sithiyopasakul_025",
+    "ชินพรรธน์ รัตนศิรวิทย์": "kingmongku_facultyofe_ruttanasirawit_026",
+    "สุรศักดิ์ พิพัฒน์ศาสตร์": "kingmongku_facultyofe_pipatsart_027",
+    "ธนภรณ์ ลีลาวัฒนานนท์": "kingmongku_facultyofe_leelawattananon_028",
+    "ดลชัย สุขเจริญผล": "kingmongku_facultyofe_sookcharoenphol_029",
+    "สรพงษ์ วชิรรัตนพรกุล": "kingmongku_facultyofe_wachirarattanap_030",
+    "พิชชานันท์ ธีเศรษฐ์โศภน": "kingmongku_facultyofe_teesetsopon_031",
+    "ธรรมรัตน์ แต่งตั้ง": "kingmongku_facultyofe_taengtang_032",
+    "วิฑูรย์ ยินดีสุข": "kingmongku_facultyofe_yindeesuk_033",
+    "สุวิไล พุ่มโพธิ์": "kingmongku_facultyofe_phumpho_034",
+    "สุรชาติ กมลดิลก": "kingmongku_facultyofe_kamoldilok_035",
+    "กีรยุทธ์ ศรีนวลจันทร์": "kingmongku_facultyofe_srinuanjan_036",
+    "ยงยุทธ แก้วจำรัส": "kingmongku_facultyofe_kaewjumras_037",
+    "เฉลิมพล รุจรดาวงศ์": "kingmongku_facultyofe_rudradawong_038",
+    "ลัญจกร ตันนุกิจ": "kingmongku_facultyofe_tannukij_039",
+    "ณัฏกฤษ สมดอก": "kingmongku_facultyofe_somdock_040"
+  },
+  "dedup_emails": {
+    "kitsakorn.lo@kmitl.ac.th": "kingmongku_facultyofe_locharoenrat_001",
+    "mettaya.ki@kmitl.ac.th": "kingmongku_facultyofe_kitiwan_002",
+    "sarai.le@kmitl.ac.th": "kingmongku_facultyofe_lekchaaum_003",
+    "pikulkaew.ta@kmitl.ac.th": "kingmongku_facultyofe_tangtisanon_004",
+    "panarat.ch@kmitl.ac.th": "kingmongku_facultyofe_cherntanomwong_005",
+    "vanvisa.ch@kmitl.ac.th": "kingmongku_facultyofe_chutchavong_006",
+    "s.tipawan.kh@kmitl.ac.th": "kingmongku_facultyofe_khlayboonme_007",
+    "aparporn.sa@kmitl.ac.th": "kingmongku_facultyofe_sakulkalavek_008",
+    "pisan.su@kmitl.ac.th": "kingmongku_facultyofe_sukwisute_009",
+    "bhanupol.kl@kmitl.ac.th": "kingmongku_facultyofe_klongratog_010",
+    "ratchanok.so@kmitl.ac.th": "kingmongku_facultyofe_somphonsane_011",
+    "chesta.ru@kmitl.ac.th": "kingmongku_facultyofe_ruttanapun_012",
+    "kpnathap@kmitl.ac.th": "kingmongku_facultyofe_promros_013",
+    "prathan.bu@kmitl.ac.th": "kingmongku_facultyofe_buranasiri_014",
+    "sutheera.pu@kmitl.ac.th": "kingmongku_facultyofe_puntheeranurak_015",
+    "attasit.la@kmitl.ac.th": "kingmongku_facultyofe_lasakul_016",
+    "boonchana.pu@kmitl.ac.th": "kingmongku_facultyofe_purahong_017",
+    "auttapon.po@kmitl.ac.th": "kingmongku_facultyofe_pomsathit_018",
+    "natchanai.ro@kmitl.ac.th": "kingmongku_facultyofe_roongmuanpha_019",
+    "pattareeya.da@kmitl.ac.th": "kingmongku_facultyofe_damrongsak_020",
+    "kleddao.sa@kmitl.ac.th": "kingmongku_facultyofe_satcharoen_021",
+    "thanavit.an@kmitl.ac.th": "kingmongku_facultyofe_anuwongpinit_022",
+    "pitikhate.so@kmitl.ac.th": "kingmongku_facultyofe_sooraksa_023",
+    "nitjaree.sa@kmitl.ac.th": "kingmongku_facultyofe_satayarak_024",
+    "paisan-si@kmitl.ac.th": "kingmongku_facultyofe_sithiyopasakul_025",
+    "woraka.ne@kmitl.ac.th": "kingmongku_facultyofe_ruttanasirawit_026",
+    "tanaporn.le@kmitl.ac.th": "kingmongku_facultyofe_leelawattananon_028",
+    "dolchai.so@kmitl.ac.th": "kingmongku_facultyofe_sookcharoenphol_029",
+    "sorapong.wa@kmitl.ac.th": "kingmongku_facultyofe_wachirarattanap_030",
+    "pichanan.te@kmitl.ac.th": "kingmongku_facultyofe_teesetsopon_031",
+    "thammarat.ta@kmitl.ac.th": "kingmongku_facultyofe_taengtang_032",
+    "witoon.yi@kmitl.ac.th": "kingmongku_facultyofe_yindeesuk_033",
+    "suwilai.ph@kmitl.ac.th": "kingmongku_facultyofe_phumpho_034",
+    "kamoldiloks@gmail.com": "kingmongku_facultyofe_kamoldilok_035",
+    "keerayoot.sr@kmitl.ac.th": "kingmongku_facultyofe_srinuanjan_036",
+    "yongyut.ka@kmitl.ac.th": "kingmongku_facultyofe_kaewjumras_037",
+    "chalermpol.ru@kmitl.ac.th": "kingmongku_facultyofe_rudradawong_038",
+    "lunchakurn.ta@kmitl.ac.th": "kingmongku_facultyofe_tannukij_039",
+    "nuttakrit.so@kmitl.ac.th": "kingmongku_facultyofe_somdock_040"
+  },
+  "step_count": 1,
+  "total_tokens_used": 22224,
+  "status": "completed",
+  "last_error": null
+}

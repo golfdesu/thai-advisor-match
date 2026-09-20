@@ -1,0 +1,591 @@
+{
+  "timestamp": "2026-09-19T23:40:33.352789",
+  "count": 117,
+  "records": [
+    {
+      "id": "cu_sci_wave14_b_0112",
+      "name": "Parinya Karndumri",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0106",
+      "name": "Taweewat Somboonpanyakul",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0111",
+      "name": "Panadda Dechadilok",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0138",
+      "name": "Orapin Wannadelok",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0105",
+      "name": "Napat Poovuttikul",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0107",
+      "name": "Thanawut Thanathibodee",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0108",
+      "name": "Thiti Taychatanapat",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0113",
+      "name": "Patcha Chatraphorn",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0114",
+      "name": "Piyabut Burikham",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0120",
+      "name": "Yossathorn Tawabutr",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0122",
+      "name": "Rangsima Chanphana",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0123",
+      "name": "Rujikorn Dhanawittayapol",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0124",
+      "name": "Warakorn Yanwachirakul",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0126",
+      "name": "Vicharit Yingcharoenrat",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0130",
+      "name": "Sakuntam Sanorpim",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0135",
+      "name": "Santipong Boribarn",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0137",
+      "name": "Surachate Limkumnerd",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0104",
+      "name": "Choosri Wongmanerod",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0116",
+      "name": "Porncharoen Palotaidamkerng",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_sci_wave14_b_0140",
+      "name": "Amnat Sathanon",
+      "rule": "CU_SCI_REDACTED"
+    },
+    {
+      "id": "cu_cbs_wave11_0268",
+      "name": "Nattaporn Virunhagarun",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0315",
+      "name": "Arin Chirapaisarnkul",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0341",
+      "name": "Kanya Sannamwong",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0378",
+      "name": "Piyanuch Marittanaporn",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0345",
+      "name": "Kingpai Koosakulnirund",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0398",
+      "name": "Samita Dhanasobhon",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0302",
+      "name": "Varaporn Pothipala",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0316",
+      "name": "Aussdaporn Machavanich",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0371",
+      "name": "Patcharee Treepornchaisak",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0391",
+      "name": "Preeyaporn Jareonlarp",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0432",
+      "name": "Waraporn Prapasirikul",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_cbs_wave11_0430",
+      "name": "Wanvadee Tangpaisarnkul",
+      "rule": "CU_CBS_MISS"
+    },
+    {
+      "id": "cu_pharm_wave16_0082",
+      "name": "Sirinoot Palapinyo",
+      "rule": "CU_PHARM_CHULA"
+    },
+    {
+      "id": "cu_pharm_wave16_0033",
+      "name": "Nonthaneth Nalinratana",
+      "rule": "CU_PHARM_CHULA"
+    },
+    {
+      "id": "cu_pharm_wave16_0050",
+      "name": "Pasarapa Towiwat",
+      "rule": "CU_PHARM_CHULA"
+    },
+    {
+      "id": "cu_pharm_wave16_0075",
+      "name": "Veerakiet Boonkanokwong",
+      "rule": "CU_PHARM_CHULA"
+    },
+    {
+      "id": "cu_pharm_wave16_0095",
+      "name": "Chotirat Nakaranurack",
+      "rule": "CU_PHARM_CHULA"
+    },
+    {
+      "id": "cu_pharm_wave16_0058",
+      "name": "Rataya Luechapudiporn",
+      "rule": "CU_PHARM_CHULA"
+    },
+    {
+      "id": "cu_ds_wave11_0015",
+      "name": "Vikrom Laovisutthichai",
+      "rule": "CU_OTHER_MAP"
+    },
+    {
+      "id": "cu_wave19_edu_0015",
+      "name": "Ravee Chutasring",
+      "rule": "CU_OTHER_MAP"
+    },
+    {
+      "id": "cu_wave19_edu_0025",
+      "name": "Penvara Chuprawat",
+      "rule": "CU_OTHER_MAP"
+    },
+    {
+      "id": "cu_cbs_wave11_0044",
+      "name": "อ. Morten Bennedsen",
+      "rule": "CU_FOREIGN_TH"
+    },
+    {
+      "id": "cu_cbs_wave11_0047",
+      "name": "อ. Shawn Cole",
+      "rule": "CU_FOREIGN_TH"
+    },
+    {
+      "id": "cu_cbs_wave11_0049",
+      "name": "อ. Tony Kang",
+      "rule": "CU_FOREIGN_TH"
+    },
+    {
+      "id": "cu_ahs_wave15_0008",
+      "name": "ดร. James Michael Brimson",
+      "rule": "CU_FOREIGN_TH"
+    },
+    {
+      "id": "cu_cbs_wave11_0048",
+      "name": "อ. Söhnke M. Bartram",
+      "rule": "CU_FOREIGN_TH"
+    },
+    {
+      "id": "cu_cbs_wave11_0046",
+      "name": "อ. Roger King",
+      "rule": "CU_FOREIGN_TH"
+    },
+    {
+      "id": "cu_cbs_wave11_0354",
+      "name": "อ. Mustafa Moussa",
+      "rule": "CU_FOREIGN_TH"
+    },
+    {
+      "id": "cu_cbs_wave11_0038",
+      "name": "อ. Deborah Lucas",
+      "rule": "CU_FOREIGN_TH"
+    },
+    {
+      "id": "cu_cbs_wave11_0045",
+      "name": "อ. Paul Embrechts",
+      "rule": "CU_FOREIGN_TH"
+    },
+    {
+      "id": "ku_agro_wave15_0068",
+      "name": "Kamolwan Jangchud",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0077",
+      "name": "Penkwan Chompreeda",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0082",
+      "name": "Pithalai Agro",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0084",
+      "name": "Jantip Setthayanond",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0085",
+      "name": "Kanitta Watcharaporn",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0092",
+      "name": "Ajchara Kessuvan",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0094",
+      "name": "Apichaya Lilavanichakul",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "kasetsartu_facultyofa_pharakulsuksati_005",
+      "name": "Pramuk Agro",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0095",
+      "name": "Kunalai Ploydanai",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0006",
+      "name": "Nuttakan Nitayapat",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0039",
+      "name": "Siree Chaiseri",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0040",
+      "name": "Onanong Naivikul",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0041",
+      "name": "Tanaboon Sajjaanantakul",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0043",
+      "name": "Parichat Hongsprabhas",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_wave18_nrai_0058",
+      "name": "Ruethaithip Surasiang",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0047",
+      "name": "Busarin Chongcharoenyanon",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0007",
+      "name": "Pakamon Chitprasert",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0008",
+      "name": "Prakit Sukyai",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0010",
+      "name": "Sumallika Morakul",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0014",
+      "name": "Werasit Sappamongkolchai",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0023",
+      "name": "Pathima Udompijitkul",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0067",
+      "name": "Thepkunya Harnsilawat",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0089",
+      "name": "Phannaphat Agro",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0027",
+      "name": "Yaowapa Lorjaroenphon",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0028",
+      "name": "Weerachet Jittanit",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0029",
+      "name": "Sasitorn Tongchitpakdee",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0030",
+      "name": "Saipin Thanachasai",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0032",
+      "name": "Sudsai Trevanich",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0033",
+      "name": "Sudathip Sae Tan",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0034",
+      "name": "Suvimol Agro",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0035",
+      "name": "Utai Klinkesorn",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0046",
+      "name": "Amporn Sane",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0050",
+      "name": "Lerpong Jarupan",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0056",
+      "name": "Rangrong Yoksan",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0057",
+      "name": "Tarinee Nampitch",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0058",
+      "name": "Tunyarut Jinkarn",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0060",
+      "name": "Vanee Chonhenchob",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0062",
+      "name": "Suntaree Suwonsichon",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0064",
+      "name": "Wannasawat Ratphitagsanti",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0065",
+      "name": "Nantawan Therdthai",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0066",
+      "name": "Withida Chantrapornchai",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0100",
+      "name": "Watcharaphong Leartsurawat",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0038",
+      "name": "Sanguansri Charoenrein",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0044",
+      "name": "Warapa Mahakarnchanakul",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0053",
+      "name": "Panuwat Suppakul",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0096",
+      "name": "Nantawut Leeamornsiri",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0025",
+      "name": "Masubon Thongngam",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_wave18_nrai_0045",
+      "name": "Kriangkrai Agro",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_wave18_nrai_0047",
+      "name": "Suphatta Agro",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0069",
+      "name": "Thongchai Suwonsichon",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0020",
+      "name": "Chitsiri Rachtanapun",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0024",
+      "name": "Pinthip Rumpagaporn",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0101",
+      "name": "Pornsiri Chatpreecha",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0070",
+      "name": "Tantawan Pirak",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_wave18_nrai_0052",
+      "name": "Arissara Agro",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0098",
+      "name": "Tanachote Boonvorachote",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_wave18_nrai_0014",
+      "name": "Piyamas Agro",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0072",
+      "name": "Nopparat Prabsangob",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0063",
+      "name": "Pitiporn Ritthiruangdej",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0016",
+      "name": "Wirat Vanichsriratana",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0097",
+      "name": "Parthana Parthanadee",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0076",
+      "name": "Sombat Khotavivattana",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0004",
+      "name": "Kittipong Rattanaporn",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0078",
+      "name": "Rungnaphar Pongsawatmanit",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0079",
+      "name": "Anuvat Jangchud",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0093",
+      "name": "Jumpol Vorasayan",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    },
+    {
+      "id": "ku_agro_wave15_0099",
+      "name": "Thanit Puthpongsiriporn",
+      "rule": "KU_AGRO_TITLE_CLEAN"
+    }
+  ]
+}

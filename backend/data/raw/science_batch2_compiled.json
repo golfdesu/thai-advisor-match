@@ -1,0 +1,682 @@
+[
+  {
+    "id": "cmu_2e6a7981_7631",
+    "full_name_th": "อ. กรธัช อุ่นนันกาศ",
+    "first_name": "Kornthach",
+    "last_name": "Ounnunkad",
+    "email": "kornthach.o@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_40a62142_8785",
+    "full_name_th": "อ. กฤษณะ จิตมณี",
+    "first_name": "Kritsana",
+    "last_name": "Jitmanee",
+    "email": "kritsana.j@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_16f82415_7802",
+    "full_name_th": "อ. ก้องเกียรติ ไตรสุวรรณ",
+    "first_name": "Kongkiat",
+    "last_name": "Trisuwan",
+    "email": "kongkiat.t@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_701ab247_6985",
+    "full_name_th": "อ. กัลยาวัสถ์ วังคะวงษ์",
+    "first_name": "Kanlayawat",
+    "last_name": "Wangkawong",
+    "email": "kanlayawat.w@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_4b06c396_0374",
+    "full_name_th": "อ. กาญจนา ดำริห์",
+    "first_name": "Kanchana",
+    "last_name": "Damri",
+    "email": "kanchana.d@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_7a577000_1451",
+    "full_name_th": "อ. กิตติพันธ์ ศิวะวรรณพงศ์",
+    "first_name": "Kittipan",
+    "last_name": "Sivawannapong",
+    "email": "kittipan.s@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_5f340589_7775",
+    "full_name_th": "อ. กุลภา ชนะวรรโณ",
+    "first_name": "Kullapa",
+    "last_name": "Chanawanno",
+    "email": "kullapa.c@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_58266b28_7728",
+    "full_name_th": "อ. เกียรติคุณ มะโนเครื่อง",
+    "first_name": "Kiattikhun",
+    "last_name": "Manokruang",
+    "email": "kiattikhun.m@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_4e479ced_9227",
+    "full_name_th": "อ. คณารัฐ ณ ลำปาง",
+    "first_name": "Kanarat",
+    "last_name": "Nalampang",
+    "email": "kanarat.n@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_6c1907a2_2428",
+    "full_name_th": "อ. จิดาภา ทิน้อย",
+    "first_name": "Jidapa",
+    "last_name": "Thinoi",
+    "email": "jidapa.t@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_582916ed_2886",
+    "full_name_th": "อ. ชนิดา พวงพิลา",
+    "first_name": "Chanida",
+    "last_name": "Puangpila",
+    "email": "chanida.pu@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_32a07516_3905",
+    "full_name_th": "อ. ชมนาด สวาสดิ์มิตร",
+    "first_name": "Chomanad",
+    "last_name": "Swasdimitr",
+    "email": "chomanad.s@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_50a908ac_2745",
+    "full_name_th": "อ. ชำนาญ ราญฎร",
+    "first_name": "Chamnan",
+    "last_name": "Randorn",
+    "email": "chamnan.r@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_724fad24_0225",
+    "full_name_th": "อ. ฐปนีย์ สารครศรี",
+    "first_name": "Thapanee",
+    "last_name": "Sarakonsri",
+    "email": "thapanee.s@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_26c7e153_8919",
+    "full_name_th": "อ. ณปภา พรหมสวรรค์",
+    "first_name": "Napapa",
+    "last_name": "Promsawan",
+    "email": "napapa.p@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_4e834cc1_4725",
+    "full_name_th": "อ. ทินกร กันยานี",
+    "first_name": "Tinnakorn",
+    "last_name": "Kanyanee",
+    "email": "tinnakorn.k@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_6ad70009_3416",
+    "full_name_th": "อ. ธัญวดี ลิ้มธรากุล",
+    "first_name": "Thanwadee",
+    "last_name": "Limtrakul",
+    "email": "thanwadee.l@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_f6960165_6965",
+    "full_name_th": "อ. ธิติ จันทร์ภิรมย์",
+    "first_name": "Thiti",
+    "last_name": "Chanphirom",
+    "email": "thiti.c@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_d5ea9798_3957",
+    "full_name_th": "อ. ธีรบุญ พจนการุณ",
+    "first_name": "Theeraboon",
+    "last_name": "Pojankarun",
+    "email": "theeraboon.p@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_782826aa_1619",
+    "full_name_th": "อ. นพกาญจน์ จันทร์เดช",
+    "first_name": "Nopakarn",
+    "last_name": "Chandet",
+    "email": "nopakarn.c@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_16a4f0d3_6040",
+    "full_name_th": "อ. นัทธี สุรีย์",
+    "first_name": "Nuttee",
+    "last_name": "Suree",
+    "email": "nuttee.s@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_13b506f6_4009",
+    "full_name_th": "อ. นาวี กังวาลย์",
+    "first_name": "Nawee",
+    "last_name": "Kangwan",
+    "email": "nawee.k@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_314912f9_9422",
+    "full_name_th": "อ. นุชนิภา นันทะวงศ์",
+    "first_name": "Nuchnipa",
+    "last_name": "Nanthawong",
+    "email": "nuchnipa.n@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_1719b49c_7684",
+    "full_name_th": "อ. บูรภัทร์ อินทรีย์สังวร",
+    "first_name": "Burapat",
+    "last_name": "Inceesungvorn",
+    "email": "burapat.i@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_689f7995_3064",
+    "full_name_th": "อ. ประพุทธ์ ถาวรยุติการต์",
+    "first_name": "Praput",
+    "last_name": "Thavornyutikarn",
+    "email": "praput.th@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_77a4ef23_8680",
+    "full_name_th": "อ. ปะราลี แว่นแก้ว",
+    "first_name": "Paralee",
+    "last_name": "Waenkaew",
+    "email": "paralee.w@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_22866f68_0268",
+    "full_name_th": "อ. ปัญชิกา ปรังเขียว",
+    "first_name": "Panchika",
+    "last_name": "Prangkio",
+    "email": "panchika.p@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_5ce8e3a6_5016",
+    "full_name_th": "อ. ปิยรัตน์ นิมมานพิภักดิ์",
+    "first_name": "Piyarat",
+    "last_name": "Nimmanpipak",
+    "email": "piyarat.n@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_50b29aad_0710",
+    "full_name_th": "อ. พัฒนพงศ์ ทังสุนันท์",
+    "first_name": "Pattanapong",
+    "last_name": "Thangsunan",
+    "email": "pattanapong.t@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_6a6d1838_8962",
+    "full_name_th": "อ. พิชญา มังกรอัศวกุล",
+    "first_name": "Pitchaya",
+    "last_name": "Mungkornasawakul",
+    "email": "pitchaya.m@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_7a77a2e2_8013",
+    "full_name_th": "อ. พุฒินันท์ มีเผ่าพันธ์",
+    "first_name": "Puttinan",
+    "last_name": "Meepowpan",
+    "email": "puttinan.m@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_73085631_9589",
+    "full_name_th": "อ. ภควรรณ พวงสมบัติ",
+    "first_name": "Pakawan",
+    "last_name": "Puangsombat",
+    "email": "pakawan.p@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_1cb08288_1441",
+    "full_name_th": "อ. ภัทร์นฤน วรจิตติพล",
+    "first_name": "Patnarin",
+    "last_name": "Worajittiphon",
+    "email": "patnarin.w@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_22825acc_4319",
+    "full_name_th": "อ. ภูมน สุขวงศ์",
+    "first_name": "Phumon",
+    "last_name": "Sookwong",
+    "email": "phumon.s@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_72714b2e_5332",
+    "full_name_th": "อ. ภูมิศร์ ทับทิมแดง",
+    "first_name": "Pumis",
+    "last_name": "Thaptimdang",
+    "email": "pumis.th@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_218803e4_6616",
+    "full_name_th": "อ. มุกดา ภัทราวราพันธ์",
+    "first_name": "Mookda",
+    "last_name": "Pattarawarapan",
+    "email": "mookda.p@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_5ffd5eaf_3834",
+    "full_name_th": "อ. รุ้งลาวัลย์ สมสุนันท์",
+    "first_name": "Runglawan",
+    "last_name": "Somsunan",
+    "email": "runglawan.s@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_66c5ca0b_9872",
+    "full_name_th": "อ. ละอองนวล ศรีสมบัติ",
+    "first_name": "Laongnuan",
+    "last_name": "Srisombat",
+    "email": "laongnuan.sri@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_7427ab26_3134",
+    "full_name_th": "อ. วงศ์ พะโคดี",
+    "first_name": "Wong",
+    "last_name": "Phakhodee",
+    "email": "wong.p@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_2943756f_5566",
+    "full_name_th": "อ. วรอนงค์ ลี้วัฒนาผาสุข",
+    "first_name": "Woranong",
+    "last_name": "Leewattana-phasuk",
+    "email": "woranong.l@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_179c18fd_9460",
+    "full_name_th": "อ. วศิน สมบุตร",
+    "first_name": "Wasin",
+    "last_name": "Sombut",
+    "email": "wasin.s@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_c217e6b5_5884",
+    "full_name_th": "อ. ว่าน วิริยา",
+    "first_name": "Wan",
+    "last_name": "Wiriya",
+    "email": "wan.w@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_3a54a038_3756",
+    "full_name_th": "อ. วิมล นาคสาทา",
+    "first_name": "Wimon",
+    "last_name": "Naksata",
+    "email": "wimon.n@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_2b801c28_3114",
+    "full_name_th": "อ. เวสารัช จรเจริญ",
+    "first_name": "Veasarach",
+    "last_name": "Jonjaroen",
+    "email": "veasarach.j@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_643992d7_9545",
+    "full_name_th": "อ. ศิลา กิตติวัชนะ",
+    "first_name": "Sila",
+    "last_name": "Kittiwachana",
+    "email": "sila.k@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_5a4e874d_9643",
+    "full_name_th": "อ. สรพงษ์ จันทร์หอม",
+    "first_name": "Sorapong",
+    "last_name": "Chanhom",
+    "email": "sorapong.c@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_23122f89_2559",
+    "full_name_th": "อ. สิทธิชัย วิโรจนุปถัมภ์",
+    "first_name": "Sittichai",
+    "last_name": "Wirojanupatump",
+    "email": "sittichai.w@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_3d00ad57_5599",
+    "full_name_th": "อ. สุรินทร์ สายปัญญา",
+    "first_name": "Surin",
+    "last_name": "Saipanya",
+    "email": "surin.s@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_473ee563_1548",
+    "full_name_th": "อ. สุลาวัลย์ ขาวผ่อง",
+    "first_name": "Sulawan",
+    "last_name": "Kaowphong",
+    "email": "sulawan.k@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_3f37144d_1874",
+    "full_name_th": "อ. แสงรวี ศรีวิชัย",
+    "first_name": "Saengrawee",
+    "last_name": "Sriwichai",
+    "email": "saengrawee.s@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_368603d1_8292",
+    "full_name_th": "อ. หทัยชนก เนียมทรัพย์",
+    "first_name": "Hataichanoke",
+    "last_name": "Niamsup",
+    "email": "hataichanoke.n@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_67350322_0485",
+    "full_name_th": "อ. อภินันท์ กันเปียงใจ",
+    "first_name": "Aphinan",
+    "last_name": "Kanpiengjai",
+    "email": "aphinan.k@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_7645de8c_5935",
+    "full_name_th": "อ. อภิวัฒน์ ธีรวุฒิกุลรักษ์",
+    "first_name": "Apiwat",
+    "last_name": "Teerawutgulrag",
+    "email": "apiwat.t@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_f692e80b_2491",
+    "full_name_th": "อ. อรุณฉาย สายอ้าย",
+    "first_name": "Aroonchai",
+    "last_name": "Saiai",
+    "email": "aroonchai.s@cmu.ac.th",
+    "department_th": "ภาควิชาเคมี"
+  },
+  {
+    "id": "cmu_1bd3935f_5239",
+    "full_name_th": "ผศ.ดร. จารุณี จูงกลาง",
+    "first_name": "Jarunee",
+    "last_name": "Jungklang",
+    "email": "jarunee.j@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_37bc1206_6908",
+    "full_name_th": "ผศ.ดร. ชิตชล ผลารักษ์",
+    "first_name": "Chitchol",
+    "last_name": "Phalaraksh",
+    "email": "chitchol.p@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_6d9af7f5_6031",
+    "full_name_th": "ผศ.ดร. เดชา ทาปัญญา",
+    "first_name": "Decha",
+    "last_name": "Thapanya",
+    "email": "decha.th@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_16c8981f_9609",
+    "full_name_th": "ผศ.ดร. เดีย พนิตนาถ แชนนอน",
+    "first_name": "Dia",
+    "last_name": "Shannon",
+    "email": "dia.shannon@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_4ca2dfe3_2607",
+    "full_name_th": "ผศ.ดร. ธนียา เจติยานุกรกุล",
+    "first_name": "Thaneeya",
+    "last_name": "Chetiyanukornkul",
+    "email": "thaneeya.c@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_44c0e7a0_2174",
+    "full_name_th": "ผศ.ดร. นฎา อารยะสกุล",
+    "first_name": "Nada",
+    "last_name": "Arayasakul",
+    "email": "nada.a@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_20f06b68_5382",
+    "full_name_th": "ผศ.ดร. นรินทร์ พรินทรากุล",
+    "first_name": "Narin",
+    "last_name": "Printarakul",
+    "email": "narin.pr@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_34732e43_8275",
+    "full_name_th": "ผศ.ดร. พิมลรัตน์ เทียนสวัสดิ์",
+    "first_name": "Pimonrat",
+    "last_name": "Tiansawat",
+    "email": "pimonrat.t@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_7388334b_2017",
+    "full_name_th": "ผศ.ดร. สิทธิศักดิ์ อินทรสิทธิ์",
+    "first_name": "Sitthisak",
+    "last_name": "Intasit",
+    "email": "sitthisak.inta@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_3c861083_3909",
+    "full_name_th": "ผศ.ดร. สิริพร แจ้งสุทธิวรวัฒน์",
+    "first_name": "Siriphorn",
+    "last_name": "Jangsutthivorawat",
+    "email": "siriphorn.jang@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_351a8e1b_0968",
+    "full_name_th": "ผศ.ดร. สุทธาธร ไชยเรืองศรี",
+    "first_name": "Suttathorn",
+    "last_name": "Chairuangsri",
+    "email": "suttathorn.c@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_3600809e_2760",
+    "full_name_th": "ผศ.ดร. หทัยชนก ปันดิษฐ์",
+    "first_name": "Hataichanok",
+    "last_name": "Pandith",
+    "email": "hataichanok.p@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_1fc403b3_5937",
+    "full_name_th": "ผศ.ดร. อิสสระ ปะทะวัง",
+    "first_name": "Issara",
+    "last_name": "Patawang",
+    "email": "isara.p@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_1e629b8e_1464",
+    "full_name_th": "รศ.ดร. จตุพล คำปวนสาย",
+    "first_name": "Jatupol",
+    "last_name": "Kampuansai",
+    "email": "jatupol.k@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_60e63b54_8938",
+    "full_name_th": "รศ.ดร. ธนวัฒน์ เชาวสกู",
+    "first_name": "Tanawat",
+    "last_name": "Chaowasku",
+    "email": "tanawat.ch@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_4610e0bb_2017",
+    "full_name_th": "รศ.ดร. ประสิทธิ์ วังภคพัฒนวงศ์",
+    "first_name": "Prasit",
+    "last_name": "Wangpakapattanawong",
+    "email": "prasit.wang@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_5d6edcd4_8304",
+    "full_name_th": "รศ.ดร. ภัทรพล ลีธนัชอุดม",
+    "first_name": "Pathrapol",
+    "last_name": "Lithanatudom",
+    "email": "pathrapol.l@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_52e94dfa_7029",
+    "full_name_th": "รศ.ดร. สตีเฟ่น เอลเลียต",
+    "first_name": "Stephen",
+    "last_name": "Elliott",
+    "email": "stephen.e@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_35dd9b9b_8639",
+    "full_name_th": "รศ.ดร. อรุโณทัย จำปีทอง",
+    "first_name": "Arunothai",
+    "last_name": "Jampeetong",
+    "email": "arunothai.j@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_2f1b8e42_0426",
+    "full_name_th": "รศ.ดร. อลิส ชาร์ป",
+    "first_name": "Alice",
+    "last_name": "Sharp",
+    "email": "alice.sharp@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_2315d15a_2364",
+    "full_name_th": "รศ.ดร. อุษรา ปัญญา",
+    "first_name": "Aussara",
+    "last_name": "Panya",
+    "email": "aussara.pan@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_355cf068_4330",
+    "full_name_th": "รศ.ดร. อุษาวดี ชนสุต",
+    "first_name": "Usawadee",
+    "last_name": "Chanasut",
+    "email": "usawadee.ch@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_702352ff_7153",
+    "full_name_th": "ศ.ดร. มัสลิน โอสถานันต์กุล",
+    "first_name": "Maslin",
+    "last_name": "Osathanunkul",
+    "email": "maslin.o@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_6aea0aec_3979",
+    "full_name_th": "อ.ดร. จุฑารัตน์ ปัญจขันธ์",
+    "first_name": "Jutarat",
+    "last_name": "Panjakhan",
+    "email": "jutarat.pan@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_b01e79b8_0604",
+    "full_name_th": "อ.ดร. นิลิตา มุขแจ้ง",
+    "first_name": "Nilita",
+    "last_name": "Mookjaeng",
+    "email": "nilita.m@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_2bcdb80b_8854",
+    "full_name_th": "อ.ดร. ภัทรสุดา ฉายาภักดี",
+    "first_name": "Phattrasuda",
+    "last_name": "Chayaphakdee",
+    "email": "phattrasuda.c@cmu.ac.th",
+    "department_th": "ภาควิชาชีววิทยา"
+  },
+  {
+    "id": "cmu_1c152406_5414",
+    "full_name_th": "ผศ.ดร. วราภรณ์ นันทิยกุล",
+    "first_name": "Waraporn",
+    "last_name": "Nuntiyakul",
+    "email": "waraporn.n@cmu.ac.th",
+    "department_th": "ภาควิชาฟิสิกส์และวัสดุศาสตร์"
+  },
+  {
+    "id": "cmu_66c849bd_0403",
+    "full_name_th": "รศ.ดร. ฉัตรดนัย บุญเรือง",
+    "first_name": "Chatdanai",
+    "last_name": "Boonrueng",
+    "email": "chatdanai.b@cmu.ac.th",
+    "department_th": "ภาควิชาฟิสิกส์และวัสดุศาสตร์"
+  },
+  {
+    "id": "cmu_2485e39d_2496",
+    "full_name_th": "รศ.ดร. พรรัตน์ วัฒนกสิวิชช์",
+    "first_name": "Pornrat",
+    "last_name": "Wattanakasiwich",
+    "email": "pornrat.w@cmu.ac.th",
+    "department_th": "ภาควิชาฟิสิกส์และวัสดุศาสตร์"
+  },
+  {
+    "id": "cmu_10384457_1171",
+    "full_name_th": "รศ.ดร. วีระเดช ทองสุวรรณ",
+    "first_name": "Wiradej",
+    "last_name": "Thongsuwan",
+    "email": "wiradej.t@cmu.ac.th",
+    "department_th": "ภาควิชาฟิสิกส์และวัสดุศาสตร์"
+  },
+  {
+    "id": "cmu_4dd8180d_3847",
+    "full_name_th": "รศ.ดร. สุภาพ ชูพันธ์",
+    "first_name": "Supab",
+    "last_name": "Choopun",
+    "email": "supab.c@cmu.ac.th",
+    "department_th": "ภาควิชาฟิสิกส์และวัสดุศาสตร์"
+  }
+]

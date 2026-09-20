@@ -136,40 +136,6 @@ CMU_SPECIALIZED_ENGINEERING_FACULTIES = [
         ]
     },
     {
-        "id": "cmu_semi_chatchawan_001",
-        "university": "Chiang Mai University",
-        "university_th": "มหาวิทยาลัยเชียงใหม่",
-        "faculty": "Faculty of Engineering",
-        "faculty_th": "คณะวิศวกรรมศาสตร์",
-        "department": "Department of Electrical Engineering & Semiconductor Device Lab",
-        "department_th": "ภาควิชาวิศวกรรมไฟฟ้า (ห้องปฏิบัติการอุปกรณ์สารกึ่งตัวนำ)",
-        "academic_title": "Assoc. Prof. Dr.",
-        "academic_title_th": "รศ.ดร.",
-        "first_name": "Chatchawan",
-        "last_name": "Kiatthanabumrung",
-        "full_name_th": "รศ.ดร. ชัชวาลย์ เกียรติธนบำรุง",
-        "role": "Leading Semiconductor Specialist in Silicon Carbide (SiC) / Gallium Nitride (GaN) Power Devices & IC Packaging",
-        "email": "chatchawan.k@cmu.ac.th",
-        "profile_url": "https://ee.eng.cmu.ac.th/staff/chatchawan-kiatthanabumrung",
-        "scholar_url": "https://scholar.google.com/citations?user=chatchawankiatthanabumrung",
-        "education": [
-            "Ph.D. (Microelectronics & Semiconductor Engineering), Tokyo Institute of Technology, Japan",
-            "M.Eng. (Electrical Engineering), Chulalongkorn University",
-            "B.Eng. (Electrical Engineering, Honors), Chiang Mai University"
-        ],
-        "research_interests": [
-            "High-Voltage Gallium Nitride (GaN) High-Electron-Mobility Transistors (HEMTs) on Silicon Substrates",
-            "Thermal Dissipation & Packaging Reliability in Silicon Carbide (SiC) Power Modules for Electric Vehicles",
-            "Wide Bandgap Semiconductor Device Fabrication & Interface Trap State Characterization",
-            "Analog & Mixed-Signal CMOS Integrated Circuit Design for Ultra-Low Power Biomedical Sensor Interfaces"
-        ],
-        "featured_publications": [
-            "Trap-State Analysis and Dynamic On-Resistance Degradation in AlGaN/GaN HEMTs under High Voltage Stress",
-            "Thermal Management and Parasitic Inductance Minimization in 1200V SiC MOSFET Half-Bridge Modules",
-            "Sub-Microwatt CMOS Bio-Potential Front-End Amplifier for Multi-Channel EEG Acquisition"
-        ]
-    },
-    {
         "id": "cmu_robot_supachai_001",
         "university": "Chiang Mai University",
         "university_th": "มหาวิทยาลัยเชียงใหม่",

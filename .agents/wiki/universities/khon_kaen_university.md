@@ -14,7 +14,7 @@ _(none — faculty directory URLs at KKU are faculty-specific; see scoped list b
 - Dept. of Computer Engineering, Faculty of Engineering (ภาควิชาวิศวกรรมคอมพิวเตอร์): `https://gear.kku.ac.th/index.php/staff?lang=en` (19 profiles verified 2026-09-07)
 - Faculty of Nursing (คณะพยาบาลศาสตร์) — executives: `https://nu.kku.ac.th/%E0%B8%84%E0%B8%93%E0%B8%B0%E0%B8%9C%E0%B8%9A%E0%B8%A3%E0%B8%AB%E0%B8%B2%E0%B8%A3` (9 profiles verified 2026-09-09)
 - Faculty of Nursing (คณะพยาบาลศาสตร์) — dept heads: `https://nu.kku.ac.th/head-of-the-department` (7 profiles verified 2026-09-09)
-- Faculty of Nursing (คณะพยาบาลศาสตร์) — department pages (7 สาขาวิชา, WordPress): `https://nu.kku.ac.th/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3...` (55 profiles verified 2026-09-09; note `program-coordinator` page yielded 0 profiles)
+- Faculty of Nursing (คณะพยาบาลศาสตร์) — department pages (7 academic departments, WordPress): `https://nu.kku.ac.th/%E0%B8%AA%E0%B8%B2%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B8%8A%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3...` (55 profiles verified 2026-09-09; note `program-coordinator` page yielded 0 profiles)
 - Faculty of Science (คณะวิทยาศาสตร์) — dept heads: `https://sc.kku.ac.th/head-department/` (9 profiles verified 2026-09-09)
 - Faculty of Science — Environmental Science faculty: `https://env.sc.kku.ac.th/Faculty_members.html` (9 profiles verified 2026-09-09)
 - Faculty of Science — Biology dept teachers: `http://bio.kku.net/teacher.php` (26 profiles verified 2026-09-09; note `www.biology.kku.in.th/staff.php` yielded 0)

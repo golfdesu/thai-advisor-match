@@ -25,15 +25,10 @@ export const metadata: Metadata = {
 const themeInitScript = `
   (function() {
     try {
-      var savedTheme = localStorage.getItem('theme') || localStorage.getItem('theme_color') || 'navy';
-      if (savedTheme === 'sunrise') savedTheme = 'crimson';
-      if (savedTheme === 'green') savedTheme = 'emerald';
-      if (savedTheme === 'purple') savedTheme = 'amethyst';
-      if (savedTheme === 'orange') savedTheme = 'amber';
-      if (savedTheme === 'dark' || savedTheme === 'midnight') savedTheme = 'navy';
+      var savedTheme = 'coral';
 
       var savedMode = localStorage.getItem('theme_mode');
-      var isDark = savedMode === 'dark' || (!savedMode && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      var isDark = savedMode ? savedMode === 'dark' : true;
 
       document.documentElement.setAttribute('data-theme', savedTheme);
       if (isDark) {

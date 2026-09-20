@@ -1,0 +1,92 @@
+[
+  {
+    "survivor_id": "wave22_0607_418",
+    "donor_id": "mu_vet_walasinee_001",
+    "survivor_name_th": "รศ.ดร. สพ.ญ.วลาสินี ศักดิ์คำดวง",
+    "survivor_name_en": "Walasinee Sakcamduang",
+    "citations": 398,
+    "h_index": 9,
+    "reason": "MU Vet Walasinee duplicate"
+  },
+  {
+    "survivor_id": "wave27_0078_256",
+    "donor_id": "mu-sh-002_d7cb1b",
+    "survivor_name_th": "รศ.ดร. เฉลิมพล แจ่มจันทร์",
+    "survivor_name_en": "Chalermpol Chamchan",
+    "citations": 147,
+    "h_index": 7,
+    "reason": "MU Social Sciences Chalermpol duplicate"
+  },
+  {
+    "survivor_id": "wave30_0042_417",
+    "donor_id": "wave30_0046_245",
+    "survivor_name_th": "ผศ. เปรมวรา ตรีวัฒนา",
+    "survivor_name_en": "Premwara Triwatana",
+    "citations": 161,
+    "h_index": 3,
+    "reason": "MU Dentistry Premwara duplicate"
+  },
+  {
+    "survivor_id": "wave30_0024_302",
+    "donor_id": "wave29_0045_227",
+    "survivor_name_th": "ผศ.ดร. ดารารัตน์ คำภูแสน",
+    "survivor_name_en": "Dararat Khampusaen",
+    "citations": 8,
+    "h_index": 2,
+    "reason": "KKU Humanities Dararat duplicate"
+  },
+  {
+    "survivor_id": "wave22_0417_132",
+    "donor_id": "kku_med_jureerut_001",
+    "survivor_name_th": "รศ.ดร. ทนพญ.จุรีรัตน์ ดาดวง",
+    "survivor_name_en": "Jureerut Daduang",
+    "citations": 2067,
+    "h_index": 27,
+    "reason": "KKU AMS Jureerut duplicate"
+  },
+  {
+    "survivor_id": "wave22_0397_171",
+    "donor_id": "wave22_0335_276",
+    "survivor_name_th": "ศ.ดร. ทพ. จรินทร์ ปภังกรกิจ",
+    "survivor_name_en": "Jarin Paphangkorakit",
+    "citations": 786,
+    "h_index": 13,
+    "reason": "KKU Dentistry Jarin duplicate"
+  },
+  {
+    "survivor_id": "wave22_0383_187",
+    "donor_id": "wave22_0339_202",
+    "survivor_name_th": "รศ.ดร. ทพญ. ดุษฎี หอมดี",
+    "survivor_name_en": "Dutsadee Homdee",
+    "citations": 0,
+    "h_index": 0,
+    "reason": "KKU Dentistry Dutsadee duplicate"
+  },
+  {
+    "survivor_id": "wave22_0380_493",
+    "donor_id": "wave22_0365_707",
+    "survivor_name_th": "รศ. ทพญ. อโนมา รัตนะเจริญธรรม",
+    "survivor_name_en": "Anoma Rattanacharoentham",
+    "citations": 0,
+    "h_index": 0,
+    "reason": "KKU Dentistry Anoma duplicate"
+  },
+  {
+    "survivor_id": "wave22_0418_989",
+    "donor_id": "kku_ams_patcharee_001",
+    "survivor_name_th": "ศ.ดร. ทนพญ.พัชรี เจียรนัยกูร",
+    "survivor_name_en": "Patcharee Jearanaikoon",
+    "citations": 1320,
+    "h_index": 23,
+    "reason": "KKU AMS Patcharee duplicate"
+  },
+  {
+    "survivor_id": "wave30_0032_991",
+    "donor_id": "wave30_0031_881",
+    "survivor_name_th": "อ.ดร. บัญชาการ เสมอเพชร (Banchakarn Sameephet)",
+    "survivor_name_en": "Banchakarn Sameephet",
+    "citations": 19,
+    "h_index": 3,
+    "reason": "KKU Humanities Banchakarn duplicate"
+  }
+]

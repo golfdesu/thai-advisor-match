@@ -36,9 +36,9 @@ candidates checkpointed to `data/agent_states/seed_discovery_results.json`),
 
 ---
 
-## Wave 1 (Batches 84–87) — จุฬาฯ + มหิดล
+## Wave 1 (Batches 84–87) — CU + MU
 
-### Batch 84 — คณะวารสารศาสตร์และสื่อสารมวลชน จุฬาฯ (2 → 28)
+### Batch 84 — CU Faculty of Communication Arts (2 → 28)
 | Source URL | Yield | Notes |
 |---|---|---|
 | `https://www.commarts.chula.ac.th/th/about/units-personnel/` | 22 | static, unit staff + @chula emails |
@@ -47,20 +47,20 @@ candidates checkpointed to `data/agent_states/seed_discovery_results.json`),
 
 Discovery: SERPAPI query `"คณะวารสารศาสตร์และสื่อสารมวลชน จุฬาลงกรณ์มหาวิทยาลัย ทำเนียบอาจารย์"`.
 
-### Batch 85 — คณะอักษรศาสตร์ จุฬาฯ (21 → 47)
+### Batch 85 — CU Faculty of Arts (21 → 47)
 | Source URL | Yield | Notes |
 |---|---|---|
-| `https://www.arts.chula.ac.th/th/team/` | 18 | **arts.chula.ac.th = Faculty of ARTS (อักษรศาสตร์), NOT ศิลปกรรมศาสตร์** — initial mislabel corrected before ingest |
+| `https://www.arts.chula.ac.th/th/team/` | 18 | **arts.chula.ac.th = Faculty of ARTS (อักษรศาสตร์), NOT Fine & Applied Arts** — initial mislabel corrected before ingest |
 | `https://www.arts.chula.ac.th/th/deans/` | 8 | deans page |
 
-### Batch 86 — คณะกายภาพบำบัด มหิดล (3 → 77)
+### Batch 86 — MU Faculty of Physical Therapy (3 → 77)
 | Source URL | Yield | Notes |
 |---|---|---|
 | `https://pt.mahidol.ac.th/thai/staff/staff_lecturer/` | 74 | static, Thai research interests + @mahidol emails |
 
 Discovery: SERPAPI. Sister page `https://pt.mahidol.ac.th/thai/staff/` = 0 yield.
 
-### Batch 87 — วิทยาลัยดุริยางคศิลป์ มหิดล (3 → 206)
+### Batch 87 — MU College of Music (3 → 206)
 | Source URL | Yield | Notes |
 |---|---|---|
 | `https://www.music.mahidol.ac.th/people/` | 195 | EN names; deterministic cleaner strips Cyrillic/Arabic transliteration mojibake (215→203) |
@@ -68,13 +68,13 @@ Discovery: SERPAPI. Sister page `https://pt.mahidol.ac.th/thai/staff/` = 0 yield
 
 ---
 
-## Wave 2 (Batches 88–90) — XHR API breakthroughs
+## Wave 2 (Batches 88–90) — XHR API Breakthroughs
 
-### Batch 90 — คณะสัตวแพทยศาสตร์ มช. (3 → 83)
+### Batch 90 — CMU Faculty of Veterinary Medicine (3 → 83)
 | Source | Yield | Notes |
 |---|---|---|
-| `https://vmcmu.vet.cmu.ac.th/pages/person/api/fetchDataPerson_api.php?typeData[type]=vet_subject-1` | 23 | คณาจารย์ปรีคลินิก — JSON: name TH/EN, email, research, branch, scopus/scholar/orcid |
-| `...vet_subject-2` | 59 | คณาจารย์คลินิก |
+| `https://vmcmu.vet.cmu.ac.th/pages/person/api/fetchDataPerson_api.php?typeData[type]=vet_subject-1` | 23 | Pre-clinical faculty — JSON: name TH/EN, email, research, branch, scopus/scholar/orcid |
+| `...vet_subject-2` | 59 | Clinical faculty |
 
 **How found:** page `main_person-2` has zero names in raw+rendered HTML → CDP network capture
 (`app/scrapers/network_capture.py`) while clicking `vetSubject('vet-1'/'vet-2')` buttons → captured
@@ -83,7 +83,7 @@ the XHR to `fetchDataPerson_api.php`. Full category switch-map read from
 non-faculty, skipped). Pipeline: `cmu_vet_api_pipeline.py` (API → RawFacultyProfile → StateReducer,
 zero-LLM hallucination).
 
-### Batch 88 — คณะสัตวแพทยศาสตร์ จุฬาฯ (4 → 178)
+### Batch 88 — CU Faculty of Veterinary Science (4 → 178)
 | Source URL | Yield | Notes |
 |---|---|---|
 | `https://www.vet.chula.ac.th/department/anatomy` | 28 | **legacy site** renders full rosters as static HTML |
@@ -103,45 +103,45 @@ XHR-invisible (CDP capture confirmed no API) → 12 department slugs enumerated 
 `www.vet.chula.ac.th/th/` homepage nav (`/department/…`). Dead auto-discovered links
 (facebook, 500-error slugs `หน่วยพยาธิวิทยาุตยา`, `www.pharmaco.vet…`) failed safely.
 
-### Batch 89 — คณะเภสัชศาสตร์ ม.ธรรมศาสตร์ (1 → 43)
+### Batch 89 — TU Faculty of Pharmacy (1 → 43)
 | Source URL | Yield | Notes |
 |---|---|---|
 | `https://pharm.tu.ac.th/academicstaff` | 42 | nav link on homepage `/`; static. Note: domain is `pharm.tu.ac.th` (NOT `pharmacy.tu.ac.th` — DNS dead) |
 
 ---
 
-## Wave 3 (Batches 91–97) — 5 universities, 7 faculties
+## Wave 3 (Batches 91–97) — 5 Universities, 7 Faculties
 
-### Batch 94 — คณะเกษตรศาสตร์ มช. (4 → 84)
+### Batch 94 — CMU Faculty of Agriculture (4 → 84)
 | Source URL | Yield | Notes |
 |---|---|---|
 | `https://www.agro.cmu.ac.th/mis2/personnel/pages/personal_new.php` | 80 | CMU MIS personnel system, static HTML |
 
-### Batch 93 — คณะสถาปัตยกรรมศาสตร์ มข. (2 → 61)
+### Batch 93 — KKU Faculty of Architecture (2 → 61)
 | Source URL | Yield | Notes |
 |---|---|---|
 | `https://arch.kku.ac.th/org-staff-academic` | 59 | static; `/org-staff-support` = non-academic (skipped) |
 
-### Batch 92 — สถาบันเอเชียศึกษา จุฬาฯ (1 → 28)
+### Batch 92 — CU Institute of Asian Studies (1 → 28)
 | Source URL | Yield | Notes |
 |---|---|---|
-| `http://www.ias.chula.ac.th/personnel/` | 27 | "ทำเนียบบุคลากร" — found via SERP (subdomain is `ias.`, not `asia.`) |
+| `http://www.ias.chula.ac.th/personnel/` | 27 | "Directory" — found via SERP (subdomain is `ias.`, not `asia.`) |
 
-### Batch 91 — คณะวิทยาศาสตร์การกีฬาและสุขภาพ มก. (1 → 25)
+### Batch 91 — KU Faculty of Sports Science and Health (1 → 25)
 | Source URL | Yield | Notes |
 |---|---|---|
-| `https://sportsscience.kps.ku.ac.th/lecturer/` | 24 | **page hidden from nav** — revealed by WP REST API enumeration (`wp-json/wp/v2/pages?per_page=100` → page_id 359 "อาจารย์", 521 "บุคลากร"); staff page = 0 yield |
+| `https://sportsscience.kps.ku.ac.th/lecturer/` | 24 | **page hidden from nav** — revealed by WP REST API enumeration (`wp-json/wp/v2/pages?per_page=100` → page_id 359 "faculty", 521 "personnel"); staff page = 0 yield |
 
-Discovery: SERPAPI → `sportsscience.kps.ku.ac.th` (Khamphaengsaen campus subdomain).
+Discovery: SERPAPI → `sportsscience.kps.ku.ac.th` (Kamphaeng Saen campus subdomain).
 
-### Batch 97 — สถาบันโภชนาการ มหิดล (3 → 26)
+### Batch 97 — MU Institute of Nutrition (3 → 26)
 | Source URL | Yield | Notes |
 |---|---|---|
 | `https://inmu.mahidol.ac.th/th/advisors/` | 18 | faculty grad advisors |
 | `https://inmu.mahidol.ac.th/th/executive/` | 5 | executives |
 | `/th/organization/`, `/th/research/` | 0 | JS-rendered, confirmed via browser render |
 
-### Batch 96 — คณะเทคนิคการสัตวแพทย์ มก. (2 → 11)
+### Batch 96 — KU Faculty of Veterinary Technology (2 → 11)
 | Source URL | Yield | Notes |
 |---|---|---|
 | `https://www.vettech.ku.ac.th/vettech` | 4 | dept microsite |
@@ -149,10 +149,10 @@ Discovery: SERPAPI → `sportsscience.kps.ku.ac.th` (Khamphaengsaen campus subdo
 
 Full rosters behind logins (`vettech-dev.ku.ac.th/vtperson`, `ku-work.ku.ac.th`).
 
-### Batch 95 — คณะวิจิตรศิลป์ มช. (5 → 11) — partial
+### Batch 95 — CMU Faculty of Fine Arts (5 → 11) — Partial
 | Source URL | Yield | Notes |
 |---|---|---|
-| `https://www.finearts.cmu.ac.th/เกี่ยวกับเรา/บุคลากร/บุคลากร-new/รายนามบุคลากรภาควิชาทั…/` | 6 | Elementor; full roster split across sub-pages per ภาควิชา (TODO wave 4) |
+| `https://www.finearts.cmu.ac.th/เกี่ยวกับเรา/บุคลากร/บุคลากร-new/รายนามบุคลากรภาควิชาทั…/` | 6 | Elementor; full roster split across sub-pages per department (TODO wave 4) |
 
 ---
 
@@ -164,8 +164,8 @@ Full rosters behind logins (`vettech-dev.ku.ac.th/vtperson`, `ku-work.ku.ac.th`)
 2. **@-strip email bug** (wave 1 files): contamination regex originally excluded `@`, corrupting
    emails (`sayamon.schula.ac.th`). Regex extended with `:@`; all 6 wave-1 datasets regenerated and
    re-ingested (rows updated in place, no duplicate inserts). Stray 4-char emails in DB zeroed.
-3. **Faculty relabeling** (Batch 85): `arts.chula.ac.th` correctly = คณะอักษรศาสตร์ (was initially
-   mislabeled ศิลปกรรมศาสตร์ by seed guess) — corrected pre-ingest, 0 contamination.
+3. **Faculty relabeling** (Batch 85): `arts.chula.ac.th` correctly = Faculty of Arts (คณะอักษรศาสตร์) (was initially
+   mislabeled Faculty of Fine & Applied Arts (คณะศิลปกรรมศาสตร์) by seed guess) — corrected pre-ingest, 0 contamination.
 4. **Missing-embedding repair**: 22 + 3 + 23 residual NULL embeddings rebuilt
    (`build_faculty_embedding_text` + `embedding_service`) after each ingest → final 0 missing.
 

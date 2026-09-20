@@ -1,0 +1,1712 @@
+[
+  {
+    "id": "cu_oa_disc_a5057708985",
+    "first_name": "Jiaqian",
+    "last_name": "Qin",
+    "academic_title_th": "ศ.ดร.",
+    "full_name_th": "ศ.ดร. Jiaqian Qin",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "สำนักวิจัยวิศวกรรมและเทคโนโลยี",
+    "department_th": "ศูนย์ความเป็นเลิศด้านวัสดุสวมใส่ตอบสนอง",
+    "total_citations": 20736,
+    "h_index": 74,
+    "research_interests": [
+      "Advanced battery technologies research",
+      "Advancements in Battery Materials",
+      "Advanced Battery Materials and Technologies"
+    ],
+    "featured_publications": [
+      {
+        "title": "Effect of aspect ratio and surface defects on the photocatalytic activity of ZnO nanorods",
+        "year": 2014,
+        "venue": "Scientific Reports",
+        "citation_count": 1024,
+        "url": "https://doi.org/10.1038/srep04596"
+      },
+      {
+        "title": "Strategies of regulating Zn 2+ solvation structures for dendrite-free and side reaction-suppressed zinc-ion batteries",
+        "year": 2021,
+        "venue": "Energy & Environmental Science",
+        "citation_count": 775,
+        "url": "https://doi.org/10.1039/d1ee03377h"
+      },
+      {
+        "title": "Ce3+-ion-induced visible-light photocatalytic degradation and electrochemical activity of ZnO/CeO2 nanocomposite",
+        "year": 2016,
+        "venue": "Scientific Reports",
+        "citation_count": 619,
+        "url": "https://doi.org/10.1038/srep31641"
+      },
+      {
+        "title": "Manipulating Crystallographic Orientation of Zinc Deposition for Dendrite‐free Zinc Ion Batteries",
+        "year": 2021,
+        "venue": "Advanced Energy Materials",
+        "citation_count": 595,
+        "url": "https://doi.org/10.1002/aenm.202101299"
+      },
+      {
+        "title": "Designing a Built-In Electric Field for Efficient Energy Electrocatalysis",
+        "year": 2022,
+        "venue": "ACS Nano",
+        "citation_count": 432,
+        "url": "https://doi.org/10.1021/acsnano.2c09888"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5057708985",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:35:42.125298"
+  },
+  {
+    "id": "cu_oa_disc_a5009559182",
+    "first_name": "Miguel",
+    "last_name": "A. Esteban",
+    "academic_title_th": "ศ.",
+    "full_name_th": "ศ. Miguel A. Esteban",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "total_citations": 16217,
+    "h_index": 59,
+    "research_interests": [
+      "Pluripotent Stem Cells Research",
+      "CRISPR and Genetic Engineering",
+      "RNA Research and Splicing"
+    ],
+    "featured_publications": [
+      {
+        "title": "Spatiotemporal transcriptomic atlas of mouse organogenesis using DNA nanoball-patterned arrays",
+        "year": 2022,
+        "venue": "Cell",
+        "citation_count": 1866,
+        "url": "https://doi.org/10.1016/j.cell.2022.04.003"
+      },
+      {
+        "title": "A Mesenchymal-to-Epithelial Transition Initiates and Is Required for the Nuclear Reprogramming of Mouse Fibroblasts",
+        "year": 2010,
+        "venue": "Cell stem cell",
+        "citation_count": 1157,
+        "url": "https://doi.org/10.1016/j.stem.2010.04.014"
+      },
+      {
+        "title": "Vitamin C Enhances the Generation of Mouse and Human Induced Pluripotent Stem Cells",
+        "year": 2010,
+        "venue": "Cell stem cell",
+        "citation_count": 979,
+        "url": "https://doi.org/10.1016/j.stem.2009.12.001"
+      },
+      {
+        "title": "Single-cell landscape of the ecosystem in early-relapse hepatocellular carcinoma",
+        "year": 2020,
+        "venue": "Cell",
+        "citation_count": 966,
+        "url": "https://doi.org/10.1016/j.cell.2020.11.041"
+      },
+      {
+        "title": "Generation of human induced pluripotent stem cells from urine samples",
+        "year": 2012,
+        "venue": "Nature Protocols",
+        "citation_count": 628,
+        "url": "https://doi.org/10.1038/nprot.2012.115"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5009559182",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:35:43.582170"
+  },
+  {
+    "id": "cu_oa_disc_a5039683369",
+    "first_name": "Zohaib",
+    "last_name": "Khurshid",
+    "academic_title_th": "ศ.ทพ.ดร.",
+    "full_name_th": "ศ.ทพ.ดร. Zohaib Khurshid",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะทันตแพทยศาสตร์",
+    "department_th": "ศูนย์ความเป็นเลิศด้านชีววิทยาเซลล์ต้นกำเนิดทางทันตกรรม",
+    "total_citations": 12281,
+    "h_index": 58,
+    "research_interests": [
+      "Dental materials and restorations",
+      "Oral microbiology and periodontitis research",
+      "Dental Implant Techniques and Outcomes"
+    ],
+    "featured_publications": [
+      {
+        "title": "Biodegradable Materials for Bone Repair and Tissue Engineering Applications",
+        "year": 2015,
+        "venue": "Materials",
+        "citation_count": 790,
+        "url": "https://doi.org/10.3390/ma8095273"
+      },
+      {
+        "title": "Fear and Practice Modifications among Dentists to Combat Novel Coronavirus Disease (COVID-19) Outbreak",
+        "year": 2020,
+        "venue": "International Journal of Environmental Research and Public Health",
+        "citation_count": 692,
+        "url": "https://doi.org/10.3390/ijerph17082821"
+      },
+      {
+        "title": "Bone Grafts and Substitutes in Dentistry: A Review of Current Trends and Developments",
+        "year": 2021,
+        "venue": "Molecules",
+        "citation_count": 638,
+        "url": "https://doi.org/10.3390/molecules26103007"
+      },
+      {
+        "title": "Bioactive Glass Applications in Dentistry",
+        "year": 2019,
+        "venue": "International Journal of Molecular Sciences",
+        "citation_count": 333,
+        "url": "https://doi.org/10.3390/ijms20235960"
+      },
+      {
+        "title": "Electrospinning of Chitosan-Based Solutions for Tissue Engineering and Regenerative Medicine",
+        "year": 2018,
+        "venue": "International Journal of Molecular Sciences",
+        "citation_count": 325,
+        "url": "https://doi.org/10.3390/ijms19020407"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5039683369",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:35:44.714016"
+  },
+  {
+    "id": "cu_oa_disc_a5001027718",
+    "first_name": "Sombat",
+    "last_name": "Treeprasertsuk",
+    "academic_title_th": "ศ.นพ.",
+    "full_name_th": "ศ.นพ. สมบัติ ตรีประเสริฐสุข",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาอายุรศาสตร์",
+    "total_citations": 11030,
+    "h_index": 49,
+    "research_interests": [
+      "Liver Disease Diagnosis and Treatment",
+      "Liver Disease and Transplantation",
+      "Hepatitis C virus research"
+    ],
+    "featured_publications": [
+      {
+        "title": "Acute-on-chronic liver failure: consensus recommendations of the Asian Pacific association for the study of the liver (APASL): an update",
+        "year": 2019,
+        "venue": "Hepatology International",
+        "citation_count": 911,
+        "url": "https://doi.org/10.1007/s12072-019-09946-3"
+      },
+      {
+        "title": "Advancing the global public health agenda for NAFLD: a consensus statement",
+        "year": 2021,
+        "venue": "Nature Reviews Gastroenterology & Hepatology",
+        "citation_count": 766,
+        "url": "https://doi.org/10.1038/s41575-021-00523-4"
+      },
+      {
+        "title": "The natural history of non-alcoholic fatty liver disease in children: a follow-up study for up to 20 years",
+        "year": 2009,
+        "venue": "Gut",
+        "citation_count": 734,
+        "url": "https://doi.org/10.1136/gut.2008.171280"
+      },
+      {
+        "title": "Drug-Induced Autoimmune Hepatitis: Clinical Characteristics and Prognosis",
+        "year": 2010,
+        "venue": "Hepatology",
+        "citation_count": 492,
+        "url": "https://doi.org/10.1002/hep.23588"
+      },
+      {
+        "title": "Global burden of metabolic diseases, 1990–2021",
+        "year": 2024,
+        "venue": "Metabolism",
+        "citation_count": 348,
+        "url": "https://doi.org/10.1016/j.metabol.2024.155999"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5001027718",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:35:46.240992"
+  },
+  {
+    "id": "cu_oa_disc_a5081163390",
+    "first_name": "Soorathep",
+    "last_name": "Kheawhom",
+    "academic_title_th": "ศ.ดร.",
+    "full_name_th": "ศ.ดร. สุรเทพ เขียวหอม",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมเคมี",
+    "total_citations": 7314,
+    "h_index": 49,
+    "research_interests": [
+      "Advanced battery technologies research",
+      "Supercapacitor Materials and Fabrication",
+      "Advancements in Battery Materials"
+    ],
+    "featured_publications": [
+      {
+        "title": "δ-MnO2 nanoflower/graphite cathode for rechargeable aqueous zinc ion batteries",
+        "year": 2019,
+        "venue": "Scientific Reports",
+        "citation_count": 231,
+        "url": "https://doi.org/10.1038/s41598-019-44915-8"
+      },
+      {
+        "title": "Electrode polymer binders for supercapacitor applications: A review",
+        "year": 2023,
+        "venue": "Journal of Materials Research and Technology",
+        "citation_count": 180,
+        "url": "https://doi.org/10.1016/j.jmrt.2023.02.013"
+      },
+      {
+        "title": "Elimination of Zinc Dendrites by Graphene Oxide Electrolyte Additive for Zinc-Ion Batteries",
+        "year": 2021,
+        "venue": "ACS Applied Energy Materials",
+        "citation_count": 157,
+        "url": "https://doi.org/10.1021/acsaem.1c00224"
+      },
+      {
+        "title": "Characterizations of nickel mesh and nickel foam current collectors for supercapacitor application",
+        "year": 2020,
+        "venue": "Arabian Journal of Chemistry",
+        "citation_count": 147,
+        "url": "https://doi.org/10.1016/j.arabjc.2020.06.036"
+      },
+      {
+        "title": "Critical roles of metal–organic frameworks in improving the Zn anode in aqueous zinc-ion batteries",
+        "year": 2023,
+        "venue": "Chemical Engineering Journal",
+        "citation_count": 142,
+        "url": "https://doi.org/10.1016/j.cej.2023.141334"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5081163390",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:35:47.427320"
+  },
+  {
+    "id": "cu_oa_disc_a5057625818",
+    "first_name": "W.",
+    "last_name": "Rujopakarn",
+    "academic_title_th": "รศ.ดร.",
+    "full_name_th": "รศ.ดร. วรพจน์ รุจิภักดิ์",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ภาควิชาฟิสิกส์",
+    "total_citations": 5687,
+    "h_index": 46,
+    "research_interests": [
+      "Gamma-ray bursts and supernovae",
+      "Galaxies: Formation, Evolution, Phenomena",
+      "Astronomy and Astrophysical Research"
+    ],
+    "featured_publications": [
+      {
+        "title": "A deep ALMA image of the Hubble Ultra Deep Field",
+        "year": 2016,
+        "venue": "Monthly Notices of the Royal Astronomical Society",
+        "citation_count": 399,
+        "url": "https://doi.org/10.1093/mnras/stw3088"
+      },
+      {
+        "title": "JADES",
+        "year": 2024,
+        "venue": "Astronomy and Astrophysics",
+        "citation_count": 361,
+        "url": "https://doi.org/10.1051/0004-6361/202347640"
+      },
+      {
+        "title": "The [C ii] emission as a molecular gas mass tracer in galaxies at low and high redshifts",
+        "year": 2018,
+        "venue": "Monthly Notices of the Royal Astronomical Society",
+        "citation_count": 242,
+        "url": "https://doi.org/10.1093/mnras/sty2394"
+      },
+      {
+        "title": "GOODS-ALMA: 1.1 mm galaxy survey",
+        "year": 2018,
+        "venue": "Astronomy and Astrophysics",
+        "citation_count": 232,
+        "url": "https://doi.org/10.1051/0004-6361/201832928"
+      },
+      {
+        "title": "Suppressing star formation in quiescent galaxies with supermassive black hole winds",
+        "year": 2016,
+        "venue": "Nature",
+        "citation_count": 200,
+        "url": "https://doi.org/10.1038/nature18006"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5057625818",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:35:48.838131"
+  },
+  {
+    "id": "cu_oa_disc_a5090193164",
+    "first_name": "Nattachai",
+    "last_name": "Srisawat",
+    "academic_title_th": "ศ.นพ.",
+    "full_name_th": "ศ.นพ. ณัฐชัย ศรีสวัสดิ์",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "สาขาวิชาโรคไต ภาควิชาอายุรศาสตร์",
+    "total_citations": 7127,
+    "h_index": 41,
+    "research_interests": [
+      "Acute Kidney Injury Research",
+      "Dialysis and Renal Disease Management",
+      "Sepsis Diagnosis and Treatment"
+    ],
+    "featured_publications": [
+      {
+        "title": "COVID-19-associated acute kidney injury: consensus report of the 25th Acute Disease Quality Initiative (ADQI) Workgroup",
+        "year": 2020,
+        "venue": "Nature Reviews Nephrology",
+        "citation_count": 714,
+        "url": "https://doi.org/10.1038/s41581-020-00356-5"
+      },
+      {
+        "title": "Controversies in acute kidney injury: conclusions from a Kidney Disease: Improving Global Outcomes (KDIGO) Conference",
+        "year": 2020,
+        "venue": "Kidney International",
+        "citation_count": 575,
+        "url": "https://doi.org/10.1016/j.kint.2020.04.020"
+      },
+      {
+        "title": "Harmonizing acute and chronic kidney disease definition and classification: report of a Kidney Disease: Improving Global Outcomes (KDIGO) Consensus Conference",
+        "year": 2021,
+        "venue": "Kidney International",
+        "citation_count": 546,
+        "url": "https://doi.org/10.1016/j.kint.2021.06.028"
+      },
+      {
+        "title": "Delayed versus early initiation of renal replacement therapy for severe acute kidney injury: a systematic review and individual patient data meta-analysis of randomised clinical trials",
+        "year": 2020,
+        "venue": "The Lancet",
+        "citation_count": 247,
+        "url": "https://doi.org/10.1016/s0140-6736(20)30531-6"
+      },
+      {
+        "title": "Early versus standard initiation of renal replacement therapy in furosemide stress test non-responsive acute kidney injury patients (the FST trial)",
+        "year": 2018,
+        "venue": "Critical Care",
+        "citation_count": 174,
+        "url": "https://doi.org/10.1186/s13054-018-2021-1"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5090193164",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:36:04.557961"
+  },
+  {
+    "id": "cu_oa_disc_a5005017745",
+    "first_name": "Chawalit",
+    "last_name": "Ngamcharussrivichai",
+    "academic_title_th": "ศ.ดร.",
+    "full_name_th": "ศ.ดร. ชวลิต งามจรัสศรีวิชัย",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ภาควิชาเคมีเทคนิค",
+    "total_citations": 5966,
+    "h_index": 39,
+    "research_interests": [
+      "Catalysis and Hydrodesulfurization Studies",
+      "Biodiesel Production and Applications",
+      "Catalysis for Biomass Conversion"
+    ],
+    "featured_publications": [
+      {
+        "title": "Recent advances in lignocellulosic biomass for biofuels and value-added bioproducts - A critical review",
+        "year": 2021,
+        "venue": "Bioresource Technology",
+        "citation_count": 687,
+        "url": "https://doi.org/10.1016/j.biortech.2021.126195"
+      },
+      {
+        "title": "The COVID-19 pandemic face mask waste: A blooming threat to the marine environment",
+        "year": 2021,
+        "venue": "Chemosphere",
+        "citation_count": 311,
+        "url": "https://doi.org/10.1016/j.chemosphere.2021.129601"
+      },
+      {
+        "title": "Ca and Zn mixed oxide as a heterogeneous base catalyst for transesterification of palm kernel oil",
+        "year": 2008,
+        "venue": "Applied Catalysis A General",
+        "citation_count": 285,
+        "url": "https://doi.org/10.1016/j.apcata.2008.02.020"
+      },
+      {
+        "title": "Mechanistic study of diclofenac and carbamazepine adsorption on functionalized silica-based porous materials",
+        "year": 2012,
+        "venue": "Chemical Engineering Journal",
+        "citation_count": 238,
+        "url": "https://doi.org/10.1016/j.cej.2012.10.052"
+      },
+      {
+        "title": "RETRACTED: Pyrolysis: An effective technique for degradation of COVID-19 medical wastes",
+        "year": 2021,
+        "venue": "Chemosphere",
+        "citation_count": 225,
+        "url": "https://doi.org/10.1016/j.chemosphere.2021.130092"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5005017745",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:36:06.090634"
+  },
+  {
+    "id": "cu_oa_disc_a5108157082",
+    "first_name": "Nijasri",
+    "last_name": "C. Suwanwela",
+    "academic_title_th": "ศ.พญ.",
+    "full_name_th": "ศ.พญ. นิสรา สุวรรณเวลา",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาอายุรศาสตร์",
+    "total_citations": 7552,
+    "h_index": 35,
+    "research_interests": [
+      "Acute Ischemic Stroke Management",
+      "Cerebrovascular and Carotid Artery Diseases",
+      "Stroke Rehabilitation and Recovery"
+    ],
+    "featured_publications": [
+      {
+        "title": "Pragmatic solutions to reduce the global burden of stroke: a World Stroke Organization–Lancet Neurology Commission",
+        "year": 2023,
+        "venue": "The Lancet Neurology",
+        "citation_count": 778,
+        "url": "https://doi.org/10.1016/s1474-4422(23)00277-6"
+      },
+      {
+        "title": "Hyperacute stroke: evaluation with combined multisection diffusion-weighted and hemodynamically weighted echo-planar MR imaging.",
+        "year": 1996,
+        "venue": "Radiology",
+        "citation_count": 740,
+        "url": "https://doi.org/10.1148/radiology.199.2.8668784"
+      },
+      {
+        "title": "Screening for Atrial Fibrillation",
+        "year": 2017,
+        "venue": "Circulation",
+        "citation_count": 546,
+        "url": "https://doi.org/10.1161/circulationaha.116.026693"
+      },
+      {
+        "title": "Central Nervous System Viral Invasion and Inflammation During Acute HIV Infection",
+        "year": 2012,
+        "venue": "The Journal of Infectious Diseases",
+        "citation_count": 537,
+        "url": "https://doi.org/10.1093/infdis/jis326"
+      },
+      {
+        "title": "Clopidogrel plus aspirin versus aspirin alone for reducing embolisation in patients with acute symptomatic cerebral or carotid artery stenosis (CLAIR study): a randomised, open-label, blinded-endpoint trial",
+        "year": 2010,
+        "venue": "The Lancet Neurology",
+        "citation_count": 417,
+        "url": "https://doi.org/10.1016/s1474-4422(10)70060-0"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5108157082",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:36:07.798280"
+  },
+  {
+    "id": "cu_oa_disc_a5101729173",
+    "first_name": "Mohan",
+    "last_name": "Gopalakrishnan",
+    "academic_title_th": "ศ.ดร.",
+    "full_name_th": "ศ.ดร. Mohan Gopalakrishnan",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมเคมี",
+    "total_citations": 2923,
+    "h_index": 32,
+    "research_interests": [
+      "Synthesis and biological activity",
+      "Crystallization and Solubility Studies",
+      "X-ray Diffraction in Crystallography"
+    ],
+    "featured_publications": [
+      {
+        "title": "Managing disruptions in supply chains: A case study of a retail supply chain",
+        "year": 2008,
+        "venue": "International Journal of Production Economics",
+        "citation_count": 363,
+        "url": "https://doi.org/10.1016/j.ijpe.2008.08.045"
+      },
+      {
+        "title": "Critical roles of metal–organic frameworks in improving the Zn anode in aqueous zinc-ion batteries",
+        "year": 2023,
+        "venue": "Chemical Engineering Journal",
+        "citation_count": 142,
+        "url": "https://doi.org/10.1016/j.cej.2023.141334"
+      },
+      {
+        "title": "Evaluation of Azadirachta indica leaf fractions for in vitro antioxidant potential and in vivo modulation of biomarkers of chemoprevention in the hamster buccal pouch carcinogenesis model",
+        "year": 2008,
+        "venue": "Food and Chemical Toxicology",
+        "citation_count": 108,
+        "url": "https://doi.org/10.1016/j.fct.2008.03.013"
+      },
+      {
+        "title": "A Tabu-Search Heuristic for the Capacitated Lot-Sizing Problem with Set-up Carryover",
+        "year": 2001,
+        "venue": "Management Science",
+        "citation_count": 104,
+        "url": "https://doi.org/10.1287/mnsc.47.6.851.9813"
+      },
+      {
+        "title": "A qualitative analysis of leadership and quality improvement",
+        "year": 1998,
+        "venue": "The Leadership Quarterly",
+        "citation_count": 97,
+        "url": "https://doi.org/10.1016/s1048-9843(98)90004-2"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5101729173",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:36:08.970082"
+  },
+  {
+    "id": "cu_oa_disc_a5021889777",
+    "first_name": "Nuttha",
+    "last_name": "Lumlertgul",
+    "academic_title_th": "ผศ.ดร.พญ.",
+    "full_name_th": "ผศ.ดร.พญ. ณุทฐา ลัมเลิศกุล",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "สาขาวิชาโรคไต ภาควิชาอายุรศาสตร์",
+    "total_citations": 4323,
+    "h_index": 31,
+    "research_interests": [
+      "Acute Kidney Injury Research",
+      "Sepsis Diagnosis and Treatment",
+      "Dialysis and Renal Disease Management"
+    ],
+    "featured_publications": [
+      {
+        "title": "COVID-19-associated acute kidney injury: consensus report of the 25th Acute Disease Quality Initiative (ADQI) Workgroup",
+        "year": 2020,
+        "venue": "Nature Reviews Nephrology",
+        "citation_count": 714,
+        "url": "https://doi.org/10.1038/s41581-020-00356-5"
+      },
+      {
+        "title": "Acute kidney injury",
+        "year": 2025,
+        "venue": "The Lancet",
+        "citation_count": 356,
+        "url": "https://doi.org/10.1016/s0140-6736(24)02385-7"
+      },
+      {
+        "title": "Delayed versus early initiation of renal replacement therapy for severe acute kidney injury: a systematic review and individual patient data meta-analysis of randomised clinical trials",
+        "year": 2020,
+        "venue": "The Lancet",
+        "citation_count": 247,
+        "url": "https://doi.org/10.1016/s0140-6736(20)30531-6"
+      },
+      {
+        "title": "Acute kidney injury in patients treated with immune checkpoint inhibitors",
+        "year": 2021,
+        "venue": "Journal for ImmunoTherapy of Cancer",
+        "citation_count": 240,
+        "url": "https://doi.org/10.1136/jitc-2021-003467"
+      },
+      {
+        "title": "Acute kidney injury in patients with cirrhosis: Acute Disease Quality Initiative (ADQI) and International Club of Ascites (ICA) joint multidisciplinary consensus meeting",
+        "year": 2024,
+        "venue": "Journal of Hepatology",
+        "citation_count": 211,
+        "url": "https://doi.org/10.1016/j.jhep.2024.03.031"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5021889777",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:36:10.614454"
+  },
+  {
+    "id": "cu_oa_disc_a5007823738",
+    "first_name": "Anongnat",
+    "last_name": "Somwangthanaroj",
+    "academic_title_th": "ศ.ดร.",
+    "full_name_th": "ศ.ดร. อนงค์นาฏ สมหวังธนโรจน์",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมเคมี",
+    "total_citations": 3105,
+    "h_index": 30,
+    "research_interests": [
+      "Advanced battery technologies research",
+      "Polymer Nanocomposites and Properties",
+      "Electrocatalysts for Energy Conversion"
+    ],
+    "featured_publications": [
+      {
+        "title": "Rheology of Polypropylene/Clay Hybrid Materials",
+        "year": 2001,
+        "venue": "Macromolecules",
+        "citation_count": 650,
+        "url": "https://doi.org/10.1021/ma001122e"
+      },
+      {
+        "title": "Cocrystal Formation during Cogrinding and Storage is Mediated by Amorphous Phase",
+        "year": 2006,
+        "venue": "Pharmaceutical Research",
+        "citation_count": 247,
+        "url": "https://doi.org/10.1007/s11095-006-9110-6"
+      },
+      {
+        "title": "Effect of clay on mechanical and gas barrier properties of blown film LDPE/clay nanocomposites",
+        "year": 2007,
+        "venue": "Journal of Applied Polymer Science",
+        "citation_count": 135,
+        "url": "https://doi.org/10.1002/app.26839"
+      },
+      {
+        "title": "Development of non-water soluble, ductile mung bean starch based edible film with oxygen barrier and heat sealability",
+        "year": 2016,
+        "venue": "Carbohydrate Polymers",
+        "citation_count": 110,
+        "url": "https://doi.org/10.1016/j.carbpol.2016.09.007"
+      },
+      {
+        "title": "Rapid biodegradation of high molecular weight semi-crystalline polylactic acid at ambient temperature via enzymatic and alkaline hydrolysis by a defined bacterial consortium",
+        "year": 2022,
+        "venue": "Polymer Degradation and Stability",
+        "citation_count": 92,
+        "url": "https://doi.org/10.1016/j.polymdegradstab.2022.110051"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5007823738",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:36:11.153199"
+  },
+  {
+    "id": "cu_oa_disc_a5036226683",
+    "first_name": "Supareak",
+    "last_name": "Praserthdam",
+    "academic_title_th": "ศ.ดร.",
+    "full_name_th": "ศ.ดร. ศุภฤกษ์ ประเสริฐธรรม",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมเคมี",
+    "total_citations": 2816,
+    "h_index": 29,
+    "research_interests": [
+      "Catalytic Processes in Materials Science",
+      "Electrocatalysts for Energy Conversion",
+      "Advanced Photocatalysis Techniques"
+    ],
+    "featured_publications": [
+      {
+        "title": "Novel electrodes for supercapacitor: Conducting polymers, metal oxides, chalcogenides, carbides, nitrides, MXenes, and their composites with graphene",
+        "year": 2021,
+        "venue": "Journal of Alloys and Compounds",
+        "citation_count": 254,
+        "url": "https://doi.org/10.1016/j.jallcom.2021.161998"
+      },
+      {
+        "title": "Recent developments on bismuth oxyhalides (BiOX; X = Cl, Br, I) based ternary nanocomposite photocatalysts for environmental applications",
+        "year": 2021,
+        "venue": "Chemosphere",
+        "citation_count": 143,
+        "url": "https://doi.org/10.1016/j.chemosphere.2021.131054"
+      },
+      {
+        "title": "Critical roles of metal–organic frameworks in improving the Zn anode in aqueous zinc-ion batteries",
+        "year": 2023,
+        "venue": "Chemical Engineering Journal",
+        "citation_count": 142,
+        "url": "https://doi.org/10.1016/j.cej.2023.141334"
+      },
+      {
+        "title": "The Influence of Dimethyl Sulfoxide as Electrolyte Additive on Anodic Dissolution of Alkaline Zinc-Air Flow Battery",
+        "year": 2019,
+        "venue": "Scientific Reports",
+        "citation_count": 120,
+        "url": "https://doi.org/10.1038/s41598-019-51412-5"
+      },
+      {
+        "title": "Strategic Design and Insights into Lanthanum and Strontium Perovskite Oxides for Oxygen Reduction and Oxygen Evolution Reactions",
+        "year": 2024,
+        "venue": "Small",
+        "citation_count": 85,
+        "url": "https://doi.org/10.1002/smll.202308443"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5036226683",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:36:12.316350"
+  },
+  {
+    "id": "cu_oa_disc_a5090863346",
+    "first_name": "Manunya",
+    "last_name": "Okhawilai",
+    "academic_title_th": "รศ.ดร.",
+    "full_name_th": "รศ.ดร. มนัญญา โอกวิไล",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ภาควิชาเคมีเทคนิค",
+    "total_citations": 2584,
+    "h_index": 29,
+    "research_interests": [
+      "Advanced battery technologies research",
+      "Advanced Battery Materials and Technologies",
+      "Electrospun Nanofibers in Biomedical Applications"
+    ],
+    "featured_publications": [
+      {
+        "title": "Modulating Zn deposition via ceramic-cellulose separator with interfacial polarization effect for durable zinc anode",
+        "year": 2021,
+        "venue": "Nano Energy",
+        "citation_count": 317,
+        "url": "https://doi.org/10.1016/j.nanoen.2021.106322"
+      },
+      {
+        "title": "Properties enhancement of carboxymethyl cellulose with thermo-responsive polymer as solid polymer electrolyte for zinc ion battery",
+        "year": 2020,
+        "venue": "Scientific Reports",
+        "citation_count": 105,
+        "url": "https://doi.org/10.1038/s41598-020-69521-x"
+      },
+      {
+        "title": "Ti3C2 MXene-Encapsulated NiFe-LDH Hybrid Anode for High-Performance Lithium-Ion Batteries and Capacitors",
+        "year": 2021,
+        "venue": "ACS Applied Energy Materials",
+        "citation_count": 103,
+        "url": "https://doi.org/10.1021/acsaem.1c01171"
+      },
+      {
+        "title": "Preparation of Thai silk fibroin/gelatin electrospun fiber mats for controlled release applications",
+        "year": 2010,
+        "venue": "International Journal of Biological Macromolecules",
+        "citation_count": 87,
+        "url": "https://doi.org/10.1016/j.ijbiomac.2010.02.008"
+      },
+      {
+        "title": "Highly filled graphite/graphene/carbon nanotube in polybenzoxazine composites for bipolar plate in PEMFC",
+        "year": 2020,
+        "venue": "International Journal of Hydrogen Energy",
+        "citation_count": 84,
+        "url": "https://doi.org/10.1016/j.ijhydene.2020.08.006"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5090863346",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:36:13.645801"
+  },
+  {
+    "id": "cu_oa_disc_a5036123141",
+    "first_name": "Yupin",
+    "last_name": "Aungsuroch",
+    "academic_title_th": "ศ.",
+    "full_name_th": "ศ. ยุพิน อังสุโรจน์",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะพยาบาลศาสตร์",
+    "department_th": "ภาควิชาการพยาบาลพื้นฐาน",
+    "total_citations": 3312,
+    "h_index": 28,
+    "research_interests": [
+      "Nursing education and management",
+      "Healthcare professionals’ stress and burnout",
+      "Cardiac Health and Mental Health"
+    ],
+    "featured_publications": [
+      {
+        "title": "Importance of work environments on hospital outcomes in nine countries",
+        "year": 2011,
+        "venue": "International Journal for Quality in Health Care",
+        "citation_count": 466,
+        "url": "https://doi.org/10.1093/intqhc/mzr022"
+      },
+      {
+        "title": "Job satisfaction in nursing: a concept analysis study",
+        "year": 2015,
+        "venue": "International Nursing Review",
+        "citation_count": 206,
+        "url": "https://doi.org/10.1111/inr.12215"
+      },
+      {
+        "title": "Work stress, perceived social support, self‐efficacy and burnout among Chinese registered nurses",
+        "year": 2019,
+        "venue": "Journal of Nursing Management",
+        "citation_count": 198,
+        "url": "https://doi.org/10.1111/jonm.12828"
+      },
+      {
+        "title": "Establishing appropriate sample size for developing and validating a questionnaire in nursing research",
+        "year": 2021,
+        "venue": "Belitung Nursing Journal",
+        "citation_count": 185,
+        "url": "https://doi.org/10.33546/bnj.1927"
+      },
+      {
+        "title": "Job Stress, Psychological Capital, Perceived Social Support, and Occupational Burnout Among Hospital Nurses",
+        "year": 2021,
+        "venue": "Journal of Nursing Scholarship",
+        "citation_count": 160,
+        "url": "https://doi.org/10.1111/jnu.12642"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5036123141",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:36:14.576942"
+  },
+  {
+    "id": "cmu_oa_disc_a5074956117",
+    "first_name": "Siriporn",
+    "last_name": "C. Chattipakorn",
+    "academic_title_th": "ศ.พญ.",
+    "full_name_th": "ศ.พญ. ศิริพร ฉัตรชัยกุล",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาสรีรวิทยา",
+    "total_citations": 11289,
+    "h_index": 56,
+    "research_interests": [
+      "Mitochondrial Function and Pathology",
+      "Adipose Tissue and Metabolism",
+      "Hemoglobinopathies and Related Disorders"
+    ],
+    "featured_publications": [
+      {
+        "title": "Role of D-galactose-induced brain aging and its potential used for therapeutic interventions",
+        "year": 2017,
+        "venue": "Experimental Gerontology",
+        "citation_count": 338,
+        "url": "https://doi.org/10.1016/j.exger.2017.10.029"
+      },
+      {
+        "title": "SGLT2-inhibitor and DPP-4 inhibitor improve brain function via attenuating mitochondrial dysfunction, insulin resistance, inflammation, and apoptosis in HFD-induced obese rats",
+        "year": 2017,
+        "venue": "Toxicology and Applied Pharmacology",
+        "citation_count": 279,
+        "url": "https://doi.org/10.1016/j.taap.2017.08.005"
+      },
+      {
+        "title": "Effects of metformin on learning and memory behaviors and brain mitochondrial functions in high fat diet induced insulin resistant rats",
+        "year": 2012,
+        "venue": "Life Sciences",
+        "citation_count": 237,
+        "url": "https://doi.org/10.1016/j.lfs.2012.08.017"
+      },
+      {
+        "title": "DPP-4 inhibitors improve cognition and brain mitochondrial function of insulin-resistant rats",
+        "year": 2013,
+        "venue": "Journal of Endocrinology",
+        "citation_count": 211,
+        "url": "https://doi.org/10.1530/joe-12-0521"
+      },
+      {
+        "title": "RETRACTED: Effects of high-fat diet on insulin receptor function in rat hippocampus and the level of neuronal corticosterone",
+        "year": 2011,
+        "venue": "Life Sciences",
+        "citation_count": 208,
+        "url": "https://doi.org/10.1016/j.lfs.2011.02.003"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5074956117",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:11.193499"
+  },
+  {
+    "id": "cmu_oa_disc_a5033199664",
+    "first_name": "Hien",
+    "last_name": "Van Doan",
+    "academic_title_th": "ศ.ดร.",
+    "full_name_th": "ศ.ดร. เฮียน วัน ดวน",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะเกษตรศาสตร์",
+    "department_th": "ภาควิชาสัตวศาสตร์และสัตว์น้ำ",
+    "total_citations": 9101,
+    "h_index": 56,
+    "research_interests": [
+      "Aquaculture disease management and microbiota",
+      "Aquaculture Nutrition and Growth",
+      "Aquatic life and conservation"
+    ],
+    "featured_publications": [
+      {
+        "title": "Probiotic application for sustainable aquaculture",
+        "year": 2018,
+        "venue": "Reviews in Aquaculture",
+        "citation_count": 417,
+        "url": "https://doi.org/10.1111/raq.12272"
+      },
+      {
+        "title": "Antiparasitic and Antibacterial Functionality of Essential Oils: An Alternative Approach for Sustainable Aquaculture",
+        "year": 2021,
+        "venue": "Pathogens",
+        "citation_count": 210,
+        "url": "https://doi.org/10.3390/pathogens10020185"
+      },
+      {
+        "title": "Replacement of Fish Meal by Black Soldier Fly (Hermetia illucens) Larvae Meal: Effects on Growth, Haematology, and Skin Mucus Immunity of Nile Tilapia, Oreochromis niloticus",
+        "year": 2021,
+        "venue": "Animals",
+        "citation_count": 190,
+        "url": "https://doi.org/10.3390/ani11010193"
+      },
+      {
+        "title": "Boosting Immune Function and Disease Bio-Control Through Environment-Friendly and Sustainable Approaches in Finfish Aquaculture: Herbal Therapy Scenarios",
+        "year": 2020,
+        "venue": "Reviews in Fisheries Science & Aquaculture",
+        "citation_count": 183,
+        "url": "https://doi.org/10.1080/23308249.2020.1731420"
+      },
+      {
+        "title": "Ginger (Zingiber officinale) extract affects growth performance, body composition, haematology, serum and mucosal immune parameters in common carp (Cyprinus carpio)",
+        "year": 2020,
+        "venue": "Fish & Shellfish Immunology",
+        "citation_count": 182,
+        "url": "https://doi.org/10.1016/j.fsi.2020.01.032"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5033199664",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:12.374920"
+  },
+  {
+    "id": "cmu_oa_disc_a5069540900",
+    "first_name": "Chaiyavat",
+    "last_name": "Chaiyasut",
+    "academic_title_th": "ศ.ดร.",
+    "full_name_th": "ศ.ดร. ไชยวัฒน์ ไชยสุทธ์",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "ภาควิชาเทคโนโลยีเภสัชกรรม",
+    "total_citations": 7670,
+    "h_index": 49,
+    "research_interests": [
+      "Gut microbiota and health",
+      "Probiotics and Fermented Foods",
+      "Phytochemicals and Antioxidant Activities"
+    ],
+    "featured_publications": [
+      {
+        "title": "Role of gut-brain axis, gut microbial composition, and probiotic intervention in Alzheimer's disease",
+        "year": 2020,
+        "venue": "Life Sciences",
+        "citation_count": 483,
+        "url": "https://doi.org/10.1016/j.lfs.2020.118627"
+      },
+      {
+        "title": "A Review of the Role of Green Tea (Camellia sinensis) in Antiphotoaging, Stress Resistance, Neuroprotection, and Autophagy",
+        "year": 2019,
+        "venue": "Nutrients",
+        "citation_count": 452,
+        "url": "https://doi.org/10.3390/nu11020474"
+      },
+      {
+        "title": "Decreased microglial activation through gut-brain axis by prebiotics, probiotics, or synbiotics effectively restored cognitive function in obese-insulin resistant rats",
+        "year": 2018,
+        "venue": "Journal of Neuroinflammation",
+        "citation_count": 269,
+        "url": "https://doi.org/10.1186/s12974-018-1055-2"
+      },
+      {
+        "title": "Gut Microbiota in Anxiety and Depression: Unveiling the Relationships and Management Options",
+        "year": 2023,
+        "venue": "Pharmaceuticals",
+        "citation_count": 155,
+        "url": "https://doi.org/10.3390/ph16040565"
+      },
+      {
+        "title": "Antioxidative Activity, Polyphenolic Content and Anti-Glycation Effect of Some Thai Medicinal Plants Traditionally Used in Diabetic Patients",
+        "year": 2009,
+        "venue": "Medicinal Chemistry",
+        "citation_count": 155,
+        "url": "https://doi.org/10.2174/157340609787582918"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5069540900",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:13.612087"
+  },
+  {
+    "id": "cmu_oa_disc_a5049257773",
+    "first_name": "Nakarin",
+    "last_name": "Suwannarach",
+    "academic_title_th": "รศ.ดร.",
+    "full_name_th": "รศ.ดร. นครินทร์ สุวรรณราช",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ศูนย์ความเป็นเลิศด้านความหลากหลายของจุลินทรีย์และการใช้ประโยชน์อย่างยั่งยืน",
+    "total_citations": 8351,
+    "h_index": 45,
+    "research_interests": [
+      "Plant Pathogens and Fungal Diseases",
+      "Mycorrhizal Fungi and Plant Interactions",
+      "Fungal Biology and Applications"
+    ],
+    "featured_publications": [
+      {
+        "title": "The amazing potential of fungi: 50 ways we can exploit fungi industrially",
+        "year": 2019,
+        "venue": "Fungal Diversity",
+        "citation_count": 823,
+        "url": "https://doi.org/10.1007/s13225-019-00430-9"
+      },
+      {
+        "title": "Outline of Fungi and fungus-like taxa – 2021",
+        "year": 2022,
+        "venue": "Mycosphere",
+        "citation_count": 525,
+        "url": "https://doi.org/10.5943/mycosphere/13/1/2"
+      },
+      {
+        "title": "Cultivation of Mushrooms and Their Lignocellulolytic Enzyme Production Through the Utilization of Agro-Industrial Waste",
+        "year": 2020,
+        "venue": "Molecules",
+        "citation_count": 319,
+        "url": "https://doi.org/10.3390/molecules25122811"
+      },
+      {
+        "title": "Fungal diversity notes 1387–1511: taxonomic and phylogenetic contributions on genera and species of fungal taxa",
+        "year": 2021,
+        "venue": "Fungal Diversity",
+        "citation_count": 216,
+        "url": "https://doi.org/10.1007/s13225-021-00489-3"
+      },
+      {
+        "title": "The numbers of fungi: are the most speciose genera truly diverse?",
+        "year": 2022,
+        "venue": "Fungal Diversity",
+        "citation_count": 180,
+        "url": "https://doi.org/10.1007/s13225-022-00501-4"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5049257773",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:14.664904"
+  },
+  {
+    "id": "cmu_oa_disc_a5033090462",
+    "first_name": "Sudarshan",
+    "last_name": "Singh",
+    "academic_title_th": "รศ.ดร.",
+    "full_name_th": "รศ.ดร. สุทาร์ชัน ซิงห์",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+    "total_citations": 6243,
+    "h_index": 41,
+    "research_interests": [
+      "Advanced Drug Delivery Systems",
+      "Advancements in Transdermal Drug Delivery",
+      "Nanoparticles: synthesis and applications"
+    ],
+    "featured_publications": [
+      {
+        "title": "Fabrication of intelligent pH-sensing films with antioxidant potential for monitoring shrimp freshness via the fortification of chitosan matrix with broken Riceberry phenolic extract",
+        "year": 2021,
+        "venue": "Food Chemistry",
+        "citation_count": 176,
+        "url": "https://doi.org/10.1016/j.foodchem.2021.130574"
+      },
+      {
+        "title": "Chitosan-poly(vinyl alcohol) intelligent films fortified with anthocyanins isolated from Clitoria ternatea and Carissa carandas for monitoring beverage freshness",
+        "year": 2021,
+        "venue": "International Journal of Biological Macromolecules",
+        "citation_count": 149,
+        "url": "https://doi.org/10.1016/j.ijbiomac.2021.04.027"
+      },
+      {
+        "title": "Lipid-Based Nanoparticles in Delivering Bioactive Compounds for Improving Therapeutic Efficacy",
+        "year": 2024,
+        "venue": "Pharmaceuticals",
+        "citation_count": 140,
+        "url": "https://doi.org/10.3390/ph17030329"
+      },
+      {
+        "title": "Enhancement of food shelf life with polyvinyl alcohol-chitosan nanocomposite films from bioactive Eucalyptus leaf extracts",
+        "year": 2020,
+        "venue": "Food Bioscience",
+        "citation_count": 127,
+        "url": "https://doi.org/10.1016/j.fbio.2020.100609"
+      },
+      {
+        "title": "A critical review on the dissemination of PH and stimuli-responsive polymeric nanoparticular systems to improve drug delivery in cancer therapy",
+        "year": 2023,
+        "venue": "Critical Reviews in Oncology/Hematology",
+        "citation_count": 126,
+        "url": "https://doi.org/10.1016/j.critrevonc.2023.103961"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5033090462",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:15.834482"
+  },
+  {
+    "id": "cmu_oa_disc_a5024388461",
+    "first_name": "Bhagavathi",
+    "last_name": "Sundaram Sivamaruthi",
+    "academic_title_th": "รศ.ดร.",
+    "full_name_th": "รศ.ดร. ภควัทที สุนทารัม ศิวะมารุติ",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+    "total_citations": 5781,
+    "h_index": 41,
+    "research_interests": [
+      "Gut microbiota and health",
+      "Probiotics and Fermented Foods",
+      "Phytochemicals and Antioxidant Activities"
+    ],
+    "featured_publications": [
+      {
+        "title": "Role of gut-brain axis, gut microbial composition, and probiotic intervention in Alzheimer's disease",
+        "year": 2020,
+        "venue": "Life Sciences",
+        "citation_count": 483,
+        "url": "https://doi.org/10.1016/j.lfs.2020.118627"
+      },
+      {
+        "title": "A Review of the Role of Green Tea (Camellia sinensis) in Antiphotoaging, Stress Resistance, Neuroprotection, and Autophagy",
+        "year": 2019,
+        "venue": "Nutrients",
+        "citation_count": 452,
+        "url": "https://doi.org/10.3390/nu11020474"
+      },
+      {
+        "title": "Gut Microbiota in Anxiety and Depression: Unveiling the Relationships and Management Options",
+        "year": 2023,
+        "venue": "Pharmaceuticals",
+        "citation_count": 155,
+        "url": "https://doi.org/10.3390/ph16040565"
+      },
+      {
+        "title": "Physicochemical and antioxidative properties of black, brown and red rice varieties of northern Thailand",
+        "year": 2015,
+        "venue": "Food Science and Technology",
+        "citation_count": 152,
+        "url": "https://doi.org/10.1590/1678-457x.6573"
+      },
+      {
+        "title": "A Review on Role of Microbiome in Obesity and Antiobesity Properties of Probiotic Supplements",
+        "year": 2019,
+        "venue": "BioMed Research International",
+        "citation_count": 126,
+        "url": "https://doi.org/10.1155/2019/3291367"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5024388461",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:17.001118"
+  },
+  {
+    "id": "cmu_oa_disc_a5000257182",
+    "first_name": "Pattara",
+    "last_name": "Khamrin",
+    "academic_title_th": "รศ.ดร.",
+    "full_name_th": "รศ.ดร. ภัทรา คำรินทร์",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะเทคนิคการแพทย์",
+    "department_th": "ศูนย์ความเป็นเลิศด้านไวรัสก่อโรคอุบัติใหม่และอุบัติซ้ำทางเดินอาหาร",
+    "total_citations": 5215,
+    "h_index": 41,
+    "research_interests": [
+      "Viral gastroenteritis research and epidemiology",
+      "Viral Infections and Immunology Research",
+      "Animal Virus Infections Studies"
+    ],
+    "featured_publications": [
+      {
+        "title": "Genetic Diversity of Norovirus and Sapovirus in Hospitalized Infants with Sporadic Cases of Acute Gastroenteritis in Chiang Mai, Thailand",
+        "year": 2004,
+        "venue": "Journal of Clinical Microbiology",
+        "citation_count": 150,
+        "url": "https://doi.org/10.1128/jcm.42.3.1305-1307.2004"
+      },
+      {
+        "title": "Isolation and Molecular Characterization of Aichi Viruses from Fecal Specimens Collected in Japan, Bangladesh, Thailand, and Vietnam",
+        "year": 2007,
+        "venue": "Journal of Clinical Microbiology",
+        "citation_count": 115,
+        "url": "https://doi.org/10.1128/jcm.00525-07"
+      },
+      {
+        "title": "Novel porcine rotavirus of genotype P[27] shares new phylogenetic lineage with G2 porcine rotavirus strain",
+        "year": 2007,
+        "venue": "Virology",
+        "citation_count": 110,
+        "url": "https://doi.org/10.1016/j.virol.2006.12.004"
+      },
+      {
+        "title": "Enteric and non-enteric adenoviruses associated with acute gastroenteritis in pediatric patients in Thailand, 2011 to 2017",
+        "year": 2019,
+        "venue": "PLoS ONE",
+        "citation_count": 100,
+        "url": "https://doi.org/10.1371/journal.pone.0220263"
+      },
+      {
+        "title": "A single-tube multiplex PCR for rapid detection in feces of 10 viruses causing diarrhea",
+        "year": 2011,
+        "venue": "Journal of Virological Methods",
+        "citation_count": 92,
+        "url": "https://doi.org/10.1016/j.jviromet.2011.02.012"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5000257182",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:18.292497"
+  },
+  {
+    "id": "cmu_oa_disc_a5007389946",
+    "first_name": "Pensak",
+    "last_name": "Jantrawut",
+    "academic_title_th": "รศ.ดร.",
+    "full_name_th": "รศ.ดร. เพ็ญศิริ จันทราพูน",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "ภาควิชาเทคโนโลยีเภสัชกรรม",
+    "total_citations": 3606,
+    "h_index": 35,
+    "research_interests": [
+      "Nanocomposite Films for Food Packaging",
+      "biodegradable polymer synthesis and properties",
+      "Electrospun Nanofibers in Biomedical Applications"
+    ],
+    "featured_publications": [
+      {
+        "title": "The Cannabis Terpenes",
+        "year": 2020,
+        "venue": "Molecules",
+        "citation_count": 195,
+        "url": "https://doi.org/10.3390/molecules25245792"
+      },
+      {
+        "title": "Anti-inflammatory activity of gel containing novel elastic niosomes entrapped with diclofenac diethylammonium",
+        "year": 2008,
+        "venue": "International Journal of Pharmaceutics",
+        "citation_count": 170,
+        "url": "https://doi.org/10.1016/j.ijpharm.2008.04.033"
+      },
+      {
+        "title": "Characterization of Chitosan Film Incorporated with Curcumin Extract",
+        "year": 2021,
+        "venue": "Polymers",
+        "citation_count": 153,
+        "url": "https://doi.org/10.3390/polym13060963"
+      },
+      {
+        "title": "Effect of Plasticizer Type on Tensile Property and In Vitro Indomethacin Release of Thin Films Based on Low-Methoxyl Pectin",
+        "year": 2017,
+        "venue": "Polymers",
+        "citation_count": 126,
+        "url": "https://doi.org/10.3390/polym9070289"
+      },
+      {
+        "title": "Synthesis, Characterization, and Application of Carboxymethyl Cellulose from Asparagus Stalk End",
+        "year": 2020,
+        "venue": "Polymers",
+        "citation_count": 105,
+        "url": "https://doi.org/10.3390/polym13010081"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5007389946",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:19.451426"
+  },
+  {
+    "id": "cmu_oa_disc_a5044507863",
+    "first_name": "Somporn",
+    "last_name": "Chantara",
+    "academic_title_th": "ศ.ดร.",
+    "full_name_th": "ศ.ดร. สมพร จันทรา",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ภาควิชาเคมี",
+    "total_citations": 3527,
+    "h_index": 35,
+    "research_interests": [
+      "Atmospheric chemistry and aerosols",
+      "Air Quality and Health Impacts",
+      "Toxic Organic Pollutants Impact"
+    ],
+    "featured_publications": [
+      {
+        "title": "Molecular markers for biomass burning associated with the characterization of PM2.5 and component sources during dry season haze episodes in Upper South East Asia",
+        "year": 2018,
+        "venue": "The Science of The Total Environment",
+        "citation_count": 150,
+        "url": "https://doi.org/10.1016/j.scitotenv.2018.12.201"
+      },
+      {
+        "title": "Black carbon over an urban atmosphere in northern peninsular Southeast Asia: Characteristics, source apportionment, and associated health risks",
+        "year": 2019,
+        "venue": "Environmental Pollution",
+        "citation_count": 141,
+        "url": "https://doi.org/10.1016/j.envpol.2019.113871"
+      },
+      {
+        "title": "PM10-bound polycyclic aromatic hydrocarbons in Chiang Mai (Thailand): Seasonal variations, source identification, health risk assessment and their relationship to air-mass movement",
+        "year": 2013,
+        "venue": "Atmospheric Research",
+        "citation_count": 113,
+        "url": "https://doi.org/10.1016/j.atmosres.2012.12.014"
+      },
+      {
+        "title": "Determination of PM2.5 and polycyclic aromatic hydrocarbons from incense burning emission at shrine for health risk assessment",
+        "year": 2016,
+        "venue": "Atmospheric Pollution Research",
+        "citation_count": 112,
+        "url": "https://doi.org/10.1016/j.apr.2016.03.002"
+      },
+      {
+        "title": "Interactions between biomass-burning aerosols and clouds over Southeast Asia: Current status, challenges, and perspectives",
+        "year": 2014,
+        "venue": "Environmental Pollution",
+        "citation_count": 112,
+        "url": "https://doi.org/10.1016/j.envpol.2014.06.036"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5044507863",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:19.873389"
+  },
+  {
+    "id": "cmu_oa_disc_a5002647972",
+    "first_name": "Jaturong",
+    "last_name": "Kumla",
+    "academic_title_th": "ผศ.ดร.",
+    "full_name_th": "ผศ.ดร. จตุรงค์ คูมลา",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ศูนย์ความเป็นเลิศด้านความหลากหลายของจุลินทรีย์และการใช้ประโยชน์อย่างยั่งยืน",
+    "total_citations": 5666,
+    "h_index": 32,
+    "research_interests": [
+      "Plant Pathogens and Fungal Diseases",
+      "Mycorrhizal Fungi and Plant Interactions",
+      "Fungal Biology and Applications"
+    ],
+    "featured_publications": [
+      {
+        "title": "The amazing potential of fungi: 50 ways we can exploit fungi industrially",
+        "year": 2019,
+        "venue": "Fungal Diversity",
+        "citation_count": 823,
+        "url": "https://doi.org/10.1007/s13225-019-00430-9"
+      },
+      {
+        "title": "Outline of Fungi and fungus-like taxa – 2021",
+        "year": 2022,
+        "venue": "Mycosphere",
+        "citation_count": 525,
+        "url": "https://doi.org/10.5943/mycosphere/13/1/2"
+      },
+      {
+        "title": "Cultivation of Mushrooms and Their Lignocellulolytic Enzyme Production Through the Utilization of Agro-Industrial Waste",
+        "year": 2020,
+        "venue": "Molecules",
+        "citation_count": 319,
+        "url": "https://doi.org/10.3390/molecules25122811"
+      },
+      {
+        "title": "Fungal diversity notes 1387–1511: taxonomic and phylogenetic contributions on genera and species of fungal taxa",
+        "year": 2021,
+        "venue": "Fungal Diversity",
+        "citation_count": 216,
+        "url": "https://doi.org/10.1007/s13225-021-00489-3"
+      },
+      {
+        "title": "The numbers of fungi: are the most speciose genera truly diverse?",
+        "year": 2022,
+        "venue": "Fungal Diversity",
+        "citation_count": 180,
+        "url": "https://doi.org/10.1007/s13225-022-00501-4"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5002647972",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:20.863898"
+  },
+  {
+    "id": "cmu_oa_disc_a5067219723",
+    "first_name": "Pojsakorn",
+    "last_name": "Danpanichkul",
+    "academic_title_th": "ผศ.พญ.",
+    "full_name_th": "ผศ.พญ. พจสกร ด่านพานิชกุล",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาจุลชีววิทยา",
+    "total_citations": 5642,
+    "h_index": 32,
+    "research_interests": [
+      "Liver Disease Diagnosis and Treatment",
+      "Alcohol Consumption and Health Effects",
+      "Liver Disease and Transplantation"
+    ],
+    "featured_publications": [
+      {
+        "title": "Global, regional, and national prevalence of adult overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021",
+        "year": 2025,
+        "venue": "The Lancet",
+        "citation_count": 1044,
+        "url": "https://doi.org/10.1016/s0140-6736(25)00355-1"
+      },
+      {
+        "title": "Burden of 375 diseases and injuries, risk-attributable burden of 88 risk factors, and healthy life expectancy in 204 countries and territories, including 660 subnational locations, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
+        "year": 2025,
+        "venue": "The Lancet",
+        "citation_count": 750,
+        "url": "https://doi.org/10.1016/s0140-6736(25)01637-x"
+      },
+      {
+        "title": "Global burden of 292 causes of death in 204 countries and territories and 660 subnational locations, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023",
+        "year": 2025,
+        "venue": "The Lancet",
+        "citation_count": 486,
+        "url": "https://doi.org/10.1016/s0140-6736(25)01917-8"
+      },
+      {
+        "title": "Global, regional, and national prevalence of child and adolescent overweight and obesity, 1990–2021, with forecasts to 2050: a forecasting study for the Global Burden of Disease Study 2021",
+        "year": 2025,
+        "venue": "The Lancet",
+        "citation_count": 438,
+        "url": "https://doi.org/10.1016/s0140-6736(25)00397-6"
+      },
+      {
+        "title": "Hepatocellular carcinoma: updates on epidemiology, surveillance, diagnosis and treatment",
+        "year": 2024,
+        "venue": "Clinical and Molecular Hepatology",
+        "citation_count": 290,
+        "url": "https://doi.org/10.3350/cmh.2024.0824"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5067219723",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:21.752050"
+  },
+  {
+    "id": "cmu_oa_disc_a5082011381",
+    "first_name": "Imjai",
+    "last_name": "Chitapanarux",
+    "academic_title_th": "รศ.พญ.",
+    "full_name_th": "รศ.พญ. อิ่มใจ จิตติพบสุข",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชารังสีรักษา",
+    "total_citations": 3577,
+    "h_index": 31,
+    "research_interests": [
+      "Head and Neck Cancer Studies",
+      "Advanced Radiotherapy Techniques",
+      "Endometrial and Cervical Cancer Treatments"
+    ],
+    "featured_publications": [
+      {
+        "title": "Role of radiotherapy fractionation in head and neck cancers (MARCH): an updated meta-analysis",
+        "year": 2017,
+        "venue": "The Lancet Oncology",
+        "citation_count": 344,
+        "url": "https://doi.org/10.1016/s1470-2045(17)30458-8"
+      },
+      {
+        "title": "Randomized controlled trial of live lactobacillus acidophilus plus bifidobacterium bifidum in prophylaxis of diarrhea during radiotherapy in cervical cancer patients",
+        "year": 2010,
+        "venue": "Radiation Oncology",
+        "citation_count": 262,
+        "url": "https://doi.org/10.1186/1748-717x-5-31"
+      },
+      {
+        "title": "Chemoradiation comparing cisplatin versus carboplatin in locally advanced nasopharyngeal cancer: Randomised, non-inferiority, open trial",
+        "year": 2007,
+        "venue": "European Journal of Cancer",
+        "citation_count": 157,
+        "url": "https://doi.org/10.1016/j.ejca.2007.03.022"
+      },
+      {
+        "title": "Concurrent mitomycin C, 5-fluorouracil, and radiotherapy in the treatment of locally advanced carcinoma of the cervix: a randomized trial",
+        "year": 2003,
+        "venue": "International Journal of Radiation Oncology*Biology*Physics",
+        "citation_count": 156,
+        "url": "https://doi.org/10.1016/s0360-3016(02)04405-x"
+      },
+      {
+        "title": "National and Subnational Population-Based Incidence of Cancer in Thailand: Assessing Cancers with the Highest Burdens",
+        "year": 2017,
+        "venue": "Cancers",
+        "citation_count": 128,
+        "url": "https://doi.org/10.3390/cancers9080108"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5082011381",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:23.136172"
+  },
+  {
+    "id": "cmu_oa_disc_a5006468349",
+    "first_name": "Supachoke",
+    "last_name": "Mangmool",
+    "academic_title_th": "รศ.ดร.",
+    "full_name_th": "รศ.ดร. ศุภโชค มั่งมูล",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "ภาควิชาการบริบาลเภสัชกรรม",
+    "total_citations": 3330,
+    "h_index": 30,
+    "research_interests": [
+      "Receptor Mechanisms and Signaling",
+      "Cardiac Fibrosis and Remodeling",
+      "Peptidase Inhibition and Analysis"
+    ],
+    "featured_publications": [
+      {
+        "title": "Maximizing total phenolics, total flavonoids contents and antioxidant activity of Moringa oleifera leaf extract by the appropriate extraction method",
+        "year": 2012,
+        "venue": "Industrial Crops and Products",
+        "citation_count": 628,
+        "url": "https://doi.org/10.1016/j.indcrop.2012.09.021"
+      },
+      {
+        "title": "Gi/o Protein-Dependent and -Independent Actions of Pertussis Toxin (PTX)",
+        "year": 2011,
+        "venue": "Toxins",
+        "citation_count": 214,
+        "url": "https://doi.org/10.3390/toxins3070884"
+      },
+      {
+        "title": "β-Arrestin–dependent activation of Ca2+/calmodulin kinase II after β1–adrenergic receptor stimulation",
+        "year": 2010,
+        "venue": "The Journal of Cell Biology",
+        "citation_count": 154,
+        "url": "https://doi.org/10.1083/jcb.200911047"
+      },
+      {
+        "title": "Therapeutic Targets for the Treatment of Cardiac Fibrosis and Cancer: Focusing on TGF-β Signaling",
+        "year": 2020,
+        "venue": "Frontiers in Cardiovascular Medicine",
+        "citation_count": 150,
+        "url": "https://doi.org/10.3389/fcvm.2020.00034"
+      },
+      {
+        "title": "Gα12/13- and Reactive Oxygen Species-dependent Activation of c-Jun NH2-terminal Kinase and p38 Mitogen-activated Protein Kinase by Angiotensin Receptor Stimulation in Rat Neonatal Cardiomyocytes",
+        "year": 2005,
+        "venue": "Journal of Biological Chemistry",
+        "citation_count": 139,
+        "url": "https://doi.org/10.1074/jbc.m409710200"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5006468349",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:24.327111"
+  },
+  {
+    "id": "cmu_oa_disc_a5080137177",
+    "first_name": "Milan",
+    "last_name": "C. Samarakoon",
+    "academic_title_th": "อ.ดร.",
+    "full_name_th": "อ.ดร. มิลาน ซี. สามารคูน",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะเกษตรศาสตร์",
+    "department_th": "ภาควิชากีฏวิทยาและโรคพืช",
+    "total_citations": 5610,
+    "h_index": 29,
+    "research_interests": [
+      "Plant Pathogens and Fungal Diseases",
+      "Mycorrhizal Fungi and Plant Interactions",
+      "Fungal Biology and Applications"
+    ],
+    "featured_publications": [
+      {
+        "title": "FungalTraits: a user-friendly traits database of fungi and fungus-like stramenopiles",
+        "year": 2020,
+        "venue": "Fungal Diversity",
+        "citation_count": 1187,
+        "url": "https://doi.org/10.1007/s13225-020-00466-2"
+      },
+      {
+        "title": "Fungal diversity notes 929–1035: taxonomic and phylogenetic contributions on genera and species of fungi",
+        "year": 2019,
+        "venue": "Fungal Diversity",
+        "citation_count": 354,
+        "url": "https://doi.org/10.1007/s13225-019-00421-w"
+      },
+      {
+        "title": "Notes for genera: Ascomycota",
+        "year": 2017,
+        "venue": "Fungal Diversity",
+        "citation_count": 334,
+        "url": "https://doi.org/10.1007/s13225-017-0386-0"
+      },
+      {
+        "title": "Fungal diversity notes 491–602: taxonomic and phylogenetic contributions to fungal taxa",
+        "year": 2017,
+        "venue": "Fungal Diversity",
+        "citation_count": 325,
+        "url": "https://doi.org/10.1007/s13225-017-0378-0"
+      },
+      {
+        "title": "Fungal diversity notes 1151–1276: taxonomic and phylogenetic contributions on genera and species of fungal taxa",
+        "year": 2020,
+        "venue": "Fungal Diversity",
+        "citation_count": 289,
+        "url": "https://doi.org/10.1007/s13225-020-00439-5"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5080137177",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:26.058878"
+  },
+  {
+    "id": "cmu_oa_disc_a5057087319",
+    "first_name": "Danushka",
+    "last_name": "S. Tennakoon",
+    "academic_title_th": "อ.ดร.",
+    "full_name_th": "อ.ดร. ดานุชกา เอส. เทนนาคูน",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ศูนย์ความเป็นเลิศด้านความหลากหลายของจุลินทรีย์และการใช้ประโยชน์อย่างยั่งยืน",
+    "total_citations": 5645,
+    "h_index": 28,
+    "research_interests": [
+      "Plant Pathogens and Fungal Diseases",
+      "Mycorrhizal Fungi and Plant Interactions",
+      "Yeasts and Rust Fungi Studies"
+    ],
+    "featured_publications": [
+      {
+        "title": "The amazing potential of fungi: 50 ways we can exploit fungi industrially",
+        "year": 2019,
+        "venue": "Fungal Diversity",
+        "citation_count": 823,
+        "url": "https://doi.org/10.1007/s13225-019-00430-9"
+      },
+      {
+        "title": "Fungal diversity notes 367–490: taxonomic and phylogenetic contributions to fungal taxa",
+        "year": 2016,
+        "venue": "Fungal Diversity",
+        "citation_count": 528,
+        "url": "https://doi.org/10.1007/s13225-016-0373-x"
+      },
+      {
+        "title": "Fungal diversity notes 929–1035: taxonomic and phylogenetic contributions on genera and species of fungi",
+        "year": 2019,
+        "venue": "Fungal Diversity",
+        "citation_count": 354,
+        "url": "https://doi.org/10.1007/s13225-019-00421-w"
+      },
+      {
+        "title": "Fungal diversity notes 491–602: taxonomic and phylogenetic contributions to fungal taxa",
+        "year": 2017,
+        "venue": "Fungal Diversity",
+        "citation_count": 325,
+        "url": "https://doi.org/10.1007/s13225-017-0378-0"
+      },
+      {
+        "title": "Fungal diversity notes 603–708: taxonomic and phylogenetic notes on genera and species",
+        "year": 2017,
+        "venue": "Fungal Diversity",
+        "citation_count": 311,
+        "url": "https://doi.org/10.1007/s13225-017-0391-3"
+      }
+    ],
+    "openalex_id": "https://openalex.org/A5057087319",
+    "discovered_via": "Stage 6 Footprint 3 (OpenAlex Recent Works Mining)",
+    "ingested_at": "2026-09-20T10:37:27.292181"
+  }
+]

@@ -54,6 +54,8 @@ export interface FacultyMember {
 export interface SearchMatchResult {
   faculty: FacultyMember;
   match_score: number;
+  match_tier?: string;
+  match_tier_label?: string;
   ai_explanation?: string;
   matched_keywords?: string[];
   matching_publications?: string[];

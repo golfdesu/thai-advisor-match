@@ -1,0 +1,126 @@
+{
+  "timestamp": "2026-09-19T23:42:08.922059",
+  "merged_count": 24,
+  "pairs": [
+    {
+      "survivor_id": "ku-vet-010_a2a88b",
+      "donor_id": "kasetsartu_facultyofa_fac_019_019",
+      "reason": "KU Vet Natthasit Tansakul"
+    },
+    {
+      "survivor_id": "cmu-med-011_ba4c79",
+      "donor_id": "cmu_44bea860_4246",
+      "reason": "CMU Med Surapan Khunamornpong"
+    },
+    {
+      "survivor_id": "cmu-sci-012_aa3b4c",
+      "donor_id": "cmu_4610e0bb_2017",
+      "reason": "CMU Sci Prasit Wangpakapattanawong"
+    },
+    {
+      "survivor_id": "cmu_560364fa_6439",
+      "donor_id": "cmu_215d93ff_5129",
+      "reason": "CMU Med Penpitcha Rojpibulsathit"
+    },
+    {
+      "survivor_id": "cmu_d542da29_8423",
+      "donor_id": "wave21_0004_860",
+      "reason": "CMU Agro Tri Indrarini Wirjantoro"
+    },
+    {
+      "survivor_id": "cmu_dent_anak_001",
+      "donor_id": "cmu_103fe821_4247",
+      "reason": "CMU Dent Anak Iamaroon"
+    },
+    {
+      "survivor_id": "md-chula-009_4672bf",
+      "donor_id": "mahidoluni_facultyofm_pisitkun_018",
+      "reason": "CU Med Trairak Pisitkun"
+    },
+    {
+      "survivor_id": "chulalongk_facultyofs_fac_005_005",
+      "donor_id": "cu_cbs_wave11_0324",
+      "reason": "CU Sci Chatchawan Chaisuekul"
+    },
+    {
+      "survivor_id": "cu_sci_wave14_b_0060",
+      "donor_id": "chulalongk_facultyofs_fac_015_015",
+      "reason": "CU Sci Supawan Tantayanon"
+    },
+    {
+      "survivor_id": "cu_ppc_pramoch_001",
+      "donor_id": "wave30_0079_843",
+      "reason": "CU PPC Pramoch Rangsunvigit"
+    },
+    {
+      "survivor_id": "chulalongk_facultyofv_bintvihok_170",
+      "donor_id": "chulalongk_facultyofv_fac_160_160",
+      "reason": "CU Vet Anong Bintvihok"
+    },
+    {
+      "survivor_id": "fca-cu-005_ad2cae",
+      "donor_id": "cu_22cda09a_8885",
+      "reason": "CU CommArts Jessada Salathong"
+    },
+    {
+      "survivor_id": "chulalongk_facultyofv_nuntaphaitoon_092",
+      "donor_id": "wave30_0084_952",
+      "reason": "CU Vet Morakot Nuntaphaitoon"
+    },
+    {
+      "survivor_id": "wave30_0054_565",
+      "donor_id": "wave30_0073_153",
+      "reason": "CU Public Health Montakarn Chuemchit"
+    },
+    {
+      "survivor_id": "wave30_0056_614",
+      "donor_id": "wave30_0074_550",
+      "reason": "CU Public Health Nutta Taneepanichskul"
+    },
+    {
+      "survivor_id": "wave30_0059_226",
+      "donor_id": "wave30_0075_792",
+      "reason": "CU Public Health Pokkate Wongsasuluk"
+    },
+    {
+      "survivor_id": "wave30_0060_848",
+      "donor_id": "wave30_0076_969",
+      "reason": "CU Public Health Pramon Viwattanakulvanid"
+    },
+    {
+      "survivor_id": "wave30_0063_450",
+      "donor_id": "wave30_0079_634",
+      "reason": "CU Public Health Anuchit Phanumartwiwath"
+    },
+    {
+      "survivor_id": "wave30_0065_670",
+      "donor_id": "wave30_0077_267",
+      "reason": "CU Public Health Nuchanad Hounnaklang"
+    },
+    {
+      "survivor_id": "wave30_0066_534",
+      "donor_id": "wave30_0081_112",
+      "reason": "CU Public Health Narumol Bhummaphan"
+    },
+    {
+      "survivor_id": "wave30_0067_643",
+      "donor_id": "wave30_0082_828",
+      "reason": "CU Public Health May Chan Oo"
+    },
+    {
+      "survivor_id": "wave30_0069_680",
+      "donor_id": "wave30_0088_818",
+      "reason": "CU Public Health Ratana Somrongthong"
+    },
+    {
+      "survivor_id": "wave30_0070_930",
+      "donor_id": "wave30_0094_739",
+      "reason": "CU Public Health Usaneya Perngparn"
+    },
+    {
+      "survivor_id": "wave30_0071_680",
+      "donor_id": "wave30_0095_921",
+      "reason": "CU Public Health Khemika Yamarat"
+    }
+  ]
+}

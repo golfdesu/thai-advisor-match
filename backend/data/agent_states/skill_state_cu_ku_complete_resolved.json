@@ -1,0 +1,4567 @@
+{
+  "timestamp": "2026-09-19T23:21:51.136893",
+  "total_targets": 760,
+  "total_resolved": 760,
+  "records": [
+    {
+      "id": "ku_wave18_asc_0126",
+      "first_name": "Sutticha",
+      "last_name": "Na",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "chulalongk_facultyofd_fac_028_028",
+      "first_name": "Chaiyapol",
+      "last_name": "Chaipraphan",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofp_fac_010_010",
+      "first_name": "Noppadol",
+      "last_name": "Muangsin",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0001",
+      "first_name": "Pymporn",
+      "last_name": "Chayaporn",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0003",
+      "first_name": "Karn",
+      "last_name": "Kananurak",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0004",
+      "first_name": "Kwanruedee",
+      "last_name": "Supratid",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_wave17_hum_0167",
+      "first_name": "Chayapoj",
+      "last_name": "Lee",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "cu_ds_wave11_0005",
+      "first_name": "Khanin",
+      "last_name": "Amornvipas",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0011",
+      "first_name": "Chutima",
+      "last_name": "Kittinun",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0012",
+      "first_name": "Chantanee",
+      "last_name": "Chiranthanut",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0020",
+      "first_name": "Tuntika",
+      "last_name": "Tantisuwankul",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_wave18_ifrpd_0035",
+      "first_name": "Orawan",
+      "last_name": "La",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "ku_wave18_msc_0025",
+      "first_name": "Piyada",
+      "last_name": "Low",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "cu_ds_wave11_0006",
+      "first_name": "Khorapin",
+      "last_name": "Phuaphongphankul",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0029",
+      "first_name": "Dithanop",
+      "last_name": "Thavaramara",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0030",
+      "first_name": "Donlaporn",
+      "last_name": "Supawatthanakiat",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0031",
+      "first_name": "Traiwat",
+      "last_name": "Viryasiri",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0023",
+      "first_name": "Natthaphon",
+      "last_name": "Khlipthong",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofa_fac_008_008",
+      "first_name": "Anong",
+      "last_name": "Tantisuwat",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_agro_wave15_0039",
+      "first_name": "Assoc",
+      "last_name": "Siree Chaiseri",
+      "method": "TIER4_AGRO_PDF"
+    },
+    {
+      "id": "ku_agro_wave15_0040",
+      "first_name": "Essor",
+      "last_name": "Onanong Naivikul Academic Expert",
+      "method": "TIER4_AGRO_PDF"
+    },
+    {
+      "id": "ku_agro_wave15_0041",
+      "first_name": "Asst",
+      "last_name": "Tanaboon Sajjaanantakul Academic Expert",
+      "method": "TIER4_AGRO_PDF"
+    },
+    {
+      "id": "ku_agro_wave15_0042",
+      "first_name": "Asso",
+      "last_name": "Prisana Suwannaporn",
+      "method": "TIER4_AGRO_PDF"
+    },
+    {
+      "id": "ku_agro_wave15_0043",
+      "first_name": "Assoc",
+      "last_name": "Parichat Hongsprabhas",
+      "method": "TIER4_AGRO_PDF"
+    },
+    {
+      "id": "ku_sci_wave13_b_0069",
+      "first_name": "Weerasak",
+      "last_name": "Fungfuang",
+      "method": "TIER5_SCI_SLUG"
+    },
+    {
+      "id": "cu_ds_wave11_0018",
+      "first_name": "Daranee",
+      "last_name": "Charoenruengrit",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0013",
+      "first_name": "Chayanon",
+      "last_name": "Wisesjinda",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_wave17_soc_0046",
+      "first_name": "Rewat",
+      "last_name": "Hin",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "ku_wave18_ifrpd_0032",
+      "first_name": "Wanida",
+      "last_name": "Pan",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "cu_ds_wave11_0008",
+      "first_name": "Jindarat",
+      "last_name": "Srirojanapinyo",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0010",
+      "first_name": "Chaloemlak",
+      "last_name": "Somvongs",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofa_fac_001_001",
+      "first_name": "Khaemaporn",
+      "last_name": "Boonbumrung",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0025",
+      "first_name": "Natthapong",
+      "last_name": "Punyoo",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0026",
+      "first_name": "Nuttee",
+      "last_name": "Kerdchuen",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0002",
+      "first_name": "Apiparn",
+      "last_name": "Borisut",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0009",
+      "first_name": "Chalit",
+      "last_name": "Jiravechuntrakul",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0016",
+      "first_name": "Duangdao",
+      "last_name": "Chaisawat",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0021",
+      "first_name": "Thitinun",
+      "last_name": "Tantipisarnkul",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0028",
+      "first_name": "Duangjit",
+      "last_name": "Kiatruangkrai",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0007",
+      "first_name": "Jittrasuda",
+      "last_name": "Premprapha",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0022",
+      "first_name": "Nattapon",
+      "last_name": "Srikongdee",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0024",
+      "first_name": "Nutthaya",
+      "last_name": "Kittimon",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0032",
+      "first_name": "Thavorn",
+      "last_name": "Jirachaiyadech",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_agro_wave15_0038",
+      "first_name": "Assoc",
+      "last_name": "Sanguansri Charoenrein Academic Expert",
+      "method": "TIER4_AGRO_PDF"
+    },
+    {
+      "id": "ku_agro_wave15_0044",
+      "first_name": "Assoc",
+      "last_name": "Warapa Mahakarnchanakul",
+      "method": "TIER4_AGRO_PDF"
+    },
+    {
+      "id": "ku_wave17_econ_0034",
+      "first_name": "Sanit",
+      "last_name": "Kao",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "ku_wave17_env_0038",
+      "first_name": "Maneekarn",
+      "last_name": "Yoo",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "ku_wave18_agrips_0003",
+      "first_name": "Sunisa",
+      "last_name": "Sa",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "ku_wave18_edu_0072",
+      "first_name": "Manatee",
+      "last_name": "Jit",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "ku_wave18_eduks_0004",
+      "first_name": "Apichart",
+      "last_name": "Jai",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "ku_wave18_scie_0090",
+      "first_name": "Chatpawee",
+      "last_name": "Hom",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "cu_ds_wave11_0014",
+      "first_name": "Chalat",
+      "last_name": "Tipakornsatian",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0015",
+      "first_name": "Danai",
+      "last_name": "Thaitakoo",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0017",
+      "first_name": "Decha",
+      "last_name": "Boonkham",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0019",
+      "first_name": "Tatchawan",
+      "last_name": "Kanchanadul",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ds_wave11_0027",
+      "first_name": "Danupong",
+      "last_name": "Srisurichot",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_wave18_srv_0033",
+      "first_name": "Aunchistha",
+      "last_name": "Poo",
+      "method": "TIER3_KUFOREST_OFFLINE"
+    },
+    {
+      "id": "cu_wave19_econ_0018",
+      "first_name": "Phornchanok",
+      "last_name": "Khamphirayot Kouwenberg",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0033",
+      "first_name": "Arnaud",
+      "last_name": "Slastko Dragicsevich",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0049",
+      "first_name": "Sirichan",
+      "last_name": "Sathirakul Techaphapong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0079",
+      "first_name": "Wipawan",
+      "last_name": "Wongsutwun Khongphao",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0086",
+      "first_name": "Parinda",
+      "last_name": "Limpanon Phromrat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0087",
+      "first_name": "Patcharee",
+      "last_name": "Romphayom Wichaidit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0001",
+      "first_name": "Sirirak",
+      "last_name": "Chanthakharu",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0002",
+      "first_name": "Urai",
+      "last_name": "Phongchairerk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0003",
+      "first_name": "Sirin",
+      "last_name": "Theerawatthanasirikul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0004",
+      "first_name": "Maneenuch",
+      "last_name": "Khiaoin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0005",
+      "first_name": "Naparee",
+      "last_name": "Srisowana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0006",
+      "first_name": "Wichan",
+      "last_name": "Dankaonam",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0009",
+      "first_name": "Niyada",
+      "last_name": "Lanthrapsakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0017",
+      "first_name": "Phanwimol",
+      "last_name": "Tanhan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0023",
+      "first_name": "Chaiyan",
+      "last_name": "Khaesondokbua",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0025",
+      "first_name": "Kannika",
+      "last_name": "Siriphatraphawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0026",
+      "first_name": "Suwimon",
+      "last_name": "Phanthudi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0027",
+      "first_name": "Wallaya",
+      "last_name": "Phongphaeo",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0101",
+      "first_name": "Pornpimol",
+      "last_name": "Sukhawati",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0029",
+      "first_name": "Piyaporn",
+      "last_name": "Eamcharoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0032",
+      "first_name": "Nipa",
+      "last_name": "Thamsonthicharoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0034",
+      "first_name": "Phonthippha",
+      "last_name": "Lekcharoensuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_029_029",
+      "first_name": "Phisit",
+      "last_name": "Rattanawararak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0116",
+      "first_name": "Weeraphol",
+      "last_name": "Saengpanya",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0002",
+      "first_name": "Natthikarn",
+      "last_name": "Hemphatsuwan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0003",
+      "first_name": "Waranthat",
+      "last_name": "Dulyapruk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0004",
+      "first_name": "Nenta",
+      "last_name": "Pinnetharn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0005",
+      "first_name": "Monnitchas",
+      "last_name": "Srisomwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0006",
+      "first_name": "Manit",
+      "last_name": "Chansuphap",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0007",
+      "first_name": "Krerkkrai",
+      "last_name": "Songin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0036",
+      "first_name": "Sunan",
+      "last_name": "Phinitkiatsakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0022",
+      "first_name": "Nanthipa",
+      "last_name": "Phanthusawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0038",
+      "first_name": "Kreevith",
+      "last_name": "Phromphinitphong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0028",
+      "first_name": "Passakorn",
+      "last_name": "Kingwatcharapong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0029",
+      "first_name": "Suthasinee",
+      "last_name": "Chinthong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0045",
+      "first_name": "Sila",
+      "last_name": "Sukwat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0056",
+      "first_name": "Jitraporn",
+      "last_name": "Faksopha",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0039",
+      "first_name": "Phasawat",
+      "last_name": "Thammhakin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0042",
+      "first_name": "Anuchai",
+      "last_name": "Pinyophummin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0043",
+      "first_name": "Phiphat",
+      "last_name": "Arunwiphas",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0045",
+      "first_name": "Worakit",
+      "last_name": "Chetchuchum",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0046",
+      "first_name": "Aree",
+      "last_name": "Laikun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0048",
+      "first_name": "Wandee",
+      "last_name": "Thiangtham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0050",
+      "first_name": "Nanthawan",
+      "last_name": "Yatbanthung",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0052",
+      "first_name": "Khanitha",
+      "last_name": "Phetudomsinsuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0053",
+      "first_name": "Nion",
+      "last_name": "Rattanaphop",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0058",
+      "first_name": "Yonlayong",
+      "last_name": "Wunwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0059",
+      "first_name": "Manakorn",
+      "last_name": "Sukmak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0060",
+      "first_name": "Nuananong",
+      "last_name": "Sinwat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0064",
+      "first_name": "Parinthip",
+      "last_name": "Wongthai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0065",
+      "first_name": "Natthan",
+      "last_name": "Thitichayaphong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0067",
+      "first_name": "Waraporn",
+      "last_name": "Phimprapai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0070",
+      "first_name": "Siriporn",
+      "last_name": "Khongsoi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0071",
+      "first_name": "Pachchima",
+      "last_name": "Sitthisan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0074",
+      "first_name": "Chalalai",
+      "last_name": "Ruanghiran",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0075",
+      "first_name": "Kantsuda",
+      "last_name": "Luehapongsathon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0076",
+      "first_name": "Supphada",
+      "last_name": "Khananap",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0077",
+      "first_name": "Tepyuda",
+      "last_name": "Sritrakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0078",
+      "first_name": "Thitiwan",
+      "last_name": "Phatthanasatheankul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0002",
+      "first_name": "Kannika",
+      "last_name": "Damrongplasit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0003",
+      "first_name": "Kannika",
+      "last_name": "Duangnet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0005",
+      "first_name": "Kanittha",
+      "last_name": "Tambunlertchai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0006",
+      "first_name": "Chantal",
+      "last_name": "Herberholz",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0007",
+      "first_name": "Chanon",
+      "last_name": "Thongthai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0008",
+      "first_name": "Danupon",
+      "last_name": "Ariyasajjakorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0009",
+      "first_name": "Doungdao",
+      "last_name": "Mahagitsiri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0010",
+      "first_name": "Dusanee",
+      "last_name": "Kesvayuth",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0011",
+      "first_name": "Torplus",
+      "last_name": "Yomnak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0019",
+      "first_name": "Pituwan",
+      "last_name": "Paramapoj",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0020",
+      "first_name": "Panutat",
+      "last_name": "Satchachai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0021",
+      "first_name": "Manachaya",
+      "last_name": "Uruyos",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0022",
+      "first_name": "Yong",
+      "last_name": "Yoon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0025",
+      "first_name": "Watcharapong",
+      "last_name": "Ratisukpimol",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0027",
+      "first_name": "Somtip",
+      "last_name": "Wattanapongvanich",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0028",
+      "first_name": "Sawarai",
+      "last_name": "Boonyamanont",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0029",
+      "first_name": "Sittidaj",
+      "last_name": "Pongkijvorasin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0030",
+      "first_name": "Sineenat",
+      "last_name": "Sermcheep",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0031",
+      "first_name": "Sira",
+      "last_name": "Nukulkit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0032",
+      "first_name": "Ajalavat",
+      "last_name": "Viriyavipart",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0034",
+      "first_name": "Sriya",
+      "last_name": "Netnoi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0036",
+      "first_name": "Suphattra",
+      "last_name": "Utamang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0096",
+      "first_name": "Pornchai",
+      "last_name": "Klatwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0099",
+      "first_name": "Wongsathon",
+      "last_name": "Phumphuang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0109",
+      "first_name": "Nopparat",
+      "last_name": "Khakkuriwara",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0111",
+      "first_name": "Laddawan",
+      "last_name": "Riantrakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0114",
+      "first_name": "Kitiphong",
+      "last_name": "Tangkit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0130",
+      "first_name": "Wirongrong",
+      "last_name": "Duangjai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0153",
+      "first_name": "Amporn",
+      "last_name": "Wiwakwaeo",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0131",
+      "first_name": "Saka",
+      "last_name": "Tichanthuek",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0132",
+      "first_name": "Somphon",
+      "last_name": "Mae Lim",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0134",
+      "first_name": "Ao",
+      "last_name": "Phanchai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0142",
+      "first_name": "Piyaphong",
+      "last_name": "Thongdinok",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0143",
+      "first_name": "Phatcharet",
+      "last_name": "Chakhattrayakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0145",
+      "first_name": "Venus",
+      "last_name": "Tuanruea",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0146",
+      "first_name": "Sarat",
+      "last_name": "Rattana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0149",
+      "first_name": "Renuka",
+      "last_name": "Klabsuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_3b530111_3089",
+      "first_name": "Kiattikhun",
+      "last_name": "Pradit Phongthongkham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0108",
+      "first_name": "Thiraphong",
+      "last_name": "Chumsangsri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chula_eng_cp_duanpen",
+      "first_name": "Duean",
+      "last_name": "Sinthuphan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_016_016",
+      "first_name": "Siriphat",
+      "last_name": "Chaiyan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_026_026",
+      "first_name": "Rattachat",
+      "last_name": "Mongkolnavin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_033_033",
+      "first_name": "Narumon",
+      "last_name": "Suwanchanandee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0082",
+      "first_name": "Korkeat",
+      "last_name": "Korkeatkun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chula_eng_cp_sawat",
+      "first_name": "Sawat",
+      "last_name": "Saengbangpla",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0084",
+      "first_name": "Kirati",
+      "last_name": "Sriamorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0089",
+      "first_name": "Chatchawit",
+      "last_name": "Aphonthewan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0090",
+      "first_name": "Dittaya",
+      "last_name": "Wanwaree",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0091",
+      "first_name": "Nattapon",
+      "last_name": "Sonphanaow",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0092",
+      "first_name": "Nataphan",
+      "last_name": "Kitisin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0093",
+      "first_name": "Tuangrat",
+      "last_name": "Chaichana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0094",
+      "first_name": "Songkiat",
+      "last_name": "Sumetkijkan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0095",
+      "first_name": "Thap",
+      "last_name": "Panithanarak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0096",
+      "first_name": "Tippawan",
+      "last_name": "Santiwipanont",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0097",
+      "first_name": "Teeraphong",
+      "last_name": "Phongphattanacharoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0029",
+      "first_name": "Chaiwat",
+      "last_name": "Klamphon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0031",
+      "first_name": "Wetchaphong",
+      "last_name": "Chutichudet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0098",
+      "first_name": "Teeradej",
+      "last_name": "Kittipassorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0145",
+      "first_name": "Thanakul",
+      "last_name": "Wanprasert",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0146",
+      "first_name": "Sureerat",
+      "last_name": "Dieowwanich",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0149",
+      "first_name": "Noppadon",
+      "last_name": "Kitana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0150",
+      "first_name": "Jirarach",
+      "last_name": "Kitana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0151",
+      "first_name": "Sukanya",
+      "last_name": "Charoenphon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0152",
+      "first_name": "Nipada",
+      "last_name": "Rueankaew Dissayabutra",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0157",
+      "first_name": "Marut",
+      "last_name": "Fuengaram",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_028_028",
+      "first_name": "Chantana",
+      "last_name": "Isarangkura Na Ayutthaya",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0159",
+      "first_name": "Chitchai",
+      "last_name": "Chantangsri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0161",
+      "first_name": "Porrawee",
+      "last_name": "Phromchot",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0163",
+      "first_name": "Panupong",
+      "last_name": "Thamchot Charoonroj",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0164",
+      "first_name": "Nut",
+      "last_name": "Songworawit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0165",
+      "first_name": "Chatchai",
+      "last_name": "Phumak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0166",
+      "first_name": "Varanya",
+      "last_name": "Aranyavalai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0168",
+      "first_name": "Chawatat",
+      "last_name": "Thanusing",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0169",
+      "first_name": "Arthit",
+      "last_name": "Phonyotha",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0171",
+      "first_name": "Khattapan",
+      "last_name": "Chanthawongsri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0172",
+      "first_name": "Teeranai",
+      "last_name": "Itthiudomrak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0177",
+      "first_name": "Inthawoot",
+      "last_name": "Suppaworasatid",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0178",
+      "first_name": "Sarn",
+      "last_name": "Setthachaimongkol",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0180",
+      "first_name": "Sasikan",
+      "last_name": "Goopongsak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave18_agrips_0173",
+      "first_name": "Phakka-Orn",
+      "last_name": "Akramathurakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0181",
+      "first_name": "Varapha",
+      "last_name": "Khongpensuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0183",
+      "first_name": "Sirima",
+      "last_name": "Phuengprapan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0184",
+      "first_name": "Nattida",
+      "last_name": "Chotchuang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0185",
+      "first_name": "Sarisa",
+      "last_name": "Suriyarak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0187",
+      "first_name": "Chayapa",
+      "last_name": "Yiengveerachon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0062",
+      "first_name": "Apisit",
+      "last_name": "Namprasanthai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0189",
+      "first_name": "Sumate",
+      "last_name": "Kirdmanee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0070",
+      "first_name": "Chalermchon",
+      "last_name": "Satirapoj",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_027_027",
+      "first_name": "Wichit",
+      "last_name": "Sengaphant",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0077",
+      "first_name": "Valanon",
+      "last_name": "Urattanawong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0081",
+      "first_name": "Thepchai",
+      "last_name": "Srinoi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0115",
+      "first_name": "Phong",
+      "last_name": "Songphong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0121",
+      "first_name": "Yutthana",
+      "last_name": "Rungthamsakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0125",
+      "first_name": "Warakorn",
+      "last_name": "Hengpanya",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0127",
+      "first_name": "Wiwittawin",
+      "last_name": "Sukhamas",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0132",
+      "first_name": "Somchai",
+      "last_name": "Kiatkamjornchai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_46a830cc_0361",
+      "first_name": "Pitiporn",
+      "last_name": "Kitirattrakan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0012",
+      "first_name": "Jarumas",
+      "last_name": "Charoenpanich",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_3d8a1ae8_8419",
+      "first_name": "Luxsnai",
+      "last_name": "Songsaeng",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_7ab92317_2603",
+      "first_name": "Thitinan",
+      "last_name": "Bunpap",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chula_eng_cp_024",
+      "first_name": "Witthaya",
+      "last_name": "Vacharaworakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chula_eng_cp_028",
+      "first_name": "Wirachat",
+      "last_name": "Wahawisaln",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_209c52e6_0852",
+      "first_name": "Tippayaporn",
+      "last_name": "Phawawi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0081",
+      "first_name": "Kritsana",
+      "last_name": "Niammanee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0101",
+      "first_name": "Nithi",
+      "last_name": "Rungthanapirom",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0059",
+      "first_name": "Rafael",
+      "last_name": "Bissen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0030",
+      "first_name": "Monchai",
+      "last_name": "Suraratchai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0032",
+      "first_name": "Siripong",
+      "last_name": "Atiphan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0033",
+      "first_name": "Panumas",
+      "last_name": "Aroondechawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0066",
+      "first_name": "Panatsaron",
+      "last_name": "Charuchainiwat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0067",
+      "first_name": "Uraiwan",
+      "last_name": "Thamrong-Atth",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0069",
+      "first_name": "Phawini",
+      "last_name": "Sothayaphet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0071",
+      "first_name": "Keerati",
+      "last_name": "Kuwasanon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0078",
+      "first_name": "Soison",
+      "last_name": "Sakonrak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0103",
+      "first_name": "Shao",
+      "last_name": "Limin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0110",
+      "first_name": "Kamonwan",
+      "last_name": "Tangthanakanont",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0041",
+      "first_name": "Wipawee",
+      "last_name": "Thammapornphilas",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0044",
+      "first_name": "Nantachai",
+      "last_name": "Kantananta",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0047",
+      "first_name": "Poom",
+      "last_name": "Luengjamikorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0054",
+      "first_name": "Butsawan",
+      "last_name": "Bidorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0055",
+      "first_name": "Anurak",
+      "last_name": "Sriariyawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0057",
+      "first_name": "Piyatida",
+      "last_name": "Ruengrassamee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0058",
+      "first_name": "Pavisorn",
+      "last_name": "Chuenchum",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0059",
+      "first_name": "Jeerapong",
+      "last_name": "Laonamsai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0001",
+      "first_name": "Jirasak",
+      "last_name": "Wongekabut",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0002",
+      "first_name": "Sirikanjana",
+      "last_name": "Thongmee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0008",
+      "first_name": "Papitchaya",
+      "last_name": "Chaisakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0022",
+      "first_name": "Sutharat",
+      "last_name": "Chotikaprakhan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0047",
+      "first_name": "Watcharapol",
+      "last_name": "Phimsert",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0064",
+      "first_name": "Wanrada",
+      "last_name": "Surat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0073",
+      "first_name": "Thanyalak",
+      "last_name": "Khanthamun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0076",
+      "first_name": "Sirinya",
+      "last_name": "Theerapananthachai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0079",
+      "first_name": "Lilee",
+      "last_name": "Engsrisawang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0084",
+      "first_name": "Sudarat",
+      "last_name": "Nitsunkij",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0022",
+      "first_name": "Sudsawat",
+      "last_name": "Duangsrisai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0031",
+      "first_name": "Saranya",
+      "last_name": "Vacharothai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0033",
+      "first_name": "Manit",
+      "last_name": "Chitphakdee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0037",
+      "first_name": "Rutthee",
+      "last_name": "Meesat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0047",
+      "first_name": "Krit",
+      "last_name": "Wanin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0056",
+      "first_name": "Pornsawat",
+      "last_name": "Wattanakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0035",
+      "first_name": "Pongwit",
+      "last_name": "Siripho",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0016",
+      "first_name": "Nipit",
+      "last_name": "Wongpanya",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0021",
+      "first_name": "Pakorn",
+      "last_name": "Thongbunkuea",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0040",
+      "first_name": "Sukhakrit",
+      "last_name": "Nimitkun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0050",
+      "first_name": "Teerapong",
+      "last_name": "Duangdi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0057",
+      "first_name": "Yaowalak",
+      "last_name": "Mantham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0058",
+      "first_name": "Napakhwan",
+      "last_name": "Waenphet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0061",
+      "first_name": "Sithinee",
+      "last_name": "Kunprasertsri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0040",
+      "first_name": "Paveena",
+      "last_name": "Chaowalitwongse",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0074",
+      "first_name": "Weewan",
+      "last_name": "Thonchai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0004",
+      "first_name": "Chatchawal",
+      "last_name": "Wongchoosuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0006",
+      "first_name": "Nattaporn",
+      "last_name": "Chattham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0009",
+      "first_name": "Pongsakorn",
+      "last_name": "Chantarat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0010",
+      "first_name": "Peera",
+      "last_name": "Phongkittivanichkul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0011",
+      "first_name": "Watcharee",
+      "last_name": "Rattanasakulthong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0015",
+      "first_name": "Chalermpol",
+      "last_name": "Kanjanawarin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0020",
+      "first_name": "Weerapat",
+      "last_name": "Phon-An",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0023",
+      "first_name": "Aphichat",
+      "last_name": "Pattanaphochorattana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0024",
+      "first_name": "Kulphan",
+      "last_name": "Phimsaman",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0025",
+      "first_name": "Puchong",
+      "last_name": "Kitamnuaysuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0026",
+      "first_name": "Ketkanok",
+      "last_name": "Sitharachu",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0027",
+      "first_name": "Duangruthai",
+      "last_name": "Jarukanon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0028",
+      "first_name": "Sitthichai",
+      "last_name": "Pinkanjanaroj",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0029",
+      "first_name": "Sorasak",
+      "last_name": "Phanphak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0032",
+      "first_name": "Wichian",
+      "last_name": "Laohakosol",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0033",
+      "first_name": "Usanee",
+      "last_name": "Leerawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0034",
+      "first_name": "Montri",
+      "last_name": "Maliwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0036",
+      "first_name": "Teerapat",
+      "last_name": "Srichan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0038",
+      "first_name": "Cattaleeya",
+      "last_name": "Daosud",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0040",
+      "first_name": "Jitlada",
+      "last_name": "Somsap",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0041",
+      "first_name": "Pongpol",
+      "last_name": "Rueankhong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0043",
+      "first_name": "Phattira",
+      "last_name": "Ruengsinlapthup",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0044",
+      "first_name": "Montrudee",
+      "last_name": "Siriworawit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0045",
+      "first_name": "Ruenglak",
+      "last_name": "Jongchotinnont",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0046",
+      "first_name": "Lunjakorn",
+      "last_name": "Kittiratanawasin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0049",
+      "first_name": "Angkhana",
+      "last_name": "Sriphayap",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0050",
+      "first_name": "Udomsak",
+      "last_name": "Rakwongwan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0051",
+      "first_name": "Chan",
+      "last_name": "Khetjaturas",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0053",
+      "first_name": "Thoranin",
+      "last_name": "Thansri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0054",
+      "first_name": "Boonlert",
+      "last_name": "Srihirun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0056",
+      "first_name": "Wijit",
+      "last_name": "Yangkjit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0061",
+      "first_name": "Peerapat",
+      "last_name": "Rungsattham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0065",
+      "first_name": "Anchanee",
+      "last_name": "Sangcharoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0068",
+      "first_name": "Teerasak",
+      "last_name": "Ekobon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0071",
+      "first_name": "Anongphat",
+      "last_name": "Sutthangkul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0073",
+      "first_name": "Phuthita",
+      "last_name": "Jiranantsakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0075",
+      "first_name": "Chantha",
+      "last_name": "Wonguthong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0077",
+      "first_name": "Jeeraporn",
+      "last_name": "Thaithanun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0078",
+      "first_name": "Sawaporn",
+      "last_name": "Hinchiranant",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0081",
+      "first_name": "Bunyaom",
+      "last_name": "Chomthi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0082",
+      "first_name": "Ampai",
+      "last_name": "Thongtheerapap",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0083",
+      "first_name": "Saowapha",
+      "last_name": "Chaipithak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0017",
+      "first_name": "Pathomwat",
+      "last_name": "Chantharasat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0004",
+      "first_name": "Prachumphon",
+      "last_name": "Khongseri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0005",
+      "first_name": "Ratri",
+      "last_name": "Wongpanya",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0006",
+      "first_name": "Sasimanat",
+      "last_name": "Uonjak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0007",
+      "first_name": "Chotika",
+      "last_name": "Yokthongwattana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0009",
+      "first_name": "Phichamon",
+      "last_name": "Kiatwutthinon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0010",
+      "first_name": "Napchanok",
+      "last_name": "Swenson",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0015",
+      "first_name": "Tuangthong",
+      "last_name": "Wongpipat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0017",
+      "first_name": "Duangthip",
+      "last_name": "Traisirirat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0018",
+      "first_name": "Kanaphol",
+      "last_name": "Juthamanee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0020",
+      "first_name": "Chalermphol",
+      "last_name": "Suwanphakdi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0021",
+      "first_name": "Nattha",
+      "last_name": "Seneewongse",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0024",
+      "first_name": "Pornsawan",
+      "last_name": "Sutthinnont",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0025",
+      "first_name": "Minta",
+      "last_name": "Chaiprasongsuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0026",
+      "first_name": "Narong",
+      "last_name": "Wongkantharakorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0027",
+      "first_name": "Jaruswan",
+      "last_name": "Warakanon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0030",
+      "first_name": "Srisom",
+      "last_name": "Suwanwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0036",
+      "first_name": "Wanwisa",
+      "last_name": "Sudprasert",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0038",
+      "first_name": "Khatarat",
+      "last_name": "Chutinanthakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0039",
+      "first_name": "Paiboon",
+      "last_name": "Ruangpatanapong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0040",
+      "first_name": "Pakorn",
+      "last_name": "Tangpong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0042",
+      "first_name": "Teerasant",
+      "last_name": "Pienphanit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0043",
+      "first_name": "Mayura",
+      "last_name": "Weerana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0044",
+      "first_name": "Kannaree",
+      "last_name": "Chuancham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0046",
+      "first_name": "Sarinya",
+      "last_name": "Paisansombat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0049",
+      "first_name": "Phanu",
+      "last_name": "Traivet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0050",
+      "first_name": "Nattapong",
+      "last_name": "Monruemit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0054",
+      "first_name": "Mingkhwan",
+      "last_name": "Mingmuang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0061",
+      "first_name": "Anchalee",
+      "last_name": "Aophol",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0062",
+      "first_name": "Panat",
+      "last_name": "Thamkiratiwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0064",
+      "first_name": "Wanwipa",
+      "last_name": "Vongsangnak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0066",
+      "first_name": "Bunsathien",
+      "last_name": "Bunsong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0067",
+      "first_name": "Supiyanit",
+      "last_name": "Maiphae",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0070",
+      "first_name": "Pramote",
+      "last_name": "Chamnanpuen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0074",
+      "first_name": "Narisara",
+      "last_name": "Piyasangthong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0078",
+      "first_name": "Sajee",
+      "last_name": "Waramit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0081",
+      "first_name": "Athipat",
+      "last_name": "Ngoenmuen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0082",
+      "first_name": "Mongkol",
+      "last_name": "Pongsuchat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0083",
+      "first_name": "Nutthalak",
+      "last_name": "Laksanawilas",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0084",
+      "first_name": "Ratchanee",
+      "last_name": "Duangrat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_153_153",
+      "first_name": "Supit",
+      "last_name": "Jindawanik",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_158_158",
+      "first_name": "Wara",
+      "last_name": "Panichkriangkrai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_159_159",
+      "first_name": "Supatra",
+      "last_name": "Srichaiyarat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_chem_biorefinery_001",
+      "first_name": "Anchaleeporn",
+      "last_name": "Varitsawas",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0009",
+      "first_name": "Chantana",
+      "last_name": "Phraiboon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0014",
+      "first_name": "Niti",
+      "last_name": "Choochoet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0015",
+      "first_name": "Santi",
+      "last_name": "Puangcharoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0024",
+      "first_name": "Kangsadan",
+      "last_name": "Boonprab",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0034",
+      "first_name": "Wara",
+      "last_name": "Thepahudi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0037",
+      "first_name": "Ruengchai",
+      "last_name": "Yunphan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0039",
+      "first_name": "Thanakom",
+      "last_name": "Bunditwongrat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0042",
+      "first_name": "Akrasiri",
+      "last_name": "Saengsawang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0046",
+      "first_name": "Chak",
+      "last_name": "Aranyakanon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0051",
+      "first_name": "Jintana",
+      "last_name": "Salaenoi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0052",
+      "first_name": "Parinya",
+      "last_name": "Limviriyakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0054",
+      "first_name": "Charuay",
+      "last_name": "Suksangchan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0059",
+      "first_name": "Chakrit",
+      "last_name": "Ruangsorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0060",
+      "first_name": "Vachira",
+      "last_name": "Jaingam",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0063",
+      "first_name": "Jirawat",
+      "last_name": "Demuenwai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0052",
+      "first_name": "Thanasin",
+      "last_name": "Nampaisan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0057",
+      "first_name": "Phisitphong",
+      "last_name": "Keturat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0063",
+      "first_name": "Phet",
+      "last_name": "Phakchotanan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0080",
+      "first_name": "Chaichok",
+      "last_name": "Waiphasa",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0037",
+      "first_name": "Haruetai",
+      "last_name": "Lohasiriwat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0014",
+      "first_name": "Waraporn",
+      "last_name": "Auvichyanukul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0039",
+      "first_name": "Nat",
+      "last_name": "Leelawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0016",
+      "first_name": "Phoemkhun",
+      "last_name": "Kiatsungsong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0050",
+      "first_name": "Sanyapong",
+      "last_name": "Phetrompho",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0029",
+      "first_name": "Nattapong",
+      "last_name": "Jittjak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0016",
+      "first_name": "Teeraphat",
+      "last_name": "Watcharanarapong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0030",
+      "first_name": "Atchara",
+      "last_name": "Chinkorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0055",
+      "first_name": "Phiraphat",
+      "last_name": "Suthimas",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0072",
+      "first_name": "Sirithorn",
+      "last_name": "Kongseng",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0085",
+      "first_name": "Pupe",
+      "last_name": "Sudsila",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0087",
+      "first_name": "Chanon",
+      "last_name": "Thongprayoon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0079",
+      "first_name": "Apisit",
+      "last_name": "Thiphakson",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0028",
+      "first_name": "Kanin",
+      "last_name": "Rungwattana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0077",
+      "first_name": "Phawika",
+      "last_name": "Limudomphon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0051",
+      "first_name": "Chawisa",
+      "last_name": "Phucharoenchaiwan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0052",
+      "first_name": "Wongwech",
+      "last_name": "Chaonchuwetch",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0057",
+      "first_name": "Annop",
+      "last_name": "Homchan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0058",
+      "first_name": "Diesel",
+      "last_name": "Suanburi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0086",
+      "first_name": "Arin",
+      "last_name": "Boonsmikham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0027",
+      "first_name": "Chinnaphat",
+      "last_name": "Thiphayophat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0008",
+      "first_name": "Patcharee",
+      "last_name": "Khrukhayan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0010",
+      "first_name": "Sommai",
+      "last_name": "Jenkitkan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0039",
+      "first_name": "Narongkon",
+      "last_name": "Krachangsawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0011",
+      "first_name": "Chatcharee",
+      "last_name": "Kaewsuralikit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0016",
+      "first_name": "Pailin",
+      "last_name": "Chitchum",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0023",
+      "first_name": "Ratidanai",
+      "last_name": "Hunsawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0026",
+      "first_name": "Wanwimol",
+      "last_name": "Khlaipradit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0030",
+      "first_name": "Idsariya",
+      "last_name": "Wutthisin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0032",
+      "first_name": "Phongchet",
+      "last_name": "Phichitkun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0036",
+      "first_name": "Oraphin",
+      "last_name": "Chintasathaporn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0038",
+      "first_name": "Praphansak",
+      "last_name": "Sisaphum",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0047",
+      "first_name": "Chontida",
+      "last_name": "Phuthawon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0024",
+      "first_name": "Voramast",
+      "last_name": "Limthirakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0048",
+      "first_name": "Anurak",
+      "last_name": "Uchuwithayakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0062",
+      "first_name": "Khanittha",
+      "last_name": "Uthaiphan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0028",
+      "first_name": "Patcharaporn",
+      "last_name": "Boonyawanichkul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chula_eng_cp_026",
+      "first_name": "Chatchawan",
+      "last_name": "Wongsiriprasert",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_018_018",
+      "first_name": "Napida",
+      "last_name": "Hinchiranan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_020_020",
+      "first_name": "Arun",
+      "last_name": "Incharoensak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_019_019",
+      "first_name": "Somkiat",
+      "last_name": "Ngamprasertsit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_030_030",
+      "first_name": "Khachonyot",
+      "last_name": "Yudee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_031_031",
+      "first_name": "Udomsin",
+      "last_name": "Pinsuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_2187ab61_1599",
+      "first_name": "Sukanya",
+      "last_name": "Somphaiboon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_3708922f_5923",
+      "first_name": "Visawat",
+      "last_name": "Panyawong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_4fc66b00_7893",
+      "first_name": "Nuttanai",
+      "last_name": "Lertprechaphakdi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0083",
+      "first_name": "Kitiporn",
+      "last_name": "Plaimat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0085",
+      "first_name": "Kamron",
+      "last_name": "Mekchai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0086",
+      "first_name": "Chariya",
+      "last_name": "Uiyasathian",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0075",
+      "first_name": "Weerakit",
+      "last_name": "Suwanphitak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0076",
+      "first_name": "Chalearmpan",
+      "last_name": "Riwicha",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0099",
+      "first_name": "Nagul",
+      "last_name": "Kuharojananont",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0100",
+      "first_name": "Naruemon",
+      "last_name": "Prathanwanich",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0128",
+      "first_name": "Suppanut",
+      "last_name": "Thanasin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0133",
+      "first_name": "Somrit",
+      "last_name": "Wongmaniroj",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0136",
+      "first_name": "Sukkaneste",
+      "last_name": "Tungkasamit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0134",
+      "first_name": "Salinporn",
+      "last_name": "Kittiwattanakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0124",
+      "first_name": "Suchart",
+      "last_name": "Imsamran",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0158",
+      "first_name": "Natapot",
+      "last_name": "Warit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0154",
+      "first_name": "Nontivich",
+      "last_name": "Tantawanit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0176",
+      "first_name": "Chanprapha",
+      "last_name": "Imjongchairak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0179",
+      "first_name": "Thanachan",
+      "last_name": "Mahawanit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0182",
+      "first_name": "It",
+      "last_name": "Kwakphetphun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0188",
+      "first_name": "Tanathep",
+      "last_name": "Luangthongkum",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_330f21bb_8208",
+      "first_name": "Napawan",
+      "last_name": "Tantiwechkul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_66ebdc57_3771",
+      "first_name": "Kamonrat",
+      "last_name": "Kitrungruang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_7c4b84f6_7153",
+      "first_name": "Graiwoot",
+      "last_name": "Chuthapisith",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_5cb6d9cc_2814",
+      "first_name": "Monchan",
+      "last_name": "Mekthon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0057",
+      "first_name": "Kittipong",
+      "last_name": "Chongkittanarak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0060",
+      "first_name": "Pipat",
+      "last_name": "Laowattanabandit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave18_econsrc_0012",
+      "first_name": "Sri-On",
+      "last_name": "Sombunsub",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0014",
+      "first_name": "Surasak",
+      "last_name": "Chiangka",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0012",
+      "first_name": "Wiwat",
+      "last_name": "Wongkokuea",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0010",
+      "first_name": "Pornsucha",
+      "last_name": "Palaseawinan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0012",
+      "first_name": "Piyathip",
+      "last_name": "Setthawong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0011",
+      "first_name": "Tuchakorn",
+      "last_name": "Lertwannakan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0013",
+      "first_name": "Satita",
+      "last_name": "Areerat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0018",
+      "first_name": "Aksorn",
+      "last_name": "Saengtheanchai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0019",
+      "first_name": "Kraisiri",
+      "last_name": "Khitkhan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0021",
+      "first_name": "Thawisak",
+      "last_name": "Songserm",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0007",
+      "first_name": "Bamnet",
+      "last_name": "Sudchomchom",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0028",
+      "first_name": "Rungrueang",
+      "last_name": "Yodchiwan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0021",
+      "first_name": "Sukosin",
+      "last_name": "Thongrattanasiri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0030",
+      "first_name": "Ployphatson",
+      "last_name": "Homklinphaeo",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0035",
+      "first_name": "Phirabhat",
+      "last_name": "Saengsawang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0035",
+      "first_name": "Pimchana",
+      "last_name": "Sirijaruanan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0037",
+      "first_name": "Ploypailin",
+      "last_name": "Semkham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0037",
+      "first_name": "Kantaphon",
+      "last_name": "Kuhapattanangkul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0044",
+      "first_name": "Somchai",
+      "last_name": "Sajjapithak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0039",
+      "first_name": "Chanthima",
+      "last_name": "Makmun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0042",
+      "first_name": "Panthip",
+      "last_name": "Tokaeo",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0047",
+      "first_name": "Pornchai",
+      "last_name": "Santhitiseri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0066",
+      "first_name": "Uraiwan",
+      "last_name": "Aranyawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0002",
+      "first_name": "Wanrat",
+      "last_name": "Phonphuem",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0055",
+      "first_name": "Alongkot",
+      "last_name": "Bunsungnoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0013",
+      "first_name": "Atsadawan",
+      "last_name": "Aramrak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0012",
+      "first_name": "Sutthida",
+      "last_name": "Chukiatsiri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0023",
+      "first_name": "Orusa",
+      "last_name": "Kamsuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0063",
+      "first_name": "Wisanu",
+      "last_name": "Bunyawiwat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0041",
+      "first_name": "Chanit",
+      "last_name": "Rattanaphong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0069",
+      "first_name": "Asut",
+      "last_name": "Sanguankiat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0068",
+      "first_name": "Chalermkiat",
+      "last_name": "Saengthongpinit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0045",
+      "first_name": "Ladda",
+      "last_name": "Taengwattananukul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0053",
+      "first_name": "Nittaya",
+      "last_name": "Lauhajinda",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0063",
+      "first_name": "Wasakorn",
+      "last_name": "Ballangkpho",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0065",
+      "first_name": "Jindawan",
+      "last_name": "Sirantawineti",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0071",
+      "first_name": "Wut",
+      "last_name": "Thaksintham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0073",
+      "first_name": "Krona",
+      "last_name": "Wongkamhaeng",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0076",
+      "first_name": "Atthapol",
+      "last_name": "Ruchirawan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0080",
+      "first_name": "Priyama",
+      "last_name": "Tassanasuwan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0112",
+      "first_name": "Dechrit",
+      "last_name": "Sittiban",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0115",
+      "first_name": "Teerat",
+      "last_name": "Atsamoang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0126",
+      "first_name": "Pornthep",
+      "last_name": "Meuanphong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0140",
+      "first_name": "Napawan",
+      "last_name": "Thanakarn Phongkhiao",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0005",
+      "first_name": "Chaiyaya",
+      "last_name": "Luangwiriya",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave18_lams_0059",
+      "first_name": "Onjira",
+      "last_name": "Wongasa",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0144",
+      "first_name": "Yuttapong",
+      "last_name": "Kirimangkala",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0019",
+      "first_name": "Witchukorn",
+      "last_name": "Phuthong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0063",
+      "first_name": "Kornsorn",
+      "last_name": "Srikulnath",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0069",
+      "first_name": "Jatuphon",
+      "last_name": "Kulaung",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0048",
+      "first_name": "Prayad",
+      "last_name": "Nanthasin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0055",
+      "first_name": "Weerasak",
+      "last_name": "Udomchok",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0059",
+      "first_name": "Nopparat",
+      "last_name": "Srakaew",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0013",
+      "first_name": "Suthee",
+      "last_name": "Boonchuay",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0060",
+      "first_name": "Suphachai",
+      "last_name": "Vuttipongchaikij",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0062",
+      "first_name": "Arinthip",
+      "last_name": "Thamchaipenet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0067",
+      "first_name": "Passorn",
+      "last_name": "Wanpinit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0070",
+      "first_name": "Sompit",
+      "last_name": "Samipak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0011",
+      "first_name": "Chomdao",
+      "last_name": "Sinthuvanich",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0019",
+      "first_name": "Prasat",
+      "last_name": "Kueamanee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0075",
+      "first_name": "Patchara",
+      "last_name": "Danaisawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chula_eng_cp_itthiphol",
+      "first_name": "Itthiphol",
+      "last_name": "Padung",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_7baa4e89_2397",
+      "first_name": "Sarin",
+      "last_name": "Lekchuensakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eddd86df_1649",
+      "first_name": "Angkhavipa",
+      "last_name": "Saprungruang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chula_eng_cp_025",
+      "first_name": "Vitet",
+      "last_name": "Techangam",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_032_032",
+      "first_name": "Auttakit",
+      "last_name": "Chatphuti",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_160_160",
+      "first_name": "Anong",
+      "last_name": "Bintvihok",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0071",
+      "first_name": "Sanphet",
+      "last_name": "Chuernnitipaisan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0074",
+      "first_name": "Garavig",
+      "last_name": "Tanaksaranont",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0075",
+      "first_name": "Chaiyut",
+      "last_name": "Charoenphol",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0076",
+      "first_name": "Pawan",
+      "last_name": "Phiromthong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0078",
+      "first_name": "Chaiyaporn",
+      "last_name": "Kitpracha",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0035",
+      "first_name": "Somkiat",
+      "last_name": "Tangjitsitcharoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0042",
+      "first_name": "Amonsiri",
+      "last_name": "Vilasdechanont",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0045",
+      "first_name": "Napassavong",
+      "last_name": "Osotsilp",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0048",
+      "first_name": "Prasert",
+      "last_name": "Akraprathompong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0051",
+      "first_name": "Anawat",
+      "last_name": "Suppasri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0052",
+      "first_name": "Pongsak",
+      "last_name": "Suttinont",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0053",
+      "first_name": "Aksara",
+      "last_name": "Prueksiviriya",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0067",
+      "first_name": "Peet",
+      "last_name": "Homchuen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0036",
+      "first_name": "Arisara",
+      "last_name": "Jiamsanguanwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0038",
+      "first_name": "Jitra",
+      "last_name": "Ruikitkanpanich",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0026",
+      "first_name": "Navatat",
+      "last_name": "Kongsamut",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0018",
+      "first_name": "Maneenet",
+      "last_name": "Vechagama",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0055",
+      "first_name": "Jirasak",
+      "last_name": "Jitrojnarak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0064",
+      "first_name": "Thotsaphon",
+      "last_name": "Chaiyanantsuchit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0065",
+      "first_name": "Theerayut",
+      "last_name": "Phengsa-At",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0066",
+      "first_name": "Onchanok",
+      "last_name": "Chantharasakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0073",
+      "first_name": "Kanok",
+      "last_name": "Veerawong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0079",
+      "first_name": "Thongthit",
+      "last_name": "Chayakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0043",
+      "first_name": "Manida",
+      "last_name": "Sawangnet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0056",
+      "first_name": "Supattra",
+      "last_name": "Visetsri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0013",
+      "first_name": "Noppanun",
+      "last_name": "Wannathepsakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0127",
+      "first_name": "Monthatip",
+      "last_name": "Sommeecha",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0014",
+      "first_name": "Teerawat",
+      "last_name": "Samritvatchasai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0133",
+      "first_name": "Oracha",
+      "last_name": "Saetan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0069",
+      "first_name": "Somchai",
+      "last_name": "Kriangkraiwasin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0072",
+      "first_name": "Teetat",
+      "last_name": "Charoenkanyuta",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0135",
+      "first_name": "Chetsada",
+      "last_name": "Wongphrom",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0136",
+      "first_name": "Kanokphon",
+      "last_name": "Kaeosong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0046",
+      "first_name": "Pairot",
+      "last_name": "Ladawichitkul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0049",
+      "first_name": "Phuwadon",
+      "last_name": "Dutsadirangsikul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_b_0060",
+      "first_name": "Thanawat",
+      "last_name": "Tangjarusritanatorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0034",
+      "first_name": "Vis",
+      "last_name": "Sripawatakul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0037",
+      "first_name": "Chanin",
+      "last_name": "Trongchitpakdee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0038",
+      "first_name": "Suphatcha",
+      "last_name": "Chaimethanan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0040",
+      "first_name": "Nawin",
+      "last_name": "Yanaphirat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0001",
+      "first_name": "Sirisuda",
+      "last_name": "Jamnongsong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0013",
+      "first_name": "Pratchaya",
+      "last_name": "Musiksinthorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0017",
+      "first_name": "Narongrit",
+      "last_name": "Muangmai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0018",
+      "first_name": "Thirawat",
+      "last_name": "Rairat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0019",
+      "first_name": "Patthama",
+      "last_name": "Thongkok",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0020",
+      "first_name": "Thanida",
+      "last_name": "Sae-Tang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0023",
+      "first_name": "Nawaporn",
+      "last_name": "Wanwisan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0025",
+      "first_name": "Yaowapha",
+      "last_name": "Waiphrip",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0027",
+      "first_name": "Lalitphan",
+      "last_name": "Kritsanayanyong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0031",
+      "first_name": "Sahaphap",
+      "last_name": "Dokkaew",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0033",
+      "first_name": "Supawadee",
+      "last_name": "Phumphuang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0035",
+      "first_name": "Saranat",
+      "last_name": "Sirisuay",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0041",
+      "first_name": "Satit",
+      "last_name": "Chatchaiphan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0043",
+      "first_name": "Rungphrit",
+      "last_name": "Chongcharoensuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0044",
+      "first_name": "Noratat",
+      "last_name": "Prachum",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0049",
+      "first_name": "Phunsin",
+      "last_name": "Kantha",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0053",
+      "first_name": "Thon",
+      "last_name": "Thamrongnawasawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0055",
+      "first_name": "Suchai",
+      "last_name": "Worachananthana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0061",
+      "first_name": "Suratsawadee",
+      "last_name": "Sukhisarn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_fish_wave11_0064",
+      "first_name": "Thanakorn",
+      "last_name": "Sangeamwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0087",
+      "first_name": "Jarulot",
+      "last_name": "Chongsatitwattana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0088",
+      "first_name": "Jiraphan",
+      "last_name": "Sunthornchot",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0059",
+      "first_name": "Wantana",
+      "last_name": "Tancharoenphol",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0081",
+      "first_name": "Chawin",
+      "last_name": "Phongphachon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0117",
+      "first_name": "Dusida",
+      "last_name": "Thinmala",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chula_eng_cp_030",
+      "first_name": "Khaen",
+      "last_name": "Bunyawanich",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0017",
+      "first_name": "Nopparit",
+      "last_name": "Chinanthuya",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0008",
+      "first_name": "Narudee",
+      "last_name": "Kasemsant",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0022",
+      "first_name": "Kriangsak",
+      "last_name": "Phraihirankit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0024",
+      "first_name": "Phudit",
+      "last_name": "Maneesai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0049",
+      "first_name": "Kiattisak",
+      "last_name": "Tancharoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0051",
+      "first_name": "Chaturong",
+      "last_name": "Wongsanit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0056",
+      "first_name": "Pichai",
+      "last_name": "Jirawatanapong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0057",
+      "first_name": "Narut",
+      "last_name": "Thananthong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0072",
+      "first_name": "Amornthep",
+      "last_name": "Achawakulpetch",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave17_soc_0012",
+      "first_name": "Ueanuch",
+      "last_name": "Thanomwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0113",
+      "first_name": "Korawit",
+      "last_name": "Chitbanyong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_1e3e6825_1059",
+      "first_name": "Kamonrat",
+      "last_name": "Kitrungpaisan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0119",
+      "first_name": "Phisut",
+      "last_name": "Siriphan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0040",
+      "first_name": "Apipa",
+      "last_name": "Prachyapruit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_297107a0_9281",
+      "first_name": "Papaporn",
+      "last_name": "Chaihanchanchat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0162",
+      "first_name": "Krieng",
+      "last_name": "Kanchanawati",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_576a6a10_0657",
+      "first_name": "Kraiwoot",
+      "last_name": "Chunponsathorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_64ef3505_3579",
+      "first_name": "Chanettee",
+      "last_name": "Ti",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0059",
+      "first_name": "Mingkhwan",
+      "last_name": "Nipitwathanaphon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0001",
+      "first_name": "Sulak",
+      "last_name": "Talwat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_0080",
+      "first_name": "Winai",
+      "last_name": "Phosuwan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0129",
+      "first_name": "Wathinee",
+      "last_name": "Suanphaka",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_eng_wave12_0036",
+      "first_name": "Santi",
+      "last_name": "Wiriyawit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0015",
+      "first_name": "Navarat",
+      "last_name": "Temsamrit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0004",
+      "first_name": "Gullinee",
+      "last_name": "Muttakalin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0026",
+      "first_name": "Vasileios",
+      "last_name": "Zikos",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0052",
+      "first_name": "Apisara",
+      "last_name": "Porratananukun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0053",
+      "first_name": "Sukpansa",
+      "last_name": "Jaturawattana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0122",
+      "first_name": "Savitree",
+      "last_name": "Pisutpiched",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0123",
+      "first_name": "Tairat",
+      "last_name": "Niamsuwan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0051",
+      "first_name": "Atswanonthapakorn",
+      "last_name": "Thanetweeraphat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0138",
+      "first_name": "Jiraporn",
+      "last_name": "Theamphanpong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0139",
+      "first_name": "Chatchai",
+      "last_name": "Tantasirin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0001",
+      "first_name": "Kornkarun",
+      "last_name": "Cheewatrakoolpong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0009",
+      "first_name": "Arunee",
+      "last_name": "Hongsiriwat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0012",
+      "first_name": "Doungkamol",
+      "last_name": "Bangkachuat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0014",
+      "first_name": "Patcharaporn",
+      "last_name": "Tapmali",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0016",
+      "first_name": "Peson",
+      "last_name": "Chobphol",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0031",
+      "first_name": "Pakorn",
+      "last_name": "Akhakanchanasupa",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0033",
+      "first_name": "Phusima",
+      "last_name": "Pinyosinwat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0050",
+      "first_name": "Waris",
+      "last_name": "Wongpipit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave18_eduks_0033",
+      "first_name": "Ornusa",
+      "last_name": "Punyaburana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0057",
+      "first_name": "Ravisara",
+      "last_name": "Trongchitphitak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave17_econ_0071",
+      "first_name": "Kanok-On",
+      "last_name": "Simanon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0073",
+      "first_name": "Natthawut",
+      "last_name": "Boriboonwiriyakit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0093",
+      "first_name": "O-Phart",
+      "last_name": "Phra Thep",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0099",
+      "first_name": "Nattida",
+      "last_name": "Phattharawaratham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0077",
+      "first_name": "Pram",
+      "last_name": "Suansamut",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave18_agrips_0076",
+      "first_name": "On-Uma",
+      "last_name": "Tanadul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave18_asc_0127",
+      "first_name": "Taeng-On",
+      "last_name": "Phrommi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0141",
+      "first_name": "Narumon",
+      "last_name": "Kaeochampa",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave18_sisc_0031",
+      "first_name": "Praphuengbun",
+      "last_name": "Pansila",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0090",
+      "first_name": "Chatphan",
+      "last_name": "Phongcharoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0091",
+      "first_name": "Thanarat",
+      "last_name": "Kaeokrachang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0147",
+      "first_name": "Suphattra",
+      "last_name": "Thueksathit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0148",
+      "first_name": "Usaradee",
+      "last_name": "Phumali",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0150",
+      "first_name": "Saengsan",
+      "last_name": "Phumisathan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0092",
+      "first_name": "Nanthachai",
+      "last_name": "Phongphattananurak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0093",
+      "first_name": "Nanthida",
+      "last_name": "Suthamwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0094",
+      "first_name": "Nisa",
+      "last_name": "Leksungnoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0095",
+      "first_name": "Prateep",
+      "last_name": "Duangkhae",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0098",
+      "first_name": "Ronglap",
+      "last_name": "Sukmasuang",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0022",
+      "first_name": "Piyawan",
+      "last_name": "Wisetsuwanphum",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0047",
+      "first_name": "Virut",
+      "last_name": "Kitchananthawiwat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0101",
+      "first_name": "Wattanachai",
+      "last_name": "Tasen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0102",
+      "first_name": "Sarawut",
+      "last_name": "Sangkhae",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0103",
+      "first_name": "Suthee",
+      "last_name": "Duangjai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0128",
+      "first_name": "Rungrueang",
+      "last_name": "Phulsiri",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0110",
+      "first_name": "Norraphat",
+      "last_name": "Srimanothip",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0118",
+      "first_name": "Pawin",
+      "last_name": "Itthisamai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0137",
+      "first_name": "Kitichai",
+      "last_name": "Rattana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0119",
+      "first_name": "Montian",
+      "last_name": "Thianprateep",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0129",
+      "first_name": "Sojiphong",
+      "last_name": "Chatraphon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0104",
+      "first_name": "Suwimon",
+      "last_name": "Uthairatsami",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0131",
+      "first_name": "Sathon",
+      "last_name": "Wichanwanrak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0001",
+      "first_name": "Sirikoy",
+      "last_name": "Chutathawisawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0002",
+      "first_name": "Sarita",
+      "last_name": "Chuasrikul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0004",
+      "first_name": "Jaitip",
+      "last_name": "Na Songkhla",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0005",
+      "first_name": "Sukanda",
+      "last_name": "Chongsomoenchok",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0006",
+      "first_name": "Wirathep",
+      "last_name": "Pathumcharoenwatthana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0007",
+      "first_name": "Fuangarun",
+      "last_name": "Prididedilok",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0008",
+      "first_name": "Worarat",
+      "last_name": "Pathumcharoenwatthana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0010",
+      "first_name": "Ubonwan",
+      "last_name": "Hongwithayakorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0011",
+      "first_name": "Manaswat",
+      "last_name": "Kovithaya",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0013",
+      "first_name": "Suwithida",
+      "last_name": "Charungkiatkul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0015",
+      "first_name": "Ravee",
+      "last_name": "Member",
+      "method": "TIER8_FALLBACK"
+    },
+    {
+      "id": "cu_wave19_edu_0018",
+      "first_name": "Charinee",
+      "last_name": "Trivaranyoo",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0019",
+      "first_name": "Yotsawee",
+      "last_name": "Saifah",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0020",
+      "first_name": "Sirin",
+      "last_name": "Chagamann",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0023",
+      "first_name": "Nuntarat",
+      "last_name": "Charoenkul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0024",
+      "first_name": "Wichai",
+      "last_name": "Sewakamngam",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0025",
+      "first_name": "Penvara",
+      "last_name": "Member",
+      "method": "TIER8_FALLBACK"
+    },
+    {
+      "id": "cu_wave19_edu_0026",
+      "first_name": "Theeravadee",
+      "last_name": "Thangkabutra",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0027",
+      "first_name": "Ponglikit",
+      "last_name": "Phetphon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0028",
+      "first_name": "Somchai",
+      "last_name": "Boonyanan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0029",
+      "first_name": "Apiradee",
+      "last_name": "Chariyarangsiroj",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0030",
+      "first_name": "Chanisa",
+      "last_name": "Tantichalerm",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0032",
+      "first_name": "Chanchida",
+      "last_name": "Thummanon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0037",
+      "first_name": "Poramet",
+      "last_name": "Chroynuch",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0038",
+      "first_name": "Jinnadit",
+      "last_name": "Laopaksins",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0039",
+      "first_name": "Sornnate",
+      "last_name": "Areesophonpichet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0041",
+      "first_name": "Kanit",
+      "last_name": "Srikleeb",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0042",
+      "first_name": "Panya",
+      "last_name": "Akraputchapong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0043",
+      "first_name": "Thiendanai",
+      "last_name": "Sermboonpaisarn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0044",
+      "first_name": "Marut",
+      "last_name": "Thasanakornkul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0045",
+      "first_name": "Buntarika",
+      "last_name": "Boolphak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0046",
+      "first_name": "Siwachot",
+      "last_name": "Srisuttiyakorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0062",
+      "first_name": "Vitchatalum",
+      "last_name": "Laowanich",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0048",
+      "first_name": "Rudeerat",
+      "last_name": "Chusanachoti",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0108",
+      "first_name": "Watcharasak",
+      "last_name": "Sudla",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0054",
+      "first_name": "Kornkanok",
+      "last_name": "Lertdechapat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0056",
+      "first_name": "Kittitat",
+      "last_name": "Wancham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0058",
+      "first_name": "Saya",
+      "last_name": "Tantawet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0060",
+      "first_name": "Yutthana",
+      "last_name": "Chapphanrat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0063",
+      "first_name": "Nathini",
+      "last_name": "Chiankul",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0061",
+      "first_name": "Dneya",
+      "last_name": "Uthaisuk",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0064",
+      "first_name": "Sasilak",
+      "last_name": "Khayankit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0065",
+      "first_name": "Worawan",
+      "last_name": "Hemchayat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0068",
+      "first_name": "Patsarampai",
+      "last_name": "Choicharoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0070",
+      "first_name": "Chattrawan",
+      "last_name": "Lanchawanon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0072",
+      "first_name": "Pawasut",
+      "last_name": "Piriyapongrat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0080",
+      "first_name": "Mansikan",
+      "last_name": "Hengsuwan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0082",
+      "first_name": "Sansanee",
+      "last_name": "Nen-Thian",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0083",
+      "first_name": "Umporn",
+      "last_name": "Makanong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0084",
+      "first_name": "Jongkol",
+      "last_name": "Thamsuan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0085",
+      "first_name": "Pairoj",
+      "last_name": "Nuamnum",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0088",
+      "first_name": "Sakolrat",
+      "last_name": "Kaewdee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0089",
+      "first_name": "Sairoong",
+      "last_name": "Saosupha",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0090",
+      "first_name": "Sala",
+      "last_name": "Samiphak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0091",
+      "first_name": "Pornthep",
+      "last_name": "Chantraukrit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0092",
+      "first_name": "Witchayada",
+      "last_name": "Nawanichbamrung",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0095",
+      "first_name": "Jatupol",
+      "last_name": "Sungwanglao",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0096",
+      "first_name": "Suthana",
+      "last_name": "Tingsabadh",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0097",
+      "first_name": "Rungrawee",
+      "last_name": "Samawattana",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0098",
+      "first_name": "Sarinya",
+      "last_name": "Rodpipat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0100",
+      "first_name": "Jutarat",
+      "last_name": "Wiboonphon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0102",
+      "first_name": "Maneerat",
+      "last_name": "Ek-Yokaya",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0104",
+      "first_name": "Wannee",
+      "last_name": "Kaemkate",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0105",
+      "first_name": "Chayut",
+      "last_name": "Phiromsombat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0107",
+      "first_name": "Laphatphitcha",
+      "last_name": "Surawathakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0106",
+      "first_name": "Surasak",
+      "last_name": "Kao-Ian",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0109",
+      "first_name": "Prapasiri",
+      "last_name": "Ratchaprapaprakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0111",
+      "first_name": "Siridej",
+      "last_name": "Sucheeva",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0112",
+      "first_name": "Nuttaporn",
+      "last_name": "Lawthong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0113",
+      "first_name": "Nhabhat",
+      "last_name": "Chaimongkol",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0114",
+      "first_name": "Jarintorn",
+      "last_name": "Wanthachai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0115",
+      "first_name": "Chutima",
+      "last_name": "Suraseth",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0118",
+      "first_name": "Watinee",
+      "last_name": "Amonpaisanloet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0119",
+      "first_name": "Noparat",
+      "last_name": "Sricharoen",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0120",
+      "first_name": "Kanichcha",
+      "last_name": "Sirisak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0122",
+      "first_name": "Intira",
+      "last_name": "Promphan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0123",
+      "first_name": "Khanobbhorn",
+      "last_name": "Saengwanich",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave18_asc_0061",
+      "first_name": "Benjaarpa",
+      "last_name": "Phisetsakunwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave18_edu_0105",
+      "first_name": "Dechsiri",
+      "last_name": "Noppas",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0106",
+      "first_name": "Khanchai",
+      "last_name": "Prasanai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0107",
+      "first_name": "Chakrit",
+      "last_name": "Na Takuathung",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0110",
+      "first_name": "Piyawat",
+      "last_name": "Diloksampan",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_324b07ab_4553",
+      "first_name": "Saravudh",
+      "last_name": "Anantachat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_wave18_lams_0023",
+      "first_name": "Pim-Amon",
+      "last_name": "Prongmanee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_022_022",
+      "first_name": "Ketsawalee",
+      "last_name": "Phruksathorn",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0116",
+      "first_name": "Buaphan",
+      "last_name": "Phuangsin",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0117",
+      "first_name": "Pongsak",
+      "last_name": "Hengnirun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0155",
+      "first_name": "Piyoros",
+      "last_name": "Thongkoet",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0097",
+      "first_name": "Phrut",
+      "last_name": "Racharak",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0117",
+      "first_name": "Phaisan",
+      "last_name": "Tuphrakhai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0118",
+      "first_name": "Phichit",
+      "last_name": "Sombun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0139",
+      "first_name": "Annop",
+      "last_name": "Ekkatharawong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0144",
+      "first_name": "Buntika",
+      "last_name": "Areekul Butcher",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0147",
+      "first_name": "Pongchai",
+      "last_name": "Hanyuthanakon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0148",
+      "first_name": "Wichate",
+      "last_name": "Khonsue",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0156",
+      "first_name": "Thongchai",
+      "last_name": "Ngamprasertwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_econ_0014",
+      "first_name": "Norachit",
+      "last_name": "Jirasattham",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_sci_wave14_b_0186",
+      "first_name": "Nonthacha",
+      "last_name": "Thanathonwarakun",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0058",
+      "first_name": "Kriangkrai",
+      "last_name": "Maneein",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_eng_wave13_0061",
+      "first_name": "Falan",
+      "last_name": "Srisuriyachai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0120",
+      "first_name": "Wiwat",
+      "last_name": "Hanwongjirawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0121",
+      "first_name": "Somwang",
+      "last_name": "Khantayanuwong",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0003",
+      "first_name": "Prakob",
+      "last_name": "Koranikit",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0035",
+      "first_name": "Sukanya",
+      "last_name": "Chaemchoi",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0125",
+      "first_name": "Kobsak",
+      "last_name": "Wanthongchai",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0017",
+      "first_name": "Kotchaworn",
+      "last_name": "Chuimanee",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_forest_wave15_0100",
+      "first_name": "Warong",
+      "last_name": "Suksawat",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "cu_wave19_edu_0021",
+      "first_name": "Dhirapat",
+      "last_name": "Kulophas",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0003",
+      "first_name": "Kiattavee",
+      "last_name": "Choowongkomon",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0068",
+      "first_name": "Wachirayan",
+      "last_name": "Thongasa",
+      "method": "TIER7_GEMINI_RTGS"
+    },
+    {
+      "id": "ku_sci_wave13_b_0034",
+      "first_name": "Kiattisak",
+      "last_name": "Saenbunrueang",
+      "method": "TIER7_GEMINI_RTGS"
+    }
+  ]
+}

@@ -1,397 +1,213 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
-@custom-variant crimson (&:where([data-theme="crimson"], [data-theme="crimson"] *));
-@custom-variant navy (&:where([data-theme="navy"], [data-theme="navy"] *));
-@custom-variant emerald (&:where([data-theme="emerald"], [data-theme="emerald"] *));
-@custom-variant amethyst (&:where([data-theme="amethyst"], [data-theme="amethyst"] *));
-@custom-variant amber (&:where([data-theme="amber"], [data-theme="amber"] *));
+@custom-variant coral (&:where([data-theme="coral"], [data-theme="coral"] *));
 
-/* ==========================================================================
-   LIGHT MODES (5 Rich Luxury Palettes with Ambient Lighting)
-   ========================================================================== */
+@theme {
+  --font-sans: var(--font-sarabun);
+  --font-mono: var(--font-geist-mono);
+}
 
-/* 🔵 1. Ocean Navy (Light) */
 :root,
-[data-theme="navy"] {
-  --theme-primary: #0A3C74;
-  --theme-primary-hover: #072B54;
-  --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(10, 60, 116, 0.08);
-  --theme-primary-border: rgba(10, 60, 116, 0.2);
-  --theme-primary-glow: rgba(10, 60, 116, 0.15);
-
-  --theme-accent: #D97706;
-  --theme-accent-hover: #B45309;
-  --theme-accent-contrast: #FFFFFF;
-  --theme-accent-subtle: rgba(217, 119, 6, 0.1);
-  --theme-accent-border: rgba(217, 119, 6, 0.25);
-  --theme-accent-glow: rgba(217, 119, 6, 0.2);
-
-  --theme-bg: #F4F7FB;
-  --theme-bg-subtle: #EAF0F7;
-  --theme-card: #FFFFFF;
-  --theme-card-subtle: #EDF3F9;
-  --theme-border: #D5E1ED;
-  --theme-border-subtle: #E2ECF5;
-
-  --theme-text-title: #0A192F;
-  --theme-text-body: #2B3D52;
-  --theme-text-muted: #5B6F84;
-  --theme-ring: rgba(10, 60, 116, 0.25);
-  --theme-mesh-1: rgba(10, 60, 116, 0.07);
-  --theme-mesh-2: rgba(217, 119, 6, 0.05);
+[data-theme="coral"] {
+  --theme-primary: #ff7a59;
+  --theme-primary-hover: #e85d3f;
+  --theme-primary-contrast: #24110c;
+  --theme-primary-subtle: rgba(255, 122, 89, 0.12);
+  --theme-primary-border: rgba(232, 93, 63, 0.38);
+  --theme-primary-glow: rgba(255, 122, 89, 0.2);
+  --theme-accent: #ff7a59;
+  --theme-accent-hover: #e85d3f;
+  --theme-accent-contrast: #24110c;
+  --theme-accent-subtle: rgba(255, 122, 89, 0.12);
+  --theme-accent-border: rgba(232, 93, 63, 0.38);
+  --theme-accent-glow: rgba(255, 122, 89, 0.2);
+  --theme-bg: #ffffff;
+  --theme-bg-subtle: #fafafa;
+  --theme-card: #ffffff;
+  --theme-card-subtle: #f5f5f5;
+  --theme-border: #eaecef;
+  --theme-border-subtle: #f0f1f2;
+  --theme-text-title: #181a20;
+  --theme-text-body: #3d424d;
+  --theme-text-muted: #707a8a;
+  --theme-ring: rgba(59, 130, 246, 0.5);
+  --theme-mesh-1: transparent;
+  --theme-mesh-2: transparent;
 }
 
-/* 🔴 2. Ember Crimson (Light) */
-[data-theme="crimson"] {
-  --theme-primary: #8E0024;
-  --theme-primary-hover: #6E001B;
-  --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(142, 0, 36, 0.08);
-  --theme-primary-border: rgba(142, 0, 36, 0.2);
-  --theme-primary-glow: rgba(142, 0, 36, 0.15);
-
-  --theme-accent: #B45309;
-  --theme-accent-hover: #92400E;
-  --theme-accent-contrast: #FFFFFF;
-  --theme-accent-subtle: rgba(180, 83, 9, 0.1);
-  --theme-accent-border: rgba(180, 83, 9, 0.25);
-  --theme-accent-glow: rgba(180, 83, 9, 0.2);
-
-  --theme-bg: #FCF6F0;
-  --theme-bg-subtle: #F6ECE2;
-  --theme-card: #FFFFFF;
-  --theme-card-subtle: #F5EAE0;
-  --theme-border: #EADBCE;
-  --theme-border-subtle: #F2E7DC;
-
-  --theme-text-title: #2B120F;
-  --theme-text-body: #4A3430;
-  --theme-text-muted: #7D645D;
-  --theme-ring: rgba(142, 0, 36, 0.25);
-  --theme-mesh-1: rgba(142, 0, 36, 0.06);
-  --theme-mesh-2: rgba(180, 83, 9, 0.05);
-}
-
-/* 🟢 3. Forest Emerald (Light) */
-[data-theme="emerald"] {
-  --theme-primary: #065F46;
-  --theme-primary-hover: #044835;
-  --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(6, 95, 70, 0.08);
-  --theme-primary-border: rgba(6, 95, 70, 0.2);
-  --theme-primary-glow: rgba(6, 95, 70, 0.15);
-
-  --theme-accent: #D97706;
-  --theme-accent-hover: #B45309;
-  --theme-accent-contrast: #FFFFFF;
-  --theme-accent-subtle: rgba(217, 119, 6, 0.1);
-  --theme-accent-border: rgba(217, 119, 6, 0.25);
-  --theme-accent-glow: rgba(217, 119, 6, 0.2);
-
-  --theme-bg: #F2F8F5;
-  --theme-bg-subtle: #E5F2EC;
-  --theme-card: #FFFFFF;
-  --theme-card-subtle: #E6F3ED;
-  --theme-border: #CCE2D7;
-  --theme-border-subtle: #DBEBE2;
-
-  --theme-text-title: #072B20;
-  --theme-text-body: #233D35;
-  --theme-text-muted: #537066;
-  --theme-ring: rgba(6, 95, 70, 0.25);
-  --theme-mesh-1: rgba(6, 95, 70, 0.07);
-  --theme-mesh-2: rgba(217, 119, 6, 0.05);
-}
-
-/* 🟣 4. Royal Amethyst (Light) */
-[data-theme="amethyst"] {
-  --theme-primary: #521C9D;
-  --theme-primary-hover: #3E107D;
-  --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(82, 28, 157, 0.08);
-  --theme-primary-border: rgba(82, 28, 157, 0.2);
-  --theme-primary-glow: rgba(82, 28, 157, 0.15);
-
-  --theme-accent: #D97706;
-  --theme-accent-hover: #B45309;
-  --theme-accent-contrast: #FFFFFF;
-  --theme-accent-subtle: rgba(217, 119, 6, 0.1);
-  --theme-accent-border: rgba(217, 119, 6, 0.25);
-  --theme-accent-glow: rgba(217, 119, 6, 0.2);
-
-  --theme-bg: #F8F5FB;
-  --theme-bg-subtle: #EFEAF6;
-  --theme-card: #FFFFFF;
-  --theme-card-subtle: #EFE8F7;
-  --theme-border: #DBCFEA;
-  --theme-border-subtle: #E8DFF3;
-
-  --theme-text-title: #220B38;
-  --theme-text-body: #3C2355;
-  --theme-text-muted: #6B5582;
-  --theme-ring: rgba(82, 28, 157, 0.25);
-  --theme-mesh-1: rgba(82, 28, 157, 0.07);
-  --theme-mesh-2: rgba(217, 119, 6, 0.05);
-}
-
-/* 🟠 5. Sunset Amber (Light) */
-[data-theme="amber"] {
-  --theme-primary: #A23A13;
-  --theme-primary-hover: #832C0D;
-  --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(162, 58, 19, 0.08);
-  --theme-primary-border: rgba(162, 58, 19, 0.2);
-  --theme-primary-glow: rgba(162, 58, 19, 0.15);
-
-  --theme-accent: #0D9488;
-  --theme-accent-hover: #0F766E;
-  --theme-accent-contrast: #FFFFFF;
-  --theme-accent-subtle: rgba(13, 148, 136, 0.1);
-  --theme-accent-border: rgba(13, 148, 136, 0.25);
-  --theme-accent-glow: rgba(13, 148, 136, 0.2);
-
-  --theme-bg: #FCF6F0;
-  --theme-bg-subtle: #F6ECE2;
-  --theme-card: #FFFFFF;
-  --theme-card-subtle: #F6EAE0;
-  --theme-border: #EBDEC2;
-  --theme-border-subtle: #F2E8D7;
-
-  --theme-text-title: #33150B;
-  --theme-text-body: #4E2718;
-  --theme-text-muted: #805847;
-  --theme-ring: rgba(162, 58, 19, 0.25);
-  --theme-mesh-1: rgba(162, 58, 19, 0.07);
-  --theme-mesh-2: rgba(13, 148, 136, 0.05);
-}
-
-/* ==========================================================================
-   DARK MODES (Deep Premium Obsidian Slate with Vivid Neon Accents)
-   ========================================================================== */
-
-/* 🔵 1. Ocean Navy (Dark) */
 .dark,
-.dark[data-theme="navy"],
-html.dark[data-theme="navy"] {
-  --theme-primary: #388BFD;
-  --theme-primary-hover: #58A6FF;
-  --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(56, 139, 253, 0.14);
-  --theme-primary-border: rgba(56, 139, 253, 0.35);
-  --theme-primary-glow: rgba(56, 139, 253, 0.25);
-
-  --theme-accent: #F2A900;
-  --theme-accent-hover: #F8BE28;
-  --theme-accent-contrast: #0A0E14;
-  --theme-accent-subtle: rgba(242, 169, 0, 0.14);
-  --theme-accent-border: rgba(242, 169, 0, 0.35);
-  --theme-accent-glow: rgba(242, 169, 0, 0.25);
-
-  --theme-bg: #090D14;
-  --theme-bg-subtle: #0F141F;
-  --theme-card: #121824;
-  --theme-card-subtle: #182030;
-  --theme-border: #232E42;
-  --theme-border-subtle: #1B2434;
-
-  --theme-text-title: #F0F6FC;
-  --theme-text-body: #CAD5E2;
-  --theme-text-muted: #8494A7;
-  --theme-ring: rgba(56, 139, 253, 0.45);
-  --theme-mesh-1: rgba(56, 139, 253, 0.12);
-  --theme-mesh-2: rgba(242, 169, 0, 0.08);
+html.dark,
+[data-theme="coral"].dark {
+  --theme-primary: #ff7a59;
+  --theme-primary-hover: #ff967a;
+  --theme-primary-contrast: #24110c;
+  --theme-primary-subtle: rgba(255, 122, 89, 0.16);
+  --theme-primary-border: rgba(255, 122, 89, 0.45);
+  --theme-primary-glow: rgba(255, 122, 89, 0.22);
+  --theme-accent: #ff7a59;
+  --theme-accent-hover: #ff967a;
+  --theme-accent-contrast: #24110c;
+  --theme-accent-subtle: rgba(255, 122, 89, 0.16);
+  --theme-accent-border: rgba(255, 122, 89, 0.45);
+  --theme-accent-glow: rgba(255, 122, 89, 0.22);
+  --theme-bg: #0b0e11;
+  --theme-bg-subtle: #12161b;
+  --theme-card: #1e2329;
+  --theme-card-subtle: #2b3139;
+  --theme-border: #2b3139;
+  --theme-border-subtle: #252a31;
+  --theme-text-title: #ffffff;
+  --theme-text-body: #eaecef;
+  --theme-text-muted: #929aa5;
+  --theme-ring: rgba(59, 130, 246, 0.55);
+  --theme-mesh-1: transparent;
+  --theme-mesh-2: transparent;
 }
 
-/* 🔴 2. Ember Crimson (Dark) */
-.dark[data-theme="crimson"],
-html.dark[data-theme="crimson"] {
-  --theme-primary: #FF4A55;
-  --theme-primary-hover: #FF6670;
-  --theme-primary-contrast: #FFFFFF;
-  --theme-primary-subtle: rgba(255, 74, 85, 0.14);
-  --theme-primary-border: rgba(255, 74, 85, 0.35);
-  --theme-primary-glow: rgba(255, 74, 85, 0.25);
-
-  --theme-accent: #F2A900;
-  --theme-accent-hover: #F8BE28;
-  --theme-accent-contrast: #0A0E14;
-  --theme-accent-subtle: rgba(242, 169, 0, 0.14);
-  --theme-accent-border: rgba(242, 169, 0, 0.35);
-  --theme-accent-glow: rgba(242, 169, 0, 0.25);
-
-  --theme-bg: #0B080B;
-  --theme-bg-subtle: #140E14;
-  --theme-card: #1A121A;
-  --theme-card-subtle: #241A25;
-  --theme-border: #38253A;
-  --theme-border-subtle: #2A1C2C;
-
-  --theme-text-title: #FDF2F4;
-  --theme-text-body: #E0CDD2;
-  --theme-text-muted: #9E828A;
-  --theme-ring: rgba(255, 74, 85, 0.45);
-  --theme-mesh-1: rgba(255, 74, 85, 0.12);
-  --theme-mesh-2: rgba(242, 169, 0, 0.08);
+* {
+  border-color: var(--theme-border);
 }
 
-/* 🟢 3. Forest Emerald (Dark) */
-.dark[data-theme="emerald"],
-html.dark[data-theme="emerald"] {
-  --theme-primary: #34D399;
-  --theme-primary-hover: #4ADE80;
-  --theme-primary-contrast: #062B1F;
-  --theme-primary-subtle: rgba(52, 211, 153, 0.14);
-  --theme-primary-border: rgba(52, 211, 153, 0.35);
-  --theme-primary-glow: rgba(52, 211, 153, 0.25);
-
-  --theme-accent: #FBBF24;
-  --theme-accent-hover: #FCD34D;
-  --theme-accent-contrast: #0A0E14;
-  --theme-accent-subtle: rgba(251, 191, 36, 0.14);
-  --theme-accent-border: rgba(251, 191, 36, 0.35);
-  --theme-accent-glow: rgba(251, 191, 36, 0.25);
-
-  --theme-bg: #060D0B;
-  --theme-bg-subtle: #0B1713;
-  --theme-card: #0F211C;
-  --theme-card-subtle: #152C26;
-  --theme-border: #1E4239;
-  --theme-border-subtle: #17332C;
-
-  --theme-text-title: #F0FDF8;
-  --theme-text-body: #C7E2D8;
-  --theme-text-muted: #7E9E94;
-  --theme-ring: rgba(52, 211, 153, 0.45);
-  --theme-mesh-1: rgba(52, 211, 153, 0.12);
-  --theme-mesh-2: rgba(251, 191, 36, 0.08);
+html {
+  background: var(--theme-bg);
+  color-scheme: light;
 }
 
-/* 🟣 4. Royal Amethyst (Dark) */
-.dark[data-theme="amethyst"],
-html.dark[data-theme="amethyst"] {
-  --theme-primary: #A78BFA;
-  --theme-primary-hover: #C4B5FD;
-  --theme-primary-contrast: #1E0E3D;
-  --theme-primary-subtle: rgba(167, 139, 250, 0.14);
-  --theme-primary-border: rgba(167, 139, 250, 0.35);
-  --theme-primary-glow: rgba(167, 139, 250, 0.25);
-
-  --theme-accent: #FBBF24;
-  --theme-accent-hover: #FCD34D;
-  --theme-accent-contrast: #0A0E14;
-  --theme-accent-subtle: rgba(251, 191, 36, 0.14);
-  --theme-accent-border: rgba(251, 191, 36, 0.35);
-  --theme-accent-glow: rgba(251, 191, 36, 0.25);
-
-  --theme-bg: #0A0712;
-  --theme-bg-subtle: #120E1E;
-  --theme-card: #19142A;
-  --theme-card-subtle: #231C3B;
-  --theme-border: #362A5A;
-  --theme-border-subtle: #291F44;
-
-  --theme-text-title: #FAF5FF;
-  --theme-text-body: #DCD2F0;
-  --theme-text-muted: #9585B5;
-  --theme-ring: rgba(167, 139, 250, 0.45);
-  --theme-mesh-1: rgba(167, 139, 250, 0.12);
-  --theme-mesh-2: rgba(251, 191, 36, 0.08);
+html.dark {
+  color-scheme: dark;
 }
-
-/* 🟠 5. Sunset Amber (Dark) */
-.dark[data-theme="amber"],
-html.dark[data-theme="amber"] {
-  --theme-primary: #FB923C;
-  --theme-primary-hover: #FDBA74;
-  --theme-primary-contrast: #2D1103;
-  --theme-primary-subtle: rgba(251, 146, 60, 0.14);
-  --theme-primary-border: rgba(251, 146, 60, 0.35);
-  --theme-primary-glow: rgba(251, 146, 60, 0.25);
-
-  --theme-accent: #2DD4BF;
-  --theme-accent-hover: #5EEAD4;
-  --theme-accent-contrast: #042F2C;
-  --theme-accent-subtle: rgba(45, 212, 191, 0.14);
-  --theme-accent-border: rgba(45, 212, 191, 0.35);
-  --theme-accent-glow: rgba(45, 212, 191, 0.25);
-
-  --theme-bg: #0D0805;
-  --theme-bg-subtle: #17100B;
-  --theme-card: #201610;
-  --theme-card-subtle: #2C1E16;
-  --theme-border: #442E22;
-  --theme-border-subtle: #332219;
-
-  --theme-text-title: #FFF7ED;
-  --theme-text-body: #EAD6C9;
-  --theme-text-muted: #A38573;
-  --theme-ring: rgba(251, 146, 60, 0.45);
-  --theme-mesh-1: rgba(251, 146, 60, 0.12);
-  --theme-mesh-2: rgba(45, 212, 191, 0.08);
-}
-
-/* ==========================================================================
-   MINIMALIST CLEAN UI ARCHITECTURE
-   ========================================================================== */
 
 body {
-  background-color: var(--theme-bg);
+  margin: 0;
+  background: var(--theme-bg);
   color: var(--theme-text-body);
-  font-family: var(--font-sarabun), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-sarabun), system-ui, sans-serif;
   font-size: 15px;
-  line-height: 1.6;
-  letter-spacing: -0.01em;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  line-height: 1.5;
+  letter-spacing: 0;
+  transition: background-color 160ms ease, color 160ms ease;
 }
 
-/* Quiet editorial surfaces keep the catalog readable and focused. */
-.site-header {
-  background: color-mix(in srgb, var(--theme-card) 94%, transparent);
-  box-shadow: 0 1px 0 color-mix(in srgb, var(--theme-border) 70%, transparent);
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 12px;
+  border-bottom: 2px solid transparent;
+  color: var(--theme-text-muted);
+  font-size: 13px;
+  font-weight: 600;
+  transition: color 160ms ease, border-color 160ms ease;
 }
 
-.hero-shell {
-  background:
-    linear-gradient(180deg, color-mix(in srgb, var(--theme-bg-subtle) 88%, var(--theme-card)), var(--theme-bg)),
-    var(--theme-bg);
+.nav-link:hover {
+  border-color: var(--theme-primary);
+  color: var(--theme-text-title);
 }
 
-.hero-shell::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.35;
-  background-image: linear-gradient(var(--theme-border-subtle) 1px, transparent 1px),
-    linear-gradient(90deg, var(--theme-border-subtle) 1px, transparent 1px);
-  background-size: 56px 56px;
-  mask-image: linear-gradient(to bottom, black, transparent 78%);
+.header-control,
+.header-icon-control {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 0 10px;
+  color: var(--theme-text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  transition: border-color 160ms ease, background-color 160ms ease, color 160ms ease;
 }
 
-.search-panel,
-.hero-feature-card,
-.catalog-filter {
-  box-shadow: 0 14px 34px -28px color-mix(in srgb, var(--theme-text-title) 45%, transparent);
+.header-control:hover,
+.header-icon-control:hover {
+  border-color: var(--theme-border);
+  background: var(--theme-card-subtle);
+  color: var(--theme-text-title);
 }
 
-.hero-feature-card {
-  background: linear-gradient(145deg, var(--theme-card), color-mix(in srgb, var(--theme-card-subtle) 55%, var(--theme-card)));
+.header-icon-control {
+  width: 40px;
+  padding: 0;
 }
 
-.site-header a:focus-visible,
-.site-header button:focus-visible,
-.site-footer a:focus-visible {
-  outline: 2px solid var(--theme-primary);
-  outline-offset: 3px;
+.count-badge {
+  display: inline-flex;
+  min-width: 18px;
+  height: 18px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--theme-primary);
+  color: var(--theme-primary-contrast);
+  font-size: 10px;
+}
+
+.stat-number {
+  font-family: var(--font-geist-mono), monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.04em;
+}
+
+.search-console,
+.market-rail {
+  border-radius: 8px;
+}
+
+.market-row {
+  transition: background-color 160ms ease;
+}
+
+.market-row:hover {
+  background: var(--theme-card-subtle);
+}
+
+.site-footer {
+  color: #181a20;
+}
+
+.footer-heading {
+  margin-bottom: 12px;
+  color: #181a20;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.footer-muted {
+  color: #707a8a;
+}
+
+.footer-links {
+  display: grid;
+  gap: 8px;
+  color: #3d424d;
+  font-size: 13px;
+}
+
+.footer-links a:hover {
+  color: #e85d3f;
 }
 
 button,
 a,
 input,
-select {
+select,
+textarea {
   -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--theme-ring);
+  outline-offset: 2px;
 }
 
 ::selection {
@@ -399,24 +215,143 @@ select {
   color: var(--theme-primary-contrast);
 }
 
-/* Minimal Solid Card & Surface */
+.site-header {
+  background: color-mix(in srgb, var(--theme-bg) 94%, var(--theme-primary) 6%);
+  box-shadow: 0 1px 0 var(--theme-border), 0 5px 0 -4px var(--theme-primary);
+}
+
+.catalog-filter,
+.minimal-card,
+.floating-dock {
+  box-shadow: none;
+}
+
+/* Keep the existing components aligned with the tighter product-system geometry. */
+.rounded-3xl {
+  border-radius: 10px !important;
+}
+
+.rounded-2xl {
+  border-radius: 10px !important;
+}
+
+.rounded-xl {
+  border-radius: 8px !important;
+}
+
+.shadow-2xl,
+.shadow-xl,
+.shadow-lg,
+.shadow-md,
+.shadow-sm,
+.shadow-xs,
+.shadow-2xs {
+  box-shadow: none !important;
+}
+
 .minimal-card {
   background: var(--theme-card);
   border: 1px solid var(--theme-border);
 }
 
-/* Minimal Floating Dock */
 .floating-dock {
   background: var(--theme-card);
   border: 1px solid var(--theme-border);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
-.dark .floating-dock {
-  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+/* Shared product primitives used by cards, filters, and modal surfaces. */
+.ui-card {
+  background: var(--theme-card);
+  border: 1px solid var(--theme-border);
+  border-radius: 10px;
+  transition: border-color 160ms ease, background-color 160ms ease;
 }
 
-/* Keyboard Shortcut Keycap Style (Clean Minimalist) */
+.ui-card:hover {
+  border-color: var(--theme-primary-border);
+}
+
+.ui-modal-backdrop {
+  background: rgba(11, 14, 17, 0.82);
+  backdrop-filter: blur(10px);
+}
+
+.ui-modal {
+  background: var(--theme-card);
+  border: 1px solid var(--theme-border);
+  border-radius: 10px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.32);
+}
+
+.ui-modal-header,
+.ui-modal-footer {
+  background: var(--theme-card-subtle);
+}
+
+.ui-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--theme-border);
+  border-radius: 8px;
+  background: var(--theme-card);
+  color: var(--theme-text-muted);
+  transition: border-color 160ms ease, color 160ms ease, background-color 160ms ease;
+}
+
+.ui-icon-button:hover {
+  border-color: var(--theme-primary-border);
+  color: var(--theme-primary);
+  background: var(--theme-card-subtle);
+}
+
+.ui-primary-button {
+  background: var(--theme-primary);
+  color: var(--theme-primary-contrast);
+  border: 1px solid var(--theme-primary);
+  border-radius: 5px;
+  font-weight: 700;
+  transition: background-color 160ms ease, border-color 160ms ease, opacity 160ms ease;
+}
+
+.ui-primary-button:hover {
+  background: var(--theme-primary-hover);
+  border-color: var(--theme-primary-hover);
+}
+
+.ui-secondary-button,
+.ui-field {
+  background: var(--theme-card-subtle);
+  border: 1px solid var(--theme-border);
+  color: var(--theme-text-title);
+  border-radius: 6px;
+}
+
+.ui-secondary-button:hover {
+  border-color: var(--theme-primary-border);
+  color: var(--theme-primary);
+}
+
+.ui-field {
+  transition: border-color 160ms ease, background-color 160ms ease;
+}
+
+.ui-field:hover {
+  border-color: var(--theme-primary-border);
+}
+
+.ui-field:focus-visible {
+  border-color: var(--theme-primary);
+}
+
+.ui-section-label {
+  color: var(--theme-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .kbd-shortcut {
   display: inline-flex;
   align-items: center;
@@ -424,33 +359,17 @@ select {
   min-width: 20px;
   height: 20px;
   padding: 0 5px;
-  font-family: var(--font-geist-mono), monospace;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 1;
   color: var(--theme-text-muted);
   background: var(--theme-card-subtle);
   border: 1px solid var(--theme-border);
   border-radius: 4px;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 11px;
 }
 
-/* Custom Sleek Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--theme-border);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--theme-text-muted);
 }
 
 ::-webkit-scrollbar-track {
@@ -459,8 +378,7 @@ select {
 
 ::-webkit-scrollbar-thumb {
   background: var(--theme-border);
-  border-radius: 9999px;
-  border: 2px solid var(--theme-bg);
+  border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

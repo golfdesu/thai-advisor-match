@@ -1,0 +1,1449 @@
+{
+  "timestamp": "2026-09-20T00:09:00.413231",
+  "mu_count": 16,
+  "kku_count": 192,
+  "mu_records": [
+    {
+      "id": "mu_sci_wave14_b_0094",
+      "first_name": "Bui",
+      "last_name": "Phuoc Minh",
+      "full_name_th": "ดร. บุย เฟื้อก มินห์"
+    },
+    {
+      "id": "mu_sci_wave14_b_0139",
+      "first_name": "Manh",
+      "last_name": "Van Nguyen",
+      "full_name_th": "ดร. มัน วัน เหงียน"
+    },
+    {
+      "id": "mu_sci_wave14_b_0220",
+      "first_name": "Alejandro",
+      "last_name": "Saez Rivera",
+      "full_name_th": "ดร. อเลฮานโดร ซาอีส ริเวรา"
+    },
+    {
+      "id": "mu_sci_wave14_b_0153",
+      "first_name": "Ruth J.",
+      "last_name": "Skulkhu",
+      "full_name_th": "ผศ.ดร. รู้ธ จ. สกุลคู"
+    },
+    {
+      "id": "mu_sci_wave14_b_0221",
+      "first_name": "Amornrat",
+      "last_name": "Naranuntarat Jensen",
+      "full_name_th": "รศ.ดร. อมรรัตน์ นรานันทรัตน์ เจนเซน"
+    },
+    {
+      "id": "mu_sci_wave14_b_0117",
+      "first_name": "Ponpan",
+      "last_name": "Matangkasombut Choopong",
+      "full_name_th": "รศ.ดร. พรพรรณ มาตังคสมบัติ ชูพงศ์"
+    },
+    {
+      "id": "mu_sci_wave14_b_0141",
+      "first_name": "Michael Anthony",
+      "last_name": "Allen",
+      "full_name_th": "รศ.ดร. ไมเคิล แอนโทนี่ เอเลน"
+    },
+    {
+      "id": "chulalongk_facultyofa_sri_024",
+      "first_name": "Sorachai",
+      "last_name": "Srisuma",
+      "full_name_th": "ผศ.ดร. นพ. สรชัย ศรีสุมา"
+    },
+    {
+      "id": "wave30_0013_570",
+      "first_name": "Nanthinee",
+      "last_name": "Nantawanich Saengfai",
+      "full_name_th": "ผศ. ทพญ. นันทินี นันทวณิชย์ แสงไฟ"
+    },
+    {
+      "id": "mahidoluni_collegeofm_lynch_170",
+      "first_name": "Nathan",
+      "last_name": "Lynch",
+      "full_name_th": "อ. Nathan Lynch"
+    },
+    {
+      "id": "mahidoluni_collegeofm_matsushima_111",
+      "first_name": "Yoshimi",
+      "last_name": "Matsushima",
+      "full_name_th": "อ. Yoshimi Matsushima"
+    },
+    {
+      "id": "mahidoluni_collegeofm_parente_094",
+      "first_name": "David",
+      "last_name": "Parente",
+      "full_name_th": "อ. David Parente"
+    },
+    {
+      "id": "mahidoluni_collegeofm_matsushima_148",
+      "first_name": "Hiroshi",
+      "last_name": "Matsushima",
+      "full_name_th": "อ. Hiroshi Matsushima"
+    },
+    {
+      "id": "mahidoluni_collegeofm_wright_150",
+      "first_name": "Cooper",
+      "last_name": "Wright",
+      "full_name_th": "อ. Cooper Wright"
+    },
+    {
+      "id": "mahidoluni_collegeofm_jung_155",
+      "first_name": "Yu-Jin",
+      "last_name": "Jung",
+      "full_name_th": "อ. Yu-Jin Jung"
+    },
+    {
+      "id": "mahidoluni_collegeofm_grund_129",
+      "first_name": "Martin",
+      "last_name": "Grund",
+      "full_name_th": "อ. Martin Grund"
+    }
+  ],
+  "kku_records": [
+    {
+      "id": "kku_eng_wave12_0004",
+      "full_name_th": "ผศ.ดร. เขมจิต เสนา",
+      "first_name": "Khemajit",
+      "last_name": "Sena",
+      "email": "skhema@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0006",
+      "full_name_th": "ผศ.ดร. ปิโยรส จิระวัฒนา",
+      "first_name": "Piyoros",
+      "last_name": "Jirawattana",
+      "email": "piyoro@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0008",
+      "full_name_th": "ผศ.ดร. ชนกนันท์ สุขกำเนิด",
+      "first_name": "Chanoknan",
+      "last_name": "Sukkhamnoet",
+      "email": "chasoo@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0013",
+      "full_name_th": "อ.ดร. วศกร ตรีเดช",
+      "first_name": "Wasakorn",
+      "last_name": "Tridetch",
+      "email": "wasatr@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0014",
+      "full_name_th": "รศ.ดร. สุรสิทธิ์ ปิยะศิลป์",
+      "first_name": "Surasith",
+      "last_name": "Piyasin",
+      "email": "surasith@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0016",
+      "full_name_th": "รศ.ดร. อัครพล จันทร์อ่อน",
+      "first_name": "Akraphon",
+      "last_name": "Chan-On",
+      "email": "akraphon@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0018",
+      "full_name_th": "อ.ดร. สุภชัย พลน้ำเที่ยง",
+      "first_name": "Suphachai",
+      "last_name": "Phonnamthiang",
+      "email": "supapol@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0021",
+      "full_name_th": "รศ.ดร. ปณิธาน พีรพัฒนา",
+      "first_name": "Panithan",
+      "last_name": "Peeraphatana",
+      "email": "panpee@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0023",
+      "full_name_th": "รศ.ดร. ศีขรินทร์ สุขโต",
+      "first_name": "Seekharin",
+      "last_name": "Sukkho",
+      "email": "seesuk@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0025",
+      "full_name_th": "รศ.ดร. ธนา ราษฎร์ภักดี",
+      "first_name": "Thana",
+      "last_name": "Ratphakdi",
+      "email": "rthana@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0027",
+      "full_name_th": "รศ.ดร. ธีรวัฒน์ เหล่านภากุล",
+      "first_name": "Teerawat",
+      "last_name": "Laonaphakun",
+      "email": "teerla@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0028",
+      "full_name_th": "ผศ.ดร. ฐนวรรธน์ นิยะโมสถ",
+      "first_name": "Thanawan",
+      "last_name": "Niyamoth",
+      "email": "thanani@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0031",
+      "full_name_th": "ผศ.ดร. ศิรวดี อรัญนารถ",
+      "first_name": "Sirawadee",
+      "last_name": "Aranyanat",
+      "email": "sirawadee@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0032",
+      "full_name_th": "ผศ.ดร. ฐิติพงศ์ จำรัส",
+      "first_name": "Thitiphong",
+      "last_name": "Chamrat",
+      "email": "thitja@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0033",
+      "full_name_th": "ผศ.ดร. ศิโรรัตน์ พัฒนไพโรจน์",
+      "first_name": "Sirorat",
+      "last_name": "Phattanaphairot",
+      "email": "siropa@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0034",
+      "full_name_th": "ผศ.ดร. กฤษณรัช นิติสิริ",
+      "first_name": "Kritsanarat",
+      "last_name": "Nitisiri",
+      "email": "krisni@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0035",
+      "full_name_th": "ผศ.ดร. โกวิทย์ พลหาญ",
+      "first_name": "Kowit",
+      "last_name": "Phonhan",
+      "email": "kowipo@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0036",
+      "full_name_th": "อ.ดร. คมกริช จันทรเสนา",
+      "first_name": "Komkrit",
+      "last_name": "Chantharasena",
+      "email": "komkju@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0045",
+      "full_name_th": "อ.ดร. อาทิตย์ ภูผาผุด",
+      "first_name": "Arthit",
+      "last_name": "Phuphaphut",
+      "email": "arthphu@kku.ac.th"
+    },
+    {
+      "id": "khonkaenun_facultyofm_fac_003_003",
+      "full_name_th": "รศ.ดร. ปาริฉัตร ประจะเนย์",
+      "first_name": "Parichat",
+      "last_name": "Prachanay",
+      "email": null
+    },
+    {
+      "id": "kku_agri_wave14_b_0001",
+      "full_name_th": "ผศ.ดร. สมพงศ์ จันทร์แก้ว",
+      "first_name": "Sompong",
+      "last_name": "Chankaew",
+      "email": "somchan@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0002",
+      "full_name_th": "ผศ.ดร. จิรวัฒน์ สนิทชน",
+      "first_name": "Jirawat",
+      "last_name": "Sanitchon",
+      "email": "jirawat@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0005",
+      "full_name_th": "รศ.ดร. พัชริน ส่งศรี",
+      "first_name": "Patcharin",
+      "last_name": "Songsri",
+      "email": "patcharinso@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0006",
+      "full_name_th": "ผศ.ดร. ธิดารัตน์ มอญขาม",
+      "first_name": "Thidarat",
+      "last_name": "Mongkham",
+      "email": "tidamo@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0007",
+      "full_name_th": "รศ.ดร. สันติไมตรี ก้อนคำดี",
+      "first_name": "Santimaitri",
+      "last_name": "Konkamdee",
+      "email": "gsanti@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0008",
+      "full_name_th": "รศ.ดร. กิริยา สังข์ทองวิเศษ",
+      "first_name": "Kiriya",
+      "last_name": "Sangthongwiset",
+      "email": "skiriy@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0009",
+      "full_name_th": "รศ.ดร. อโนมา ดงแสนสุข",
+      "first_name": "Anoma",
+      "last_name": "Dongsaensuk",
+      "email": "danoma@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0011",
+      "full_name_th": "รศ.ดร. ณกรณ์ จงรั้งกลาง",
+      "first_name": "Nakorn",
+      "last_name": "Chongrangklang",
+      "email": "nuntjo@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0016",
+      "full_name_th": "ผศ.ดร. ชานนท์ ลาภจิตร",
+      "first_name": "Chanon",
+      "last_name": "Lapchit",
+      "email": "lchano@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0017",
+      "full_name_th": "รศ.ดร. สุภัทร์ อิศรางกูร ณ อยุธยา",
+      "first_name": "Suphat",
+      "last_name": "Isarangkura Na Ayudhaya",
+      "email": "isupat@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0018",
+      "full_name_th": "รศ.ดร. ภาณุพล หงษ์ภักดี",
+      "first_name": "Panupon",
+      "last_name": "Hongpakdee",
+      "email": "panupon@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0019",
+      "full_name_th": "ผศ.ดร. ศุภณัฏฐ์ กาญจนวัฒนาวงศ์",
+      "first_name": "Supanat",
+      "last_name": "Kanchanawatanawong",
+      "email": "supanath@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0021",
+      "full_name_th": "ผศ.ดร. ศุภัชญา นามพิลา",
+      "first_name": "Supatchaya",
+      "last_name": "Namphila",
+      "email": "rumpna@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0022",
+      "full_name_th": "อ.ดร. ธัญญารัตน์ ตาอินต๊ะ",
+      "first_name": "Thanyarat",
+      "last_name": "Taintah",
+      "email": "tanyata@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0023",
+      "full_name_th": "อ. ประกาศิต ดวงพาเพ็ง",
+      "first_name": "Prakasit",
+      "last_name": "Duangpapheng",
+      "email": "prakasit@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0029",
+      "full_name_th": "อ. นาย ศุภชัย สีเรือง",
+      "first_name": "Supachai",
+      "last_name": "Seerueng",
+      "email": "supasee@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0030",
+      "full_name_th": "อ. นาย เชาวลิต สีลาดเลา",
+      "first_name": "Chaowalit",
+      "last_name": "Seeladlao",
+      "email": "chaose@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0031",
+      "full_name_th": "อ. นาย สมยศ มีทา",
+      "first_name": "Somyot",
+      "last_name": "Meetha",
+      "email": "sommee@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0032",
+      "full_name_th": "รศ.ดร. สุภาภรณ์ พวงชมภู",
+      "first_name": "Supaporn",
+      "last_name": "Phuangchomphu",
+      "email": "psuppap@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0034",
+      "full_name_th": "รศ.ดร. สาธิต อดิตโต",
+      "first_name": "Satit",
+      "last_name": "Aditto",
+      "email": "asatit@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0037",
+      "full_name_th": "ผศ.ดร. พัชรี สุริยะ",
+      "first_name": "Patcharee",
+      "last_name": "Suriya",
+      "email": "supatch@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0038",
+      "full_name_th": "ผศ.ดร. ปนัดดา อุตรนคร",
+      "first_name": "Panadda",
+      "last_name": "Uttaranakorn",
+      "email": "panaut@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0039",
+      "full_name_th": "อ.ดร. ภคพล สายหยุด",
+      "first_name": "Pakapol",
+      "last_name": "Saiyud",
+      "email": "pakapon@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0040",
+      "full_name_th": "อ.ดร. พัชรี หงษ์ทอง",
+      "first_name": "Patcharee",
+      "last_name": "Hongthong",
+      "email": "pathon@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0043",
+      "full_name_th": "ศ.ดร. ไชยณรงค์ นาวานุเคราะห์",
+      "first_name": "Chainarong",
+      "last_name": "Navanukraw",
+      "email": "chanav@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0044",
+      "full_name_th": "รศ.ดร. วุฒิไกร บุญคุ้ม",
+      "first_name": "Wuttikrai",
+      "last_name": "Boonkum",
+      "email": "wuttbo@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0045",
+      "full_name_th": "รศ.ดร. อนุสรณ์ เชิดทอง",
+      "first_name": "Anusorn",
+      "last_name": "Cherdthong",
+      "email": "anusornc@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0046",
+      "full_name_th": "ผศ.ดร. ยุพิน ผาสุข",
+      "first_name": "Yupin",
+      "last_name": "Phasuk",
+      "email": "yuplua@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0047",
+      "full_name_th": "รศ.ดร. แวววรี บุญเทียม",
+      "first_name": "Waewwaree",
+      "last_name": "Boontiam",
+      "email": "waewbo@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0048",
+      "full_name_th": "ผศ.ดร. สาวิตรี วงศ์ตั้งถิ่นฐาน",
+      "first_name": "Sawitree",
+      "last_name": "Wongtangthinthan",
+      "email": "sawiwo@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0049",
+      "full_name_th": "รศ.ดร. วิบัณฑิตา จันทร์กิติสกุล",
+      "first_name": "Vibundita",
+      "last_name": "Chankitisakul",
+      "email": "vibuch@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0050",
+      "full_name_th": "ผศ.ดร. ธีรชัย หายทุกข์",
+      "first_name": "Teerachai",
+      "last_name": "Haithuk",
+      "email": "theeha@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0051",
+      "full_name_th": "รศ.ดร. กฤตพล สมมาตย์",
+      "first_name": "Kritapon",
+      "last_name": "Sommat",
+      "email": "kritapon@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0053",
+      "full_name_th": "อ.ดร. ชานนท์ สุนทรา",
+      "first_name": "Chanont",
+      "last_name": "Suntara",
+      "email": "chansun@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0055",
+      "full_name_th": "อ. นางสาว กนิษฐา ชัยพรม",
+      "first_name": "Kanittha",
+      "last_name": "Chaiprom",
+      "email": "kanidch@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0056",
+      "full_name_th": "อ. นางสาว ชุติมา ปรีชา",
+      "first_name": "Chutima",
+      "last_name": "Preecha",
+      "email": "chupre@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0057",
+      "full_name_th": "อ. นาย พิชิต วงษ์ทรงยศ",
+      "first_name": "Pichit",
+      "last_name": "Wongsongyot",
+      "email": "pichwo@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0058",
+      "full_name_th": "อ. นาย ก่อเกียรติ ศรีหนองกุง",
+      "first_name": "Khokiat",
+      "last_name": "Srinongkoong",
+      "email": "khokeat@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0059",
+      "full_name_th": "อ. นาย พิภพ โคกแปะ",
+      "first_name": "Phiphop",
+      "last_name": "Khokpae",
+      "email": "phipgo@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0060",
+      "full_name_th": "อ. นาย จรัญ เนตรแสงสี",
+      "first_name": "Charan",
+      "last_name": "Netsaengsee",
+      "email": "charne@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0061",
+      "full_name_th": "อ. นาย ชานนท์ ทองดี",
+      "first_name": "Chanont",
+      "last_name": "Thongdee",
+      "email": "chanont@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0062",
+      "full_name_th": "อ. นาย ธนากร สายสิงห์",
+      "first_name": "Thanakorn",
+      "last_name": "Saising",
+      "email": "thanasa@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0063",
+      "full_name_th": "อ. นางสาว บุณณกัญญ์ พลแสน",
+      "first_name": "Boonnakan",
+      "last_name": "Pholsan",
+      "email": "boonnakan@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0064",
+      "full_name_th": "อ. นางสาว ศรีนวล คณานิตย์",
+      "first_name": "Srinual",
+      "last_name": "Kananiet",
+      "email": "srinka@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0065",
+      "full_name_th": "อ. นางสาว ฐิติพร ไกรโสดา",
+      "first_name": "Thitiporn",
+      "last_name": "Kraisoda",
+      "email": "thitikai@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0066",
+      "full_name_th": "อ. นางสาว ปาริชาต คำฤาชา",
+      "first_name": "Parichat",
+      "last_name": "Khamruacha",
+      "email": "parkha@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0067",
+      "full_name_th": "อ. นางสาว กษมา ตั้งมุททาภัทรกุล",
+      "first_name": "Katsama",
+      "last_name": "Tangmuthaphatthakun",
+      "email": "gasata@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0068",
+      "full_name_th": "อ. นาย ปฐมพงศ์ หล้าคำ",
+      "first_name": "Pratompong",
+      "last_name": "Lhakham",
+      "email": "pratompong@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0069",
+      "full_name_th": "อ. นางสาว นริศรา สวยรูป",
+      "first_name": "Naritsara",
+      "last_name": "Suairoop",
+      "email": "narisu@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0070",
+      "full_name_th": "อ. นาย สายัณ คันธรินทร์",
+      "first_name": "Sayan",
+      "last_name": "Kantharin",
+      "email": "sayankh@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0071",
+      "full_name_th": "อ. นาย ดำรงรักษ์ รักวงษ์ฤทธิ์",
+      "first_name": "Dumrongrak",
+      "last_name": "Rakwongrit",
+      "email": "dumrra@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0072",
+      "full_name_th": "อ. นาย คิงแดง ศิริการ",
+      "first_name": "Kingdaeng",
+      "last_name": "Sirikan",
+      "email": "kingsi@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0073",
+      "full_name_th": "อ. นาย อุบล ประโคทานัง",
+      "first_name": "Ubon",
+      "last_name": "Prachotanang",
+      "email": "ubonpr@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0074",
+      "full_name_th": "อ. นาย โชคชัย ด้วงมัน",
+      "first_name": "Chokchai",
+      "last_name": "Duangman",
+      "email": "chokdu@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0076",
+      "full_name_th": "อ.ดร. ไชยา กลิ่นสุคนธ์",
+      "first_name": "Chaiya",
+      "last_name": "Klinsukhon",
+      "email": "chaikl@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0077",
+      "full_name_th": "อ.ดร. โชคชัย ซุยอุ้ย",
+      "first_name": "Chokchai",
+      "last_name": "Suiui",
+      "email": "choksu@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0078",
+      "full_name_th": "ผศ.ดร. วิถี เหมือนวอน",
+      "first_name": "Withi",
+      "last_name": "Mueanwon",
+      "email": "vithmue@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0079",
+      "full_name_th": "รศ.ดร. ประกายจันทร์ นิ่มกิ่งรัตน์",
+      "first_name": "Prakaichan",
+      "last_name": "Nimkingrat",
+      "email": "npraka@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0081",
+      "full_name_th": "ผศ.ดร. ดวงรัตน์ ธงภักดิ์",
+      "first_name": "Duangrat",
+      "last_name": "Thongphak",
+      "email": "duathg@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0082",
+      "full_name_th": "ผศ.ดร. ยุวธิดา ศรีพลแท่น",
+      "first_name": "Yuwathida",
+      "last_name": "Sriphantaen",
+      "email": "yuwasr@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0084",
+      "full_name_th": "อ.ดร. ปพิชญา เตียวกุล",
+      "first_name": "Papitchaya",
+      "last_name": "Tiaoakun",
+      "email": "papit@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0085",
+      "full_name_th": "ผศ.ดร. อนันต์ วงเจริญ",
+      "first_name": "Anan",
+      "last_name": "Wongcharoen",
+      "email": "wanan@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0086",
+      "full_name_th": "ผศ.ดร. สุวิตา แสไพศาล",
+      "first_name": "Suwita",
+      "last_name": "Saiphaisan",
+      "email": "suwitsa@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0088",
+      "full_name_th": "ผศ.ดร. กานต์สิรี จินดาปัณณาพัฒน์",
+      "first_name": "Kansiri",
+      "last_name": "Jindapannaphat",
+      "email": "kansji@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0089",
+      "full_name_th": "อ.ดร. ชเนรินทร์ ฟ้าแลบ",
+      "first_name": "Chanerin",
+      "last_name": "Fhalap",
+      "email": "sukanl@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0003",
+      "full_name_th": "ศ.ดร. ภก. ธเนศ พงศ์จรรยากุล",
+      "first_name": "Thaned",
+      "last_name": "Pongjanyakul",
+      "email": "thaned@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0004",
+      "full_name_th": "รศ.ดร. ภญ. จอมใจ พีรพัฒนา",
+      "first_name": "Jomjai",
+      "last_name": "Peerapattana",
+      "email": "jomsuj@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0008",
+      "full_name_th": "ผศ.ดร. ภญ. จริงใจ อารีมิตร",
+      "first_name": "Jingjai",
+      "last_name": "Areemit",
+      "email": "jrinar@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0009",
+      "full_name_th": "ผศ.ดร. ภญ. ดวงกมล เลียวกิตติกุล",
+      "first_name": "Duangkamol",
+      "last_name": "Leowkittikul",
+      "email": "doung_le@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0011",
+      "full_name_th": "ผศ.ดร. ภก. สมชาย สุริยะไกร",
+      "first_name": "Somchai",
+      "last_name": "Suriyakai",
+      "email": "somsur@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0013",
+      "full_name_th": "รศ. ภญ. สุณี เลิศสินอุดม",
+      "first_name": "Sunee",
+      "last_name": "Lertsinudom",
+      "email": "lsunee@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0018",
+      "full_name_th": "รศ.ดร. ภญ. ศิริลักษณ์ ใจซื่อ",
+      "first_name": "Sirilak",
+      "last_name": "Jaisue",
+      "email": "sirjai@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0019",
+      "full_name_th": "ผศ.ดร. ภญ. จุลรัตน์ คนศิลป์",
+      "first_name": "Chunlrat",
+      "last_name": "Konsin",
+      "email": "julkon@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0020",
+      "full_name_th": "ผศ.ดร. ภก. เด่นพงศ์ พัฒนเศรษฐานนท์",
+      "first_name": "Denphong",
+      "last_name": "Pattanasetthanont",
+      "email": "denpat@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0023",
+      "full_name_th": "ผศ.ดร. ภญ. อัจฉราวรรณ โตภาคงาม",
+      "first_name": "Atcharawan",
+      "last_name": "Topaphongam",
+      "email": "achkha@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0031",
+      "full_name_th": "รศ.ดร. ภญ. จันทนา บุญยะรัตน์",
+      "first_name": "Chantana",
+      "last_name": "Boonyarat",
+      "email": "chaboo@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0032",
+      "full_name_th": "รศ.ดร. ภญ. สุธาสินี ทัพพสารพงศ์",
+      "first_name": "Suthasinee",
+      "last_name": "Thapphasaraphong",
+      "email": "sutpit1@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0034",
+      "full_name_th": "รศ.ดร. ภญ. แคทรียา สุทธานุช",
+      "first_name": "Khaethriya",
+      "last_name": "Sutthanuch",
+      "email": "khaesu@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0035",
+      "full_name_th": "รศ.ดร. ภก. ธราพงษ์ ศรีสงคราม",
+      "first_name": "Tharapong",
+      "last_name": "Srisongkhram",
+      "email": "tarasri@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0038",
+      "full_name_th": "ศ.ดร. ภญ. วราภรณ์ ภูตะลุน",
+      "first_name": "Waraporn",
+      "last_name": "Phutchalun",
+      "email": "waraporn@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0044",
+      "full_name_th": "ผศ.ดร. ทวีศักดิ์ ธิติเมธาโรจน์",
+      "first_name": "Thawisak",
+      "last_name": "Thitimetharot",
+      "email": "thathi@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0047",
+      "full_name_th": "ผศ.ดร. ภญ. ศรัญญา ตันติยาสวัสดิกุล",
+      "first_name": "Sarunya",
+      "last_name": "Tantiyasawatkul",
+      "email": "sarunyat@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0048",
+      "full_name_th": "ผศ.ดร. ภญ. ศรีสมพร ปรีเปรม",
+      "first_name": "Srisomporn",
+      "last_name": "Preamprem",
+      "email": "srisompo@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0051",
+      "full_name_th": "ผศ.ดร. ภญ. รักษวร ใจสะอาด",
+      "first_name": "Raksa",
+      "last_name": "Jaisachart",
+      "email": "jraksa@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0052",
+      "full_name_th": "รศ.ดร. ภญ. กรแก้ว จันทภาษา",
+      "first_name": "Korkaew",
+      "last_name": "Chanthaphasa",
+      "email": "korcha@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0053",
+      "full_name_th": "รศ.ดร. ภญ. ทิพาพร กาญจนราช",
+      "first_name": "Tipaporn",
+      "last_name": "Kanchanarat",
+      "email": "otipkan@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0054",
+      "full_name_th": "รศ.ดร. ภญ. นุศราพร เกษสมบูรณ์",
+      "first_name": "Nusaraporn",
+      "last_name": "Ketsomboon",
+      "email": "nustat@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0055",
+      "full_name_th": "อ.ดร. ภก. ภาณุมาศ ภูมาศ",
+      "first_name": "Panumas",
+      "last_name": "Phumas",
+      "email": "panuphu@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0058",
+      "full_name_th": "ศ.ดร. ภญ. นฤมล เจริญศิริพรกุล",
+      "first_name": "Narumol",
+      "last_name": "Charoensiripornkul",
+      "email": "narumol@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0060",
+      "full_name_th": "ผศ.ดร. ภญ. วรรณี ชัยเฉลิมพงษ์",
+      "first_name": "Wannee",
+      "last_name": "Chaichalermpong",
+      "email": "wancha2@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0061",
+      "full_name_th": "ศ.ดร. ภญ. วัชรี คุณกิตติ",
+      "first_name": "Watcharee",
+      "last_name": "Khunkitti",
+      "email": "watkhu@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0001",
+      "full_name_th": "ผศ.ดร. ภญ. รพี จรุงศิรวัฒน์",
+      "first_name": "Rapee",
+      "last_name": "Jarungsirawat",
+      "email": "rapee@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0002",
+      "full_name_th": "ผศ.ดร. ภก. ปฐมทรรศน์ ศรีสุข",
+      "first_name": "Pathomthats",
+      "last_name": "Srisuk",
+      "email": "spatho@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0005",
+      "full_name_th": "รศ.ดร. ภญ. นภภัค ใจภักดี",
+      "first_name": "Naphaphak",
+      "last_name": "Jaiphakdee",
+      "email": "jsaowanee@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0006",
+      "full_name_th": "รศ.ดร. ภญ. ดวงกมล ศักดิ์เลิศสกุล",
+      "first_name": "Duangkamol",
+      "last_name": "Saklertsakul",
+      "email": "sduangk@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0007",
+      "full_name_th": "ผศ.ดร. ภก. นรินทร์ จันทร์ศรี",
+      "first_name": "Narin",
+      "last_name": "Chansri",
+      "email": "narcha@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0010",
+      "full_name_th": "ผศ.ดร. ภก. พีระ ทับบุญ",
+      "first_name": "Peera",
+      "last_name": "Thapbun",
+      "email": "peerata@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0014",
+      "full_name_th": "รศ.ดร. ภญ. ยุพาพร ปรีชากุล",
+      "first_name": "Yuppaporn",
+      "last_name": "Prichakul",
+      "email": "yuppre@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0015",
+      "full_name_th": "รศ.ดร. ภญ. วีรวรรณ อุชายภิชาติ",
+      "first_name": "Verawan",
+      "last_name": "Uchaiphichat",
+      "email": "veruch@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0016",
+      "full_name_th": "รศ.ดร. ภก. สุภัสร์ สุบงกช",
+      "first_name": "Suphat",
+      "last_name": "Subongkot",
+      "email": "supsub2@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0017",
+      "full_name_th": "รศ.ดร. ภก. เชิดชัย สุนทรภาส",
+      "first_name": "Choedchai",
+      "last_name": "Sunthonphas",
+      "email": "chesoo@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0022",
+      "full_name_th": "ผศ.ดร. ภญ. หนึ่งฤทัย สุกใส",
+      "first_name": "Nuengruethai",
+      "last_name": "Suksai",
+      "email": "nunsoo@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0026",
+      "full_name_th": "อ.ดร. ภญ. ภัทรพร พูลสวัสดิ์",
+      "first_name": "Phattaraporn",
+      "last_name": "Phunsawat",
+      "email": "pattpoon@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0027",
+      "full_name_th": "ผศ.ดร. ภญ. อรวรรณ มนทกานติรัตน์",
+      "first_name": "Orawan",
+      "last_name": "Monthakantirat",
+      "email": "oramon@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0028",
+      "full_name_th": "ศ.ดร. ภญ. นาถธิดา วีระปรียากูร",
+      "first_name": "Natthida",
+      "last_name": "Weerapreeyakul",
+      "email": "natthida@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0030",
+      "full_name_th": "รศ.ดร. ภญ. เยาวเรศ สุมานนท์",
+      "first_name": "Yaowaret",
+      "last_name": "Sumanon",
+      "email": "yaosum@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0033",
+      "full_name_th": "รศ.ดร. ภญ. เพลินทิพย์ ภูทองกิ่ง",
+      "first_name": "Ploenthip",
+      "last_name": "Phuthongking",
+      "email": "pploenthip@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0037",
+      "full_name_th": "ผศ.ดร. ภก. ปราโมทย์ มหคุณากร",
+      "first_name": "Pramote",
+      "last_name": "Mahakunaranon",
+      "email": "pramah@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0040",
+      "full_name_th": "รศ.ดร. ภญ. นาฏศจี นวลแก้ว",
+      "first_name": "Natsaji",
+      "last_name": "Nualkaew",
+      "email": "nnatsa@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0043",
+      "full_name_th": "ผศ.ดร. ภญ. จริญญา คำภักดี",
+      "first_name": "Charinya",
+      "last_name": "Khamphakdi",
+      "email": "charkh@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0045",
+      "full_name_th": "ผศ.ดร. ภก. ธนิสร์ ปทุมานนท์",
+      "first_name": "Thanit",
+      "last_name": "Pathumanon",
+      "email": "tanpad@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0046",
+      "full_name_th": "ผศ.ดร. ภญ. ปิยะดา ส่งเสริมสกุล",
+      "first_name": "Piyada",
+      "last_name": "Songsermsakun",
+      "email": "spiyad@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0049",
+      "full_name_th": "ผศ.ดร. ภญ. สุพัตรา ปรศุพัฒนา",
+      "first_name": "Supatra",
+      "last_name": "Porasuphatana",
+      "email": "psupatra@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0062",
+      "full_name_th": "รศ.ดร. ภญ. อารีวรรณ เชี่ยวชาญวัฒนา",
+      "first_name": "Areewan",
+      "last_name": "Chieochanwana",
+      "email": "areche@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0042",
+      "full_name_th": "ผศ.ดร. ภก. ประธาน ฦาชา",
+      "first_name": "Prathan",
+      "last_name": "Luecha",
+      "email": "prathanl@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0037",
+      "full_name_th": "ผศ.ดร. คำนึง วาทโยธา",
+      "first_name": "Khamnueng",
+      "last_name": "Wathayotha",
+      "email": null
+    },
+    {
+      "id": "kku_eng_wave12_0042",
+      "full_name_th": "รศ.ดร. ขวัญตรี แสงประชาธนารักษ์",
+      "first_name": "Khwantri",
+      "last_name": "Saengprachatanarak",
+      "email": "khwantri@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0012",
+      "full_name_th": "อ. ภญ. ศิริน เพ็ญภินันท์",
+      "first_name": "Sirin",
+      "last_name": "Phenphinan",
+      "email": "siriph@kku.ac.th"
+    },
+    {
+      "id": "khonkaenun_facultyofm_fac_033_033",
+      "full_name_th": "ผศ.ดร. อังคณา บุญยืด",
+      "first_name": "Angkana",
+      "last_name": "Boonyued",
+      "email": "sangka@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0002",
+      "full_name_th": "ผศ.ดร. เด่นพงษ์ สุดภักดี",
+      "first_name": "Denpong",
+      "last_name": "Sudphakdee",
+      "email": "denpong@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0007",
+      "full_name_th": "ผศ.ดร. จารุพล สุริยวนากุล",
+      "first_name": "Jarupol",
+      "last_name": "Suriyawanakul",
+      "email": "jarupol@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0009",
+      "full_name_th": "ศ.ดร. ธนากร วงศ์วัฒนาเสถียร",
+      "first_name": "Thanakorn",
+      "last_name": "Wongwattanasathien",
+      "email": "tanwon@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0015",
+      "full_name_th": "รศ.ดร. อนุสรณ์ ชินสุวรรณ",
+      "first_name": "Anusorn",
+      "last_name": "Chinsuwan",
+      "email": "anuchi@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0017",
+      "full_name_th": "รศ.ดร. สัปปินันทน์ เอกอําพน",
+      "first_name": "Sappinant",
+      "last_name": "Ekkamphon",
+      "email": "sappak@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0019",
+      "full_name_th": "รศ.ดร. ดนัยพงศ์ เชษฐโชติศักดิ์",
+      "first_name": "Danaiphong",
+      "last_name": "Cheanchotsak",
+      "email": "cdanai@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0024",
+      "full_name_th": "รศ.ดร. รักน้อย อัครรุ่งเรืองกุล",
+      "first_name": "Raknoi",
+      "last_name": "Akkararungruangkul",
+      "email": "raxaka@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0011",
+      "full_name_th": "รศ.ดร. ณัญธิวัฒน์ พลดี",
+      "first_name": "Nantiwat",
+      "last_name": "Pholdee",
+      "email": "nantiwat@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0010",
+      "full_name_th": "ผศ.ดร. จุฬาภรณ์ เบญจปิยะพร",
+      "first_name": "Chulaporn",
+      "last_name": "Benjapiyaporn",
+      "email": "julkae@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0003",
+      "full_name_th": "ผศ.ดร. นที พนากานต์",
+      "first_name": "Natee",
+      "last_name": "Phanakarn",
+      "email": "natepa@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0038",
+      "full_name_th": "รศ.ดร. ชัยยันย์ จันทร์ศิริ",
+      "first_name": "Chaiyan",
+      "last_name": "Chansiri",
+      "email": "chaich@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0044",
+      "full_name_th": "ผศ.ดร. กิตติพงษ์ ลาลูน",
+      "first_name": "Kittipong",
+      "last_name": "Laloon",
+      "email": "kittila@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0040",
+      "full_name_th": "รศ. ดร ชัยยันต์",
+      "first_name": "Chaiyan",
+      "last_name": "",
+      "email": null
+    },
+    {
+      "id": "kku_eng_wave12_0041",
+      "full_name_th": "รศ. ดร ศุภสิทธิ์",
+      "first_name": "Suphasit",
+      "last_name": "",
+      "email": null
+    },
+    {
+      "id": "kku_agri_wave14_b_0013",
+      "full_name_th": "อ. นาง พรทิพย์พา หาระโคตร",
+      "first_name": "Porntippha",
+      "last_name": "Harakhot",
+      "email": "krordu@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0014",
+      "full_name_th": "อ. นาย วัชชิระ สอนผา",
+      "first_name": "Watchira",
+      "last_name": "Sonpha",
+      "email": "wachso@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0015",
+      "full_name_th": "อ. นาง กนกพร ดวงบรรเทา",
+      "first_name": "Kanokporn",
+      "last_name": "Duangbanthao",
+      "email": "dkanok@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0020",
+      "full_name_th": "อ. รณรงค์ อยู่เกตุ",
+      "first_name": "Ronnarong",
+      "last_name": "Yookate",
+      "email": "yookate@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0025",
+      "full_name_th": "อ. นางสาวครองทรัพย์ ข้อยุ่น",
+      "first_name": "Khrongsap",
+      "last_name": "Khoyun",
+      "email": "khrong@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0026",
+      "full_name_th": "อ. นาง ภารดี สามหาดไทย",
+      "first_name": "Pharadee",
+      "last_name": "Samhatthai",
+      "email": "parasa@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0027",
+      "full_name_th": "อ. นาง เสาวภา ชมสำราญ",
+      "first_name": "Saowapha",
+      "last_name": "Chomsamran",
+      "email": "souvch@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0033",
+      "full_name_th": "ผศ. หยาดรุ้ง มะวงศ์ไว",
+      "first_name": "Yardrung",
+      "last_name": "Mawongwai",
+      "email": "thunma@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0041",
+      "full_name_th": "อ. นางสาว จิราวรรณ ปัดอาสา",
+      "first_name": "Jirawan",
+      "last_name": "Phat-Asa",
+      "email": "jirawpa@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0042",
+      "full_name_th": "ผศ. พีระพงษ์ แพงไพรี",
+      "first_name": "Peerapong",
+      "last_name": "Phaengphairi",
+      "email": "perpan@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0054",
+      "full_name_th": "อ. นาย เทพนิมิตร ภูกะฐิน",
+      "first_name": "Thepphinit",
+      "last_name": "Phukathin",
+      "email": "thepph@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0075",
+      "full_name_th": "อ. นาย สุวรรณ์ สร้อยนายาง",
+      "first_name": "Suwan",
+      "last_name": "Sroinayang",
+      "email": "suwasoi@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0001",
+      "full_name_th": "อ. จิตติน ตรีพุทธรัตน์",
+      "first_name": "Jittin",
+      "last_name": "Tripphuttharat",
+      "email": "jittri@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0029",
+      "full_name_th": "ผศ. ทวี นาครัชตะอมร",
+      "first_name": "Thawee",
+      "last_name": "Nakrachata-Amon",
+      "email": "thawna@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0021",
+      "full_name_th": "ผศ. ภก. มานิตย์ แซ่เตียว",
+      "first_name": "Manit",
+      "last_name": "Saetiao",
+      "email": "manitsa@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0024",
+      "full_name_th": "ผศ. ภก. สุธาร จันทะวงศ์",
+      "first_name": "Suthan",
+      "last_name": "Chanthawong",
+      "email": "suthch@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0025",
+      "full_name_th": "ผศ. ภญ. สุภิญญา ตันตาปกุล",
+      "first_name": "Suphinya",
+      "last_name": "Tantapakul",
+      "email": "supitu@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0041",
+      "full_name_th": "รศ. ภก. ศุภชัย ติยวรนันท์",
+      "first_name": "Suphachai",
+      "last_name": "Tiyavoranan",
+      "email": "suptiy@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0050",
+      "full_name_th": "อ. ภญ. ปิยมาภรณ์ อุตรนคร",
+      "first_name": "Piyamaporn",
+      "last_name": "Uttaranakorn",
+      "email": "piyaut@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0056",
+      "full_name_th": "อ. ภญ. เชิญพร นาวานุเคราะห์",
+      "first_name": "Chernporn",
+      "last_name": "Navanukroh",
+      "email": "chernna@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0057",
+      "full_name_th": "อ. ภญ. เพ็ญพิชชา สมตน",
+      "first_name": "Phenphitcha",
+      "last_name": "Somton",
+      "email": "phensom@kku.ac.th"
+    },
+    {
+      "id": "khonkaenun_facultyofm_fac_002_002",
+      "full_name_th": "ศ.ดร. สิทธิชัย เอี่ยมสะอาด",
+      "first_name": "Sitthichai",
+      "last_name": "Eiamsa-Ard",
+      "email": null
+    },
+    {
+      "id": "kku_agri_wave14_b_0004",
+      "full_name_th": "รศ.ดร. คุณเดช สุริหาร",
+      "first_name": "Khundetch",
+      "last_name": "Surihan",
+      "email": "sphala@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0024",
+      "full_name_th": "อ.ดร. ฐิติวรรณ จำปา",
+      "first_name": "Thitiwan",
+      "last_name": "Champa",
+      "email": "thitiju@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0035",
+      "full_name_th": "รศ.ดร. เยาวรัตน์ ศรีวรานันท์",
+      "first_name": "Yaowarat",
+      "last_name": "Sriwaranan",
+      "email": "syaowa@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0036",
+      "full_name_th": "ผศ.ดร. ธีระ เกียรติมานะโรจน์",
+      "first_name": "Teera",
+      "last_name": "Kiatmanaroj",
+      "email": "teera@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0052",
+      "full_name_th": "รศ.ดร. สจี กัณหาเรียง",
+      "first_name": "Sajee",
+      "last_name": "Kanhaliang",
+      "email": "ksajee@kku.ac.th"
+    },
+    {
+      "id": "kku_pharm_wave16_0036",
+      "full_name_th": "ผศ.ดร. เกียรติภูมิ พลตรี",
+      "first_name": "Kiettiphum",
+      "last_name": "Phon-Tri",
+      "email": "pkiett@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0003",
+      "full_name_th": "รศ.ดร. ปรเมศ บรรเทิง",
+      "first_name": "Poramet",
+      "last_name": "Banthoeng",
+      "email": "bporam@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0010",
+      "full_name_th": "รศ.ดร. วรรณวิภา แก้วประดิษฐ์ พลพิพินิจ",
+      "first_name": "Wanwipa",
+      "last_name": "Kaewpradit Phonpipinit",
+      "email": "apicru@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0012",
+      "full_name_th": "อ.ดร. วีราภรณ์ จิระอนันต์กุล",
+      "first_name": "Weeraphon",
+      "last_name": "Jira-Anankun",
+      "email": "weeraji@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0080",
+      "full_name_th": "รศ.ดร. อุบล ตังควานิช",
+      "first_name": "Ubon",
+      "last_name": "Tangkhawanich",
+      "email": "ubonta@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0083",
+      "full_name_th": "ผศ.ดร. นรินทร์ ชมภูพวง",
+      "first_name": "Narin",
+      "last_name": "Chomphuphuang",
+      "email": "narich@kku.ac.th"
+    },
+    {
+      "id": "kku_agri_wave14_b_0087",
+      "full_name_th": "รศ.ดร. เพชรรัตน์ ธรรมเบญจพล",
+      "first_name": "Phetcharat",
+      "last_name": "Thambenjaphol",
+      "email": "petsir@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0022",
+      "full_name_th": "รศ.ดร. ชาญณรงค์ สายแก้ว",
+      "first_name": "Channarong",
+      "last_name": "Saikaew",
+      "email": "charn_sa@kku.ac.th"
+    },
+    {
+      "id": "khonkaenun_facultyofm_fac_001_001",
+      "full_name_th": "รศ.ดร. วนัสนันท์ แป้นนางรอง",
+      "first_name": "Wanatsanan",
+      "last_name": "Paennangrong",
+      "email": null
+    },
+    {
+      "id": "kku_eng_wave12_0026",
+      "full_name_th": "รศ.ดร. ปาพจน์ เจริญอภิบาล",
+      "first_name": "Papoj",
+      "last_name": "Charoenapiban",
+      "email": "papoja@kku.ac.th"
+    },
+    {
+      "id": "kku_eng_wave12_0043",
+      "full_name_th": "ผศ.ดร. โพยม สราภิรมย์",
+      "first_name": "Phayom",
+      "last_name": "Sarapirom",
+      "email": "payosa@kku.ac.th"
+    },
+    {
+      "id": "khonkaenun_facultyofm_fac_034_034",
+      "full_name_th": "รศ.ดร. คัชรินทร์ ศิริวงศ์",
+      "first_name": "Khacharin",
+      "last_name": "Siriwong",
+      "email": "skhatcha@kku.ac.th"
+    }
+  ]
+}

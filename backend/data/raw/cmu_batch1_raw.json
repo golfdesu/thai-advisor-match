@@ -1,0 +1,640 @@
+{
+  "คณะทันตแพทยศาสตร์": [
+    {
+      "id": "cmu_13397137_1763",
+      "full_name_th": "ผศ. ทพญ. สุภัสสรา ศิรบรรจงกราน",
+      "email": "supassara.siraban@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/supassara.siraban@cmu.ac.th",
+      "department_th": "สาขาวิชาทันตกรรมจัดฟัน"
+    },
+    {
+      "id": "cmu_158b217b_0251",
+      "full_name_th": "ผศ. ทพ. ธีรัช สว่างปัญญางกูร",
+      "email": "teerat.sawang@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/teerat.sawang@cmu.ac.th",
+      "department_th": "สาขาวิชาปริทันตวิทยา"
+    },
+    {
+      "id": "cmu_25bcefeb_4041",
+      "full_name_th": "ผศ. ทพญ. ดร. ปิ่นปินัทธ์ วณิชย์สายทอง",
+      "email": "pinpinut.w@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/pinpinut.w@cmu.ac.th",
+      "department_th": "สาขาวิชาทันตสาธารณสุข"
+    },
+    {
+      "id": "cmu_2c1b8c7d_3623",
+      "full_name_th": "อ. ทพ. ดร. ดนุพงษ์ ชัยอริยะกุล",
+      "email": "danupong.c@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/danupong.c@cmu.ac.th",
+      "department_th": "สาขาวิชาวิทยาเอ็นโดดอนต์"
+    },
+    {
+      "id": "cmu_2ec46739_7947",
+      "full_name_th": "ผศ. ทพ. ดร. จิตจิโรจน์ อิทธิชัยเจริญ",
+      "email": "jitjiroj.itti@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/jitjiroj.itti@cmu.ac.th",
+      "department_th": "สาขาวิชาพยาธิวิทยาช่องปากและเวชศาสตร์ช่องปาก"
+    },
+    {
+      "id": "cmu_305b6ae8_1373",
+      "full_name_th": "ผศ. ทพ. ยุทธการ อัศว์ไชยตระกูล",
+      "email": "yuthakran.a@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/yuthakran.a@cmu.ac.th",
+      "department_th": "สาขาวิชาศัลยศาสตร์ช่องปากและแม็กซิลโลเฟเซียล"
+    },
+    {
+      "id": "cmu_36f04818_7623",
+      "full_name_th": "ผศ. ทพญ. ดร. ภัทรณัฏฐ์ บัณฑิตคุณานนต์",
+      "email": "phattharanat.banthit@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/phattharanat.banthit@cmu.ac.th",
+      "department_th": "สาขาวิชาทันตกรรมประดิษฐ์"
+    },
+    {
+      "id": "cmu_401cb17c_3204",
+      "full_name_th": "รศ. ทพญ. มารศรี ชัยวรวิทย์กุล",
+      "email": "marasri.chai@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/marasri.chai@cmu.ac.th",
+      "department_th": "สาขาวิชาทันตกรรมจัดฟัน"
+    },
+    {
+      "id": "cmu_58e7c3aa_4316",
+      "full_name_th": "ผศ. ทพญ. ดร. พัชราวรรณ ศีลธรรมพิทักษ์",
+      "email": "patcharawan.sil@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/patcharawan.sil@cmu.ac.th",
+      "department_th": "สาขาวิชาทันตกรรมประดิษฐ์"
+    },
+    {
+      "id": "cmu_59263267_4381",
+      "full_name_th": "ผศ. ทพ. อติศักดิ์ จึงพัฒนาวดี",
+      "email": "atisak.ch@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/atisak.ch@cmu.ac.th",
+      "department_th": "สาขาวิชาทันตสาธารณสุข"
+    },
+    {
+      "id": "cmu_5a5ba350_3280",
+      "full_name_th": "ผศ. ทพ. ณัฐกานต์ ชัยพัฒนาวรรณ",
+      "email": "nattakan.chai@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/nattakan.chai@cmu.ac.th",
+      "department_th": "สาขาวิชาทันตกรรมสำหรับเด็ก"
+    },
+    {
+      "id": "cmu_5e59c5c8_5356",
+      "full_name_th": "อ. ทพ. กฤตานน อังคนาวราพันธุ์",
+      "email": "kitanon.ang@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/kitanon.ang@cmu.ac.th",
+      "department_th": "สาขาวิชาทันตกรรมจัดฟัน"
+    },
+    {
+      "id": "cmu_5ec7eaa8_6281",
+      "full_name_th": "ผศ. ทพญ. ภัทรานันท์ มหาสันติปิยะ",
+      "email": "phattaranant.mah@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/phattaranant.mah@cmu.ac.th",
+      "department_th": "สาขาวิชารังสีวิทยาช่องปากและแม็กซิลโลเฟเชียล"
+    },
+    {
+      "id": "cmu_72152964_0326",
+      "full_name_th": "อ. ทพญ. ชนัดดา รัตนกรพันธ์",
+      "email": "chanutda.ratt@cmu.ac.th",
+      "profile_url": "https://www.dent.cmu.ac.th/web/staff/chanutda.ratt@cmu.ac.th",
+      "department_th": "สาขาวิชาศัลยศาสตร์ช่องปากและแม็กซิลโลเฟเซียล"
+    }
+  ],
+  "คณะเทคนิคการแพทย์": [
+    {
+      "id": "cmu_10ecc612_6099",
+      "full_name_th": "รศ.ดร. รอ.พิศักดิ์ ชินชัย",
+      "email": "pisak.c@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_1435431d_1082",
+      "full_name_th": "ผศ.ดร. อนุชาติ เขื่อนนิล",
+      "email": "anuchart.kau@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_144a9d8d_3563",
+      "full_name_th": "อ.ดร. ณัฐวิภา วาณิชย์เจริญ",
+      "email": "natwipa.w@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_23276890_1234",
+      "full_name_th": "รศ.ดร. สุภาวดี พุฒิหน่อย",
+      "email": "supawadee.p@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_31f45f4f_0693",
+      "full_name_th": "ผศ.ดร. พรเพ็ญ ศิริสัตยะวงศ์",
+      "email": "pornpen.siri@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_3c4b2594_1491",
+      "full_name_th": "ผศ.ดร. เพื่อนใจ รัตตากร",
+      "email": "phuanjai.rattakorn@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_3dd575fc_0322",
+      "full_name_th": "ผศ.ดร. กัลยาณี มกราภิรมย์",
+      "email": "kalyanee.mak@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_496e3ed3_7411",
+      "full_name_th": "ผศ. ศศิธร สังข์อู๋",
+      "email": "sasithorn.sung-u@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_4a92ef58_1317",
+      "full_name_th": "ผศ.ดร. นภาลัย ชัยมะหา",
+      "email": "napalai.chai@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_55d103e7_8675",
+      "full_name_th": "รศ.ดร. จนัญญา ปัญญามี ทิพย์พยอม",
+      "email": "jananya.p@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_5ef8c9a2_1809",
+      "full_name_th": "ผศ.ดร. จิรนันท์ กริฟฟิทส์",
+      "email": "jiranan.gr@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_627a5421_1426",
+      "full_name_th": "รศ.ดร. สุจิตรพร เลอศิลป์",
+      "email": "suchitporn.l@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_72ea930b_7952",
+      "full_name_th": "ผศ.ดร. สาวิตรี ชารุนันทกร",
+      "email": "savitree.c@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_73aecd86_0998",
+      "full_name_th": "รศ.ดร. สุภาพร ชินชัย",
+      "email": "supaporn.c@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_754c0c68_1011",
+      "full_name_th": "ผศ.ดร. สายฝน บุญฉัตรกุล",
+      "email": "saifon.bun@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_7844eb6a_3291",
+      "full_name_th": "อ.ดร. พัชญ์พิไล ไชยวงศ์",
+      "email": "pachpilai.c@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_7a3217d1_1177",
+      "full_name_th": "ผศ.ดร. พีรยา มั่นเขตวิทย์",
+      "email": "peeraya.m@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_967b2be7_3365",
+      "full_name_th": "อ.ดร. ศุภลักษณ์ ผาดศรี",
+      "email": "supaluck.phad@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_d9d10ba1_2174",
+      "full_name_th": "ผศ.ดร. สรินยา ศรีเพชราวุธ",
+      "email": "sarinya.sri@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    },
+    {
+      "id": "cmu_e43e0520_1503",
+      "full_name_th": "ผศ.ดร. ปิยะวัฒน์ ตรีวิทยา",
+      "email": "piya.trevit@cmu.ac.th",
+      "profile_url": "https://ot.ams.cmu.ac.th/index.php?module=academicstaff",
+      "department_th": "ภาควิชากิจกรรมบำบัด"
+    }
+  ],
+  "คณะการสื่อสารมวลชน": [
+    {
+      "id": "cmu_12db1bbf_9762",
+      "full_name_th": "อ. วีรภัทร บุญมา",
+      "email": "weerabhat.b@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_1aa09899_2840",
+      "full_name_th": "ผศ.ดร. ขวัญฟ้า ศรีประพันธ์",
+      "email": "kwanfa.s@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_1c734a4b_3778",
+      "full_name_th": "อ. อุกฤษณ์ สงวนให้",
+      "email": "ukrit.s@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_21e52ee0_5110",
+      "full_name_th": "ผศ.ดร. เทพฤทธิ์ มณีกุล",
+      "email": "teparit.m@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_23bedeb0_2784",
+      "full_name_th": "ศ.ดร. โชเซน ยามาฮาตะ",
+      "email": "masscomm@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_27178562_2300",
+      "full_name_th": "ผศ. สุนันทา แย้มทัพ",
+      "email": "sunanta.y@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_28d57eb3_4815",
+      "full_name_th": "ผศ. พิสิทธิ์ ศรีประเสริฐ",
+      "email": "pisit.sr@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_2923cb4a_0237",
+      "full_name_th": "ผศ. นันทสิทธิ์ กิตติวรากูล",
+      "email": "nantasit.k@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_2fa53282_3754",
+      "full_name_th": "อ.ดร. อภิภู กิติกำธร",
+      "email": "abhibhu.k@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_3013e025_8260",
+      "full_name_th": "อ.ดร. อัคริมา นันทนาสิทธิ์",
+      "email": "acarima.n@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_306b587a_9041",
+      "full_name_th": "ผศ. ศศิกานต์ ลิมปิติ",
+      "email": "sasikarn.l@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_30dc2e75_7256",
+      "full_name_th": "ผศ.ดร. วิทยา พานิชล้อเจริญ",
+      "email": "vithaya.pan@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_3583aff5_3056",
+      "full_name_th": "อ. พุทธชาติ หงสกุล",
+      "email": "puttachat.h@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_36962674_5404",
+      "full_name_th": "ผศ. ลัดดาวัลย์ อินทจักร",
+      "email": "laddawan.i@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_39d0eb90_9827",
+      "full_name_th": "อ. ร่มธรรม ศรีสุโข",
+      "email": "romtham.sri@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_3c606b94_8504",
+      "full_name_th": "อ. วิทวัส ขัติรัตน์",
+      "email": "witavas.k@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_45026578_5162",
+      "full_name_th": "ผศ.ดร. พิมลพรรณ ไชยนันท์",
+      "email": "pimonpan.c@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_48d74c96_5476",
+      "full_name_th": "อ.ดร. ธีระพล ศิริทัพ",
+      "email": "teerapol.sir@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_4e521d30_4291",
+      "full_name_th": "อ. สุลิตา ทิพยศ",
+      "email": "sulita.d@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_4f666118_5973",
+      "full_name_th": "อ. ไพรัตน์ โคสะพละกิจ",
+      "email": "pairat.ko@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_4fbbb346_6735",
+      "full_name_th": "ผศ.ดร. ศิวพร สุกฤตานนท์",
+      "email": "siwaporn.s@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_618cd4c2_7734",
+      "full_name_th": "รศ.ดร. นรินทร์ นำเจริญ",
+      "email": "narin.num@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_66c44663_9855",
+      "full_name_th": "อ.ดร. ปิยะพงษ์ อิงไธสง",
+      "email": "piyapong.i@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_6b7701df_9919",
+      "full_name_th": "ผศ.ดร. ศุภฤกษ์ โพธิไพรัตนา",
+      "email": "supparerk.pothi@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_720c2c83_4341",
+      "full_name_th": "อ.ดร. ณฐนันท์ กาญจนคูหา",
+      "email": "natanun.ka@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_75b2397c_1306",
+      "full_name_th": "อ. จันทรวรรณ ตระกุลผิว",
+      "email": "jantarawan.th@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    },
+    {
+      "id": "cmu_8906724d_8055",
+      "full_name_th": "อ.ดร. ณหทัย แสนมงคล",
+      "email": "nahathai.s@cmu.ac.th",
+      "profile_url": "https://www.masscomm.cmu.ac.th/เกี่ยวกับคณะ/",
+      "department_th": "ภาควิชาการสื่อสารมวลชน"
+    }
+  ],
+  "คณะเศรษฐศาสตร์": [
+    {
+      "id": "cmu_1f0f53d9_1071",
+      "full_name_th": "รศ.ดร. อนัสปรีย์ ไชยวรรณ",
+      "email": "anaspree.c@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_262f8311_9596",
+      "full_name_th": "ผศ.ดร. จารึก สิงหปรีชา",
+      "email": "charuk.s@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_26b95d5e_9583",
+      "full_name_th": "อ.ดร. ทศพร คิวประสพศักดิ์",
+      "email": "tossapond.kew@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_2767ede5_9858",
+      "full_name_th": "ผศ.ดร. วรวรรธ ทรายใจ",
+      "email": "worrawat.s@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_2829c5c1_5997",
+      "full_name_th": "ผศ.ดร. อนุภาค เสาร์เสาวภาคย์",
+      "email": "anuphak.s@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_283ad2b9_4455",
+      "full_name_th": "รศ.ดร. ปิยะลักษณ์ พุทธวงศ์",
+      "email": "piyaluk.b@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_29018d24_1088",
+      "full_name_th": "ผศ.ดร. จิราคม สิริศรีสกุลชัย",
+      "email": "jirakom.s@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_2a2bce53_3144",
+      "full_name_th": "ผศ.ดร. ณพล หงสกุลวสุ",
+      "email": "napon.h@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_2d9e6193_4682",
+      "full_name_th": "อ.ดร. พัชชา ศิวพรพิทักษ์",
+      "email": "patcha.c@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_3232cef1_0936",
+      "full_name_th": "ผศ.ดร. วรัทยา ชินกรรม",
+      "email": "warattaya.ch@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_452fac0e_9570",
+      "full_name_th": "ผศ.ดร. ชัยวัฒน์ นิ่มอนุสสรณ์กุล",
+      "email": "chaiwat.nim@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_456deb17_7183",
+      "full_name_th": "ผศ.ดร. พิฑูร ธนบดีกิจ",
+      "email": "pithoon.th@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_46875b4a_0671",
+      "full_name_th": "รศ.ดร. รสริน โอสถานันต์กุล",
+      "email": "rossarin.o@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_4b1843bb_6874",
+      "full_name_th": "รศ.ดร. นภัสถ์ หาญพรชัย",
+      "email": "napat.h@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_4c8501d0_0582",
+      "full_name_th": "รศ.ดร. ชาติชาย เขียวงามดี",
+      "email": "chatchai.kh@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_4ebdaae7_4576",
+      "full_name_th": "ผศ.ดร. ไพรัช พิบูลย์รุ่งโรจน์",
+      "email": "pairach.p@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_4fa31676_0153",
+      "full_name_th": "รศ.ดร. เริงชัย ตันสุชาติ",
+      "email": "roengchai.tan@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_52412efa_6195",
+      "full_name_th": "รศ.ดร. ภารวี มณีจักร",
+      "email": "paravee.m@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_56e9f8b8_4140",
+      "full_name_th": "อ.ดร. มัทนา วงศ์ศิริขจร",
+      "email": "mattana.w@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_574aaca5_2224",
+      "full_name_th": "ผศ.ดร. ชนามาศ อินต๊ะปัน",
+      "email": "chanamart.i@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_58a2f145_5634",
+      "full_name_th": "รศ.ดร. เชาวนา เพชรรัตน์",
+      "email": "chaowana.p@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_657381b0_0857",
+      "full_name_th": "อ.ดร. กันต์สินี กันทะวงศ์วาร",
+      "email": "kansinee.g@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_6b3e81c2_8243",
+      "full_name_th": "ผศ.ดร. วรลักษณ์ หิมะกลัส",
+      "email": "woraluck.h@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_6e2a7c60_9053",
+      "full_name_th": "อ.ดร. เสาวลักษณ์ ด้วงอิน",
+      "email": "saowaluk.d@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_732fbaa8_1583",
+      "full_name_th": "รศ.ดร. กัญญ์สุดา นิ่มอนุสสรณ์กุล",
+      "email": "kunsuda.ni@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_7ba9b6a6_1016",
+      "full_name_th": "ผศ.ดร. สุพรรณิกา ลือชารัศมี",
+      "email": "supanika.l@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_7d1b8beb_0536",
+      "full_name_th": "อ. เบญจพล พรหมมาวิน",
+      "email": "benjapon.p@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_7fc0843e_4521",
+      "full_name_th": "ผศ.ดร. ทัชชา สุตตสันต์",
+      "email": "tatcha.s@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    },
+    {
+      "id": "cmu_8d5745bc_1558",
+      "full_name_th": "ผศ.ดร. ชลระดา หนันติ๊",
+      "email": "chonrada.n@cmu.ac.th",
+      "profile_url": "https://www.econ.cmu.ac.th/th/faculty-members",
+      "department_th": "ภาควิชาเศรษฐศาสตร์"
+    }
+  ]
+}

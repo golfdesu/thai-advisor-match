@@ -1,0 +1,434 @@
+[
+  {
+    "th_name": "กรธัช อุ่นนันกาศ",
+    "first_name": "Kornthach",
+    "last_name": "Ounnunkad",
+    "email": "kornthach.o@cmu.ac.th",
+    "found": true,
+    "cites": 266
+  },
+  {
+    "th_name": "กฤษณะ จิตมณี",
+    "first_name": "Kritsana",
+    "last_name": "Jitmanee",
+    "email": "kritsana.j@cmu.ac.th",
+    "found": true,
+    "cites": 4
+  },
+  {
+    "th_name": "ก้องเกียรติ ไตรสุวรรณ",
+    "first_name": "Kongkiat",
+    "last_name": "Trisuwan",
+    "email": "kongkiat.t@cmu.ac.th",
+    "found": true,
+    "cites": 36
+  },
+  {
+    "th_name": "กัลยาวัสถ์ วังคะวงษ์",
+    "first_name": "Kanlayawat",
+    "last_name": "Wangkawong",
+    "email": "kanlayawat.w@cmu.ac.th",
+    "found": true,
+    "cites": 28
+  },
+  {
+    "th_name": "กาญจนา ดำริห์",
+    "first_name": "Kanchana",
+    "last_name": "Damri",
+    "email": "kanchana.d@cmu.ac.th",
+    "found": true,
+    "cites": 0
+  },
+  {
+    "th_name": "กิตติพันธ์ ศิวะวรรณพงศ์",
+    "first_name": "Kittipan",
+    "last_name": "Sivawannapong",
+    "email": "kittipan.s@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "กุลภา ชนะวรรโณ",
+    "first_name": "Kullapa",
+    "last_name": "Chanawanno",
+    "email": "kullapa.c@cmu.ac.th",
+    "found": true,
+    "cites": 6
+  },
+  {
+    "th_name": "เกียรติคุณ มะโนเครื่อง",
+    "first_name": "Kiattikhun",
+    "last_name": "Manokruang",
+    "email": "kiattikhun.m@cmu.ac.th",
+    "found": true,
+    "cites": 13
+  },
+  {
+    "th_name": "คณารัฐ ณ ลำปาง",
+    "first_name": "Kanarat",
+    "last_name": "Nalampang",
+    "email": "kanarat.n@cmu.ac.th",
+    "found": true,
+    "cites": 3
+  },
+  {
+    "th_name": "จิดาภา ทิน้อย",
+    "first_name": "Jidapa",
+    "last_name": "Thinoi",
+    "email": "jidapa.t@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "ชนิดา พวงพิลา",
+    "first_name": "Chanida",
+    "last_name": "Puangpila",
+    "email": "chanida.pu@cmu.ac.th",
+    "found": true,
+    "cites": 0
+  },
+  {
+    "th_name": "ชมนาด สวาสดิ์มิตร",
+    "first_name": "Chomanad",
+    "last_name": "Swasdimitr",
+    "email": "chomanad.s@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "ชำนาญ ราญฎร",
+    "first_name": "Chamnan",
+    "last_name": "Randorn",
+    "email": "chamnan.r@cmu.ac.th",
+    "found": true,
+    "cites": 8
+  },
+  {
+    "th_name": "ฐปนีย์ สารครศรี",
+    "first_name": "Thapanee",
+    "last_name": "Sarakonsri",
+    "email": "thapanee.s@cmu.ac.th",
+    "found": true,
+    "cites": 35
+  },
+  {
+    "th_name": "ณปภา พรหมสวรรค์",
+    "first_name": "Napapa",
+    "last_name": "Promsawan",
+    "email": "napapa.p@cmu.ac.th",
+    "found": true,
+    "cites": 3
+  },
+  {
+    "th_name": "ทินกร กันยานี",
+    "first_name": "Tinnakorn",
+    "last_name": "Kanyanee",
+    "email": "tinnakorn.k@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "ธัญวดี ลิ้มธรากุล",
+    "first_name": "Thanwadee",
+    "last_name": "Limtrakul",
+    "email": "thanwadee.l@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "ธิติ จันทร์ภิรมย์",
+    "first_name": "Thiti",
+    "last_name": "Chanphirom",
+    "email": "thiti.c@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "ธีรบุญ พจนการุณ",
+    "first_name": "Theeraboon",
+    "last_name": "Pojankarun",
+    "email": "theeraboon.p@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "นพกาญจน์ จันทร์เดช",
+    "first_name": "Nopakarn",
+    "last_name": "Chandet",
+    "email": "nopakarn.c@cmu.ac.th",
+    "found": true,
+    "cites": 61
+  },
+  {
+    "th_name": "นัทธี สุรีย์",
+    "first_name": "Natthee",
+    "last_name": "Suree",
+    "email": "natthee.s@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "นาวี กังวาลย์",
+    "first_name": "Nawee",
+    "last_name": "Kangwan",
+    "email": "nawee.k@cmu.ac.th",
+    "found": true,
+    "cites": 126
+  },
+  {
+    "th_name": "นุชนิภา นันทะวงศ์",
+    "first_name": "Nuchnipa",
+    "last_name": "Nanthawong",
+    "email": "nuchnipa.n@cmu.ac.th",
+    "found": true,
+    "cites": 4
+  },
+  {
+    "th_name": "บูรภัทร์ อินทรีย์สังวร",
+    "first_name": "Burapat",
+    "last_name": "Inceesungvorn",
+    "email": "burapat.i@cmu.ac.th",
+    "found": true,
+    "cites": 10
+  },
+  {
+    "th_name": "ประพุทธ์ ถาวรยุติการต์",
+    "first_name": "Praput",
+    "last_name": "Thavornyutikarn",
+    "email": "praput.th@cmu.ac.th",
+    "found": true,
+    "cites": 0
+  },
+  {
+    "th_name": "ปะราลี แว่นแก้ว",
+    "first_name": "Paralee",
+    "last_name": "Waenkaew",
+    "email": "paralee.w@cmu.ac.th",
+    "found": true,
+    "cites": 7
+  },
+  {
+    "th_name": "ปัญชิกา ปรังเขียว",
+    "first_name": "Panchika",
+    "last_name": "Prangkio",
+    "email": "panchika.p@cmu.ac.th",
+    "found": true,
+    "cites": 21
+  },
+  {
+    "th_name": "ปิยรัตน์ นิมมานพิภักดิ์",
+    "first_name": "Piyarat",
+    "last_name": "Nimmanpipak",
+    "email": "piyarat.n@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "พัฒนพงศ์ ทังสุนันท์",
+    "first_name": "Pattanapong",
+    "last_name": "Thangsunan",
+    "email": "pattanapong.t@cmu.ac.th",
+    "found": true,
+    "cites": 4
+  },
+  {
+    "th_name": "พิชญา มังกรอัศวกุล",
+    "first_name": "Pitchaya",
+    "last_name": "Mungkornasawakul",
+    "email": "pitchaya.m@cmu.ac.th",
+    "found": true,
+    "cites": 14
+  },
+  {
+    "th_name": "พุฒินันท์ มีเผ่าพันธ์",
+    "first_name": "Puttinan",
+    "last_name": "Meepowpan",
+    "email": "puttinan.m@cmu.ac.th",
+    "found": true,
+    "cites": 26
+  },
+  {
+    "th_name": "ภควรรณ พวงสมบัติ",
+    "first_name": "Pakawan",
+    "last_name": "Puangsombat",
+    "email": "pakawan.p@cmu.ac.th",
+    "found": true,
+    "cites": 3
+  },
+  {
+    "th_name": "ภัทร์นฤน วรจิตติพล",
+    "first_name": "Patnarin",
+    "last_name": "Worajittiphon",
+    "email": "patnarin.w@cmu.ac.th",
+    "found": true,
+    "cites": 104
+  },
+  {
+    "th_name": "ภูมน สุขวงศ์",
+    "first_name": "Phumon",
+    "last_name": "Sookwong",
+    "email": "phumon.s@cmu.ac.th",
+    "found": true,
+    "cites": 12
+  },
+  {
+    "th_name": "ภูมิศร์ ทับทิมแดง",
+    "first_name": "Pumis",
+    "last_name": "Thaptimdang",
+    "email": "pumis.th@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "มุกดา ภัทราวราพันธ์",
+    "first_name": "Mookda",
+    "last_name": "Pattarawarapan",
+    "email": "mookda.p@cmu.ac.th",
+    "found": true,
+    "cites": 20
+  },
+  {
+    "th_name": "รุ้งลาวัลย์ สมสุนันท์",
+    "first_name": "Runglawan",
+    "last_name": "Somsunan",
+    "email": "runglawan.s@cmu.ac.th",
+    "found": true,
+    "cites": 39
+  },
+  {
+    "th_name": "ละอองนวล ศรีสมบัติ",
+    "first_name": "Laongnuan",
+    "last_name": "Srisombat",
+    "email": "laongnuan.sri@cmu.ac.th",
+    "found": true,
+    "cites": 0
+  },
+  {
+    "th_name": "วงศ์ พะโคดี",
+    "first_name": "Wong",
+    "last_name": "Phakhodee",
+    "email": "wong.p@cmu.ac.th",
+    "found": true,
+    "cites": 0
+  },
+  {
+    "th_name": "วรอนงค์ ลี้วัฒนาผาสุข",
+    "first_name": "Woranong",
+    "last_name": "Leewattana-phasuk",
+    "email": "woranong.l@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "วศิน สมบุตร",
+    "first_name": "Wasin",
+    "last_name": "Sombut",
+    "email": "wasin.s@cmu.ac.th",
+    "found": true,
+    "cites": 0
+  },
+  {
+    "th_name": "ว่าน วิริยา",
+    "first_name": "Wan",
+    "last_name": "Wiriya",
+    "email": "wan.w@cmu.ac.th",
+    "found": true,
+    "cites": 66
+  },
+  {
+    "th_name": "วิมล นาคสาทา",
+    "first_name": "Wimon",
+    "last_name": "Naksata",
+    "email": "wimon.n@cmu.ac.th",
+    "found": true,
+    "cites": 1
+  },
+  {
+    "th_name": "เวสารัช จรเจริญ",
+    "first_name": "Veasarach",
+    "last_name": "Jorncharoen",
+    "email": "veasarach.j@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "ศิลา กิตติวัชนะ",
+    "first_name": "Sila",
+    "last_name": "Kittiwachana",
+    "email": "sila.k@cmu.ac.th",
+    "found": true,
+    "cites": 3
+  },
+  {
+    "th_name": "สรพงษ์ จันทร์หอม",
+    "first_name": "Sorapong",
+    "last_name": "Chanhom",
+    "email": "sorapong.c@cmu.ac.th",
+    "found": true,
+    "cites": 0
+  },
+  {
+    "th_name": "สิทธิชัย วิโรจนุปถัมภ์",
+    "first_name": "Sittichai",
+    "last_name": "Wirojanupatump",
+    "email": "sittichai.w@cmu.ac.th",
+    "found": true,
+    "cites": 3
+  },
+  {
+    "th_name": "สุรินทร์ สายปัญญา",
+    "first_name": "Surin",
+    "last_name": "Saipanya",
+    "email": "surin.s@cmu.ac.th",
+    "found": true,
+    "cites": 1
+  },
+  {
+    "th_name": "สุลาวัลย์ ขาวผ่อง",
+    "first_name": "Sulawan",
+    "last_name": "Khaophong",
+    "email": "sulawan.k@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "แสงรวี ศรีวิชัย",
+    "first_name": "Saengrawee",
+    "last_name": "Sriwichai",
+    "email": "saengrawee.s@cmu.ac.th",
+    "found": true,
+    "cites": 0
+  },
+  {
+    "th_name": "หทัยชนก เนียมทรัพย์",
+    "first_name": "Hataichanoke",
+    "last_name": "Niamsup",
+    "email": "hataichanoke.n@cmu.ac.th",
+    "found": true,
+    "cites": 4
+  },
+  {
+    "th_name": "อภินันท์ กันเปียงใจ",
+    "first_name": "Aphinan",
+    "last_name": "Kanpiengjai",
+    "email": "aphinan.k@cmu.ac.th",
+    "found": false,
+    "cites": 0
+  },
+  {
+    "th_name": "อภิวัฒน์ ธีรวุฒิกุลรักษ์",
+    "first_name": "Apiwat",
+    "last_name": "Teerawutgulrag",
+    "email": "apiwat.t@cmu.ac.th",
+    "found": true,
+    "cites": 10
+  },
+  {
+    "th_name": "อรุณฉาย สายอ้าย",
+    "first_name": "Aroonchai",
+    "last_name": "Saiai",
+    "email": "aroonchai.s@cmu.ac.th",
+    "found": true,
+    "cites": 8
+  }
+]

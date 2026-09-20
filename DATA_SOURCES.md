@@ -1,6 +1,6 @@
 # Thai Advisor Match - Data Sources & Scraping References
 
-This document records the data sources for the faculty members across various departments and universities. This data serves as the initial seed database for the AI Semantic Search system in the Thai Advisor Match project.
+This document records the data sources for faculty members across various departments and universities. This data serves as the initial seed database for the AI Semantic Search system in the Thai Advisor Match project.
 
 ## 1. Basic Faculty Information (Profile & Research Interests)
 
@@ -108,50 +108,50 @@ All four went through the SKILL.state contract (crawler → `RawFacultyProfile` 
 ## 2. University Curricula / Courses
 
 ### 2.1 Chiang Mai University — Full Curriculum Directory (Bachelor → Ph.D.)
-*   **Primary Source:** CMU MIS TQF2 Curriculum Public List (ระบบฐานข้อมูลหลักสูตรของสำนักพัฒนาคุณภาพการศึกษา มช.) — `https://www.mis.cmu.ac.th/TQF/TQF2/CurriculumPublicList.aspx`
-*   **Coverage:** All 28 faculties/colleges/institutes, all levels (ป.ตรี, ป.โท, ป.เอก, ประกาศนียบัตรบัณฑิต/ชั้นสูง) — 336 curricula total.
+*   **Primary Source:** CMU MIS TQF2 Curriculum Public List (Curriculum database of CMU Educational Quality Development Division) — `https://www.mis.cmu.ac.th/TQF/TQF2/CurriculumPublicList.aspx`
+*   **Coverage:** All 28 faculties/colleges/institutes, all levels (Bachelor's, Master's, Ph.D., Graduate/Higher Graduate Diploma) — 336 curricula total.
 *   **Pipeline:**
     1. `scrape_cmu_courses.py --phase list` — enumerates every curriculum from the central search grid (Thai + English titles, plan/type info).
     2. `scrape_cmu_courses.py --phase details` — opens each curriculum's TQF2 detail page (ASP.NET postback flow): official curriculum code, degree full/abbreviation, credit structure, study plan.
     3. `build_cmu_courses_json.py` — maps raw scrape into the project courses schema (`data/cmu_courses.json`), deriving Thai degree abbreviations, total credits, duration, and program type.
     4. `seed_cmu_courses.py` — upserts into the Supabase `courses` table (`--dry-run` for validation only).
-*   **Known gap:** 46 newly established curricula (mostly B.E. 2568+) have no published มคอ.2 detail in the system yet; they are stored with basic fields from the list phase and can be re-fetched later by re-running `--phase details`.
-*   **Tuition fees:** not published in the TQF2 system — left null pending per-faculty enrichment.
+*   **Known gap:** 46 newly established curricula (mostly B.E. 2568+) have no published TQF-2 details in the system yet; they are stored with basic fields from the list phase and can be re-fetched later by re-running `--phase details`.
+*   **Tuition fees:** Not published in the central TQF2 system — left null pending per-faculty enrichment.
 
 ### 2.2 Mae Fah Luang University (MFU) — Full Programme Ingestion (Aug 2026)
-*   **Primary Source:** MFU Official Programme Portal — `https://programme.mfu.ac.th` (ครอบคลุมระดับปริญญาตรี, ปริญญาโท, ปริญญาเอก และหลักสูตรปรับปรุง พ.ศ. 2568)
-*   **Coverage:** ทุกสำนักวิชา (เช่น จีนวิทยา, วิทยาศาสตร์เครื่องสำอาง, การแพทย์บูรณาการ, แพทยศาสตร์, ทันตแพทยศาสตร์, วิศวกรรมศาสตร์, เทคโนโลยีสารสนเทศ ฯลฯ) รวม **54 หลักสูตรสมบูรณ์**
+*   **Primary Source:** MFU Official Programme Portal — `https://programme.mfu.ac.th` (covers Bachelor's, Master's, Doctoral degrees, and B.E. 2568 revised curricula).
+*   **Coverage:** All schools (Sinology, Cosmetic Science, Integrative Medicine, Medicine, Dentistry, Engineering, Information Technology, etc.) totaling **54 complete curricula**.
 *   **Data Fields Acquired:**
-    *   **หน่วยกิตและโครงสร้างหลักสูตร (Credits & Curriculum Structure):** ดึงจากแท็บ *โครงสร้างหลักสูตร* (เช่น ศศ.บ. ภาษาและวัฒนธรรมจีน 123 หน่วยกิต, วท.บ. เครื่องสำอาง 121 หน่วยกิต, พ.บ. 245 หน่วยกิต, ท.บ. 230 หน่วยกิต)
-    *   **ค่าธรรมเนียมการศึกษา (Tuition Fees):** ดึงจากแท็บ *ค่าธรรมเนียม* (ระบุค่าเทอมต่อภาคการศึกษา และค่าใช้จ่ายรวมตลอดหลักสูตร)
-    *   **ปรัชญา & วัตถุประสงค์ (Description & Objectives):** ดึงจากแท็บ *หลักสูตร*
-    *   **โอกาสและแนวทางประกอบอาชีพ (Career Opportunities):** ดึงจากแท็บ *แนวทางประกอบอาชีพ*
-*   **Automated Ingestion Script:** `backend/scripts/crawlers/` หรือรันสคริปต์ parser ผ่าน BeautifulSoup โดยตรงพร้อม re-index 768-dim Gemini Embedding ทันที
+    *   **Credits & Curriculum Structure:** Extracted from the *Curriculum Structure* tab (e.g. B.A. Chinese Language and Culture 123 credits, B.Sc. Cosmetic Science 121 credits, M.D. 245 credits, D.D.S. 230 credits).
+    *   **Tuition Fees:** Extracted from the *Tuition Fee* tab (semester fee and total program cost).
+    *   **Description & Objectives:** Extracted from the *Curriculum Info* tab.
+    *   **Career Opportunities:** Extracted from the *Career Opportunities* tab.
+*   **Automated Ingestion Script:** `backend/scripts/crawlers/` or direct BeautifulSoup parser execution with immediate 768-dim Gemini Embedding re-indexing.
 
 ### 2.3 Khon Kaen University — Full Expansion (387 curricula, Aug 31 2026)
-*   **Primary Sources:** `eng.kku.ac.th` (FACTS 280 programs) + `th.wikipedia.org/wiki/มหาวิทยาลัยขอนแก่น` (330 curricula) + faculty portals (`ag.kku.ac.th`, `tech.kku.ac.th`, `hs.kku.ac.th`, `arch.kku.ac.th`, `law.kku.ac.th`, `econ.kku.ac.th`, `sc.kku.ac.th`, `md.kku.ac.th`, `nurse.kku.ac.th`, `ams.kku.ac.th`, `vet.kku.ac.th`, `ph.kku.ac.th`, `computing.kku.ac.th`, `cola.kku.ac.th`, `faa.kku.ac.th`, `ed.kku.ac.th`, `is.kku.ac.th`) + `reg.kku.ac.th/registrar/program_info.asp` (TQF-2/Tier 1 registry 395 entries)
-*   **Coverage:** 22 faculties/colleges, all levels — **387 curricula (Khon Kaen University pure, after SPU relabel & dedup)** — ปริญญาตรี 134 / ปริญญาโท 158 / ปริญญาเอก 93 / ประกาศนียบัตรบัณฑิต (ชั้นสูง) 2. Verified against official KKU ~280 programs at plan-level expansion (387 includes per-plan variants: e.g., Science `แผน ก แบบ ก 1/ก 2/ข`, `แบบ 1.1/1.2/2.1/2.2` International tracks — intentionally kept separate per SKILL Tier 3 RapidFuzz faculty-boost logic, not merged when suffix differs). Global total 4,162 courses.
+*   **Primary Sources:** `eng.kku.ac.th` (FACTS 280 programs) + `th.wikipedia.org/wiki/มหาวิทยาลัยขอนแก่น` (330 curricula) + faculty portals (`ag.kku.ac.th`, `tech.kku.ac.th`, `hs.kku.ac.th`, `arch.kku.ac.th`, `law.kku.ac.th`, `econ.kku.ac.th`, `sc.kku.ac.th`, `md.kku.ac.th`, `nurse.kku.ac.th`, `ams.kku.ac.th`, `vet.kku.ac.th`, `ph.kku.ac.th`, `computing.kku.ac.th`, `cola.kku.ac.th`, `faa.kku.ac.th`, `ed.kku.ac.th`, `is.kku.ac.th`) + `reg.kku.ac.th/registrar/program_info.asp` (TQF-2/Tier 1 registry 395 entries).
+*   **Coverage:** 22 faculties/colleges, all levels — **387 curricula (Khon Kaen University pure, after SPU relabel & dedup)** — Bachelor's 134 / Master's 158 / Ph.D. 93 / Graduate Diploma 2. Verified against official KKU ~280 programs at plan-level expansion (387 includes per-plan variants: e.g., Science `Plan A Type A 1 / A 2 / B`, `Type 1.1 / 1.2 / 2.1 / 2.2` International tracks — intentionally kept separate per SKILL Tier 3 RapidFuzz faculty-boost logic, not merged when suffix differs). Global total: 4,162 courses.
 *   **Pipeline:**
     1. `courses_isan_kku_ubu_msu.json` (22 high-quality) + `kku_full_expansion.py` (65) + `kku_full_expansion2.py` (43) + `kku_full_expansion3.py` (23) + `reg.kku.ac.th` Tier 1 scrape (395 raw) → curated JSONs under `backend/data/courses_new/` with `gemini-embedding-2` 768-dim vectors.
-    2. Quality fixes (Aug 29): deleted duplicate `kku-be-digital-media-engineering`, disambiguated `kku_med_rad_bsc` vs `kku_ams_radtech_bsc`, fixed 3 `kku-be-*` truncated titles, normalized `degree_level` 768 rows (Bachelor/Master/Doctorate → Thai), backfilled `embedding_text` 328 rows (now 0 NULL), created GIN trigram indexes `idx_courses_title_th_trgm` etc. per `AGENTS.md:6`.
-    3. Tier 2 fix (Aug 31 — `backend/scripts/fix_kku_tier2_tier3.py`): patched **39** records with `tuition_per_semester = ไม่ระบุ` (16× `EN-*` placeholder + 3× `kku-be-*` + 11× `kku-sci-msc-*` + 9× `kku-doc/master-*`) using TCAS Standard Formulas — 4y Bachelor `*8` (EN-UG-* → 18k→144k, EN-UG-INT → 45k→360k), 2y Master `*4` (EN-MS-* 30k→120k, Sci-MSc 25k→100k), 3y PhD `*6`, 1y Cert `*2` — and relabeled **8** SPU-Khon Kaen records (`spu_kk_*`) from `Khon Kaen University` to `Sripatum University / มหาวิทยาลัยศรีปทุม วิทยาเขตขอนแก่น` (Graduate School) to eliminate cross-university pollution. Result: **0** remaining `ไม่ระบุ` tuition in KKU.
+    2. Quality fixes (Aug 29): deleted duplicate `kku-be-digital-media-engineering`, disambiguated `kku_med_rad_bsc` vs `kku_ams_radtech_bsc`, fixed 3 `kku-be-*` truncated titles, normalized `degree_level` across 768 rows (Bachelor/Master/Doctorate → Thai canonical labels), backfilled `embedding_text` for 328 rows (now 0 NULL), created GIN trigram indexes `idx_courses_title_th_trgm` etc. per `AGENTS.md`.
+    3. Tier 2 fix (Aug 31 — `backend/scripts/fix_kku_tier2_tier3.py`): patched **39** records with `tuition_per_semester = ไม่ระบุ` (16× `EN-*` placeholder + 3× `kku-be-*` + 11× `kku-sci-msc-*` + 9× `kku-doc/master-*`) using TCAS Standard Formulas — 4y Bachelor `*8` (EN-UG-* → 18k→144k, EN-UG-INT → 45k→360k), 2y Master `*4` (EN-MS-* 30k→120k, Sci-MSc 25k→100k), 3y PhD `*6`, 1y Cert `*2` — and relabeled **8** SPU-Khon Kaen records (`spu_kk_*`) from `Khon Kaen University` to `Sripatum University / มหาวิทยาลัยศรีปทุม วิทยาเขตขอนแก่น` (Graduate School) to eliminate cross-university pollution. Result: **0** remaining unspecified tuition records in KKU.
     4. Tier 3 re-index (Aug 31): rebuilt `embedding_text = f"{title_th} {title_en} {faculty_th} {faculty} {department_th} {description} {' '.join(career_paths)} {' '.join(tags)}"` and regenerated **387/387** Gemini 768-dim vectors via `ThreadPoolExecutor(max_workers=6)` + client pooling — `missing embedding = 0`, `embedding_text NULL = 0`, `title_th='ไม่ระบุ' = 0`.
-    5. Dedup verification (Aug 31): `SELECT title_th, degree_level GROUP BY HAVING COUNT>1` → **0 groups**; RapidFuzz `token_set_ratio >=70` with faculty boost `+15` would merge only exact duplicates — plan variants (e.g., `แผน ก แบบ ก 1` vs `แผน ข`) correctly kept separate (124 near-duplicates sampled in Science are intentional plan variants per TQF-2).
+    5. Dedup verification (Aug 31): `SELECT title_th, degree_level GROUP BY HAVING COUNT>1` → **0 groups**; RapidFuzz `token_set_ratio >=70` with faculty boost `+15` merges only exact duplicates — plan variants (e.g. `Plan A Type A 1` vs `Plan B`) are correctly preserved (124 near-duplicates sampled in Science are intentional plan variants per TQF-2).
     6. Vector search verified (Aug 31, HNSW `embedding <=> CAST(:v AS vector)`): `วิศวกรรมคอมพิวเตอร์` → `kku_eng_cpe_beng` rank 1, `พยาบาล` → `kku_nur_bns` rank 1, `นิติศาสตร์` → `kku_law_llb` rank 1, `วิศวกรรมพลังงาน` → `EN-MS-09` rank 1.
-*   **Remaining gaps:** No structural gap — coverage exceeds official 280 at expanded plan level. Residual faculty skew: Faculty of Science 219 (plan-level explosion due to `แผน/แบบ` variants) vs Engineering 37 etc. — not a missing-faculty issue. SPU Khon Kaen correctly separated as 8 courses under Sripatum (total Sripatum 39).
+*   **Remaining gaps:** No structural gap — coverage exceeds official 280 at expanded plan level. Residual faculty skew: Faculty of Science 219 (plan-level explosion due to plan/track variants) vs Engineering 37 etc. SPU Khon Kaen correctly separated as 8 courses under Sripatum (total Sripatum 39).
 
 ### 2.4 Suranaree University of Technology — Tier 2/3 Quality Fix (87 curricula, Aug 31 2026)
-*   **Primary Sources:** `sut.ac.th` / `interadmission.sut.ac.th/international-programs` + `reg.sut.ac.th` + institute portals (9 สำนักวิชา) — existing 87 records ingested pre-Aug 31; no new catalog scrape required (Tier 1 verified via live DB audit vs official SUT trimester system).
-*   **Coverage:** 9 สำนักวิชา — **87 curricula** — ปริญญาตรี 37 / ปริญญาโท 27 / ปริญญาเอก 23. กระจาย: วิศวกรรมศาสตร์ 35 / วิทยาศาสตร์ 17 / เทคโนโลยีการเกษตร 11 / เทคโนโลยีสังคม 11 / สาธารณสุขศาสตร์ 4 / แพทยศาสตร์ 3 / ศาสตร์และศิลป์ดิจิทัล 3 / พยาบาลศาสตร์ 2 / ทันตแพทยศาสตร์ 1.
-*   **SUT Trimester Note:** SUT ใช้ระบบไตรภาค (3 เทอม/ปี) — สูตร `tuition_total` จึงต่างจาก SKILL ภาคปกติ: 4 ปี `*12` (264k–336k), 6 ปี `*18` (810k–1,080k), 2 ปี โท `*6` (192k–228k), 3 ปี เอก `*9` (324k–378k) — ตรวจเทียบกับ 28 รายการที่ค่าเทอมครบแล้ว (เช่น `sut_med_md` 45k→810k, `sut_dent_dds` 60k→1,080k, `sut_nurs_bns` 28k→336k, `sut_das_bsc` 22k→264k).
+*   **Primary Sources:** `sut.ac.th` / `interadmission.sut.ac.th/international-programs` + `reg.sut.ac.th` + institute portals (9 institutes) — existing 87 records ingested pre-Aug 31; no new catalog scrape required (Tier 1 verified via live DB audit vs official SUT trimester system).
+*   **Coverage:** 9 institutes — **87 curricula** — Bachelor's 37 / Master's 27 / Ph.D. 23. Breakdown: Engineering 35 / Science 17 / Agricultural Technology 11 / Social Technology 11 / Public Health 4 / Medicine 3 / Digital Arts and Science 3 / Nursing 2 / Dentistry 1.
+*   **SUT Trimester Note:** SUT operates on a trimester calendar (3 trimesters/year) — formula for `tuition_total` differs from standard 2-semester models: 4-year Bachelor `*12` (264k–336k), 6-year professional degrees `*18` (810k–1,080k), 2-year Master `*6` (192k–228k), 3-year Ph.D. `*9` (324k–378k) — validated against 28 baseline programs with complete tuition data (e.g., `sut_med_md` 45k→810k, `sut_dent_dds` 60k→1,080k, `sut_nurs_bns` 28k→336k, `sut_das_bsc` 22k→264k).
 *   **Pipeline:**
-    1. Tier 1 audit (Aug 31): 87 รายการครบทุกสำนักวิชา — ไม่พบหลักสูตรใหม่ที่ขาด (SUT ไม่มี TQF-2 portal สาธารณะแบบ CMU/KKU; `reg.sut.ac.th` เป็นระบบทะเบียนต้องล็อกอิน — ยึด 87 รายการเดิมเป็น baseline).
-    2. Tier 2 fix (Aug 31 — `backend/scripts/fix_sut_tier2_tier3.py`): แก้ **5** รายการ faculty ไม่ตรง `faculty_th` (`sut_bachelor_animal/crop_production_technology` Engineering→Agricultural Technology, `sut_bachelor_agricultural_and_food_engineering` Agricultural→Engineering, `sut_bachelor_communication` Social→Digital Arts and Science, `sut-hospitality-technology-innovation` ไม่ระบุ→Social Technology) + เติม **59** รายการ `tuition_per_semester/tuition_total` ที่เป็น `ไม่ระบุ` (22k–42k ต่อไตรภาค ตามสูตรไตรภาคข้างบน) + เติม **30** รายการ `duration_years/total_credits` ที่เป็น `ไม่ระบุ` (ป.ตรี 4 ปี 130 หน่วยกิต, โท 2 ปี 36, เอก 3 ปี 48) + normalize `duration_years` ที่เป็น `2`→`2 ปี` เป็นต้น. ผล: **0** คงเหลือ `ไม่ระบุ` ทุกฟิลด์.
-    3. Tier 3 re-index (Aug 31): rebuild `embedding_text = f"{title_th} {title_en} {faculty_th} {faculty} {department_th} {description} {' '.join(career_paths)} {' '.join(tags)}"` และ regenerate **87/87** Gemini 768-dim (`gemini-embedding-2`) via `ThreadPoolExecutor(max_workers=6)` + client pooling — `missing embedding = 0`.
-    4. Dedup (Aug 31): `title_th+degree_level GROUP BY HAVING COUNT>1` → **0 groups**; id dedup 0.
+    1. Tier 1 audit (Aug 31): 87 records complete across all 9 institutes — baseline established.
+    2. Tier 2 fix (Aug 31 — `backend/scripts/fix_sut_tier2_tier3.py`): corrected **5** mismatched `faculty` values (`sut_bachelor_animal/crop_production_technology` Engineering→Agricultural Technology, `sut_bachelor_agricultural_and_food_engineering` Agricultural→Engineering, `sut_bachelor_communication` Social→Digital Arts and Science, `sut-hospitality-technology-innovation` unspecified→Social Technology) + backfilled **59** records with unspecified `tuition_per_semester/tuition_total` (22k–42k per trimester per standard formula) + backfilled **30** records with unspecified `duration_years/total_credits` (Bachelor 4y/130 credits, Master 2y/36 credits, Ph.D. 3y/48 credits) + normalized `duration_years` formats. Result: **0** remaining unspecified fields.
+    3. Tier 3 re-index (Aug 31): rebuilt `embedding_text = f"{title_th} {title_en} {faculty_th} {faculty} {department_th} {description} {' '.join(career_paths)} {' '.join(tags)}"` and regenerated **87/87** Gemini 768-dim vectors (`gemini-embedding-2`) via `ThreadPoolExecutor(max_workers=6)` + client pooling — `missing embedding = 0`.
+    4. Dedup (Aug 31): `title_th+degree_level GROUP BY HAVING COUNT>1` → **0 groups**; duplicate IDs: 0.
     5. Vector search verified (Aug 31, HNSW `embedding <=> CAST(:v AS vector)`): `วิศวกรรมคอมพิวเตอร์` → `sut_bachelor_computer_engineering` rank 1, `พยาบาล` → `sut_nurs_bns` rank 1, `เทคโนโลยีการเกษตร` → `sut_agr_phd_crop_production` rank 1, `บริหารธุรกิจ` → `sut_bachelor_management_technology` rank 1, `สาธารณสุข` → `sut_ph_phd` rank 1.
-*   **HNSW Root Cause & Infrastructure Fix (Aug 31):** HNSW filtered search (`WHERE university ILIKE '%Suranaree%' ORDER BY embedding <=> :v LIMIT 1`) คืน 0 rows ทั้งที่ `COUNT(*) ILIKE`=87 และ `count embedding NOT NULL`=87 — สาเหตุคือ HNSW index scan ใช้ default `hnsw.ef_search` ต่ำเกินสำหรับ filtered set ขนาดเล็ก (SUT 87/4162 ≈2%) + `ILIKE '%...%'` ถูก optimizer เลือกเป็น `Index Scan using ix_courses_embedding_hnsw + Filter` แทน `Bitmap Heap Scan` (ต่างจาก `university = '...'` ที่ได้ `Sort+Bitmap Index Scan` และคืนผลปกติ) — แก้โดยตั้ง `SET hnsw.ef_search = 400` ทุก connection/session/request ใน `backend/app/core/database.py` (3 ชั้น: `engine connect` + `checkout` + `SET LOCAL` ใน `get_db()`) — verify ผ่าน ORM `CourseDB.embedding.cosine_distance` pathway เดียวกับ `routes_courses.py`. `KKU ILIKE` ไม่กระทบเพราะเซ็ตใหญ่กว่า HNSW recall ยังผ่าน.
-*   **Remaining gaps:** ไม่มี — SUT 87 รายการคุณภาพ 100% (tuition/duration/credits/embedding ครบ, faculty ถูกต้อง, dedup 0, HNSW verified).
+*   **HNSW Root Cause & Infrastructure Fix (Aug 31):** HNSW filtered search (`WHERE university ILIKE '%Suranaree%' ORDER BY embedding <=> :v LIMIT 1`) returned 0 rows despite 87 valid records existing. Root cause: HNSW index scan used a default `hnsw.ef_search` too low for a small filtered subset (SUT 87/4162 ≈ 2%) + `ILIKE '%...%'` was planned as `Index Scan using ix_courses_embedding_hnsw + Filter` instead of `Bitmap Heap Scan`. Resolved by configuring `SET hnsw.ef_search = 400` across connections, checkouts, and request sessions in `backend/app/core/database.py` (3 layers: `engine connect` + `checkout` + `SET LOCAL` in `get_db()`).
+*   **Remaining gaps:** None — 87 SUT records verified at 100% quality (tuition, duration, credits, embeddings complete, faculty normalized, dedup 0, HNSW verified).
 
 ## 3. Academic Publications (Featured Publications)
 To ensure accuracy and recency, research papers and publication records were not manually hardcoded. Instead, they were dynamically fetched from global academic databases.
@@ -161,9 +161,9 @@ To ensure accuracy and recency, research papers and publication records were not
     *   The script `update_scholar_serpapi.py` searches for each professor's name on Google Scholar.
     *   If a strict author search (`author:"First Last"`) yields no results, the system falls back to a general query matching the professor's exact name.
     *   The top 5 most relevant publications are extracted, along with full-text URLs, and securely embedded into the PostgreSQL (Supabase) database.
-*   **ThaiJO (Sep 2026):** `enrich_thaijo_publications.py` crawls the OJS3 aggregate shards (`so01`–`so06.thaiojournals... ` search with precision-gated `authors=` matching) for Thai-language scholars invisible to global DBs → 649+ rows credited with real article titles (venue + URL; `citation_count` stays 0 — ThaiJO exposes no counts).
-*   **OpenAlex (Sep 2026):** `enrich_openalex_author_metrics.py` resolves `openalex_id IS NULL` rows via author search behind a homonym gate (surname token + given-name + university confirmation), writing h_index/total_citations/works_count. Idempotent + resumable; canary health-gate aborts before writing when the key pool is down. Wave 1: +227 rows.
-*   **Source-curated lists:** TU Law `ผลงานวิชาการคัดสรร` citations (Batch 100) land as full dict-shape entries post-reducer.
+*   **ThaiJO (Sep 2026):** `enrich_thaijo_publications.py` crawls OJS3 aggregate shards (`so01`–`so06.thaiojournals...` search with precision-gated `authors=` matching) for Thai-language scholars invisible to global DBs → 649+ rows credited with authentic article titles (venue + URL; citation count left 0 as ThaiJO does not expose citation metrics).
+*   **OpenAlex (Sep 2026):** `enrich_openalex_author_metrics.py` resolves `openalex_id IS NULL` rows via author search behind a homonym gate (surname token + given name + institutional affiliation confirmation), updating `h_index`, `total_citations`, and `works_count`. Idempotent and resumable; canary health-gate aborts before writing when the key pool fails. Wave 1: +227 rows.
+*   **Source-curated lists:** TU Law curated publications (`ผลงานวิชาการคัดสรร`, Batch 100) ingested as full structured dictionaries post-reducer.
 
 ---
 
@@ -183,18 +183,18 @@ Profile pictures were sourced from multiple platforms due to strict Hotlink Prot
 Once the backend API is fully deployed to production hosting, scaling the database to include other universities (e.g., Prince of Songkla, Khon Kaen, Chiang Mai additional faculties) will follow this pipeline:
 1. Developing specialized Web Scrapers (using BeautifulSoup / Playwright) tailored to the DOM structure of target university directories.
 2. Importing scraped data using the standardized JSON schema defined in `AGENTS.md`.
-3. Running the automated scripts to fetch Google Scholar publications and generating 768-dimensional AI Embeddings (`gemini-embedding-2`) for semantic search readiness.
+3. Running automated scripts to fetch Google Scholar publications and generating 768-dimensional AI Embeddings (`gemini-embedding-2`) for semantic search readiness.
 
 ---
 
 ## 6. National Education Statistics (MHESI) — Demand-Side Benchmark
-> **เพิ่มเมื่อ:** 10 กันยายน 2569 | **ใช้ใน:** `future_tasks/05_find_expert_researchers.md`
+> **Added:** September 10, 2026 | **Used In:** `future_tasks/05_find_expert_researchers.md`
 
-*   **Primary Source:** ระบบเผยแพร่สารสนเทศอุดมศึกษา กระทรวง อว. — [info.mhesi.go.th](https://info.mhesi.go.th)
+*   **Primary Source:** Ministry of Higher Education, Science, Research and Innovation (MHESI) Higher Education Information Portal — [info.mhesi.go.th](https://info.mhesi.go.th)
 *   **Pages:**
-    *   นักศึกษาใหม่ (เข้าใหม่รายปี จำแนกสถาบัน/คณะ): `stat_std_new.php?search_year=2568`
-    *   ผู้สำเร็จการศึกษา: `stat_graduate.php?search_year=2568`
-    *   นักศึกษารวม: `stat_std_all.php`
-*   **Download mechanism:** ลิงก์ `download2.php?file_id=<id>.xlsx&stat_id=<sid>&id_member=<year>` ตอบ 302 → ต้อง GET ต่อไปยัง `Location` (รูปแบบ: `<page>.php?search_year=<year>&download=<sid>&file_id=<file>`) พร้อม cookie session ที่ได้จากการเปิดหน้ารายงานก่อน ไฟล์เป็น XLSX โครงสร้าง hierarchy จำแนกด้วย `cell.alignment.indent` (0=ชื่อปริญญา, 3=สถาบัน, 4=คณะ)
-*   **Key baseline (ปีการศึกษา 2568 ภาค 1):** นศ.เข้าใหม่ ป.โท 40,029 คน/ปี — สายการศึกษา+ครุศาสตร์ ~7,254 (อันดับ 1), วท.ม. 6,753, บธ.ม. 5,804, รป.ม. 2,526
-*   **Script ที่ใช้วิเคราะห์:** `backend/scripts/audits/field_coverage_gap_analysis.py` + `elite_researcher_gap.py`
+    *   New Students (Annual intake by institution/faculty): `stat_std_new.php?search_year=2568`
+    *   Graduates: `stat_graduate.php?search_year=2568`
+    *   Total Enrolled Students: `stat_std_all.php`
+*   **Download Mechanism:** Link `download2.php?file_id=<id>.xlsx&stat_id=<sid>&id_member=<year>` returns HTTP 302 → Follow redirect to `Location` (pattern: `<page>.php?search_year=<year>&download=<sid>&file_id=<file>`) using the session cookie obtained from the initial report page. Files are XLSX with hierarchical row indentation determined by `cell.alignment.indent` (0=Degree Title, 3=Institution, 4=Faculty).
+*   **Key Baseline (Academic Year 2568 Term 1):** Annual new Master's student intake: 40,029 students/year — Education/Pedagogy leads with ~7,254 students (Rank 1), followed by M.Sc. 6,753, M.B.A. 5,804, and M.P.A. 2,526.
+*   **Analysis Scripts:** `backend/scripts/audits/field_coverage_gap_analysis.py` + `elite_researcher_gap.py`

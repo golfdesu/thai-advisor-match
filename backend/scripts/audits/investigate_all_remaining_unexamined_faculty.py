@@ -49,7 +49,7 @@ from scripts.agentic_pipeline.state_reducer import (
 )
 
 OUTPUT_REPORT = BACKEND_DIR / "data" / "agent_states" / "comprehensive_investigation_937_faculty.json"
-SKILL_STATE_FILE = BACKEND_DIR / "data" / "agent_states" / "skill_state_comprehensive_investigation_937.json"
+SKILL_STATE_FILE = BACKEND_DIR / "data" / "agent_states" / "skill_state_comprehensive_investigation_937"
 
 REJECT_FREEMAILS = {
     "@gmail.com", "@hotmail.com", "@yahoo.com", "@yahoo.co.th",

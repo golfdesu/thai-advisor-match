@@ -1,39 +1,47 @@
-# ภารกิจที่ 2: การขยายฐานข้อมูลอาจารย์ในมหาวิทยาลัยที่ยังขาด (Faculty Coverage Expansion)
+# Task 2: Faculty Coverage Expansion
 
-> **ความสำคัญ:** 🔥 ระดับ 2 (High Priority)  
-> **เป้าหมาย:** เพิ่มข้อมูลอาจารย์ในมหาวิทยาลัยชั้นนำที่ยังมีไม่ถึง 50–100 ท่าน
+> **Priority:** 🔥 Tier 2 (High Priority)  
+> **Target:** Expand faculty coverage across leading universities currently having fewer than 50–100 records.
 
 ---
 
-## 1. ปัญหาและสถานะปัจจุบัน
-ในตาราง `faculties` (3,901 ท่าน) สัดส่วนกว่า 70% กระจุกตัวอยู่ที่ 5 มหาวิทยาลัยใหญ่ ได้แก่:
-- จุฬาลงกรณ์มหาวิทยาลัย: 879 ท่าน
-- มหาวิทยาลัยมหิดล: 592 ท่าน
-- มหาวิทยาลัยเชียงใหม่: 555 ท่าน
-- มหาวิทยาลัยธรรมศาสตร์: 361 ท่าน
-- มหาวิทยาลัยเกษตรศาสตร์: 333 ท่าน
-- มหาวิทยาลัยขอนแก่น: 253 ท่าน
+## 1. Problem Statement & Baseline Status
+In the baseline `faculties` dataset (3,901 members), over 70% of records were concentrated across 5 major universities:
+- Chulalongkorn University (CU): 879
+- Mahidol University (MU): 592
+- Chiang Mai University (CMU): 555
+- Thammasat University (TU): 361
+- Kasetsart University (KU): 333
+- Khon Kaen University (KKU): 253
 
-ในขณะที่มหาวิทยาลัยชั้นนำที่มีการวิจัยและหลักสูตรบัณฑิตศึกษาจำนวนมาก ยังมีข้อมูลในฐานข้อมูล **น้อยกว่าความเป็นจริงอย่างมีนัยสำคัญ**:
+Conversely, several prominent research institutions with substantial graduate student bodies were significantly underrepresented:
 
-| มหาวิทยาลัย | จำนวนปัจจุบัน | เป้าหมายที่ควรมี | คณะเป้าหมายหลักที่ยังขาด |
+| University | Baseline Count | Target Count | High-Priority Target Faculties |
 | :--- | :---: | :---: | :--- |
-| **ม.ศรีนครินทรวิโรฒ (มศว)** | **13** | **150+** | คณะแพทยศาสตร์, คณะวิศวกรรมศาสตร์, คณะวิทยาศาสตร์, คณะพยาบาลศาสตร์, คณะเภสัชศาสตร์ |
-| **ม.บูรพา (BUU)** | **14** | **150+** | คณะวิทยาการสารสนเทศ, คณะวิศวกรรมศาสตร์, คณะแพทยศาสตร์, คณะสาธารณสุขศาสตร์ |
-| **ม.แม่ฟ้าหลวง (MFU)** | **25** | **100+** | สำนักวิชาเทคโนโลยีสารสนเทศ, นวัตกรรมสุขภาพ, จีนศึกษา, การแพทย์บูรณาการ |
-| **ม.ศิลปากร (SU)** | **29** | **120+** | คณะวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม, คณะเภสัชศาสตร์, คณะวิทยาศาสตร์, คณะ ICT |
-| **ม.นเรศวร (NU)** | **78** | **150+** | คณะแพทยศาสตร์, คณะวิศวกรรมศาสตร์, คณะวิทยาศาสตร์การแพทย์ |
-| **ม.สงขลานครินทร์ (PSU)** | **129** | **300+** | คณะแพทยศาสตร์ มอ.หาดใหญ่, คณะวิศวกรรมศาสตร์, คณะวิทยาศาสตร์, คณะเภสัชศาสตร์ |
-| **มจธ. (KMUTT)** | **116** | **250+** | คณะวิศวกรรมศาสตร์ (เก็บไม่ครบทุกภาค), คณะเทคโนโลยีสารสนเทศ (SIT), FIBO |
-| **สจล. (KMITL)** | **148** | **300+** | คณะวิศวกรรมศาสตร์ (เก็บไม่ครบทุกภาค), คณะไอที, คณะวิทยาศาสตร์ |
+| **Srinakharinwirot University (SWU)** | **13** | **150+** | Medicine, Engineering, Science, Nursing, Pharmacy |
+| **Burapha University (BUU)** | **14** | **150+** | Informatics, Engineering, Medicine, Public Health |
+| **Mae Fah Luang University (MFU)** | **25** | **100+** | Information Technology, Health Sciences, Sinology, Integrative Medicine |
+| **Silpakorn University (SU)** | **29** | **120+** | Engineering & Industrial Technology, Pharmacy, Science, ICT |
+| **Naresuan University (NU)** | **78** | **150+** | Medicine, Engineering, Medical Sciences |
+| **Prince of Songkla University (PSU)** | **129** | **300+** | Medicine (Hat Yai), Engineering, Science, Pharmacy |
+| **KMUTT** | **116** | **250+** | Engineering (all depts), School of Information Technology (SIT), FIBO |
+| **KMITL** | **148** | **300+** | School of Engineering (all depts), IT, Science |
 
 ---
 
-## 2. ขั้นตอนการดึงข้อมูลตามมาตรฐาน `AGENTS.md` (Zero-Bypass Policy)
+## 2. Standard Acquisition Protocol (`AGENTS.md` Zero-Bypass Policy)
 
-การดึงข้อมูลอาจารย์ต้องรันผ่าน Autonomous Pipeline เท่านั้น ห้ามเขียน mock/manual ลงไฟล์โดยตรง:
+All faculty data acquisition must execute through the headless Autonomous Pipeline. Manually synthesized or mocked data is strictly prohibited.
 
-### รูปแบบคำสั่ง CLI Runner:
+### CLI Runner Invocation:
+```bash
+python backend/scripts/agentic_pipeline/run_acquire.py \
+  --url "https://eng.swu.ac.th/personnel" \
+  --univ SWU \
+  --fac Engineering \
+  --max-steps 25
+```
+Or via the full `cli_runner.py`:
 ```bash
 python backend/scripts/agentic_pipeline/cli_runner.py \
   --univ-th "มหาวิทยาลัยศรีนครินทรวิโรฒ" \
@@ -44,16 +52,16 @@ python backend/scripts/agentic_pipeline/cli_runner.py \
   --export-file "backend/scripts/data_sources/swu_eng_faculties.py"
 ```
 
-### วงจรข้อมูล (Lifecycle):
-1. **Real-time Extraction:** ดึงหน้าเว็บบุคลากรผ่าน `Playwright` หรือ `Trafilatura`
-2. **Content Pruning:** กรอง Boilerplate/Navigation ทิ้งด้วย `ContentPruner` (<2,000 tokens)
-3. **State Reducer:** สกัดข้อมูลและรัน RapidFuzz Deduplication (`fuzz.token_set_ratio >= 85`) เพื่อป้องกันการซ้ำซ้อน
-4. **Checkpointing:** บันทึกลง `data/agent_states/`
-5. **Multi-Threaded Vectorization:** สร้าง 768-dim Embedding ด้วย Gemini API
-6. **Local Database Commit:** บันทึกลง Local Docker PostgreSQL 17
+### Ingestion Lifecycle:
+1. **Real-time Extraction:** Fetch directory HTML via Playwright or requests.
+2. **Content Pruning:** Strip boilerplate and navigation headers using `ContentPruner` (<2,000 tokens).
+3. **State Reducer:** Extract structured fields and execute RapidFuzz deduplication (`fuzz.token_set_ratio >= 85`) against existing records.
+4. **Checkpointing:** Checkpoint structured state to `backend/data/agent_states/`.
+5. **Multi-Threaded Vectorization:** Generate 768-dim embeddings via Google Gemini API key pool.
+6. **Local Database Commit:** Commit verified records to local PostgreSQL 17.
 
 ---
 
-## 3. สิ่งที่ต้องระวังในการดึงข้อมูล (Domain Hygiene)
-1. **การกรองคำนำหน้าชื่อ:** ต้อง Normalize คำนำหน้าทางวิชาการ (ศ., รศ., ผศ., อ., ดร., นพ., ทพ., ภก.) ออกจาก `full_name_th` ให้คงเหลือเฉพาะชื่อ-นามสกุลจริง แล้วแยกเก็บตำแหน่งวิชาการไว้ใน `academic_title_th`
-2. **การป้องกัน Egress:** ตรวจสอบให้แน่ใจว่า `$env:DATABASE_URL` ใน `backend/.env` ชี้ไปที่ `localhost:5432` ก่อนรัน Batch Ingestion
+## 3. Domain Quality & Hygiene Invariants
+1. **Academic Title Separation:** Normalize academic titles (Prof., Assoc. Prof., Asst. Prof., Dr., M.D., D.D.S., Pharm.) out of `full_name_th` so the name field contains only the authentic human name, storing titles in `academic_title_th`.
+2. **Egress Protection:** Verify `DATABASE_URL` connects to `localhost:5432` prior to running batch ingestions.

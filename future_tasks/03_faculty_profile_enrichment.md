@@ -1,42 +1,42 @@
-# ภารกิจที่ 3: การเติมเต็มข้อมูลโปรไฟล์อาจารย์เดิม (Faculty Profile Enrichment)
+# Task 3: Faculty Profile Enrichment
 
-> **ความสำคัญ:** ⚡ ระดับ 3 (Data Quality & UX Enhancement)  
-> **เป้าหมาย:** ซ่อมแซมและเติมเต็มฟิลด์สำคัญที่ยังขาดในอาจารย์ 3,901 ท่านเดิม
+> **Priority:** ⚡ Tier 3 (Data Quality & UX Enhancement)  
+> **Target:** Repair and enrich critical missing profile fields across existing baseline faculty records.
 
 ---
 
-## 1. ปัญหาและสถิติฟิลด์ที่ขาดหาย (Data Incompleteness)
+## 1. Problem Statement & Missing Field Statistics
 
-จากการตรวจสอบฐานข้อมูล `faculties` (3,901 รายการ):
+Audit of the baseline `faculties` table (3,901 records):
 
-| ฟิลด์ที่ขาด | จำนวนที่ขาด | คิดเป็นเปอร์เซ็นต์ | ผลกระทบต่อระบบ |
+| Missing Field | Missing Count | Percentage | System Impact |
 | :--- | :---: | :---: | :--- |
-| **Image URL (`image_url`)** | **2,482 ท่าน** | **63.6%** | หน้าเว็บต้องแสดง Avatar สำรอง (ตัวย่อ) แทนรูปจริง ส่งผลต่อความน่าเชื่อถือ |
-| **Research Interests (`research_interests`)** | **1,670 ท่าน** | **42.8%** | การแสดงผล Synergy Badges และการจับคู่ Thesis Abstract มีความแม่นยำลดลง |
-| **Publications (`featured_publications`)** | **745 ท่าน** | **19.1%** | ขาดข้อมูลผลงานวิจัยอ้างอิงล่าสุด |
+| **Image URL (`image_url`)** | **2,482 records** | **63.6%** | UI displays initials fallback avatars instead of authentic photos, impacting perceived credibility. |
+| **Research Interests (`research_interests`)** | **1,670 records** | **42.8%** | Limits Synergy Badge computation and reduces semantic thesis matching precision. |
+| **Publications (`featured_publications`)** | **745 records** | **19.1%** | Missing recent research citations and impact metrics. |
 
 ---
 
-## 2. กลยุทธ์การเติมเต็มข้อมูล (Enrichment Strategy)
+## 2. Enrichment Strategies
 
-### แนวทางที่ 1: เติมเต็ม Image URL จาก OpenAlex & Google Scholar / Scopus
-- ค้นหาด้วยชื่อภาษาอังกฤษ (`full_name_en`) และชื่อมหาวิทยาลัยผ่าน OpenAlex API (มี API Keys อยู่ใน `backend/.env`)
-- ดึงรูปภาพโปรไฟล์จากหน้า Directory ของคณะเดิมผ่าน URL ที่เคยบันทึกไว้ใน `profile_url`
-- หากพบรูปภาพ ให้ตรวจสอบว่า URL นั้นสามารถเข้าถึงได้ (HTTP 200) และไม่ใช่รูป Broken Link
+### Strategy 1: Enrich Image URLs from Verified Institutional Hubs
+- Target English names (`full_name_en`) and institutional affiliations via official university profile slugs.
+- Scrape profile photos directly from faculty directories using preserved `profile_url` endpoints.
+- Validate that all acquired image URLs return HTTP 200 and are not hotlink-protected or broken.
 
-### แนวทางที่ 2: เติมเต็ม Research Interests จาก Featured Publications
-สำหรับอาจารย์ที่มีผลงานวิจัย (`featured_publications`) แต่ยังไม่มี `research_interests` (ประมาณ 900+ ท่าน):
-- สามารถสกัดคีย์เวิร์ดงานวิจัยจากชื่อบทความวิจัย (Paper Titles) ด้วย TF-IDF / KeyBERT หรือ LLM Summarization
-- อัปเดตฟิลด์ `research_interests` (JSON Array)
-- สังเคราะห์ข้อความ Embedding ใหม่และ Re-calculate 768-dim Vector เพื่อให้อัปเดตกับ pgvector
+### Strategy 2: Derive Research Interests from Verified Publications
+For faculty members possessing publications (`featured_publications`) but lacking structured `research_interests` (~900+ records):
+- Extract specialized research keywords from verified paper titles using TF-IDF / KeyBERT or LLM summarization.
+- Populate `research_interests` (JSON Array of strings).
+- Synthesize updated embedding text and recalculate 768-dim Gemini embeddings to refresh `pgvector` HNSW indexes.
 
 ---
 
-## 3. สคริปต์ตัวอย่างในการรัน Enrichment (บน Local Docker)
-สร้างสคริปต์เฉพาะกิจ เช่น `backend/scripts/enrichment/enrich_faculty_missing_fields.py`:
+## 3. Implementation Pattern for Local Execution
+Enrichment scripts execute under the local-first invariant (`localhost:5432`):
 ```python
-# 1. Query faculties where email is null or research_interests is null
-# 2. Enrich via OpenAlex / Official Directory scrape
-# 3. Update local postgres in batches of 100 with commit
+# 1. Query faculties where research_interests is null or image_url is null
+# 2. Enrich via official directory scrapes / OpenAlex metrics
+# 3. Update local PostgreSQL in chunks of 100 with atomic commits
 ```
-*คำเตือน: ต้องรันบน Local Docker (`localhost:5432`) เท่านั้น เพื่อ Zero-Egress*
+*Requirement: Must run against local Docker (`localhost:5432`) to satisfy the Zero-Egress Invariant.*

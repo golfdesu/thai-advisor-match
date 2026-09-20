@@ -334,7 +334,7 @@ def test_university_dedup_key_canonicalization():
 
 def test_database_hygiene_clean_name_noise():
     """Verify name sanitization cleans OCR/date/boilerplate artifacts without truncating names."""
-    from scripts.audits.clean_and_deduplicate_database_2026_09_13 import clean_name_noise
+    from scripts.audits.clean_and_deduplicate_database import clean_name_noise
 
     # Revision markers & dates
     assert clean_name_noise("ผศ.ดร. กัญญาณัฐ เปี่ยมงาม2") == "ผศ.ดร. กัญญาณัฐ เปี่ยมงาม"
@@ -383,7 +383,7 @@ def test_audit_email_regex_accepts_institutional_subdomains():
 
 def test_database_hygiene_clean_email_and_department_detection():
     """Verify email cleaning strips zero-width spaces and detects shared institutional emails."""
-    from scripts.audits.clean_and_deduplicate_database_2026_09_13 import clean_email_str, is_shared_email
+    from scripts.audits.clean_and_deduplicate_database import clean_email_str, is_shared_email
 
     # Zero-width spaces & attached characters
     assert clean_email_str("​user@chula.ac.th﻿") == "user@chula.ac.th"
@@ -401,7 +401,7 @@ def test_database_hygiene_clean_email_and_department_detection():
 
 def test_database_hygiene_english_title_prefix_stripping():
     """Verify academic title prefixes are stripped from English first names."""
-    from scripts.audits.clean_residual_database_anomalies_2026_09_13 import parse_clean_english_name
+    from scripts.audits.clean_residual_database_anomalies import parse_clean_english_name
 
     assert parse_clean_english_name("Prof.", "Brenda Porter") == ("Brenda", "Porter")
     assert parse_clean_english_name("Assoc.", "Prof. Dr. Abhisit Pinmaneekul") == ("Abhisit", "Pinmaneekul")
@@ -416,7 +416,7 @@ def test_database_hygiene_english_title_prefix_stripping():
 
 def test_database_hygiene_mahidol_cs_slug_parser():
     """Verify Mahidol ICT profile URLs and emails resolve to authentic English names."""
-    from scripts.audits.clean_residual_database_anomalies_2026_09_13 import parse_mahidol_cs_slug
+    from scripts.audits.clean_residual_database_anomalies import parse_mahidol_cs_slug
 
     url1 = "https://www.ict.mahidol.ac.th/th/people/computer-science-academic-group/chomtip_pornpanomchai/"
     assert parse_mahidol_cs_slug(url1, "chomtip.pornpanomchai@mahidol.ac.th") == ("Chomtip", "Pornpanomchai")

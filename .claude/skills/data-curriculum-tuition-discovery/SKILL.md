@@ -30,7 +30,7 @@ To systematically discover, audit, extract, and reconcile undergraduate and grad
   ```python
   emb_text = f"{title_th} {title_en} {faculty_th} {faculty} {department_th} {description} {' '.join(career_paths)} {' '.join(tags)}"
   ```
-  Immediately calculate 768-dimensional Gemini embeddings (`gemini-embedding-2`) and persist to Supabase PostgreSQL (`CourseDB.embedding`) to ensure real-time semantic discovery alignment.
+  Immediately calculate 768-dimensional Gemini embeddings (`gemini-embedding-2`) and persist to local containerized PostgreSQL (`CourseDB.embedding`) to ensure real-time semantic discovery alignment.
 
 ## 4. SKILL.state Autonomous Curriculum Discovery Integration
 All curriculum web scraping and crawling operations MUST be executed or wrapped using the `SKILL.state` architecture (`backend/scripts/agentic_pipeline/course_cli_runner.py`):

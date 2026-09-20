@@ -20,16 +20,16 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/75 backdrop-blur-md flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
-      <div className="bg-[var(--theme-card)] border-2 border-[var(--theme-border)] rounded-3xl w-full max-w-5xl max-h-[90vh] flex flex-col shadow-2xl overflow-hidden shadow-black/30">
+    <div className="ui-modal-backdrop fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
+      <div className="ui-modal w-full max-w-5xl max-h-[90vh] flex flex-col overflow-hidden" role="dialog" aria-modal="true" aria-labelledby="comparison-title">
         {/* Header */}
-        <div className="px-6 sm:px-8 py-5 border-b border-[var(--theme-border)] flex items-center justify-between bg-[var(--theme-card-subtle)]/80">
+        <div className="ui-modal-header px-6 sm:px-8 py-5 border-b border-[var(--theme-border)] flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-2xl bg-[var(--theme-primary-subtle)] border border-[var(--theme-primary-border)] flex items-center justify-center text-[var(--theme-primary)] shadow-xs">
               <Scale className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">
+              <h2 id="comparison-title" className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">
                 ตารางเปรียบเทียบหลักสูตร (Curriculum Comparison Matrix)
               </h2>
               <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold">
@@ -39,7 +39,9 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
           </div>
           <button
             onClick={onClose}
-            className="p-2 rounded-xl bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] border border-[var(--theme-border)] cursor-pointer transition shadow-2xs"
+            type="button"
+            aria-label="ปิดตารางเปรียบเทียบหลักสูตร"
+            className="ui-icon-button p-2 cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
@@ -149,7 +151,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
         </div>
 
         {/* Footer */}
-        <div className="px-6 sm:px-8 py-4.5 border-t border-[var(--theme-border)] bg-[var(--theme-card-subtle)]/90 flex items-center justify-between">
+        <div className="ui-modal-footer px-6 sm:px-8 py-4.5 border-t border-[var(--theme-border)] flex items-center justify-between">
           <button
             onClick={onClearAll}
             className="text-xs sm:text-sm text-[var(--theme-accent)] font-black hover:underline cursor-pointer"
@@ -158,7 +160,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
           </button>
           <button
             onClick={onClose}
-            className="px-6 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black transition-all cursor-pointer shadow-md"
+            className="ui-primary-button px-6 py-2.5 text-xs sm:text-sm cursor-pointer"
           >
             ปิดหน้าต่าง
           </button>

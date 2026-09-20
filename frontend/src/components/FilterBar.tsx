@@ -72,7 +72,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   useEffect(() => {
     const cached = taxonomyCache.get("taxonomy:regions") as RegionInfo[] | undefined;
     if (cached) {
-      setRegions(cached);
+      queueMicrotask(() => setRegions(cached));
       return;
     }
 
@@ -97,14 +97,14 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     const cacheKey = `taxonomy:unis:${selectedRegion}`;
     const cached = taxonomyCache.get(cacheKey) as UniversityOption[] | undefined;
     if (cached) {
-      setUniversities(cached);
+      queueMicrotask(() => setUniversities(cached));
       return;
     }
 
     uniAbortRef.current?.abort();
     const controller = new AbortController();
     uniAbortRef.current = controller;
-    setLoadingUnis(true);
+    queueMicrotask(() => setLoadingUnis(true));
 
     const regionParam = selectedRegion && selectedRegion !== "all" ? `?region=${encodeURIComponent(selectedRegion)}` : "";
     fetch(`${API_BASE_URL}/taxonomy/universities${regionParam}`, { signal: controller.signal })
@@ -128,21 +128,21 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   // 3. Fetch Faculties whenever selectedUni or selectedRegion changes
   useEffect(() => {
     if (selectedUni === "all" && selectedRegion === "all") {
-      setFaculties([]);
+      queueMicrotask(() => setFaculties([]));
       return;
     }
 
     const cacheKey = `taxonomy:faculties:${selectedUni}:${selectedRegion}`;
     const cached = taxonomyCache.get(cacheKey) as FacultyOption[] | undefined;
     if (cached) {
-      setFaculties(cached);
+      queueMicrotask(() => setFaculties(cached));
       return;
     }
 
     facAbortRef.current?.abort();
     const controller = new AbortController();
     facAbortRef.current = controller;
-    setLoadingFacs(true);
+    queueMicrotask(() => setLoadingFacs(true));
 
     const params = new URLSearchParams();
     if (selectedUni && selectedUni !== "all") params.append("university", selectedUni);
@@ -169,21 +169,21 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   // 4. Fetch Departments whenever selectedUni or selectedFaculty changes
   useEffect(() => {
     if (!selectedUni || selectedUni === "all" || !selectedFaculty || selectedFaculty === "all") {
-      setDepartments([]);
+      queueMicrotask(() => setDepartments([]));
       return;
     }
 
     const cacheKey = `taxonomy:departments:${selectedUni}:${selectedFaculty}`;
     const cached = taxonomyCache.get(cacheKey) as DepartmentOption[] | undefined;
     if (cached) {
-      setDepartments(cached);
+      queueMicrotask(() => setDepartments(cached));
       return;
     }
 
     deptAbortRef.current?.abort();
     const controller = new AbortController();
     deptAbortRef.current = controller;
-    setLoadingDepts(true);
+    queueMicrotask(() => setLoadingDepts(true));
 
     const params = new URLSearchParams({
       university: selectedUni,
@@ -295,7 +295,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 onSelectDepartment("all");
               }}
               disabled={loadingUnis}
-              className="w-full appearance-none px-3.5 py-2.5 pr-8 rounded-xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-xs sm:text-sm text-[var(--theme-text-title)] font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer disabled:opacity-60 truncate"
+              className="ui-field w-full appearance-none px-3.5 py-2.5 pr-8 text-xs sm:text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer disabled:opacity-60 truncate"
             >
               <option value="all">ทุกมหาวิทยาลัย (All Universities)</option>
               {universities.map((u) => (
@@ -323,7 +323,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 onSelectDepartment("all");
               }}
               disabled={loadingFacs || faculties.length === 0}
-              className="w-full appearance-none px-3.5 py-2.5 pr-8 rounded-xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-xs sm:text-sm text-[var(--theme-text-title)] font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed truncate"
+              className="ui-field w-full appearance-none px-3.5 py-2.5 pr-8 text-xs sm:text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed truncate"
             >
               <option value="all">
                 {selectedUni === "all" && selectedRegion === "all"
@@ -351,7 +351,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               value={selectedDepartment}
               onChange={(e) => onSelectDepartment(e.target.value)}
               disabled={loadingDepts || selectedFaculty === "all" || departments.length === 0}
-              className="w-full appearance-none px-3.5 py-2.5 pr-8 rounded-xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-xs sm:text-sm text-[var(--theme-text-title)] font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed truncate"
+              className="ui-field w-full appearance-none px-3.5 py-2.5 pr-8 text-xs sm:text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed truncate"
             >
               <option value="all">
                 {selectedFaculty === "all"
@@ -385,7 +385,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               <select
                 value={selectedDegree}
                 onChange={(e) => onSelectDegree(e.target.value)}
-                className="w-full appearance-none px-3.5 py-2.5 pr-8 rounded-xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-xs sm:text-sm text-[var(--theme-text-title)] font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer"
+                className="ui-field w-full appearance-none px-3.5 py-2.5 pr-8 text-xs sm:text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer"
               >
                 <option value="all">ทุกระดับการศึกษา (All Levels)</option>
                 <option value="ปริญญาตรี">ปริญญาตรี (Bachelor)</option>
@@ -399,7 +399,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               <select
                 value={selectedResearchTier}
                 onChange={(e) => onSelectResearchTier && onSelectResearchTier(e.target.value)}
-                className="w-full appearance-none px-3.5 py-2.5 pr-8 rounded-xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] text-xs sm:text-sm text-[var(--theme-text-title)] font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer truncate"
+                className="ui-field w-full appearance-none px-3.5 py-2.5 pr-8 text-xs sm:text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer truncate"
               >
                 <option value="all">ทุกระดับผลงาน (All Advisors)</option>
                 <option value="indexed">มีประวัติวิจัย (h-index &gt; 0)</option>

@@ -42,7 +42,7 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
   const hasExtendedInsights = hasMatchingPubs || hasSuggestedAngles;
 
   return (
-    <div className="group relative p-5 sm:p-6 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] hover:border-[var(--theme-primary)] transition-all duration-200 flex flex-col justify-between hover:shadow-md">
+    <div className="ui-card group relative p-5 sm:p-6 flex flex-col justify-between">
       <div className="space-y-4">
         {/* Top Header Avatar & Title */}
         <div className="flex items-start justify-between gap-3">
@@ -124,12 +124,14 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
                 }`}
                 title="ระดับความตรงสายงานวิจัย (คำนวณจาก AI Vector + Publications + Research Focus)"
               >
-                ตรงสาย {Math.round(matchScore)}%
+                {matchItem.match_tier_label ? `${matchItem.match_tier_label} • ` : "ตรงสาย "}
+                {Math.round(matchScore)}%
               </span>
             )}
 
             <button
               onClick={() => onToggleBookmark(f.id)}
+              aria-label={isSaved ? "ยกเลิกบันทึกรายชื่ออาจารย์" : "บันทึกรายชื่ออาจารย์"}
               className={`p-2 rounded-xl border text-xs transition-all cursor-pointer ${
                 isSaved
                   ? "bg-[var(--theme-accent-subtle)] border-[var(--theme-accent-border)] text-[var(--theme-accent)] shadow-xs"
@@ -232,6 +234,8 @@ export const AdvisorCard: React.FC<AdvisorCardProps> = ({
                 <button
                   type="button"
                   onClick={() => setShowSynergyDetails(!showSynergyDetails)}
+                  aria-expanded={showSynergyDetails}
+                  aria-label={showSynergyDetails ? "ซ่อนรายละเอียดความสอดคล้อง" : "แสดงรายละเอียดความสอดคล้อง"}
                   className="text-xs font-extrabold text-[var(--theme-primary)] hover:underline flex items-center gap-0.5 cursor-pointer"
                 >
                   <span>{showSynergyDetails ? "ซ่อนรายละเอียด" : "ดูจุดเชื่อมโยง"}</span>

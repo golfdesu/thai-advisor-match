@@ -94,4 +94,4 @@ python scripts/faculty_massive_ingestion_runner.py
 This guarantees:
 1. **Upsert Logic:** Inserts new and updates existing without crashing.
 2. **Multi-Threaded Vectorization:** Instantly computes 768-dim `gemini-embedding-2` vectors using thread pools.
-3. **Database Commit:** Saves vectors directly to Supabase `pgvector`.
+3. **Database Commit:** Saves vectors directly to local PostgreSQL 17 pgvector (`localhost:5432`).

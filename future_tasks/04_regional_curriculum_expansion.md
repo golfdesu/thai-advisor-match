@@ -1,35 +1,35 @@
-# ภารกิจที่ 4: การขยายหลักสูตรมหาวิทยาลัยภูมิภาค (Regional Curriculum Expansion)
+# Task 4: Regional Curriculum Expansion
 
-> **ความสำคัญ:** 📌 ระดับ 4 (Coverage Optimization)  
-> **เป้าหมาย:** เพิ่มหลักสูตรระดับบัณฑิตศึกษา (ป.โท / ป.เอก) ในมหาวิทยาลัยภูมิภาค
-
----
-
-## 1. สถานะปัจจุบัน
-ในตาราง `courses` (4,162 หลักสูตร):
-- ม.เชียงใหม่, ม.ขอนแก่น, ม.เกษตรศาสตร์, จุฬาฯ, มหิดล รวมกันมีมากกว่า 2,800 หลักสูตร (ครอบคลุมครบถ้วน)
-- แต่มหาวิทยาลัยภูมิภาคและสถาบันชั้นนำบางแห่งยังมีหลักสูตรในระบบค่อนข้างน้อย:
-  - ม.สงขลานครินทร์ (มอ.): 74 หลักสูตร
-  - ม.สุโขทัยธรรมาธิราช: 70 หลักสูตร
-  - ม.ศิลปากร: 61 หลักสูตร
-  - ม.ศรีนครินทรวิโรฒ: 56 หลักสูตร
-  - ม.พะเยา: 54 หลักสูตร
-  - ม.แม่ฟ้าหลวง: 54 หลักสูตร
-  - ม.นเรศวร: 53 หลักสูตร
-  - ม.บูรพา: 41 หลักสูตร
-  - ม.ทักษิณ: 36 หลักสูตร
-  - ม.อุบลราชธานี: 74 หลักสูตร
-  - ม.วลัยลักษณ์: มีน้อยมาก
+> **Priority:** 📌 Tier 4 (Coverage Optimization)  
+> **Target:** Expand graduate academic programs (Master's and Ph.D.) across regional universities.
 
 ---
 
-## 2. วิธีการดำเนินงานตาม SKILL: `data-curriculum-tuition-discovery`
-รันกระบวนการ 3-Tier Discovery ตามที่บันทึกไว้ใน `.agents/skills/data-curriculum-tuition-discovery/SKILL.md`:
-1. **Tier 1 (TQF-2 MIS):** เจาะ MIS หรือเว็บไซต์บัณฑิตวิทยาลัยเพื่อเก็บชื่อปริญญา หน่วยกิต และโครงสร้างหลักสูตร
-2. **Tier 2 (TCAS & Registrar Fees):** ดึงข้อมูลค่าเทอมรายภาคการศึกษา (`tuition_per_semester`) และโอกาสทางวิชาชีพ (`career_paths`)
-3. **Tier 3 (Fuzzy Reconciliation & Embedding):** แมปข้อมูลด้วย RapidFuzz และยิงสร้าง Embedding 768-dim ก่อน Commit ลง Local Postgres
+## 1. Baseline Status
+In the `courses` dataset (4,162 curricula):
+- CMU, KKU, KU, CU, and MU collectively account for >2,800 curricula (providing extensive baseline coverage).
+- Regional research universities and comprehensive institutions have relatively sparse representation:
+  - Prince of Songkla University (PSU): 74 curricula
+  - Sukhothai Thammathirat Open University (STOU): 70 curricula
+  - Silpakorn University (SU): 61 curricula
+  - Srinakharinwirot University (SWU): 56 curricula
+  - University of Phayao (UP): 54 curricula
+  - Mae Fah Luang University (MFU): 54 curricula
+  - Naresuan University (NU): 53 curricula
+  - Burapha University (BUU): 41 curricula
+  - Thaksin University (TSU): 36 curricula
+  - Ubon Ratchathani University (UBU): 74 curricula
+  - Walailak University (WU): minimal representation
 
-### คำสั่ง CLI ที่พร้อมใช้งาน:
+---
+
+## 2. Methodology via `data-curriculum-tuition-discovery` Skill
+Execute the 3-Tier Discovery protocol documented in `.agents/skills/data-curriculum-tuition-discovery/SKILL.md`:
+1. **Tier 1 (TQF-2 MIS):** Harvest curriculum catalogs from university MIS or Graduate School portals to capture degree titles, total credits, and program structure.
+2. **Tier 2 (TCAS & Registrar Fees):** Ingest tuition fees per semester (`tuition_per_semester`) and associated career opportunities (`career_paths`).
+3. **Tier 3 (Fuzzy Reconciliation & Embedding):** Deduplicate via RapidFuzz and generate 768-dim Gemini embeddings before committing to local PostgreSQL.
+
+### CLI Execution Command:
 ```bash
 python backend/scripts/agentic_pipeline/course_cli_runner.py \
   --univ-th "มหาวิทยาลัยสงขลานครินทร์" \

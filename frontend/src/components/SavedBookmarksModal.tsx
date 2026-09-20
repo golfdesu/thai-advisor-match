@@ -32,15 +32,15 @@ export const SavedBookmarksModal: React.FC<SavedBookmarksModalProps> = ({
   const advisorMap = new Map(allAdvisors.map((a) => [a.faculty.id, a.faculty]));
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/75 backdrop-blur-md flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
-      <div className="bg-[var(--theme-card)] border-2 border-[var(--theme-border)] rounded-3xl w-full max-w-2xl max-h-[85vh] flex flex-col shadow-2xl overflow-hidden shadow-black/30">
-        <div className="px-6 sm:px-8 py-5 border-b border-[var(--theme-border)] flex items-center justify-between bg-[var(--theme-card-subtle)]/80">
+    <div className="ui-modal-backdrop fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
+      <div className="ui-modal w-full max-w-2xl max-h-[85vh] flex flex-col overflow-hidden" role="dialog" aria-modal="true" aria-labelledby="saved-bookmarks-title">
+        <div className="ui-modal-header px-6 sm:px-8 py-5 border-b border-[var(--theme-border)] flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-2xl bg-[var(--theme-accent-subtle)] border border-[var(--theme-accent-border)] flex items-center justify-center text-[var(--theme-accent)] shadow-xs">
               <Bookmark className="w-5 h-5 fill-current" />
             </div>
             <div>
-              <h2 className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">รายการที่บันทึกไว้ (Bookmarks)</h2>
+              <h2 id="saved-bookmarks-title" className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">รายการที่บันทึกไว้ (Bookmarks)</h2>
               <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold">
                 หลักสูตรและอาจารย์ที่ปรึกษาที่คุณสนใจ
               </p>
@@ -48,7 +48,9 @@ export const SavedBookmarksModal: React.FC<SavedBookmarksModalProps> = ({
           </div>
           <button
             onClick={onClose}
-            className="p-2 rounded-xl bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] border border-[var(--theme-border)] cursor-pointer transition shadow-2xs"
+            type="button"
+            aria-label="ปิดรายการที่บันทึกไว้"
+            className="ui-icon-button p-2 cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
@@ -165,10 +167,10 @@ export const SavedBookmarksModal: React.FC<SavedBookmarksModalProps> = ({
           </div>
         </div>
 
-        <div className="px-6 sm:px-8 py-4.5 border-t border-[var(--theme-border)] bg-[var(--theme-card-subtle)]/90 flex justify-end">
+        <div className="ui-modal-footer px-6 sm:px-8 py-4.5 border-t border-[var(--theme-border)] flex justify-end">
           <button
             onClick={onClose}
-            className="px-6 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black cursor-pointer shadow-md transition"
+            className="ui-primary-button px-6 py-2.5 text-xs sm:text-sm cursor-pointer"
           >
             ปิด
           </button>

@@ -69,6 +69,10 @@ def test_advisor_semantic_and_fallback_search():
     assert "faculty" in top_result
     assert "match_score" in top_result
     assert top_result["match_score"] >= 40.0
+    assert "match_tier" in top_result
+    assert top_result["match_tier"] in ["Tier 4", "Tier 3", "Tier 2", "Tier 1"]
+    assert "match_tier_label" in top_result
+    assert top_result["match_tier_label"] in ["ที่ปรึกษาหลักตรงสาย", "ที่ปรึกษาร่วม", "กรรมการสอบ / เชิงระเบียบวิธี", "หัวข้อวิจัยกว้าง"]
 
 def test_course_search_with_university_filter():
     """Verify that Course search preserves university/degree filters during vector and keyword search."""

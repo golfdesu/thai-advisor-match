@@ -1,0 +1,739 @@
+[
+  {
+    "id": "chula_eng_cp_duanpen",
+    "full_name_th": "รศ. เดือน สินธุพันธ",
+    "first_name": "Duean",
+    "last_name": "Sinthuphan",
+    "academic_title_th": "รศ.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "email": null,
+    "role": "อาจารย์เกษียณอายุ",
+    "reasons": [
+      "Retired/Former"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344066"
+  },
+  {
+    "id": "chula_eng_cp_sawat",
+    "full_name_th": "รศ.ดร. สวัสดิ์ แสงบางปลา",
+    "first_name": "Sawat",
+    "last_name": "Saengbangpla",
+    "academic_title_th": "รศ.ดร.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "email": null,
+    "role": "อาจารย์เกษียณอายุ",
+    "reasons": [
+      "Retired/Former"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344099"
+  },
+  {
+    "id": "ku_3b530111_3089",
+    "full_name_th": "ศ. เกียรติคุณ ประดิษฐ์ พงศ์ทองคำ",
+    "first_name": "Kiattikhun",
+    "last_name": "Pradit Phongthongkham",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "คณะวิทยาศาสตร์",
+    "email": null,
+    "role": "กรรมการประจำคณะ ประจำคณะวิทยาศาสตร์",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344102"
+  },
+  {
+    "id": "mahidoluni_facultyofs_reutrakul_044",
+    "full_name_th": "ศ. เกียรติคุณ ดร. วิชัย ริ้วตระกูล",
+    "first_name": "Vichai",
+    "last_name": "Reutrakul",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "ภาควิชาเคมี",
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344105"
+  },
+  {
+    "id": "ku_wave18_agrips_0087",
+    "full_name_th": "ศ. เกียรติคุณ ดร. จริงแท้ ศิริพานิช",
+    "first_name": "Jingtair",
+    "last_name": "Siriphanich",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "faculty_th": "คณะเกษตร กำแพงแสน",
+    "department_th": "ภาควิชาพืชสวน",
+    "email": "agrjts@ku.ac.th",
+    "role": "ศาสตราจารย์เกียรติคุณ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344108"
+  },
+  {
+    "id": "cmu_27ffcdf7_9445",
+    "full_name_th": "ศ. เกียรติคุณ นพ. อภิชาต สุคนธสรรพ์",
+    "first_name": "Apichard",
+    "last_name": "Sukonthasarn",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาอายุรศาสตร์",
+    "email": "apichard.s@cmu.ac.th",
+    "role": "อาจารย์แพทย์ประจำภาควิชาอายุรศาสตร์",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344111"
+  },
+  {
+    "id": "ku_5cb6d9cc_2814",
+    "full_name_th": "ศ. เกียรติคุณ ดร. มณจันทร์ เมฆธน",
+    "first_name": "Monchan",
+    "last_name": "Mekthon",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": "คณะวิทยาศาสตร์",
+    "email": null,
+    "role": "กรรมการประจำคณะ ประจำคณะวิทยาศาสตร์",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344115"
+  },
+  {
+    "id": "chula_eng_cp_somchai_t",
+    "full_name_th": "รศ.ดร. สมชาย ทยานยง",
+    "first_name": "Somchai",
+    "last_name": "Tayanyong",
+    "academic_title_th": "รศ.ดร.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "email": null,
+    "role": "อาจารย์เกษียณอายุ",
+    "reasons": [
+      "Retired/Former"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344118"
+  },
+  {
+    "id": "chula_eng_cp_itthiphol",
+    "full_name_th": "ศ.ดร. อิทธิพล ผดุงชีวิต",
+    "first_name": "Itthiphol",
+    "last_name": "Padung",
+    "academic_title_th": "ศ.ดร.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "email": null,
+    "role": "อาจารย์เกษียณอายุ",
+    "reasons": [
+      "Retired/Former"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344120"
+  },
+  {
+    "id": "chula_eng_cp_somchai_p",
+    "full_name_th": "รศ.ดร. สมชาย ประสิทธิจูตระกูล",
+    "first_name": "Somchai",
+    "last_name": "Prasitjutrakul",
+    "academic_title_th": "รศ.ดร.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "email": "somchaip@chula.ac.th",
+    "role": "อาจารย์เกษียณอายุ",
+    "reasons": [
+      "Retired/Former"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344123"
+  },
+  {
+    "id": "thammasatu_facultyofp_sarisut_027",
+    "full_name_th": "ศ. เกียรติคุณ ดร. ภก. ณรงค์ สาริสุต",
+    "first_name": "Narong",
+    "last_name": "Sarisut",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม",
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344126"
+  },
+  {
+    "id": "ku_wave17_soc_0059",
+    "full_name_th": "ศ. เกียรติคุณ นวลจันทร์ ทัศนชัยกุล",
+    "first_name": "Naunjun",
+    "last_name": "Tasanachaikul",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "faculty_th": "คณะสังคมศาสตร์",
+    "department_th": "ภาควิชารัฐศาสตร์และรัฐประศาสนศาสตร์",
+    "email": "fsocnjt@ku.ac.th",
+    "role": "ศาสตราจารย์เกียรติคุณ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344129"
+  },
+  {
+    "id": "chiangmaiu_facultyofp_chariyalertsak_001",
+    "full_name_th": "ศ. เกียรติคุณ นพ. สุวัฒน์ จริยาเลิศศักดิ์",
+    "first_name": "Suwat",
+    "last_name": "Chariyalertsak",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะสาธารณสุขศาสตร์",
+    "department_th": "ภาควิชาสาธารณสุขศาสตร์ (ผู้อำนวยการสถาบันวิจัยวิทยาศาสตร์สุขภาพ)",
+    "email": "suwat.c@cmu.ac.th",
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344132"
+  },
+  {
+    "id": "chula_eng_cp_wanchai",
+    "full_name_th": "รศ.ดร. วันชัย ริ้วไพบูลย์",
+    "first_name": "Wanchai",
+    "last_name": "Rivepiboon",
+    "academic_title_th": "รศ.ดร.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "email": "wanchai.r@chula.ac.th",
+    "role": "อาจารย์เกษียณอายุ",
+    "reasons": [
+      "Retired/Former"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344135"
+  },
+  {
+    "id": "chulalongk_facultyofa_prach_006",
+    "full_name_th": "ศ. เกียรติคุณ ดร. วีระพงศ์ ปรัช",
+    "first_name": "Weerapong",
+    "last_name": "Prach",
+    "academic_title_th": "ศ.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะสหเวชศาสตร์",
+    "department_th": "ภาควิชารังสีเทคนิค",
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344138"
+  },
+  {
+    "id": "wave22_0781_727",
+    "full_name_th": "ศ. เกียรติคุณ ดร.ภก.ณรงค์ สาริสุต",
+    "first_name": "Narong",
+    "last_name": "Sarisut",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะเภสัชศาสตร์",
+    "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม",
+    "email": "narong.sar@mahidol.ac.th",
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344141"
+  },
+  {
+    "id": "cmu_52458e3f_0647",
+    "full_name_th": "ศ. เกียรติคุณ นพ. ชาญ สถาปนกุล",
+    "first_name": "Charn",
+    "last_name": "Satapanakul",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาอายุรศาสตร์",
+    "email": "charn.s@cmu.ac.th",
+    "role": "อาจารย์แพทย์ประจำภาควิชาอายุรศาสตร์",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344144"
+  },
+  {
+    "id": "cmu_692c3f34_3746",
+    "full_name_th": "ศ. เกียรติคุณ นพ. ดุสิต ล้ำเลิศกุล",
+    "first_name": "Dusit",
+    "last_name": "Lumlertgul",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาอายุรศาสตร์",
+    "email": "dlumlert@mail.med.cmu.ac.th",
+    "role": "อาจารย์แพทย์ประจำภาควิชาอายุรศาสตร์",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344147"
+  },
+  {
+    "id": "wave23_0080_843",
+    "full_name_th": "ศ. เกียรติคุณ กำธร กุลชล",
+    "first_name": "Kamthorn",
+    "last_name": "Kulachol",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยศิลปากร",
+    "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+    "department_th": null,
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344149"
+  },
+  {
+    "id": "mahidoluni_facultyoft_petmitr_079",
+    "full_name_th": "ศ. เกียรติคุณ พรทิพย์ เพ็ชรมาก",
+    "first_name": "Porntip",
+    "last_name": "Petmitr",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": "ภาควิชาโปรโตซัววิทยา",
+    "email": "songsak.pet@mahidol.ac.th",
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344152"
+  },
+  {
+    "id": "mahidoluni_instituteo_valyasevi_006",
+    "full_name_th": "ศ. เกียรติคุณ นพ. อารี วัลยะเสวี",
+    "first_name": "Aree",
+    "last_name": "Valyasevi",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "สถาบันโภชนาการ",
+    "department_th": "สถาบันโภชนาการ",
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus",
+      "Deceased"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344154"
+  },
+  {
+    "id": "silpakornu_facultyoff_santasombat_031",
+    "full_name_th": "ศ. เกียรติคุณ ดร. ยศ สันตสมบัติ",
+    "first_name": "Yos",
+    "last_name": "Santasombat",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะสังคมศาสตร์",
+    "department_th": "ภาควิชาสังคมวิทยาและมานุษยวิทยา",
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344157"
+  },
+  {
+    "id": "srinakhari_facultyofe_fac_073_073",
+    "full_name_th": "ศ. เกียรติคุณ ดร. สิริวรรณ ศรีพหล",
+    "first_name": null,
+    "last_name": null,
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "faculty_th": "คณะศึกษาศาสตร์",
+    "department_th": null,
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344160"
+  },
+  {
+    "id": "wave27_0036_764",
+    "full_name_th": "ศ. เกียรติคุณ นายแพทย์พูนพิศ อมาตยกุล",
+    "first_name": "Poonpit",
+    "last_name": "Amatyakul",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "สถาบันวิจัยภาษาและวัฒนธรรมเอเชีย (RILCA)",
+    "department_th": "สถาบันวิจัยภาษาและวัฒนธรรมเอเชีย",
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344162"
+  },
+  {
+    "id": "mahidoluni_instituteo_tontisirin_008",
+    "full_name_th": "ศ. เกียรติคุณ นพ. ไกรสิทธิ์ ตันติศิรินทร์",
+    "first_name": "Kraisid",
+    "last_name": "Tontisirin",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "สถาบันโภชนาการ",
+    "department_th": "สถาบันโภชนาการ",
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344165"
+  },
+  {
+    "id": "wave30_0085_664",
+    "full_name_th": "ศ. เกียรติคุณ แพทย์หญิง ศิริกุล อิศรานุรักษ์",
+    "first_name": "Sirikul",
+    "last_name": "Isaranurak",
+    "academic_title_th": "ศ.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "วิทยาลัยวิทยาศาสตร์สาธารณสุข",
+    "department_th": "วิทยาลัยวิทยาศาสตร์สาธารณสุข",
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344168"
+  },
+  {
+    "id": "mu-sh-005_1a17e2",
+    "full_name_th": "ศ.ดร. เบญจา ยอดดำเนิน-แอททิก",
+    "first_name": "Bencha",
+    "last_name": "Yoddumnern-Attig",
+    "academic_title_th": "ศ.ดร.",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะสังคมศาสตร์และมนุษยศาสตร์",
+    "department_th": "ภาควิชาสังคมและสุขภาพ",
+    "email": "bencha.yod@mahidol.ac.th",
+    "role": "Emeritus Professor and Senior Research Advisor",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344171"
+  },
+  {
+    "id": "ku_wave17_env_0020",
+    "full_name_th": "ศ. เกียรติคุณ ดร. เกษม จันทร์แก้ว",
+    "first_name": "Kasem",
+    "last_name": "Chunkao",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "faculty_th": "คณะสิ่งแวดล้อม",
+    "department_th": "ภาควิชาวิทยาศาสตร์สิ่งแวดล้อม",
+    "email": "ecksc@ku.ac.th",
+    "role": "ศาสตราจารย์เกียรติคุณ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344174"
+  },
+  {
+    "id": "ku_wave17_env_0021",
+    "full_name_th": "ศ. เกียรติคุณ ดร. นิพนธ์ ตั้งธรรม",
+    "first_name": "Nipon",
+    "last_name": "Tangtham",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "faculty_th": "คณะสิ่งแวดล้อม",
+    "department_th": "ภาควิชาวิทยาศาสตร์สิ่งแวดล้อม",
+    "email": "ffornpt@ku.ac.th",
+    "role": "ศาสตราจารย์เกียรติคุณ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344176"
+  },
+  {
+    "id": "ku_wave18_arch_0036",
+    "full_name_th": "ศ. เกียรติคุณ อรศิริ ปาณินท์",
+    "first_name": "Ornsiri",
+    "last_name": "Panin",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+    "department_th": "สาขาวิชาสถาปัตยกรรม",
+    "email": "archorp@ku.ac.th",
+    "role": "ศาสตราจารย์เกียรติคุณ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344182"
+  },
+  {
+    "id": "mu_488a970e_3657",
+    "full_name_th": "ศ. เกียรติคุณ ดร. ศุภชัยตั้งวงศ์ศานต์",
+    "first_name": "Supachai",
+    "last_name": "Tangwongsan",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+    "department_th": "กลุ่มวิชาวิทยาการคอมพิวเตอร์",
+    "email": "supachai.tangwongsan@mahidol.ac.th",
+    "role": "อาจารย์ประจำกลุ่มวิชาวิทยาการคอมพิวเตอร์",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344185"
+  },
+  {
+    "id": "cu_cbs_wave11_0002",
+    "full_name_th": "ศ.เกียรติคุณ ศ. ดร. กุณฑลี รื่นรมย์",
+    "first_name": "Guntalee",
+    "last_name": "Ruenrom",
+    "academic_title_th": "ศ.เกียรติคุณ",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะพาณิชยศาสตร์และการบัญชี",
+    "department_th": "ภาควิชาการตลาด",
+    "email": "guntalee@cbs.chula.ac.th",
+    "role": "อาจารย์ประจำภาควิชาการตลาด",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344187"
+  },
+  {
+    "id": "mfu_med_suchai_001",
+    "full_name_th": "ศ.คลินิกเกียรติคุณ นพ. สุชัย เจริญรัตนกุล",
+    "first_name": "Suchai",
+    "last_name": "Charoenratanakul",
+    "academic_title_th": "ศ.คลินิกเกียรติคุณ นพ.",
+    "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "faculty_th": "สำนักวิชาแพทยศาสตร์",
+    "department_th": "สาขาวิชาอายุรศาสตร์คลินิก และโรงพยาบาลศูนย์การแพทย์มหาวิทยาลัยแม่ฟ้าหลวง",
+    "email": "suchai.cha@mfu.ac.th",
+    "role": "Dean of School of Medicine & Former Minister of Public Health",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344190"
+  },
+  {
+    "id": "chula-law-002_6100aa",
+    "full_name_th": "ศ.เกียรติคุณ ศ. เกียรติคุณ วิทิต มันตาภรณ์",
+    "first_name": "Vitit",
+    "last_name": "Muntarbhorn",
+    "academic_title_th": "ศ.เกียรติคุณ",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะนิติศาสตร์",
+    "department_th": "ภาควิชากฎหมายระหว่างประเทศ",
+    "email": "vitit.m@law.chula.ac.th",
+    "role": "Professor Emeritus",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344192"
+  },
+  {
+    "id": "mahidoluni_facultyoft_pongpaew_133",
+    "full_name_th": "ศ.เกียรติคุณ ดร. ศ. เกียรติคุณ ดร. ปราณีต ปองผ่องผิว",
+    "first_name": "Praneet",
+    "last_name": "Pongpaew",
+    "academic_title_th": "ศ.เกียรติคุณ ดร.",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+    "department_th": null,
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344195"
+  },
+  {
+    "id": "mahidoluni_instituteo_dhanamitta_007",
+    "full_name_th": "ศ. เกียรติคุณ พญ. คุณสาคร ธนมิตต์",
+    "first_name": "Sakorn",
+    "last_name": "Dhanamitta",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "สถาบันโภชนาการ",
+    "department_th": "สถาบันโภชนาการ",
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344198"
+  },
+  {
+    "id": "wave27_0037_834",
+    "full_name_th": "ศ. เกียรติคุณ ดร.สุวิไล เปรมศรีรัตน์",
+    "first_name": "Suwilai",
+    "last_name": "Premsrirat",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยมหิดล",
+    "faculty_th": "สถาบันวิจัยภาษาและวัฒนธรรมเอเชีย (RILCA)",
+    "department_th": "สถาบันวิจัยภาษาและวัฒนธรรมเอเชีย",
+    "email": null,
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344200"
+  },
+  {
+    "id": "chula_eng_cp_020",
+    "full_name_th": "ศ.ดร. ชิดชนก เหลือสินทรัพย์",
+    "first_name": "Chidchanok",
+    "last_name": "Lursinsap",
+    "academic_title_th": "ศ.ดร.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "email": null,
+    "role": "อดีตคณาจารย์",
+    "reasons": [
+      "Retired/Former"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344202"
+  },
+  {
+    "id": "silpakornu_facultyofa_chainakut_015",
+    "full_name_th": "ศ.เกียรติคุณ พงศ์เดช ไชยคุตร",
+    "first_name": "Pongdej",
+    "last_name": "Chaiyakut",
+    "academic_title_th": "ศ.เกียรติคุณ",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะวิจิตรศิลป์",
+    "department_th": "ภาควิชาภาพพิมพ์ จิตรกรรม และประติมากรรม",
+    "email": "pongdej.c@cmu.ac.th",
+    "role": "อาจารย์ประจำ",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344205"
+  },
+  {
+    "id": "cmu_10266e92_0612",
+    "full_name_th": "ศ. เกียรติคุณ นพ. กำพล กลั่นกลิ่น",
+    "first_name": "Kampol",
+    "last_name": "Klunklin",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาอายุรศาสตร์",
+    "email": "kampol.k@cmu.ac.th",
+    "role": "อาจารย์แพทย์ประจำภาควิชาอายุรศาสตร์",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344208"
+  },
+  {
+    "id": "cmu_bus_029",
+    "full_name_th": "อ.ดร. อธิเมศร์ เชษฐธีระพัชร์",
+    "first_name": "Athimet",
+    "last_name": "Chetteeraphat",
+    "academic_title_th": "อ.ดร.",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะบริหารธุรกิจ",
+    "department_th": "ภาควิชาการเงิน",
+    "email": "athimet.che@cmu.ac.th",
+    "role": "อาจารย์ประจำภาควิชา (ลาศึกษาต่อ)",
+    "reasons": [
+      "StudyLeave"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344210"
+  },
+  {
+    "id": "cmu_35c8c5fc_2135",
+    "full_name_th": "ศ. เกียรติคุณ นพ. เกษม วัฒนชัย",
+    "first_name": "Kasem",
+    "last_name": "Watanachai",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาอายุรศาสตร์",
+    "email": "kasem.wat@cmu.ac.th",
+    "role": "อาจารย์แพทย์ประจำภาควิชาอายุรศาสตร์",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344213"
+  },
+  {
+    "id": "cmu_26ea71a4_5122",
+    "full_name_th": "ศ. เกียรติคุณ พญ. เบญจพร ไชยวรรณ์",
+    "first_name": "Benjaporn",
+    "last_name": "Chaiwun",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาพยาธิวิทยา",
+    "email": "benjaporn.cha@cmu.ac.th",
+    "role": "อาจารย์แพทย์ประจำภาควิชาพยาธิวิทยา",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344215"
+  },
+  {
+    "id": "chula_eng_cp_pornsiri",
+    "full_name_th": "รศ.ดร. พรศิริ หมื่นไชยศรี",
+    "first_name": "Pornsiri",
+    "last_name": "Muenchaisri",
+    "academic_title_th": "รศ.ดร.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "email": "pornsiri.mu@chula.ac.th",
+    "role": "อาจารย์เกษียณอายุ",
+    "reasons": [
+      "Retired/Former"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344218"
+  },
+  {
+    "id": "chula_eng_cp_sartid",
+    "full_name_th": "รศ.ดร. สาธิต วงศ์ประทีป",
+    "first_name": "Sartid",
+    "last_name": "Vongpradhip",
+    "academic_title_th": "รศ.ดร.",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "email": "sartid.v@chula.ac.th",
+    "role": "อาจารย์เกษียณอายุ",
+    "reasons": [
+      "Retired/Former"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344220"
+  },
+  {
+    "id": "cmu_794ff12b_6753",
+    "full_name_th": "ศ. เกียรติคุณ พญ. สุมิตรา ทองประเสริฐ",
+    "first_name": "Sumitra",
+    "last_name": "Thongprasert",
+    "academic_title_th": "ศ.",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "faculty_th": "คณะแพทยศาสตร์",
+    "department_th": "ภาควิชาอายุรศาสตร์",
+    "email": "sumitra95@gmail.com",
+    "role": "อาจารย์แพทย์ประจำภาควิชาอายุรศาสตร์",
+    "reasons": [
+      "Emeritus"
+    ],
+    "purged_at": "2026-09-19T23:57:53.344228"
+  }
+]

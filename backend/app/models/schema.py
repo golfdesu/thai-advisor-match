@@ -232,6 +232,8 @@ class SearchRequest(BaseModel):
 class SearchMatchResult(BaseModel):
     faculty: FacultyMember
     match_score: float = Field(..., ge=0.0, le=100.0, description="Match percentage score between 0 and 100")
+    match_tier: Optional[str] = Field(None, description="Graded Placement Tier: Tier 4, Tier 3, Tier 2, Tier 1")
+    match_tier_label: Optional[str] = Field(None, description="Thai human-readable tier label: ที่ปรึกษาหลักตรงสาย / ที่ปรึกษาร่วม / กรรมการสอบ / หัวข้อวิจัยกว้าง")
     ai_explanation: Optional[str] = Field(None, max_length=1000, description="AI-generated explanation of why this advisor matches")
     matched_keywords: List[str] = Field(default_factory=list)
     matching_publications: List[str] = Field(default_factory=list, description="Specific publication titles matching the query")

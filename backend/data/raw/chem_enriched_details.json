@@ -1,0 +1,542 @@
+[
+  {
+    "id": "cmu_2e6a7981_7631",
+    "full_name_th": "อ. กรธัช อุ่นนันกาศ",
+    "clean_th": "กรธัช อุ่นนันกาศ",
+    "email": null,
+    "existing_email": null,
+    "pid": "9",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2543 วท.ม. (เคมีฟิสิกัล), มหาวิทยาลัยมหิดล, 2547 Ph.D. (Chemistry), University of Wo",
+    "res_text": "วัสดุนาโน เซนเซอร์"
+  },
+  {
+    "id": "cmu_40a62142_8785",
+    "full_name_th": "อ. กฤษณะ จิตมณี",
+    "clean_th": "กฤษณะ จิตมณี",
+    "email": "kritsana.j@cmu.ac.th",
+    "existing_email": "kritsana.j@cmu.ac.th",
+    "pid": "10",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2540 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2543 Ph.D. (Analytical Chemistry), Okayama ",
+    "res_text": "เซนเซอร์"
+  },
+  {
+    "id": "cmu_16f82415_7802",
+    "full_name_th": "อ. ก้องเกียรติ ไตรสุวรรณ",
+    "clean_th": "ก้องเกียรติ ไตรสุวรรณ",
+    "email": null,
+    "existing_email": null,
+    "pid": "11",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยสงขลานครินทร์, 2549 ปร.ด. (เคมีอินทรีย์), มหาวิทยาลัยสงขลานครินทร์, 2553",
+    "res_text": "อาหารและชีวเศรษฐกิจ ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_701ab247_6985",
+    "full_name_th": "อ. กัลยาวัสถ์ วังคะวงษ์",
+    "clean_th": "กัลยาวัสถ์ วังคะวงษ์",
+    "email": "kanlayawat.w@cmu.ac.th",
+    "existing_email": "kanlayawat.w@cmu.ac.th",
+    "pid": "12",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2556 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2558 Ph.D. (Chemistry), Chiang Mai Universi",
+    "res_text": "พลังงานและตัวเร่ง วัสดุนาโน"
+  },
+  {
+    "id": "cmu_4b06c396_0374",
+    "full_name_th": "อ. กาญจนา ดำริห์",
+    "clean_th": "กาญจนา ดำริห์",
+    "email": "kanchana.d@cmu.ac.th",
+    "existing_email": "kanchana.d@cmu.ac.th",
+    "pid": "13",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2540 วท.ม. (เทคโนโลยีชีวภาพ), มหาวิทยาลัยมหิดล, 2544 Dr.rer.nat. (Bioorganic Chemist",
+    "res_text": "อาหารและชีวเศรษฐกิจ"
+  },
+  {
+    "id": "cmu_7a577000_1451",
+    "full_name_th": "อ. กิตติพันธ์ ศิวะวรรณพงศ์",
+    "clean_th": "กิตติพันธ์ ศิวะวรรณพงศ์",
+    "email": "kittipan.s@cmu.ac.th",
+    "existing_email": "kittipan.s@cmu.ac.th",
+    "pid": "14",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเทคโนโลยีสุรนารี, 2560 วท.ม. (เคมี), มหาวิทยาลัยเทคโนโลยีสุรนารี, 2563 Ph.D. (Chemistry), North",
+    "res_text": "การสังเคราะห์ ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_5f340589_7775",
+    "full_name_th": "อ. กุลภา ชนะวรรโณ",
+    "clean_th": "กุลภา ชนะวรรโณ",
+    "email": "kullapa.c@cmu.ac.th",
+    "existing_email": "kullapa.c@cmu.ac.th",
+    "pid": "15",
+    "edu_text": "วท.บ.​ (เคมี), มหาวิทยาลัยสงขลานครินทร์, 2550 วท.ม.​ (เคมี), มหาวิทยาลัยสงขลานครินทร์, 2553 Ph.D. (Chemistry), The Unive",
+    "res_text": "การสังเคราะห์ เซนเซอร์"
+  },
+  {
+    "id": "cmu_58266b28_7728",
+    "full_name_th": "อ. เกียรติคุณ มะโนเครื่อง",
+    "clean_th": "เกียรติคุณ มะโนเครื่อง",
+    "email": "kiattikhun.m@cmu.ac.th",
+    "existing_email": "kiattikhun.m@cmu.ac.th",
+    "pid": "5",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2543 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2545 Ph.D. (Materials Science and Engineeri",
+    "res_text": "การสังเคราะห์ ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_4e479ced_9227",
+    "full_name_th": "อ. คณารัฐ ณ ลำปาง",
+    "clean_th": "คณารัฐ ณ ลำปาง",
+    "email": "kanarat.n@cmu.ac.th",
+    "existing_email": "kanarat.n@cmu.ac.th",
+    "pid": "16",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2538 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2541 Ph.D. (Chemistry), University of Leeds",
+    "res_text": "การสังเคราะห์ พลังงานและตัวเร่ง"
+  },
+  {
+    "id": "cmu_6c1907a2_2428",
+    "full_name_th": "อ. จิดาภา ทิน้อย",
+    "clean_th": "จิดาภา ทิน้อย",
+    "email": null,
+    "existing_email": null,
+    "pid": "18",
+    "edu_text": "วท.บ.​ (เคมี), มหาวิทยาลัยเชียงใหม่, 2540 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2543 วท.ด. (เทคโนโลยีชีวภาพ), มหาวิทยาลัยเ",
+    "res_text": "อาหารและชีวเศรษฐกิจ"
+  },
+  {
+    "id": "cmu_582916ed_2886",
+    "full_name_th": "อ. ชนิดา พวงพิลา",
+    "clean_th": "ชนิดา พวงพิลา",
+    "email": "chanida.pu@cmu.ac.th",
+    "existing_email": "chanida.pu@cmu.ac.th",
+    "pid": "19",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยขอนแก่น, 2549 วท.ด. (เคมีวิเคราะห์), จุฬาลงกรณ์มหาวิทยาลัย, 2555",
+    "res_text": "เซนเซอร์"
+  },
+  {
+    "id": "cmu_32a07516_3905",
+    "full_name_th": "อ. ชมนาด สวาสดิ์มิตร",
+    "clean_th": "ชมนาด สวาสดิ์มิตร",
+    "email": null,
+    "existing_email": null,
+    "pid": "21",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2532 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2536",
+    "res_text": "อาหารและชีวเศรษฐกิจ"
+  },
+  {
+    "id": "cmu_50a908ac_2745",
+    "full_name_th": "อ. ชำนาญ ราญฎร",
+    "clean_th": "ชำนาญ ราญฎร",
+    "email": null,
+    "existing_email": null,
+    "pid": "22",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยสงขลานครินทร์, 2539 วท.ม. (อนินทรีย์เคมี), มหาวิทยาลัยสงขลานครินทร์, 2543 Ph.D. (Chemistry), Un",
+    "res_text": "พลังงานและตัวเร่ง วัสดุนาโน"
+  },
+  {
+    "id": "cmu_724fad24_0225",
+    "full_name_th": "อ. ฐปนีย์ สารครศรี",
+    "clean_th": "ฐปนีย์ สารครศรี",
+    "email": "thapanee.s@cmu.ac.th",
+    "existing_email": "thapanee.s@cmu.ac.th",
+    "pid": "24",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยขอนแก่น, 2537 M.S. (Metallurgical Engineering), Michigan Technological University, USA, 1999 Ph",
+    "res_text": "พลังงานและตัวเร่ง วัสดุนาโน"
+  },
+  {
+    "id": "cmu_26c7e153_8919",
+    "full_name_th": "อ. ณปภา พรหมสวรรค์",
+    "clean_th": "ณปภา พรหมสวรรค์",
+    "email": null,
+    "existing_email": null,
+    "pid": "25",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2542 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2545 Ph.D. (Organic Chemistry), University ",
+    "res_text": "พลังงานและตัวเร่ง วัสดุนาโน"
+  },
+  {
+    "id": "cmu_4e834cc1_4725",
+    "full_name_th": "อ. ทินกร กันยานี",
+    "clean_th": "ทินกร กันยานี",
+    "email": null,
+    "existing_email": null,
+    "pid": "26",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2539 วท.ม. (เคมีวิเคราะห์และอนินทรีย์เคมี), มหาวิทยาลัยมหิดล, 2543 ปร.ด. (เคมี), มหา",
+    "res_text": "เซนเซอร์"
+  },
+  {
+    "id": "cmu_6ad70009_3416",
+    "full_name_th": "อ. ธัญวดี ลิ้มธรากุล",
+    "clean_th": "ธัญวดี ลิ้มธรากุล",
+    "email": null,
+    "existing_email": null,
+    "pid": "27",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยสงขลานครินทร์, 2542 วท.ม. (เคมีอินทรีย์), มหาวิทยาลัยสงขลานครินทร์, 2545 Ph.D. (Organic Chemist",
+    "res_text": "อาหารและชีวเศรษฐกิจ ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_f6960165_6965",
+    "full_name_th": "อ. ธิติ จันทร์ภิรมย์",
+    "clean_th": "ธิติ จันทร์ภิรมย์",
+    "email": null,
+    "existing_email": null,
+    "pid": "28",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเกษตรศาสตร์, 2539 วท.ม. (เคมีอินทรีย์), มหาวิทยาลัยมหิดล, 2543",
+    "res_text": "การสังเคราะห์ พลังงานและตัวเร่ง"
+  },
+  {
+    "id": "cmu_d5ea9798_3957",
+    "full_name_th": "อ. ธีรบุญ พจนการุณ",
+    "clean_th": "ธีรบุญ พจนการุณ",
+    "email": null,
+    "existing_email": null,
+    "pid": "29",
+    "edu_text": "วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2538 วท.ด. (เคมี), มหาวิทยาลัยเชียงใหม่, 2546",
+    "res_text": "เซนเซอร์"
+  },
+  {
+    "id": "cmu_782826aa_1619",
+    "full_name_th": "อ. นพกาญจน์ จันทร์เดช",
+    "clean_th": "นพกาญจน์ จันทร์เดช",
+    "email": "nopakarn.c@cmu.ac.th",
+    "existing_email": "nopakarn.c@cmu.ac.th",
+    "pid": "30",
+    "edu_text": "วท.บ. (จุลชีววิทยา), มหาวิทยาลัยเชียงใหม่, 2540 วท.ม. (ชีววิทยา), มหาวิทยาลัยเชียงใหม่, 2542 Ph.D. of Engineering (Biote",
+    "res_text": "พลังงานและตัวเร่ง วัสดุนาโน"
+  },
+  {
+    "id": "cmu_16a4f0d3_6040",
+    "full_name_th": "อ. นัทธี สุรีย์",
+    "clean_th": "นัทธี สุรีย์",
+    "email": null,
+    "existing_email": null,
+    "pid": "33",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2545 Ph.D. (Biochemistry and Molecular Biology), University of California, USA, 2009",
+    "res_text": "เคมีคำนวณ ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_13b506f6_4009",
+    "full_name_th": "อ. นาวี กังวาลย์",
+    "clean_th": "นาวี กังวาลย์",
+    "email": null,
+    "existing_email": null,
+    "pid": "34",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยขอนแก่น, 2543 Ph.D. (Physical Chemistry), University of Utah, USA, 2007",
+    "res_text": "เคมีคำนวณ"
+  },
+  {
+    "id": "cmu_314912f9_9422",
+    "full_name_th": "อ. นุชนิภา นันทะวงศ์",
+    "clean_th": "นุชนิภา นันทะวงศ์",
+    "email": "nuchnipa.n@cmu.ac.th",
+    "existing_email": "nuchnipa.n@cmu.ac.th",
+    "pid": "35",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยขอนแก่น, 2537 Ph.D. (Pharmacy and Chemistry), Liverpool John Moors University, UK, 2002",
+    "res_text": "อาหารและชีวเศรษฐกิจ"
+  },
+  {
+    "id": "cmu_1719b49c_7684",
+    "full_name_th": "อ. บูรภัทร์ อินทรีย์สังวร",
+    "clean_th": "บูรภัทร์ อินทรีย์สังวร",
+    "email": "burapat.i@cmu.ac.th",
+    "existing_email": "burapat.i@cmu.ac.th",
+    "pid": "36",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2547 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2548 Ph.D. (Chemistry and Chemical Engineer",
+    "res_text": "พลังงานและตัวเร่ง สิ่งแวดล้อม"
+  },
+  {
+    "id": "cmu_689f7995_3064",
+    "full_name_th": "อ. ประพุทธ์ ถาวรยุติการต์",
+    "clean_th": "ประพุทธ์ ถาวรยุติการต์",
+    "email": "praput.th@cmu.ac.th",
+    "existing_email": "praput.th@cmu.ac.th",
+    "pid": "37",
+    "edu_text": "วท.บ. (เคมี), จุฬาลงกรณ์มหาวิทยาลัย, 2541 วท.ม. (อนินทรีย์เคมี), จุฬาลงกรณ์มหาวิทยาลัย, 2547 Ph.D. (Inorganic Chemistry)",
+    "res_text": "การสังเคราะห์ เซนเซอร์"
+  },
+  {
+    "id": "cmu_77a4ef23_8680",
+    "full_name_th": "อ. ปะราลี แว่นแก้ว",
+    "clean_th": "ปะราลี แว่นแก้ว",
+    "email": "paralee.w@cmu.ac.th",
+    "existing_email": "paralee.w@cmu.ac.th",
+    "pid": "38",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2545 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2547 Ph.D. (Chemistry), Chiang Mai Universi",
+    "res_text": "พลังงานและตัวเร่ง วัสดุนาโน"
+  },
+  {
+    "id": "cmu_22866f68_0268",
+    "full_name_th": "อ. ปัญชิกา ปรังเขียว",
+    "clean_th": "ปัญชิกา ปรังเขียว",
+    "email": "panchika.p@cmu.ac.th",
+    "existing_email": "panchika.p@cmu.ac.th",
+    "pid": "39",
+    "edu_text": "B.S.E. (Biomedical Engineering) (Minor: Chemistry), Duke University, USA, 2005 M.S. (Biomedical Engineering), University",
+    "res_text": "เคมีคำนวณ ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_5ce8e3a6_5016",
+    "full_name_th": "อ. ปิยรัตน์ นิมมานพิภักดิ์",
+    "clean_th": "ปิยรัตน์ นิมมานพิภักดิ์",
+    "email": "piyarat.n@cmu.ac.th",
+    "existing_email": "piyarat.n@cmu.ac.th",
+    "pid": "40",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2542 ปร.ด. (เคมีเชิงฟิสิกส์), มหาวิทยาลัยมหิดล, 2546",
+    "res_text": "เคมีคำนวณ"
+  },
+  {
+    "id": "cmu_50b29aad_0710",
+    "full_name_th": "อ. พัฒนพงศ์ ทังสุนันท์",
+    "clean_th": "พัฒนพงศ์ ทังสุนันท์",
+    "email": null,
+    "existing_email": null,
+    "pid": "42",
+    "edu_text": "วท.บ. (ชีววิทยา), มหาวิทยาลัยเชียงใหม่, 2552 วท.ม. (ชีววิทยา), มหาวิทยาลัยเชียงใหม่, 2554 Ph.D. (Biomedical Sciences), U",
+    "res_text": "อาหารและชีวเศรษฐกิจ ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_6a6d1838_8962",
+    "full_name_th": "อ. พิชญา มังกรอัศวกุล",
+    "clean_th": "พิชญา มังกรอัศวกุล",
+    "email": "pitchaya.m@cmu.ac.th",
+    "existing_email": "pitchaya.m@cmu.ac.th",
+    "pid": "43",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2542 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2544 Ph.D. (Environmental Science), Chiang ",
+    "res_text": "การสังเคราะห์ ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_7a77a2e2_8013",
+    "full_name_th": "อ. พุฒินันท์ มีเผ่าพันธ์",
+    "clean_th": "พุฒินันท์ มีเผ่าพันธ์",
+    "email": "puttinan.m@cmu.ac.th",
+    "existing_email": "puttinan.m@cmu.ac.th",
+    "pid": "44",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยมหิดล, 2538 ปร.ด. (อินทรีย์เคมี), มหาวิทยาลัยมหิดล, 2544",
+    "res_text": "การสังเคราะห์ พลังงานและตัวเร่ง"
+  },
+  {
+    "id": "cmu_73085631_9589",
+    "full_name_th": "อ. ภควรรณ พวงสมบัติ",
+    "clean_th": "ภควรรณ พวงสมบัติ",
+    "email": "pakawan.p@cmu.ac.th",
+    "existing_email": "pakawan.p@cmu.ac.th",
+    "pid": "45",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2535 Ph.D. (Organic Chemistry), Keele University, UK, 1996",
+    "res_text": "อาหารและชีวเศรษฐกิจ"
+  },
+  {
+    "id": "cmu_1cb08288_1441",
+    "full_name_th": "อ. ภัทร์นฤน วรจิตติพล",
+    "clean_th": "ภัทร์นฤน วรจิตติพล",
+    "email": "patnarin.w@cmu.ac.th",
+    "existing_email": "patnarin.w@cmu.ac.th",
+    "pid": "46",
+    "edu_text": "วท.บ. (ฟิสิกส์), มหาวิทยาลัยศิลปากร, 2547 วท.ม. (วัสดุศาสตร์), มหาวิทยาลัยเชียงใหม่, 2549 Ph.D. (Nanoscience and Nanotec",
+    "res_text": "การสังเคราะห์ วัสดุนาโน"
+  },
+  {
+    "id": "cmu_22825acc_4319",
+    "full_name_th": "อ. ภูมน สุขวงศ์",
+    "clean_th": "ภูมน สุขวงศ์",
+    "email": "phumon.s@cmu.ac.th",
+    "existing_email": "phumon.s@cmu.ac.th",
+    "pid": "47",
+    "edu_text": "วท.บ. (วิทยาศาสตร์และเทคโนโลยีการอาหาร), มหาวิทยาลัยเชียงใหม่, 2546 M.Agr.Sc., Tohoku University, Japan, 2006 Ph.D. (Agr",
+    "res_text": "สิ่งแวดล้อม"
+  },
+  {
+    "id": "cmu_72714b2e_5332",
+    "full_name_th": "อ. ภูมิศร์ ทับทิมแดง",
+    "clean_th": "ภูมิศร์ ทับทิมแดง",
+    "email": "pumis.th@cmu.ac.th",
+    "existing_email": "pumis.th@cmu.ac.th",
+    "pid": "48",
+    "edu_text": "วท.บ. (วิทยาศาสตร์ทั่วไป), จุฬาลงกรณ์มหาวิทยาลัย, 2550 วท.ม. (การจัดการสิ่งแวดล้อม นานาชาติ), จุฬาลงกรณ์มหาวิทยาลัย, 255",
+    "res_text": "สิ่งแวดล้อม"
+  },
+  {
+    "id": "cmu_218803e4_6616",
+    "full_name_th": "อ. มุกดา ภัทราวราพันธ์",
+    "clean_th": "มุกดา ภัทราวราพันธ์",
+    "email": null,
+    "existing_email": null,
+    "pid": "49",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2537 M.S. (Analytical Chemistry), Birkbeck College, UK, 1996 Ph.D. (Chemistry), Texa",
+    "res_text": "การสังเคราะห์ ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_5ffd5eaf_3834",
+    "full_name_th": "อ. รุ้งลาวัลย์ สมสุนันท์",
+    "clean_th": "รุ้งลาวัลย์ สมสุนันท์",
+    "email": "runglawan.s@cmu.ac.th",
+    "existing_email": "runglawan.s@cmu.ac.th",
+    "pid": "50",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2539 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2544 Ph.D. (Materials Engineering and Mater",
+    "res_text": "การสังเคราะห์ ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_66c5ca0b_9872",
+    "full_name_th": "อ. ละอองนวล ศรีสมบัติ",
+    "clean_th": "ละอองนวล ศรีสมบัติ",
+    "email": "laongnuan.sri@cmu.ac.th",
+    "existing_email": "laongnuan.sri@cmu.ac.th",
+    "pid": "52",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2542 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2545 Ph.D. (Chemistry), University of Houst",
+    "res_text": "พลังงานและตัวเร่ง วัสดุนาโน"
+  },
+  {
+    "id": "cmu_7427ab26_3134",
+    "full_name_th": "อ. วงศ์ พะโคดี",
+    "clean_th": "วงศ์ พะโคดี",
+    "email": null,
+    "existing_email": null,
+    "pid": "53",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยศรีนครินทรวิโรฒ, 2542 วท.ด. (เคมีอินทรีย์), มหาวิทยาลัยมหิดล, 2550",
+    "res_text": "การสังเคราะห์"
+  },
+  {
+    "id": "cmu_2943756f_5566",
+    "full_name_th": "อ. วรอนงค์ ลี้วัฒนาผาสุข",
+    "clean_th": "วรอนงค์ ลี้วัฒนาผาสุข",
+    "email": null,
+    "existing_email": null,
+    "pid": "54",
+    "edu_text": "วท.บ. (เทคนิคการแพทย์), มหาวิทยาลัยเชียงใหม่, 2542 วท.ม. (เทคโนโลยีชีวภาพ), มหาวิทยาลัยเชียงใหม่, 2546 Ph.D. (Microbiolo",
+    "res_text": "ยาและชีวการแพทย์"
+  },
+  {
+    "id": "cmu_179c18fd_9460",
+    "full_name_th": "อ. วศิน สมบุตร",
+    "clean_th": "วศิน สมบุตร",
+    "email": "wasin.s@cmu.ac.th",
+    "existing_email": "wasin.s@cmu.ac.th",
+    "pid": "55",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2558 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2561 วท.ด. (เคมี), มหาวิทยาลัยเชียงใหม่, 25",
+    "res_text": "วัสดุนาโน เซนเซอร์"
+  },
+  {
+    "id": "cmu_c217e6b5_5884",
+    "full_name_th": "อ. ว่าน วิริยา",
+    "clean_th": "ว่าน วิริยา",
+    "email": null,
+    "existing_email": null,
+    "pid": "56",
+    "edu_text": "วท.บ. (ชีวเคมีและชีวเคมีเทคโนโลยี), มหาวิทยาลัยเชียงใหม่, 2546 วท.ม. (วิทยาศาสตร์สิ่งแวดล้อม), มหาวิทยาลัยเชียงใหม่, 255",
+    "res_text": "สิ่งแวดล้อม"
+  },
+  {
+    "id": "cmu_3a54a038_3756",
+    "full_name_th": "อ. วิมล นาคสาทา",
+    "clean_th": "วิมล นาคสาทา",
+    "email": null,
+    "existing_email": null,
+    "pid": "58",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2535 วท.ด. (เคมี), มหาวิทยาลัยเชียงใหม่, 2542",
+    "res_text": "วัสดุนาโน"
+  },
+  {
+    "id": "cmu_2b801c28_3114",
+    "full_name_th": "อ. เวสารัช จรเจริญ",
+    "clean_th": "เวสารัช จรเจริญ",
+    "email": "veasarach.j@cmu.ac.th",
+    "existing_email": "veasarach.j@cmu.ac.th",
+    "pid": "7",
+    "edu_text": "วท.บ. (เทคโนโลยีชีวภาพ), มหาวิทยาลัยธรรมศาสตร์, 2559 วท.ม. (เทคโนโลยีชีวภาพ), มหาวิทยาลัยธรรมศาสตร์, 2562 Ph.D. (Biotech",
+    "res_text": "อาหารและชีวเศรษฐกิจ"
+  },
+  {
+    "id": "cmu_643992d7_9545",
+    "full_name_th": "อ. ศิลา กิตติวัชนะ",
+    "clean_th": "ศิลา กิตติวัชนะ",
+    "email": "sila.k@cmu.ac.th",
+    "existing_email": "sila.k@cmu.ac.th",
+    "pid": "60",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2547 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2549 Ph.D. (Chemistry), University of Brist",
+    "res_text": "เคมีคำนวณ เซนเซอร์"
+  },
+  {
+    "id": "cmu_5a4e874d_9643",
+    "full_name_th": "อ. สรพงษ์ จันทร์หอม",
+    "clean_th": "สรพงษ์ จันทร์หอม",
+    "email": null,
+    "existing_email": null,
+    "pid": "62",
+    "edu_text": "วท.บ. (เคมีอุตสาหกรรม), มหาวิทยาลัยเชียงใหม่, 2542 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2544 วท.ด. (เคมี), มหาวิทยาลัยเชี",
+    "res_text": "สิ่งแวดล้อม"
+  },
+  {
+    "id": "cmu_23122f89_2559",
+    "full_name_th": "อ. สิทธิชัย วิโรจนุปถัมภ์",
+    "clean_th": "สิทธิชัย วิโรจนุปถัมภ์",
+    "email": null,
+    "existing_email": null,
+    "pid": "63",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยบูรพา, 2534 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2537 Ph.D. (Materials Engineering and Materials",
+    "res_text": "วัสดุนาโน"
+  },
+  {
+    "id": "cmu_3d00ad57_5599",
+    "full_name_th": "อ. สุรินทร์ สายปัญญา",
+    "clean_th": "สุรินทร์ สายปัญญา",
+    "email": null,
+    "existing_email": null,
+    "pid": "64",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2542 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2543 Ph.D. (Physical Chemistry), Cardiff Un",
+    "res_text": "พลังงานและตัวเร่ง วัสดุนาโน"
+  },
+  {
+    "id": "cmu_473ee563_1548",
+    "full_name_th": "อ. สุลาวัลย์ ขาวผ่อง",
+    "clean_th": "สุลาวัลย์ ขาวผ่อง",
+    "email": null,
+    "existing_email": null,
+    "pid": "65",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2546 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2548 Ph.D. (Materials Science), Chiang Mai ",
+    "res_text": "พลังงานและตัวเร่ง วัสดุนาโน"
+  },
+  {
+    "id": "cmu_3f37144d_1874",
+    "full_name_th": "อ. แสงรวี ศรีวิชัย",
+    "clean_th": "แสงรวี ศรีวิชัย",
+    "email": "saengrawee.s@cmu.ac.th",
+    "existing_email": "saengrawee.s@cmu.ac.th",
+    "pid": "8",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2546 วท.ม. (เคมี), มหาวิทยาลัยเชียงใหม่, 2548 วท.ด. (เคมี), มหาวิทยาลัยเชียงใหม่, 25",
+    "res_text": "เซนเซอร์ วัสดุนาโน"
+  },
+  {
+    "id": "cmu_368603d1_8292",
+    "full_name_th": "อ. หทัยชนก เนียมทรัพย์",
+    "clean_th": "หทัยชนก เนียมทรัพย์",
+    "email": "hataichanoke.n@cmu.ac.th",
+    "existing_email": "hataichanoke.n@cmu.ac.th",
+    "pid": "66",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2534 Ph.D. (Biochemistry),University of Illinois at Urbana-Champaign,USA, 1995",
+    "res_text": "อาหารและชีวเศรษฐกิจ วัสดุนาโน"
+  },
+  {
+    "id": "cmu_67350322_0485",
+    "full_name_th": "อ. อภินันท์ กันเปียงใจ",
+    "clean_th": "อภินันท์ กันเปียงใจ",
+    "email": null,
+    "existing_email": null,
+    "pid": "68",
+    "edu_text": "วท.บ. (เทคโนโลยีชีวภาพทางอุตสาหกรรมเกษตร), มหาวิทยาลัยเชียงใหม่, 2549 วท.ม. (เทคโนโลยีชีวภาพ), มหาวิทยาลัยเชียงใหม่, 255",
+    "res_text": "อาหารและชีวเศรษฐกิจ"
+  },
+  {
+    "id": "cmu_7645de8c_5935",
+    "full_name_th": "อ. อภิวัฒน์ ธีรวุฒิกุลรักษ์",
+    "clean_th": "อภิวัฒน์ ธีรวุฒิกุลรักษ์",
+    "email": null,
+    "existing_email": null,
+    "pid": "69",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2534 M.Sc. (Organic Chemistry), University of Manchester, UK, 1993 Ph.D. (Organic Ch",
+    "res_text": "การสังเคราะห์ อาหารและชีวเศรษฐกิจ"
+  },
+  {
+    "id": "cmu_f692e80b_2491",
+    "full_name_th": "อ. อรุณฉาย สายอ้าย",
+    "clean_th": "อรุณฉาย สายอ้าย",
+    "email": "aroonchai.s@cmu.ac.th",
+    "existing_email": "aroonchai.s@cmu.ac.th",
+    "pid": "70",
+    "edu_text": "วท.บ. (เคมี), มหาวิทยาลัยเชียงใหม่, 2542 วท.ม. (เคมีอินทรีย์), มหาวิทยาลัยมหิดล, 2546 Dr.rer.nat. (Organic Chemistry), U",
+    "res_text": "อาหารและชีวเศรษฐกิจ ยาและชีวการแพทย์"
+  }
+]

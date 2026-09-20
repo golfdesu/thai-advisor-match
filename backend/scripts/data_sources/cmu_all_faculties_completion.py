@@ -946,5 +946,43 @@ CMU_COMPLETION_FACULTIES = [
             "Antimicrobial and Anti-Inflammatory Bioactive Components in Stingless Bee Propolis from Northern Thailand",
             "Impact of Neonicotinoid Pesticides on Honeybee Gut Microbiota and Susceptibility to Microsporidian Infections"
         ]
+    },
+    {
+        "id": "cmu_eng_ee_atchariya_001",
+        "university": "Chiang Mai University",
+        "university_th": "มหาวิทยาลัยเชียงใหม่",
+        "faculty": "Faculty of Engineering",
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department": "Department of Electrical Engineering",
+        "department_th": "ภาควิชาวิศวกรรมไฟฟ้า",
+        "academic_title": "Dr.",
+        "academic_title_th": "อ.ดร.",
+        "first_name": "Atchariya",
+        "last_name": "Phuangyod",
+        "full_name_th": "อ.ดร. อัจฉริยา พวงยอด",
+        "role": "Lecturer & Researcher in Magnetic Properties, Hysteresis Modeling, Hall-Effect Sensors & Transformer Loss Simulation",
+        "email": "atchariya.phu@cmu.ac.th",
+        "profile_url": "https://ee.eng.cmu.ac.th",
+        "scholar_url": "https://scholar.google.com",
+        "openalex_id": "https://openalex.org/A5021117615",
+        "total_publications_count": 9,
+        "total_citations": 15,
+        "h_index": 2,
+        "education": [
+            "Ph.D., Muroran Institute of Technology, Japan"
+        ],
+        "research_interests": [
+            "Magnetic Properties and Hysteresis Loop Measurement Using MATLAB/Simulink",
+            "Enhancing Indium Arsenide Hall-Effect Sensor Models with Offset Awareness",
+            "Simulation and Analysis of Core Loss and Hysteresis Loss in Single-Phase Transformers",
+            "Low-Temperature Thermoelectric Properties of Skutterudite Compounds",
+            "Net-Zero Energy Buildings with Hybrid Energy Sources and Energy Efficiency"
+        ],
+        "featured_publications": [
+            "Enhancing Indium Arsenide Hall-Effect Models with Offset Awareness (2026)",
+            "Segmented modification optimization design for cycloidal profile of rotate vector reducer based on meshing pressure angle (2026)",
+            "Analysis of Hysteresis Loss Measurements for Single-Phase Transformers (2024)",
+            "Simulation and Analysis of Core Loss in Transformer Using MATLAB/Simulink (2023)"
+        ]
     }
 ]

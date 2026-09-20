@@ -79,16 +79,16 @@ export const LabInquiryModal: React.FC<LabInquiryModalProps> = ({ lab, onClose }
   };
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/75 backdrop-blur-md flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
-      <div className="bg-[var(--theme-card)] border-2 border-[var(--theme-border)] rounded-3xl w-full max-w-2xl max-h-[90vh] flex flex-col shadow-2xl overflow-hidden shadow-black/30">
+    <div className="ui-modal-backdrop fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
+      <div className="ui-modal w-full max-w-2xl max-h-[90vh] flex flex-col overflow-hidden" role="dialog" aria-modal="true" aria-labelledby="lab-inquiry-title">
         {/* Modal Header */}
-        <div className="px-6 sm:px-8 py-5 border-b border-[var(--theme-border)] flex items-center justify-between bg-[var(--theme-card-subtle)]/80">
+        <div className="ui-modal-header px-6 sm:px-8 py-5 border-b border-[var(--theme-border)] flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-2xl bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] flex items-center justify-center shadow-md">
               <Building2 className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">
+              <h2 id="lab-inquiry-title" className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">
                 ผู้ช่วยร่างจดหมายติดต่อสมัครเข้าร่วมแล็บวิจัย (AI)
               </h2>
               <p className="text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold mt-0.5 line-clamp-1">
@@ -98,7 +98,9 @@ export const LabInquiryModal: React.FC<LabInquiryModalProps> = ({ lab, onClose }
           </div>
           <button
             onClick={onClose}
-            className="p-2 rounded-xl bg-[var(--theme-card)] hover:bg-[var(--theme-card-subtle)] text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)] border border-[var(--theme-border)] cursor-pointer transition shadow-2xs"
+            type="button"
+            aria-label="ปิดแบบฟอร์มติดต่อห้องปฏิบัติการ"
+            className="ui-icon-button p-2 cursor-pointer"
           >
             <X className="w-5 h-5" />
           </button>
@@ -255,7 +257,7 @@ export const LabInquiryModal: React.FC<LabInquiryModalProps> = ({ lab, onClose }
         </div>
 
         {/* Modal Actions */}
-        <div className="px-6 sm:px-8 py-4 border-t border-[var(--theme-border)] bg-[var(--theme-card-subtle)] flex items-center justify-between gap-3">
+        <div className="ui-modal-footer px-6 sm:px-8 py-4 border-t border-[var(--theme-border)] flex items-center justify-between gap-3">
           {!generatedLetter ? (
             <>
               <button
@@ -269,7 +271,7 @@ export const LabInquiryModal: React.FC<LabInquiryModalProps> = ({ lab, onClose }
                 type="button"
                 onClick={handleGenerate}
                 disabled={loading}
-                className="px-5 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:opacity-90 text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-bold transition flex items-center gap-2 disabled:opacity-50 cursor-pointer shadow-sm"
+                className="ui-primary-button px-5 py-2.5 text-xs sm:text-sm flex items-center gap-2 disabled:opacity-50 cursor-pointer"
               >
                 {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Send className="w-4 h-4" />}
                 <span>สร้างร่างจดหมาย AI</span>
@@ -287,7 +289,7 @@ export const LabInquiryModal: React.FC<LabInquiryModalProps> = ({ lab, onClose }
               <button
                 type="button"
                 onClick={copyToClipboard}
-                className="px-5 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:opacity-90 text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-bold transition flex items-center gap-2 cursor-pointer shadow-sm"
+                className="ui-primary-button px-5 py-2.5 text-xs sm:text-sm flex items-center gap-2 cursor-pointer"
               >
                 {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
                 <span>{copied ? "คัดลอกเรียบร้อย" : "คัดลอกข้อความ"}</span>

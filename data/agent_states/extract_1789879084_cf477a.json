@@ -1,0 +1,19 @@
+{
+  "session_id": "extract_1789879084_cf477a",
+  "target_university_th": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี",
+  "target_university_en": "King Mongkut's University of Technology Thonburi",
+  "target_faculty_th": "คณะวิศวกรรมศาสตร์",
+  "target_faculty_en": "Faculty of Engineering",
+  "pending_urls": [],
+  "visited_urls": [
+    "https://pe.kmutt.ac.th/myteam"
+  ],
+  "failed_urls": [],
+  "faculties": {},
+  "dedup_thai_names": {},
+  "dedup_emails": {},
+  "step_count": 1,
+  "total_tokens_used": 478,
+  "status": "completed",
+  "last_error": null
+}

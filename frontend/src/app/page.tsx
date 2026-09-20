@@ -28,7 +28,6 @@ import { FilterBar } from "@/components/FilterBar";
 import { ComparisonModal } from "@/components/ComparisonModal";
 import { LabInquiryModal } from "@/components/LabInquiryModal";
 import { SavedBookmarksModal } from "@/components/SavedBookmarksModal";
-import { FeaturedProgramsShowcase } from "@/components/FeaturedProgramsShowcase";
 import { CourseDetailModal } from "@/components/CourseDetailModal";
 import { searchApiCache, courseDetailCache } from "@/lib/dsa";
 
@@ -415,36 +414,32 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-[var(--theme-bg)] text-[var(--theme-text-body)] flex flex-col selection:bg-[var(--theme-primary)] selection:text-[var(--theme-primary-contrast)] font-sans antialiased">
-      {/* Editorial Header */}
+    <div className="academic-console min-h-screen bg-[var(--theme-bg)] text-[var(--theme-text-body)] flex flex-col selection:bg-[var(--theme-primary)] selection:text-[var(--theme-primary-contrast)] font-sans antialiased">
       <Header
         savedCount={savedCourses.length + savedAdvisors.length}
         onOpenSavedModal={() => setShowSavedModal(true)}
       />
 
-      {/* New Academic Command Center hero */}
-      <section className="hero-shell relative overflow-hidden border-b border-[var(--theme-border)]">
-
-        <div className="relative mx-auto grid max-w-[1440px] gap-7 px-4 py-8 sm:gap-10 sm:px-6 sm:py-12 lg:grid-cols-[1.1fr_.9fr] lg:gap-16 lg:px-8 lg:py-20">
-          <div className="flex flex-col justify-center">
-            <div className="mb-4 inline-flex w-fit items-center gap-2 rounded-full border border-[var(--theme-primary-border)] bg-[var(--theme-primary-subtle)] px-3 py-1 text-[11px] font-black text-[var(--theme-primary)] sm:mb-5 sm:px-3.5 sm:py-1.5 sm:text-xs">
-              <Sparkles size={14} className="text-[var(--theme-accent)]" aria-hidden="true" />
-              <span>หลักสูตร · อาจารย์ · ห้องวิจัย</span>
+      <section className="discovery-hero border-b border-[var(--theme-border)]">
+        <div className="mx-auto grid max-w-[1280px] gap-8 px-4 py-12 sm:px-6 lg:grid-cols-[1fr_360px] lg:gap-12 lg:px-8 lg:py-20">
+          <div>
+            <div className="ui-section-label mb-5 flex items-center gap-2">
+              <span className="h-2 w-2 rounded-full bg-[var(--theme-primary)]" aria-hidden="true" />
+              Academic discovery console
             </div>
-
-            <h1 className="max-w-3xl text-3xl font-black leading-[1.12] tracking-tight text-[var(--theme-text-title)] sm:text-6xl sm:leading-[1.08]">
-              วางแผนอนาคตทางการศึกษา
-              <span className="mt-1.5 block text-[var(--theme-primary)] sm:mt-2">ด้วยข้อมูลที่ใช่สำหรับคุณ</span>
+            <h1 className="max-w-3xl text-4xl font-bold leading-[1.08] tracking-[-0.04em] text-[var(--theme-text-title)] sm:text-6xl">
+              ค้นหาทางเลือกที่ใช่
+              <span className="block text-[var(--theme-primary)]">สำหรับเส้นทางของคุณ</span>
             </h1>
-            <p className="mt-4 max-w-2xl text-sm font-medium leading-relaxed text-[var(--theme-text-muted)] sm:mt-6 sm:text-lg">
-              ค้นหาหลักสูตร อาจารย์ที่ปรึกษา และห้องวิจัยจากคำค้นเดียว แล้วดูผลที่เกี่ยวข้องกับเป้าหมายการเรียนหรือหัวข้อวิจัยของคุณ
+            <p className="mt-5 max-w-2xl text-sm leading-7 text-[var(--theme-text-muted)] sm:text-base">
+              สำรวจหลักสูตร อาจารย์ที่ปรึกษา และห้องวิจัยจากฐานข้อมูลมหาวิทยาลัยไทย โดยเริ่มจากคำค้นหรือเลือกตัวกรองที่ต้องการ
             </p>
 
-            <div className="search-panel mt-6 rounded-2xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-2.5 sm:mt-8 sm:p-4">
-              <div role="tablist" aria-label="ประเภทการค้นหา" className="grid grid-cols-3 gap-1 rounded-xl bg-[var(--theme-card-subtle)] p-1 sm:rounded-2xl">
+            <div className="search-console mt-8 max-w-3xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-3 sm:p-5">
+              <div role="tablist" aria-label="ประเภทการค้นหา" className="grid grid-cols-3 border-b border-[var(--theme-border)]">
                 {([
                   ["courses", BookOpen, "หลักสูตร"],
-                  ["advisors", Users, "อาจารย์ที่ปรึกษา"],
+                  ["advisors", Users, "อาจารย์"],
                   ["labs", Sparkles, "ห้องวิจัย"],
                 ] as const).map(([tab, Icon, label]) => (
                   <button
@@ -455,20 +450,20 @@ export default function Home() {
                       setActiveTab(tab);
                       executeSearch(searchQuery, selectedUni, selectedDegree, tab);
                     }}
-                    className={`flex min-h-10 items-center justify-center gap-1 rounded-lg px-1.5 py-2 text-[11px] font-black transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] sm:min-h-11 sm:gap-2 sm:rounded-xl sm:px-2 sm:py-2.5 sm:text-sm ${
+                    className={`flex min-h-11 items-center justify-center gap-2 border-b-2 px-2 py-3 text-xs font-bold transition sm:text-sm ${
                       activeTab === tab
-                        ? "bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] shadow-md"
-                        : "text-[var(--theme-text-muted)] hover:bg-[var(--theme-card)] hover:text-[var(--theme-text-title)]"
+                        ? "border-[var(--theme-primary)] text-[var(--theme-primary)]"
+                        : "border-transparent text-[var(--theme-text-muted)] hover:text-[var(--theme-text-title)]"
                     }`}
                   >
                     <Icon className="h-4 w-4" aria-hidden="true" />
-                    <span>{label}</span>
+                    {label}
                   </button>
                 ))}
               </div>
 
-              <div className="group/search relative mt-3">
-                <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[var(--theme-text-muted)] group-focus-within/search:text-[var(--theme-primary)]" aria-hidden="true" />
+              <div className="relative mt-5">
+                <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[var(--theme-text-muted)]" aria-hidden="true" />
                 <input
                   ref={searchInputRef}
                   type="text"
@@ -483,9 +478,9 @@ export default function Home() {
                       : "เช่น Robotics, Clean Energy, Genomics"
                   }
                   aria-label="ค้นหาหลักสูตร อาจารย์ หรือห้องวิจัย"
-                  className="min-h-12 w-full rounded-xl border border-[var(--theme-border)] bg-[var(--theme-bg)] pl-11 pr-28 text-sm font-semibold text-[var(--theme-text-title)] placeholder:text-[var(--theme-text-muted)] focus:border-[var(--theme-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)]/25 sm:min-h-14 sm:rounded-2xl sm:pl-12 sm:pr-32 sm:text-base"
+                  className="min-h-12 w-full rounded-lg border border-[var(--theme-border)] bg-[var(--theme-bg)] pl-12 pr-28 text-sm text-[var(--theme-text-title)] placeholder:text-[var(--theme-text-muted)] focus:border-[var(--theme-primary)] focus:outline-none focus:ring-2 focus:ring-[var(--theme-ring)] sm:min-h-14 sm:text-base"
                 />
-                <div className="absolute right-2 top-1/2 flex -translate-y-1/2 items-center gap-1.5">
+                <div className="absolute right-2 top-1/2 flex -translate-y-1/2 items-center gap-1">
                   {searchQuery && (
                     <button
                       type="button"
@@ -494,7 +489,7 @@ export default function Home() {
                         searchInputRef.current?.focus();
                       }}
                       aria-label="ล้างคำค้นหา"
-                      className="rounded-lg p-2 text-[var(--theme-text-muted)] transition hover:bg-[var(--theme-card-subtle)] hover:text-[var(--theme-text-title)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)]"
+                      className="rounded-md p-2 text-[var(--theme-text-muted)] hover:bg-[var(--theme-card-subtle)] hover:text-[var(--theme-text-title)]"
                     >
                       <X className="h-4 w-4" aria-hidden="true" />
                     </button>
@@ -503,18 +498,18 @@ export default function Home() {
                     type="button"
                     onClick={() => executeSearch()}
                     disabled={loading}
-                    className="flex min-h-9 items-center gap-1.5 rounded-lg bg-[var(--theme-primary)] px-3 text-xs font-black text-[var(--theme-primary-contrast)] transition hover:bg-[var(--theme-primary-hover)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 sm:min-h-10 sm:gap-2 sm:rounded-xl sm:px-4 sm:text-sm"
+                    className="ui-primary-button flex min-h-10 items-center gap-2 px-4 text-xs sm:text-sm"
                   >
                     {loading ? <Loader2 className="h-4 w-4 animate-spin" aria-hidden="true" /> : <Search className="h-4 w-4" aria-hidden="true" />}
-                    <span>ค้นหา</span>
+                    ค้นหา
                   </button>
                 </div>
               </div>
 
-              <div className="mt-2.5 flex flex-wrap items-center gap-1.5 sm:mt-3 sm:gap-2">
-                <span className="mr-1 flex items-center gap-1 text-xs font-black text-[var(--theme-text-muted)]">
-                  <TrendingUp className="h-3.5 w-3.5 text-[var(--theme-accent)]" aria-hidden="true" />
-                  เริ่มจากหัวข้อยอดนิยม
+              <div className="mt-4 flex flex-wrap items-center gap-2">
+                <span className="mr-1 flex items-center gap-1 text-xs font-semibold text-[var(--theme-text-muted)]">
+                  <TrendingUp className="h-3.5 w-3.5 text-[var(--theme-primary)]" aria-hidden="true" />
+                  หัวข้อยอดนิยม
                 </span>
                 {popularTopics.slice(0, 4).map((topic) => (
                   <button
@@ -524,7 +519,7 @@ export default function Home() {
                       setSearchQuery(topic.query);
                       executeSearch(topic.query);
                     }}
-                    className="rounded-full border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] px-2.5 py-1 text-[11px] font-bold text-[var(--theme-text-body)] transition hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] sm:px-3 sm:py-1.5 sm:text-xs"
+                    className="rounded-md border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] px-2.5 py-1.5 text-[11px] font-semibold text-[var(--theme-text-body)] transition hover:border-[var(--theme-primary)] hover:text-[var(--theme-primary)]"
                   >
                     {topic.label}
                   </button>
@@ -533,136 +528,48 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex items-center">
-            <div className="hero-feature-card relative w-full overflow-hidden rounded-2xl border border-[var(--theme-border)] p-5 text-[var(--theme-text-title)] sm:p-8">
-              <div aria-hidden="true" className="pointer-events-none absolute -right-12 -top-12 h-36 w-36 rounded-full border-[18px] border-[var(--theme-primary)]/10 sm:-right-14 sm:-top-14 sm:h-48 sm:w-48 sm:border-[24px]" />
-              <div aria-hidden="true" className="pointer-events-none absolute -bottom-16 -left-8 h-36 w-36 rounded-full border-[18px] border-[var(--theme-accent)]/10 sm:-bottom-20 sm:-left-10 sm:h-48 sm:w-48 sm:border-[24px]" />
-              <div className="relative">
-                <div className="flex items-center justify-between">
-                  <span className="rounded-full bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] border border-[var(--theme-primary-border)] px-3 py-1 text-xs font-black tracking-wide">
-                    YOUR NEXT MOVE
-                  </span>
-                  <Compass className="h-6 w-6 text-[var(--theme-accent)]" aria-hidden="true" />
-                </div>
-                <h2 className="mt-6 max-w-sm text-xl font-black leading-tight text-[var(--theme-text-title)] sm:mt-8 sm:text-3xl">
-                  จากคำถามสั้น ๆ สู่เส้นทางที่ชัดเจนขึ้น
-                </h2>
-                <p className="mt-3 max-w-sm text-sm font-medium leading-relaxed text-[var(--theme-text-muted)] sm:mt-4">
-                  เลือกเครื่องมือที่ตรงกับช่วงเวลาของคุณ แล้วเริ่มสำรวจได้ทันที
-                </p>
-
-                <div className="mt-6 grid gap-2.5 sm:mt-8 sm:gap-3">
-                  <Link
-                    href="/career-discovery"
-                    className="flex items-center gap-3 rounded-xl border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] p-3 transition hover:border-[var(--theme-primary)] hover:shadow-xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] group dark:bg-[var(--theme-card)] sm:rounded-2xl sm:p-3.5"
-                  >
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[var(--theme-accent)] text-[var(--theme-accent-contrast)]">
-                      <Compass className="h-5 w-5" aria-hidden="true" />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <div className="text-sm font-black text-[var(--theme-text-title)] group-hover:text-[var(--theme-primary)] transition-colors">
-                        ค้นหาตัวตนและสายอาชีพ
-                      </div>
-                      <div className="mt-0.5 text-xs text-[var(--theme-text-muted)]">
-                        แบบประเมิน RIASEC 5 นาที
-                      </div>
-                    </div>
-                    <ArrowRight className="h-4 w-4 text-[var(--theme-text-muted)] group-hover:text-[var(--theme-primary)] group-hover:translate-x-0.5 transition-all" aria-hidden="true" />
-                  </Link>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setActiveTab("advisors");
-                      setSearchQuery("");
-                      executeSearch("", selectedUni, selectedDegree, "advisors");
-                    }}
-                    className="flex cursor-pointer items-center gap-3 rounded-xl border border-[var(--theme-border)] bg-[var(--theme-card-subtle)] p-3 text-left transition hover:border-[var(--theme-primary)] hover:shadow-xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--theme-primary)] group dark:bg-[var(--theme-card)] sm:rounded-2xl sm:p-3.5"
-                  >
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)]">
-                      <Users className="h-5 w-5" aria-hidden="true" />
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <div className="text-sm font-black text-[var(--theme-text-title)] group-hover:text-[var(--theme-primary)] transition-colors">
-                        ดูอาจารย์ที่ปรึกษาทั้งหมด
-                      </div>
-                      <div className="mt-0.5 text-xs text-[var(--theme-text-muted)]">
-                        ค้นหาคนที่เข้าใจหัวข้อวิจัย
-                      </div>
-                    </div>
-                    <ArrowRight className="h-4 w-4 text-[var(--theme-text-muted)] group-hover:text-[var(--theme-primary)] group-hover:translate-x-0.5 transition-all" aria-hidden="true" />
-                  </button>
-                </div>
-
-                <div className="mt-6 grid grid-cols-3 gap-3 border-t border-[var(--theme-border)] pt-4 sm:mt-8 sm:pt-5">
-                  <div>
-                    <div className="text-xl font-black text-[var(--theme-text-title)]">2.8K+</div>
-                    <div className="mt-1 text-[11px] font-semibold text-[var(--theme-text-muted)]">หลักสูตร</div>
-                  </div>
-                  <div>
-                    <div className="text-xl font-black text-[var(--theme-text-title)]">1K+</div>
-                    <div className="mt-1 text-[11px] font-semibold text-[var(--theme-text-muted)]">นักวิจัย</div>
-                  </div>
-                  <div>
-                    <div className="text-xl font-black text-[var(--theme-text-title)]">25+</div>
-                    <div className="mt-1 text-[11px] font-semibold text-[var(--theme-text-muted)]">มหาวิทยาลัย</div>
-                  </div>
-                </div>
+          <aside className="market-rail self-end border border-[var(--theme-border)] bg-[var(--theme-card)] p-5 sm:p-6">
+            <div className="flex items-center justify-between border-b border-[var(--theme-border)] pb-4">
+              <div>
+                <p className="text-xs font-bold uppercase tracking-[0.16em] text-[var(--theme-primary)]">Live index</p>
+                <h2 className="mt-1 text-lg font-semibold text-[var(--theme-text-title)]">ภาพรวมระบบ</h2>
               </div>
+              <Compass className="h-6 w-6 text-[var(--theme-primary)]" aria-hidden="true" />
             </div>
-          </div>
+            <div className="grid grid-cols-3 gap-3 py-5">
+              <div><strong className="stat-number block text-2xl text-[var(--theme-primary)]">2.8K+</strong><span className="text-[11px] text-[var(--theme-text-muted)]">หลักสูตร</span></div>
+              <div><strong className="stat-number block text-2xl text-[var(--theme-primary)]">1K+</strong><span className="text-[11px] text-[var(--theme-text-muted)]">นักวิจัย</span></div>
+              <div><strong className="stat-number block text-2xl text-[var(--theme-primary)]">25+</strong><span className="text-[11px] text-[var(--theme-text-muted)]">มหาวิทยาลัย</span></div>
+            </div>
+            <div className="space-y-2 border-t border-[var(--theme-border)] pt-4">
+              <Link href="/career-discovery" className="market-row group flex items-center gap-3 border-b border-[var(--theme-border)] py-3">
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)]"><Compass className="h-4 w-4" aria-hidden="true" /></span>
+                <span className="min-w-0 flex-1"><strong className="block text-sm text-[var(--theme-text-title)] group-hover:text-[var(--theme-primary)]">ค้นหาตัวตนและสายอาชีพ</strong><small className="text-xs text-[var(--theme-text-muted)]">RIASEC assessment</small></span>
+                <ArrowRight className="h-4 w-4 text-[var(--theme-text-muted)]" aria-hidden="true" />
+              </Link>
+              <button type="button" onClick={() => { setActiveTab("advisors"); setSearchQuery(""); executeSearch("", selectedUni, selectedDegree, "advisors"); }} className="market-row group flex w-full items-center gap-3 py-3 text-left">
+                <span className="flex h-8 w-8 items-center justify-center rounded-full border border-[var(--theme-primary-border)] text-[var(--theme-primary)]"><Users className="h-4 w-4" aria-hidden="true" /></span>
+                <span className="min-w-0 flex-1"><strong className="block text-sm text-[var(--theme-text-title)] group-hover:text-[var(--theme-primary)]">ดูอาจารย์ที่ปรึกษา</strong><small className="text-xs text-[var(--theme-text-muted)]">ค้นหาตามหัวข้อวิจัย</small></span>
+                <ArrowRight className="h-4 w-4 text-[var(--theme-text-muted)]" aria-hidden="true" />
+              </button>
+            </div>
+          </aside>
         </div>
       </section>
 
-      {/* 🌟 Signature Spotlight / University Highlights Promotional Showcase */}
-      <section className="border-b border-[var(--theme-border)] bg-[var(--theme-bg)] py-4 sm:py-6">
-        <FeaturedProgramsShowcase
-          activeTab={activeTab}
-          onSelectUniversity={(uniName) => {
-            setSelectedUni(uniName);
-            setSelectedFaculty("all");
-            setSelectedDepartment("all");
-            executeSearch(searchQuery, uniName, selectedDegree, activeTab, true, selectedRegion, "all", "all");
-          }}
-          onSelectCourseSearch={(courseTitle) => {
-            setSearchQuery(courseTitle);
-            setActiveTab("courses");
-            executeSearch(courseTitle, selectedUni, selectedDegree, "courses");
-          }}
-          onSelectCourseDetail={openCourseDetail}
-          savedCourses={savedCourses}
-          savedAdvisors={savedAdvisors}
-          onToggleBookmarkCourse={toggleBookmarkCourse}
-          onToggleBookmarkAdvisor={toggleBookmarkAdvisor}
-        />
-      </section>
-
-      {/* Main Catalog View */}
-      <main
-        ref={resultsSectionRef}
-        id="search-results"
-        className="flex-1 mx-auto w-full max-w-[1440px] scroll-mt-20 px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
-      >
-        <div className="mb-7 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+      <main ref={resultsSectionRef} id="search-results" className="mx-auto w-full max-w-[1280px] flex-1 scroll-mt-20 px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+        <div className="mb-8 flex flex-col justify-between gap-5 border-b border-[var(--theme-border)] pb-6 sm:flex-row sm:items-end">
           <div>
-            <div className="mb-2 flex items-center gap-2 text-xs font-black uppercase tracking-[0.18em] text-[var(--theme-primary)]">
-              <span className="h-2 w-2 rounded-full bg-[var(--theme-accent)]" aria-hidden="true" />
-              Explore the ecosystem
-            </div>
-            <h2 className="text-2xl font-black tracking-tight text-[var(--theme-text-title)] sm:text-3xl">
+            <div className="ui-section-label mb-2 flex items-center gap-2"><span className="h-2 w-2 rounded-full bg-[var(--theme-primary)]" aria-hidden="true" />Directory</div>
+            <h2 className="text-3xl font-semibold tracking-tight text-[var(--theme-text-title)] sm:text-4xl">
               {activeTab === "courses" ? "หลักสูตรที่น่าสนใจ" : activeTab === "advisors" ? "อาจารย์ที่ปรึกษาที่ตรงกับคุณ" : "ห้องวิจัยและศูนย์ความเป็นเลิศ"}
             </h2>
-            <p className="mt-2 max-w-2xl text-sm font-medium text-[var(--theme-text-muted)]">
-              เลือกดูข้อมูลแบบละเอียด เปรียบเทียบตัวเลือก หรือบันทึกสิ่งที่สนใจไว้กลับมาดูภายหลัง
-            </p>
+            <p className="mt-2 max-w-2xl text-sm text-[var(--theme-text-muted)]">กรองผลลัพธ์จากภูมิภาค มหาวิทยาลัย คณะ และระดับการศึกษา</p>
           </div>
-          <div className="flex items-center gap-2 text-xs font-bold text-[var(--theme-text-muted)]">
-            <Award className="h-4 w-4 text-[var(--theme-accent)]" aria-hidden="true" />
-            ข้อมูลคัดสรรจากมหาวิทยาลัยทั่วประเทศ
-          </div>
+          <div className="flex items-center gap-2 text-xs font-semibold text-[var(--theme-text-muted)]"><Award className="h-4 w-4 text-[var(--theme-primary)]" aria-hidden="true" />ข้อมูลจากมหาวิทยาลัยทั่วประเทศ</div>
         </div>
 
-        {/* Filter Controls */}
-        <div className="catalog-filter mb-7 rounded-2xl border border-[var(--theme-border)] bg-[var(--theme-card)] p-4 sm:p-5">
+        <div className="catalog-filter mb-8 border border-[var(--theme-border)] bg-[var(--theme-card)] p-4 sm:p-5">
           <FilterBar
             activeTab={activeTab}
             selectedRegion={selectedRegion}
@@ -713,16 +620,14 @@ export default function Home() {
           />
         </div>
 
-        {/* Status Error Display */}
         {errorMsg && (
-          <div className="p-4 rounded-2xl bg-rose-50 border border-rose-200 text-rose-900 text-xs sm:text-sm font-semibold flex items-center gap-2 shadow-xs">
+          <div className="mb-5 flex items-center gap-2 border border-red-500/30 bg-red-500/10 p-4 text-xs font-semibold text-red-300 sm:text-sm">
             <AlertCircle className="w-4 h-4 text-rose-700 flex-shrink-0" />
             <span>{errorMsg}</span>
           </div>
         )}
 
-        {/* Results Counter & Meta */}
-        <div className="flex items-center justify-between text-xs sm:text-sm text-[var(--theme-text-muted)] font-semibold">
+        <div className="mb-5 flex items-center justify-between text-xs font-semibold text-[var(--theme-text-muted)] sm:text-sm">
           <div>
             <span>แสดงผลลัพธ์: </span>
             <strong className="text-[var(--theme-text-title)] font-black text-sm sm:text-base">
@@ -740,7 +645,7 @@ export default function Home() {
           {activeTab === "courses" && comparedCourses.length > 0 && (
             <button
               onClick={() => setShowComparisonModal(true)}
-              className="text-xs sm:text-sm font-black text-[var(--theme-primary)] hover:underline flex items-center gap-1.5 cursor-pointer bg-[var(--theme-primary-subtle)] px-3.5 py-1.5 rounded-xl border border-[var(--theme-primary-border)]"
+              className="flex cursor-pointer items-center gap-1.5 border border-[var(--theme-primary-border)] bg-[var(--theme-primary-subtle)] px-3.5 py-1.5 text-xs font-bold text-[var(--theme-primary)] hover:bg-[var(--theme-primary)] hover:text-[var(--theme-primary-contrast)] sm:text-sm"
             >
               <Scale className="w-4 h-4" />
               <span>เปิดตารางเปรียบเทียบ ({comparedCourses.length})</span>
@@ -752,10 +657,7 @@ export default function Home() {
         {loading ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {Array.from({ length: 6 }).map((_, idx) => (
-              <div
-                key={idx}
-                className="p-6 rounded-2xl bg-[var(--theme-card)] border border-[var(--theme-border)] space-y-4 animate-pulse"
-              >
+              <div key={idx} className="ui-card space-y-4 p-6 animate-pulse">
                 <div className="flex items-center justify-between">
                   <div className="h-5 w-20 bg-[var(--theme-card-subtle)] rounded-md" />
                   <div className="h-5 w-16 bg-[var(--theme-card-subtle)] rounded-md" />
@@ -768,7 +670,7 @@ export default function Home() {
           </div>
         ) : activeTab === "courses" ? (
           courses.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
               {courses.map((c) => (
                 <CourseCard
                   key={c.id}
@@ -782,7 +684,7 @@ export default function Home() {
               ))}
             </div>
           ) : (
-            <div className="text-center py-16 bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl space-y-3">
+            <div className="ui-card space-y-3 py-16 text-center">
               <BookOpen className="w-10 h-10 text-[var(--theme-text-muted)] mx-auto" />
               <h3 className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">
                 ไม่พบหลักสูตรการศึกษาที่ตรงกับเงื่อนไข
@@ -794,7 +696,7 @@ export default function Home() {
           )
         ) : activeTab === "advisors" ? (
           advisors.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
               {advisors.map((item) => (
                 <AdvisorCard
                   key={item.faculty.id}
@@ -805,7 +707,7 @@ export default function Home() {
               ))}
             </div>
           ) : (
-            <div className="text-center py-16 bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl space-y-3">
+            <div className="ui-card space-y-3 py-16 text-center">
               <Users className="w-10 h-10 text-[var(--theme-text-muted)] mx-auto" />
               <h3 className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">
                 ไม่พบคณาจารย์ที่ปรึกษาที่ตรงกับเงื่อนไข
@@ -816,7 +718,7 @@ export default function Home() {
             </div>
           )
         ) : labs.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
             {labs.map((lab) => (
               <LabCard
                 key={lab.id}
@@ -826,7 +728,7 @@ export default function Home() {
             ))}
           </div>
         ) : (
-          <div className="text-center py-16 bg-[var(--theme-card)] border border-[var(--theme-border)] rounded-3xl space-y-3">
+          <div className="ui-card space-y-3 py-16 text-center">
             <Building2 className="w-10 h-10 text-[var(--theme-text-muted)] mx-auto" />
             <h3 className="text-base sm:text-lg font-black text-[var(--theme-text-title)]">
               ไม่พบห้องปฏิบัติการหรือศูนย์วิจัยที่ตรงกับเงื่อนไข
@@ -880,10 +782,9 @@ export default function Home() {
         onRemoveAdvisor={toggleBookmarkAdvisor}
       />
 
-      {/* 🚀 World-Class Floating Comparison Dock (Apple / Raycast Style) */}
       {activeTab === "courses" && comparedCourses.length > 0 && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 w-[92%] max-w-2xl animate-float">
-          <div className="floating-dock p-3 sm:p-4 rounded-2xl flex items-center justify-between gap-3 shadow-2xl">
+          <div className="floating-dock flex items-center justify-between gap-3 p-3 sm:p-4">
             <div className="flex items-center gap-3 min-w-0">
               <div className="w-10 h-10 rounded-xl bg-[var(--theme-primary)] text-[var(--theme-primary-contrast)] flex items-center justify-center flex-shrink-0 shadow-sm">
                 <Scale className="w-5 h-5" />
@@ -913,7 +814,7 @@ export default function Home() {
               </button>
               <button
                 onClick={() => setShowComparisonModal(true)}
-                className="px-4 py-2 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-black flex items-center gap-1.5 shadow-md shadow-[var(--theme-primary-glow)] transition cursor-pointer hover:scale-102 active:scale-98"
+                className="ui-primary-button flex items-center gap-1.5 px-4 py-2 text-xs sm:text-sm"
               >
                 <span>เปิดตารางวิเคราะห์</span>
                 <ArrowRight className="w-4 h-4" />

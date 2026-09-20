@@ -1,0 +1,4367 @@
+{
+  "timestamp": "2026-09-19T23:06:02.580072",
+  "total_resolved": 545,
+  "unresolved_count": 0,
+  "records": [
+    {
+      "id": "kasetsartu_facultyofa_fac_013_013",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. กาญจนา อิ่มศิลป์",
+      "first_name": "Kanchana",
+      "last_name": "Imsilp",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "kasetsartu_facultyofa_fac_014_014",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ปารียา อุดมกุศลศรี",
+      "first_name": "Pareeya",
+      "last_name": "Udomkusolsri",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "kasetsartu_facultyofa_fac_016_016",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. จันทิมา พฤกษากร",
+      "first_name": "Janthima",
+      "last_name": "Pruksakorn",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "kasetsartu_facultyofa_fac_017_017",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. จำนงจิต ผาสุข",
+      "first_name": "Jamnongjit",
+      "last_name": "Phasuk",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "kasetsartu_facultyofa_fac_020_020",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สันติ แก้วโมกุล",
+      "first_name": "Santi",
+      "last_name": "Kaewmokul",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_230570fa_1484",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. นภพล ภู่พนิตพันธ์",
+      "first_name": "Napapol",
+      "last_name": "Poopanitpan",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_799119e7_8228",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ประภาศิริ พงษ์ประยูร",
+      "first_name": "Prapasiri",
+      "last_name": "Pongprayoon",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_agro_wave15_0002",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. บุญทิวา นิลจันทร์",
+      "first_name": "Boontiwa",
+      "last_name": "Ninchan",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0003",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. กิติญา วงษ์คำจันทร์ โอราน",
+      "first_name": "Kitiya",
+      "last_name": "Vongkamjan Aurand",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0005",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. นิสิต วัฒนศักดิ์ภูบาล",
+      "first_name": "Nisit",
+      "last_name": "Watthanasakphuban",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0006",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ณัฐกานต์ นิตยพัธน์",
+      "first_name": "Asst",
+      "last_name": "Prof Nuttakan Nitayapat",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0007",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ภคมน จิตประเสริฐ",
+      "first_name": "Assoc",
+      "last_name": "Prof Pakamon Chitprasert",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0008",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ประกิต สุขใย",
+      "first_name": "Assoc",
+      "last_name": "Prof Prakit Sukyai",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0009",
+      "univ": "KU",
+      "full_name_th": "ศ.ดร. สาโรจน์ ศิริศันสนียกุล",
+      "first_name": "Sarote",
+      "last_name": "Sirisunsaneeyakul",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0010",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สุมัลลิกา โมรากุล",
+      "first_name": "Asst",
+      "last_name": "Prof Sumallika Morakul Ph",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0011",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สุทธิพันธุ์ แก้วสมพงษ์",
+      "first_name": "Biot",
+      "last_name": "En Assoc Prof Suttipun Keawsompong",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0012",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ธนัท อ้วนอ่อน",
+      "first_name": "Ing",
+      "last_name": "Tanat Uan On",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0014",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วีระสิทธิ์ สรรพมงคลไชย",
+      "first_name": "Assoc",
+      "last_name": "Prof Werasit Sappamongkolchai",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0017",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. กนิฐพร วังใน",
+      "first_name": "Kanithaporn",
+      "last_name": "Vangnai",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0018",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. กนกรัตน์ ลิมปิโสภณ",
+      "first_name": "Kanokrat",
+      "last_name": "Limpisophon",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0019",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. กฤษกมล ณ จอม",
+      "first_name": "Kriskamol",
+      "last_name": "Na Jom",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0021",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. น้ำฝน ลำดับวงศ์",
+      "first_name": "Asso",
+      "last_name": "Prof Namfone Lumdubwong",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0022",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ปิติยา กมลพัฒนะ",
+      "first_name": "Pitiya",
+      "last_name": "Kamonpatana",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_agro_wave15_0023",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ปัทธิมา อุดมไพจิตรกุล",
+      "first_name": "Asst",
+      "last_name": "Prof Pathima Udompijitkul",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0026",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. เมธาวี เพียรภักดี",
+      "first_name": "Methavee",
+      "last_name": "Peanparkdee",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0027",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. เยาวภา หล่อเจริญผล",
+      "first_name": "Asst",
+      "last_name": "Prof Yaowapa Lorjaroenphon",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0028",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วีรเชษฐ์ จิตตาณิชย",
+      "first_name": "Assoc",
+      "last_name": "Prof Weerachet Jittanit",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0029",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ศศิธร ตรงจิตภักดี",
+      "first_name": "Asst",
+      "last_name": "Prof Sasitorn Tongchitpakdee",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0030",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สายพิณ ทานัชฌาสัย",
+      "first_name": "Asst",
+      "last_name": "Prof Saipin Thanachasai",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0031",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สาวิตรี รัตนสุมาวงศ์",
+      "first_name": "Savitree",
+      "last_name": "Rattanassumawong",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_agro_wave15_0032",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สุดสาย ตรีวานิช",
+      "first_name": "Assoc",
+      "last_name": "Prof Sudsai Trevanich",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0033",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สุดาทิพย์ แซ่ตั้น",
+      "first_name": "Asst",
+      "last_name": "Prof Sudathip Sae Tan",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0034",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สุวิมล เจริญสิทธิ์",
+      "first_name": "Asst",
+      "last_name": "Prof Suvimol",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0035",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. อุทัย กลิ่นเกษร",
+      "first_name": "Assoc",
+      "last_name": "Prof Utai Klinkesorn",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0036",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. วรรธินี เกตุคง",
+      "first_name": "Wattinee",
+      "last_name": "Katekhong",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0046",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. อำพร เสน่ห์",
+      "first_name": "Associate",
+      "last_name": "Prof Amporn Sane",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0049",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. เกียรติชัย วาดอักษร",
+      "first_name": "Kiattichai",
+      "last_name": "Wadaugsorn",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0050",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. เลอพงศ์ จารุพันธ์",
+      "first_name": "Associate",
+      "last_name": "Prof Lerpong Jarupan",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0051",
+      "univ": "KU",
+      "full_name_th": "ศ.ดร. ณัฐดนัย หาญการสุจริต",
+      "first_name": "Nathdanai",
+      "last_name": "Harnkarnsujarit",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0052",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ณัฐทินี บำบัดสรรพโรค",
+      "first_name": "Nattinee",
+      "last_name": "Bumbudsanpharoke",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0054",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ภัทรินทร์ ลีลาภิวัฒน์",
+      "first_name": "Pattarin",
+      "last_name": "Leelaphiwat",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0056",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. รังรอง ยกส้าน",
+      "first_name": "Associate",
+      "last_name": "Prof Rangrong Yoksan",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0057",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ธาริณี นามพิชญ์",
+      "first_name": "Associate",
+      "last_name": "Prof Tarinee Nampitch",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0058",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ธัญญารัตน์ จิญกาญจน์",
+      "first_name": "Associate",
+      "last_name": "Prof Tunyarut Jinkarn",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0059",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. อุรุชยา สนแจ้ง",
+      "first_name": "Uruchaya",
+      "last_name": "Sonchaeng",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0060",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วาณี ชนเห็นชอบ",
+      "first_name": "Associate",
+      "last_name": "Prof Vanee Chonhenchob",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0062",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สุนทรี สุวรรณสิชณน์",
+      "first_name": "Suntaree",
+      "last_name": "Suwonsichon Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0064",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วรรณสวัสดิ์ รัฐพิทักษ์สันติ",
+      "first_name": "Wannasawat",
+      "last_name": "Ratphitagsanti Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0065",
+      "univ": "KU",
+      "full_name_th": "ศ.ดร. นันทวัน เทอดไทย",
+      "first_name": "Nantawan",
+      "last_name": "Therdthai Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0066",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. วิษฐิดา จันทราพรชัย",
+      "first_name": "Asst",
+      "last_name": "Prof Withida Chantrapornchai Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0067",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. เทพกัญญา หาญศีลวัต",
+      "first_name": "Thepkunya",
+      "last_name": "Harnsilawat Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0068",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. กมลวรรณ แจ้งชัด",
+      "first_name": "Kamolwan",
+      "last_name": "Jangchud Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0077",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. เพ็ญขวัญ ชมปรีดา",
+      "first_name": "Assoc",
+      "last_name": "Prof Penkwan Chompreeda Professor Emeritus",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0081",
+      "univ": "KU",
+      "full_name_th": "ดร. ดวงรัตน์ หิรัญญะสิริ",
+      "first_name": "Duangrat",
+      "last_name": "Hirunyasiri",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0082",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พิธาลัย เล็กอุทัย",
+      "first_name": "Pithalai",
+      "last_name": "Phoophat",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0084",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. จันทร์ทิพย์ เศรษฐยานนท์",
+      "first_name": "Assoc",
+      "last_name": "Prof Jantip Setthayanond",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0085",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ขนิษฐา วัชราภรณ์",
+      "first_name": "Asst",
+      "last_name": "Prof Kanitta Watcharaporn",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0086",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. กรทิพย์ วัชรปัญญาวงศ์ เตชะเมธีกุล",
+      "first_name": "Korntip",
+      "last_name": "Watcharapanyawong Techametheekul",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0090",
+      "univ": "KU",
+      "full_name_th": "ผศ. ผุสดี แซ่ลิ่ม",
+      "first_name": "Phussadee",
+      "last_name": "Lim",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0091",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พรทิพย์ ธูปถมพงศ์",
+      "first_name": "Porntip",
+      "last_name": "Tooptompong",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0092",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. อัจฉรา เกษสุวรรณ",
+      "first_name": "Ait",
+      "last_name": "En Asst Prof Ajchara Kessuvan Ph",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0094",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. อภิชญา ลีลาวณิชกุล",
+      "first_name": "Ait",
+      "last_name": "En Asst Prof Apichaya Lilavanichakul",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0102",
+      "univ": "KU",
+      "full_name_th": "ดร. อริสรา ทองเพ็ชร์",
+      "first_name": "Arisara",
+      "last_name": "Thongpetch",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_forest_wave15_0001",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. ศิริรักษ์ จันทครุ",
+      "first_name": "Sirirak",
+      "last_name": "จันทครุ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0002",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. อุไร พงศ์ชัยฤกษ์",
+      "first_name": "Urai",
+      "last_name": "พงศ์ชัยฤกษ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0003",
+      "univ": "KU",
+      "full_name_th": "รศ. สพ.ญ. ดร. ศิรินทร์ ธีระวัฒนศิริกุล",
+      "first_name": "ศิรินทร์",
+      "last_name": "ธีระวัฒนศิริกุล",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0004",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. มณีนุช เขียวอินทร์",
+      "first_name": "Maneenooch",
+      "last_name": "เขียวอินทร์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0005",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. ณพารี ศรีโสวรรณา",
+      "first_name": "Naparee",
+      "last_name": "ศรีโสวรรณา",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0006",
+      "univ": "KU",
+      "full_name_th": "อ. สพ.ญ. ดร. วิจรรย์ ด่านก้าวหน้า",
+      "first_name": "Wichan",
+      "last_name": "ด่านก้าวหน้า",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0009",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. นิยดา ล้านทรัพย์สกุล",
+      "first_name": "นิยดา",
+      "last_name": "ล้านทรัพย์สกุล",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0010",
+      "univ": "KU",
+      "full_name_th": "อ. สพ.ญ. พรสุชา พละเสวีนันท์",
+      "first_name": "พรสุชา",
+      "last_name": "พละเสวีนันท์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0012",
+      "univ": "KU",
+      "full_name_th": "อ. สพ.ญ. ดร. ปิยะทิพย์ เศรษฐวงศ์",
+      "first_name": "Piyathip",
+      "last_name": "เศรษฐวงศ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0013",
+      "univ": "KU",
+      "full_name_th": "อ. สพ.ญ. ดร. สาธิตา อารีรัตน์",
+      "first_name": "สาธิตา",
+      "last_name": "อารีรัตน์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0017",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. พรรณวิมล ตันหัน",
+      "first_name": "Phanwimol",
+      "last_name": "ตันหัน",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0018",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. อักษร แสงเทียนชัย",
+      "first_name": "อักษร",
+      "last_name": "แสงเทียนชัย",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0019",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. ไกรสิริ ขีดขั้น",
+      "first_name": "Kraisiri",
+      "last_name": "ขีดขั้น",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0023",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. ดร. ไชยยันต์ เกษรดอกบัว",
+      "first_name": "Chaiyan",
+      "last_name": "เกษรดอกบัว",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0025",
+      "univ": "KU",
+      "full_name_th": "รศ. สพ.ญ. ดร. กรรณิการ์ ศิริภัทรประวัติ",
+      "first_name": "กรรณิการ์",
+      "last_name": "ศิริภัทรประวัติ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0026",
+      "univ": "KU",
+      "full_name_th": "อ. สพ.ญ. ดร. สุวิมล พันธุ์ดี",
+      "first_name": "Suwimon",
+      "last_name": "พันธุ์ดี",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0027",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. วัลยา ผ่องแผ้ว",
+      "first_name": "Wallaya",
+      "last_name": "ผ่องแผ้ว",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0029",
+      "univ": "KU",
+      "full_name_th": "อ. สพ.ญ. ดร. ปิยภรณ์ เอี่ยมเจริญ",
+      "first_name": "Piyaporn",
+      "last_name": "เอี่ยมเจริญ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0032",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. นิภา ธรรมสนธิเจริญ",
+      "first_name": "นิภา",
+      "last_name": "ธรรมสนธิเจริญ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0034",
+      "univ": "KU",
+      "full_name_th": "ศ. สพ.ญ. ดร. พรทิพภา เล็กเจริญสุข",
+      "first_name": "พรทิพภา",
+      "last_name": "เล็กเจริญสุข",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0036",
+      "univ": "KU",
+      "full_name_th": "อ. น.สพ. ดร. สุนันท์ พินิตเกียรติสกุล",
+      "first_name": "สุนันท์",
+      "last_name": "พินิตเกียรติสกุล",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0038",
+      "univ": "KU",
+      "full_name_th": "อ. น.สพ. กรีวิทย์ พรหมพินิจพงศ์",
+      "first_name": "Kreevith",
+      "last_name": "พรหมพินิจพงศ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0039",
+      "univ": "KU",
+      "full_name_th": "อ. น.สพ. ดร. ภาสวัฏ ทำมาหากิน",
+      "first_name": "ภาสวัฏ",
+      "last_name": "ทำมาหากิน",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0042",
+      "univ": "KU",
+      "full_name_th": "รศ. น.สพ. ดร. อนุชัย ภิญโญภูมิมินทร์",
+      "first_name": "อนุชัย",
+      "last_name": "ภิญโญภูมิมินทร์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0043",
+      "univ": "KU",
+      "full_name_th": "รศ. น.สพ. ดร. พิพัฒน์ อรุณวิภาส",
+      "first_name": "พิพัฒน์",
+      "last_name": "อรุณวิภาส",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0045",
+      "univ": "KU",
+      "full_name_th": "รศ. น.สพ. ดร. วรกิจ เชิดชูธรรม",
+      "first_name": "วรกิจ",
+      "last_name": "เชิดชูธรรม",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0046",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. อารีย์ ไหลกุล",
+      "first_name": "อารีย์",
+      "last_name": "ไหลกุล",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0048",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. วันดี เที่ยงธรรม",
+      "first_name": "วันดี",
+      "last_name": "เที่ยงธรรม",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0050",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. นันทวัน ญาติบรรทุง",
+      "first_name": "นันทวัน",
+      "last_name": "ญาติบรรทุง",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0052",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. ขนิษฐา เพชรอุดมสินสุข",
+      "first_name": "ขนิษฐา",
+      "last_name": "เพชรอุดมสินสุข",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0053",
+      "univ": "KU",
+      "full_name_th": "รศ. สพ.ญ. ดร. นิอร รัตนภพ",
+      "first_name": "นิอร",
+      "last_name": "รัตนภพ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0058",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. ยลยง วุ้นวงษ์",
+      "first_name": "Yonlayong",
+      "last_name": "วุ้นวงษ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0059",
+      "univ": "KU",
+      "full_name_th": "รศ. น.สพ. ดร. มานะกร สุขมาก",
+      "first_name": "Manakorn",
+      "last_name": "สุขมาก",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0060",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. นวลอนงค์ สินวัต",
+      "first_name": "นวลอนงค์",
+      "last_name": "สินวัต",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0064",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. ปริญทิพย์ วงศ์ไทย",
+      "first_name": "ปริญทิพย์",
+      "last_name": "วงศ์ไทย",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0065",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. ดร. ณัฏฐ์ธน ฐิติชญาพงษ์",
+      "first_name": "ณัฏฐ์ธน",
+      "last_name": "ฐิติชญาพงษ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0067",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. วราพร พิมพ์ประไพ",
+      "first_name": "วราพร",
+      "last_name": "พิมพ์ประไพ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0069",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. ดร. อาสูตร สงวนเกียรติ",
+      "first_name": "อาสูตร",
+      "last_name": "สงวนเกียรติ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0070",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. ศิริพร คงสร้อย",
+      "first_name": "ศิริพร",
+      "last_name": "คงสร้อย",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0071",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. ปัจฉิมา สิทธิสาร",
+      "first_name": "ปัจฉิมา",
+      "last_name": "สิทธิสาร",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0074",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. ชลาลัย เรืองหิรัญ",
+      "first_name": "ชลาลัย",
+      "last_name": "เรืองหิรัญ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0075",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. กานต์สุดา ลีฬหาพงศธร",
+      "first_name": "กานต์สุดา",
+      "last_name": "ลีฬหาพงศธร",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0076",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. สุปภาดา คณานับ",
+      "first_name": "สุปภาดา",
+      "last_name": "คณานับ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0077",
+      "univ": "KU",
+      "full_name_th": "อ. สพ.ญ. ดร. เทพยุดา ศรีตระกูล",
+      "first_name": "Tepyuda",
+      "last_name": "ศรีตระกูล",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0078",
+      "univ": "KU",
+      "full_name_th": "อ. สพ.ญ. ดร. ฐิติวรรณ พัฒนเสถียรกุล",
+      "first_name": "Thitiwan",
+      "last_name": "พัฒนเสถียรกุล",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0080",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. กฤษฎาพันธุ์ ผลากิจ",
+      "first_name": "Kritsadapan",
+      "last_name": "Palakit",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0081",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ขวัญชัย ดวงสถาพร",
+      "first_name": "Khwanchai",
+      "last_name": "Duangsathaporn",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0083",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. นิตยา เมี้ยนมิตร",
+      "first_name": "Nittaya",
+      "last_name": "Mianmit",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0096",
+      "univ": "KU",
+      "full_name_th": "ดร. พรชัย กลัดวงษ์",
+      "first_name": "พรชัย",
+      "last_name": "กลัดวงษ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0099",
+      "univ": "KU",
+      "full_name_th": "ดร. วงศธร พุ่มพวง",
+      "first_name": "วงศธร",
+      "last_name": "พุ่มพวง",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0109",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. นพรัตน์ คัคคุริวาระ",
+      "first_name": "นพรัตน์",
+      "last_name": "คัคคุริวาระ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0111",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ลัดดาวรรณ เหรียญตระกูล",
+      "first_name": "ลัดดาวรรณ",
+      "last_name": "เหรียญตระกูล",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0114",
+      "univ": "KU",
+      "full_name_th": "ผศ. กิติพงศ์ ตั้งกิจ",
+      "first_name": "กิติพงศ์",
+      "last_name": "ตั้งกิจ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0115",
+      "univ": "KU",
+      "full_name_th": "อ. ธีรัตว์ อาจสำอางค์",
+      "first_name": "ธีรัตว์",
+      "last_name": "อาจสำอางค์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0126",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. พรเทพ เหมือนพงษ์",
+      "first_name": "พรเทพ",
+      "last_name": "เหมือนพงษ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0130",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. วิรงรอง ดวงใจ",
+      "first_name": "วิรงรอง",
+      "last_name": "ดวงใจ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0131",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สคาร ทีจันทึก",
+      "first_name": "สคาร",
+      "last_name": "ทีจันทึก",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0132",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สมพร แม่ลิ่ม",
+      "first_name": "สมพร",
+      "last_name": "แม่ลิ่ม",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0134",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ออ พรานไชย",
+      "first_name": "ออ",
+      "last_name": "พรานไชย",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0140",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. นภวรรณ ฐานะกาญจน์ พงษ์เขียว",
+      "first_name": "นภวรรณ",
+      "last_name": "ฐานะกาญจน์ พงษ์เขียว",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0142",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ปิยพงษ์ ทองดีนอก",
+      "first_name": "ปิยพงษ์",
+      "last_name": "ทองดีนอก",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0143",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พัชเรศร์ ชคัตตรัยกุล",
+      "first_name": "พัชเรศร์",
+      "last_name": "ชคัตตรัยกุล",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0112",
+      "univ": "KU",
+      "full_name_th": "อ. เดชฤทธิ์ สิทธิบาล",
+      "first_name": "เดชฤทธิ์",
+      "last_name": "สิทธิบาล",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0144",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ยุทธพงษ์ คีรีมังคละ",
+      "first_name": "ยุทธพงษ์",
+      "last_name": "คีรีมังคละ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0145",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. วีนัส ต่วนเครือ",
+      "first_name": "วีนัส",
+      "last_name": "ต่วนเครือ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0146",
+      "univ": "KU",
+      "full_name_th": "ผศ. สารัฐ รัตนะ",
+      "first_name": "สารัฐ",
+      "last_name": "รัตนะ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0149",
+      "univ": "KU",
+      "full_name_th": "ผศ. เรณุกา กลับสุข",
+      "first_name": "เรณุกา",
+      "last_name": "กลับสุข",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "kasetsartu_facultyofa_fac_019_019",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. น.สพ. ณัฐสิทธิ์",
+      "first_name": "Natthasit",
+      "last_name": "Tansakul",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_66a19cf2_6510",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ทรงวุฒิ สุรมิตร",
+      "first_name": "Songwut",
+      "last_name": "Suramitr",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_792b15ec_6800",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ภัทราพร ลักษณ์สิริกุล",
+      "first_name": "Patraporn",
+      "last_name": "Luksirikul",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_fb10e0a0_7946",
+      "univ": "KU",
+      "full_name_th": "ดร. มนธิดา เร้าอรุณ",
+      "first_name": "Montida",
+      "last_name": "Raoarun",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_134d11a2_0004",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. พีรนุช จอมพุก",
+      "first_name": "Peeranuch",
+      "last_name": "Jompuk",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0011",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. ดร. ธัชกร เลิศวรรณการ",
+      "first_name": "Tuchakorn",
+      "last_name": "เลิศวรรณการ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0021",
+      "univ": "KU",
+      "full_name_th": "ศ. น.สพ. ดร. ทวีศักดิ์ ส่งเสริม",
+      "first_name": "ทวีศักดิ์",
+      "last_name": "ส่งเสริม",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_52088221_8537",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. วิรัญญา แก้ววัฒนะ",
+      "first_name": "Wirunya",
+      "last_name": "Keawwattana",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_forest_wave15_0028",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. ดร. รุ่งเรือง ยอดชีวัน",
+      "first_name": "Rungrueang",
+      "last_name": "ยอดชีวัน",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0035",
+      "univ": "KU",
+      "full_name_th": "อ. น.สพ. ดร. พีรภัทร แสงสว่าง",
+      "first_name": "Phirabhat",
+      "last_name": "แสงสว่าง",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0044",
+      "univ": "KU",
+      "full_name_th": "รศ. น.สพ. ดร. สมชัย สัจจาพิทักษ์",
+      "first_name": "สมชัย",
+      "last_name": "สัจจาพิทักษ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0047",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. ดร. พรชัย สัญฐิติเสรี",
+      "first_name": "พรชัย",
+      "last_name": "สัญฐิติเสรี",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0055",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. ดร. อลงกต บุญสูงเนิน",
+      "first_name": "อลงกต",
+      "last_name": "บุญสูงเนิน",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_agro_wave15_0089",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พรรณภัทร พรหมเพ็ญ",
+      "first_name": "Phannaphat",
+      "last_name": "Phromphen",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_forest_wave15_0063",
+      "univ": "KU",
+      "full_name_th": "รศ. น.สพ. ดร. วิศณุ บุญญาวิวัฒน์",
+      "first_name": "วิศณุ",
+      "last_name": "บุญญาวิวัฒน์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0068",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. ดร. เฉลิมเกียรติ แสงทองพินิจ",
+      "first_name": "เฉลิมเกียรติ",
+      "last_name": "แสงทองพินิจ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0073",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ธัญญลักษณ์ ขันธะมูล",
+      "first_name": "ธัญญลักษณ์",
+      "last_name": "ขันธะมูล",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0061",
+      "univ": "KU",
+      "full_name_th": "ผศ. สพ.ญ. ดร. สิทธิณี กุลประเสริฐศรี",
+      "first_name": "สิทธิณี",
+      "last_name": "กุลประเสริฐศรี",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_1413ba3f_3721",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ธีระชาติ ลี้ประเสริฐ",
+      "first_name": "Theerachart",
+      "last_name": "Leepasert",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_22a0ce80_0586",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ไชยา ประสิทธิชัย",
+      "first_name": "Chaiya",
+      "last_name": "Prasittichai",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_3d0a8626_7393",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พิพัฒน์ คงประชา",
+      "first_name": "Pipat",
+      "last_name": "Khongpracha",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_5e615a7a_0317",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ชมพูนุท วรากุลวิทย์",
+      "first_name": "Chompunuch",
+      "last_name": "Warakulwit",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_6f52e65a_7505",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. จักรพันธ์ ศิริเจริญศรี",
+      "first_name": "Jakkapan",
+      "last_name": "Sirijaraensre",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_6fb6fd34_4828",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ปณิทัต หาสิน",
+      "first_name": "Panitat",
+      "last_name": "Hasin",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_75a2f185_1803",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สุธาสินี กิตยาการ",
+      "first_name": "Sutasinee",
+      "last_name": "Kityakarn",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_79d21335_6397",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. กรรณิกา เจียมจำนรรจา",
+      "first_name": "Kannika",
+      "last_name": "Jeamjumnunja",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_2f4a4acd_2958",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ภานุ พิมพ์วิริยะกุล",
+      "first_name": "Panu",
+      "last_name": "Pimviriyakul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_45549736_0682",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. กันย์ สุ่นยี่ขัน",
+      "first_name": "Kun",
+      "last_name": "Soonyikan",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_4ea2372a_9268",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วัชริยา ภูรีวิโรจน์กุล",
+      "first_name": "Watchariya",
+      "last_name": "Purivirojkul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_51afa9e9_5899",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. วันดี วณิชย์ศักดิ์พงศ์",
+      "first_name": "Wandee",
+      "last_name": "Wanitsakhpong",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_5460f045_9472",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สมฤดี สักการเวช",
+      "first_name": "Somrudee",
+      "last_name": "Sakkarnvech",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_56b0e1c6_0956",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. อดิศักดิ์ บุญชื่น",
+      "first_name": "Adisak",
+      "last_name": "Boonchuen",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_7500a401_9448",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. เอกพันธ์ ไกรจักร์",
+      "first_name": "Ekaphan",
+      "last_name": "Kraichak",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_7554ccb8_7716",
+      "univ": "KU",
+      "full_name_th": "อ. พงศกร จิวาภรณ์คุปต์",
+      "first_name": "Pongsakorn",
+      "last_name": "Jivapornkupt",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_78ee97f5_0095",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. เสรี พงศ์พันธุ์ภาณี",
+      "first_name": "Seree",
+      "last_name": "Pongphanphanee",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_a8ec71cd_4339",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. นิตยา สมทรัพย์",
+      "first_name": "Nittaya",
+      "last_name": "Somsap",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_c934908d_9384",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ภาสกร ปนานนท์",
+      "first_name": "Passakorn",
+      "last_name": "Pananont",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_24cef617_6503",
+      "univ": "KU",
+      "full_name_th": "ดร. สมจิตต์ ปาละกาศ",
+      "first_name": "Somchit",
+      "last_name": "Palakart",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_3b530111_3089",
+      "univ": "KU",
+      "full_name_th": "ศ. เกียรติคุณ ประดิษฐ์ พงศ์ทองคำ",
+      "first_name": "เกียรติคุณ",
+      "last_name": "ประดิษฐ์ พงศ์ทองคำ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_agro_wave15_0047",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. บุศรินทร์ จงเจริญยานนท์",
+      "first_name": "Assistant",
+      "last_name": "Prof Busarin Chongcharoenyanon",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_forest_wave15_0037",
+      "univ": "KU",
+      "full_name_th": "อ. สพ.ญ. ดร. พลอยไพลิน เสมคำ",
+      "first_name": "Ploypailin",
+      "last_name": "เสมคำ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_ac21d07a_9202",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. กัลตวิทย์ วิทโยฬารโกวิทย์",
+      "first_name": "Kuntawit",
+      "last_name": "Witthayolankowit",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_agro_wave15_0073",
+      "univ": "KU",
+      "full_name_th": "ดร. ภูฤทธิ์ เงินชัย",
+      "first_name": "Phurit",
+      "last_name": "Ngenchai",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_1e55e114_1626",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ธานิน นานอก",
+      "first_name": "Tanin",
+      "last_name": "Nanok",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_agro_wave15_0075",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. เดือนฉาย ตันนารัตน์",
+      "first_name": "References",
+      "last_name": "Duenchay",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_13923a5c_4248",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พงษ์ศักดิ์ โล้วมั่นคง",
+      "first_name": "Pongsak",
+      "last_name": "Lowmonkong",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_1f0b8d31_3607",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. พินทุ์สุดา วีรวัฒน์",
+      "first_name": "Pinsuda",
+      "last_name": "Viravathana",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_21a09240_1062",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พิบูลย์ พันธุ",
+      "first_name": "Piboon",
+      "last_name": "Pantu",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_64401af6_6702",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ครองขวัญ อัครชนียากร",
+      "first_name": "Khrongkhwan",
+      "last_name": "Akkarachaneeyakorn",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_6480b66a_0851",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ฐิตพัฒน์ เงินสุทธิวรกุล",
+      "first_name": "Thitaphat",
+      "last_name": "Ngernsutivorakul",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_agro_wave15_0095",
+      "univ": "KU",
+      "full_name_th": "ดร. คุณาลัย พลอยดนัย",
+      "first_name": "Ait",
+      "last_name": "En Kunalai Ploydanai",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_1d294c8e_2045",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วันชัย ปลื้มภาณุภัทร",
+      "first_name": "Wanchai",
+      "last_name": "Pluempanupat",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_2573750b_7634",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พรรณนรี ศรีน้อย",
+      "first_name": "Phannaree",
+      "last_name": "Sreenoi",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_43336011_8149",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ประดิษฐ์ แสงทอง",
+      "first_name": "Pradit",
+      "last_name": "Sangthong",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_325ee636_3738",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วีกิตติ์ ศิริศักดิ์สุนทร",
+      "first_name": "Veekit",
+      "last_name": "Sirisaksunthorn",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_3367eb44_3342",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ธารินี สาลีโภชน์",
+      "first_name": "Tharinee",
+      "last_name": "Saleepochn",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_4b78a035_1700",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ณัฐสมน เพชรแสง",
+      "first_name": "Nattasamon",
+      "last_name": "Petchsang",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_549905af_4195",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. วิชชา อิ่มอร่าม",
+      "first_name": "Witcha",
+      "last_name": "Im Aram",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_68ec5ad0_1140",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. อัญชลี ศิริขจรกิจ",
+      "first_name": "Anchalee",
+      "last_name": "Sirikhachornkit",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_12fb0dd2_0604",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. อิงอร กิมกง",
+      "first_name": "Ingorn",
+      "last_name": "Kimkong",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_1aca319e_9900",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. จุฑาภรณ์ สินสมบูรณ์ทอง",
+      "first_name": "Juthaphorn",
+      "last_name": "Sinsomboonthong",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_2c3055f9_6471",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. จริน โอษะคลัง",
+      "first_name": "Charin",
+      "last_name": "Osaklang",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_62e73819_8616",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. พิทักษ์ เชื้อวงศ์",
+      "first_name": "Pitak",
+      "last_name": "Chuawong",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_7477a23f_7590",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ภาคภูมิ เรือนจันทร์",
+      "first_name": "Pakpoom",
+      "last_name": "Reunchan",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_376f9311_9323",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ชุรภา ธีรภัทรสกุล",
+      "first_name": "Churapha",
+      "last_name": "Theerapatrasakul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_5a33f235_4828",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ชัชวาล จันทราสุริยารัตน์",
+      "first_name": "Chatchawan",
+      "last_name": "Jantasuriyarat",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_44a93dd3_9264",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ปิยังกูล เหลืองเจริญกิจ",
+      "first_name": "Piyangkool",
+      "last_name": "Luangcharoenkit",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_5adf1e54_2866",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ฉัตรเฉลิม เกษเวชสุริยา",
+      "first_name": "Chatchaloem",
+      "last_name": "Ketwetsuriya",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_64277a9b_9043",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ฉัตรชัย เงินแสงสรวย",
+      "first_name": "Chatchai",
+      "last_name": "Ngernsaengsaruay",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "kasetsartu_facultyofa_fac_018_018",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ศรัญญา พัวพลเทพ",
+      "first_name": "Saranya",
+      "last_name": "Poapolathep",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_5cb6d9cc_2814",
+      "univ": "KU",
+      "full_name_th": "ศ. เกียรติคุณ ดร. มณจันทร์ เมฆธน",
+      "first_name": "เกียรติคุณ",
+      "last_name": "ดร. มณจันทร์ เมฆธน",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "kasetsartu_facultyofa_fac_015_015",
+      "univ": "KU",
+      "full_name_th": "ศ.ดร. อำนาจ พัวพลเทพ",
+      "first_name": "Amnart",
+      "last_name": "Poapolathep",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_forest_wave15_0108",
+      "univ": "KU",
+      "full_name_th": "อ. ธีระพงษ์ ชุมแสงศรี",
+      "first_name": "ธีระพงษ์",
+      "last_name": "ชุมแสงศรี",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "kasetsartu_facultyofa_fac_012_012",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. เกษริน ขำยิ่งเกิด",
+      "first_name": "Kessarin",
+      "last_name": "Khamyingkherd",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "kasetsartu_facultyofa_fac_011_011",
+      "univ": "KU",
+      "full_name_th": "รศ. สพ.ญ. ดร. ศิรินทร์",
+      "first_name": "Sirin",
+      "last_name": "Theerawatanasirikul",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_forest_wave15_0030",
+      "univ": "KU",
+      "full_name_th": "อ. สพ.ญ. พลอยภัสสร หอมกลิ่นแก้ว",
+      "first_name": "พลอยภัสสร",
+      "last_name": "หอมกลิ่นแก้ว",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0127",
+      "univ": "KU",
+      "full_name_th": "ผศ. มณฑาทิพย์ โสมมีชัย",
+      "first_name": "มณฑาทิพย์",
+      "last_name": "โสมมีชัย",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_40d91982_5855",
+      "univ": "KU",
+      "full_name_th": "ดร. สรฉัตร ธารมรรค",
+      "first_name": "Sorachat",
+      "last_name": "Tharmmarak",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_4992a789_4278",
+      "univ": "KU",
+      "full_name_th": "ดร. สุพัตรา มิตรภานนท์",
+      "first_name": "Supattra",
+      "last_name": "Midpanon",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_4e3861be_4093",
+      "univ": "KU",
+      "full_name_th": "ดร. อาทิตย์ จรัสอรุณฉา",
+      "first_name": "Arthit",
+      "last_name": "Jarasharuncha",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_600fd6e0_3474",
+      "univ": "KU",
+      "full_name_th": "ดร. ณัฐพงศ์ จันทร์ทิพย์มณี",
+      "first_name": "Nattapong",
+      "last_name": "Chantipmanee",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_61b026d5_0745",
+      "univ": "KU",
+      "full_name_th": "ดร. ชาติเฉลิม รักษากุล",
+      "first_name": "Chadchalerm",
+      "last_name": "Ruksakorn",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_6caf92f6_1528",
+      "univ": "KU",
+      "full_name_th": "ดร. วรรณิสา สุขจี๋",
+      "first_name": "Wannisa",
+      "last_name": "Sukjee",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_forest_wave15_0014",
+      "univ": "KU",
+      "full_name_th": "อ. น.สพ. ธีรวัฒน์ สัมฤทธิ์วัชฌาสัย",
+      "first_name": "ธีรวัฒน์",
+      "last_name": "สัมฤทธิ์วัชฌาสัย",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0133",
+      "univ": "KU",
+      "full_name_th": "ดร. อรชา แซ่ตัน",
+      "first_name": "อรชา",
+      "last_name": "แซ่ตัน",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0135",
+      "univ": "KU",
+      "full_name_th": "ดร. เจษฎา วงค์พรหม",
+      "first_name": "เจษฎา",
+      "last_name": "วงค์พรหม",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0136",
+      "univ": "KU",
+      "full_name_th": "ดร. กนกภรณ์ แก้วสง",
+      "first_name": "กนกภรณ์",
+      "last_name": "แก้วสง",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_agro_wave15_0100",
+      "univ": "KU",
+      "full_name_th": "ผศ. วัชรพงศ์ เลิศสุรวัฒน์",
+      "first_name": "Ait",
+      "last_name": "En Watcharaphong Leartsurawat",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_be14cea1_6056",
+      "univ": "KU",
+      "full_name_th": "ดร. วิศกร แสงสุวัน",
+      "first_name": "Withsakorn",
+      "last_name": "Saengsuwan",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_agro_wave15_0013",
+      "univ": "KU",
+      "full_name_th": "ดร. ธรรมฤทธิ์ ขำปลอด",
+      "first_name": "Thammarit",
+      "last_name": "Khamplod",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0015",
+      "univ": "KU",
+      "full_name_th": "ดร. วิลาวัลย์ สินธุประภา",
+      "first_name": "Wilawan",
+      "last_name": "Sintuprapa",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0037",
+      "univ": "KU",
+      "full_name_th": "ดร. ภัทรสุดา ระวิวรรณ",
+      "first_name": "Pattrasuda",
+      "last_name": "Raviwan",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "ku_agro_wave15_0048",
+      "univ": "KU",
+      "full_name_th": "ดร. เจนณัช สดไสย์",
+      "first_name": "Urer",
+      "last_name": "Janenutch Sodsai",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0053",
+      "univ": "KU",
+      "full_name_th": "อ. ศ ดร. ภาณุวัฒน์ สรรพกุล",
+      "first_name": "Associate",
+      "last_name": "Prof Panuwat Suppakul",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0083",
+      "univ": "KU",
+      "full_name_th": "อ. เจนจิรา เหลืองวัฒนะ",
+      "first_name": "Janejira",
+      "last_name": "Luangwattana",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0087",
+      "univ": "KU",
+      "full_name_th": "ผศ. ณัฐดนย์ รุ่งเรืองกิจไกร",
+      "first_name": "Nattadon",
+      "last_name": "Rungruangkitkrai",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0096",
+      "univ": "KU",
+      "full_name_th": "ดร. นันธวุฒิ ลีอมรสิริ",
+      "first_name": "Ait",
+      "last_name": "En Nantawut Leeamornsiri",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_forest_wave15_0008",
+      "univ": "KU",
+      "full_name_th": "ดร. ม.ล. นฤดี เกษมสันต์",
+      "first_name": "ม.ล.",
+      "last_name": "นฤดี เกษมสันต์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0022",
+      "univ": "KU",
+      "full_name_th": "รศ. น.สพ. เกรียงศักดิ์ ไพรหิรัญกิจ",
+      "first_name": "เกรียงศักดิ์",
+      "last_name": "ไพรหิรัญกิจ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0024",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. ภูดิท มณีสาย",
+      "first_name": "Phudit",
+      "last_name": "มณีสาย",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0049",
+      "univ": "KU",
+      "full_name_th": "อ. น.สพ. เกียรติศักดิ์ ตันเจริญ",
+      "first_name": "เกียรติศักดิ์",
+      "last_name": "ตันเจริญ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0051",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. จตุรงค์ วงศ์สนิท",
+      "first_name": "จตุรงค์",
+      "last_name": "วงศ์สนิท",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0056",
+      "univ": "KU",
+      "full_name_th": "อ. พิชัย จิรวัฒนาพงศ์",
+      "first_name": "พิชัย",
+      "last_name": "จิรวัฒนาพงศ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0057",
+      "univ": "KU",
+      "full_name_th": "อ. น.สพ. นรุตม์ ทะนานทอง",
+      "first_name": "Narut",
+      "last_name": "ทะนานทอง",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0072",
+      "univ": "KU",
+      "full_name_th": "ผศ. น.สพ. อมรเทพ อาชวกุลเทพ",
+      "first_name": "อมรเทพ",
+      "last_name": "อาชวกุลเทพ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0082",
+      "univ": "KU",
+      "full_name_th": "อ. ธันยพร บังใบ",
+      "first_name": "Thanyaporn",
+      "last_name": "Bangbai",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0113",
+      "univ": "KU",
+      "full_name_th": "อ.ดร. กรวิทย์ จิตต์บรรยงค์",
+      "first_name": "กรวิทย์",
+      "last_name": "จิตต์บรรยงค์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_4e6c55b7_3815",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. พัชรีนารถ ทรัพย์อาภากร",
+      "first_name": "Patchreenart",
+      "last_name": "Saparpakorn",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_51c76444_9265",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สมเกียรติ นกบิน",
+      "first_name": "Somkiat",
+      "last_name": "Nokbin",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_564f6bd2_7272",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ศุภกิจ อาชีวะวานิช",
+      "first_name": "Supakit",
+      "last_name": "Achiwawanich",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_5f29861a_8033",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สิรี ตั้งบุญสุข",
+      "first_name": "Siree",
+      "last_name": "Tangbunsuk",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_69617028_7176",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ธิตินันท์ กาพย์เกิด",
+      "first_name": "Thitinun",
+      "last_name": "Karpkird",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_7cfed11e_1926",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สุนิสา อัคคะรัสมิโย",
+      "first_name": "Sunisa",
+      "last_name": "Akkarasamiyo",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_7f312dd6_5960",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. วิไล ศิริวัชรไพบูลย์",
+      "first_name": "Wilai",
+      "last_name": "Siriwatcharapiboon",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_forest_wave15_0119",
+      "univ": "KU",
+      "full_name_th": "อ.ดร. พิศุทธุ์ ศิริพันธุ์",
+      "first_name": "พิศุทธุ์",
+      "last_name": "ศิริพันธุ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_15c83bd1_4290",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ธันวาวรรณ ด้วงทองอยู่",
+      "first_name": "Tanwawan",
+      "last_name": "Duangthongyou",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_279cebc6_7178",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. จรรยา เจตนาเสน",
+      "first_name": "Junya",
+      "last_name": "Jettanasen",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_313471a4_3624",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. พิมพา หอมนิรันดร์",
+      "first_name": "Pimpa",
+      "last_name": "Hormnirun",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_42277a73_8010",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ณัฐวัชร เชื้อนพรัตน์",
+      "first_name": "Nutthawat",
+      "last_name": "Chuanopparat",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_436f33dd_7648",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ปกรณ์ วรรธนะอมร",
+      "first_name": "Pakorn",
+      "last_name": "Wattana Amorn",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_60dd92cb_0213",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. พจนารถ สุวรรณรุจิ",
+      "first_name": "Potjanart",
+      "last_name": "Suwanruji",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_26b46fb4_0870",
+      "univ": "KU",
+      "full_name_th": "อ. สมโชค เรืองอิทธินันท์",
+      "first_name": "Somchoke",
+      "last_name": "Ruengittinun",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_2b205080_0714",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พีรดา ยิ่งยวด",
+      "first_name": "Peerada",
+      "last_name": "Yingyuad",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_3bbf7a85_4727",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วิศิษฎ์ หิรัณย์ภิญโญภาศ",
+      "first_name": "Wisit",
+      "last_name": "Hirunpinyopas",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_forest_wave15_0129",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. วาทินี สวนผกา",
+      "first_name": "วาทินี",
+      "last_name": "สวนผกา",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0122",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สาวิตรี พิสุทธิ์พิเชฎฐ์",
+      "first_name": "สาวิตรี",
+      "last_name": "พิสุทธิ์พิเชฎฐ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0123",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ไตรรัตน์ เนียมสุวรรณ",
+      "first_name": "ไตรรัตน์",
+      "last_name": "เนียมสุวรรณ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_agro_wave15_0025",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. มาศอุบล ทองงาม",
+      "first_name": "Asst",
+      "last_name": "Prof Masubon Thongngam",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_6d8f4033_9676",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. รมิดา รัตนคาม",
+      "first_name": "Ramida",
+      "last_name": "Rattanakam",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_agro_wave15_0080",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ปวริน ตันตริยานนท์",
+      "first_name": "Pawarin",
+      "last_name": "Tuntariyanond",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_forest_wave15_0138",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. จิราภรณ์ เทียมพันธ์พงศ์",
+      "first_name": "จิราภรณ์",
+      "last_name": "เทียมพันธ์พงศ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0139",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ชัชชัย ตันตสิรินทร์",
+      "first_name": "ชัชชัย",
+      "last_name": "ตันตสิรินทร์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_agro_wave15_0069",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ธงชัย สุวรรณสิชณน์",
+      "first_name": "Thongchai",
+      "last_name": "Suwonsichon Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0001",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. บัณฑิตา วานิกร",
+      "first_name": "Bandhita",
+      "last_name": "Wanikorn",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0020",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. จิตศิริ ทองสอน ราชตนะพันธุ์",
+      "first_name": "Asst",
+      "last_name": "Prof Chitsiri Rachtanapun",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0024",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พิณทิพย์ รัมภกาภรณ์",
+      "first_name": "Asst",
+      "last_name": "Prof Pinthip Rumpagaporn",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0055",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ปิยะวณี จริยะสกุลโรจน์",
+      "first_name": "Piyawanee",
+      "last_name": "Jariyasakoolroj",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0101",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พรสิริ ชาติปรีชา",
+      "first_name": "Pornsiri",
+      "last_name": "Chatpreecha Ph",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0070",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ทานตะวัน พิรักษ์",
+      "first_name": "Tantawan",
+      "last_name": "Pirak Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_forest_wave15_0084",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พสุธา สุนทรห้าว",
+      "first_name": "Pasutha",
+      "last_name": "Sunthornhao",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0141",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. นฤมล แก้วจำปา",
+      "first_name": "นฤมล",
+      "last_name": "แก้วจำปา",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0085",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พิชิต ลำใย",
+      "first_name": "Pichit",
+      "last_name": "Lamyai",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0086",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. รัชนี โพธิแท่น",
+      "first_name": "Ratchanee",
+      "last_name": "Photitane",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0087",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วีระภาส คุณรัตนสิริ",
+      "first_name": "Weeraphas",
+      "last_name": "Khunrattanasiri",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0088",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ศุภศิษย์ ศรีอักขรินทร์",
+      "first_name": "Suppasit",
+      "last_name": "Sri-akkharin",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0089",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สันติ สุขสอาด",
+      "first_name": "Santi",
+      "last_name": "Suksa-ard",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_forest_wave15_0090",
+      "univ": "KU",
+      "full_name_th": "อ.ดร. ฉัตรพรรษ พงษ์เจริญ",
+      "first_name": "ฉัตรพรรษ",
+      "last_name": "พงษ์เจริญ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0091",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ธารรัตน์ แก้วกระจ่าง",
+      "first_name": "ธารรัตน์",
+      "last_name": "แก้วกระจ่าง",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0147",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สุภัทรา ถึกสถิตย์",
+      "first_name": "สุภัทรา",
+      "last_name": "ถึกสถิตย์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_65bafd24_0438",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. บุญธนา วรรณเลิศ",
+      "first_name": "Boontana",
+      "last_name": "Wannalerse",
+      "method": "TIER4_SCI_URL_SLUG"
+    },
+    {
+      "id": "ku_agro_wave15_0098",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ธนโชติ บุญวรโชติ",
+      "first_name": "Ait",
+      "last_name": "En Assoc Prof Tanachote Boonvorachote Dba Finance",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_forest_wave15_0148",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. อุษารดี ภู่มาลี",
+      "first_name": "อุษารดี",
+      "last_name": "ภู่มาลี",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0150",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. แสงสรรค์ ภูมิสถาน",
+      "first_name": "แสงสรรค์",
+      "last_name": "ภูมิสถาน",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0092",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. นันทชัย พงศ์พัฒนานุรักษ์",
+      "first_name": "นันทชัย",
+      "last_name": "พงศ์พัฒนานุรักษ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0093",
+      "univ": "KU",
+      "full_name_th": "อ.ดร. นันทิดา สุธรรมวงศ์",
+      "first_name": "นันทิดา",
+      "last_name": "สุธรรมวงศ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0094",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. นิสา เหล็กสูงเนิน",
+      "first_name": "นิสา",
+      "last_name": "เหล็กสูงเนิน",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0095",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ประทีป ด้วงแค",
+      "first_name": "ประทีป",
+      "last_name": "ด้วงแค",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0098",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. รองลาภ สุขมาสรวง",
+      "first_name": "รองลาภ",
+      "last_name": "สุขมาสรวง",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_agro_wave15_0072",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. นพรัตน์ ปราบสงบ",
+      "first_name": "Asst",
+      "last_name": "Prof Nopparat Prabsangob Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_forest_wave15_0101",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วัฒนชัย ตาเสน",
+      "first_name": "วัฒนชัย",
+      "last_name": "ตาเสน",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_agro_wave15_0063",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ปิติพร ฤทธิเรืองเดช",
+      "first_name": "Pitiporn",
+      "last_name": "Ritthiruangdej Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_forest_wave15_0102",
+      "univ": "KU",
+      "full_name_th": "ศ.ดร. สราวุธ สังข์แก้ว",
+      "first_name": "สราวุธ",
+      "last_name": "สังข์แก้ว",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0103",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สุธีร์ ดวงใจ",
+      "first_name": "สุธีร์",
+      "last_name": "ดวงใจ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0128",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. รุ่งเรือง พูลศิริ",
+      "first_name": "รุ่งเรือง",
+      "last_name": "พูลศิริ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0137",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. กิติชัย รัตนะ",
+      "first_name": "กิติชัย",
+      "last_name": "รัตนะ",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0104",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. สุวิมล อุทัยรัศมี",
+      "first_name": "สุวิมล",
+      "last_name": "อุทัยรัศมี",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_agro_wave15_0016",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วิรัตน์ วาณิชย์ศรีรัตนา",
+      "first_name": "Assoc",
+      "last_name": "Prof Wirat Vanichsriratana",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0097",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ปรารถนา ปรารถนาดี",
+      "first_name": "Ait",
+      "last_name": "En Assoc Prof Parthana Parthanadee Ph",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0076",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สมบัติ ขอทวีวัฒนา",
+      "first_name": "Sombat",
+      "last_name": "Khotavivattana Professor Emeritus Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0004",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. กิติพงษ์ รัตนาภรณ์",
+      "first_name": "Asst",
+      "last_name": "Prof Kittipong Rattanaporn",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0078",
+      "univ": "KU",
+      "full_name_th": "ศ.ดร. รุ่งนภา พงศ์สวัสดิ์มานิต",
+      "first_name": "Rungnaphar",
+      "last_name": "Pongsawatmanit Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_forest_wave15_0106",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ขรรค์ชัย ประสานัย",
+      "first_name": "ขรรค์ชัย",
+      "last_name": "ประสานัย",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0107",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ชาคริต ณ ตะกั่วทุ่ง",
+      "first_name": "Chakrit",
+      "last_name": "ณ ตะกั่วทุ่ง",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0110",
+      "univ": "KU",
+      "full_name_th": "อ.ดร. ปิยวัตน์ ดิลกสัมพันธ์",
+      "first_name": "ปิยวัตน์",
+      "last_name": "ดิลกสัมพันธ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_agro_wave15_0079",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. อนุวัตร แจ้งชัด",
+      "first_name": "Anuvat",
+      "last_name": "Jangchud Editnp",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0093",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. จุมพล วรสายัณห์",
+      "first_name": "Asst",
+      "last_name": "Prof Jumpol Vorasayan",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_agro_wave15_0099",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ธนิต พุทธพงษ์ศิริพร",
+      "first_name": "Ait",
+      "last_name": "En Asst Prof Thanit Puthpongsiriporn Ph",
+      "method": "TIER3_AGRO_PDF_URL"
+    },
+    {
+      "id": "ku_forest_wave15_0116",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. บัวผัน พวงศิลป์",
+      "first_name": "บัวผัน",
+      "last_name": "พวงศิลป์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0117",
+      "univ": "KU",
+      "full_name_th": "อ.ดร. พงษ์ศักดิ์ เฮงนิรันดร์",
+      "first_name": "พงษ์ศักดิ์",
+      "last_name": "เฮงนิรันดร์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0097",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พฤทธิ์ ราชรักษ์",
+      "first_name": "พฤทธิ์",
+      "last_name": "ราชรักษ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0118",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. พิชิต สมบูรณ์",
+      "first_name": "พิชิต",
+      "last_name": "สมบูรณ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0120",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. วิวัฒน์ หาญวงศ์จิรวัฒน์",
+      "first_name": "วิวัฒน์",
+      "last_name": "หาญวงศ์จิรวัฒน์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0121",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. สมหวัง ขันตยานุวงศ์",
+      "first_name": "สมหวัง",
+      "last_name": "ขันตยานุวงศ์",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0125",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. กอบศักดิ์ วันธงไชย",
+      "first_name": "กอบศักดิ์",
+      "last_name": "วันธงไชย",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_forest_wave15_0100",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. วรงค์ สุขเสวต",
+      "first_name": "วรงค์",
+      "last_name": "สุขเสวต",
+      "method": "TIER5_PHONETIC_EMAIL"
+    },
+    {
+      "id": "ku_7f2eac45_0906",
+      "univ": "KU",
+      "full_name_th": "ผศ.ดร. ธีราพร อนันตะเศรษฐกูล",
+      "first_name": "Teeraporn",
+      "last_name": "Anantasethakul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "ku_2e6bba33_3441",
+      "univ": "KU",
+      "full_name_th": "รศ.ดร. ธิดาพร ศุภภากร",
+      "first_name": "Thidaporn",
+      "last_name": "Supapakorn",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_2ca33b4e_2369",
+      "univ": "CU",
+      "full_name_th": "ศ. พญ. พรพิมล เรียนถาวร",
+      "first_name": "Pornpimol",
+      "last_name": "Rianthavorn",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "chula_eng_cp_duanpen",
+      "univ": "CU",
+      "full_name_th": "รศ. เดือน สินธุพันธ",
+      "first_name": "เดือน",
+      "last_name": "สินธุพันธ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_016_016",
+      "univ": "CU",
+      "full_name_th": "ผศ. มล.ศิริพัสตร์ ไชยันต์",
+      "first_name": "มล.ศิริพัสตร์",
+      "last_name": "ไชยันต์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_018_018",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. นพิดา หิญชีระนันทน์",
+      "first_name": "นพิดา",
+      "last_name": "หิญชีระนันทน์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_026_026",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. รัฐชาติ มงคลนาวิน",
+      "first_name": "Rattachat",
+      "last_name": "มงคลนาวิน",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_029_029",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. พิศิษฐ์ รัตนวรารักษ์",
+      "first_name": "พิศิษฐ์",
+      "last_name": "รัตนวรารักษ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_033_033",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. นฤมล สุวรรณจันทร์ดี",
+      "first_name": "นฤมล",
+      "last_name": "สุวรรณจันทร์ดี",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0082",
+      "univ": "CU",
+      "full_name_th": "ผศ. ก่อเกียรติ ก่อเกียรติคุณ",
+      "first_name": "Korkeat",
+      "last_name": "ก่อเกียรติคุณ",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0083",
+      "univ": "CU",
+      "full_name_th": "รศ. กิติพร พลายมาศ",
+      "first_name": "Kitiporn",
+      "last_name": "พลายมาศ",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0084",
+      "univ": "CU",
+      "full_name_th": "รศ. กีรติ ศรีอมร",
+      "first_name": "Kirati",
+      "last_name": "ศรีอมร",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0089",
+      "univ": "CU",
+      "full_name_th": "รศ. ชัชวิทย์ อาภรณ์เทวัญ",
+      "first_name": "Chatchawit",
+      "last_name": "อาภรณ์เทวัญ",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0090",
+      "univ": "CU",
+      "full_name_th": "ผศ. ฑิตยา หวานวารี",
+      "first_name": "Dittaya",
+      "last_name": "หวานวารี",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0091",
+      "univ": "CU",
+      "full_name_th": "ผศ. ณัฐพล สนพะเนาว์",
+      "first_name": "Nattapon",
+      "last_name": "สนพะเนาว์",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0092",
+      "univ": "CU",
+      "full_name_th": "รศ. ณัฐพันธ์ กิติสิน",
+      "first_name": "Nataphan",
+      "last_name": "กิติสิน",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0093",
+      "univ": "CU",
+      "full_name_th": "รศ. ตวงรัตน์ ไชยชนะ",
+      "first_name": "Tuangrat",
+      "last_name": "ไชยชนะ",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0094",
+      "univ": "CU",
+      "full_name_th": "ศ. ทรงเกียรติ สุเมธกิจการ",
+      "first_name": "Songkiat",
+      "last_name": "สุเมธกิจการ",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0095",
+      "univ": "CU",
+      "full_name_th": "ผศ. ทรรปณ์ ปณิธานะรักษ์",
+      "first_name": "Thap",
+      "last_name": "ปณิธานะรักษ์",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0096",
+      "univ": "CU",
+      "full_name_th": "รศ. ทิพวัลย์ สันติวิภานนท์",
+      "first_name": "Tippawan",
+      "last_name": "สันติวิภานนท์",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0097",
+      "univ": "CU",
+      "full_name_th": "ผศ. ธีรพงษ์ พงษ์พัฒนเจริญ",
+      "first_name": "Teeraphong",
+      "last_name": "พงษ์พัฒนเจริญ",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0098",
+      "univ": "CU",
+      "full_name_th": "รศ. ธีระเดช กิตติภัสสร",
+      "first_name": "Teeradej",
+      "last_name": "กิตติภัสสร",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0142",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. สุจินดา มาลัยวิจิตรนนท์",
+      "first_name": "Suchinda",
+      "last_name": "Malaivijitnond",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "chula_eng_cp_sawat",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. สวัสดิ์ แสงบางปลา",
+      "first_name": "สวัสดิ์",
+      "last_name": "แสงบางปลา",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0143",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. จิรศักดิ์ สุจริต",
+      "first_name": "Chirasak",
+      "last_name": "Sutcharit",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_sci_wave14_b_0145",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ธนะกุล วรรณประเสริฐ",
+      "first_name": "Thanakul",
+      "last_name": "วรรณประเสริฐ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0146",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. สุรีรัตน์ เดี่ยววาณิชย์",
+      "first_name": "Sureerat",
+      "last_name": "เดี่ยววาณิชย์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_pharm_wave16_0035",
+      "univ": "CU",
+      "full_name_th": "รศ. ภก. ดร. บดินทร์ ติวสุวรรณ",
+      "first_name": "Bodin",
+      "last_name": "Tuesuwan",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0040",
+      "univ": "CU",
+      "full_name_th": "ศ. ภก. ดร. ปิติ จันทร์วรโชติ",
+      "first_name": "Pithi",
+      "last_name": "Chanvorachote",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_sci_wave14_b_0149",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. นพดล กิตนะ",
+      "first_name": "Noppadon",
+      "last_name": "กิตนะ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0150",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. จิรารัช กิตนะ",
+      "first_name": "Jirarach",
+      "last_name": "กิตนะ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0151",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. สุกัญญา เจริญพร",
+      "first_name": "Sukanya",
+      "last_name": "เจริญพร",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0152",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. นิพาดา เรือนแก้ว ดิษยทัต",
+      "first_name": "Nipada",
+      "last_name": "เรือนแก้ว ดิษยทัต",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0153",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. อัมพร วิเวกแว่ว",
+      "first_name": "Amporn",
+      "last_name": "วิเวกแว่ว",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0157",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. มารุต เฟื่องอาวรณ์",
+      "first_name": "Marut",
+      "last_name": "เฟื่องอาวรณ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0158",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ณัฐพจน์ วาฤทธิ์",
+      "first_name": "Natapot",
+      "last_name": "วาฤทธิ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0159",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ชิดชัย จันทร์ตั้งสี",
+      "first_name": "Chitchai",
+      "last_name": "จันทร์ตั้งสี",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0161",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ปรวีร์ พรหมโชติ",
+      "first_name": "Porrawee",
+      "last_name": "พรหมโชติ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0163",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ภาณุพงศ์ ธรรมโชติ จรูญโรจน์",
+      "first_name": "Panupong",
+      "last_name": "ธรรมโชติ จรูญโรจน์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0164",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ณัฏฐ์ ทรงวรวิทย์",
+      "first_name": "Nut",
+      "last_name": "ทรงวรวิทย์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0165",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ฉัตรชัย ภู่มาก",
+      "first_name": "Chatchai",
+      "last_name": "ภู่มาก",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_028_028",
+      "univ": "CU",
+      "full_name_th": "ผศ. ฉันทนา อิศรางกูร ณ อยุธยา",
+      "first_name": "ฉันทนา",
+      "last_name": "อิศรางกูร ณ อยุธยา",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0166",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. วรัญญา อรัญวาลัย",
+      "first_name": "Varanya",
+      "last_name": "อรัญวาลัย",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0168",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ชวธัช ธนูสิงห์",
+      "first_name": "Chawatat",
+      "last_name": "ธนูสิงห์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0169",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. อาทิตย์ พลโยธา",
+      "first_name": "Arthit",
+      "last_name": "พลโยธา",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0171",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ขัตพันธุ์ จันทะวงษ์ศรี",
+      "first_name": "Khattapan",
+      "last_name": "จันทะวงษ์ศรี",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0172",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ธีรนัย อิทธิอุดมรักษ์",
+      "first_name": "Teeranai",
+      "last_name": "อิทธิอุดมรักษ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_pharm_wave16_0068",
+      "univ": "CU",
+      "full_name_th": "ผศ. ร.ต.ท.หญิง ภญ. ดร. วลัยศิริ ม่วงศิริ",
+      "first_name": "Walaisiri",
+      "last_name": "Muangsiri",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_sci_wave14_b_0175",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ขนิษฐา ธนานุวงศ์",
+      "first_name": "Kanitha",
+      "last_name": "Tananuwong",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_sci_wave14_b_0177",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. อินทาวุธ สรรพวรสถิตย์",
+      "first_name": "Inthawoot",
+      "last_name": "สรรพวรสถิตย์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0178",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ศานต์ เศรษฐชัยมงคล",
+      "first_name": "Sarn",
+      "last_name": "เศรษฐชัยมงคล",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0180",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ศศิกานต์ กู้พงษ์ศักดิ์",
+      "first_name": "Sasikan",
+      "last_name": "กู้พงษ์ศักดิ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0181",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. วรภา คงเป็นสุข",
+      "first_name": "Varapha",
+      "last_name": "คงเป็นสุข",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0183",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ศิริมา พ่วงประพันธ์",
+      "first_name": "Sirima",
+      "last_name": "พ่วงประพันธ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0184",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ณัฐธิดา โชติช่วง",
+      "first_name": "Nattida",
+      "last_name": "โชติช่วง",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0185",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. สาริศา สุริยรักษ์",
+      "first_name": "Sarisa",
+      "last_name": "สุริยรักษ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0187",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ชญาภา เยี่ยงวีรชน",
+      "first_name": "Chayapa",
+      "last_name": "เยี่ยงวีรชน",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0188",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ธนเทพ เหลืองทองคำ",
+      "first_name": "Tanathep",
+      "last_name": "เหลืองทองคำ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0189",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. สุเมธ กีรติมโนชญ์",
+      "first_name": "Sumate",
+      "last_name": "กีรติมโนชญ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_pharm_wave16_0077",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ศุภกาญจน์ ชำนิ",
+      "first_name": "Supakarn",
+      "last_name": "Chamni",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0090",
+      "univ": "CU",
+      "full_name_th": "รศ. ภญ. ดร. สุรีย์ เจียรณ์มงคล",
+      "first_name": "Suree",
+      "last_name": "Jianmongkol",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0091",
+      "univ": "CU",
+      "full_name_th": "อ. ภก. ดร. อภินันท์ หงษ์ประสิทธิ์",
+      "first_name": "Aphinan",
+      "last_name": "Hongprasert",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_sci_wave14_b_0085",
+      "univ": "CU",
+      "full_name_th": "รศ. คำรณ เมฆฉาย",
+      "first_name": "Khamron",
+      "last_name": "เมฆฉาย",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0103",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ฉัตรชัย ศรีนิติวรวงศ์",
+      "first_name": "Chatchai",
+      "last_name": "Srinitiwarawong",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_sci_wave14_b_0115",
+      "univ": "CU",
+      "full_name_th": "ผศ. พงษ์ ทรงพงษ์",
+      "first_name": "พงษ์",
+      "last_name": "ทรงพงษ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0121",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ยุทธนา รุ่งธรรมสกุล",
+      "first_name": "ยุทธนา",
+      "last_name": "รุ่งธรรมสกุล",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0125",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. วรากร เฮ้งปัญญา",
+      "first_name": "วรากร",
+      "last_name": "เฮ้งปัญญา",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0127",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. วิวิธวินท์ สุขมาศ",
+      "first_name": "Wiwittawin",
+      "last_name": "สุขมาศ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0132",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. สมชาย เกียรติกมลชัย",
+      "first_name": "Somchai",
+      "last_name": "เกียรติกมลชัย",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0133",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. สมฤทธิ์ วงศ์มณีโรจน์",
+      "first_name": "Somrit",
+      "last_name": "วงศ์มณีโรจน์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_2d2c3c69_9193",
+      "univ": "CU",
+      "full_name_th": "รศ. พญ. ฉันท์สุดา พงศ์พันธุ์ผู้ภักดี",
+      "first_name": "Chansuda",
+      "last_name": "Pongphanphuphakdi",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_sci_wave14_b_0136",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. สุคคเณศ ตุงคะสมิต",
+      "first_name": "Sukkaneste",
+      "last_name": "ตุงคะสมิต",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0173",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. กิติพงศ์ อัศตรกุล",
+      "first_name": "Kitipong",
+      "last_name": "Assatarakul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_sci_wave14_b_0176",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. จันทร์ประภา อิ่มจงใจรัก",
+      "first_name": "จันทร์ประภา",
+      "last_name": "อิ่มจงใจรัก",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0179",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ธนจันทร์ มหาวนิช",
+      "first_name": "ธนจันทร์",
+      "last_name": "มหาวนิช",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0182",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ดริษ กวักเพฑูรย์",
+      "first_name": "ดริษ",
+      "last_name": "กวักเพฑูรย์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_001_001",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. วิภาค อนุตรศักดา",
+      "first_name": "Wiphark",
+      "last_name": "Anutrasakda",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_004_004",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ดวงกมล ตุงคะสมิต",
+      "first_name": "Duangkamol",
+      "last_name": "Tungasmita",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_027_027",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. วิจิตร เส็งหะพันธุ์",
+      "first_name": "วิจิตร",
+      "last_name": "เส็งหะพันธุ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_110c7b3b_4291",
+      "univ": "CU",
+      "full_name_th": "รศ. พญ. สุชีรา ฉัตรเพริดพราย",
+      "first_name": "Susheera",
+      "last_name": "Chatproedprai",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_1943e7d0_1792",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. วุทธิชาติ กมลวิศิษฎ์",
+      "first_name": "Vutthichart",
+      "last_name": "Kamolvisit",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_1c9e5701_5649",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. ภัทรียา ยศธแสนย์",
+      "first_name": "Pattareeya",
+      "last_name": "Yotatasaen",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_30088d18_9706",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. พิชมณญ์ วิไลศักดิ์ทิพากรณ์",
+      "first_name": "Pitchamon",
+      "last_name": "Wilaisakthipakorn",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_36cd8481_4094",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. ภวินท์ กออนันตกุล",
+      "first_name": "Phawin",
+      "last_name": "Ko-anantakul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_3ec53089_7672",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. สาธิดา พูนมากสถิตย์",
+      "first_name": "Sathida",
+      "last_name": "Poonmaksathit",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_4396528d_1770",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. สิทธิโชค ประจวบธัญชาติ",
+      "first_name": "Sitthichok",
+      "last_name": "Prachuabthanyachart",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_44a87407_4573",
+      "univ": "CU",
+      "full_name_th": "รศ. พญ. อรภา สุธีโรจน์ตระกูล",
+      "first_name": "Orapa",
+      "last_name": "Suteerojntrakool",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_474b6f99_1032",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. รุ่งโรจน์ ตั้งพงษ์",
+      "first_name": "Rungroj",
+      "last_name": "Tangpong",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_51a29f1f_2857",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. พรชฎา ศรีสิงหสงคราม",
+      "first_name": "Pornchada",
+      "last_name": "Sreesinghasongkram",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_53f23650_3968",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. นาฎวดี อังควัฒนะพงษ์",
+      "first_name": "Natwadee",
+      "last_name": "Angkawattanapong",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_5a063309_2882",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. รุ่งโรจน์ มนัสปรีเปรม",
+      "first_name": "Rungroj",
+      "last_name": "Manaspreeprem",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_5f7580c0_6111",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. สุดา จิรสกุลเดช",
+      "first_name": "Suda",
+      "last_name": "Jirasakuldej",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_654212d7_0305",
+      "univ": "CU",
+      "full_name_th": "รศ. นพ. ธวัชชัย ดีขจรเดช",
+      "first_name": "Thawatchai",
+      "last_name": "Deekajorndech",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_66bb5769_0589",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. ธนิตนันท์ ภาปราชญ์",
+      "first_name": "Thanitnun",
+      "last_name": "Paprach",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_690ce0a2_7200",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. ชวิศาร์ รัศมีหิรัญ",
+      "first_name": "Chawisa",
+      "last_name": "Ratsameehirun",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_71e09b26_3037",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. ปุณยวีร์ เอกไพบูลย์",
+      "first_name": "Punyawee",
+      "last_name": "Ekpaiboon",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_76bc9671_9278",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. คมศักดิ์ ศรีลัญฉกร",
+      "first_name": "Komsak",
+      "last_name": "Srilunchakorn",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "chula_eng_cp_009",
+      "univ": "CU",
+      "full_name_th": "ผศ. สุยุชน์ สัตยประกอบ",
+      "first_name": "Phaisan",
+      "last_name": "Mongkolkitchareon",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_46a830cc_0361",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ปิติพร กิติรัตน์ตระการ",
+      "first_name": "ปิติพร",
+      "last_name": "กิติรัตน์ตระการ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_pharm_wave16_0021",
+      "univ": "CU",
+      "full_name_th": "ผศ. ภก. ดร. ณฐพล พรพุทธพงศ์",
+      "first_name": "Nathapol",
+      "last_name": "Pornputtapong",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0052",
+      "univ": "CU",
+      "full_name_th": "รศ. ร.ต.ท.หญิง ภญ. ดร. ภูรี อนันตโชติ",
+      "first_name": "Puree",
+      "last_name": "Anantachoti",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_002_002",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ธนากร วาสนาเพียรพงศ์",
+      "first_name": "Thanakorn",
+      "last_name": "Wasanapiarnpong",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_003_003",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. เสริมพงศ์ สายเรี่ยม",
+      "first_name": "Sermpong",
+      "last_name": "Sairiam",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_011_011",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. ดวงดาว อาจองค์",
+      "first_name": "Duangdao",
+      "last_name": "Aht-ong",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_012_012",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. พรพจน์ เปี่ยมสมบูรณ์",
+      "first_name": "Pornpote",
+      "last_name": "Piumsomboon",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_27dd0683_9841",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. พญ. ศิรินุช ชมโท",
+      "first_name": "Sirinuch",
+      "last_name": "Chomtho",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_43de41f1_8045",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. นพ. วิฌาน บุญจินดาทรัพย์",
+      "first_name": "Wichan",
+      "last_name": "Boonjindasup",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_66cdbeb7_0464",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. พญ. วรรษมน จันทรเบญจกุล",
+      "first_name": "Watsamon",
+      "last_name": "Jantarabenjakul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_015_015",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. ศุภวรรณ ตันตยานนท์",
+      "first_name": "Supawan",
+      "last_name": "Tantayanon",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_020_020",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. อรัญ อินเจริญศักดิ์",
+      "first_name": "อรัญ",
+      "last_name": "อินเจริญศักดิ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_031_031",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. อุดมศิลป์ ปิ่นสุข",
+      "first_name": "อุดมศิลป์",
+      "last_name": "ปิ่นสุข",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_154_154",
+      "univ": "CU",
+      "full_name_th": "อ. น.สพ. ประสงค์ เตมียาจล",
+      "first_name": "Prasong",
+      "last_name": "Temeyachol",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_2187ab61_1599",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. สุกัญญา สมไพบูลย์",
+      "first_name": "Sukanya",
+      "last_name": "สมไพบูลย์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_pharm_wave16_0007",
+      "univ": "CU",
+      "full_name_th": "อ. ภญ. ดร. จันทิมา เมทนีธร",
+      "first_name": "Janthima",
+      "last_name": "Methaneethorn",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_156_156",
+      "univ": "CU",
+      "full_name_th": "รศ. น.สพ. ดานิศ ทวีติยานนท์",
+      "first_name": "Danis",
+      "last_name": "Taveetiyanont",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_3d8a1ae8_8419",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ลักษณ์นัยน์ ทรงเสี่",
+      "first_name": "Luxsnai",
+      "last_name": "ทรงเสี่",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_ahs_wave15_0006",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ทนพญ. ญาณีนาถ สุวรรณวงศ์",
+      "first_name": "Yaneenart",
+      "last_name": "Suwanwong",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_sci_wave14_b_0102",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. กิตติพิชญ์ อยู่ประเสริฐชุติ",
+      "first_name": "Kittipitch",
+      "last_name": "Yooprasertchuti",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_65283ea6_1225",
+      "univ": "CU",
+      "full_name_th": "ผศ. พญ. ลลิดา ก้องเกียรติกุล",
+      "first_name": "Lalida",
+      "last_name": "Kongkiattikul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_sci_wave14_b_0128",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ศุภณัฐ ธนศิลป์",
+      "first_name": "Suppanut",
+      "last_name": "ธนศิลป์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_ahs_wave15_0048",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. สุวิมล ทรัพย์วโรบล",
+      "first_name": "Suwimol",
+      "last_name": "Sapwarobol",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_172de699_5850",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ธนสิน ชุตินธรานนท์",
+      "first_name": "Thanasin",
+      "last_name": "Chutintharanond",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_7ab92317_2603",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ฐิตินัน บุญภาพ",
+      "first_name": "Thitinan",
+      "last_name": "บุญภาพ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_ahs_wave15_0016",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ธันยวัน สวนทวี",
+      "first_name": "Tanyawan",
+      "last_name": "Suwantawee",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_sci_wave14_b_0154",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. นนทิวิชญ ตัณฑวณิช",
+      "first_name": "Nontivich",
+      "last_name": "ตัณฑวณิช",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0134",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. สลิลพร กิตติวัฒนากูล",
+      "first_name": "Salinporn",
+      "last_name": "กิตติวัฒนากูล",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_22cda09a_8885",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. เจษฎา",
+      "first_name": "Jessada",
+      "last_name": "Salathong",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_1b818c94_5665",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ปิติพร กิติรัตน์",
+      "first_name": "Pitipon",
+      "last_name": "Kitirat",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_330f21bb_8208",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. นภวรรณ ตันติเวชกุ",
+      "first_name": "Napawan",
+      "last_name": "ตันติเวชกุ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_3708922f_5923",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. วิศวัส ปัญญาวงศ์",
+      "first_name": "Visawat",
+      "last_name": "ปัญญาวงศ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_4fc66b00_7893",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ณัฐนัย เลิศปรีชาภักดี",
+      "first_name": "Nuttanai",
+      "last_name": "เลิศปรีชาภักดี",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_66ebdc57_3771",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. กมลรัตน์ กิจรุ่",
+      "first_name": "Kamonrat",
+      "last_name": "กิจรุ่",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_7c4b84f6_7153",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ไกรวุฒิ จุ",
+      "first_name": "Graiwoot",
+      "last_name": "จุ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chula_eng_cp_itthiphol",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. อิทธิพล ผดุงชีวิต",
+      "first_name": "อิทธิพล",
+      "last_name": "ผดุงชีวิต",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_019_019",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. สมเกียรติ งามประเสริฐสิทธิ์",
+      "first_name": "สมเกียรติ",
+      "last_name": "งามประเสริฐสิทธิ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_005_005",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ชัชวาล ใจซื่อกุล",
+      "first_name": "Chatchawan",
+      "last_name": "Chaisuekul",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0072",
+      "univ": "CU",
+      "full_name_th": "อ. ภก. ดร. วิรุฬห์ คงคติธรรม",
+      "first_name": "Virunh",
+      "last_name": "Kongkatithum",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_030_030",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ขจรยศ อยู่ดี",
+      "first_name": "ขจรยศ",
+      "last_name": "อยู่ดี",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chula_eng_cp_024",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. วิทยา วัชระวิทยากุล",
+      "first_name": "วิทยา",
+      "last_name": "วัชระวิทยากุล",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_1621c51c_0991",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. กฤษพร สัจจวรกุล",
+      "first_name": "Kritsaporn",
+      "last_name": "Sajjavorakul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_13a2f74a_0607",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. สรวิศ ชื่นบุญงาม",
+      "first_name": "Sorawit",
+      "last_name": "Chuenboongarm",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_14427bc5_6964",
+      "univ": "CU",
+      "full_name_th": "ศ. นพ. อิศรางค์ นุชประยูร",
+      "first_name": "Issarang",
+      "last_name": "Nuchprayoon",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_1c4c1677_5488",
+      "univ": "CU",
+      "full_name_th": "ผศ. พญ. ณัฐกานต์ นำศรีสกุลรัตน์",
+      "first_name": "Natthakan",
+      "last_name": "Namsrisakulrat",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_1cf62f01_1595",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. พีรพร พงศ์ศุภะมงคล",
+      "first_name": "Peeraporn",
+      "last_name": "Pongsupamongkol",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_29e8caea_0719",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. นวพร พิพัฒนติกานันท์",
+      "first_name": "Navaporn",
+      "last_name": "Pipatnartikanan",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_2c479ea9_2925",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. เอกรินทร์ เมฆอังกูร",
+      "first_name": "Ekkarin",
+      "last_name": "Mekangkoon",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_2f12a705_3897",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. ขวัญรัตน์ ไหวดี",
+      "first_name": "Kwanrat",
+      "last_name": "Whaidee",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_2f4d2b7c_6989",
+      "univ": "CU",
+      "full_name_th": "รศ. พญ. อังคนีย์ ชะนะกุล",
+      "first_name": "Angkanee",
+      "last_name": "Chanakul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_330e861a_1360",
+      "univ": "CU",
+      "full_name_th": "ผศ. พญ. ปาริชาต ขาวสุทธิ์",
+      "first_name": "Parichat",
+      "last_name": "Khaosut",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_33a0a456_6211",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. สุภานัน เลาหสุรโยธิน",
+      "first_name": "Supanan",
+      "last_name": "Laohasurayodhin",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_3d534212_5343",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. สุธา เอี่ยมกุลบุตร",
+      "first_name": "Sutha",
+      "last_name": "Eamkulbutr",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_3e8ac586_0998",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. อนงค์นาถ ศิริทรัพย์",
+      "first_name": "Anongnart",
+      "last_name": "Sirisup",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_4152bf1f_1270",
+      "univ": "CU",
+      "full_name_th": "ศ. พญ. ดารินทร์ ซอโสตถิกุล",
+      "first_name": "Darin",
+      "last_name": "Sosothikul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_43549ae1_5787",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. การะเกด จันทวรางกูร",
+      "first_name": "Karaked",
+      "last_name": "Chantawarangkul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_4d4049a3_6892",
+      "univ": "CU",
+      "full_name_th": "รศ. นพ. กฤษณชัย ชมโท",
+      "first_name": "Krisnachai",
+      "last_name": "Chomtho",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_51027735_9788",
+      "univ": "CU",
+      "full_name_th": "ศ. นพ. วีระศักดิ์ ชลไชยะ",
+      "first_name": "Weerasak",
+      "last_name": "Chonchaiya",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_5214d014_6921",
+      "univ": "CU",
+      "full_name_th": "ศ. พญ. ธนินี สหกิจรุ่งเรือง",
+      "first_name": "Thaninee",
+      "last_name": "Sahakitrungruang",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_6b47c217_7940",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. วาทิศ นิยมการ",
+      "first_name": "Vathis",
+      "last_name": "Niyomkarn",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_72b1dbfa_3574",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. กาญจน์หทัย เชียงทอง",
+      "first_name": "Karnhathai",
+      "last_name": "Chiangthong",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_75bd42e9_4426",
+      "univ": "CU",
+      "full_name_th": "ผศ. นพ. วิทวัส ลออคุณ",
+      "first_name": "Wittawat",
+      "last_name": "La-orkhun",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_76c66bb0_4013",
+      "univ": "CU",
+      "full_name_th": "อ. นพ. ศิรวุฒ ตรีภัทรชยากร",
+      "first_name": "Sirawut",
+      "last_name": "Treepattrachayakorn",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_78534e3d_3453",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. ชมชนัท ทับเจริญ",
+      "first_name": "Chomchanat",
+      "last_name": "Tubcharoen",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_7a92db3b_8594",
+      "univ": "CU",
+      "full_name_th": "รศ. นพ. ทายาท ดีสุดจิต",
+      "first_name": "Tayard",
+      "last_name": "Desudchit",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_7b90bb61_8782",
+      "univ": "CU",
+      "full_name_th": "ศ. นพ. รุจิภัตต์ สำราญสำรวจกิจ",
+      "first_name": "Rujipat",
+      "last_name": "Samransamruajkit",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_7c599d05_9140",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. ณัฐธิดา ภานิชาภัทร",
+      "first_name": "Natthida",
+      "last_name": "Panichapat",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_7d344651_5231",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. รับพร สุนทรโลหะนะกูล",
+      "first_name": "Rubporn",
+      "last_name": "Soonthornlohanakul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_89e2d008_0318",
+      "univ": "CU",
+      "full_name_th": "อ. พญ. นภาพร จันทศรีสวัสดิ์",
+      "first_name": "Napaporn",
+      "last_name": "Chantasrisawad",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_d230ba49_4285",
+      "univ": "CU",
+      "full_name_th": "รศ. นพ. เทอดพงศ์ เต็มภาคย์",
+      "first_name": "Therdpong",
+      "last_name": "Tempark",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_53f62e97_2307",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. พญ. ณศมน วรรณลภากร",
+      "first_name": "Nasamon",
+      "last_name": "Wanlapakorn",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_169c37c0_8068",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. พญ. กัญญา ศุภปีติพร",
+      "first_name": "Kanya",
+      "last_name": "Suphapeetiporn",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_013_013",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. จิตรตรา เพียภูเขียว",
+      "first_name": "Jittra",
+      "last_name": "Piapukiew",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_3990a060_8811",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. พญ. นริศรา สุรทานต์นนท์",
+      "first_name": "Narisara",
+      "last_name": "Suratanont",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_441e04ea_6918",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. พญ. สุวพร อนุกูลเรืองกิตติ์",
+      "first_name": "Suwaporn",
+      "last_name": "Anugulruengkitt",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_648cb049_1544",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. พญ. ชนนิกานต์ วิสูตรานุกูล",
+      "first_name": "Chonnikant",
+      "last_name": "Visutranukul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_ea6106d6_0666",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. นพ. วิชิต สุพรศิลป์ชัย",
+      "first_name": "Wichit",
+      "last_name": "Supornsilpchai",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "chula_eng_cp_025",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. วิเทศ เตชางาม",
+      "first_name": "วิเทศ",
+      "last_name": "เตชางาม",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_032_032",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. อรรถกฤต ฉัตรภูติ",
+      "first_name": "Auttakit",
+      "last_name": "ฉัตรภูติ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_166_166",
+      "univ": "CU",
+      "full_name_th": "อ. สพ.ญ. ดร. กมลทิพย์ ถึงรัตน์",
+      "first_name": "Kamoltip",
+      "last_name": "Thungrat",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_157_157",
+      "univ": "CU",
+      "full_name_th": "รศ. น.สพ. ดร. สมเกียรติ ทาจำปา",
+      "first_name": "Somkiat",
+      "last_name": "Tachampa",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_152_152",
+      "univ": "CU",
+      "full_name_th": "อ. น.สพ. ม.ร.ว.ชนาญวัต เทวกุล",
+      "first_name": "Chananyawat",
+      "last_name": "Devakul",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_151_151",
+      "univ": "CU",
+      "full_name_th": "ศ. พ.ท.น.สพ. หลวงชัยอัศวรักษ์",
+      "first_name": "Luang",
+      "last_name": "Chai-aswarak",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chula_eng_cp_006",
+      "univ": "CU",
+      "full_name_th": "รศ. เดือน สินธุพันธ์ประทุม",
+      "first_name": "Duen",
+      "last_name": "Sinthupanprathum",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chula_eng_cp_007",
+      "univ": "CU",
+      "full_name_th": "รศ. บริบูรณ์ วงศ์สารศรี",
+      "first_name": "Boriboon",
+      "last_name": "Wongsarsri",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "chula_eng_cp_026",
+      "univ": "CU",
+      "full_name_th": "อ. ชัชวาล วงศ์ศิริประเสริฐ",
+      "first_name": "ชัชวาล",
+      "last_name": "วงศ์ศิริประเสริฐ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chula_eng_cp_028",
+      "univ": "CU",
+      "full_name_th": "อ. วีระชาติ วหาวิศาล",
+      "first_name": "วีระชาติ",
+      "last_name": "วหาวิศาล",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofv_fac_155_155",
+      "univ": "CU",
+      "full_name_th": "ศ. มานิต พยัคฆนันทน์",
+      "first_name": "Manit",
+      "last_name": "Payaknan",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_sci_wave14_b_0081",
+      "univ": "CU",
+      "full_name_th": "ศ. กฤษณะ เนียมมณี",
+      "first_name": "Kritsana",
+      "last_name": "เนียมมณี",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0099",
+      "univ": "CU",
+      "full_name_th": "รศ. นกุล คูหะโรจนานนท์",
+      "first_name": "Nagul",
+      "last_name": "คูหะโรจนานนท์",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0100",
+      "univ": "CU",
+      "full_name_th": "ผศ. นฤมล ประทานวณิช",
+      "first_name": "Naruemon",
+      "last_name": "ประทานวณิช",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0101",
+      "univ": "CU",
+      "full_name_th": "ผศ. นิธิ รุ่งธนาภิรมย์",
+      "first_name": "Nithi",
+      "last_name": "รุ่งธนาภิรมย์",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0086",
+      "univ": "CU",
+      "full_name_th": "รศ. จริยา อุ่ยยะเสถียร",
+      "first_name": "Chariya",
+      "last_name": "อุ่ยยะเสถียร",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_pharm_wave16_0064",
+      "univ": "CU",
+      "full_name_th": "รศ. ภญ. ดร. วรางคณา วารีสน้อยเจริญ",
+      "first_name": "Varangkana",
+      "last_name": "Vareesnoicharoen",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_209c52e6_0852",
+      "univ": "CU",
+      "full_name_th": "อ. ทิพยาพร ภาววิ",
+      "first_name": "Tippayaporn",
+      "last_name": "ภาววิ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_pharm_wave16_0086",
+      "univ": "CU",
+      "full_name_th": "รศ. ภญ. ดร. สุธีรา เตชคุณวุฒิ",
+      "first_name": "Suthira",
+      "last_name": "Taychakhoonavudh",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_ahs_wave15_0029",
+      "univ": "CU",
+      "full_name_th": "ผศ. กภ. ภูษิตา บริสุทธิกุล",
+      "first_name": "Phusita",
+      "last_name": "Borisuthipandit",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0013",
+      "univ": "CU",
+      "full_name_th": "ผศ. ภญ. ดร. จุฑารัตน์ กิจส่งเสริมธน",
+      "first_name": "Jutarat",
+      "last_name": "Kitsongsermthon",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0018",
+      "univ": "CU",
+      "full_name_th": "รศ. ภก. ดร. ชาญกิจ พุฒิเลอพงศ์",
+      "first_name": "Chankit",
+      "last_name": "Puttilerpong",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0019",
+      "univ": "CU",
+      "full_name_th": "อ. ภก. ดร. ชาวี เหล่ามีผล",
+      "first_name": "Chawee",
+      "last_name": "Laomeephol",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0037",
+      "univ": "CU",
+      "full_name_th": "รศ. ภก. ดร. บุญชู ศรีตุลารักษ์",
+      "first_name": "Boonchoo",
+      "last_name": "Sritularak",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0041",
+      "univ": "CU",
+      "full_name_th": "อ. ภก. พงศกร กิจเสรี",
+      "first_name": "Pongsakorn",
+      "last_name": "Kitseree",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0079",
+      "univ": "CU",
+      "full_name_th": "ศ. ภญ. ดร. สมฤทัย วัชราวิวัฒน์",
+      "first_name": "Somruthai",
+      "last_name": "Watcharawiwat",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_pharm_wave16_0083",
+      "univ": "CU",
+      "full_name_th": "ศ. ร.ต.อ.หญิง ภญ. ดร. สุชาดา สุขหร่อง",
+      "first_name": "Suchada",
+      "last_name": "Sukrong",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_sci_wave14_b_0087",
+      "univ": "CU",
+      "full_name_th": "รศ. จารุโลจน์ จงสถิตย์วัฒนา",
+      "first_name": "Jaruloj",
+      "last_name": "จงสถิตย์วัฒนา",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "cu_sci_wave14_b_0088",
+      "univ": "CU",
+      "full_name_th": "รศ. จิราพรรณ สุนทรโชติ",
+      "first_name": "Jiraphan",
+      "last_name": "สุนทรโชติ",
+      "method": "TIER3_MATH_SLUG"
+    },
+    {
+      "id": "chula_eng_cp_030",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. แคน บุญญาวาณิชย์",
+      "first_name": "แคน",
+      "last_name": "บุญญาวาณิชย์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_1e3e6825_1059",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. กมลรัตน์ กิจรุ่งไพศาล",
+      "first_name": "กมลรัตน์",
+      "last_name": "กิจรุ่งไพศาล",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_297107a0_9281",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ปภาภรณ์ ไชยหาญชาญชั",
+      "first_name": "Papaporn",
+      "last_name": "ไชยหาญชาญชั",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0162",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. เกรียง กาญจนวตี",
+      "first_name": "Krieng",
+      "last_name": "กาญจนวตี",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_576a6a10_0657",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ไกรวุฒิ จุลพงศธร",
+      "first_name": "ไกรวุฒิ",
+      "last_name": "จุลพงศธร",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_64ef3505_3579",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. ชเนตตี ทิ",
+      "first_name": "Chanettee",
+      "last_name": "ทิ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_010_010",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. อภิชาติ",
+      "first_name": "Apichart",
+      "last_name": "Im-amornphan",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_sci_wave14_b_0110",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. นรพัทธ์ ศรีมโนภาษ",
+      "first_name": "Norraphat",
+      "last_name": "ศรีมโนภาษ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0118",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ภาวิน อิทธิสมัย",
+      "first_name": "Pawin",
+      "last_name": "อิทธิสมัย",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0119",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. มนต์เทียน เทียนประทีป",
+      "first_name": "Montian",
+      "last_name": "เทียนประทีป",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0129",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. โศจิพงศ์ ฉัตราภรณ์",
+      "first_name": "Sojiphong",
+      "last_name": "ฉัตราภรณ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0131",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. สธน วิจารณ์วรรณลักษณ์",
+      "first_name": "Sathon",
+      "last_name": "วิจารณ์วรรณลักษณ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_pharm_wave16_0063",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ภญ. วรรณา ศรีวิริยานุภาพ",
+      "first_name": "Wanna",
+      "last_name": "Sriviriyanupap",
+      "method": "TIER1_MANUAL_ID"
+    },
+    {
+      "id": "cu_324b07ab_4553",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. สราวุธ อนันตชาติ",
+      "first_name": "Saravudh",
+      "last_name": "อนันตชาติ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "chulalongk_facultyofs_fac_022_022",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. เก็จวลี พฤกษาทร",
+      "first_name": "เก็จวลี",
+      "last_name": "พฤกษาทร",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0155",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. ปิโยรส ทองเกิด",
+      "first_name": "Piyoros",
+      "last_name": "ทองเกิด",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0109",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. นคร ไพศาลกิตติสกุล",
+      "first_name": "Nakorn",
+      "last_name": "Phaisankittisakul",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_sci_wave14_b_0117",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ไพศาล ตู้ประกาย",
+      "first_name": "ไพศาล",
+      "last_name": "ตู้ประกาย",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0139",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. อรรณพ เอกธาราวงศ์",
+      "first_name": "อรรณพ",
+      "last_name": "เอกธาราวงศ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0141",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. จันทร์เพ็ญ จันทร์เจ้า",
+      "first_name": "Chanpen",
+      "last_name": "Chanchao",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_sci_wave14_b_0144",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. บัณฑิกา อารีย์กุล บุทเชอร์",
+      "first_name": "Buntika",
+      "last_name": "อารีย์กุล บุทเชอร์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0147",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. พงชัย หาญยุทธนากร",
+      "first_name": "Pongchai",
+      "last_name": "หาญยุทธนากร",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0148",
+      "univ": "CU",
+      "full_name_th": "รศ.ดร. วิเชฏฐ์ คนซื่อ",
+      "first_name": "Wichase",
+      "last_name": "คนซื่อ",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0156",
+      "univ": "CU",
+      "full_name_th": "ผศ.ดร. ธงชัย งามประเสริฐวงศ์",
+      "first_name": "Thongchai",
+      "last_name": "งามประเสริฐวงศ์",
+      "method": "TIER4_PHONETIC_EMAIL"
+    },
+    {
+      "id": "cu_sci_wave14_b_0174",
+      "univ": "CU",
+      "full_name_th": "ศ.ดร. อุบลรัตน์ สิริภัทราวรรณ",
+      "first_name": "Ubonratana",
+      "last_name": "Siripatrawan",
+      "method": "TIER2_CLEAN_TH_MAP"
+    },
+    {
+      "id": "cu_sci_wave14_b_0186",
+      "univ": "CU",
+      "full_name_th": "อ.ดร. นนทชา ธนธรวรากุล",
+      "first_name": "Nonthacha",
+      "last_name": "ธนธรวรากุล",
+      "method": "TIER4_PHONETIC_EMAIL"
+    }
+  ]
+}

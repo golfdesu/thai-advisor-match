@@ -47,6 +47,24 @@ def get_grad_program_keys(db: Session) -> Set[Tuple[str, str]]:
     return _GRAD_PROGRAM_KEYS
 
 
+def compute_match_tier(score: float, has_direct_evidence: bool = False) -> Tuple[str, str]:
+    """
+    Graded Placement Tiers (TypeSafe Ordered Tier Pattern):
+    - Tier 4: Score >= 85%, or score >= 80% with direct publication/interest evidence -> ที่ปรึกษาหลักตรงสาย
+    - Tier 3: Score >= 70% -> ที่ปรึกษาร่วม
+    - Tier 2: Score >= 55% -> กรรมการสอบ / เชิงระเบียบวิธี
+    - Tier 1: Score < 55% -> หัวข้อวิจัยกว้าง
+    """
+    if score >= 85.0 or (score >= 80.0 and has_direct_evidence):
+        return "Tier 4", "ที่ปรึกษาหลักตรงสาย"
+    elif score >= 70.0:
+        return "Tier 3", "ที่ปรึกษาร่วม"
+    elif score >= 55.0:
+        return "Tier 2", "กรรมการสอบ / เชิงระเบียบวิธี"
+    else:
+        return "Tier 1", "หัวข้อวิจัยกว้าง"
+
+
 def is_grad_backed(keys: Set[Tuple[str, str]], university_th: str | None, faculty_th: str | None) -> bool:
     if not keys:
         return False
@@ -275,9 +293,13 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
         explanation = embedding_service.generate_smart_explanation(
             query_str, fac_model, score, matched_kws, matching_pubs
         )
+        has_direct = bool(matching_pubs or matched_kws)
+        tier_id, tier_lbl = compute_match_tier(score, has_direct)
         results.append(SearchMatchResult(
             faculty=fac_model,
             match_score=round(score, 1),
+            match_tier=tier_id,
+            match_tier_label=tier_lbl,
             ai_explanation=explanation,
             matched_keywords=matched_kws[:4],
             matching_publications=matching_pubs[:2],
@@ -426,9 +448,14 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                     request.query, fac_model, ux_score, matched_kws, matching_pubs
                 )
 
+                has_direct = bool(matching_pubs or matched_kws)
+                tier_id, tier_lbl = compute_match_tier(ux_score, has_direct)
+
                 candidate_item = SearchMatchResult(
                     faculty=fac_model,
                     match_score=ux_score,
+                    match_tier=tier_id,
+                    match_tier_label=tier_lbl,
                     ai_explanation=explanation,
                     matched_keywords=matched_kws[:4] if matched_kws else [request.query],
                     matching_publications=matching_pubs[:2],

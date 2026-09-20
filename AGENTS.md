@@ -4,7 +4,9 @@
 > [!IMPORTANT]
 > **Strict Process Compliance & Zero-Bypass Policy:**
 > 1. **Master Architecture & Runbook:** Refer to [`PROJECT_STRUCTURE_AND_WORKFLOW.md`](./PROJECT_STRUCTURE_AND_WORKFLOW.md) for the complete directory index, 5-stage acquisition SOP, and CLI runbooks before taking action in new sessions.
-> 2. **Mandatory SKILL.state / Zero In-Chat Crawling:** When instructed to acquire, scrape, search, or enrich faculty (including missing emails/profiles), curriculum, or laboratory data, NEVER run ad-hoc multi-turn scrapers in chat or parse raw HTML/DOM in conversation turns. You MUST strictly execute the designated Autonomous Pipeline CLI Runners (`python backend/scripts/agentic_pipeline/cli_runner.py` for `SKILL.state`). Keep all crawling, Trafilatura pruning, and RapidFuzz dedup headlessly in Python to maintain a flat token footprint (<2,000 tokens/turn). Never manually synthesize data.
+> 2. **Mandatory SKILL.state / Zero In-Chat Crawling:**
+>    - **DETERMINISTIC TRIGGER**: Whenever asked to acquire, scrape, crawl, search, harvest, or enrich faculty (including missing emails/profiles), curriculum, or laboratory data (e.g. keywords: `scrape`, `crawl`, `ดึงข้อมูล`, `หาอาจารย์`, `หาอีเมล`, `harvest`, `enrich`), you MUST immediately invoke `Skill(skill="skill-state")` and execute the designated Autonomous Pipeline CLI Runners (`python backend/scripts/agentic_pipeline/run_acquire.py` or `cli_runner.py`).
+>    - **STRICT PROHIBITION**: NEVER write one-off ad-hoc scraping scripts, never run Playwright/requests/curl interactively in conversation turns, and never parse raw HTML/DOM in chat. Keep all crawling, Trafilatura pruning, and RapidFuzz dedup headlessly in Python to maintain a flat token footprint (<2,000 tokens/turn). Never manually synthesize data.
 > 3. **Process Integrity Over Speed:** Always follow the full lifecycle: Real-time Extraction/Crawl → State Reducer (RapidFuzz Dedup & Title Normalization) → Disk Checkpointing (`backend/data/agent_states/`) → Multi-Threaded Vectorization → Database Commit.
 > 4. **Adhere to Defined Skills & Protocols:** If a specialized agent skill exists (e.g., `data-acquire-faculty-elites`, `data-acquire-academic`, `db-optimization`), you MUST execute according to that skill's documented CLI tools and architectural contracts.
 
@@ -196,7 +198,10 @@ The project implements the 3-Layer **WikiSkill Architecture** for autonomous dat
 - **Layer 3 (Active Skills):** `Teacher/.claude/skills/` and `Teacher/.agents/skills/`.
 
 ### Specialized Skills:
-- **Database Tuning:** `.agents/skills/db-optimization/SKILL.md`
+- **SKILL.state Autonomous Pipeline:** `.claude/skills/skill-state/SKILL.md` & `.agents/skills/skill-state/SKILL.md` (Mandatory headless web scraping & faculty data acquisition engine)
+- **Faculty Data Quality & Zero-Defect Audit:** `.claude/skills/faculty-audit/SKILL.md` & `.agents/skills/faculty-audit/SKILL.md` (Automates 10-dimensional audit protocol)
+- **Stage 6 Unlisted Faculty Discovery & Quarantine:** `.claude/skills/faculty-discover/SKILL.md` & `.agents/skills/faculty-discover/SKILL.md` (OpenAlex 2024–2026 mining with confidence scoring & quarantine)
+- **Database Tuning & pgvector Optimization:** `.claude/skills/db-optimize/SKILL.md` & `.agents/skills/db-optimization/SKILL.md` (HNSW cosine indexes, GIN trigram, column deferrals)
 - **Academic Faculty Acquisition (SKILL.state & WikiSkill):** `.agents/skills/data-acquire-academic/SKILL.md` & `data-acquire-faculty-elites/SKILL.md`
 - **Curriculum & Tuition Discovery:** `.agents/skills/data-curriculum-tuition-discovery/SKILL.md`
 - **Scraper & SPA Builders:** `.agents/skills/data-build-scraper/SKILL.md` & `data-scrape-spa/SKILL.md`
