@@ -1,59 +1,59 @@
-# Thai EduCenter & Advisor Match: โครงสร้างโปรเจค ขั้นตอนการทำงาน และสารบัญระบบแม่บท (Master Architecture & Runbook)
+# Thai EduCenter & Advisor Match: Project Structure, Workflow & Master Runbook
 
-> **สำหรับ AI Model / Developer ที่เข้ามารับช่วงต่อใน Session ใหม่:**
-> เอกสารฉบับนี้คือ **Single Source of Truth** ที่รวบรวมสารบัญไฟล์, สถาปัตยกรรมระบบ, ขั้นตอนการทำงานมาตรฐาน (SOP), กฎเหล็กความปลอดภัย, และข้อควรระวังเพื่อป้องกันข้อผิดพลาด 100% โปรดอ่านและปฏิบัติตามอย่างเคร่งครัด
-
----
-
-## 1. บทนำและเป้าหมายของโปรเจค (Project Mission)
-
-**Thai EduCenter** (ประกอบด้วยระบบ **Thai Advisor Match**) คือแพลตฟอร์มค้นหาข้อมูลการศึกษาต่อระดับปริญญาโท-เอกในประเทศไทย ช่วยให้นักศึกษาและนักวิจัยสามารถ:
-1. **AI Semantic Advisor Matching:** ค้นหาอาจารย์ที่ปรึกษาวิทยานิพนธ์ด้วยหัวข้องานวิจัย/บทคัดย่อ (ทั้งภาษาไทยและอังกฤษ) คำนวณเปอร์เซ็นต์ความเข้ากัน (% Match Score) ผ่าน `pgvector` และเวกเตอร์ 768 มิติของ Gemini
-2. **Curriculum & Tuition Discovery:** ค้นหาหลักสูตรการศึกษา ข้อมูลค่าเล่าเรียน ระยะเวลาศึกษา จำนวนหน่วยกิต และสายอาชีพ
-3. **Research Labs Interlinking:** สำรวจห้องปฏิบัติการวิจัยชั้นนำระดับชาติ (104 Labs) และเชื่อมโยง 2 ทางกับอาจารย์หัวหน้าห้องแล็บ
-4. **RIASEC Career Discovery Quiz:** แบบทดสอบจิตวิทยา 3 ระดับเพื่อจับคู่นักศึกษากับสายงานวิชาการที่เหมาะสม
+> **For AI Models and Developers joining in a new session:**
+> This document is the **Single Source of Truth** compiling directory indexes, system architecture, Standard Operating Procedures (SOP), security invariants, and audited bug-prevention rules. Read and adhere to this document strictly.
 
 ---
 
-## 2. สารบัญโครงสร้างไฟล์และโฟลเดอร์ (Project Directory Index & TOC)
+## 1. Project Mission & Overview
+
+**Thai EduCenter** (incorporating **Thai Advisor Match**) is a higher-education discovery platform for graduate programs (Master's and Ph.D.) and faculty advisors in Thailand. The system provides:
+1. **AI Semantic Advisor Matching:** Matches thesis topics and research abstracts (in Thai and English) with prospective advisors, calculating a % Match Score via `pgvector` and Gemini 768-dimensional embeddings.
+2. **Curriculum & Tuition Discovery:** Enables searching academic programs, tuition fees, program duration, credit requirements, and career pathways.
+3. **Research Labs Interlinking:** Explores national flagship research laboratories (104 Labs) with bidirectional linking to lead advisors.
+4. **RIASEC Career Discovery Quiz:** A 3-tier psychological assessment aligning students with fitting academic disciplines and research specializations.
+
+---
+
+## 2. Project Directory Index & Table of Contents
 
 ```text
 Teacher/
-├── CHANGELOG.md                                   # บันทึกประวัติการเปลี่ยนแปลงและการขยายระบบตามวันที่
-├── compose.yaml                                   # Docker Compose: PostgreSQL 17 + pgvector + pgAdmin 4
-├── PROJECT_STRUCTURE_AND_WORKFLOW.md             # [เอกสารนี้] สารบัญแม่บทและคู่มือการทำงานสำหรับ AI / Dev
-├── README.md                                      # เอกสารแนะนำโปรเจคเบื้องต้น
-├── AGENTS.md / CLAUDE.md                          # กฎการทำงานและข้อห้ามระดับระบบสำหรับ AI Agents
+├── CHANGELOG.md                                   # Chronological changelog of releases, schema updates, and audits
+├── compose.yaml                                   # Docker Compose Spec: PostgreSQL 17 + pgvector + pgAdmin 4
+├── PROJECT_STRUCTURE_AND_WORKFLOW.md             # [This Document] Master architecture, workflow, and index
+├── README.md                                      # Project overview and quickstart guide
+├── AGENTS.md / CLAUDE.md                          # Absolute operational invariants and rules for AI agents
 │
 ├── docker/
-│   └── init.sql                                   # สคริปต์ Init Database (Extensions, ตาราง, HNSW & GIN Indexes)
+│   └── init.sql                                   # Database initialization (Extensions, Schemas, HNSW & GIN Indexes)
 │
 ├── frontend/                                      # Next.js 16 Super App UI (Port 3000)
 │   ├── package.json                               # Next.js 16, React 19, Lucide React, Tailwind CSS v4
-│   ├── next.config.ts                             # Image Domain Whitelisting (ac.th, unsplash, avatars)
-│   ├── tsconfig.json                              # Path alias @/* ชี้ไปยัง ./src/*
+│   ├── next.config.ts                             # Image domain allowlists (ac.th, unsplash, avatars)
+│   ├── tsconfig.json                              # Path alias @/* pointing to ./src/*
 │   └── src/
 │       ├── app/
-│       │   ├── layout.tsx                         # Root Layout, Theme Providers, Head Script
-│       │   ├── page.tsx                           # หน้าแรก (Hero, Quick Search, Popular Chips)
+│       │   ├── layout.tsx                         # Root Layout, Theme Providers, Head Scripts
+│       │   ├── page.tsx                           # Landing page (Hero, Quick Search, Popular Chips)
 │       │   ├── globals.css                        # Tailwind v4 Directives (@import "tailwindcss"; @theme)
-│       │   ├── advisor/[id]/page.tsx              # หน้ารายละเอียดอาจารย์ (โปรไฟล์, กราฟ, ผลงาน, งานวิจัย)
-│       │   ├── labs/[id]/page.tsx                 # หน้ารายละเอียดห้องปฏิบัติการวิจัย (เครื่องมือ, สมาชิก)
-│       │   └── career-discovery/page.tsx          # หน้าแบบประเมิน RIASEC Quiz
+│       │   ├── advisor/[id]/page.tsx              # Advisor profile page (Metrics, Graph, Works, Interests)
+│       │   ├── labs/[id]/page.tsx                 # Research Lab detail page (Equipment, Members)
+│       │   └── career-discovery/page.tsx          # RIASEC Career Discovery Quiz page
 │       ├── components/
-│       │   ├── AdvisorCard.tsx                    # การ์ดแสดงผลอาจารย์ + Synergy Badges + Tier Badges
-│       │   ├── CourseCard.tsx                     # การ์ดแสดงผลหลักสูตร
-│       │   ├── LabCard.tsx                        # การ์ดแสดงผลห้องวิจัย
-│       │   ├── FilterBar.tsx                      # ตัวกรองมหาวิทยาลัย, คณะ, ภูมิภาค, และ Performance Tier
-│       │   ├── Header.tsx / Footer.tsx            # ส่วนหัวและส่วนท้ายของเว็บไซต์
-│       │   └── ...                                # UI Components อื่นๆ
+│       │   ├── AdvisorCard.tsx                    # Advisor card + Synergy Badges + Match Tier Badges
+│       │   ├── CourseCard.tsx                     # Academic curriculum card
+│       │   ├── LabCard.tsx                        # Research laboratory card
+│       │   ├── FilterBar.tsx                      # Filters for University, Faculty, Region, and Tier
+│       │   ├── Header.tsx / Footer.tsx            # Global application header and footer
+│       │   └── ...                                # Modal and helper UI components
 │       ├── lib/
-│       │   ├── config.ts                          # API Base URLs, Helper URLs (Avatar fallback)
-│       │   └── dsa.ts                             # Client-side LRU Cache สำหรับแคชผลการค้นหา
+│       │   ├── config.ts                          # API Base URLs, avatar helpers, external links
+│       │   └── dsa.ts                             # Client-side LRU Cache for query responses
 │       └── types/
-│           └── index.ts                           # Single Source of Truth สำหรับ TypeScript Interfaces ทั้งหมด
+│           └── index.ts                           # Central TypeScript interfaces (Single Source of Truth)
 │
-├── backend/                                       # FastAPI API & Data Engine (Port 8000)
+├── backend/                                       # FastAPI API & Scraping Engine (Port 8000)
 │   ├── requirements.txt                           # fastapi, sqlalchemy, pgvector, google-genai, rapidfuzz
 │   ├── app/
 │   │   ├── main.py                                # FastAPI App, Middleware (CORS, GZip, RateLimit), LifeSpan
@@ -68,13 +68,13 @@ Teacher/
 │   │   │   └── schema.py                          # Pydantic DTOs (FacultyResponse, SearchQuery, LabResponse)
 │   │   └── api/
 │   │       ├── routes_search.py                   # Semantic & Lexical Hybrid Search (pgvector HNSW + BM25)
-│   │       ├── routes_faculty.py                  # API ข้อมูลอาจารย์, รายชื่อ, กรองตามภาควิชา/มหาวิทยาลัย
-│   │       ├── routes_courses.py                  # API หลักสูตรและค่าเล่าเรียน
-│   │       ├── routes_labs.py                     # API ห้องปฏิบัติการวิจัยและการเชื่อมโยงอาจารย์
-│   │       └── routes_career_quiz.py              # API ประมวลผล RIASEC Quiz
+│   │       ├── routes_faculty.py                  # Faculty retrieval, directory listing, and filters
+│   │       ├── routes_courses.py                  # Curriculum and tuition discovery API
+│   │       ├── routes_labs.py                     # Research labs and advisor interlinking API
+│   │       └── routes_career_quiz.py              # RIASEC Quiz processing API
 │   │
 │   ├── data/
-│   │   └── agent_states/                          # Checkpointed Extraction State JSONs (Wave 1 to Wave 20)
+│   │   └── agent_states/                          # Checkpointed Extraction State JSONs (Waves 1 to 20)
 │   │       ├── wave17_ku_forest_extracted.json
 │   │       ├── wave18_ku_forest_regional_extracted.json
 │   │       ├── wave19_cu_gaps_extracted.json
@@ -83,84 +83,104 @@ Teacher/
 │   │       └── wave20_apply_log.json             # W20: rollback journal of overwritten names
 │   │
 │   ├── scripts/                                   # Automation Scripts & Pipelines
-│   │   ├── agentic_pipeline/                      # Pipeline ประมวลผลและลดรูปข้อมูล
-│   │   │   ├── state_reducer.py                   # ตัดคำนำหน้า (Thai/EN), RapidFuzz Deduplication, Merge Logic
-│   │   │   ├── content_pruner.py                  # ตัด HTML Boilerplate (LLMLingua/Trafilatura)
-│   │   │   └── cli_runner.py                      # CLI Runner สำหรับรัน Autonomous Pipeline
+│   │   ├── agentic_pipeline/                      # Autonomous SKILL.state Extraction Engine
+│   │   │   ├── state_reducer.py                   # Prefix stripper (Thai/EN), RapidFuzz Dedup, Merge Logic
+│   │   │   ├── content_pruner.py                  # HTML boilerplate stripper (Trafilatura)
+│   │   │   ├── run_acquire.py                     # Shorthand CLI runner for fast acquisition
+│   │   │   └── cli_runner.py                      # Full CLI Runner for Autonomous Pipeline
 │   │   ├── dream_rsi/                             # Dream-RSI Adaptation (Replay Simulators & Offline Policy Tuning)
-│   │   │   ├── simulator_faculty_recovery.py      # Replay Simulator จำลองการขุดอีเมลอาจารย์ (Zero Network/LLM cost)
-│   │   │   ├── simulator_dedup_policy.py          # Replay Simulator สำหรับจูนเกณฑ์ Entity Resolution & 3-Pass Dedup
+│   │   │   ├── simulator_faculty_recovery.py      # Replay simulator for faculty email discovery (Zero Network/LLM cost)
+│   │   │   ├── simulator_dedup_policy.py          # Replay simulator for Entity Resolution & 3-Pass Dedup tuning
 │   │   │   └── benchmark_dsa_engineering.py       # Algorithmic Engineering Harness + 100% Bit-level Parity Verification
-│   │   ├── crawlers/                              # สคริปต์ Web Crawler แยกตาม Wave
+│   │   ├── crawlers/                              # Targeted Web Crawlers segmented by Wave
 │   │   │   ├── crawl_wave13_flagships.py          # Intania CU, KU Science, PSU Agro
 │   │   │   ├── crawl_wave14_flagships.py          # MU Science, KKU Science, KKU Agri, CU Science
 │   │   │   ├── crawl_wave15_flagships.py          # CU Dent, CU AHS, PSU Med, KU Agro, KU Vet, KU Forestry
 │   │   │   ├── crawl_wave16_flagships.py          # KMITL AAD, KMITL SIET, CU Pharm, KKU Pharm, TSE
 │   │   │   ├── crawl_wave17_ku_forest.py          # KU Forest: Social Sci, Humanities, Business, Econ, Environment, Vet Tech
-│   │   │   ├── crawl_wave18_ku_forest_regional.py # KU Forest Closeout: remaining Bang Khen + KPS/Sriracha/Sakon Nakhon (20 faculties)
+│   │   │   ├── crawl_wave18_ku_forest_regional.py # KU Forest Closeout: remaining Bang Khen + KPS/Sriracha/Sakon Nakhon
 │   │   │   └── crawl_wave19_cu_gaps.py            # CU Gap Closeout: Law, PolSci, Econ, Edu (API), Psy rosters
-│   │   ├── audits/                                # เครื่องมือตรวจสอบสุขอนามัยของฐานข้อมูล
-│   │   │   ├── verify_db_stats.py                 # ตรวจสอบจำนวนข้อมูลและ Null Embeddings
-│   │   │   └── merge_duplicate_faculties.py       # ตรวจสอบและควบรวมข้อมูลซ้ำซ้อน
-│   │   ├── migrate_supabase_to_local.py           # สตรีมข้อมูลจาก Supabase ลง Docker Local
-│   │   ├── enrich_wave20_english_names.py         # W20: หาชื่ออังกฤษ 6-tier + apply (journal ย้อนกลับได้)
+│   │   ├── audits/                                # Database Hygiene & Audit Tools
+│   │   │   ├── verify_db_stats.py                 # Verifies record counts and detects null embeddings
+│   │   │   ├── verify_zero_defect_baseline.py     # 10-dimensional zero-defect audit runner
+│   │   │   └── merge_duplicate_faculties.py       # Canonical 3-pass deduplication and merging tool
+│   │   ├── enrichment/                            # Data Enrichment & Discovery
+│   │   │   ├── discover_unlisted_faculty.py       # OpenAlex 2024-2026 unlisted faculty discovery + quarantine
+│   │   │   └── audit_former_faculty.py            # Emeritus and former faculty audit runner
+│   │   ├── migrate_supabase_to_local.py           # Supabase to Local Docker PostgreSQL hydration stream
+│   │   ├── enrich_wave20_english_names.py         # W20: 6-tier English name discovery + journaled apply
 │   │   ├── enrich_openalex_author_metrics.py      # OpenAlex probe: h-index/citations (sentinel + canary)
-│   │   └── sync_local_to_supabase.py              # ซิงค์ข้อมูลที่ผ่านการทดสอบขึ้น Cloud Supabase
+│   │   └── sync_local_to_supabase.py              # Synchronizes verified local data to production Supabase
 │   │
 │   └── tests/                                     # Pytest Test Suite
-│       ├── test_search.py                         # ทดสอบ API Search, Filters, Lab Interlinking
-│       ├── test_agentic_pipeline.py               # ทดสอบ State Reducer, Title Stripping, PDPA Redaction
-│       ├── test_audited_bug_regressions.py        # ทดสอบป้องกัน Regression 10 ข้อหลัก
-│       ├── test_taxonomy_and_regional_search.py   # ทดสอบระบบจัดหมวดหมู่และค้นหาระดับภูมิภาค
-│       ├── test_wikiskill.py                      # ทดสอบ WikiSkill Architecture
-│       └── test_dream_rsi_simulators.py           # ทดสอบ Dream-RSI Replay Simulators & Parity Harness
+│       ├── test_search.py                         # Tests Search API, Filters, Lab Interlinking, Match Tiers
+│       ├── test_agentic_pipeline.py               # Tests State Reducer, Title Stripping, PDPA Redaction
+│       ├── test_audited_bug_regressions.py        # Tests preventing 10 core audited bug regressions
+│       ├── test_taxonomy_and_regional_search.py   # Tests taxonomy classification and regional search
+│       ├── test_wikiskill.py                      # Tests WikiSkill Layer 1-3 Architecture
+│       └── test_dream_rsi_simulators.py           # Tests Dream-RSI Replay Simulators & Parity Harness
 │
-└── .agents/ & memory/                             # ระบบความจำระยะยาว (Persistent Long-term Memory)
-    ├── memory/
-    │   ├── MEMORY.md                              # สารบัญ Memory ของระบบ
-    │   ├── future-data-acquisition-roadmap.md     # Roadmap ความคืบหน้าการขยายข้อมูล (Status 14,015)
-    │   ├── hold-supabase-sync-until-local-complete.md # กฎ Local-First Zero-Egress
-    │   └── antipatterns-and-bug-prevention.md     # กฎเหล็กป้องกันข้อผิดพลาดที่ผ่านการออดิตแล้ว
-    └── .agents/skills/                            # Domain Automation Skills (db-optimization, etc.)
+├── .claude/ & .agents/                            # Long-term Memory, WikiSkill & Native Domain Skills
+│   ├── skills/                                    # Native Active Agent Skills
+│   │   ├── skill-state/SKILL.md                   # Mandatory headless data acquisition skill (run_acquire.py)
+│   │   ├── faculty-audit/SKILL.md                 # 10-dimensional faculty data quality audit (Zero-Defect)
+│   │   ├── faculty-discover/SKILL.md              # Stage 6 unlisted faculty discovery (OpenAlex 2024-2026 + Quarantine)
+│   │   ├── db-optimize/SKILL.md                   # PostgreSQL 17 + pgvector tuning (HNSW, GIN, Defer)
+│   │   ├── data-acquire-faculty-elites/SKILL.md   # National & university outstanding faculty acquisition
+│   │   ├── data-acquire-academic/SKILL.md         # Curriculum, course metadata, and academic discovery
+│   │   └── data-curriculum-tuition-discovery/     # Tuition discovery and academic program search
+│   ├── wiki/                                      # WikiSkill Persistent Knowledge (universities & patterns)
+│   │   ├── WIKI_INDEX.md                          # Master index of compiled WikiSkill knowledge
+│   │   ├── universities/                          # University faculty directory structures and endpoints
+│   │   └── patterns/                              # Extraction patterns, edge cases, and cleaning rules
+│   └── raw_traces/                                # Immutable Execution Traces (Layer 1)
+│
+└── memory/                                        # Persistent Context Memory
+    ├── MEMORY.md                                  # Auto-memory index
+    ├── top-5-universities-zero-defect-baseline.md # 9,642 Top 5 faculty zero-defect verification baseline
+    ├── faculty-data-recovery-patterns.md          # Master runbook for 5-stage audit and 5-step unlisted discovery
+    ├── hold-supabase-sync-until-local-complete.md # Local-First Zero-Egress Invariant rule
+    ├── antipatterns-and-bug-prevention.md         # Audited bug prevention and quality invariants
+    └── native-skills-architecture.md              # Documentation of 4 native Claude Code / Agent skills
 ```
 
 ---
 
-## 3. สถาปัตยกรรมและเทคโนโลยีหลัก (Core Technology Stack & Contracts)
+## 3. Core Technology Stack & Architectural Contracts
 
 ### 3.1 Frontend (Next.js 16 + React 19 + Tailwind CSS v4)
-* **Tailwind CSS v4:** กำหนดค่าผ่าน CSS Directives ใน `frontend/src/app/globals.css` (ใช้ `@import "tailwindcss";` และ `@theme`, **ห้ามสร้าง `tailwind.config.js` เด็ดขาด**)
-* **App Router & Client Components:** คอมโพเนนต์ที่มีการใช้ React Hooks (`useState`, `useEffect`, `useRouter`, `useSearchParams`) ต้องประกาศ `"use client";` ไว้บนสุดเสมอ
+* **Tailwind CSS v4:** Configured via CSS Directives in `frontend/src/app/globals.css` (using `@import "tailwindcss";` and `@theme`, **`tailwind.config.js` is strictly forbidden**).
+* **App Router & Client Components:** Interactive components using React hooks (`useState`, `useEffect`, `useRouter`, `useSearchParams`) MUST declare `"use client";` at the top of the file.
 * **Image Optimization (Zero Cumulative Layout Shift - CLS = 0):**
-  * ห้ามใช้แท็ก `<img>` ธรรมดา ให้ใช้ `<Image />` จาก `next/image` เท่านั้น
-  * กำหนด `width`/`height` ชัดเจน หรือใช้ `fill` ร่วมกับ `relative` container พร้อมระบุ `sizes`
-  * มี Fallback เสมอโดยใช้ `getAdvisorAvatarUrl(name)` เมื่อโหลดภาพจริงไม่สำเร็จ
-  * อนุญาตโดเมนภาพใน `next.config.ts` เช่น `**.ac.th`, `**.edu`, `images.unsplash.com`, `ui-avatars.com`
-* **TypeScript Strictness:** ห้ามเขียน `interface` หรือ `type` ซ้ำซ้อนในแต่ละไฟล์ ให้ import จาก `@/types` เท่านั้น
+  * Do not use standard `<img>` tags. Always use `<Image />` from `next/image`.
+  * Specify explicit `width`/`height` or use `fill` within a `relative` container along with a descriptive `sizes` attribute.
+  * Always provide a clean fallback via `getAdvisorAvatarUrl(name)` when the remote image fails to load.
+  * Whitelist remote image domains in `next.config.ts` (e.g. `**.ac.th`, `**.edu`, `images.unsplash.com`, `ui-avatars.com`).
+* **TypeScript Strictness:** Never declare duplicate `interface` or `type` blocks in individual components. Always import contracts from `@/types`.
 
 ### 3.2 Backend (FastAPI + SQLAlchemy 2.0 + Pydantic v2)
-* **Python 3.12+ Syntax:** ใช้ Type Hints มาตรฐาน (`str | None`, `list[str]`)
+* **Python 3.12+ Syntax:** Use standard type annotations (`str | None`, `list[str]`).
 * **Pydantic v2:**
-  * ใช้ `model.model_dump()` และ `model.model_dump_json()` (ห้ามใช้ `dict()` หรือ `json()`)
-  * การ Validate ใช้ `@field_validator("field", mode="before")`
-  * การแปลง SQLAlchemy ORM ใช้ `ConfigDict(from_attributes=True)`
-* **High Performance DSA:**
-  * ใช้ `TopKHeap` (Min-Heap $O(N \log K)$) ในการคัดเลือก Top Candidates แทนการ Sort ทั้งก้อน ($O(N \log N)$)
-  * ใช้ `LRUCache` ในการเก็บเวกเตอร์คำค้นหา (0.001ms latency)
-  * เปิดใช้ `GZipMiddleware(minimum_size=1000)` เพื่อบีบอัดขนาด Payload ลง 75-85%
+  * Use `model.model_dump()` and `model.model_dump_json()` (never deprecated `dict()` or `json()`).
+  * Validate using `@field_validator("field", mode="before")`.
+  * For SQLAlchemy ORM model conversions, use `ConfigDict(from_attributes=True)`.
+* **High-Performance DSA Primitives:**
+  * Use `TopKHeap` (Min-Heap $O(N \log K)$) to filter top candidates instead of sorting the entire candidate array ($O(N \log N)$).
+  * Use backend `LRUCache` to store query vector embeddings for 0.001ms repeated lookups.
+  * Enable `GZipMiddleware(minimum_size=1000)` to compress API payloads by 75–85%.
 
 ### 3.3 Database & Vector Search (Local PostgreSQL 17 + pgvector)
-* **Local-First Zero-Egress Invariant:** การทำ Crawling, State Reduction, Deduplication, Vector Embedding และ Commit **ต้องทำกับ Local Docker PostgreSQL (`localhost:5432/advisor_match`) เท่านั้น** ห้ามสตรีมข้อมูลขึ้น Supabase Cloud โดยไม่ได้รับคำสั่งอนุมัติ เพื่อป้องกันโควตา Egress รั่วไหล
-* **Vector Embeddings:** เวกเตอร์ขนาด **768 มิติ** สร้างด้วยโมเดล Google Gemini (`gemini-embedding-2` หรือ fallback `gemini-embedding-001`)
+* **Local-First Zero-Egress Invariant:** All crawling, state reduction, deduplication, vector embedding generation, and commits **MUST run against the local Docker PostgreSQL database (`localhost:5432/advisor_match`)**. Never stream high-throughput ingestion pipelines directly against remote Supabase to protect egress bandwidth quotas.
+* **Vector Embeddings:** 768-dimensional float arrays generated via Google Gemini (`gemini-embedding-2` or fallback `gemini-embedding-001`).
 * **Database Indexes:**
-  * HNSW Cosine Index สำหรับเวกเตอร์: `ix_faculties_embedding_hnsw`
-  * GIN Trigram Index สำหรับค้นหาชื่อภาษาไทย: `idx_faculties_name_th_trgm`
+  * HNSW Cosine Distance Index for vector search: `ix_faculties_embedding_hnsw`
+  * GIN Trigram Index for Thai text search: `idx_faculties_name_th_trgm`
 
 ---
 
-## 4. ขั้นตอนการทำงานมาตรฐานในการขยายข้อมูล (Data Acquisition SOP Lifecycle)
+## 4. Standard Data Acquisition SOP Lifecycle
 
-เมื่อได้รับมอบหมายให้ดึงข้อมูลคณาจารย์ใน Wave ถัดไป (เช่น Wave 17, 18, ...) ต้องปฏิบัติตาม **วงจร 5 ขั้นตอน (5-Step Lifecycle)** อย่างเคร่งครัด **ห้ามข้ามขั้นตอนหรือสร้างข้อมูลขึ้นมาเองโดยไม่ได้ Crawl เด็ดขาด**:
+When tasked with acquiring faculty or academic data for a wave, you must adhere strictly to the **5-Step Lifecycle**. **Never skip steps or fabricate synthetic data**:
 
 ```text
 [Step 1: Real-time Web Crawl] 
@@ -174,109 +194,120 @@ Teacher/
 [Step 5: Local DB Commit & Verification] -> PostgreSQL 17 (34/34 Tests + Next.js Build)
 ```
 
-### รายละเอียดในแต่ละขั้นตอน:
+### Detailed Phase Execution:
 1. **Step 1: Reverse-Engineering & Crawling:**
-   * ตรวจสอบ Endpoint ของมหาวิทยาลัย/คณะเป้าหมาย (สังเกต AJAX API, WordPress REST API, หรือ HTML Directory)
-   * สกัดข้อมูล: ชื่อไทย-อังกฤษ, คำนำหน้า, คณะ, ภาควิชา, อีเมลทางการ, รูปภาพ, ความเชี่ยวชาญ/งานวิจัย
+   * Inspect the target university/faculty endpoints (identify AJAX endpoints, WordPress REST APIs, or HTML directory pages).
+   * Extract: Thai/English names, academic titles, faculty, department, official academic email, profile image URL, and research domains.
 2. **Step 2: State Reduction & Thai Title Normalization:**
-   * ใช้ฟังก์ชัน `strip_all_titles(name)` และ `normalize_thai_title_and_name(raw_name)`
-   * นำรายชื่อไปทำ RapidFuzz Deduplication กับฐานข้อมูล Local (`fuzz.token_set_ratio >= 90`)
-   * หากพบว่ามีอยู่แล้ว: ทำการ **Enrich** ข้อมูล (เติมอีเมล, เติมรูปภาพ, รวม research interests) โดยไม่สร้างแถวซ้ำ
-   * หากเป็นคนใหม่: จัดเข้ากลุ่ม **New Members** เพื่อสร้างเวกเตอร์
+   * Execute `strip_all_titles(name)` and `normalize_thai_title_and_name(raw_name)`.
+   * Run RapidFuzz deduplication against the local database (`fuzz.token_set_ratio >= 90`).
+   * If existing: **Enrich** the existing record (add missing email, image, union research interests) without creating duplicate rows.
+   * If new: Append to **New Members** for vectorization.
 3. **Step 3: Disk Checkpointing:**
-   * บันทึก Raw Extracted JSON ลงใน `backend/data/agent_states/waveXX_flagships_extracted.json` ทันที เพื่อรองรับกรณีเน็ตหลุดหรือเครื่องดับ สามารถ resume ได้โดยไม่ต้อง crawl ใหม่
+   * Checkpoint the raw extracted state to `backend/data/agent_states/waveXX_flagships_extracted.json` immediately to support recovery without re-crawling.
 4. **Step 4: Multi-Client Thread-Safe Vectorization:**
-   * ดึง API Keys จาก `settings.GEMINI_API_KEYS` นำมาสร้าง Pool ของ `genai.Client`
-   * ใช้ ThreadPoolExecutor ร่วมกับ Key Rotation และ Exponential Backoff (เมื่อเจอ HTTP 429 ให้ sleep และลองโมเดล fallback `gemini-embedding-001`)
-   * ผลลัพธ์ต้องได้เวกเตอร์ 768 มิติจำนวนครบถ้วน 100% (Null Embeddings = 0)
+   * Pool `genai.Client` instances using keys in `settings.GEMINI_API_KEYS`.
+   * Use `ThreadPoolExecutor` with Key Rotation and Exponential Backoff (on HTTP 429, back off and fall back to `gemini-embedding-001`).
+   * Ensure 100% completion of 768-dimensional embeddings (Null Embeddings = 0).
 5. **Step 5: Bulk Database Commit & Autonomous Verification:**
-   * บันทึกข้อมูลลงฐานข้อมูล Local PostgreSQL
-   * รันชุดทดสอบ Backend: `pytest backend/tests -v` (ต้องผ่านครบ 34 ข้อ)
-   * รันบิลด์ Frontend: `npm --prefix frontend run build` (ต้องผ่านปราศจากข้อผิดพลาด)
-   * อัปเดตเอกสาร `CHANGELOG.md` และ `memory/future-data-acquisition-roadmap.md`
+   * Commit the batch to local PostgreSQL.
+   * Run backend test suite: `pytest backend/tests -v` (must pass 34/34 tests).
+   * Run frontend build: `npm --prefix frontend run build` (must compile cleanly with zero errors).
+   * Update `CHANGELOG.md` and relevant roadmap files.
 
 ---
 
-## 5. กฎเหล็กและข้อควรระวังเพื่อป้องกันข้อผิดพลาด (Absolute Invariants & Antipatterns)
+## 5. Absolute Operational Invariants & Antipatterns
 
-### 1. กฎห้ามสร้างข้อมูลสังเคราะห์เอง (No Direct Synthesis / Manual Shortcuts)
-* ห้ามเขียนข้อมูลชื่ออาจารย์หรือข้อมูลคณะขึ้นมาเองในไฟล์โค้ดเพื่อความรวดเร็ว ต้องมาจากการรันสคริปต์ Crawl ข้อมูลจริงจากเว็บไซต์ของมหาวิทยาลัยเท่านั้น
+### 1. No Synthetic Data Generation (Strict Real-World Grounding)
+* Never manually synthesize or hallucinate faculty members, departments, or research outputs in code. All data must originate from authentic university directories or verified OpenAlex scholarly profiles.
 
-### 2. ข้อห้ามเรื่อง Regex คำนำหน้าภาษาไทย (Thai Regex Boundary Safety)
-* **ห้ามใช้ `r"ดร\.?"` เด็ดขาด:** ภาษาไทยไม่มีการเว้นวรรคคำ การใช้เครื่องหมาย `?` หลังจุด จะทำให้ Regex ตัดชื่อคนไทยที่ขึ้นต้นด้วย "ดร" เช่น "ดรุณี", "ดรัลพร" กลายเป็น "ุณี", "ัลพร" ซึ่งทำให้ชื่อเสียหายถาวร
-* **สิ่งที่ต้องใช้:** ต้องบังคับให้มีจุดเสมอ เช่น `r"ดร\."` หรือ `r"ดร\s+"` เท่านั้น
+### 2. Thai Regex Boundary Delimiter Safety
+* **Never use `r"ดร\.?"`:** Thai does not use whitespace between words. An optional period `?` causes greedy matches on common Thai names starting with "ดร" (e.g. "ดรุณี", "ดรัลพร"), truncating them to "ุณี" and "ัลพร".
+* **Safe Pattern:** Always require an explicit period or whitespace delimiter: `r"ดร\."` or `r"ดร\s+"`.
 
-### 3. การป้องกันความผิดพลาดในภาษา Python และ ORM
-* **Defensive Null-Coalescing:** ข้อมูลในฐานข้อมูล (JSON, List, Text) สามารถเป็น `None` ได้ ห้ามเขียน `db_obj.field[:3]` ตรงๆ โดยเด็ดขาด ให้เขียน `(db_obj.field or [])[:3]` เสมอ เพื่อป้องกัน runtime `TypeError` (HTTP 500)
-* **Memory-Conscious Queries:** ห้ามรัน `db.query(FacultyDB).all()` ในจุดที่มีการดึงเวกเตอร์ขนาด 768 มิติของคนหลายพันคนพร้อมกัน ให้ใช้ `options(defer(FacultyDB.embedding)).yield_per(500)` เมื่อต้องการสแกนเฉพาะฟิลด์ข้อความ
-* **Pydantic v2 Coercion:** เมื่อ Gemini ส่งผลลัพธ์เป็น JSON ค่า Array อาจเป็น `null` ซึ่ง Pydantic v2 จะ reject ทันทีแม้จะใส่ `default_factory=list` ให้ใส่ `@field_validator("...", mode="before")` เพื่อแปลง `None` เป็น `[]` เสมอ
+### 3. Defensive Python & ORM Coding
+* **Defensive Null-Coalescing:** Database JSON, Array, and Text columns can be `None`. Never slice `db_obj.field[:3]` directly; always coalesce: `(db_obj.field or [])[:3]` to avoid runtime `TypeError` (HTTP 500).
+* **Memory-Conscious Queries:** Never perform unconstrained `db.query(FacultyDB).all()` across thousands of 768-dim float arrays. Use `options(defer(FacultyDB.embedding)).yield_per(500)` when scanning scalar fields.
+* **Pydantic v2 List Coercion:** When LLMs return JSON, list fields may be `null`. Pydantic v2 rejects `None` even with `default_factory=list`. Declare `@field_validator("...", mode="before")` to coerce `None` to `[]`.
 
-### 4. การจัดการ Frontend และ Next.js 16
-* **Hydration Mismatch Defense:** ห้ามอ่าน `localStorage` หรือ `window` ในช่วง Initial State ให้ใช้ "Mounted Pattern" (`const [mounted, setMounted] = useState(false)`)
-* **No Direct DOM Mutation:** ห้ามเขียน `e.target.src = ...` ในการจัดการรูปภาพ fallback ให้ใช้ State Flag ของ React ในการสลับไปใช้รูป Avatar สำรอง
+### 4. Frontend & Next.js 16 Standards
+* **Hydration Mismatch Defense:** Never access `localStorage` or `window` for initial state. Use the Mounted Pattern (`const [mounted, setMounted] = useState(false)`).
+* **No Direct DOM Mutation:** Never write `e.target.src = ...` for image fallbacks. Use declarative React state flags to switch to fallback avatar URLs cleanly.
 
 ---
 
-## 6. คู่มือคำสั่งสำหรับใช้งานระบบ (CLI Commands Cheat Sheet)
+## 6. CLI Commands Cheat Sheet
 
-### 6.1 การเริ่มต้นระบบ (Development Startup)
+### 6.1 Development Startup
 ```powershell
-# 1. รัน Database Container (PostgreSQL 17 + pgvector)
+# 1. Start Database Container (PostgreSQL 17 + pgvector)
 docker compose up -d
 
-# 2. รัน Backend API (FastAPI)
+# 2. Start Backend API (FastAPI)
 cd backend
 $env:PYTHONPATH='.'
 python -m uvicorn app.main:app --reload --port 8000
 
-# 3. รัน Frontend UI (Next.js 16)
+# 3. Start Frontend UI (Next.js 16)
 cd frontend
 npm run dev
 ```
 
-### 6.2 การตรวจสอบและทดสอบระบบ (Verification Protocol)
+### 6.2 System Verification Protocol
 ```powershell
-# รันชุดทดสอบ Backend ทั้งหมด (34 Tests)
+# Run complete backend test suite (34 Tests)
 pytest backend/tests -v
 
-# รัน Production Build ของ Frontend
+# Run production frontend build
 npm --prefix frontend run build
 
-# ตรวจสอบจำนวนข้อมูลอาจารย์และเช็คความสมบูรณ์ของ Embeddings ในฐานข้อมูล
+# Verify faculty record counts and check for null embeddings in database
 $env:PYTHONPATH='backend'; python -c "from app.core.database import SessionLocal; from app.models.db_models import FacultyDB; db = SessionLocal(); print('Total:', db.query(FacultyDB).count(), '| Null Embeddings:', db.query(FacultyDB).filter(FacultyDB.embedding.is_(None)).count()); db.close()"
+
+# Automatically synchronize live database statistics to Section 7.1
+python backend/scripts/audits/sync_system_status.py
 ```
 
-### 6.3 การรัน Ingestion / Crawlers
+### 6.3 Executing Ingestion & Crawlers
 ```powershell
-# ตัวอย่างการรัน Crawler ขยายข้อมูลคณาจารย์
+# Run crawler script for targeted faculty acquisition
 python backend/scripts/crawlers/crawl_wave16_flagships.py
+
+# Run shorthand autonomous SKILL.state pipeline
+python backend/scripts/agentic_pipeline/run_acquire.py --url https://www.eng.chula.ac.th/th/about/faculty --univ CU --fac Engineering
 ```
 
 ---
 
-## 7. สถานะระบบปัจจุบันและ Roadmap การขยายข้อมูล (Status & Next Waves)
+## 7. Current System Status & Next Acquisition Waves
 
-### 7.1 สถานะปัจจุบัน (ณ วันที่ 2026-09-12)
-* **อาจารย์และนักวิจัยในระบบ Local DB:** **14,015 ท่าน** (ผ่านการประมวลผล Wave 1 ถึง Wave 20)
-* **เวกเตอร์ Embedding ขาดหาย:** **0 รายการ** (ความสมบูรณ์ 100%)
-* **OpenAlex-resolved:** **4,872 ท่าน** | h-index > 0: **5,515** | elite advisor (h ≥ 20 หรือ cit ≥ 1,000): **913** | citation รวม **4.34 ล้าน**
-* **ชื่ออังกฤษ (romanized) ระบุแล้วจากแหล่งของสถาบันเอง (Wave 20):** 9,868 แถวมี first_name เป็นอักษรละติน
-* **ห้องปฏิบัติการวิจัยชั้นนำระดับชาติ:** **104 ห้องแล็บ** (เชื่อมโยงอาจารย์หัวหน้าแล็บ 100%)
-* **หลักสูตรระดับบัณฑิตศึกษา:** **4,185 หลักสูตร**
-* **สถิติมหาวิทยาลัย 8 อันดับแรก:**
-  1. มหาวิทยาลัยเกษตรศาสตร์: 3,272 ท่าน
-  2. จุฬาลงกรณ์มหาวิทยาลัย: 2,446 ท่าน
-  3. มหาวิทยาลัยเชียงใหม่: 1,780 ท่าน
-  4. มหาวิทยาลัยมหิดล: 1,296 ท่าน
-  5. มหาวิทยาลัยขอนแก่น: 770 ท่าน
-  6. มหาวิทยาลัยธรรมศาสตร์: 742 ท่าน
-  7. มหาวิทยาลัยสงขลานครินทร์: 608 ท่าน
-  8. สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง: 568 ท่าน
-
-### 7.2 Roadmap เป้าหมาย Wave ถัดไป (Wave 21)
-* **สถานะ Wave 20 (เสร็จสิ้นบางส่วน 2026-09-12):** English Name Resolver — ปลดล็อก OpenAlex ให้กลุ่มชื่อไทย/ชื่อหาย 6,707 แถว ด้วย 6 trust tier (T5 KUForest ASP.NET language-postback 2,110 ชื่อจริงจากหน้า EN ของสถาบันเอง, T6 Psy `/en/people/` 27, T1 Latin ใน `full_name_th` 187, T3 person-slug URL 216, T2 first.last@ email 204, T4 Latin เดิมที่ไม่เคย probe 104) → candidate 2,701 (high-conf 2,160) → apply ชื่ออังกฤษ 2,578 แถว (มี journal ย้อนกลับได้) | OpenAlex Wave 3 probe ได้ **653 matches / +361 h-index** ก่อน quota หมดที่ 1,120/2,702 (หยุด cleanly, resumable)
-* **สิ่งที่ต้องทำต่อจาก Wave 20:**
-  1. **รัน OpenAlex probe ต่อ** — `python backend/scripts/enrich_openalex_author_metrics.py --apply --workers 4` (เริ่มจาก repo root) เหลือ ~1,582 แถวที่ keyable ได้ + 118 ambiguous — quota รีเซตรายวัน
-  2. **กลุ่มที่ยังไม่มีชื่ออังกฤษ 3,552 แถว** — no-profile 623, legacy ไม่มีทั้ง email/slug ~2,800; แหล่งที่เป็นไปได้: w1.med.cmu.dept listings (มี EN name ใน HTML), aad/siet KMITL (ไม่มี EN), pharm.chula (มี `/en/` hub), vet.ku, eng.su portfolio pages
-* **เป้าหมาย Wave 21:** คณะ CU ที่เหลือซึ่งเป็น JS-SPA/legacy (นิเทศศาสตร์, อักษรศาสตร์, พยาบาล, ศิลปกรรม, กีฬา) — ต้องใช้ headed browser/Playwright หรือหา JSON endpoint, Thammasat SciTech (Rangsit), มหาลัยภูมิภาคที่ยังบาง (PSU วิทยาเขตอื่นๆ, NU, UBU)
-
+### 7.1 Current System Status (As of 2026-09-20)
+* **Faculty & Researchers in Local DB:** **59,960 records** (Post-Stage 6 Unlisted Discovery, 10-Dimensional Zero-Defect Baseline).
+* **Missing Vector Embeddings:** **0 records** (100% 768-dimensional vector completeness).
+* **OpenAlex-resolved Scholars:** **51,094 records** (85.2%) | h-index > 0: **34,587** | Elite advisors (h >= 20 or citations >= 1,000): **3,297** | Total citations: **19.71 Million** (19,705,994).
+* **Romanized English Names from Institutional Sources:** **57,175 records** (95.4% Latin first/last name coverage).
+* **Official Academic Emails:** **17,330 records** (28.9% verified institutional emails, 0 personal freemails, 0 personal phone numbers per PDPA).
+* **National Flagship Research Laboratories:** **104 Labs** (100% bidirectional advisor linking).
+* **Graduate Academic Programs:** **4,234 curricula** across Thai universities.
+* **Top 10 Universities by Faculty Count:**
+  1. มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน: 4,346
+  2. Kasetsart University (KU): 3,229
+  3. Mae Fah Luang University (MFU): 2,454
+  4. มหาวิทยาลัยวลัยลักษณ์: 2,417
+  5. Chulalongkorn University (CU): 2,361
+  6. มหาวิทยาลัยทักษิณ: 2,128
+  7. มหาวิทยาลัยราชภัฏสวนสุนันทา: 2,108
+  8. มหาวิทยาลัยแม่โจ้: 2,097
+  9. Chiang Mai University (CMU): 1,782
+  10. Srinakharinwirot University (SWU): 1,612
+### 7.2 Roadmap & Objectives for Next Waves
+* **Completed Milestones (through 2026-09-20):**
+  - **Phases 21–35 Email Recovery:** Recovered authentic official academic emails across KMUTT Microbiology (`mic.kmutt.ac.th`), SIT (`sit.kmutt.ac.th`), SUT Engineering, MJU Agriculture, NIDA Applied Statistics, and Naresuan University.
+  - **Stage 6 Unlisted & New Faculty Discovery:** Discovered 30 high-impact researchers across CU and CMU via OpenAlex 2024–2026 publication footprints, overcoming central directory lag with objective confidence scoring (>= 0.85).
+  - **10-Dimensional Zero-Defect Audit Protocol:** Enforced complete name hygiene, Latin script purity, MHESI thesis advisor eligibility purging (retired, emeritus, on-leave), and 3-pass deduplication across Top 5 universities.
+  - **Graded Placement Tiers (TypeSafe Ordered Tier Pattern):** Integrated Tier 1–4 advisory placement badges directly into search results (`SearchMatchResult`).
+* **Active Action Items & Next Objectives:**
+  1. **Phase 36 Official Email Recovery:** Continue systematic recovery of remaining unexamined faculty clusters using headless `SKILL.state` runners.
+  2. **Regional University Expansion:** Ingest and enrich graduate faculties and curricula for underrepresented regional institutions (PSU regional campuses, Silpakorn University, Srinakharinwirot University, Burapha University, Mae Fah Luang University).
+  3. **High-Demand Discipline Top Scholars:** Target elite faculty acquisition for high-demand Master's disciplines identified in MHESI benchmarks (Education, Law, M.P.A., Educational Technology).

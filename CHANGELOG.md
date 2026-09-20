@@ -1,5 +1,449 @@
 # Changelog
 
+## 2026-09-20 (Waves 53–56: RMUT, MJU, NIDA & Rajabhat Autonomous Acquisition Loop)
+
+### Added
+- **Wave 53: Rajamangala Universities of Technology (RMUT) — 9 Campuses**:
+  - Harvested 11,497 faculty records across 9 RMUT campuses via OpenAlex institution rosters (corrected IDs sourced by querying OpenAlex Institutions API):
+    - RMUTI (Isan): 4,346 | RMUTL (Lanna): 1,308 | RMUTK (Krungthep): 1,120 | RMUTR (Rattanakosin): 1,029
+    - RMUTS (Suvanabhumi): 902 | RMUTTO (Tawan-ok): 848 | RMUTP (Phra Nakhon): 808 | RMUTSV (Srivijaya): 1,135 | RMUTT (Thanyaburi): 1
+  - Corrected initial incorrect OpenAlex IDs (first pass) with verified IDs via Wave 53b fix script.
+  - 99.99% OpenAlex coverage (11,496/11,497 with `openalex_id`).
+
+- **Wave 54: Maejo University (MJU) Expansion**:
+  - Expanded MJU from 366 to 2,097 faculty members (+1,731 new, 81 enriched) via OpenAlex `I190734841` (10 pages, 1,930 authors).
+  - 96% OpenAlex coverage (2,019/2,097); email coverage maintained at 219/2,097.
+
+- **Wave 55: National Institute of Development Administration (NIDA) Expansion**:
+  - Expanded NIDA from 115 to 1,625 faculty members (+1,510 new, 22 enriched) via OpenAlex `I159665162` (9 pages, 1,638 authors).
+  - 99.9% OpenAlex coverage (1,624/1,625).
+
+- **Wave 56: Rajabhat Universities — 22 Campuses**:
+  - Harvested 14,321 faculty records across 22 Rajabhat universities (สวนสุนันทา, สกลนคร, มหาสารคาม, บ้านสมเด็จ, นครราชสีมา, นครปฐม, นครศรีธรรมราช, เชียงใหม่, สงขลา, อุดรธานี, บุรีรัมย์, ลำปาง, เพชรบุรี, พระนคร, อุตรดิตถ์, ร้อยเอ็ด, เลย, เพชรบูรณ์, รำไพพรรณี, จันทรเกษม, พระนครศรีอยุธยา, ศรีสะเกษ).
+  - 99.97% OpenAlex coverage (14,317/14,321).
+  - Total Rajabhat group: 14,321 records with 4,001,475 total citations indexed.
+
+### Changed
+- **Grand Total Faculty**: 30,954 → 59,960 (+29,006 across 4 waves in this session).
+- **OpenAlex-Resolved Records**: 22,088 → 51,094 (85% coverage across all 59,960 records).
+- **Total Indexed Citations**: 10,509,113 → 19,705,994 (database-wide from OpenAlex).
+- **PROJECT_STRUCTURE_AND_WORKFLOW.md Section 7.1** updated via `sync_system_status.py` to reflect new totals.
+- PDPA invariant maintained: 0 personal phone numbers stored in database.
+- Local-First invariant maintained: all data in `localhost:5432/advisor_match`, no Supabase sync performed.
+
+## 2026-09-20 (Wave 52: Mae Fah Luang University Acquisition & Dataset Expansion)
+
+### Added
+- **Wave 52 Autonomous Acquisition (Mae Fah Luang University - MFU)**:
+  - Harvested and integrated 2,454 faculty members for Mae Fah Luang University (expanding from 318 records, +2,136 net new faculty, 289 enriched).
+  - Triangulated data from 40+ official school web portals across all 15 schools, the School of Applied Digital Technology (ADT) Next.js REST API (`https://adt.mfu.ac.th/api/staff`), and OpenAlex institution identifier `I34002243` (10,294 works, 3,648 authors).
+  - Maintained 100% 768-dimensional vector embedding coverage (`embedding != None`) across all 2,454 MFU records.
+  - Enriched contact details to 2,397 faculty with verified academic emails (`@mfu.ac.th`).
+  - Total system faculty increased to 30,954 records with 17,329 verified emails.
+
+## 2026-09-20 (System-Wide File Audit, Hygiene Standardization & International Naming)
+
+### Changed
+- **Repository Root Hygiene & Isolation**:
+  - Relocated 14 loose intermediate JSON datasets (`cmu_med_raw.json`, `ku_missing_raw.json`, `chem_roster.json`, etc.) from root into `backend/data/raw/`.
+  - Archived loose appending scripts (`batch1_to_append.py`, `batch3_to_append.py`) into `backend/scripts/legacy_archive/enrichment/`.
+  - Repository root now strictly adheres to international standards containing only project configuration manifests and core documentation.
+- **Agent States Directory Normalization**:
+  - Normalized 8 directories in `backend/data/agent_states/` that incorrectly had `.json` extensions (`skill_state_phase29.json` through `phase35.json`, `skill_state_comprehensive_investigation_937.json`) into standard directory paths.
+  - Updated path constants across `generate_phase29_recoveries.py` through `generate_phase35_recoveries.py` and `investigate_all_remaining_unexamined_faculty.py`.
+- **Audit Script PEP 8 Nomenclature & Archival**:
+  - Renamed cryptic audit scripts in `backend/scripts/audits/` to descriptive standard names:
+    - `check_135.py` -> `check_prefix_boundary_spacing.py`
+    - `check_23.py` -> `check_duplicate_professional_titles.py`
+    - `inspect_c0.py` -> `inspect_zero_publication_faculty.py`
+    - `fix_tnya_double.py` -> `repair_medical_dental_double_prefixes.py`
+    - `fix_respace.py` -> `repair_title_name_spacing.py`
+    - `fix_split_abbrev.py` -> `repair_split_compound_titles.py`
+  - Transformed date-stamped hygiene scripts into permanent canonical tools:
+    - `clean_and_deduplicate_database_2026_09_13.py` -> `clean_and_deduplicate_database.py`
+    - `clean_residual_database_anomalies_2026_09_13.py` -> `clean_residual_database_anomalies.py`
+    - Updated regression test imports in `backend/tests/test_audited_bug_regressions.py`.
+  - Archived 11 one-off historical fix/inspection scripts into `backend/scripts/legacy_archive/audits/`.
+  - Relocated `test_chem_specific.py` from `enrichment/` to `backend/scripts/legacy_archive/misc_tests/`.
+- **Wiki Documentation Standardization**:
+  - Consolidated engineering department endpoints and dead URLs from redundant `cmu.md` into `chiang_mai_university.md` and purged `cmu.md`.
+  - Standardized all university knowledge files under uniform `<university_name>.md` schema.
+  - Corrected broken and obsolete endpoint links in `.agents/wiki/WIKI_INDEX.md`.
+
+### Verification
+- `pytest backend/tests/test_audited_bug_regressions.py -k test_database_hygiene`: Passed 4/4 tests verifying renamed hygiene modules.
+- `pytest backend/tests/test_search.py backend/tests/test_taxonomy_and_regional_search.py backend/tests/test_university_canonicalizer.py`: Passed 20/20 tests.
+- `npm run build --prefix frontend`: Next.js 16.3.2 Turbopack production build succeeded in 3.8s with 0 errors.
+- `python backend/scripts/audits/sync_system_status.py`: Verified authoritative synchronization of PostgreSQL metrics into `PROJECT_STRUCTURE_AND_WORKFLOW.md`.
+
+## 2026-09-20 (TypeSafe AI Architectural Adaptations: Graded Placement Tiers, Quarantine State, & Native Skills)
+
+### Added
+- **Graded Placement Tiers (TypeSafe Ordered Tier Pattern)**:
+  - Extended backend `SearchMatchResult` schema (`backend/app/models/schema.py`) and frontend TypeScript contracts (`frontend/src/types/index.ts`) with `match_tier` and `match_tier_label`.
+  - Implemented `compute_match_tier` in `backend/app/api/routes_search.py` transforming continuous percentage match scores into actionable thesis advisory roles:
+    - **Tier 4 (Direct Primary Advisor / ที่ปรึกษาหลักตรงสาย)**: Match score >= 85% or score >= 80% with direct publication/topic evidence.
+    - **Tier 3 (Co-Advisor / ที่ปรึกษาร่วม)**: Match score >= 70%.
+    - **Tier 2 (Examination Committee & Methodology / กรรมการสอบและเชิงระเบียบวิธี)**: Match score >= 55%.
+    - **Tier 1 (Broad Research Alignment / หัวข้อวิจัยกว้าง)**: Match score < 55%.
+  - Updated `frontend/src/components/AdvisorCard.tsx` to render the Graded Placement Tier badge alongside the match percentage.
+- **Confidence Threshold & Quarantine State Management**:
+  - Enhanced Stage 6 Unlisted Faculty Discovery pipeline (`backend/scripts/enrichment/discover_unlisted_faculty.py`) with `evaluate_discovery_confidence`.
+  - Implemented strict quality threshold (>= 0.85 confidence) evaluating metric strength, institutional affiliation clarity, Thai nomenclature authenticity, and publication evidence.
+  - Quarantined ambiguous candidates (< 0.85 confidence) into `backend/data/agent_states/skill_state_unresolved_quarantine.json`, preventing unverified records from polluting the authoritative database.
+- **Claude Code Native Standardized Skills**:
+  - `.claude/skills/faculty-audit/SKILL.md`: Automates 5-Stage / 10-Dimensional Zero-Defect verification protocol across all faculty in local PostgreSQL.
+  - `.claude/skills/faculty-discover/SKILL.md`: Automates Stage 6 Footprint 3 (OpenAlex Recent Works Mining) with confidence scoring and quarantine state management.
+  - `.claude/skills/db-optimize/SKILL.md`: PostgreSQL 17 + pgvector HNSW cosine index, GIN trigram index, heavy column deferral, and connection pool tuning.
+
+### Verification
+- `pytest backend/tests/test_search.py`: Passed 6/6 tests including `test_advisor_semantic_and_fallback_search` with assertions for `match_tier` and `match_tier_label`.
+- `npm --prefix frontend run build`: Next.js 16.3.2 Turbopack production build compiled successfully with 0 TypeScript/SSR errors.
+
+## 2026-09-20 (Stage 6 Unlisted & New Faculty Discovery Pipeline Execution)
+
+### Added
+- Implemented and executed Stage 6 Footprint 3 (Recent Affiliated Publication Mining via OpenAlex 2024-2026) across Chulalongkorn University (CU) and Chiang Mai University (CMU) to bridge 6–24 months of central university directory lag:
+  - **Chulalongkorn University (+15 High-Impact Scholars)**: Ingested prominent unlisted researchers including Prof. Dr. Jiaqian Qin (Materials Science / Energy Storage, 20,736 citations, h-index 74), Prof. Miguel A. Esteban (Medicine / Physiology, 16,217 citations, h-index 59), Prof. Dr. Zohaib Khurshid (Dentistry, 12,281 citations, h-index 58), Prof. Dr. Sombat Treeprasertsuk (Medicine / Gastroenterology, 11,030 citations, h-index 49), Prof. Dr. Soorathep Kheawhom (Chemical Engineering, 7,314 citations, h-index 49), Assoc. Prof. Dr. Wiphu Rujopakarn (Physics / Astrophysics, 5,687 citations, h-index 46), and Prof. Dr. Nattachai Srisawat (Nephrology, 7,127 citations, h-index 41).
+  - **Chiang Mai University (+15 High-Impact Scholars)**: Ingested prominent unlisted researchers including Prof. Dr. Siriporn C. Chattipakorn (Neurophysiology / Cardiac Electrophysiology, 11,289 citations, h-index 56), Prof. Dr. Hien Van Doan (Animal & Aquatic Science, 9,101 citations, h-index 56), Prof. Dr. Chaiyavat Chaiyasut (Pharmacy, 7,670 citations, h-index 49), Assoc. Prof. Dr. Nakarin Suwannarach (Microbial Diversity, 8,351 citations, h-index 45, 490 works), Assoc. Prof. Dr. Sudarshan Singh (Pharmacy, 6,243 citations, h-index 41), and Assoc. Prof. Dr. Jaturong Kumla (Microbial Diversity, 5,666 citations, h-index 32).
+  - **Complete Metadata & Embeddings**: Checkpointed 30 records to `backend/data/agent_states/skill_state_unlisted_discovery.json` with authentic lifetime citations, h-index, top 5 cited publications with DOI URLs, Gemini-resolved Thai nomenclature, and 768-dimensional Gemini vector embeddings.
+
+### Verification
+- **Zero-Defect Audit**:
+  - Chulalongkorn University faculty count increased from 2,346 to 2,361 (+15).
+  - Chiang Mai University faculty count increased from 1,767 to 1,782 (+15).
+  - Re-ran 10-dimensional audit across KU (3,229), CU (2,361), and CMU (1,782); confirmed 0 defects across all 10 criteria.
+  - Total verified faculty in local PostgreSQL (`localhost:5432/advisor_match`) increased to 9,672 across Top 5 universities.
+  - Zero egress to remote Supabase.
+
+## 2026-09-20 (Autonomous SKILL.state Deep Quality Remediation for Mahidol & Khon Kaen Universities)
+
+### Changed
+- Executed the autonomous SKILL.state remediation pipeline across Mahidol University (MU, 1,354 faculty) and Khon Kaen University (KKU, 946 faculty), achieving zero defects across all 10 audit dimensions in local PostgreSQL (`localhost:5432/advisor_match`):
+  - **Ineligible Faculty Purge (MU Dentistry)**: Hard-purged 3 duplicate records of Emeritus Clinical Professor Dr. Pojaman Srinawarat (`wave30_0037_966`, `wave30_0044_702`, `wave30_0047_205`) under MHESI thesis advisement guidelines. Checkpointed to `skill_state_mu_kku_emeritus_purged.json`.
+  - **Bilingual & Field Hygiene Restoration (MU)**: Resolved 16 foreign and medical faculty members across College of Music and Faculty of Science (e.g., Nathan Lynch, Yoshimi Matsushima, Bui Phuoc Minh, Alejandro Saez Rivera, Ruth J. Skulkhu), restoring authentic bilingual titles and full Latin names.
+  - **Batch RTGS Romanization (KKU)**: Transliterated 194 KKU faculty members via `gemini-3.5-flash-lite` in 30-record chunks with institutional email username phonetic hints (`@kku.ac.th`), eliminating Thai script leakage in English name fields. Checkpointed to `skill_state_mu_kku_en_resolved.json`.
+  - **Three-Pass Deduplication & Metric Preservation**: Merged 10 duplicate clusters (3 in MU, 7 in KKU) including Assoc. Prof. Dr. Walasinee Sakcamduang (MU Vet, 398 citations, h-index 9) and Assoc. Prof. Dr. Jureerut Daduang (KKU AMS, 2,067 citations, h-index 27). Preserved lifetime citations via `max()`, unioned research interests and publications, and re-pointed lab references. Checkpointed to `skill_state_mu_kku_dedup.json`.
+  - **Cross-University KU Residual Fix**: Resolved placeholder `ku_62f8d422_4797` (`REDACTED PHONE`) to Assoc. Prof. Dr. Paiboon Ngernmeesri (`paiboon.n@ku.th`) with regenerated 768-dim Gemini embeddings.
+
+### Verification
+- **10-Dimensional Zero-Defect Audit**:
+  - Missing English First Name: 0
+  - Missing English Last Name: 0
+  - Thai in English First Name: 0
+  - Thai in English Last Name: 0
+  - Placeholder Names: 0
+  - Leaked Academic Titles in First Name: 0
+  - Garbage / Debris Crawl Records: 0
+  - Missing / Invalid 768-dim Embeddings: 0
+  - Thai Duplicate Clusters: 0
+  - English Duplicate Clusters: 0
+- **Combined Top 5 Universities Baseline**: 9,642 total faculty members across Chulalongkorn University (2,346), Kasetsart University (3,229), Chiang Mai University (1,767), Mahidol University (1,354), and Khon Kaen University (946) verified at 100% zero-defect data quality.
+- **Local-First Zero-Egress Invariant**: All operations executed strictly against local PostgreSQL (`localhost:5432/advisor_match`). Zero data synced to remote Supabase.
+
+## 2026-09-19 (Purge of Former, Retired, Emeritus, Deceased, and On-Leave Faculty)
+
+### Changed
+- Executed hard purge of 46 former, retired, deceased, and on-leave faculty members across the database who cannot serve as Master's/Ph.D. thesis advisors under Ministry of Higher Education, Science, Research and Innovation (MHESI) regulations:
+  - **Professor Emeritus (ศาสตราจารย์เกียรติคุณ) — 36 members**: Removed retired emeritus professors across Chulalongkorn University, Kasetsart University, Chiang Mai University, Mahidol University, Thammasat University, and Silpakorn University (including Prof. Emeritus Vitit Muntarbhorn, Prof. Emeritus Kasem Watanachai, Prof. Emeritus Jingtair Siriphanich).
+  - **Retired Faculty & Former Academic Staff (อาจารย์เกษียณอายุ / อดีตคณาจารย์) — 8 members**: Purged retired faculty in Chulalongkorn University Department of Computer Engineering (Assoc. Prof. Duanpen Sindhuphak, Assoc. Prof. Dr. Sawat Saengbangpla, Assoc. Prof. Dr. Somchai Thayanon, Prof. Dr. Itthiphol Padungchewit, Assoc. Prof. Dr. Somchai Prasitjutrakul, Assoc. Prof. Dr. Wanchai Rivepiboon, Assoc. Prof. Dr. Pornsiri Muenchaisri, Assoc. Prof. Dr. Satit Wongpratheep, Prof. Dr. Chidchanok Lursinsap).
+  - **Faculty on Study Leave (ลาศึกษาต่อระดับปริญญาเอก) — 1 member**: Purged Dr. Athimes Chettheeraphat (CMU Business School) marked as on study leave.
+  - **Deceased Faculty — 1 member**: Purged Prof. Emeritus Dr. Aree Valyasevi (Mahidol Institute of Nutrition, passed away in 2021).
+- Preserved relational integrity: Unlinked `mfu_pm25_air_quality_center` (MFU Center of Excellence for PM2.5 and Transboundary Haze) `lead_advisor_id` reference to `None` prior to deletion.
+- Preserved active faculty: Retained active university leaders, professors, and deans holding "Former Dean / Former President" roles who continue active teaching and student advisement.
+- Checkpointed state snapshot of all 46 purged records to `backend/data/agent_states/skill_state_purged_former_faculty.json` for full auditability and reversibility.
+
+### Verification
+- PostgreSQL faculty count decreased cleanly from 16,719 to 16,673 (-46 records).
+- Verified 0 remaining records with retired (`อาจารย์เกษียณอายุ`), former (`อดีตคณาจารย์`), on-leave (`ลาศึกษาต่อ`), or emeritus (`ศ.เกียรติคุณ`, `ศาสตราจารย์เกียรติคุณ`) markers.
+- Verified relational integrity on `research_labs` (`lead_advisor_id = None` for unlinked lab, 0 dangling references).
+- Strictly local container execution (`localhost:5432/advisor_match`). Zero egress to remote Supabase.
+
+## 2026-09-19 (Deep Hygiene Resolution, CMU Medical Enrichment & 3-Way Deduplication for KU, CU & CMU)
+
+### Changed
+- Executed deep hygiene resolution, departmental breadcrumb remediation, and 3-way deduplication across Kasetsart University (KU, 3,236 faculty), Chulalongkorn University (CU, 2,359 faculty), and Chiang Mai University (CMU, 1,778 faculty) for a total of 7,373 faculty members in local PostgreSQL (`localhost:5432/advisor_match`):
+  - **CMU Pediatric Medicine Breadcrumb Remediation**: Resolved 38 faculty members in CMU Faculty of Medicine (Pediatrics) whose names were mistakenly overwritten with the departmental division header `"Endocrine Metabolism"`. Transliterated authentic English names via `gemini-3.5-flash-lite` RTGS batch romanization constrained by institutional email hints (`@cmu.ac.th`).
+  - **CU Science 'REDACTED' Remediation**: Resolved 20 Faculty of Science members whose first names were masked with `"REDACTED"` during historical PDPA sweeps, restoring authentic RTGS first names.
+  - **CU CBS 'Miss' Remediation**: Cleaned 12 Faculty of Commerce and Accountancy members where title prefix `"Miss"` leaked into `first_name`, restoring clean given names and authentic Thai titles.
+  - **CU Pharmacy 'Chula' Remediation**: Corrected 6 Faculty of Pharmacy members where `"Chula"` leaked into `first_name`, restoring authentic English given names.
+  - **KU Agro-Industry Title Leak Remediation**: Sanitized 45 Faculty of Agro-Industry members where academic titles (`Asst`, `Assoc`, `Ait`, `Associate`, `Essor`) and roles (`Academic Expert`, `Professor Emeritus`, `Editnp`, `Dba Finance`) contaminated name fields.
+  - **Foreign Faculty Bilingual Name Sanitization**: Rectified 11 foreign faculty across CU (9) and CMU (2) where `full_name_th` was previously truncated to only `"อ."`, `"ดร."`, or `"รศ.ดร."`, restoring authentic full names.
+  - **High-Fidelity 3-Way Deduplication (Section 9 Invariant 10)**: Merged 24 duplicate faculty pairs across KU (1), CMU (5), and CU (18), retaining `max(total_citations)`, `max(h_index)`, union list supersets, re-pointing `research_labs.lead_advisor_id`, and deleting donor records.
+  - **Disambiguated Surname Collision in KU**: Disambiguated `ผศ.ดร. ศศิธร ตรงจิตภักดี` (Agro-Industry, `Sasitorn Trongchitpakdee`) and `ดร. สศิธร ทองจิตร์ภักดี` (IFRPD, `Sasithorn Thongjitpakdi`).
+- Recomputed 768-dimensional Gemini vector embeddings (`build_faculty_embedding_text`) for all modified and survivor records.
+- Checkpointed state snapshots to:
+  - `backend/data/agent_states/skill_state_cu_ku_deep_clean.json`
+  - `backend/data/agent_states/skill_state_cmu_deep_clean.json`
+  - `backend/data/agent_states/skill_state_dedup_resolved.json`
+
+### Verification
+- Achieved **100.0% zero-defect rating across all 10 deep quality criteria** for KU, CU, and CMU:
+  - Missing First Name: 0 / 7,373
+  - Missing Last Name: 0 / 7,373
+  - Thai in First Name: 0 / 7,373
+  - Thai in Last Name: 0 / 7,373
+  - Placeholder Names (`Member`, `Faculty`, etc.): 0 / 7,373
+  - Leaked Academic Titles in `first_name`: 0 / 7,373
+  - Garbage / Debris Crawl Records: 0 / 7,373
+  - Invalid / Missing 768-dim Vector Embeddings: 0 / 7,373
+  - Thai Duplicate Clusters: 0 / 7,373
+  - English Duplicate Clusters: 0 / 7,373
+- Local-first zero-egress invariant strictly maintained.
+
+## 2026-09-19 (100% English Name Coverage and 768-dim Vector Re-indexing for Chulalongkorn & Kasetsart Universities)
+
+### Changed
+- Resolved 100% of missing and corrupt English names (`first_name`, `last_name`) across Chulalongkorn University (CU, 2,377 total faculty) and Kasetsart University (KU, 3,237 total faculty), completely eliminating all Thai character corruptions and null entries:
+  - **Kasetsart University (KU)**: Resolved all 3,237 faculty members across all faculties (Science, Veterinary Medicine, Fisheries, Forestry, Agro-Industry, Engineering, Liberal Arts & Science, Agriculture) using KUForest offline checkpoints (`wave20_kuforest_en.json`), departmental PDF CV filenames, URL slugs, and verified RTGS transliteration.
+  - **Chulalongkorn University (CU)**: Resolved all 2,377 faculty members across all faculties (Education, Science, Engineering, Architecture, Economics, Medicine, Pharmacy, Dentistry, Allied Health, Communication Arts, Veterinary Medicine) using institutional email local-parts (`first.last_initial@chula.ac.th`), departmental URL slugs, and verified RTGS transliteration.
+- Recomputed canonical deterministic embedding text (`build_faculty_embedding_text`) and 768-dimensional Gemini vector embeddings (`embedding_service.get_embedding`) for all 5,614 faculty records in local PostgreSQL (`localhost:5432/advisor_match`).
+- Checkpointed state snapshots to `backend/data/agent_states/skill_state_cu_ku_en_resolved.json` and `backend/data/agent_states/skill_state_cu_ku_complete_resolved.json`.
+- Enforced strict Latin regex validation (`^[a-zA-Z\s\-\.\']+$`) on all English name columns, eliminating Pattern 3 data corruption.
+
+### Verification
+- Achieved **100.0% English name coverage for Kasetsart University (3,237 / 3,237 faculty members)**: Missing = 0, Thai characters = 0.
+- Achieved **100.0% English name coverage for Chulalongkorn University (2,377 / 2,377 faculty members)**: Missing = 0, Thai characters = 0.
+- Achieved **100.0% 768-dimensional vector embedding coverage** across all 5,614 CU & KU records in local PostgreSQL container.
+- Maintained strictly local-first zero-egress invariant (0 network egress to remote Supabase).
+
+
+### Changed
+- Completed Point 2: 100% English name resolution, bibliometrics enrichment, and 768-dimensional Gemini vector embeddings across Chiang Mai University (1,783/1,783 total faculty members):
+  - **คณะแพทยศาสตร์ (Faculty of Medicine)**: 252 faculty members resolved via CMU Scholars research portal (`scholars.med.cmu.ac.th`), Scopus author IDs, and departmental directories across 10 academic departments (Internal Medicine, Surgery, Orthopedics, Rehabilitation, Physiology, Pathology, Community Medicine, Anatomy, Pharmacology, Obstetrics & Gynecology).
+  - **คณะอุตสาหกรรมเกษตร (Agro-Industry)**: Resolved residual missing English record for Asst. Prof. Dr. Pimonpan Kaewprachu (`chiangmaiu_facultyofa_fac_074_074`), harvesting Crossref metrics (H-index: 21, Citations: 1,389, Publications: 40).
+  - **Sanitized Scopus Mismatches**: Audited and corrected 13 misattributed faculty profiles that previously fell back to family-name matching, restoring authentic author metrics (e.g. Dr. Kanes Chattipakorn [H=12, Cites=446], Prof. Niwes Nantachit [H=9, Cites=262], Prof. Apichard Sukonthasarn [H=11, Cites=632], Dr. Panpat Chakrabandhu [H=11, Cites=395], Dr. Kampol Klunklin [H=9, Cites=309], Dr. Chonlada Mahakkanukrauh [H=6, Cites=185]).
+- Added 220 strictly validated, collision-free canonical name mappings to `backend/scripts/enrichment/update_english_names.py` (total canonical dictionary entries expanded to 461 unique entries with 0 duplicate keys).
+- Recomputed 768-dimensional Gemini vector embeddings for all 253 updated profiles combining authentic English names, Thai titles, departments, research interests, and publication titles.
+- Maintained Metric Preservation Invariant (`max(existing, harvested)`) across all database updates.
+
+### Verification
+- Achieved **100.0% English name coverage for Chiang Mai University (1,783 / 1,783 faculty members)**.
+- Achieved **100.0% 768-dimensional vector embedding coverage (1,783 / 1,783)** across all 22 CMU faculties.
+- Maintained strictly local-first zero-egress invariant (0 network egress to remote Supabase).
+
+## 2026-09-19 (Batch 2 English names resolution & bibliometrics enrichment for 85 CMU Science faculty members)
+
+### Changed
+- Resolved official English names, institutional emails, Crossref bibliometrics, and 768-dim Gemini vector embeddings for 85 CMU Faculty of Science faculty members across 3 departments in local PostgreSQL (`localhost:5432/advisor_match`):
+  - **ภาควิชาเคมี (Chemistry)**: 54 faculty members enriched via `chem.science.cmu.ac.th` profile rosters and individual directory pages (e.g. Kornthach Ounnunkad [H=21, Cites=1,669], Chamnan Randorn [H=21, Cites=1,635], Burapat Inceesungvorn [H=21, Cites=1,211], Patnarin Worajittiphon [H=18, Cites=853], Pitchaya Mungkornasawakul [H=17, Cites=851]).
+  - **ภาควิชาชีววิทยา (Biology)**: 26 faculty members enriched via department directory, Scopus, and Crossref publication matching (e.g. Prasit Wangpakapattanawong [H=21, Cites=1,318], Thaneeya Chetiyanukornkul [H=18, Cites=1,000], Usawadee Chanasut [H=16, Cites=1,264], Suttathorn Chairuangsri [H=16, Cites=1,042], Maslin Osathanunkul [H=15, Cites=695], Arunothai Jampeetong [H=15, Cites=812]).
+  - **ภาควิชาฟิสิกส์และวัสดุศาสตร์ (Physics & Materials)**: 5 faculty members enriched via `physmats.science.cmu.ac.th` faculty roster (Waraporn Nuntiyakul, Chatdanai Boonrueng [H=10], Pornrat Wattanakasiwich, Wiradej Thongsuwan [H=13, Cites=647], Supab Choopun [H=14, Cites=909]).
+- Added 82 collision-free canonical name mappings to `backend/scripts/enrichment/update_english_names.py` to prevent regression.
+- Maintained Metric Preservation Invariant (`max(existing, harvested)`) ensuring no zeroing of pre-existing valid citation records.
+- Re-calculated 768-dimensional Gemini vector embeddings combining authentic English name, Thai name, department, faculty, research interests, and publication titles.
+
+### Verification
+- Achieved 100% English name coverage for CMU Faculty of Science (243/243 total faculty members).
+- 100% vector embedding coverage (243/243) in local PostgreSQL.
+- Total CMU faculty with missing English names reduced from 337 to 252 (remaining: Faculty of Medicine 252).
+- Zero egress to remote Supabase maintained.
+
+## 2026-09-19 (Batch 1 English names resolution & bibliometrics enrichment for 90 CMU faculty members)
+
+### Changed
+- Resolved official English names, emails, Crossref bibliometrics, and 768-dim Gemini vector embeddings for 90 CMU faculty members across 4 faculties in local PostgreSQL (`localhost:5432/advisor_match`):
+  - **คณะทันตแพทยศาสตร์ (Dentistry)**: 14 faculty members enriched via `dent.cmu.ac.th` profile rosters (e.g. Supassara Sirabanchongkran, Teerat Sawangpanyangkura, Pinpinut Wanichsaithong). Achieved 100% English name coverage (99/99).
+  - **คณะเทคนิคการแพทย์ (AMS)**: 20 faculty members enriched via `ot.ams.cmu.ac.th` rosters (e.g. Pisak Chinchai, Anuchart Kaunnil, Natwipa Wanicharoen, Supawadee Putthinoi). Achieved 100% English name coverage (27/27).
+  - **คณะการสื่อสารมวลชน (Mass Communication)**: 27 faculty members enriched via `masscomm.cmu.ac.th` directory cross-referencing (e.g. Vithaya Panichlocharoen, Romtham Srisukho, Pimonpan Chaianun, Supparerk Pothipairatana). Achieved 100% English name coverage (36/36).
+  - **คณะเศรษฐศาสตร์ (Economics)**: 29 faculty members enriched via `econ.cmu.ac.th` English faculty portal (e.g. Charuk Singhapreecha, Rossarin Osathanunkul, Pairach Piboonrungroj, Roengchai Tansuchat, Paravee Maneejuk). Achieved 100% English name coverage (42/42).
+- Added 88 collision-free canonical name mappings to `backend/scripts/enrichment/update_english_names.py` to prevent regression.
+- Harvested and preserved author-level lifetime citations and H-indices from Crossref without rate limits using polite contact headers.
+- Re-calculated 768-dimensional vector embeddings with unified English and Thai text representation for all 90 records.
+
+### Verification
+- 100% English name coverage across all 4 targeted faculties (Dentistry 99/99, AMS 27/27, Masscomm 36/36, Economics 42/42).
+- Total CMU faculty with missing English names reduced from 427 to 337 (remaining: Faculty of Medicine 252, Faculty of Science 85).
+- Maintained strictly local-first zero-egress invariant (0 network egress to Supabase).
+
+## 2026-09-19 (Sanitization and bibliometrics restoration of 17 CMU faculty members)
+
+### Changed
+- Sanitized corrupted English name columns (`first_name`, `last_name`) and restored authentic bibliometric metrics across 17 CMU faculty members (Dentistry, Medicine, CAMT, Science, Veterinary, Fine Arts):
+  - **ศ.เชี่ยวชาญพิเศษ ดร. ทพ. อะนัฆ เอี่ยมอรุณ** (`cmu_103fe821_4247`): Anak Iamaroon, Dentistry (`anak.i@cmu.ac.th`), **H-index: 16**, Citations: 719, Works: 48.
+  - **ศ.เชี่ยวชาญพิเศษ ดร. นพ. กิตติพันธุ์ ฤกษ์เกษม** (`cmu_58ee6d12_3751`): Kittipan Rerkasem, Medicine (`kittipan.r@cmu.ac.th`), **H-index: 12**, Citations: 626, Works: 50.
+  - **รศ.ดร. พญ. จิราภรณ์ โกรานา** (`cmu_ds_wave11_0006`): Jiraporn Khorana, Medicine (`jiraporn.k@cmu.ac.th`), **H-index: 12**, Citations: 436, Works: 50.
+  - **รศ. พญ. ลินดา หรรษภิญโญ** (`cmu_ds_wave11_0010`): Linda Hansapinyo, Medicine (`linda.h@cmu.ac.th`), **H-index: 12**, Citations: 411, Works: 50.
+  - **ศ.คลินิก ดร. สพ.ญ. วรรณนา สุริยาสถาพร** (`chiangmaiu_facultyofv_suriyasathaporn_082`): Wannana Suriyasathaporn, Veterinary Medicine (`wanna.suri@cmu.ac.th`), **H-index: 10**, Citations: 356, Works: 42.
+  - **ผศ.ดร. ชาติชาย ดวงสอาด** (`cmu_ds_wave11_0015`): Chatchai Doungsa-ard, CAMT (`chatchai.d@cmu.ac.th`), **H-index: 8**, Citations: 210, Works: 22.
+  - **ผศ.ดร. ปฏิสนธิ์ ปาลี** (`cmu_ds_wave11_0008`): Patison Palee, CAMT (`patison.p@cmu.ac.th`), **H-index: 8**, Citations: 192, Works: 44.
+  - **ผศ. นพ. กฤษณ์ ขวัญเงิน** (`cmu_ds_wave11_0011`): Krit Khwanngern, Medicine (`krit.k@cmu.ac.th`), **H-index: 6**, Citations: 165, Works: 24.
+  - **อ. พญ. กณิกนันท์ อินตุ้ย** (`cmu_ds_wave11_0025`): Kaniknun Intui, Medicine (`kaniknun.i@cmu.ac.th`), **H-index: 6**, Citations: 163, Works: 24.
+  - **ผศ.ดร. ปรีดิ์ เที่ยงบูรณธรรม** (`cmu_ds_wave11_0007`): Prid Thiengburanathum, CAMT (`prid.t@cmu.ac.th`), **H-index: 5**, Citations: 95, Works: 31.
+  - **ผศ.ดร. พร้อมพงศ์ สุกัณศีล** (`cmu_ds_wave11_0003`): Prompong Sugunnasil, CAMT (`prompong.s@cmu.ac.th`), **H-index: 4**, Citations: 44, Works: 26.
+  - **อ.ดร. สาลินี ธำรงเลาหะพันธุ์** (`cmu_ds_wave11_0023`): Salinee Thumronglaohapun, Science (`salinee.t@cmu.ac.th`), **H-index: 4**, Citations: 83, Works: 16.
+  - **ผศ.ดร. วรัญญา มหานันท์** (`cmu_ds_wave11_0022`): Waranya Mahanan, CAMT (`waranya.m@cmu.ac.th`), **H-index: 3**, Citations: 62, Works: 18.
+  - **รศ. พิษณุ เจียวคุณ** (`cmu_ds_wave11_0005`): Pisanu Chiawkhun, Science (`pisanu.c@cmu.ac.th`), **H-index: 1**, Citations: 2, Works: 4.
+  - **ศ.เกียรติคุณ พงศ์เดช ไชยคุตร** (`silpakornu_facultyofa_chainakut_015`): Pongdej Chaiyakut, Fine Arts (`pongdej.c@cmu.ac.th`), **H-index: 1**, Citations: 1, Works: 5.
+  - **ผศ.ดร. ปาริชาต ภัทรพานิชชัย** (`cmu_ds_wave11_0026`): Parichat Pattarapanichchai, Science (`parichat.p@cmu.ac.th`).
+  - **ผศ.ดร. ภวัต ภักดิ์ศรานุวัต** (`cmu_ds_wave11_0021`): Bhawat Bhaksaranuvat, Science (`bhawat.b@cmu.ac.th`).
+- Re-generated 768-dimensional Gemini vector embeddings for all 17 profiles reflecting their genuine English names.
+- Added 17 canonical transliterations to `backend/scripts/enrichment/update_english_names.py`.
+
+### Verification
+- 0 remaining CMU faculty with Thai characters in first_name or last_name across all 1,783 records in local PostgreSQL.
+- Verified 768-dim embeddings intact for 100% of CMU faculty records.
+- Maintained strictly local-first zero-egress invariant.
+
+## 2026-09-19 (Missing CMU Engineering faculty discovery, recovery & vector ingestion)
+
+### Added
+- Discovered and ingested 2 previously missing faculty members from official department directories into local PostgreSQL:
+  - **อ.ดร. วรากร ตันตระพงศธร** (`cmu_eng_civil_tantrapongsatorn_011`): Structural Engineering, CMU Civil Engineering (`warakorn.tan@cmu.ac.th`), H-index: 2, Citations: 17, Works: 7, 768-dim Gemini embedding generated.
+  - **รศ.ดร. ศักดิ์กษิต ระมิงค์วงศ์** (`cmu_eng_cpe_sakgasit_025`): Software Engineering & Project Management, CMU Computer Engineering (`sakgasit@eng.cmu.ac.th`), Scopus ID `18038191700`, H-index: 6, Citations: 176, Works: 50, 768-dim Gemini embedding generated.
+- Ingestion script `backend/scripts/enrichment/ingest_recovered_cmu_faculty.py` with multi-dimensional metadata, education history, and Crossref bibliometrics.
+- Added canonical transliteration `"ศักดิ์กษิต": ("Sakgasit", "Ramingwong")` to `backend/scripts/enrichment/update_english_names.py`.
+
+### Verification
+- Verified persistence in containerized PostgreSQL (`localhost:5432/advisor_match`).
+- Executed semantic similarity queries using `pgvector` cosine distance:
+  - Query `"Software project management and agile scrum development"` -> Rank 1: `รศ.ดร. ศักดิ์กษิต ระมิงค์วงศ์` (Sim: 0.5574).
+  - Query `"Reinforced concrete structures under low-velocity impact load"` -> Rank 1: `อ.ดร. วรากร ตันตระพงศธร` (Sim: 0.6789).
+- Maintained strictly local-first zero-egress invariant (0 network egress to Supabase).
+
+## 2026-09-19 (SKILL.state CMU Engineering faculty enrichment & bibliometrics recovery)
+
+### Added
+- Executed `SKILL.state` Autonomous Faculty Extraction Pipeline (`backend/scripts/agentic_pipeline/cli_runner.py`) targeting official CMU Engineering directories:
+  - Harvested 32 verified faculty profiles into `backend/scripts/data_sources/cmu_eng_verified_enriched.py` with structured degrees, authentic titles, and institutional contact channels.
+- Added 34 canonical Thai-to-English name transliterations across Civil and Environmental Engineering into `backend/scripts/enrichment/update_english_names.py` to prevent regression.
+
+### Changed
+- Sanitized corrupted English name columns across 33 faculty members in Faculty of Engineering, Chiang Mai University:
+  - Repaired 12 Environmental Engineering faculty members whose English name fields previously contained Thai strings.
+  - Repaired 10 Civil Engineering faculty members whose first names were inverted or missing English given names.
+  - Repaired 2 foreign faculty members whose names were truncated (`Assoc. Prof. Dr. James Christopher Moran` and `Prof. Dr. Matthew O. T. Cole`).
+- Restored authoritative bibliometric indicators and OpenAlex linkages across CMU Engineering faculty:
+  - **ศ.ดร. พวงรัตน์ แก้วล้อม (ขจิตวิชยานุกูล)** (`cmu_eng_department__125`): English name `Puangrat Kaewlom`, OpenAlex `https://openalex.org/A5056654065`, **H-index: 31**, Citations: 4,567, Works: 92.
+  - **ศ.ดร. แมทธิว โอ. ที. โคล** (`cmu_eng_department_matthew_69`): English name `Matthew Cole`, OpenAlex `https://openalex.org/A5059632839`, **H-index: 19**, Citations: 1,100, Works: 85.
+  - **ผศ.ดร. นพดล กรประเสริฐ** (`cmu_eng_department_kronprasert_49`): English name `Nopadon Kronprasert`, OpenAlex `https://openalex.org/A5053851606`, **H-index: 15**, Citations: 646, Works: 53.
+  - **ผศ.ดร. พิมพ์ลักษณ์ กิจจนะพานิช** (`cmu_eng_department__122`): English name `Pimluck Kijjanapanich`, OpenAlex `https://openalex.org/A5046951298`, **H-index: 14**, Citations: 571, Works: 23.
+  - **ผศ.ดร. เสาหฤท นิตยวรรธนะ** (`cmu_eng_department__120`): English name `Saoharit Nitayavardhana`, OpenAlex `https://openalex.org/A5053086076`, **H-index: 13**, Citations: 831, Works: 36.
+  - **รศ.ดร. ณภัทร จักรวัฒนา** (`cmu_eng_department__129`): English name `Napat Jakrawatana`, OpenAlex `https://openalex.org/A5048197864`, **H-index: 13**, Citations: 377, Works: 33.
+  - **รศ.ดร. เจมส์ คริสโตเฟอร์ มอแรน** (`cmu_eng_department_james_84`): English name `James Christopher Moran`, OpenAlex `https://openalex.org/A5090064900`, **H-index: 11**, Citations: 464, Works: 57.
+  - **รศ.ดร. อรรณพ วงศ์เรือง** (`cmu_eng_department__123`): English name `Aunnop Wongrueng`, OpenAlex `https://openalex.org/A5009775530`, **H-index: 9**, Citations: 328, Works: 39.
+  - **รศ.ดร. สิริชัย คุณภาพดีเลิศ** (`cmu_eng_department__127`): English name `Sirichai Koonaphapdeelert`, OpenAlex `https://openalex.org/A5081015091`, **H-index: 9**, Citations: 460, Works: 25.
+  - **ผศ.ดร. ธวัชชัย ตันชัยสวัสดิ์** (`cmu_eng_department_tanchaisawat_45`): English name `Tawatchai Tanchaisawat`, OpenAlex `https://openalex.org/A5029182143`, **H-index: 9**, Citations: 274, Works: 31.
+  - **ผศ.ดร. ปฏิรูป ผลจันทร์** (`cmu_eng_department__121`): English name `Patiroop Pholchan`, OpenAlex `https://openalex.org/A5046473499`, **H-index: 8**, Citations: 207, Works: 20.
+  - **รศ.ดร. ภาคภูมิ รักร่วม** (`cmu_eng_department__131`): English name `Pharkphum Rakruam`, OpenAlex `https://openalex.org/A5030124035`, **H-index: 8**, Citations: 205, Works: 21.
+  - **ผศ.ดร. ชินพัฒน์ บัวชาติ** (`cmu_eng_department_buachart_38`): English name `Chinapat Buachart`, OpenAlex `https://openalex.org/A5052787555`, **H-index: 7**, Citations: 134, Works: 33.
+  - **ผศ.ดร. ปรีดา พิชยาพันธ์** (`cmu_eng_department_pichayapan_48`): English name `Preda Pichayapan`, OpenAlex `https://openalex.org/A5065828619`, **H-index: 6**, Citations: 180, Works: 22.
+  - **ผศ.ดร. ณัฐวิทย์ พรหมมา** (`cmu_eng_department_natawit_83`): English name `Nattawit Promma`, OpenAlex `https://openalex.org/A5043406856`, **H-index: 4**, Citations: 187, Works: 16.
+  - **ผศ.ดร. อนุศาล เพิ่มสุวรรณ** (`cmu_eng_department_anusarn_81`): English name `Anusarn Permsuwan`, OpenAlex `https://openalex.org/A5036986913`, **H-index: 4**, Citations: 54, Works: 5.
+  - **อ.ดร. สมจินตนา แขนงแก้ว** (`cmu_eng_department_kanangkaew_62`): English name `Somjintana Kanangkaew`, OpenAlex `https://openalex.org/A5035688457`, **H-index: 2**, Citations: 61, Works: 11.
+  - **อ.ดร. พงศกร วงค์ชนะ** (`cmu_eng_department_wongchana_47`): English name `Pongsakorn Wongchana`, OpenAlex `https://openalex.org/A5074211029`, **H-index: 2**, Citations: 14, Works: 8.
+- Overall CMU Engineering H-index coverage increased from 79.3% (149/188) to **88.8% (167/188)**.
+- Maintained strictly local-first zero-egress invariant (all operations performed in local Docker container `localhost:5432`).
+
+### Verification
+- Verified 0 corrupted Thai strings remaining in `first_name` and `last_name` columns across CMU Engineering.
+- Verified database persistence and accurate metric serialization across updated profiles.
+
+## 2026-09-19 (EE CMU faculty bibliometrics 100% completion & CMU Engineering synthetic purge)
+
+### Removed
+- Purged 12 synthetic / mock faculty records across Faculty of Engineering, Chiang Mai University in local Docker database:
+  - `cmu-eng-003_9d4ba3` (ศ.ดร. ยุทธนา มลปราโมทย์ - เครื่องกล)
+  - `cmu-eng-005_03e012` (รศ.ดร. สุรพงษ์ เจียรศิริพานิชย์ - โยธา)
+  - `cmu-eng-006_75c670` (ผศ.ดร. กรกช นุชิต - โยธา)
+  - `cmu-eng-011_00e66f` (ศ.ดร. ชัชวาลย์ ชัยวงศ์ - สิ่งแวดล้อม)
+  - `cmu-eng-012_e5faec` (รศ.ดร. พฤฒิกร สมิธ - สิ่งแวดล้อม)
+  - `cmu-eng-013_6c4c89` (รศ.ดร. วิชิต ปราโมทย์ - เหมืองแร่)
+  - `cmu-eng-014_3dbb19` (ผศ.ดร. ณัฐรี ศิริวรรณ - เหมืองแร่)
+  - `cmu-eng-015_433652` (รศ.ดร. ภัทรสิทธิ์ ชัยวัฒนา - คอมพิวเตอร์)
+  - `cmu-eng-016_3325ec` (ผศ.ดร. วิทยา ประเสริฐ - เครื่องกล)
+  - `cmu-eng-017_68b690` (รศ.ดร. ธงชัย กนก - โยธา)
+  - `cmu-eng-019_080c1b` (ศ.ดร. สมชาย ปทุม - อุตสาหการ)
+  - `cmu-eng-020_dbed88` (ผศ.ดร. พิรัชย์ วงศ์วรรณ - คอมพิวเตอร์)
+
+### Changed
+- Restored authoritative bibliometric indicators and OpenAlex linkages for 5 faculty members in Department of Electrical Engineering, Chiang Mai University (achieving 100% H-index coverage for all 20 EE CMU faculty):
+  - **รศ.ดร. ดลเดช ตันตระวิวัฒน์** (`cmu_eng_ee_004`): English name `Doldet Tantraviwat`, OpenAlex `https://openalex.org/A5054852968`, **H-index: 18**, Citations: 1,232, Works: 44.
+  - **ผศ.ดร. บุญศรี แก้วคำอ้าย** (`cmu_eng_ee_010`): English name `Boonsri Kaewkham-ai`, OpenAlex `https://openalex.org/A5053554779`, **H-index: 4**, Citations: 34, Works: 12.
+  - **ผศ. กสิณ ประกอบไวทยกิจ** (`cmu_eng_ee_001`): English name `Kasin Prakobwaitayakit`, OpenAlex `https://openalex.org/A5060232269`, **H-index: 1**, Citations: 3, Works: 4.
+  - **รศ. ธนะพงษ์ ธนะศักดิ์ศิริ** (`cmu_eng_ee_006`): English name `Thanapong Thanasaksiri`, OpenAlex `https://openalex.org/A5012934864`, **H-index: 3**, Citations: 38, Works: 18.
+  - **อ. พีรพนธ์ อนุสารสุนทร** (`cmu_eng_ee_030`): English name `Perapon Anusarnsunthorn`, OpenAlex `https://openalex.org/A5017752874`, **H-index: 1**, Citations: 1, Works: 2.
+- Updated English name romanization mappings in `backend/scripts/enrichment/update_english_names.py` to preserve canonical transliterations.
+- Kept strictly local-first (zero egress / no modifications to remote Supabase).
+
+### Verification
+- Verified profile resolution and H-index retrieval via `GET /api/v1/faculty/{id}` (200 OK across all 5 profiles).
+- Verified deleted mock IDs return HTTP 404.
+
+## 2026-09-19 (EE CMU faculty data update: Prof. Dr. Yuttana Kumsuwan h-index & bibliometrics fix)
+
+### Changed
+- Corrected English last name spelling for **ศ.ดร. ยุทธนา ขำสุวรรณ์** (`cmu_eng_ee_013`), Department of Electrical Engineering, Chiang Mai University from `Khamsuwan` to `Kumsuwan`:
+  - Linked official OpenAlex author profile: `https://openalex.org/A5073409437`
+  - Linked ORCID identifier: `0000-0001-7116-8140`
+  - Restored authoritative bibliometric indicators: h-index 13, total citations 704, and total publications count 100.
+  - Updated `backend/scripts/enrichment/update_english_names.py` mapping to prevent regression.
+  - Kept strictly local-first (zero egress / no modifications to remote Supabase).
+
+### Verification
+- Verified profile resolution via `GET /api/v1/faculty/cmu_eng_ee_013` (200 OK) returning h-index 13 and citations 704.
+
+## 2026-09-19 (EE CMU faculty data update: Dr. Atchariya Phuangyod)
+
+### Added
+- Ingested **อ.ดร. อัจฉริยา พวงยอด** (`cmu_eng_ee_atchariya_001`), Department of Electrical Engineering, Chiang Mai University into local Docker database:
+  - Official institutional email: `atchariya.phu@cmu.ac.th`
+  - OpenAlex ID: `https://openalex.org/A5021117615` (9 publications, 15 citations, h-index 2)
+  - Research topics: Magnetic properties, Hall-effect sensor modeling, transformer loss simulation, thermoelectric materials
+  - Calculated 768-dim Gemini vector embedding for AI Advisor Matching
+- Registered entry in `backend/scripts/data_sources/cmu_all_faculties_completion.py` for dataset persistence.
+- Kept strictly local-first (zero egress / no modifications to remote Supabase).
+
+### Verification
+- Verified profile resolution via `GET /api/v1/faculty/cmu_eng_ee_atchariya_001` (200 OK).
+- Verified local backend (`:8000/api/health`) and frontend (`:3000`) health status 200 OK.
+
+## 2026-09-19 (EE CMU faculty data hygiene and synthetic record purge)
+
+### Removed
+- Purged 3 synthetic / unverified faculty records and 1 resigned faculty member under Chiang Mai University Electrical Engineering from both local Docker and remote Supabase databases:
+  - `cmu_semi_chatchawan_001` (รศ.ดร. ชัชวาลย์ เกียรติธนบำรุง)
+  - `cmu-eng-008_b1e74f` (รองศาสตราจารย์ ดร.นิธิ ยงยุทธ)
+  - `cmu-eng-018_07c795` (ผู้ช่วยศาสตราจารย์ ดร.นวพร วิสุทธิ์)
+  - `cmu_eng_suttichai_001` (ศ.ดร. สุทธิชัย เปรมฤดีปรีชาชาญ — ลาออก)
+- Removed `cmu_semi_chatchawan_001` definition from `backend/scripts/data_sources/cmu_specialized_engineering_faculties.py` to prevent re-ingestion.
+
+### Verification
+- Fact-checked against official CMU Electrical Engineering faculty directory (`ee.eng.cmu.ac.th`).
+- Confirmed remaining EE CMU faculty in database aligns with exactly 19 active faculty members (100% parity with official directory).
+- Verified local backend (`:8000/api/health`) and frontend (`:3000`) health status 200 OK.
+
+## 2026-09-19 (frontend console layout rewrite)
+
+### Changed
+- Replaced the previous homepage composition with a new academic discovery console based on `DESIGN.md`: compact top navigation, dark product canvas, 8/4 hero split, stat rail, dense search console, flat catalog surfaces, and a light footer.
+- Removed the legacy `FeaturedProgramsShowcase` layout component and preserved search, filter, bookmark, compare, modal, route, and API behavior in the new structure.
+- Corrected the brand accent to Coral Orange `#FF7A59` instead of the previous rose/pink `#FB7185`.
+
+### Verification
+- `frontend`: production build passed.
+- Backend/webapp contract tests: 5 passed.
+- Browser smoke checks passed on desktop and mobile with no horizontal overflow or hydration console errors.
+
+## 2026-09-19 (frontend Coral Orange component system)
+
+### Changed
+- Applied the Coral Orange visual system to reusable course, advisor, lab, filter, and modal components.
+- Added shared flat card, modal, button, field, and focus primitives while preserving existing routes, API contracts, and interactions.
+- Added accessible labels and dialog semantics for icon-only controls and modal surfaces.
+
+### Verification
+- `frontend`: production build passed.
+- Backend/webapp contract tests: 5 passed.
+- Browser smoke checks passed at desktop and mobile widths with no horizontal overflow.
+- External faculty image URLs may still fail and use the existing avatar fallbacks.
+
+## 2026-09-19 (frontend Coral Orange palette correction)
+
+### Fixed
+- Replaced the previous rose/pink accent with Coral Orange: `#FF7A59`, with `#E85D3F` for light-mode active states and `#FF967A` for dark-mode hover states.
+- Increased the visual distinction between the new system and the previous layout through orange edge accents, editorial surfaces, and tighter geometry.
+
 ## 2026-09-19 (frontend visual refinement)
 
 ### Changed
