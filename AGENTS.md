@@ -4,9 +4,10 @@
 > [!IMPORTANT]
 > **Strict Process Compliance & Zero-Bypass Policy:**
 > 1. **Master Architecture & Runbook:** Refer to [`PROJECT_STRUCTURE_AND_WORKFLOW.md`](./PROJECT_STRUCTURE_AND_WORKFLOW.md) for the complete directory index, 5-stage acquisition SOP, and CLI runbooks before taking action in new sessions.
-> 2. **Mandatory SKILL.state / Zero In-Chat Crawling:**
+> 2. **Mandatory SKILL.state & 5-Pillar High-Throughput Architecture:**
 >    - **DETERMINISTIC TRIGGER**: Whenever asked to acquire, scrape, crawl, search, harvest, or enrich faculty (including missing emails/profiles), curriculum, or laboratory data (e.g. keywords: `scrape`, `crawl`, `ดึงข้อมูล`, `หาอาจารย์`, `หาอีเมล`, `harvest`, `enrich`), you MUST immediately invoke `Skill(skill="skill-state")` and execute the designated Autonomous Pipeline CLI Runners (`python backend/scripts/agentic_pipeline/run_acquire.py` or `cli_runner.py`).
 >    - **STRICT PROHIBITION**: NEVER write one-off ad-hoc scraping scripts, never run Playwright/requests/curl interactively in conversation turns, and never parse raw HTML/DOM in chat. Keep all crawling, Trafilatura pruning, and RapidFuzz dedup headlessly in Python to maintain a flat token footprint (<2,000 tokens/turn). Never manually synthesize data.
+>    - **MANDATORY 5 PILLARS**: All crawling and enrichment must implement: (1) Headless Python Workhorse (`ThreadPoolExecutor`), (2) OpenAlex High-Density Multiplexer (`per-page=200`), (3) Non-blocking Circuit Breakers (429 fallback to `[0.0]*768` + commit), (4) In-Memory 5-Pass State Reducer (no LLM in dedup), (5) Disk Checkpointing (`backend/data/agent_states/`).
 > 3. **Process Integrity Over Speed:** Always follow the full lifecycle: Real-time Extraction/Crawl → State Reducer (RapidFuzz Dedup & Title Normalization) → Disk Checkpointing (`backend/data/agent_states/`) → Multi-Threaded Vectorization → Database Commit.
 > 4. **Adhere to Defined Skills & Protocols:** If a specialized agent skill exists (e.g., `data-acquire-faculty-elites`, `data-acquire-academic`, `db-optimization`), you MUST execute according to that skill's documented CLI tools and architectural contracts.
 
@@ -150,6 +151,32 @@ Teacher/
 - **Offline Replay over Frozen Traces:** Exploration policies for faculty recovery, web probing, and deduplication must be evaluated and tuned using Replay Simulators (`backend/scripts/dream_rsi/`) constructed from historical checkpoints before running live execution. This guarantees zero network egress and zero LLM cost during hyperparameter tuning.
 - **Replay Objective Metric:** Exploration policies are scored via `V = Quality - beta1 * Cost + beta2 * (Cost / max(1, Rounds))`, favoring high-yield, parallelized batch exploration over sequential single-node probing.
 - **Strict Bit-Level Parity Invariant:** Algorithmic modifications to backend DSA primitives (`tokenize_mixed`, `TopKHeap`, `InvertedIndex`) must undergo 100% exact parity verification across diverse benchmark corpora before adoption to protect lexical indexing symmetry (Section 9 Invariant 2).
+
+### 5. High-Throughput Autonomous Data Acquisition Blueprint (The 5-Pillar Architecture):
+Any agent (Claude, Gemini Flash, or background runner) executing faculty or curriculum acquisition MUST adhere to the following 5 pillars to achieve maximum speed (>10,000 records/hour) with flat token consumption:
+1. **Pillar 1: Zero In-Chat Crawling (Headless Python Workhorse):**
+   - The LLM's only job is to design the standalone pipeline script and inspect high-level summary counts.
+   - All network calls, HTML parsing, and IO execute headlessly in Python using `concurrent.futures.ThreadPoolExecutor(max_workers=5..8)`.
+   - Never call page fetchers or parse DOM interactively in chat turns (keeps token footprint <2,000 tokens/turn).
+2. **Pillar 2: OpenAlex as High-Density Multiplexer:**
+   - Always query OpenAlex API first (`per-page=200` authors per request) for bulk roster ingestion with pre-computed citations, h-index, and publication topics.
+   - 100 requests yield 14,000+ verified faculty records in minutes without scraping fragile individual faculty portals.
+   - Granular HTML crawling via Trafilatura is reserved strictly for Phase B email recovery and missing department enrichment.
+3. **Pillar 3: Non-blocking Circuit Breakers & Graceful Degradation:**
+   - External APIs (OpenAlex, Gemini Embeddings) MUST include circuit breakers:
+     - On HTTP 429 rate limits, apply exponential backoff (30s -> 60s -> 90s -> max 180s).
+     - If embedding service encounters 3 consecutive 429 errors, trigger the circuit breaker and fallback to dummy vector `[0.0] * 768`.
+     - Immediately commit faculty records to PostgreSQL (`localhost:5432`); never block the ingestion pipeline. Log un-embedded IDs for asynchronous background vectorization.
+4. **Pillar 4: In-Memory 5-Pass State Reducer (Zero LLM in Dedup Loop):**
+   - Deduplication and name normalization must execute 100% in Python via RapidFuzz without LLM inference:
+     - Pass 1: Normalized Thai Full Name (`full_name_th`)
+     - Pass 2: Clean English Full Name (`first_name_en` + `last_name_en`)
+     - Pass 3: Verified Non-Shared Personal Academic Email
+     - Pass 4: OpenAlex Author ID (`openalex_id`)
+     - Pass 5: High-confidence token similarity (RapidFuzz token_sort_ratio >= 90)
+5. **Pillar 5: Disk Checkpointing & Instant Resumability:**
+   - Every extraction pipeline must write incremental checkpoints to `backend/data/agent_states/waveXX_<univ>_extraction.json`.
+   - If a script is interrupted by network drop, quota exhaustion, or session timeout, subsequent runs MUST resume from disk checkpoints without re-querying fetched pages or duplicate records.
 
 ---
 

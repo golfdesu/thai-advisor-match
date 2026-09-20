@@ -62,3 +62,14 @@ python backend/scripts/agentic_pipeline/cli_runner.py \
 3. **State Reducer:** Titles are normalized (`ศ.ดร.`, `รศ.ดร.`, etc.), phone numbers redacted (PDPA), and RapidFuzz dedup (threshold > 88) executes in Python.
 4. **Checkpointing:** State auto-saves to `backend/data/agent_states/extract_{timestamp}_{hash}.json`.
 5. **Reporting:** Return ONLY high-level summary counts (number of verified faculty, new vs updated) to the user.
+
+---
+
+## 4. High-Throughput Autonomous Execution Blueprint (The 5 Pillars)
+
+When writing or executing batch acquisition crawlers for new universities or waves:
+1. **Pillar 1 (Zero In-Chat Crawling):** Write a standalone Python script in `backend/scripts/crawlers/` that uses `concurrent.futures.ThreadPoolExecutor(max_workers=5..8)` for high-throughput parallel fetching. Never fetch, scrape, or parse raw DOM in chat turns.
+2. **Pillar 2 (OpenAlex Multiplexing):** Query OpenAlex API first (`https://api.openalex.org/authors?filter=last_known_institutions.id:<INSTITUTION_ID>&per-page=200`) to pull bulk faculty rosters with pre-computed citations, h-index, and publication works. Reserve HTML crawling for missing emails/departments.
+3. **Pillar 3 (Non-blocking Circuit Breakers):** On HTTP 429 rate-limits, backoff exponentially (30s..180s). If embedding generation triggers 3 consecutive 429 errors, immediately fallback to dummy vector `[0.0] * 768` and commit records to PostgreSQL; do not block or hang execution.
+4. **Pillar 4 (In-Memory 5-Pass State Reducer):** Deduplicate within Python using 5 distinct passes: Email -> OpenAlex ID -> Thai exact -> English exact -> RapidFuzz token_sort_ratio >= 90.
+5. **Pillar 5 (Disk Checkpointing):** Always dump extraction batches to `backend/data/agent_states/waveXX_<univ>_extraction.json` before database commits to guarantee instant recovery on network or process interruption.

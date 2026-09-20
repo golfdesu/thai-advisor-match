@@ -178,40 +178,46 @@ Teacher/
 
 ---
 
-## 4. Standard Data Acquisition SOP Lifecycle
+## 4. Standard Data Acquisition SOP Lifecycle (5-Pillar High-Throughput Standard)
 
-When tasked with acquiring faculty or academic data for a wave, you must adhere strictly to the **5-Step Lifecycle**. **Never skip steps or fabricate synthetic data**:
+When tasked with acquiring faculty or academic data for a wave, you must adhere strictly to the **5-Pillar High-Throughput Lifecycle**. **Never skip steps, never crawl in chat, and never fabricate synthetic data**:
 
 ```text
-[Step 1: Real-time Web Crawl] 
-           ↓ (HTML/JSON Extraction)
-[Step 2: State Reduction & RapidFuzz Dedup] 
-           ↓ (Normalized, Cleaned, Deduplicated)
-[Step 3: Disk Checkpointing] -> backend/data/agent_states/waveXX_extracted.json
-           ↓ (Immutable Recovery Point)
-[Step 4: Multi-Client 768-dim Vectorization] -> Gemini API Key Rotation (Backoff on 429)
-           ↓ (768-dim Float Arrays)
-[Step 5: Local DB Commit & Verification] -> PostgreSQL 17 (34/34 Tests + Next.js Build)
+[Pillar 1 & 2: Headless Python Crawl + OpenAlex Multiplexer]
+           ↓ (ThreadPoolExecutor 5-8 workers | 200 authors/request)
+[Pillar 4: In-Memory 5-Pass State Reduction & RapidFuzz Dedup]
+           ↓ (Email -> OpenAlex ID -> Thai exact -> EN exact -> Fuzzy >= 90)
+[Pillar 5: Disk Checkpointing] -> backend/data/agent_states/waveXX_extracted.json
+           ↓ (Immutable Recovery Point & Resumability)
+[Pillar 3: Multi-Client Vectorization with Circuit Breaker]
+           ↓ (On 3x 429: Fallback to [0.0]*768 to commit without hanging)
+[Step 5: Local DB Commit & Autonomous Verification] -> PostgreSQL 17 (Tests + Next.js Build)
 ```
 
 ### Detailed Phase Execution:
-1. **Step 1: Reverse-Engineering & Crawling:**
-   * Inspect the target university/faculty endpoints (identify AJAX endpoints, WordPress REST APIs, or HTML directory pages).
-   * Extract: Thai/English names, academic titles, faculty, department, official academic email, profile image URL, and research domains.
-2. **Step 2: State Reduction & Thai Title Normalization:**
+1. **Step 1: OpenAlex Multiplexing & Headless Crawling (Pillars 1 & 2):**
+   * **OpenAlex-First Strategy:** For any university expansion, always query OpenAlex API first (`per-page=200`) using verified Institution IDs to ingest thousands of verified faculty records with citations, h-index, and publication works in minutes.
+   * **Targeted Web Crawl (Phase B):** Use headless Python scripts with `ThreadPoolExecutor(max_workers=5..8)` for HTML crawling via Trafilatura to recover official emails and department rosters.
+   * **Zero In-Chat Crawling:** Strictly forbidden to fetch pages or parse DOM in conversation turns (keeps token footprint <2,000 tokens/turn).
+2. **Step 2: In-Memory 5-Pass State Reduction & Normalization (Pillar 4):**
    * Execute `strip_all_titles(name)` and `normalize_thai_title_and_name(raw_name)`.
-   * Run RapidFuzz deduplication against the local database (`fuzz.token_set_ratio >= 90`).
-   * If existing: **Enrich** the existing record (add missing email, image, union research interests) without creating duplicate rows.
+   * Run 5-pass in-memory deduplication entirely in Python without calling LLMs:
+     - Pass 1: Normalized Thai Full Name (`full_name_th`)
+     - Pass 2: Clean English Full Name (`first_name_en` + `last_name_en`)
+     - Pass 3: Verified Non-Shared Academic Email (excluding info@, dean@)
+     - Pass 4: OpenAlex Author ID (`openalex_id`)
+     - Pass 5: RapidFuzz token_sort_ratio >= 90
+   * If existing: **Enrich** the existing record (add missing email, image, union research interests, max citations/h-index) without creating duplicate rows.
    * If new: Append to **New Members** for vectorization.
-3. **Step 3: Disk Checkpointing:**
-   * Checkpoint the raw extracted state to `backend/data/agent_states/waveXX_flagships_extracted.json` immediately to support recovery without re-crawling.
-4. **Step 4: Multi-Client Thread-Safe Vectorization:**
+3. **Step 3: Disk Checkpointing & Resumability (Pillar 5):**
+   * Checkpoint the raw extracted state to `backend/data/agent_states/waveXX_<univ>_extraction.json` immediately to guarantee zero data loss and instant resume on network drops or process interruptions.
+4. **Step 4: Vectorization with Non-blocking Circuit Breaker (Pillar 3):**
    * Pool `genai.Client` instances using keys in `settings.GEMINI_API_KEYS`.
-   * Use `ThreadPoolExecutor` with Key Rotation and Exponential Backoff (on HTTP 429, back off and fall back to `gemini-embedding-001`).
-   * Ensure 100% completion of 768-dimensional embeddings (Null Embeddings = 0).
+   * Use `ThreadPoolExecutor` with Key Rotation and Exponential Backoff (30s -> 60s -> 90s -> 180s on HTTP 429).
+   * **Non-blocking Circuit Breaker:** If 3 consecutive 429 errors occur, trip the circuit breaker and fallback to dummy vector `[0.0] * 768`. Commit the records to PostgreSQL immediately; never hang or block the ingestion pipeline. Log IDs for background re-embedding.
 5. **Step 5: Bulk Database Commit & Autonomous Verification:**
-   * Commit the batch to local PostgreSQL.
-   * Run backend test suite: `pytest backend/tests -v` (must pass 34/34 tests).
+   * Commit the batch to local PostgreSQL (`localhost:5432`).
+   * Run backend test suite: `pytest backend/tests -v`.
    * Run frontend build: `npm --prefix frontend run build` (must compile cleanly with zero errors).
    * Update `CHANGELOG.md` and relevant roadmap files.
 
