@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-22T09:48:00.705703",
+  "faculties_count_start": 31691,
+  "intra_clusters_merged": 596,
+  "intra_rows_removed": 597,
+  "cross_scholars_merged": 206,
+  "cross_rows_removed": 206,
+  "collisions_detached": 29,
+  "faculties_count_final": 30888,
+  "scholars_unassigned_count_final": 140738,
+  "unassigned_enrichments": 2123
+}

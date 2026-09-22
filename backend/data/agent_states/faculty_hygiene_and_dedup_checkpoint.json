@@ -1,0 +1,12 @@
+{
+  "faculties_count_start": 31218,
+  "unassigned_count_start": 139645,
+  "duplicate_merges_applied": 401,
+  "archived_records_count": 719,
+  "faculties_count_final": 30499,
+  "unassigned_count_final": 140364,
+  "unspecified_dept_count": 0,
+  "remaining_demo_teachers": 0,
+  "remaining_bare_titles": 0,
+  "execution_time_seconds": 10.1
+}

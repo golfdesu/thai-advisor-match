@@ -1,0 +1,17 @@
+{
+  "faculties_count_start": 30888,
+  "unassigned_count_start": 140738,
+  "pass1_merged_into_existing": 763,
+  "pass2_confirmed_cu_mu": 12991,
+  "pass2_foreign_retained": 6966,
+  "pass4_promoted_to_faculties": 12796,
+  "faculties_count_final": 43684,
+  "cu_faculties_final": 8747,
+  "mu_faculties_final": 7777,
+  "unassigned_count_final": 127179,
+  "unspecified_in_faculties": 0,
+  "total_baseline": 171626,
+  "total_final": 170863,
+  "parity_preserved": false,
+  "execution_time_seconds": 322.59
+}

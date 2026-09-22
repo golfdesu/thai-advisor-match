@@ -1,0 +1,11 @@
+{
+  "faculties_count_start": 31200,
+  "unassigned_count_start": 139663,
+  "pass1_immediate_promoted": 17,
+  "pass2_cross_duplicates_merged": 79,
+  "pass4_openalex_promoted": 1,
+  "faculties_count_final": 31218,
+  "unassigned_count_final": 139645,
+  "unspecified_in_faculties": 0,
+  "execution_time_seconds": 55.84
+}
