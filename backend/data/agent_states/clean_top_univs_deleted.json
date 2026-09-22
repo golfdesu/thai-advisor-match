@@ -1,0 +1,32 @@
+[
+  {
+    "id": "chulalongk_facultyofp_bumrungsuk_081",
+    "full_name_th": "ศ. กิตติคุณ ดร. สุรชาติ บำรุงสุข",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะรัฐศาสตร์",
+    "department_th": "คณาจารย์พิเศษ",
+    "academic_title_th": "ศ.",
+    "role": "อาจารย์ประจำ",
+    "deleted_at": "2026-09-20T16:32:07.479769"
+  },
+  {
+    "id": "chulalongk_facultyofp_yavaprapas_080",
+    "full_name_th": "ศ. กิตติคุณ ดร. ศุภชัย ยาวะประภาษ",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะรัฐศาสตร์",
+    "department_th": "คณาจารย์พิเศษ",
+    "academic_title_th": "ศ.",
+    "role": "อาจารย์ประจำ",
+    "deleted_at": "2026-09-20T16:32:07.479790"
+  },
+  {
+    "id": "wave30_0087_482",
+    "full_name_th": "ศ. กิตติคุณ นายแพทย์ สุรศักดิ์ ฐานีพานิชสกุล",
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "วิทยาลัยวิทยาศาสตร์สาธารณสุข",
+    "department_th": "วิทยาลัยวิทยาศาสตร์สาธารณสุข",
+    "academic_title_th": "ศ.",
+    "role": "อาจารย์ประจำ",
+    "deleted_at": "2026-09-20T16:32:07.479792"
+  }
+]

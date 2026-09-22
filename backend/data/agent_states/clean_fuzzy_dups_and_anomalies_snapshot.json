@@ -1,0 +1,112 @@
+{
+  "merges": [
+    {
+      "primary_id": "fca-cu-004_5fac49",
+      "donor_id": "cu_324b07ab_4553",
+      "primary_name": "รศ.ดร. ศราวุธ อนันต์ชาติ",
+      "donor_name": "รศ.ดร. สราวุธ อนันตชาติ"
+    },
+    {
+      "primary_id": "ssru_w56_1849_809",
+      "donor_id": "ssru_w56_1735_335",
+      "primary_name": "ลำไผ่ ตระกูลสันติ",
+      "donor_name": "ลําไผ่ ตระกูลสันติ"
+    },
+    {
+      "primary_id": "mju_w54_1545_646",
+      "donor_id": "mju_w54_1585_128",
+      "primary_name": "เฉลิมชัย ปัญญาดี",
+      "donor_name": "เฉลิมชัย ปัญญา"
+    },
+    {
+      "primary_id": "udru_w56_0257_734",
+      "donor_id": "udru_w56_0619_105",
+      "primary_name": "กฤตติกา แสนโภชน์",
+      "donor_name": "ฤตติกา แสนโภชน์"
+    },
+    {
+      "primary_id": "pbru_w56_0246_723",
+      "donor_id": "pbru_w56_0287_924",
+      "primary_name": "ณฐกร นิลเนตร",
+      "donor_name": "ญฐกร นิลเนตร"
+    }
+  ],
+  "name_repairs": [
+    {
+      "id": "rmuti_w53b_3731_548",
+      "old_fn": "(Ph.D)",
+      "old_ln": "Mrs. M. Madhavi M. Tech",
+      "new_fn": "M.",
+      "new_ln": "Madhavi",
+      "new_full_name_th": "M. Madhavi"
+    }
+  ],
+  "interest_cleanups": [
+    {
+      "id": "ku_wave17_soc_0066",
+      "removed": [
+        "2010-2016"
+      ]
+    },
+    {
+      "id": "ku_wave17_hum_0041",
+      "removed": [
+        "1844-1900"
+      ]
+    },
+    {
+      "id": "su_w43_0085_645",
+      "removed": [
+        ":"
+      ]
+    },
+    {
+      "id": "su_w43_0087_840",
+      "removed": [
+        ":"
+      ]
+    },
+    {
+      "id": "su_w43_0089_949",
+      "removed": [
+        ":"
+      ]
+    },
+    {
+      "id": "su_w43_0091_443",
+      "removed": [
+        ":"
+      ]
+    },
+    {
+      "id": "su_w43_0093_240",
+      "removed": [
+        ":"
+      ]
+    },
+    {
+      "id": "su_w43_0083_529",
+      "removed": [
+        ":"
+      ]
+    },
+    {
+      "id": "su_w43_0094_640",
+      "removed": [
+        ":"
+      ]
+    },
+    {
+      "id": "ku_wave17_hum_0062",
+      "removed": [
+        "/??"
+      ]
+    },
+    {
+      "id": "kku_sci_wave14_b_0096",
+      "removed": [
+        "etc."
+      ]
+    }
+  ]
+}

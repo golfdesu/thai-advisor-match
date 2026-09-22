@@ -1,0 +1,9 @@
+{
+  "timestamp": 1789967887.0789807,
+  "elapsed_seconds": 54.89,
+  "intra_uni_dedup_merged": 760,
+  "titles_normalized": 32449,
+  "openalex_disambiguated": 6318,
+  "conflicting_emails_fixed": 11,
+  "total_operations": 39538
+}

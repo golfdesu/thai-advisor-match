@@ -1,0 +1,1975 @@
+{
+  "total_targets": 246,
+  "total_resolved": 246,
+  "unresolved_count": 0,
+  "resolved_records": [
+    {
+      "id": "wave22_0108_186",
+      "full_name_th": "อ.ดร. นิลุบล ชลสวัสดิ์",
+      "email": "nilubon.chon@cmu.ac.th",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพัฒนาเศรษฐกิจการเกษตร",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "wave22_0135_715",
+      "full_name_th": "ผศ. ธีระพงษ์ เสาวภาคย์",
+      "email": "teerapong.s@cmu.ac.th",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชากีฏวิทยาและโรคพืช",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "wave22_0136_517",
+      "full_name_th": "ผศ.ดร. ปณิดา กาจีนะ",
+      "email": "panida.k@cmu.ac.th",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาเกษตรที่สูงและทรัพยากรธรรมชาติ",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "wave22_0137_544",
+      "full_name_th": "ผศ.ดร. ณัฐพล คงดี",
+      "email": "nuttapon.k@cmu.ac.th",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชศาสตร์และปฐพีศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "wave22_0138_968",
+      "full_name_th": "อ.ดร. มนตรี แสนวังสี",
+      "email": "montri.s@cmu.ac.th",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชศาสตร์และปฐพีศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "wave22_0139_953",
+      "full_name_th": "อ.ดร. ตวงพร อุตตโรทัย",
+      "email": "toungporn.u@cmu.ac.th",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชศาสตร์และปฐพีศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "wave22_0140_615",
+      "full_name_th": "อ.ดร. นิพนธ์ มาวัน",
+      "email": "nipon.m@cmu.ac.th",
+      "faculty_th": "คณะเกษตรศาสตร์",
+      "department_th": "ภาควิชาพืชศาสตร์และปฐพีศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_134ab256_2115",
+      "full_name_th": "ผศ.ทพญ.ดร. วรพร หอมเสียง",
+      "email": "woraporn.hom@cmu.ac.th",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาทันตกรรมหัตถการ",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_1507c882_1396",
+      "full_name_th": "ผศ.ทพญ. ดรุณี โอวิทยากุล",
+      "email": "darunee.o@cmu.ac.th",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาปริทันตวิทยา",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_18dfc5fa_2941",
+      "full_name_th": "ผศ.ทพญ. พัชนี ชูวีระ",
+      "email": "patchanee.ch@cmu.ac.th",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาวิทยาเอ็นโดดอนต์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_1c9c2645_5034",
+      "full_name_th": "อ.ทพ. ตรีภพ ปิติวรรณ",
+      "email": "treephop.p@cmu.ac.th",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาทันตกรรมหัตถการ",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_393e8814_8148",
+      "full_name_th": "อ.ทพ.ดร. สุวัฒน์ ตันยะ",
+      "email": "suwat.t@cmu.ac.th",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาทันตกรรมหัตถการ",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_65fd46ae_8981",
+      "full_name_th": "อ.ทพ. เกษมสันต์ สุจริตวณิช",
+      "email": "kasemsun.s@cmu.ac.th",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาทันตกรรมหัตถการ",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_6fe74dff_8657",
+      "full_name_th": "อ.ทพ.ดร. เอธัส อำพนนวรัตน์",
+      "email": "aetas.a@cmu.ac.th",
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาชีววิทยาช่องปากและวิทยาการวินิจฉัยโรคช่องปาก",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_9119_625",
+      "full_name_th": "สดศรี กันทะอินทร์",
+      "email": null,
+      "faculty_th": "คณะทันตแพทยศาสตร์",
+      "department_th": "ภาควิชาทันตกรรมชุมชน",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-ba-003_ce6f39",
+      "full_name_th": "ผศ.ดร. นิตยา เจรียงประเสริฐ",
+      "email": "nittaya.j@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการจัดการและการเป็นผู้ประกอบการ",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-ba-007_f89c6c",
+      "full_name_th": "ผศ.ดร. สุนันท์ดัณย์ สุขารมณ์",
+      "email": "sunandan.s@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-ba-009_d49209",
+      "full_name_th": "รศ.ดร. พิสิฐ ลีอาธรรมวัฒน์",
+      "email": "pisit.l@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการเงิน",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-ba-012_e3cd0b",
+      "full_name_th": "อ.ดร. วิสุทธิดา เกตแก้ว",
+      "email": "wisuttida.k@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-ba-013_29568e",
+      "full_name_th": "ผศ.ดร. ดนุวศิน เจริญ",
+      "email": "danuvasin.c@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการเงิน",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-ba-015_81fa76",
+      "full_name_th": "อ.ดร. กฤษณะ รุ่งฟ้าพานิช",
+      "email": "krisana.r@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-ba-016_f23da0",
+      "full_name_th": "ผศ.ดร. วรรณศิริ อารีกุล",
+      "email": "wannasiri.a@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-ba-019_73dd9b",
+      "full_name_th": "อ.ดร. พีรวัฒน์ ชัยล้อม",
+      "email": "peerawat.c@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-ba-021_643f18",
+      "full_name_th": "รศ.ดร. บุญชัย หงษ์จารุ",
+      "email": "boonchai.h@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_bus_003",
+      "full_name_th": "รศ.ดร. สิริวุฒิ บูรณพิร",
+      "email": "siriwut.b@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการจัดการและการเป็นผู้ประกอบการ",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_004",
+      "full_name_th": "ผศ.ดร. ปิติมา ดิศกุลเนติวิทย์",
+      "email": "pitima.d@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_005",
+      "full_name_th": "รศ.ดร. จอมใจ แซมเพชร",
+      "email": "jomjai.s@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_006",
+      "full_name_th": "ชานนท์ นาคอ้าย",
+      "email": "chanon.n@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_007",
+      "full_name_th": "ผศ.ดร. ชนิดา ยาระณะ",
+      "email": "chanida.y@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_008",
+      "full_name_th": "ผศ.ดร. ดุรยา สุขถมยา",
+      "email": "duraya.s@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_009",
+      "full_name_th": "ตวงทิพย์ ศิริวรรณ",
+      "email": "twoangtip.s@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_010",
+      "full_name_th": "ผศ.ดร. ตุลยา ตุลาดิลก",
+      "email": "tulaya.t@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_011",
+      "full_name_th": "ธิดาพร ล่ามช้าง",
+      "email": "thidaporn.l@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_012",
+      "full_name_th": "รศ.ดร. นฤนาถ ศราภัยวานิช",
+      "email": "naruanard.s@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_013",
+      "full_name_th": "อ.ดร. พิมลพรรณ อภิชนบัญชา",
+      "email": "pimolphan.ap@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_bus_014",
+      "full_name_th": "ผศ.ดร. ภูริทัต อินยา",
+      "email": "puritud.inya@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_015",
+      "full_name_th": "ผศ.ดร. มนทิพย์ ตั้งเอกจิต",
+      "email": "manatip.t@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_016",
+      "full_name_th": "อ.ดร. วนิสรา สุวรรณมงคล",
+      "email": "wanisara.su@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_017",
+      "full_name_th": "ผศ.ดร. วีระพงษ์ กิติวงค์",
+      "email": "weerapong.ki@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_018",
+      "full_name_th": "ผศ.ดร. อมลยา โกไศยกานนท์",
+      "email": "amonlaya.ko@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_019",
+      "full_name_th": "ผศ.ดร. เอื้อบุญ เอกะสิงห์",
+      "email": "erboon.e@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_020",
+      "full_name_th": "นัจรินทร์ จิระกิตติวุฒิ",
+      "email": "nutjarin.ji@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_021",
+      "full_name_th": "นภัส นิ่มนวล",
+      "email": "napat.nimnuan@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการบัญชี",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_023",
+      "full_name_th": "เกรียงไกร เลิศโภคานนท์",
+      "email": "kriangkrai.l@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการเงิน",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_026",
+      "full_name_th": "ทะนุ ประเสริฐสุนทร",
+      "email": "thanu.p@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการเงิน",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_027",
+      "full_name_th": "ปรียารัตน์ รัศมี",
+      "email": "priyarat.ra@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการเงิน",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_030",
+      "full_name_th": "ผศ.ดร. อนิล ธนสิน รูพ",
+      "email": "anin.rupp@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการเงิน",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_032",
+      "full_name_th": "ผศ.ดร. วรัท วินิจ",
+      "email": "warat.winit@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_033",
+      "full_name_th": "อ.ดร. อธิชา แขวงโสภา",
+      "email": "aticha.k@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_034",
+      "full_name_th": "ฉัตรมงคล ชื่นธีระวงศ์",
+      "email": "chatmongkol.cheu@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_035",
+      "full_name_th": "ผศ. เอก บุญเจือ",
+      "email": "ek.bunchua@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_036",
+      "full_name_th": "ผศ.ดร. กอบลาภ จันทรศัพท์",
+      "email": "koblarp.c@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_038",
+      "full_name_th": "รศ.ดร. นฤมล กิมภากรณ์",
+      "email": "narumon.k@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_040",
+      "full_name_th": "อ.ดร. ภากร กัทชลี",
+      "email": "pagon.g@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_042",
+      "full_name_th": "ผศ.ดร. ปิยพรรณ กลั่นกลิ่น",
+      "email": "piyaphan.k@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_044",
+      "full_name_th": "ผศ.ดร. รวิ รุ่งเรืองศรี",
+      "email": "rawi.r@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_045",
+      "full_name_th": "อ.ดร. เรนัส เสริมบุญสร้าง",
+      "email": "renus.s@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_046",
+      "full_name_th": "ผศ. ธีรกิติ นวรัตน ณ อยุธยา",
+      "email": "theerakiti.n@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_047",
+      "full_name_th": "ธิดารัตน์ องอาจอิทธิชัย",
+      "email": "thidarat.soikaew@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_bus_048",
+      "full_name_th": "นครินทร์ อินปิก",
+      "email": "nakarin.inpik@cmu.ac.th",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "department_th": "ภาควิชาการตลาด",
+      "match_source": "cmubs_email_directory"
+    },
+    {
+      "id": "cmu_1c5854e7_6808",
+      "full_name_th": "รศ.นพ. ชุมพล เจตจำนงค์",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาศัลยศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_25e178a2_5996",
+      "full_name_th": "อ.พญ. ปภาวี ศิริมหาราช",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาศัลยศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_546de8d4_2334",
+      "full_name_th": "อ.นพ. ศิวัฒม์ ภู่ริยะพันธ์",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาศัลยศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_58258da4_6029",
+      "full_name_th": "ผศ.นพ. ศุภณ ศรีพลากิจ",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาศัลยศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_5925b76e_7261",
+      "full_name_th": "ผศ.นพ. อัคร อมันตกุล",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาศัลยศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_61ee0a4f_2980",
+      "full_name_th": "อ.พญ. โอบเอื้อ หอมจันทร์",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาศัลยศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_aa317f55_3734",
+      "full_name_th": "ผศ.นพ. วีระชัย นาวารวงศ์",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "ภาควิชาศัลยศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_10206_170",
+      "full_name_th": "ชมพูนุช สราวุเดชา",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_1980_307",
+      "full_name_th": "๋Jukkrit Wungrath",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_7059_653",
+      "full_name_th": "เพียงขอบฟ้า ปัญญาเพ็ชร",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_7543_937",
+      "full_name_th": "เพชรสุนีย์ ทั้งเจริญกุล",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_8923_886",
+      "full_name_th": "อภิรดี นันท์ศุภวัฒน์",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_9016_163",
+      "full_name_th": "พุฒิพงษ์ พุกกะมาน",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_9294_773",
+      "full_name_th": "น้ําผึ้ง อินทะเนตร",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_9911_817",
+      "full_name_th": "จิตราภรณ์ ชัยมณี",
+      "email": null,
+      "faculty_th": "คณะแพทยศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_10438_827",
+      "full_name_th": "พงษ์พิทักษ์ ศุภกิจเจริญกุล",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "cmu_w57_10439_399",
+      "full_name_th": "ศราวุธ ยะมา",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "cmu_w57_10440_536",
+      "full_name_th": "กรวีร์ โพธิชัย",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "cmu_w57_10441_320",
+      "full_name_th": "รัญชนา ยี่หวา",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "cmu_w57_10442_668",
+      "full_name_th": "พาณี ศิริสะอาด",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "cmu_w57_10443_148",
+      "full_name_th": "สุพร จารุมณี",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "cmu_w57_2488_291",
+      "full_name_th": "์Nantaya Chanarat",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0013_960",
+      "full_name_th": "ผศ.ดร.ภก. นพดล ชลอธรรม",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0014_956",
+      "full_name_th": "ผศ.ดร.ภก. สมจริง รุ่งแจ้ง",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0016_497",
+      "full_name_th": "ผศ.ดร.ภก. จักรพันธ์ จุลศรีไกวัล",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0017_502",
+      "full_name_th": "ผศ.ดร.ภญ. กัณฐภรณ์ เขียวฟู",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0018_491",
+      "full_name_th": "รศ.ดร.ภญ. จุฑามาศ เจียรนัยกุลวานิช",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0019_283",
+      "full_name_th": "รศ.ดร.ภก. เฉลิมพงษ์ แสนจุ้ม",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0020_395",
+      "full_name_th": "รศ.ดร.ภญ. ชุดา จิตตสุโภ",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0021_105",
+      "full_name_th": "รศ.ดร.ภก. ไชยวัฒน์ ไชยสุต",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0022_209",
+      "full_name_th": "รศ.ดร.ภก. ทรงวุฒิ ยศวิมลวัฒน์",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0023_579",
+      "full_name_th": "ผศ.ดร.ภญ. เทพิน จันทร์มหเสถียร",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0024_287",
+      "full_name_th": "รศ.ดร.ภก. นิสิต กิตติพงษ์พัฒนา",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0025_531",
+      "full_name_th": "ผศ.ดร.ภก. ปรัชญา ทิพย์ดวงตา",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0026_378",
+      "full_name_th": "รศ.ดร.ภญ. รังษินี พงษ์ประดิษฐ",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0027_670",
+      "full_name_th": "รศ.ดร.ภญ. รัตติรส คนการณ์",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0028_201",
+      "full_name_th": "ผศ.ดร.ภญ. วรพรรณ เมตะนันท์",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0029_191",
+      "full_name_th": "รศ.ดร.ภญ. วรรธิดา ชัยญาณะ",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0030_806",
+      "full_name_th": "รศ.ดร.ภญ. วรินทร รักษ์ศิริวณิช",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0031_751",
+      "full_name_th": "ผศ.ดร.ภญ. วิสินี จันทร์มหเสถียร",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0032_571",
+      "full_name_th": "ผศ.ดร.ภก. ฐกร จันทะดี",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0033_852",
+      "full_name_th": "ผศ.ดร.ภญ. สุนทรา เอกอนันต์กุล",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0034_567",
+      "full_name_th": "รศ.ดร.ภญ. อรอนงค์ กิตติพงษ์พัฒนา",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0035_466",
+      "full_name_th": "รศ.ดร.ภญ. อำไพ พฤติวรพงศ์กุล",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0036_723",
+      "full_name_th": "รศ.ภญ. อุษณีย์ คำประกอบ",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0037_668",
+      "full_name_th": "รศ.ดร.ภก. เอกลักษณ์ อินทรักษา",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0038_344",
+      "full_name_th": "อ.ดร. แพทย์แผนไทยประยุกต์ อรอุษา ธรรมเสริมสร้าง",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0039_300",
+      "full_name_th": "ผศ.ดร.ภญ. กานต์กมล ไตรโสภณ",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0040_352",
+      "full_name_th": "ผศ.ดร.ภญ. เพ็ญนภา เสาร์คำ",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0041_207",
+      "full_name_th": "ผศ.ดร.ภก. แทนพงศ์ ชัยวาฤทธิ์",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0042_512",
+      "full_name_th": "รศ.ดร.ภญ. ปวิตราภรณ์ สมุทรทัย",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0043_522",
+      "full_name_th": "อ.ดร. พิมพ์พร อนันตวรสกุล",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0044_723",
+      "full_name_th": "อ.ดร.ภญ. ภัทราพร ปานรักษา",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0045_617",
+      "full_name_th": "อ.ดร.ภญ. สุวิมล สมวงษ์อินทร์",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0046_845",
+      "full_name_th": "รศ.ดร.ภญ. ชฎารัตน์ อัมพะเศวต",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0047_294",
+      "full_name_th": "อ.ดร.ภญ. พิมพ์ใจ ดวงสอาด",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0048_437",
+      "full_name_th": "อ.ดร.ภญ. สุภัททรา รังสิมาการ",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0049_182",
+      "full_name_th": "อ.ดร.ภญ. พิมพ์ภัค ภูมาศ",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0050_772",
+      "full_name_th": "อ.ดร.ภญ. สิริภัทร ใจจิตร",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0051_208",
+      "full_name_th": "อ.ดร.ภก. นภพล ภูยาธร",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0052_671",
+      "full_name_th": "อ.ดร. วนัชวรรณ วิสุทธิพรต",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0053_746",
+      "full_name_th": "อ.ดร.ภญ. อภิษฎา จิโสะ",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0054_334",
+      "full_name_th": "อ.ดร.ภก. บารมี ชนบดีเฉลิมรุ่ง",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "wave22_0055_496",
+      "full_name_th": "อ.ดร. นพปฎล อุดมลักษณ์",
+      "email": null,
+      "faculty_th": "คณะเภสัชศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์เภสัชกรรม",
+      "match_source": "pharmacy_domain_mapping"
+    },
+    {
+      "id": "cmu-hum-005_fb748f",
+      "full_name_th": "ผศ.ดร. ประภาสิริ รัตนะ",
+      "email": "prapasiri.r@cmu.ac.th",
+      "faculty_th": "คณะมนุษยศาสตร์",
+      "department_th": "ภาควิชาปรัชญาและศาสนา",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-hum-013_e60708",
+      "full_name_th": "ศ.ดร. สุเทพ วิเศษ",
+      "email": "suthep.w@cmu.ac.th",
+      "faculty_th": "คณะมนุษยศาสตร์",
+      "department_th": "ภาควิชาประวัติศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-hum-015_91bfee",
+      "full_name_th": "รศ.ดร. เกษม เพ็ญภินันท์",
+      "email": "kasem.p@cmu.ac.th",
+      "faculty_th": "คณะมนุษยศาสตร์",
+      "department_th": "ภาควิชาปรัชญาและศาสนา",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_5657_944",
+      "full_name_th": "อรรถจักร์ สัตยานุรักษ์",
+      "email": null,
+      "faculty_th": "คณะรัฐศาสตร์",
+      "department_th": "ภาควิชาประวัติศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "chiangmaiu_facultyoff_anwar_002",
+      "full_name_th": "ผศ.ดร. Rushdi Anwar",
+      "email": null,
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "department_th": "ภาควิชาทัศนศิลป์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "chiangmaiu_facultyoff_hill_006",
+      "full_name_th": "ผศ.ดร. Charlotte Hill",
+      "email": null,
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "department_th": "ภาควิชาทัศนศิลป์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "chiangmaiu_facultyoff_jiarpinitnan_003",
+      "full_name_th": "อ.ดร. อภิรักษ์ เจียรพินิจนันท์",
+      "email": null,
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "department_th": "ภาควิชาทัศนศิลป์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_11938100_0638",
+      "full_name_th": "รศ.ดร. ขวัญชนก ไชยชนะ",
+      "email": "khuanchanok.c@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_253e3d42_4971",
+      "full_name_th": "รศ.ดร. กัญญุตา ภู่ชินาพันธุ์",
+      "email": "kanyuta.p@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_278831ab_3545",
+      "full_name_th": "รศ.ดร. กฤษฎา สังขนันท์",
+      "email": "kritsada.s@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_2aad5c0f_9223",
+      "full_name_th": "ผศ.ดร. สุปรีดี แดงสกุล",
+      "email": "supreedee.dangskul@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_3613027d_2753",
+      "full_name_th": "รศ.ดร. สันติ ทาเสนา",
+      "email": "santi.tasena@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_398d9dbe_9597",
+      "full_name_th": "ผศ.ดร. นวินดา ฉัตรสกุลพรหม",
+      "email": "nawinda.chuts@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_45381d1d_1229",
+      "full_name_th": "ผศ.ดร. ศุภลักษณ์ โพธิ",
+      "email": "supaluk.p@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_4d2c15ff_4319",
+      "full_name_th": "ดร. จตุรนต์ วัฒนาพันธ์",
+      "email": null,
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_5723be07_7328",
+      "full_name_th": "รศ.ดร. วรรณศิริ วรรณสิทธิ์",
+      "email": "wannasiri.w@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_5f9a7565_5031",
+      "full_name_th": "รศ.ดร. ปรารถนา ใจผ่อง",
+      "email": "pradthana.j@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_619fb1d0_1278",
+      "full_name_th": "รศ.ดร. สมลักษณ์ อุตุดี",
+      "email": "somlak.u@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_70913f6e_4070",
+      "full_name_th": "รศ.ดร. วรพงศ์ ฟูปินวงศ์",
+      "email": "worapong.fupinwong@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_7683163e_7082",
+      "full_name_th": "รศ.ดร. ภักดี เจริญสวรรค์",
+      "email": "phakdi.c@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_7f346076_1284",
+      "full_name_th": "ผศ.ดร. ณัฐวัชร์ สนธิชัย",
+      "email": "nuttawat.s@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu_ae05ea27_3431",
+      "full_name_th": "อ.ดร. วันเฉลิม สุขภิการนนท์",
+      "email": "wanchalerm.s@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาคณิตศาสตร์",
+      "match_source": "science_math_roster"
+    },
+    {
+      "id": "cmu-sci-003_c7c75f",
+      "full_name_th": "รศ.ดร. จรูญ จักร์มุนี",
+      "email": "jaroon.jakmunee@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาเคมี",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-sci-010_2b01e9",
+      "full_name_th": "ผศ.ดร. นวกาญจน์ ระวังการณ์",
+      "email": "nawkorn.r@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาการคอมพิวเตอร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-sci-016_8a156a",
+      "full_name_th": "รศ.ดร. ประไพ อนันตสถิตย์",
+      "email": "prapai.a@cmu.ac.th",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาสถิติ",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_6451_990",
+      "full_name_th": "ฐิติณัฏฐ์ อัคคะเดชอนันต์",
+      "email": null,
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_7384_973",
+      "full_name_th": "ทิพวรรณ สุขรวย",
+      "email": null,
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_7826_872",
+      "full_name_th": "ลินจง โปธิบาล",
+      "email": null,
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_7850_992",
+      "full_name_th": "สมใจ ศิระกมล",
+      "email": null,
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_7951_327",
+      "full_name_th": "ปิยะนุช ชูโต",
+      "email": null,
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_8455_431",
+      "full_name_th": "สุมาลี มีปัญญา",
+      "email": null,
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_9083_912",
+      "full_name_th": "กนกวรรณ อังกสิทธิ์",
+      "email": null,
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_9583_519",
+      "full_name_th": "ศุภโชค สนธิไชย",
+      "email": null,
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาชีววิทยา",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_9808_494",
+      "full_name_th": "นงลักษณ์ เฉลิมสุข",
+      "email": null,
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "กลุ่มวิชาการบริหารการพยาบาล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu-eng-004_d2e56a",
+      "full_name_th": "รศ.ดร. กิตติชัย โสจิพรรณ",
+      "email": "kittichai.s@cmu.ac.th",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมอุตสาหการ",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_2243_905",
+      "full_name_th": "ผศ. Manop Kaewmoracharoen",
+      "email": null,
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมโยธา",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_5278_481",
+      "full_name_th": "ชาตปุก ประกอบ",
+      "email": null,
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": "ภาควิชาวิศวกรรมเครื่องกล",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_7214_942",
+      "full_name_th": "ลือชา ลดาชาติ",
+      "email": null,
+      "faculty_th": "คณะศึกษาศาสตร์",
+      "department_th": "ภาควิชาหลักสูตร การสอนและการเรียนรู้",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "cmu_w57_9792_770",
+      "full_name_th": "ปรัชญพร คําเมืองลือ",
+      "email": null,
+      "faculty_th": "คณะศึกษาศาสตร์",
+      "department_th": "ภาควิชาหลักสูตร การสอนและการเรียนรู้",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "wave29_0018_780",
+      "full_name_th": "รศ.ดร. อรัญญา ศิริผล",
+      "email": "aranya.s@cmu.ac.th",
+      "faculty_th": "คณะสังคมศาสตร์",
+      "department_th": "ภาควิชาสังคมวิทยาและมานุษยวิทยา",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "wave29_0019_980",
+      "full_name_th": "ผศ.ดร. วิจิตร ประพงษ์",
+      "email": "vijit.p@cmu.ac.th",
+      "faculty_th": "คณะสังคมศาสตร์",
+      "department_th": "ภาควิชาภูมิศาสตร์",
+      "match_source": "exact_verified_dictionary"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_boonchieng_002",
+      "full_name_th": "รศ.ดร. วราภรณ์ บุญเชียง",
+      "email": "waraporn.b@cmu.ac.th",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "ph_cmu_school_unified"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_chautrakarn_006",
+      "full_name_th": "ผศ.ดร. สินีนาฏ ชาวตระการ",
+      "email": "sineenart.c@cmu.ac.th",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "ph_cmu_school_unified"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_intawong_005",
+      "full_name_th": "รศ.ดร. กรรณิการ์ อินต๊ะวงศ์",
+      "email": "kannikar.i@cmu.ac.th",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "ph_cmu_school_unified"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_munpolsri_011",
+      "full_name_th": "อ.ดร. ภัทรนันท์ หมั่นพลศรี",
+      "email": "pattaranan.m@cmu.ac.th",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "ph_cmu_school_unified"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_naksen_003",
+      "full_name_th": "ผศ.ดร. วรางคณา นาคเสน",
+      "email": "warangkana.n@cmu.ac.th",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "ph_cmu_school_unified"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_poprom_009",
+      "full_name_th": "ผศ.ดร. ณปภัช โพธิ์พรหม",
+      "email": "napaphat.p@cmu.ac.th",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "ph_cmu_school_unified"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_siewchaisakul_007",
+      "full_name_th": "ผศ.ดร. พัลลภ เซียวชัยสกุล",
+      "email": "pallop.s@cmu.ac.th",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "ph_cmu_school_unified"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_singweratham_008",
+      "full_name_th": "ผศ.ดร. นภชา สิงห์วีรธรรม",
+      "email": "noppcha.s@cmu.ac.th",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "ph_cmu_school_unified"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_srilerd_010",
+      "full_name_th": "อ.ดร. อลงกรณ์ ศรีเลิศ",
+      "email": "alongkon.srilerd@cmu.ac.th",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "ph_cmu_school_unified"
+    },
+    {
+      "id": "chiangmaiu_facultyofp_thongprachum_004",
+      "full_name_th": "ผศ.ดร. อักษรา ทองประชุม",
+      "email": "aksara.t@cmu.ac.th",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "department_th": "สำนักวิชาสาธารณสุขศาสตร์",
+      "match_source": "ph_cmu_school_unified"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_baingew_052",
+      "full_name_th": "ผศ.ดร. ชิตาพัณณ์ ใบงิ้ว",
+      "email": "shitapan.b@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_baipong_012",
+      "full_name_th": "ผศ.ดร. ศศิธร ใบผ่อง",
+      "email": "sasitorn.bai@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_braspaiboon_069",
+      "full_name_th": "ผศ.ดร. สุกัลย์ บรัศไพบูลย์",
+      "email": "sukan.bras@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีผลิตภัณฑ์ทางทะเล",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chaisu_050",
+      "full_name_th": "ผศ.ดร. กรวิทย์ ไชยสุ",
+      "email": "korawit.chaisu@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chaiyaso_023",
+      "full_name_th": "รศ.ดร. ทนงศักดิ์ ไชยาโส",
+      "email": "thanongsak.c@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chakrabandhu_073",
+      "full_name_th": "ผศ.ดร. ม.ล. ญาศินี จักรพันธุ์",
+      "email": "yasinee.c@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สำนักวิชาอุตสาหกรรมเกษตร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chalermchat_044",
+      "full_name_th": "ผศ.ดร. ยงยุทธ เฉลิมชาติ",
+      "email": "yongyut.c@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิศวกรรมอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_charoennapharat_067",
+      "full_name_th": "อ.ดร. ธีระศักดิ์ เจริญนภารัตน์",
+      "email": "teerasak.ch@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีผลิตภัณฑ์ทางทะเล",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_chompoorattridt_054",
+      "full_name_th": "ผศ.ดร. ปวาลี ชมภูรัตน์ ธฤติธนเกียรติ์",
+      "email": "pavalee.t@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_decharatanangko_062",
+      "full_name_th": "ผศ. สุวรรณา เดชะรัตนางกูร",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_fac_074_074",
+      "full_name_th": "ผศ.ดร. พิมลพรรณ แก้วประจุ",
+      "email": "pimonpan.k@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สำนักวิชาอุตสาหกรรมเกษตร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_hanmoungjai_025",
+      "full_name_th": "ผศ.ดร. ประเสริฐ หาญเมืองใจ",
+      "email": "prasert.h@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_insomphun_019",
+      "full_name_th": "ผศ.ดร. ชญาน์ทิพ อินสมพันธ์",
+      "email": "chayatip.i@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_intipunya_008",
+      "full_name_th": "ผศ.ดร. พิไลรัก อินธิปัญญา",
+      "email": "pilairuk.intipunya@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_jaisan_072",
+      "full_name_th": "ผศ.ดร. ชลาลัย ใจแสน",
+      "email": "chalalai.jai@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สำนักวิชาอุตสาหกรรมเกษตร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_jantanasakulwon_032",
+      "full_name_th": "รศ.ดร. กิตติศักดิ์ จันทนสกุลวงศ์",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการบรรจุ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_jiamyangyuen_016",
+      "full_name_th": "รศ.ดร. สุดารัตน์ เจียมยั่งยืน",
+      "email": "sudarat.j@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_jinsiriwanit_030",
+      "full_name_th": "ผศ.ดร. สิริวัฒน์ จินศิริวานิชย์",
+      "email": "siriwat.jin@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_jirarattanarang_010",
+      "full_name_th": "ผศ. วชิระ จิระรัตนรังษี",
+      "email": "wachira.j@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_jongjareonrak_048",
+      "full_name_th": "ผศ.ดร. เอกสิทธิ์ จงเจริญรักษ์",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิศวกรรมอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_kamthai_037",
+      "full_name_th": "ผศ.ดร. สุฐพัศ คำไทย",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการบรรจุ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_karnjanapratum_071",
+      "full_name_th": "รศ.ดร. สุพัตรา กาญจนประทุม",
+      "email": "supatra.ka@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีผลิตภัณฑ์ทางทะเล",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_khemacheewakul_004",
+      "full_name_th": "รศ.ดร. จุฬาลักษณ์ เขมาชีวะกุล",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_khiewnavawongsa_047",
+      "full_name_th": "ผศ.ดร. สรญา เขียวนาวาวงศ์ษา",
+      "email": "sorraya.k@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิศวกรรมอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_khumsap_005",
+      "full_name_th": "อ.ดร. ทับกฤช ขุมทรัพย์",
+      "email": "tabkrich.khumsap@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_klangpetchueno_011",
+      "full_name_th": "รศ.ดร. วรรณพร คลังเพชร อุเอโนะ",
+      "email": "wannaporn.u@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_klunklin_068",
+      "full_name_th": "ผศ.ดร. วรินพร กลั่นกลิ่น",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีผลิตภัณฑ์ทางทะเล",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_laokuldilok_066",
+      "full_name_th": "รศ.ดร. ธรรณพ เหล่ากุลดิลก",
+      "email": "thunnop.l@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีผลิตภัณฑ์ทางทะเล",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_leksawasdi_040",
+      "full_name_th": "รศ.ดร. นพพล เล็กสวัสดิ์",
+      "email": "noppol.l@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิศวกรรมอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_maniyom_039",
+      "full_name_th": "ผศ.ดร. สุภเวท มานิยม",
+      "email": "supavej.m@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิศวกรรมอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_moukamnerd_021",
+      "full_name_th": "ผศ.ดร. จุไรรัตน์ เม้ากำเนิด",
+      "email": "churairat.m@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_muangrat_045",
+      "full_name_th": "รศ.ดร. รัตนา ม่วงรัตน์",
+      "email": "rattana.m@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิศวกรรมอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_naruenartwongsa_046",
+      "full_name_th": "ผศ.ดร. ศรีสุวรรณ นฤนาทวงศ์สกุล",
+      "email": "srisuwan.n@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิศวกรรมอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_osiriphun_015",
+      "full_name_th": "ผศ.ดร. สุคันธา โอศิริพันธุ์",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_panti_024",
+      "full_name_th": "ผศ.ดร. นิภาวรรณ ปันธิ",
+      "email": "niphawan.p@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_pathomrungsiyon_043",
+      "full_name_th": "ผศ.ดร. ภัทวรา ปฐมรังษิยังกุล",
+      "email": "pattavara.p@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิศวกรรมอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_pongsirikul_063",
+      "full_name_th": "อิศรพงษ์ พงษ์ศิริกุล",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_poonlarp_041",
+      "full_name_th": "รศ.ดร. พิชญา พูลลาภ",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิศวกรรมอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_poonnoy_042",
+      "full_name_th": "รศ.ดร. พูนพัฒน์ พูนน้อย",
+      "email": "poonpat.p@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิศวกรรมอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_pratanaphon_028",
+      "full_name_th": "อ.ดร. รณชัย ปรารถนาผล",
+      "email": "ronachai.p@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_rachtanapun_031",
+      "full_name_th": "ศ.ดร. พรชัย ราชตนะพันธุ์",
+      "email": "pornchai.r@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการบรรจุ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_rakariyatham_065",
+      "full_name_th": "ผศ.ดร. กันยาศิริ รักอริยะธรรม",
+      "email": "kanyasiri.r@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีผลิตภัณฑ์ทางทะเล",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_rattanapitigorn_007",
+      "full_name_th": "รศ.ดร. พนิดา รัตนปิติกรณ์",
+      "email": "panida.r@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_rungchang_018",
+      "full_name_th": "ผศ.ดร. เสาวลักษณ์ รุ่งแจ้ง",
+      "email": "saowaluk.run@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sakdatorn_059",
+      "full_name_th": "อ.ดร. วิญญู ศักดาทร",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sangsuwan_033",
+      "full_name_th": "รศ.ดร. เจิมขวัญ สังข์สุวรรณ",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการบรรจุ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_seesuriyachan_027",
+      "full_name_th": "รศ.ดร. พิสิฐ ศรีสุริยจันทร์",
+      "email": "phisit.s@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_setthaya_057",
+      "full_name_th": "อ.ดร. พัฒธาวินท์ เสทธะยะ",
+      "email": "phatthawin.l@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_simapaisan_055",
+      "full_name_th": "ผศ.ดร. ปิยวรรณ สิมะไพศาล",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sinsuwongwat_029",
+      "full_name_th": "อ.ดร. ศุภวัฒน์ สินสุวงศ์วัฒน์",
+      "email": "suphawat.s@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_siriwoharn_006",
+      "full_name_th": "ผศ.ดร. ธันยพร ศิริโวหาร",
+      "email": "thanyaporn.s@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sriwattana_060",
+      "full_name_th": "รศ.ดร. สุจินดา ศรีวัฒนะ",
+      "email": "sujinda.s@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sukeawsamakradh_049",
+      "full_name_th": "รศ.ดร. รชนิภาส สุแก้ว สมัครธำรงไทย",
+      "email": "rajnibhas.s@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_surawang_061",
+      "full_name_th": "ผศ.ดร. สุทัศน์ สุระวัง",
+      "email": "suthat.s@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_suthapakti_051",
+      "full_name_th": "ผศ.ดร. กัญญรัตน์ สุทธภักติ",
+      "email": "kanyarat.s@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_sutthasupa_038",
+      "full_name_th": "รศ.ดร. สุทธิรา สุทธสุภา",
+      "email": "sutthira.s@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการบรรจุ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_taesuwan_013",
+      "full_name_th": "ผศ.ดร. สิรภัทร แต่สุวรรณ",
+      "email": "siraphat.t@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_tangjaidee_001",
+      "full_name_th": "อ.ดร. พิพรรธ ตั้งใจดี",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_tasakorn_009",
+      "full_name_th": "รวิศ ทัศคร",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_techapun_022",
+      "full_name_th": "ศ. ปฏิบัติ ดร. ชรินทร์ เตชะพันธุ์",
+      "email": "charin.t@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_thanakkasaranee_036",
+      "full_name_th": "ผศ.ดร. ศรินทร์ทิพย์ ธนัคฆเศรณี",
+      "email": "sarinthip.t@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการบรรจุ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_therdtatha_026",
+      "full_name_th": "อ.ดร. พัฒนพงศ์ เถิดตะถา",
+      "email": "phatthanaphong.th@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_thiraphattaraph_035",
+      "full_name_th": "ผศ.ดร. ลินดา ถิรภัทรพันธ์",
+      "email": "linda.t@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการบรรจุ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_thongchai_034",
+      "full_name_th": "อ.ดร. เปรม ทองชัย",
+      "email": "prem.th@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการบรรจุ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_thuengtung_014",
+      "full_name_th": "อ.ดร. สุกัญญา ถึงทุ่ง",
+      "email": "sukanya.thu@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_unban_003",
+      "full_name_th": "ผศ.ดร. กฤษฎา อุ่นบ้าน",
+      "email": "kridsada.u@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีการอาหาร",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_utamaang_053",
+      "full_name_th": "รศ.ดร. นิรมล อุตมอ่าง",
+      "email": "niramon.u@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_walter_056",
+      "full_name_th": "ผศ.ดร. พรจันทร์ วอลเตอร์",
+      "email": "ponjan.p@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการพัฒนาผลิตภัณฑ์",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_wannamakok_064",
+      "full_name_th": "ผศ.ดร. วิสุวัฒน์ วรรณมะกอก",
+      "email": null,
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีผลิตภัณฑ์ทางทะเล",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_yakul_020",
+      "full_name_th": "อ.ดร. กมล ยากูล",
+      "email": "kamon.y@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีชีวภาพ",
+      "match_source": "agro_industry_mis"
+    },
+    {
+      "id": "chiangmaiu_facultyofa_yarnpakdee_070",
+      "full_name_th": "ผศ.ดร. สุธาสินี ญาณภักดี",
+      "email": "suthasinee.y@cmu.ac.th",
+      "faculty_th": "คณะอุตสาหกรรมเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีผลิตภัณฑ์ทางทะเล",
+      "match_source": "agro_industry_mis"
+    }
+  ]
+}

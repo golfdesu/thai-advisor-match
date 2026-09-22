@@ -1,0 +1,322 @@
+[
+  {
+    "id": "ku_wave17_bus_0018",
+    "full_name_th": "ผศ.ดร. สิริจินต์ วงศ์จารุพรรณ",
+    "first_name": "Sirijin",
+    "last_name": "Wongjarupun",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "old_openalex_id": "https://openalex.org/A5093269494"
+  },
+  {
+    "id": "ku_wave17_bus_0006",
+    "full_name_th": "รศ.ดร. ปรียานุช อภิบุณโยภาส",
+    "first_name": "Preeyanuch",
+    "last_name": "Apibunyopas",
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "old_openalex_id": "https://openalex.org/A5093269494"
+  },
+  {
+    "id": "cmu_13f73481_4986",
+    "full_name_th": "ศ.พญ. อรวรรณ เลาห์เรณู",
+    "first_name": "Orawan",
+    "last_name": "Laochareonwong",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_15f525bb_3491",
+    "full_name_th": "ผศ.นพ. วัฒนา ชาติอภิศักดิ์",
+    "first_name": "Wattana",
+    "last_name": "Chataphisak",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_1721c031_3183",
+    "full_name_th": "รศ.นพ. รุ่งโรจณ์ เนตรศิรินิลกุล",
+    "first_name": "Rungrote",
+    "last_name": "Netsirinilkul",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_19076907_1974",
+    "full_name_th": "ผศ.พญ. ฌานิกา โกษารัตน์",
+    "first_name": "Shanika",
+    "last_name": "Kosarat",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_196eef51_0197",
+    "full_name_th": "ศ.ดร.พญ. เพณณินาท์ โอเบอร์ดอร์เฟอร์",
+    "first_name": "Peninnah",
+    "last_name": "Oberdorfer",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_1a5dda4d_4210",
+    "full_name_th": "ผศ.ดร.นพ. กานต์ เวชอภิกุล",
+    "first_name": "Karn",
+    "last_name": "Vechaphikul",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_1dfd6eda_8092",
+    "full_name_th": "อ.พญ. สิปาง ปังประเสริฐกุล",
+    "first_name": "Sipang",
+    "last_name": "Pangprasertkul",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_23392a4c_8003",
+    "full_name_th": "ศ.พญ. มุฑิตา ตระกูลทิวากร",
+    "first_name": "Muthita",
+    "last_name": "Trakultivakorn",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_25f1927e_0019",
+    "full_name_th": "รศ.พญ. แรกขวัญ สิทธิวางค์กูล",
+    "first_name": "Rekwan",
+    "last_name": "Sittiwangkul",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_25f50740_9115",
+    "full_name_th": "รศ.พญ. ณัฐรุจี วิวรรธนดิฐกุล",
+    "first_name": "Nattarujee",
+    "last_name": "Wiwatthanaditkul",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_288e5c33_6585",
+    "full_name_th": "อ.นพ. รัฐกานต์ ยุวัฒนะ",
+    "first_name": "Rattakarn",
+    "last_name": "Yuwatana",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_29e3b8f2_3689",
+    "full_name_th": "อ.พญ. อารีพา สุนทรพันธ์",
+    "first_name": "Areepar",
+    "last_name": "Sunthornphan",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_29f4156d_4475",
+    "full_name_th": "รศ.นพ. ชินณุวัฒน์ สงวนเสริมศรี",
+    "first_name": "Chinnuwat",
+    "last_name": "Sanguansermsri",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_3340a11f_6077",
+    "full_name_th": "ผศ.นพ. เจน เจิดอำไพ",
+    "first_name": "Chane",
+    "last_name": "Jerdumpai",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_347453c7_6590",
+    "full_name_th": "อ.พญ. ณัฐพร ทองงาม",
+    "first_name": "Nattaporn",
+    "last_name": "Thongngam",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_36613319_7437",
+    "full_name_th": "อ.พญ. มัลลิการ์ ป้อมรบ",
+    "first_name": "Mallika",
+    "last_name": "Pomrop",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_38e38745_1540",
+    "full_name_th": "อ.นพ. ธนณัฏฐ์ วิโรจน์ไตรรัตน์",
+    "first_name": "Tananat",
+    "last_name": "Wirojtairat",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_3b9286ba_8867",
+    "full_name_th": "รศ.ดร.พญ. นฤภร ลิขิตวีระวงศ์",
+    "first_name": "Narueporn",
+    "last_name": "Likitweerawong",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_3cd248e6_1039",
+    "full_name_th": "รศ.พญ. ณัฐพร หงษาวงศ์",
+    "first_name": "Nattaporn",
+    "last_name": "Hongsawong",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_3f0225ba_3846",
+    "full_name_th": "รศ.ดร.พญ. นงลักษณ์ บุญชูดวง",
+    "first_name": "Nonglak",
+    "last_name": "Boonchuduang",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_424d2799_7798",
+    "full_name_th": "อ.นพ. ธีรพล จริยะสกุลโรจน์",
+    "first_name": "Theerapon",
+    "last_name": "Jariyasakulroj",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_45a310e9_9187",
+    "full_name_th": "รศ.พญ. เกวลี อุณจักร",
+    "first_name": "Kewalee",
+    "last_name": "Unachak",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_4864aba8_4834",
+    "full_name_th": "ผศ.พญ. กมรวรรณ กตัญญูวงศ์",
+    "first_name": "Kamornwan",
+    "last_name": "Katanyuwong",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_48894a35_9290",
+    "full_name_th": "รศ.ดร.พญ. กุลนิภา กิตติศักดิ์มนตรี",
+    "first_name": "Kulnipa",
+    "last_name": "Kittisakmontri",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_4d9d274b_0094",
+    "full_name_th": "อ.พญ. ณิชาภัทร กีฬาแปง",
+    "first_name": "Nichaphat",
+    "last_name": "Kilapaeng",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_5137807e_3801",
+    "full_name_th": "รศ.พญ. อลิสรา ดำรงมณี",
+    "first_name": "Alisara",
+    "last_name": "Damrongmanee",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_53e4532a_7662",
+    "full_name_th": "อ.พญ. ณัฐชยาญ์ คุณานิจถาวร",
+    "first_name": "Natchaya",
+    "last_name": "Kunanitchawon",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_54dbaba0_6293",
+    "full_name_th": "ศ.พญ. พิมพ์ลักษณ์ เจริญขวัญ",
+    "first_name": "Pimlak",
+    "last_name": "Charoenkwan",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_6169c827_3572",
+    "full_name_th": "อ.พญ. มะลิวัลย์ เต็งสุจริตกุล",
+    "first_name": "Maliwan",
+    "last_name": "Tengsujaritkul",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_628f5275_4052",
+    "full_name_th": "ศ.พญ. จุฬาภรณ์ พฤกษชาติคุณ",
+    "first_name": "Chulaphorn",
+    "last_name": "Phruksachatkhun",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_65a6e40b_8644",
+    "full_name_th": "อ.นพ. พงศธร ศาลิคุปต",
+    "first_name": "Pongsathorn",
+    "last_name": "Salikupta",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_65edcd56_0048",
+    "full_name_th": "รศ.ดร.พญ. ทวิติยา สุจริตรักษ์",
+    "first_name": "Tavitiya",
+    "last_name": "Sujaritruk",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_66decd29_5845",
+    "full_name_th": "รศ.นพ. ณัฐพงษ์ อัครผล",
+    "first_name": "Nuthapong",
+    "last_name": "Akkaraphong",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_6b898605_6332",
+    "full_name_th": "อ.นพ. ภคณัฐ พิธุพันธ์",
+    "first_name": "Phakanat",
+    "last_name": "Phithuphan",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_6bd65522_6580",
+    "full_name_th": "รศ.พญ. สุชญา ศิลป์วิไลรัตน์",
+    "first_name": "Suchaya",
+    "last_name": "Silvilairat",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_6c49c784_4873",
+    "full_name_th": "ผศ.พญ. วัชรีวรรณ สนธิชัย",
+    "first_name": "Watchareewan",
+    "last_name": "Sonthichai",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_6db7aa94_6545",
+    "full_name_th": "อ.พญ. นวินดา เรืองอำนาจ",
+    "first_name": "Nawinda",
+    "last_name": "Ruengamnat",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  },
+  {
+    "id": "cmu_6f0ce353_2029",
+    "full_name_th": "รศ.พญ. วรางค์ทิพย์ คูวุฒยากร",
+    "first_name": "Varangthip",
+    "last_name": "Khuwuthyakorn",
+    "university_th": "มหาวิทยาลัยเชียงใหม่",
+    "old_openalex_id": "https://openalex.org/A5151438778"
+  }
+]

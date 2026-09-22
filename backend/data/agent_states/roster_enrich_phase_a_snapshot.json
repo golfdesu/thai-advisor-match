@@ -1,0 +1,10 @@
+{
+  "timestamp": 1789970075.055253,
+  "elapsed_seconds": 51.8,
+  "total_top5_missing_before": 51813,
+  "pass1_crawled_roster_matches": 0,
+  "pass2_local_roster_matches": 0,
+  "pass3_domain_taxonomy_matches": 33739,
+  "total_faculties_enriched": 33739,
+  "coverage_pct": 65.12
+}

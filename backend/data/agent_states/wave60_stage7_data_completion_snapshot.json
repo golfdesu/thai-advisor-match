@@ -1,0 +1,11 @@
+{
+  "timestamp": 1789965458.4708164,
+  "burapha_huso_enriched": 0,
+  "burapha_science_enriched": 1,
+  "burapha_education_enriched": 64,
+  "silpakorn_physics_enriched": 0,
+  "silpakorn_chemistry_enriched": 7,
+  "swu_science_enriched": 21,
+  "email_backfill_pass3_enriched": 85,
+  "total_operations": 178
+}

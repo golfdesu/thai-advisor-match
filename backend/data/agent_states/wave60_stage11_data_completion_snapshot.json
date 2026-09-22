@@ -1,0 +1,9 @@
+{
+  "timestamp": 1789968272.227329,
+  "elapsed_seconds": 194.64,
+  "leaked_titles_and_mds_repaired": 85,
+  "nationwide_intra_uni_dedup_merged": 3395,
+  "academic_titles_completed": 117786,
+  "openalex_disambiguated": 13350,
+  "total_operations": 134616
+}

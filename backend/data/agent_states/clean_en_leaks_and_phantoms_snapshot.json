@@ -1,0 +1,333 @@
+{
+  "timestamp": "2026-09-20T17:19:25.888629",
+  "purged": [
+    {
+      "id": "up_w48_0022_351",
+      "full_name_th": "อ. Contact Us",
+      "first_name": null,
+      "last_name": null,
+      "email": null,
+      "university_th": "มหาวิทยาลัยพะเยา"
+    },
+    {
+      "id": "tu_77228bb7_6146",
+      "full_name_th": "ผศ.ดร.",
+      "first_name": "Isaac Adam",
+      "last_name": "Jamieson",
+      "email": "isaac@ap.tu.ac.th",
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์"
+    }
+  ],
+  "modified": [
+    {
+      "id": "srinakha_facultyo_498d1392",
+      "field": "en_name",
+      "old_first": "Telephone",
+      "old_last": "Deachapunya",
+      "new_first": "Chattri",
+      "new_last": "Deachapunya"
+    },
+    {
+      "id": "wave21_0109_306",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0111_405",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0113_998",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0115_619",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0116_252",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0117_888",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0118_942",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0119_805",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0120_433",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0121_313",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0122_918",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0124_159",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0112_110",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0110_213",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0123_662",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "address is being protected from spambots You need Java Script enabled to it",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_4aca8d5f_1738",
+      "field": "clear_en_boilerplate",
+      "old_first": "Textbooks",
+      "old_last": "Copyrights",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_57924e58_9988",
+      "field": "clear_en_boilerplate",
+      "old_first": "Textbooks",
+      "old_last": "Copyrights",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_6d9e7108_9058",
+      "field": "clear_en_boilerplate",
+      "old_first": "Textbooks",
+      "old_last": "Copyrights",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_e323d8f2_9762",
+      "field": "clear_en_boilerplate",
+      "old_first": "Textbooks",
+      "old_last": "Copyrights",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_651a4139_1203",
+      "field": "clear_en_boilerplate",
+      "old_first": "Textbooks",
+      "old_last": "Copyrights",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_169da454_9893",
+      "field": "clear_en_boilerplate",
+      "old_first": "Grants",
+      "old_last": "Awards",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_1e1bf9a4_9760",
+      "field": "clear_en_boilerplate",
+      "old_first": "Grants",
+      "old_last": "TRACK",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_37991aa4_4542",
+      "field": "clear_en_boilerplate",
+      "old_first": "Grants",
+      "old_last": "Awards",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_606a9742_1534",
+      "field": "clear_en_boilerplate",
+      "old_first": "Grants",
+      "old_last": "Awards",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_5200d1b2_4797",
+      "field": "clear_en_boilerplate",
+      "old_first": "Earde",
+      "old_last": "Grants",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_b3251a1a_8975",
+      "field": "clear_en_boilerplate",
+      "old_first": "Grants",
+      "old_last": "PM Haze Free Thailand PM PM TINT to",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "tu_6a3b3f2d_7399",
+      "field": "clear_en_boilerplate",
+      "old_first": "Textbooks",
+      "old_last": "Books ICF",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "mju_21b4e29f_0552",
+      "field": "clear_en_boilerplate",
+      "old_first": "REDACTED",
+      "old_last": "PHONE",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "mju_3d45eb1b_4854",
+      "field": "clear_en_boilerplate",
+      "old_first": "REDACTED",
+      "old_last": "PHONE",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "mju_5b31ef04_4102",
+      "field": "clear_en_boilerplate",
+      "old_first": "REDACTED",
+      "old_last": "PHONE",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "mju_7f3a1b96_6242",
+      "field": "clear_en_boilerplate",
+      "old_first": "REDACTED",
+      "old_last": "PHONE",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "mju_24f9c3b5_9637",
+      "field": "clear_en_boilerplate",
+      "old_first": "REDACTED",
+      "old_last": "PHONE",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "wave21_0114_166",
+      "field": "clear_en_boilerplate",
+      "old_first": "This",
+      "old_last": "PHONE",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "kmitl_aad_wave16_0135",
+      "field": "clear_en_boilerplate",
+      "old_first": "Scott",
+      "old_last": "Drake",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "kmitl_aad_wave16_0136",
+      "field": "clear_en_boilerplate",
+      "old_first": "Scott",
+      "old_last": "Drake",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "kmitl_aad_wave16_0140",
+      "field": "clear_en_boilerplate",
+      "old_first": "Chandra",
+      "old_last": "Pratama Ph",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "kmitl_aad_wave16_0141",
+      "field": "clear_en_boilerplate",
+      "old_first": "Chandra",
+      "old_last": "Pratama Ph",
+      "new_first": null,
+      "new_last": null
+    },
+    {
+      "id": "buu_infor_015_9202",
+      "field": "clear_mismatched_email",
+      "old_email": "hemmarat@go.buu.ac.th",
+      "new_email": null
+    }
+  ]
+}

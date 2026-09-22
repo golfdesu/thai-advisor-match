@@ -1,0 +1,6614 @@
+{
+  "timestamp": "2026-09-20T17:15:57.304878",
+  "pass": "Pass 1: Thai Name + University",
+  "merges": [
+    {
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "bare_name": "อุรัชชา สัจจาพงศ์",
+      "primary_id": "wave21_0211_798",
+      "donor_ids": [
+        "wave21_0216_399"
+      ],
+      "primary_before": {
+        "id": "wave21_0211_798",
+        "full_name_th": "ผศ.ดร. อุรัชชา สัจจาพงศ์",
+        "email": "nisarat.au@up.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะสาธารณสุขศาสตร์",
+        "department_th": null
+      },
+      "donors_data": [
+        {
+          "id": "wave21_0216_399",
+          "full_name_th": "ดร. อุรัชชา สัจจาพงศ์",
+          "email": null,
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะสาธารณสุขศาสตร์",
+          "department_th": null
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+      "bare_name": "อิทธิภูมิ พรหมมา",
+      "primary_id": "wave24_0426_574",
+      "donor_ids": [
+        "wave24_0425_506"
+      ],
+      "primary_before": {
+        "id": "wave24_0426_574",
+        "full_name_th": "ดร. อิทธิภูมิ พรหมมา",
+        "email": null,
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง",
+        "department_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง"
+      },
+      "donors_data": [
+        {
+          "id": "wave24_0425_506",
+          "full_name_th": "ดร. อิทธิภูมิ พรหมมา",
+          "email": null,
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง",
+          "department_th": "สาขาวิชาสถาปัตยกรรม เพื่อการพัฒนาอสังหาริมทรัพย์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "bare_name": "กันย์กัญญา ใจการวงค์สกุล",
+      "primary_id": "up_w48_0015_727",
+      "donor_ids": [
+        "up_w48_0906_789"
+      ],
+      "primary_before": {
+        "id": "up_w48_0015_727",
+        "full_name_th": "รศ. กันย์กัญญา ใจการวงค์สกุล",
+        "email": "kankanya.ja@up.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะนิติศาสตร์",
+        "department_th": "สาขาวิชานิติศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "up_w48_0906_789",
+          "full_name_th": "กันย์กัญญา ใจการวงค์สกุล",
+          "email": null,
+          "openalex_id": "A5036856397",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเทคโนโลยีสารสนเทศและการสื่อสาร",
+          "department_th": "สาขาวิชาวิทยาการคอมพิวเตอร์และสารสนเทศ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "bare_name": "พัจน์พิตตา ศรีสมพงษ์",
+      "primary_id": "up_w48_0111_382",
+      "donor_ids": [
+        "up_w48_0944_311"
+      ],
+      "primary_before": {
+        "id": "up_w48_0111_382",
+        "full_name_th": "ดร. พัจน์พิตตา ศรีสมพงษ์",
+        "email": "phatpitta.sr@up.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะบริหารธุรกิจและนิเทศศาสตร์",
+        "department_th": "สาขาวิชาการท่องเที่ยวและการโรงแรม"
+      },
+      "donors_data": [
+        {
+          "id": "up_w48_0944_311",
+          "full_name_th": "พัจน์พิตตา ศรีสมพงษ์",
+          "email": null,
+          "openalex_id": "A5063688625",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะบริหารธุรกิจและนิเทศศาสตร์",
+          "department_th": "สาขาวิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "bare_name": "ณัฐวุฒิ สมยาโรน",
+      "primary_id": "up_w48_0116_999",
+      "donor_ids": [
+        "up_w48_0938_729"
+      ],
+      "primary_before": {
+        "id": "up_w48_0116_999",
+        "full_name_th": "อ. ณัฐวุฒิ สมยาโรน",
+        "email": "nattawut.so@up.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะบริหารธุรกิจและนิเทศศาสตร์",
+        "department_th": "สาขาวิชาการจัดการการสื่อสาร"
+      },
+      "donors_data": [
+        {
+          "id": "up_w48_0938_729",
+          "full_name_th": "ณัฐวุฒิ สมยาโรน",
+          "email": null,
+          "openalex_id": "A5057076868",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะบริหารธุรกิจและนิเทศศาสตร์",
+          "department_th": "สาขาวิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "bare_name": "เอื้อมพร ทิพย์เดช",
+      "primary_id": "up_w48_0169_972",
+      "donor_ids": [
+        "up_w48_0858_440"
+      ],
+      "primary_before": {
+        "id": "up_w48_0169_972",
+        "full_name_th": "ผศ.ดร. เอื้อมพร ทิพย์เดช",
+        "email": "uamporn.jo@up.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะศิลปศาสตร์",
+        "department_th": "สาขาวิชาภาษาไทย"
+      },
+      "donors_data": [
+        {
+          "id": "up_w48_0858_440",
+          "full_name_th": "เอื้อมพร ทิพย์เดช",
+          "email": null,
+          "openalex_id": "A5000729847",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะรัฐศาสตร์และสังคมศาสตร์",
+          "department_th": "สาขาวิชารัฐศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "นัยนา หนูนิล",
+      "primary_id": "wu_w51_0193_996",
+      "donor_ids": [
+        "wu_w51_1630_988"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0193_996",
+        "full_name_th": "รศ.ดร. นัยนา หนูนิล",
+        "email": "nnaiyana@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาพยาบาลศาสตร์",
+        "department_th": "สำนักวิชาพยาบาลศาสตร์ สาขาวิชาการพยาบาลขั้นสูง"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_1630_988",
+          "full_name_th": "นัยนา หนูนิล",
+          "email": null,
+          "openalex_id": "A5069186580",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชารัฐศาสตร์และรัฐประศาสนศาสตร์",
+          "department_th": "สาขาวิชารัฐศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "จอม สุวรรณโณ",
+      "primary_id": "wu_w51_0168_950",
+      "donor_ids": [
+        "wu_w51_1637_550"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0168_950",
+        "full_name_th": "รศ.ดร. จอม สุวรรณโณ",
+        "email": "sjom@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาพยาบาลศาสตร์",
+        "department_th": "สำนักวิชาพยาบาลศาสตร์ สาขาวิชาการพยาบาลขั้นสูง"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_1637_550",
+          "full_name_th": "จอม สุวรรณโณ",
+          "email": null,
+          "openalex_id": "A5080914774",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+          "department_th": "สาขาวิชาวิทยาศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+      "bare_name": "คณิศร์ มาตรา",
+      "primary_id": "wave21_0036_272",
+      "donor_ids": [
+        "wave21_0008_767"
+      ],
+      "primary_before": {
+        "id": "wave21_0036_272",
+        "full_name_th": "รศ.ดร. คณิศร์ มาตรา",
+        "email": null,
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": null
+      },
+      "donors_data": [
+        {
+          "id": "wave21_0008_767",
+          "full_name_th": "รศ.ดร. คณิศร์ มาตรา",
+          "email": null,
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": null
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "bare_name": "สุทธิชัย ศิรินวล",
+      "primary_id": "wave21_0184_519",
+      "donor_ids": [
+        "wave21_0213_992"
+      ],
+      "primary_before": {
+        "id": "wave21_0184_519",
+        "full_name_th": "ดร. สุทธิชัย ศิรินวล",
+        "email": "vorawut.wo@up.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะสาธารณสุขศาสตร์",
+        "department_th": null
+      },
+      "donors_data": [
+        {
+          "id": "wave21_0213_992",
+          "full_name_th": "อ.ดร. สุทธิชัย ศิรินวล",
+          "email": null,
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะสาธารณสุขศาสตร์",
+          "department_th": null
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "bare_name": "สุรางคนา ไชยรินคำ",
+      "primary_id": "wave21_0193_684",
+      "donor_ids": [
+        "wave21_0214_663"
+      ],
+      "primary_before": {
+        "id": "wave21_0193_684",
+        "full_name_th": "ดร. สุรางคนา ไชยรินคำ",
+        "email": "orathai.ka@up.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะสาธารณสุขศาสตร์",
+        "department_th": null
+      },
+      "donors_data": [
+        {
+          "id": "wave21_0214_663",
+          "full_name_th": "อ.ดร. สุรางคนา ไชยรินคำ",
+          "email": null,
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะสาธารณสุขศาสตร์",
+          "department_th": null
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "bare_name": "เสกสรรค์ ทองติ๊บ",
+      "primary_id": "wave21_0198_413",
+      "donor_ids": [
+        "wave21_0215_110"
+      ],
+      "primary_before": {
+        "id": "wave21_0198_413",
+        "full_name_th": "รศ.ดร. เสกสรรค์ ทองติ๊บ",
+        "email": "piyavadee.sr@up.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะสาธารณสุขศาสตร์",
+        "department_th": null
+      },
+      "donors_data": [
+        {
+          "id": "wave21_0215_110",
+          "full_name_th": "ผศ.ดร. เสกสรรค์ ทองติ๊บ",
+          "email": null,
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะสาธารณสุขศาสตร์",
+          "department_th": null
+        }
+      ]
+    },
+    {
+      "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+      "bare_name": "สุพัตรา ศรีไชยรัตน์",
+      "primary_id": "chulalongk_facultyofv_srichairat_167",
+      "donor_ids": [
+        "chulalongk_facultyofv_fac_159_159"
+      ],
+      "primary_before": {
+        "id": "chulalongk_facultyofv_srichairat_167",
+        "full_name_th": "รศ.ดร. สุพัตรา ศรีไชยรัตน์",
+        "email": null,
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะสัตวแพทยศาสตร์",
+        "department_th": "ภาควิชาเภสัชวิทยา"
+      },
+      "donors_data": [
+        {
+          "id": "chulalongk_facultyofv_fac_159_159",
+          "full_name_th": "รศ.ดร.ภญ. สุพัตรา ศรีไชยรัตน์",
+          "email": null,
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะสัตวแพทยศาสตร์",
+          "department_th": "ภาควิชาเภสัชวิทยา"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "bare_name": "รัชฎา ฉายจิต",
+      "primary_id": "wave22_0344_646",
+      "donor_ids": [
+        "wave22_0381_462"
+      ],
+      "primary_before": {
+        "id": "wave22_0344_646",
+        "full_name_th": "ผศ.ดร. รัชฎา ฉายจิต",
+        "email": null,
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะทันตแพทยศาสตร์",
+        "department_th": "คณะทันตแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0381_462",
+          "full_name_th": "ผศ.ดร.ทพญ. รัชฎา ฉายจิต",
+          "email": null,
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะทันตแพทยศาสตร์",
+          "department_th": "คณะทันตแพทยศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "bare_name": "เสาวลักษณ์ ลิ้มมณฑล",
+      "primary_id": "wave22_0351_773",
+      "donor_ids": [
+        "wave22_0394_992"
+      ],
+      "primary_before": {
+        "id": "wave22_0351_773",
+        "full_name_th": "รศ. เสาวลักษณ์ ลิ้มมณฑล",
+        "email": null,
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะทันตแพทยศาสตร์",
+        "department_th": "คณะทันตแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0394_992",
+          "full_name_th": "รศ.ทพญ. เสาวลักษณ์ ลิ้มมณฑล",
+          "email": null,
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะทันตแพทยศาสตร์",
+          "department_th": "สาขาวิชาศัลยศาสตร์ช่องปากและแม็กซิลโลเฟเชียล"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "bare_name": "กรกมล สุขจิตร",
+      "primary_id": "wave22_0370_592",
+      "donor_ids": [
+        "wave22_0391_631"
+      ],
+      "primary_before": {
+        "id": "wave22_0370_592",
+        "full_name_th": "ผศ. กรกมล สุขจิตร",
+        "email": null,
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะทันตแพทยศาสตร์",
+        "department_th": "คณะทันตแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0391_631",
+          "full_name_th": "ผศ.ทพญ. กรกมล สุขจิตร",
+          "email": null,
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะทันตแพทยศาสตร์",
+          "department_th": "สาขาวิชาทันตกรรมบูรณะ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยขอนแก่น",
+      "bare_name": "วิไลรัตน์ สฤษฎีชัยกุล",
+      "primary_id": "wave22_0374_223",
+      "donor_ids": [
+        "wave22_0388_903"
+      ],
+      "primary_before": {
+        "id": "wave22_0374_223",
+        "full_name_th": "ผศ. วิไลรัตน์ สฤษฎีชัยกุล",
+        "email": null,
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะทันตแพทยศาสตร์",
+        "department_th": "คณะทันตแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0388_903",
+          "full_name_th": "รศ.ทพญ. วิไลรัตน์ สฤษฎีชัยกุล",
+          "email": null,
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะทันตแพทยศาสตร์",
+          "department_th": "คณะทันตแพทยศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "bare_name": "ฐิติมา ด้วงเงิน",
+      "primary_id": "wave22_0435_721",
+      "donor_ids": [
+        "wave22_0449_723"
+      ],
+      "primary_before": {
+        "id": "wave22_0435_721",
+        "full_name_th": "ผศ.ภญ. ฐิติมา ด้วงเงิน",
+        "email": null,
+        "openalex_id": "https://openalex.org/A5057341590",
+        "total_citations": 79,
+        "h_index": 6,
+        "total_publications_count": 14,
+        "faculty_th": "คณะเภสัชศาสตร์",
+        "department_th": "คณะเภสัชศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0449_723",
+          "full_name_th": "ผศ. ฐิติมา ด้วงเงิน",
+          "email": null,
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเภสัชศาสตร์",
+          "department_th": "สาขาวิชาเภสัชกรรมคลินิก"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+      "bare_name": "นันทพงศ์ บุญฤทธิ์",
+      "primary_id": "wave22_0440_194",
+      "donor_ids": [
+        "wave22_0454_889"
+      ],
+      "primary_before": {
+        "id": "wave22_0440_194",
+        "full_name_th": "อ.ภก. นันทพงศ์ บุญฤทธิ์",
+        "email": null,
+        "openalex_id": "https://openalex.org/A5093882285",
+        "total_citations": 10,
+        "h_index": 2,
+        "total_publications_count": 6,
+        "faculty_th": "คณะเภสัชศาสตร์",
+        "department_th": "คณะเภสัชศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0454_889",
+          "full_name_th": "อ. นันทพงศ์ บุญฤทธิ์",
+          "email": null,
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเภสัชศาสตร์",
+          "department_th": "สาขาวิชาเภสัชกรรมคลินิก"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยนเรศวร",
+      "bare_name": "ณรงค์กรรณ รอดทรัพย์",
+      "primary_id": "nu_w45_0051_379",
+      "donor_ids": [
+        "nu_w45_1047_178"
+      ],
+      "primary_before": {
+        "id": "nu_w45_0051_379",
+        "full_name_th": "ผศ.ดร. ณรงค์กรรณ รอดทรัพย์",
+        "email": "aranyikaram@hotmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะมนุษยศาสตร์",
+        "department_th": "ภาควิชาภาษาไทย"
+      },
+      "donors_data": [
+        {
+          "id": "nu_w45_1047_178",
+          "full_name_th": "ณรงค์กรรณ รอดทรัพย์",
+          "email": null,
+          "openalex_id": "A5080536195",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "มหาวิทยาลัยนเรศวร",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยนเรศวร",
+      "bare_name": "มานะ เติมใจ",
+      "primary_id": "nu_w45_0109_257",
+      "donor_ids": [
+        "nu_w45_0179_376"
+      ],
+      "primary_before": {
+        "id": "nu_w45_0109_257",
+        "full_name_th": "ผศ. มานะ เติมใจ",
+        "email": "manatermjai@hotmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะมนุษยศาสตร์",
+        "department_th": "ภาควิชาภาษาอังกฤษ"
+      },
+      "donors_data": [
+        {
+          "id": "nu_w45_0179_376",
+          "full_name_th": "ดร. มานะ เติมใจ",
+          "email": "manatermjai@hotmail.com",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะมนุษยศาสตร์",
+          "department_th": "ภาควิชาภาษาอังกฤษ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "วิลาวัลย์ จันทร์ศรี",
+      "primary_id": "thaksinuni_facultyofe_chansri_037",
+      "donor_ids": [
+        "tsu_w50_1801_797"
+      ],
+      "primary_before": {
+        "id": "thaksinuni_facultyofe_chansri_037",
+        "full_name_th": "ผศ.ดร. วิลาวัลย์ จันทร์ศรี",
+        "email": "wilawan@tsu.ac.th",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+        "department_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1801_797",
+          "full_name_th": "วิลาวัลย์ จันทร์ศรี",
+          "email": null,
+          "openalex_id": "A5051203660",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "นินนาท์ จันทร์สูรย์",
+      "primary_id": "thaksinuni_facultyofe_chansuwan_065",
+      "donor_ids": [
+        "tsu_w50_1837_647"
+      ],
+      "primary_before": {
+        "id": "thaksinuni_facultyofe_chansuwan_065",
+        "full_name_th": "ผศ.ดร. นินนาท์ จันทร์สูรย์",
+        "email": "ninna@tsu.ac.th",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะศึกษาศาสตร์",
+        "department_th": "กลุ่มหลักสูตรการสอนวิทยาศาสตร์และคณิตศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1837_647",
+          "full_name_th": "นินนาท์ จันทร์สูรย์",
+          "email": null,
+          "openalex_id": "A5099135346",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะนิติศาสตร์",
+          "department_th": "ภาควิชานิติศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ชัชวาล ชุมรักษา",
+      "primary_id": "thaksinuni_facultyofe_chumraksha_015",
+      "donor_ids": [
+        "tsu_w50_1746_687"
+      ],
+      "primary_before": {
+        "id": "thaksinuni_facultyofe_chumraksha_015",
+        "full_name_th": "ผศ.ดร. ชัชวาล ชุมรักษา",
+        "email": "chatchawan@tsu.ac.th",
+        "openalex_id": "A5067455384",
+        "total_citations": 6,
+        "h_index": 1,
+        "total_publications_count": 0,
+        "faculty_th": "คณะศึกษาศาสตร์",
+        "department_th": "กลุ่มหลักสูตรเทคโนโลยีและสื่อสารการศึกษา"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1746_687",
+          "full_name_th": "ชัชวาล ชุมรักษา",
+          "email": null,
+          "openalex_id": "A5091842041",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "วสันต์ กาญจนมุกดา",
+      "primary_id": "thaksinuni_facultyofe_kanchanamukda_020",
+      "donor_ids": [
+        "tsu_w50_1754_411"
+      ],
+      "primary_before": {
+        "id": "thaksinuni_facultyofe_kanchanamukda_020",
+        "full_name_th": "ผศ.ดร. วสันต์ กาญจนมุกดา",
+        "email": "wasan@tsu.ac.th",
+        "openalex_id": "https://openalex.org/A5041640431",
+        "total_citations": 233,
+        "h_index": 1,
+        "total_publications_count": 5,
+        "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+        "department_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1754_411",
+          "full_name_th": "วสันต์ กาญจนมุกดา",
+          "email": null,
+          "openalex_id": "A5114440713",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะนิติศาสตร์",
+          "department_th": "ภาควิชานิติศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "อรจันทร์ ศิริโชติ",
+      "primary_id": "thaksinuni_facultyofe_sirichot_014",
+      "donor_ids": [
+        "tsu_w50_1673_518"
+      ],
+      "primary_before": {
+        "id": "thaksinuni_facultyofe_sirichot_014",
+        "full_name_th": "ผศ.ดร. อรจันทร์ ศิริโชติ",
+        "email": "sorachan@tsu.ac.th",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+        "department_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1673_518",
+          "full_name_th": "อรจันทร์ ศิริโชติ",
+          "email": null,
+          "openalex_id": "A5082422210",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "เอกราช สุวรรณรัตน์",
+      "primary_id": "thaksinuni_facultyofl_suwannarat_036",
+      "donor_ids": [
+        "tsu_w50_1804_850"
+      ],
+      "primary_before": {
+        "id": "thaksinuni_facultyofl_suwannarat_036",
+        "full_name_th": "ผศ. เอกราช สุวรรณรัตน์",
+        "email": "aekkarach@tsu.ac.th",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะนิติศาสตร์",
+        "department_th": "คณะนิติศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1804_850",
+          "full_name_th": "เอกราช สุวรรณรัตน์",
+          "email": null,
+          "openalex_id": "A5054608261",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ทิพย์ทิวา สัมพันธมิตร",
+      "primary_id": "wave22_0949_500",
+      "donor_ids": [
+        "tsu_w50_1667_365"
+      ],
+      "primary_before": {
+        "id": "wave22_0949_500",
+        "full_name_th": "อ. ทิพย์ทิวา สัมพันธมิตร",
+        "email": "tiptiwa@tsu.ac.th",
+        "openalex_id": "https://openalex.org/A5087758991",
+        "total_citations": 213,
+        "h_index": 4,
+        "total_publications_count": 5,
+        "faculty_th": "คณะวิทยาศาสตร์",
+        "department_th": "หลักสูตร วท.บ.วิทยาศาสตร์และนวัตกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1667_365",
+          "full_name_th": "ทิพย์ทิวา สัมพันธมิตร",
+          "email": null,
+          "openalex_id": "A5053040806",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+          "department_th": "สาขาวิชาชีววิทยา"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "อุไรวรรณ ทองแกมแก้ว",
+      "primary_id": "tsu_w50_0025_234",
+      "donor_ids": [
+        "tsu_w50_1817_554"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0025_234",
+        "full_name_th": "ผศ.ดร. อุไรวรรณ ทองแกมแก้ว",
+        "email": "uraiwan@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะเกษตรศาสตร์",
+        "department_th": "คณะเกษตรศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1817_554",
+          "full_name_th": "อุไรวรรณ ทองแกมแก้ว",
+          "email": null,
+          "openalex_id": "A5087335087",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "สุภฎา คีรีรัฐนิคม",
+      "primary_id": "tsu_w50_0051_996",
+      "donor_ids": [
+        "tsu_w50_1620_229"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0051_996",
+        "full_name_th": "ผศ.ดร. สุภฎา คีรีรัฐนิคม",
+        "email": "ksuphada@yahoo.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+        "department_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1620_229",
+          "full_name_th": "สุภฎา คีรีรัฐนิคม",
+          "email": null,
+          "openalex_id": "A5078075491",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+          "department_th": "สาขาวิชาชีววิทยา"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "อมรรัตน์ ถนนแก้ว",
+      "primary_id": "tsu_w50_0070_717",
+      "donor_ids": [
+        "tsu_w50_1724_183"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0070_717",
+        "full_name_th": "รศ.ดร. อมรรัตน์ ถนนแก้ว",
+        "email": "apsara.2555@gmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะอุตสาหกรรมเกษตรและชีวภาพ",
+        "department_th": "คณะอุตสาหกรรมเกษตรและชีวภาพ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1724_183",
+          "full_name_th": "อมรรัตน์ ถนนแก้ว",
+          "email": null,
+          "openalex_id": "A5037296776",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเทคโนโลยีและการพัฒนาชุมชน",
+          "department_th": "ภาควิชาเทคโนโลยีการเกษตร"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "พิมพ์ชนา ฮกทา",
+      "primary_id": "tsu_w50_0142_372",
+      "donor_ids": [
+        "tsu_w50_1867_712"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0142_372",
+        "full_name_th": "อ.ดร. พิมพ์ชนา ฮกทา",
+        "email": "pimchana@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+        "department_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1867_712",
+          "full_name_th": "พิมพ์ชนา ฮกทา",
+          "email": null,
+          "openalex_id": "A5126907664",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "คุณอานันท์ นิรมล",
+      "primary_id": "tsu_w50_0353_846",
+      "donor_ids": [
+        "tsu_w50_1813_399"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0353_846",
+        "full_name_th": "ผศ.ดร. คุณอานันท์ นิรมล",
+        "email": "khunarnan1@gmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะศึกษาศาสตร์",
+        "department_th": "คณะศึกษาศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1813_399",
+          "full_name_th": "คุณอานันท์ นิรมล",
+          "email": null,
+          "openalex_id": "A5082771458",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ปริยากรณ์ ชูแก้ว",
+      "primary_id": "tsu_w50_0376_964",
+      "donor_ids": [
+        "tsu_w50_1818_119"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0376_964",
+        "full_name_th": "อ. ปริยากรณ์ ชูแก้ว",
+        "email": "pariyakorn368@gmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "department_th": "คณะมนุษยศาสตร์และสังคมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1818_119",
+          "full_name_th": "ปริยากรณ์ ชูแก้ว",
+          "email": null,
+          "openalex_id": "A5087720228",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+          "department_th": "ภาควิชามนุษยศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "จีรวัฒน์ โสภาจารย์",
+      "primary_id": "tsu_w50_0406_560",
+      "donor_ids": [
+        "tsu_w50_1460_163"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0406_560",
+        "full_name_th": "อ. จีรวัฒน์ โสภาจารย์",
+        "email": "sjerawat@hotmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1460_163",
+          "full_name_th": "อ.ดร. จีรวัฒน์ โสภาจารย์",
+          "email": "jerawat@tsu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ชัยวัฒน์ จุมพลกุล",
+      "primary_id": "tsu_w50_0442_614",
+      "donor_ids": [
+        "tsu_w50_1464_236"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0442_614",
+        "full_name_th": "อ. ชัยวัฒน์ จุมพลกุล",
+        "email": "chaiwat.j@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1464_236",
+          "full_name_th": "อ. ชัยวัฒน์ จุมพลกุล",
+          "email": "chaiwat.j@tsu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "วิทยา ขาวขจร",
+      "primary_id": "tsu_w50_0461_638",
+      "donor_ids": [
+        "tsu_w50_1753_516"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0461_638",
+        "full_name_th": "อ. วิทยา ขาวขจร",
+        "email": "witjorn2509@hotmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "วิทยาลัยการจัดการเพื่อการพัฒนา",
+        "department_th": "วิทยาลัยการจัดการเพื่อการพัฒนา"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1753_516",
+          "full_name_th": "วิทยา ขาวขจร",
+          "email": null,
+          "openalex_id": "A5114440712",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะนิติศาสตร์",
+          "department_th": "ภาควิชานิติศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ศุภชัย แก้วพวง",
+      "primary_id": "tsu_w50_0605_441",
+      "donor_ids": [
+        "tsu_w50_1461_322"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0605_441",
+        "full_name_th": "ดร. ศุภชัย แก้วพวง",
+        "email": "peper.supachai@gmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1461_322",
+          "full_name_th": "อ.ดร. ศุภชัย แก้วพวง",
+          "email": "supachai.ka@tsu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "นิธิเศรษฐ เพชรจู",
+      "primary_id": "tsu_w50_1456_337",
+      "donor_ids": [
+        "tsu_w50_1468_315"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1456_337",
+        "full_name_th": "อ.ดร. นิธิเศรษฐ เพชรจู",
+        "email": "nithisate11@gmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1468_315",
+          "full_name_th": "อ.ดร. นิธิเศรษฐ เพชรจู",
+          "email": "nithisate.p@tsu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ศุภชัย สัตยานุรักษ์",
+      "primary_id": "tsu_w50_1458_460",
+      "donor_ids": [
+        "tsu_w50_0555_702"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1458_460",
+        "full_name_th": "อ.ดร. ศุภชัย สัตยานุรักษ์",
+        "email": "suppachai.s@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_0555_702",
+          "full_name_th": "อ. ศุภชัย สัตยานุรักษ์",
+          "email": "suppachai.s@tsu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "อัมรินทร์ ไกรบุตร",
+      "primary_id": "tsu_w50_1459_318",
+      "donor_ids": [
+        "tsu_w50_1363_819"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1459_318",
+        "full_name_th": "อ.ดร. อัมรินทร์ ไกรบุตร",
+        "email": "ammarin.k@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1363_819",
+          "full_name_th": "อ. อัมรินทร์ ไกรบุตร",
+          "email": "ammarin.k@tsu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "วิวรรธน์ สุเหร็น",
+      "primary_id": "tsu_w50_1462_230",
+      "donor_ids": [
+        "tsu_w50_0976_160"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1462_230",
+        "full_name_th": "อ. วิวรรธน์ สุเหร็น",
+        "email": "wiwat.s@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_0976_160",
+          "full_name_th": "อ. วิวรรธน์ สุเหร็น",
+          "email": "jamewiwat2542@gmail.com",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "นฤมล อินทรัตน์",
+      "primary_id": "tsu_w50_1463_647",
+      "donor_ids": [
+        "tsu_w50_0657_267"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1463_647",
+        "full_name_th": "อ.ดร. นฤมล อินทรัตน์",
+        "email": "naruemon.i@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_0657_267",
+          "full_name_th": "อ. นฤมล อินทรัตน์",
+          "email": "naruemon.i@tsu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "เกรียงไกร ไวยกาญจน์",
+      "primary_id": "tsu_w50_1465_721",
+      "donor_ids": [
+        "tsu_w50_0235_983"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1465_721",
+        "full_name_th": "อ.ดร. เกรียงไกร ไวยกาญจน์",
+        "email": "kriangkrai.w@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_0235_983",
+          "full_name_th": "อ. เกรียงไกร ไวยกาญจน์",
+          "email": "kriangkrai.w@tsu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "สุทธิพันธ์ อักษรเนียม",
+      "primary_id": "tsu_w50_1466_658",
+      "donor_ids": [
+        "tsu_w50_0237_280"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1466_658",
+        "full_name_th": "อ.ดร. สุทธิพันธ์ อักษรเนียม",
+        "email": "suttipan.a@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_0237_280",
+          "full_name_th": "อ. สุทธิพันธ์ อักษรเนียม",
+          "email": "suttipan.a@tsu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ปฏิพัทธ์ คำเด่นเหล็ก",
+      "primary_id": "tsu_w50_1467_291",
+      "donor_ids": [
+        "tsu_w50_0650_653"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1467_291",
+        "full_name_th": "อ.ดร. ปฏิพัทธ์ คำเด่นเหล็ก",
+        "email": "patipat.k@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "คณะวิศวกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_0650_653",
+          "full_name_th": "อ. ปฏิพัทธ์ คำเด่นเหล็ก",
+          "email": "ontptp@gmail.com",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "คณะวิศวกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "จารุรัตน์ ปัญโญ",
+      "primary_id": "tsu_w50_1475_264",
+      "donor_ids": [
+        "tsu_w50_0440_213"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1475_264",
+        "full_name_th": "อ.ดร. จารุรัตน์ ปัญโญ",
+        "email": "jarurat.p@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะแพทยศาสตร์",
+        "department_th": "คณะแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_0440_213",
+          "full_name_th": "อ. จารุรัตน์ ปัญโญ",
+          "email": "jarurat.p@tsu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะอุตสาหกรรมเกษตรและชีวภาพ",
+          "department_th": "คณะอุตสาหกรรมเกษตรและชีวภาพ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "กวินธิดา จีนเมือง",
+      "primary_id": "tsu_w50_1478_810",
+      "donor_ids": [
+        "tsu_w50_0769_925"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1478_810",
+        "full_name_th": "อ. กวินธิดา จีนเมือง",
+        "email": "kawintida.j@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะแพทยศาสตร์",
+        "department_th": "คณะแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_0769_925",
+          "full_name_th": "อ. กวินธิดา จีนเมือง",
+          "email": "kawintida1997@gmail.com",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิทยาการสุขภาพและการกีฬา",
+          "department_th": "คณะวิทยาการสุขภาพและการกีฬา"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "อานุช คีรีรัฐนิคม",
+      "primary_id": "tsu_w50_1881_315",
+      "donor_ids": [
+        "tsu_w50_1648_758"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1881_315",
+        "full_name_th": "ผศ. อานุช คีรีรัฐนิคม",
+        "email": "anut59@hotmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+        "department_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1648_758",
+          "full_name_th": "อานุช คีรีรัฐนิคม",
+          "email": null,
+          "openalex_id": "A5049365528",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+          "department_th": "สาขาวิชาชีววิทยา"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "วราภรณ์ ทนงศักดิ์",
+      "primary_id": "tsu_w50_0201_815",
+      "donor_ids": [
+        "tsu_w50_1712_194"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0201_815",
+        "full_name_th": "อ. วราภรณ์ ทนงศักดิ์",
+        "email": "waraphorntt@yahoo.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "department_th": "คณะมนุษยศาสตร์และสังคมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1712_194",
+          "full_name_th": "วราภรณ์ ทนงศักดิ์",
+          "email": null,
+          "openalex_id": "A5004358809",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+          "department_th": "สาขาวิชาคณิตศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "เสาวนีย์ โปษกะบุตร",
+      "primary_id": "tsu_w50_0687_896",
+      "donor_ids": [
+        "tsu_w50_1741_801"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0687_896",
+        "full_name_th": "อ. เสาวนีย์ โปษกะบุตร",
+        "email": "ssaowanee@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิทยาการสุขภาพและการกีฬา",
+        "department_th": "คณะวิทยาการสุขภาพและการกีฬา"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1741_801",
+          "full_name_th": "เสาวนีย์ โปษกะบุตร",
+          "email": null,
+          "openalex_id": "A5085960580",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+          "department_th": "ภาควิชามนุษยศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "สานิตย์ ศรีชูเกียรติ",
+      "primary_id": "thaksinuni_facultyofe_srichukiart_030",
+      "donor_ids": [
+        "tsu_w50_1776_341"
+      ],
+      "primary_before": {
+        "id": "thaksinuni_facultyofe_srichukiart_030",
+        "full_name_th": "ผศ.ดร. สานิตย์ ศรีชูเกียรติ",
+        "email": "sanit@tsu.ac.th",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+        "department_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1776_341",
+          "full_name_th": "สานิตย์ ศรีชูเกียรติ",
+          "email": null,
+          "openalex_id": "A5019189150",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+          "department_th": "สาขาวิชาวิทยาศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ปัทมา รักเกื้อ",
+      "primary_id": "tsu_w50_0686_628",
+      "donor_ids": [
+        "tsu_w50_1777_897"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0686_628",
+        "full_name_th": "อ. ปัทมา รักเกื้อ",
+        "email": "rpattama@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิทยาการสุขภาพและการกีฬา",
+        "department_th": "คณะวิทยาการสุขภาพและการกีฬา"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1777_897",
+          "full_name_th": "ปัทมา รักเกื้อ",
+          "email": null,
+          "openalex_id": "A5022301397",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+          "department_th": "ภาควิชามนุษยศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "พรชัย ลิขิตธรรมโรจน์",
+      "primary_id": "tsu_w50_0228_639",
+      "donor_ids": [
+        "tsu_w50_1779_941"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0228_639",
+        "full_name_th": "อ. พรชัย ลิขิตธรรมโรจน์",
+        "email": "pornchai.l@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "วิทยาลัยการจัดการเพื่อการพัฒนา",
+        "department_th": "วิทยาลัยการจัดการเพื่อการพัฒนา"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1779_941",
+          "full_name_th": "พรชัย ลิขิตธรรมโรจน์",
+          "email": null,
+          "openalex_id": "A5022637974",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ปริศนา วงค์ล้อม",
+      "primary_id": "tsu_w50_0065_814",
+      "donor_ids": [
+        "tsu_w50_1788_851"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0065_814",
+        "full_name_th": "อ. ปริศนา วงค์ล้อม",
+        "email": "pri035@yahoo.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะเกษตรศาสตร์",
+        "department_th": "คณะเกษตรศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1788_851",
+          "full_name_th": "ปริศนา วงค์ล้อม",
+          "email": null,
+          "openalex_id": "A5040103959",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "จารุวรรณ ชูสงค์",
+      "primary_id": "tsu_w50_0248_196",
+      "donor_ids": [
+        "tsu_w50_1789_856"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0248_196",
+        "full_name_th": "อ. จารุวรรณ ชูสงค์",
+        "email": "vespa4843@hotmail.co.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สถาบันส่งเสริมการบริการวิชาการ",
+        "department_th": "สถาบันส่งเสริมการบริการวิชาการ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1789_856",
+          "full_name_th": "จารุวรรณ ชูสงค์",
+          "email": null,
+          "openalex_id": "A5040197773",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ไกรศิลป์ โสดานิล",
+      "primary_id": "tsu_w50_0122_349",
+      "donor_ids": [
+        "tsu_w50_1800_431"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0122_349",
+        "full_name_th": "อ. ไกรศิลป์ โสดานิล",
+        "email": "tpsolo13@gmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะศิลปกรรมศาสตร์",
+        "department_th": "คณะศิลปกรรมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1800_431",
+          "full_name_th": "ไกรศิลป์ โสดานิล",
+          "email": null,
+          "openalex_id": "A5050149684",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+          "department_th": "สาขาวิชาวิทยาการคอมพิวเตอร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "วิจิตรา อมรวิริยะชัย",
+      "primary_id": "tsu_w50_0045_718",
+      "donor_ids": [
+        "tsu_w50_1805_690"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0045_718",
+        "full_name_th": "อ. วิจิตรา อมรวิริยะชัย",
+        "email": "wi252328@gmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สถาบันส่งเสริมการบริการวิชาการ",
+        "department_th": "สถาบันส่งเสริมการบริการวิชาการ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1805_690",
+          "full_name_th": "วิจิตรา อมรวิริยะชัย",
+          "email": null,
+          "openalex_id": "A5056300201",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "ณฐพงศ์ จิตรนิรัตน์",
+      "primary_id": "tsu_w50_0175_785",
+      "donor_ids": [
+        "tsu_w50_1810_443"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0175_785",
+        "full_name_th": "อ. ณฐพงศ์ จิตรนิรัตน์",
+        "email": "cnathapong@gmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะมนุษยศาสตร์และสังคมศาสตร์",
+        "department_th": "คณะมนุษยศาสตร์และสังคมศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1810_443",
+          "full_name_th": "ณฐพงศ์ จิตรนิรัตน์",
+          "email": null,
+          "openalex_id": "A5068912361",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "สุธี โง้วศิริ",
+      "primary_id": "tsu_w50_0170_208",
+      "donor_ids": [
+        "tsu_w50_1827_126"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0170_208",
+        "full_name_th": "อ. สุธี โง้วศิริ",
+        "email": "sutee@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+        "department_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1827_126",
+          "full_name_th": "สุธี โง้วศิริ",
+          "email": null,
+          "openalex_id": "A5092975788",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะนิติศาสตร์",
+          "department_th": "ภาควิชานิติศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "เกษศิรินทร์ รัทจร",
+      "primary_id": "tsu_w50_0414_362",
+      "donor_ids": [
+        "tsu_w50_1843_389"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0414_362",
+        "full_name_th": "อ. เกษศิรินทร์ รัทจร",
+        "email": "kedsirin_p@hotmail.com",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+        "department_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1843_389",
+          "full_name_th": "เกษศิรินทร์ รัทจร",
+          "email": null,
+          "openalex_id": "A5115788125",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+          "department_th": "สาขาวิชาเคมี"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "บุศราวดี แสงสุวรรณ",
+      "primary_id": "tsu_w50_1003_149",
+      "donor_ids": [
+        "tsu_w50_1857_748"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_1003_149",
+        "full_name_th": "อ. บุศราวดี แสงสุวรรณ",
+        "email": "butsarawadee.s@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะวิทยาการสุขภาพและการกีฬา",
+        "department_th": "คณะวิทยาการสุขภาพและการกีฬา"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1857_748",
+          "full_name_th": "บุศราวดี แสงสุวรรณ",
+          "email": null,
+          "openalex_id": "A5119351568",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะแพทยศาสตร์",
+          "department_th": "ภาควิชาแพทยศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "วิไลลักษณ์ กล่อมพงษ์",
+      "primary_id": "tsu_w50_0208_169",
+      "donor_ids": [
+        "tsu_w50_1865_153"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0208_169",
+        "full_name_th": "อ. วิไลลักษณ์ กล่อมพงษ์",
+        "email": "vilailak@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะอุตสาหกรรมเกษตรและชีวภาพ",
+        "department_th": "คณะอุตสาหกรรมเกษตรและชีวภาพ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1865_153",
+          "full_name_th": "วิไลลักษณ์ กล่อมพงษ์",
+          "email": null,
+          "openalex_id": "A5126873102",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "bare_name": "พรพิมล มะยะเฉียว",
+      "primary_id": "tsu_w50_0008_516",
+      "donor_ids": [
+        "tsu_w50_1868_725"
+      ],
+      "primary_before": {
+        "id": "tsu_w50_0008_516",
+        "full_name_th": "อ. พรพิมล มะยะเฉียว",
+        "email": "mpornpimon@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะอุตสาหกรรมเกษตรและชีวภาพ",
+        "department_th": "คณะอุตสาหกรรมเกษตรและชีวภาพ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1868_725",
+          "full_name_th": "พรพิมล มะยะเฉียว",
+          "email": null,
+          "openalex_id": "A5126939218",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ",
+          "department_th": "ภาควิชาบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "สายฝน เอกวรางกูร",
+      "primary_id": "wu_w51_0210_383",
+      "donor_ids": [
+        "wu_w51_1689_113"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0210_383",
+        "full_name_th": "ศ.ดร. สายฝน เอกวรางกูร",
+        "email": "asaifon@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาพยาบาลศาสตร์",
+        "department_th": "สำนักวิชาพยาบาลศาสตร์ สาขาวิชาการพยาบาลขั้นสูง"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_1689_113",
+          "full_name_th": "สายฝน เอกวรางกูร",
+          "email": null,
+          "openalex_id": "A5051043384",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชารัฐศาสตร์และรัฐประศาสนศาสตร์",
+          "department_th": "สาขาวิชารัฐศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "ฟารีดา เจะเอาะ",
+      "primary_id": "walailak_schoolof_b8987ac7",
+      "donor_ids": [
+        "wu_w51_1914_707"
+      ],
+      "primary_before": {
+        "id": "walailak_schoolof_b8987ac7",
+        "full_name_th": "ผศ.ดร. ฟารีดา เจะเอาะ",
+        "email": "jfareeda@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาสารสนเทศศาสตร์",
+        "department_th": "สาขาวิชานิเทศศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_1914_707",
+          "full_name_th": "ฟารีดา เจะเอาะ",
+          "email": null,
+          "openalex_id": "A5032826998",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+          "department_th": "สาขาวิชาวิทยาศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "ดารุณี บุญครอง",
+      "primary_id": "wu_w51_0002_579",
+      "donor_ids": [
+        "wu_w51_0357_423"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0002_579",
+        "full_name_th": "ผศ.ดร. ดารุณี บุญครอง",
+        "email": "darunee.bu@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "บัณฑิตวิทยาลัย",
+        "department_th": "บัณฑิตวิทยาลัย"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0357_423",
+          "full_name_th": "ผศ.ดร. ดารุณี บุญครอง",
+          "email": "darunee.bu@wu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชาศิลปศาสตร์",
+          "department_th": "สำนักวิชาศิลปศาสตร์ สาขาวิชาภาษาจีน"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "ภัทร์นรินทร์ ศุภกร",
+      "primary_id": "wu_w51_0060_416",
+      "donor_ids": [
+        "wu_w51_0367_847"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0060_416",
+        "full_name_th": "ผศ.ดร. ภัทร์นรินทร์ ศุภกร",
+        "email": "suppakp@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "วิทยาลัยนานาชาติ"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0367_847",
+          "full_name_th": "ผศ.ดร. ภัทร์นรินทร์ ศุภกร",
+          "email": "suppakp@wu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชาศิลปศาสตร์",
+          "department_th": "สำนักวิชาศิลปศาสตร์ สาขาวิชาภาษาอังกฤษ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "นลินี ทินนาม",
+      "primary_id": "wu_w51_0130_130",
+      "donor_ids": [
+        "wu_w51_1797_807"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0130_130",
+        "full_name_th": "ผศ. นลินี ทินนาม",
+        "email": "nalinee.th@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาการบัญชีและการเงิน",
+        "department_th": "สำนักวิชาการบัญชีและการเงิน สาขาวิชาการเงิน"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_1797_807",
+          "full_name_th": "นลินี ทินนาม",
+          "email": null,
+          "openalex_id": "A5068883320",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชานิติศาสตร์",
+          "department_th": "สาขาวิชานิติศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "ชูลีรัตน์ คงเรือง",
+      "primary_id": "wu_w51_0137_179",
+      "donor_ids": [
+        "wu_w51_1807_905"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0137_179",
+        "full_name_th": "ผศ.ดร. ชูลีรัตน์ คงเรือง",
+        "email": "chuleerat.ko@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาการบัญชีและการเงิน",
+        "department_th": "สำนักวิชาการบัญชีและการเงิน สาขาวิชาเศรษฐศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_1807_905",
+          "full_name_th": "ชูลีรัตน์ คงเรือง",
+          "email": null,
+          "openalex_id": "A5036321568",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+          "department_th": "สาขาวิชาวิทยาศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "กำไล สมรักษ์",
+      "primary_id": "wu_w51_0176_508",
+      "donor_ids": [
+        "wu_w51_0696_514"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0176_508",
+        "full_name_th": "ผศ. กำไล สมรักษ์",
+        "email": "kamlai.so@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาพยาบาลศาสตร์",
+        "department_th": "สำนักวิชาพยาบาลศาสตร์ สาขาวิชาการพยาบาลและการผดุงครรภ์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0696_514",
+          "full_name_th": "ผศ. กำไล สมรักษ์",
+          "email": "kamlai.so@wu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์ ฝ่ายการแพทย์พิเศษ"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "ชิดชนก มยูรภักดิ์",
+      "primary_id": "wu_w51_0185_468",
+      "donor_ids": [
+        "wu_w51_1956_745"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0185_468",
+        "full_name_th": "ผศ.ดร. ชิดชนก มยูรภักดิ์",
+        "email": "mchidcha@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาพยาบาลศาสตร์",
+        "department_th": "สำนักวิชาพยาบาลศาสตร์ สาขาวิชาการพยาบาลขั้นสูง"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_1956_745",
+          "full_name_th": "ชิดชนก มยูรภักดิ์",
+          "email": null,
+          "openalex_id": "A5052343949",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชาแพทยศาสตร์",
+          "department_th": "สาขาวิชาแพทยศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "นันธิดา จันทร์ศิริ",
+      "primary_id": "wu_w51_0326_148",
+      "donor_ids": [
+        "wu_w51_1870_116"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0326_148",
+        "full_name_th": "ผศ.ดร. นันธิดา จันทร์ศิริ",
+        "email": "nantida.ja@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชารัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "department_th": "สำนักวิชารัฐศาสตร์และรัฐประศาสนศาสตร์ สาขาวิชารัฐประศาสนศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_1870_116",
+          "full_name_th": "นันธิดา จันทร์ศิริ",
+          "email": null,
+          "openalex_id": "A5004929467",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชาการบัญชีและการเงิน",
+          "department_th": "สาขาวิชาการบัญชี"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "จิรวัฒน์ แสงทอง",
+      "primary_id": "wu_w51_0330_967",
+      "donor_ids": [
+        "wu_w51_2011_593"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0330_967",
+        "full_name_th": "ผศ.ดร. จิรวัฒน์ แสงทอง",
+        "email": "sjirawat@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชารัฐศาสตร์และรัฐประศาสนศาสตร์",
+        "department_th": "สำนักวิชารัฐศาสตร์และรัฐประศาสนศาสตร์ สาขาวิชาความสัมพันธ์ระหว่างประเทศ"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_2011_593",
+          "full_name_th": "จิรวัฒน์ แสงทอง",
+          "email": null,
+          "openalex_id": "A5081998635",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชานิติศาสตร์",
+          "department_th": "สาขาวิชานิติศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "จรัญ บุญกาญจน์",
+      "primary_id": "wu_w51_0347_655",
+      "donor_ids": [
+        "wu_w51_0380_742"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0347_655",
+        "full_name_th": "รศ.ดร. จรัญ บุญกาญจน์",
+        "email": "charun.bu@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์และเทคโนโลยี",
+        "department_th": "สำนักวิชาวิศวกรรมศาสตร์และเทคโนโลยี สาขาวิชาวิศวกรรมเคมี"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0380_742",
+          "full_name_th": "รศ.ดร. จรัญ บุญกาญจน์",
+          "email": "charun.bu@wu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "สำนักวิชาศึกษาศาสตร์",
+          "department_th": "สำนักวิชาศึกษาศาสตร์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "นพ.กานต์ หมวดทองอ่อน",
+      "primary_id": "wu_w51_0642_611",
+      "donor_ids": [
+        "wu_w51_0700_699"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0642_611",
+        "full_name_th": "อ. นพ.กานต์ หมวดทองอ่อน",
+        "email": "kan.ma@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาแพทยศาสตร์",
+        "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์คลินิก"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0700_699",
+          "full_name_th": "อ. นพ.กานต์ หมวดทองอ่อน",
+          "email": "kan.ma@wu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์ ฝ่ายการแพทย์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "พญ.บุณยาพร วุฒิวรวนิชย์",
+      "primary_id": "wu_w51_0660_839",
+      "donor_ids": [
+        "wu_w51_0703_309"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0660_839",
+        "full_name_th": "อ. พญ.บุณยาพร วุฒิวรวนิชย์",
+        "email": "bunyaporn.wu@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาแพทยศาสตร์",
+        "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์คลินิก"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0703_309",
+          "full_name_th": "อ. พญ.บุณยาพร วุฒิวรวนิชย์",
+          "email": "bunyaporn.wu@wu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์ ฝ่ายการแพทย์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "นพ.ปวรุตม์ พวงศรี",
+      "primary_id": "wu_w51_0666_224",
+      "donor_ids": [
+        "wu_w51_0694_293"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0666_224",
+        "full_name_th": "ผศ. นพ.ปวรุตม์ พวงศรี",
+        "email": "pavarud.pu@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาแพทยศาสตร์",
+        "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์คลินิก"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0694_293",
+          "full_name_th": "ผศ. นพ.ปวรุตม์ พวงศรี",
+          "email": "pavarud.pu@wu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "พญ.พิมล การเจริญพงศ์",
+      "primary_id": "wu_w51_0667_660",
+      "donor_ids": [
+        "wu_w51_0706_598"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0667_660",
+        "full_name_th": "อ. พญ.พิมล การเจริญพงศ์",
+        "email": "pimol.ka@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาแพทยศาสตร์",
+        "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์คลินิก"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0706_598",
+          "full_name_th": "อ. พญ.พิมล การเจริญพงศ์",
+          "email": "pimol.ka@wu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์ ฝ่ายการแพทย์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "พญ.พิระดา ยินเจริญ",
+      "primary_id": "wu_w51_0668_623",
+      "donor_ids": [
+        "wu_w51_0707_720"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0668_623",
+        "full_name_th": "อ. พญ.พิระดา ยินเจริญ",
+        "email": "pirada.yi@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาแพทยศาสตร์",
+        "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์คลินิก"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0707_720",
+          "full_name_th": "อ. พญ.พิระดา ยินเจริญ",
+          "email": "pirada.yi@wu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์ ฝ่ายการแพทย์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "bare_name": "นพ.ลั่นหล้า อุดมเวช",
+      "primary_id": "wu_w51_0676_285",
+      "donor_ids": [
+        "wu_w51_0709_785"
+      ],
+      "primary_before": {
+        "id": "wu_w51_0676_285",
+        "full_name_th": "ผศ. นพ.ลั่นหล้า อุดมเวช",
+        "email": "lunla.ud@wu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "สำนักวิชาแพทยศาสตร์",
+        "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์คลินิก"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0709_785",
+          "full_name_th": "ผศ. นพ.ลั่นหล้า อุดมเวช",
+          "email": "lunla.ud@wu.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "ศูนย์การแพทย์มหาวิทยาลัยวลัยลักษณ์ ฝ่ายการแพทย์"
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา",
+      "bare_name": "นิอร สิริมงคลเลิศกุล",
+      "primary_id": "rmutl_w53b_0926_167",
+      "donor_ids": [
+        "rmutl_w53b_1085_841"
+      ],
+      "primary_before": {
+        "id": "rmutl_w53b_0926_167",
+        "full_name_th": "นิอร สิริมงคลเลิศกุล",
+        "email": "",
+        "openalex_id": "A5066920282",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutl_w53b_1085_841",
+          "full_name_th": "นิอร สิริมงคลเลิศกุล",
+          "email": "",
+          "openalex_id": "A5115908820",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา",
+      "bare_name": "ผจงจิต ติ๊บประสอน",
+      "primary_id": "rmutl_w53b_1078_829",
+      "donor_ids": [
+        "rmutl_w53b_1131_898"
+      ],
+      "primary_before": {
+        "id": "rmutl_w53b_1078_829",
+        "full_name_th": "ผจงจิต ติ๊บประสอน",
+        "email": "",
+        "openalex_id": "A5115665804",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutl_w53b_1131_898",
+          "full_name_th": "ผจงจิต ติ๊บประสอน",
+          "email": "",
+          "openalex_id": "A5118762268",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา",
+      "bare_name": "สิริโฉม พิเชษฐบุญเกียรติ",
+      "primary_id": "rmutl_w53b_1119_423",
+      "donor_ids": [
+        "rmutl_w53b_1298_587"
+      ],
+      "primary_before": {
+        "id": "rmutl_w53b_1119_423",
+        "full_name_th": "สิริโฉม พิเชษฐบุญเกียรติ",
+        "email": "",
+        "openalex_id": "A5117562954",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutl_w53b_1298_587",
+          "full_name_th": "สิริโฉม พิเชษฐบุญเกียรติ",
+          "email": "",
+          "openalex_id": "A5148536288",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+      "bare_name": "ภาวนา พุ่มไสว",
+      "primary_id": "rmutsv_w53b_0464_501",
+      "donor_ids": [
+        "rmutsv_w53b_0624_574"
+      ],
+      "primary_before": {
+        "id": "rmutsv_w53b_0464_501",
+        "full_name_th": "ภาวนา พุ่มไสว",
+        "email": "",
+        "openalex_id": "A5025493052",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutsv_w53b_0624_574",
+          "full_name_th": "ภาวนา พุ่มไสว",
+          "email": "",
+          "openalex_id": "A5015943673",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+      "bare_name": "วีระเกียรติ ทรัพย์มี",
+      "primary_id": "rmutsv_w53b_0573_608",
+      "donor_ids": [
+        "rmutsv_w53b_1020_748"
+      ],
+      "primary_before": {
+        "id": "rmutsv_w53b_0573_608",
+        "full_name_th": "วีระเกียรติ ทรัพย์มี",
+        "email": "",
+        "openalex_id": "A5120841523",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutsv_w53b_1020_748",
+          "full_name_th": "วีระเกียรติ ทรัพย์มี",
+          "email": "",
+          "openalex_id": "A5125125350",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+      "bare_name": "พิเชษฐ์ พรหมใหม่",
+      "primary_id": "rmutsv_w53b_0815_899",
+      "donor_ids": [
+        "rmutsv_w53b_0817_471",
+        "rmutsv_w53b_0978_653"
+      ],
+      "primary_before": {
+        "id": "rmutsv_w53b_0815_899",
+        "full_name_th": "พิเชษฐ์ พรหมใหม่",
+        "email": "",
+        "openalex_id": "A5093254023",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutsv_w53b_0817_471",
+          "full_name_th": "พิเชษฐ์ พรหมใหม่",
+          "email": "",
+          "openalex_id": "A5093254118",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmutsv_w53b_0978_653",
+          "full_name_th": "พิเชษฐ์ พรหมใหม่",
+          "email": "",
+          "openalex_id": "A5120417642",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+      "bare_name": "วัลลภา พัฒนา",
+      "primary_id": "rmutsv_w53b_0820_635",
+      "donor_ids": [
+        "rmutsv_w53b_0955_378"
+      ],
+      "primary_before": {
+        "id": "rmutsv_w53b_0820_635",
+        "full_name_th": "วัลลภา พัฒนา",
+        "email": "",
+        "openalex_id": "A5093254951",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutsv_w53b_0955_378",
+          "full_name_th": "วัลลภา พัฒนา",
+          "email": "",
+          "openalex_id": "A5119126658",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ",
+      "bare_name": "ศิริรัตน์ สัยวุฒิ",
+      "primary_id": "rmuts_w53b_0470_345",
+      "donor_ids": [
+        "rmuts_w53b_0694_841"
+      ],
+      "primary_before": {
+        "id": "rmuts_w53b_0470_345",
+        "full_name_th": "ศิริรัตน์ สัยวุฒิ",
+        "email": "",
+        "openalex_id": "A5053689822",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmuts_w53b_0694_841",
+          "full_name_th": "ศิริรัตน์ สัยวุฒิ",
+          "email": "",
+          "openalex_id": "A5136042383",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ",
+      "bare_name": "พชฏ นรสิงห์",
+      "primary_id": "rmuts_w53b_0631_403",
+      "donor_ids": [
+        "rmuts_w53b_0726_530"
+      ],
+      "primary_before": {
+        "id": "rmuts_w53b_0631_403",
+        "full_name_th": "พชฏ นรสิงห์",
+        "email": "",
+        "openalex_id": "A5119308596",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmuts_w53b_0726_530",
+          "full_name_th": "พชฏ นรสิงห์",
+          "email": "",
+          "openalex_id": "A5151028692",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+      "bare_name": "ณชภัทร พิชญมหุตม์",
+      "primary_id": "rmutto_w53b_0390_179",
+      "donor_ids": [
+        "rmutto_w53b_0770_983"
+      ],
+      "primary_before": {
+        "id": "rmutto_w53b_0390_179",
+        "full_name_th": "ณชภัทร พิชญมหุตม์",
+        "email": "",
+        "openalex_id": "A5040881044",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutto_w53b_0770_983",
+          "full_name_th": "ณชภัทร พิชญมหุตม์",
+          "email": "",
+          "openalex_id": "A5148455731",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+      "bare_name": "สุภาวดี สายสนิท",
+      "primary_id": "rmutto_w53b_0578_402",
+      "donor_ids": [
+        "rmutto_w53b_0645_313",
+        "rmutto_w53b_0769_544"
+      ],
+      "primary_before": {
+        "id": "rmutto_w53b_0578_402",
+        "full_name_th": "สุภาวดี สายสนิท",
+        "email": "",
+        "openalex_id": "A5114440680",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutto_w53b_0645_313",
+          "full_name_th": "สุภาวดี สายสนิท",
+          "email": "",
+          "openalex_id": "A5119873214",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmutto_w53b_0769_544",
+          "full_name_th": "สุภาวดี สายสนิท",
+          "email": "",
+          "openalex_id": "A5147987561",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+      "bare_name": "นิภาพร ก้านทอง",
+      "primary_id": "rmutto_w53b_0643_118",
+      "donor_ids": [
+        "rmutto_w53b_0651_586"
+      ],
+      "primary_before": {
+        "id": "rmutto_w53b_0643_118",
+        "full_name_th": "นิภาพร ก้านทอง",
+        "email": "",
+        "openalex_id": "A5119822215",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutto_w53b_0651_586",
+          "full_name_th": "นิภาพร ก้านทอง",
+          "email": "",
+          "openalex_id": "A5120166959",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "bare_name": "สิทธิศักดิ์ รัตนประภาวรรณ",
+      "primary_id": "rmuti_w53b_2442_129",
+      "donor_ids": [
+        "rmuti_w53b_3791_607"
+      ],
+      "primary_before": {
+        "id": "rmuti_w53b_2442_129",
+        "full_name_th": "สิทธิศักดิ์ รัตนประภาวรรณ",
+        "email": "",
+        "openalex_id": "A5148758321",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmuti_w53b_3791_607",
+          "full_name_th": "สิทธิศักดิ์ รัตนประภาวรรณ",
+          "email": "",
+          "openalex_id": "A5135518446",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "bare_name": "คมกฤษณ์ วรเดชนัยนา",
+      "primary_id": "rmuti_w53b_3362_721",
+      "donor_ids": [
+        "rmuti_w53b_3394_122"
+      ],
+      "primary_before": {
+        "id": "rmuti_w53b_3362_721",
+        "full_name_th": "คมกฤษณ์ วรเดชนัยนา",
+        "email": "",
+        "openalex_id": "A5117390977",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmuti_w53b_3394_122",
+          "full_name_th": "คมกฤษณ์ วรเดชนัยนา",
+          "email": "",
+          "openalex_id": "A5117562942",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร",
+      "bare_name": "ยุวดี พรธาราพงศ์",
+      "primary_id": "rmutp_w53b_0317_160",
+      "donor_ids": [
+        "rmutp_w53b_0660_440"
+      ],
+      "primary_before": {
+        "id": "rmutp_w53b_0317_160",
+        "full_name_th": "ยุวดี พรธาราพงศ์",
+        "email": "",
+        "openalex_id": "A5047530585",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 3,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutp_w53b_0660_440",
+          "full_name_th": "ยุวดี พรธาราพงศ์",
+          "email": "",
+          "openalex_id": "A5140454781",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร",
+      "bare_name": "ศักรินทร์ หงส์รัตนาวรกิจ",
+      "primary_id": "rmutp_w53b_0590_354",
+      "donor_ids": [
+        "rmutp_w53b_0617_926",
+        "rmutp_w53b_0645_399"
+      ],
+      "primary_before": {
+        "id": "rmutp_w53b_0590_354",
+        "full_name_th": "ศักรินทร์ หงส์รัตนาวรกิจ",
+        "email": "",
+        "openalex_id": "A5118734364",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmutp_w53b_0617_926",
+          "full_name_th": "ศักรินทร์ หงส์รัตนาวรกิจ",
+          "email": "",
+          "openalex_id": "A5121550341",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmutp_w53b_0645_399",
+          "full_name_th": "ศักรินทร์ หงส์รัตนาวรกิจ",
+          "email": "",
+          "openalex_id": "A5139523106",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่โจ้",
+      "bare_name": "สมคิด แก้วทิพย์",
+      "primary_id": "mju_w54_1024_593",
+      "donor_ids": [
+        "mju_w54_1720_201"
+      ],
+      "primary_before": {
+        "id": "mju_w54_1024_593",
+        "full_name_th": "สมคิด แก้วทิพย์",
+        "email": "",
+        "openalex_id": "A5116119808",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "mju_w54_1720_201",
+          "full_name_th": "สมคิด แก้วทิพย์",
+          "email": "",
+          "openalex_id": "A5148813726",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่โจ้",
+      "bare_name": "เฉลิมชัย ปัญญาดี",
+      "primary_id": "mju_w54_1545_646",
+      "donor_ids": [
+        "mju_w54_1718_749"
+      ],
+      "primary_before": {
+        "id": "mju_w54_1545_646",
+        "full_name_th": "เฉลิมชัย ปัญญาดี",
+        "email": "",
+        "openalex_id": "A5116119807",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "mju_w54_1718_749",
+          "full_name_th": "เฉลิมชัย ปัญญาดี",
+          "email": "",
+          "openalex_id": "A5148796528",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่โจ้",
+      "bare_name": "นิโรจน์ สินณรงค์",
+      "primary_id": "mju_w54_1579_700",
+      "donor_ids": [
+        "mju_w54_1634_737"
+      ],
+      "primary_before": {
+        "id": "mju_w54_1579_700",
+        "full_name_th": "นิโรจน์ สินณรงค์",
+        "email": "",
+        "openalex_id": "A5119126609",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "mju_w54_1634_737",
+          "full_name_th": "นิโรจน์ สินณรงค์",
+          "email": "",
+          "openalex_id": "A5123867646",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่โจ้",
+      "bare_name": "เก นันทะเสน",
+      "primary_id": "mju_w54_1593_595",
+      "donor_ids": [
+        "mju_w54_1632_618"
+      ],
+      "primary_before": {
+        "id": "mju_w54_1593_595",
+        "full_name_th": "เก นันทะเสน",
+        "email": "",
+        "openalex_id": "A5119356497",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "mju_w54_1632_618",
+          "full_name_th": "เก นันทะเสน",
+          "email": "",
+          "openalex_id": "A5123847508",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "bare_name": "คชตรัย เจริญสุข",
+      "primary_id": "nida_w55_1182_643",
+      "donor_ids": [
+        "nida_w55_1503_330"
+      ],
+      "primary_before": {
+        "id": "nida_w55_1182_643",
+        "full_name_th": "คชตรัย เจริญสุข",
+        "email": "",
+        "openalex_id": "A5119147899",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nida_w55_1503_330",
+          "full_name_th": "คชตรัย เจริญสุข",
+          "email": "",
+          "openalex_id": "A5148447786",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "bare_name": "โกมล จิตรนุ่ม",
+      "primary_id": "nida_w55_1456_795",
+      "donor_ids": [
+        "nida_w55_1484_646"
+      ],
+      "primary_before": {
+        "id": "nida_w55_1456_795",
+        "full_name_th": "โกมล จิตรนุ่ม",
+        "email": "",
+        "openalex_id": "A5139290143",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nida_w55_1484_646",
+          "full_name_th": "โกมล จิตรนุ่ม",
+          "email": "",
+          "openalex_id": "A5140474925",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "bare_name": "วีระ วีระโสภณ",
+      "primary_id": "ssru_w56_0757_548",
+      "donor_ids": [
+        "ssru_w56_1753_446",
+        "ssru_w56_1757_313",
+        "ssru_w56_1780_639"
+      ],
+      "primary_before": {
+        "id": "ssru_w56_0757_548",
+        "full_name_th": "วีระ วีระโสภณ",
+        "email": "",
+        "openalex_id": "A5104944148",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 4,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "ssru_w56_1753_446",
+          "full_name_th": "วีระ วีระโสภณ",
+          "email": "",
+          "openalex_id": "A5117695521",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "ssru_w56_1757_313",
+          "full_name_th": "วีระ วีระโสภณ",
+          "email": "",
+          "openalex_id": "A5117791829",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "ssru_w56_1780_639",
+          "full_name_th": "วีระ วีระโสภณ",
+          "email": "",
+          "openalex_id": "A5119013963",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "bare_name": "ปรีชา วรารัตน์ไชย",
+      "primary_id": "ssru_w56_1106_993",
+      "donor_ids": [
+        "ssru_w56_1850_998"
+      ],
+      "primary_before": {
+        "id": "ssru_w56_1106_993",
+        "full_name_th": "ปรีชา วรารัตน์ไชย",
+        "email": "",
+        "openalex_id": "A5116936243",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "ssru_w56_1850_998",
+          "full_name_th": "ปรีชา วรารัตน์ไชย",
+          "email": "",
+          "openalex_id": "A5121072054",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "bare_name": "วิศวะ อุนยะวงษ์",
+      "primary_id": "ssru_w56_1107_454",
+      "donor_ids": [
+        "ssru_w56_1795_318"
+      ],
+      "primary_before": {
+        "id": "ssru_w56_1107_454",
+        "full_name_th": "วิศวะ อุนยะวงษ์",
+        "email": "",
+        "openalex_id": "A5116936244",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "ssru_w56_1795_318",
+          "full_name_th": "วิศวะ อุนยะวงษ์",
+          "email": "",
+          "openalex_id": "A5119484176",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "bare_name": "สุพัตรา ปราณี",
+      "primary_id": "ssru_w56_1551_505",
+      "donor_ids": [
+        "ssru_w56_1554_184"
+      ],
+      "primary_before": {
+        "id": "ssru_w56_1551_505",
+        "full_name_th": "สุพัตรา ปราณี",
+        "email": "",
+        "openalex_id": "A5093919967",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "ssru_w56_1554_184",
+          "full_name_th": "สุพัตรา ปราณี",
+          "email": "",
+          "openalex_id": "A5093922250",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "bare_name": "ธนพล ก่อฐานะ",
+      "primary_id": "ssru_w56_1552_951",
+      "donor_ids": [
+        "ssru_w56_1555_225",
+        "ssru_w56_1858_492"
+      ],
+      "primary_before": {
+        "id": "ssru_w56_1552_951",
+        "full_name_th": "ธนพล ก่อฐานะ",
+        "email": "",
+        "openalex_id": "A5093919968",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "ssru_w56_1555_225",
+          "full_name_th": "ธนพล ก่อฐานะ",
+          "email": "",
+          "openalex_id": "A5093922251",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "ssru_w56_1858_492",
+          "full_name_th": "ธนพล ก่อฐานะ",
+          "email": "",
+          "openalex_id": "A5121599567",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "bare_name": "คมสัน โสมณวัตร",
+      "primary_id": "ssru_w56_1730_624",
+      "donor_ids": [
+        "ssru_w56_1734_129"
+      ],
+      "primary_before": {
+        "id": "ssru_w56_1730_624",
+        "full_name_th": "คมสัน โสมณวัตร",
+        "email": "",
+        "openalex_id": "A5116936198",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "ssru_w56_1734_129",
+          "full_name_th": "คมสัน โสมณวัตร",
+          "email": "",
+          "openalex_id": "A5116936321",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "bare_name": "ดวงหทัย สุขเมือง",
+      "primary_id": "ssru_w56_1749_969",
+      "donor_ids": [
+        "ssru_w56_1754_513"
+      ],
+      "primary_before": {
+        "id": "ssru_w56_1749_969",
+        "full_name_th": "ดวงหทัย สุขเมือง",
+        "email": "",
+        "openalex_id": "A5117691111",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "ssru_w56_1754_513",
+          "full_name_th": "ดวงหทัย สุขเมือง",
+          "email": "",
+          "openalex_id": "A5117784121",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "bare_name": "ฉัตรรัตน์ โหตระไวศยะ",
+      "primary_id": "ssru_w56_1793_788",
+      "donor_ids": [
+        "ssru_w56_1797_314"
+      ],
+      "primary_before": {
+        "id": "ssru_w56_1793_788",
+        "full_name_th": "ฉัตรรัตน์ โหตระไวศยะ",
+        "email": "",
+        "openalex_id": "A5119484172",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "ssru_w56_1797_314",
+          "full_name_th": "ฉัตรรัตน์ โหตระไวศยะ",
+          "email": "",
+          "openalex_id": "A5119484197",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+      "bare_name": "ณัฐศรัณย์ ทฤษฎิคุณ",
+      "primary_id": "bsru_w56_0436_969",
+      "donor_ids": [
+        "bsru_w56_0900_480"
+      ],
+      "primary_before": {
+        "id": "bsru_w56_0436_969",
+        "full_name_th": "ณัฐศรัณย์ ทฤษฎิคุณ",
+        "email": "",
+        "openalex_id": "A5053283204",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 3,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "bsru_w56_0900_480",
+          "full_name_th": "ณัฐศรัณย์ ทฤษฎิคุณ",
+          "email": "",
+          "openalex_id": "A5147252097",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+      "bare_name": "พิมลมาศ พร้อมสุขกุล",
+      "primary_id": "bsru_w56_0471_952",
+      "donor_ids": [
+        "bsru_w56_0899_288"
+      ],
+      "primary_before": {
+        "id": "bsru_w56_0471_952",
+        "full_name_th": "พิมลมาศ พร้อมสุขกุล",
+        "email": "",
+        "openalex_id": "A5024680702",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "bsru_w56_0899_288",
+          "full_name_th": "พิมลมาศ พร้อมสุขกุล",
+          "email": "",
+          "openalex_id": "A5147246127",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+      "bare_name": "วรินธร สีเสียดงาม",
+      "primary_id": "bsru_w56_0502_264",
+      "donor_ids": [
+        "bsru_w56_0719_851"
+      ],
+      "primary_before": {
+        "id": "bsru_w56_0502_264",
+        "full_name_th": "วรินธร สีเสียดงาม",
+        "email": "",
+        "openalex_id": "A5093989965",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "bsru_w56_0719_851",
+          "full_name_th": "วรินธร สีเสียดงาม",
+          "email": "",
+          "openalex_id": "A5106218654",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+      "bare_name": "สุพัตรา วิไลลักษณ์",
+      "primary_id": "bsru_w56_0525_692",
+      "donor_ids": [
+        "bsru_w56_0898_570"
+      ],
+      "primary_before": {
+        "id": "bsru_w56_0525_692",
+        "full_name_th": "สุพัตรา วิไลลักษณ์",
+        "email": "",
+        "openalex_id": "A5119067769",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "bsru_w56_0898_570",
+          "full_name_th": "สุพัตรา วิไลลักษณ์",
+          "email": "",
+          "openalex_id": "A5147242671",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+      "bare_name": "อนิวัฒน์ ทองสีดา",
+      "primary_id": "bsru_w56_0766_354",
+      "donor_ids": [
+        "bsru_w56_0786_269",
+        "bsru_w56_0787_136"
+      ],
+      "primary_before": {
+        "id": "bsru_w56_0766_354",
+        "full_name_th": "อนิวัฒน์ ทองสีดา",
+        "email": "",
+        "openalex_id": "A5115880962",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "bsru_w56_0786_269",
+          "full_name_th": "อนิวัฒน์ ทองสีดา",
+          "email": "",
+          "openalex_id": "A5118614825",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "bsru_w56_0787_136",
+          "full_name_th": "อนิวัฒน์ ทองสีดา",
+          "email": "",
+          "openalex_id": "A5118617052",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+      "bare_name": "บังอร เสรีรัตน์",
+      "primary_id": "bsru_w56_0906_913",
+      "donor_ids": [
+        "bsru_w56_0911_857",
+        "bsru_w56_0912_299"
+      ],
+      "primary_before": {
+        "id": "bsru_w56_0906_913",
+        "full_name_th": "บังอร เสรีรัตน์",
+        "email": "",
+        "openalex_id": "A5148430341",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "bsru_w56_0911_857",
+          "full_name_th": "บังอร เสรีรัตน์",
+          "email": "",
+          "openalex_id": "A5148501044",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "bsru_w56_0912_299",
+          "full_name_th": "บังอร เสรีรัตน์",
+          "email": "",
+          "openalex_id": "A5148770549",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+      "bare_name": "สิริกร โตสติ",
+      "primary_id": "bsru_w56_0908_303",
+      "donor_ids": [
+        "bsru_w56_0915_645"
+      ],
+      "primary_before": {
+        "id": "bsru_w56_0908_303",
+        "full_name_th": "สิริกร โตสติ",
+        "email": "",
+        "openalex_id": "A5148451492",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "bsru_w56_0915_645",
+          "full_name_th": "สิริกร โตสติ",
+          "email": "",
+          "openalex_id": "A5148824653",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+      "bare_name": "ธนภัทร จันทร์เจริญ",
+      "primary_id": "bsru_w56_0909_850",
+      "donor_ids": [
+        "bsru_w56_0914_601"
+      ],
+      "primary_before": {
+        "id": "bsru_w56_0909_850",
+        "full_name_th": "ธนภัทร จันทร์เจริญ",
+        "email": "",
+        "openalex_id": "A5148459831",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "bsru_w56_0914_601",
+          "full_name_th": "ธนภัทร จันทร์เจริญ",
+          "email": "",
+          "openalex_id": "A5148821201",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเชียงใหม่",
+      "bare_name": "ธวัชชัย บุญมี",
+      "primary_id": "cmru_w56_0435_411",
+      "donor_ids": [
+        "cmru_w56_0677_404"
+      ],
+      "primary_before": {
+        "id": "cmru_w56_0435_411",
+        "full_name_th": "ธวัชชัย บุญมี",
+        "email": "",
+        "openalex_id": "A5037343413",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "cmru_w56_0677_404",
+          "full_name_th": "ธวัชชัย บุญมี",
+          "email": "",
+          "openalex_id": "A5140475426",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเชียงใหม่",
+      "bare_name": "จิรวรรณ บุญมี",
+      "primary_id": "cmru_w56_0438_736",
+      "donor_ids": [
+        "cmru_w56_0678_557"
+      ],
+      "primary_before": {
+        "id": "cmru_w56_0438_736",
+        "full_name_th": "จิรวรรณ บุญมี",
+        "email": "",
+        "openalex_id": "A5041979289",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "cmru_w56_0678_557",
+          "full_name_th": "จิรวรรณ บุญมี",
+          "email": "",
+          "openalex_id": "A5140476950",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเชียงใหม่",
+      "bare_name": "ปภากร สุทธิภาศิลป์",
+      "primary_id": "cmru_w56_0548_699",
+      "donor_ids": [
+        "cmru_w56_0565_435"
+      ],
+      "primary_before": {
+        "id": "cmru_w56_0548_699",
+        "full_name_th": "ปภากร สุทธิภาศิลป์",
+        "email": "",
+        "openalex_id": "A5106936218",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "cmru_w56_0565_435",
+          "full_name_th": "ปภากร สุทธิภาศิลป์",
+          "email": "",
+          "openalex_id": "A5115437993",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเชียงใหม่",
+      "bare_name": "จีรภา ง่วนหอม",
+      "primary_id": "cmru_w56_0564_537",
+      "donor_ids": [
+        "cmru_w56_0668_181"
+      ],
+      "primary_before": {
+        "id": "cmru_w56_0564_537",
+        "full_name_th": "จีรภา ง่วนหอม",
+        "email": "",
+        "openalex_id": "A5115437992",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "cmru_w56_0668_181",
+          "full_name_th": "จีรภา ง่วนหอม",
+          "email": "",
+          "openalex_id": "A5140092266",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเชียงใหม่",
+      "bare_name": "ชวลิต ขอดศิริ",
+      "primary_id": "cmru_w56_0606_192",
+      "donor_ids": [
+        "cmru_w56_0684_843"
+      ],
+      "primary_before": {
+        "id": "cmru_w56_0606_192",
+        "full_name_th": "ชวลิต ขอดศิริ",
+        "email": "",
+        "openalex_id": "A5119930848",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "cmru_w56_0684_843",
+          "full_name_th": "ชวลิต ขอดศิริ",
+          "email": "",
+          "openalex_id": "A5148773257",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเชียงใหม่",
+      "bare_name": "วชิรา เครือคำอ้าย",
+      "primary_id": "cmru_w56_0688_723",
+      "donor_ids": [
+        "cmru_w56_0689_519"
+      ],
+      "primary_before": {
+        "id": "cmru_w56_0688_723",
+        "full_name_th": "วชิรา เครือคำอ้าย",
+        "email": "",
+        "openalex_id": "A5148826714",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "cmru_w56_0689_519",
+          "full_name_th": "วชิรา เครือคำอ้าย",
+          "email": "",
+          "openalex_id": "A5148827575",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "bare_name": "วชิรารัตน์ นิรันดร์เตชาภัทร์",
+      "primary_id": "nrru_w56_0316_914",
+      "donor_ids": [
+        "nrru_w56_0717_711"
+      ],
+      "primary_before": {
+        "id": "nrru_w56_0316_914",
+        "full_name_th": "วชิรารัตน์ นิรันดร์เตชาภัทร์",
+        "email": "",
+        "openalex_id": "A5092634291",
+        "total_citations": 3,
+        "h_index": 1,
+        "total_publications_count": 3,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nrru_w56_0717_711",
+          "full_name_th": "วชิรารัตน์ นิรันดร์เตชาภัทร์",
+          "email": "",
+          "openalex_id": "A5123332891",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "bare_name": "อนุจิตร ชิณสาร",
+      "primary_id": "nrru_w56_0321_201",
+      "donor_ids": [
+        "nrru_w56_0653_484",
+        "nrru_w56_0778_372",
+        "nrru_w56_0829_792"
+      ],
+      "primary_before": {
+        "id": "nrru_w56_0321_201",
+        "full_name_th": "อนุจิตร ชิณสาร",
+        "email": "",
+        "openalex_id": "A5115015952",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 3,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nrru_w56_0653_484",
+          "full_name_th": "อนุจิตร ชิณสาร",
+          "email": "",
+          "openalex_id": "A5119356506",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "nrru_w56_0778_372",
+          "full_name_th": "อนุจิตร ชิณสาร",
+          "email": "",
+          "openalex_id": "A5136960787",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "nrru_w56_0829_792",
+          "full_name_th": "อนุจิตร ชิณสาร",
+          "email": "",
+          "openalex_id": "A5151098357",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "bare_name": "ชคัตตรัย รยะสวัสดิ์",
+      "primary_id": "nrru_w56_0322_982",
+      "donor_ids": [
+        "nrru_w56_0395_962",
+        "nrru_w56_0401_440",
+        "nrru_w56_0773_666"
+      ],
+      "primary_before": {
+        "id": "nrru_w56_0322_982",
+        "full_name_th": "ชคัตตรัย รยะสวัสดิ์",
+        "email": "",
+        "openalex_id": "A5115015953",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 3,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nrru_w56_0395_962",
+          "full_name_th": "ชคัตตรัย รยะสวัสดิ์",
+          "email": "",
+          "openalex_id": "A5098958645",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 2,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "nrru_w56_0401_440",
+          "full_name_th": "ชคัตตรัย รยะสวัสดิ์",
+          "email": "",
+          "openalex_id": "A5115015868",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 2,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "nrru_w56_0773_666",
+          "full_name_th": "ชคัตตรัย รยะสวัสดิ์",
+          "email": "",
+          "openalex_id": "A5136526158",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "bare_name": "สิริรัตน์ นาคิน",
+      "primary_id": "nrru_w56_0327_762",
+      "donor_ids": [
+        "nrru_w56_0630_704"
+      ],
+      "primary_before": {
+        "id": "nrru_w56_0327_762",
+        "full_name_th": "สิริรัตน์ นาคิน",
+        "email": "",
+        "openalex_id": "A5120358073",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 3,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nrru_w56_0630_704",
+          "full_name_th": "สิริรัตน์ นาคิน",
+          "email": "",
+          "openalex_id": "A5118764691",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "bare_name": "พัชรี ศรีกุตา",
+      "primary_id": "nrru_w56_0624_669",
+      "donor_ids": [
+        "nrru_w56_0448_473"
+      ],
+      "primary_before": {
+        "id": "nrru_w56_0624_669",
+        "full_name_th": "พัชรี ศรีกุตา",
+        "email": "",
+        "openalex_id": "A5118119372",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nrru_w56_0448_473",
+          "full_name_th": "พัชรี ศรีกุตา",
+          "email": "",
+          "openalex_id": "A5013833488",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "bare_name": "สายสุนีย์ เติมสินสุข",
+      "primary_id": "nrru_w56_0462_776",
+      "donor_ids": [
+        "nrru_w56_0635_920"
+      ],
+      "primary_before": {
+        "id": "nrru_w56_0462_776",
+        "full_name_th": "สายสุนีย์ เติมสินสุข",
+        "email": "",
+        "openalex_id": "A5028446704",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nrru_w56_0635_920",
+          "full_name_th": "สายสุนีย์ เติมสินสุข",
+          "email": "",
+          "openalex_id": "A5119013914",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "bare_name": "วาสนา กีรติจําเริญ",
+      "primary_id": "nrru_w56_0487_396",
+      "donor_ids": [
+        "nrru_w56_0537_458"
+      ],
+      "primary_before": {
+        "id": "nrru_w56_0487_396",
+        "full_name_th": "วาสนา กีรติจําเริญ",
+        "email": "",
+        "openalex_id": "A5046077007",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nrru_w56_0537_458",
+          "full_name_th": "วาสนา กีรติจําเริญ",
+          "email": "",
+          "openalex_id": "A5084694965",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "bare_name": "บรรจบ บุญจันทร์",
+      "primary_id": "nrru_w56_0640_182",
+      "donor_ids": [
+        "nrru_w56_0642_799",
+        "nrru_w56_0644_919"
+      ],
+      "primary_before": {
+        "id": "nrru_w56_0640_182",
+        "full_name_th": "บรรจบ บุญจันทร์",
+        "email": "",
+        "openalex_id": "A5119066515",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nrru_w56_0642_799",
+          "full_name_th": "บรรจบ บุญจันทร์",
+          "email": "",
+          "openalex_id": "A5119066522",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "nrru_w56_0644_919",
+          "full_name_th": "บรรจบ บุญจันทร์",
+          "email": "",
+          "openalex_id": "A5119066540",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "bare_name": "สกุล วงษ์กาฬสินธุ์",
+      "primary_id": "nrru_w56_0648_968",
+      "donor_ids": [
+        "nrru_w56_0755_218",
+        "nrru_w56_0774_228",
+        "nrru_w56_0777_100"
+      ],
+      "primary_before": {
+        "id": "nrru_w56_0648_968",
+        "full_name_th": "สกุล วงษ์กาฬสินธุ์",
+        "email": "",
+        "openalex_id": "A5119174110",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nrru_w56_0755_218",
+          "full_name_th": "สกุล วงษ์กาฬสินธุ์",
+          "email": "",
+          "openalex_id": "A5130596236",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "nrru_w56_0774_228",
+          "full_name_th": "สกุล วงษ์กาฬสินธุ์",
+          "email": "",
+          "openalex_id": "A5136573061",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "nrru_w56_0777_100",
+          "full_name_th": "สกุล วงษ์กาฬสินธุ์",
+          "email": "",
+          "openalex_id": "A5136925819",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "bare_name": "ศิริวดี วิวิธคุณากร",
+      "primary_id": "nrru_w56_0649_435",
+      "donor_ids": [
+        "nrru_w56_0654_267",
+        "nrru_w56_0827_992"
+      ],
+      "primary_before": {
+        "id": "nrru_w56_0649_435",
+        "full_name_th": "ศิริวดี วิวิธคุณากร",
+        "email": "",
+        "openalex_id": "A5119174111",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nrru_w56_0654_267",
+          "full_name_th": "ศิริวดี วิวิธคุณากร",
+          "email": "",
+          "openalex_id": "A5119356507",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "nrru_w56_0827_992",
+          "full_name_th": "ศิริวดี วิวิธคุณากร",
+          "email": "",
+          "openalex_id": "A5150888490",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏอุดรธานี",
+      "bare_name": "บุษกร สุขแสน",
+      "primary_id": "udru_w56_0255_707",
+      "donor_ids": [
+        "udru_w56_0256_570"
+      ],
+      "primary_before": {
+        "id": "udru_w56_0255_707",
+        "full_name_th": "บุษกร สุขแสน",
+        "email": "",
+        "openalex_id": "A5148413057",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 3,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "udru_w56_0256_570",
+          "full_name_th": "บุษกร สุขแสน",
+          "email": "",
+          "openalex_id": "A5148473903",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 3,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏอุดรธานี",
+      "bare_name": "กฤตติกา แสนโภชน์",
+      "primary_id": "udru_w56_0257_734",
+      "donor_ids": [
+        "udru_w56_0298_284",
+        "udru_w56_0343_470"
+      ],
+      "primary_before": {
+        "id": "udru_w56_0257_734",
+        "full_name_th": "กฤตติกา แสนโภชน์",
+        "email": "",
+        "openalex_id": "A5148527263",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 3,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "udru_w56_0298_284",
+          "full_name_th": "กฤตติกา แสนโภชน์",
+          "email": "",
+          "openalex_id": "A5076947708",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 2,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "udru_w56_0343_470",
+          "full_name_th": "กฤตติกา แสนโภชน์",
+          "email": "",
+          "openalex_id": "A5148447143",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 2,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏอุดรธานี",
+      "bare_name": "ศุภกฤต ปิติพัฒน์",
+      "primary_id": "udru_w56_0342_323",
+      "donor_ids": [
+        "udru_w56_0344_241"
+      ],
+      "primary_before": {
+        "id": "udru_w56_0342_323",
+        "full_name_th": "ศุภกฤต ปิติพัฒน์",
+        "email": "",
+        "openalex_id": "A5148430853",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "udru_w56_0344_241",
+          "full_name_th": "ศุภกฤต ปิติพัฒน์",
+          "email": "",
+          "openalex_id": "A5148511650",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 2,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏอุดรธานี",
+      "bare_name": "เกรียงไกร ธุระพันธ์",
+      "primary_id": "udru_w56_0426_230",
+      "donor_ids": [
+        "udru_w56_0618_670"
+      ],
+      "primary_before": {
+        "id": "udru_w56_0426_230",
+        "full_name_th": "เกรียงไกร ธุระพันธ์",
+        "email": "",
+        "openalex_id": "A5059762357",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "udru_w56_0618_670",
+          "full_name_th": "เกรียงไกร ธุระพันธ์",
+          "email": "",
+          "openalex_id": "A5148530359",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏอุดรธานี",
+      "bare_name": "พนายุทธ เชยบาล",
+      "primary_id": "udru_w56_0529_545",
+      "donor_ids": [
+        "udru_w56_0533_653",
+        "udru_w56_0608_331"
+      ],
+      "primary_before": {
+        "id": "udru_w56_0529_545",
+        "full_name_th": "พนายุทธ เชยบาล",
+        "email": "",
+        "openalex_id": "A5118764711",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "udru_w56_0533_653",
+          "full_name_th": "พนายุทธ เชยบาล",
+          "email": "",
+          "openalex_id": "A5119308569",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "udru_w56_0608_331",
+          "full_name_th": "พนายุทธ เชยบาล",
+          "email": "",
+          "openalex_id": "A5148434793",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏอุดรธานี",
+      "bare_name": "เรวณี ชัยเชาวรัตน์",
+      "primary_id": "udru_w56_0609_365",
+      "donor_ids": [
+        "udru_w56_0616_439"
+      ],
+      "primary_before": {
+        "id": "udru_w56_0609_365",
+        "full_name_th": "เรวณี ชัยเชาวรัตน์",
+        "email": "",
+        "openalex_id": "A5148440537",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "udru_w56_0616_439",
+          "full_name_th": "เรวณี ชัยเชาวรัตน์",
+          "email": "",
+          "openalex_id": "A5148520873",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "กฤษกนก ดวงชาทม",
+      "primary_id": "rmu_w56_0162_503",
+      "donor_ids": [
+        "rmu_w56_0474_691",
+        "rmu_w56_1153_295",
+        "rmu_w56_1206_720"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0162_503",
+        "full_name_th": "กฤษกนก ดวงชาทม",
+        "email": "",
+        "openalex_id": "A5095040858",
+        "total_citations": 4,
+        "h_index": 1,
+        "total_publications_count": 19,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_0474_691",
+          "full_name_th": "กฤษกนก ดวงชาทม",
+          "email": "",
+          "openalex_id": "A5136005816",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 3,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmu_w56_1153_295",
+          "full_name_th": "กฤษกนก ดวงชาทม",
+          "email": "",
+          "openalex_id": "A5123057570",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmu_w56_1206_720",
+          "full_name_th": "กฤษกนก ดวงชาทม",
+          "email": "",
+          "openalex_id": "A5136912883",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "เสาวลักษณ์ โกศลกิตติอัมพร",
+      "primary_id": "rmu_w56_0205_928",
+      "donor_ids": [
+        "rmu_w56_0468_362"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0205_928",
+        "full_name_th": "เสาวลักษณ์ โกศลกิตติอัมพร",
+        "email": "",
+        "openalex_id": "A5065093238",
+        "total_citations": 2,
+        "h_index": 1,
+        "total_publications_count": 13,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_0468_362",
+          "full_name_th": "เสาวลักษณ์ โกศลกิตติอัมพร",
+          "email": "",
+          "openalex_id": "A5117784253",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 3,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ชยากานต์ เรืองสุวรรณ",
+      "primary_id": "rmu_w56_0227_359",
+      "donor_ids": [
+        "rmu_w56_1208_767",
+        "rmu_w56_1220_390"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0227_359",
+        "full_name_th": "ชยากานต์ เรืองสุวรรณ",
+        "email": "",
+        "openalex_id": "A5044953051",
+        "total_citations": 2,
+        "h_index": 1,
+        "total_publications_count": 11,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_1208_767",
+          "full_name_th": "ชยากานต์ เรืองสุวรรณ",
+          "email": "",
+          "openalex_id": "A5136941998",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmu_w56_1220_390",
+          "full_name_th": "ชยากานต์ เรืองสุวรรณ",
+          "email": "",
+          "openalex_id": "A5140892631",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ภูษิต บุญทองเถิง",
+      "primary_id": "rmu_w56_0239_487",
+      "donor_ids": [
+        "rmu_w56_0594_379",
+        "rmu_w56_1197_194"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0239_487",
+        "full_name_th": "ภูษิต บุญทองเถิง",
+        "email": "",
+        "openalex_id": "A5034217682",
+        "total_citations": 2,
+        "h_index": 1,
+        "total_publications_count": 10,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_0594_379",
+          "full_name_th": "ภูษิต บุญทองเถิง",
+          "email": "",
+          "openalex_id": "A5146592363",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 2,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmu_w56_1197_194",
+          "full_name_th": "ภูษิต บุญทองเถิง",
+          "email": "",
+          "openalex_id": "A5136060304",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ภักดี โพธิ์สิงห์",
+      "primary_id": "rmu_w56_0240_607",
+      "donor_ids": [
+        "rmu_w56_0380_544",
+        "rmu_w56_0593_755"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0240_607",
+        "full_name_th": "ภักดี โพธิ์สิงห์",
+        "email": "",
+        "openalex_id": "A5035586405",
+        "total_citations": 2,
+        "h_index": 1,
+        "total_publications_count": 10,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_0380_544",
+          "full_name_th": "ภักดี โพธิ์สิงห์",
+          "email": "",
+          "openalex_id": "A5115845331",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 4,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmu_w56_0593_755",
+          "full_name_th": "ภักดี โพธิ์สิงห์",
+          "email": "",
+          "openalex_id": "A5143425326",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 2,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ทิพาพร สุจารี",
+      "primary_id": "rmu_w56_0248_145",
+      "donor_ids": [
+        "rmu_w56_0756_930",
+        "rmu_w56_1163_555"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0248_145",
+        "full_name_th": "ทิพาพร สุจารี",
+        "email": "",
+        "openalex_id": "A5093299140",
+        "total_citations": 6,
+        "h_index": 2,
+        "total_publications_count": 10,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_0756_930",
+          "full_name_th": "ทิพาพร สุจารี",
+          "email": "",
+          "openalex_id": "A5039621429",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmu_w56_1163_555",
+          "full_name_th": "ทิพาพร สุจารี",
+          "email": "",
+          "openalex_id": "A5123813834",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ปองภพ ภูจอมจิตร",
+      "primary_id": "rmu_w56_0258_681",
+      "donor_ids": [
+        "rmu_w56_1074_265",
+        "rmu_w56_1219_954"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0258_681",
+        "full_name_th": "ปองภพ ภูจอมจิตร",
+        "email": "",
+        "openalex_id": "A5052832335",
+        "total_citations": 3,
+        "h_index": 1,
+        "total_publications_count": 9,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_1074_265",
+          "full_name_th": "ปองภพ ภูจอมจิตร",
+          "email": "",
+          "openalex_id": "A5116750756",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmu_w56_1219_954",
+          "full_name_th": "ปองภพ ภูจอมจิตร",
+          "email": "",
+          "openalex_id": "A5140874988",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ณัฏฐชัย จันทชุม",
+      "primary_id": "rmu_w56_0260_989",
+      "donor_ids": [
+        "rmu_w56_0471_151"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0260_989",
+        "full_name_th": "ณัฏฐชัย จันทชุม",
+        "email": "",
+        "openalex_id": "A5093299139",
+        "total_citations": 7,
+        "h_index": 2,
+        "total_publications_count": 9,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_0471_151",
+          "full_name_th": "ณัฏฐชัย จันทชุม",
+          "email": "",
+          "openalex_id": "A5120670111",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 3,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ทรงศักดิ์ สองสนิท",
+      "primary_id": "rmu_w56_0291_852",
+      "donor_ids": [
+        "rmu_w56_1222_472"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0291_852",
+        "full_name_th": "ทรงศักดิ์ สองสนิท",
+        "email": "",
+        "openalex_id": "A5077176029",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 7,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_1222_472",
+          "full_name_th": "ทรงศักดิ์ สองสนิท",
+          "email": "",
+          "openalex_id": "A5143435095",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "สนิท ตีเมืองซ้าย",
+      "primary_id": "rmu_w56_0332_389",
+      "donor_ids": [
+        "rmu_w56_1223_154"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0332_389",
+        "full_name_th": "สนิท ตีเมืองซ้าย",
+        "email": "",
+        "openalex_id": "A5062741940",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 5,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_1223_154",
+          "full_name_th": "สนิท ตีเมืองซ้าย",
+          "email": "",
+          "openalex_id": "A5143438351",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ยุภาพร ยุภาศ",
+      "primary_id": "rmu_w56_0381_647",
+      "donor_ids": [
+        "rmu_w56_0467_173"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0381_647",
+        "full_name_th": "ยุภาพร ยุภาศ",
+        "email": "",
+        "openalex_id": "A5115845332",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 4,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_0467_173",
+          "full_name_th": "ยุภาพร ยุภาศ",
+          "email": "",
+          "openalex_id": "A5117784252",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 3,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ประสพสุข ฤทธิเดช",
+      "primary_id": "rmu_w56_0398_138",
+      "donor_ids": [
+        "rmu_w56_0900_944"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0398_138",
+        "full_name_th": "ประสพสุข ฤทธิเดช",
+        "email": "",
+        "openalex_id": "A5011632574",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 3,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_0900_944",
+          "full_name_th": "ประสพสุข ฤทธิเดช",
+          "email": "",
+          "openalex_id": "A5075053901",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "สมาน เอกพิมพ์",
+      "primary_id": "rmu_w56_0554_645",
+      "donor_ids": [
+        "rmu_w56_0563_580",
+        "rmu_w56_1200_384"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0554_645",
+        "full_name_th": "สมาน เอกพิมพ์",
+        "email": "",
+        "openalex_id": "A5093757474",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_0563_580",
+          "full_name_th": "สมาน เอกพิมพ์",
+          "email": "",
+          "openalex_id": "A5115015854",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 2,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "rmu_w56_1200_384",
+          "full_name_th": "สมาน เอกพิมพ์",
+          "email": "",
+          "openalex_id": "A5136520845",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "รุ่งเรือง แสนโกษา",
+      "primary_id": "rmu_w56_0576_240",
+      "donor_ids": [
+        "rmu_w56_1256_901"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_0576_240",
+        "full_name_th": "รุ่งเรือง แสนโกษา",
+        "email": "",
+        "openalex_id": "A5117791726",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_1256_901",
+          "full_name_th": "รุ่งเรือง แสนโกษา",
+          "email": "",
+          "openalex_id": "A5151025580",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "พรรณวิไล ดอกไม้",
+      "primary_id": "rmu_w56_1023_425",
+      "donor_ids": [
+        "rmu_w56_1240_647"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_1023_425",
+        "full_name_th": "พรรณวิไล ดอกไม้",
+        "email": "",
+        "openalex_id": "A5099850631",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_1240_647",
+          "full_name_th": "พรรณวิไล ดอกไม้",
+          "email": "",
+          "openalex_id": "A5148455173",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "อรัญ ซุยกระเดื่อง",
+      "primary_id": "rmu_w56_1085_400",
+      "donor_ids": [
+        "rmu_w56_1089_750"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_1085_400",
+        "full_name_th": "อรัญ ซุยกระเดื่อง",
+        "email": "",
+        "openalex_id": "A5117117680",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_1089_750",
+          "full_name_th": "อรัญ ซุยกระเดื่อง",
+          "email": "",
+          "openalex_id": "A5117130894",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ขวัญชัย นุชกลาง",
+      "primary_id": "rmu_w56_1110_405",
+      "donor_ids": [
+        "rmu_w56_1255_173"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_1110_405",
+        "full_name_th": "ขวัญชัย นุชกลาง",
+        "email": "",
+        "openalex_id": "A5119013917",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_1255_173",
+          "full_name_th": "ขวัญชัย นุชกลาง",
+          "email": "",
+          "openalex_id": "A5150957994",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "bare_name": "ธัญญลักษณ์ เขจรภักดิ์",
+      "primary_id": "rmu_w56_1196_622",
+      "donor_ids": [
+        "rmu_w56_1202_306"
+      ],
+      "primary_before": {
+        "id": "rmu_w56_1196_622",
+        "full_name_th": "ธัญญลักษณ์ เขจรภักดิ์",
+        "email": "",
+        "openalex_id": "A5136046824",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rmu_w56_1202_306",
+          "full_name_th": "ธัญญลักษณ์ เขจรภักดิ์",
+          "email": "",
+          "openalex_id": "A5136589833",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+      "bare_name": "กุสุมา ใจสบาย",
+      "primary_id": "nstru_w56_0310_343",
+      "donor_ids": [
+        "nstru_w56_0751_601"
+      ],
+      "primary_before": {
+        "id": "nstru_w56_0310_343",
+        "full_name_th": "กุสุมา ใจสบาย",
+        "email": "",
+        "openalex_id": "A5058549595",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nstru_w56_0751_601",
+          "full_name_th": "กุสุมา ใจสบาย",
+          "email": "",
+          "openalex_id": "A5148447929",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+      "bare_name": "จุฑามาศ ศุภพันธ์",
+      "primary_id": "nstru_w56_0361_999",
+      "donor_ids": [
+        "nstru_w56_0679_717"
+      ],
+      "primary_before": {
+        "id": "nstru_w56_0361_999",
+        "full_name_th": "จุฑามาศ ศุภพันธ์",
+        "email": "",
+        "openalex_id": "A5120841524",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nstru_w56_0679_717",
+          "full_name_th": "จุฑามาศ ศุภพันธ์",
+          "email": "",
+          "openalex_id": "A5125168556",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+      "bare_name": "จตุพร คงทอง",
+      "primary_id": "nstru_w56_0515_900",
+      "donor_ids": [
+        "nstru_w56_0678_361"
+      ],
+      "primary_before": {
+        "id": "nstru_w56_0515_900",
+        "full_name_th": "จตุพร คงทอง",
+        "email": "",
+        "openalex_id": "A5088838546",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nstru_w56_0678_361",
+          "full_name_th": "จตุพร คงทอง",
+          "email": "",
+          "openalex_id": "A5125113266",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+      "bare_name": "บุญประจักษ์ จันทร์วิน",
+      "primary_id": "nstru_w56_0610_306",
+      "donor_ids": [
+        "nstru_w56_0576_669",
+        "nstru_w56_0609_914"
+      ],
+      "primary_before": {
+        "id": "nstru_w56_0610_306",
+        "full_name_th": "บุญประจักษ์ จันทร์วิน",
+        "email": "",
+        "openalex_id": "A5118275446",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nstru_w56_0576_669",
+          "full_name_th": "บุญประจักษ์ จันทร์วิน",
+          "email": "",
+          "openalex_id": "A5107716924",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "nstru_w56_0609_914",
+          "full_name_th": "บุญประจักษ์ จันทร์วิน",
+          "email": "",
+          "openalex_id": "A5118275432",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+      "bare_name": "จุติพร อัศวโสวรรณ",
+      "primary_id": "nstru_w56_0658_699",
+      "donor_ids": [
+        "nstru_w56_0747_383"
+      ],
+      "primary_before": {
+        "id": "nstru_w56_0658_699",
+        "full_name_th": "จุติพร อัศวโสวรรณ",
+        "email": "",
+        "openalex_id": "A5120841522",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nstru_w56_0747_383",
+          "full_name_th": "จุติพร อัศวโสวรรณ",
+          "email": "",
+          "openalex_id": "A5148040929",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+      "bare_name": "วีระยุทธ สุดสมบูรณ์",
+      "primary_id": "nstru_w56_0661_829",
+      "donor_ids": [
+        "nstru_w56_0739_320"
+      ],
+      "primary_before": {
+        "id": "nstru_w56_0661_829",
+        "full_name_th": "วีระยุทธ สุดสมบูรณ์",
+        "email": "",
+        "openalex_id": "A5120852207",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "nstru_w56_0739_320",
+          "full_name_th": "วีระยุทธ สุดสมบูรณ์",
+          "email": "",
+          "openalex_id": "A5147927220",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสงขลา",
+      "bare_name": "สุธินี หีมยิ",
+      "primary_id": "skru_w56_0557_313",
+      "donor_ids": [
+        "skru_w56_0560_186"
+      ],
+      "primary_before": {
+        "id": "skru_w56_0557_313",
+        "full_name_th": "สุธินี หีมยิ",
+        "email": "",
+        "openalex_id": "A5120855117",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "skru_w56_0560_186",
+          "full_name_th": "สุธินี หีมยิ",
+          "email": "",
+          "openalex_id": "A5120855153",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏร้อยเอ็ด",
+      "bare_name": "ปาริชาติ ประเสริฐสังข์",
+      "primary_id": "reru_w56_0276_148",
+      "donor_ids": [
+        "reru_w56_0337_887"
+      ],
+      "primary_before": {
+        "id": "reru_w56_0276_148",
+        "full_name_th": "ปาริชาติ ประเสริฐสังข์",
+        "email": "",
+        "openalex_id": "A5117822070",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "reru_w56_0337_887",
+          "full_name_th": "ปาริชาติ ประเสริฐสังข์",
+          "email": "",
+          "openalex_id": "A5140854352",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเลย",
+      "bare_name": "ฉัตรวิไล สุรินทร์ชมพู",
+      "primary_id": "lru_w56_0300_709",
+      "donor_ids": [
+        "lru_w56_0341_264"
+      ],
+      "primary_before": {
+        "id": "lru_w56_0300_709",
+        "full_name_th": "ฉัตรวิไล สุรินทร์ชมพู",
+        "email": "",
+        "openalex_id": "A5118764718",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "lru_w56_0341_264",
+          "full_name_th": "ฉัตรวิไล สุรินทร์ชมพู",
+          "email": "",
+          "openalex_id": "A5148452785",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเลย",
+      "bare_name": "กวิน บุญประโคน",
+      "primary_id": "lru_w56_0302_215",
+      "donor_ids": [
+        "lru_w56_0308_912"
+      ],
+      "primary_before": {
+        "id": "lru_w56_0302_215",
+        "full_name_th": "กวิน บุญประโคน",
+        "email": "",
+        "openalex_id": "A5118764720",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "lru_w56_0308_912",
+          "full_name_th": "กวิน บุญประโคน",
+          "email": "",
+          "openalex_id": "A5119785779",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเลย",
+      "bare_name": "ไทยโรจน์ พวงมณี",
+      "primary_id": "lru_w56_0332_389",
+      "donor_ids": [
+        "lru_w56_0342_459"
+      ],
+      "primary_before": {
+        "id": "lru_w56_0332_389",
+        "full_name_th": "ไทยโรจน์ พวงมณี",
+        "email": "",
+        "openalex_id": "A5135852771",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "lru_w56_0342_459",
+          "full_name_th": "ไทยโรจน์ พวงมณี",
+          "email": "",
+          "openalex_id": "A5148763740",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "bare_name": "ภัธรภร ปุยสุวรรณ",
+      "primary_id": "npru_w56_0442_505",
+      "donor_ids": [
+        "npru_w56_0713_893"
+      ],
+      "primary_before": {
+        "id": "npru_w56_0442_505",
+        "full_name_th": "ภัธรภร ปุยสุวรรณ",
+        "email": "",
+        "openalex_id": "A5046200082",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "npru_w56_0713_893",
+          "full_name_th": "ภัธรภร ปุยสุวรรณ",
+          "email": "",
+          "openalex_id": "A5120421647",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "bare_name": "พิชญาภา ยืนยาว",
+      "primary_id": "npru_w56_0489_708",
+      "donor_ids": [
+        "npru_w56_0751_422"
+      ],
+      "primary_before": {
+        "id": "npru_w56_0489_708",
+        "full_name_th": "พิชญาภา ยืนยาว",
+        "email": "",
+        "openalex_id": "A5119859846",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "npru_w56_0751_422",
+          "full_name_th": "พิชญาภา ยืนยาว",
+          "email": "",
+          "openalex_id": "A5136400890",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "bare_name": "ชารินทร์ เกษร",
+      "primary_id": "npru_w56_0691_891",
+      "donor_ids": [
+        "npru_w56_0801_300"
+      ],
+      "primary_before": {
+        "id": "npru_w56_0691_891",
+        "full_name_th": "ชารินทร์ เกษร",
+        "email": "",
+        "openalex_id": "A5119147900",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "npru_w56_0801_300",
+          "full_name_th": "ชารินทร์ เกษร",
+          "email": "",
+          "openalex_id": "A5148455467",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "bare_name": "ขจรศักดิ์ กั้นใช้",
+      "primary_id": "npru_w56_0714_681",
+      "donor_ids": [
+        "npru_w56_0745_103"
+      ],
+      "primary_before": {
+        "id": "npru_w56_0714_681",
+        "full_name_th": "ขจรศักดิ์ กั้นใช้",
+        "email": "",
+        "openalex_id": "A5120560932",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "npru_w56_0745_103",
+          "full_name_th": "ขจรศักดิ์ กั้นใช้",
+          "email": "",
+          "openalex_id": "A5135333107",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏพระนครศรีอยุธยา",
+      "bare_name": "ประดินันท์ เอี่ยมสะอาด",
+      "primary_id": "aru_w56_0073_550",
+      "donor_ids": [
+        "aru_w56_0170_172"
+      ],
+      "primary_before": {
+        "id": "aru_w56_0073_550",
+        "full_name_th": "ประดินันท์ เอี่ยมสะอาด",
+        "email": "",
+        "openalex_id": "A5018884704",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "aru_w56_0170_172",
+          "full_name_th": "ประดินันท์ เอี่ยมสะอาด",
+          "email": "",
+          "openalex_id": "A5119996332",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏพระนครศรีอยุธยา",
+      "bare_name": "วัชรภัทร เตชะวัฒนศิริดํารง",
+      "primary_id": "aru_w56_0099_418",
+      "donor_ids": [
+        "aru_w56_0165_232"
+      ],
+      "primary_before": {
+        "id": "aru_w56_0099_418",
+        "full_name_th": "วัชรภัทร เตชะวัฒนศิริดํารง",
+        "email": "",
+        "openalex_id": "A5008755341",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "aru_w56_0165_232",
+          "full_name_th": "วัชรภัทร เตชะวัฒนศิริดํารง",
+          "email": "",
+          "openalex_id": "A5119277130",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏพระนครศรีอยุธยา",
+      "bare_name": "ชเนตตี พุ่มพฤกษ์",
+      "primary_id": "aru_w56_0148_691",
+      "donor_ids": [
+        "aru_w56_0152_771"
+      ],
+      "primary_before": {
+        "id": "aru_w56_0148_691",
+        "full_name_th": "ชเนตตี พุ่มพฤกษ์",
+        "email": "",
+        "openalex_id": "A5093579071",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "aru_w56_0152_771",
+          "full_name_th": "ชเนตตี พุ่มพฤกษ์",
+          "email": "",
+          "openalex_id": "A5099737383",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏพระนครศรีอยุธยา",
+      "bare_name": "พชฏ นรสิงห์",
+      "primary_id": "aru_w56_0166_234",
+      "donor_ids": [
+        "aru_w56_0203_706"
+      ],
+      "primary_before": {
+        "id": "aru_w56_0166_234",
+        "full_name_th": "พชฏ นรสิงห์",
+        "email": "",
+        "openalex_id": "A5119308596",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "aru_w56_0203_706",
+          "full_name_th": "พชฏ นรสิงห์",
+          "email": "",
+          "openalex_id": "A5151028692",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏบุรีรัมย์",
+      "bare_name": "อนล สวนประดิษฐ์",
+      "primary_id": "bru_w56_0444_601",
+      "donor_ids": [
+        "bru_w56_0450_542",
+        "bru_w56_0485_994"
+      ],
+      "primary_before": {
+        "id": "bru_w56_0444_601",
+        "full_name_th": "อนล สวนประดิษฐ์",
+        "email": "",
+        "openalex_id": "A5119785730",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "bru_w56_0450_542",
+          "full_name_th": "อนล สวนประดิษฐ์",
+          "email": "",
+          "openalex_id": "A5120100966",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        },
+        {
+          "id": "bru_w56_0485_994",
+          "full_name_th": "อนล สวนประดิษฐ์",
+          "email": "",
+          "openalex_id": "A5134803807",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสกลนคร",
+      "bare_name": "รดาณัฐ ภูสมนึก",
+      "primary_id": "snru_w56_1249_281",
+      "donor_ids": [
+        "snru_w56_1378_351"
+      ],
+      "primary_before": {
+        "id": "snru_w56_1249_281",
+        "full_name_th": "รดาณัฐ ภูสมนึก",
+        "email": "",
+        "openalex_id": "A5098830214",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "snru_w56_1378_351",
+          "full_name_th": "รดาณัฐ ภูสมนึก",
+          "email": "",
+          "openalex_id": "A5119079965",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสกลนคร",
+      "bare_name": "ดนัยณัฐ จิระวัฒนาสมกุล",
+      "primary_id": "snru_w56_1349_790",
+      "donor_ids": [
+        "snru_w56_1418_486"
+      ],
+      "primary_before": {
+        "id": "snru_w56_1349_790",
+        "full_name_th": "ดนัยณัฐ จิระวัฒนาสมกุล",
+        "email": "",
+        "openalex_id": "A5117784158",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "snru_w56_1418_486",
+          "full_name_th": "ดนัยณัฐ จิระวัฒนาสมกุล",
+          "email": "",
+          "openalex_id": "A5120436570",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสกลนคร",
+      "bare_name": "วิภาวี บัวผัน",
+      "primary_id": "snru_w56_1374_797",
+      "donor_ids": [
+        "snru_w56_1376_561"
+      ],
+      "primary_before": {
+        "id": "snru_w56_1374_797",
+        "full_name_th": "วิภาวี บัวผัน",
+        "email": "",
+        "openalex_id": "A5119066520",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "snru_w56_1376_561",
+          "full_name_th": "วิภาวี บัวผัน",
+          "email": "",
+          "openalex_id": "A5119079963",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏอุตรดิตถ์",
+      "bare_name": "เจษฎา มิ่งฉาย",
+      "primary_id": "uru_w56_0163_949",
+      "donor_ids": [
+        "uru_w56_0335_577"
+      ],
+      "primary_before": {
+        "id": "uru_w56_0163_949",
+        "full_name_th": "เจษฎา มิ่งฉาย",
+        "email": "",
+        "openalex_id": "A5050352651",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "uru_w56_0335_577",
+          "full_name_th": "เจษฎา มิ่งฉาย",
+          "email": "",
+          "openalex_id": "A5136997884",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏอุตรดิตถ์",
+      "bare_name": "สุทธิดา วิทนาลัย",
+      "primary_id": "uru_w56_0202_949",
+      "donor_ids": [
+        "uru_w56_0336_162"
+      ],
+      "primary_before": {
+        "id": "uru_w56_0202_949",
+        "full_name_th": "สุทธิดา วิทนาลัย",
+        "email": "",
+        "openalex_id": "A5126890632",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "uru_w56_0336_162",
+          "full_name_th": "สุทธิดา วิทนาลัย",
+          "email": "",
+          "openalex_id": "A5137125789",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏรำไพพรรณี",
+      "bare_name": "นภาพรรณ หนิมพานิช",
+      "primary_id": "rbru_w56_0248_383",
+      "donor_ids": [
+        "rbru_w56_0259_742"
+      ],
+      "primary_before": {
+        "id": "rbru_w56_0248_383",
+        "full_name_th": "นภาพรรณ หนิมพานิช",
+        "email": "",
+        "openalex_id": "A5135837912",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "rbru_w56_0259_742",
+          "full_name_th": "นภาพรรณ หนิมพานิช",
+          "email": "",
+          "openalex_id": "A5148051454",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเพชรบูรณ์",
+      "bare_name": "กัญญ์กุลณัช พีรชาอัครชัย",
+      "primary_id": "pcru_w56_0259_305",
+      "donor_ids": [
+        "pcru_w56_0269_415"
+      ],
+      "primary_before": {
+        "id": "pcru_w56_0259_305",
+        "full_name_th": "กัญญ์กุลณัช พีรชาอัครชัย",
+        "email": "",
+        "openalex_id": "A5115788217",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "pcru_w56_0269_415",
+          "full_name_th": "กัญญ์กุลณัช พีรชาอัครชัย",
+          "email": "",
+          "openalex_id": "A5118713744",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏลำปาง",
+      "bare_name": "ภิญญพันธุ์ พจนะลาวัณย์",
+      "primary_id": "lpru_w56_0079_795",
+      "donor_ids": [
+        "lpru_w56_0346_790"
+      ],
+      "primary_before": {
+        "id": "lpru_w56_0079_795",
+        "full_name_th": "ภิญญพันธุ์ พจนะลาวัณย์",
+        "email": "",
+        "openalex_id": "A5027082792",
+        "total_citations": 5,
+        "h_index": 1,
+        "total_publications_count": 10,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "lpru_w56_0346_790",
+          "full_name_th": "ภิญญพันธุ์ พจนะลาวัณย์",
+          "email": "",
+          "openalex_id": "A5099132766",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏลำปาง",
+      "bare_name": "ดวงจันทร์ แก้วกงพาน",
+      "primary_id": "lpru_w56_0224_287",
+      "donor_ids": [
+        "lpru_w56_0445_814"
+      ],
+      "primary_before": {
+        "id": "lpru_w56_0224_287",
+        "full_name_th": "ดวงจันทร์ แก้วกงพาน",
+        "email": "",
+        "openalex_id": "A5115015802",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "lpru_w56_0445_814",
+          "full_name_th": "ดวงจันทร์ แก้วกงพาน",
+          "email": "",
+          "openalex_id": "A5136905977",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏลำปาง",
+      "bare_name": "ชิสาพัชร์ ชูทอง",
+      "primary_id": "lpru_w56_0225_943",
+      "donor_ids": [
+        "lpru_w56_0446_476"
+      ],
+      "primary_before": {
+        "id": "lpru_w56_0225_943",
+        "full_name_th": "ชิสาพัชร์ ชูทอง",
+        "email": "",
+        "openalex_id": "A5115015805",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 2,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "lpru_w56_0446_476",
+          "full_name_th": "ชิสาพัชร์ ชูทอง",
+          "email": "",
+          "openalex_id": "A5136978132",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏลำปาง",
+      "bare_name": "ฉัตรสุดา มาทา",
+      "primary_id": "lpru_w56_0323_800",
+      "donor_ids": [
+        "lpru_w56_0412_668"
+      ],
+      "primary_before": {
+        "id": "lpru_w56_0323_800",
+        "full_name_th": "ฉัตรสุดา มาทา",
+        "email": "",
+        "openalex_id": "A5092071244",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "lpru_w56_0412_668",
+          "full_name_th": "ฉัตรสุดา มาทา",
+          "email": "",
+          "openalex_id": "A5119846364",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏลำปาง",
+      "bare_name": "ธนพร หมูคํา",
+      "primary_id": "lpru_w56_0356_506",
+      "donor_ids": [
+        "lpru_w56_0397_743"
+      ],
+      "primary_before": {
+        "id": "lpru_w56_0356_506",
+        "full_name_th": "ธนพร หมูคํา",
+        "email": "",
+        "openalex_id": "A5114436563",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "lpru_w56_0397_743",
+          "full_name_th": "ธนพร หมูคํา",
+          "email": "",
+          "openalex_id": "A5119147952",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏลำปาง",
+      "bare_name": "ปริญญภาษ สีทอง",
+      "primary_id": "lpru_w56_0374_644",
+      "donor_ids": [
+        "lpru_w56_0401_297"
+      ],
+      "primary_before": {
+        "id": "lpru_w56_0374_644",
+        "full_name_th": "ปริญญภาษ สีทอง",
+        "email": "",
+        "openalex_id": "A5116854793",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "lpru_w56_0401_297",
+          "full_name_th": "ปริญญภาษ สีทอง",
+          "email": "",
+          "openalex_id": "A5119356522",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏลำปาง",
+      "bare_name": "ขนิษฐา ใจมโน",
+      "primary_id": "lpru_w56_0398_100",
+      "donor_ids": [
+        "lpru_w56_0460_167"
+      ],
+      "primary_before": {
+        "id": "lpru_w56_0398_100",
+        "full_name_th": "ขนิษฐา ใจมโน",
+        "email": "",
+        "openalex_id": "A5119147954",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "lpru_w56_0460_167",
+          "full_name_th": "ขนิษฐา ใจมโน",
+          "email": "",
+          "openalex_id": "A5147951957",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏศรีสะเกษ",
+      "bare_name": "พิมพิลา คงขาว",
+      "primary_id": "sskru_w56_0159_678",
+      "donor_ids": [
+        "sskru_w56_0134_598"
+      ],
+      "primary_before": {
+        "id": "sskru_w56_0159_678",
+        "full_name_th": "พิมพิลา คงขาว",
+        "email": "",
+        "openalex_id": "A5117803784",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 1,
+        "faculty_th": "",
+        "department_th": ""
+      },
+      "donors_data": [
+        {
+          "id": "sskru_w56_0134_598",
+          "full_name_th": "พิมพิลา คงขาว",
+          "email": "",
+          "openalex_id": "A5071825477",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 1,
+          "faculty_th": "",
+          "department_th": ""
+        }
+      ]
+    },
+    {
+      "university_th": "มหาวิทยาลัยมหิดล",
+      "bare_name": "นันทินี นันทวณิชย์ แสงไฟ",
+      "primary_id": "wave30_0007_171",
+      "donor_ids": [
+        "wave30_0013_570"
+      ],
+      "primary_before": {
+        "id": "wave30_0007_171",
+        "full_name_th": "รศ.ทพญ. นันทินี นันทวณิชย์ แสงไฟ",
+        "email": null,
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "faculty_th": "คณะทันตแพทยศาสตร์",
+        "department_th": "ภาควิชาทันตกรรมจัดฟัน"
+      },
+      "donors_data": [
+        {
+          "id": "wave30_0013_570",
+          "full_name_th": "ผศ.ทพญ. นันทินี นันทวณิชย์ แสงไฟ",
+          "email": null,
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะทันตแพทยศาสตร์",
+          "department_th": "ภาควิชาทันตกรรมจัดฟัน"
+        }
+      ]
+    },
+    {
+      "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+      "bare_name": "เชาวลิต หะมนตรี",
+      "primary_id": "kingmongku_schoolofen_hamontree_002",
+      "donor_ids": [
+        "kmitl_w39_0086_189"
+      ],
+      "primary_before": {
+        "id": "kingmongku_schoolofen_hamontree_002",
+        "full_name_th": "ผศ.ดร. เชาวลิต หะมนตรี",
+        "email": "chaowalit.ha@kmitl.ac.th",
+        "openalex_id": "https://openalex.org/A5064347982",
+        "total_citations": 56,
+        "h_index": 2,
+        "total_publications_count": 3,
+        "faculty_th": "คณะวิศวกรรมศาสตร์",
+        "department_th": "ภาควิชาวิศวกรรมอุตสาหการ"
+      },
+      "donors_data": [
+        {
+          "id": "kmitl_w39_0086_189",
+          "full_name_th": "ผศ.ดร. เชาวลิต หะมนตรี",
+          "email": "chaowalit.ha@kmitl.ac.th",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "faculty_th": "คณะวิศวกรรมศาสตร์",
+          "department_th": "ภาควิชาวิศวกรรมอุตสาหการ"
+        }
+      ]
+    }
+  ]
+}

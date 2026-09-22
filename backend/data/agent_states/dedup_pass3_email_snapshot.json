@@ -1,0 +1,2605 @@
+{
+  "timestamp": "2026-09-20T17:20:24.735501",
+  "pass": "Pass 3: Verified Email Deduplication & Leak Clean",
+  "merges": [
+    {
+      "email": "kanjana.l@phuket.psu.ac.th",
+      "primary_id": "psu_coc_006",
+      "donor_ids": [
+        "psu_w41_0043_586"
+      ],
+      "primary_before": {
+        "id": "psu_coc_006",
+        "full_name_th": "ผศ.ดร. กาญจนา เหล่าเส็น",
+        "openalex_id": "https://openalex.org/A5059016943",
+        "total_citations": 11,
+        "h_index": 2,
+        "total_publications_count": 9,
+        "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+        "department_th": null
+      },
+      "donors_data": [
+        {
+          "id": "psu_w41_0043_586",
+          "full_name_th": "อ. KANJANA LAOSEN",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+          "department_th": "วิทยาลัยการคอมพิวเตอร์"
+        }
+      ]
+    },
+    {
+      "email": "thammarsat.v@phuket.psu.ac.th",
+      "primary_id": "psu_w41_0044_868",
+      "donor_ids": [
+        "psu_coc_011"
+      ],
+      "primary_before": {
+        "id": "psu_w41_0044_868",
+        "full_name_th": "อ. THAMMARSAT VISUTARROM",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+        "department_th": "วิทยาลัยการคอมพิวเตอร์"
+      },
+      "donors_data": [
+        {
+          "id": "psu_coc_011",
+          "full_name_th": "ดร. ธรรมศาสตร์ วิสุทธารมณ์",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+          "department_th": null
+        }
+      ]
+    },
+    {
+      "email": "kwankamon.d@phuket.psu.ac.th",
+      "primary_id": "psu_w41_0047_210",
+      "donor_ids": [
+        "psu_coc_017"
+      ],
+      "primary_before": {
+        "id": "psu_w41_0047_210",
+        "full_name_th": "อ. KWANKAMON DITTAKAN",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+        "department_th": "วิทยาลัยการคอมพิวเตอร์"
+      },
+      "donors_data": [
+        {
+          "id": "psu_coc_017",
+          "full_name_th": "ผศ.ดร. ขวัญกมล ดิฐกัญจน์",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+          "department_th": null
+        }
+      ]
+    },
+    {
+      "email": "kamal.b@phuket.psu.ac.th",
+      "primary_id": "psu_computing_kamal_b",
+      "donor_ids": [
+        "psu_w41_0051_359"
+      ],
+      "primary_before": {
+        "id": "psu_computing_kamal_b",
+        "full_name_th": "ดร. กามาล บาฮะ",
+        "openalex_id": "https://openalex.org/A5048147100",
+        "total_citations": 2,
+        "h_index": 1,
+        "total_publications_count": 5,
+        "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+        "department_th": null
+      },
+      "donors_data": [
+        {
+          "id": "psu_w41_0051_359",
+          "full_name_th": "อ. KAMAL BAHA",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+          "department_th": "วิทยาลัยการคอมพิวเตอร์"
+        }
+      ]
+    },
+    {
+      "email": "kullawat.c@phuket.psu.ac.th",
+      "primary_id": "psu_w41_0049_901",
+      "donor_ids": [
+        "psu_computing_kullawat_c"
+      ],
+      "primary_before": {
+        "id": "psu_w41_0049_901",
+        "full_name_th": "อ. KULLAWAT CHAOWANAWATEE",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+        "department_th": "วิทยาลัยการคอมพิวเตอร์"
+      },
+      "donors_data": [
+        {
+          "id": "psu_computing_kullawat_c",
+          "full_name_th": "ผศ. กุลวรรธน์ เชาวนวาที",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+          "department_th": null
+        }
+      ]
+    },
+    {
+      "email": "runglawan.s@cmu.ac.th",
+      "primary_id": "cmu_5ffd5eaf_3834",
+      "donor_ids": [
+        "wave22_1054_437"
+      ],
+      "primary_before": {
+        "id": "cmu_5ffd5eaf_3834",
+        "full_name_th": "อ. รุ้งลาวัลย์ สมสุนันท์",
+        "openalex_id": null,
+        "total_citations": 1368,
+        "h_index": 17,
+        "total_publications_count": 49,
+        "university_th": "มหาวิทยาลัยเชียงใหม่",
+        "department_th": "ภาควิชาเคมี"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_1054_437",
+          "full_name_th": "ผศ.ดร. รุ้งลาวัลย์ สมสุนันท์",
+          "openalex_id": "https://openalex.org/A5087916119",
+          "total_citations": 530,
+          "h_index": 14,
+          "total_publications_count": 37,
+          "university_th": "มหาวิทยาลัยแม่โจ้",
+          "department_th": "คณะวิทยาศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "udom.l@tsu.ac.th",
+      "primary_id": "thaksinuni_collegeofi_laoon_020",
+      "donor_ids": [
+        "tsu_w50_0588_122"
+      ],
+      "primary_before": {
+        "id": "thaksinuni_collegeofi_laoon_020",
+        "full_name_th": "ผศ.ดร. ทนพ. อุดม เหลาอ่อน",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "department_th": "สาขาวิชาเทคนิคการแพทย์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_0588_122",
+          "full_name_th": "ดร. อุดม เหลาอ่อน UDOM LAO-ON",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยทักษิณ",
+          "department_th": "คณะสหเวชศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "thaweesak.j@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_chuengwattanako_036",
+      "donor_ids": [
+        "ubu_w49_0029_735"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_chuengwattanako_036",
+        "full_name_th": "ผศ.ดร. ภก. ทวีศักดิ์ จึงวัฒนตระกูล",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0029_735",
+          "full_name_th": "ผศ.ดร. ภก.ทวีศักดิ์ จึงวัฒนตระกูล",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "juthamas.c@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_hongthong_008",
+      "donor_ids": [
+        "ubu_w49_0032_356"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_hongthong_008",
+        "full_name_th": "อ.ดร. ภญ. จุฑามาศ หงษ์ทอง",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาชีวเภสัชศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0032_356",
+          "full_name_th": "อ.ดร. ภญ.จุฑามาศ หงษ์ทอง",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาชีวเภสัชศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "polpan.s@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_silppipat_028",
+      "donor_ids": [
+        "ubu_w49_0031_240"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_silppipat_028",
+        "full_name_th": "อ. ภก. พลพันธ์ ศิลปพิบูลย์",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0031_240",
+          "full_name_th": "อ. ภก.พลพันธ์ ศิลปพิบูลย์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "nitima.s@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_sutthipan_038",
+      "donor_ids": [
+        "ubu_w49_0035_559"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_sutthipan_038",
+        "full_name_th": "ผศ.ดร. ภญ. นิธิมา สุทธิพันธุ์",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0035_559",
+          "full_name_th": "ผศ.ดร. ภญ.นิธิมา สุทธิพันธุ์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "kusumal.c@psu.ac.th",
+      "primary_id": "psu_eng_001",
+      "donor_ids": [
+        "psu_w41_0038_788"
+      ],
+      "primary_before": {
+        "id": "psu_eng_001",
+        "full_name_th": "รศ.ดร. กุสุมาพร เฉลิมยานนท์",
+        "openalex_id": "https://openalex.org/A5019458647",
+        "total_citations": 192,
+        "h_index": 9,
+        "total_publications_count": 23,
+        "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+        "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์"
+      },
+      "donors_data": [
+        {
+          "id": "psu_w41_0038_788",
+          "full_name_th": "ผศ.ดร. กุสุมาลย์ เฉลิมยานนท์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+          "department_th": "สาขาวิชาวิศวกรรมไฟฟ้าและชีวการแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "maneenate.p@phuket.psu.ac.th",
+      "primary_id": "psu_w41_0045_740",
+      "donor_ids": [
+        "psu_coc_012"
+      ],
+      "primary_before": {
+        "id": "psu_w41_0045_740",
+        "full_name_th": "อ. MANEENATE PUONGMANEE",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+        "department_th": "วิทยาลัยการคอมพิวเตอร์"
+      },
+      "donors_data": [
+        {
+          "id": "psu_coc_012",
+          "full_name_th": "ดร. มณีเนตร พวงมณี",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+          "department_th": null
+        }
+      ]
+    },
+    {
+      "email": "nattaya.c@phuket.psu.ac.th",
+      "primary_id": "psu_w41_0050_991",
+      "donor_ids": [
+        "psu_computing_nattaya_c"
+      ],
+      "primary_before": {
+        "id": "psu_w41_0050_991",
+        "full_name_th": "อ. NATTAYA CHAMTITIGUL",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+        "department_th": "วิทยาลัยการคอมพิวเตอร์"
+      },
+      "donors_data": [
+        {
+          "id": "psu_computing_nattaya_c",
+          "full_name_th": "ดร. ณัฐยา แช่มธิติกุล",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยสงขลานครินทร์",
+          "department_th": null
+        }
+      ]
+    },
+    {
+      "email": "sirikool.klu@mfu.ac.th",
+      "primary_id": "wave30_0183_844",
+      "donor_ids": [
+        "mfu_im_12024"
+      ],
+      "primary_before": {
+        "id": "wave30_0183_844",
+        "full_name_th": "อ. ศิริกุล กล่ำกูล",
+        "openalex_id": "https://openalex.org/A5081492550",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 1,
+        "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+        "department_th": "สำนักวิชาเวชศาสตร์ชะลอวัยและฟื้นฟูสุขภาพ"
+      },
+      "donors_data": [
+        {
+          "id": "mfu_im_12024",
+          "full_name_th": "อ. พท.ป.ศิริกูล กล่ำกูล",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "department_th": "สาขาวิชาการแพทย์แผนไทยประยุกต์"
+        }
+      ]
+    },
+    {
+      "email": "phanida.wam@mfu.ac.th",
+      "primary_id": "wave30_0182_451",
+      "donor_ids": [
+        "mfu_im_81004"
+      ],
+      "primary_before": {
+        "id": "wave30_0182_451",
+        "full_name_th": "ดร. ภนิดา วะมลตรี",
+        "openalex_id": "https://openalex.org/A5037085418",
+        "total_citations": 36,
+        "h_index": 3,
+        "total_publications_count": 10,
+        "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+        "department_th": "สำนักวิชาเวชศาสตร์ชะลอวัยและฟื้นฟูสุขภาพ"
+      },
+      "donors_data": [
+        {
+          "id": "mfu_im_81004",
+          "full_name_th": "ดร. พท.ป.ภนิดา วามนตรี",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "department_th": "สาขาวิชาการแพทย์แผนไทยประยุกต์"
+        }
+      ]
+    },
+    {
+      "email": "csaowalak@tsu.ac.th",
+      "primary_id": "thaksinuni_facultyofe_chanprasit_009",
+      "donor_ids": [
+        "tsu_w50_0015_950"
+      ],
+      "primary_before": {
+        "id": "thaksinuni_facultyofe_chanprasit_009",
+        "full_name_th": "อ. เสาวลักษณ์ จันทร์ประสิทธิ์",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "department_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_0015_950",
+          "full_name_th": "อ. เสาวลักษณ์ หนูสุวรรณ",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยทักษิณ",
+          "department_th": "คณะเศรษฐศาสตร์และบริหารธุรกิจ"
+        }
+      ]
+    },
+    {
+      "email": "pravaree.phu@mfu.ac.th",
+      "primary_id": "wave30_0180_179",
+      "donor_ids": [
+        "mfu_im_92908"
+      ],
+      "primary_before": {
+        "id": "wave30_0180_179",
+        "full_name_th": "ดร. ประวารี ภูณีรบ",
+        "openalex_id": "https://openalex.org/A5004230915",
+        "total_citations": 67,
+        "h_index": 5,
+        "total_publications_count": 14,
+        "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+        "department_th": "สำนักวิชาเวชศาสตร์ชะลอวัยและฟื้นฟูสุขภาพ"
+      },
+      "donors_data": [
+        {
+          "id": "mfu_im_92908",
+          "full_name_th": "อ.ดร. พท.ป.ปราวรี ภูนีรับ",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "department_th": "สาขาวิชาการแพทย์แผนไทยประยุกต์"
+        }
+      ]
+    },
+    {
+      "email": "sulakkana.noi@mfu.ac.th",
+      "primary_id": "wave30_0178_805",
+      "donor_ids": [
+        "mfu_im_32453"
+      ],
+      "primary_before": {
+        "id": "wave30_0178_805",
+        "full_name_th": "ดร. สุลักขณา น้อยประเสริฐ",
+        "openalex_id": "https://openalex.org/A5119916922",
+        "total_citations": 9,
+        "h_index": 2,
+        "total_publications_count": 3,
+        "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+        "department_th": "สำนักวิชาเวชศาสตร์ชะลอวัยและฟื้นฟูสุขภาพ"
+      },
+      "donors_data": [
+        {
+          "id": "mfu_im_32453",
+          "full_name_th": "อ.ดร. พญ. สุลัคณา น้อยประเสริฐ",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "department_th": "สาขาวิชาการแพทย์แผนจีน"
+        }
+      ]
+    },
+    {
+      "email": "liudmila.ya@go.buu.ac.th",
+      "primary_id": "wave21_0062_518",
+      "donor_ids": [
+        "buu_w42_0402_251"
+      ],
+      "primary_before": {
+        "id": "wave21_0062_518",
+        "full_name_th": "ดร. ภญ. จิณห์นิภา ประจวบพงศ์",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยบูรพา",
+        "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีเครื่องสำอาง"
+      },
+      "donors_data": [
+        {
+          "id": "buu_w42_0402_251",
+          "full_name_th": "ดร. Liudmila Yarovaya",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยบูรพา",
+          "department_th": "สาขาวิชาวิทยาศาสตร์และเทคโนโลยีเครื่องสำอาง"
+        }
+      ]
+    },
+    {
+      "email": "phanutgorn.t@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_techangoon_045",
+      "donor_ids": [
+        "ubu_w49_0011_861"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_techangoon_045",
+        "full_name_th": "อ. ภญ. พนัชกร เตชอังกูร",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0011_861",
+          "full_name_th": "อ. ภญ.พนัชกร เตชอังกูร",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+        }
+      ]
+    },
+    {
+      "email": "suchadasoo@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_soophan_001",
+      "donor_ids": [
+        "wave22_0755_891"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_soophan_001",
+        "full_name_th": "ผศ.ดร.ภญ. สุชาดา สูรพันธุ์",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0755_891",
+          "full_name_th": "ผศ.ดร. ภญ.สุชาดา สูรพันธุ์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "suratong@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_sunthorn_020",
+      "donor_ids": [
+        "wave22_0774_531"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_sunthorn_020",
+        "full_name_th": "อ.ดร.ภก. สุรศักดิ์ สุนทร",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0774_531",
+          "full_name_th": "อ.ดร. ภก.สุรศักดิ์ สุนทร",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "charuwan.t@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_thanavirun_032",
+      "donor_ids": [
+        "ubu_w49_0012_937"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_thanavirun_032",
+        "full_name_th": "ผศ.ดร. ภญ. จารุวรรณ ธนวิรุฬห์",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0012_937",
+          "full_name_th": "ผศ.ดร. ภญ.จารุวรรณ ธนวิรุฬห์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "wachiraporn.po@wu.ac.th",
+      "primary_id": "wave30_0044_116",
+      "donor_ids": [
+        "regionalun_facultymem_fac_050_050"
+      ],
+      "primary_before": {
+        "id": "wave30_0044_116",
+        "full_name_th": "ผศ.ดร. วชิราภรณ์ พวงจินดา",
+        "openalex_id": "A5076805467",
+        "total_citations": 8,
+        "h_index": 2,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชานิติศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "regionalun_facultymem_fac_050_050",
+          "full_name_th": "ผศ.ดร. วชิราภรณ์ พลวัต",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชานิติศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "dheerawan.b@cmu.ac.th",
+      "primary_id": "cmu_plasma_dheerawan_001",
+      "donor_ids": [
+        "wave22_1044_287"
+      ],
+      "primary_before": {
+        "id": "cmu_plasma_dheerawan_001",
+        "full_name_th": "ศ.ดร. ธีรวรรณ บุณยสถิตย์",
+        "openalex_id": "https://openalex.org/A5043146821",
+        "total_citations": 2217,
+        "h_index": 21,
+        "total_publications_count": 161,
+        "university_th": "มหาวิทยาลัยเชียงใหม่",
+        "department_th": "ศูนย์วิจัยฟิสิกส์ของลำอนุภาคและพลาสมา"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_1044_287",
+          "full_name_th": "ศ.ดร. ธีรวรรณ บุญญวรรณ",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยแม่โจ้",
+          "department_th": "คณะวิทยาศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "sakhorn.rimjaem@cmu.ac.th",
+      "primary_id": "cmu_5d74c650_3472",
+      "donor_ids": [
+        "wave22_1045_851"
+      ],
+      "primary_before": {
+        "id": "cmu_5d74c650_3472",
+        "full_name_th": "ผศ.ดร. สาคร ริมแจ่ม",
+        "openalex_id": "https://openalex.org/A5048080776",
+        "total_citations": 589,
+        "h_index": 12,
+        "total_publications_count": 123,
+        "university_th": "มหาวิทยาลัยเชียงใหม่",
+        "department_th": "ภาควิชาฟิสิกส์และวัสดุศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_1045_851",
+          "full_name_th": "ผศ.ดร. สาคร ริมแจ่ม",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยแม่โจ้",
+          "department_th": "คณะวิทยาศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "kidsadagon.p@cmu.ac.th",
+      "primary_id": "chiangmaiu_facultyofv_pringproa_003",
+      "donor_ids": [
+        "wave22_1052_465"
+      ],
+      "primary_before": {
+        "id": "chiangmaiu_facultyofv_pringproa_003",
+        "full_name_th": "รศ.ดร.น.สพ. กฤษฏากรณ์ พริ้งเพราะ",
+        "openalex_id": "https://openalex.org/A5032190547",
+        "total_citations": 948,
+        "h_index": 18,
+        "total_publications_count": 72,
+        "university_th": "มหาวิทยาลัยเชียงใหม่",
+        "department_th": "พยาธิชีววิทยา"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_1052_465",
+          "full_name_th": "รศ.ดร. กฤษฎากรณ์ พริ้งเพราะ",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยแม่โจ้",
+          "department_th": "คณะวิทยาศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "pheephar@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_suppapruek_012",
+      "donor_ids": [
+        "wave22_0766_955"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_suppapruek_012",
+        "full_name_th": "อ.ภก. พีรพัฒน์ ทรัพย์พฤทธิกุล",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0766_955",
+          "full_name_th": "อ. ภก.พีรพัฒน์ ทรัพย์พฤทธิกุล",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "somyot.ka@kmitl.ac.th",
+      "primary_id": "kmitl_rail_001",
+      "donor_ids": [
+        "kmitl_w39_0094_162",
+        "kmitl_w39_0165_104"
+      ],
+      "primary_before": {
+        "id": "kmitl_rail_001",
+        "full_name_th": "รศ.ดร. สมยศ เกียรติวนิชวิไล",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+        "department_th": "ภาควิชาวิศวกรรมระบบรางและการขนส่ง"
+      },
+      "donors_data": [
+        {
+          "id": "kmitl_w39_0094_162",
+          "full_name_th": "รศ.ดร. Somyot Kaitwanidvilai",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+          "department_th": "ภาควิชาวิศวกรรมไฟฟ้า"
+        },
+        {
+          "id": "kmitl_w39_0165_104",
+          "full_name_th": "รศ.ดร. สมยศ เกียรติวานิชวิไล",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง",
+          "department_th": "ภาควิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์"
+        }
+      ]
+    },
+    {
+      "email": "teeraporn.s@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_sadirasupaphan_047",
+      "donor_ids": [
+        "ubu_w49_0006_755"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_sadirasupaphan_047",
+        "full_name_th": "รศ.ดร. ภญ. ธีราพร ซาดิรา สุภาพันธุ์",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0006_755",
+          "full_name_th": "รศ.ดร. ภญ.ธีราพร ซาดิรา สุภาพันธุ์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+        }
+      ]
+    },
+    {
+      "email": "preecha.b@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_boonchoong_031",
+      "donor_ids": [
+        "ubu_w49_0017_395"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_boonchoong_031",
+        "full_name_th": "ผศ.ดร. ภก. ปรีชา บุญจูง",
+        "openalex_id": "https://openalex.org/A5076811945",
+        "total_citations": 1028,
+        "h_index": 9,
+        "total_publications_count": 13,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0017_395",
+          "full_name_th": "ผศ.ดร. ภก.ปรีชา บุญจูง",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "thitidaj.l@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_luatrakul_006",
+      "donor_ids": [
+        "ubu_w49_0027_518"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_luatrakul_006",
+        "full_name_th": "อ.ดร. ภก. ฐิติเดช ลือตระกูล",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาชีวเภสัชศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0027_518",
+          "full_name_th": "อ.ดร. ภก.ฐิติเดช ลือตระกูล",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาชีวเภสัชศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "jutharat.h@tsu.ac.th",
+      "primary_id": "thaksinuni_collegeofi_hmoteh_018",
+      "donor_ids": [
+        "tsu_w50_1480_674",
+        "tsu_w50_1005_677"
+      ],
+      "primary_before": {
+        "id": "thaksinuni_collegeofi_hmoteh_018",
+        "full_name_th": "อ.ดร. ทนพญ. จุฑารัตน์ หมอเต๊ะ",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยทักษิณ",
+        "department_th": "สาขาวิชาเทคนิคการแพทย์"
+      },
+      "donors_data": [
+        {
+          "id": "tsu_w50_1480_674",
+          "full_name_th": "อ.ดร. ทนพญ.จุฑารัตน์ หมอเต๊ะ",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยทักษิณ",
+          "department_th": "คณะสหเวชศาสตร์"
+        },
+        {
+          "id": "tsu_w50_1005_677",
+          "full_name_th": "อ. จุฑารัตน์ หมอเต๊ะ",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยทักษิณ",
+          "department_th": "คณะสหเวชศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "piya-on@sut.ac.th",
+      "primary_id": "wave22_0521_420",
+      "donor_ids": [
+        "sut_w46_0649_220"
+      ],
+      "primary_before": {
+        "id": "wave22_0521_420",
+        "full_name_th": "รศ. พญ.ดร. ปิยาอร นำไพศาล",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+        "department_th": "สาขาวิชาออร์โธปิดิกส์"
+      },
+      "donors_data": [
+        {
+          "id": "sut_w46_0649_220",
+          "full_name_th": "รศ. พญ. ดร. ปิยาอร นำไพศาล",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+          "department_th": "สาขาวิชาออร์โธปิดิกส์"
+        }
+      ]
+    },
+    {
+      "email": "khunkhang.b@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_buddapeng_019",
+      "donor_ids": [
+        "ubu_w49_0009_604"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_buddapeng_019",
+        "full_name_th": "อ. ภก. ขุนคลัง บุดดาเพ็ง",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0009_604",
+          "full_name_th": "อ. ภก.ขุนคลัง บุดดาเพ็ง",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "phitjira.s@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_sanguanboonpong_057",
+      "donor_ids": [
+        "ubu_w49_0008_230"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_sanguanboonpong_057",
+        "full_name_th": "ผศ. ภญ. พิชญ์จิรา สงวนบุญญพงษ์",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0008_230",
+          "full_name_th": "ผศ. ภญ.พิชญ์จิรา สงวนบุญญพงษ์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+        }
+      ]
+    },
+    {
+      "email": "aromj@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_chetpanyanont_005",
+      "donor_ids": [
+        "wave22_0759_568"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_chetpanyanont_005",
+        "full_name_th": "รศ.ดร.ภก. อรัมษ์ เจษฎาญานเมธา",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0759_568",
+          "full_name_th": "รศ.ดร. ภก.อรัมษ์ เจษฎาญานเมธา",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "korakoch@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_kangwanrattana_009",
+      "donor_ids": [
+        "wave22_0763_544"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_kangwanrattana_009",
+        "full_name_th": "ผศ.ดร.ภญ. กรกช กังวาลทัศน์",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0763_544",
+          "full_name_th": "ผศ.ดร. ภญ.กรกช กังวาลทัศน์",
+          "openalex_id": "https://openalex.org/A5017338130",
+          "total_citations": 140,
+          "h_index": 4,
+          "total_publications_count": 5,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "j.watcha@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_watcharasuwanse_024",
+      "donor_ids": [
+        "wave22_0778_128"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_watcharasuwanse_024",
+        "full_name_th": "อ.ดร.ภญ. จุฑารัตน์ วัชรสุวรรณเสรี",
+        "openalex_id": "https://openalex.org/A5120203719",
+        "total_citations": 1,
+        "h_index": 1,
+        "total_publications_count": 1,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0778_128",
+          "full_name_th": "อ.ดร. ภญ.จุฑารัตน์ วัชรสุวรรณเสรี",
+          "openalex_id": "https://openalex.org/A5120203719",
+          "total_citations": 1,
+          "h_index": 1,
+          "total_publications_count": 1,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาการบริบาลทางเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "lalana@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_kongkaneramit_031",
+      "donor_ids": [
+        "wave22_0785_723"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_kongkaneramit_031",
+        "full_name_th": "ผศ.ดร.ภญ. ลลนา คงคาเนรมิตร",
+        "openalex_id": "https://openalex.org/A5044275149",
+        "total_citations": 488,
+        "h_index": 8,
+        "total_publications_count": 10,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0785_723",
+          "full_name_th": "ผศ.ดร. ภญ.ลลนา คงคาเนรมิตร",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "sewan@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_theramunkong_032",
+      "donor_ids": [
+        "wave22_0786_458"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_theramunkong_032",
+        "full_name_th": "รศ.ดร.ภญ. ศรีวรรณ ธีระมั่นคง",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0786_458",
+          "full_name_th": "รศ.ดร. ภญ.ศรีวรรณ ธีระมั่นคง",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "pakorn54@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_kraisit_033",
+      "donor_ids": [
+        "wave22_0787_259"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_kraisit_033",
+        "full_name_th": "รศ.ดร.ภก. ปกรณ์ ไกรสิทธิ์",
+        "openalex_id": "https://openalex.org/A5004152278",
+        "total_citations": 813,
+        "h_index": 14,
+        "total_publications_count": 35,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0787_259",
+          "full_name_th": "รศ.ดร. ภก.ปกรณ์ ไกรสิทธิ์",
+          "openalex_id": "https://openalex.org/A5004152278",
+          "total_citations": 816,
+          "h_index": 14,
+          "total_publications_count": 36,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "nkesinee@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_netsomboon_034",
+      "donor_ids": [
+        "wave22_0788_551"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_netsomboon_034",
+        "full_name_th": "รศ.ดร.ภญ. เกศินี เนตรสมบูรณ์",
+        "openalex_id": "https://openalex.org/A5068813490",
+        "total_citations": 846,
+        "h_index": 16,
+        "total_publications_count": 28,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0788_551",
+          "full_name_th": "รศ.ดร. ภญ.เกศินี เนตรสมบูรณ์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "namon.hi@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_hiran_040",
+      "donor_ids": [
+        "wave22_0794_687"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_hiran_040",
+        "full_name_th": "รศ.ดร.ภก. นมนต์ หิรัญ",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0794_687",
+          "full_name_th": "รศ.ดร. ภก.นมนต์ หิรัญ",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "suchaoin@tu.ac.th",
+      "primary_id": "thammasatu_facultyofp_suchaoin_042",
+      "donor_ids": [
+        "wave22_0796_175"
+      ],
+      "primary_before": {
+        "id": "thammasatu_facultyofp_suchaoin_042",
+        "full_name_th": "ผศ.ดร.ภก. วงศกร สุเชาว์อินทร์",
+        "openalex_id": "https://openalex.org/A5011988101",
+        "total_citations": 535,
+        "h_index": 15,
+        "total_publications_count": 23,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_0796_175",
+          "full_name_th": "ผศ.ดร. ภก.วงศกร สุเชาว์อินทร์",
+          "openalex_id": "https://openalex.org/A5011988101",
+          "total_citations": 537,
+          "h_index": 15,
+          "total_publications_count": 23,
+          "university_th": "มหาวิทยาลัยศิลปากร",
+          "department_th": "สาขาวิชาวิทยาศาสตร์เภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "konwalan.h@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_hothanasombat_029",
+      "donor_ids": [
+        "ubu_w49_0023_432"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_hothanasombat_029",
+        "full_name_th": "อ. ภญ. กรวลัญช์ หอธนสมบัติ",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0023_432",
+          "full_name_th": "อ. ภญ.กรวลัญช์ หอธนสมบัติ",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "patcharee.pri@mfu.ac.th",
+      "primary_id": "wave36b_0020_810",
+      "donor_ids": [
+        "wave22_1043_785"
+      ],
+      "primary_before": {
+        "id": "wave36b_0020_810",
+        "full_name_th": "รศ.ดร. พัชรีย์ พริบดีเวช",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+        "department_th": "สำนักวิชาวิทยาศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wave22_1043_785",
+          "full_name_th": "รศ.ดร. พัชรีย์ พริบดีเวช",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยแม่โจ้",
+          "department_th": "คณะวิทยาศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "tanwarat.th@wu.ac.th",
+      "primary_id": "wave23_0163_503",
+      "donor_ids": [
+        "wu_w51_0655_810"
+      ],
+      "primary_before": {
+        "id": "wave23_0163_503",
+        "full_name_th": "ดร. ธันวรัตน์ ทันวิเศษ",
+        "openalex_id": "https://openalex.org/A5107154901",
+        "total_citations": 11,
+        "h_index": 1,
+        "total_publications_count": 1,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0655_810",
+          "full_name_th": "อ.ดร. ธัญวรัตม์ ฐานวิเศษ",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "surat.sa@wu.ac.th",
+      "primary_id": "wave23_0169_163",
+      "donor_ids": [
+        "wu_w51_0664_703"
+      ],
+      "primary_before": {
+        "id": "wave23_0169_163",
+        "full_name_th": "ผศ. ปรัตถกร แสงแก้ว",
+        "openalex_id": "https://openalex.org/A5147344375",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 1,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0664_703",
+          "full_name_th": "ผศ. ปรัตถากรณ์ สังข์แก้ว",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาการแพทย์แผนไทยประยุกต์"
+        }
+      ]
+    },
+    {
+      "email": "chayanan.ki@wu.ac.th",
+      "primary_id": "wave23_0173_502",
+      "donor_ids": [
+        "wu_w51_0647_341"
+      ],
+      "primary_before": {
+        "id": "wave23_0173_502",
+        "full_name_th": "อ. ชญานันท์ กิตติธีรธรรมรงค์",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0647_341",
+          "full_name_th": "อ. ชยานันต์ กิตติธีรธำรง",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาการแพทย์แผนไทยประยุกต์"
+        }
+      ]
+    },
+    {
+      "email": "tuanthon.b@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_boonlue_048",
+      "donor_ids": [
+        "ubu_w49_0025_452"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_boonlue_048",
+        "full_name_th": "รศ. ภก. ทวนธน บุญลือ",
+        "openalex_id": "A5064017238",
+        "total_citations": 18,
+        "h_index": 3,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0025_452",
+          "full_name_th": "รศ. ภก.ทวนธน บุญลือ",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+        }
+      ]
+    },
+    {
+      "email": "narongchai.c@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_jaksupa_007",
+      "donor_ids": [
+        "ubu_w49_0001_793"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_jaksupa_007",
+        "full_name_th": "อ.ดร. ภก. ณรงค์ชัย จักษุพา",
+        "openalex_id": "A5088741222",
+        "total_citations": 3,
+        "h_index": 1,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาชีวเภสัชศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0001_793",
+          "full_name_th": "อ.ดร. ภก.ณรงค์ชัย จักษุพา",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาชีวเภสัชศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "santirak@ap.tu.ac.th",
+      "primary_id": "wave24_0277_234",
+      "donor_ids": [
+        "tu_4740d33c_5801"
+      ],
+      "primary_before": {
+        "id": "wave24_0277_234",
+        "full_name_th": "รศ. สันติรักษ์ ประเสริฐสุข",
+        "openalex_id": "https://openalex.org/A5076219593",
+        "total_citations": 39,
+        "h_index": 4,
+        "total_publications_count": 16,
+        "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+        "department_th": "สาขาวิชาสถาปัตยกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "tu_4740d33c_5801",
+          "full_name_th": "รศ. สันติรักษ์ ประเส",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยธรรมศาสตร์",
+          "department_th": "สาขาวิชาสถาปัตยกรรม"
+        }
+      ]
+    },
+    {
+      "email": "peerawat.j@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_jinathongthai_055",
+      "donor_ids": [
+        "ubu_w49_0018_902"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_jinathongthai_055",
+        "full_name_th": "ผศ. ภก. พีรวัฒน์ จินาทองไทย",
+        "openalex_id": "A5044531870",
+        "total_citations": 392,
+        "h_index": 9,
+        "total_publications_count": 5,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0018_902",
+          "full_name_th": "ผศ. ภก.พีรวัฒน์ จินาทองไทย",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+        }
+      ]
+    },
+    {
+      "email": "kusuma.j@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_jitsang_037",
+      "donor_ids": [
+        "ubu_w49_0022_427"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_jitsang_037",
+        "full_name_th": "ผศ.ดร. ภญ. กุสุมา จิตแสง",
+        "openalex_id": "A5057215896",
+        "total_citations": 58,
+        "h_index": 5,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0022_427",
+          "full_name_th": "ผศ.ดร. ภญ.กุสุมา จิตแสง",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "nonglek.k@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_kunwaradisai_051",
+      "donor_ids": [
+        "ubu_w49_0028_234"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_kunwaradisai_051",
+        "full_name_th": "ผศ.ดร. ภญ. น้องเล็ก คุณวราดิศัย",
+        "openalex_id": "A5039077682",
+        "total_citations": 4,
+        "h_index": 1,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0028_234",
+          "full_name_th": "ผศ.ดร. ภญ.น้องเล็ก คุณวราดิศัย",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+        }
+      ]
+    },
+    {
+      "email": "chonladda.p@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_pichayajitphong_022",
+      "donor_ids": [
+        "ubu_w49_0036_604"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_pichayajitphong_022",
+        "full_name_th": "รศ.ดร. ภญ. ชลลัดดา พิชญาจิตติพงษ์",
+        "openalex_id": "A5050771121",
+        "total_citations": 115,
+        "h_index": 4,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0036_604",
+          "full_name_th": "รศ.ดร. ภญ.ชลลัดดา พิชญาจิตติพงษ์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "thanawadee.p@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_preprem_011",
+      "donor_ids": [
+        "ubu_w49_0019_399"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_preprem_011",
+        "full_name_th": "ผศ.ดร. ภญ. ธนวดี ปรีเปรม",
+        "openalex_id": "A5036493899",
+        "total_citations": 239,
+        "h_index": 9,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาชีวเภสัชศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0019_399",
+          "full_name_th": "ผศ.ดร. ภญ.ธนวดี ปรีเปรม",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาชีวเภสัชศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "tipada.s@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_samsithong_056",
+      "donor_ids": [
+        "ubu_w49_0013_653"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_samsithong_056",
+        "full_name_th": "ผศ. ภญ. ฑิภาดา สามสีทอง",
+        "openalex_id": "A5009307234",
+        "total_citations": 23,
+        "h_index": 3,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0013_653",
+          "full_name_th": "ผศ. ภญ.ฑิภาดา สามสีทอง",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+        }
+      ]
+    },
+    {
+      "email": "nawatpong.cha@mfu.ac.th",
+      "primary_id": "mfu_im_66534",
+      "donor_ids": [
+        "wave30_0186_530"
+      ],
+      "primary_before": {
+        "id": "mfu_im_66534",
+        "full_name_th": "อ.ดร. พท.ป.ณวัชพงศ์ ไชยรัตน์",
+        "openalex_id": "not_indexed",
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+        "department_th": "สาขาวิชาการแพทย์แผนไทยประยุกต์"
+      },
+      "donors_data": [
+        {
+          "id": "wave30_0186_530",
+          "full_name_th": "ดร. นวัฒพงศ์ ไชยรัตน์",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+          "department_th": "สำนักวิชาเวชศาสตร์ชะลอวัยและฟื้นฟูสุขภาพ"
+        }
+      ]
+    },
+    {
+      "email": "bancha.y@ubu.ac.th",
+      "primary_id": "ubonratcha_facultyofp_yingngam_034",
+      "donor_ids": [
+        "ubu_w49_0003_709"
+      ],
+      "primary_before": {
+        "id": "ubonratcha_facultyofp_yingngam_034",
+        "full_name_th": "รศ.ดร. ภก. บัญชา ยิ่งงาม",
+        "openalex_id": "A5084068174",
+        "total_citations": 903,
+        "h_index": 19,
+        "total_publications_count": 98,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubu_w49_0003_709",
+          "full_name_th": "รศ.ดร. ภก.บัญชา ยิ่งงาม",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "zongporn.j@ubu.ac.th",
+      "primary_id": "ubu_w49_0007_219",
+      "donor_ids": [
+        "ubonratcha_facultyofp_chuengmunkong_033"
+      ],
+      "primary_before": {
+        "id": "ubu_w49_0007_219",
+        "full_name_th": "ผศ. ภก.ทรงพร จึงมั่นคง",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+      },
+      "donors_data": [
+        {
+          "id": "ubonratcha_facultyofp_chuengmunkong_033",
+          "full_name_th": "ผศ. ภก. ทรงพร จึงมั่นคง",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชเคมีและเทคโนโลยีเภสัชกรรม"
+        }
+      ]
+    },
+    {
+      "email": "teerapong.m@ubu.ac.th",
+      "primary_id": "ubu_w49_0016_644",
+      "donor_ids": [
+        "ubonratcha_facultyofp_montmathurapoj_049"
+      ],
+      "primary_before": {
+        "id": "ubu_w49_0016_644",
+        "full_name_th": "ผศ.ดร. ภก.ธีระพงษ์ มนต์มธุรพจน์",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+      },
+      "donors_data": [
+        {
+          "id": "ubonratcha_facultyofp_montmathurapoj_049",
+          "full_name_th": "ผศ.ดร. ภก. ธีระพงษ์ มนต์มธุรพจน์",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+        }
+      ]
+    },
+    {
+      "email": "jeerisuda.k@ubu.ac.th",
+      "primary_id": "ubu_w49_0033_671",
+      "donor_ids": [
+        "ubonratcha_facultyofp_orosram_050"
+      ],
+      "primary_before": {
+        "id": "ubu_w49_0033_671",
+        "full_name_th": "ผศ.ดร. ภญ.จีริสุดา โอรสรัมย์",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยอุบลราชธานี",
+        "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+      },
+      "donors_data": [
+        {
+          "id": "ubonratcha_facultyofp_orosram_050",
+          "full_name_th": "ผศ.ดร. ภญ. จีริสุดา โอรสรัมย์",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยอุบลราชธานี",
+          "department_th": "ภาควิชาเภสัชกรรมปฏิบัติ"
+        }
+      ]
+    },
+    {
+      "email": "kriangsak.b@msu.ac.th",
+      "primary_id": "wave23_0252_978",
+      "donor_ids": [
+        "wave23_0208_877"
+      ],
+      "primary_before": {
+        "id": "wave23_0252_978",
+        "full_name_th": "ผศ.ดร. เกรียงศักดิ์ บรรลือ",
+        "openalex_id": "A5077068767",
+        "total_citations": 58,
+        "h_index": 5,
+        "total_publications_count": 13,
+        "university_th": "มหาวิทยาลัยมหาสารคาม",
+        "department_th": "ภาควิชาเทคโนโลยีการอาหารเเละโภชนศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wave23_0208_877",
+          "full_name_th": "รศ.ดร. เกรียงศักดิ์ บุญเที่ยง",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยมหาสารคาม",
+          "department_th": "สาขาเกษตรศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "sarawoot.pa@wu.ac.th",
+      "primary_id": "wave23_0143_255",
+      "donor_ids": [
+        "wu_w51_0681_784"
+      ],
+      "primary_before": {
+        "id": "wave23_0143_255",
+        "full_name_th": "รศ.ดร. สราวุธ ปาลิพโธ",
+        "openalex_id": "A5018420787",
+        "total_citations": 636,
+        "h_index": 12,
+        "total_publications_count": 33,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0681_784",
+          "full_name_th": "รศ.ดร. ศราวุธ ปาลิโภชน์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "jpitcha@wu.ac.th",
+      "primary_id": "wave23_0146_188",
+      "donor_ids": [
+        "wu_w51_0669_557"
+      ],
+      "primary_before": {
+        "id": "wave23_0146_188",
+        "full_name_th": "รศ.ดร. พิชญ์ณิชา จริยพงศ์",
+        "openalex_id": "https://openalex.org/A5064206792",
+        "total_citations": 575,
+        "h_index": 14,
+        "total_publications_count": 37,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0669_557",
+          "full_name_th": "รศ.ดร. พิชชานีย์ จริยพงศ์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "auemphon.mo@wu.ac.th",
+      "primary_id": "wave23_0148_794",
+      "donor_ids": [
+        "wu_w51_0637_174"
+      ],
+      "primary_before": {
+        "id": "wave23_0148_794",
+        "full_name_th": "รศ.ดร. เอมพร หมดเมือง",
+        "openalex_id": "https://openalex.org/A5050293359",
+        "total_citations": 345,
+        "h_index": 10,
+        "total_publications_count": 32,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0637_174",
+          "full_name_th": "รศ.ดร. เอื้อมพร หมวดเมือง",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "jirapan.th@wu.ac.th",
+      "primary_id": "wave23_0151_519",
+      "donor_ids": [
+        "wu_w51_0646_510"
+      ],
+      "primary_before": {
+        "id": "wave23_0151_519",
+        "full_name_th": "ผศ.ดร. จิรพันธ์ ทองสร้อย",
+        "openalex_id": "https://openalex.org/A5036834118",
+        "total_citations": 221,
+        "h_index": 8,
+        "total_publications_count": 18,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0646_510",
+          "full_name_th": "ผศ.ดร. จิรพรรณ ทองสร้อย",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "kulwadee.kr@wu.ac.th",
+      "primary_id": "wave23_0152_305",
+      "donor_ids": [
+        "wu_w51_0639_997"
+      ],
+      "primary_before": {
+        "id": "wave23_0152_305",
+        "full_name_th": "ผศ.ดร. กุลวดี การ์ญจนา",
+        "openalex_id": "https://openalex.org/A5087052513",
+        "total_citations": 171,
+        "h_index": 6,
+        "total_publications_count": 11,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0639_997",
+          "full_name_th": "ผศ.ดร. กุลวดี กาญจนะ",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "natticha.su@wu.ac.th",
+      "primary_id": "wave23_0157_217",
+      "donor_ids": [
+        "wu_w51_0652_507"
+      ],
+      "primary_before": {
+        "id": "wave23_0157_217",
+        "full_name_th": "ผศ.ดร. นัติชา สำเนียง",
+        "openalex_id": "https://openalex.org/A5062863477",
+        "total_citations": 333,
+        "h_index": 9,
+        "total_publications_count": 27,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0652_507",
+          "full_name_th": "ผศ.ดร. ณัฎฐิชา สำเนียง",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "saowanee.je@wu.ac.th",
+      "primary_id": "wave23_0159_516",
+      "donor_ids": [
+        "wu_w51_0689_738"
+      ],
+      "primary_before": {
+        "id": "wave23_0159_516",
+        "full_name_th": "ผศ.ดร. เสาวนีย์ เจียรเย็ง",
+        "openalex_id": "https://openalex.org/A5015405150",
+        "total_citations": 366,
+        "h_index": 9,
+        "total_publications_count": 14,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0689_738",
+          "full_name_th": "ผศ.ดร. เสาวณีย์ เจ๊ะเหยง",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "tatcha.ba@wu.ac.th",
+      "primary_id": "wave23_0160_283",
+      "donor_ids": [
+        "wu_w51_0654_705"
+      ],
+      "primary_before": {
+        "id": "wave23_0160_283",
+        "full_name_th": "ดร. ทัชชา บาลิต",
+        "openalex_id": "A5034895380",
+        "total_citations": 34,
+        "h_index": 4,
+        "total_publications_count": 9,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0654_705",
+          "full_name_th": "อ.ดร. ธัชชา บาลิตร",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "walaiporn.pi@wu.ac.th",
+      "primary_id": "wave23_0161_664",
+      "donor_ids": [
+        "wu_w51_0675_921"
+      ],
+      "primary_before": {
+        "id": "wave23_0161_664",
+        "full_name_th": "ดร. วไลภรณ์ ปลีรัตน์",
+        "openalex_id": "https://openalex.org/A5029981476",
+        "total_citations": 141,
+        "h_index": 8,
+        "total_publications_count": 19,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0675_921",
+          "full_name_th": "อ.ดร. วลัยพร ผลิรัตน์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "atthaphon.ko@wu.ac.th",
+      "primary_id": "wave23_0162_151",
+      "donor_ids": [
+        "wu_w51_0685_996"
+      ],
+      "primary_before": {
+        "id": "wave23_0162_151",
+        "full_name_th": "ดร. อรรถพล คงยานี",
+        "openalex_id": "https://openalex.org/A5063096192",
+        "total_citations": 73,
+        "h_index": 6,
+        "total_publications_count": 20,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0685_996",
+          "full_name_th": "อ.ดร. อรรถพล กลยนี",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "napatsorn.sa@wu.ac.th",
+      "primary_id": "wave23_0164_184",
+      "donor_ids": [
+        "wu_w51_0651_995"
+      ],
+      "primary_before": {
+        "id": "wave23_0164_184",
+        "full_name_th": "ดร. นภัสร ะสายยสิทธิ์",
+        "openalex_id": "https://openalex.org/A5068158378",
+        "total_citations": 356,
+        "h_index": 8,
+        "total_publications_count": 23,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0651_995",
+          "full_name_th": "อ.ดร. ณภัสสรณ์ ไสยสิทธิ์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาวิทยาศาสตร์การแพทย์"
+        }
+      ]
+    },
+    {
+      "email": "komgrit.ea@wu.ac.th",
+      "primary_id": "wave23_0167_799",
+      "donor_ids": [
+        "wu_w51_0643_361"
+      ],
+      "primary_before": {
+        "id": "wave23_0167_799",
+        "full_name_th": "รศ.ดร. คมกฤต เอื้อสกุล",
+        "openalex_id": "https://openalex.org/A5055906104",
+        "total_citations": 583,
+        "h_index": 15,
+        "total_publications_count": 43,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0643_361",
+          "full_name_th": "รศ.ดร. คมกริช เอี้ยวสกุล",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาการแพทย์แผนไทยประยุกต์"
+        }
+      ]
+    },
+    {
+      "email": "tassanee.on@wu.ac.th",
+      "primary_id": "wave23_0170_212",
+      "donor_ids": [
+        "wu_w51_0659_181"
+      ],
+      "primary_before": {
+        "id": "wave23_0170_212",
+        "full_name_th": "ผศ. ทัศนีย์ องค์ธนสุภ",
+        "openalex_id": "https://openalex.org/A5048714494",
+        "total_citations": 412,
+        "h_index": 10,
+        "total_publications_count": 24,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0659_181",
+          "full_name_th": "รศ. ทัศนีย์ องค์ธนทรัพย์",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาการแพทย์แผนไทยประยุกต์"
+        }
+      ]
+    },
+    {
+      "email": "piriya.ch@wu.ac.th",
+      "primary_id": "wave23_0171_710",
+      "donor_ids": [
+        "wu_w51_0671_789"
+      ],
+      "primary_before": {
+        "id": "wave23_0171_710",
+        "full_name_th": "ผศ. พิริยะ ชลสุทธิ์",
+        "openalex_id": "https://openalex.org/A5037036139",
+        "total_citations": 137,
+        "h_index": 7,
+        "total_publications_count": 15,
+        "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+        "department_th": "สำนักวิชาแพทยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "wu_w51_0671_789",
+          "full_name_th": "ผศ. พิริยา ชนสุต",
+          "openalex_id": null,
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+          "department_th": "สำนักวิชาแพทยศาสตร์ สาขาวิชาการแพทย์แผนไทยประยุกต์"
+        }
+      ]
+    },
+    {
+      "email": "apichat.t@cmu.ac.th",
+      "primary_id": "cmu_11e349a5_2710",
+      "donor_ids": [
+        "cmu-arch-009_43a34d"
+      ],
+      "primary_before": {
+        "id": "cmu_11e349a5_2710",
+        "full_name_th": "รศ.ดร.นพ. อภิชาติ ตันตระวรศิลป์",
+        "openalex_id": null,
+        "total_citations": 2114,
+        "h_index": 20,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยเชียงใหม่",
+        "department_th": "ภาควิชาศัลยศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "cmu-arch-009_43a34d",
+          "full_name_th": "ผศ.ดร. อภิชาติ ธีระวุฒิ",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยเชียงใหม่",
+          "department_th": "ภาควิชาสถาปัตยกรรมศาสตร์"
+        }
+      ]
+    },
+    {
+      "email": "kumropr@nu.ac.th",
+      "primary_id": "nu_kumropr__8257",
+      "donor_ids": [
+        "nu_agr_kumrop_001"
+      ],
+      "primary_before": {
+        "id": "nu_kumropr__8257",
+        "full_name_th": "รศ.ดร. คำรพ รัตนสุต",
+        "openalex_id": null,
+        "total_citations": 0,
+        "h_index": 0,
+        "total_publications_count": 0,
+        "university_th": "มหาวิทยาลัยนเรศวร",
+        "department_th": "ภาควิชาวิทยาศาสตร์การเกษตร"
+      },
+      "donors_data": [
+        {
+          "id": "nu_agr_kumrop_001",
+          "full_name_th": "รศ.ดร. คำรพ รักษาศาสตร์",
+          "openalex_id": "not_indexed",
+          "total_citations": 0,
+          "h_index": 0,
+          "total_publications_count": 0,
+          "university_th": "มหาวิทยาลัยนเรศวร",
+          "department_th": "ภาควิชาวิทยาศาสตร์การเกษตร"
+        }
+      ]
+    },
+    {
+      "email": "nattapong.p@chula.ac.th",
+      "primary_id": "econ-cu-007_87289a",
+      "donor_ids": [
+        "cu_sci_wave14_b_0025"
+      ],
+      "primary_before": {
+        "id": "econ-cu-007_87289a",
+        "full_name_th": "รศ.ดร. ณัฐพงษ์ พัฒนพงษ์",
+        "openalex_id": "https://openalex.org/A5034982525",
+        "total_citations": 510,
+        "h_index": 13,
+        "total_publications_count": 80,
+        "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+        "department_th": "ภาควิชาเศรษฐศาสตร์"
+      },
+      "donors_data": [
+        {
+          "id": "cu_sci_wave14_b_0025",
+          "full_name_th": "ศ.ดร. Nattapong Paiboonvorachat",
+          "openalex_id": "https://openalex.org/A5002897546",
+          "total_citations": 54,
+          "h_index": 2,
+          "total_publications_count": 3,
+          "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+          "department_th": "ภาควิชาเคมี"
+        }
+      ]
+    }
+  ],
+  "cleared_emails": [
+    {
+      "id": "wave21_0018_706",
+      "full_name_th": "รศ.ดร. นิตต์อลิน พันธุ์อภัย",
+      "email_cleared": "somchais@g.swu.ac.th",
+      "kept_on_id": "swu_sci_somchai_001",
+      "kept_on_name": "ศ.ดร. สมชาย สันติวัฒนกุล"
+    },
+    {
+      "id": "nu_w45_0075_447",
+      "full_name_th": "ผศ.ดร. ภญ.ศุภวรรณ พงศ์พัฒนาวุฒิ",
+      "email_cleared": "supawanp@nu.ac.th",
+      "kept_on_id": "nu_supawan_ponpitakchai_5197",
+      "kept_on_name": "ผศ.ดร. ศุภวรรณ พลพิทักษ์ชัย"
+    },
+    {
+      "id": "mfu_im_54238",
+      "full_name_th": "อ. พท.ป.ธัญญรัตน์ เทพคำปลิว",
+      "email_cleared": "tanyarath.tap@mfu.ac.th",
+      "kept_on_id": "wave30_0185_258",
+      "kept_on_name": "อ. ธัญญรัตน์ ทับคำพิมพ์"
+    },
+    {
+      "id": "mfu_im_31393",
+      "full_name_th": "ดร. ภก. ชาครีย์ ชุมวิสูตร วัฒนศิริ",
+      "email_cleared": "chakree.wat@mfu.ac.th",
+      "kept_on_id": "wave30_0181_885",
+      "kept_on_name": "ดร. จักรี วัฒนศิริ"
+    },
+    {
+      "id": "mfu_im_36327",
+      "full_name_th": "ดร. พท.ป.จุรีภรณ์ อิ้มพัฒน์",
+      "email_cleared": "chureeporn.imp@mfu.ac.th",
+      "kept_on_id": "wave30_0187_998",
+      "kept_on_name": "ผศ. ชูรีพร อิ่มผัด"
+    },
+    {
+      "id": "wave21_0180_469",
+      "full_name_th": "ผศ. วิริญญา โรจนธีรธรรม",
+      "email_cleared": "raweephun.su@up.ac.th",
+      "kept_on_id": "regionalun_facultymem_sunanta_058",
+      "kept_on_name": "อ. ระวีพรรณ สุนันต๊ะ"
+    },
+    {
+      "id": "kmitl_pisan_su_6867",
+      "full_name_th": "ผศ.ดร. พิศาล ศรีราช",
+      "email_cleared": "pisan.su@kmitl.ac.th",
+      "kept_on_id": "kmitl_w39_0180_995",
+      "kept_on_name": "ผศ.ดร. พิศาล สุขวิสูตร"
+    },
+    {
+      "id": "ubu_w49_0014_361",
+      "full_name_th": "อ.ดร. ภญ.จินตนา นภาพร",
+      "email_cleared": "jintana.n@ubu.ac.th",
+      "kept_on_id": "ubonratcha_facultyofp_napaporn_018",
+      "kept_on_name": "อ.ดร. ภญ. จินตนา นภาพร"
+    },
+    {
+      "id": "ubu_w49_0004_385",
+      "full_name_th": "อ. ภญ.จินต์จุฑา บุญเต็ม",
+      "email_cleared": "jinjutha.b@ubu.ac.th",
+      "kept_on_id": "ubonratcha_facultyofp_boontem_020",
+      "kept_on_name": "อ. ภญ. จินต์จุฑา บุญเต็ม"
+    },
+    {
+      "id": "ubu_w49_0002_939",
+      "full_name_th": "อ. ภก.ดุรงค์กร พลทม",
+      "email_cleared": "durongkorn.p@ubu.ac.th",
+      "kept_on_id": "ubonratcha_facultyofp_pholtham_060",
+      "kept_on_name": "อ. ภก. ดุรงค์กร พลทม"
+    },
+    {
+      "id": "tsu_w50_1228_842",
+      "full_name_th": "อ. ศุภธิดา จุลสิทธิ์",
+      "email_cleared": "supathida.c@tsu.ac.th",
+      "kept_on_id": "thaksinuni_facultyofe_chotchuang_083",
+      "kept_on_name": "อ. ศุภธิดา โชติช่วง"
+    },
+    {
+      "id": "kmutt_sit_tul",
+      "full_name_th": "ผศ.ดร. ตุลย์ ไตรยสรรค์",
+      "email_cleared": "tuul.tri@sit.kmutt.ac.th",
+      "kept_on_id": "kmutt_sit_tuul_t",
+      "kept_on_name": "ดร. ตุลย์ ตรียะซอน"
+    },
+    {
+      "id": "ubu_w49_0021_484",
+      "full_name_th": "ผศ. ภก.ประสิทธิชัย พูลผล",
+      "email_cleared": "prasittichai.p@ubu.ac.th",
+      "kept_on_id": "ubonratcha_facultyofp_poolphol_054",
+      "kept_on_name": "ผศ. ภก. ประสิทธิชัย พูลผล"
+    },
+    {
+      "id": "mfu_im_72676",
+      "full_name_th": "อ.ดร. พท.ป.จิตรลดา ปัญจากุล",
+      "email_cleared": "chitralada.pan@mfu.ac.th",
+      "kept_on_id": "wave30_0184_964",
+      "kept_on_name": "อ. จิตลดา ปันจักกุล"
+    },
+    {
+      "id": "nida_surapong_auwatanamongkol_3811",
+      "full_name_th": "รศ.ดร. สุรพงค์ เอื้อวัฒนามงคล",
+      "email_cleared": "surapong@as.nida.ac.th",
+      "kept_on_id": "nida_as_001",
+      "kept_on_name": "รศ.ดร. สุรพงษ์ อังคสกุลเกียรติ"
+    },
+    {
+      "id": "tsu_w50_0541_982",
+      "full_name_th": "อ. ชคดี ไวยวุทธิ",
+      "email_cleared": "chakadee@tsu.ac.th",
+      "kept_on_id": "thaksinuni_collegeofi_boonkasame_015",
+      "kept_on_name": "อ.ดร. ชคดี บุญเกษม"
+    },
+    {
+      "id": "tsu_w50_0441_324",
+      "full_name_th": "อ. กุลวดี หนูหนอง",
+      "email_cleared": "kunwadee.n@tsu.ac.th",
+      "kept_on_id": "thaksinuni_collegeofi_laoon_017",
+      "kept_on_name": "ผศ.ดร. ทนพญ. กุลวดี เหลาอ่อน"
+    },
+    {
+      "id": "tsu_w50_1469_926",
+      "full_name_th": "อ.ดร. นันทพันธ์ นภัทรานันทน์",
+      "email_cleared": "nunthaphan@tsu.ac.th",
+      "kept_on_id": "tsu_w50_0566_852",
+      "kept_on_name": "อ. Mr. นันทพันธ์ นภัทรานันทน์ Nunthaphan Naphattharanun"
+    },
+    {
+      "id": "wu_w51_0680_681",
+      "full_name_th": "อ.ดร. ศิรินทร์ญา สิทธิรักษ์",
+      "email_cleared": "sirinya.sit@wu.ac.th",
+      "kept_on_id": "wave23_0165_578",
+      "kept_on_name": "ดร. สิริญา สิทธิรักษ์"
+    },
+    {
+      "id": "wu_w51_0632_290",
+      "full_name_th": "รศ.ดร. สินีนาฏ สันพินิจ",
+      "email_cleared": "sineenart.sn@wu.ac.th",
+      "kept_on_id": "wave23_0166_912",
+      "kept_on_name": "รศ.ดร. ศิรินาถ สันพิณิจ"
+    },
+    {
+      "id": "mfu_im_21667",
+      "full_name_th": "อ.ดร. พท.ป.สรญา จำปาคำ",
+      "email_cleared": "sorraya@mfu.ac.th",
+      "kept_on_id": "wave30_0188_164",
+      "kept_on_name": "อ. โสรญา แช่มค่ำ"
+    },
+    {
+      "id": "tsu_w50_0058_347",
+      "full_name_th": "อ. คำนวณ นวลสนอง",
+      "email_cleared": "ch.tsu.117@gmail.com",
+      "kept_on_id": "tsu_w50_0089_393",
+      "kept_on_name": "อ. เชิดชัย อ๋องสกุล"
+    },
+    {
+      "id": "tsu_w50_0040_521",
+      "full_name_th": "อ. ฉลอง ฤทธิ์เลื่อน",
+      "email_cleared": "chalong@tsu.ac.th",
+      "kept_on_id": "tsu_w50_0108_772",
+      "kept_on_name": "อ. ฉลอง แก้วประเสริฐ"
+    },
+    {
+      "id": "tsu_w50_0138_121",
+      "full_name_th": "อ. บุญเลิศ จันทระ",
+      "email_cleared": "s.rodklang@gmail.com",
+      "kept_on_id": "tsu_w50_0465_631",
+      "kept_on_name": "อ. สิริพร รอดเกลี้ยง"
+    }
+  ]
+}

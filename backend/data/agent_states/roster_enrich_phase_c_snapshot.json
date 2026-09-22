@@ -1,0 +1,9 @@
+{
+  "timestamp": 1789970801.432384,
+  "elapsed_seconds": 30.74,
+  "total_phase_c_missing_before": 23717,
+  "pass1_curated_roster_matches": 0,
+  "pass2_domain_taxonomy_matches": 20565,
+  "total_faculties_enriched": 20565,
+  "coverage_pct": 86.71
+}

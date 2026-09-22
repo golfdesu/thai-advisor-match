@@ -92,10 +92,16 @@ def fetch_with_retry(url: str, max_retries: int = 3) -> dict:
                 return json.loads(res.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
             if e.code == 429:
-                if current_key:
-                    mark_key_exhausted(current_key)
-                    continue
-                time.sleep(1.0 * (attempt + 1))
+                err_msg = ""
+                try:
+                    err_msg = e.read().decode("utf-8", errors="ignore").lower()
+                except Exception:
+                    pass
+                if "daily" in err_msg or "quota" in err_msg or "budget" in err_msg or "insufficient" in err_msg:
+                    if current_key:
+                        mark_key_exhausted(current_key)
+                        continue
+                time.sleep(0.6 * (attempt + 1))
             elif e.code >= 500:
                 time.sleep(1.0)
             else:

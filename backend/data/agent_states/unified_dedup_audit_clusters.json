@@ -1,0 +1,6171 @@
+[
+  {
+    "cluster_id": 1,
+    "university": "มหาวิทยาลัยเชียงใหม่",
+    "members": [
+      {
+        "id": "cmu_bmei_siriporn_001",
+        "full_name_th": "ศ.ดร.ทพญ. สิริพร ฉัตรทิพากร",
+        "first_name": "Siriporn",
+        "last_name": "Chattipakorn",
+        "academic_title_th": "ศ.ดร.ทพญ.",
+        "department_th": "ศูนย์วิจัยและฝึกอบรมสรีรวิทยาทางไฟฟ้าของหัวใจ และสถาบันวิศวกรรมชีวการแพทย์",
+        "email": "siriporn.c@cmu.ac.th",
+        "openalex_id": "https://openalex.org/A5074956117",
+        "total_citations": 11236
+      },
+      {
+        "id": "cmu_oa_disc_a5074956117",
+        "full_name_th": "ศ.พญ. ศิริพร ฉัตรชัยกุล",
+        "first_name": "Siriporn",
+        "last_name": "C. Chattipakorn",
+        "academic_title_th": "ศ.พญ.",
+        "department_th": "ภาควิชาสรีรวิทยา",
+        "email": null,
+        "openalex_id": null,
+        "total_citations": 11289
+      }
+    ]
+  },
+  {
+    "cluster_id": 2,
+    "university": "มหาวิทยาลัยทักษิณ",
+    "members": [
+      {
+        "id": "tsu_w50_0551_221",
+        "full_name_th": "อ. จุฬาลักษณ์ อ้นทอง",
+        "first_name": "Julalak",
+        "last_name": "Ontong",
+        "academic_title_th": "อ.",
+        "department_th": "คณะอุตสาหกรรมเกษตรและชีวภาพ",
+        "email": "julalak.o@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0
+      },
+      {
+        "id": "tsu_w50_1564_779",
+        "full_name_th": "Julalak Chorachoo Ontong",
+        "first_name": "Julalak",
+        "last_name": "Chorachoo Ontong",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาชีววิทยา",
+        "email": null,
+        "openalex_id": "A5012900794",
+        "total_citations": 151
+      },
+      {
+        "id": "tsu_w50_1567_384",
+        "full_name_th": "Julalak C. Ontong",
+        "first_name": "Julalak",
+        "last_name": "C. Ontong",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาเคมี",
+        "email": null,
+        "openalex_id": "A5102786273",
+        "total_citations": 599
+      }
+    ]
+  },
+  {
+    "cluster_id": 3,
+    "university": "มหาวิทยาลัยทักษิณ",
+    "members": [
+      {
+        "id": "tsu_w50_0829_821",
+        "full_name_th": "อ. กิตติศักดิ์ สังข์ทองจีน",
+        "first_name": "kittisak",
+        "last_name": "sangthongchin",
+        "academic_title_th": "อ.",
+        "department_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+        "email": null,
+        "openalex_id": null,
+        "total_citations": 0
+      },
+      {
+        "id": "tsu_w50_1852_619",
+        "full_name_th": "Kittisak Kittisak Sangthongchin",
+        "first_name": "Kittisak",
+        "last_name": "Kittisak Sangthongchin",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาแพทยศาสตร์",
+        "email": null,
+        "openalex_id": "A5117765683",
+        "total_citations": 4
+      }
+    ]
+  },
+  {
+    "cluster_id": 4,
+    "university": "มหาวิทยาลัยทักษิณ",
+    "members": [
+      {
+        "id": "tsu_w50_1678_284",
+        "full_name_th": "NASHWA ALI",
+        "first_name": "NASHWA",
+        "last_name": "ALI",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาวิศวกรรมศาสตร์",
+        "email": null,
+        "openalex_id": "A5120964619",
+        "total_citations": 0
+      },
+      {
+        "id": "tsu_w50_1543_767",
+        "full_name_th": "Nashwa Ahmed Ali",
+        "first_name": "Nashwa",
+        "last_name": "Ahmed Ali",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาวิทยาการคอมพิวเตอร์",
+        "email": null,
+        "openalex_id": "A5051747717",
+        "total_citations": 12
+      }
+    ]
+  },
+  {
+    "cluster_id": 5,
+    "university": "มหาวิทยาลัยทักษิณ",
+    "members": [
+      {
+        "id": "tsu_w50_0963_610",
+        "full_name_th": "ดร. ? Muhammad Hassan Arshad",
+        "first_name": null,
+        "last_name": null,
+        "academic_title_th": "ดร.",
+        "department_th": "วิทยาลัยนานาชาติ",
+        "email": "muhammad.a@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0
+      },
+      {
+        "id": "tsu_w50_1582_174",
+        "full_name_th": "Muhammad Hassan Arshad",
+        "first_name": "Muhammad",
+        "last_name": "Hassan Arshad",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาบริหารธุรกิจ",
+        "email": null,
+        "openalex_id": "A5102399173",
+        "total_citations": 43
+      }
+    ]
+  },
+  {
+    "cluster_id": 6,
+    "university": "มหาวิทยาลัยทักษิณ",
+    "members": [
+      {
+        "id": "tsu_w50_1226_385",
+        "full_name_th": "อ. นาย",
+        "first_name": "Mojtaba",
+        "last_name": "Safari Mojtaba Safari",
+        "academic_title_th": "อ.",
+        "department_th": "คณะวิศวกรรมศาสตร์",
+        "email": "mojtaba.j@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0
+      },
+      {
+        "id": "tsu_w50_1533_772",
+        "full_name_th": "Mojtaba Safari",
+        "first_name": "Mojtaba",
+        "last_name": "Safari",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาศิลปกรรม",
+        "email": null,
+        "openalex_id": "A5101161039",
+        "total_citations": 882
+      }
+    ]
+  },
+  {
+    "cluster_id": 7,
+    "university": "มหาวิทยาลัยทักษิณ",
+    "members": [
+      {
+        "id": "tsu_w50_1261_136",
+        "full_name_th": "ดร. Min Liu Min Liu",
+        "first_name": null,
+        "last_name": null,
+        "academic_title_th": "ดร.",
+        "department_th": "วิทยาลัยนานาชาติ",
+        "email": "min.l@tsu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0
+      },
+      {
+        "id": "tsu_w50_1765_796",
+        "full_name_th": "Min Liu",
+        "first_name": "Min",
+        "last_name": "Liu",
+        "academic_title_th": null,
+        "department_th": "ภาควิชามนุษยศาสตร์",
+        "email": null,
+        "openalex_id": "A5137372081",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 8,
+    "university": "มหาวิทยาลัยทักษิณ",
+    "members": [
+      {
+        "id": "tsu_w50_1463_647",
+        "full_name_th": "อ.ดร. นฤมล อินทรัตน์",
+        "first_name": "Naruemon",
+        "last_name": "Intarat",
+        "academic_title_th": "อ.ดร.",
+        "department_th": "คณะวิศวกรรมศาสตร์",
+        "email": "naruemon.i@tsu.ac.th",
+        "openalex_id": "A5030512536",
+        "total_citations": 2
+      },
+      {
+        "id": "tsu_w50_1640_679",
+        "full_name_th": "Intarat Naruemon",
+        "first_name": "Intarat",
+        "last_name": "Naruemon",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาวิศวกรรมศาสตร์",
+        "email": null,
+        "openalex_id": "A5020456039",
+        "total_citations": 31
+      }
+    ]
+  },
+  {
+    "cluster_id": 9,
+    "university": "มหาวิทยาลัยพะเยา",
+    "members": [
+      {
+        "id": "up_w48_1029_589",
+        "full_name_th": "Kanok orn Srimuang",
+        "first_name": "Kanok",
+        "last_name": "orn Srimuang",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาเคมี",
+        "email": null,
+        "openalex_id": "A5112218790",
+        "total_citations": 25
+      },
+      {
+        "id": "up_w48_0457_348",
+        "full_name_th": "Kanok-orn Srimuang",
+        "first_name": "Kanok-orn",
+        "last_name": "Srimuang",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาชีววิทยา",
+        "email": null,
+        "openalex_id": "A5038223308",
+        "total_citations": 106
+      }
+    ]
+  },
+  {
+    "cluster_id": 10,
+    "university": "มหาวิทยาลัยนเรศวร",
+    "members": [
+      {
+        "id": "nu_w45_0312_395",
+        "full_name_th": "Sakchai Wittaya-areekul",
+        "first_name": "Sakchai",
+        "last_name": "Wittaya‐areekul",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5024507346",
+        "total_citations": 850
+      },
+      {
+        "id": "nu_w45_0119_893",
+        "full_name_th": "รศ.ดร. ภก.ศักดิ์ชัย วิทยาอารีย์กุล",
+        "first_name": "Sakchai",
+        "last_name": "Wittaya-areekul",
+        "academic_title_th": "รศ.ดร.",
+        "department_th": "ภาควิชาเทคโนโลยีเภสัชกรรม",
+        "email": "sakchaiw@nu.ac.th",
+        "openalex_id": null,
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 11,
+    "university": "มหาวิทยาลัยนเรศวร",
+    "members": [
+      {
+        "id": "nu_w45_1099_789",
+        "full_name_th": "Sutisa Nudmamud-Thanoi",
+        "first_name": "Sutisa",
+        "last_name": "Nudmamud-Thanoi",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5121831826",
+        "total_citations": 2
+      },
+      {
+        "id": "wave22_0287_902",
+        "full_name_th": "ศ.ดร. สุทิสา ถาน้อย",
+        "first_name": "sutisa",
+        "last_name": "Thanoi",
+        "academic_title_th": "ศ.ดร.",
+        "department_th": "สถานวิจัยเพื่อความเป็นเลิศทางวิชาการด้านเทคโนโลยีชีวภาพทางการแพทย์",
+        "email": null,
+        "openalex_id": "https://openalex.org/A5073862309",
+        "total_citations": 877
+      }
+    ]
+  },
+  {
+    "cluster_id": 12,
+    "university": "มหาวิทยาลัยนเรศวร",
+    "members": [
+      {
+        "id": "nu_w45_0055_687",
+        "full_name_th": "E. B. Manoukian",
+        "first_name": "E.",
+        "last_name": "B. Manoukian",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5114259780",
+        "total_citations": 633
+      },
+      {
+        "id": "nu_w45_0544_217",
+        "full_name_th": "E.B. Manoukian",
+        "first_name": "E.B.",
+        "last_name": "Manoukian",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5008315801",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 13,
+    "university": "มหาวิทยาลัยอุบลราชธานี",
+    "members": [
+      {
+        "id": "ubu_w49_0777_209",
+        "full_name_th": "Khamput Chansit Khamput",
+        "first_name": "Khamput",
+        "last_name": "Chansit Khamput",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาวิทยาศาสตร์",
+        "email": null,
+        "openalex_id": "A5152034573",
+        "total_citations": 0
+      },
+      {
+        "id": "ubu_w49_0540_682",
+        "full_name_th": "Chansit Khamput",
+        "first_name": "Chansit",
+        "last_name": "Khamput",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาวิทยาศาสตร์",
+        "email": null,
+        "openalex_id": "A5012806471",
+        "total_citations": 12
+      }
+    ]
+  },
+  {
+    "cluster_id": 14,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_1154_236",
+        "full_name_th": "Wanna Chanate",
+        "first_name": "Wanna",
+        "last_name": "Chanate",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5002724242",
+        "total_citations": 2
+      },
+      {
+        "id": "ssru_w56_0306_675",
+        "full_name_th": "Chanate Wanna",
+        "first_name": "Chanate",
+        "last_name": "Wanna",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5022898693",
+        "total_citations": 54
+      }
+    ]
+  },
+  {
+    "cluster_id": 15,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0037_615",
+        "full_name_th": "Somchai Bovornkitti",
+        "first_name": "Somchai",
+        "last_name": "Bovornkitti",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5112712861",
+        "total_citations": 849
+      },
+      {
+        "id": "ssru_w56_1681_453",
+        "full_name_th": "Bovornkitti Somchai",
+        "first_name": "Bovornkitti",
+        "last_name": "Somchai",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5114491713",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 16,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0042_590",
+        "full_name_th": "Denis Ushakov",
+        "first_name": "Denis",
+        "last_name": "Ushakov",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5044496118",
+        "total_citations": 975
+      },
+      {
+        "id": "ssru_w56_0856_124",
+        "full_name_th": "Ushakov Denis",
+        "first_name": "Ushakov",
+        "last_name": "Denis",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5075156790",
+        "total_citations": 10
+      }
+    ]
+  },
+  {
+    "cluster_id": 17,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0049_375",
+        "full_name_th": "Muhammad Shahid Khan",
+        "first_name": "Muhammad",
+        "last_name": "Shahid Khan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5041888589",
+        "total_citations": 1530
+      },
+      {
+        "id": "ssru_w56_1363_672",
+        "full_name_th": "Muhammad Shahid Khan Shahid",
+        "first_name": "Muhammad",
+        "last_name": "Shahid Khan Shahid",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5054833071",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 18,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0050_930",
+        "full_name_th": "Yuanyuan Xu",
+        "first_name": "Yuanyuan",
+        "last_name": "Xu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5100704963",
+        "total_citations": 1578
+      },
+      {
+        "id": "ssru_w56_0076_834",
+        "full_name_th": "Xu Yuanyuan",
+        "first_name": "Xu",
+        "last_name": "Yuanyuan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5112589491",
+        "total_citations": 92
+      }
+    ]
+  },
+  {
+    "cluster_id": 19,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0114_202",
+        "full_name_th": "Sedthapong Laojun",
+        "first_name": "Sedthapong",
+        "last_name": "Laojun",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5021765420",
+        "total_citations": 401
+      },
+      {
+        "id": "ssru_w56_1461_234",
+        "full_name_th": "Laojun Sedthapong",
+        "first_name": "Laojun",
+        "last_name": "Sedthapong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5079477627",
+        "total_citations": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 20,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0160_170",
+        "full_name_th": "Jaruwan Chutrtong",
+        "first_name": "Jaruwan",
+        "last_name": "Chutrtong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5000493827",
+        "total_citations": 75
+      },
+      {
+        "id": "ssru_w56_1658_395",
+        "full_name_th": "Chutrtong . Jaruwan",
+        "first_name": "Chutrtong",
+        "last_name": ". Jaruwan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5108158852",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 21,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0182_602",
+        "full_name_th": "Kanittada Thongkao",
+        "first_name": "Kanittada",
+        "last_name": "Thongkao",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5082085161",
+        "total_citations": 106
+      },
+      {
+        "id": "ssru_w56_1003_347",
+        "full_name_th": "Thongkao Kanittada",
+        "first_name": "Thongkao",
+        "last_name": "Kanittada",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5067744361",
+        "total_citations": 4
+      }
+    ]
+  },
+  {
+    "cluster_id": 22,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0196_188",
+        "full_name_th": "Xiaofang Xiong",
+        "first_name": "Xiaofang",
+        "last_name": "Xiong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5101198657",
+        "total_citations": 46
+      },
+      {
+        "id": "ssru_w56_0539_817",
+        "full_name_th": "Xiong Xiaofang",
+        "first_name": "Xiong",
+        "last_name": "Xiaofang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5102245304",
+        "total_citations": 33
+      }
+    ]
+  },
+  {
+    "cluster_id": 23,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0237_991",
+        "full_name_th": "Nantana Suwandittakul",
+        "first_name": "Nantana",
+        "last_name": "Suwandittakul",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5055405590",
+        "total_citations": 356
+      },
+      {
+        "id": "ssru_w56_1148_655",
+        "full_name_th": "Suwandittakul Nantana",
+        "first_name": "Suwandittakul",
+        "last_name": "Nantana",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5001586906",
+        "total_citations": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 24,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0243_242",
+        "full_name_th": "Sivapan Choo-In",
+        "first_name": "Sivapan",
+        "last_name": "Choo-In",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5091713848",
+        "total_citations": 52
+      },
+      {
+        "id": "ssru_w56_0667_530",
+        "full_name_th": "Sivapan Choo - in",
+        "first_name": "Sivapan",
+        "last_name": "Choo - in",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5003908647",
+        "total_citations": 8
+      }
+    ]
+  },
+  {
+    "cluster_id": 25,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0263_979",
+        "full_name_th": "Narumon Boonman",
+        "first_name": "Narumon",
+        "last_name": "Boonman",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5074637568",
+        "total_citations": 58
+      },
+      {
+        "id": "ssru_w56_1657_181",
+        "full_name_th": "Boonman . Narumon",
+        "first_name": "Boonman",
+        "last_name": ". Narumon",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5108158850",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 26,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0277_103",
+        "full_name_th": "Sarisak Soontornchai",
+        "first_name": "Sarisak",
+        "last_name": "Soontornchai",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5087880935",
+        "total_citations": 228
+      },
+      {
+        "id": "ssru_w56_1095_263",
+        "full_name_th": "Soontornchai Sarisak",
+        "first_name": "Soontornchai",
+        "last_name": "Sarisak",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5114491712",
+        "total_citations": 4
+      }
+    ]
+  },
+  {
+    "cluster_id": 27,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0314_622",
+        "full_name_th": "Niwat Songsin",
+        "first_name": "Niwat",
+        "last_name": "Songsin",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5092793446",
+        "total_citations": 11
+      },
+      {
+        "id": "ssru_w56_1986_718",
+        "full_name_th": "Niwat Songsin¹",
+        "first_name": "Niwat",
+        "last_name": "Songsin¹",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5137601641",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 28,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0325_401",
+        "full_name_th": "Piyada Wongwiwat",
+        "first_name": "Piyada",
+        "last_name": "Wongwiwat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5039527394",
+        "total_citations": 6
+      },
+      {
+        "id": "ssru_w56_1659_182",
+        "full_name_th": "Wongwiwat . Piyada",
+        "first_name": "Wongwiwat",
+        "last_name": ". Piyada",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5108158853",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 29,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0377_203",
+        "full_name_th": "Natapat Areerakulkan",
+        "first_name": "Natapat",
+        "last_name": "Areerakulkan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5072918590",
+        "total_citations": 15
+      },
+      {
+        "id": "ssru_w56_1649_913",
+        "full_name_th": "Areerakulkan Natapat",
+        "first_name": "Areerakulkan",
+        "last_name": "Natapat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5106702398",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 30,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0447_691",
+        "full_name_th": "Sirirat Phakpaknam",
+        "first_name": "Sirirat",
+        "last_name": "Phakpaknam",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5079880026",
+        "total_citations": 16
+      },
+      {
+        "id": "ssru_w56_1088_288",
+        "full_name_th": "Phakpaknam . Sirirat",
+        "first_name": "Phakpaknam",
+        "last_name": ". Sirirat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5108158851",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 31,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0476_683",
+        "full_name_th": "Palang Wongtanasuporn",
+        "first_name": "Palang",
+        "last_name": "Wongtanasuporn",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5046697421",
+        "total_citations": 4
+      },
+      {
+        "id": "ssru_w56_1513_655",
+        "full_name_th": "Wongtanasuporn Palang",
+        "first_name": "Wongtanasuporn",
+        "last_name": "Palang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5092351794",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 32,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0551_240",
+        "full_name_th": "Pongmada Damapong",
+        "first_name": "Pongmada",
+        "last_name": "Damapong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5004800516",
+        "total_citations": 33
+      },
+      {
+        "id": "ssru_w56_1408_847",
+        "full_name_th": "Damapong Pongmada",
+        "first_name": "Damapong",
+        "last_name": "Pongmada",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5067026890",
+        "total_citations": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 33,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0573_949",
+        "full_name_th": "Peerada Damapong",
+        "first_name": "Peerada",
+        "last_name": "Damapong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5056910939",
+        "total_citations": 33
+      },
+      {
+        "id": "ssru_w56_1426_589",
+        "full_name_th": "Damapong Peerada",
+        "first_name": "Damapong",
+        "last_name": "Peerada",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5070289730",
+        "total_citations": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 34,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0607_318",
+        "full_name_th": "Xiulei Ren",
+        "first_name": "Xiulei",
+        "last_name": "Ren",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5013404753",
+        "total_citations": 0
+      },
+      {
+        "id": "ssru_w56_0857_948",
+        "full_name_th": "REN XIULEI",
+        "first_name": "REN",
+        "last_name": "XIULEI",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5076298157",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 35,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0611_588",
+        "full_name_th": "Kitthisak Khlaeo Chansukh",
+        "first_name": "Kitthisak",
+        "last_name": "Khlaeo Chansukh",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5022361300",
+        "total_citations": 64
+      },
+      {
+        "id": "ssru_w56_0701_663",
+        "full_name_th": "Kitthisak Chansukh",
+        "first_name": "Kitthisak",
+        "last_name": "Chansukh",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5052732013",
+        "total_citations": 32
+      }
+    ]
+  },
+  {
+    "cluster_id": 36,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_0784_755",
+        "full_name_th": "Norawat Charoen-Rajapark",
+        "first_name": "Norawat",
+        "last_name": "Charoen-Rajapark",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5012603233",
+        "total_citations": 2
+      },
+      {
+        "id": "ssru_w56_0929_273",
+        "full_name_th": "Norawat Charoen Rajapark",
+        "first_name": "Norawat",
+        "last_name": "Charoen Rajapark",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5013775251",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 37,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_1395_211",
+        "full_name_th": "Wallapa Wassanasompong",
+        "first_name": "Wallapa",
+        "last_name": "Wassanasompong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5063305071",
+        "total_citations": 1
+      },
+      {
+        "id": "ssru_w56_1467_366",
+        "full_name_th": "Wassanasompong Wallapa",
+        "first_name": "Wassanasompong",
+        "last_name": "Wallapa",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5080282194",
+        "total_citations": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 38,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_1984_851",
+        "full_name_th": "Muhammathafis Hama¹",
+        "first_name": "Muhammathafis",
+        "last_name": "Hama¹",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5137553259",
+        "total_citations": 0
+      },
+      {
+        "id": "ssru_w56_2034_727",
+        "full_name_th": "Muhammathafis Hama",
+        "first_name": "Muhammathafis",
+        "last_name": "Hama",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5147045290",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 39,
+    "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "members": [
+      {
+        "id": "ssru_w56_1985_736",
+        "full_name_th": "Noramon Ruangram¹",
+        "first_name": "Noramon",
+        "last_name": "Ruangram¹",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5137589850",
+        "total_citations": 0
+      },
+      {
+        "id": "ssru_w56_2032_387",
+        "full_name_th": "Noramon Ruangram",
+        "first_name": "Noramon",
+        "last_name": "Ruangram",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5146986189",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 40,
+    "university": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "members": [
+      {
+        "id": "sut_w46_0205_576",
+        "full_name_th": "Rapee Gosalawit-Utke",
+        "first_name": "Rapee",
+        "last_name": "Gosalawit–Utke",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาเคมี",
+        "email": null,
+        "openalex_id": "A5089681333",
+        "total_citations": 664
+      },
+      {
+        "id": "sut_w46_0450_514",
+        "full_name_th": "Rapee Utke",
+        "first_name": "Rapee",
+        "last_name": "Utke",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาเคมี",
+        "email": null,
+        "openalex_id": "A5035456379",
+        "total_citations": 762
+      }
+    ]
+  },
+  {
+    "cluster_id": 41,
+    "university": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "members": [
+      {
+        "id": "sut_w46_0370_375",
+        "full_name_th": "Andrew Lian",
+        "first_name": "Andrew",
+        "last_name": "Lian",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาเทคโนโลยีสังคม",
+        "email": null,
+        "openalex_id": "A5082563112",
+        "total_citations": 177
+      },
+      {
+        "id": "sut_w46_0902_500",
+        "full_name_th": "Andrew T. Lian",
+        "first_name": "Andrew",
+        "last_name": "T. Lian",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาวิทยาศาสตร์",
+        "email": null,
+        "openalex_id": "A5084841762",
+        "total_citations": 56
+      }
+    ]
+  },
+  {
+    "cluster_id": 42,
+    "university": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "members": [
+      {
+        "id": "sut_w46_0697_621",
+        "full_name_th": "Y Yan",
+        "first_name": "Y",
+        "last_name": "Yan",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาฟิสิกส์",
+        "email": null,
+        "openalex_id": "A5034906609",
+        "total_citations": 23
+      },
+      {
+        "id": "sut_w46_0777_334",
+        "full_name_th": "Y.Y. Yan",
+        "first_name": "Y.Y.",
+        "last_name": "Yan",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาฟิสิกส์",
+        "email": null,
+        "openalex_id": "A5140399185",
+        "total_citations": 4
+      }
+    ]
+  },
+  {
+    "cluster_id": 43,
+    "university": "มหาวิทยาลัยวลัยลักษณ์",
+    "members": [
+      {
+        "id": "wu_w51_0975_568",
+        "full_name_th": "Tuan Anh Tran",
+        "first_name": "Tuan",
+        "last_name": "Anh Tran",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+        "email": null,
+        "openalex_id": "A5101610867",
+        "total_citations": 706
+      },
+      {
+        "id": "wu_w51_1834_612",
+        "full_name_th": "Tran Anh Tuan",
+        "first_name": "Tran",
+        "last_name": "Anh Tuan",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+        "email": null,
+        "openalex_id": "A5102974561",
+        "total_citations": 26
+      }
+    ]
+  },
+  {
+    "cluster_id": 44,
+    "university": "มหาวิทยาลัยวลัยลักษณ์",
+    "members": [
+      {
+        "id": "wu_w51_1004_966",
+        "full_name_th": "Cua Ngoc Le",
+        "first_name": "Cua",
+        "last_name": "Ngoc Le",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาแพทยศาสตร์",
+        "email": null,
+        "openalex_id": "A5045580942",
+        "total_citations": 178
+      },
+      {
+        "id": "wu_w51_1937_957",
+        "full_name_th": "Ngoc Cua Le",
+        "first_name": "Ngoc",
+        "last_name": "Cua Le",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาวิทยาศาสตร์",
+        "email": null,
+        "openalex_id": "A5042398116",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 45,
+    "university": "มหาวิทยาลัยวลัยลักษณ์",
+    "members": [
+      {
+        "id": "wu_w51_1083_969",
+        "full_name_th": "Curt H. Barnes",
+        "first_name": "Curt",
+        "last_name": "H. Barnes",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาชีววิทยา",
+        "email": null,
+        "openalex_id": "A5073574590",
+        "total_citations": 64
+      },
+      {
+        "id": "wu_w51_1465_464",
+        "full_name_th": "Curt Barnes",
+        "first_name": "Curt",
+        "last_name": "Barnes",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาวิทยาศาสตร์",
+        "email": null,
+        "openalex_id": "A5147229957",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 46,
+    "university": "มหาวิทยาลัยวลัยลักษณ์",
+    "members": [
+      {
+        "id": "wu_w51_1339_417",
+        "full_name_th": "Muhammad Ali Amir",
+        "first_name": "Muhammad",
+        "last_name": "Ali Amir",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาวิทยาศาสตร์",
+        "email": null,
+        "openalex_id": "A5075156133",
+        "total_citations": 49
+      },
+      {
+        "id": "wu_w51_1000_703",
+        "full_name_th": "Muhammad Amir",
+        "first_name": "Muhammad",
+        "last_name": "Amir",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาวิศวกรรมศาสตร์",
+        "email": null,
+        "openalex_id": "A5069934434",
+        "total_citations": 332
+      }
+    ]
+  },
+  {
+    "cluster_id": 47,
+    "university": "มหาวิทยาลัยวลัยลักษณ์",
+    "members": [
+      {
+        "id": "wu_w51_1475_899",
+        "full_name_th": "Junifer L. Bucol",
+        "first_name": "Junifer",
+        "last_name": "L. Bucol",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาศึกษาศาสตร์",
+        "email": null,
+        "openalex_id": "A5020065526",
+        "total_citations": 83
+      },
+      {
+        "id": "wu_w51_2132_787",
+        "full_name_th": "Junifer Bucol",
+        "first_name": "Junifer",
+        "last_name": "Bucol",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาวิทยาศาสตร์",
+        "email": null,
+        "openalex_id": "A5128226701",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 48,
+    "university": "มหาวิทยาลัยวลัยลักษณ์",
+    "members": [
+      {
+        "id": "wu_w51_1079_760",
+        "full_name_th": "Nur Rofiah",
+        "first_name": "Nur",
+        "last_name": "Rofiah",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชารัฐศาสตร์",
+        "email": null,
+        "openalex_id": "A5102789147",
+        "total_citations": 191
+      },
+      {
+        "id": "wu_w51_1603_607",
+        "full_name_th": "Nur Lailatur Rofiah",
+        "first_name": "Nur",
+        "last_name": "Lailatur Rofiah",
+        "academic_title_th": null,
+        "department_th": "สาขาวิชาคณิตศาสตร์",
+        "email": null,
+        "openalex_id": "A5013360275",
+        "total_citations": 93
+      }
+    ]
+  },
+  {
+    "cluster_id": 49,
+    "university": "มหาวิทยาลัยมหาสารคาม",
+    "members": [
+      {
+        "id": "msu_w47_0454_982",
+        "full_name_th": "ผศ.ดร. เอื้ออาทร ลิ้มตระกูล",
+        "first_name": "Oue-artorn",
+        "last_name": "Limtragool",
+        "academic_title_th": "ผศ.ดร.",
+        "department_th": "ภาควิชาเคมี",
+        "email": null,
+        "openalex_id": null,
+        "total_citations": 0
+      },
+      {
+        "id": "msu_w47_0664_913",
+        "full_name_th": "Oue-artorn Limtragool",
+        "first_name": "Oue‐artorn",
+        "last_name": "Limtragool",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาเภสัชกรรม",
+        "email": null,
+        "openalex_id": "A5004308133",
+        "total_citations": 34
+      }
+    ]
+  },
+  {
+    "cluster_id": 50,
+    "university": "มหาวิทยาลัยมหาสารคาม",
+    "members": [
+      {
+        "id": "msu_w47_0457_273",
+        "full_name_th": "ผศ.ดร. อรสา อินทร์น้อย",
+        "first_name": "Orrasa",
+        "last_name": "In-noi",
+        "academic_title_th": "ผศ.ดร.",
+        "department_th": "ภาควิชาเคมี",
+        "email": null,
+        "openalex_id": null,
+        "total_citations": 0
+      },
+      {
+        "id": "msu_w47_0837_536",
+        "full_name_th": "Orrasa In-noi",
+        "first_name": "Orrasa",
+        "last_name": "In‐noi",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาเคมี",
+        "email": null,
+        "openalex_id": "A5111206076",
+        "total_citations": 66
+      }
+    ]
+  },
+  {
+    "cluster_id": 51,
+    "university": "มหาวิทยาลัยมหาสารคาม",
+    "members": [
+      {
+        "id": "msu_w47_0028_168",
+        "full_name_th": "Benjawan Chutichudet",
+        "first_name": "Benjawan",
+        "last_name": "Chutichudet",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาวิทยาศาสตร์",
+        "email": null,
+        "openalex_id": "A5108364682",
+        "total_citations": 13
+      },
+      {
+        "id": "msu_w47_0836_301",
+        "full_name_th": "Chutichudet Benjawan",
+        "first_name": "Chutichudet",
+        "last_name": "Benjawan",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาเทคโนโลยีการเกษตร",
+        "email": null,
+        "openalex_id": "A5108458694",
+        "total_citations": 71
+      }
+    ]
+  },
+  {
+    "cluster_id": 52,
+    "university": "มหาวิทยาลัยมหาสารคาม",
+    "members": [
+      {
+        "id": "msu_w47_0174_315",
+        "full_name_th": "Adisak Singseewo",
+        "first_name": "Adisak",
+        "last_name": "Singseewo",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาการศึกษา",
+        "email": null,
+        "openalex_id": "A5068483863",
+        "total_citations": 22
+      },
+      {
+        "id": "msu_w47_1167_689",
+        "full_name_th": "Singseewo Adisak",
+        "first_name": "Singseewo",
+        "last_name": "Adisak",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาบริหารธุรกิจ",
+        "email": null,
+        "openalex_id": "A5097617180",
+        "total_citations": 10
+      }
+    ]
+  },
+  {
+    "cluster_id": 53,
+    "university": "มหาวิทยาลัยมหาสารคาม",
+    "members": [
+      {
+        "id": "msu_w47_0228_245",
+        "full_name_th": "T.P. Tim Cushnie",
+        "first_name": "T.P.",
+        "last_name": "Tim Cushnie",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาวิทยาศาสตร์",
+        "email": null,
+        "openalex_id": "A5062448503",
+        "total_citations": 7962
+      },
+      {
+        "id": "msu_w47_0581_529",
+        "full_name_th": "T. P. Tim Cushnie",
+        "first_name": "T.",
+        "last_name": "P. Tim Cushnie",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาวิทยาศาสตร์",
+        "email": null,
+        "openalex_id": "A5124414830",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 54,
+    "university": "มหาวิทยาลัยมหาสารคาม",
+    "members": [
+      {
+        "id": "msu_w47_0363_712",
+        "full_name_th": "Varavudh Suteethorn",
+        "first_name": "Varavudh",
+        "last_name": "Suteethorn",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาฟิสิกส์",
+        "email": null,
+        "openalex_id": "A5071629618",
+        "total_citations": 3135
+      },
+      {
+        "id": "msu_w47_1055_663",
+        "full_name_th": "Suteethorn Varavudh",
+        "first_name": "Suteethorn",
+        "last_name": "Varavudh",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาฟิสิกส์",
+        "email": null,
+        "openalex_id": "A5010826498",
+        "total_citations": 19
+      }
+    ]
+  },
+  {
+    "cluster_id": 55,
+    "university": "มหาวิทยาลัยมหาสารคาม",
+    "members": [
+      {
+        "id": "msu_w47_0412_981",
+        "full_name_th": "John R. Morris",
+        "first_name": "John",
+        "last_name": "R. Morris",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาฟิสิกส์",
+        "email": null,
+        "openalex_id": "A5091387308",
+        "total_citations": 6418
+      },
+      {
+        "id": "msu_w47_0432_352",
+        "full_name_th": "John Morris",
+        "first_name": "John",
+        "last_name": "Morris",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาวิทยาการคอมพิวเตอร์",
+        "email": null,
+        "openalex_id": "A5103132364",
+        "total_citations": 4298
+      }
+    ]
+  },
+  {
+    "cluster_id": 56,
+    "university": "มหาวิทยาลัยมหาสารคาม",
+    "members": [
+      {
+        "id": "msu_w47_0615_600",
+        "full_name_th": "Wang Wei",
+        "first_name": "Wang",
+        "last_name": "Wei",
+        "academic_title_th": null,
+        "department_th": "ภาควิชาแพทยศาสตร์",
+        "email": null,
+        "openalex_id": "A5108150170",
+        "total_citations": 22
+      },
+      {
+        "id": "msu_w47_0843_422",
+        "full_name_th": "Wei Wang",
+        "first_name": "Wei",
+        "last_name": "Wang",
+        "academic_title_th": null,
+        "department_th": "ภาควิชามนุษยศาสตร์",
+        "email": null,
+        "openalex_id": "A5004384825",
+        "total_citations": 16
+      }
+    ]
+  },
+  {
+    "cluster_id": 57,
+    "university": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+    "members": [
+      {
+        "id": "swu_w44_1074_295",
+        "full_name_th": "Kittikorn Nopudomphan",
+        "first_name": "Kittikorn",
+        "last_name": "Nopudomphan",
+        "academic_title_th": "อ.",
+        "department_th": "ภาควิชาสังคมศาสตร์",
+        "email": null,
+        "openalex_id": null,
+        "total_citations": 0
+      },
+      {
+        "id": "swu_w44_1231_982",
+        "full_name_th": "Nopudomphan Kittikorn",
+        "first_name": "Nopudomphan",
+        "last_name": "Kittikorn",
+        "academic_title_th": "อ.",
+        "department_th": "ภาควิชาบริหารธุรกิจ",
+        "email": null,
+        "openalex_id": null,
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 58,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_0061_680",
+        "full_name_th": "Chitrabhanu Sharma Bhunjun",
+        "first_name": "Chitrabhanu",
+        "last_name": "Sharma Bhunjun",
+        "academic_title_th": "อ.ดร.",
+        "department_th": "วิทยาศาสตร์ชีวภาพ",
+        "email": "chitrabhanu.bhu@mfu.ac.th",
+        "openalex_id": "",
+        "total_citations": 0
+      },
+      {
+        "id": "mfu_w52_0752_514",
+        "full_name_th": "Chitrabhanu S. Bhunjun",
+        "first_name": "Chitrabhanu",
+        "last_name": "S. Bhunjun",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5007874934",
+        "total_citations": 2740
+      }
+    ]
+  },
+  {
+    "cluster_id": 59,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1305_769",
+        "full_name_th": "Shucheng-He",
+        "first_name": "Shucheng-He",
+        "last_name": null,
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5106828663",
+        "total_citations": 145
+      },
+      {
+        "id": "mfu_w52_1578_456",
+        "full_name_th": "Shucheng He",
+        "first_name": "Shucheng",
+        "last_name": "He",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5111302579",
+        "total_citations": 55
+      }
+    ]
+  },
+  {
+    "cluster_id": 60,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_0305_877",
+        "full_name_th": "KK Hapuarachchi",
+        "first_name": "KK",
+        "last_name": "Hapuarachchi",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5112413699",
+        "total_citations": 329
+      },
+      {
+        "id": "mfu_w52_1384_940",
+        "full_name_th": "KK Hapuarachchi KK",
+        "first_name": "KK",
+        "last_name": "Hapuarachchi KK",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5097840071",
+        "total_citations": 109
+      }
+    ]
+  },
+  {
+    "cluster_id": 61,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_0380_975",
+        "full_name_th": "K. J. Syers",
+        "first_name": "K.",
+        "last_name": "J. Syers",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5070125870",
+        "total_citations": 255
+      },
+      {
+        "id": "mfu_w52_0735_354",
+        "full_name_th": "J. K. Syers",
+        "first_name": "J.",
+        "last_name": "K. Syers",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5001071166",
+        "total_citations": 14000
+      }
+    ]
+  },
+  {
+    "cluster_id": 62,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_0406_648",
+        "full_name_th": "Lu Li",
+        "first_name": "Lu",
+        "last_name": "Li",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5089232006",
+        "total_citations": 232
+      },
+      {
+        "id": "mfu_w52_0587_735",
+        "full_name_th": "Li Lu",
+        "first_name": "Li",
+        "last_name": "Lu",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5006049522",
+        "total_citations": 972
+      }
+    ]
+  },
+  {
+    "cluster_id": 63,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_0528_253",
+        "full_name_th": "Dong Dai",
+        "first_name": "Dong",
+        "last_name": "Dai",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5012796903",
+        "total_citations": 1308
+      },
+      {
+        "id": "mfu_w52_0749_269",
+        "full_name_th": "Dong Qin Dai",
+        "first_name": "Dong",
+        "last_name": "Qin Dai",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5108132665",
+        "total_citations": 2763
+      },
+      {
+        "id": "mfu_w52_2085_440",
+        "full_name_th": "Dong-Qing Dai",
+        "first_name": "Dong-Qing",
+        "last_name": "Dai",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5075446862",
+        "total_citations": 23
+      },
+      {
+        "id": "mfu_w52_0679_879",
+        "full_name_th": "Dong-Qin Dai",
+        "first_name": "Dong-Qin",
+        "last_name": "Dai",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5023460341",
+        "total_citations": 3962
+      }
+    ]
+  },
+  {
+    "cluster_id": 64,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_0576_353",
+        "full_name_th": "Wen-Jing Li",
+        "first_name": "Wen-Jing",
+        "last_name": "Li",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5112203337",
+        "total_citations": 1000
+      },
+      {
+        "id": "mfu_w52_0767_476",
+        "full_name_th": "Wen Jing Li",
+        "first_name": "Wen",
+        "last_name": "Jing Li",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5111999249",
+        "total_citations": 2522
+      },
+      {
+        "id": "mfu_w52_1277_698",
+        "full_name_th": "Li Wen Jing",
+        "first_name": "Li",
+        "last_name": "Wen Jing",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5062205721",
+        "total_citations": 159
+      }
+    ]
+  },
+  {
+    "cluster_id": 65,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_0660_430",
+        "full_name_th": "Yuan Xiao",
+        "first_name": "Yuan",
+        "last_name": "Xiao",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5112739244",
+        "total_citations": 692
+      },
+      {
+        "id": "mfu_w52_0791_855",
+        "full_name_th": "Yuan-Pin Xiao",
+        "first_name": "Yuan-Pin",
+        "last_name": "Xiao",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5001220293",
+        "total_citations": 2317
+      }
+    ]
+  },
+  {
+    "cluster_id": 66,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_0716_206",
+        "full_name_th": "Jayarama D. Bhat",
+        "first_name": "Jayarama",
+        "last_name": "D. Bhat",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5105891862",
+        "total_citations": 3291
+      },
+      {
+        "id": "mfu_w52_1160_639",
+        "full_name_th": "D. Jayarama Bhat",
+        "first_name": "D.",
+        "last_name": "Jayarama Bhat",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5050033326",
+        "total_citations": 7477
+      }
+    ]
+  },
+  {
+    "cluster_id": 67,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1014_770",
+        "full_name_th": "Jin Feng Zhang",
+        "first_name": "Jin",
+        "last_name": "Feng Zhang",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5112739245",
+        "total_citations": 376
+      },
+      {
+        "id": "mfu_w52_0343_521",
+        "full_name_th": "Jin-Feng Zhang",
+        "first_name": "Jin-Feng",
+        "last_name": "Zhang",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5112448766",
+        "total_citations": 286
+      }
+    ]
+  },
+  {
+    "cluster_id": 68,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_0944_285",
+        "full_name_th": "Luo Le",
+        "first_name": "Luo",
+        "last_name": "Le",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5101024201",
+        "total_citations": 508
+      },
+      {
+        "id": "mfu_w52_2022_713",
+        "full_name_th": "Le Luo",
+        "first_name": "Le",
+        "last_name": "Luo",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5102718947",
+        "total_citations": 26
+      }
+    ]
+  },
+  {
+    "cluster_id": 69,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1069_899",
+        "full_name_th": "Kenneth Butcher",
+        "first_name": "Kenneth",
+        "last_name": "Butcher",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5079574532",
+        "total_citations": 19308
+      },
+      {
+        "id": "mfu_w52_1352_973",
+        "full_name_th": "Kenneth John Butcher",
+        "first_name": "Kenneth",
+        "last_name": "John Butcher",
+        "academic_title_th": "ดร.",
+        "department_th": "การจัดการธุรกิจบริการ",
+        "email": "kenneth.but@mfu.ac.th",
+        "openalex_id": "https://openalex.org/A5026446421",
+        "total_citations": 119
+      }
+    ]
+  },
+  {
+    "cluster_id": 70,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1084_951",
+        "full_name_th": "Ruvishika S. Jayawardena",
+        "first_name": "Ruvishika",
+        "last_name": "S. Jayawardena",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5001351050",
+        "total_citations": 15832
+      },
+      {
+        "id": "mfu_w52_0052_180",
+        "full_name_th": "Ruvishika Jayawardena",
+        "first_name": "Ruvishika",
+        "last_name": "Jayawardena",
+        "academic_title_th": "ผศ.ดร.",
+        "department_th": "วิทยาศาสตร์ชีวภาพ",
+        "email": "ruvishika.jay@mfu.ac.th",
+        "openalex_id": "",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 71,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1167_491",
+        "full_name_th": "Yü Liu",
+        "first_name": "Yü",
+        "last_name": "Liu",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5017212315",
+        "total_citations": 6917
+      },
+      {
+        "id": "mfu_w52_1698_486",
+        "full_name_th": "Y. Liu",
+        "first_name": "Y.",
+        "last_name": "Liu",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5008558798",
+        "total_citations": 39
+      }
+    ]
+  },
+  {
+    "cluster_id": 72,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1219_707",
+        "full_name_th": "Eleni Gentekaki",
+        "first_name": "Eleni",
+        "last_name": "Gentekaki",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5016719090",
+        "total_citations": 4529
+      },
+      {
+        "id": "mfu_w52_1576_295",
+        "full_name_th": "Gentekaki Eleni",
+        "first_name": "Gentekaki",
+        "last_name": "Eleni",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5104111299",
+        "total_citations": 56
+      }
+    ]
+  },
+  {
+    "cluster_id": 73,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1324_328",
+        "full_name_th": "Yi Jyun Chen",
+        "first_name": "Yi",
+        "last_name": "Jyun Chen",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5112739090",
+        "total_citations": 136
+      },
+      {
+        "id": "mfu_w52_0411_104",
+        "full_name_th": "Yi-Jyun Chen",
+        "first_name": "Yi-Jyun",
+        "last_name": "Chen",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5112559620",
+        "total_citations": 931
+      }
+    ]
+  },
+  {
+    "cluster_id": 74,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1503_749",
+        "full_name_th": "SK Huang",
+        "first_name": "SK",
+        "last_name": "Huang",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5114138447",
+        "total_citations": 73
+      },
+      {
+        "id": "mfu_w52_1684_151",
+        "full_name_th": "Huang Sk",
+        "first_name": "Huang",
+        "last_name": "Sk",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5058246714",
+        "total_citations": 41
+      }
+    ]
+  },
+  {
+    "cluster_id": 75,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1504_204",
+        "full_name_th": "D. Hyde Kevin",
+        "first_name": "D.",
+        "last_name": "Hyde Kevin",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5056694345",
+        "total_citations": 72
+      },
+      {
+        "id": "mfu_w52_1743_200",
+        "full_name_th": "HYDE D. KEVIN",
+        "first_name": "HYDE",
+        "last_name": "D. KEVIN",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5071518011",
+        "total_citations": 35
+      },
+      {
+        "id": "mfu_w52_0404_719",
+        "full_name_th": "Kevin D. Hyde",
+        "first_name": "Kevin",
+        "last_name": "D. Hyde",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5109905544",
+        "total_citations": 617
+      }
+    ]
+  },
+  {
+    "cluster_id": 76,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1749_637",
+        "full_name_th": "KD Hyde KD",
+        "first_name": "KD",
+        "last_name": "Hyde KD",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5064204917",
+        "total_citations": 35
+      },
+      {
+        "id": "mfu_w52_0888_892",
+        "full_name_th": "KD Hyde",
+        "first_name": "KD",
+        "last_name": "Hyde",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5043226262",
+        "total_citations": 591
+      }
+    ]
+  },
+  {
+    "cluster_id": 77,
+    "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+    "members": [
+      {
+        "id": "mfu_w52_1951_385",
+        "full_name_th": "Ida Ayu Shitadevi",
+        "first_name": "Ida",
+        "last_name": "Ayu Shitadevi",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "https://openalex.org/A5000213171",
+        "total_citations": 13
+      },
+      {
+        "id": "mfu_w52_0130_801",
+        "full_name_th": "Aj. Ida Ayu Shitadevi",
+        "first_name": "Aj.",
+        "last_name": "Ida Ayu Shitadevi",
+        "academic_title_th": null,
+        "department_th": "ภาษาอังกฤษ",
+        "email": "ida.shi@mfu.ac.th",
+        "openalex_id": "",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 78,
+    "university": "มหาวิทยาลัยแม่โจ้",
+    "members": [
+      {
+        "id": "mju_w54_1490_471",
+        "full_name_th": "U kong Warut",
+        "first_name": "U",
+        "last_name": "kong Warut",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5098540564",
+        "total_citations": 0
+      },
+      {
+        "id": "mju_w54_0462_105",
+        "full_name_th": "Warut U-Kong",
+        "first_name": "Warut",
+        "last_name": "U-Kong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5051503821",
+        "total_citations": 3
+      }
+    ]
+  },
+  {
+    "cluster_id": 79,
+    "university": "มหาวิทยาลัยแม่โจ้",
+    "members": [
+      {
+        "id": "mju_w54_1479_236",
+        "full_name_th": "Klayraung Srikanjana",
+        "first_name": "Klayraung",
+        "last_name": "Srikanjana",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5097009191",
+        "total_citations": 23
+      },
+      {
+        "id": "mju_w54_0291_973",
+        "full_name_th": "Srikanjana Klayraung",
+        "first_name": "Srikanjana",
+        "last_name": "Klayraung",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5024001329",
+        "total_citations": 528
+      }
+    ]
+  },
+  {
+    "cluster_id": 80,
+    "university": "มหาวิทยาลัยแม่โจ้",
+    "members": [
+      {
+        "id": "mju_w54_1521_842",
+        "full_name_th": "Bongkochmas EK Iem",
+        "first_name": "Bongkochmas",
+        "last_name": "EK Iem",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5113595670",
+        "total_citations": 2
+      },
+      {
+        "id": "mju_w54_0863_449",
+        "full_name_th": "Bongkochmas Ek-Iem",
+        "first_name": "Bongkochmas",
+        "last_name": "Ek-Iem",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5113481761",
+        "total_citations": 4
+      }
+    ]
+  },
+  {
+    "cluster_id": 81,
+    "university": "มหาวิทยาลัยแม่โจ้",
+    "members": [
+      {
+        "id": "mju_w54_1586_636",
+        "full_name_th": "Obaid A Bhat",
+        "first_name": "Obaid",
+        "last_name": "A Bhat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5119154053",
+        "total_citations": 0
+      },
+      {
+        "id": "mju_w54_0526_671",
+        "full_name_th": "Obaid Ahmad Bhat",
+        "first_name": "Obaid",
+        "last_name": "Ahmad Bhat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5054026778",
+        "total_citations": 51
+      }
+    ]
+  },
+  {
+    "cluster_id": 82,
+    "university": "มหาวิทยาลัยแม่โจ้",
+    "members": [
+      {
+        "id": "mju_w54_1356_606",
+        "full_name_th": "Joomwong Adisak",
+        "first_name": "Joomwong",
+        "last_name": "Adisak",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5071464008",
+        "total_citations": 8
+      },
+      {
+        "id": "mju_w54_0954_185",
+        "full_name_th": "Adisak Joomwong",
+        "first_name": "Adisak",
+        "last_name": "Joomwong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5054691278",
+        "total_citations": 2
+      }
+    ]
+  },
+  {
+    "cluster_id": 83,
+    "university": "มหาวิทยาลัยแม่โจ้",
+    "members": [
+      {
+        "id": "mju_w54_1674_167",
+        "full_name_th": "Adam Miles Cotton",
+        "first_name": "Adam",
+        "last_name": "Miles Cotton",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5136478370",
+        "total_citations": 0
+      },
+      {
+        "id": "mju_w54_0107_235",
+        "full_name_th": "Adam M. Cotton",
+        "first_name": "Adam",
+        "last_name": "M. Cotton",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5056307510",
+        "total_citations": 402
+      }
+    ]
+  },
+  {
+    "cluster_id": 84,
+    "university": "มหาวิทยาลัยแม่โจ้",
+    "members": [
+      {
+        "id": "mju_w54_0002_178",
+        "full_name_th": "Arivalagan Pugazhendhi",
+        "first_name": "Arivalagan",
+        "last_name": "Pugazhendhi",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5060225029",
+        "total_citations": 46689
+      },
+      {
+        "id": "mju_w54_0524_571",
+        "full_name_th": "Pugazhendhi Arivalagan",
+        "first_name": "Pugazhendhi",
+        "last_name": "Arivalagan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5051896304",
+        "total_citations": 43
+      }
+    ]
+  },
+  {
+    "cluster_id": 85,
+    "university": "มหาวิทยาลัยแม่โจ้",
+    "members": [
+      {
+        "id": "mju_w54_0213_208",
+        "full_name_th": "Van Giang Tran",
+        "first_name": "Van",
+        "last_name": "Giang Tran",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5007744628",
+        "total_citations": 210
+      },
+      {
+        "id": "mju_w54_0690_362",
+        "full_name_th": "Giang Van Tran",
+        "first_name": "Giang",
+        "last_name": "Van Tran",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5001606760",
+        "total_citations": 206
+      },
+      {
+        "id": "mju_w54_0995_777",
+        "full_name_th": "Giang Tran Van",
+        "first_name": "Giang",
+        "last_name": "Tran Van",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5085991138",
+        "total_citations": 16
+      }
+    ]
+  },
+  {
+    "cluster_id": 86,
+    "university": "มหาวิทยาลัยแม่โจ้",
+    "members": [
+      {
+        "id": "mju_w54_0475_168",
+        "full_name_th": "Yuanyuan Wang",
+        "first_name": "Yuanyuan",
+        "last_name": "Wang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5135116485",
+        "total_citations": 5
+      },
+      {
+        "id": "mju_w54_1619_789",
+        "full_name_th": "Wang Yuanyuan",
+        "first_name": "Wang",
+        "last_name": "Yuanyuan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5121601619",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 87,
+    "university": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+    "members": [
+      {
+        "id": "bsru_w56_0124_174",
+        "full_name_th": "Shuying He",
+        "first_name": "Shuying",
+        "last_name": "He",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5101117477",
+        "total_citations": 1019
+      },
+      {
+        "id": "bsru_w56_0660_121",
+        "full_name_th": "He Shuying",
+        "first_name": "He",
+        "last_name": "Shuying",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5092756256",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 88,
+    "university": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+    "members": [
+      {
+        "id": "bsru_w56_0151_600",
+        "full_name_th": "Sombat Teekasap",
+        "first_name": "Sombat",
+        "last_name": "Teekasap",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5037909412",
+        "total_citations": 580
+      },
+      {
+        "id": "bsru_w56_0546_804",
+        "full_name_th": "Teekasap Sombat",
+        "first_name": "Teekasap",
+        "last_name": "Sombat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5147880286",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 89,
+    "university": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+    "members": [
+      {
+        "id": "bsru_w56_0163_785",
+        "full_name_th": "Satit Kovitvadhi",
+        "first_name": "Satit",
+        "last_name": "Kovitvadhi",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5076538783",
+        "total_citations": 1211
+      },
+      {
+        "id": "bsru_w56_0708_629",
+        "full_name_th": "Kovitvadhi Satit",
+        "first_name": "Kovitvadhi",
+        "last_name": "Satit",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5097783210",
+        "total_citations": 2
+      }
+    ]
+  },
+  {
+    "cluster_id": 90,
+    "university": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+    "members": [
+      {
+        "id": "bsru_w56_0208_711",
+        "full_name_th": "Chan Pattama Polyong",
+        "first_name": "Chan",
+        "last_name": "Pattama Polyong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5019017212",
+        "total_citations": 34
+      },
+      {
+        "id": "bsru_w56_0811_197",
+        "full_name_th": "Polyong CHAN PATTAMA",
+        "first_name": "Polyong",
+        "last_name": "CHAN PATTAMA",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5120528074",
+        "total_citations": 2
+      }
+    ]
+  },
+  {
+    "cluster_id": 91,
+    "university": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+    "members": [
+      {
+        "id": "bsru_w56_0225_352",
+        "full_name_th": "Pong Horadal",
+        "first_name": "Pong",
+        "last_name": "Horadal",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5051591424",
+        "total_citations": 15
+      },
+      {
+        "id": "bsru_w56_0667_384",
+        "full_name_th": "Horadal Pong",
+        "first_name": "Horadal",
+        "last_name": "Pong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5093344883",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 92,
+    "university": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+    "members": [
+      {
+        "id": "bsru_w56_0336_327",
+        "full_name_th": "Bung-on Sereerat",
+        "first_name": "Bung-on",
+        "last_name": "Sereerat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5092900229",
+        "total_citations": 12
+      },
+      {
+        "id": "bsru_w56_0450_193",
+        "full_name_th": "Bung - on Sereerat",
+        "first_name": "Bung",
+        "last_name": "- on Sereerat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5093022306",
+        "total_citations": 3
+      }
+    ]
+  },
+  {
+    "cluster_id": 93,
+    "university": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+    "members": [
+      {
+        "id": "bsru_w56_0458_679",
+        "full_name_th": "Shen Qinjie",
+        "first_name": "Shen",
+        "last_name": "Qinjie",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5122892766",
+        "total_citations": 0
+      },
+      {
+        "id": "bsru_w56_0789_533",
+        "full_name_th": "Qinjie Shen",
+        "first_name": "Qinjie",
+        "last_name": "Shen",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5118831401",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 94,
+    "university": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+    "members": [
+      {
+        "id": "bsru_w56_0460_123",
+        "full_name_th": "T.S. Dalvi",
+        "first_name": "T.S.",
+        "last_name": "Dalvi",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5132962587",
+        "total_citations": 0
+      },
+      {
+        "id": "bsru_w56_0847_257",
+        "full_name_th": "T. S. Dalvi",
+        "first_name": "T.",
+        "last_name": "S. Dalvi",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5132935703",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 95,
+    "university": "มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา",
+    "members": [
+      {
+        "id": "bsru_w56_0483_329",
+        "full_name_th": "Nainapas Injoungjirakit",
+        "first_name": "Nainapas",
+        "last_name": "Injoungjirakit",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5053950015",
+        "total_citations": 10
+      },
+      {
+        "id": "bsru_w56_0548_816",
+        "full_name_th": "Injoungjirakit Nainapas",
+        "first_name": "Injoungjirakit",
+        "last_name": "Nainapas",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5147907883",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 96,
+    "university": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+    "members": [
+      {
+        "id": "rmu_w56_0144_682",
+        "full_name_th": "Arun Suikraduang",
+        "first_name": "Arun",
+        "last_name": "Suikraduang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5084674937",
+        "total_citations": 6
+      },
+      {
+        "id": "rmu_w56_1042_193",
+        "full_name_th": "Suikraduang Arun",
+        "first_name": "Suikraduang",
+        "last_name": "Arun",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5112049325",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 97,
+    "university": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+    "members": [
+      {
+        "id": "rmu_w56_0442_967",
+        "full_name_th": "Sanit Teemuangsai",
+        "first_name": "Sanit",
+        "last_name": "Teemuangsai",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5080165130",
+        "total_citations": 100
+      },
+      {
+        "id": "rmu_w56_1016_555",
+        "full_name_th": "Teemuangsai Sanit",
+        "first_name": "Teemuangsai",
+        "last_name": "Sanit",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5098341179",
+        "total_citations": 8
+      }
+    ]
+  },
+  {
+    "cluster_id": 98,
+    "university": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+    "members": [
+      {
+        "id": "rmu_w56_1010_315",
+        "full_name_th": "BOONTAN THAWATCHAI",
+        "first_name": "BOONTAN",
+        "last_name": "THAWATCHAI",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5096018496",
+        "total_citations": 2
+      },
+      {
+        "id": "rmu_w56_1149_796",
+        "full_name_th": "Thawatchai Boontan",
+        "first_name": "Thawatchai",
+        "last_name": "Boontan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5121908234",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 99,
+    "university": "มหาวิทยาลัยราชภัฏบุรีรัมย์",
+    "members": [
+      {
+        "id": "bru_w56_0175_793",
+        "full_name_th": "Karupakorn Laeid-on",
+        "first_name": "Karupakorn",
+        "last_name": "Laeid-on",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5006052732",
+        "total_citations": 0
+      },
+      {
+        "id": "bru_w56_0325_436",
+        "full_name_th": "Karupakorn Laeid- On",
+        "first_name": "Karupakorn",
+        "last_name": "Laeid- On",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5092267209",
+        "total_citations": 3
+      }
+    ]
+  },
+  {
+    "cluster_id": 100,
+    "university": "มหาวิทยาลัยราชภัฏเลย",
+    "members": [
+      {
+        "id": "lru_w56_0027_568",
+        "full_name_th": "Narong Boonsirisumpun",
+        "first_name": "Narong",
+        "last_name": "Boonsirisumpun",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5029842183",
+        "total_citations": 230
+      },
+      {
+        "id": "lru_w56_0272_800",
+        "full_name_th": "Boonsirisumpun Narong",
+        "first_name": "Boonsirisumpun",
+        "last_name": "Narong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5098003169",
+        "total_citations": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 101,
+    "university": "มหาวิทยาลัยราชภัฏเลย",
+    "members": [
+      {
+        "id": "lru_w56_0082_531",
+        "full_name_th": "Suchada Phromkhot",
+        "first_name": "Suchada",
+        "last_name": "Phromkhot",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5020177719",
+        "total_citations": 25
+      },
+      {
+        "id": "lru_w56_0273_244",
+        "full_name_th": "Phromkhot Suchada",
+        "first_name": "Phromkhot",
+        "last_name": "Suchada",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5098003170",
+        "total_citations": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 102,
+    "university": "มหาวิทยาลัยราชภัฏเลย",
+    "members": [
+      {
+        "id": "lru_w56_0093_368",
+        "full_name_th": "Supannee Pruksa",
+        "first_name": "Supannee",
+        "last_name": "Pruksa",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5089796658",
+        "total_citations": 37
+      },
+      {
+        "id": "lru_w56_0242_892",
+        "full_name_th": "Pruksa Supannee",
+        "first_name": "Pruksa",
+        "last_name": "Supannee",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5084221369",
+        "total_citations": 6
+      }
+    ]
+  },
+  {
+    "cluster_id": 103,
+    "university": "มหาวิทยาลัยราชภัฏเลย",
+    "members": [
+      {
+        "id": "lru_w56_0109_910",
+        "full_name_th": "Surajitr Pramuang",
+        "first_name": "Surajitr",
+        "last_name": "Pramuang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5082543783",
+        "total_citations": 118
+      },
+      {
+        "id": "lru_w56_0170_978",
+        "full_name_th": "Surajitr PhD Pramuang",
+        "first_name": "Surajitr",
+        "last_name": "PhD Pramuang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5009179769",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 104,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_2759_975",
+        "full_name_th": "Maria Evangeline Loyola Wiangsamut",
+        "first_name": "Maria",
+        "last_name": "Evangeline Loyola Wiangsamut",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5052866337",
+        "total_citations": 11
+      },
+      {
+        "id": "rmuti_w53b_2565_173",
+        "full_name_th": "Maria Evangeline L. Wiangsamut",
+        "first_name": "Maria",
+        "last_name": "Evangeline L. Wiangsamut",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5016844402",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 105,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_2009_988",
+        "full_name_th": "R Vijayalakshmi",
+        "first_name": "R",
+        "last_name": "Vijayalakshmi",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5140147465",
+        "total_citations": 0
+      },
+      {
+        "id": "rmuti_w53b_3694_979",
+        "full_name_th": "Vijayalakshmi R",
+        "first_name": "Vijayalakshmi",
+        "last_name": "R",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5129005710",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 106,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_2296_993",
+        "full_name_th": "Asst. Prof. Dr. Duanpen Wongsorn",
+        "first_name": "Duanpen",
+        "last_name": "Wongsorn",
+        "academic_title_th": "ผศ.ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5099052219",
+        "total_citations": 0
+      },
+      {
+        "id": "rmuti_w53b_0704_972",
+        "full_name_th": "Duanpen Wongsorn",
+        "first_name": "Duanpen",
+        "last_name": "Wongsorn",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5048760208",
+        "total_citations": 43
+      }
+    ]
+  },
+  {
+    "cluster_id": 107,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_0064_474",
+        "full_name_th": "S. Kalaivani",
+        "first_name": "S.",
+        "last_name": "Kalaivani",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5076747150",
+        "total_citations": 676
+      },
+      {
+        "id": "rmuti_w53b_3677_280",
+        "full_name_th": "Kalaivani S",
+        "first_name": "Kalaivani",
+        "last_name": "S",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5128003414",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 108,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_0205_846",
+        "full_name_th": "Alan White",
+        "first_name": "Alan",
+        "last_name": "White",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5111647196",
+        "total_citations": 1293
+      },
+      {
+        "id": "rmuti_w53b_1353_513",
+        "full_name_th": "Alan E. White",
+        "first_name": "Alan",
+        "last_name": "E. White",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5056890193",
+        "total_citations": 29
+      }
+    ]
+  },
+  {
+    "cluster_id": 109,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_0289_430",
+        "full_name_th": "Sheena Christabel Pravin",
+        "first_name": "Sheena",
+        "last_name": "Christabel Pravin",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5090057113",
+        "total_citations": 121
+      },
+      {
+        "id": "rmuti_w53b_2626_132",
+        "full_name_th": "Christabel Pravin Sheena",
+        "first_name": "Christabel",
+        "last_name": "Pravin Sheena",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5029709036",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 110,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_0321_631",
+        "full_name_th": "Pichai Janmanee",
+        "first_name": "Pichai",
+        "last_name": "Janmanee",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5086556156",
+        "total_citations": 281
+      },
+      {
+        "id": "rmuti_w53b_1708_581",
+        "full_name_th": "Janmanee Pichai",
+        "first_name": "Janmanee",
+        "last_name": "Pichai",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5097337965",
+        "total_citations": 4
+      }
+    ]
+  },
+  {
+    "cluster_id": 111,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_0452_498",
+        "full_name_th": "M. C. Parameshwara",
+        "first_name": "M.",
+        "last_name": "C. Parameshwara",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5064902155",
+        "total_citations": 206
+      },
+      {
+        "id": "rmuti_w53b_1966_213",
+        "full_name_th": "Parameshwara M. C",
+        "first_name": "Parameshwara",
+        "last_name": "M. C",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5110312695",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 112,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_0940_707",
+        "full_name_th": "Manus Kaewbucha",
+        "first_name": "Manus",
+        "last_name": "Kaewbucha",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5098958636",
+        "total_citations": 1
+      },
+      {
+        "id": "rmuti_w53b_3628_105",
+        "full_name_th": "Kaewbucha Manus",
+        "first_name": "Kaewbucha",
+        "last_name": "Manus",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5124814960",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 113,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_1076_282",
+        "full_name_th": "Nuan La-ong Srakaew",
+        "first_name": "Nuan",
+        "last_name": "La-ong Srakaew",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5004834208",
+        "total_citations": 28
+      },
+      {
+        "id": "rmuti_w53b_2189_699",
+        "full_name_th": "Nuan La Ong Srakaew",
+        "first_name": "Nuan",
+        "last_name": "La Ong Srakaew",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5058527587",
+        "total_citations": 13
+      }
+    ]
+  },
+  {
+    "cluster_id": 114,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_1162_284",
+        "full_name_th": "R. Essaki Raj",
+        "first_name": "R.",
+        "last_name": "Essaki Raj",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5084548191",
+        "total_citations": 51
+      },
+      {
+        "id": "rmuti_w53b_3653_660",
+        "full_name_th": "Essaki Raj R",
+        "first_name": "Essaki",
+        "last_name": "Raj R",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5126258690",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 115,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_1200_686",
+        "full_name_th": "Anukun Arngbunta",
+        "first_name": "Anukun",
+        "last_name": "Arngbunta",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5015346397",
+        "total_citations": 63
+      },
+      {
+        "id": "rmuti_w53b_3108_172",
+        "full_name_th": "Arngbunta Anukun",
+        "first_name": "Arngbunta",
+        "last_name": "Anukun",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5098345652",
+        "total_citations": 4
+      }
+    ]
+  },
+  {
+    "cluster_id": 116,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_1263_874",
+        "full_name_th": "Sarang Dagajirao Patil",
+        "first_name": "Sarang",
+        "last_name": "Dagajirao Patil",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5072456679",
+        "total_citations": 7
+      },
+      {
+        "id": "rmuti_w53b_2422_178",
+        "full_name_th": "Sarang D. Patil",
+        "first_name": "Sarang",
+        "last_name": "D. Patil",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5136596573",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 117,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_1289_568",
+        "full_name_th": "Adinath M",
+        "first_name": "Adinath",
+        "last_name": "M",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5123653963",
+        "total_citations": 27
+      },
+      {
+        "id": "rmuti_w53b_2008_417",
+        "full_name_th": "M Adinath",
+        "first_name": "M",
+        "last_name": "Adinath",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5140130011",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 118,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_1393_115",
+        "full_name_th": "Jhanani Shree U",
+        "first_name": "Jhanani",
+        "last_name": "Shree U",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5086232652",
+        "total_citations": 15
+      },
+      {
+        "id": "rmuti_w53b_1916_293",
+        "full_name_th": "U Jhanani Shree",
+        "first_name": "U",
+        "last_name": "Jhanani Shree",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5084854779",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 119,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_1822_931",
+        "full_name_th": "S. Sarada",
+        "first_name": "S.",
+        "last_name": "Sarada",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5038139931",
+        "total_citations": 5
+      },
+      {
+        "id": "rmuti_w53b_2037_479",
+        "full_name_th": "Mrs. S. Sarada",
+        "first_name": "s.",
+        "last_name": "S. Sarada",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5009136038",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 120,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_2005_665",
+        "full_name_th": "Y. M. Manu",
+        "first_name": "Y.",
+        "last_name": "M. Manu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5135420552",
+        "total_citations": 0
+      },
+      {
+        "id": "rmuti_w53b_2014_622",
+        "full_name_th": "Manu Y M",
+        "first_name": "Manu",
+        "last_name": "Y M",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5144238161",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 121,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_2400_145",
+        "full_name_th": "T Thamizhselvan",
+        "first_name": "T",
+        "last_name": "Thamizhselvan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5126212659",
+        "total_citations": 0
+      },
+      {
+        "id": "rmuti_w53b_2409_791",
+        "full_name_th": "Thamizhselvan. T",
+        "first_name": "Thamizhselvan.",
+        "last_name": "T",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5128704039",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 122,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_3578_449",
+        "full_name_th": "Alvin Ancy A.",
+        "first_name": "Alvin",
+        "last_name": "Ancy A.",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5122823564",
+        "total_citations": 0
+      },
+      {
+        "id": "rmuti_w53b_4005_214",
+        "full_name_th": "A Alvin Ancy",
+        "first_name": "A",
+        "last_name": "Alvin Ancy",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5147777636",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 123,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+    "members": [
+      {
+        "id": "rmuti_w53b_3777_644",
+        "full_name_th": "Sunil Kumar N",
+        "first_name": "Sunil",
+        "last_name": "Kumar N",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5135349312",
+        "total_citations": 0
+      },
+      {
+        "id": "rmuti_w53b_3845_532",
+        "full_name_th": "N. Sunil Kumar",
+        "first_name": "N.",
+        "last_name": "Sunil Kumar",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5138142474",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 124,
+    "university": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+    "members": [
+      {
+        "id": "nstru_w56_0179_355",
+        "full_name_th": "Thanatcha Rattanaphant",
+        "first_name": "Thanatcha",
+        "last_name": "Rattanaphant",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5048091299",
+        "total_citations": 1
+      },
+      {
+        "id": "nstru_w56_0737_912",
+        "full_name_th": "Rattanaphant Thanatcha",
+        "first_name": "Rattanaphant",
+        "last_name": "Thanatcha",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5147775066",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 125,
+    "university": "มหาวิทยาลัยราชภัฏเชียงใหม่",
+    "members": [
+      {
+        "id": "cmru_w56_0095_122",
+        "full_name_th": "Hathaithip Sintuya",
+        "first_name": "Hathaithip",
+        "last_name": "Sintuya",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5087404044",
+        "total_citations": 342
+      },
+      {
+        "id": "cmru_w56_0633_908",
+        "full_name_th": "Hathaithip Ninsonti Sintuya",
+        "first_name": "Hathaithip",
+        "last_name": "Ninsonti Sintuya",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5121628934",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 126,
+    "university": "มหาวิทยาลัยราชภัฏเชียงใหม่",
+    "members": [
+      {
+        "id": "cmru_w56_0255_681",
+        "full_name_th": "Suwaluck Uansa-ard",
+        "first_name": "Suwaluck",
+        "last_name": "Uansa-ard",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5112862066",
+        "total_citations": 14
+      },
+      {
+        "id": "cmru_w56_0348_202",
+        "full_name_th": "Suwaluck Uansa ard",
+        "first_name": "Suwaluck",
+        "last_name": "Uansa ard",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5086944077",
+        "total_citations": 18
+      }
+    ]
+  },
+  {
+    "cluster_id": 127,
+    "university": "มหาวิทยาลัยราชภัฏสกลนคร",
+    "members": [
+      {
+        "id": "snru_w56_0020_609",
+        "full_name_th": "P. Yupapin",
+        "first_name": "P.",
+        "last_name": "Yupapin",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5057661894",
+        "total_citations": 2631
+      },
+      {
+        "id": "snru_w56_0002_641",
+        "full_name_th": "P.P. Yupapin",
+        "first_name": "P.P.",
+        "last_name": "Yupapin",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5104687879",
+        "total_citations": 6698
+      }
+    ]
+  },
+  {
+    "cluster_id": 128,
+    "university": "มหาวิทยาลัยราชภัฏสกลนคร",
+    "members": [
+      {
+        "id": "snru_w56_0166_616",
+        "full_name_th": "Gautami G. Shingan",
+        "first_name": "Gautami",
+        "last_name": "G. Shingan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5112847201",
+        "total_citations": 21
+      },
+      {
+        "id": "snru_w56_0493_683",
+        "full_name_th": "Gautami Shingan",
+        "first_name": "Gautami",
+        "last_name": "Shingan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5104423085",
+        "total_citations": 11
+      }
+    ]
+  },
+  {
+    "cluster_id": 129,
+    "university": "มหาวิทยาลัยราชภัฏสกลนคร",
+    "members": [
+      {
+        "id": "snru_w56_0473_899",
+        "full_name_th": "Waro Phengsawat",
+        "first_name": "Waro",
+        "last_name": "Phengsawat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5042860235",
+        "total_citations": 0
+      },
+      {
+        "id": "snru_w56_1240_357",
+        "full_name_th": "Phengsawat Waro",
+        "first_name": "Phengsawat",
+        "last_name": "Waro",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5097996182",
+        "total_citations": 20
+      }
+    ]
+  },
+  {
+    "cluster_id": 130,
+    "university": "มหาวิทยาลัยราชภัฏสกลนคร",
+    "members": [
+      {
+        "id": "snru_w56_0545_651",
+        "full_name_th": "Nattee Khottummee",
+        "first_name": "Nattee",
+        "last_name": "Khottummee",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5085545765",
+        "total_citations": 8
+      },
+      {
+        "id": "snru_w56_1553_378",
+        "full_name_th": "Nattee Khottummee Nattee Khottummee",
+        "first_name": "Nattee",
+        "last_name": "Khottummee Nattee Khottummee",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5143923982",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 131,
+    "university": "มหาวิทยาลัยราชภัฏสกลนคร",
+    "members": [
+      {
+        "id": "snru_w56_0747_865",
+        "full_name_th": "Angkana Teanglum",
+        "first_name": "Angkana",
+        "last_name": "Teanglum",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5052740086",
+        "total_citations": 26
+      },
+      {
+        "id": "snru_w56_1239_327",
+        "full_name_th": "Teanglum Angkana",
+        "first_name": "Teanglum",
+        "last_name": "Angkana",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5097668853",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 132,
+    "university": "มหาวิทยาลัยราชภัฏสกลนคร",
+    "members": [
+      {
+        "id": "snru_w56_0833_112",
+        "full_name_th": "Arjun C Thorat",
+        "first_name": "Arjun",
+        "last_name": "C Thorat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5117404363",
+        "total_citations": 5
+      },
+      {
+        "id": "snru_w56_0868_666",
+        "full_name_th": "Dr. Arjun Chandrakant Thorat",
+        "first_name": "Arjun",
+        "last_name": "Chandrakant Thorat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5141136781",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 133,
+    "university": "มหาวิทยาลัยราชภัฏสกลนคร",
+    "members": [
+      {
+        "id": "snru_w56_1119_774",
+        "full_name_th": "Pattarapong Singhan",
+        "first_name": "Pattarapong",
+        "last_name": "Singhan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5086819445",
+        "total_citations": 4
+      },
+      {
+        "id": "snru_w56_1242_917",
+        "full_name_th": "Singhan Pattarapong",
+        "first_name": "Singhan",
+        "last_name": "Pattarapong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5098305181",
+        "total_citations": 4
+      }
+    ]
+  },
+  {
+    "cluster_id": 134,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+    "members": [
+      {
+        "id": "rmutsv_w53b_0124_213",
+        "full_name_th": "Piyapong Suwanno",
+        "first_name": "Piyapong",
+        "last_name": "Suwanno",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5068129425",
+        "total_citations": 81
+      },
+      {
+        "id": "rmutsv_w53b_0960_123",
+        "full_name_th": "Suwanno Piyapong",
+        "first_name": "Suwanno",
+        "last_name": "Piyapong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5119278246",
+        "total_citations": 16
+      }
+    ]
+  },
+  {
+    "cluster_id": 135,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+    "members": [
+      {
+        "id": "rmutsv_w53b_0137_864",
+        "full_name_th": "Watthanaphon Cheewawuttipong",
+        "first_name": "Watthanaphon",
+        "last_name": "Cheewawuttipong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5047260758",
+        "total_citations": 162
+      },
+      {
+        "id": "rmutsv_w53b_0847_485",
+        "full_name_th": "Cheewawuttipong Watthanaphon",
+        "first_name": "Cheewawuttipong",
+        "last_name": "Watthanaphon",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5098396569",
+        "total_citations": 7
+      }
+    ]
+  },
+  {
+    "cluster_id": 136,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+    "members": [
+      {
+        "id": "rmutsv_w53b_0176_637",
+        "full_name_th": "Sirinat Srionnual",
+        "first_name": "Sirinat",
+        "last_name": "Srionnual",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5001930772",
+        "total_citations": 332
+      },
+      {
+        "id": "rmutsv_w53b_1017_977",
+        "full_name_th": "Sirinat Srionnual Srionnual",
+        "first_name": "Sirinat",
+        "last_name": "Srionnual Srionnual",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5124594109",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 137,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+    "members": [
+      {
+        "id": "rmutsv_w53b_0219_876",
+        "full_name_th": "Tassnapa Wongsnansilp",
+        "first_name": "Tassnapa",
+        "last_name": "Wongsnansilp",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5081375562",
+        "total_citations": 55
+      },
+      {
+        "id": "rmutsv_w53b_0848_818",
+        "full_name_th": "Wongsnansilp Tassnapa",
+        "first_name": "Wongsnansilp",
+        "last_name": "Tassnapa",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5098530195",
+        "total_citations": 3
+      }
+    ]
+  },
+  {
+    "cluster_id": 138,
+    "university": "มหาวิทยาลัยราชภัฏนครปฐม",
+    "members": [
+      {
+        "id": "npru_w56_0330_596",
+        "full_name_th": "Jaramornburapong Chanjira",
+        "first_name": "Jaramornburapong",
+        "last_name": "Chanjira",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5023102115",
+        "total_citations": 5
+      },
+      {
+        "id": "npru_w56_0353_781",
+        "full_name_th": "Chanjira Jaramornburapong",
+        "first_name": "Chanjira",
+        "last_name": "Jaramornburapong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5106436668",
+        "total_citations": 2
+      }
+    ]
+  },
+  {
+    "cluster_id": 139,
+    "university": "มหาวิทยาลัยราชภัฏอุดรธานี",
+    "members": [
+      {
+        "id": "udru_w56_0033_105",
+        "full_name_th": "Liu Yan",
+        "first_name": "Liu",
+        "last_name": "Yan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5100663509",
+        "total_citations": 162
+      },
+      {
+        "id": "udru_w56_0184_580",
+        "full_name_th": "Yan Liu",
+        "first_name": "Yan",
+        "last_name": "Liu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5121057644",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 140,
+    "university": "มหาวิทยาลัยราชภัฏอุดรธานี",
+    "members": [
+      {
+        "id": "udru_w56_0156_338",
+        "full_name_th": "Jakrin Duangkam",
+        "first_name": "Jakrin",
+        "last_name": "Duangkam",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5106060046",
+        "total_citations": 6
+      },
+      {
+        "id": "udru_w56_0546_597",
+        "full_name_th": "Duangkam Jakrin",
+        "first_name": "Duangkam",
+        "last_name": "Jakrin",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5119590805",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 141,
+    "university": "มหาวิทยาลัยราชภัฏอุดรธานี",
+    "members": [
+      {
+        "id": "udru_w56_0476_800",
+        "full_name_th": "Songpon Baolopet",
+        "first_name": "Songpon",
+        "last_name": "Baolopet",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5095780257",
+        "total_citations": 0
+      },
+      {
+        "id": "udru_w56_0561_130",
+        "full_name_th": "Songpon Baolopet Baolopet",
+        "first_name": "Songpon",
+        "last_name": "Baolopet Baolopet",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5123923563",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 142,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา",
+    "members": [
+      {
+        "id": "rmutl_w53b_0109_152",
+        "full_name_th": "Pannawit Khamrot",
+        "first_name": "Pannawit",
+        "last_name": "Khamrot",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5070240077",
+        "total_citations": 14
+      },
+      {
+        "id": "rmutl_w53b_1011_374",
+        "full_name_th": "Khamrot Pannawit",
+        "first_name": "Khamrot",
+        "last_name": "Pannawit",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5093017391",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 143,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา",
+    "members": [
+      {
+        "id": "rmutl_w53b_0178_281",
+        "full_name_th": "Adisorn Ode-sri",
+        "first_name": "Adisorn",
+        "last_name": "Ode-sri",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5091638340",
+        "total_citations": 5
+      },
+      {
+        "id": "rmutl_w53b_1284_119",
+        "full_name_th": "Ode-Sri Adisorn",
+        "first_name": "Ode-Sri",
+        "last_name": "Adisorn",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5143864371",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 144,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา",
+    "members": [
+      {
+        "id": "rmutl_w53b_0250_732",
+        "full_name_th": "Tunyaluk Bouphun",
+        "first_name": "Tunyaluk",
+        "last_name": "Bouphun",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5048485471",
+        "total_citations": 119
+      },
+      {
+        "id": "rmutl_w53b_0716_812",
+        "full_name_th": "Bouphun Tunyaluk",
+        "first_name": "Bouphun",
+        "last_name": "Tunyaluk",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5093794515",
+        "total_citations": 18
+      }
+    ]
+  },
+  {
+    "cluster_id": 145,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา",
+    "members": [
+      {
+        "id": "rmutl_w53b_0291_768",
+        "full_name_th": "Tanongsak Sassa-deepaeng",
+        "first_name": "Tanongsak",
+        "last_name": "Sassa-deepaeng",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5047443176",
+        "total_citations": 51
+      },
+      {
+        "id": "rmutl_w53b_0675_438",
+        "full_name_th": "Tanongsak Sassa- Deepaeng",
+        "first_name": "Tanongsak",
+        "last_name": "Sassa- Deepaeng",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5057929250",
+        "total_citations": 2
+      }
+    ]
+  },
+  {
+    "cluster_id": 146,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+    "members": [
+      {
+        "id": "rmutto_w53b_0480_521",
+        "full_name_th": "Luo Zhilin",
+        "first_name": "Luo",
+        "last_name": "Zhilin",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5028333825",
+        "total_citations": 1
+      },
+      {
+        "id": "rmutto_w53b_0294_245",
+        "full_name_th": "Zhilin Luo",
+        "first_name": "Zhilin",
+        "last_name": "Luo",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5110935718",
+        "total_citations": 11
+      }
+    ]
+  },
+  {
+    "cluster_id": 147,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+    "members": [
+      {
+        "id": "rmutto_w53b_0076_288",
+        "full_name_th": "Hao Liang",
+        "first_name": "Hao",
+        "last_name": "Liang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5043984239",
+        "total_citations": 369
+      },
+      {
+        "id": "rmutto_w53b_0446_583",
+        "full_name_th": "Liang Hao",
+        "first_name": "Liang",
+        "last_name": "Hao",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5129075514",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 148,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+    "members": [
+      {
+        "id": "rmutto_w53b_0093_663",
+        "full_name_th": "Yan Cao",
+        "first_name": "Yan",
+        "last_name": "Cao",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5102220945",
+        "total_citations": 316
+      },
+      {
+        "id": "rmutto_w53b_0414_558",
+        "full_name_th": "Cao Yan",
+        "first_name": "Cao",
+        "last_name": "Yan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5101390167",
+        "total_citations": 3
+      }
+    ]
+  },
+  {
+    "cluster_id": 149,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+    "members": [
+      {
+        "id": "rmutto_w53b_0189_981",
+        "full_name_th": "Manus Kaewbucha",
+        "first_name": "Manus",
+        "last_name": "Kaewbucha",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5098958636",
+        "total_citations": 1
+      },
+      {
+        "id": "rmutto_w53b_0698_107",
+        "full_name_th": "Kaewbucha Manus",
+        "first_name": "Kaewbucha",
+        "last_name": "Manus",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5124814960",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 150,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+    "members": [
+      {
+        "id": "rmutto_w53b_0221_743",
+        "full_name_th": "Krisada Daoruang",
+        "first_name": "Krisada",
+        "last_name": "Daoruang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5099049034",
+        "total_citations": 2
+      },
+      {
+        "id": "rmutto_w53b_0740_276",
+        "full_name_th": "Krisada Daoruang²",
+        "first_name": "Krisada",
+        "last_name": "Daoruang²",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5139611691",
+        "total_citations": 0
+      },
+      {
+        "id": "rmutto_w53b_0749_932",
+        "full_name_th": "Daoruang Krisada",
+        "first_name": "Daoruang",
+        "last_name": "Krisada",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5140210034",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 151,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+    "members": [
+      {
+        "id": "rmutto_w53b_0310_872",
+        "full_name_th": "Guobin Zhou",
+        "first_name": "Guobin",
+        "last_name": "Zhou",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5046239163",
+        "total_citations": 3
+      },
+      {
+        "id": "rmutto_w53b_0424_376",
+        "full_name_th": "Zhou Guobin",
+        "first_name": "Zhou",
+        "last_name": "Guobin",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5116132174",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 152,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+    "members": [
+      {
+        "id": "rmutto_w53b_0453_828",
+        "full_name_th": "Zeng WeiAn",
+        "first_name": "Zeng",
+        "last_name": "WeiAn",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5140217973",
+        "total_citations": 0
+      },
+      {
+        "id": "rmutto_w53b_0739_268",
+        "full_name_th": "Zeng WeiAn¹",
+        "first_name": "Zeng",
+        "last_name": "WeiAn¹",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5139566848",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 153,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+    "members": [
+      {
+        "id": "rmutto_w53b_0511_654",
+        "full_name_th": "Tanasorn Girum",
+        "first_name": "Tanasorn",
+        "last_name": "Girum",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5073301871",
+        "total_citations": 7
+      },
+      {
+        "id": "rmutto_w53b_0585_733",
+        "full_name_th": "Girum Tanasorn",
+        "first_name": "Girum",
+        "last_name": "Tanasorn",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5115021432",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 154,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+    "members": [
+      {
+        "id": "rmutto_w53b_0602_456",
+        "full_name_th": "Longxiu Si",
+        "first_name": "Longxiu",
+        "last_name": "Si",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5116887806",
+        "total_citations": 0
+      },
+      {
+        "id": "rmutto_w53b_0607_861",
+        "full_name_th": "Si Longxiu",
+        "first_name": "Si",
+        "last_name": "Longxiu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5117364116",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 155,
+    "university": "มหาวิทยาลัยราชภัฏร้อยเอ็ด",
+    "members": [
+      {
+        "id": "reru_w56_0068_385",
+        "full_name_th": "Surumpa Charoensuk Kaewwong",
+        "first_name": "Surumpa",
+        "last_name": "Charoensuk Kaewwong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5011018119",
+        "total_citations": 2
+      },
+      {
+        "id": "reru_w56_0140_157",
+        "full_name_th": "Surumpa C. KAEWWONG",
+        "first_name": "Surumpa",
+        "last_name": "C. KAEWWONG",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5047863662",
+        "total_citations": 2
+      }
+    ]
+  },
+  {
+    "cluster_id": 156,
+    "university": "มหาวิทยาลัยราชภัฏร้อยเอ็ด",
+    "members": [
+      {
+        "id": "reru_w56_0084_715",
+        "full_name_th": "Somprasong Senarat",
+        "first_name": "Somprasong",
+        "last_name": "Senarat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5042166665",
+        "total_citations": 4
+      },
+      {
+        "id": "reru_w56_0154_246",
+        "full_name_th": "Senarat Somprasong",
+        "first_name": "Senarat",
+        "last_name": "Somprasong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5097813266",
+        "total_citations": 12
+      }
+    ]
+  },
+  {
+    "cluster_id": 157,
+    "university": "มหาวิทยาลัยราชภัฏเพชรบูรณ์",
+    "members": [
+      {
+        "id": "pcru_w56_0256_985",
+        "full_name_th": "Prof. Dr.Xiaoyin Zhang Prof. Dr.Xiaoyin Zhang",
+        "first_name": "Xiaoyin",
+        "last_name": "Zhang",
+        "academic_title_th": "ศ.ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5114989985",
+        "total_citations": 0
+      },
+      {
+        "id": "pcru_w56_0257_171",
+        "full_name_th": "Prof. Dr. Xiaoyin Zhang",
+        "first_name": "Xiaoyin",
+        "last_name": "Zhang",
+        "academic_title_th": "ศ.ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5115758134",
+        "total_citations": 0
+      },
+      {
+        "id": "pcru_w56_0004_753",
+        "full_name_th": "Xiaoyin Zhang",
+        "first_name": "Xiaoyin",
+        "last_name": "Zhang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5101978482",
+        "total_citations": 1025
+      }
+    ]
+  },
+  {
+    "cluster_id": 158,
+    "university": "มหาวิทยาลัยราชภัฏเพชรบูรณ์",
+    "members": [
+      {
+        "id": "pcru_w56_0026_984",
+        "full_name_th": "Ampol Chayomchai",
+        "first_name": "Ampol",
+        "last_name": "Chayomchai",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5033800495",
+        "total_citations": 125
+      },
+      {
+        "id": "pcru_w56_0166_633",
+        "full_name_th": "Chayomchai Ampol",
+        "first_name": "Chayomchai",
+        "last_name": "Ampol",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5135937310",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 159,
+    "university": "มหาวิทยาลัยราชภัฏเพชรบูรณ์",
+    "members": [
+      {
+        "id": "pcru_w56_0074_713",
+        "full_name_th": "Piyawan Petmee",
+        "first_name": "Piyawan",
+        "last_name": "Petmee",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5000081918",
+        "total_citations": 8
+      },
+      {
+        "id": "pcru_w56_0169_472",
+        "full_name_th": "Petmee Piyawan",
+        "first_name": "Petmee",
+        "last_name": "Piyawan",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5136000673",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 160,
+    "university": "มหาวิทยาลัยราชภัฏเพชรบูรณ์",
+    "members": [
+      {
+        "id": "pcru_w56_0153_338",
+        "full_name_th": "Piyanuch Promprasert",
+        "first_name": "Piyanuch",
+        "last_name": "Promprasert",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5096291531",
+        "total_citations": 7
+      },
+      {
+        "id": "pcru_w56_0165_459",
+        "full_name_th": "Promprasert Piyanuch",
+        "first_name": "Promprasert",
+        "last_name": "Piyanuch",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5135924844",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 161,
+    "university": "มหาวิทยาลัยราชภัฏเพชรบูรณ์",
+    "members": [
+      {
+        "id": "pcru_w56_0167_396",
+        "full_name_th": "Hemmun Siripong",
+        "first_name": "Hemmun",
+        "last_name": "Siripong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5135968855",
+        "total_citations": 0
+      },
+      {
+        "id": "pcru_w56_0292_926",
+        "full_name_th": "Siripong Hemmun",
+        "first_name": "Siripong",
+        "last_name": "Hemmun",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5135913066",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 162,
+    "university": "มหาวิทยาลัยราชภัฏเพชรบูรณ์",
+    "members": [
+      {
+        "id": "pcru_w56_0168_340",
+        "full_name_th": "Phetcharaburanin Nipon",
+        "first_name": "Phetcharaburanin",
+        "last_name": "Nipon",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5135979658",
+        "total_citations": 0
+      },
+      {
+        "id": "pcru_w56_0293_162",
+        "full_name_th": "Nipon Phetcharaburanin",
+        "first_name": "Nipon",
+        "last_name": "Phetcharaburanin",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5135971051",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 163,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ",
+    "members": [
+      {
+        "id": "rmuts_w53b_0092_112",
+        "full_name_th": "Tatree Bosittipichet",
+        "first_name": "Tatree",
+        "last_name": "Bosittipichet",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5061355198",
+        "total_citations": 3
+      },
+      {
+        "id": "rmuts_w53b_0311_520",
+        "full_name_th": "Bosittipichet Tatree",
+        "first_name": "Bosittipichet",
+        "last_name": "Tatree",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5010526835",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 164,
+    "university": "มหาวิทยาลัยราชภัฏอุตรดิตถ์",
+    "members": [
+      {
+        "id": "uru_w56_0092_116",
+        "full_name_th": "Sangnate Voraporn",
+        "first_name": "Sangnate",
+        "last_name": "Voraporn",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5022109507",
+        "total_citations": 1
+      },
+      {
+        "id": "uru_w56_0146_850",
+        "full_name_th": "Voraporn Sangnate",
+        "first_name": "Voraporn",
+        "last_name": "Sangnate",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5022032818",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 165,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0030_276",
+        "full_name_th": "Ke Sun",
+        "first_name": "Ke",
+        "last_name": "Sun",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5102888663",
+        "total_citations": 2346
+      },
+      {
+        "id": "nida_w55_0121_755",
+        "full_name_th": "Sun Ke",
+        "first_name": "Sun",
+        "last_name": "Ke",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5102201111",
+        "total_citations": 73
+      }
+    ]
+  },
+  {
+    "cluster_id": 166,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0099_204",
+        "full_name_th": "Xiang Yu",
+        "first_name": "Xiang",
+        "last_name": "Yu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5101607627",
+        "total_citations": 648
+      },
+      {
+        "id": "nida_w55_0174_686",
+        "full_name_th": "Yu Xiang",
+        "first_name": "Yu",
+        "last_name": "Xiang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5100321688",
+        "total_citations": 1020
+      }
+    ]
+  },
+  {
+    "cluster_id": 167,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0056_751",
+        "full_name_th": "Ran Lu",
+        "first_name": "Ran",
+        "last_name": "Lu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5101744407",
+        "total_citations": 911
+      },
+      {
+        "id": "nida_w55_0146_589",
+        "full_name_th": "Lu Ran",
+        "first_name": "Lu",
+        "last_name": "Ran",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5050643243",
+        "total_citations": 1434
+      }
+    ]
+  },
+  {
+    "cluster_id": 168,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0170_233",
+        "full_name_th": "Shun-Chi Yu",
+        "first_name": "Shun-Chi",
+        "last_name": "Yu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5062652099",
+        "total_citations": 150
+      },
+      {
+        "id": "nida_w55_0735_727",
+        "full_name_th": "Shun chi Yu",
+        "first_name": "Shun",
+        "last_name": "chi Yu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5104127765",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 169,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0276_429",
+        "full_name_th": "Worapol Pongpech",
+        "first_name": "Worapol",
+        "last_name": "Pongpech",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5085907884",
+        "total_citations": 25
+      },
+      {
+        "id": "nida_w55_1140_187",
+        "full_name_th": "Worapol Alex Pongpech",
+        "first_name": "Worapol",
+        "last_name": "Alex Pongpech",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5114460574",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 170,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0352_390",
+        "full_name_th": "Lin Jing",
+        "first_name": "Lin",
+        "last_name": "Jing",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5100565581",
+        "total_citations": 3
+      },
+      {
+        "id": "nida_w55_1270_749",
+        "full_name_th": "Jing Lin",
+        "first_name": "Jing",
+        "last_name": "Lin",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5136852315",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 171,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0379_418",
+        "full_name_th": "K. C. Dipendra",
+        "first_name": "K.",
+        "last_name": "C. Dipendra",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5108743897",
+        "total_citations": 40
+      },
+      {
+        "id": "nida_w55_0543_399",
+        "full_name_th": "Dipendra K.C.",
+        "first_name": "Dipendra",
+        "last_name": "K.C.",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5054744177",
+        "total_citations": 20
+      }
+    ]
+  },
+  {
+    "cluster_id": 172,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0382_737",
+        "full_name_th": "Thiradech Bhromkhoch",
+        "first_name": "Thiradech",
+        "last_name": "Bhromkhoch",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5125588214",
+        "total_citations": 0
+      },
+      {
+        "id": "nida_w55_0415_562",
+        "full_name_th": "BHROMKHOCH Thiradech",
+        "first_name": "BHROMKHOCH",
+        "last_name": "Thiradech",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5124197750",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 173,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0399_504",
+        "full_name_th": "Pornpen Vora-Sittha",
+        "first_name": "Pornpen",
+        "last_name": "Vora-Sittha",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5033535475",
+        "total_citations": 16
+      },
+      {
+        "id": "nida_w55_0866_590",
+        "full_name_th": "Pornpen Vora Sittha",
+        "first_name": "Pornpen",
+        "last_name": "Vora Sittha",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5036387329",
+        "total_citations": 15
+      }
+    ]
+  },
+  {
+    "cluster_id": 174,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0470_433",
+        "full_name_th": "Yang Ling",
+        "first_name": "Yang",
+        "last_name": "Ling",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5040357352",
+        "total_citations": 4
+      },
+      {
+        "id": "nida_w55_1235_349",
+        "full_name_th": "Ling Yang",
+        "first_name": "Ling",
+        "last_name": "Yang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5129852689",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 175,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0522_733",
+        "full_name_th": "Cong Miao",
+        "first_name": "Cong",
+        "last_name": "Miao",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5027751207",
+        "total_citations": 18
+      },
+      {
+        "id": "nida_w55_1060_336",
+        "full_name_th": "Miao Cong",
+        "first_name": "Miao",
+        "last_name": "Cong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5094074520",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 176,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0563_824",
+        "full_name_th": "Ora-Ong Chakorn",
+        "first_name": "Ora-Ong",
+        "last_name": "Chakorn",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5079465579",
+        "total_citations": 35
+      },
+      {
+        "id": "nida_w55_0951_831",
+        "full_name_th": "Ora Ong Chakorn",
+        "first_name": "Ora",
+        "last_name": "Ong Chakorn",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5074665354",
+        "total_citations": 13
+      }
+    ]
+  },
+  {
+    "cluster_id": 177,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0668_164",
+        "full_name_th": "Hugo Yu- Hsiu Lee",
+        "first_name": "Hugo",
+        "last_name": "Yu- Hsiu Lee",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5060631917",
+        "total_citations": 22
+      },
+      {
+        "id": "nida_w55_0316_509",
+        "full_name_th": "Hugo Yu-Hsiu Lee",
+        "first_name": "Hugo",
+        "last_name": "Yu-Hsiu Lee",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5004834215",
+        "total_citations": 38
+      }
+    ]
+  },
+  {
+    "cluster_id": 178,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_1039_546",
+        "full_name_th": "Rinzin Choden",
+        "first_name": "Rinzin",
+        "last_name": "Choden",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5093748581",
+        "total_citations": 2
+      },
+      {
+        "id": "nida_w55_1400_975",
+        "full_name_th": "Choden Rinzin",
+        "first_name": "Choden",
+        "last_name": "Rinzin",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5138936619",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 179,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_1506_830",
+        "full_name_th": "Zhang Jingqiu",
+        "first_name": "Zhang",
+        "last_name": "Jingqiu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5148879744",
+        "total_citations": 0
+      },
+      {
+        "id": "nida_w55_0079_888",
+        "full_name_th": "Jingqiu Zhang",
+        "first_name": "Jingqiu",
+        "last_name": "Zhang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5031091494",
+        "total_citations": 941
+      }
+    ]
+  },
+  {
+    "cluster_id": 180,
+    "university": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+    "members": [
+      {
+        "id": "nida_w55_0160_250",
+        "full_name_th": "Renliang Li",
+        "first_name": "Renliang",
+        "last_name": "Li",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5088850773",
+        "total_citations": 223
+      },
+      {
+        "id": "nida_w55_0729_174",
+        "full_name_th": "Li Renliang",
+        "first_name": "Li",
+        "last_name": "Renliang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5097965274",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 181,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร",
+    "members": [
+      {
+        "id": "rmutp_w53b_0038_754",
+        "full_name_th": "Thanapop Soteyome",
+        "first_name": "Thanapop",
+        "last_name": "Soteyome",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5022359921",
+        "total_citations": 1175
+      },
+      {
+        "id": "rmutp_w53b_0658_420",
+        "full_name_th": "Soteyome Thanapop",
+        "first_name": "Soteyome",
+        "last_name": "Thanapop",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5139885211",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 182,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร",
+    "members": [
+      {
+        "id": "rmutp_w53b_0140_942",
+        "full_name_th": "Suwit Paengkanya",
+        "first_name": "Suwit",
+        "last_name": "Paengkanya",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5027628006",
+        "total_citations": 151
+      },
+      {
+        "id": "rmutp_w53b_0620_141",
+        "full_name_th": "Paengkanya Suwit",
+        "first_name": "Paengkanya",
+        "last_name": "Suwit",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5121910330",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 183,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร",
+    "members": [
+      {
+        "id": "rmutp_w53b_0227_884",
+        "full_name_th": "Ponlakrit Kumklam",
+        "first_name": "Ponlakrit",
+        "last_name": "Kumklam",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5038245288",
+        "total_citations": 24
+      },
+      {
+        "id": "rmutp_w53b_0618_856",
+        "full_name_th": "Kumklam Ponlakrit",
+        "first_name": "Kumklam",
+        "last_name": "Ponlakrit",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5121886652",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 184,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร",
+    "members": [
+      {
+        "id": "rmutp_w53b_0256_681",
+        "full_name_th": "Krerk Puangnak",
+        "first_name": "Krerk",
+        "last_name": "Puangnak",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5065071579",
+        "total_citations": 4
+      },
+      {
+        "id": "rmutp_w53b_0474_559",
+        "full_name_th": "Puangnak Krerk",
+        "first_name": "Puangnak",
+        "last_name": "Krerk",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5045010869",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 185,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0006_886",
+        "full_name_th": "Rong Xiong",
+        "first_name": "Rong",
+        "last_name": "Xiong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5019081110",
+        "total_citations": 4591
+      },
+      {
+        "id": "rmutk_w53b_0442_296",
+        "full_name_th": "Xiong Rong",
+        "first_name": "Xiong",
+        "last_name": "Rong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5057602467",
+        "total_citations": 13
+      }
+    ]
+  },
+  {
+    "cluster_id": 186,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0009_637",
+        "full_name_th": "Alan R. White",
+        "first_name": "Alan",
+        "last_name": "R. White",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5103711099",
+        "total_citations": 6422
+      },
+      {
+        "id": "rmutk_w53b_0021_338",
+        "full_name_th": "Alan White",
+        "first_name": "Alan",
+        "last_name": "White",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5044580302",
+        "total_citations": 5640
+      },
+      {
+        "id": "rmutk_w53b_0418_364",
+        "full_name_th": "Alan Robert White",
+        "first_name": "Alan",
+        "last_name": "Robert White",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5128808649",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 187,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0020_642",
+        "full_name_th": "Artaphon Chansamut",
+        "first_name": "Artaphon",
+        "last_name": "Chansamut",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5020438204",
+        "total_citations": 25
+      },
+      {
+        "id": "rmutk_w53b_0419_116",
+        "full_name_th": "chansamut artaphon",
+        "first_name": "chansamut",
+        "last_name": "artaphon",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5143665740",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 188,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0034_839",
+        "full_name_th": "Li Tang",
+        "first_name": "Li",
+        "last_name": "Tang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5067142616",
+        "total_citations": 2960
+      },
+      {
+        "id": "rmutk_w53b_0058_446",
+        "full_name_th": "Tang Li",
+        "first_name": "Tang",
+        "last_name": "Li",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5002898621",
+        "total_citations": 916
+      }
+    ]
+  },
+  {
+    "cluster_id": 189,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0047_330",
+        "full_name_th": "Yi Shen",
+        "first_name": "Yi",
+        "last_name": "Shen",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5064257362",
+        "total_citations": 743
+      },
+      {
+        "id": "rmutk_w53b_0277_438",
+        "full_name_th": "Shen Yi",
+        "first_name": "Shen",
+        "last_name": "Yi",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5037985265",
+        "total_citations": 23
+      }
+    ]
+  },
+  {
+    "cluster_id": 190,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0101_609",
+        "full_name_th": "Tubagus Achmad Darodjat",
+        "first_name": "Tubagus",
+        "last_name": "Achmad Darodjat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5044287271",
+        "total_citations": 114
+      },
+      {
+        "id": "rmutk_w53b_0593_549",
+        "full_name_th": "Tubagus Darodjat",
+        "first_name": "Tubagus",
+        "last_name": "Darodjat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5125020089",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 191,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0114_143",
+        "full_name_th": "Pichai Janmanee",
+        "first_name": "Pichai",
+        "last_name": "Janmanee",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5086556156",
+        "total_citations": 281
+      },
+      {
+        "id": "rmutk_w53b_0404_996",
+        "full_name_th": "Janmanee Pichai",
+        "first_name": "Janmanee",
+        "last_name": "Pichai",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5097337965",
+        "total_citations": 4
+      }
+    ]
+  },
+  {
+    "cluster_id": 192,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0126_583",
+        "full_name_th": "Supot Rattanapun",
+        "first_name": "Supot",
+        "last_name": "Rattanapun",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5061359799",
+        "total_citations": 11
+      },
+      {
+        "id": "rmutk_w53b_0865_664",
+        "full_name_th": "Rattanapun Supot",
+        "first_name": "Rattanapun",
+        "last_name": "Supot",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5116875065",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 193,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0189_799",
+        "full_name_th": "Clinton Chidiebere Anyanwu",
+        "first_name": "Clinton",
+        "last_name": "Chidiebere Anyanwu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5057406649",
+        "total_citations": 42
+      },
+      {
+        "id": "rmutk_w53b_1099_658",
+        "full_name_th": "Clinton C. Anyanwu",
+        "first_name": "Clinton",
+        "last_name": "C. Anyanwu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5149041285",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 194,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0220_198",
+        "full_name_th": "Tubagus Ahmad Darojat",
+        "first_name": "Tubagus",
+        "last_name": "Ahmad Darojat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5036810280",
+        "total_citations": 32
+      },
+      {
+        "id": "rmutk_w53b_0901_821",
+        "full_name_th": "Darojat Tubagus Ahmad",
+        "first_name": "Darojat",
+        "last_name": "Tubagus Ahmad",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5119294888",
+        "total_citations": 1
+      },
+      {
+        "id": "rmutk_w53b_0909_279",
+        "full_name_th": "Tubagus Darojat",
+        "first_name": "Tubagus",
+        "last_name": "Darojat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5120066354",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 195,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0266_274",
+        "full_name_th": "Vuttichat Soonthonsmai",
+        "first_name": "Vuttichat",
+        "last_name": "Soonthonsmai",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5027749749",
+        "total_citations": 21
+      },
+      {
+        "id": "rmutk_w53b_0370_881",
+        "full_name_th": "Soonthonsmai Vuttichat",
+        "first_name": "Soonthonsmai",
+        "last_name": "Vuttichat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5092693846",
+        "total_citations": 10
+      }
+    ]
+  },
+  {
+    "cluster_id": 196,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+    "members": [
+      {
+        "id": "rmutk_w53b_0400_341",
+        "full_name_th": "Sato Rahmat Hirobumi",
+        "first_name": "Sato",
+        "last_name": "Rahmat Hirobumi",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5090747440",
+        "total_citations": 2
+      },
+      {
+        "id": "rmutk_w53b_0836_909",
+        "full_name_th": "Sato Hirobumi Rahmat",
+        "first_name": "Sato",
+        "last_name": "Hirobumi Rahmat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5111094103",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 197,
+    "university": "มหาวิทยาลัยราชภัฏลำปาง",
+    "members": [
+      {
+        "id": "lpru_w56_0008_840",
+        "full_name_th": "Jirapast Sichaem",
+        "first_name": "Jirapast",
+        "last_name": "Sichaem",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5074528425",
+        "total_citations": 1127
+      },
+      {
+        "id": "lpru_w56_0104_879",
+        "full_name_th": "Sichaem Jirapast",
+        "first_name": "Sichaem",
+        "last_name": "Jirapast",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5117148097",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 198,
+    "university": "มหาวิทยาลัยราชภัฏลำปาง",
+    "members": [
+      {
+        "id": "lpru_w56_0235_253",
+        "full_name_th": "Hong Wei",
+        "first_name": "Hong",
+        "last_name": "Wei",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5136695611",
+        "total_citations": 0
+      },
+      {
+        "id": "lpru_w56_0236_118",
+        "full_name_th": "Wei Hong",
+        "first_name": "Wei",
+        "last_name": "Hong",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5137118806",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 199,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์",
+    "members": [
+      {
+        "id": "rmutr_w53b_0011_578",
+        "full_name_th": "Peng Liu",
+        "first_name": "Peng",
+        "last_name": "Liu",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5023925857",
+        "total_citations": 6640
+      },
+      {
+        "id": "rmutr_w53b_0117_608",
+        "full_name_th": "Liu Peng",
+        "first_name": "Liu",
+        "last_name": "Peng",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5104077695",
+        "total_citations": 42
+      }
+    ]
+  },
+  {
+    "cluster_id": 200,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์",
+    "members": [
+      {
+        "id": "rmutr_w53b_0003_760",
+        "full_name_th": "Min Ye",
+        "first_name": "Min",
+        "last_name": "Ye",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5100725242",
+        "total_citations": 16555
+      },
+      {
+        "id": "rmutr_w53b_0100_639",
+        "full_name_th": "Ye Min",
+        "first_name": "Ye",
+        "last_name": "Min",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5068328839",
+        "total_citations": 31
+      }
+    ]
+  },
+  {
+    "cluster_id": 201,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์",
+    "members": [
+      {
+        "id": "rmutr_w53b_0006_677",
+        "full_name_th": "Jian Zhang",
+        "first_name": "Jian",
+        "last_name": "Zhang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5100409941",
+        "total_citations": 4075
+      },
+      {
+        "id": "rmutr_w53b_0121_390",
+        "full_name_th": "Zhang Jian",
+        "first_name": "Zhang",
+        "last_name": "Jian",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5101717648",
+        "total_citations": 23
+      }
+    ]
+  },
+  {
+    "cluster_id": 202,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์",
+    "members": [
+      {
+        "id": "rmutr_w53b_0097_445",
+        "full_name_th": "Nutteera Phakdeephirot",
+        "first_name": "Nutteera",
+        "last_name": "Phakdeephirot",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5042722220",
+        "total_citations": 90
+      },
+      {
+        "id": "rmutr_w53b_0575_968",
+        "full_name_th": "Phakdeephirot Nutteera",
+        "first_name": "Phakdeephirot",
+        "last_name": "Nutteera",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5092950931",
+        "total_citations": 23
+      }
+    ]
+  },
+  {
+    "cluster_id": 203,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์",
+    "members": [
+      {
+        "id": "rmutr_w53b_0253_539",
+        "full_name_th": "Kitiya Suhem",
+        "first_name": "Kitiya",
+        "last_name": "Suhem",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5084377938",
+        "total_citations": 195
+      },
+      {
+        "id": "rmutr_w53b_0704_193",
+        "full_name_th": "Kitiya Suhem Suhem",
+        "first_name": "Kitiya",
+        "last_name": "Suhem Suhem",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5123601965",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 204,
+    "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์",
+    "members": [
+      {
+        "id": "rmutr_w53b_0269_402",
+        "full_name_th": "Yizhou Zeng",
+        "first_name": "Yizhou",
+        "last_name": "Zeng",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5100594100",
+        "total_citations": 16
+      },
+      {
+        "id": "rmutr_w53b_0464_518",
+        "full_name_th": "zeng yizhou",
+        "first_name": "zeng",
+        "last_name": "yizhou",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5107059870",
+        "total_citations": 2
+      }
+    ]
+  },
+  {
+    "cluster_id": 205,
+    "university": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+    "members": [
+      {
+        "id": "nrru_w56_0180_123",
+        "full_name_th": "Nathkapach K Rattanapitoon",
+        "first_name": "Nathkapach",
+        "last_name": "K Rattanapitoon",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5120567563",
+        "total_citations": 1
+      },
+      {
+        "id": "nrru_w56_0010_129",
+        "full_name_th": "Nathkapach Kaewpitoon Rattanapitoon",
+        "first_name": "Nathkapach",
+        "last_name": "Kaewpitoon Rattanapitoon",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5080824253",
+        "total_citations": 49
+      },
+      {
+        "id": "nrru_w56_0417_721",
+        "full_name_th": "Nathkapach Rattanapitoon",
+        "first_name": "Nathkapach",
+        "last_name": "Rattanapitoon",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5123627152",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 206,
+    "university": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+    "members": [
+      {
+        "id": "nrru_w56_0204_758",
+        "full_name_th": "Asst. Prof. Dr. Atthawit Singsalasang",
+        "first_name": "Atthawit",
+        "last_name": "Singsalasang",
+        "academic_title_th": "ผศ.ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5039303487",
+        "total_citations": 4
+      },
+      {
+        "id": "nrru_w56_0145_622",
+        "full_name_th": "Atthawit Singsalasang",
+        "first_name": "Atthawit",
+        "last_name": "Singsalasang",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5038675793",
+        "total_citations": 43
+      }
+    ]
+  },
+  {
+    "cluster_id": 207,
+    "university": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+    "members": [
+      {
+        "id": "nrru_w56_0009_791",
+        "full_name_th": "Schawanya Kaewpitoon Rattanapitoon",
+        "first_name": "Schawanya",
+        "last_name": "Kaewpitoon Rattanapitoon",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5103016887",
+        "total_citations": 31
+      },
+      {
+        "id": "nrru_w56_0416_978",
+        "full_name_th": "Schawanya K. Rattanapitoon",
+        "first_name": "Schawanya",
+        "last_name": "K. Rattanapitoon",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5123172616",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 208,
+    "university": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+    "members": [
+      {
+        "id": "nrru_w56_0064_216",
+        "full_name_th": "Wilailuck Naksri",
+        "first_name": "Wilailuck",
+        "last_name": "Naksri",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5076385654",
+        "total_citations": 288
+      },
+      {
+        "id": "nrru_w56_0607_251",
+        "full_name_th": "Naksri Wilailuck",
+        "first_name": "Naksri",
+        "last_name": "Wilailuck",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5116851266",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 209,
+    "university": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+    "members": [
+      {
+        "id": "nrru_w56_0285_511",
+        "full_name_th": "Onlamee Kamon In",
+        "first_name": "Onlamee",
+        "last_name": "Kamon In",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5009621185",
+        "total_citations": 6
+      },
+      {
+        "id": "nrru_w56_0550_526",
+        "full_name_th": "Onlamee Kamon-In",
+        "first_name": "Onlamee",
+        "last_name": "Kamon-In",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5091854785",
+        "total_citations": 2
+      }
+    ]
+  },
+  {
+    "cluster_id": 210,
+    "university": "มหาวิทยาลัยราชภัฏพระนคร",
+    "members": [
+      {
+        "id": "pnru_w56_0273_253",
+        "full_name_th": "Ph.D. KwanmingKhumprasert",
+        "first_name": "Kwanming",
+        "last_name": "Khumprasert",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5067880797",
+        "total_citations": 0
+      },
+      {
+        "id": "pnru_w56_0297_963",
+        "full_name_th": "Kwanming Khumprasert",
+        "first_name": "Kwanming",
+        "last_name": "Khumprasert",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5091120870",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 211,
+    "university": "มหาวิทยาลัยราชภัฏพระนคร",
+    "members": [
+      {
+        "id": "pnru_w56_0287_434",
+        "full_name_th": "Ph.D. PiphatKovitkanit",
+        "first_name": "Piphat",
+        "last_name": "Kovitkanit",
+        "academic_title_th": "ดร.",
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5080887524",
+        "total_citations": 0
+      },
+      {
+        "id": "pnru_w56_0145_676",
+        "full_name_th": "Piphat Kovitkanit",
+        "first_name": "Piphat",
+        "last_name": "Kovitkanit",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5084274565",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 212,
+    "university": "มหาวิทยาลัยราชภัฏพระนคร",
+    "members": [
+      {
+        "id": "pnru_w56_0054_959",
+        "full_name_th": "Aksorn Sawasdee",
+        "first_name": "Aksorn",
+        "last_name": "Sawasdee",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5018923696",
+        "total_citations": 35
+      },
+      {
+        "id": "pnru_w56_0335_212",
+        "full_name_th": "Aksorn Sawasdee Aksorn Sawasdee",
+        "first_name": "Aksorn",
+        "last_name": "Sawasdee Aksorn Sawasdee",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5109817950",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 213,
+    "university": "มหาวิทยาลัยราชภัฏพระนคร",
+    "members": [
+      {
+        "id": "pnru_w56_0195_285",
+        "full_name_th": "Naruemon Witheethummasak",
+        "first_name": "Naruemon",
+        "last_name": "Witheethummasak",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5116805363",
+        "total_citations": 0
+      },
+      {
+        "id": "pnru_w56_0386_344",
+        "full_name_th": "Witheethummasak Naruemon",
+        "first_name": "Witheethummasak",
+        "last_name": "Naruemon",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5140013638",
+        "total_citations": 0
+      }
+    ]
+  },
+  {
+    "cluster_id": 214,
+    "university": "มหาวิทยาลัยราชภัฏพระนคร",
+    "members": [
+      {
+        "id": "pnru_w56_0213_956",
+        "full_name_th": "Uten Thongtip",
+        "first_name": "Uten",
+        "last_name": "Thongtip",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5008049411",
+        "total_citations": 1
+      },
+      {
+        "id": "pnru_w56_0320_920",
+        "full_name_th": "Thongtip Uten",
+        "first_name": "Thongtip",
+        "last_name": "Uten",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5097126951",
+        "total_citations": 1
+      }
+    ]
+  },
+  {
+    "cluster_id": 215,
+    "university": "มหาวิทยาลัยราชภัฏพระนคร",
+    "members": [
+      {
+        "id": "pnru_w56_0340_470",
+        "full_name_th": "Panida Saenprakob Pornudomthap",
+        "first_name": "Panida",
+        "last_name": "Saenprakob Pornudomthap",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5116489606",
+        "total_citations": 0
+      },
+      {
+        "id": "pnru_w56_0389_362",
+        "full_name_th": "Panida S. Pornudomthap",
+        "first_name": "Panida",
+        "last_name": "S. Pornudomthap",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5144107659",
+        "total_citations": 5
+      }
+    ]
+  },
+  {
+    "cluster_id": 216,
+    "university": "มหาวิทยาลัยราชภัฏจันทรเกษม",
+    "members": [
+      {
+        "id": "cru_w56_0087_864",
+        "full_name_th": "Sirithip Wasinrat",
+        "first_name": "Sirithip",
+        "last_name": "Wasinrat",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5047711710",
+        "total_citations": 11
+      },
+      {
+        "id": "cru_w56_0184_909",
+        "full_name_th": "Wasinrat Sirithip",
+        "first_name": "Wasinrat",
+        "last_name": "Sirithip",
+        "academic_title_th": null,
+        "department_th": null,
+        "email": null,
+        "openalex_id": "A5029483664",
+        "total_citations": 0
+      }
+    ]
+  }
+]

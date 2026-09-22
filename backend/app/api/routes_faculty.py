@@ -53,10 +53,10 @@ def db_to_pydantic(
 
     return FacultyMember(
         id=db_model.id,
-        university=db_model.university,
-        university_th=db_model.university_th,
-        faculty=db_model.faculty,
-        faculty_th=db_model.faculty_th,
+        university=db_model.university or "",
+        university_th=db_model.university_th or "",
+        faculty=db_model.faculty or "",
+        faculty_th=db_model.faculty_th or "",
         department=db_model.department or "",
         department_th=db_model.department_th or "",
         academic_title_th=db_model.academic_title_th,
@@ -68,9 +68,9 @@ def db_to_pydantic(
         email=db_model.email,
         image_url=db_model.image_url,
         profile_url=db_model.profile_url,
-        education=db_model.education,
-        research_interests=db_model.research_interests,
-        taught_courses=db_model.taught_courses,
+        education=db_model.education or [],
+        research_interests=db_model.research_interests or [],
+        taught_courses=db_model.taught_courses or [],
         featured_publications=[
             {"title": pub} if isinstance(pub, str) else pub
             for pub in (db_model.featured_publications or [])
@@ -98,10 +98,10 @@ def db_to_card(db_model: FacultyDB, has_lab: Optional[bool] = None) -> FacultyCa
 
     return FacultyCardSchema(
         id=db_model.id,
-        university=db_model.university,
-        university_th=db_model.university_th,
-        faculty=db_model.faculty,
-        faculty_th=db_model.faculty_th,
+        university=db_model.university or "",
+        university_th=db_model.university_th or "",
+        faculty=db_model.faculty or "",
+        faculty_th=db_model.faculty_th or "",
         department=db_model.department or "",
         department_th=db_model.department_th or "",
         academic_title_th=db_model.academic_title_th,

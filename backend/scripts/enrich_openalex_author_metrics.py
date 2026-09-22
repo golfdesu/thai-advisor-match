@@ -42,8 +42,12 @@ import unicodedata
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-sys.path.insert(0, os.path.abspath("backend"))
-sys.path.insert(0, os.path.abspath("backend/scripts"))
+from pathlib import Path
+
+_SCRIPTS_DIR = Path(__file__).resolve().parent
+_BACKEND_DIR = _SCRIPTS_DIR.parent
+sys.path.insert(0, str(_BACKEND_DIR))
+sys.path.insert(0, str(_SCRIPTS_DIR))
 
 from sqlalchemy import and_, or_
 
@@ -229,6 +233,7 @@ def probe(row):
     """NETWORK ONLY — no DB access (runs in worker threads). row is a plain tuple."""
     rid, fn, ln, uni = row[:4]
     interests = row[4] if len(row) > 4 else None
+    via_topic = False
     try:
         if DISAMBIGUATE:
             cands = search_authors(f"{strip_accents(fn).strip()} {strip_accents(ln).strip()}")
@@ -272,8 +277,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true", help="write to DB (default: dry-run)")
     ap.add_argument("--limit", type=int, default=0, help="max faculty this invocation (0 = all)")
-    ap.add_argument("--workers", type=int, default=4)
-    ap.add_argument("--batch", type=int, default=40, help="commit interval")
+    ap.add_argument("--workers", type=int, default=21, help="worker threads (saturates 7 OpenAlex keys)")
+    ap.add_argument("--batch", type=int, default=100, help="commit interval")
     ap.add_argument("--include-sentinel", action="store_true",
                     help="also re-probe rows marked 'not_indexed' with h_index=0 "
                          "(use after a rate-limited run; quota resets daily)")
@@ -363,6 +368,13 @@ def main():
                 fac.total_publications_count or 0,
                 payload["total_publications_count"],
             )
+            if (fac.first_author_count or 0) > 0 or (fac.co_author_count or 0) > 0:
+                current_sum = (fac.first_author_count or 0) + (fac.co_author_count or 0)
+                diff = applied_publications - current_sum
+                if diff > 0:
+                    fac.co_author_count = (fac.co_author_count or 0) + diff
+                else:
+                    applied_publications = current_sum
             fac.total_publications_count = applied_publications
             if payload.get("first_name") and payload.get("last_name"):
                 if not (fac.first_name and fac.first_name.isascii()):

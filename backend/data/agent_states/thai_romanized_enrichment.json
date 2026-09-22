@@ -1,0 +1,513 @@
+{
+  "timestamp": "2026-09-22 07:27:56",
+  "mode": "apply",
+  "stats": {
+    "match": 399,
+    "not_indexed": 2062,
+    "ambiguous": 161,
+    "applied": 2622
+  },
+  "changes_count": 2622,
+  "sample_changes": [
+    {
+      "id": "buu_w42_0456_581",
+      "first_name": "Patcharaya",
+      "last_name": "Palasut",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0496_656",
+      "first_name": "Voratham",
+      "last_name": "Phongsichomphu",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "tsu_w50_0381_549",
+      "first_name": "Thananchakorn",
+      "last_name": "Pakittawichit",
+      "openalex_id": "https://openalex.org/A5093193941",
+      "h_index": 1,
+      "total_citations": 6,
+      "total_publications_count": 7,
+      "verdict": "match"
+    },
+    {
+      "id": "buu_w42_0416_843",
+      "first_name": "Amonchat",
+      "last_name": "Sermcheep",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0511_858",
+      "first_name": "Rungnipha",
+      "last_name": "Liang",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0429_579",
+      "first_name": "Chotika",
+      "last_name": "Techaniyom",
+      "openalex_id": "https://openalex.org/A5035997983",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 2,
+      "verdict": "match"
+    },
+    {
+      "id": "universi_schoolof_99e9cd35",
+      "first_name": "Surangkana",
+      "last_name": "Rawangyot",
+      "openalex_id": "https://openalex.org/A5112641564",
+      "h_index": 1,
+      "total_citations": 12,
+      "total_publications_count": 1,
+      "verdict": "match"
+    },
+    {
+      "id": "maejouni_facultyo_f629b13c",
+      "first_name": "Kullacha",
+      "last_name": "Chayarop",
+      "openalex_id": "https://openalex.org/A5060718926",
+      "h_index": 3,
+      "total_citations": 35,
+      "total_publications_count": 4,
+      "verdict": "match"
+    },
+    {
+      "id": "buu_w42_0513_246",
+      "first_name": "Siwarak",
+      "last_name": "Ruangsakun",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0430_211",
+      "first_name": "Onusa",
+      "last_name": "Phimsawat",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0455_305",
+      "first_name": "Wanwisa",
+      "last_name": "Koolphatnirun",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0445_442",
+      "first_name": "Setthaphon",
+      "last_name": "Ruangthiang",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "psu_w41_0026_763",
+      "first_name": "Anucha",
+      "last_name": "Ratana",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0521_705",
+      "first_name": "Teeradech",
+      "last_name": "Manakul",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0530_554",
+      "first_name": "Phattama",
+      "last_name": "Phodi",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "maejouni_facultyo_e53d103b",
+      "first_name": "Supathida",
+      "last_name": "Amthong",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0531_985",
+      "first_name": "Phasiri",
+      "last_name": "Yongsiri",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0514_995",
+      "first_name": "Wuttichai",
+      "last_name": "Sawangsaeng",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0510_551",
+      "first_name": "Boonlert",
+      "last_name": "Yongphet",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0431_699",
+      "first_name": "Nichuta",
+      "last_name": "Boonkham",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "tsu_w50_1237_163",
+      "first_name": "Seyed",
+      "last_name": "Rezamoosavijafari",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0484_658",
+      "first_name": "Suphattra",
+      "last_name": "Kaopradit Sapchukul",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "nu_w45_0003_869",
+      "first_name": "Prondanai",
+      "last_name": "Katkasem",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0432_288",
+      "first_name": "Kanchana",
+      "last_name": "Chanphram",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0408_291",
+      "first_name": "Rangsirat",
+      "last_name": "Wongupparat",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0469_646",
+      "first_name": "Yanisa",
+      "last_name": "Sabua",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0497_621",
+      "first_name": "Thanankorn",
+      "last_name": "Choonuan",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "tsu_w50_0158_948",
+      "first_name": "Dusida",
+      "last_name": "Kaewsomboon",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "psu_w41_0044_868",
+      "first_name": "Thammarsat",
+      "last_name": "Visutarrom",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "ambiguous_sentinel"
+    },
+    {
+      "id": "tsu_w50_0301_781",
+      "first_name": "Kusumarn",
+      "last_name": "Noipha",
+      "openalex_id": "https://openalex.org/A5040741676",
+      "h_index": 10,
+      "total_citations": 308,
+      "total_publications_count": 26,
+      "verdict": "match"
+    },
+    {
+      "id": "maejouni_facultyo_163d9711",
+      "first_name": "Pranom",
+      "last_name": "Yangkhamman",
+      "openalex_id": "https://openalex.org/A5068309837",
+      "h_index": 4,
+      "total_citations": 57,
+      "total_publications_count": 13,
+      "verdict": "match"
+    },
+    {
+      "id": "maejouni_facultyo_bfa6defb",
+      "first_name": "Orapin",
+      "last_name": "Saritnam",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "maejouni_facultyo_ff65a2a6",
+      "first_name": "Wongphan",
+      "last_name": "Phromwong",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "maejouni_facultyo_16771a89",
+      "first_name": "Warin",
+      "last_name": "Suthon",
+      "openalex_id": "https://openalex.org/A5030777223",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 3,
+      "verdict": "match"
+    },
+    {
+      "id": "tsu_w50_0399_534",
+      "first_name": "rossawan",
+      "last_name": "intarasirisawat",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "ambiguous_sentinel"
+    },
+    {
+      "id": "universi_schoolof_b257529a",
+      "first_name": "Suleeporn",
+      "last_name": "Khamchomphu",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "universi_schoolof_226c7753",
+      "first_name": "Jirabhorn",
+      "last_name": "Chaiwongsai",
+      "openalex_id": "https://openalex.org/A5043228288",
+      "h_index": 3,
+      "total_citations": 51,
+      "total_publications_count": 24,
+      "verdict": "match"
+    },
+    {
+      "id": "wave21_0139_250",
+      "first_name": "Chaiwat",
+      "last_name": "Saengsrichan",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "tsu_w50_0345_123",
+      "first_name": "Wandee",
+      "last_name": "Suthearkul",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "buu_w42_0528_229",
+      "first_name": "Panupong",
+      "last_name": "Banthatuk",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "universi_schoolof_d307bab0",
+      "first_name": "Sakorn",
+      "last_name": "Mekrakavanich",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "wave21_0023_940",
+      "first_name": "Manat",
+      "last_name": "Paengsai",
+      "openalex_id": "https://openalex.org/A5080890640",
+      "h_index": 1,
+      "total_citations": 1,
+      "total_publications_count": 2,
+      "verdict": "match"
+    },
+    {
+      "id": "buu_w42_0529_724",
+      "first_name": "Phurit",
+      "last_name": "Meeprom",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "wu_w51_0116_809",
+      "first_name": "Pongsakorn",
+      "last_name": "Limna",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "ambiguous_sentinel"
+    },
+    {
+      "id": "wave21_0025_177",
+      "first_name": "Teerapat",
+      "last_name": "Limbunruang",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "maejouni_facultyo_26e47b00",
+      "first_name": "Phanit",
+      "last_name": "Nakhayan",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "tsu_w50_0157_298",
+      "first_name": "Thanapha",
+      "last_name": "Charuvites",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "srinakhari_facultyofe_fac_008_008",
+      "first_name": "Prachya",
+      "last_name": "Khana",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "universi_schoolof_5079f2c0",
+      "first_name": "Noppadon",
+      "last_name": "Yotbunrueang",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    },
+    {
+      "id": "tsu_w50_0205_492",
+      "first_name": "Chanokrit",
+      "last_name": "Chonlaphap",
+      "openalex_id": "not_indexed",
+      "h_index": 0,
+      "total_citations": 0,
+      "total_publications_count": 0,
+      "verdict": "not_indexed"
+    }
+  ]
+}

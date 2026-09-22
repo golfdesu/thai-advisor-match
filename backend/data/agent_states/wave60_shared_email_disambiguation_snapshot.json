@@ -1,0 +1,61 @@
+{
+  "timestamp": 1789956960.721052,
+  "phantoms_purged": 6,
+  "total_shared_emails": 226,
+  "uniquely_preserved_emails": 120,
+  "cleared_peers_count": 164,
+  "cleared_generics_count": 623,
+  "total_records_cleared": 787,
+  "sample_preserved": [
+    {
+      "email": "aekkaraj.n@psu.ac.th",
+      "owner_id": "princeofso_facultyofs_nuallaong_117",
+      "owner_name": "ผศ.ดร. เอกราช นวลละออง"
+    },
+    {
+      "email": "alan.g@psu.ac.th",
+      "owner_id": "psu_med_alan_001",
+      "owner_name": "ศ.ดร. แอลัน เกียร์เตอร์"
+    },
+    {
+      "email": "alissara@kku.ac.th",
+      "owner_id": "kku_tech_alissara_001",
+      "owner_name": "ศ.ดร. อลิศรา เรืองแสง"
+    },
+    {
+      "email": "aoitip@sut.ac.th",
+      "owner_id": "wave30_0010_444",
+      "owner_name": "อ.ดร. อ้อยทิพย์ สมานรส"
+    },
+    {
+      "email": "apichai.ph@psu.ac.th",
+      "owner_id": "princeofso_facultyofs_pholchai_224",
+      "owner_name": "รศ.ดร. อภิชัย พลชัย"
+    },
+    {
+      "email": "apinan.a@tsu.ac.th",
+      "owner_id": "thaksinuni_facultyofe_uaangkul_031",
+      "owner_name": "อ.ดร. อภินันท์ เอื้ออังกูร"
+    },
+    {
+      "email": "boonyang@g.swu.ac.th",
+      "owner_id": "rmuti_w53b_0123_643",
+      "owner_name": "รศ.ดร. บุญยัง ปลั่งกลาง"
+    },
+    {
+      "email": "branesh.mad@mahidol.ac.th",
+      "owner_id": "mahidoluni_department_pillai_002",
+      "owner_name": "ดร. Branesh M. Pillai"
+    },
+    {
+      "email": "chakadee@tsu.ac.th",
+      "owner_id": "thaksinuni_collegeofi_boonkasame_015",
+      "owner_name": "อ.ดร. ชคดี บุญเกษม"
+    },
+    {
+      "email": "chalong@tsu.ac.th",
+      "owner_id": "tsu_w50_0040_521",
+      "owner_name": "อ. ฉลอง ฤทธิ์เลื่อน"
+    }
+  ]
+}

@@ -288,25 +288,25 @@ python backend/scripts/agentic_pipeline/run_acquire.py --url https://www.eng.chu
 
 ## 7. Current System Status & Next Acquisition Waves
 
-### 7.1 Current System Status (As of 2026-09-20)
-* **Faculty & Researchers in Local DB:** **59,960 records** (Post-Stage 6 Unlisted Discovery, 10-Dimensional Zero-Defect Baseline).
+### 7.1 Current System Status (As of 2026-09-22)
+* **Faculty & Researchers in Local DB:** **171,626 records** (Post-Stage 6 Unlisted Discovery, 10-Dimensional Zero-Defect Baseline).
 * **Missing Vector Embeddings:** **0 records** (100% 768-dimensional vector completeness).
-* **OpenAlex-resolved Scholars:** **51,094 records** (85.2%) | h-index > 0: **34,587** | Elite advisors (h >= 20 or citations >= 1,000): **3,297** | Total citations: **19.71 Million** (19,705,994).
-* **Romanized English Names from Institutional Sources:** **57,175 records** (95.4% Latin first/last name coverage).
-* **Official Academic Emails:** **17,330 records** (28.9% verified institutional emails, 0 personal freemails, 0 personal phone numbers per PDPA).
+* **OpenAlex-resolved Scholars:** **171,626 records** (100.0%) | h-index > 0: **137,350** | Elite advisors (h >= 20 or citations >= 1,000): **17,731** | Total citations: **146.59 Million** (146,586,744).
+* **Romanized English Names from Institutional Sources:** **166,826 records** (97.2% Latin first/last name coverage).
+* **Official Academic Emails:** **16,312 records** (9.5% verified institutional emails, 0 personal freemails, 0 personal phone numbers per PDPA).
 * **National Flagship Research Laboratories:** **104 Labs** (100% bidirectional advisor linking).
 * **Graduate Academic Programs:** **4,234 curricula** across Thai universities.
 * **Top 10 Universities by Faculty Count:**
-  1. มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน: 4,346
-  2. Kasetsart University (KU): 3,229
-  3. Mae Fah Luang University (MFU): 2,454
-  4. มหาวิทยาลัยวลัยลักษณ์: 2,417
-  5. Chulalongkorn University (CU): 2,361
-  6. มหาวิทยาลัยทักษิณ: 2,128
-  7. มหาวิทยาลัยราชภัฏสวนสุนันทา: 2,108
-  8. มหาวิทยาลัยแม่โจ้: 2,097
-  9. Chiang Mai University (CMU): 1,782
-  10. Srinakharinwirot University (SWU): 1,612
+  1. Chulalongkorn University (CU): 12,875
+  2. Kasetsart University (KU): 12,797
+  3. Mahidol University (MU): 12,397
+  4. Prince of Songkla University (PSU): 12,113
+  5. Chiang Mai University (CMU): 12,034
+  6. Khon Kaen University (KKU): 11,862
+  7. Thammasat University (TU): 10,868
+  8. King Mongkut's Institute of Technology Ladkrabang (KMITL): 9,355
+  9. King Mongkut's University of Technology Thonburi (KMUTT): 8,351
+  10. Srinakharinwirot University (SWU): 5,144
 ### 7.2 Roadmap & Objectives for Next Waves
 * **Completed Milestones (through 2026-09-20):**
   - **Phases 21–35 Email Recovery:** Recovered authentic official academic emails across KMUTT Microbiology (`mic.kmutt.ac.th`), SIT (`sit.kmutt.ac.th`), SUT Engineering, MJU Agriculture, NIDA Applied Statistics, and Naresuan University.

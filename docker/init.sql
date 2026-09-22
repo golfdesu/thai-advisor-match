@@ -60,6 +60,12 @@ CREATE INDEX IF NOT EXISTS ix_faculties_h_index ON public.faculties (h_index DES
 CREATE INDEX IF NOT EXISTS idx_faculties_uni_fac_dept ON public.faculties (university_th, faculty_th, department_th);
 CREATE INDEX IF NOT EXISTS ix_faculties_embedding_hnsw ON public.faculties USING hnsw (embedding vector_cosine_ops);
 
+-- 2.1 Create Table: scholars_unassigned (Archival for unassigned/co-author scholars)
+CREATE TABLE IF NOT EXISTS public.scholars_unassigned (LIKE public.faculties INCLUDING ALL);
+CREATE INDEX IF NOT EXISTS ix_scholars_unassigned_id ON public.scholars_unassigned (id);
+CREATE INDEX IF NOT EXISTS ix_scholars_unassigned_university_th ON public.scholars_unassigned (university_th);
+CREATE INDEX IF NOT EXISTS ix_scholars_unassigned_h_index ON public.scholars_unassigned (h_index DESC NULLS LAST);
+
 -- 3. Create Table: courses
 CREATE TABLE IF NOT EXISTS public.courses (
     id VARCHAR PRIMARY KEY,

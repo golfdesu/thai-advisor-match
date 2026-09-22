@@ -1,0 +1,573 @@
+{
+  "timestamp": "2026-09-20T16:38:17.950257",
+  "deleted_records": [
+    {
+      "id": "wave21_0015_909",
+      "full_name_th": "อ. หลักสูตรวิศวกรรมศาสตรบัณฑิต (วศ.บ.)",
+      "first_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต",
+      "last_name": "(วศ.บ.)",
+      "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "department_th": null,
+      "role": "อ.",
+      "email": null
+    },
+    {
+      "id": "su_w43_0188_609",
+      "full_name_th": "ผู้รับผิดชอบหลักสูตร / อาจารย์ประจำหลักสูตร",
+      "first_name": "ผู้รับผิดชอบหลักสูตร",
+      "last_name": "/ อาจารย์ประจำหลักสูตร",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty_th": "คณะสัตวศาสตร์และเทคโนโลยีการเกษตร",
+      "department_th": "สาขาวิชาสัตวศาสตร์",
+      "role": null,
+      "email": "silaon_d@su.ac.th"
+    },
+    {
+      "id": "su_w43_0208_925",
+      "full_name_th": "ผู้รับผิดชอบหลักสูตร* / อาจารย์ประจำหลักสูตร",
+      "first_name": "ผู้รับผิดชอบหลักสูตร*",
+      "last_name": "/ อาจารย์ประจำหลักสูตร",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty_th": "คณะสัตวศาสตร์และเทคโนโลยีการเกษตร",
+      "department_th": "สาขาวิชาเทคโนโลยีการผลิตพืช",
+      "role": null,
+      "email": "promchan_t@su.ac.th"
+    },
+    {
+      "id": "su_w43_0218_832",
+      "full_name_th": "ศาสตร์และเทคโนโลยีการเกษตร มหาวิทยาลัยศิลปากร",
+      "first_name": "ศาสตร์และเทคโนโลยีการเกษตร",
+      "last_name": "มหาวิทยาลัยศิลปากร",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty_th": "คณะสัตวศาสตร์และเทคโนโลยีการเกษตร",
+      "department_th": "คณะผู้บริหาร",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "su_w43_0220_705",
+      "full_name_th": "รศัพท์ 0 3289 9686 ต่อ 311002 – 311012",
+      "first_name": "รศัพท์",
+      "last_name": "0 3289 9686 ต่อ 311002 – 311012",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty_th": "คณะสัตวศาสตร์และเทคโนโลยีการเกษตร",
+      "department_th": "คณะผู้บริหาร",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "su_w43_0221_414",
+      "full_name_th": "รศัพท์สายตรง 0 3259 4037 – 8",
+      "first_name": "รศัพท์สายตรง",
+      "last_name": "0 3259 4037 – 8",
+      "university_th": "มหาวิทยาลัยศิลปากร",
+      "faculty_th": "คณะสัตวศาสตร์และเทคโนโลยีการเกษตร",
+      "department_th": "คณะผู้บริหาร",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "sut_w46_0004_701",
+      "full_name_th": "อ. 1 ธ.ค. 2563 – 30 ก.ย. 2567",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาเทคโนโลยีการออกแบบ",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0461_162",
+      "full_name_th": "อ. 1 พ.ย. 2564 – 31 ต.ค. 2568",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมโยธา",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0468_883",
+      "full_name_th": "อ. 1 ต.ค. 2563 – 30 ก.ย. 2567",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมไฟฟ้า",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0477_947",
+      "full_name_th": "Е. И. Капцов",
+      "first_name": "Е.",
+      "last_name": "И. Капцов",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+      "department_th": "สาขาวิชาฟิสิกส์",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0630_202",
+      "full_name_th": "อ. 25 ส.ค. 2537 – 30 ก.ย. 2548",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมเกษตร",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0631_549",
+      "full_name_th": "อ. 1 ต.ค. 2558 – ปัจจุบัน",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมการผลิต",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0666_777",
+      "full_name_th": "อ. 1 ต.ค. 2558 – 30 ก.ย. 2562",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมสิ่งแวดล้อม",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0670_721",
+      "full_name_th": "อ. 1 ต.ค. 2564 – ปัจจุบัน",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมการขนส่ง",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0684_403",
+      "full_name_th": "อ. 1 ก.พ. 2568 – ปัจจุบัน",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมโทรคมนาคม",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0700_452",
+      "full_name_th": "อ. 1 ต.ค. 2566 – ปัจจุบัน",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมโลหการ",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0708_664",
+      "full_name_th": "อ. 1 ม.ค. 2567 – ปัจจุบัน",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมเครื่องกล",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0780_262",
+      "full_name_th": "อ. 1 ม.ค. 2563 – 31 ธ.ค. 2566",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมเคมี",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "sut_w46_0842_165",
+      "full_name_th": "อ. 1 ม.ค. 2569 – ปัจจุบัน",
+      "first_name": null,
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "faculty_th": "สำนักวิชาวิศวกรรมศาสตร์",
+      "department_th": "สาขาวิชาวิศวกรรมเซรามิก",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "ubu_w49_0224_520",
+      "full_name_th": "О. Г. Гоман",
+      "first_name": "О.",
+      "last_name": "Г. Гоман",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "department_th": "ภาควิชาวิทยาศาสตร์",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "ubu_w49_0756_709",
+      "full_name_th": "Dildоrа MURАTОVА",
+      "first_name": "Dildоrа",
+      "last_name": "MURАTОVА",
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "faculty_th": "คณะศิลปศาสตร์",
+      "department_th": "ภาควิชาภาษา",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "tsu_w50_1877_597",
+      "full_name_th": "Ali",
+      "first_name": "Ali",
+      "last_name": null,
+      "university_th": "มหาวิทยาลัยทักษิณ",
+      "faculty_th": "คณะวิทยาศาสตร์และนวัตกรรมดิจิทัล",
+      "department_th": "สาขาวิชาวิทยาศาสตร์",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "wu_w51_1051_594",
+      "full_name_th": "Walailak Journal of Science and Technology",
+      "first_name": "Walailak",
+      "last_name": "Journal of Science and Technology",
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "faculty_th": "สำนักวิชาสารสนเทศศาสตร์",
+      "department_th": "สาขาวิชาเทคโนโลยีสารสนเทศ",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "wu_w51_2146_599",
+      "full_name_th": "Kritsada Kantichol1*, Kawinsara Sudjai2, Chutacaphat Rattanaphan3",
+      "first_name": "Kritsada",
+      "last_name": "Kantichol1*, Kawinsara Sudjai2, Chutacaphat Rattanaphan3",
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "faculty_th": "สำนักวิชาศิลปศาสตร์",
+      "department_th": "สาขาวิชาภาษา",
+      "role": null,
+      "email": null
+    },
+    {
+      "id": "mfu_w52_0893_798",
+      "full_name_th": "Валерій Дармостук",
+      "first_name": "Валерій",
+      "last_name": "Дармостук",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "mfu_w52_1819_594",
+      "full_name_th": "С. И. Карпов",
+      "first_name": "С.",
+      "last_name": "И. Карпов",
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "faculty_th": "สำนักวิชาวิทยาศาสตร์",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "rmutk_w53b_0085_421",
+      "full_name_th": "Conferences",
+      "first_name": "",
+      "last_name": "",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+      "faculty_th": "",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "rmutk_w53b_0094_754",
+      "full_name_th": "EditorJournals",
+      "first_name": "",
+      "last_name": "",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+      "faculty_th": "",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "rmutk_w53b_0596_797",
+      "full_name_th": "Suraphong Watcharajit* Supot Rattanapun Meimei Xing*",
+      "first_name": "",
+      "last_name": "",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+      "faculty_th": "",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "rmuti_w53b_1060_487",
+      "full_name_th": "Чартпук Пракорб",
+      "first_name": "",
+      "last_name": "",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "faculty_th": "",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "rmutp_w53b_0168_140",
+      "full_name_th": "Чартпук Пракорб",
+      "first_name": "",
+      "last_name": "",
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร",
+      "faculty_th": "",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "ssru_w56_0381_429",
+      "full_name_th": "Наталія Овандер",
+      "first_name": "",
+      "last_name": "",
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "faculty_th": "",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "ssru_w56_1051_918",
+      "full_name_th": "ケウサイハ プロイサイ",
+      "first_name": "",
+      "last_name": "",
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "faculty_th": "",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "nstru_w56_0672_783",
+      "full_name_th": "К. Саетанг",
+      "first_name": "",
+      "last_name": "",
+      "university_th": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+      "faculty_th": "",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "skru_w56_0327_612",
+      "full_name_th": "Мирослава Смольніцька",
+      "first_name": "",
+      "last_name": "",
+      "university_th": "มหาวิทยาลัยราชภัฏสงขลา",
+      "faculty_th": "",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    },
+    {
+      "id": "reru_w56_0309_646",
+      "full_name_th": "रेखा नागर",
+      "first_name": "",
+      "last_name": "",
+      "university_th": "มหาวิทยาลัยราชภัฏร้อยเอ็ด",
+      "faculty_th": "",
+      "department_th": "",
+      "role": null,
+      "email": ""
+    }
+  ],
+  "normalized_records_before": [
+    {
+      "id": "wave21_0036_272",
+      "academic_title_th": "รศ.ดร.",
+      "full_name_th": "รศ.ดร. คณิศร์ มาตรา. วงจรไฟฟ้า. กรุงเทพฯ :"
+    },
+    {
+      "id": "wave21_0215_110",
+      "academic_title_th": "ผศ.ดร.",
+      "full_name_th": "ผศ.ดร. เสกสรรค์ ทองติ๊บ (ประวัติ)"
+    },
+    {
+      "id": "wave21_0216_399",
+      "academic_title_th": "ดร.",
+      "full_name_th": "ดร. อุรัชชา สัจจาพงศ์ (ประวัติ)"
+    },
+    {
+      "id": "kmitl_w39_0072_938",
+      "academic_title_th": "ผศ.ดร.",
+      "full_name_th": "ผศ.ดร. อริวา สุกันდი เปอร์มานา"
+    },
+    {
+      "id": "kmitl_w39_0086_189",
+      "academic_title_th": "ผศ.ดร.",
+      "full_name_th": "ผศ.ดร. เชาวลิต หะモンตรี"
+    },
+    {
+      "id": "kmitl_w39_0088_963",
+      "academic_title_th": "รศ.ดร.",
+      "full_name_th": "รศ.ดร. จารุวรรณ ก้อยوانิช"
+    },
+    {
+      "id": "kmitl_w39_0090_593",
+      "academic_title_th": "ผศ.ดร.",
+      "full_name_th": "ผศ.ดร. รณון เจียรตระกูล"
+    },
+    {
+      "id": "kmitl_w39_0136_293",
+      "academic_title_th": "รศ.ดร.",
+      "full_name_th": "รศ.ดร. สารินพร วิเยี่ยมสัตตپงศ์"
+    },
+    {
+      "id": "kmitl_w39_0165_104",
+      "academic_title_th": "รศ.ดร.",
+      "full_name_th": "รศ.ดร. สมยศ เกตุوانิชกิจ"
+    },
+    {
+      "id": "kmitl_w39_0175_503",
+      "academic_title_th": "ดร.",
+      "full_name_th": "ดร. ณัชนนท์ ศุภأдиเรк"
+    },
+    {
+      "id": "wave21_0213_992",
+      "academic_title_th": "อ.ดร.",
+      "full_name_th": "อ.ดร. สุทธิชัย ศิรินวล (ประวัติ)"
+    },
+    {
+      "id": "wave21_0214_663",
+      "academic_title_th": "อ.ดร.",
+      "full_name_th": "อ.ดร. สุรางคนา ไชยรินคำ (ประวัติ)"
+    },
+    {
+      "id": "buu_w42_0217_296",
+      "academic_title_th": "อ.",
+      "full_name_th": "อ. วิทวัส พันธุมจินดา (ประธานหลักสูตร)"
+    },
+    {
+      "id": "buu_w42_0222_937",
+      "academic_title_th": "อ.",
+      "full_name_th": "อ. จิรายุส อาบกิ่ง (ประธานหลักสูตร)"
+    },
+    {
+      "id": "wave22_1321_259",
+      "academic_title_th": "รศ.ดร.",
+      "full_name_th": "รศ.ดร. มณิณี ธีระ락"
+    },
+    {
+      "id": "wave22_1325_223",
+      "academic_title_th": "รศ.",
+      "full_name_th": "รศ. บูรَسยา บุญญագ (Boosya Bunnag)"
+    },
+    {
+      "id": "wave26_0007_583",
+      "academic_title_th": "ศ.ดร.",
+      "full_name_th": "ศ.ดร. พลภัทร บุรา콤"
+    },
+    {
+      "id": "wave26_0008_239",
+      "academic_title_th": "ศ.ดร.",
+      "full_name_th": "ศ.ดร. อุดม ทุม كوسิต"
+    },
+    {
+      "id": "wave26_0014_518",
+      "academic_title_th": "รศ.ดร.",
+      "full_name_th": "รศ.ดร. เกษมศานต์ โชติچากรพันธุ์"
+    },
+    {
+      "id": "wave26_0018_907",
+      "academic_title_th": "รศ.ดร.",
+      "full_name_th": "รศ.ดร. ปานاندا จันทรสุขรี"
+    },
+    {
+      "id": "wave26_0020_553",
+      "academic_title_th": "รศ.ดร.",
+      "full_name_th": "รศ.ดร. ประ폰 Sahapattana"
+    },
+    {
+      "id": "wave26_0034_285",
+      "academic_title_th": "รศ.ดร.",
+      "full_name_th": "รศ.ดร. ณัฐวุฒิ เจนวิทย ڕۆจน์"
+    },
+    {
+      "id": "wave26_0037_394",
+      "academic_title_th": "ผศ.ดร.",
+      "full_name_th": "ผศ.ดร. ธันยニー โพธิสาร"
+    },
+    {
+      "id": "wave26_0044_578",
+      "academic_title_th": "ผศ.ดร.",
+      "full_name_th": "ผศ.ดร. อรรถพล ภูミ"
+    },
+    {
+      "id": "wave27_0039_339",
+      "academic_title_th": "ศ.ดร.",
+      "full_name_th": "ศ.ดร. พันธุ์دا (Panadda Boonserm)"
+    },
+    {
+      "id": "wave27_0045_213",
+      "academic_title_th": "ศ.ดร.",
+      "full_name_th": "ศ.ดร. ชนาน อังศุธนสمบัติ (Chanan Angsuthanasombat)"
+    },
+    {
+      "id": "wave27_0062_229",
+      "academic_title_th": "ศ.ดร.",
+      "full_name_th": "ศ.ดร. บัณฑิต เชטสว่าง (Banthit Chetsawang)"
+    },
+    {
+      "id": "wave27_0073_607",
+      "academic_title_th": "ศ.ดร.",
+      "full_name_th": "ศ.ดร. เฉลิมพร องค์วรรณรसोพณ (Chalermporn Ongvarrasopone)"
+    },
+    {
+      "id": "wave28_0004_662",
+      "academic_title_th": "รศ.ดร.",
+      "full_name_th": "รศ.ดร. ชูเกียรติ นิติ사จประเสริฐ"
+    },
+    {
+      "id": "nu_w45_0068_744",
+      "academic_title_th": "",
+      "full_name_th": "Kroekkiat Chinda,D.V.M (Hons)"
+    },
+    {
+      "id": "mfu_w52_0005_860",
+      "academic_title_th": "อ.",
+      "full_name_th": "ทพ.พันฤทธิ์ ทองมาเอง("
+    },
+    {
+      "id": "mfu_w52_0007_404",
+      "academic_title_th": "อ.",
+      "full_name_th": "ทพญ.ดร.วิสสุตา คำพาที("
+    },
+    {
+      "id": "mfu_w52_0014_346",
+      "academic_title_th": "อ.",
+      "full_name_th": "ศาสตราจาย์(เชี่ยวชาญพิเศษ) ทพ. ดร. สุทธิชัย กฤษณะประกรกิจ"
+    },
+    {
+      "id": "mfu_w52_0050_822",
+      "academic_title_th": "อ.",
+      "full_name_th": "ศ(พิเศษ). ดร.Kevin Hyde"
+    }
+  ]
+}

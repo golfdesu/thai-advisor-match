@@ -1,0 +1,9 @@
+{
+  "timestamp": 1789973723.7430718,
+  "elapsed_seconds": 143.68,
+  "total_records": 171626,
+  "authentic_departments_preserved": 25809,
+  "unspecified_departments_set": 145817,
+  "authentic_pct": 15.04,
+  "unspecified_pct": 84.96
+}

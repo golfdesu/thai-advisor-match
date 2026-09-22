@@ -1,0 +1,770 @@
+{
+  "timestamp": 1789910306.44666,
+  "total_courses": 4234,
+  "updated_count": 189,
+  "stats": {
+    "unclosed_paren_fixed": 2,
+    "explicit_title_fixed": 82,
+    "missing_title_en_fixed": 20,
+    "degree_name_fixed": 21,
+    "missing_description_fixed": 8,
+    "unspecified_faculty_fixed": 17,
+    "sachawisha_typo_fixed": 2,
+    "mu_sc_msc_fixed": 21,
+    "mu_sc_phd_fixed": 18
+  },
+  "sample_updates": [
+    {
+      "id": "3a8d890d54ed60a3a5f49a9f252e85fc",
+      "title_th": "วิทยาศาสตรบัณฑิต สาขาวิชา สถาปัตยกรรม เพื่อการพัฒนาอสังหาริมทรัพย์ (ปรับปรุง 2566)",
+      "title_en": "Not specified",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "B.A./B.Sc.",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์และการผังเมือง",
+      "tuition_per_semester": "24,000 บาท",
+      "tuition_total": "240,000 บาท",
+      "total_credits": null,
+      "duration_years": "4 ปี",
+      "mods": [
+        "unclosed_paren_fixed"
+      ]
+    },
+    {
+      "id": "RAMA-CD-UG",
+      "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาศาสตร์การสื่อความหมายและความผิดปกติของการสื่อความหมาย",
+      "title_en": "Bachelor of Science Program in Communication Disorders",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "Bachelor of Science in Communication Disorders",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี",
+      "tuition_per_semester": "30,000 บาท",
+      "tuition_total": "360,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "chula-law-cert-admin-law",
+      "title_th": "หลักสูตรประกาศนียบัตรทางกฎหมายปกครองและวิธีพิจารณาคดีปกครอง",
+      "title_en": "Certificate Program in Administrative Law and Administrative Court Procedure",
+      "degree_level": "ประกาศนียบัตร",
+      "degree_name": "ประกาศนียบัตรทางกฎหมายปกครองและวิธีพิจารณาคดีปกครอง",
+      "faculty_th": "คณะนิติศาสตร์",
+      "tuition_per_semester": "17,000 บาท",
+      "tuition_total": "136,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "8 เดือน",
+      "mods": [
+        "missing_title_en_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25260041100082",
+      "title_th": "หลักสูตรศิลปบัณฑิต สาขาวิชาศิลปะไทยและวัฒนธรรมสร้างสรรค์ (2566)",
+      "title_en": "Bachelor of Fine Arts Program in Thai Arts and Creative Cultures (2566)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศล.บ. (ศิลปะไทยและวัฒนธรรมสร้างสรรค์)",
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "tuition_per_semester": "17,000 บาท",
+      "tuition_total": "136,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "wave36_nu_msc_02",
+      "title_th": "วิทยาศาสตรมหาบัณฑิต สาขาวิชาเทคโนโลยีชีวภาพทางการเกษตร",
+      "title_en": "Master of Science (Agricultural Biotechnology)",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "วท.ม. (เทคโนโลยีชีวภาพทางการเกษตร)",
+      "faculty_th": "คณะเกษตรศาสตร์ ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+      "tuition_per_semester": null,
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": null,
+      "duration_years": "2 ปี",
+      "mods": [
+        "missing_description_fixed"
+      ]
+    },
+    {
+      "id": "wave36_nu_msc_03",
+      "title_th": "วิทยาศาสตรมหาบัณฑิต สาขาวิชาสัตวศาสตร์",
+      "title_en": "Master of Science (Animal Science)",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "วท.ม. (สัตวศาสตร์)",
+      "faculty_th": "คณะเกษตรศาสตร์ ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+      "tuition_per_semester": null,
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": null,
+      "duration_years": "2 ปี",
+      "mods": [
+        "missing_description_fixed"
+      ]
+    },
+    {
+      "id": "wave37_psu_msc_01",
+      "title_th": "หลักสูตรปริญญาโท วิทยาลัยการคอมพิวเตอร์",
+      "title_en": "Master Degree Program, College of Computing",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "วท.ม. (การคอมพิวเตอร์)",
+      "faculty_th": "วิทยาลัยการคอมพิวเตอร์",
+      "tuition_per_semester": null,
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": null,
+      "duration_years": "2 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "wave36_nu_msc_07",
+      "title_th": "วิทยาศาสตรมหาบัณฑิต สาขาวิชาทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+      "title_en": "Master of Science (Natural Resources and Environment)",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "วท.ม. (ทรัพยากรธรรมชาติและสิ่งแวดล้อม)",
+      "faculty_th": "คณะเกษตรศาสตร์ ทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+      "tuition_per_semester": null,
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": null,
+      "duration_years": "2 ปี",
+      "mods": [
+        "missing_description_fixed"
+      ]
+    },
+    {
+      "id": "CU-SCI-BSC-BC",
+      "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาชีวเคมี",
+      "title_en": "Bachelor of Science Program in Biochemistry",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "Bachelor of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "tuition_per_semester": "21,000 บาท",
+      "tuition_total": "168,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "4 ปี",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "CU-SCI-BSC-MST",
+      "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวัสดุศาสตร์และเทคโนโลยี",
+      "title_en": "Bachelor of Science Program in Materials Science and Technology",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "Bachelor of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "tuition_per_semester": "21,000 บาท",
+      "tuition_total": "168,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "4 ปี",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "CU-SCI-BSC-ZOO",
+      "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาสัตววิทยา",
+      "title_en": "Bachelor of Science Program in Zoology",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "Bachelor of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "tuition_per_semester": "21,000 บาท",
+      "tuition_total": "168,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "4 ปี",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "CU-SCI-MSC-FOODST-INT",
+      "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาศาสตร์และเทคโนโลยีทางอาหาร (หลักสูตรนานาชาติ)",
+      "title_en": "Master of Science Program in Food Science and Technology (International Program)",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "Master of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "tuition_per_semester": "85,000 บาท",
+      "tuition_total": "680,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "CU-SCI-MSC-INDTOX",
+      "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาพิษวิทยาอุตสาหกรรมและการประเมินความเสี่ยง",
+      "title_en": "Master of Science Program in Industrial Toxicology and Risk Assessment",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "Master of Science",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "tuition_per_semester": "21,000 บาท",
+      "tuition_total": "168,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "CU-SCI-PHD-ZOO",
+      "title_th": "หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาสัตววิทยา",
+      "title_en": "Doctor of Philosophy Program in Zoology",
+      "degree_level": "ปริญญาเอก",
+      "degree_name": "Doctor of Philosophy",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "tuition_per_semester": "21,000 บาท",
+      "tuition_total": "168,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "DTMH",
+      "title_th": "หลักสูตรประกาศนียบัตรอายุรศาสตร์เขตร้อนและสุขวิทยา (หลักสูตรนานาชาติ)",
+      "title_en": "Graduate Diploma in Tropical Medicine and Hygiene (D.T.M.&H.)",
+      "degree_level": "ประกาศนียบัตรบัณฑิต",
+      "degree_name": "Graduate Diploma in Tropical Medicine and Hygiene (D.T.M.&H.)",
+      "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+      "tuition_per_semester": "25,000 บาท",
+      "tuition_total": "50,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "NURSING-ASSISTANT-CERTIFICATE",
+      "title_th": "หลักสูตรประกาศนียบัตรผู้ช่วยพยาบาล",
+      "title_en": "The Nursing Assistant Certificate Program",
+      "degree_level": "ประกาศนียบัตร",
+      "degree_name": "Nursing Assistant Certificate",
+      "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+      "tuition_per_semester": "25,000 บาท",
+      "tuition_total": "50,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "1 ปี",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "PHD-PHM",
+      "title_th": "หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาจุลชีววิทยาสาธารณสุข (หลักสูตรนานาชาติ)",
+      "title_en": "Doctor of Philosophy Program in Public Health Microbiology (International Program)",
+      "degree_level": "ปริญญาเอก",
+      "degree_name": "Doctor of Philosophy",
+      "faculty_th": "คณะสาธารณสุขศาสตร์",
+      "tuition_per_semester": "65,000 บาท",
+      "tuition_total": "390,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "RAMA-NS-UG",
+      "title_th": "หลักสูตรพยาบาลศาสตรบัณฑิต",
+      "title_en": "Bachelor of Nursing Science Program",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "Bachelor of Nursing Science",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี",
+      "tuition_per_semester": "30,000 บาท",
+      "tuition_total": "360,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "RAMA-PHD-CLEPI",
+      "title_th": "หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาระบาดวิทยาคลินิก (หลักสูตรนานาชาติ)",
+      "title_en": "Doctor of Philosophy Program in Clinical Epidemiology (International Program)",
+      "degree_level": "ปริญญาเอก",
+      "degree_name": "Doctor of Philosophy",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี",
+      "tuition_per_semester": "65,000 บาท",
+      "tuition_total": "390,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "RAMA-PHD-NURS",
+      "title_th": "หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาพยาบาลศาสตร์ (หลักสูตรนานาชาติ)",
+      "title_en": "Doctor of Philosophy Program in Nursing (International Program)",
+      "degree_level": "ปริญญาเอก",
+      "degree_name": "Doctor of Philosophy",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี",
+      "tuition_per_semester": "65,000 บาท",
+      "tuition_total": "390,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "RAMA-PHD-TRANSMED",
+      "title_th": "หลักสูตรปรัชญาดุษฎีบัณฑิต สาขาวิชาเวชศาสตร์ปริวรรต (หลักสูตรนานาชาติ)",
+      "title_en": "Doctor of Philosophy Program in Translational Medicine (International Program)",
+      "degree_level": "ปริญญาเอก",
+      "degree_name": "Doctor of Philosophy",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี",
+      "tuition_per_semester": "65,000 บาท",
+      "tuition_total": "390,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "RAMA-PM-UG",
+      "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาฉุกเฉินการแพทย์ (Paramedic)",
+      "title_en": "Bachelor of Science Program in Paramedics",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "Bachelor of Science in Paramedics",
+      "faculty_th": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี",
+      "tuition_per_semester": "30,000 บาท",
+      "tuition_total": "360,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "au_simba",
+      "title_th": "หลักสูตรบริหารธุรกิจมหาบัณฑิต (AU SIMBA)",
+      "title_en": "Smart MBA (AU SIMBA)",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "บธ.ม. (บริหารธุรกิจ)",
+      "faculty_th": "คณะบริหารธุรกิจและเศรษฐศาสตร์",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "unspecified_faculty_fixed"
+      ]
+    },
+    {
+      "id": "bsc-ict",
+      "title_th": "หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีสารสนเทศและการสื่อสาร (หลักสูตรนานาชาติ)",
+      "title_en": "Bachelor of Science in Information and Communication Technology (International Program)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "B.Sc. in ICT",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "tuition_per_semester": "21,000 บาท",
+      "tuition_total": "168,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "bu_film_international",
+      "title_th": "หลักสูตรศิลปกรรมศาสตรบัณฑิต สาขาวิชาการผลิตภาพยนตร์และคอนเทนต์ระดับโลก (หลักสูตรนานาชาติ)",
+      "title_en": "Bachelor of Fine Arts in Film, Series and Global Content Production and Business (International Program)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ไม่ระบุ",
+      "faculty_th": "คณะดิจิทัลมีเดียและศิลปะภาพยนตร์",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "bu_m_architecture",
+      "title_th": "สาขาวิชาสถาปัตยกรรม",
+      "title_en": "Master of Architecture Program in Architecture",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "สถ.ม.",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "206,430 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "missing_title_en_fixed"
+      ]
+    },
+    {
+      "id": "bu_m_brand_communication",
+      "title_th": "สาขาวิชาการบริหารแบรนด์และการสื่อสารเชิงกลยุทธ์",
+      "title_en": "Master of Communication Arts in Brand and Strategic Communication Management",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "ไม่ระบุ",
+      "faculty_th": "คณะนิเทศศาสตร์",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "216,430 - 231,630 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "missing_title_en_fixed"
+      ]
+    },
+    {
+      "id": "bu_m_business_administration",
+      "title_th": "สาขาบริหารธุรกิจ",
+      "title_en": "Master of Business Administration Program",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "บธ.ม.",
+      "faculty_th": "คณะบริหารธุรกิจ",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "217,430 - 218,430 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "missing_title_en_fixed"
+      ]
+    },
+    {
+      "id": "bu_m_data_marketing",
+      "title_th": "สาขาวิชาการตลาดเชิงข้อมูลและการสื่อสาร",
+      "title_en": "Master of Communication Arts in Data Marketing and Communication",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "ไม่ระบุ",
+      "faculty_th": "คณะนิเทศศาสตร์",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "297,530 - 302,530 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "missing_title_en_fixed"
+      ]
+    },
+    {
+      "id": "bu_master_arch",
+      "title_th": "หลักสูตรสถาปัตยกรรมศาสตรมหาบัณฑิต สาขาวิชาเอกสถาปัตยกรรม (Architecture) (หลักสูตร 2 ภาษา)",
+      "title_en": "Master of Architecture Program in Architecture (Bilingual Program)",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "สถ.ม.",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "unspecified_faculty_fixed"
+      ]
+    },
+    {
+      "id": "bu_master_arch_idm",
+      "title_th": "หลักสูตรสถาปัตยกรรมศาสตรมหาบัณฑิต สาขาวิชาเอกนวัตกรรมและการบริหารจัดการงานออกแบบ (Innovative Design and Management) (หลักสูตร 2 ภาษา)",
+      "title_en": "Master of Architecture Program in Innovative Design and Management (Bilingual Program)",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "สถ.ม.",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "unspecified_faculty_fixed"
+      ]
+    },
+    {
+      "id": "bu_master_arch_interior",
+      "title_th": "หลักสูตรสถาปัตยกรรมศาสตรมหาบัณฑิต สาขาวิชาเอกสถาปัตยกรรมภายใน (Interior Architecture) (หลักสูตร 2 ภาษา)",
+      "title_en": "Master of Architecture Program in Interior Architecture (Bilingual Program)",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "สถ.ม.",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "unspecified_faculty_fixed",
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "bu_master_ca_brand",
+      "title_th": "หลักสูตรนิเทศศาสตรมหาบัณฑิต (การบริหารแบรนด์และการสื่อสารเชิงกลยุทธ์) (หลักสูตรภาษาไทย)",
+      "title_en": "Master of Communication Arts in Brand Management and Strategic Communication (Thai Program)",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "นศ.ม.",
+      "faculty_th": "คณะนิเทศศาสตร์",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "unspecified_faculty_fixed"
+      ]
+    },
+    {
+      "id": "d2172d03fcc5a2f9c1502cb6576026fd",
+      "title_th": "วิทยาศาสตรมหาบัณฑิต สาขาวิชา ชีววิทยาศาสตร์ประยุกต์ (นานาชาติ) (ใหม่ 2566)",
+      "title_en": "Not specified",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "M.A./M.Sc.",
+      "faculty_th": "คณะแพทยศาสตร์",
+      "tuition_per_semester": "55,000 บาท",
+      "tuition_total": "220,000 บาท",
+      "total_credits": null,
+      "duration_years": "2 ปี",
+      "mods": [
+        "sachawisha_typo_fixed"
+      ]
+    },
+    {
+      "id": "d2b86cbacb8fe0338f1f4eefde4559fb",
+      "title_th": "วิทยาศาสตรมหาบัณฑิต สาขาวิชาวิทยาการคอมพิวเตอร์ (ปรับปรุง 2566)",
+      "title_en": "Not specified",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "M.A./M.Sc.",
+      "faculty_th": "คณะวิทยาศาสตร์และเทคโนโลยี",
+      "tuition_per_semester": "25,000 บาท",
+      "tuition_total": "100,000 บาท",
+      "total_credits": null,
+      "duration_years": "2 ปี",
+      "mods": [
+        "sachawisha_typo_fixed"
+      ]
+    },
+    {
+      "id": "cmu_17_4_008",
+      "title_th": "หลักสูตรวิทยาศาสตรมหาบัณฑิต สาขาวิชาสถาปัตยกรรม",
+      "title_en": "Master of Science Program in Architecture",
+      "degree_level": "ปริญญาโท",
+      "degree_name": "วท.ม. (สถาปัตยกรรม)",
+      "faculty_th": "คณะสถาปัตยกรรมศาสตร์",
+      "tuition_per_semester": "ไม่ระบุ",
+      "tuition_total": "ไม่ระบุ",
+      "total_credits": null,
+      "duration_years": "2 ปี",
+      "mods": [
+        "degree_name_fixed",
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25260041100058",
+      "title_th": "หลักสูตรศิลปบัณฑิต สาขาวิชาประติมากรรม (2566)",
+      "title_en": "Bachelor of Fine Arts Program in Sculpture (2566)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศล.บ. (ประติมากรรม)",
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "tuition_per_semester": "15,000 บาท",
+      "tuition_total": "120,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25260041100058_v2",
+      "title_th": "หลักสูตรศิลปบัณฑิต สาขาวิชาจิตรกรรม (2568)",
+      "title_en": "Bachelor of Fine Arts Program in Painting (2568)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศล.บ. (จิตรกรรม)",
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "tuition_per_semester": "15,000 บาท",
+      "tuition_total": "120,000 บาท",
+      "total_credits": "24 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25260041100071",
+      "title_th": "หลักสูตรศิลปบัณฑิต สาขาวิชาศิลปะภาพพิมพ์ (2566)",
+      "title_en": "Bachelor of Fine Arts Program in Printmaking (2566)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศล.บ. (ศิลปะภาพพิมพ์)",
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "tuition_per_semester": "17,000 บาท",
+      "tuition_total": "136,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25380041100309_v2",
+      "title_th": "หลักสูตรศึกษาศาสตรบัณฑิต สาขาวิชาการศึกษาปฐมวัย-การศึกษาพิเศษ (4 ปี) (2567)",
+      "title_en": "Bachelor of Education Program in Early Childhood Education-Special Education (2567)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศษ.บ. (การศึกษาปฐมวัย-การศึกษาพิเศษ)",
+      "faculty_th": "คณะศึกษาศาสตร์",
+      "tuition_per_semester": "15,000 บาท",
+      "tuition_total": "120,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25400041100807",
+      "title_th": "หลักสูตรศึกษาศาสตรบัณฑิต สาขาวิชาประถมศึกษา (2567)",
+      "title_en": "Bachelor of Education Program in Elementary Education (2567)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศษ.บ. (ประถมศึกษา)",
+      "faculty_th": "คณะศึกษาศาสตร์",
+      "tuition_per_semester": "15,000 บาท",
+      "tuition_total": "120,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25450041100184",
+      "title_th": "หลักสูตรศิลปบัณฑิต สาขาวิชาการถ่ายภาพสร้างสรรค์ (2566)",
+      "title_en": "Bachelor of Fine Arts Program in Creative Photography (2566)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศล.บ. (การถ่ายภาพสร้างสรรค์)",
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "tuition_per_semester": "28,000 บาท",
+      "tuition_total": "224,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25450041101049",
+      "title_th": "หลักสูตรศิลปะบัณฑิต สาขาวิชาการออกแบบ (2566)",
+      "title_en": "Bachelor of Fine Arts Program in Design (2566)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศล.บ. (การออกแบบ)",
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "tuition_per_semester": "15,000 บาท",
+      "tuition_total": "120,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25460041101445",
+      "title_th": "หลักสูตรศึกษาศาสตรบัณฑิต สาขาวิชาชีววิทยา (2567)",
+      "title_en": "Bachelor of Education Program in Biology (2567)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศษ.บ. (ชีววิทยา)",
+      "faculty_th": "คณะศึกษาศาสตร์",
+      "tuition_per_semester": "15,000 บาท",
+      "tuition_total": "120,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25470041103628",
+      "title_th": "หลักสูตรศึกษาศาสตรบัณฑิต สาขาวิชาเคมี (2567)",
+      "title_en": "Bachelor of Education Program in Chemistry (2567)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศษ.บ. (เคมี)",
+      "faculty_th": "คณะศึกษาศาสตร์",
+      "tuition_per_semester": "15,000 บาท",
+      "tuition_total": "120,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "DBHI",
+      "title_th": "หลักสูตรประกาศนียบัตรสารสนเทศชีวการแพทย์และสุขภาพ (หลักสูตรนานาชาติ)",
+      "title_en": "Graduate Diploma in Biomedical and Health Informatics (D.B.H.I.)",
+      "degree_level": "ประกาศนียบัตรบัณฑิต",
+      "degree_name": "Graduate Diploma in Biomedical and Health Informatics (D.B.H.I.)",
+      "faculty_th": "คณะเวชศาสตร์เขตร้อน",
+      "tuition_per_semester": "25,000 บาท",
+      "tuition_total": "50,000 บาท",
+      "total_credits": "ไม่ระบุ",
+      "duration_years": "ไม่ระบุ",
+      "mods": [
+        "explicit_title_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25520041106076",
+      "title_th": "หลักสูตรศึกษาศาสตรบัณฑิต สาขาวิชาฟิสิกส์ (2567)",
+      "title_en": "Bachelor of Education Program in Physics (2567)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศษ.บ. (ฟิสิกส์)",
+      "faculty_th": "คณะศึกษาศาสตร์",
+      "tuition_per_semester": "15,000 บาท",
+      "tuition_total": "120,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25530041102422",
+      "title_th": "หลักสูตรศิลปบัณฑิต สาขาวิชาสื่อศิลปะและการออกแบบสื่อ (2564)",
+      "title_en": "Bachelor of Fine Arts Program in Media Arts and Design (2564)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศล.บ. (สื่อศิลปะและการออกแบบสื่อ)",
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "tuition_per_semester": "30,000 บาท",
+      "tuition_total": "240,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25540041101736",
+      "title_th": "หลักสูตรศิลปบัณฑิต สาขาวิชาสหศาสตร์ศิลป์ (2565)",
+      "title_en": "Bachelor of Fine Arts Program in Multidisciplinary Art (2565)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศล.บ. (สหศาสตร์ศิลป์)",
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "tuition_per_semester": "17,000 บาท",
+      "tuition_total": "136,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    },
+    {
+      "id": "cmu_tqf_25570041101796",
+      "title_th": "หลักสูตรศิลปบัณฑิต สาขาวิชาศิลปะการแสดง (2567)",
+      "title_en": "Bachelor of Fine Arts Program in Performing Arts (2567)",
+      "degree_level": "ปริญญาตรี",
+      "degree_name": "ศล.บ. (ศิลปะการแสดง)",
+      "faculty_th": "คณะวิจิตรศิลป์",
+      "tuition_per_semester": "17,000 บาท",
+      "tuition_total": "136,000 บาท",
+      "total_credits": "30 หน่วยกิต",
+      "duration_years": "4 ปี",
+      "mods": [
+        "degree_name_fixed"
+      ]
+    }
+  ]
+}

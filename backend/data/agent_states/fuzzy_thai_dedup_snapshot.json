@@ -1,0 +1,248 @@
+{
+  "merges": [
+    {
+      "primary_id": "wave30_0015_711",
+      "donor_ids": [
+        "wave30_0006_145"
+      ],
+      "name": "รศ.ดร.ทพ. กวิน สิปิยารักษ์",
+      "before_cites": 662,
+      "after_cites": 662
+    },
+    {
+      "primary_id": "cmu-sci-021_f78748",
+      "donor_ids": [
+        "cmu_oa_disc_a5044507863"
+      ],
+      "name": "ศ.ดร. สมพร จันทระ",
+      "before_cites": 234,
+      "after_cites": 3527
+    },
+    {
+      "primary_id": "nu_w45_0004_432",
+      "donor_ids": [
+        "nu_w45_0895_430"
+      ],
+      "name": "รศ.ดร.ภญ. นิลวรรณ อยู่ภักดี",
+      "before_cites": 100,
+      "after_cites": 100
+    },
+    {
+      "primary_id": "ubonratcha_facultyofp_poolphol_054",
+      "donor_ids": [
+        "ubu_w49_0021_484"
+      ],
+      "name": "ผศ.ภก. ประสิทธิชัย พูลผล",
+      "before_cites": 4,
+      "after_cites": 4
+    },
+    {
+      "primary_id": "ubonratcha_facultyofp_napaporn_018",
+      "donor_ids": [
+        "ubu_w49_0014_361"
+      ],
+      "name": "อ.ดร.ภญ. จินตนา นภาพร",
+      "before_cites": 466,
+      "after_cites": 466
+    },
+    {
+      "primary_id": "ubonratcha_facultyofp_boontem_020",
+      "donor_ids": [
+        "ubu_w49_0004_385"
+      ],
+      "name": "อ.ภญ. จินต์จุฑา บุญเต็ม",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "ubonratcha_facultyofp_veravatnchai_040",
+      "donor_ids": [
+        "ubu_w49_0026_950"
+      ],
+      "name": "อ.ภก. ทวีสิทธิ วีระวัธนชัย",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "ubonratcha_facultyofp_pholtham_060",
+      "donor_ids": [
+        "ubu_w49_0002_939"
+      ],
+      "name": "อ.ภก. ดุรงค์กร พลทม",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "wave21_0228_268",
+      "donor_ids": [
+        "swu_w44_0208_231"
+      ],
+      "name": "อ.ทพญ. พิชญา ไชยรักษ์",
+      "before_cites": 1,
+      "after_cites": 1
+    },
+    {
+      "primary_id": "wave21_0230_200",
+      "donor_ids": [
+        "swu_w44_0209_308"
+      ],
+      "name": "รศ.ดร.ทพญ. นิรดา ธเนศวร",
+      "before_cites": 206,
+      "after_cites": 206
+    },
+    {
+      "primary_id": "wave21_0236_150",
+      "donor_ids": [
+        "swu_w44_0211_487"
+      ],
+      "name": "อ.ทพญ. ธันยพร กองศิล",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "wave21_0233_225",
+      "donor_ids": [
+        "swu_w44_0210_808"
+      ],
+      "name": "อ.ทพญ. ฟ้าใส ภู่เกียรติ",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "wave30_0009_719",
+      "donor_ids": [
+        "wave30_0028_411"
+      ],
+      "name": "ผศ.ดร. ว่าที่ร้อยตรี อานุภาพ วรรณคนาพล",
+      "before_cites": 3,
+      "after_cites": 3
+    },
+    {
+      "primary_id": "wave22_1178_322",
+      "donor_ids": [
+        "regionalun_facultymem_uphoyo_080",
+        "wave22_1174_692"
+      ],
+      "name": "อ.สพ.ญ.ดร. ทิพย์ภาภรณ์ อุปโย",
+      "before_cites": 189,
+      "after_cites": 189
+    },
+    {
+      "primary_id": "wave22_1175_440",
+      "donor_ids": [
+        "wave22_1179_288"
+      ],
+      "name": "อ.สพ.ญ. พิชญา แสนอุบล",
+      "before_cites": 10,
+      "after_cites": 10
+    },
+    {
+      "primary_id": "kmutt_w38_0111_486",
+      "donor_ids": [
+        "kmutt_1a2c0735_2301"
+      ],
+      "name": "รศ.ดร. สุดธิดา เปลี่ยนคารมย์ ธนทรัพย์สิน",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "buu_w42_0564_644",
+      "donor_ids": [
+        "wave22_0883_173"
+      ],
+      "name": "อ. ว่าที่ร้อยตรี ดร. กฤษดา สุรำไพ",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "buu_w42_0534_395",
+      "donor_ids": [
+        "buu_w42_0485_558"
+      ],
+      "name": "ดร. ณัฐวรรธ อุไรรำไพ",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "rmuti_w53b_1420_163",
+      "donor_ids": [
+        "rmuti_w53b_2106_671"
+      ],
+      "name": "จักเรศ เมตตะธำรงค์",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "rmu_w56_0499_676",
+      "donor_ids": [
+        "rmu_w56_0271_871"
+      ],
+      "name": "ชมพูนุช เมฆเมืองทอง",
+      "before_cites": 1,
+      "after_cites": 1
+    },
+    {
+      "primary_id": "bru_w56_0484_984",
+      "donor_ids": [
+        "bru_w56_0451_322"
+      ],
+      "name": "เลอสันต์ ฤทธิ์ขันธ์",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "aru_w56_0189_408",
+      "donor_ids": [
+        "aru_w56_0099_418"
+      ],
+      "name": "วัชรภัทร เตชะวัฒนศิริดำรง",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "cru_w56_0227_599",
+      "donor_ids": [
+        "cru_w56_0228_873"
+      ],
+      "name": "วิทวัส กรมณีโรจน์",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "rmutp_w53b_0661_626",
+      "donor_ids": [
+        "rmutp_w53b_0342_174"
+      ],
+      "name": "อาณัฏ ศิริพิชญ์ตระกูล",
+      "before_cites": 0,
+      "after_cites": 1
+    },
+    {
+      "primary_id": "rmutp_w53b_0644_604",
+      "donor_ids": [
+        "rmutp_w53b_0646_211"
+      ],
+      "name": "ปิยะธิดา สีหะวัฒนะกุล",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "rmutsv_w53b_0990_627",
+      "donor_ids": [
+        "rmutsv_w53b_0938_591"
+      ],
+      "name": "รัสมนต์ ยุระพันธุ์",
+      "before_cites": 0,
+      "after_cites": 0
+    },
+    {
+      "primary_id": "rmutsv_w53b_0995_927",
+      "donor_ids": [
+        "rmutsv_w53b_0809_425"
+      ],
+      "name": "กัตตินาฏ สกุลสวัสดิพันธ์",
+      "before_cites": 1,
+      "after_cites": 1
+    }
+  ]
+}

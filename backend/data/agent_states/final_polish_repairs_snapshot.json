@@ -1,0 +1,1153 @@
+{
+  "timestamp": "2026-09-20T18:03:00.008756",
+  "description": "Final Polish Same-University Deduplication",
+  "merges": [
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "norm_name": "muhammad awais-e-yazdan",
+      "primary_id": "wu_w51_1238_674",
+      "donor_ids": [
+        "wu_w51_2022_334"
+      ],
+      "primary_before_cites": 228,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "norm_name": "k jaroensutasinee",
+      "primary_id": "wu_w51_1954_868",
+      "donor_ids": [
+        "wu_w51_1912_615"
+      ],
+      "primary_before_cites": 15,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "k b naveen",
+      "primary_id": "rmuti_w53b_0323_646",
+      "donor_ids": [
+        "rmuti_w53b_3994_167"
+      ],
+      "primary_before_cites": 99,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+      "norm_name": "kamonchai cha-aim",
+      "primary_id": "swu_w44_0105_776",
+      "donor_ids": [
+        "swu_w44_0577_180"
+      ],
+      "primary_before_cites": 0,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "norm_name": "nn wijayawardene",
+      "primary_id": "mfu_w52_0619_601",
+      "donor_ids": [
+        "mfu_w52_1533_482"
+      ],
+      "primary_before_cites": 820,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "norm_name": "dong-qin dai",
+      "primary_id": "mfu_w52_0679_879",
+      "donor_ids": [
+        "mfu_w52_0561_322"
+      ],
+      "primary_before_cites": 3962,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "norm_name": "ji-chuan kang",
+      "primary_id": "mfu_w52_0694_759",
+      "donor_ids": [
+        "mfu_w52_0825_845"
+      ],
+      "primary_before_cites": 3794,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "norm_name": "j k syers",
+      "primary_id": "mfu_w52_0735_354",
+      "donor_ids": [
+        "mfu_w52_1090_833"
+      ],
+      "primary_before_cites": 3021,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "norm_name": "kd hyde",
+      "primary_id": "mfu_w52_0888_892",
+      "donor_ids": [
+        "mfu_w52_1237_572"
+      ],
+      "primary_before_cites": 591,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่ฟ้าหลวง",
+      "norm_name": "d pem",
+      "primary_id": "mfu_w52_0912_973",
+      "donor_ids": [
+        "mfu_w52_1746_791"
+      ],
+      "primary_before_cites": 556,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยนเรศวร",
+      "norm_name": "kroekkiat chinda",
+      "primary_id": "nu_w45_0260_769",
+      "donor_ids": [
+        "nu_w45_0068_744"
+      ],
+      "primary_before_cites": 1180,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "r shanthi",
+      "primary_id": "rmuti_w53b_2733_713",
+      "donor_ids": [
+        "rmuti_w53b_2621_346",
+        "rmuti_w53b_2794_734",
+        "rmuti_w53b_2511_127"
+      ],
+      "primary_before_cites": 3,
+      "donors_count": 3
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "norm_name": "noichun",
+      "primary_id": "ssru_w56_1210_210",
+      "donor_ids": [
+        "ssru_w56_1251_201",
+        "ssru_w56_1333_597"
+      ],
+      "primary_before_cites": 1,
+      "donors_count": 2
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา",
+      "norm_name": "loganayagan",
+      "primary_id": "rmutl_w53b_1033_250",
+      "donor_ids": [
+        "rmutl_w53b_1038_296"
+      ],
+      "primary_before_cites": 10,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่โจ้",
+      "norm_name": "s yoosuk",
+      "primary_id": "mju_w54_0719_993",
+      "donor_ids": [
+        "mju_w54_1667_200"
+      ],
+      "primary_before_cites": 19,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่โจ้",
+      "norm_name": "k prakrajang",
+      "primary_id": "mju_w54_0317_812",
+      "donor_ids": [
+        "mju_w54_1221_815"
+      ],
+      "primary_before_cites": 120,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยแม่โจ้",
+      "norm_name": "u sompong",
+      "primary_id": "mju_w54_0755_870",
+      "donor_ids": [
+        "mju_w54_1620_342"
+      ],
+      "primary_before_cites": 31,
+      "donors_count": 1
+    },
+    {
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "norm_name": "chih-hung chen",
+      "primary_id": "nida_w55_0219_222",
+      "donor_ids": [
+        "nida_w55_0016_639"
+      ],
+      "primary_before_cites": 157,
+      "donors_count": 1
+    },
+    {
+      "university_th": "สถาบันบัณฑิตพัฒนบริหารศาสตร์",
+      "norm_name": "s vajirakachorn",
+      "primary_id": "nida_w55_0631_693",
+      "donor_ids": [
+        "nida_w55_0925_647"
+      ],
+      "primary_before_cites": 2,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "j kaewkhao",
+      "primary_id": "npru_w56_0004_544",
+      "donor_ids": [
+        "npru_w56_0088_912",
+        "npru_w56_0245_488",
+        "npru_w56_0372_873",
+        "npru_w56_0737_386",
+        "npru_w56_0758_497",
+        "npru_w56_0410_568",
+        "npru_w56_0493_610",
+        "npru_w56_0764_655",
+        "npru_w56_0770_342",
+        "npru_w56_0787_348",
+        "npru_w56_0491_800",
+        "npru_w56_0501_387",
+        "npru_w56_0509_209",
+        "npru_w56_0511_639",
+        "npru_w56_0731_120",
+        "npru_w56_0747_890",
+        "npru_w56_0755_310",
+        "npru_w56_0757_759",
+        "npru_w56_0759_982",
+        "npru_w56_0761_530",
+        "npru_w56_0765_931",
+        "npru_w56_0767_404",
+        "npru_w56_0772_368",
+        "npru_w56_0773_260",
+        "npru_w56_0776_737",
+        "npru_w56_0782_601",
+        "npru_w56_0784_325",
+        "npru_w56_0788_962",
+        "npru_w56_0790_676",
+        "npru_w56_0796_991",
+        "npru_w56_0798_764",
+        "npru_w56_0802_938",
+        "npru_w56_0803_291",
+        "npru_w56_0806_398",
+        "npru_w56_0807_832"
+      ],
+      "primary_before_cites": 15298,
+      "donors_count": 35
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "g annadurai",
+      "primary_id": "npru_w56_0016_270",
+      "donor_ids": [
+        "npru_w56_0120_805",
+        "npru_w56_0389_894"
+      ],
+      "primary_before_cites": 9600,
+      "donors_count": 2
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "n chanthima",
+      "primary_id": "npru_w56_0018_582",
+      "donor_ids": [
+        "npru_w56_0199_450"
+      ],
+      "primary_before_cites": 3213,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "n wantana",
+      "primary_id": "npru_w56_0026_583",
+      "donor_ids": [
+        "npru_w56_0223_927"
+      ],
+      "primary_before_cites": 2573,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+      "norm_name": "arak tira-umphon",
+      "primary_id": "sut_w46_0864_745",
+      "donor_ids": [
+        "sut_w46_0201_615"
+      ],
+      "primary_before_cites": 150,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "k boonin",
+      "primary_id": "npru_w56_0034_602",
+      "donor_ids": [
+        "npru_w56_0237_931"
+      ],
+      "primary_before_cites": 1038,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "n srisittipokakun",
+      "primary_id": "npru_w56_0036_378",
+      "donor_ids": [
+        "npru_w56_0276_574"
+      ],
+      "primary_before_cites": 1718,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "p yasaka",
+      "primary_id": "npru_w56_0042_223",
+      "donor_ids": [
+        "npru_w56_0567_620",
+        "npru_w56_0305_217"
+      ],
+      "primary_before_cites": 1148,
+      "donors_count": 2
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "y ruangtaweep",
+      "primary_id": "npru_w56_0044_947",
+      "donor_ids": [
+        "npru_w56_0407_994",
+        "npru_w56_0500_846",
+        "npru_w56_0762_471",
+        "npru_w56_0492_783",
+        "npru_w56_0510_526",
+        "npru_w56_0754_626",
+        "npru_w56_0775_690",
+        "npru_w56_0777_435",
+        "npru_w56_0783_163",
+        "npru_w56_0789_297",
+        "npru_w56_0797_511"
+      ],
+      "primary_before_cites": 1149,
+      "donors_count": 11
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "p limkitjaroenporn",
+      "primary_id": "npru_w56_0052_560",
+      "donor_ids": [
+        "npru_w56_0411_779"
+      ],
+      "primary_before_cites": 2196,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "k kirdsiri",
+      "primary_id": "npru_w56_0053_854",
+      "donor_ids": [
+        "npru_w56_0241_804"
+      ],
+      "primary_before_cites": 1449,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "w chaiphaksa",
+      "primary_id": "npru_w56_0054_102",
+      "donor_ids": [
+        "npru_w56_0498_611"
+      ],
+      "primary_before_cites": 1211,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "c mutuwong",
+      "primary_id": "npru_w56_0069_618",
+      "donor_ids": [
+        "npru_w56_0792_457"
+      ],
+      "primary_before_cites": 1693,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "p meejitpaisan",
+      "primary_id": "npru_w56_0076_831",
+      "donor_ids": [
+        "npru_w56_0358_141"
+      ],
+      "primary_before_cites": 713,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "a angnanon",
+      "primary_id": "npru_w56_0123_823",
+      "donor_ids": [
+        "npru_w56_0185_425"
+      ],
+      "primary_before_cites": 217,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "s yonphan",
+      "primary_id": "npru_w56_0129_319",
+      "donor_ids": [
+        "npru_w56_0794_441"
+      ],
+      "primary_before_cites": 189,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "b damdee",
+      "primary_id": "npru_w56_0147_518",
+      "donor_ids": [
+        "npru_w56_0320_938"
+      ],
+      "primary_before_cites": 555,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "w wongwan",
+      "primary_id": "npru_w56_0151_891",
+      "donor_ids": [
+        "npru_w56_0301_912"
+      ],
+      "primary_before_cites": 112,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "n kiwsakunkran",
+      "primary_id": "npru_w56_0157_119",
+      "donor_ids": [
+        "npru_w56_0270_208"
+      ],
+      "primary_before_cites": 361,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "n jarucha",
+      "primary_id": "npru_w56_0165_566",
+      "donor_ids": [
+        "npru_w56_0507_114"
+      ],
+      "primary_before_cites": 65,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "w rachniyom",
+      "primary_id": "npru_w56_0177_952",
+      "donor_ids": [
+        "npru_w56_0505_834"
+      ],
+      "primary_before_cites": 154,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "f khrongchaiyaphum",
+      "primary_id": "npru_w56_0180_901",
+      "donor_ids": [
+        "npru_w56_0332_622"
+      ],
+      "primary_before_cites": 122,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "w thanyaphirak",
+      "primary_id": "npru_w56_0184_244",
+      "donor_ids": [
+        "npru_w56_0805_699"
+      ],
+      "primary_before_cites": 73,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "s nualpralaksana",
+      "primary_id": "npru_w56_0399_636",
+      "donor_ids": [
+        "npru_w56_0416_254",
+        "npru_w56_0612_150",
+        "npru_w56_0763_253"
+      ],
+      "primary_before_cites": 16,
+      "donors_count": 3
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "j keawkhao",
+      "primary_id": "npru_w56_0555_556",
+      "donor_ids": [
+        "npru_w56_0439_728"
+      ],
+      "primary_before_cites": 9,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครปฐม",
+      "norm_name": "p kovintavewat",
+      "primary_id": "npru_w56_0560_434",
+      "donor_ids": [
+        "npru_w56_0580_355"
+      ],
+      "primary_before_cites": 0,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "norm_name": "nathkapach k rattanapitoon",
+      "primary_id": "nrru_w56_0180_123",
+      "donor_ids": [
+        "nrru_w56_0712_603"
+      ],
+      "primary_before_cites": 1,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏนครราชสีมา",
+      "norm_name": "schawanya k rattanapitoon",
+      "primary_id": "nrru_w56_0416_978",
+      "donor_ids": [
+        "nrru_w56_0731_374"
+      ],
+      "primary_before_cites": 1,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเพชรบุรี",
+      "norm_name": "p hengjinda",
+      "primary_id": "pbru_w56_0175_146",
+      "donor_ids": [
+        "pbru_w56_0239_252",
+        "pbru_w56_0195_841"
+      ],
+      "primary_before_cites": 26,
+      "donors_count": 2
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏพระนคร",
+      "norm_name": "g gitgeatpong",
+      "primary_id": "pnru_w56_0025_670",
+      "donor_ids": [
+        "pnru_w56_0377_723"
+      ],
+      "primary_before_cites": 300,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "norm_name": "s ramakrishnan",
+      "primary_id": "rmu_w56_0006_146",
+      "donor_ids": [
+        "rmu_w56_0437_801"
+      ],
+      "primary_before_cites": 3797,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "norm_name": "p suresh",
+      "primary_id": "rmu_w56_0079_134",
+      "donor_ids": [
+        "rmu_w56_1172_345"
+      ],
+      "primary_before_cites": 289,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "norm_name": "j ramprasath",
+      "primary_id": "rmu_w56_0140_321",
+      "donor_ids": [
+        "rmu_w56_1174_464"
+      ],
+      "primary_before_cites": 224,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "norm_name": "k saranya",
+      "primary_id": "rmu_w56_0145_409",
+      "donor_ids": [
+        "rmu_w56_1215_384"
+      ],
+      "primary_before_cites": 305,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "norm_name": "t mythili",
+      "primary_id": "rmu_w56_0194_289",
+      "donor_ids": [
+        "rmu_w56_0425_882"
+      ],
+      "primary_before_cites": 163,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "norm_name": "b kalaiselvi",
+      "primary_id": "rmu_w56_0438_156",
+      "donor_ids": [
+        "rmu_w56_0266_799",
+        "rmu_w56_1067_211"
+      ],
+      "primary_before_cites": 9,
+      "donors_count": 2
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏมหาสารคาม",
+      "norm_name": "b medha gayatri",
+      "primary_id": "rmu_w56_0349_407",
+      "donor_ids": [
+        "rmu_w56_0584_137"
+      ],
+      "primary_before_cites": 3,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "p sivakumar",
+      "primary_id": "rmuti_w53b_0071_372",
+      "donor_ids": [
+        "rmuti_w53b_3742_878"
+      ],
+      "primary_before_cites": 769,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "g kavitha",
+      "primary_id": "rmuti_w53b_0092_115",
+      "donor_ids": [
+        "rmuti_w53b_1871_172"
+      ],
+      "primary_before_cites": 439,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "m malathi",
+      "primary_id": "rmuti_w53b_0105_527",
+      "donor_ids": [
+        "rmuti_w53b_3842_341"
+      ],
+      "primary_before_cites": 689,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "s sekar",
+      "primary_id": "rmuti_w53b_0124_721",
+      "donor_ids": [
+        "rmuti_w53b_0475_808"
+      ],
+      "primary_before_cites": 2135,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยมหาสารคาม",
+      "norm_name": "vijitra luang-in",
+      "primary_id": "msu_w47_0493_779",
+      "donor_ids": [
+        "msu_w47_0662_640"
+      ],
+      "primary_before_cites": 1214,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "t manikandan",
+      "primary_id": "rmuti_w53b_0146_174",
+      "donor_ids": [
+        "rmuti_w53b_2699_955",
+        "rmuti_w53b_2404_577"
+      ],
+      "primary_before_cites": 419,
+      "donors_count": 2
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "c ganesh",
+      "primary_id": "rmuti_w53b_0163_163",
+      "donor_ids": [
+        "rmuti_w53b_2030_322"
+      ],
+      "primary_before_cites": 338,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "n wongdamnern",
+      "primary_id": "rmuti_w53b_0212_749",
+      "donor_ids": [
+        "rmuti_w53b_1430_491"
+      ],
+      "primary_before_cites": 590,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "d shobana",
+      "primary_id": "rmuti_w53b_0214_339",
+      "donor_ids": [
+        "rmuti_w53b_0435_900",
+        "rmuti_w53b_1400_826"
+      ],
+      "primary_before_cites": 201,
+      "donors_count": 2
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "m palanivelan",
+      "primary_id": "rmuti_w53b_0238_650",
+      "donor_ids": [
+        "rmuti_w53b_0781_627"
+      ],
+      "primary_before_cites": 162,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "s chokphoemphun",
+      "primary_id": "rmuti_w53b_0285_303",
+      "donor_ids": [
+        "rmuti_w53b_2179_106"
+      ],
+      "primary_before_cites": 839,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "m bakkiyaraj",
+      "primary_id": "rmuti_w53b_0335_393",
+      "donor_ids": [
+        "rmuti_w53b_3586_959"
+      ],
+      "primary_before_cites": 218,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "g ranganathan",
+      "primary_id": "rmuti_w53b_0341_249",
+      "donor_ids": [
+        "rmuti_w53b_0635_818"
+      ],
+      "primary_before_cites": 304,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "n indumathi",
+      "primary_id": "rmuti_w53b_0392_773",
+      "donor_ids": [
+        "rmuti_w53b_3617_601"
+      ],
+      "primary_before_cites": 114,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "o pandithurai",
+      "primary_id": "rmuti_w53b_0438_540",
+      "donor_ids": [
+        "rmuti_w53b_3507_642",
+        "rmuti_w53b_3911_904"
+      ],
+      "primary_before_cites": 168,
+      "donors_count": 2
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "n sarasit",
+      "primary_id": "rmuti_w53b_1086_496",
+      "donor_ids": [
+        "rmuti_w53b_2527_309"
+      ],
+      "primary_before_cites": 6,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "v chinnammal",
+      "primary_id": "rmuti_w53b_1333_784",
+      "donor_ids": [
+        "rmuti_w53b_2779_252"
+      ],
+      "primary_before_cites": 26,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "s poojeera",
+      "primary_id": "rmuti_w53b_1428_881",
+      "donor_ids": [
+        "rmuti_w53b_2425_332"
+      ],
+      "primary_before_cites": 36,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "d munthum",
+      "primary_id": "rmuti_w53b_1432_247",
+      "donor_ids": [
+        "rmuti_w53b_2903_319"
+      ],
+      "primary_before_cites": 3,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "s gowthami",
+      "primary_id": "rmuti_w53b_1444_441",
+      "donor_ids": [
+        "rmuti_w53b_2136_705"
+      ],
+      "primary_before_cites": 5,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "d sasirekha",
+      "primary_id": "rmuti_w53b_1488_336",
+      "donor_ids": [
+        "rmuti_w53b_2576_567"
+      ],
+      "primary_before_cites": 14,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "c amutha",
+      "primary_id": "rmuti_w53b_1717_170",
+      "donor_ids": [
+        "rmuti_w53b_2406_697"
+      ],
+      "primary_before_cites": 3,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "c kamalakannan",
+      "primary_id": "rmuti_w53b_1763_368",
+      "donor_ids": [
+        "rmuti_w53b_2587_437"
+      ],
+      "primary_before_cites": 3,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "m hanumanthu",
+      "primary_id": "rmuti_w53b_1975_702",
+      "donor_ids": [
+        "rmuti_w53b_2918_978"
+      ],
+      "primary_before_cites": 1,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "r vijayalakshmi",
+      "primary_id": "rmuti_w53b_2009_988",
+      "donor_ids": [
+        "rmuti_w53b_3763_651"
+      ],
+      "primary_before_cites": 0,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "m vengadapathiraj",
+      "primary_id": "rmuti_w53b_2164_926",
+      "donor_ids": [
+        "rmuti_w53b_2043_455"
+      ],
+      "primary_before_cites": 8,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน",
+      "norm_name": "a akash",
+      "primary_id": "rmuti_w53b_3680_499",
+      "donor_ids": [
+        "rmuti_w53b_3907_168"
+      ],
+      "primary_before_cites": 0,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+      "norm_name": "c nutnang",
+      "primary_id": "rmutk_w53b_0827_592",
+      "donor_ids": [
+        "rmutk_w53b_0939_952"
+      ],
+      "primary_before_cites": 1,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา",
+      "norm_name": "k umma",
+      "primary_id": "rmutl_w53b_0657_528",
+      "donor_ids": [
+        "rmutl_w53b_1014_762"
+      ],
+      "primary_before_cites": 1,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา",
+      "norm_name": "p parthasarathi",
+      "primary_id": "rmutl_w53b_0774_749",
+      "donor_ids": [
+        "rmutl_w53b_1212_119"
+      ],
+      "primary_before_cites": 6,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเชียงใหม่",
+      "norm_name": "n krutthai",
+      "primary_id": "cmru_w56_0113_749",
+      "donor_ids": [
+        "cmru_w56_0683_453"
+      ],
+      "primary_before_cites": 108,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏเชียงใหม่",
+      "norm_name": "s srithiwong",
+      "primary_id": "cmru_w56_0562_900",
+      "donor_ids": [
+        "cmru_w56_0561_164"
+      ],
+      "primary_before_cites": 7,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏลำปาง",
+      "norm_name": "n suwan",
+      "primary_id": "lpru_w56_0090_362",
+      "donor_ids": [
+        "lpru_w56_0442_703"
+      ],
+      "primary_before_cites": 39,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏลำปาง",
+      "norm_name": "p phothilangka",
+      "primary_id": "lpru_w56_0114_231",
+      "donor_ids": [
+        "lpru_w56_0231_184"
+      ],
+      "primary_before_cites": 296,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏอุดรธานี",
+      "norm_name": "ma songpon baolopet",
+      "primary_id": "udru_w56_0485_278",
+      "donor_ids": [
+        "udru_w56_0482_810"
+      ],
+      "primary_before_cites": 1,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยวลัยลักษณ์",
+      "norm_name": "md eshrat e alahi",
+      "primary_id": "wu_w51_0978_780",
+      "donor_ids": [
+        "wu_w51_1862_282"
+      ],
+      "primary_before_cites": 3265,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยพะเยา",
+      "norm_name": "worathep sae-long",
+      "primary_id": "up_w48_0260_320",
+      "donor_ids": [
+        "up_w48_1069_219"
+      ],
+      "primary_before_cites": 683,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยอุบลราชธานี",
+      "norm_name": "sureeporn kate-ngam",
+      "primary_id": "ubu_w49_0232_943",
+      "donor_ids": [
+        "ubu_w49_0428_488"
+      ],
+      "primary_before_cites": 144,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ",
+      "norm_name": "n wongdamnern",
+      "primary_id": "rmuts_w53b_0024_383",
+      "donor_ids": [
+        "rmuts_w53b_0199_297"
+      ],
+      "primary_before_cites": 590,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ",
+      "norm_name": "d munthum",
+      "primary_id": "rmuts_w53b_0200_486",
+      "donor_ids": [
+        "rmuts_w53b_0506_172"
+      ],
+      "primary_before_cites": 3,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+      "norm_name": "p sangeetha",
+      "primary_id": "rmutsv_w53b_0026_975",
+      "donor_ids": [
+        "rmutsv_w53b_0388_241"
+      ],
+      "primary_before_cites": 402,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+      "norm_name": "c preecha",
+      "primary_id": "rmutsv_w53b_0164_319",
+      "donor_ids": [
+        "rmutsv_w53b_0653_321"
+      ],
+      "primary_before_cites": 54,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+      "norm_name": "w chankaew",
+      "primary_id": "rmutsv_w53b_0177_850",
+      "donor_ids": [
+        "rmutsv_w53b_1102_769"
+      ],
+      "primary_before_cites": 20,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+      "norm_name": "p kaythry",
+      "primary_id": "rmutsv_w53b_0270_325",
+      "donor_ids": [
+        "rmutsv_w53b_0299_447"
+      ],
+      "primary_before_cites": 33,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย",
+      "norm_name": "m akash",
+      "primary_id": "rmutsv_w53b_0616_774",
+      "donor_ids": [
+        "rmutsv_w53b_0728_941"
+      ],
+      "primary_before_cites": 0,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+      "norm_name": "n mongkontanawat",
+      "primary_id": "rmutto_w53b_0180_667",
+      "donor_ids": [
+        "rmutto_w53b_0450_848"
+      ],
+      "primary_before_cites": 41,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+      "norm_name": "k charoensuk",
+      "primary_id": "rmutto_w53b_0373_580",
+      "donor_ids": [
+        "rmutto_w53b_0599_623"
+      ],
+      "primary_before_cites": 2,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก",
+      "norm_name": "n kangkawisut",
+      "primary_id": "rmutto_w53b_0448_810",
+      "donor_ids": [
+        "rmutto_w53b_0614_343"
+      ],
+      "primary_before_cites": 0,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสกลนคร",
+      "norm_name": "p yupapin",
+      "primary_id": "snru_w56_0020_609",
+      "donor_ids": [
+        "snru_w56_1070_204"
+      ],
+      "primary_before_cites": 2631,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "norm_name": "n sangwaranatee",
+      "primary_id": "ssru_w56_0073_688",
+      "donor_ids": [
+        "ssru_w56_0826_184",
+        "ssru_w56_0597_813"
+      ],
+      "primary_before_cites": 737,
+      "donors_count": 2
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "norm_name": "y yamsuk",
+      "primary_id": "ssru_w56_0567_651",
+      "donor_ids": [
+        "ssru_w56_1483_559"
+      ],
+      "primary_before_cites": 92,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "norm_name": "wanna chanate",
+      "primary_id": "ssru_w56_1154_236",
+      "donor_ids": [
+        "ssru_w56_1656_652"
+      ],
+      "primary_before_cites": 2,
+      "donors_count": 1
+    },
+    {
+      "university_th": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+      "norm_name": "p hirunyophat",
+      "primary_id": "ssru_w56_1967_724",
+      "donor_ids": [
+        "ssru_w56_2035_195"
+      ],
+      "primary_before_cites": 0,
+      "donors_count": 1
+    }
+  ]
+}

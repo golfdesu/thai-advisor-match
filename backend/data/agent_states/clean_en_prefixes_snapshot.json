@@ -1,0 +1,6098 @@
+[
+  {
+    "id": "psu_w41_0001_601",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "พิชญา ตัณฑัยย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0002_465",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กฤษณ์วรา รัตนโอภาส",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0003_312",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ปัญญยศ ไชยกาฬ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0004_589",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สหพงศ์ สมวงค์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0005_553",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เสกสรรค์ สุวรรณมณี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0006_682",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "มนตรี กาญจนะเดชะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0007_750",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "แสงสุรีย์ วสุพงศ์อัยยะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0044_868",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "THAMMARSAT VISUTARROM",
+    "new_first": "Thammarsat",
+    "new_last": "Visutarrom"
+  },
+  {
+    "id": "psu_w41_0045_740",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "MANEENATE PUONGMANEE",
+    "new_first": "Maneenate",
+    "new_last": "Puongmanee"
+  },
+  {
+    "id": "psu_w41_0008_575",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ทวีศักดิ์ เรืองพีระกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0009_512",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กฤตศิลป์ ศิลานนท์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0010_725",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "นิคม สุวรรณวร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0011_255",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "เพ็ชรัตน์ สุริยะไชย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0012_577",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "สุธน แซ่ว่อง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0013_757",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ธเนศ เคารพาพงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0014_165",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ธัชชัย เอ้งฉ้วน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0015_634",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วชรินทร์ แก้วอภิชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0016_595",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ยศวีย์ แก้วมณี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0024_682",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "คุณ บงกช พฤกษพงษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0025_562",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "คุณ วิมล คำจันทร์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0026_763",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "คุณ อนุชา รัตนะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0027_596",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "คุณ ไพบูลย์ บุญถวิล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0028_177",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "คุณ พิพัฒน์ พิพิธพัฒนพงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0029_151",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "คุณ รุ่งโรจน์ แซ่จุ้ง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0030_967",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "คุณ อนันต์ นิลโกสีย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0031_389",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "พฤทธิกร สมิตไมตรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0032_508",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐพร แก้วชูทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0033_913",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชลิตา หิรัญสุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0034_119",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นิติพันธุ์ วิทยผดุง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0035_597",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สราวุธ โกนสร้าง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0036_422",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศิวศิษย์ วิทยศิลป์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0037_908",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ลัคน์สิริ ตรีรานุรัตน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0039_604",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "เกียรติศักดิ์ เส้งช่วย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0041_445",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พงศ์ศิริ จุลพงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0042_145",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วิฆเนศว์ ดำคง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0046_254",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "KOMSAN KANJANASIT",
+    "new_first": "Komsan",
+    "new_last": "Kanjanasit"
+  },
+  {
+    "id": "psu_w41_0047_210",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "KWANKAMON DITTAKAN",
+    "new_first": "Kwankamon",
+    "new_last": "Dittakan"
+  },
+  {
+    "id": "psu_w41_0048_992",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "JAKAPAN SUABOOT",
+    "new_first": "Jakapan",
+    "new_last": "Suaboot"
+  },
+  {
+    "id": "psu_w41_0049_901",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "KULLAWAT CHAOWANAWATEE",
+    "new_first": "Kullawat",
+    "new_last": "Chaowanawatee"
+  },
+  {
+    "id": "psu_w41_0050_991",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "NATTAYA CHAMTITIGUL",
+    "new_first": "Nattaya",
+    "new_last": "Chamtitigul"
+  },
+  {
+    "id": "psu_w41_0052_839",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ชดาภัษท สุดศิริ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0053_639",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วาริช วีระพันธ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0054_189",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "เธียรศักดิ์ ชูชีพ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0055_648",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "นงเยาว์ เมืองดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0056_982",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "นริศรา มหาธนินวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0057_567",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ศุภัสชกรณ์ หลิมเฮงฮะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0058_210",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พงศกร ศานติชาติศักดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0059_736",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ยุทธพงศ์ เพียรโรจน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0060_472",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุธิดา หมาดโต๊ะซ๊ะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0061_947",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศรินทิพย์ อนุรักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0064_977",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "วรรณรัตน์ เชื่องชยะพันธุ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0065_423",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุวลักษณ์ วิสุนทร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0066_550",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สกุลรัตน์ ปานสง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0067_118",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สุนิสา สุชาติ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0068_426",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "เอกสิษฐ์ อนันต์เจริญวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0069_667",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "จุฑารัตน์ อินทปัน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0001_451",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.ทวีลาภ ตั๊นสวัสดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0002_727",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.รมร แย้มประทุม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0003_878",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.ปริชญา งามเชิดตระกูล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0004_227",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ปราการ ทัตติยกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0005_674",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.วราวุฒิ เกรียงบูรพา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0007_125",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.จักรพันธุ์ ศิริบริรักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0009_778",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.นลินี ภัทรากรกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0010_743",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.ศุภมาศ ศุภบรรพต",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0011_124",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.เพ็ญวดี ภาคพิบูลย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0018_753",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ธนัชพร ตรีทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0019_600",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.กัลยรัตน์ ธรรมคำภีร์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0022_682",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.",
+    "old_last": "พญ.ศรสุภา ลิ้มเจริญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0023_581",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.อลิสรา วงศ์สุทธิเลิศ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0024_998",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.สุธาสินี คงพร้อมสุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0025_413",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.วทันยา ใจดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0026_836",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ธีร์ธวัช เจียรศิริกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0028_750",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ชาญธรรม สุ่นมหาคุณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0030_591",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.กฤติน กิตติกรชัยชาญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0031_114",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.ศมณกร อนิวรรตกูล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0034_604",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.",
+    "old_last": "พญ.มยุรี พิทักษ์ศิลป์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0043_553",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.ปองทิพย์ อุ่นประเสริฐ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0072_421",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กนกอร แซ่อึ่ง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0044_190",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.ตระการ ไชยวานิช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0045_860",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ภาคภูมิ บำรุงราชภักดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0046_376",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ธเนศ ธนสารวิมล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0047_999",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ภาณุพงศ์ นาเจริญกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0073_288",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วิศนีย์ ยิ่งประเสริฐ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0055_494",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ศรรัฐ เฮงเจริญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0056_176",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.จิรัสย์พล ไทยานันท์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0062_360",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.เพ็ญมาศ ธีระวณิชตระกูล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0063_724",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.นริศ เจียรบรรจงกิจ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0074_314",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "บัญญัติ เฉิดฉิ้ม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0064_863",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.สิรินทร์กาญจน์ สุขดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0075_403",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "อัจฉริยะ โชติขันธ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0066_758",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.สริตา หวังจิรนิรันดร์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0076_684",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "รัตนา ชูหว่าง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0072_487",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.ปราโมทย์ ธนาศุภกรกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0074_859",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ณัฐฐพล สุรัชต์หนาแน่น",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0079_460",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.",
+    "old_last": "นพ.สมชาย ยงศิริ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0080_450",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ประพันธ์ บูรณบุรีเดช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0081_198",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ศิริพร ตั้งจาตุรนต์รัศมี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0082_575",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.รัชนีพร ชื่นสุวรรณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0083_619",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.สุริยา โปร่งน้ำใจ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0077_920",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "มานพ ธรสินธุ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0084_920",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ผกาพรรณ ดินชูไท",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0087_369",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.พัชร โกฉัยพัฒน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0088_995",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.อภิรดี วรรังสฤษฎิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0089_436",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.นทวรรณ สุขใส",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0078_660",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ปรินุช ชุมแก้ว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0090_665",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.ภูรีพัทธ์ อรรถเวชกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0091_512",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.โสภิดา ธรรมมงคลชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0092_339",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.สุกฤษฎิ์ คูวัฒนเธียรชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0079_460",
+    "action": "extract_en_name",
+    "old_first": "รศ.ดร.",
+    "old_last": "Seppo Juhani Karrila",
+    "new_first": "Seppo Juhani",
+    "new_last": "Karrila"
+  },
+  {
+    "id": "buu_w42_0093_568",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.เกศกนิษฐ์ ธรรมคำภีร์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0094_114",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ภัทรพล กาญจนพิพัฒน์กุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0080_490",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ศรัณยู ใคลคลาย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0095_781",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.อัครพล สุคนธานิตย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0081_875",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วัชรสุดา หวลกะสิน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0082_666",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อุไรวรรณ วีระพันธ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0083_964",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐธิดา รักกะเปา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0085_664",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อติพล พัฒิยะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0086_275",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อัษฎาพร ตั้งประเสริฐ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0089_186",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "จิราภรณ์ เมืองประทับ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0090_953",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สุพัตรา พุฒิเนาวรัตน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0091_701",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐพล บุญนำ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0092_934",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุภาภรณ์ ชัยอารยะเลิศ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0093_782",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐพร ทองศรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0096_433",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ศิริวรรณ ขจรกสิรัตน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0097_950",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ศิวิภา พฤฒิคณี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0098_391",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อภิรัฐ วานิชสมบัติ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0099_823",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กฤษฎา พวงสุวรรณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0100_931",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "รัตนศักดิ์ เหมะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0101_283",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "เอกราช แซ่ลิ่ว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0102_933",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "นุจรีย์ แซ่จิว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0103_695",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กัญธิมา หล่าดอนดู่",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0105_848",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กชพรรณ หนูชนะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0106_208",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "จิตรลดา กิตติจารุวัฒนา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0107_806",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ปัทมา เสนทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0108_450",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สายสุนีย์ จำรัส",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0109_505",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐจิต อ้นเมฆ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0110_549",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "โปรดปราน คำอ่อน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0111_877",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ศิรินทรา วันดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0112_564",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุวิมล ศานติชาติศักดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0113_902",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "อนุวัฒน์ อัคคีสุวรรณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0114_512",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เกศศิริ สมาพงค์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0115_839",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วนิดา แซ่ตั้ง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0116_403",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "บุญญิสา แซ่หล่อ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0117_114",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภัทราพร วรินทรเวช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0119_639",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "จินดา คงเจริญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0120_870",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วิชุตา แซ่เจีย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "psu_w41_0121_478",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วาสนา บุญแสวง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0006_176",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.เบญจารัตน์ ทรรทรานนท์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0008_184",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.กฤชฐา จีระวงศ์พานิช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0012_273",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.กีรติ อยู่เย็น",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0013_584",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ปภิศา นิ่มอนงค์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0014_457",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.สุขสม โสภณอุดมทรัพย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0015_727",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.รุจยา จันทรวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0016_954",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.",
+    "old_last": "พญ.ลักษณาพร กรุงไกรเพชร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0017_929",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ณัฐวัฒน์ อัศววรฤทธิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0020_685",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ศศิกานต์ ลีละวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0021_780",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.นพณัฐ สินธวานุรักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0027_423",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.เกียรติชัย กีรติตานนท์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0029_681",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ปริชญา ประถมบุตร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0032_549",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.จิตรลดา รุจิราภิลักษณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0033_514",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.จิรพร ชวลิตอัมพร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0035_697",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.วรพจน์ ทรัพย์ศิริสวัสดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0036_373",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ลภากร ฉัตรพัฒน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0037_406",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.สันต์หทัย บัญชานุรัตน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0038_347",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.รชต เจริญวิเศษศิลป์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0039_273",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.จารุวรรณ กิตติวราวุฒิ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0040_127",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.สันติชัย ดินชูไท",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0042_112",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.อนุเทพ บูรมิ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0041_333",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.ยศศักดิ์ สกุลไชยกร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0048_532",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.วิรมณ หิรัญภัทรศิลป์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0049_651",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.กัลย์กมล ตามใจจิตร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0050_917",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ศิริชัย โอฬารนภาลัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0051_103",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ. พิริยาภรณ์ พงษ์ชัยกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0052_261",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ญนิณี อนุศิษฏ์วิวัฒน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0053_817",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ธีร์ธวัช เกียรติก้องชูชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0054_206",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.",
+    "old_last": "นพ.กิตติ กรุงไกรเพชร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0057_746",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.วลัยพรรณ สุพัฒนารังษี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0058_211",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ภารวี ทองอุไทย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0059_796",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.เบญจมาศ กลั่นแก้ว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0060_697",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ปุณฑริกา หรรษคุณาฒัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0061_703",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ธัญญริน ธรรมเศรษฐ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0065_959",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.วิพรร ณัฐรังสี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0067_374",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ธัชพงศ์ โปกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0068_854",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.ณิพิฐ ตั้งจิตนบ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0069_734",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.พร้อมพงศ์ อนุชิตชาญชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0070_582",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.กิตติ อรุณจรัสธรรม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0071_651",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.ธนศักดิ์ ยะคำป้อ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0073_782",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.อดิเทพ สันติโชติวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0075_462",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.นันทพล ชูเวสศิริพร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0076_599",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพ.ออมทรัพย์ พิกุลณี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0077_838",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.อิศรา จันทร์สว่าง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0078_528",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นพ.สรวิศร์ วีระโสภณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0085_670",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.เพ็ชรงาม ไชยวานิช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0086_478",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พญ.ระวีวรรณ วิฑูรย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0096_934",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ธันวพร แพทย์พิทักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0097_574",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พญ.ธรรมพร ขจรศิลป์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0098_574",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "จุฑารัตน์ คงสอน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0099_778",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "เดชชาติ สามารถ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0100_936",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "อภิสิทธิ์ ภคพงศ์พันธุ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0101_638",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "จันทร์จิรา พิลาแดง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0102_653",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ชาติไทย ไทยประยูร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0103_388",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ดวงกมล ผลเต็ม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0104_711",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นพรัตน์ แป้นงาม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0105_980",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "บัณฑิตา ฉัตรเท",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0106_460",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "บำรุงศักดิ์ เผื่อนอารีย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0107_414",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "บุญยงค์ ศรีพลแผ้ว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0108_239",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปรียานุช เชื้อสุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0109_429",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ปรียารัตน์ นาคสุวรรณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0110_376",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภคินกร พูนพายัพ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0111_493",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภัทราพร ทองนิ่ม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0112_781",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "รักพร ดอกจันทร์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0113_277",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ลภัสรดา ฤทธิ์คำรพ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0114_434",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ลี ศาสนพิทักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0115_946",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วนิดา พงษ์ศักดิ์ชาติ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0116_423",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วรวิมล เจริญทัมมะสถิต",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0117_287",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สมคิด อินเทพ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0118_912",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สหัทยา รัตนะมงคลกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0119_268",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สาธินี เลิศประไพ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0120_445",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สินีนาฏ ศรีมงคล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0121_830",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "เสาวรส ศรีสุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0122_766",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อภิชาติ เนียมวงษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0123_116",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อภิศักดิ์ ไชยโรจน์วัฒนา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0124_400",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อรรณพ แก้วขาว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0125_399",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อารยา วิวัฒน์วานิช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0126_357",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อารีรักษ์ ชัยวร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0127_689",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ชัชชัย น้อยทับทิม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0128_195",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "พัชรวดี พูลสำราญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0129_858",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "วรรณศิริ คูริพรรณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0130_947",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "อุไซนา นิยมเดชา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0131_940",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภัทราภรณ์ กิจผลเจริญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0132_200",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "นิสา ไกรรักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0133_354",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "สุดสายชล หอมทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0134_543",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุดารัตน์ สวนจิตร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0135_877",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อนุเทพ ภาสุระ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0136_117",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อุมาพร ทาไธสง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0137_696",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "กฤตยพงษ์ จันทรเดช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0138_988",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "คเณศ ธิติอนันต์ปกรณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0139_131",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "วิมลรัตน์ ปานเพ็ชร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0140_711",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "อภิรักษ์ วิเศษชาติ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0141_302",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปริยา ปะบุญเรือง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0142_790",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปุญญิศา วัฒนะชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0143_387",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "กล่าวขวัญ ศรีสุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0144_361",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "จิตติมา เจริญพานิช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0145_254",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สมชาติ แม่นปืน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0146_953",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ชัชวิน เพชรเลิศ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0147_989",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ทรงกลด สารภูษิต",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0148_306",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ผาณตา เอี้ยวซิโป",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0149_349",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พรพรรณ อร่ามแสงเทียนชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0150_642",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พิทักษ์ สูตรอนันต์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0151_469",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "แวววลี โชคแสวงการ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0152_132",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อนุตตรา อุดมประเสริฐ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0153_690",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุนทรต์ ชูลักษณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0154_777",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ก้องภพ ภรันยากุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0155_848",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ณิชารีย์ จันทร์นวล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0156_395",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "สิริกมล พลายงาม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0157_974",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "อรรถชัย ตรันเจริญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0158_625",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "บุญฤทธิ์ ครุนวการ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0159_654",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สรไกร ศรีศุภผล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0160_988",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สรายุธ เดชะปัญญา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0161_664",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กัญจน์ชญา หงส์เลิศคงสกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0162_351",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กุลนารี วงค์ราช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0163_243",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "จักรพันธ์ ถาวรธิรา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0164_755",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "จินต์จุฑา โอวกุสุมสิริสกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0165_378",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ชัยศักดิ์ อิสโร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0166_135",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ฐานวีร์ โชติจารุสวัสดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0167_745",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณรงค์ อึ้งกิมบ้วน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0168_660",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ทรงวุฒิ ฉิมจินดา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0169_639",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ธนัสถา รัตนะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0170_888",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "นิรันดร์ วิทิตอนันต์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0171_466",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "รัฐชัย ปิ่นชัยพัฒน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0172_738",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "วิโรจน์ เครือภู่",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0173_112",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สิทธิ บัวทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0174_145",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อดิศร บูรณวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0175_367",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "นุพันธ์ เขียวไม้งาม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0176_385",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "อรรถพล เชยศุภเกตุ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0177_867",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชัยณรงค์ แต้พานิช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0178_204",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นิวร ศรีคุณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0179_913",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภาณุพงศ์ บุญเพียร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0180_611",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.",
+    "old_last": "เผชิญโชค จินตเศรณี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0181_358",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "จริยาวดี สุริยพันธุ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0182_864",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ถนอมศักดิ์ บุญภักดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0183_103",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "นรินทร์รัตน์ คงจันทร์ตรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0184_705",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ประสาร อินทเจริญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0185_915",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภัทราวุธ ไทยพิชิตบูรพา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0186_680",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วันศุกร์ เสนานาญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0187_532",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วิชญา กันบัว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0188_563",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สวามินี ธีระวุฒิ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0189_833",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อนุกูล บูรณประทีปรัตน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0190_283",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ไตรมาศ บุญไทย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0191_278",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภูริชญ์ บุญสนิท",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0192_810",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สามารถ สายอุต",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0193_164",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "นิรมล ปัญญ์บุศยกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0194_134",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภัควัฒน์ เดชชีวะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0195_996",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ลลิตา โชติพฤฒิพงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0196_662",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วิชมณี ยืนยงพุทธกาล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0197_427",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ศนิ จิระสถิตย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0198_130",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อรอง จักกะพาก จันทร์ประสาทสุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0199_327",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "กาญจนา ซิงห์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0200_319",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "สกาวเดือน วงศ์ใหญ่",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0201_112",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "สิริมา ชินสาร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0202_371",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "อโนชา สุขสมบูรณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0203_630",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "พิมพ์ทอง ทองนพคุณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0204_953",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "รชนิมุข หิรัญสัจจาเลิศ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0205_708",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พอจิต นันทนาวัฒน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0206_709",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภรณี ศรีปรีชาศักดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0207_659",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สลิล ชั้นโรจน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0208_905",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สาลินี ผลมาตย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0209_734",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "กรประภา กาญจนะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0210_818",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "จักรพันธ์ นาน่วม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0211_458",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "นวศิษฏ์ รักษ์บำรุง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0212_325",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "นิตยา ไชยเนตร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0213_429",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ภูสิต กุลเกษม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0214_651",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "วรวิทย์ วีระพันธุ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0215_346",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "จรรยา อ้นปันส์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0218_541",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อังศุมาลี สุทธภักติ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0219_160",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ประจักษ์ จิตเงินมะดัน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0220_149",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เหมรัศมิ์ วชิรหัตถพงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0221_755",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สิทธิศักดิ์ แซ่จึง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0222_937",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "จิรายุส อาบกิ่ง (ประธานหลักสูตร)",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0223_906",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐพร ภักดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0224_755",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พีระศักดิ์ เพียรประสิทธิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0225_695",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "อริย์ธัช ศิรภัทร์วงศ์กร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0227_543",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ประวิทย์ บุญมี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0228_624",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นิลรัตน์ ก้านหยั่นทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0230_852",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อุรีรัฐ สุขสวัสดิ์ชน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0231_481",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กุลชลี รัตนคร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0232_206",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กรสหนันท์ ต่อพงษ์พันธุ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0233_476",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กมลวรรณ แสงระวี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0234_312",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เปรมปรีดา สลับสี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0235_984",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "อรอนงค์ ร้อยทา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0236_127",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นิตยา ติรพงษ์พัฒน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0237_703",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สิรภัทร ตันเสวตวงษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0238_364",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "หรรษา รอดเงิน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0239_179",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ณิชานันท์ ชำนาญช่าง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0240_587",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปัทมา วชิรพันธุ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0241_269",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เกรียงศักดิ์ ปานโพธิ์ทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0242_237",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สิทธิพงษ์ ฉิมไทย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0001_977",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "เชิดพงษ์ ดีเลิศไพบูลย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0002_304",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วรพล กออนันตชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0003_426",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐนนท์ พันธ์นิล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0243_348",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กิจจา สังข์ทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0004_521",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วงศกร วงศาโรจน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0005_499",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สาธิต มังคลาจารย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0006_936",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ศุภฤกษ์ จันทร์ศุภเสน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0007_100",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อิสราภรณ์ อมรสวัสดิ์วัฒนา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0008_611",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "กฤษณ์ อ่างแก้ว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0244_920",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ยุวดี แก้วหนูนา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0009_249",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "โยทกา ชมภูศรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0010_305",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ไชยนรินทร์ อัครวโรดม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0011_654",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "นที ทองอุ่น",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0012_905",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วิทยา กุดแถลง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0247_995",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปณิชา พลพินิจ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0248_695",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ชุติมา ฉันทมิตรโอภาส",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0249_918",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วิภา วิเสโส",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0013_612",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ทักษิณ แสงสุวรรณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0014_986",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ชาคริต ปานแป้น",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0015_826",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปกป้อง ประกอบแก้ว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0250_693",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สายฝน ม่วงคุ้ม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0251_348",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปุณฑรี พิกุลณี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0252_798",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วาณี พงษ์ทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0253_561",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชาตยา ภูมิประเสริฐ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0254_298",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "จิรายุทธ คำลุน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0019_835",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ธนภัทร์ อนุศาสน์อมรกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0020_412",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ลือพล พิพานเมฆาภรณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0021_167",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "นิกร สุทธิเสงี่ยม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0022_648",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "คันธารัตน์ อเนกบุณย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0023_160",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ธรรศฏภณ สุระศักดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0255_108",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศุภมาส ชัชมนมาศ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0024_531",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "จันทร์ลัดดา โชติรัตนดิลก",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0025_253",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศิริศาส เอื้อใจ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0026_341",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สไบทิพย์ ตุงคะมณี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0027_754",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ณคเดช ยังวิลัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0028_845",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สริญญา ชวพันธ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0029_701",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุทธินันท์ พงษ์ธรรมรักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0030_705",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ธนาวดี เดชะคุปต์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0031_634",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชนัต บำรุงวงศ์ดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0032_746",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุนันทา ช่วยประคอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0033_915",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปิยรัตน์ ตรีกิตติวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0034_302",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วรนุช สมส่งกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0256_717",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชัยณรงค์ เลขราบ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0035_349",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "โกวิทย์ ปิยะมังคลา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0036_614",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เทวารักษ์ ปานกลาง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0257_632",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ร.อ.หญิง ดร. พัทธ์ชนก วิถีธรรมศักดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0037_943",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ลิดา สิมะสาธิตกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0258_716",
+    "action": "clear_misplaced_thai",
+    "old_first": "ศ.ดร.",
+    "old_last": "จินตนา วัชรสินธุ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0038_615",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สมิทธิชัย สียางนอก",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0039_968",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เสาวภา ถ้ำสิงห์ นิยมไทย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0259_115",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "นุจรี ไชยมงคล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0040_573",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วลัยพร ปฤษณารุณ เอื้อใจ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0041_306",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นิศาลักษณ์ ตรงศิริวัฒน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0042_207",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชนิกานต์ ซ่อนกลิ่น",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0260_653",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ณัชนันท์ ชีวานนท์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0261_461",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พจนารถ สารพัด",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0043_894",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "คงอภิสิทธิ์ ทองพูนสมจิตถ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0262_795",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วชรีกร อังคประสาทชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0044_559",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุพาชัย เจษฎาเจิม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0263_416",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ร.อ.หญิง นาตยา แสงใส",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0045_564",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "คมเทพ ศิลป์จารุ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0046_582",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "อรณิชา ไข่เกษ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0047_535",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุณิสา จินดาสุวรรณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0048_680",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภาวิณี บุณยโสภณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0049_739",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วศิน วิเศษศักดิ์ดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0264_528",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชลาลัย เปียงใจ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0050_340",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ฐปนพงศ์ นิวัตรอมรรักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0051_295",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อรวลี อมรลีตระกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0053_349",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุวภา ขจรฤทธิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0054_697",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "วทัญญ์ บุญสอน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0055_916",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ว่าที่รอยตรี ดร.ศรัฐ สิมศิริ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0056_356",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปัทม์วรรณ จำปาเทศ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0057_834",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุพัตรา ซ้วนลิ่ม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0265_879",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กิติรัตน์ สุวรรณรงค์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0058_271",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ฌานกล้า ลีระกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0059_624",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "สุรสิทธิ์ แสงสุริยะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0060_854",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "วีรยา เอี่ยมฉ่ำ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0061_610",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "มนินทรา ทุมโฆสิต",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0266_555",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "อาภาสุวรรณ คล้ายสุบรรณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0062_339",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ฐิฏิมา อัมพวรรณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0267_373",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุวัจณี พฤกษ์ไพรวัน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0063_805",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "อรุณ พุฒยางกูร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0064_227",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ภูริน หล้าเตจา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0268_856",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชนัญชิตา จุลเกาะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0269_656",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วชรภรณ์ แสนคำ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0065_469",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปิยะ ดโนทัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0270_673",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศิรินภา อินทศร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0271_514",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อุษา เชื้อหอม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0066_222",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อานนท์ อนันต์อาชา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0067_874",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุปรียา ผ่องใส",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0068_236",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "จอร์จ เคดารี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0272_884",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ตติรัตน์ เตชะศักดิ์ศรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0273_519",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "จันทิมา ชินสร้อย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0069_841",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ร.อ.ดร.สิปปวิชญ์ กำบัง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0070_886",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ธัญวรัตม์ ศิลวัฒนาวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0274_194",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ช่อทิพย์ ผลกุศล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0071_978",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ประภารัตน์ เฮงทรัพย์กูล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0072_632",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุเทพ จันทน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0073_618",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "สมใจ มะหมีน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0074_905",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "เสาวนิตย์ กาญจนรัตน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0075_543",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "จิรดา แพรใบศรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0076_675",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศุภกร กันตาโพธิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0275_980",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปวีณา ติวาสิริพงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0077_613",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พิพัฒน์ จิตรอารีย์รักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0276_973",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นารีนุช นาคกรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0078_217",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศิรินทรา อาจเจริญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0277_836",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "จิราภา สิงห์ตัน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0079_255",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศกลวรรณ ศรีสังข์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0080_984",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สมพร สินเจริญโภคัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0278_240",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "มาริสา ลาภเพิ่มทรัพย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0279_353",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เมธาวี พรตเจริญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0081_880",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "นิตยา อุตกฤษฏ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0082_339",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปิติสัณห์ อินทพิชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0083_192",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุภาวดี จริงจิตร อัสทรุก",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0084_423",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "กัลยกร ไพบูลย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0280_782",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชนันรัตน์ บุญดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0281_171",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุธิดา สืบอนันต์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40_0085_210",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นิอาซีร่า นิสาเฮาะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0282_177",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นงนภัส ศรหิรัญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0283_788",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ณัฐธิดา สมสวาท",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0284_605",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ธิญาดา เวียงสิมา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0285_516",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พัชรินทร์ พูลทวี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0286_840",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ชนัญชิดาดุษฎี ทูลศิริ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0287_500",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "นิสากร กรุงไกรเพชร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0288_586",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "พรนภา หอมสินธุ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0289_754",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "รุ่งรัตน์ ศรีสุริยเวศน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0290_613",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "วรรณรัตน์ ลาวัง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0291_217",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ตระกูลวงศ์ ฦๅชา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0292_928",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อริสรา ฤทธิ์งาม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0293_731",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "อโนชา ทัศนาธนชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0294_504",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วิจิตรา สาลีงาม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0295_484",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "อัจฉริยาพร เดชโยธิน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0296_172",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กัญญ์กุลณัช รามศิริ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0297_666",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชโลธร สุขมา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0298_968",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ร.ต.อ. พิษณุ คำนวน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0299_690",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วะนิดา น้อยมนตรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0300_912",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "พรชัย จูลเมตต์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0301_770",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ชลธิชา จันทคีรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0302_393",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วัชรา ตาบุตรวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0303_186",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กาญจนา พิบูลย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0304_883",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ยุพาวรรณ ทองตะนุนาม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0305_289",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศศิธร กรุณา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0306_261",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "จตุรดา จริยารัตนกูล เนียมเทศ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0307_467",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วัลย์พร วรพรพงษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0308_742",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "หฤษฎ์ เซี่ยงหว็อง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0309_905",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วิปรัชญา เทศทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0310_562",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สาธิตา สืบทายาท",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0311_513",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ธีรนัย ส่งพิมาย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0312_119",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สาวิน หอม วอน เดอ ลิฟโวร์ท",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0313_686",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "รัศมิ์สุนันท์ จันทรภักดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0314_335",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภรภัทร เฮงอุดมทรัพย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0315_407",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "พิชามญชุ์ อินทะพุฒ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0316_203",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สราวลี สุนทรวิจิตร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0317_545",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พรพรรณ ศรีโสภา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0318_147",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ธิดารัตน์ สีอ่อน ทอมป์สัน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0319_580",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พรประเสริฐ แก้วคำ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0320_219",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เกียรติศักดิ์ ไร่หินถ่วง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0321_518",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ณัฏฐ์ธารณ์ ธีร์อธิศสกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0322_726",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วาสนา ดำดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0323_982",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.",
+    "old_last": "ร.อ.หญิง ดร. ชนัดดา แนบเกษร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0324_302",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ยุวดี ลีลัคนาวีระ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0325_194",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ลัดดาวัลย์ พุทธรักษา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0326_384",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "โสรัตน์ วงศ์สุทธิธรรม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0327_331",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ดำรงค์ศักดิ์ สงเอียด",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0328_349",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กัลย์ญาณ์มาส ศรีสุวรรณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0329_186",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วารี กังใจ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0330_304",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "เขมารดี มาสิงบุญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0331_637",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "นิภาวรรณ สามารถกิจ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0332_478",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อาภา หวังสุขไพศาล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0333_172",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ศิริยุพา สนั่นเรืองศักดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0334_968",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุพิศ ศิริอรุณรัตน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0335_223",
+    "action": "clear_misplaced_thai",
+    "old_first": "ศ.ดร.",
+    "old_last": "ดาราวรรณ ต๊ะปินตา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0336_576",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ปัญญรัตน์ ลาภวงศ์วัฒนา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0337_711",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "พิศมัย หอมจำปา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0338_732",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "อโณทัย ผาสุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0339_354",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สมพิศ ดุษดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0340_745",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "สุมลา พรหมมา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0341_800",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "บุญช่วย ศิลาหม่อม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0342_916",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุภาพรรณ วรผล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0343_299",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ศุภวัฒนากร วงศ์ธนวสุ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0344_397",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นิศารัตน์ ยุวพัฒนวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0345_210",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภก.ถิรพิทย์ สุบงกช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0346_954",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภญ.ธนิกานต์ แสงนิ่ม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0347_688",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภญ.สุกรรณิการ์ ทับทิมศรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0348_880",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภญ.อาภา เพชรสัมฤทธิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0349_642",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภก.ยศนันท์ วีระพล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0350_313",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภญ.สมณัฐทัย แย้มเม่น",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0351_288",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภญ.ถิรนิติ ชื่นบาล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0352_181",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภก. ณัฐดนัย เลิศสุโภชวณิชย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0353_407",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก. นายกิตติภัฎ สุวรรณพิทักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0354_511",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภญ.มธุรดา สะสะรมย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0355_207",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภก.วรากร ธรรมสุทธิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0356_253",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภญ.มาริสา เสนงาม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0357_470",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภญ.ฐิยาภา วีรยาชาญกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0358_884",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภก.ณัฐวุฒิ ลีลากนก",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0359_527",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก.ศิริพงศ์ ธนาพัฒน์ภาคิน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0360_228",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภญ.สุธาบดี ม่วงมี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0361_387",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภญ.สุพรรณิการ์ พรวัฒนกวี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0362_475",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภญ.วรรณวรัชญ์ อารีย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0363_177",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก.ศุภกิต ปิ่นทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0364_202",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก.ภูมิพัฒน์ ทองน้อย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0365_328",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภญ.อัญชนา พงศ์พันธ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0366_344",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภญ.ภรณ์ผกา เอื้อพรพาณิช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0367_159",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก.ธีรรัตน์ ทศรฐ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0368_997",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก.พัชรพล แก้วเขียว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0369_247",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภญ.จิดาภา ศรีจันทร์ฉาย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0370_794",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก.อรุณกรณ์ ปรารภ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0371_302",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภญ.สิรภัทร สมสิริกาญจนคุณ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0372_253",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภก.กฤตภาส กังวานรัตนกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0373_424",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ภักดี สุขพรสวรรค์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0374_217",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก.กันต์ศักดิ์ บุญภัทรฐิติ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0375_828",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภก.ฐิตินันท์ เอื้ออำนวย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0376_811",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภก. ยุทธภูมิ มีประดิษฐ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0377_432",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภญ.ณิชมน เกรียงไกรสุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0378_413",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภญ.ชฎาพร พรมปัญญา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0379_323",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภก.บุญดิศย์ วงศ์ศักดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0380_647",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภญ.ธันย์ชนก ศิริรักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0381_957",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภญ.เนตรชนก เจียงสืบชาติวีระ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0001_663",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ชัยวัฒน์ ประไพนัยนา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0002_284",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ไกรพัฒน์ จีนขจร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0003_837",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สุวิมล วงศ์สกุลเภสัช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0004_157",
+    "action": "clear_misplaced_thai",
+    "old_first": "ศ.ดร.",
+    "old_last": "ถิราวุธ พงศ์ประยูร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0005_345",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กานต์ พนาศุภมัสดุ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0006_700",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "พัชรินทร์ วรธนกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0007_463",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "รุ่งโรจน์ เกาะคู",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0008_443",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พิชาญ ตันติชัยปกรณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0009_348",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปกรณ์ กิตติภูมิวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0382_162",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก.กันตวัฒน์ ฤทธิ์เต็ม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0383_135",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก.ภัทรวิชญ์ ฉัตรตระกูลไพศาล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0010_413",
+    "action": "clear_misplaced_thai",
+    "old_first": "ศ.ดร.",
+    "old_last": "จันทรพร ผลากรกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0011_146",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "มณพิไลย นรสิงห์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0012_115",
+    "action": "clear_misplaced_thai",
+    "old_first": "ศ.ดร.",
+    "old_last": "ภาวนี นรัตถรักษา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0014_931",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สุภัค ตันติศิรินทร์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0015_372",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุชาตา เกิดผลภัทระ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0016_198",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สันติ เชื้อเต๊อะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0017_360",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วรรณวิทู วรรณโมลี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0020_276",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กิตติ ธัมสัตยา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0021_634",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "พัชรินทร์ แซ่จัน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0022_303",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "บารมี ปัทมพรหม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0023_136",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "เพชร เจียรนัยศิลาวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0024_501",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ต้นคิด จันทรัศมี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0026_352",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภาคิน จำปาศักดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0028_729",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สุมนต์ทิพย์ คงตันจันทร์ฟัก",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0029_259",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พนมพร ภาณุทัต",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0030_522",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "รัตติยา เจริญศักดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0031_594",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ชัชวาล สิงหะพล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0032_468",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ศิริขวัญ ทินรัตน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0033_486",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ศรัณยา เศรษฐธนนันท์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0034_756",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "อรณิชา จิรประเสริฐวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "kmutnb_w40b_0035_143",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ไพฑูรย์ ประเสริฐยิ่ง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0384_251",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภก.ฤทธิณรงค์ มีพงษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0385_980",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ทศพล จิระสมประเสริฐ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0386_549",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ทอแสง วีระกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0387_156",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.",
+    "old_last": "สุวิศิษฎิ์ แม้นเหมือน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0388_732",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภญ.วิภาวรรณ ศิริกุลพาณิชย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0389_594",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภญ.อัมพิกา เกษรสิทธิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0390_142",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภญ.เบญจวรรณ คุระสุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0391_621",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภก.ธาราธีร์ ศรีจันทร์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0392_379",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อนุพงษ์ จูมแพง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0393_789",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "เดชา คำหล้า",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0394_807",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภญ.ณัฐ พิพัฒน์ปัญญานุกูล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0395_409",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ทนพ.วรโชติ บุญศรีวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0396_206",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภญ.วันทนา เหรียญมงคล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0397_190",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "แสนชัย นารี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0398_206",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภก.กิตติพจน์ สิริชัยเวชกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0399_989",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภญ. มยุรี ตันติสิระ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0400_176",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "สุชีวา ปานอ่อน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0401_782",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "กุลธิดา เหลืองประดิษฐ์กุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0403_968",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เกศระวี ปานทับ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0404_830",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุนันต์ ใจสมุทร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0405_582",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ศิรประภา ชาญสถิตโกศล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0407_286",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "บงกช นักเสียง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0410_502",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ภัทรา ลอออรรถพงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0411_885",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปวีณา แจ้งประจักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0412_592",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปาจรีย์ กิจกาญจนกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0413_232",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ศรัญญา ประสพชิงชนะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0414_573",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "เรืองวิทย์ ลิ่มปนาท",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0415_427",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "อำพิกา สวัสดิ์วงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0417_899",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปวินนา เพ็ชรล้วน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0418_893",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชนม์ชนก สัมฤทธิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0419_647",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ประวิทย์ สายสงวนวงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0420_131",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "มณฑลี ภู่กฤษณา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0421_102",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พิไลรัตน์ ศรีวิเชียรอำไพ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0422_286",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นูรอานิช กิจคงพัฒน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0423_244",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วีราภรณ์ คามีศักดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0424_361",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภาคภูมิ ใจมีอารี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0425_490",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "วัชรพงษ์ แจ้งประจักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0426_438",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สมภพ ใหญ่โสมานัง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0427_476",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุตราภรณ์ ตันตินีรนาถ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0428_479",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐภัทร พัฒนา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0433_412",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พนุชดา เจริญชัย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0434_242",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วิภา ประดิษฐ์เวียงคำ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0435_705",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปวลี บุญปก",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0436_645",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "มารุต หาญทะเล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0437_225",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชลิตา ภิบาลชนม์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0438_789",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เสกสรร พรมเกษา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0439_410",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พันทิพา บุญลา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0440_429",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "อัครวินท์ โฉมทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0441_672",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "Mr.Richard Anthony O Donnell",
+    "new_first": "Richard Anthony",
+    "new_last": "O Donnell"
+  },
+  {
+    "id": "buu_w42_0442_202",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "Mr. Peter Maurice O Neill",
+    "new_first": "Peter Maurice",
+    "new_last": "O Neill"
+  },
+  {
+    "id": "buu_w42_0443_918",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "Mr.Bryan Christopher Breitung",
+    "new_first": "Bryan Christopher",
+    "new_last": "Breitung"
+  },
+  {
+    "id": "buu_w42_0444_653",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "Mr.Louis Jean Stanislas Dembinski",
+    "new_first": "Louis Jean Stanislas",
+    "new_last": "Dembinski"
+  },
+  {
+    "id": "buu_w42_0446_694",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สุนทรี ลาภรุ่งเรือง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0447_731",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "นันท์ชญา มหาขันธ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0448_646",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภูมรินทร์ ภิรมย์เลิศอมร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0449_791",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กนกวรรณ สาโรจน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0450_396",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กนกพร ศรีญาณลักษณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0451_852",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐวรรณ สินาโรจน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0452_835",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "อุไรวรรณ จิตเป็นธม คิม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0453_232",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ปานเสก อาทรธุระสุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0454_890",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ธัญญารัตน์ สงวนศรี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0457_849",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กมลาสน์ กีรตินันท์วัฒนา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0458_713",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ธรรมพร กุศลสวัสดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0459_550",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "Mr.Jong Hwan Ko",
+    "new_first": "Jong Hwan",
+    "new_last": "Ko"
+  },
+  {
+    "id": "buu_w42_0460_706",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "Mr.Kohei Nakada",
+    "new_first": "Kohei",
+    "new_last": "Nakada"
+  },
+  {
+    "id": "buu_w42_0461_692",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "MISS.Min Hye Baek",
+    "new_first": "Min Hye",
+    "new_last": "Baek"
+  },
+  {
+    "id": "buu_w42_0462_238",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "Mr.Yan Xin",
+    "new_first": "Yan",
+    "new_last": "Xin"
+  },
+  {
+    "id": "buu_w42_0463_571",
+    "action": "extract_en_name",
+    "old_first": "อ.",
+    "old_last": "Miss Zhan Shasha",
+    "new_first": "Zhan",
+    "new_last": "Shasha"
+  },
+  {
+    "id": "buu_w42_0464_115",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐา ค้ำชู",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0465_622",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "จิตตาภา สารพัดนึก ไชยปัญญา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0466_744",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ขจิตา ศรีพุ่ม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0467_459",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อภิรักษ์ ชัยปัญหา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0468_174",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "จุฑามาศ ศรีระษา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0470_316",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ชนิกานต์ กู้เกียรติ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0471_659",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กานต์รวี เอลอับบียาด",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0472_113",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศริญญา ขวัญทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0473_643",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กันต์รพี สมจิตร์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0474_994",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ศศิวุฑฒิ์ วงษ์มณฑา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0475_389",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ศิริทัศน์ เขตตานุรักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0476_319",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พรรณิภา อนุรักษากรกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0477_513",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศักดิ์ศิริ เสาโกมุท",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0478_406",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ศิริวรรณ สมนึก",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0479_428",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปัณฑา โกกอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0480_621",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พรพรรณ เรือนคง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0481_802",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กรกต อากาศอำนวย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0482_926",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุธิดา แจ้งประจักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0483_434",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุเนตร สุวรรณละออง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0486_226",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "พรทิพย์ พันธุ์ยุรา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0487_937",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "รัตนา วิงวอน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0488_955",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "กมลชนก เศรษฐบุตร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0489_182",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สุชาดา พงศ์กิตติวิบูลย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0490_248",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ชมพูนุช ปัญญไพโรจน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0491_829",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ทรงยศ บัวเผื่อน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0492_300",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ตวงทอง สรประเสริฐ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0493_565",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พรรณพิลาศ กุลดิลก",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0494_550",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กังวาฬ ฟองแก้ว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0495_378",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ปาจารีย์ ปุรินทวรกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0498_670",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สุธิดา ชิโนดม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0499_353",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ประเสริฐ ช่วยแก้ว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0500_109",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ตวงลาภ เปี่ยมอยู่สุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0501_898",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ณัฐนันท์ เทียมเมฆ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0502_505",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นายโสภณ สมรรถวิทยาเวช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0503_138",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ชัยณรงค์ ศรีมันตะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0504_301",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "มนตรี วิวาห์สุข",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0505_608",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "บุญรอด บุญเกิด",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0506_535",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "พิชญรัตน์ เหมนาไลย",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0507_524",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ปัทวี สัตยวงศ์ทิพย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0508_164",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "เทพพร มังธานี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0509_704",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ธนิต โตอดิเทพย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0515_159",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปรียานุช วรวิกโฆษิต",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0516_711",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ขวัญชฎิล พิศาลพงศ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0517_987",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ศรีหทัย เวลล์ส",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0518_948",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "วรรณประภา เอี่ยมฤทธิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0519_207",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อัครา ธรรมมาสถิตย์กุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0520_472",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณิชพน โชติจันทรกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0522_339",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สมฤทัย ธีรเรืองสิริ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0523_526",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "รุ่งอาทิตย์ บูชาอินทร์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0524_434",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ณรงค์ พลีรักษ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0525_353",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปริญ หล่อพิทยากร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0526_270",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ภัทราพร สร้อยทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0527_471",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "พิชิตพร ผลเกิดดี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0533_277",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "กฤษณะ อิ่มสวาสดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0535_544",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ณัฐที ปิ่นทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0536_596",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "เกศรา น้อยมานพ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0537_211",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "เสกสรรค์ ทองคำบรรจง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0538_373",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ดลดาว วงศ์ธีระธรณ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0539_918",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ศศินันท์ ศิริธาดากุลพัฒน์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0540_533",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ภุมเรศ ภูผา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0541_466",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "กนก พานทอง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0542_725",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ปรัชญา แก้วแก่น",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0543_170",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปิยะทิพย์ ประดุจพรม",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0544_628",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "พูลพงศ์ สุขสว่าง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0545_694",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ภัทราวดี มากมี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0546_981",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ยุทธนา จันทะขิน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0547_777",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ศรัณย์ ภิบาลชนม์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0548_649",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "เอกวิทย์ โทปุรินทร์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0549_480",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ฐิติชัย รักบำรุง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0550_613",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ณฐาภพ สมคิด",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0551_544",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ดวงพร ธรรมะ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0552_733",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ดำรัส อ่อนเฉวียง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0553_999",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วีระพันธ์ พานิชย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0554_110",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "สุขมิตร กอมณี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0555_914",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อาจณรงค์ มโนสุทธิฤทธิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0556_119",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.",
+    "old_last": "ว่าที่เรือตรี ดร.อุทิศ บำรุงชีพ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0557_778",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปริญญา เรืองทิพย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0558_289",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปรัชนันท์ เจริญอาภรณ์วัฒนา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0559_606",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "ปุณณิฐฐา มาเชค",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0560_730",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "จินดาภา ลีนิวา",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0561_262",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ไพรินทร์ ทองภาพ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0562_436",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ณัฏฐ์ธรรมา น้ำฟ้า",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0563_307",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "นางสาวรัตนศิริ เข็มราช",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0564_644",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ว่าที่ร้อยตรี ดร.กฤษดา สุรำไพ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0565_426",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ร.ต.อ.ดร. วิเชียร ตันศิริคงคล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0566_405",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "โอฬาร ถิ่นบางเตียว",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0567_490",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ชัยณรงค์ เครือนวน",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0568_734",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "อนุรัตน์ อนันทนาธร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0569_384",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "สมคิด เพชรประเสริฐ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0571_987",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "อุมาพร พลายระหาร",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0572_652",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "สายสมร นิยมสรวญ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0574_631",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "ว่าที่ร้อยตรีรุ่งโรจน์ ยิ่งสง่า",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0575_393",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ปริญญา ชินดุษฏีกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0576_879",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "วศิน ยุวนะเตมีย์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0577_998",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "บัลลังก์ เนื่องแสง",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0578_337",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "ชลี ไพบูลย์กิจกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0579_539",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.",
+    "old_last": "เพ็ญจันทร์ ละอองมณี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0580_257",
+    "action": "clear_misplaced_thai",
+    "old_first": "รศ.ดร.",
+    "old_last": "เบ็ญจมาศ จันทะภา ไพบูลย์กิจกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0581_199",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "มลฤดี สนธิ",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0582_417",
+    "action": "clear_misplaced_thai",
+    "old_first": "ผศ.ดร.",
+    "old_last": "มะลิวัลย์ คุตะโค",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0583_615",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ผู้ช่วยศาสตราจารย ดร.ภควรรณ เศรษฐมงคล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0584_680",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ธชณัฐ ภัทรสถาพรกุล",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0585_613",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "บัญชา นิลเกิด",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0586_305",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ผู้ช่วยศาสตราจารย ดร.วิโรจน์ ละอองมณี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0587_364",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "ว่าที่ร้อยตรีพิสุทธิ์ เทศสวัสดิ์",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0588_920",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.ดร.",
+    "old_last": "ธนบรรณ ตะทวี",
+    "new_first": null,
+    "new_last": null
+  },
+  {
+    "id": "buu_w42_0217_296",
+    "action": "clear_misplaced_thai",
+    "old_first": "อ.",
+    "old_last": "วิทวัส พันธุมจินดา (ประธานหลักสูตร)",
+    "new_first": null,
+    "new_last": null
+  }
+]

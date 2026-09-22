@@ -1,0 +1,431 @@
+[
+  {
+    "univ": "มหาวิทยาลัยนเรศวร",
+    "oa_id": "A5073862309",
+    "primary_id": "wave22_0287_902",
+    "primary_name": "ศ.ดร. สุทิสา ถาน้อย",
+    "donor_id": "nu_w45_0212_437",
+    "donor_name": "Sutisa Nudmamud-Thanoi",
+    "donor_metrics": {
+      "citations": 877,
+      "h_index": 18,
+      "pubs": 0
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "oa_id": "A5058099739",
+    "primary_id": "sut_agr_suwayd_001",
+    "primary_name": "รศ.ดร. สุเวทย์ นิงสานนท์",
+    "donor_id": "sut_w46_0402_938",
+    "donor_name": "S. Ningsanond",
+    "donor_metrics": {
+      "citations": 727,
+      "h_index": 9,
+      "pubs": 0
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "oa_id": "A5039290039",
+    "primary_id": "sut_sci_chinorat_001",
+    "primary_name": "รศ.ดร. ชิโนรัตน์ กอบเดช",
+    "donor_id": "sut_w46_0637_161",
+    "donor_name": "C. Kobdaj",
+    "donor_metrics": {
+      "citations": 22724,
+      "h_index": 82,
+      "pubs": 0
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "oa_id": "A5047301313",
+    "primary_id": "sut_sci_worawat_001",
+    "primary_name": "รศ.ดร. วรวัฒน์ มีวาสนา",
+    "donor_id": "sut_w46_0527_542",
+    "donor_name": "W. Meevasana",
+    "donor_metrics": {
+      "citations": 6017,
+      "h_index": 36,
+      "pubs": 0
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยนเรศวร",
+    "oa_id": "A5111702485",
+    "primary_id": "nu_sunun_tati_2535",
+    "primary_name": "ดร. สุนันท์ ธาติ",
+    "donor_id": "nu_w45_1076_552",
+    "donor_name": "S. Tati",
+    "donor_metrics": {
+      "citations": 42,
+      "h_index": 2,
+      "pubs": 0
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยวลัยลักษณ์",
+    "oa_id": "A5043926055",
+    "primary_id": "walailak_schoolof_6e9f9e9a",
+    "primary_name": "ศ.ดร. มนัส ชัยจันทร์",
+    "donor_id": "wu_w51_0942_342",
+    "donor_name": "Manat Chaijan",
+    "donor_metrics": {
+      "citations": 4442,
+      "h_index": 37,
+      "pubs": 0
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5137455039",
+    "primary_id": "suansunand_facultyofe_cheerapakorn_041",
+    "primary_name": "อ. พรรษวุฒิ ชีระภากร",
+    "donor_id": "ssru_w56_1983_557",
+    "donor_name": "Pasawut Cheerapakorn",
+    "donor_metrics": {
+      "citations": 0,
+      "h_index": 0,
+      "pubs": 1
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5093348397",
+    "primary_id": "suansunand_facultyofe_intarapoo_038",
+    "primary_name": "อ. เอกภพ อินทรภู่",
+    "donor_id": "ssru_w56_1542_210",
+    "donor_name": "Aekkaphob Intarapoo",
+    "donor_metrics": {
+      "citations": 4,
+      "h_index": 1,
+      "pubs": 1
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5098751077",
+    "primary_id": "suansunand_facultyofe_phangsanga_001",
+    "primary_name": "อ. ดิษิรา ผางสง่า",
+    "donor_id": "ssru_w56_1075_416",
+    "donor_name": "Disira Phangsanga",
+    "donor_metrics": {
+      "citations": 1,
+      "h_index": 1,
+      "pubs": 2
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5088902942",
+    "primary_id": "suansunand_facultyofe_waiyaroop_004",
+    "primary_name": "ผศ. สุพันธ์วดี ไวยรูป",
+    "donor_id": "ssru_w56_0875_954",
+    "donor_name": "Suphanwadee Waiyaroop",
+    "donor_metrics": {
+      "citations": 1,
+      "h_index": 1,
+      "pubs": 3
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยแม่โจ้",
+    "oa_id": "A5023265329",
+    "primary_id": "wave22_1079_272",
+    "primary_name": "อ.ดร. สุรีย์พร สราภิรมย์",
+    "donor_id": "mju_w54_0246_974",
+    "donor_name": "S. Sarapirom",
+    "donor_metrics": {
+      "citations": 307,
+      "h_index": 10,
+      "pubs": 28
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยแม่โจ้",
+    "oa_id": "A5080312076",
+    "primary_id": "wave22_1108_127",
+    "primary_name": "ผศ.ดร. เรวดี วงศ์มณีรุ่ง",
+    "donor_id": "mju_w54_0161_162",
+    "donor_name": "R. Wongmaneerung",
+    "donor_metrics": {
+      "citations": 691,
+      "h_index": 17,
+      "pubs": 43
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "oa_id": "A5000856545",
+    "primary_id": "sut_arthit_srikaew_7285",
+    "primary_name": "รศ.ดร. อาทิตย์ ศรีแก้ว",
+    "donor_id": "sut_w46_0011_605",
+    "donor_name": "A. Srikaew",
+    "donor_metrics": {
+      "citations": 695,
+      "h_index": 10,
+      "pubs": 0
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "oa_id": "A5036239203",
+    "primary_id": "sut_eng_weerapong_001",
+    "primary_name": "ศ.ดร. วีระพงษ์ แพสุวรรณ",
+    "donor_id": "sut_w46_0210_966",
+    "donor_name": "W. Pairsuwan",
+    "donor_metrics": {
+      "citations": 299,
+      "h_index": 10,
+      "pubs": 0
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยเทคโนโลยีสุรนารี",
+    "oa_id": "A5067153014",
+    "primary_id": "sut_sci_ayut_001",
+    "primary_name": "รศ.ดร. อายุทธ ลิ้มพิรัตน์",
+    "donor_id": "sut_w46_0602_466",
+    "donor_name": "A. Limphirat",
+    "donor_metrics": {
+      "citations": 3274,
+      "h_index": 28,
+      "pubs": 0
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยแม่โจ้",
+    "oa_id": "A5092362619",
+    "primary_id": "mju_agr_arnat_001",
+    "primary_name": "ศ.ดร. อานัฐ ตันโช",
+    "donor_id": "mju_w54_0610_226",
+    "donor_name": "A. Tancho",
+    "donor_metrics": {
+      "citations": 0,
+      "h_index": 0,
+      "pubs": 6
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5022700695",
+    "primary_id": "suansunand_facultyofe_boonphadung_046",
+    "primary_name": "ผศ.ดร. สุทธิพงศ์ บุญผดุง",
+    "donor_id": "ssru_w56_0179_246",
+    "donor_name": "Suttipong Boonphadung",
+    "donor_metrics": {
+      "citations": 25,
+      "h_index": 2,
+      "pubs": 32
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5014490627",
+    "primary_id": "suansunand_facultyofe_thitivesa_023",
+    "primary_name": "ผศ.ดร. ดวงกมล ฐิติเวส",
+    "donor_id": "ssru_w56_0192_347",
+    "donor_name": "Duangkamol Thitivesa",
+    "donor_metrics": {
+      "citations": 177,
+      "h_index": 3,
+      "pubs": 29
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5019374968",
+    "primary_id": "suansunand_facultyofe_kaewrattanapat_036",
+    "primary_name": "ผศ.ดร. ณัฐภัทร แก้วรัตนภัทร์",
+    "donor_id": "ssru_w56_0304_810",
+    "donor_name": "Nutthapat Kaewrattanapat",
+    "donor_metrics": {
+      "citations": 81,
+      "h_index": 5,
+      "pubs": 16
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5013952453",
+    "primary_id": "suansunand_facultyofe_ratniyom_029",
+    "primary_name": "รศ.ดร. เจษฎา ราษฎร์นิยม",
+    "donor_id": "ssru_w56_0353_417",
+    "donor_name": "Jadsada Ratniyom",
+    "donor_metrics": {
+      "citations": 51,
+      "h_index": 4,
+      "pubs": 13
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5042477901",
+    "primary_id": "suansunand_facultyofe_chongcharoen_002",
+    "primary_name": "อ.ดร. ดวงกมล จงเจริญ",
+    "donor_id": "ssru_w56_0473_174",
+    "donor_name": "Duangkamol Chongcharoen",
+    "donor_metrics": {
+      "citations": 206,
+      "h_index": 3,
+      "pubs": 8
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5015755214",
+    "primary_id": "suansunand_facultyofe_ploysri_040",
+    "primary_name": "ผศ.ดร. วัฒน์ พลอยศรี",
+    "donor_id": "ssru_w56_0504_662",
+    "donor_name": "Wat Ploysri",
+    "donor_metrics": {
+      "citations": 22,
+      "h_index": 1,
+      "pubs": 7
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5006723903",
+    "primary_id": "suansunand_facultyofe_satthaphong_014",
+    "primary_name": "ผศ.ดร. ทัศนีย์ เศรษฐพงษ์",
+    "donor_id": "ssru_w56_0668_326",
+    "donor_name": "Tasanee Satthaphong",
+    "donor_metrics": {
+      "citations": 1,
+      "h_index": 1,
+      "pubs": 4
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5026978608",
+    "primary_id": "suansunand_facultyofe_srima_039",
+    "primary_name": "ผศ.ดร. สุดารัตน์ ศรีมา",
+    "donor_id": "ssru_w56_0680_280",
+    "donor_name": "Sudarat Srima",
+    "donor_metrics": {
+      "citations": 23,
+      "h_index": 2,
+      "pubs": 4
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5077216487",
+    "primary_id": "suansunand_facultyofe_jewpanich_035",
+    "primary_name": "อ.ดร. ชัยวัฒน์ จิวพานิชย์",
+    "donor_id": "ssru_w56_0730_679",
+    "donor_name": "Chaiwat Jewpanich",
+    "donor_metrics": {
+      "citations": 38,
+      "h_index": 3,
+      "pubs": 4
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5026666246",
+    "primary_id": "suansunand_facultyofe_plailek_022",
+    "primary_name": "ผศ.ดร. ธีราภรณ์ พลายเล็ก",
+    "donor_id": "ssru_w56_0802_868",
+    "donor_name": "Teeraporn Plailek",
+    "donor_metrics": {
+      "citations": 7,
+      "h_index": 1,
+      "pubs": 3
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5084756353",
+    "primary_id": "suansunand_facultyofe_poolklai_037",
+    "primary_name": "ผศ.ดร. ศิลป์ชัย พูลคล้าย",
+    "donor_id": "ssru_w56_1038_837",
+    "donor_name": "Sinchai Poolklai",
+    "donor_metrics": {
+      "citations": 9,
+      "h_index": 1,
+      "pubs": 2
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5098940351",
+    "primary_id": "suansunand_facultyofe_boonhok_016",
+    "primary_name": "ผศ.ดร. ศรัณย์ภัทร์ บุญฮก",
+    "donor_id": "ssru_w56_1076_890",
+    "donor_name": "Saranpat Boonhok",
+    "donor_metrics": {
+      "citations": 1,
+      "h_index": 1,
+      "pubs": 2
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5119339805",
+    "primary_id": "suansunand_facultyofe_chuchuoy_028",
+    "primary_name": "ผศ.ดร. กรกมล ชูช่วย",
+    "donor_id": "ssru_w56_1116_315",
+    "donor_name": "Kornkamol Chuchuoy",
+    "donor_metrics": {
+      "citations": 0,
+      "h_index": 0,
+      "pubs": 2
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5092923339",
+    "primary_id": "suansunand_facultyofe_lertamornsak_048",
+    "primary_name": "ผศ.ดร. กัญญ์รัชการย์ เลิศอมรศักดิ์",
+    "donor_id": "ssru_w56_1528_889",
+    "donor_name": "Ganratchakan Lertamornsak",
+    "donor_metrics": {
+      "citations": 7,
+      "h_index": 1,
+      "pubs": 1
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5093201292",
+    "primary_id": "suansunand_facultyofe_plailek_052",
+    "primary_name": "อ.ดร. วีรยุทธ พลายเล็ก",
+    "donor_id": "ssru_w56_1538_324",
+    "donor_name": "Weerayuth Plailek",
+    "donor_metrics": {
+      "citations": 6,
+      "h_index": 1,
+      "pubs": 1
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+    "oa_id": "A5099643868",
+    "primary_id": "suansunand_facultyofe_sukrachan_026",
+    "primary_name": "อ.ดร. ธัชชา ศุกระจันทร์",
+    "donor_id": "ssru_w56_1623_415",
+    "donor_name": "Thadcha Sukrachan",
+    "donor_metrics": {
+      "citations": 0,
+      "h_index": 0,
+      "pubs": 1
+    }
+  },
+  {
+    "univ": "มหาวิทยาลัยเกษตรศาสตร์",
+    "oa_id": "A5082387885",
+    "primary_id": "ku_wave17_econ_0047",
+    "primary_name": "รศ.ดร. อิสริยา นิติทัณฑ์ประภาศ บุญญะศิริ",
+    "donor_id": "ku-econ-003_727321",
+    "donor_name": "รศ.ดร. อิสริยา นิธินันทน์ประภาส",
+    "donor_metrics": {
+      "citations": 129,
+      "h_index": 6,
+      "pubs": 23
+    }
+  }
+]

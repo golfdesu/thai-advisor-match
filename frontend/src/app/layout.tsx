@@ -25,7 +25,11 @@ export const metadata: Metadata = {
 const themeInitScript = `
   (function() {
     try {
-      var savedTheme = 'coral';
+      var validThemes = ['coral', 'peach', 'lavender', 'sage', 'sky', 'blush', 'matcha'];
+      var savedTheme = localStorage.getItem('theme_name') || 'coral';
+      if (validThemes.indexOf(savedTheme) === -1) {
+        savedTheme = 'coral';
+      }
 
       var savedMode = localStorage.getItem('theme_mode');
       var isDark = savedMode ? savedMode === 'dark' : true;

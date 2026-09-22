@@ -1,0 +1,686 @@
+[
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. พรรณราย ศิริเจริญ",
+    "first_name_th": "พรรณราย",
+    "last_name_th": "ศิริเจริญ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. สมชาย ทยานยง",
+    "first_name_th": "สมชาย",
+    "last_name_th": "ทยานยง",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. พิษณุ คนองชัยยศ",
+    "first_name_th": "พิษณุ",
+    "last_name_th": "คนองชัยยศ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ญาใจ ลิ่มปิยะกรณ์",
+    "first_name_th": "ญาใจ",
+    "last_name_th": "ลิ่มปิยะกรณ์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. เฉลิมเอก อินทนากรวิวัฒน์",
+    "first_name_th": "เฉลิมเอก",
+    "last_name_th": "อินทนากรวิวัฒน์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. สมชาย ประสิทธิจูตระกูล",
+    "first_name_th": "สมชาย",
+    "last_name_th": "ประสิทธิจูตระกูล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. วิเทศ เตชางาม",
+    "first_name_th": "วิเทศ",
+    "last_name_th": "เตชางาม",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. เนื่องวงศ์ ทวยเจริญ",
+    "first_name_th": "เนื่องวงศ์",
+    "last_name_th": "ทวยเจริญ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. สุยุชน์ สัตยประกอบ",
+    "first_name_th": "สุยุชน์",
+    "last_name_th": "สัตยประกอบ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. พีรพล เวทีกูล",
+    "first_name_th": "พีรพล",
+    "last_name_th": "เวทีกูล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. เศรษฐา ปานงาม",
+    "first_name_th": "เศรษฐา",
+    "last_name_th": "ปานงาม",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. กมลลักษณ์ สุขเสน",
+    "first_name_th": "กมลลักษณ์",
+    "last_name_th": "สุขเสน",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ชัชวาล วงศ์ศิริประเสริฐ",
+    "first_name_th": "ชัชวาล",
+    "last_name_th": "วงศ์ศิริประเสริฐ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ธาราทิพย์ สุวรรณศาสตร์",
+    "first_name_th": "ธาราทิพย์",
+    "last_name_th": "สุวรรณศาสตร์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. เชษฐ พัฒโนทัย",
+    "first_name_th": "เชษฐ",
+    "last_name_th": "พัฒโนทัย",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ฐานิศรา เกียรติบารมี",
+    "first_name_th": "ฐานิศรา",
+    "last_name_th": "เกียรติบารมี",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. สุเมธ วัชรชัยสุรพล",
+    "first_name_th": "สุเมธ",
+    "last_name_th": "วัชรชัยสุรพล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. อรรถสิทธิ์ สุรฤกษ์",
+    "first_name_th": "อรรถสิทธิ์",
+    "last_name_th": "สุรฤกษ์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. โชติรัตน์ รัตนามหัทธนะ",
+    "first_name_th": "โชติรัตน์",
+    "last_name_th": "รัตนามหัทธนะ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. กุลวดี ศรีพานิชกุลชัย",
+    "first_name_th": "กุลวดี",
+    "last_name_th": "ศรีพานิชกุลชัย",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ณัฐวุฒิ หนูไพโรจน์",
+    "first_name_th": "ณัฐวุฒิ",
+    "last_name_th": "หนูไพโรจน์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ณัท ภวสันต์",
+    "first_name_th": "ณัท",
+    "last_name_th": "ภวสันต์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. วริษา ศรีไตรรัตนรักษ์",
+    "first_name_th": "วริษา",
+    "last_name_th": "ศรีไตรรัตนรักษ์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ชูชีพ ฉิมวงษ์",
+    "first_name_th": "ชูชีพ",
+    "last_name_th": "ฉิมวงษ์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. บุญชัย โสวรรณวณิชกุล",
+    "first_name_th": "บุญชัย",
+    "last_name_th": "โสวรรณวณิชกุล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. เกริก ภิรมย์โสภา",
+    "first_name_th": "เกริก",
+    "last_name_th": "ภิรมย์โสภา",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ประภาส จงสถิตย์วัฒนา",
+    "first_name_th": "ประภาส",
+    "last_name_th": "จงสถิตย์วัฒนา",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. อาทิตย์ ทองทักษ์",
+    "first_name_th": "อาทิตย์",
+    "last_name_th": "ทองทักษ์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ดวงดาว วิชาดากุล",
+    "first_name_th": "ดวงดาว",
+    "last_name_th": "วิชาดากุล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. สาธิต วงศ์ประทีป",
+    "first_name_th": "สาธิต",
+    "last_name_th": "วงศ์ประทีป",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. เมธี ศรีสังวาลย์",
+    "first_name_th": "เมธี",
+    "last_name_th": "ศรีสังวาลย์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. วิษณุ โคตรจรัส",
+    "first_name_th": "วิษณุ",
+    "last_name_th": "โคตรจรัส",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. วันชัย ริ้วไพบูลย์",
+    "first_name_th": "วันชัย",
+    "last_name_th": "ริ้วไพบูลย์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. มัณฑนา ปราการสมุทร",
+    "first_name_th": "มัณฑนา",
+    "last_name_th": "ปราการสมุทร",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ทวิตีย์ เสนีวงศ์ ณ อยุธยา",
+    "first_name_th": "ทวิตีย์",
+    "last_name_th": "เสนีวงศ์ ณ อยุธยา",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ยรรยง เต็งอำนวย",
+    "first_name_th": "ยรรยง",
+    "last_name_th": "เต็งอำนวย",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. สุกรี สินธุภิญโญ",
+    "first_name_th": "สุกรี",
+    "last_name_th": "สินธุภิญโญ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. อิทธิพล ผดุงชีวิต",
+    "first_name_th": "อิทธิพล",
+    "last_name_th": "ผดุงชีวิต",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ชัยรัต พงศ์พันธุ์ภาณี",
+    "first_name_th": "ชัยรัต",
+    "last_name_th": "พงศ์พันธุ์ภาณี",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. เอกพล ช่วงสุวนิช",
+    "first_name_th": "เอกพล",
+    "last_name_th": "ช่วงสุวนิช",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. สุขุม สัตตรัตนามัย",
+    "first_name_th": "สุขุม",
+    "last_name_th": "สัตตรัตนามัย",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. พิชญะ สิทธีอมร",
+    "first_name_th": "พิชญะ",
+    "last_name_th": "สิทธีอมร",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. วิวัฒน์ วัฒนาวุฒิ",
+    "first_name_th": "วิวัฒน์",
+    "last_name_th": "วัฒนาวุฒิ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. โปรดปราน บุณยพุกกณะ",
+    "first_name_th": "โปรดปราน",
+    "last_name_th": "บุณยพุกกณะ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. อรรถวิทย์ สุดแสง",
+    "first_name_th": "อรรถวิทย์",
+    "last_name_th": "สุดแสง",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. กอบกุล เตชะวณิชย์",
+    "first_name_th": "กอบกุล",
+    "last_name_th": "เตชะวณิชย์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ฐิต ศิริบูรณ์",
+    "first_name_th": "ฐิต",
+    "last_name_th": "ศิริบูรณ์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. บุญเสริม กิจศิริกุล",
+    "first_name_th": "บุญเสริม",
+    "last_name_th": "กิจศิริกุล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. สุธี เรืองวิเศษ",
+    "first_name_th": "สุธี",
+    "last_name_th": "เรืองวิเศษ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. กุลธิดา โรจน์วิบูลย์ชัย",
+    "first_name_th": "กุลธิดา",
+    "last_name_th": "โรจน์วิบูลย์ชัย",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ธนาวรรณ จันทรัตนไพบูลย์",
+    "first_name_th": "ธนาวรรณ",
+    "last_name_th": "จันทรัตนไพบูลย์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. วิชาญ เลิศวิภาตระกูล",
+    "first_name_th": "วิชาญ",
+    "last_name_th": "เลิศวิภาตระกูล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. แคน บุญญาวาณิชย์",
+    "first_name_th": "แคน",
+    "last_name_th": "บุญญาวาณิชย์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. วีระ เหมืองสิน",
+    "first_name_th": "วีระ",
+    "last_name_th": "เหมืองสิน",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ธงชัย โรจน์กังสดาล",
+    "first_name_th": "ธงชัย",
+    "last_name_th": "โรจน์กังสดาล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. นัทที นิภานันท์",
+    "first_name_th": "นัทที",
+    "last_name_th": "นิภานันท์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. เจษฎา ธัชแก้วกรพินธุ์",
+    "first_name_th": "เจษฎา",
+    "last_name_th": "ธัชแก้วกรพินธุ์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. สวัสดิ์ แสงบางปลา",
+    "first_name_th": "สวัสดิ์",
+    "last_name_th": "แสงบางปลา",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. บริบูรณ์ วงศ์สารศรี",
+    "first_name_th": "บริบูรณ์",
+    "last_name_th": "วงศ์สารศรี",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. วีระชาติ วหาวิศาล",
+    "first_name_th": "วีระชาติ",
+    "last_name_th": "วหาวิศาล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ณัฐพงศ์ ชินธเนศ",
+    "first_name_th": "ณัฐพงศ์",
+    "last_name_th": "ชินธเนศ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. พิตติพล คันธวัฒน์",
+    "first_name_th": "พิตติพล",
+    "last_name_th": "คันธวัฒน์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. มัชฌิกา อ่องแตง",
+    "first_name_th": "มัชฌิกา",
+    "last_name_th": "อ่องแตง",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. พรศิริ หมื่นไชยศรี",
+    "first_name_th": "พรศิริ",
+    "last_name_th": "หมื่นไชยศรี",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ณรงค์เดช กีรติพรานนท์",
+    "first_name_th": "ณรงค์เดช",
+    "last_name_th": "กีรติพรานนท์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. อติวงศ์ สุชาโต",
+    "first_name_th": "อติวงศ์",
+    "last_name_th": "สุชาโต",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. สืบสกุล พิภพมงคล",
+    "first_name_th": "สืบสกุล",
+    "last_name_th": "พิภพมงคล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ธนารัตน์ ชลิดาพงศ์",
+    "first_name_th": "ธนารัตน์",
+    "last_name_th": "ชลิดาพงศ์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. จารุมาตร ปิ่นทอง",
+    "first_name_th": "จารุมาตร",
+    "last_name_th": "ปิ่นทอง",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. นงลักษณ์ โควาวิสารัช",
+    "first_name_th": "นงลักษณ์",
+    "last_name_th": "โควาวิสารัช",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. นครทิพย์ พร้อมพูล",
+    "first_name_th": "นครทิพย์",
+    "last_name_th": "พร้อมพูล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. วิทยา วัชระวิทยากุล",
+    "first_name_th": "วิทยา",
+    "last_name_th": "วัชระวิทยากุล",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. กนกพรรณ เลิศนิพนธ์พันธ์ุ",
+    "first_name_th": "กนกพรรณ",
+    "last_name_th": "เลิศนิพนธ์พันธ์ุ",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "จุฬาลงกรณ์มหาวิทยาลัย",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "department_th": "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+    "full_name_th": "อ. ชิดชนก เหลือสินทรัพย์",
+    "first_name_th": "ชิดชนก",
+    "last_name_th": "เหลือสินทรัพย์",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": null,
+    "full_name_th": "อ. วันชัย ปลื้มภาณุภัทร",
+    "first_name_th": "วันชัย",
+    "last_name_th": "ปลื้มภาณุภัทร",
+    "academic_title_th": "อ."
+  },
+  {
+    "university_th": "มหาวิทยาลัยเกษตรศาสตร์",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "department_th": null,
+    "full_name_th": "อ. พัณณิดา ขุนนามวงษ์ ในโอกาสปฏิบัติหน้าที่",
+    "first_name_th": "พัณณิดา",
+    "last_name_th": "ขุนนามวงษ์ ในโอกาสปฏิบัติหน้าที่",
+    "academic_title_th": "อ."
+  }
+]

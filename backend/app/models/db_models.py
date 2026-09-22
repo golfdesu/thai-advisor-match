@@ -13,17 +13,17 @@ class FacultyDB(Base):
     faculty_th = Column(String)
     department = Column(String)
     department_th = Column(String)
-    
+
     academic_title_th = Column(String)
     first_name = Column(String)
     last_name = Column(String)
     full_name_th = Column(String)
-    
+
     role = Column(String)
     email = Column(String)
     image_url = Column(String)
     profile_url = Column(String)
-    
+
     education = Column(JSON, default=list)
     research_interests = Column(JSON, default=list)
     taught_courses = Column(JSON, default=list)
@@ -38,8 +38,47 @@ class FacultyDB(Base):
 
     scholar_url = Column(String)
     embedding_text = Column(Text)
-    
+
     # Store the 768-dimensional vector from Gemini (text-embedding-004)
+    embedding = Column(Vector(768))
+
+
+class ScholarUnassignedDB(Base):
+    """Archival and quarantine table for scholars lacking teaching department."""
+    __tablename__ = "scholars_unassigned"
+
+    id = Column(String, primary_key=True, index=True)
+    university = Column(String, index=True)
+    university_th = Column(String, index=True)
+    faculty = Column(String)
+    faculty_th = Column(String)
+    department = Column(String)
+    department_th = Column(String)
+
+    academic_title_th = Column(String)
+    first_name = Column(String)
+    last_name = Column(String)
+    full_name_th = Column(String)
+
+    role = Column(String)
+    email = Column(String)
+    image_url = Column(String)
+    profile_url = Column(String)
+
+    education = Column(JSON, default=list)
+    research_interests = Column(JSON, default=list)
+    taught_courses = Column(JSON, default=list)
+    featured_publications = Column(JSON, default=list)
+
+    total_publications_count = Column(Integer, default=0)
+    first_author_count = Column(Integer, default=0)
+    co_author_count = Column(Integer, default=0)
+    total_citations = Column(Integer, default=0)
+    h_index = Column(Integer, default=0)
+    openalex_id = Column(String)
+
+    scholar_url = Column(String)
+    embedding_text = Column(Text)
     embedding = Column(Vector(768))
 
 

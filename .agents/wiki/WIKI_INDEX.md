@@ -17,6 +17,7 @@ Master index of compiled agent experience, verified university directory pattern
 ---
 
 ## 🧩 Extraction & Cleaning Patterns (`wiki/patterns/`)
+- [**OpenAlex Bulk Faculty Acquisition Runbook**](patterns/openalex_bulk_acquisition.md) — Full step-by-step guide: institution ID lookup, cursor pagination (200/req), circuit breaker, 5-pass dedup, parallel embedding, checkpoint/commit. ผลจริง Wave 58: +58,439 records ใน ~45 นาที พร้อม verified Institution IDs สำหรับมหาลัยไทย 24 แห่ง
 - [Faculty Data Quality Audit & Discovery Runbook](patterns/faculty_data_recovery_patterns.md) — 5-stage quality audit framework, defect remediation, and 5-step unlisted faculty discovery workflow.
 - [Thai Academic Title Edge Cases](patterns/thai_title_rules.md) — Normalization rules for complex/double titles (`ศ.(พิเศษ)`, `รศ.ดร.`, `พญ.ดร.`).
 - [SPA & Dynamic Page Scraping](patterns/spa_scraping.md) — Client-side rendered university directory bypass strategies.

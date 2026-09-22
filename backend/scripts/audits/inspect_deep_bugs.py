@@ -16,7 +16,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 from app.core.database import SessionLocal
 from app.models.db_models import FacultyDB, CourseDB, ResearchLabDB
-from scripts.audits.clean_and_deduplicate_database_2026_09_13 import is_shared_email
+from scripts.audits.clean_and_deduplicate_database import is_shared_email
 
 # Permit institutional subdomains (for example dept.university.ac.th),
 # while requiring a letter-only TLD of at least two characters.

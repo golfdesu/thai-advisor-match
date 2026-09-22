@@ -252,7 +252,9 @@ export default function AdvisorProfilePage() {
                     </span>
                     <span className="bg-[var(--theme-card-subtle)] text-[var(--theme-text-body)] border border-[var(--theme-border)] text-xs sm:text-sm font-bold px-3.5 py-1.5 rounded-xl flex items-center gap-2 shadow-2xs">
                       <Building2 size={16} className="text-[var(--theme-primary)]" />
-                      {advisor.department_th || advisor.faculty_th}
+                      {advisor.department_th && advisor.department_th !== "ระบุไม่ได้"
+                        ? advisor.department_th
+                        : advisor.faculty_th}
                     </span>
                     {advisor.total_publications_count !== undefined && advisor.total_publications_count > 0 && (
                       <span className="bg-[var(--theme-primary-subtle)] text-[var(--theme-primary)] border border-[var(--theme-primary-border)] text-xs sm:text-sm font-black px-3.5 py-1.5 rounded-xl flex items-center gap-2 shadow-2xs">
@@ -431,7 +433,7 @@ export default function AdvisorProfilePage() {
                     <div className="flex items-center gap-2">
                       {advisor.openalex_id && (
                         <a
-                          href={advisor.openalex_id}
+                          href={advisor.openalex_id.startsWith("http") ? advisor.openalex_id : `https://openalex.org/${advisor.openalex_id}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-xs sm:text-sm font-bold text-[var(--theme-accent)] hover:underline flex items-center gap-1.5 bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] px-3 py-1.5 rounded-xl transition shadow-2xs"
@@ -454,68 +456,140 @@ export default function AdvisorProfilePage() {
                     </div>
                   </div>
 
-                  {/* Authorship Breakdown Card (Real Metrics) */}
-                  {advisor.total_publications_count !== undefined && advisor.total_publications_count > 0 && (
-                    <div className="p-4 rounded-2xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] space-y-3">
-                      <div className="flex flex-wrap items-center justify-between gap-2">
-                        <span className="text-xs font-black uppercase text-[var(--theme-text-title)] flex items-center gap-1.5">
-                          <FileText size={15} className="text-[var(--theme-primary)]" />
-                          สถิติการตีพิมพ์ในฐานข้อมูลสากล (OpenAlex Verified):
-                        </span>
-                        <div className="flex items-center gap-3 text-xs font-bold">
-                          {advisor.total_citations !== undefined && advisor.total_citations > 0 && (
-                            <span className="text-[var(--theme-accent)]">
-                              ยอดอ้างอิงรวม: <strong>{advisor.total_citations.toLocaleString()}</strong> ครั้ง
-                            </span>
-                          )}
-                          {advisor.h_index !== undefined && advisor.h_index > 0 && (
-                            <span className="text-[var(--theme-primary)]">
-                              h-index: <strong>{advisor.h_index}</strong>
-                            </span>
-                          )}
-                        </div>
-                      </div>
+                  {/* Publications Metrics Card (Unified 3-Card Standard) */}
+                  {(() => {
+                    const totalPubs =
+                      advisor.total_publications_count && advisor.total_publications_count > 0
+                        ? advisor.total_publications_count
+                        : (advisor.featured_publications?.length || 0);
 
-                      {/* Authorship Bar */}
-                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-1">
-                        <div className="p-3 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-center">
-                          <span className="text-[11px] text-[var(--theme-text-muted)] font-bold block mb-0.5">
-                            ผลงานทั้งหมด
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-[var(--theme-text-title)]">
-                            {advisor.total_publications_count}
-                          </span>
-                          <span className="text-[10px] text-[var(--theme-text-muted)] block mt-0.5">เรื่อง</span>
-                        </div>
-                        <div className="p-3 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-center">
-                          <span className="text-[11px] text-[var(--theme-primary)] font-bold block mb-0.5">
-                            ตีพิมพ์เอง (First/Main Author)
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-[var(--theme-primary)]">
-                            {advisor.first_author_count || 0}
-                          </span>
-                          <span className="text-[10px] text-[var(--theme-text-muted)] block mt-0.5">
-                            {advisor.total_publications_count > 0
-                              ? `${Math.round(((advisor.first_author_count || 0) / advisor.total_publications_count) * 100)}% ของงานทั้งหมด`
-                              : "0%"}
+                    const hasAnyMetrics =
+                      totalPubs > 0 ||
+                      (advisor.total_citations !== undefined && advisor.total_citations > 0) ||
+                      (advisor.h_index !== undefined && advisor.h_index > 0);
+
+                    if (!hasAnyMetrics) return null;
+
+                    const hasAuthorshipBreakdown =
+                      ((advisor.first_author_count || 0) + (advisor.co_author_count || 0)) > 0;
+
+                    return (
+                      <div className="p-4 sm:p-5 rounded-2xl bg-[var(--theme-card-subtle)] border border-[var(--theme-border)] space-y-4">
+                        <div className="flex flex-wrap items-center justify-between gap-2">
+                          <span className="text-xs font-black uppercase text-[var(--theme-text-title)] flex items-center gap-1.5">
+                            <FileText size={15} className="text-[var(--theme-primary)]" />
+                            สถิติการตีพิมพ์ในฐานข้อมูลสากล (OpenAlex Verified):
                           </span>
                         </div>
-                        <div className="p-3 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-center col-span-2 sm:col-span-1">
-                          <span className="text-[11px] text-[var(--theme-accent)] font-bold block mb-0.5">
-                            ร่วมตีพิมพ์ (Co-Author)
-                          </span>
-                          <span className="text-lg sm:text-xl font-black text-[var(--theme-accent)]">
-                            {advisor.co_author_count || 0}
-                          </span>
-                          <span className="text-[10px] text-[var(--theme-text-muted)] block mt-0.5">
-                            {advisor.total_publications_count > 0
-                              ? `${Math.round(((advisor.co_author_count || 0) / advisor.total_publications_count) * 100)}% ของงานทั้งหมด`
-                              : "0%"}
-                          </span>
+
+                        {/* Unified 3-Card Metric Layout for All Advisors */}
+                        <div className="grid grid-cols-3 gap-3">
+                          <div className="p-3 sm:p-3.5 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-center shadow-2xs">
+                            <span className="text-[11px] sm:text-xs text-[var(--theme-text-muted)] font-bold block mb-0.5">
+                              ผลงานทั้งหมด
+                            </span>
+                            <span className="text-lg sm:text-2xl font-black text-[var(--theme-text-title)]">
+                              {totalPubs}
+                            </span>
+                            <span className="text-[10px] text-[var(--theme-text-muted)] block mt-0.5 font-medium">เรื่อง</span>
+                          </div>
+                          <div className="p-3 sm:p-3.5 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-center shadow-2xs">
+                            <span className="text-[11px] sm:text-xs text-[var(--theme-accent)] font-bold block mb-0.5">
+                              ยอดอ้างอิงทั้งหมด
+                            </span>
+                            <span className="text-lg sm:text-2xl font-black text-[var(--theme-accent)]">
+                              {advisor.total_citations !== undefined && advisor.total_citations > 0
+                                ? advisor.total_citations.toLocaleString()
+                                : "0"}
+                            </span>
+                            <span className="text-[10px] text-[var(--theme-text-muted)] block mt-0.5 font-medium">ครั้ง</span>
+                          </div>
+                          <div className="p-3 sm:p-3.5 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-center shadow-2xs">
+                            <span className="text-[11px] sm:text-xs text-[var(--theme-primary)] font-bold block mb-0.5">
+                              ดัชนี h-index
+                            </span>
+                            <span className="text-lg sm:text-2xl font-black text-[var(--theme-primary)]">
+                              {advisor.h_index || 0}
+                            </span>
+                            <span className="text-[10px] text-[var(--theme-text-muted)] block mt-0.5 font-medium">ระดับผลกระทบ</span>
+                          </div>
                         </div>
+
+                        {/* Authorship Breakdown Extension (When Verified Positions Exist) */}
+                        {hasAuthorshipBreakdown && (
+                          <div className="pt-2 border-t border-[var(--theme-border)]/60 space-y-2.5">
+                            <div className="flex flex-wrap items-center justify-between text-xs font-bold gap-1 text-[var(--theme-text-muted)]">
+                              <span className="flex items-center gap-1.5 text-[var(--theme-text-title)]">
+                                <Users size={14} className="text-[var(--theme-primary)]" />
+                                สัดส่วนการมีส่วนร่วมในผลงาน (Authorship Breakdown):
+                              </span>
+                              <span className="text-[11px] font-semibold text-[var(--theme-text-muted)]">
+                                ตีพิมพ์เอง {advisor.first_author_count || 0} • ร่วมตีพิมพ์ {advisor.co_author_count || 0}
+                              </span>
+                            </div>
+
+                            {/* Ratio Progress Bar */}
+                            <div className="h-2 w-full bg-[var(--theme-border)]/50 rounded-full overflow-hidden flex">
+                              <div
+                                className="bg-[var(--theme-primary)] h-full transition-all"
+                                style={{
+                                  width: `${
+                                    totalPubs > 0
+                                      ? Math.min(100, Math.round(((advisor.first_author_count || 0) / totalPubs) * 100))
+                                      : 50
+                                  }%`,
+                                }}
+                                title={`ตีพิมพ์เอง: ${advisor.first_author_count || 0} เรื่อง`}
+                              />
+                              <div
+                                className="bg-[var(--theme-accent)] h-full transition-all"
+                                style={{
+                                  width: `${
+                                    totalPubs > 0
+                                      ? Math.min(100, Math.round(((advisor.co_author_count || 0) / totalPubs) * 100))
+                                      : 50
+                                  }%`,
+                                }}
+                                title={`ร่วมตีพิมพ์: ${advisor.co_author_count || 0} เรื่อง`}
+                              />
+                            </div>
+
+                            {/* Position Details Badges */}
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1">
+                              <div className="flex items-center justify-between px-3 py-2 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-xs">
+                                <span className="flex items-center gap-2 font-bold text-[var(--theme-primary)]">
+                                  <span className="w-2 h-2 rounded-full bg-[var(--theme-primary)] shrink-0" />
+                                  ตีพิมพ์เอง (First/Main Author)
+                                </span>
+                                <span className="font-black text-[var(--theme-text-title)]">
+                                  {advisor.first_author_count || 0} เรื่อง{" "}
+                                  <span className="font-semibold text-[10px] text-[var(--theme-text-muted)]">
+                                    ({totalPubs > 0
+                                      ? Math.round(((advisor.first_author_count || 0) / totalPubs) * 100)
+                                      : 0}%)
+                                  </span>
+                                </span>
+                              </div>
+                              <div className="flex items-center justify-between px-3 py-2 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-xs">
+                                <span className="flex items-center gap-2 font-bold text-[var(--theme-accent)]">
+                                  <span className="w-2 h-2 rounded-full bg-[var(--theme-accent)] shrink-0" />
+                                  ร่วมตีพิมพ์ (Co-Author)
+                                </span>
+                                <span className="font-black text-[var(--theme-text-title)]">
+                                  {advisor.co_author_count || 0} เรื่อง{" "}
+                                  <span className="font-semibold text-[10px] text-[var(--theme-text-muted)]">
+                                    ({totalPubs > 0
+                                      ? Math.round(((advisor.co_author_count || 0) / totalPubs) * 100)
+                                      : 0}%)
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        )}
                       </div>
-                    </div>
-                  )}
+                    );
+                  })()}
 
                   <div className="space-y-3.5">
                     {advisor.featured_publications.map((pub, i) => (

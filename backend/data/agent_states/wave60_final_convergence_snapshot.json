@@ -1,0 +1,18 @@
+{
+  "timestamp": 1789958694.1487885,
+  "null_conversions": {
+    "department": 119752,
+    "department_th": 119579,
+    "role": 0,
+    "email": 119723,
+    "first_name": 2046,
+    "last_name": 2310,
+    "image_url": 119712,
+    "profile_url": 0
+  },
+  "spaces_repaired": 1,
+  "disambiguated_reset": 8,
+  "tu_eng_recovered": 3,
+  "cra_synchronized": 2840,
+  "authorship_reconciled": 184
+}

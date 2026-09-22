@@ -17,6 +17,7 @@ import threading
 sys.path.insert(0, os.path.abspath("backend"))
 sys.path.insert(0, os.path.abspath("backend/scripts"))
 
+from sqlalchemy import func, or_
 from app.core.database import SessionLocal
 from app.models.db_models import FacultyDB
 try:
@@ -24,7 +25,7 @@ try:
 except ImportError:
     from fetch_openalex_publication_metrics import fetch_with_retry, all_keys_exhausted
 
-MAX_WORKERS = 8
+MAX_WORKERS = 21
 PRINT_LOCK = threading.Lock()
 
 
@@ -77,7 +78,7 @@ def fetch_top_works_for_author(openalex_id_raw: str, max_works: int = 5) -> list
     return formatted_pubs
 
 
-def run_openalex_publication_enrichment(limit: int = 0, workers: int = MAX_WORKERS, batch_size: int = 50):
+def run_openalex_publication_enrichment(limit: int = 0, workers: int = MAX_WORKERS, batch_size: int = 100):
     db = SessionLocal()
     try:
         # Query only needed columns (id, openalex_id, full_name_th, featured_publications)
@@ -90,7 +91,11 @@ def run_openalex_publication_enrichment(limit: int = 0, workers: int = MAX_WORKE
             FacultyDB.total_publications_count
         ).filter(
             FacultyDB.total_publications_count > 0,
-            FacultyDB.openalex_id.like('%openalex.org%')
+            FacultyDB.openalex_id.like('%/A%'),
+            or_(
+                FacultyDB.featured_publications.is_(None),
+                func.json_array_length(FacultyDB.featured_publications) < 5
+            )
         ).all()
 
         target_faculties = []
@@ -107,12 +112,12 @@ def run_openalex_publication_enrichment(limit: int = 0, workers: int = MAX_WORKE
         target_faculties = target_faculties[:limit]
 
     total = len(target_faculties)
-    print("=" * 65)
-    print(f"🚀 STARTING OPENALEX WORKS ENRICHMENT FOR {total} FACULTIES")
-    print("=" * 65)
+    print("=" * 65, flush=True)
+    print(f"🚀 STARTING OPENALEX WORKS ENRICHMENT FOR {total} FACULTIES (Workers: {workers})", flush=True)
+    print("=" * 65, flush=True)
 
     if total == 0:
-        print("✅ No faculties need OpenAlex works enrichment!")
+        print("✅ No faculties need OpenAlex works enrichment!", flush=True)
         return
 
     enriched_results = {}
@@ -142,35 +147,38 @@ def run_openalex_publication_enrichment(limit: int = 0, workers: int = MAX_WORKE
         db_write = SessionLocal()
         try:
             saved_count = 0
-            for fid, name_th, works, existing_pubs in chunk_results:
-                if not works:
-                    continue
-                fac_rec = db_write.query(FacultyDB).filter(FacultyDB.id == fid).first()
-                if not fac_rec:
-                    continue
+            items_to_update = [item for item in chunk_results if item[2]] # has works
+            if items_to_update:
+                fids = [item[0] for item in items_to_update]
+                fac_map = {f.id: f for f in db_write.query(FacultyDB).filter(FacultyDB.id.in_(fids)).all()}
 
-                # Keep authentic publications, filter out placeholder dummy strings
-                existing_real = [ep for ep in (fac_rec.featured_publications or []) if is_real_publication(ep)]
-                existing_titles = set()
-                merged_pubs = []
-                for ep in existing_real:
-                    t = ep.get("title") if isinstance(ep, dict) else str(ep)
-                    if t and t.lower() not in existing_titles:
-                        existing_titles.add(t.lower())
-                        merged_pubs.append(ep)
+                for fid, name_th, works, existing_pubs in items_to_update:
+                    fac_rec = fac_map.get(fid)
+                    if not fac_rec:
+                        continue
 
-                for nw in works:
-                    nt = nw["title"]
-                    if nt.lower() not in existing_titles:
-                        existing_titles.add(nt.lower())
-                        merged_pubs.append(nw)
+                    # Keep authentic publications, filter out placeholder dummy strings
+                    existing_real = [ep for ep in (fac_rec.featured_publications or []) if is_real_publication(ep)]
+                    existing_titles = set()
+                    merged_pubs = []
+                    for ep in existing_real:
+                        t = ep.get("title") if isinstance(ep, dict) else str(ep)
+                        if t and t.lower() not in existing_titles:
+                            existing_titles.add(t.lower())
+                            merged_pubs.append(ep)
 
-                # Prioritize highest cited authentic publications and take top 5
-                merged_pubs.sort(key=lambda p: (p.get("citation_count") or 0) if isinstance(p, dict) else 0, reverse=True)
-                fac_rec.featured_publications = merged_pubs[:5]
-                saved_count += 1
+                    for nw in works:
+                        nt = nw["title"]
+                        if nt.lower() not in existing_titles:
+                            existing_titles.add(nt.lower())
+                            merged_pubs.append(nw)
 
-            db_write.commit()
+                    # Prioritize highest cited authentic publications and take top 5
+                    merged_pubs.sort(key=lambda p: (p.get("citation_count") or 0) if isinstance(p, dict) else 0, reverse=True)
+                    fac_rec.featured_publications = merged_pubs[:5]
+                    saved_count += 1
+
+                db_write.commit()
         except Exception:
             db_write.rollback()
             raise
@@ -181,22 +189,22 @@ def run_openalex_publication_enrichment(limit: int = 0, workers: int = MAX_WORKE
         elapsed = time.time() - start_time
         rate = completed / elapsed if elapsed > 0 else 0
         remaining = (total - completed) / rate if rate > 0 else 0
-        print(f"[{completed}/{total}] Enriched {saved_count} in chunk | Overall progress: {completed*100/total:.1f}% (ETA: {remaining/60:.1f}m)")
+        print(f"[{completed}/{total}] Enriched {saved_count} in chunk | Overall progress: {completed*100/total:.1f}% (ETA: {remaining/60:.1f}m)", flush=True)
 
         if all_keys_exhausted():
-            print("\n⚠️ Daily quota reached across all OpenAlex API keys! Pausing works enrichment cleanly.")
+            print("\n⚠️ Daily quota reached across all OpenAlex API keys! Pausing works enrichment cleanly.", flush=True)
             break
 
-    print("=" * 65)
-    print(f"✅ COMPLETED OPENALEX PUBLICATION ENRICHMENT IN {time.time() - start_time:.1f}s")
-    print("=" * 65)
+    print("=" * 65, flush=True)
+    print(f"✅ COMPLETED OPENALEX PUBLICATION ENRICHMENT IN {time.time() - start_time:.1f}s", flush=True)
+    print("=" * 65, flush=True)
 
 
 def main():
     parser = argparse.ArgumentParser(description="Enrich faculty publications using OpenAlex Works API")
     parser.add_argument("--limit", type=int, default=0, help="Maximum faculties to process (0 = all)")
     parser.add_argument("--workers", type=int, default=MAX_WORKERS, help="Worker threads for HTTP fetching")
-    parser.add_argument("--batch-size", type=int, default=50, help="Batch commit size")
+    parser.add_argument("--batch-size", type=int, default=100, help="Batch commit size")
     args = parser.parse_args()
 
     run_openalex_publication_enrichment(limit=args.limit, workers=args.workers, batch_size=args.batch_size)
