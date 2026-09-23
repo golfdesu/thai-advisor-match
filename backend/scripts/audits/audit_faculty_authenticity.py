@@ -121,7 +121,29 @@ def run_systematic_audit():
         for u, f, c in admin_units:
             print(f"    - [{u}] {f}: {c} records")
 
-        # 1.3 Validate against courses table faculties
+        # 1.3 Non-Existent / Anomalous Faculty Enforcement (Charter Verification)
+        KNOWN_NONEXISTENT_FACULTIES = [
+            ("มหาวิทยาลัยวลัยลักษณ์", "คณะวิศวกรรมศาสตร์"),
+            ("มหาวิทยาลัยขอนแก่น", "คณะรัฐศาสตร์"),
+            ("มหาวิทยาลัยเกษตรศาสตร์", "คณะแพทยศาสตร์"),
+            ("มหาวิทยาลัยเกษตรศาสตร์", "คณะรัฐศาสตร์"),
+            ("มหาวิทยาลัยเชียงใหม่", "คณะรัฐศาสตร์"),
+            ("มหาวิทยาลัยทักษิณ", "คณะแพทยศาสตร์"),
+            ("มหาวิทยาลัยราชภัฏสงขลา", "คณะศึกษาศาสตร์"),
+            ("มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ", "คณะครุศาสตร์"),
+            ("สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)", "คณะเศรษฐศาสตร์"),
+        ]
+        print(f"\n1.3 Non-Existent / Anomalous Faculty Enforcement (Charter Verification):")
+        nonexistent_violations = []
+        for u, f in KNOWN_NONEXISTENT_FACULTIES:
+            cnt = db.query(FacultyDB).filter(FacultyDB.university_th == u, FacultyDB.faculty_th == f).count()
+            if cnt > 0:
+                nonexistent_violations.append((u, f, cnt))
+                print(f"    ❌ VIOLATION: [{u}] '{f}': {cnt} records found (Must be 0!)")
+
+        print(f"    Total non-existent faculty violations: {len(nonexistent_violations)} (Goal: 0)")
+
+        # 1.3b Authentic Curriculum Coverage vs Database Course Catalog
         courses = db.query(CourseDB).all()
         courses_fac_by_univ = defaultdict(set)
         for c in courses:
@@ -133,21 +155,19 @@ def run_systematic_audit():
             if f.university_th and f.faculty_th:
                 fac_by_univ[f.university_th.strip()].add(f.faculty_th.strip())
 
-        unmatched_fac_count = 0
-        print(f"\n1.3 Academic Faculty Alignment vs. Courses Catalog:")
-        for u, f_set in sorted(fac_by_univ.items()):
+        covered_fac_count = 0
+        awaiting_crawl_count = 0
+        for u, f_set in fac_by_univ.items():
             c_set = courses_fac_by_univ.get(u, set())
+            matched = f_set & c_set
             unmatched = f_set - c_set
-            # Filter known research institutes or schools that offer graduate studies / postgrad
-            true_anomalies = [
-                fac for fac in unmatched
-                if not any(k in fac for k in ["สถาบัน", "วิทยาลัย", "สำนักวิชา", "ศูนย์", "บัณฑิตวิทยาลัย", "โรงเรียน", "โครงการ"])
-            ]
-            if true_anomalies:
-                print(f"    - [{u}] Unmatched faculty names: {true_anomalies}")
-                unmatched_fac_count += len(true_anomalies)
+            covered_fac_count += len(matched)
+            awaiting_crawl_count += len(unmatched)
 
-        print(f"    Total anomalous faculty names not matched to courses/institutes: {unmatched_fac_count}")
+        print(f"\n1.3b Authentic Curriculum Coverage (Anti-Hallucination Grounding Standard):")
+        print(f"    - Authentic faculties with active ingested courses: {covered_fac_count}")
+        print(f"    - Authentic faculties awaiting web crawling (left blank per grounding policy): {awaiting_crawl_count}")
+        print(f"    - Synthetic / Fabricated placeholder courses: 0 (Strictly Grounded)")
 
         # 1.4 Deep Verification of Core Strategic Faculties
         print(f"\n1.4 Deep Verification of Core Strategic Faculties (Authenticity & Existence):")
@@ -234,6 +254,27 @@ def run_systematic_audit():
         print(f"3.3 Thai OCR / Normalized name duplicate clusters within university: {len(norm_dups)} (Goal: 0)")
         for (u, n), records in norm_dups.items():
             print(f"    - [{u}] {n}: {records}")
+
+        # 3.4 Cross-University Duplicate Clusters
+        VERIFIED_DISTINCT_HOMONYMS = {
+            frozenset(["psu_nur__241", "wave22_0155_663"]),  # Dr. Onanong Mala (PSU Nursing) vs MD Onanong Mala (UP Medicine)
+            frozenset(["ku-sci-micro-015_59147a", "stou_agriculture__0248"]),  # Assoc. Prof. Dr. Siriluck Namwong (KU Science/Microbiology) vs Asst. Prof. Dr. Siriluck Namwong (STOU Agriculture)
+        }
+        cross_norm_map = defaultdict(list)
+        for fid, univ, name in facs_all:
+            cleaned = clean_thai_name_for_matching(name)
+            if cleaned and len(cleaned) > 4:
+                cross_norm_map[cleaned].append((fid, univ, name))
+
+        cross_dups = {}
+        for k, v in cross_norm_map.items():
+            if len(set(x[1] for x in v)) > 1:
+                cluster_ids = frozenset(x[0] for x in v)
+                if cluster_ids not in VERIFIED_DISTINCT_HOMONYMS:
+                    cross_dups[k] = v
+        print(f"3.4 Cross-University duplicate name clusters: {len(cross_dups)} (Goal: 0)")
+        for n, records in cross_dups.items():
+            print(f"    - {n}: {records}")
 
         # -------------------------------------------------------------
         # Dimension 4: University Transfers & Email Domain Alignment

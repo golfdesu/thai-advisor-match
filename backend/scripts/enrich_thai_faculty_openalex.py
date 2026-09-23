@@ -35,6 +35,9 @@ import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 # Ensure backend directory is in python path
 _SCRIPTS_DIR = Path(__file__).resolve().parent
 _BACKEND_DIR = _SCRIPTS_DIR.parent

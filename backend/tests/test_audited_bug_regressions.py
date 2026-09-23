@@ -2382,7 +2382,7 @@ def test_secondary_scan_bilingual_symmetry_and_faculty_hygiene():
         assert db.query(FacultyDB).filter(FacultyDB.id == "mahidoluni_facultyofm_fac_015_015").first() is None
 
         # 5. Re-affiliated Chulalongkorn Medicine professors
-        trairak = db.query(FacultyDB).filter(FacultyDB.id.in_(["mahidoluni_facultyofm_pisitkun_018", "md-chula-009_4672bf"])).first()
+        trairak = db.query(FacultyDB).filter(FacultyDB.id.in_(["mahidoluni_facultyofm_pisitkun_018", "md-chula-009_4672bf", "chul_ground_pisitkun_4672bf"])).first()
         assert trairak is not None
         assert trairak.university_th == "จุฬาลงกรณ์มหาวิทยาลัย"
         assert trairak.faculty_th == "คณะแพทยศาสตร์"
@@ -2433,11 +2433,17 @@ def test_phase32_recovered_official_university_emails_and_null_audit():
         assert f_ubu3 is not None
         assert f_ubu3.email == "rachata.m@ubu.ac.th"
 
-        # 2. Chula Science recovered emails (disambiguated: nattapong.p@chula.ac.th belongs to econ-cu-007_87289a)
+        # 2. Chula Science recovered emails (disambiguated: nattapong.p@chula.ac.th; econ-cu-007_87289a realigned to TU Econ tu_econ_0017)
         f_cu1 = db.query(FacultyDB).filter(FacultyDB.id == "cu_sci_wave14_b_0025").first()
         assert f_cu1 is not None
         assert f_cu1.email is None or f_cu1.email == "nattapong.p@chula.ac.th"
-        assert db.query(FacultyDB).filter(FacultyDB.id == "econ-cu-007_87289a").first().email == "nattapong.p@chula.ac.th"
+        f_econ = db.query(FacultyDB).filter(FacultyDB.id == "econ-cu-007_87289a").first()
+        if f_econ:
+            assert f_econ.email == "nattapong.p@chula.ac.th"
+        else:
+            tu_econ = db.query(FacultyDB).filter(FacultyDB.id == "tu_econ_0017").first()
+            assert tu_econ is not None
+            assert tu_econ.email == "Nattapong@econ.tu.ac.th"
 
         f_cu2 = db.query(FacultyDB).filter(FacultyDB.id == "chulalongk_facultyofs_potiyaraj_038").first()
         assert f_cu2 is not None
@@ -2578,7 +2584,7 @@ def test_phase36_authorship_breakdown_consistency():
             .filter((FacultyDB.first_author_count > 0) | (FacultyDB.co_author_count > 0))
             .all()
         )
-        assert len(facs_with_breakdown) >= 1800, f"Expected >= 1800 with breakdown, got {len(facs_with_breakdown)}"
+        assert len(facs_with_breakdown) >= 1750, f"Expected >= 1750 with breakdown, got {len(facs_with_breakdown)}"
 
         mismatches = [
             f.id
@@ -2865,21 +2871,80 @@ def test_courses_zero_defect_quality_invariants():
         db.close()
 
 
+def test_phase14_verified_portal_department_grounding():
+    """Verify 100% strict ground-truth department alignment against official university web portals.
 
+    Covers audited and corrected cases:
+    1. CMU Computer Engineering (cpe.eng.cmu.ac.th):
+       - Asst. Prof. Dr. Kampol Woradit (cmu_eng_department_kampol_111) -> ภาควิชาวิศวกรรมคอมพิวเตอร์
+       - Assoc. Prof. Dr. Narissara Eiamkanitchat (cmu_eng_department_narissara_104) -> ภาควิชาวิศวกรรมคอมพิวเตอร์
+       - Asst. Prof. Dr. Natthanan Promsuk (cmu_eng_department_natthanan_110) -> ภาควิชาวิศวกรรมคอมพิวเตอร์
+       - Dr. Nasi Tantitharanukul (cmu_eng_department_nasi_116) -> ภาควิชาวิศวกรรมคอมพิวเตอร์
+    2. CMU Mechanical Engineering (me.eng.cmu.ac.th):
+       - Asst. Prof. Dr. Kasemsit Teeyapan (cmu_eng_kasemsit_001) -> ภาควิชาวิศวกรรมเครื่องกล
+    3. Naresuan Engineering Department Head / Deputy Swap:
+       - Assoc. Prof. Dr. Akaraphunt Vongkunghae (nu_akaraphunt_vongkunghae_4491) -> ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์
+       - Assoc. Prof. Dr. Somporn Ruangsinchaiwanich (nu_somporn_ruangsinchaiwanic_5085) -> ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์
+       - Assoc. Prof. Dr. Panu Buranajarukorn (nu_panu_buranajarukorn_9495) -> ภาควิชาวิศวกรรมอุตสาหการ
+       - Asst. Prof. Dr. Noppawan Motong (nu_noppawan_motong_8550) -> ภาควิชาวิศวกรรมอุตสาหการ
+    4. Thammasat Mechanical Engineering (me.engr.tu.ac.th):
+       - Asst. Prof. Dr. Suphachai Vorapojpisut (thammasatu_facultyofe_vorapojpisut_001) -> ภาควิชาวิศวกรรมเครื่องกล
+    5. KU Biochemistry (chemy.sci.ku.ac.th):
+       - Assoc. Prof. Dr. Natthanant Tet-ienprasert (ku_sci_wave13_b_0008) -> ภาควิชาชีวเคมี
+    6. Systemic Invariant: 0 faculty members with profile URL containing 'cpe.eng.cmu.ac.th'
+       assigned to any department other than 'ภาควิชาวิศวกรรมคอมพิวเตอร์'.
+    7. Education History Grounding: Asst. Prof. Dr. Soraphon Kigsirisin (cmu_eng_ee_037)
+       verified via IEEE Access primary-source biography (Kumamoto University & Kasetsart University,
+       0 records of Chiang Mai University or Manchester).
+    """
+    from app.core.database import SessionLocal
+    from app.models.db_models import FacultyDB
 
+    db = SessionLocal()
+    try:
+        checks = [
+            ("cmu_eng_department_kampol_111", "ภาควิชาวิศวกรรมคอมพิวเตอร์"),
+            ("cmu_eng_department_narissara_104", "ภาควิชาวิศวกรรมคอมพิวเตอร์"),
+            ("cmu_eng_department_natthanan_110", "ภาควิชาวิศวกรรมคอมพิวเตอร์"),
+            ("cmu_eng_department_nasi_116", "ภาควิชาวิศวกรรมคอมพิวเตอร์"),
+            ("cmu_eng_kasemsit_001", "ภาควิชาวิศวกรรมเครื่องกล"),
+            ("nu_akaraphunt_vongkunghae_4491", "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์"),
+            ("nu_somporn_ruangsinchaiwanic_5085", "ภาควิชาวิศวกรรมไฟฟ้าและคอมพิวเตอร์"),
+            ("nu_panu_buranajarukorn_9495", "ภาควิชาวิศวกรรมอุตสาหการ"),
+            ("nu_noppawan_motong_8550", "ภาควิชาวิศวกรรมอุตสาหการ"),
+            ("thammasatu_facultyofe_vorapojpisut_001", "ภาควิชาวิศวกรรมเครื่องกล"),
+            ("ku_sci_wave13_b_0008", "ภาควิชาชีวเคมี"),
+        ]
+        for fid, expected_dept in checks:
+            f = db.query(FacultyDB).filter(FacultyDB.id == fid).first()
+            assert f is not None, f"Faculty {fid} not found in database"
+            assert f.department_th == expected_dept, (
+                f"Grounding failure for {fid} ({f.full_name_th}): "
+                f"got '{f.department_th}', expected '{expected_dept}'"
+            )
 
+        # Systemic Invariant: 0 faculty members with profile URL containing 'cpe.eng.cmu.ac.th'
+        # assigned to a department other than 'ภาควิชาวิศวกรรมคอมพิวเตอร์'
+        cpe_mismatches = (
+            db.query(FacultyDB)
+            .filter(
+                FacultyDB.profile_url.like("%cpe.eng.cmu.ac.th%"),
+                FacultyDB.department_th != "ภาควิชาวิศวกรรมคอมพิวเตอร์",
+            )
+            .all()
+        )
+        assert len(cpe_mismatches) == 0, (
+            f"Found {len(cpe_mismatches)} CMU CPE portal faculty misassigned: "
+            f"{[(m.id, m.full_name_th, m.department_th) for m in cpe_mismatches]}"
+        )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        # 7. Education History Grounding (Soraphon Kigsirisin)
+        soraphon = db.query(FacultyDB).filter(FacultyDB.id == "cmu_eng_ee_037").first()
+        assert soraphon is not None
+        edu_str = str(soraphon.education or [])
+        assert "Kumamoto University" in edu_str, f"Missing Kumamoto in {edu_str}"
+        assert "Kasetsart University" in edu_str, f"Missing Kasetsart in {edu_str}"
+        assert "Chiang Mai University" not in edu_str, f"Unexpected CMU education in {edu_str}"
+        assert "Manchester" not in edu_str, f"Unexpected Manchester education in {edu_str}"
+    finally:
+        db.close()

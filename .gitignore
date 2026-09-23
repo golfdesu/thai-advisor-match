@@ -60,6 +60,7 @@ MANIFEST
 backend/.pytest_cache/
 
 # Temporary Crawling Snippets & Scraping Dumps
+data/agent_states/
 data/*snippets*
 data/*_raw.json
 data/raw_*.json
@@ -67,4 +68,5 @@ data/raw_*.json
 backend/data/*.log
 backend/data/*.txt
 backend/data/agent_states/*.txt
+backend/data/agent_states/*.json
 

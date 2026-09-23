@@ -17,6 +17,48 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    networks:
+      - app_network
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: thai_educenter_backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/advisor_match
+      HOST: 0.0.0.0
+      PORT: 8000
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      SERPAPI_KEY: ${SERPAPI_KEY:-}
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app_network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8000/api/v1}
+    container_name: thai_educenter_frontend
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8000/api/v1}
+    ports:
+      - "3000:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - app_network
 
   pgadmin:
     image: dpage/pgadmin4:latest
@@ -32,7 +74,13 @@ services:
         condition: service_healthy
     profiles:
       - tools
+    networks:
+      - app_network
 
 volumes:
   postgres_data:
     driver: local
+
+networks:
+  app_network:
+    driver: bridge

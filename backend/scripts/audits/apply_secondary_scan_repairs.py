@@ -62,6 +62,12 @@ TH_TO_EN_CANONICAL = {
     "มหาวิทยาลัยมหาสารคาม": "Mahasarakham University",
     "มหาวิทยาลัยราชภัฏสวนสุนันทา": "Suan Sunandha Rajabhat University",
     "ราชวิทยาลัยจุฬาภรณ์": "Chulabhorn Royal Academy",
+    "มหาวิทยาลัยกรุงเทพ": "Bangkok University",
+    "มหาวิทยาลัยสุโขทัยธรรมาธิราช": "Sukhothai Thammathirat Open University",
+    "มหาวิทยาลัยอัสสัมชัญ": "Assumption University",
+    "มหาวิทยาลัยศรีปทุม": "Sripatum University",
+    "มหาวิทยาลัยศรีปทุม วิทยาเขตขอนแก่น": "Sripatum University Khon Kaen Campus",
+    "มหาวิทยาลัยศรีปทุม วิทยาเขตชลบุรี": "Sripatum University Chonburi Campus",
 }
 
 # 3 Thaksin MUSE duplicate pairs (donor -> target to keep)
