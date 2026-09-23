@@ -67,6 +67,25 @@ from enrich_openalex_author_metrics import (
 CHECKPOINT_DIR = os.path.join("backend", "data", "agent_states")
 ROMANIZATION_CACHE_PATH = os.path.join(CHECKPOINT_DIR, "thai_romanization_cache.json")
 ENRICHMENT_SNAPSHOT_PATH = os.path.join(CHECKPOINT_DIR, "thai_romanized_enrichment.json")
+PROBED_IDS_PATH = os.path.join(CHECKPOINT_DIR, "openalex_probed_ids.json")
+
+
+def load_probed_ids() -> set:
+    """Load set of already-probed faculty IDs from checkpoint."""
+    if os.path.exists(PROBED_IDS_PATH):
+        try:
+            with open(PROBED_IDS_PATH, "r", encoding="utf-8") as f:
+                return set(json.load(f))
+        except Exception:
+            pass
+    return set()
+
+
+def save_probed_ids(probed: set):
+    """Save probed IDs set to checkpoint on disk."""
+    os.makedirs(CHECKPOINT_DIR, exist_ok=True)
+    with open(PROBED_IDS_PATH, "w", encoding="utf-8") as f:
+        json.dump(sorted(list(probed)), f)
 
 
 def load_romanization_cache() -> dict:
@@ -87,11 +106,10 @@ def save_romanization_cache(cache: dict):
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
-def generate_romanization_batch(items: list, gemini_client) -> list:
+def generate_romanization_batch(items: list, gemini_clients: list) -> list:
     """
-    Calls gemini-3.5-flash-lite to transliterate a batch of Thai names.
-    items: list of dicts with keys 'id', 'full_name_th', 'existing_first_name'
-    Returns list of dicts with 'id', 'first_name', 'last_name'
+    Calls gemini-3.6-flash to transliterate a batch of Thai names.
+    Cycles through available gemini_clients if one hits rate-limit or 503.
     """
     prompt = f"""Transliterate the following Thai scholar names into English Latin alphabet (first_name, last_name).
 Rules:
@@ -104,24 +122,9 @@ Rules:
 Input:
 {json.dumps(items, ensure_ascii=False)}
 """
-    try:
-        response = gemini_client.models.generate_content(
-            model="gemini-3.5-flash-lite",
-            contents=prompt,
-            config={"response_mime_type": "application/json"}
-        )
-        data = json.loads(response.text)
-        cleaned = []
-        for d in data:
-            fid = str(d.get("id", ""))
-            fn = re.sub(r"[^a-zA-Z\s\-]", "", str(d.get("first_name", "")).strip()).strip().title()
-            ln = re.sub(r"[^a-zA-Z\s\-]", "", str(d.get("last_name", "")).strip()).strip().title()
-            cleaned.append({"id": fid, "first_name": fn, "last_name": ln})
-        return cleaned
-    except Exception as e:
-        print(f"  [!] Gemini batch failed: {e}. Retrying with gemini-3.6-flash...", flush=True)
+    for client in gemini_clients:
         try:
-            response = gemini_client.models.generate_content(
+            response = client.models.generate_content(
                 model="gemini-3.6-flash",
                 contents=prompt,
                 config={"response_mime_type": "application/json"}
@@ -134,9 +137,9 @@ Input:
                 ln = re.sub(r"[^a-zA-Z\s\-]", "", str(d.get("last_name", "")).strip()).strip().title()
                 cleaned.append({"id": fid, "first_name": fn, "last_name": ln})
             return cleaned
-        except Exception as e2:
-            print(f"  [!] Gemini retry failed: {e2}", flush=True)
-            return []
+        except Exception as e:
+            continue
+    return []
 
 
 def corroborates_enhanced(cand: dict, uni: str) -> bool:
@@ -180,7 +183,10 @@ def probe_faculty_record(item: tuple) -> tuple:
     """
     rid, fn, ln, uni, interests = item
     if not ln or len(ln) < 2:
-        return rid, fn, ln, None, "no_hit"
+        return rid, fn, ln, None, "skip_no_name"
+
+    if all_keys_exhausted():
+        return rid, fn, ln, None, "exhausted"
 
     query = f"{strip_accents(fn).strip()} {strip_accents(ln).strip()}"
     cands = search_openalex_author(query)
@@ -195,15 +201,29 @@ def probe_faculty_record(item: tuple) -> tuple:
         corr.sort(key=lambda c: ((c.get("summary_stats") or {}).get("h_index") or 0), reverse=True)
         return rid, fn, ln, corr[0], "match"
 
-    # If only one candidate exists, attempt topic disambiguation if available
+    # If only one candidate exists, verify it doesn't conflict with a different Thai university
     if len(qualifying) == 1:
-        # Lone candidate without institutional corroboration:
-        # If topics match research_interests, treat as match; otherwise ambiguous
+        c = qualifying[0]
+        # Check if candidate is associated with a conflicting Thai institution
+        cand_insts = []
+        for a in c.get("affiliations") or []:
+            cand_insts.append((a.get("institution") or {}).get("display_name", ""))
+        for lki in c.get("last_known_institutions") or []:
+            cand_insts.append(lki.get("display_name", ""))
+
+        has_th_country = any((lki.get("country_code") == "TH") for lki in (c.get("last_known_institutions") or []))
+
+        # If topics match research_interests, treat as verified match
         if interests:
             winner = topic_disambiguate(qualifying, interests)
             if winner:
                 return rid, fn, ln, winner, "match"
-        return rid, fn, ln, qualifying[0], "match"
+
+        # If candidate has Thailand country code or unique long surname, and no conflicting institutions
+        if has_th_country or (len(ln) >= 6 and not cand_insts):
+            return rid, fn, ln, c, "match"
+
+        return rid, fn, ln, None, "ambiguous"
 
     # Multiple qualifying candidates: try topic disambiguation
     if interests:
@@ -221,6 +241,8 @@ def main():
     parser.add_argument("--workers", type=int, default=21, help="Worker threads for OpenAlex (default 21)")
     parser.add_argument("--batch", type=int, default=100, help="DB commit batch size (default 100)")
     parser.add_argument("--skip-romanize", action="store_true", help="Skip Gemini romanization pass")
+    parser.add_argument("--include-not-indexed", action="store_true", help="Process records with openalex_id == 'not_indexed'")
+    parser.add_argument("--reset-probed", action="store_true", help="Clear probed IDs checkpoint")
     args = parser.parse_args()
 
     print("=================================================================", flush=True)
@@ -230,7 +252,12 @@ def main():
 
     db = SessionLocal()
     try:
-        # 1. Fetch target faculty records where openalex_id IS NULL
+        # 1. Fetch target faculty records where openalex_id IS NULL or not_indexed
+        if args.include_not_indexed:
+            filter_cond = (FacultyDB.openalex_id.is_(None)) | (FacultyDB.openalex_id == "not_indexed")
+        else:
+            filter_cond = FacultyDB.openalex_id.is_(None)
+
         targets = (
             db.query(
                 FacultyDB.id,
@@ -240,15 +267,26 @@ def main():
                 FacultyDB.university,
                 FacultyDB.research_interests
             )
-            .filter(FacultyDB.openalex_id.is_(None))
+            .filter(filter_cond)
             .filter(~FacultyDB.id.in_(PROTECTED_SENTINEL_IDS))
             .all()
         )
 
         total_targets = len(targets)
-        print(f"Found {total_targets} faculty records with openalex_id IS NULL", flush=True)
+        print(f"Found {total_targets} faculty records to process (include_not_indexed={args.include_not_indexed})", flush=True)
         if total_targets == 0:
             print("No records to process! 100% already enriched.", flush=True)
+            return
+
+        probed_ids = set() if args.reset_probed else load_probed_ids()
+        print(f"Loaded {len(probed_ids)} previously probed IDs from checkpoint", flush=True)
+
+        if not args.reset_probed and probed_ids:
+            targets = [t for t in targets if t.id not in probed_ids]
+            print(f"Remaining un-probed targets after checkpoint filter: {len(targets)}", flush=True)
+
+        if len(targets) == 0:
+            print("All target records have already been probed in previous runs!", flush=True)
             return
 
         if args.limit > 0:
@@ -280,20 +318,21 @@ def main():
 
         if needed_romanization and not args.skip_romanize:
             print(f"\n--- Transliterating {len(needed_romanization)} names via Gemini ---", flush=True)
-            gemini_key = os.getenv("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEYS", "").split(",")[0]
-            if not gemini_key:
-                print("ERROR: GEMINI_API_KEY not found in backend/.env", flush=True)
+            raw_keys = os.getenv("GEMINI_API_KEYS") or os.getenv("GEMINI_API_KEY", "")
+            gemini_keys = [k.strip() for k in raw_keys.split(",") if k.strip()]
+            if not gemini_keys:
+                print("ERROR: GEMINI_API_KEY / GEMINI_API_KEYS not found in backend/.env", flush=True)
                 return
 
             from google import genai
-            gemini_client = genai.Client(api_key=gemini_key)
+            gemini_clients = [genai.Client(api_key=k) for k in gemini_keys]
 
-            chunk_size = 100
+            chunk_size = 40
             for i in range(0, len(needed_romanization), chunk_size):
                 chunk = needed_romanization[i : i + chunk_size]
                 pct = ((i + len(chunk)) / len(needed_romanization)) * 100
                 print(f"Transliterating [{i + len(chunk)}/{len(needed_romanization)}] ({pct:.1f}%)...", flush=True)
-                results = generate_romanization_batch(chunk, gemini_client)
+                results = generate_romanization_batch(chunk, gemini_clients)
                 for res in results:
                     fid = res["id"]
                     cache[fid] = {
@@ -301,7 +340,7 @@ def main():
                         "last_name": res.get("last_name", "")
                     }
                 save_romanization_cache(cache)
-                time.sleep(0.5)
+                time.sleep(0.3)
 
             print(f"✅ Romanization complete! Cache now holds {len(cache)} names.\n", flush=True)
         elif needed_romanization and args.skip_romanize:
@@ -334,55 +373,49 @@ def main():
         pending_commits = []
 
         start_time = time.time()
-        with ThreadPoolExecutor(max_workers=args.workers) as executor:
-            future_to_item = {executor.submit(probe_faculty_record, item): item for item in work_items}
-            completed_count = 0
+        chunk_step = 500
+        total_done = 0
 
-            for future in as_completed(future_to_item):
-                completed_count += 1
-                try:
-                    rid, fn, ln, author, verdict = future.result()
-                except Exception as e:
-                    verdict = "error"
-                    author = None
-                    rid = future_to_item[future][0]
-                    fn, ln = future_to_item[future][1], future_to_item[future][2]
+        for chunk_idx in range(0, len(work_items), chunk_step):
+            if all_keys_exhausted():
+                print("\n[!] All OpenAlex API keys have reached daily quota! Gracefully committing and halting.", flush=True)
+                break
 
-                if verdict == "match" and author:
-                    stats["match"] += 1
-                    raw_id = author.get("id", "")
-                    oa_id = raw_id if raw_id.startswith("http") else f"https://openalex.org/{raw_id}"
-                    stats_dict = author.get("summary_stats") or {}
-                    h_idx = stats_dict.get("h_index") or 0
-                    citations = author.get("cited_by_count") or 0
-                    works = author.get("works_count") or 0
+            current_chunk = work_items[chunk_idx : chunk_idx + chunk_step]
+            with ThreadPoolExecutor(max_workers=args.workers) as executor:
+                future_to_item = {executor.submit(probe_faculty_record, item): item for item in current_chunk}
 
-                    pending_commits.append({
-                        "id": rid,
-                        "first_name": fn,
-                        "last_name": ln,
-                        "openalex_id": oa_id,
-                        "h_index": h_idx,
-                        "total_citations": citations,
-                        "total_publications_count": works,
-                        "verdict": "match"
-                    })
-                elif verdict == "no_hit":
-                    stats["not_indexed"] += 1
-                    pending_commits.append({
-                        "id": rid,
-                        "first_name": fn,
-                        "last_name": ln,
-                        "openalex_id": SENTINEL_MISS,
-                        "h_index": 0,
-                        "total_citations": 0,
-                        "total_publications_count": 0,
-                        "verdict": "not_indexed"
-                    })
-                else:
-                    stats["ambiguous"] += 1
-                    # For ambiguous cases, still save the romanized name if missing
-                    if fn and ln:
+                for future in as_completed(future_to_item):
+                    total_done += 1
+                    try:
+                        rid, fn, ln, author, verdict = future.result()
+                    except Exception as e:
+                        verdict = "error"
+                        author = None
+                        rid = future_to_item[future][0]
+                        fn, ln = future_to_item[future][1], future_to_item[future][2]
+
+                    if verdict == "match" and author:
+                        stats["match"] += 1
+                        raw_id = author.get("id", "")
+                        oa_id = raw_id if raw_id.startswith("http") else f"https://openalex.org/{raw_id}"
+                        stats_dict = author.get("summary_stats") or {}
+                        h_idx = stats_dict.get("h_index") or 0
+                        citations = author.get("cited_by_count") or 0
+                        works = author.get("works_count") or 0
+
+                        pending_commits.append({
+                            "id": rid,
+                            "first_name": fn,
+                            "last_name": ln,
+                            "openalex_id": oa_id,
+                            "h_index": h_idx,
+                            "total_citations": citations,
+                            "total_publications_count": works,
+                            "verdict": "match"
+                        })
+                    elif verdict == "no_hit":
+                        stats["not_indexed"] += 1
                         pending_commits.append({
                             "id": rid,
                             "first_name": fn,
@@ -391,26 +424,51 @@ def main():
                             "h_index": 0,
                             "total_citations": 0,
                             "total_publications_count": 0,
-                            "verdict": "ambiguous_sentinel"
+                            "verdict": "not_indexed"
                         })
+                    elif verdict == "exhausted":
+                        break
+                    elif verdict in ("skip_no_name", "error"):
+                        stats["skipped"] = stats.get("skipped", 0) + 1
+                    else:
+                        stats["ambiguous"] += 1
+                        if fn and ln:
+                            pending_commits.append({
+                                "id": rid,
+                                "first_name": fn,
+                                "last_name": ln,
+                                "openalex_id": SENTINEL_MISS,
+                                "h_index": 0,
+                                "total_citations": 0,
+                                "total_publications_count": 0,
+                                "verdict": "ambiguous_sentinel"
+                            })
 
-                # Batch Commit
-                if len(pending_commits) >= args.batch:
-                    if args.apply:
-                        apply_db_batch(db, pending_commits)
-                        stats["applied"] += len(pending_commits)
-                    changes_snapshot.extend(pending_commits)
-                    pending_commits = []
+                    if verdict != "exhausted":
+                        probed_ids.add(rid)
 
-                if completed_count % 100 == 0 or completed_count == len(work_items):
-                    elapsed = time.time() - start_time
-                    rate = completed_count / elapsed if elapsed > 0 else 0
-                    print(
-                        f"[{completed_count}/{len(work_items)}] "
-                        f"Matches: {stats['match']} | Not Indexed: {stats['not_indexed']} | "
-                        f"Ambiguous: {stats['ambiguous']} ({rate:.1f} records/s)",
-                        flush=True
-                    )
+                    # Batch Commit
+                    if len(pending_commits) >= args.batch:
+                        if args.apply:
+                            apply_db_batch(db, pending_commits)
+                            stats["applied"] += len(pending_commits)
+                        changes_snapshot.extend(pending_commits)
+                        save_probed_ids(probed_ids)
+                        pending_commits = []
+
+                    if total_done % 100 == 0 or total_done == len(work_items):
+                        elapsed = time.time() - start_time
+                        rate = total_done / elapsed if elapsed > 0 else 0
+                        print(
+                            f"[{total_done}/{len(work_items)}] "
+                            f"Matches: {stats['match']} | Not Indexed: {stats['not_indexed']} | "
+                            f"Ambiguous: {stats['ambiguous']} ({rate:.1f} records/s)",
+                            flush=True
+                        )
+
+            if all_keys_exhausted():
+                print("\n[!] All OpenAlex API keys have reached daily quota! Halting chunk iteration.", flush=True)
+                break
 
         # Final commit for remaining items
         if pending_commits:
@@ -418,22 +476,26 @@ def main():
                 apply_db_batch(db, pending_commits)
                 stats["applied"] += len(pending_commits)
             changes_snapshot.extend(pending_commits)
+            save_probed_ids(probed_ids)
             pending_commits = []
 
         # Save snapshot
         os.makedirs(CHECKPOINT_DIR, exist_ok=True)
+        all_matches = [c for c in changes_snapshot if c.get("verdict") == "match"]
         with open(ENRICHMENT_SNAPSHOT_PATH, "w", encoding="utf-8") as f:
             json.dump({
                 "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
                 "mode": "apply" if args.apply else "dry-run",
                 "stats": stats,
                 "changes_count": len(changes_snapshot),
+                "matched_count": len(all_matches),
+                "sample_matches": all_matches[:100],
                 "sample_changes": changes_snapshot[:50]
             }, f, ensure_ascii=False, indent=2)
 
         print("\n=================================================================", flush=True)
         print("🎉 ENRICHMENT COMPLETED SUCCESSFULLY!", flush=True)
-        print(f"Total Processed: {len(work_items)}", flush=True)
+        print(f"Total Processed: {total_done}", flush=True)
         print(f"Authentic Matches: {stats['match']}", flush=True)
         print(f"Stamped Not Indexed: {stats['not_indexed']}", flush=True)
         print(f"Ambiguous / Handled: {stats['ambiguous']}", flush=True)
@@ -449,11 +511,23 @@ def apply_db_batch(db, batch: list):
     """
     Applies a batch of updates to PostgreSQL.
     Maintains: total_publications_count == first_author_count + co_author_count invariant.
+    Guarantees: Zero duplicate OpenAlex ID collisions across distinct individuals.
     """
     fids = [item["id"] for item in batch]
     faculties = db.query(FacultyDB).filter(FacultyDB.id.in_(fids)).all()
     fac_map = {f.id: f for f in faculties}
 
+    # Query all currently assigned OpenAlex IDs in DB to prevent collisions
+    target_oa_ids = [item["openalex_id"] for item in batch if item["verdict"] == "match" and item.get("openalex_id")]
+    existing_collisions = set()
+    if target_oa_ids:
+        rows = db.query(FacultyDB.openalex_id).filter(
+            FacultyDB.openalex_id.in_(target_oa_ids),
+            ~FacultyDB.id.in_(fids)
+        ).all()
+        existing_collisions = {r[0] for r in rows}
+
+    assigned_in_batch = set()
     for item in batch:
         fac = fac_map.get(item["id"])
         if not fac:
@@ -465,13 +539,17 @@ def apply_db_batch(db, batch: list):
         if not fac.last_name and item.get("last_name"):
             fac.last_name = item["last_name"]
 
-        # Update OpenAlex fields
-        fac.openalex_id = item["openalex_id"]
-        fac.h_index = item["h_index"]
-
         if item["verdict"] == "match":
-            fac.total_citations = item["total_citations"]
-            applied_pubs = item["total_publications_count"]
+            oa_id = item["openalex_id"]
+            if oa_id in existing_collisions or oa_id in assigned_in_batch:
+                # Collision detected with another individual; avoid assigning duplicate
+                continue
+
+            assigned_in_batch.add(oa_id)
+            fac.openalex_id = oa_id
+            fac.h_index = max(fac.h_index or 0, item["h_index"])
+            fac.total_citations = max(fac.total_citations or 0, item["total_citations"])
+            applied_pubs = max(fac.total_publications_count or 0, item["total_publications_count"])
             if (fac.first_author_count or 0) > 0 or (fac.co_author_count or 0) > 0:
                 current_sum = (fac.first_author_count or 0) + (fac.co_author_count or 0)
                 diff = applied_pubs - current_sum
@@ -481,6 +559,8 @@ def apply_db_batch(db, batch: list):
                     applied_pubs = current_sum
             fac.total_publications_count = applied_pubs
         elif item["verdict"] in ("not_indexed", "ambiguous_sentinel"):
+            if not fac.openalex_id:
+                fac.openalex_id = SENTINEL_MISS
             if fac.total_citations is None:
                 fac.total_citations = 0
             if fac.total_publications_count is None:

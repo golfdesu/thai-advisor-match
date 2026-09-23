@@ -67,6 +67,10 @@ SENTINEL_MISS = "not_indexed"
 PROTECTED_SENTINEL_IDS = frozenset({
     "mfu_med_komsan_001",
     "chulalongk_facultyofp_fac_036_036",
+    "chulalongk_facultyofp_fac_010_010",
+    "chulalongk_facultyofa_fac_008_008",
+    "khonkaenun_facultyofm_fac_035_035",
+    "regionalun_facultymem_fac_050_050",
 })
 _TOKEN_RE = re.compile(r"[a-z]+")
 
