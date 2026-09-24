@@ -268,7 +268,7 @@ def extract_spu_faculty_page(target: dict) -> List[dict]:
                 "openalex_id": "not_indexed",
                 "scholar_url": None,
                 "embedding_text": f"อาจารย์ {full_th} สังกัด {fac_th} มหาวิทยาลัยศรีปทุม สาขาวิชา {fac_th}",
-                "embedding": [0.0] * 768,
+                "embedding": None  # NULL: re-embed via embed_missing.py,
             })
 
         print(f"  [SPU {fac_th}] Harvested {len(records)} authentic faculty members.")

@@ -231,7 +231,7 @@ def run_enrichment():
         vec = embedding_service.get_embedding(new_embedding_text)
         if not vec or len(vec) != 768:
             print(f"⚠️ Warning: Embedding fallback to 768-dim zeros")
-            vec = [0.0] * 768
+            vec = None  # NULL: re-embed via embed_missing.py
 
         vec_str = str(vec)
 

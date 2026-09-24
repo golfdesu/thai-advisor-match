@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thai EduCenter — Local Services Gateway (:8082)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Noto+Sans+Thai:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(18, 24, 38, 0.75);
+      --card-hover: rgba(26, 34, 54, 0.9);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-hover: rgba(255, 122, 89, 0.4);
+      --primary: #FF7A59;
+      --primary-hover: #ff9378;
+      --primary-glow: rgba(255, 122, 89, 0.25);
+      --accent: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.2);
+      --emerald: #34d399;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', 'Noto Sans Thai', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      background-image:
+        radial-gradient(circle at 15% 15%, rgba(255, 122, 89, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 25%, rgba(56, 189, 248, 0.1) 0%, transparent 45%),
+        radial-gradient(circle at 50% 85%, rgba(52, 211, 153, 0.08) 0%, transparent 50%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+      width: 100%;
+      flex: 1;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      border-radius: 9999px;
+      background: rgba(255, 122, 89, 0.12);
+      border: 1px solid rgba(255, 122, 89, 0.25);
+      color: var(--primary);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--emerald);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--emerald);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.025em;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      background: var(--card-hover);
+      border-color: var(--border-hover);
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+    }
+
+    .card-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .card.app .card-icon {
+      background: var(--primary-glow);
+      border-color: rgba(255, 122, 89, 0.3);
+      color: var(--primary);
+    }
+
+    .card.api .card-icon {
+      background: var(--accent-glow);
+      border-color: rgba(56, 189, 248, 0.3);
+      color: var(--accent);
+    }
+
+    .card.db .card-icon {
+      background: rgba(52, 211, 153, 0.15);
+      border-color: rgba(52, 211, 153, 0.3);
+      color: var(--emerald);
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: #fff;
+    }
+
+    .card-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      flex: 1;
+    }
+
+    .card-url-box {
+      background: rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.8rem;
+      color: #38bdf8;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      word-break: break-all;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 14px 20px;
+      border-radius: 14px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #FF7A59 0%, #e05638 100%);
+      color: #fff;
+      box-shadow: 0 4px 16px var(--primary-glow);
+    }
+
+    .btn-primary:hover {
+      filter: brightness(1.1);
+      transform: scale(1.01);
+    }
+
+    .btn-accent {
+      background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+      color: #fff;
+      box-shadow: 0 4px 16px var(--accent-glow);
+    }
+
+    .btn-accent:hover {
+      filter: brightness(1.1);
+      transform: scale(1.01);
+    }
+
+    .btn-emerald {
+      background: linear-gradient(135deg, #059669 0%, #047857 100%);
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(5, 150, 105, 0.25);
+    }
+
+    .btn-emerald:hover {
+      filter: brightness(1.1);
+      transform: scale(1.01);
+    }
+
+    .fallback-link {
+      display: block;
+      text-align: center;
+      margin-top: 12px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: color 0.15s ease;
+    }
+
+    .fallback-link:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .info-panel {
+      background: rgba(18, 24, 38, 0.5);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .info-panel h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .info-panel p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .info-panel code {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-family: monospace;
+      color: #38bdf8;
+      font-size: 0.85em;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 2rem; }
+      .container { padding: 32px 16px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge-pill">
+        <span class="live-dot"></span>
+        Reverse Proxy Active • Port 8082
+      </div>
+      <h1>Thai EduCenter Developer Portal</h1>
+      <p class="subtitle">ศูนย์กลางการเข้าถึงบริการทั้งหมดในโปรเจกต์ผ่าน Subdomain Architecture มาตรฐาน SRE</p>
+    </header>
+
+    <div class="grid">
+      <!-- 1. Frontend Web App -->
+      <div class="card app">
+        <div>
+          <div class="card-icon">🎓</div>
+          <h2 class="card-title">Thai EduCenter Web App</h2>
+          <p class="card-desc">เว็บแอปพลิเคชันค้นหาหลักสูตร อาจารย์ที่ปรึกษา และศูนย์วิจัย (Next.js 16 + React 19 + Tailwind v4)</p>
+          <div class="card-url-box">
+            <span>http://app.localhost:8082</span>
+            <span>↗</span>
+          </div>
+        </div>
+        <div>
+          <a href="http://app.localhost:8082" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            เปิด Web App
+          </a>
+        </div>
+      </div>
+
+      <!-- 2. FastAPI Backend & Swagger Docs -->
+      <div class="card api">
+        <div>
+          <div class="card-icon">⚡</div>
+          <h2 class="card-title">FastAPI Backend & API Docs</h2>
+          <p class="card-desc">Interactive Swagger API Documentation, pgvector Semantic Search & Endpoints (Python 3.12)</p>
+          <div class="card-url-box">
+            <span>http://api.localhost:8082/docs</span>
+            <span>↗</span>
+          </div>
+        </div>
+        <div>
+          <a href="http://api.localhost:8082/docs" target="_blank" rel="noopener noreferrer" class="btn btn-accent">
+            เปิด Interactive Swagger
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="info-panel">
+      <h3>💡 มาตรฐาน RFC 6761 Subdomain Routing</h3>
+      <p>
+        เว็บบราวเซอร์สมัยใหม่ (Chrome, Edge, Firefox, Safari) รองรับการ Resolve ซับโดเมน <code>*.localhost</code> ให้ชี้มาที่ <code>127.0.0.1</code> ภายในเครื่องโดยอัตโนมัติ โดยไม่จำเป็นต้องแก้ไขไฟล์ <code>hosts</code> ทำให้สามารถเรียกใช้งาน <code>http://app.localhost:8082</code> และ <code>http://api.localhost:8082</code> ได้ทันที
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Thai EduCenter Architecture • Reverse Proxy by Nginx Alpine on Port 8082</p>
+  </footer>
+</body>
+</html>

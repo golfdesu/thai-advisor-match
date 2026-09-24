@@ -640,7 +640,7 @@ def run_wave68_pipeline():
                     first_author_count=r["first_author_count"],
                     co_author_count=r["co_author_count"],
                     openalex_id=r["openalex_id"],
-                    embedding=[0.0] * 768,  # Non-blocking circuit breaker (Pillar 3)
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,  # Non-blocking circuit breaker (Pillar 3)
                 )
                 db.add(new_fac)
                 inserted_count += 1

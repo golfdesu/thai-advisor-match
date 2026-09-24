@@ -1218,7 +1218,7 @@ def main():
                             time.sleep(1.0 + random.random() * 2.0)
                         else:
                             time.sleep(0.5)
-                return [0.0] * 768
+                return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
 
             texts = []
             for m in new_members:
@@ -1242,7 +1242,7 @@ def main():
                     try:
                         vectors[idx] = future.result()
                     except Exception:
-                        vectors[idx] = [0.0] * 768
+                        vectors[idx] = None  # NULL: re-embed via embed_missing.py
                     completed_count += 1
                     if completed_count % 50 == 0 or completed_count == len(texts):
                         print(f"  Embedded: {completed_count}/{len(texts)} ({(completed_count/len(texts)*100):.1f}%)")

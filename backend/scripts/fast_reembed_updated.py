@@ -11,6 +11,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 sys.path.insert(0, os.path.abspath("backend"))
+from sqlalchemy.orm import defer
 from app.core.database import SessionLocal
 from app.models.db_models import FacultyDB
 from app.core.embedding_service import embedding_service
@@ -18,7 +19,15 @@ from scripts.faculty_massive_ingestion_runner import build_faculty_embedding_tex
 
 def run_reembedding():
     db = SessionLocal()
-    all_facs = db.query(FacultyDB).all()
+    # defer(FacultyDB.embedding): exclude 768-dim vectors from the scan —
+    # we only need featured_publications and embedding_text to decide which
+    # faculty need re-embedding.  Without defer, loading all 29 k+ rows would
+    # pull >1 GB of vector data into Python heap unnecessarily.
+    all_facs = (
+        db.query(FacultyDB)
+        .options(defer(FacultyDB.embedding))
+        .all()
+    )
     targets = []
     for f in all_facs:
         pubs = f.featured_publications or []

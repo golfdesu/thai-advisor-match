@@ -145,7 +145,7 @@ def ingest_faculty():
         vec = embedding_service.get_embedding(embedding_text)
         if not vec or len(vec) != 768:
             print(f"⚠️ Warning: Embedding generation returned {len(vec) if vec else 0} dimensions. Trying fallback...")
-            vec = [0.0] * 768
+            vec = None  # NULL: re-embed via embed_missing.py
 
         vec_str = str(vec)
 

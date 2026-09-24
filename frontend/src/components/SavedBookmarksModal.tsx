@@ -1,9 +1,10 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Bookmark, X, Trash2, ExternalLink, User, BookOpen } from "lucide-react";
-import type { Course, SearchMatchResult } from "@/types";
+import type { Course, FacultyMember, SearchMatchResult } from "@/types";
+import { API_BASE_URL } from "@/lib/config";
 
 interface SavedBookmarksModalProps {
   isOpen: boolean;
@@ -14,6 +15,7 @@ interface SavedBookmarksModalProps {
   onClose: () => void;
   onRemoveCourse: (id: string) => void;
   onRemoveAdvisor: (id: string) => void;
+  onSelectCourse?: (course: Course) => void;
 }
 
 export const SavedBookmarksModal: React.FC<SavedBookmarksModalProps> = ({
@@ -25,11 +27,41 @@ export const SavedBookmarksModal: React.FC<SavedBookmarksModalProps> = ({
   onClose,
   onRemoveCourse,
   onRemoveAdvisor,
+  onSelectCourse,
 }) => {
-  if (!isOpen) return null;
+  const [extraCourses, setExtraCourses] = useState<Record<string, Course>>({});
+  const [extraAdvisors, setExtraAdvisors] = useState<Record<string, FacultyMember>>({});
 
   const courseMap = new Map(allCourses.map((c) => [c.id, c]));
   const advisorMap = new Map(allAdvisors.map((a) => [a.faculty.id, a.faculty]));
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    // Fetch missing course details for bookmarks not in the active search slice
+    const missingCourseIds = savedCourses.filter((id) => !courseMap.has(id) && !extraCourses[id]);
+    missingCourseIds.forEach((id) => {
+      fetch(`${API_BASE_URL}/courses/${id}`)
+        .then((res) => (res.ok ? res.json() : null))
+        .then((data) => {
+          if (data) setExtraCourses((prev) => ({ ...prev, [id]: data }));
+        })
+        .catch(() => {});
+    });
+
+    // Fetch missing advisor details for bookmarks not in the active search slice
+    const missingAdvisorIds = savedAdvisors.filter((id) => !advisorMap.has(id) && !extraAdvisors[id]);
+    missingAdvisorIds.forEach((id) => {
+      fetch(`${API_BASE_URL}/faculty/${id}`)
+        .then((res) => (res.ok ? res.json() : null))
+        .then((data) => {
+          if (data) setExtraAdvisors((prev) => ({ ...prev, [id]: data }));
+        })
+        .catch(() => {});
+    });
+  }, [isOpen, savedCourses, savedAdvisors]);
+
+  if (!isOpen) return null;
 
   return (
     <div className="ui-modal-backdrop fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
@@ -70,7 +102,7 @@ export const SavedBookmarksModal: React.FC<SavedBookmarksModalProps> = ({
             ) : (
               <div className="space-y-2.5">
                 {savedCourses.map((id) => {
-                  const course = courseMap.get(id);
+                  const course = courseMap.get(id) || extraCourses[id];
                   return (
                     <div
                       key={id}
@@ -87,7 +119,19 @@ export const SavedBookmarksModal: React.FC<SavedBookmarksModalProps> = ({
                         )}
                       </div>
                       <div className="flex items-center gap-2 shrink-0">
-                        {course?.website_url && (
+                        {onSelectCourse && course ? (
+                          <button
+                            type="button"
+                            onClick={() => {
+                              onSelectCourse(course);
+                              onClose();
+                            }}
+                            className="px-3 py-1.5 rounded-xl bg-[var(--theme-card)] border border-[var(--theme-border)] text-[var(--theme-primary)] hover:underline flex items-center gap-1.5 text-xs font-bold shadow-2xs cursor-pointer"
+                          >
+                            <span>ดูโครงสร้าง</span>
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </button>
+                        ) : course?.website_url ? (
                           <a
                             href={course.website_url}
                             target="_blank"
@@ -97,7 +141,7 @@ export const SavedBookmarksModal: React.FC<SavedBookmarksModalProps> = ({
                             <span>เว็บหลักสูตร</span>
                             <ExternalLink className="w-3.5 h-3.5" />
                           </a>
-                        )}
+                        ) : null}
                         <button
                           onClick={() => onRemoveCourse(id)}
                           className="text-xs text-[var(--theme-accent)] font-bold hover:underline flex items-center gap-1 cursor-pointer px-2.5 py-1.5"
@@ -126,7 +170,7 @@ export const SavedBookmarksModal: React.FC<SavedBookmarksModalProps> = ({
             ) : (
               <div className="space-y-2.5">
                 {savedAdvisors.map((id) => {
-                  const fac = advisorMap.get(id);
+                  const fac = advisorMap.get(id) || extraAdvisors[id];
                   return (
                     <div
                       key={id}

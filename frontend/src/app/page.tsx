@@ -1,7 +1,8 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, Suspense } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import {
   Search,
   BookOpen,
@@ -45,7 +46,8 @@ const readSavedIds = (storageKey: string): string[] => {
   }
 };
 
-export default function Home() {
+function HomeContent() {
+  const searchParams = useSearchParams();
   const [activeTab, setActiveTab] = useState<"courses" | "advisors" | "labs">("courses");
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedRegion, setSelectedRegion] = useState("all");
@@ -263,6 +265,15 @@ export default function Home() {
     }
 
     const cacheKey = `${currentTab}:${queryToUse.trim()}:${uniToUse}:${degToUse}:${regionToUse}:${facultyToUse}:${departmentToUse}:${researchTierToUse}`;
+
+    // Always supersede the previous in-flight request BEFORE checking cache,
+    // so a stale response from a prior search cannot overwrite cache-served results.
+    const seq = ++searchSeqRef.current;
+    const isCurrent = () => seq === searchSeqRef.current;
+    searchAbortRef.current?.abort();
+    const controller = new AbortController();
+    searchAbortRef.current = controller;
+
     const cachedData = searchApiCache.get(cacheKey);
     if (cachedData) {
       if (currentTab === "courses") {
@@ -273,17 +284,12 @@ export default function Home() {
         setLabs(cachedData as ResearchLab[]);
       }
       setErrorMsg(null);
+      setLoading(false);
       return;
     }
 
     setLoading(true);
     setErrorMsg(null);
-    const seq = ++searchSeqRef.current;
-    const isCurrent = () => seq === searchSeqRef.current;
-    // Supersede: abort whatever the previous (older-seq) search is still doing.
-    searchAbortRef.current?.abort();
-    const controller = new AbortController();
-    searchAbortRef.current = controller;
     try {
       if (currentTab === "courses") {
         const res = await fetch(`${API_BASE_URL}/courses/search`, {
@@ -403,6 +409,25 @@ export default function Home() {
     }
   };
 
+  const handleTabSwitch = (tab: "courses" | "advisors" | "labs") => {
+    setActiveTab(tab);
+    executeSearch(searchQuery, selectedUni, selectedDegree, tab, true);
+  };
+
+  // Synchronize activeTab with URL search params (e.g. /?tab=advisors#search-results)
+  useEffect(() => {
+    const tabParam = searchParams.get("tab");
+    if (tabParam === "advisors" || tabParam === "labs") {
+      if (activeTab !== tabParam) {
+        setActiveTab(tabParam);
+        executeSearch(searchQuery, selectedUni, selectedDegree, tabParam, true);
+      }
+    } else if (tabParam === "courses" && activeTab !== "courses") {
+      setActiveTab("courses");
+      executeSearch(searchQuery, selectedUni, selectedDegree, "courses", true);
+    }
+  }, [searchParams]);
+
   // Popular Academic Disciplines
   const popularTopics = [
     { label: "แพทยศาสตร์ & ทันตแพทย์", query: "แพทยศาสตร์ ทันตแพทยศาสตร์" },
@@ -418,6 +443,7 @@ export default function Home() {
       <Header
         savedCount={savedCourses.length + savedAdvisors.length}
         onOpenSavedModal={() => setShowSavedModal(true)}
+        onSelectTab={handleTabSwitch}
       />
 
       <section className="discovery-hero border-b border-[var(--theme-border)]">
@@ -579,6 +605,15 @@ export default function Home() {
             selectedDegree={selectedDegree}
             selectedResearchTier={selectedResearchTier}
             onSelectRegion={(region) => {
+              setSelectedRegion(region);
+              setSelectedUni("all");
+              setSelectedFaculty("all");
+              setSelectedDepartment("all");
+              executeSearch(searchQuery, "all", selectedDegree, activeTab, true, region, "all", "all", selectedResearchTier);
+            }}
+            onSelectRegionCascade={(region) => {
+              // Atomic handler: resets all dependent filters and fires ONE search,
+              // avoiding the 4× executeSearch cascade from FilterBar's individual callbacks.
               setSelectedRegion(region);
               setSelectedUni("all");
               setSelectedFaculty("all");
@@ -759,7 +794,10 @@ export default function Home() {
         courses={comparedCourses}
         isOpen={showComparisonModal}
         onClose={() => setShowComparisonModal(false)}
-        onClearAll={() => setComparedCourses([])}
+        onClearAll={() => {
+          setComparedCourses([]);
+          setShowComparisonModal(false);
+        }}
       />
 
       {/* Lab Inquiry AI Assistant Modal */}
@@ -780,6 +818,7 @@ export default function Home() {
         allAdvisors={advisors}
         onRemoveCourse={toggleBookmarkCourse}
         onRemoveAdvisor={toggleBookmarkAdvisor}
+        onSelectCourse={openCourseDetail}
       />
 
       {activeTab === "courses" && comparedCourses.length > 0 && (
@@ -829,3 +868,21 @@ export default function Home() {
     </div>
   );
 }
+
+export default function Home() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-[var(--theme-bg)] flex items-center justify-center">
+          <div className="flex flex-col items-center gap-3">
+            <div className="w-8 h-8 rounded-full border-2 border-[var(--theme-primary)] border-t-transparent animate-spin" />
+            <p className="text-xs font-bold text-[var(--theme-text-muted)]">กำลังโหลดข้อมูลระบบ...</p>
+          </div>
+        </div>
+      }
+    >
+      <HomeContent />
+    </Suspense>
+  );
+}
+

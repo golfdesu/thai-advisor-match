@@ -250,7 +250,7 @@ def keyword_fallback_search(query_str: str, query_db, top_k: int) -> list[Search
             filters.append(FacultyDB.faculty.ilike(pattern))
             filters.append(FacultyDB.embedding_text.ilike(pattern))
 
-        faculties = candidate_query.filter(or_(*filters)).limit(max(top_k * 4, 35)).all()
+        faculties = candidate_query.filter(or_(*filters)).limit(max(top_k * 2, 25)).all()
         if not faculties:
             faculties = candidate_query.limit(max(top_k * 2, 20)).all()
     else:
@@ -405,8 +405,11 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                 if lex_max > 0:
                     lexical_scores_map = {doc_id: s / lex_max for doc_id, s in top_lexical}
 
-            # DSA Optimization: Min-Heap for Top-K extraction in O(N log K)
-            heap = TopKHeap[SearchMatchResult](k=request.top_k)
+            # ── Phase 1: score all candidates, heap-select Top-K ────────────────
+            # Explanations are intentionally deferred to Phase 2 so they are
+            # only generated for the final Top-K, not for every over-fetched
+            # candidate (avoids up to 2× redundant CPU work per search).
+            heap = TopKHeap[Tuple](k=request.top_k)
             grad_keys = get_grad_program_keys(db)
 
             for db_fac, dist in results:
@@ -418,40 +421,34 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                 sim_base = max(0.0, min(1.0, (0.54 - dist) / (0.54 - 0.28)))
 
                 # 2. Multi-Evidence Hybrid Weighting
-                # Exact / Substring Keyword synergy bonus
                 keyword_bonus = min(len(matched_kws) * 0.04, 0.12)
-                # Publication synergy bonus
                 pub_bonus = min(len(matching_pubs) * 0.03, 0.08)
-                # Scholar / Active Research Profile bonus
                 scholar_bonus = 0.02 if fac_model.scholar_url else 0.0
-                # BM25 lexical bonus, capped below the keyword+pub band so it can
-                # reorder near-ties but never dominate the embedding signal.
                 lexical_bonus = min(lexical_scores_map.get(db_fac.id, 0.0) * 0.10, 0.10)
-                # Grad-program backing bonus: thesis candidates should surface
-                # advisors whose faculty actually runs Master/PhD programs.
-                # Capped at the scholar-bonus band so semantics stay dominant.
                 grad_bonus = 0.0
                 if is_grad_backed(grad_keys, db_fac.university_th, db_fac.faculty_th):
                     grad_bonus = 0.02
                     if GRAD_BADGE not in badges:
                         badges.append(GRAD_BADGE)
 
-                # Sort on the UNCLAMPED composite so the top band keeps its
-                # natural spread (Reciprocal-Rank-Fusion lesson: capping the score
-                # before ranking collapses the ~99 cluster into indistinguishable
-                # ties). The 99.0 ceiling is re-applied for DISPLAY only, after the
-                # heap has already ordered the candidates.
+                # Sort on the UNCLAMPED composite so the top band keeps its natural spread.
                 sort_score = sim_base + keyword_bonus + pub_bonus + scholar_bonus + lexical_bonus + grad_bonus
-                ux_score = round(min(0.99, sort_score) * 100.0, 1)
 
+                # Store all data needed for Phase 2 — no explanation yet
+                heap.push(sort_score, (fac_model, sort_score, matched_kws, matching_pubs, badges, angles))
+
+            top_candidates = heap.get_top_k_descending()
+
+            # ── Phase 2: generate explanations only for final Top-K ─────────────
+            ranked_results = []
+            for fac_model, sort_score, matched_kws, matching_pubs, badges, angles in top_candidates:
+                ux_score = round(min(0.99, sort_score) * 100.0, 1)
                 explanation = embedding_service.generate_smart_explanation(
                     request.query, fac_model, ux_score, matched_kws, matching_pubs
                 )
-
                 has_direct = bool(matching_pubs or matched_kws)
                 tier_id, tier_lbl = compute_match_tier(ux_score, has_direct)
-
-                candidate_item = SearchMatchResult(
+                ranked_results.append(SearchMatchResult(
                     faculty=fac_model,
                     match_score=ux_score,
                     match_tier=tier_id,
@@ -461,11 +458,7 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
                     matching_publications=matching_pubs[:2],
                     synergy_badges=badges,
                     suggested_thesis_angles=angles
-                )
-                # Push sort_score so TopKHeap orders by true strength, not the display cap.
-                heap.push(sort_score, candidate_item)
-
-            ranked_results = heap.get_top_k_descending()
+                ))
 
         except Exception as e:
             print(f"Vector search failed, using smart keyword fallback: {e}")

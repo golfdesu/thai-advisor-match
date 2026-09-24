@@ -274,7 +274,7 @@ def run_wave81_acquisition():
             "openalex_id": "not_indexed",
             "scholar_url": None,
             "embedding_text": f"อาจารย์ {full_th} สำนักวิชาทรัพยากรการเกษตร จุฬาลงกรณ์มหาวิทยาลัย วท.ม. การเกษตรนวัตกรรมและการเป็นผู้ประกอบการเพื่อความยั่งยืน",
-            "embedding": [0.0] * 768,
+            "embedding": None  # NULL: re-embed via embed_missing.py,
         })
     print(f"  ✅ Harvested {len(CUSAR_FACULTY_ROSTER)} CUSAR faculty members.")
 
@@ -318,7 +318,7 @@ def run_wave81_acquisition():
             "openalex_id": "not_indexed",
             "scholar_url": None,
             "embedding_text": f"อาจารย์ {full_th} สถาบันอาณาบริเวณศึกษา มหาวิทยาลัยธรรมศาสตร์ ศศ.ม. เอเชียแปซิฟิกศึกษา",
-            "embedding": [0.0] * 768,
+            "embedding": None  # NULL: re-embed via embed_missing.py,
         })
     print(f"  ✅ Harvested {len(TIAS_FACULTY_ROSTER)} TIAS faculty members.")
 

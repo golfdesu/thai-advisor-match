@@ -26,6 +26,21 @@ import { API_BASE_URL, getAdvisorAvatarUrl } from "@/lib/config";
 import { facultyDetailCache } from "@/lib/dsa";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SavedBookmarksModal } from "@/components/SavedBookmarksModal";
+
+const readSavedIds = (storageKey: string): string[] => {
+  if (typeof window === "undefined") return [];
+
+  try {
+    const saved = window.localStorage.getItem(storageKey);
+    const parsed: unknown = saved ? JSON.parse(saved) : [];
+    return Array.isArray(parsed) && parsed.every((value): value is string => typeof value === "string")
+      ? parsed
+      : [];
+  } catch {
+    return [];
+  }
+};
 
 const hasSavedId = (storageKey: string, id: string): boolean => {
   if (typeof window === "undefined") return false;
@@ -52,11 +67,20 @@ export default function AdvisorProfilePage() {
   // caused a React 19 mismatch on the button label for saved advisors).
   const [isSaved, setIsSaved] = useState(false);
   const [imgError, setImgError] = useState(false);
+  const [savedCourses, setSavedCourses] = useState<string[]>([]);
+  const [savedAdvisors, setSavedAdvisors] = useState<string[]>([]);
+  const [showSavedModal, setShowSavedModal] = useState(false);
 
   useEffect(() => {
     if (!id) return;
     const saved = hasSavedId("thai_educenter_saved_advisors", id);
-    queueMicrotask(() => setIsSaved(saved));
+    const courses = readSavedIds("thai_educenter_saved_courses");
+    const advs = readSavedIds("thai_educenter_saved_advisors");
+    queueMicrotask(() => {
+      setIsSaved(saved);
+      setSavedCourses(courses);
+      setSavedAdvisors(advs);
+    });
   }, [id]);
 
   useEffect(() => {
@@ -116,6 +140,26 @@ export default function AdvisorProfilePage() {
         setIsSaved(true);
       }
       localStorage.setItem("thai_educenter_saved_advisors", JSON.stringify(list));
+      setSavedAdvisors(list);
+    } catch {}
+  };
+
+  const handleRemoveCourse = (courseId: string) => {
+    const next = savedCourses.filter((item) => item !== courseId);
+    setSavedCourses(next);
+    try {
+      localStorage.setItem("thai_educenter_saved_courses", JSON.stringify(next));
+    } catch {}
+  };
+
+  const handleRemoveAdvisor = (advisorId: string) => {
+    const next = savedAdvisors.filter((item) => item !== advisorId);
+    setSavedAdvisors(next);
+    if (advisor && advisor.id === advisorId) {
+      setIsSaved(false);
+    }
+    try {
+      localStorage.setItem("thai_educenter_saved_advisors", JSON.stringify(next));
     } catch {}
   };
 
@@ -166,7 +210,10 @@ export default function AdvisorProfilePage() {
 
   return (
     <div className="min-h-screen bg-[var(--theme-bg)] text-[var(--theme-text-body)] flex flex-col selection:bg-[var(--theme-primary)] selection:text-[var(--theme-primary-contrast)] font-sans antialiased">
-      <Header savedCount={0} onOpenSavedModal={() => {}} />
+      <Header
+        savedCount={savedCourses.length + savedAdvisors.length}
+        onOpenSavedModal={() => setShowSavedModal(true)}
+      />
 
       {/* Top Clean Header Banner */}
       <div className="relative bg-[var(--theme-card-subtle)] border-b border-[var(--theme-border)] pt-8 pb-28 sm:pb-36 px-4 sm:px-6 lg:px-12">
@@ -684,6 +731,16 @@ export default function AdvisorProfilePage() {
           </div>
         </div>
       </div>
+
+      {/* Saved Bookmarks Modal */}
+      <SavedBookmarksModal
+        isOpen={showSavedModal}
+        onClose={() => setShowSavedModal(false)}
+        savedCourses={savedCourses}
+        savedAdvisors={savedAdvisors}
+        onRemoveCourse={handleRemoveCourse}
+        onRemoveAdvisor={handleRemoveAdvisor}
+      />
 
       <Footer />
     </div>

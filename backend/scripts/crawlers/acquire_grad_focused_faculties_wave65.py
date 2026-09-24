@@ -553,7 +553,7 @@ def run_pipeline():
                     h_index=item.get("h_index") or 0,
                     total_publications_count=item.get("total_publications_count") or 0,
                     featured_publications=clean_pubs,
-                    embedding=[0.0] * 768,  # Non-blocking circuit breaker dummy vector
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,  # Non-blocking circuit breaker dummy vector
                 )
                 db.add(new_record)
                 inserted_count += 1

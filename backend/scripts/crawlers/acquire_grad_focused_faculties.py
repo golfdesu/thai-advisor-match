@@ -588,7 +588,7 @@ def run_pipeline():
                     openalex_id=item.get("openalex_id"),
                     scholar_url=item.get("scholar_url"),
                     embedding_text=f"{full_th} {item.get('faculty_th')} {item.get('department_th')} {item.get('university_th')}",
-                    embedding=[0.0] * 768,  # Non-blocking circuit breaker fallback
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,  # Non-blocking circuit breaker fallback
                 )
                 db.add(new_record)
                 if email:

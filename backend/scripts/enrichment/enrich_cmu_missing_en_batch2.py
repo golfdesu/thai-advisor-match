@@ -119,7 +119,7 @@ def run_enrichment():
         print(f"[{i}/{len(BATCH2_FACULTIES)}] Generating embedding: {fac['first_name']} {fac['last_name']} ({fn_th})...", flush=True)
         vec = embedding_service.get_embedding(new_embedding_text)
         if not vec or len(vec) != 768:
-            vec = [0.0] * 768
+            vec = None  # NULL: re-embed via embed_missing.py
 
         vec_str = str(vec)
 

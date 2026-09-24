@@ -28,6 +28,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 from sqlalchemy.orm import defer
+from sqlalchemy import text as sa_text
 from app.core.database import SessionLocal
 from app.core.university_canonicalizer import (
     CANONICAL_EN_TO_TH,
@@ -252,8 +253,18 @@ def run_fact_check():
                 email_map[(uni_key, email)].append(fid)
 
             # --- Dimension 7: Null Embedding ---
-            if hasattr(f, "embedding") and f.embedding is None:
-                anomalies["dim7_null_embeddings"].append(fid)
+            # NOTE: dim7_null_embeddings is populated via a single SQL query
+            # AFTER the main loop (see below) to avoid the N+1 lazy-load
+            # anti-pattern: accessing f.embedding on a deferred column triggers
+            # one SELECT per row (~29 k round-trips).  The hasattr check was
+            # removed because SQLAlchemy deferred attributes always report
+            # hasattr=True and then issue a lazy load anyway.
+
+        # --- Dimension 7: Null Embeddings — single SQL query (no N+1) ---
+        null_emb_rows = db.execute(
+            sa_text("SELECT id FROM public.faculties WHERE embedding IS NULL")
+        ).fetchall()
+        anomalies["dim7_null_embeddings"] = [row[0] for row in null_emb_rows]
 
         # Check OpenAlex Collisions
         for oaid, fids in openalex_map.items():

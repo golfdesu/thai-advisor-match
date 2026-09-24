@@ -655,7 +655,7 @@ def run_pipeline():
                     openalex_id=item.get("openalex_id") or "not_indexed",
                     scholar_url=None,
                     embedding_text=None,
-                    embedding=[0.0] * 768,
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,
                 )
                 db.add(new_record)
                 inserted_count += 1

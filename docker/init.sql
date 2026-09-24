@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS public.faculties (
     openalex_id VARCHAR
 );
 
-CREATE INDEX IF NOT EXISTS ix_faculties_id ON public.faculties (id);
+-- ix_faculties_id removed: PostgreSQL auto-creates a B-tree index on PRIMARY KEY; a second identical index wastes storage and write IOPS.
 CREATE INDEX IF NOT EXISTS ix_faculties_university ON public.faculties (university);
 CREATE INDEX IF NOT EXISTS ix_faculties_university_th ON public.faculties (university_th);
 CREATE INDEX IF NOT EXISTS idx_faculties_name_th_trgm ON public.faculties USING gin (full_name_th gin_trgm_ops);
@@ -62,7 +62,7 @@ CREATE INDEX IF NOT EXISTS ix_faculties_embedding_hnsw ON public.faculties USING
 
 -- 2.1 Create Table: scholars_unassigned (Archival for unassigned/co-author scholars)
 CREATE TABLE IF NOT EXISTS public.scholars_unassigned (LIKE public.faculties INCLUDING ALL);
-CREATE INDEX IF NOT EXISTS ix_scholars_unassigned_id ON public.scholars_unassigned (id);
+-- ix_scholars_unassigned_id removed: inherited PRIMARY KEY from LIKE faculties INCLUDING ALL already provides a B-tree index.
 CREATE INDEX IF NOT EXISTS ix_scholars_unassigned_university_th ON public.scholars_unassigned (university_th);
 CREATE INDEX IF NOT EXISTS ix_scholars_unassigned_h_index ON public.scholars_unassigned (h_index DESC NULLS LAST);
 
@@ -93,7 +93,7 @@ CREATE TABLE IF NOT EXISTS public.courses (
     embedding vector(768)
 );
 
-CREATE INDEX IF NOT EXISTS ix_courses_id ON public.courses (id);
+-- ix_courses_id removed: PostgreSQL auto-creates a B-tree index on PRIMARY KEY; a second identical index wastes storage and write IOPS.
 CREATE INDEX IF NOT EXISTS ix_courses_university ON public.courses (university);
 CREATE INDEX IF NOT EXISTS ix_courses_university_th ON public.courses (university_th);
 CREATE INDEX IF NOT EXISTS ix_courses_faculty ON public.courses (faculty);
@@ -131,7 +131,7 @@ CREATE TABLE IF NOT EXISTS public.research_labs (
     embedding vector(768)
 );
 
-CREATE INDEX IF NOT EXISTS ix_research_labs_id ON public.research_labs (id);
+-- ix_research_labs_id removed: PostgreSQL auto-creates a B-tree index on PRIMARY KEY; a second identical index wastes storage and write IOPS.
 CREATE INDEX IF NOT EXISTS ix_research_labs_university ON public.research_labs (university);
 CREATE INDEX IF NOT EXISTS ix_research_labs_university_th ON public.research_labs (university_th);
 CREATE INDEX IF NOT EXISTS ix_research_labs_faculty ON public.research_labs (faculty);

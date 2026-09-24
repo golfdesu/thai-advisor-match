@@ -601,7 +601,7 @@ def run():
 
         def get_embedding(text: str) -> list[float]:
             if not quota_available:
-                return [0.0] * 768
+                return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
             for attempt in range(5):
                 with key_lock:
                     c = clients[key_box[0] % len(clients)]
@@ -618,7 +618,7 @@ def run():
                         time.sleep(1.0 + random.random() * 2.0)
                     else:
                         time.sleep(0.5)
-            return [0.0] * 768
+            return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
 
         def build_embed_text(r: dict) -> str:
             parts = [
@@ -636,7 +636,7 @@ def run():
 
         def process_embed(record):
             text = build_embed_text(record)
-            emb = get_embedding(text) if text else [0.0] * 768
+            emb = get_embedding(text) if text else None  # NULL: re-embed via embed_missing.py
             return record, emb
 
         embedded_records = []

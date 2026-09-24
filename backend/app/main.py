@@ -18,10 +18,16 @@ from app.api.routes_taxonomy import router as taxonomy_router
 @asynccontextmanager
 async def _lifespan(app: FastAPI):
     # AGENTS.md §5.2 "Fast Inverted Index": build the in-memory BM25 lexical corpus
-    # once at startup (~5.7k docs, <1s) so /search can score candidates lexically
-    # without per-request table scans. Non-fatal: search degrades to dense-only.
+    # at startup so /search can score candidates lexically without per-request scans.
+    # Non-fatal: search degrades to dense-only if this fails.
+    #
+    # Run in a thread-pool executor so the blocking SQLAlchemy .yield_per() call
+    # does NOT block the asyncio event loop during startup.  The index build streams
+    # ~29 k rows in 500-row batches; expect ~1–3 s on a warm local PostgreSQL.
+    import asyncio
     from app.core.corpus_index import build_faculty_lexical_index
-    build_faculty_lexical_index(SessionLocal)
+    loop = asyncio.get_event_loop()
+    loop.run_in_executor(None, build_faculty_lexical_index, SessionLocal)
     yield
 
 
@@ -63,12 +69,16 @@ ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:8000",
     "http://127.0.0.1:8000",
+    "http://localhost:8082",
+    "http://127.0.0.1:8082",
+    "http://app.localhost:8082",
+    "http://api.localhost:8082",
 ]
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=ALLOWED_ORIGINS,
-    allow_origin_regex=r"^https://.*\.vercel\.app$|^https://.*\.render\.com$",
+    allow_origin_regex=r"^https?://([a-zA-Z0-9-]+\.)?localhost(:[0-9]+)?$|^https://.*\.vercel\.app$|^https://.*\.render\.com$",
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["Content-Type", "Authorization", "X-Requested-With", "Accept"],

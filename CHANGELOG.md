@@ -1,6 +1,82 @@
 # Changelog
 
-## 2026-09-24 (Exhaustive OpenAlex Quota Enrichment & Dual-Factor Grounding)
+## 2026-09-24 (Single Ingress Gateway Architecture — Closed Direct Ports & pgAdmin Decommissioning)
+- Decommissioned `pgadmin` service: stopped and removed `thai_educenter_pgadmin` container, removed `dpage/pgadmin4:latest` image (~791 MB), and pruned 6.78 GB of stale Docker build cache.
+- Closed all direct host port bindings for `frontend` (:3000), `backend` (:8000), and `db` (:5432) in `compose.yaml`.
+- Enforced single ingress routing strictly through Nginx Gateway on port `8082` (Zero-Leakage Architecture):
+  - `http://app.localhost:8082` -> Next.js Frontend
+  - `http://api.localhost:8082` -> FastAPI Backend
+  - `http://localhost:8082` -> Developer Portal
+- Added `/api/` reverse proxy directive under `app.localhost:8082` in `docker/gateway/nginx.conf` for seamless same-origin API forwarding.
+- Updated default `NEXT_PUBLIC_API_BASE_URL` in `compose.yaml` to `http://api.localhost:8082/api/v1`.
+- Removed legacy fallback direct-port links and pgAdmin portal cards from developer portal (`docker/gateway/html/index.html`).
+
+## 2026-09-24 (Frontend Theme Streamlining — Coral Orange Permanent Single Theme)
+- Consolidated frontend theme palette to permanent Coral Orange as the sole system theme (`frontend/src/app/globals.css`).
+- Removed all legacy alternative theme stylesheets (`peach`, `lavender`, `sage`, `sky`, `blush`, `matcha`) and `@custom-variant coral`.
+- Streamlined `Header.tsx`: completely eliminated the color palette dropdown menu, Palette icon, and `THEMES` definitions, leaving a clean, high-performance Light/Dark mode toggle (Sun/Moon).
+- Simplified `themeInitScript` in `frontend/src/app/layout.tsx` to handle pure Light/Dark mode hydration without theme name lookup.
+
+## 2026-09-24 (Reverse Proxy Gateway & Subdomain Architecture — Port 8082)
+- Added Nginx Alpine Reverse Proxy service `gateway` on port `8082:80` (`docker/gateway/nginx.conf`, `compose.yaml`).
+- Configured dynamic upstream resolution using Docker internal DNS (`resolver 127.0.0.11`) to prevent startup failure when optional services (e.g. pgAdmin under `tools` profile) are offline.
+- Created modern Thai EduCenter Service Portal landing page (`docker/gateway/html/index.html`) at `http://localhost:8082`.
+- Enabled native RFC 6761 subdomain routing for `app.localhost:8082` (Frontend) and `api.localhost:8082` (Backend/Swagger).
+
+## 2026-09-24 (System-wide Bottleneck Audit — 10-Point Fix)
+
+### P0: Gemini Embedding Reliability (`backend/app/core/embedding_service.py`)
+- Reduced per-call HTTP timeout from 60,000 ms to 15,000 ms; added 30 s total budget cap per `get_embedding()` call.
+- Replaced flat 0.5 s retry sleep with exponential backoff (base 1 s, max 30 s, ±0.5 s jitter) and `Retry-After` header parsing on 429 responses.
+- Added single-flight deduplication (`_inflight` Event map): concurrent requests for the same text wait on a shared threading.Event instead of hitting the provider independently.
+- Added per-key circuit breaker: 3 consecutive failures open the breaker for 120 s; OPEN keys are skipped during rotation and transition to HALF-OPEN on timeout.
+
+### P0: Startup Lexical Index Blocking (`backend/app/core/corpus_index.py`, `backend/app/main.py`)
+- Replaced `.all()` bulk load (29 k rows into heap) with `.yield_per(500)` streaming in `build_faculty_lexical_index()`.
+- Moved startup call into `asyncio.get_event_loop().run_in_executor(None, ...)` so the blocking SQLAlchemy streaming does not stall the asyncio event loop during FastAPI startup.
+- Added `_index_ready: bool` module flag set after successful index rebuild.
+
+### P0: Search Over-fetch and Pre-heap Explanation Cost (`backend/app/api/routes_search.py`)
+- Refactored candidate scoring into 2 phases: Phase 1 scores all candidates and pushes to `TopKHeap`; Phase 2 computes `generate_smart_explanation()` only for the final Top-K winners.
+- Reduced lexical fallback multiplier from `top_k × 4` to `top_k × 2`.
+
+### P0: N+1 Null-Embedding Audit Queries (`backend/scripts/audits/fact_check_all_13559_faculties.py`)
+- Replaced per-row `hasattr(f, "embedding")` deferred-column access (~29 k lazy SELECT round-trips) with a single `SELECT id FROM public.faculties WHERE embedding IS NULL` query.
+
+### P1: Zero Vectors Written as Embedding Fallback (50+ crawler and enrichment scripts)
+- Changed all `embedding=[0.0] * 768` circuit-breaker fallback assignments to `embedding=None` across all crawler, enrichment, and re-embedding scripts so `WHERE embedding IS NULL` audits correctly identify un-embedded records.
+
+### P1: `fast_reembed_updated.py` Memory Bloat (`backend/scripts/fast_reembed_updated.py`)
+- Added `options(defer(FacultyDB.embedding))` to prevent loading 768-dim vectors for all 29 k rows during re-embedding target selection.
+
+### P1: Import-time Side Effects in Legacy Tests (26 files + `match_foodtech.py`)
+- Wrapped all module-scope network/API/file operations in `backend/scripts/legacy_archive/misc_tests/` under `if __name__ == "__main__":` guards to prevent pytest collection failures and crashes on import.
+- Manually rewrote `backend/scripts/crawlers/match_foodtech.py` to guard all executable code.
+
+### Duplicate PK Indexes Removed (`docker/init.sql`, `backend/app/models/db_models.py`)
+- Removed `CREATE INDEX ix_faculties_id`, `ix_scholars_unassigned_id`, `ix_courses_id`, `ix_research_labs_id` from `docker/init.sql`; PostgreSQL auto-creates a B-tree index on `PRIMARY KEY` columns.
+- Removed `index=True` from all four PK `id` columns in `db_models.py` (`FacultyDB`, `ScholarUnassignedDB`, `CourseDB`, `ResearchLabDB`) to prevent SQLAlchemy from emitting a third redundant index DDL on fresh schema creation.
+- Note: indexes already present in running databases are not dropped; this prevents new duplicates on fresh container initialization only.
+
+### Frontend Cache-hit Race Fix (`frontend/src/app/page.tsx`)
+- Moved sequence increment (`++searchSeqRef.current`) and `AbortController` creation before the cache-hit early return; a stale in-flight response can no longer overwrite results that were served from cache.
+- Added `setLoading(false)` on the cache-hit return path to clear any leftover loading state.
+
+### Frontend Cascading Filter Race Fix (`frontend/src/components/FilterBar.tsx`, `frontend/src/app/page.tsx`)
+- Added `onSelectRegionCascade` prop to `FilterBar`; region pill `onClick` now calls the single atomic handler instead of invoking `onSelectRegion` + `onSelectUni("all")` + `onSelectFaculty("all")` + `onSelectDepartment("all")` as four separate callbacks (which each triggered an independent `executeSearch()` call).
+- Fixed taxonomy `finally` blocks to guard `setLoadingUnis`, `setLoadingFacs`, `setLoadingDepts` behind `!controller.signal.aborted` so an aborted superseded request does not clear the loading flag of a concurrent newer request.
+
+### Frontend Button & Navigation Bug Fixes (`frontend/src/app/page.tsx`, `Header.tsx`, `SavedBookmarksModal.tsx`, `advisor/[id]`, `labs/[id]`)
+- Fixed Header navigation links ("อาจารย์ที่ปรึกษา", "ห้องวิจัย") dead-click bug by adding `onSelectTab` prop to `Header` and syncing URL search param `?tab=` with `activeTab` via `useSearchParams()` wrapped in `<Suspense>`.
+- Fixed dead Bookmarks button in `Header` on `/advisor/[id]` and `/labs/[id]` by replacing no-op handlers with hydrated bookmark state (`savedCourses`, `savedAdvisors`) and mounting `SavedBookmarksModal`.
+- Enhanced `SavedBookmarksModal` to automatically fetch missing course and faculty metadata via `/courses/{id}` and `/faculty/{id}` when bookmarks were stored in earlier sessions, and added direct modal opening via `onSelectCourse`.
+- Fixed `ComparisonModal` clear all button to cleanly reset compared course selections and dismiss the modal.
+
+### Verification
+- Backend: 114/114 tests passed (`python -m pytest --tb=short -q`).
+- Frontend: TypeScript + ESLint + Next.js production build passed (`npm run build`).
+
+
 
 ### OpenAlex 7-Key Multiplexed Batch Enrichment (`backend/scripts/enrich_thai_faculty_openalex.py`)
 - Executed high-throughput dual-factor OpenAlex author discovery across 7 multiplexed API keys and 21 worker threads until daily API quota exhaustion.

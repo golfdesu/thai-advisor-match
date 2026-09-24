@@ -144,11 +144,11 @@ consecutive_429 = [0]
 def get_embedding(text: str) -> list[float]:
     global quota_available
     if not quota_available or not clients:
-        return [0.0] * 768
+        return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
     for _ in range(2):
         with key_lock:
             if not quota_available:
-                return [0.0] * 768
+                return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
             c = clients[key_box[0] % len(clients)]
             key_box[0] += 1
         try:
@@ -167,9 +167,9 @@ def get_embedding(text: str) -> list[float]:
                     if consecutive_429[0] >= 3:
                         quota_available = False
                         print("  WARN: Gemini quota exhausted. Baseline embeddings.")
-                return [0.0] * 768
+                return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
             time.sleep(0.3)
-    return [0.0] * 768
+    return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
 
 
 def clean_raw_name(raw: str) -> str:
@@ -610,7 +610,7 @@ def process_university(univ: dict, db) -> tuple[int, int]:
             uid = f"{wave_prefix}_{seq:04d}_{random.randint(100, 999)}"
         have_ids.add(uid)
 
-        emb = embs[i] if i < len(embs) else [0.0] * 768
+        emb = embs[i] if i < len(embs) else None  # NULL: re-embed via embed_missing.py
         fn_th = r.get("full_name_th") or r.get("full_name_en") or "อาจารย์"
 
         new_objs.append(FacultyDB(

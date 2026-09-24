@@ -61,7 +61,7 @@ def action1_embed_missing_faculties(db) -> int:
 
         if not emb or len(emb) != 768:
             # Fallback to zero vector as per Pillar 3 circuit breaker
-            emb = [0.0] * 768
+            emb = None  # NULL: re-embed via embed_missing.py
 
         db.execute(text("""
             UPDATE faculties

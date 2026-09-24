@@ -609,7 +609,7 @@ def run_pipeline():
                     total_publications_count=max(item.get("total_publications_count") or 0, item.get("h_index") or 0),
                     research_interests=item.get("research_interests") or [],
                     featured_publications=item.get("featured_publications") or [],
-                    embedding=[0.0] * 768,  # Non-blocking circuit breaker (Pillar 3)
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,  # Non-blocking circuit breaker (Pillar 3)
                 )
                 db.add(new_record)
                 existing_names.add(full_th)

@@ -629,7 +629,7 @@ def run_cu_mu_faculty_recovery():
                 "openalex_id": scholar.openalex_id,
                 "scholar_url": scholar.scholar_url,
                 "embedding_text": scholar.embedding_text,
-                "embedding": scholar.embedding if scholar.embedding is not None else [0.0] * 768,
+                "embedding": scholar.embedding if scholar.embedding is not None else None  # NULL: re-embed via embed_missing.py,
             })
             promoted_ids.add(scholar.id)
 

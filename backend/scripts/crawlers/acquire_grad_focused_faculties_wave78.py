@@ -522,7 +522,7 @@ def run_wave78_acquisition():
                     h_index=item["h_index"],
                     total_publications_count=item["total_publications_count"],
                     openalex_id=item["openalex_id"],
-                    embedding=[0.0] * 768,
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,
                 )
                 db.add(new_fac)
                 inserted += 1

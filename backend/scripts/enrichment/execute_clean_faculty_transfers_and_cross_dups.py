@@ -220,7 +220,7 @@ def execute_transfers_and_dedup():
                     tags=c_data.get("tags") or [fac_th, c_data["degree_level"]],
                     website_url=c_data.get("website_url") or "https://www.rmutp.ac.th/หลักสูตร/",
                     embedding_text=f"{c_data['title_th']} {fac_th} มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร",
-                    embedding=[0.0] * 768,
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,
                 )
                 db.add(new_c)
                 inserted_courses += 1

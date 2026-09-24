@@ -6,7 +6,7 @@ from app.core.embedding_text import build_faculty_embedding_text
 class FacultyDB(Base):
     __tablename__ = "faculties"
 
-    id = Column(String, primary_key=True, index=True)
+    id = Column(String, primary_key=True)  # PK auto-creates a B-tree index; index=True would be a duplicate
     university = Column(String, index=True)
     university_th = Column(String, index=True)
     faculty = Column(String)
@@ -47,7 +47,7 @@ class ScholarUnassignedDB(Base):
     """Archival and quarantine table for scholars lacking teaching department."""
     __tablename__ = "scholars_unassigned"
 
-    id = Column(String, primary_key=True, index=True)
+    id = Column(String, primary_key=True)  # PK auto-creates a B-tree index; index=True would be a duplicate
     university = Column(String, index=True)
     university_th = Column(String, index=True)
     faculty = Column(String)
@@ -98,7 +98,7 @@ event.listen(FacultyDB, "before_update", _ensure_faculty_embedding_text)
 class CourseDB(Base):
     __tablename__ = "courses"
 
-    id = Column(String, primary_key=True, index=True)
+    id = Column(String, primary_key=True)  # PK auto-creates a B-tree index; index=True would be a duplicate
     title_th = Column(String, index=True)
     title_en = Column(String, index=True)
     degree_level = Column(String, index=True)  # Bachelor, Master, Doctorate, Certificate
@@ -126,7 +126,7 @@ class CourseDB(Base):
 class ResearchLabDB(Base):
     __tablename__ = "research_labs"
 
-    id = Column(String, primary_key=True, index=True)
+    id = Column(String, primary_key=True)  # PK auto-creates a B-tree index; index=True would be a duplicate
     name_th = Column(String, index=True)
     name_en = Column(String, index=True)
     university = Column(String, index=True)

@@ -834,7 +834,7 @@ def run_wave84_acquisition():
             "openalex_id": "not_indexed",
             "scholar_url": None,
             "embedding_text": f"อาจารย์ {item['full_name_th']} {item['faculty_th']} {item['department_th']} {item['university_th']} " + " ".join(item.get("research_interests", [])),
-            "embedding": [0.0] * 768,
+            "embedding": None  # NULL: re-embed via embed_missing.py,
         })
 
     with open(CHECKPOINT_PATH, "w", encoding="utf-8") as f:

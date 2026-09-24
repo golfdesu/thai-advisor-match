@@ -647,7 +647,7 @@ def execute_wave73_acquisition():
                     total_citations=r.get("total_citations") or 0,
                     h_index=r.get("h_index") or 0,
                     total_publications_count=pub_count,
-                    embedding=[0.0] * 768,
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,
                 )
                 db.add(new_fac)
                 inserted_count += 1

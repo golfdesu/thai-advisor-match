@@ -732,7 +732,7 @@ def execute_wave71_acquisition():
                     first_author_count=r.get("first_author_count") or 0,
                     co_author_count=r.get("co_author_count") or 0,
                     openalex_id=r.get("openalex_id") or "not_indexed",
-                    embedding=[0.0] * 768,  # Non-blocking circuit breaker (Pillar 3)
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,  # Non-blocking circuit breaker (Pillar 3)
                 )
                 db.add(new_fac)
                 inserted_count += 1

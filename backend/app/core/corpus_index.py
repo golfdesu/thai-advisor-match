@@ -51,25 +51,48 @@ def tokenize_mixed(text: str) -> list[str]:
 FACULTY_LEXICAL_INDEX = ThreadSafeInvertedIndex()
 
 
-def build_faculty_lexical_index(session_factory) -> int:
-    """Load faculty corpus text and (re)build the shared index. Returns doc count.
+# Readiness flag: True once the first successful index build completes.
+# Routes check this before using lexical scoring so a slow startup DB query
+# never blocks the event loop AND callers can distinguish "not ready" from
+# "index built but empty".
+_index_ready: bool = False
 
-    Called from FastAPI's startup lifespan; also exposed for tests/scripts.
-    Failure is logged, never raised — search must keep working dense-only.
+
+def is_index_ready() -> bool:
+    """Return True if the lexical index has been built at least once successfully."""
+    return _index_ready
+
+
+def build_faculty_lexical_index(session_factory) -> int:
+    """Stream faculty corpus text in batches and (re)build the shared BM25 index.
+
+    Uses yield_per(500) instead of .all() so only 500 ORM rows are resident in
+    memory at a time — avoids loading the full ~29 k-row corpus at once.
+
+    Called from FastAPI's startup lifespan (via run_in_executor — non-blocking);
+    also exposed for tests/scripts.  Failure is logged, never raised — search
+    degrades to dense-only until the next successful build.
     """
+    global _index_ready
     try:
         db = session_factory()
+        docs: dict[str, str] = {}
         try:
-            rows = (
+            # yield_per(500): stream rows in 500-row server-side chunks.
+            # load_only ensures only id + embedding_text columns are fetched —
+            # no 768-dim vectors, no JSON blobs, no TOAST.
+            for row in (
                 db.query(FacultyDB)
                 .options(load_only(FacultyDB.id, FacultyDB.embedding_text))
                 .filter(FacultyDB.embedding_text.isnot(None))
-                .all()
-            )
-            docs = {r.id: (r.embedding_text or "") for r in rows}
+                .yield_per(500)
+            ):
+                docs[row.id] = row.embedding_text or ""
         finally:
             db.close()
+
         n = FACULTY_LEXICAL_INDEX.rebuild(docs, tokenizer=tokenize_mixed)
+        _index_ready = True
         logger.info(f"📚 [Corpus Index] lexical BM25 index built over {n} faculty docs")
         return n
     except Exception as e:  # pragma: no cover - defensive

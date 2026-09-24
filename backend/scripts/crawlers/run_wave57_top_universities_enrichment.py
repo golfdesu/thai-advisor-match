@@ -121,11 +121,11 @@ consecutive_429 = [0]
 def get_embedding(text: str) -> list[float]:
     global quota_available
     if not quota_available or not clients:
-        return [0.0] * 768
+        return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
     for _ in range(2):
         with key_lock:
             if not quota_available:
-                return [0.0] * 768
+                return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
             c = clients[key_box[0] % len(clients)]
             key_box[0] += 1
         try:
@@ -144,9 +144,9 @@ def get_embedding(text: str) -> list[float]:
                     if consecutive_429[0] >= 3:
                         quota_available = False
                         print("  WARN: Gemini quota exhausted. Baseline embeddings.")
-                return [0.0] * 768
+                return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
             time.sleep(0.3)
-    return [0.0] * 768
+    return None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search
 
 
 def fetch_openalex_authors(univ: dict) -> tuple[list[dict], int]:
@@ -398,7 +398,7 @@ def process_university(univ: dict, db, have_ids_global: set) -> tuple[int, int]:
             uid = f"{univ['prefix']}_w57_{seq:04d}_{random.randint(100, 999)}"
         have_ids_global.add(uid)
 
-        emb = embs[i] if i < len(embs) else [0.0] * 768
+        emb = embs[i] if i < len(embs) else None  # NULL: re-embed via embed_missing.py
         fn_th = r.get("full_name_th") or r.get("full_name_en") or "อาจารย์"
         interests = [RE_PHONE.sub("", x).strip() for x in (r.get("research_interests") or [])]
         interests = [x for x in interests if x and len(x) > 2]

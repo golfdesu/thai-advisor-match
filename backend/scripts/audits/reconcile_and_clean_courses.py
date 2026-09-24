@@ -578,10 +578,10 @@ def run_courses_cleaning_pipeline():
                             c.embedding = vec
                             stats["embeddings_revectorized"] += 1
                         else:
-                            c.embedding = [0.0] * 768
+                            c.embedding = None  # NULL: re-embed via embed_missing.py
                             stats["embeddings_circuit_breaker"] += 1
                     except Exception:
-                        c.embedding = [0.0] * 768
+                        c.embedding = None  # NULL: re-embed via embed_missing.py
                         stats["embeddings_circuit_breaker"] += 1
 
                 updated_records.append({

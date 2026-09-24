@@ -29,6 +29,21 @@ import { labDetailCache } from "@/lib/dsa";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { LabInquiryModal } from "@/components/LabInquiryModal";
+import { SavedBookmarksModal } from "@/components/SavedBookmarksModal";
+
+const readSavedIds = (storageKey: string): string[] => {
+  if (typeof window === "undefined") return [];
+
+  try {
+    const saved = window.localStorage.getItem(storageKey);
+    const parsed: unknown = saved ? JSON.parse(saved) : [];
+    return Array.isArray(parsed) && parsed.every((value): value is string => typeof value === "string")
+      ? parsed
+      : [];
+  } catch {
+    return [];
+  }
+};
 
 const hasSavedId = (storageKey: string, id: string): boolean => {
   if (typeof window === "undefined") return false;
@@ -59,11 +74,20 @@ export default function LabDetailPage() {
   const [heroImgError, setHeroImgError] = useState(false);
   const [piImgError, setPiImgError] = useState(false);
   const [memberImgErrors, setMemberImgErrors] = useState<Record<string, boolean>>({});
+  const [savedCourses, setSavedCourses] = useState<string[]>([]);
+  const [savedAdvisors, setSavedAdvisors] = useState<string[]>([]);
+  const [showSavedModal, setShowSavedModal] = useState(false);
 
   useEffect(() => {
     if (!id) return;
     const saved = hasSavedId("thai_educenter_saved_labs", id);
-    queueMicrotask(() => setIsSaved(saved));
+    const courses = readSavedIds("thai_educenter_saved_courses");
+    const advs = readSavedIds("thai_educenter_saved_advisors");
+    queueMicrotask(() => {
+      setIsSaved(saved);
+      setSavedCourses(courses);
+      setSavedAdvisors(advs);
+    });
   }, [id]);
 
   useEffect(() => {
@@ -141,9 +165,28 @@ export default function LabDetailPage() {
     }
   };
 
+  const handleRemoveCourse = (courseId: string) => {
+    const next = savedCourses.filter((item) => item !== courseId);
+    setSavedCourses(next);
+    try {
+      localStorage.setItem("thai_educenter_saved_courses", JSON.stringify(next));
+    } catch {}
+  };
+
+  const handleRemoveAdvisor = (advisorId: string) => {
+    const next = savedAdvisors.filter((item) => item !== advisorId);
+    setSavedAdvisors(next);
+    try {
+      localStorage.setItem("thai_educenter_saved_advisors", JSON.stringify(next));
+    } catch {}
+  };
+
   return (
     <div className="min-h-screen bg-[var(--theme-bg)] text-[var(--theme-text-body)] flex flex-col font-sans selection:bg-[var(--theme-primary)] selection:text-[var(--theme-primary-contrast)] antialiased">
-      <Header savedCount={0} onOpenSavedModal={() => {}} />
+      <Header
+        savedCount={savedCourses.length + savedAdvisors.length}
+        onOpenSavedModal={() => setShowSavedModal(true)}
+      />
 
       <main className="flex-1 max-w-5xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 space-y-8">
         {/* Navigation Breadcrumb */}
@@ -503,6 +546,16 @@ export default function LabDetailPage() {
           onClose={() => setShowInquiryModal(false)}
         />
       )}
+
+      {/* Saved Bookmarks Modal */}
+      <SavedBookmarksModal
+        isOpen={showSavedModal}
+        onClose={() => setShowSavedModal(false)}
+        savedCourses={savedCourses}
+        savedAdvisors={savedAdvisors}
+        onRemoveCourse={handleRemoveCourse}
+        onRemoveAdvisor={handleRemoveAdvisor}
+      />
 
       <Footer />
     </div>

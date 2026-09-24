@@ -496,7 +496,7 @@ def ingest_wave77_faculties(records: List[Dict[str, Any]]) -> int:
                     total_publications_count=rec.get("total_publications_count", 0),
                     research_interests=rec["research_interests"],
                     featured_publications=rec["featured_publications"],
-                    embedding=[0.0] * 768,
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,
                 )
                 db.add(new_faculty)
                 ingested_count += 1

@@ -38,6 +38,8 @@ interface FilterBarProps {
   onSelectDegree: (deg: string) => void;
   onSelectResearchTier?: (tier: string) => void;
   onResetFilters: () => void;
+  /** Atomic cascading region select: resets uni/faculty/dept and fires one search. */
+  onSelectRegionCascade?: (region: string) => void;
 }
 
 export const FilterBar: React.FC<FilterBarProps> = ({
@@ -55,6 +57,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   onSelectDegree,
   onSelectResearchTier,
   onResetFilters,
+  onSelectRegionCascade,
 }) => {
   const [regions, setRegions] = useState<RegionInfo[]>(DEFAULT_REGIONS);
   const [universities, setUniversities] = useState<UniversityOption[]>([]);
@@ -119,7 +122,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         if (err instanceof Error && err.name === "AbortError") return;
       })
       .finally(() => {
-        setLoadingUnis(false);
+        if (!controller.signal.aborted) setLoadingUnis(false);
       });
 
     return () => controller.abort();
@@ -160,7 +163,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         if (err instanceof Error && err.name === "AbortError") return;
       })
       .finally(() => {
-        setLoadingFacs(false);
+        if (!controller.signal.aborted) setLoadingFacs(false);
       });
 
     return () => controller.abort();
@@ -202,7 +205,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         if (err instanceof Error && err.name === "AbortError") return;
       })
       .finally(() => {
-        setLoadingDepts(false);
+        if (!controller.signal.aborted) setLoadingDepts(false);
       });
 
     return () => controller.abort();
@@ -234,10 +237,15 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 key={reg.id}
                 type="button"
                 onClick={() => {
-                  onSelectRegion(reg.id);
-                  onSelectUni("all");
-                  onSelectFaculty("all");
-                  onSelectDepartment("all");
+                  if (onSelectRegionCascade) {
+                    // Atomic: one callback resets uni/faculty/dept and fires a single search.
+                    onSelectRegionCascade(reg.id);
+                  } else {
+                    onSelectRegion(reg.id);
+                    onSelectUni("all");
+                    onSelectFaculty("all");
+                    onSelectDepartment("all");
+                  }
                 }}
                 className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
                   isActive
@@ -289,10 +297,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <select
               value={selectedUni}
               onChange={(e) => {
-                const newUni = e.target.value;
-                onSelectUni(newUni);
-                onSelectFaculty("all");
-                onSelectDepartment("all");
+                onSelectUni(e.target.value);
               }}
               disabled={loadingUnis}
               className="ui-field w-full appearance-none px-3.5 py-2.5 pr-8 text-xs sm:text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer disabled:opacity-60 truncate"
@@ -318,9 +323,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <select
               value={selectedFaculty}
               onChange={(e) => {
-                const newFac = e.target.value;
-                onSelectFaculty(newFac);
-                onSelectDepartment("all");
+                onSelectFaculty(e.target.value);
               }}
               disabled={loadingFacs || faculties.length === 0}
               className="ui-field w-full appearance-none px-3.5 py-2.5 pr-8 text-xs sm:text-sm font-bold focus:outline-none focus:ring-2 focus:ring-[var(--theme-primary)] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed truncate"

@@ -722,7 +722,7 @@ def run_wave75_pipeline():
                     total_citations=rec.get("total_citations", 0),
                     h_index=rec.get("h_index", 0),
                     total_publications_count=max(rec.get("total_publications_count", 0), rec.get("h_index", 0)),
-                    embedding=[0.0] * 768,  # Circuit breaker fallback
+                    embedding=None  # NULL: re-embed via embed_missing.py; zero vectors excluded from semantic search,  # Circuit breaker fallback
                 )
                 db.add(new_f)
                 inserted += 1
