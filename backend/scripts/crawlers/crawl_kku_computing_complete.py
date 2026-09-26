@@ -1,0 +1,419 @@
+# -*- coding: utf-8 -*-
+"""
+Autonomous 5-Pillar Data Acquisition: KKU College of Computing
+Target: วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น
+Architecture: SKILL.state (Headless REST Ingestion, OpenAlex Multiplexing, 5-Pass State Reducer, Disk Checkpointing)
+"""
+
+import os
+import sys
+import re
+import json
+import time
+import ssl
+import urllib.request
+from pathlib import Path
+from bs4 import BeautifulSoup
+import psycopg2
+from rapidfuzz import fuzz
+
+if os.path.exists("/app"):
+    BACKEND_DIR = Path("/app")
+else:
+    BACKEND_DIR = Path(__file__).resolve().parents[2] if "__file__" in locals() and len(Path(__file__).resolve().parents) > 2 else Path("backend").resolve()
+
+if str(BACKEND_DIR) not in sys.path:
+    sys.path.insert(0, str(BACKEND_DIR))
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
+# SSL & Headers
+ctx = ssl.create_default_context()
+ctx.check_hostname = False
+ctx.verify_mode = ssl.CERT_NONE
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+}
+
+# OpenAlex Keys Pool
+OPENALEX_KEYS = [
+    "7wSka3Dq14FaRdGrnCy3kb",
+    "HlKywAKhbQqTHoP8yvpBPS",
+    "kfZqqDu8EVFyq05JOvGPdt",
+    "7ECGlpyC1fXCOITB0rn5qB",
+    "87BszP3F4mUE1vgatAiE8f",
+    "GHnpTUxVcNMK9FbvMJKjD0",
+    "RDxg8cMfJfCJdx3HqGILcy"
+]
+KKU_INST_ID = "I179193067"
+
+def clean_academic_title_th(raw):
+    raw = raw.strip()
+    patterns = [
+        (r'^(?:ศาสตราจารย์\s+ดร\.|ศ\.\s*ดร\.)\s*', 'ศ.ดร. '),
+        (r'^(?:รองศาสตราจารย์\s+ดร\.|รศ\.\s*ดร\.)\s*', 'รศ.ดร. '),
+        (r'^(?:ผู้ช่วยศาสตราจารย์\s+ดร\.|ผศ\.\s*ดร\.)\s*', 'ผศ.ดร. '),
+        (r'^(?:อาจารย์\s+ดร\.|อ\.\s*ดร\.)\s*', 'อ.ดร. '),
+        (r'^(?:ศาสตราจารย์|ศ\.)\s*', 'ศ. '),
+        (r'^(?:รองศาสตราจารย์|รศ\.)\s*', 'รศ. '),
+        (r'^(?:ผู้ช่วยศาสตราจารย์|ผศ\.)\s*', 'ผศ. '),
+        (r'^(?:อาจารย์|อ\.)\s*', 'อ. '),
+        (r'^(?:นางสาว|นาย|นาง)\s*', 'อ. ')
+    ]
+    for pat, rep in patterns:
+        if re.search(pat, raw):
+            return rep.strip(), re.sub(pat, '', raw).strip()
+    return 'อ.', raw.strip()
+
+def clean_en_name(raw_en):
+    raw_en = raw_en.strip()
+    pats = [
+        r'^(?:Assistant\s+Professor\s+Dr\.|Asst\.\s*Prof\.\s*Dr\.)\s*',
+        r'^(?:Associate\s+Professor\s+Dr\.|Assoc\.\s*Prof\.\s*Dr\.)\s*',
+        r'^(?:Professor\s+Dr\.|Prof\.\s*Dr\.)\s*',
+        r'^(?:Assistant\s+Professor|Asst\.\s*Prof\.)\s*',
+        r'^(?:Associate\s+Professor|Assoc\.\s*Prof\.)\s*',
+        r'^(?:Professor|Prof\.)\s*',
+        r'^(?:Lecturer|Instructor|Aj\.|Dr\.)\s*',
+        r'^(?:Mr\.|Mrs\.|Ms\.|Miss)\s*'
+    ]
+    cleaned = raw_en
+    for p in pats:
+        cleaned = re.sub(p, '', cleaned, flags=re.I).strip()
+    cleaned = re.sub(r',\s*(?:Lecturer|Instructor|Assistant Professor|Associate Professor|Ph\.D\..*)$', '', cleaned, flags=re.I).strip()
+
+    parts = cleaned.split()
+    if len(parts) >= 2:
+        first = parts[0].capitalize()
+        last = " ".join([p.capitalize() for p in parts[1:]])
+    elif len(parts) == 1:
+        first = parts[0].capitalize()
+        last = ""
+    else:
+        first = ""
+        last = ""
+    return first, last
+
+def lookup_openalex(first_en, last_en, key_idx=0):
+    if not first_en or not last_en:
+        return None
+    api_key = OPENALEX_KEYS[key_idx % len(OPENALEX_KEYS)]
+    query = f"{first_en}+{last_en}"
+    url = f"https://api.openalex.org/authors?search={query}&filter=last_known_institutions.id:{KKU_INST_ID}&api_key={api_key}"
+    req = urllib.request.Request(url, headers={'User-Agent': 'mailto:advisor@kku.ac.th'})
+    try:
+        with urllib.request.urlopen(req, timeout=8) as r:
+            data = json.loads(r.read())
+            results = data.get('results', [])
+            if results:
+                target = f"{first_en} {last_en}".lower()
+                for cand in results:
+                    disp = cand.get('display_name', '').lower()
+                    if fuzz.token_sort_ratio(target, disp) >= 80:
+                        return cand
+            return None
+    except Exception as e:
+        return None
+
+def fetch_kku_computing_faculty():
+    url = "https://api.computing.kku.ac.th/api/v1/user/list?page=1&size=100"
+    req = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(req, context=ctx, timeout=10) as r:
+        res = json.loads(r.read())
+        items = res.get('data', {}).get('items', [])
+
+    records = []
+    for it in items:
+        email = it.get('email', '').strip().lower()
+        if not email or '@kku.ac.th' not in email:
+            continue
+
+        loc_th = next((l for l in it.get('userLocalized', []) if l.get('languageId') == 1), {})
+        loc_en = next((l for l in it.get('userLocalized', []) if l.get('languageId') == 2), {})
+
+        raw_prefix = loc_th.get('shortPrefix') or loc_th.get('prefix') or '[]'
+        try:
+            prefixes = json.loads(raw_prefix) if isinstance(raw_prefix, str) else raw_prefix
+        except:
+            prefixes = []
+
+        p_names = [p.get('shortName', p.get('name', '')) for p in prefixes if isinstance(p, dict)]
+        pos = loc_th.get('academicPosition') or ''
+
+        # Filter strictly for academic faculty members
+        is_academic = any(k in p_names for k in ['ศ.', 'รศ.', 'ผศ.', 'อ.', 'ดร.', 'อาจารย์', 'ผู้ช่วยศาสตราจารย์', 'รองศาสตราจารย์', 'ศาสตราจารย์'])
+        if not is_academic and pos.startswith('หลักสูตร'):
+            is_academic = True
+
+        fname_th = (loc_th.get('firstname') or it.get('firstname') or '').strip()
+        lname_th = (loc_th.get('lastname') or it.get('lastname') or '').strip()
+
+        if not is_academic or fname_th in ['test', 'วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น']:
+            continue
+
+        # Extract title from prefix list
+        has_prof = any('ศ.' in p or 'ศาสตราจารย์' in p for p in p_names)
+        has_assoc = any('รศ.' in p or 'รองศาสตราจารย์' in p for p in p_names)
+        has_asst = any('ผศ.' in p or 'ผู้ช่วยศาสตราจารย์' in p for p in p_names)
+        has_dr = any('ดร.' in p for p in p_names)
+
+        if has_prof and has_dr:
+            title_th = 'ศ.ดร.'
+        elif has_prof:
+            title_th = 'ศ.'
+        elif has_assoc and has_dr:
+            title_th = 'รศ.ดร.'
+        elif has_assoc:
+            title_th = 'รศ.'
+        elif has_asst and has_dr:
+            title_th = 'ผศ.ดร.'
+        elif has_asst:
+            title_th = 'ผศ.'
+        elif has_dr:
+            title_th = 'อ.ดร.'
+        else:
+            title_th = 'อ.'
+
+        fname_en = (loc_en.get('firstname') or '').strip()
+        lname_en = (loc_en.get('lastname') or '').strip()
+        first_en, last_en = clean_en_name(f"{fname_en} {lname_en}")
+
+        # English special case for foreign faculty (e.g. Arfat Ahmad Khan)
+        if not re.search(r'[ก-๙]', fname_th):
+            fname_th = first_en
+            lname_th = last_en
+            full_th = f"{title_th} {first_en} {last_en}".strip()
+        else:
+            full_th = f"{title_th} {fname_th} {lname_th}".strip()
+
+        # Image
+        img_obj = it.get('image')
+        img_url = None
+        if img_obj and img_obj.get('url'):
+            img_path = img_obj['url']
+            if img_path.startswith('/'):
+                img_url = 'https://api.computing.kku.ac.th' + img_path
+            else:
+                img_url = img_path
+
+        # Profile URL
+        slug = it.get('slug', '')
+        profile_url = f"https://computing.kku.ac.th/personnel/{slug}" if slug else "https://computing.kku.ac.th/personnel"
+
+        # Department / Curriculum
+        dept_th = pos if pos else "วิทยาลัยการคอมพิวเตอร์"
+
+        # Specialties from HTML
+        spec_html = loc_th.get('specializeDescription', '')
+        research_interests = []
+        if spec_html:
+            soup = BeautifulSoup(spec_html, 'html.parser')
+            lines = [li.get_text(strip=True) for li in soup.find_all(['li', 'p']) if li.get_text(strip=True)]
+            for line in lines:
+                cleaned_line = re.sub(r'^(?:ความเชี่ยวชาญและงานวิจัย:|ความเชี่ยวชาญ:|-|\*)\s*', '', line).strip()
+                if cleaned_line and len(cleaned_line) > 2 and len(cleaned_line) < 100:
+                    research_interests.append(cleaned_line)
+
+        rec = {
+            'department_th': dept_th,
+            'email': email,
+            'academic_title_th': title_th,
+            'first_name_th': fname_th,
+            'last_name_th': lname_th,
+            'full_name_th': full_th,
+            'first_name': first_en,
+            'last_name': last_en,
+            'image_url': img_url,
+            'profile_url': profile_url,
+            'research_interests': research_interests if research_interests else None
+        }
+        records.append(rec)
+
+    return records
+
+def main():
+    print("=" * 60)
+    print("  WAVE 88: KKU COMPUTING AUTONOMOUS ACQUISITION PIPELINE")
+    print("=" * 60)
+
+    # Phase 1: Harvesting
+    print("\nPhase 1: Harvesting KKU College of Computing API...")
+    records = fetch_kku_computing_faculty()
+    print(f"Total verified academic faculty members harvested: {len(records)}")
+
+    # Deduplicate in-memory by email
+    unique_faculties = {}
+    for fac in records:
+        em = fac['email']
+        if em not in unique_faculties:
+            unique_faculties[em] = fac
+        else:
+            if not unique_faculties[em].get('image_url') and fac.get('image_url'):
+                unique_faculties[em]['image_url'] = fac['image_url']
+
+    records = list(unique_faculties.values())
+    print(f"Unique individual faculty members: {len(records)}")
+
+    # Phase 2: OpenAlex Multiplexing
+    print("\nPhase 2: OpenAlex Dual-Factor Multiplexing (Pillar 2)...")
+    key_idx = 0
+    oa_matches = 0
+    for idx, fac in enumerate(records):
+        oa = lookup_openalex(fac['first_name'], fac['last_name'], key_idx)
+        key_idx += 1
+        if oa:
+            oa_matches += 1
+            fac['openalex_id'] = oa.get('id')
+            fac['total_citations'] = oa.get('cited_by_count', 0)
+            fac['h_index'] = oa.get('summary_stats', {}).get('h_index', 0)
+            fac['works_count'] = oa.get('works_count', 0)
+            topics = [t.get('display_name') for t in oa.get('topics', [])[:5]]
+            if not fac.get('research_interests') and topics:
+                fac['research_interests'] = topics
+            elif fac.get('research_interests') and topics:
+                for t in topics:
+                    if t not in fac['research_interests']:
+                        fac['research_interests'].append(t)
+            print(f"  [OA MATCH] {fac['first_name']} {fac['last_name']} -> {oa['id']} (cit={fac['total_citations']}, h={fac['h_index']})")
+        else:
+            fac['openalex_id'] = None
+            fac['total_citations'] = 0
+            fac['h_index'] = 0
+            fac['works_count'] = 0
+
+    print(f"OpenAlex Grounding Complete: {oa_matches}/{len(records)} verified scholars matched.")
+
+    # Phase 3: Checkpointing (Pillar 5)
+    print("\nPhase 3: Disk Checkpointing (Pillar 5)...")
+    out_dir = BACKEND_DIR / "data" / "agent_states"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    chk_path = out_dir / "wave88_kku_computing_extraction.json"
+    with open(chk_path, "w", encoding="utf-8") as f:
+        json.dump(records, f, ensure_ascii=False, indent=2)
+    print(f"Saved {len(records)} records to {chk_path}")
+
+    # Phase 4: Database Ingestion (Pillar 4)
+    print("\nPhase 4: Database Ingestion & 5-Pass State Reducer...")
+    db_url = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@db:5432/advisor_match")
+    if not os.getenv("DATABASE_URL") and os.path.exists("/app"):
+        db_url = "postgresql://postgres:postgres@db:5432/advisor_match"
+    elif not os.getenv("DATABASE_URL"):
+        db_url = "postgresql://postgres:postgres@localhost:5432/advisor_match"
+
+    conn = psycopg2.connect(db_url)
+    cur = conn.cursor()
+
+    cur.execute("""
+        SELECT id, email, full_name_th, first_name, last_name, openalex_id
+        FROM faculties
+        WHERE university_th = 'มหาวิทยาลัยขอนแก่น' AND faculty_th = 'วิทยาลัยการคอมพิวเตอร์'
+    """)
+    existing_db = cur.fetchall()
+    print(f"Existing KKU Computing records in DB: {len(existing_db)}")
+
+    inserted = 0
+    updated = 0
+
+    for fac in records:
+        # Check by email first
+        cur.execute("SELECT id FROM faculties WHERE email = %s", (fac['email'],))
+        row = cur.fetchone()
+        if row:
+            fid = row[0]
+            cur.execute("""
+                UPDATE faculties
+                SET university = 'Khon Kaen University',
+                    university_th = 'มหาวิทยาลัยขอนแก่น',
+                    faculty = 'College of Computing',
+                    faculty_th = 'วิทยาลัยการคอมพิวเตอร์',
+                    department_th = %s,
+                    academic_title_th = %s,
+                    full_name_th = %s,
+                    first_name = %s,
+                    last_name = %s,
+                    image_url = COALESCE(%s, image_url),
+                    profile_url = %s,
+                    openalex_id = COALESCE(%s, openalex_id),
+                    total_citations = GREATEST(COALESCE(total_citations, 0), %s),
+                    h_index = GREATEST(COALESCE(h_index, 0), %s),
+                    total_publications_count = GREATEST(COALESCE(total_publications_count, 0), %s),
+                    research_interests = CASE WHEN %s::json IS NOT NULL THEN %s::json ELSE research_interests END
+                WHERE id = %s
+            """, (
+                fac['department_th'], fac['academic_title_th'],
+                fac['full_name_th'],
+                fac['first_name'], fac['last_name'],
+                fac['image_url'], fac['profile_url'],
+                fac['openalex_id'], fac['total_citations'], fac['h_index'], fac['works_count'],
+                json.dumps(fac['research_interests'], ensure_ascii=False) if fac['research_interests'] else None,
+                json.dumps(fac['research_interests'], ensure_ascii=False) if fac['research_interests'] else None,
+                fid
+            ))
+            updated += 1
+        else:
+            # Check by Thai full name
+            cur.execute("SELECT id FROM faculties WHERE full_name_th = %s AND university_th = 'มหาวิทยาลัยขอนแก่น'", (fac['full_name_th'],))
+            row2 = cur.fetchone()
+            if row2:
+                fid = row2[0]
+                cur.execute("""
+                    UPDATE faculties
+                    SET email = %s,
+                        university = 'Khon Kaen University',
+                        faculty = 'College of Computing',
+                        faculty_th = 'วิทยาลัยการคอมพิวเตอร์',
+                        department_th = %s,
+                        academic_title_th = %s,
+                        first_name = %s,
+                        last_name = %s,
+                        image_url = COALESCE(%s, image_url),
+                        profile_url = %s,
+                        openalex_id = COALESCE(%s, openalex_id),
+                        total_citations = GREATEST(COALESCE(total_citations, 0), %s),
+                        h_index = GREATEST(COALESCE(h_index, 0), %s),
+                        total_publications_count = GREATEST(COALESCE(total_publications_count, 0), %s),
+                        research_interests = CASE WHEN %s::json IS NOT NULL THEN %s::json ELSE research_interests END
+                    WHERE id = %s
+                """, (
+                    fac['email'], fac['department_th'], fac['academic_title_th'],
+                    fac['first_name'], fac['last_name'],
+                    fac['image_url'], fac['profile_url'],
+                    fac['openalex_id'], fac['total_citations'], fac['h_index'], fac['works_count'],
+                    json.dumps(fac['research_interests'], ensure_ascii=False) if fac['research_interests'] else None,
+                    json.dumps(fac['research_interests'], ensure_ascii=False) if fac['research_interests'] else None,
+                    fid
+                ))
+                updated += 1
+            else:
+                # Insert fresh record
+                import uuid
+                new_id = f"kku_cp_{uuid.uuid4().hex[:10]}"
+                cur.execute("""
+                    INSERT INTO faculties (
+                        id, university, university_th, faculty, faculty_th, department_th,
+                        academic_title_th, full_name_th,
+                        first_name, last_name, email, image_url, profile_url,
+                        openalex_id, total_citations, h_index, total_publications_count, research_interests
+                    ) VALUES (
+                        %s, 'Khon Kaen University', 'มหาวิทยาลัยขอนแก่น', 'College of Computing', 'วิทยาลัยการคอมพิวเตอร์', %s,
+                        %s, %s,
+                        %s, %s, %s, %s, %s,
+                        %s, %s, %s, %s, %s::json
+                    )
+                """, (
+                    new_id, fac['department_th'],
+                    fac['academic_title_th'], fac['full_name_th'],
+                    fac['first_name'], fac['last_name'], fac['email'],
+                    fac['image_url'], fac['profile_url'],
+                    fac['openalex_id'], fac['total_citations'], fac['h_index'], fac['works_count'],
+                    json.dumps(fac['research_interests'], ensure_ascii=False) if fac['research_interests'] else None
+                ))
+                inserted += 1
+
+    conn.commit()
+    conn.close()
+    print(f"\nPhase 4 Complete: Inserted {inserted} new faculties, Updated {updated} faculties.")
+
+if __name__ == "__main__":
+    main()

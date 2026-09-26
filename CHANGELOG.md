@@ -1,5 +1,29 @@
 # Changelog
 
+## 2026-09-26 (Phase 6 Wave 2 Profile Field Enrichment & Zero-Defect Verification)
+- **Phase 6 Wave 2 — Faculty Profile Field Enrichment (`profile_enrich_runner.py` & `ingest_phase6_profile_fields.py`):**
+  - Processed 4,047 faculty personal profile pages across 18 university domains using 8 parallel worker threads and 6 rotating Gemini API keys.
+  - Extraction results: 3,957 successful (97.8%), 81 fetch errors (inaccessible/offline hosts), 2 thin pages (<80 chars without image), 7 LLM errors. Zero 429 quota blockages.
+  - Database ingestion (local PostgreSQL):
+    - 373 faculty profiles updated with non-empty fields (fill only empty fields invariant).
+    - 133 official profile images added (`image_url`) validated against `*.ac.th` and `*.edu` institutional domains, dropping shared placeholder avatars.
+    - 314 degree education records added (`education`) with telephone and email PII redacted per PDPA standards.
+    - 28 taught courses added (`taught_courses`).
+    - 38 non-person profile pages quarantined to `results_wave2_quarantine.json`.
+    - 319 faculty records re-embedded with 768-dimensional Gemini vectors. 0 failed embeddings.
+- **KKU English Nomenclature Remediation:**
+  - Resolved 19 remaining missing English surnames across Faculty of Education and Faculty of Veterinary Medicine at Khon Kaen University (`kku_ed__004`, `kku_vet__*`).
+  - Synchronized verified Romanized first/last names to `faculties` table and updated `thai_romanization_cache.json`.
+- **Zero-Defect Database Verification (`audit_zero_defect_verification.py`):**
+  - Database metrics: 29,994 Active Faculty, 149 Research Labs, 4,333 Courses.
+  - All 6 database audit criteria passed with 0 defects:
+    1. Missing Embeddings: 0 (PASS)
+    2. Orphaned Lab Lead Advisors: 0 (PASS)
+    3. Duplicate Email Clusters: 0 (PASS)
+    4. Credential Suffix Leaks: 0 (PASS)
+    5. Thai Characters in EN: 0 (PASS)
+    6. Missing Surnames: 0 (PASS)
+
 ## 2026-09-26 (Bug fixes, Phase 1a OpenAlex works enrichment & bare OpenAlex ID remediation)
 - **Bug fixes:**
   - `backend/app/core/security.py`: the Thai national ID and credit card redaction patterns now use digit lookarounds instead of `\b`, so numbers written directly next to Thai text are redacted.

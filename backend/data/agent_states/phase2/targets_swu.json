@@ -1,0 +1,137 @@
+[
+ {
+  "key": "swu_faculty_of_physical_therapy_0",
+  "univ_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+  "univ_en": "Srinakharinwirot University",
+  "faculty_th": "คณะกายภาพบำบัด",
+  "faculty_en": "Faculty of Physical Therapy",
+  "urls": [
+   "https://dent.swu.ac.th/Default.aspx?tabid=17200"
+  ]
+ },
+ {
+  "key": "swu_faculty_of_dentistry_0",
+  "univ_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+  "univ_en": "Srinakharinwirot University",
+  "faculty_th": "คณะทันตแพทยศาสตร์",
+  "faculty_en": "Faculty of Dentistry",
+  "urls": [
+   "https://dent.swu.ac.th/Default.aspx?tabid=17198",
+   "https://dent.swu.ac.th/Default.aspx?tabid=17199",
+   "https://dent.swu.ac.th/Default.aspx?tabid=17200",
+   "https://dent.swu.ac.th/Default.aspx?tabid=17201",
+   "https://dent.swu.ac.th/Default.aspx?tabid=17202",
+   "https://hospital.dent.swu.ac.th/all-listings/"
+  ]
+ },
+ {
+  "key": "swu_faculty_of_medicine_0",
+  "univ_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+  "univ_en": "Srinakharinwirot University",
+  "faculty_th": "คณะแพทยศาสตร์",
+  "faculty_en": "Faculty of Medicine",
+  "urls": [
+   "https://med.swu.ac.th/anatomy/staff/",
+   "https://med.swu.ac.th/biochemistry/staff/",
+   "https://med.swu.ac.th/eye/staff/",
+   "https://med.swu.ac.th/forensic/staff/",
+   "https://med.swu.ac.th/microbiology/staff/",
+   "https://med.swu.ac.th/ortho/staff/",
+   "https://med.swu.ac.th/physiology/staff/",
+   "https://med.swu.ac.th/radiology/staff/",
+   "https://med.swu.ac.th/surgery/staff/"
+  ]
+ },
+ {
+  "key": "swu_faculty_of_humanities_0",
+  "univ_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+  "univ_en": "Srinakharinwirot University",
+  "faculty_th": "คณะมนุษยศาสตร์",
+  "faculty_en": "Faculty of Humanities",
+  "urls": [
+   "http://g.hu.swu.ac.th/personal01",
+   "http://g.hu.swu.ac.th/personal03",
+   "http://g.hu.swu.ac.th/personal04",
+   "http://g.hu.swu.ac.th/personal06",
+   "http://g.hu.swu.ac.th/personal07",
+   "http://g.hu.swu.ac.th/personal08",
+   "https://cgs.hu.swu.ac.th/people/en",
+   "https://cgs.hu.swu.ac.th/people/th",
+   "https://hu.swu.ac.th/boardhu"
+  ]
+ },
+ {
+  "key": "swu_faculty_of_science_0",
+  "univ_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+  "univ_en": "Srinakharinwirot University",
+  "faculty_th": "คณะวิทยาศาสตร์",
+  "faculty_en": "Faculty of Science",
+  "urls": [
+   "http://physics.science.swu.ac.th/Default.aspx?tabid=6286&language=th-TH",
+   "https://chem.science.swu.ac.th/Default.aspx?tabid=6434",
+   "https://cs.science.swu.ac.th/teacher-staff/",
+   "https://materials.science.swu.ac.th/faculty-members-2/"
+  ]
+ },
+ {
+  "key": "swu_faculty_of_engineering_0",
+  "univ_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+  "univ_en": "Srinakharinwirot University",
+  "faculty_th": "คณะวิศวกรรมศาสตร์",
+  "faculty_en": "Faculty of Engineering",
+  "urls": [
+   "http://ie.eng.swu.ac.th/INDUSTRIAL-ENGINEERING/%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%88%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B9%E0%B8%95%E0%B8%A3",
+   "http://mech.eng.swu.ac.th/Default.aspx?tabid=19158",
+   "https://bme.eng.swu.ac.th/Staff.html",
+   "https://che.eng.swu.ac.th/%E0%B8%9A%E0%B8%B8%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%A3-Faculty",
+   "https://cpe.eng.swu.ac.th/personnel",
+   "https://ee.eng.swu.ac.th/en/people-academic-staff.html",
+   "https://ee.eng.swu.ac.th/th/people-academic-staff.html"
+  ]
+ },
+ {
+  "key": "swu_faculty_of_education_0",
+  "univ_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+  "univ_en": "Srinakharinwirot University",
+  "faculty_th": "คณะศึกษาศาสตร์",
+  "faculty_en": "Faculty of Education",
+  "urls": [
+   "https://edu.swu.ac.th/staff/%e0%b8%9c%e0%b8%b9%e0%b9%89%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%a2%e0%b8%a8%e0%b8%b2%e0%b8%aa%e0%b8%95%e0%b8%a3%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c-%e0%b8%94%e0%b8%a3-%e0%b8%a1%e0%b8%99/",
+   "https://edu.swu.ac.th/staff/%e0%b8%9c%e0%b8%b9%e0%b9%89%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%a2%e0%b8%a8%e0%b8%b2%e0%b8%aa%e0%b8%95%e0%b8%a3%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%b1/",
+   "https://edu.swu.ac.th/staff/%e0%b8%9c%e0%b8%b9%e0%b9%89%e0%b8%8a%e0%b9%88%e0%b8%a7%e0%b8%a2%e0%b8%a8%e0%b8%b2%e0%b8%aa%e0%b8%95%e0%b8%a3%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c-%e0%b8%a7%e0%b9%88%e0%b8%b2%e0%b8%97/",
+   "https://edu.swu.ac.th/staff/%e0%b8%a3%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%8a%e0%b8%a5%e0%b8%a7%e0%b8%b4%e0%b8%97%e0%b8%a2%e0%b9%8c-%e0%b9%80%e0%b8%88%e0%b8%b5%e0%b8%a2%e0%b8%a3%e0%b8%88%e0%b8%b4%e0%b8%95%e0%b8%95%e0%b9%8c/",
+   "https://edu.swu.ac.th/staff/%e0%b8%a3%e0%b8%ad%e0%b8%87%e0%b8%a8%e0%b8%b2%e0%b8%aa%e0%b8%95%e0%b8%a3%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c-%e0%b8%94%e0%b8%a3-%e0%b8%81%e0%b8%b4%e0%b8%95%e0%b8%95%e0%b8%b4-3/",
+   "https://edu.swu.ac.th/staff/%e0%b8%a3%e0%b8%ad%e0%b8%87%e0%b8%a8%e0%b8%b2%e0%b8%aa%e0%b8%95%e0%b8%a3%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c-%e0%b8%94%e0%b8%a3-%e0%b8%ad%e0%b8%b4%e0%b8%97%e0%b8%98%e0%b8%b4%e0%b8%9e/",
+   "https://edu.swu.ac.th/staff/%e0%b8%a8-%e0%b8%94%e0%b8%a3-%e0%b8%a1%e0%b8%b1%e0%b8%a5%e0%b8%a5%e0%b8%b4%e0%b8%81%e0%b8%b2-%e0%b9%80%e0%b8%a0%e0%b8%b2%e0%b8%9e%e0%b8%b4%e0%b8%88%e0%b8%b4%e0%b8%95%e0%b8%a3/",
+   "https://edu.swu.ac.th/staff/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c%e0%b8%aa%e0%b8%a1%e0%b8%9b%e0%b8%ad%e0%b8%87-%e0%b9%83%e0%b8%88%e0%b8%94%e0%b8%b5%e0%b9%80%e0%b8%89%e0%b8%a2-2/",
+   "https://edu.swu.ac.th/staff/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c-%e0%b8%94%e0%b8%a3-%e0%b8%81%e0%b8%b8%e0%b8%aa%e0%b8%b8%e0%b8%a1%e0%b8%b2-%e0%b9%81%e0%b8%a2%e0%b9%89%e0%b8%a1%e0%b9%80%e0%b8%81/",
+   "https://edu.swu.ac.th/staff/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c-%e0%b8%94%e0%b8%a3-%e0%b8%84%e0%b8%a3%e0%b8%a3%e0%b8%8a%e0%b8%b4%e0%b8%95-%e0%b9%81%e0%b8%aa%e0%b8%99%e0%b8%ad%e0%b8%b8%e0%b8%9a/",
+   "https://edu.swu.ac.th/staff/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c-%e0%b8%94%e0%b8%a3-%e0%b8%a7%e0%b8%b5%e0%b8%a3%e0%b8%a0%e0%b8%b1%e0%b8%97%e0%b8%a3%e0%b9%8c-%e0%b8%aa%e0%b8%b8%e0%b8%82%e0%b8%a8/",
+   "https://edu.swu.ac.th/staff/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c-%e0%b8%94%e0%b8%a3-%e0%b9%82%e0%b8%ad%e0%b8%a0%e0%b8%b2%e0%b8%aa-%e0%b8%aa%e0%b8%b8%e0%b8%82%e0%b8%ab%e0%b8%a7%e0%b8%b2%e0%b8%99/",
+   "https://edu.swu.ac.th/staff/%e0%b8%ad%e0%b8%b2%e0%b8%88%e0%b8%b2%e0%b8%a3%e0%b8%a2%e0%b9%8c-%e0%b8%a7%e0%b9%88%e0%b8%b2%e0%b8%97%e0%b8%b5%e0%b9%88%e0%b8%a3%e0%b9%89%e0%b8%ad%e0%b8%a2%e0%b9%82%e0%b8%97-%e0%b8%94%e0%b8%a3/",
+   "https://research.tsu.ac.th/researcher-detail.php?id=1172405"
+  ]
+ },
+ {
+  "key": "swu_college_of_social_communicatio_0",
+  "univ_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+  "univ_en": "Srinakharinwirot University",
+  "faculty_th": "วิทยาลัยนวัตกรรมสื่อสารสังคม",
+  "faculty_en": "College of Social Communication Innovation",
+  "urls": [
+   "http://cosci.swu.ac.th/faculties-and-staffs/cinema",
+   "http://cosci.swu.ac.th/faculties-and-staffs/inno",
+   "http://cosci.swu.ac.th/faculties-and-staffs/multicommucyber"
+  ]
+ },
+ {
+  "key": "swu_institute_of_nursing_0",
+  "univ_th": "มหาวิทยาลัยศรีนครินทรวิโรฒ",
+  "univ_en": "Srinakharinwirot University",
+  "faculty_th": "สำนักวิชาพยาบาลศาสตร์",
+  "faculty_en": "Institute of Nursing",
+  "urls": [
+   "http://nurse.sut.ac.th/about-us/personal/academic/"
+  ]
+ }
+]

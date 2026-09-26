@@ -8,8 +8,11 @@ import sys
 import time
 import uuid
 import json
+import re
 import argparse
 import urllib.request
+from html.parser import HTMLParser
+from urllib.parse import urljoin, urlparse, unquote, quote
 from typing import List, Optional, Tuple
 
 sys.stdout.reconfigure(encoding='utf-8')
@@ -42,6 +45,71 @@ STRICT EXTRACTION RULES:
 6. Output ONLY a valid JSON adhering to the `CourseStatePatch` schema.
 """
 
+# --follow-links: deterministic curriculum link discovery from raw HTML (no LLM involved)
+_LINK_KEYWORD_RE = re.compile(
+    r"(หลักสูตร|บัณฑิตศึกษา|ปริญญาโท|ปริญญาเอก|มหาบัณฑิต|ดุษฎีบัณฑิต|ปร\.ด\.|"
+    r"curricul|program|graduate|grad|master|doctor|degree|course)", re.I)
+_LINK_SKIP_RE = re.compile(
+    r"(\.(pdf|jpe?g|png|gif|docx?|xlsx?|pptx?|zip|rar|mp4)$|/news|/event|/activity|/gallery|"
+    r"ข่าว|กิจกรรม|login|facebook\.com|youtube\.com|line\.me|mailto:|tel:|javascript:)", re.I)
+MAX_LINKS_PER_PAGE = 15
+MIN_TEXT_CHARS = 200
+
+
+class _AnchorCollector(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.anchors: List[Tuple[str, str]] = []
+        self._href: Optional[str] = None
+        self._text: List[str] = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "a":
+            self._href = dict(attrs).get("href")
+            self._text = []
+
+    def handle_data(self, data):
+        if self._href is not None:
+            self._text.append(data)
+
+    def handle_endtag(self, tag):
+        if tag == "a" and self._href is not None:
+            self.anchors.append((self._href, " ".join("".join(self._text).split())))
+            self._href = None
+
+
+def _base_domain(host: str) -> str:
+    """'grad.swu.ac.th' -> 'swu.ac.th'; 'www.sut.ac.th' -> 'sut.ac.th'."""
+    parts = host.lower().split(".")
+    n = 3 if len(parts) >= 3 and parts[-2] in ("ac", "co", "or", "go") else 2
+    return ".".join(parts[-n:])
+
+
+def discover_curriculum_links(html_content: str, page_url: str, allowed_domains: set,
+                              keyword_re: Optional[re.Pattern] = None) -> List[str]:
+    """Same-university links whose URL or anchor text mentions a keyword (curriculum by default), best first."""
+    keyword_re = keyword_re or _LINK_KEYWORD_RE
+    collector = _AnchorCollector()
+    try:
+        collector.feed(html_content)
+    except Exception:
+        return []
+    scored = {}
+    for href, text in collector.anchors:
+        if not href or href.startswith("#"):
+            continue
+        url = urljoin(page_url, href.strip()).split("#")[0]
+        parsed = urlparse(url)
+        if parsed.scheme not in ("http", "https") or _base_domain(parsed.netloc) not in allowed_domains:
+            continue
+        haystack = f"{unquote(url)} {text}"
+        if _LINK_SKIP_RE.search(haystack):
+            continue
+        hits = len(keyword_re.findall(haystack))
+        if hits:
+            scored[url] = max(scored.get(url, 0), hits)
+    return [u for u, _ in sorted(scored.items(), key=lambda kv: -kv[1])][:MAX_LINKS_PER_PAGE]
+
 
 class CourseExtractionAgent:
     """Autonomous State-Driven Curriculum Discovery Agent."""
@@ -54,8 +122,11 @@ class CourseExtractionAgent:
         target_faculty_en: Optional[str] = None,
         session_id: Optional[str] = None,
         max_steps: int = 30,
-        checkpoint_dir: str = "data/agent_states"
+        checkpoint_dir: str = "data/agent_states",
+        follow_links: bool = False
     ):
+        self.follow_links = follow_links
+        self.allowed_domains: set = set()
         self.session_id = session_id or f"course_{int(time.time())}_{uuid.uuid4().hex[:6]}"
         self.state = CourseAgentState(
             session_id=self.session_id,
@@ -87,6 +158,7 @@ class CourseExtractionAgent:
 
     def add_seed_urls(self, urls: List[str]):
         for u in urls:
+            self.allowed_domains.add(_base_domain(urlparse(u).netloc))
             if u not in self.state.pending_urls and u not in self.state.visited_urls:
                 self.state.pending_urls.append(u)
 
@@ -140,9 +212,25 @@ CONTENT:
             print(f"[{self.state.step_count+1}/{self.max_steps}] Crawling: {current_url}")
 
             try:
-                req = urllib.request.Request(current_url, headers=headers)
+                # percent-encode Thai path segments; urllib rejects non-ASCII URLs
+                req = urllib.request.Request(quote(current_url, safe=":/?#[]@!$&'()*+,;=%~"), headers=headers)
                 with urllib.request.urlopen(req, timeout=15) as resp:
                     html_content = resp.read().decode("utf-8", errors="replace")
+
+                if self.follow_links:
+                    links = [u for u in discover_curriculum_links(html_content, current_url, self.allowed_domains)
+                             if u not in self.state.visited_urls and u not in self.state.failed_urls
+                             and u not in self.state.pending_urls and u != current_url]
+                    self.state.pending_urls.extend(links)
+                    if links:
+                        print(f"   -> Queued {len(links)} curriculum links")
+                    # skip the LLM on link-only hub pages (saves Gemini quota)
+                    if len(ContentPruner.prune_html(html_content, max_output_chars=20000).strip()) < MIN_TEXT_CHARS:
+                        self.state.visited_urls.append(current_url)
+                        self.state.step_count += 1
+                        print("   -> Thin page, LLM skipped")
+                        save_course_state_checkpoint(self.state, output_dir=self.checkpoint_dir)
+                        continue
 
                 patch = self.extract_patch_from_html(html_content, current_url=current_url)
                 self.state = self.reducer.apply_patch(self.state, patch)
@@ -176,6 +264,8 @@ def main():
     parser.add_argument("--url", action="append", help="Seed URL to crawl", default=[])
     parser.add_argument("--export-file", type=str, help="Python export path", default=None)
     parser.add_argument("--max-steps", type=int, default=15)
+    parser.add_argument("--follow-links", action="store_true",
+                        help="Queue same-university curriculum links found in page HTML")
 
     args = parser.parse_args()
 
@@ -184,7 +274,8 @@ def main():
         target_university_en=args.univ_en,
         target_faculty_th=args.faculty_th,
         target_faculty_en=args.faculty_en,
-        max_steps=args.max_steps
+        max_steps=args.max_steps,
+        follow_links=args.follow_links
     )
 
     if args.url:
