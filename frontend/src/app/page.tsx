@@ -77,6 +77,8 @@ function HomeContent() {
 
   // Selected Course Detail Modal State
   const [selectedCourseForDetail, setSelectedCourseForDetail] = useState<Course | null>(null);
+  // Course id whose full-detail upgrade failed — stops the modal spinner for it.
+  const [detailFailedId, setDetailFailedId] = useState<string | null>(null);
 
   // Egress guard: list/search endpoints return slim cards (no description/tags).
   // Open the modal instantly with the card, then upgrade to the full detail
@@ -96,13 +98,17 @@ function HomeContent() {
       courseDetailAbortRef.current = controller;
       try {
         const res = await fetch(`${API_BASE_URL}/courses/${course.id}`, { signal: controller.signal });
-        if (!res.ok) return;
+        if (!res.ok) {
+          setDetailFailedId(course.id);
+          return;
+        }
         const full = (await res.json()) as Course;
         courseDetailCache.put(course.id, full);
         setSelectedCourseForDetail((prev) => (prev && prev.id === course.id ? full : prev));
-      } catch {
+      } catch (err) {
         // Keep the slim card — the modal still renders without description/tags.
-        // (Also covers AbortError from a superseded open.)
+        // A superseded open (AbortError) is not a failure.
+        if (!(err instanceof Error && err.name === "AbortError")) setDetailFailedId(course.id);
       } finally {
         if (courseDetailAbortRef.current === controller) courseDetailAbortRef.current = null;
       }
@@ -120,6 +126,9 @@ function HomeContent() {
   const courseDetailAbortRef = useRef<AbortController | null>(null);
   const searchAbortRef = useRef<AbortController | null>(null);
   const initialDataAbortRef = useRef<AbortController | null>(null);
+  // Monotonic request id shared by the first-load fetch and executeSearch: only the
+  // latest request may write results or clear the loading state.
+  const searchSeqRef = useRef(0);
 
   useEffect(() => () => {
     courseDetailAbortRef.current?.abort();
@@ -163,18 +172,22 @@ function HomeContent() {
   async function fetchInitialData(signal?: AbortSignal) {
     if (initialTabLoadedRef.current !== null) return;
     initialTabLoadedRef.current = "courses";
+    // A search started before this default catalog returns bumps the seq; the late
+    // default response must then neither overwrite results nor stop its spinner.
+    const seq = ++searchSeqRef.current;
+    const isCurrent = () => seq === searchSeqRef.current;
     try {
       setLoading(true);
       const res = await fetch(`${API_BASE_URL}/courses/?limit=12`, { signal });
       if (res.ok) {
         const data = await res.json();
-        setCourses(Array.isArray(data) ? data : (data.results ?? []));
+        if (isCurrent()) setCourses(Array.isArray(data) ? data : (data.results ?? []));
       }
     } catch (err) {
       if (err instanceof Error && err.name === "AbortError") return;
       console.warn("Backend loading default catalog data error", err);
     } finally {
-      setLoading(false);
+      if (isCurrent()) setLoading(false);
     }
   };
 
@@ -238,7 +251,6 @@ function HomeContent() {
   // Stale-response guard: rapid tab/filter switches can let an older, slower
   // fetch resolve after a newer one. Each request stamps a sequence number and
   // only applies state while it is still the latest (perf audit 2026-09-10).
-  const searchSeqRef = useRef(0);
 
   const executeSearch = async (
     queryText?: string,
@@ -271,6 +283,7 @@ function HomeContent() {
     const seq = ++searchSeqRef.current;
     const isCurrent = () => seq === searchSeqRef.current;
     searchAbortRef.current?.abort();
+    initialDataAbortRef.current?.abort();
     const controller = new AbortController();
     searchAbortRef.current = controller;
 
@@ -332,6 +345,14 @@ function HomeContent() {
             const formatted = list.map((f: FacultyMember) => ({ faculty: f, match_score: 85 }));
             searchApiCache.put(cacheKey, formatted);
             if (isCurrent()) setAdvisors(formatted);
+          } else if (isCurrent()) {
+            setErrorMsg("ไม่สามารถโหลดรายชื่ออาจารย์ได้ กรุณาลองใหม่อีกครั้ง");
+          }
+        } else if (queryToUse.trim().length < 2) {
+          // Backend SearchRequest.query has min_length=2; avoid a 422 shown as a server error.
+          if (isCurrent()) {
+            setAdvisors([]);
+            setErrorMsg("กรุณาพิมพ์หัวข้อวิจัยอย่างน้อย 2 ตัวอักษร");
           }
         } else {
           const res = await fetch(`${API_BASE_URL}/search/`, {
@@ -373,6 +394,8 @@ function HomeContent() {
             const list = Array.isArray(data) ? data : (data.results ?? []);
             searchApiCache.put(cacheKey, list);
             if (isCurrent()) setLabs(list);
+          } else if (isCurrent()) {
+            setErrorMsg("ไม่สามารถโหลดรายการห้องปฏิบัติการได้ กรุณาลองใหม่อีกครั้ง");
           }
         } else {
           const res = await fetch(`${API_BASE_URL}/labs/search`, {
@@ -417,14 +440,12 @@ function HomeContent() {
   // Synchronize activeTab with URL search params (e.g. /?tab=advisors#search-results)
   useEffect(() => {
     const tabParam = searchParams.get("tab");
-    if (tabParam === "advisors" || tabParam === "labs") {
-      if (activeTab !== tabParam) {
+    if ((tabParam === "advisors" || tabParam === "labs" || tabParam === "courses") && activeTab !== tabParam) {
+      // Deferred like the bookmark hydration above: no synchronous setState in the effect body.
+      queueMicrotask(() => {
         setActiveTab(tabParam);
         executeSearch(searchQuery, selectedUni, selectedDegree, tabParam, true);
-      }
-    } else if (tabParam === "courses" && activeTab !== "courses") {
-      setActiveTab("courses");
-      executeSearch(searchQuery, selectedUni, selectedDegree, "courses", true);
+      });
     }
   }, [searchParams]);
 
@@ -782,6 +803,7 @@ function HomeContent() {
         onClose={() => setSelectedCourseForDetail(null)}
         isLoadingFullDetail={
           !!selectedCourseForDetail &&
+          detailFailedId !== selectedCourseForDetail.id &&
           (selectedCourseForDetail.description === undefined ||
             selectedCourseForDetail.tags === undefined)
         }

@@ -29,13 +29,16 @@ class RateLimiter:
     every `_sweep_every` mutations while the lock is already held.
     """
 
-    def __init__(self, requests_per_minute: int = 120):
+    def __init__(self, requests_per_minute: int = 120, max_tracked_ips: int = 50_000):
         self.rpm = requests_per_minute
         self.window = 60.0  # 60 seconds
         self.records: Dict[str, List[float]] = {}
         self.lock = threading.Lock()
         self._mutations_since_sweep = 0
         self._sweep_every = 512
+        # Hard cap on tracked IPs: the stale sweep only drops IPs idle > 60 s, so a
+        # flood of distinct IPs inside one window grew `records` without bound.
+        self._max_ips = max_tracked_ips
 
     def _sweep_stale_ips(self, now: float) -> None:
         cutoff = now - self.window
@@ -52,6 +55,12 @@ class RateLimiter:
                 self._sweep_stale_ips(now)
 
             if client_ip not in self.records:
+                if len(self.records) >= self._max_ips:
+                    self._sweep_stale_ips(now)
+                    # Still full: evict the oldest-inserted IPs (dict keeps insertion order)
+                    overflow = len(self.records) - self._max_ips + 1
+                    for ip in list(self.records)[:max(0, overflow)]:
+                        del self.records[ip]
                 self.records[client_ip] = [now]
                 return True, self.rpm - 1
 
@@ -80,8 +89,13 @@ PROMPT_INJECTION_PATTERNS = [
 
 # Sensitive PII Patterns (National ID, Credit Cards, Secrets)
 SENSITIVE_DATA_PATTERNS = [
-    re.compile(r"\b[1-9]\d{12}\b"),  # Thai 13-digit National ID pattern
-    re.compile(r"\b(?:\d{4}[-\s]?){3}\d{4}\b"),  # Credit card numbers
+    # \b treats Thai letters as \w, so it fails to bound digits that sit directly
+    # against Thai/Latin text with no space (e.g. "เลขบัตรประชาชน1234567890123ครับ").
+    # Use digit-only lookaround instead so the ID/card number can't be absorbed
+    # into a longer digit run while still matching next to any script.
+    # Thai 13-digit National ID, plain or in the printed 1-2345-67890-12-3 grouping
+    re.compile(r"(?<!\d)[1-9][-\s]?\d{4}[-\s]?\d{5}[-\s]?\d{2}[-\s]?\d(?!\d)"),
+    re.compile(r"(?<!\d)(?:\d{4}[-\s]?){3}\d{4}(?!\d)"),  # Credit card numbers
     re.compile(r"\bAIza[0-9A-Za-z-_]{35}\b"),  # Google API Keys
     re.compile(r"\bAQ\.[A-Za-z0-9_\-]{20,}\b"),  # Gemini API Keys
 ]
@@ -162,17 +176,22 @@ def _client_ip(request: Request) -> str:
     """
     Best-effort client IP.
 
-    ⚠️ Trust boundary (security audit 2026-09-10, B-2): X-Forwarded-For is
-    CLIENT-SUPPLIED and spoofable. Taking its left-most entry means an attacker
-    can rotate fake IPs to multiply their rate-limit buckets. This is tolerable
-    while every deployment sits behind a reverse proxy (Render/Railway/Nginx)
-    that OVERWRITES the header with its own chain. If this service is ever
-    exposed directly to the internet, trust the socket peer only — or parse the
-    LAST (proxy-appended) entry instead.
+    Trust boundary (fixed 2026-09-26): the gateway's nginx uses
+    $proxy_add_x_forwarded_for, which APPENDS to a client-supplied header, so the
+    left-most X-Forwarded-For entry is attacker-controlled — rotating it gave a
+    fresh rate-limit bucket per request. Resolution order now:
+    1. X-Real-IP — nginx overwrites it with $remote_addr (not spoofable via gateway).
+    2. Right-most X-Forwarded-For entry — appended by the nearest proxy.
+    3. Socket peer.
     """
+    real_ip = (request.headers.get("X-Real-IP") or "").strip()
+    if real_ip:
+        return real_ip
     forwarded_for = request.headers.get("X-Forwarded-For")
     if forwarded_for:
-        return forwarded_for.split(",")[0].strip()
+        last = forwarded_for.split(",")[-1].strip()
+        if last:
+            return last
     return request.client.host if request.client else "127.0.0.1"
 
 

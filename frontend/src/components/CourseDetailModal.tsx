@@ -277,7 +277,7 @@ export const CourseDetailModal: React.FC<CourseDetailModalProps> = ({
               </a>
             ) : (
               <button
-                onClick={() => window.open(googleSearchUrl, "_blank")}
+                onClick={() => window.open(googleSearchUrl, "_blank", "noopener,noreferrer")}
                 className="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-[var(--theme-primary)] hover:bg-[var(--theme-primary-hover)] text-[var(--theme-primary-contrast)] text-xs sm:text-sm font-bold flex items-center justify-center gap-2 transition cursor-pointer"
               >
                 <span>ค้นหาเว็บไซต์ทางการ</span>

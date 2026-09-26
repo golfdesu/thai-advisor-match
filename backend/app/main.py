@@ -57,6 +57,8 @@ app.add_middleware(
         "/api/v1/career-quiz/analyze": RateLimiter(requests_per_minute=15),  # LLM generation
         "/api/v1/labs/inquiry": RateLimiter(requests_per_minute=15),         # LLM generation
         "/api/v1/search/": RateLimiter(requests_per_minute=40),              # embedding call per query
+        "/api/v1/courses/search": RateLimiter(requests_per_minute=40),       # embedding call per query
+        "/api/v1/labs/search": RateLimiter(requests_per_minute=40),          # embedding call per query
     },
 )
 
@@ -78,7 +80,12 @@ ALLOWED_ORIGINS = [
 app.add_middleware(
     CORSMiddleware,
     allow_origins=ALLOWED_ORIGINS,
-    allow_origin_regex=r"^https?://([a-zA-Z0-9-]+\.)?localhost(:[0-9]+)?$|^https://.*\.vercel\.app$|^https://.*\.render\.com$",
+    # Security fix (2026-09-26): the old regex also matched any *.vercel.app / *.render.com
+    # subdomain. Those are shared PaaS domains anyone can register a project on, so combined
+    # with allow_credentials=True it let an attacker-registered subdomain make credentialed
+    # cross-origin requests. Only localhost variants are wildcarded now — add the exact
+    # production origin(s) to ALLOWED_ORIGINS above once deployed.
+    allow_origin_regex=r"^https?://([a-zA-Z0-9-]+\.)?localhost(:[0-9]+)?$",
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["Content-Type", "Authorization", "X-Requested-With", "Accept"],

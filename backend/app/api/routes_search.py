@@ -43,7 +43,10 @@ def get_grad_program_keys(db: Session) -> Set[Tuple[str, str]]:
             (_norm_affil_key(u), _norm_affil_key(f)) for u, f in rows if f and f.strip()
         }
     except Exception:
-        _GRAD_PROGRAM_KEYS = set()
+        # Transient failure: clear the aborted transaction and don't cache the
+        # empty set, otherwise the grad bonus stays disabled until restart.
+        db.rollback()
+        return set()
     return _GRAD_PROGRAM_KEYS
 
 
@@ -462,6 +465,7 @@ def search_and_match_advisors(request: SearchRequest, db: Session = Depends(get_
 
         except Exception as e:
             print(f"Vector search failed, using smart keyword fallback: {e}")
+            db.rollback()  # aborted transaction would make the fallback fail too
             ranked_results = keyword_fallback_search(request.query, query_db, request.top_k)
     else:
         # Fallback if Gemini vector embedding is rate-limited or unavailable

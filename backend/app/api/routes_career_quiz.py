@@ -37,10 +37,11 @@ def _call_gemini_with_retry(prompt: str, max_retries: int = 3):
     for model_name in models_to_try:
         for attempt in range(max_retries):
             try:
-                client = embedding_service._get_client()
-                if not client:
+                key = embedding_service._current_key()
+                if not key:
                     logger.error("No Gemini API key available")
                     return None
+                client = embedding_service._get_client(key)
 
                 config_args = {
                     "response_mime_type": "application/json",

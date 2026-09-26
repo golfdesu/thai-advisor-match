@@ -200,6 +200,15 @@ def _resolve_lead_advisors_batch(db_labs: List[ResearchLabDB], db: Session) -> d
     return {f.id: _faculty_card_to_member(f) for f in fac_dbs}
 
 
+# jsonb_array_elements_text raises on non-array JSON (e.g. a JSON 'null' written by
+# SQLAlchemy for None), so the typeof guard keeps one malformed row from 500-ing
+# every domain-filtered request. CASE forces the guard to evaluate first.
+_DOMAIN_FILTER_SQL = (
+    "CASE WHEN jsonb_typeof(research_domains::jsonb) = 'array' THEN EXISTS ("
+    "SELECT 1 FROM jsonb_array_elements_text(research_domains::jsonb) elem "
+    "WHERE elem ILIKE :domain_pattern) ELSE FALSE END"
+)
+
 @router.get("/", response_model=List[ResearchLab])
 def list_labs(
     university: Optional[str] = Query(None, description="Filter by university name"),
@@ -236,6 +245,11 @@ def list_labs(
             ResearchLabDB.name_en.ilike(f"%{s_clean}%"),
             ResearchLabDB.description.ilike(f"%{s_clean}%")
         ))
+    if domain and domain.strip() and domain.strip().lower() != "all":
+        # research_domains is a JSON column (plain list), not a Postgres ARRAY,
+        # so ARRAY.any() isn't available — unnest via jsonb_array_elements_text
+        # instead. Bound param keeps this injection-safe despite the raw text().
+        query = query.filter(text(_DOMAIN_FILTER_SQL)).params(domain_pattern=f"%{domain.strip()}%")
 
     db_labs = query.limit(limit).all()
     advisor_map = _resolve_lead_advisors_batch(db_labs, db)
@@ -258,7 +272,7 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
     query_text = (req.query or "").strip()
 
     if not query_text:
-        labs = list_labs(university=req.university, faculty=req.faculty, domain=req.domain, region=req.region, limit=req.top_k, db=db)
+        labs = list_labs(university=req.university, faculty=req.faculty, domain=req.domain, region=req.region, search=None, limit=req.top_k, db=db)
         return LabSearchResponse(query="", total_matched=len(labs), results=labs)
 
     # 1. Generate query embedding
@@ -283,6 +297,9 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
             if req.faculty and req.faculty.strip() and req.faculty.strip().lower() != "all":
                 filters.append("(faculty ILIKE :f_pat OR faculty_th ILIKE :f_pat)")
                 params["f_pat"] = f"%{req.faculty.strip()}%"
+            if req.domain and req.domain.strip() and req.domain.strip().lower() != "all":
+                filters.append(f"({_DOMAIN_FILTER_SQL})")
+                params["domain_pattern"] = f"%{req.domain.strip()}%"
 
             where_clause = f"WHERE {' AND '.join(filters)}" if filters else ""
 
@@ -318,6 +335,9 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
                 return LabSearchResponse(query=query_text, total_matched=len(results), results=results)
         except Exception as e:
             print("Lab vector search fallback error:", e)
+            # A failed statement aborts the transaction; without rollback the
+            # lexical fallback below fails with InFailedSqlTransaction.
+            db.rollback()
 
     # Lexical fallback
     search_pattern = f"%{query_text}%"
@@ -344,6 +364,8 @@ def search_labs(req: LabSearchRequest, db: Session = Depends(get_db)):
             ResearchLabDB.faculty.ilike(f"%{f_clean}%"),
             ResearchLabDB.faculty_th.ilike(f"%{f_clean}%")
         ))
+    if req.domain and req.domain.strip() and req.domain.strip().lower() != "all":
+        lex_query = lex_query.filter(text(_DOMAIN_FILTER_SQL)).params(domain_pattern=f"%{req.domain.strip()}%")
 
     db_labs = lex_query.limit(req.top_k).all()
     fac_map = _resolve_labs_faculty_map(db_labs, db)

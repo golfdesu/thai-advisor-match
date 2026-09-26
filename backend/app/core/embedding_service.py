@@ -383,7 +383,13 @@ class EmbeddingService:
             # Wait up to remaining budget, then return whatever leader stored
             remaining = max(0.0, deadline - time.monotonic())
             follower_evt.wait(timeout=remaining)
-            return self._inflight_results.get(clean_text, [])
+            # Successful leaders also populate the LRU, so check it first; the
+            # in-flight holder only bridges the gap until the leader cleans up.
+            cached_vec = self._embedding_cache.get(clean_text)
+            if cached_vec is not None:
+                return cached_vec
+            with self._inflight_lock:
+                return self._inflight_results.get(clean_text, [])
 
         # Leader: perform the actual embedding then wake all followers
         result: List[float] = []
@@ -397,6 +403,11 @@ class EmbeddingService:
             # Signal followers *after* releasing the lock so they can read results
             assert leader_evt is not None
             leader_evt.set()
+            # Drop the hand-off entry: it was never evicted and leaked ~25 KB per
+            # unique query. Followers read the bounded LRU cache instead.
+            with self._inflight_lock:
+                if self._inflight.get(clean_text) is None:
+                    self._inflight_results.pop(clean_text, None)
 
         return result
 

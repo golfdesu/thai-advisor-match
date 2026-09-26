@@ -74,7 +74,19 @@ TH_SLANG_MAP = {
     "it": "เทคโนโลยีสารสนเทศ"
 }
 
-_SORTED_SLANG_KEYS = sorted([k for k in TH_SLANG_MAP.keys() if k != "it"], key=len, reverse=True)
+# Formal terms that contain a slang key as a prefix but must stay untouched
+# (e.g. "วิทยา" in "วิทยาการคอมพิวเตอร์" must not become "วิทยาศาสตร์การ...").
+_PROTECTED_TERMS = (
+    "วิทยาการ", "วิทยาลัย", "วิทยานิพนธ์", "วิทยาเขต", "ศึกษาทั่วไป",
+    "แพทย์แผนไทย", "แพทย์แผนจีน", "บริหารธุรกิจ",
+)
+# Canonical values and protected terms are identity alternatives; with longest-first
+# ordering an already-expanded word (e.g. "นิติศาสตร์") matches itself instead of its
+# slang prefix, so normalization is idempotent (no "นิติศาสตร์ศาสตร์").
+_SORTED_SLANG_KEYS = sorted(
+    {k for k in TH_SLANG_MAP.keys() if k != "it"} | set(TH_SLANG_MAP.values()) | set(_PROTECTED_TERMS),
+    key=len, reverse=True,
+)
 _SLANG_REGEX = re.compile("|".join(re.escape(k) for k in _SORTED_SLANG_KEYS))
 # DSA audit 2026-09-10 (#7): precompiled alongside _SLANG_REGEX (AGENTS.md §5.3).
 _IT_WORD_RE = re.compile(r"\b[iI][tT]\b")
