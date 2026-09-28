@@ -70,3 +70,7 @@ backend/data/*.txt
 backend/data/agent_states/*.txt
 backend/data/agent_states/*.json
 
+
+# Local pg_dump backups (large, machine-specific)
+backend/data/backups/
+*.dump
