@@ -38,7 +38,7 @@ if hasattr(sys.stdout, "reconfigure"):
 import psycopg2
 import psycopg2.extras
 
-DSN = "postgresql://postgres:postgres@localhost:5432/advisor_match"
+DSN = os.getenv("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/advisor_match")
 
 LIST_FIELDS = ["research_interests", "featured_publications", "education", "taught_courses"]
 SCALAR_FIELDS = [
@@ -46,10 +46,11 @@ SCALAR_FIELDS = [
     "academic_title_th", "first_name", "last_name", "role",
     "department", "department_th", "faculty", "faculty_th",
     "embedding_text", "university", "full_name_th",
-    # research metrics & identity — first-non-null: same person, kept row inherits
-    # the donor's enrichment (without these, deleting an h-index donor loses the metric)
-    "h_index", "total_citations", "openalex_id",
+    # identity — first-non-null: kept row inherits the donor's OpenAlex link
+    "openalex_id",
 ]
+# lifetime author metrics — keep max() across the group (AGENTS.md invariant 10)
+MAX_FIELDS = ["h_index", "total_citations"]
 # rank signal for choosing the canonical row: richer profile wins
 RICHNESS_LEN_FIELDS = ["research_interests", "featured_publications", "education"]
 
@@ -219,6 +220,12 @@ def execute_merge(cur, plan, rebuild_embeddings: bool) -> None:
                         updates.append(f"{f} = %s")
                         params.append(d[f])
                         break
+
+        for f in MAX_FIELDS:
+            best = max((r.get(f) or 0) for r in [keep] + donors)
+            if best > (keep.get(f) or 0):
+                updates.append(f"{f} = %s")
+                params.append(best)
 
         # openalex_id special case: a kept 'not_indexed' sentinel (truthy) must not
         # block a donor's REAL id — prefer the real one.

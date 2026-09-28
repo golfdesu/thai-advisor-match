@@ -3,6 +3,18 @@ services:
     image: pgvector/pgvector:pg17
     container_name: thai_educenter_db
     restart: unless-stopped
+    # Defaults (128MB shared_buffers) can't hold the faculties HNSW + hot heap,
+    # so cold search/taxonomy queries hit disk (0.4-1.1 s first request).
+    command:
+      - postgres
+      - -c
+      - shared_buffers=512MB
+      - -c
+      - effective_cache_size=2GB
+      - -c
+      - work_mem=16MB
+      - -c
+      - maintenance_work_mem=256MB
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
@@ -26,13 +38,18 @@ services:
       dockerfile: Dockerfile
     container_name: thai_educenter_backend
     restart: unless-stopped
+    # API keys (GEMINI_API_KEYS, SERPAPI_KEYS, ...) live in backend/.env.
+    # Without this, the container ran with zero Gemini keys and every search
+    # silently fell back to keyword matching. Values under `environment:`
+    # below override env_file (e.g. DATABASE_URL must point at `db`, not localhost).
+    env_file:
+      - path: ./backend/.env
+        required: false
     environment:
       DATABASE_URL: postgresql://postgres:postgres@db:5432/advisor_match
       HOST: 0.0.0.0
       PORT: 8000
       DEBUG: "true"
-      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
-      SERPAPI_KEY: ${SERPAPI_KEY:-}
     expose:
       - "8000"
     depends_on:

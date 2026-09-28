@@ -1,5 +1,32 @@
 # Changelog
 
+## 2026-09-28 (Database Audit Fixes: Zero Vectors, PDPA, Orphans, Faculty Duplicates)
+- **Backup before changes:** `backend/data/backups/pre_audit_fix_20260928.dump` (`pg_dump -Fc` of `faculties`, `courses`, `research_labs`).
+- **Zero-vector re-embedding (`backend/scripts/enrichment/reembed_zero_vectors.py`, new):** 8,510 faculties and 47 courses stored the `[0.0]*768` circuit-breaker placeholder. These rows get NaN cosine distance, so semantic search never returned them, while the old audit (`IS NULL`) passed.
+  - The script re-embeds with `gemini-embedding-2` at 768 dims. It sends one `Content` per text (a bare `list[str]` returned a single combined vector), retries 429s with per-key cooldown, and checkpoints to `agent_states/reembed_zero_vectors.json`.
+  - 4,585 faculties re-embedded. **3,925 faculties and 47 courses remain**: all 6 keys hit `EmbedContentRequestsPerDayPerUserPerProjectPerModel-FreeTier`. Rerun the script after the quota resets; it resumes from the checkpoint.
+- **PDPA:** Removed `+66` phone numbers from `embedding_text` in 12 faculty rows and `featured_publications` in 1 row, and queued those rows for re-embedding. Set 44 personal emails (gmail/hotmail/yahoo/naver) to NULL.
+- **Orphan lab members:** Removed 3 references to deleted faculty IDs from `research_labs.member_faculty_ids` (`ku_genomics_bioeconomy_center`, `ku_autonomous_agri_drone_lab`, `cmu_atmospheric_pm25_center`).
+- **Faculty duplicates (`merge_duplicate_faculties.py`):** Merged 10 same-university groups sharing an OpenAlex ID and 4 same-name groups (`--by-name`, embeddings rebuilt). Faculties went from 29,994 to 29,980.
+  - The script now keeps `max(h_index)` and `max(total_citations)` across a group instead of first-non-null (AGENTS.md invariant 10).
+  - It reads `DATABASE_URL` from the environment, falling back to the previous localhost DSN.
+- **Audit (`audit_zero_defect_verification.py`):** Added checks 7 and 8, zero-vector faculties and courses (`vector_norm(embedding) = 0`).
+- **Course duplicates (not changed):** 32 groups (64 rows) share the same university, title and degree level. 28 are Chulalongkorn rows under two ID styles; 3 are Mahidol rows under different faculties; 1 is at Suranaree. They are waiting for review before any deletion.
+- **Verification:**
+  - Checks 1-6 pass. Checks 7 and 8 fail (3,925 and 47) until re-embedding finishes.
+  - Extended checks return 0 for phone numbers, personal emails, orphan lab members, and same-university duplicate OpenAlex IDs.
+  - Spot check: a re-embedded row (`ubu_w49_0280_839`) ranks in the top 5 of a nearest-neighbour search on its own vector.
+
+## 2026-09-28 (Performance Bottleneck Fixes: Docker Semantic Search, Table Bloat, PG Memory)
+- **Semantic search restored in Docker (`compose.yaml`):** The backend container ran with 0 Gemini keys because `GEMINI_API_KEY: ${GEMINI_API_KEY:-}` read a non-existent root `.env` and `.dockerignore` excludes `backend/.env` from the image. Every `/search/`, `/courses/search`, and `/labs/search` request silently used keyword fallback (e.g. flat 48% scores for Thai queries). The backend service now loads `backend/.env` through `env_file`. `DATABASE_URL`/`HOST`/`PORT`/`DEBUG` are still overridden in `environment:` so the service reaches `db:5432`.
+- **`faculties` table bloat removed:** `pgstattuple` showed 90.5% free space (490 MB heap for 29,994 rows). Ran `VACUUM (FULL, ANALYZE) faculties` and `ANALYZE` on all tables: heap is now 49 MB and total table size went from 1,925 MB to 307 MB. Planner statistics had been missing since crash recovery (`last_analyze` was NULL on every table).
+- **PostgreSQL memory tuning (`compose.yaml` db `command`):** `shared_buffers=512MB`, `effective_cache_size=2GB`, `work_mem=16MB`, `maintenance_work_mem=256MB` (previously image defaults of 128MB/4MB).
+- **Verification (via gateway :8082):**
+  - Cold-start after restart: `/taxonomy/regions` 1,120 ms -> 52 ms, `/taxonomy/universities` 396 ms -> 22 ms, `/universities/signature-programs` 366 ms -> 197 ms.
+  - Search now uses the pgvector HNSW path with 768-dim embeddings. The first query of new text costs 0.5-0.8 s (Gemini embedding call). Repeats served from the LRU cache take 9-69 ms.
+  - Thai query "ปัญญาประดิษฐ์ทางการแพทย์" now ranks AI/medical-AI faculty at the top instead of returning identical 48% fallback scores.
+- **Known limitation:** Search latency for uncached queries is bounded by the Gemini embedding round-trip, and the in-memory embedding cache resets on backend restart.
+
 ## 2026-09-26 (Phase 6 Wave 2 Profile Field Enrichment & Zero-Defect Verification)
 - **Phase 6 Wave 2 — Faculty Profile Field Enrichment (`profile_enrich_runner.py` & `ingest_phase6_profile_fields.py`):**
   - Processed 4,047 faculty personal profile pages across 18 university domains using 8 parallel worker threads and 6 rotating Gemini API keys.

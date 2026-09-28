@@ -26,6 +26,11 @@ def run_audit():
 
         null_embs = db.execute(text("SELECT count(*) FROM faculties WHERE embedding IS NULL")).scalar()
 
+        # [0.0]*768 circuit-breaker placeholders pass IS NULL but give NaN cosine
+        # distance, so these rows never surface in semantic search.
+        zero_fac = db.execute(text("SELECT count(*) FROM faculties WHERE vector_norm(embedding) = 0")).scalar()
+        zero_crs = db.execute(text("SELECT count(*) FROM courses WHERE vector_norm(embedding) = 0")).scalar()
+
         invalid_labs = db.execute(text("""
             SELECT count(*)
             FROM research_labs r
@@ -75,11 +80,13 @@ def run_audit():
         print(f"4. Credential Suffix Leaks   : {suffix_leaks} (0 expected) -> {'PASS' if suffix_leaks == 0 else 'FAIL'}")
         print(f"5. Thai Characters in EN     : {thai_in_en} (0 expected) -> {'PASS' if thai_in_en == 0 else 'FAIL'}")
         print(f"6. Missing Surnames          : {null_ln} (0 expected) -> {'PASS' if null_ln == 0 else 'FAIL'}")
+        print(f"7. Zero-Vector Faculties     : {zero_fac} (0 expected) -> {'PASS' if zero_fac == 0 else 'FAIL'}")
+        print(f"8. Zero-Vector Courses       : {zero_crs} (0 expected) -> {'PASS' if zero_crs == 0 else 'FAIL'}")
         print("==================================================")
 
-        all_passed = all(x == 0 for x in [null_embs, invalid_labs, dup_emails, suffix_leaks, thai_in_en, null_ln])
+        all_passed = all(x == 0 for x in [null_embs, invalid_labs, dup_emails, suffix_leaks, thai_in_en, null_ln, zero_fac, zero_crs])
         if all_passed:
-            print("STATUS: ALL 6 AUDIT CRITERIA PASSED WITH ZERO DEFECTS.")
+            print("STATUS: ALL 8 AUDIT CRITERIA PASSED WITH ZERO DEFECTS.")
         else:
             print("STATUS: DEFECTS DETECTED.")
             sys.exit(1)
