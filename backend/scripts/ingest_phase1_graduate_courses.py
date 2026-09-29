@@ -1,15 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Ingest Phase 4 Graduate Courses (โท/เอก) for High-Impact / Under-Represented Institutions:
-  1. Rangsit University (RSU - มหาวิทยาลัยรังสิต)
-  2. Rajamangala University of Technology Thanyaburi (RMUTT - มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี)
-  3. Sripatum University (SPU - มหาวิทยาลัยศรีปทุม)
-  4. National Institute of Development Administration (NIDA - สถาบันบัณฑิตพัฒนบริหารศาสตร์: คณะสถิติประยุกต์)
+Ingest Phase 1 Graduate Courses (โท/เอก) for 5 Top Missing Universities:
+  1. Walailak University (WU - มหาวิทยาลัยวลัยลักษณ์)
+  2. Thaksin University (TSU - มหาวิทยาลัยทักษิณ)
+  3. Srinakharinwirot University (SWU - มหาวิทยาลัยศรีนครินทรวิโรฒ)
+  4. University of Phayao (UP - มหาวิทยาลัยพะเยา)
+  5. Suranaree University of Technology (SUT - มหาวิทยาลัยเทคโนโลยีสุรนารี)
 
 Features:
 - Academic major extraction and clean_major normalization.
 - RapidFuzz >= 88 major-level deduplication against existing database courses and within batch.
-- High-precision faculty/school attribution matching the faculties table.
+- High-quality faculty attribution and degree title normalization.
 - 768-dimensional Gemini vector embedding generation via embedding_service.
 - Non-blocking circuit breaker with retry and graceful degradation.
 - Atomic batch commit to local PostgreSQL (courses table).
@@ -20,7 +21,6 @@ import re
 import json
 import logging
 import time
-from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from rapidfuzz import fuzz
 
@@ -35,51 +35,96 @@ from app.models.db_models import CourseDB
 from app.core.embedding_service import embedding_service
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("ingest_phase4")
+logger = logging.getLogger("ingest_phase1")
 
-RAW_DATA_PATH = os.path.join(BACKEND_DIR, "data", "agent_states", "phase4_courses_raw.json")
+RAW_DATA_PATH = os.path.join(BACKEND_DIR, "data", "agent_states", "phase1_courses_raw.json")
+
+# Faculty mapping normalizations for SWU and UP
+SWU_FACULTY_RULES = [
+    (r"นิติศาสตร|นโยบาย|การฑูต|การท่องเที่ยว", "คณะสังคมศาสตร์", "Faculty of Social Sciences"),
+    (r"จิตวิทยา|พฤติกรรมศาสตร์|ความต้องการพิเศษ|การศึกษา|การสอน|กศ\.|การเรียนรู้", "คณะศึกษาศาสตร์", "Faculty of Education"),
+    (r"ออกแบบเพื่อธุรกิจ|แฟชั่น|แบรนด์สร้างสรรค์|อุตสาหกรรมสร้างสรรค์", "วิทยาลัยอุตสาหกรรมสร้างสรรค์", "College of Creative Industry"),
+    (r"ดุริยางคศาสตร์|ศิลปวัฒนธรรม|ทัศนศิลป์", "คณะศิลปกรรมศาสตร์", "Faculty of Fine Arts"),
+    (r"เศรษฐศาสตร์|บริหารธุรกิจ", "คณะบริหารธุรกิจเพื่อสังคม", "Faculty of Business Administration for Society"),
+    (r"กีฬา|นันทนาการ|พลศึกษา", "คณะศึกษาศาสตร์", "Faculty of Education"),
+    (r"ส่งเสริมสุขภาพ|กายภาพบำบัด", "คณะกายภาพบำบัด", "Faculty of Physical Therapy"),
+    (r"เคมี|ฟิสิกส์|ชีว|คณิต|วิทยาศาสตร์|วัสดุ", "คณะวิทยาศาสตร์", "Faculty of Science"),
+    (r"วิศวกรรม", "คณะวิศวกรรมศาสตร์", "Faculty of Engineering"),
+    (r"พยาบาล", "คณะพยาบาลศาสตร์", "Faculty of Nursing"),
+    (r"แพทย์|ตจวิทยา", "คณะแพทยศาสตร์", "Faculty of Medicine"),
+    (r"ทันต", "คณะทันตแพทยศาสตร์", "Faculty of Dentistry"),
+    (r"เภสัช", "คณะเภสัชศาสตร์", "Faculty of Pharmacy"),
+    (r"สื่อ|ภาพยนตร์", "วิทยาลัยนวัตกรรมสื่อสารสังคม", "College of Social Communication Innovation"),
+    (r"เกษตร|อาหาร", "คณะเทคโนโลยีและนวัตกรรมผลิตภัณฑ์การเกษตร", "Faculty of Agricultural Product Innovation and Technology"),
+]
+
+UP_FACULTY_RULES = [
+    (r"บริหารธุรกิจ|การจัดการ|การท่องเที่ยว|นิเทศ", "คณะบริหารธุรกิจและนิเทศศาสตร์", "School of Business and Communication Arts"),
+    (r"การศึกษา|การบริหารการศึกษา|หลักสูตรและการสอน", "วิทยาลัยการศึกษา", "School of Education"),
+    (r"สถาปัตยกรรม|ศิลปกรรม", "คณะสถาปัตยกรรมศาสตร์และศิลปกรรมศาสตร์", "School of Architecture and Fine Arts"),
+]
 
 UNI_CODE_MAP = {
-    "มหาวิทยาลัยรังสิต": "rsu",
-    "มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี": "rmutt",
-    "มหาวิทยาลัยศรีปทุม": "spu",
-    "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)": "nida",
+    "มหาวิทยาลัยวลัยลักษณ์": "wu",
+    "มหาวิทยาลัยทักษิณ": "tsu",
+    "มหาวิทยาลัยศรีนครินทรวิโรฒ": "swu",
+    "มหาวิทยาลัยพะเยา": "up",
+    "มหาวิทยาลัยเทคโนโลยีสุรนารี": "sut"
 }
 
-def clean_major(t: str) -> str:
+def clean_major(t):
     if not t:
         return ""
     m = re.search(r"สาขาวิชา(.*?)$", t)
     maj = m.group(1).strip() if m else t
     maj = re.sub(r"\(.*?\)", "", maj)
-    maj = re.sub(r"(แบบ\s*[ก-ฮ0-9\.]+|แผน\s*[ก-ฮ0-9\.]+|ภาคปกติ|ภาคพิเศษ|นานาชาติ|โครงการพิเศษ|หลักสูตรปรับปรุง.*?|หลักสูตรใหม่.*?)", "", maj).strip()
+    maj = re.sub(r"(แบบ\s*[ก-ฮ0-9\.]+|แผน\s*[ก-ฮ0-9\.]+|ภาคปกติ|ภาคพิเศษ|นานาชาติ|โครงการพิเศษ)", "", maj).strip()
     return re.sub(r"\s+", " ", maj)
 
-def clean_course_item(c: dict) -> dict:
+def clean_course_item(c):
     title = (c.get("title_th") or "").strip()
     title = re.sub(r"\s+", " ", title)
 
-    # Filter out empty or header artifacts
-    if not title or title in ("หลักสูตร/สาขาวิชา", "สาขาวิชา", "หลักสูตร", "Courses", "หลักสูตรที่เปิดสอน") or title.endswith(" สาขาวิชา"):
-        return None
-    if "ที่เปิดสอน" in title or re.match(r"^Ph\.?D\.?", title, re.IGNORECASE) or len(title) < 8:
-        return None
+    # Filter out header artifacts
+    if not title or title in ("หลักสูตร/สาขาวิชา", "สาขาวิชา") or title.endswith(" สาขาวิชา"):
+        if title == "หลักสูตรบริหารธุรกิจมหาบัณฑิต สาขาวิชา":
+            title = "หลักสูตรบริหารธุรกิจมหาบัณฑิต สาขาวิชาบริหารธุรกิจ"
+        else:
+            return None
+
+    # Normalize duplicate or redundant major strings
+    title = re.sub(r"สาขาวิชานิติศาสตรมหาบัณฑิต", "สาขาวิชานิติศาสตร์", title)
+    title = re.sub(r"สาขาวิชานิติศาสตรดุษฎีบัณฑิต", "สาขาวิชานิติศาสตร์", title)
+    title = re.sub(r"\s*\(ห้องเรียนวิทยาเขต.*?\)", "", title)
+    title = title.strip()
 
     c["title_th"] = title
+    u = c.get("university_th", "")
+
+    # SWU Faculty refinement
+    if u == "มหาวิทยาลัยศรีนครินทรวิโรฒ" and c.get("faculty_th") == "บัณฑิตวิทยาลัย":
+        for pat, fac_th, fac_en in SWU_FACULTY_RULES:
+            if re.search(pat, title):
+                c["faculty_th"] = fac_th
+                c["faculty"] = fac_en
+                break
+
+    # UP Faculty refinement
+    if u == "มหาวิทยาลัยพะเยา":
+        for pat, fac_th, fac_en in UP_FACULTY_RULES:
+            if re.search(pat, title):
+                c["faculty_th"] = fac_th
+                c["faculty"] = fac_en
+                break
 
     # Normalize duration
     dur = (c.get("duration_years") or "").strip()
-    if dur in ("4 ปี", "", "-", "ไม่มี", "1 ปี"):
-        c["duration_years"] = "2 ปี" if c.get("degree_level") in ("ปริญญาโท", "ประกาศนียบัตรบัณฑิต") else "3 ปี"
-
-    # Normalize degree name
-    deg_lvl = c.get("degree_level", "ปริญญาโท")
-    if not c.get("degree_name"):
-        c["degree_name"] = "ปร.ด." if deg_lvl == "ปริญญาเอก" else "มหาบัณฑิต"
+    if dur in ("4 ปี", "", "-"):
+        c["duration_years"] = "2 ปี" if c.get("degree_level") == "ปริญญาโท" else "3 ปี"
 
     return c
 
-def build_embedding_text(c: dict) -> str:
+def build_embedding_text(c):
     hl = ", ".join(c.get("curriculum_highlights") or [])
     cp = ", ".join(c.get("career_paths") or [])
     tg = ", ".join(c.get("tags") or [])
@@ -94,7 +139,7 @@ def build_embedding_text(c: dict) -> str:
     )
 
 def main(dry_run=False):
-    logger.info(f"=== Starting Phase 4 Graduate Course Ingestion (Dry Run: {dry_run}) ===")
+    logger.info(f"=== Starting Phase 1 Graduate Course Ingestion (Dry Run: {dry_run}) ===")
 
     if not os.path.exists(RAW_DATA_PATH):
         logger.error(f"Raw data file not found: {RAW_DATA_PATH}")
@@ -140,13 +185,12 @@ def main(dry_run=False):
             f = c["faculty_th"]
             maj = clean_major(t)
 
-            if not maj or len(maj) < 2:
+            if not maj:
                 continue
 
             # Exact DB check (by full title or clean major)
             if (t, u, d) in existing_set or (maj, u, d) in existing_set:
                 skipped_exact += 1
-                logger.info(f"SKIP DB exact-dup: '{t}' ({u})")
                 continue
 
             # Fuzzy DB check
@@ -156,7 +200,7 @@ def main(dry_run=False):
                     ratio = fuzz.token_sort_ratio(maj, ex_maj)
                     if ratio >= 88:
                         fuzzy_dup = True
-                        logger.info(f"SKIP DB fuzzy-dup ({ratio:.1f}%): '{t}' matches existing '{ex_maj}'")
+                        logger.info(f"SKIP DB fuzzy-dup ({ratio}%): '{t}' (major: '{maj}') matches existing '{ex_maj}'")
                         break
             if fuzzy_dup:
                 skipped_fuzzy_db += 1
@@ -193,6 +237,7 @@ def main(dry_run=False):
         logger.info(f"Deduplication summary: Valid Candidates={len(valid_candidates)}, Skipped Exact={skipped_exact}, Skipped DB Fuzzy={skipped_fuzzy_db}, Skipped Batch Fuzzy={skipped_fuzzy_batch}, Unique To Insert={len(to_insert)}")
 
         # Breakdown by university
+        from collections import Counter
         uni_breakdown = Counter(c["university_th"] for c in to_insert)
         for u, count in uni_breakdown.items():
             lvl_counts = Counter(c["degree_level"] for c in to_insert if c["university_th"] == u)
@@ -223,13 +268,9 @@ def main(dry_run=False):
         emb_results = {}
         with ThreadPoolExecutor(max_workers=5) as executor:
             future_to_c = {executor.submit(embed_course, c): c for c in to_insert}
-            completed = 0
             for future in as_completed(future_to_c):
                 cid, txt, vec = future.result()
                 emb_results[cid] = (txt, vec)
-                completed += 1
-                if completed % 20 == 0 or completed == len(to_insert):
-                    logger.info(f"Embedded {completed}/{len(to_insert)} courses...")
 
         # Stage 4: Atomic Database Commit
         logger.info(f"Committing {len(to_insert)} new courses to PostgreSQL...")
@@ -267,11 +308,11 @@ def main(dry_run=False):
 
     except Exception as e:
         session.rollback()
-        logger.error(f"Error during ingestion: {e}", exc_info=True)
+        logger.error(f"Transaction failed, rolled back: {e}")
         raise
     finally:
         session.close()
 
 if __name__ == "__main__":
-    dry_run = "--dry-run" in sys.argv
-    main(dry_run=dry_run)
+    is_dry = "--dry-run" in sys.argv
+    main(dry_run=is_dry)

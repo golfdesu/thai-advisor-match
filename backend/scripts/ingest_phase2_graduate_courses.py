@@ -1,0 +1,364 @@
+# -*- coding: utf-8 -*-
+"""
+Ingest Phase 2 Graduate Courses (โท/เอก) for 6 Top Regional/Flagship Universities:
+  1. Mahasarakham University (MSU - มหาวิทยาลัยมหาสารคาม)
+  2. Burapha University (BUU - มหาวิทยาลัยบูรพา)
+  3. Naresuan University (NU - มหาวิทยาลัยนเรศวร)
+  4. Prince of Songkla University (PSU - มหาวิทยาลัยสงขลานครินทร์)
+  5. Silpakorn University (SU - มหาวิทยาลัยศิลปากร)
+  6. Ubon Ratchathani University (UBU - มหาวิทยาลัยอุบลราชธานี)
+
+Features:
+- Thai Unicode PUA normalization for PDF-sourced text (U+F700 - U+F714).
+- Academic major extraction and clean_major normalization.
+- RapidFuzz >= 88 major-level deduplication against existing database courses and within batch.
+- High-precision faculty attribution for all 6 universities matching the faculties table.
+- 768-dimensional Gemini vector embedding generation via embedding_service.
+- Non-blocking circuit breaker with retry and graceful degradation.
+- Atomic batch commit to local PostgreSQL (courses table).
+"""
+import os
+import sys
+import re
+import json
+import logging
+import time
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from rapidfuzz import fuzz
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
+BACKEND_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, BACKEND_DIR)
+
+from app.core.database import SessionLocal
+from app.models.db_models import CourseDB, FacultyDB
+from app.core.embedding_service import embedding_service
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+logger = logging.getLogger("ingest_phase2")
+
+RAW_DATA_PATH = os.path.join(BACKEND_DIR, "data", "agent_states", "phase2_courses_raw.json")
+
+# Thai Unicode Private Use Area (PUA) tone mark normalization
+PUA_MAP = {
+    0xF700: "ุ", 0xF701: "ิ", 0xF702: "ี", 0xF703: "ึ", 0xF704: "ื",
+    0xF705: "่", 0xF706: "้", 0xF707: "๊", 0xF708: "๋", 0xF709: "์",
+    0xF70A: "่", 0xF70B: "้", 0xF70C: "๊", 0xF70D: "๋", 0xF70E: "์",
+    0xF70F: "ํ", 0xF710: "ั", 0xF711: "่", 0xF712: "้", 0xF713: "๊",
+    0xF714: "๋"
+}
+
+def normalize_thai_pua(text: str) -> str:
+    if not text:
+        return ""
+    return "".join(PUA_MAP.get(ord(ch), ch) for ch in text)
+
+# Faculty attribution mapping rules
+MSU_FACULTY_RULES = [
+    (r"การท่องเที่ยว|การโรงแรม", "คณะการท่องเที่ยวและการโรงแรม", "Faculty of Tourism and Hotel Management"),
+    (r"การบัญชี|บริหารธุรกิจ|การจัดการ|การตลาด|ธุรกิจ", "คณะการบัญชีและการจัดการ", "Mahasarakham Business School"),
+    (r"สถาปัตยกรรม|เมืองอัจฉริยะ|นฤมิตศิลป์|ผังเมือง", "คณะสถาปัตยกรรมศาสตร์ ผังเมืองและนฤมิตศิลป์", "Faculty of Architecture, Urban Design and Creative Arts"),
+    (r"ดุริยางค|ดนตรี", "วิทยาลัยดุริยางคศิลป์", "College of Music"),
+    (r"สารสนเทศ|คอมพิวเตอร์|สื่อดิจิทัล", "คณะวิทยาการสารสนเทศ", "Faculty of Informatics"),
+    (r"แพทย|เวช|พยาธิ|กายวิภาค", "คณะแพทยศาสตร์", "Faculty of Medicine"),
+    (r"พยาบาล", "คณะพยาบาลศาสตร์", "Faculty of Nursing"),
+    (r"เภสัช", "คณะเภสัชศาสตร์", "Faculty of Pharmacy"),
+    (r"สาธารณสุข", "คณะสาธารณสุขศาสตร์", "Faculty of Public Health"),
+    (r"สัตวแพทย์|สัตวศาสตร์", "คณะสัตวแพทยศาสตร์", "Faculty of Veterinary Medicine"),
+    (r"วิศวกรรม", "คณะวิศวกรรมศาสตร์", "Faculty of Engineering"),
+    (r"สิ่งแวดล้อม", "คณะสิ่งแวดล้อมและทรัพยากรศาสตร์", "Faculty of Environment and Resource Studies"),
+    (r"เทคโนโลยี|อาหาร|เทคโนโลยีการเกษตร", "คณะเทคโนโลยี", "Faculty of Technology"),
+    (r"วิทยาศาสตร์|เคมี|ฟิสิกส์|ชีว|คณิต|สถิติ|บรรจุภัณฑ์", "คณะวิทยาศาสตร์", "Faculty of Science"),
+    (r"การเมือง|รัฐศาสตร์|รัฐประศาสน", "วิทยาลัยการเมืองการปกครอง", "College of Politics and Governance"),
+    (r"การศึกษา|ศึกษาศาสตร์|การสอน|กศ\.|หลักสูตร", "คณะศึกษาศาสตร์", "Faculty of Education"),
+    (r"ศิลปกรรม|วัฒนธรรม|ทัศนศิลป์", "คณะศิลปกรรมศาสตร์และวัฒนธรรมศาสตร์", "Faculty of Fine-Applied Arts and Cultural Science"),
+    (r"มนุษยศาสตร์|สังคมศาสตร์|ภาษา|ประวัติศาสตร์", "คณะมนุษยศาสตร์และสังคมศาสตร์", "Faculty of Humanities and Social Sciences"),
+]
+
+PSU_FACULTY_MAP = [
+    (r"การจัดการทองเที่ยว|การท่องเที่ยว|การบริการและการท่องเที่ยว", "คณะการบริการและการท่องเที่ยว", "Faculty of Hospitality and Tourism"),
+    (r"การจัดการทรัพยากรทะเล|ทรัพยากรทางทะเล|สิ่งแวดล้อม", "คณะเทคโนโลยีและสิ่งแวดล้อม", "Faculty of Technology and Environment"),
+    (r"การแพทยแผนไทย|การแพทย์แผนไทย", "คณะการแพทย์แผนไทย", "Faculty of Traditional Thai Medicine"),
+    (r"เกษตร|พืชศาสตร์|พืชศาสตร|สัตวศาสตร์|ปฐพี|กีฏ|ประมง", "คณะทรัพยากรธรรมชาติ", "Faculty of Natural Resources"),
+    (r"ทันต|สุขภาพช่องปาก|ศัลยศาสตร์ช่องปาก", "คณะทันตแพทยศาสตร์", "Faculty of Dentistry"),
+    (r"พยาบาล|ผดุงครรภ", "คณะพยาบาลศาสตร์", "Faculty of Nursing"),
+    (r"แพทย|กายวิภาค|สรีร|พยาธิ|ชีวเคมีทางการแพทย์|วิทยาศาสตร์การแพทย์|ระบาดวิทยา|ระบาวิทยา", "คณะแพทยศาสตร์", "Faculty of Medicine"),
+    (r"เภสัช", "คณะเภสัชศาสตร์", "Faculty of Pharmaceutical Sciences"),
+    (r"วิศวกรรม|โยธา|เครื่องกล|ไฟฟ้า|คอมพิวเตอร์|เคมี|เหมืองแร่|เทคโนโลยีพลังงาน", "คณะวิศวกรรมศาสตร์", "Faculty of Engineering"),
+    (r"อุตสาหกรรมเกษตร|เทคโนโลยีชีวภาพ|เทคโนโลยีอาหาร|บรรจุภัณฑ์|อาหารเพื่อสุขภาพ|วิทยาศาสตร์การอาหาร|วทยาศาสตร์การอาหาร|อาหารสุขภาพ|นวัตกรรมอาหาร", "คณะอุตสาหกรรมเกษตร", "Faculty of Agro-Industry"),
+    (r"พอลิเมอร์|ยาง|วิทยาศาสตร์และเทคโนโลยีอุตสาหกรรม", "คณะวิทยาศาสตร์และเทคโนโลยีอุตสาหกรรม", "Faculty of Science and Industrial Technology"),
+    (r"คอมพิวเตอร์|วิทยาการข้อมูล|วิทยาการคํานวณ|วิทยาการคำนวณ|ปัญญาประดิษฐ์", "วิทยาลัยการคอมพิวเตอร์", "College of Computing"),
+    (r"วิทยาการจัดการ|บริหารธุรกิจ|การบัญชี|การตลาด|การเงิน|การจัดการ|บัญชี", "คณะวิทยาการจัดการ", "Faculty of Management Sciences"),
+    (r"เศรษฐศาสตร์", "คณะเศรษฐศาสตร์", "Faculty of Economics"),
+    (r"นิติศาสตร์", "คณะนิติศาสตร์", "Faculty of Law"),
+    (r"รัฐศาสตร์|รัฐศาสตร|รัฐประศาสน|นโยบายสาธารณะ", "คณะรัฐศาสตร์", "Faculty of Political Science"),
+    (r"ศึกษาศาสตร์|การศึกษา|จิตวิทยา|การวิจัยและประเมิน|หลักสูตรและการสอน|นวัตกรรมเพื่อการเรียนรู้|วิธีวิทยาการวิจัย|วิเคราะห์ข้อมูล", "คณะศึกษาศาสตร์", "Faculty of Education"),
+    (r"มนุษยศาสตร์|สังคมศาสตร์|ภาษา|วัฒนธรรม|พัฒนามนุษย์|ภาษาศาสตร์|การบริหารสังคม|การบริหารการพัฒนาสังคม|สันติศึกษา", "คณะมนุษยศาสตร์และสังคมศาสตร์", "Faculty of Humanities and Social Sciences"),
+    (r"อิสลามศึกษา", "วิทยาลัยอิสลามศึกษา", "College of Islamic Studies"),
+    (r"ศิลปศาสตร์", "คณะศิลปศาสตร์", "Faculty of Liberal Arts"),
+    (r"เคมี|ฟิสิกส์|ชีว|คณิต|วัสดุ|วิทยาศาสตร์|สถิติ|ธรณี", "คณะวิทยาศาสตร์", "Faculty of Science"),
+]
+
+UNI_CODE_MAP = {
+    "มหาวิทยาลัยมหาสารคาม": "msu",
+    "มหาวิทยาลัยบูรพา": "buu",
+    "มหาวิทยาลัยนเรศวร": "nu",
+    "มหาวิทยาลัยสงขลานครินทร์": "psu",
+    "มหาวิทยาลัยศิลปากร": "su",
+    "มหาวิทยาลัยอุบลราชธานี": "ubu",
+}
+
+def clean_major(t: str) -> str:
+    if not t:
+        return ""
+    t = normalize_thai_pua(t)
+    m = re.search(r"สาขาวิชา(.*?)$", t)
+    maj = m.group(1).strip() if m else t
+    maj = re.sub(r"\(.*?\)", "", maj)
+    maj = re.sub(r"(แบบ\s*[ก-ฮ0-9\.]+|แผน\s*[ก-ฮ0-9\.]+|ภาคปกติ|ภาคพิเศษ|นานาชาติ|โครงการพิเศษ|หลักสูตรปรับปรุง.*?|หลักสูตรใหม่.*?)", "", maj).strip()
+    return re.sub(r"\s+", " ", maj)
+
+def clean_course_item(c: dict) -> dict:
+    raw_title = (c.get("title_th") or "").strip()
+    title = normalize_thai_pua(raw_title)
+    title = re.sub(r"\s+", " ", title)
+
+    # Filter out empty or header artifacts
+    if not title or title in ("หลักสูตร/สาขาวิชา", "สาขาวิชา") or title.endswith(" สาขาวิชา"):
+        return None
+
+    # Strip PDF markers and extra brackets
+    title = re.sub(r"\s*\(ห้องเรียนวิทยาเขต.*?\)", "", title)
+    title = title.strip()
+    c["title_th"] = title
+
+    u = c.get("university_th", "")
+    fac_th = c.get("faculty_th", "")
+
+    # Attribute MSU faculties
+    if u == "มหาวิทยาลัยมหาสารคาม" and (not fac_th or fac_th == "บัณฑิตวิทยาลัย"):
+        target_str = f"{title} {c.get('title_en', '')}"
+        for pat, fth, fen in MSU_FACULTY_RULES:
+            if re.search(pat, target_str):
+                c["faculty_th"] = fth
+                c["faculty"] = fen
+                break
+
+    # Attribute PSU faculties
+    if u == "มหาวิทยาลัยสงขลานครินทร์" and (not fac_th or fac_th == "บัณฑิตวิทยาลัย"):
+        for pat, fth, fen in PSU_FACULTY_MAP:
+            if re.search(pat, title):
+                c["faculty_th"] = fth
+                c["faculty"] = fen
+                break
+
+    # Normalize duration
+    dur = (c.get("duration_years") or "").strip()
+    if dur in ("4 ปี", "", "-", "ไม่มี"):
+        c["duration_years"] = "2 ปี" if c.get("degree_level") == "ปริญญาโท" else "3 ปี"
+
+    # Normalize degree name
+    deg_lvl = c.get("degree_level", "ปริญญาโท")
+    if not c.get("degree_name"):
+        c["degree_name"] = "ปร.ด." if deg_lvl == "ปริญญาเอก" else "มหาบัณฑิต"
+
+    return c
+
+def build_embedding_text(c: dict) -> str:
+    hl = ", ".join(c.get("curriculum_highlights") or [])
+    cp = ", ".join(c.get("career_paths") or [])
+    tg = ", ".join(c.get("tags") or [])
+    return (
+        f"{c['title_th']} {c.get('title_en', '')}. "
+        f"University: {c.get('university', '')} {c.get('university_th', '')}. "
+        f"Faculty: {c.get('faculty', '')} {c.get('faculty_th', '')}. "
+        f"Department: {c.get('department', '')} {c.get('department_th', '')}. "
+        f"Degree: {c['degree_level']} {c.get('degree_name', '')}. "
+        f"Description: {c.get('description', '')}. "
+        f"Highlights: {hl}. Careers: {cp}. Tags: {tg}."
+    )
+
+def main(dry_run=False):
+    logger.info(f"=== Starting Phase 2 Graduate Course Ingestion (Dry Run: {dry_run}) ===")
+
+    if not os.path.exists(RAW_DATA_PATH):
+        logger.error(f"Raw data file not found: {RAW_DATA_PATH}")
+        return
+
+    with open(RAW_DATA_PATH, "r", encoding="utf-8") as f:
+        raw_courses = json.load(f)
+    logger.info(f"Loaded {len(raw_courses)} raw courses from checkpoint.")
+
+    session = SessionLocal()
+    try:
+        # Load existing courses
+        existing_ids = {r[0] for r in session.query(CourseDB.id).all()}
+        existing_rows = session.query(
+            CourseDB.title_th, CourseDB.university_th, CourseDB.degree_level, CourseDB.faculty_th
+        ).all()
+
+        existing_set = set()
+        for t, u, d, f in existing_rows:
+            maj = clean_major(t)
+            norm_t = re.sub(r"\s+", " ", t or "").strip()
+            existing_set.add((maj, u, d))
+            existing_set.add((norm_t, u, d))
+
+        # Stage 1: Clean and filter candidates
+        valid_candidates = []
+        for c in raw_courses:
+            cleaned = clean_course_item(c)
+            if cleaned:
+                valid_candidates.append(cleaned)
+        logger.info(f"Cleaned candidates: {len(valid_candidates)} (filtered out {len(raw_courses) - len(valid_candidates)})")
+
+        # Stage 2: Deduplicate against database and within batch using clean_major + RapidFuzz
+        to_insert = []
+        skipped_exact = 0
+        skipped_fuzzy_db = 0
+        skipped_fuzzy_batch = 0
+
+        for c in valid_candidates:
+            t = c["title_th"]
+            u = c["university_th"]
+            d = c["degree_level"]
+            f = c["faculty_th"]
+            maj = clean_major(t)
+
+            if not maj or len(maj) < 2:
+                continue
+
+            # Exact DB check (by full title or clean major)
+            if (t, u, d) in existing_set or (maj, u, d) in existing_set:
+                skipped_exact += 1
+                continue
+
+            # Fuzzy DB check
+            fuzzy_dup = False
+            for ex_maj, ex_u, ex_d in existing_set:
+                if ex_u == u and ex_d == d and len(maj) > 3 and len(ex_maj) > 3:
+                    ratio = fuzz.token_sort_ratio(maj, ex_maj)
+                    if ratio >= 88:
+                        fuzzy_dup = True
+                        logger.debug(f"SKIP DB fuzzy-dup ({ratio}%): '{t}' (major: '{maj}') matches existing '{ex_maj}'")
+                        break
+            if fuzzy_dup:
+                skipped_fuzzy_db += 1
+                continue
+
+            # Fuzzy batch check (dedup within to_insert)
+            batch_dup = False
+            for k in to_insert:
+                if k["university_th"] == u and k["degree_level"] == d:
+                    ins_maj = clean_major(k["title_th"])
+                    if maj == ins_maj or (len(maj) > 3 and len(ins_maj) > 3 and fuzz.token_sort_ratio(maj, ins_maj) >= 88):
+                        batch_dup = True
+                        logger.debug(f"SKIP batch fuzzy-dup: '{t}' matches batch '{k['title_th']}'")
+                        break
+            if batch_dup:
+                skipped_fuzzy_batch += 1
+                continue
+
+            # Generate unique ID
+            uni_prefix = UNI_CODE_MAP.get(u, "grad")
+            deg_prefix = "doc" if d == "ปริญญาเอก" else "grad"
+            idx = 1
+            cid = f"{uni_prefix}_{deg_prefix}_{idx:03d}"
+            while cid in existing_ids:
+                idx += 1
+                cid = f"{uni_prefix}_{deg_prefix}_{idx:03d}"
+            existing_ids.add(cid)
+            c["id"] = cid
+
+            existing_set.add((t, u, d))
+            existing_set.add((maj, u, d))
+            to_insert.append(c)
+
+        logger.info(f"Deduplication summary: Valid Candidates={len(valid_candidates)}, Skipped Exact={skipped_exact}, Skipped DB Fuzzy={skipped_fuzzy_db}, Skipped Batch Fuzzy={skipped_fuzzy_batch}, Unique To Insert={len(to_insert)}")
+
+        # Breakdown by university
+        uni_breakdown = Counter(c["university_th"] for c in to_insert)
+        for u, count in uni_breakdown.items():
+            lvl_counts = Counter(c["degree_level"] for c in to_insert if c["university_th"] == u)
+            logger.info(f"  -> {u}: {count} new courses ({dict(lvl_counts)})")
+
+        if dry_run:
+            logger.info("DRY RUN mode: No database changes made.")
+            return
+
+        # Stage 3: Embedding generation via ThreadPoolExecutor
+        logger.info(f"Generating 768-dim embeddings for {len(to_insert)} courses...")
+
+        def embed_course(c):
+            txt = build_embedding_text(c)
+            for attempt in range(3):
+                try:
+                    vec = embedding_service.get_embedding(txt)
+                    if isinstance(vec, list) and len(vec) == 768:
+                        return (c["id"], txt, vec)
+                    time.sleep(1.0)
+                except Exception as e:
+                    logger.warning(f"Embedding attempt {attempt+1} failed for {c['id']}: {e}")
+                    time.sleep(2.0 * (attempt + 1))
+            # Fallback circuit breaker
+            logger.error(f"Fallback to zero-vector for {c['id']}")
+            return (c["id"], txt, [0.0] * 768)
+
+        emb_results = {}
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            future_to_c = {executor.submit(embed_course, c): c for c in to_insert}
+            completed = 0
+            for future in as_completed(future_to_c):
+                cid, txt, vec = future.result()
+                emb_results[cid] = (txt, vec)
+                completed += 1
+                if completed % 50 == 0 or completed == len(to_insert):
+                    logger.info(f"Embedded {completed}/{len(to_insert)} courses...")
+
+        # Stage 4: Atomic Database Commit
+        logger.info(f"Committing {len(to_insert)} new courses to PostgreSQL...")
+        for c in to_insert:
+            txt, vec = emb_results[c["id"]]
+            course_obj = CourseDB(
+                id=c["id"],
+                title_th=c["title_th"],
+                title_en=c.get("title_en"),
+                degree_level=c["degree_level"],
+                degree_name=c.get("degree_name"),
+                university=c.get("university"),
+                university_th=c["university_th"],
+                faculty=c.get("faculty"),
+                faculty_th=c.get("faculty_th"),
+                department=c.get("department", ""),
+                department_th=c.get("department_th", ""),
+                program_type=c.get("program_type", "ภาคปกติ"),
+                duration_years=c.get("duration_years", "2 ปี"),
+                total_credits=c.get("total_credits", ""),
+                tuition_per_semester=c.get("tuition_per_semester", ""),
+                tuition_total=c.get("tuition_total", ""),
+                description=c.get("description", ""),
+                curriculum_highlights=c.get("curriculum_highlights") or [],
+                career_paths=c.get("career_paths") or [],
+                tags=c.get("tags") or [],
+                website_url=c.get("website_url", ""),
+                embedding_text=txt,
+                embedding=vec
+            )
+            session.add(course_obj)
+
+        session.commit()
+        logger.info(f"SUCCESS: Successfully inserted {len(to_insert)} graduate courses into database.")
+
+    except Exception as e:
+        session.rollback()
+        logger.error(f"Transaction failed, rolled back: {e}")
+        raise
+    finally:
+        session.close()
+
+if __name__ == "__main__":
+    is_dry = "--dry-run" in sys.argv
+    main(dry_run=is_dry)

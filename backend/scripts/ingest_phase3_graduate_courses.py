@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Ingest Phase 4 Graduate Courses (โท/เอก) for High-Impact / Under-Represented Institutions:
-  1. Rangsit University (RSU - มหาวิทยาลัยรังสิต)
-  2. Rajamangala University of Technology Thanyaburi (RMUTT - มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี)
-  3. Sripatum University (SPU - มหาวิทยาลัยศรีปทุม)
-  4. National Institute of Development Administration (NIDA - สถาบันบัณฑิตพัฒนบริหารศาสตร์: คณะสถิติประยุกต์)
+Ingest Phase 3 Graduate Courses (โท/เอก) for Northern Regional Flagship Universities:
+  1. Mae Fah Luang University (MFU - มหาวิทยาลัยแม่ฟ้าหลวง)
+  2. Maejo University (MJU - มหาวิทยาลัยแม่โจ้)
 
 Features:
 - Academic major extraction and clean_major normalization.
@@ -35,16 +33,31 @@ from app.models.db_models import CourseDB
 from app.core.embedding_service import embedding_service
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-logger = logging.getLogger("ingest_phase4")
+logger = logging.getLogger("ingest_phase3")
 
-RAW_DATA_PATH = os.path.join(BACKEND_DIR, "data", "agent_states", "phase4_courses_raw.json")
+RAW_DATA_PATH = os.path.join(BACKEND_DIR, "data", "agent_states", "phase3_courses_raw.json")
 
 UNI_CODE_MAP = {
-    "มหาวิทยาลัยรังสิต": "rsu",
-    "มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี": "rmutt",
-    "มหาวิทยาลัยศรีปทุม": "spu",
-    "สถาบันบัณฑิตพัฒนบริหารศาสตร์ (นิด้า)": "nida",
+    "มหาวิทยาลัยแม่ฟ้าหลวง": "mfu",
+    "มหาวิทยาลัยแม่โจ้": "mju",
 }
+
+MJU_FACULTY_MAP = [
+    (r"การท่องเที่ยว|ท่องเที", "คณะพัฒนาการท่องเที่ยว", "Faculty of Tourism Development"),
+    (r"เกษตรอินทรีย์|ปฐพี|พืชไร่|พืชสวน|ส่งเสริมการเกษตร|อารักขาพืช|เทคโนโลยีชีวภาพทางพืช|ภูมิสังคม|ป่าไม้", "คณะผลิตกรรมการเกษตร", "Faculty of Agricultural Production"),
+    (r"เศรษฐศาสตร์|บริหารธุรกิจ|บัญชี|บริหารศาสตร์|การตลาด|การเงิน|การจัดการและพัฒนาทรัพยากร", "คณะบริหารธุรกิจ", "Faculty of Business Administration"),
+    (r"สหวิทยาการเกษตร|นวัตกรรมเทคโนโลยี", "คณะผลิตกรรมการเกษตร", "Faculty of Agricultural Production"),
+    (r"บริหารสาธารณะ|รัฐประศาสน", "วิทยาลัยบริหารศาสตร์", "School of Administrative Studies"),
+    (r"วิศวกรรมพลังงาน|พลังงานทดแทน", "วิทยาลัยพลังงานทดแทน", "School of Renewable Energy"),
+    (r"สุขภาพชุมชน|พยาบาล", "คณะพยาบาลศาสตร์", "Faculty of Nursing"),
+    (r"ประมง|ทรัพยากรทางนำ|ทรัพยากรทางน้ำ|เพาะเลี้ยง", "คณะเทคโนโลยีการประมงและทรัพยากรทางน้ำ", "Faculty of Fisheries Technology and Aquatic Resources"),
+    (r"ผังเมือง|ภูมิทัศน์|สถาปัตยกรรม|การออกแบบ", "คณะสถาปัตยกรรมศาสตร์และการออกแบบสิ่งแวดล้อม", "Faculty of Architecture and Environmental Design"),
+    (r"วิศวกรรมอาหาร|วิศวกรรมเกษตร|นวัตกรรมวิทยาศาสตร์และเทคโนโลยีอาหาร|วิทยาศาสตร์และเทคโนโลยีอาหาร", "คณะวิศวกรรมและอุตสาหกรรมเกษตร", "Faculty of Engineering and Agro-Industry"),
+    (r"สัตวศาสตร์|สัตว์ปีก|โคนม", "คณะสัตวศาสตร์และเทคโนโลยี", "Faculty of Animal Science and Technology"),
+    (r"เคมี|ฟิสิกส์|ชีว|พันธุศาสตร์|นาโน|วิทยาการคอมพิวเตอร์|เทคโนโลยีสารสนเทศ|เทคโนโลยีสิ่งแวดล้อม", "คณะวิทยาศาสตร์", "Faculty of Science"),
+    (r"ศิลปศาสตร์|ภาษา", "คณะศิลปศาสตร์", "Faculty of Liberal Arts"),
+    (r"สัตวแพทย์", "คณะสัตวแพทยศาสตร์", "Faculty of Veterinary Medicine"),
+]
 
 def clean_major(t: str) -> str:
     if not t:
@@ -60,17 +73,28 @@ def clean_course_item(c: dict) -> dict:
     title = re.sub(r"\s+", " ", title)
 
     # Filter out empty or header artifacts
-    if not title or title in ("หลักสูตร/สาขาวิชา", "สาขาวิชา", "หลักสูตร", "Courses", "หลักสูตรที่เปิดสอน") or title.endswith(" สาขาวิชา"):
-        return None
-    if "ที่เปิดสอน" in title or re.match(r"^Ph\.?D\.?", title, re.IGNORECASE) or len(title) < 8:
+    if not title or title in ("หลักสูตร/สาขาวิชา", "สาขาวิชา") or title.endswith(" สาขาวิชา"):
         return None
 
+    title = re.sub(r"\s*\(ห้องเรียนวิทยาเขต.*?\)", "", title).strip()
     c["title_th"] = title
+
+    u = c.get("university_th", "")
+    fac_th = c.get("faculty_th", "")
+
+    # Attribute MJU faculties if under บัณฑิตวิทยาลัย
+    if u == "มหาวิทยาลัยแม่โจ้" and (not fac_th or fac_th == "บัณฑิตวิทยาลัย"):
+        target_str = f"{title} {c.get('title_en', '')}"
+        for pat, fth, fen in MJU_FACULTY_MAP:
+            if re.search(pat, target_str):
+                c["faculty_th"] = fth
+                c["faculty"] = fen
+                break
 
     # Normalize duration
     dur = (c.get("duration_years") or "").strip()
-    if dur in ("4 ปี", "", "-", "ไม่มี", "1 ปี"):
-        c["duration_years"] = "2 ปี" if c.get("degree_level") in ("ปริญญาโท", "ประกาศนียบัตรบัณฑิต") else "3 ปี"
+    if dur in ("4 ปี", "", "-", "ไม่มี"):
+        c["duration_years"] = "2 ปี" if c.get("degree_level") == "ปริญญาโท" else "3 ปี"
 
     # Normalize degree name
     deg_lvl = c.get("degree_level", "ปริญญาโท")
@@ -94,7 +118,7 @@ def build_embedding_text(c: dict) -> str:
     )
 
 def main(dry_run=False):
-    logger.info(f"=== Starting Phase 4 Graduate Course Ingestion (Dry Run: {dry_run}) ===")
+    logger.info(f"=== Starting Phase 3 Graduate Course Ingestion (Dry Run: {dry_run}) ===")
 
     if not os.path.exists(RAW_DATA_PATH):
         logger.error(f"Raw data file not found: {RAW_DATA_PATH}")
@@ -146,7 +170,6 @@ def main(dry_run=False):
             # Exact DB check (by full title or clean major)
             if (t, u, d) in existing_set or (maj, u, d) in existing_set:
                 skipped_exact += 1
-                logger.info(f"SKIP DB exact-dup: '{t}' ({u})")
                 continue
 
             # Fuzzy DB check
@@ -267,11 +290,11 @@ def main(dry_run=False):
 
     except Exception as e:
         session.rollback()
-        logger.error(f"Error during ingestion: {e}", exc_info=True)
+        logger.error(f"Transaction failed, rolled back: {e}")
         raise
     finally:
         session.close()
 
 if __name__ == "__main__":
-    dry_run = "--dry-run" in sys.argv
-    main(dry_run=dry_run)
+    is_dry = "--dry-run" in sys.argv
+    main(dry_run=is_dry)
