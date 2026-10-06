@@ -342,7 +342,8 @@ function HomeContent() {
           if (res.ok) {
             const data = await res.json();
             const list = Array.isArray(data) ? data : (data.results ?? []);
-            const formatted = list.map((f: FacultyMember) => ({ faculty: f, match_score: 85 }));
+            // No query means no match was computed, so leave match_score unset (AdvisorCard hides the badge).
+            const formatted = list.map((f: FacultyMember) => ({ faculty: f }));
             searchApiCache.put(cacheKey, formatted);
             if (isCurrent()) setAdvisors(formatted);
           } else if (isCurrent()) {

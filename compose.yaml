@@ -58,6 +58,32 @@ services:
     networks:
       - app_network
 
+  # Test runner (opt-in): docker compose --profile test run --rm backend-tests
+  # Mounts the full backend tree read-only so tests can import scripts.* and
+  # tests/, which the production image intentionally leaves out.
+  backend-tests:
+    profiles: ["test"]
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    working_dir: /app
+    env_file:
+      - path: ./backend/.env
+        required: false
+    environment:
+      # Explicit driver: a fresh build resolves SQLAlchemy 2.1, whose bare
+      # postgresql:// URL selects psycopg v3 (not in requirements.txt).
+      DATABASE_URL: postgresql+psycopg2://postgres:postgres@db:5432/advisor_match
+      PYTHONPATH: /app
+    volumes:
+      - ./backend:/app:ro
+    command: ["python", "-m", "pytest", "tests", "-q", "-p", "no:cacheprovider", "--ignore=tests/test_webapp_playwright.py"]
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - app_network
+
   frontend:
     build:
       context: ./frontend

@@ -1,5 +1,26 @@
 # Changelog
 
+## 2026-10-06 (Bug sweep: frontend/backend fixes, test runner, local faculty data repair)
+- **Frontend:** Advisor list loaded without a query no longer shows a fabricated "85%" match; `SearchMatchResult.match_score` is optional and `AdvisorCard` hides the badge when absent.
+- **Backend:**
+  - `routes_faculty.py`: lab-faculty ID cache now expires after 5 min; on query failure it rolls back and serves the stale cache instead of returning HTTP 500.
+  - `routes_search.py`: graduate-program cache expires after 1 h; on failure it keeps the stale value instead of an empty set.
+  - `main.py`: uses `asyncio.get_running_loop()` and logs an error if the BM25 index build fails.
+- **Workflow:** `compose.yaml` gains an opt-in `backend-tests` service (`docker compose --profile test run --rm backend-tests`) that mounts `./backend` read-only so tests can import `scripts.*`. It pins `postgresql+psycopg2://` because a fresh image resolves SQLAlchemy 2.1, which defaults bare `postgresql://` to psycopg v3 (not in `requirements.txt`).
+- **Data repair (local Docker PostgreSQL only, not synced to Supabase; one transaction, backup at `backend/data/backups/faculty_repair_20261006_231542.jsonl`, git-ignored):**
+  - 72 faculty: string `featured_publications` converted to `{"title": ...}`.
+  - 2 faculty: duplicate `research_interests` removed (case-insensitive, first kept); 1 leaked header "ความเชี่ยวชาญ / Research Interests" removed.
+  - 12 `image_url` values: whitespace encoded as `%20`. 12 empty `profile_url` set to NULL.
+  - 1 email (`nesacramento@up.edu.ph`) set to NULL.
+- **Verification (backend-tests, excluding Playwright):** 109 passed, 8 failed. `tsc --noEmit` clean; eslint 0 errors, 2 existing `exhaustive-deps` warnings.
+- **Known failures, not fixed:**
+  - `phase6`: "Opinion Mining / Sentiment Analysis" is a legitimate interest; the test rule is too strict.
+  - `phase9`/`phase12`: 14 faculty have `image_url = ''` (e.g. `silpakornu_facultyofm_kishimoto_019`).
+  - `phase14`: other non-institutional emails remain (e.g. `colette.einfeld@anu.edu.au`).
+  - `phase36`: 3 authorship mismatches (`kmutt_fibo_002`, `kmutt_fibo_warasinee_c`, `mahidoluni_facultyofp_narin_027`); first/co counts could not be verified against OpenAlex here.
+  - `courses`: 408 courses have empty `title_en`; no official source used.
+  - `test_wikiskill`: 2 tests fail with `PermissionError: /.agents` because the read-only mount blocks writes.
+
 ## 2026-09-29 (Wave 90: Rangsit University Faculty Acquisition & 30,000 Milestone)
 - **Wave 90 RSU Faculty Acquisition (`acquire_rsu_faculty_wave90.py`):**
   - Harvested, deduplicated, and ingested 311 authentic academic faculty members and high-impact researchers at Rangsit University (RSU - มหาวิทยาลัยรังสิต), completely resolving the zero-faculty deficit for RSU in the Thai EduCenter database.

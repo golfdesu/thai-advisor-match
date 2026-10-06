@@ -12,6 +12,7 @@ from app.core.corpus_index import FACULTY_LEXICAL_INDEX, tokenize_mixed
 from typing import List, Tuple, Dict, Any, Set
 import math
 import re
+import time
 
 router = APIRouter(prefix="/search", tags=["Semantic Search & Match"])
 
@@ -22,6 +23,8 @@ GRAD_BADGE = "🎓 สังกัดคณะที่เปิดหลัก�
 # own at least one Master/PhD course. Small table scan (~366 rows) once per
 # process; empty set on any failure so search degrades to no-boost, never 500.
 _GRAD_PROGRAM_KEYS: Set[Tuple[str, str]] | None = None
+_GRAD_PROGRAM_KEYS_AT: float = 0.0
+_GRAD_PROGRAM_KEYS_TTL_SECONDS = 3600.0  # new graduate courses become visible within an hour
 
 
 def _norm_affil_key(s: str | None) -> str:
@@ -30,8 +33,9 @@ def _norm_affil_key(s: str | None) -> str:
 
 
 def get_grad_program_keys(db: Session) -> Set[Tuple[str, str]]:
-    global _GRAD_PROGRAM_KEYS
-    if _GRAD_PROGRAM_KEYS is not None:
+    global _GRAD_PROGRAM_KEYS, _GRAD_PROGRAM_KEYS_AT
+    now = time.monotonic()
+    if _GRAD_PROGRAM_KEYS is not None and now - _GRAD_PROGRAM_KEYS_AT < _GRAD_PROGRAM_KEYS_TTL_SECONDS:
         return _GRAD_PROGRAM_KEYS
     try:
         rows = (
@@ -46,7 +50,8 @@ def get_grad_program_keys(db: Session) -> Set[Tuple[str, str]]:
         # Transient failure: clear the aborted transaction and don't cache the
         # empty set, otherwise the grad bonus stays disabled until restart.
         db.rollback()
-        return set()
+        return _GRAD_PROGRAM_KEYS or set()
+    _GRAD_PROGRAM_KEYS_AT = now
     return _GRAD_PROGRAM_KEYS
 
 

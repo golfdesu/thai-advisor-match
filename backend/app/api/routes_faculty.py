@@ -1,4 +1,5 @@
 import json
+import time
 from typing import List, Optional, Set
 from fastapi import APIRouter, HTTPException, Query, Depends, Response
 from sqlalchemy.orm import Session, defer, load_only
@@ -11,21 +12,31 @@ from app.core.taxonomy import get_unis_for_region
 router = APIRouter(prefix="/faculty", tags=["Faculty"])
 
 _LAB_FACULTY_IDS_CACHE: Optional[Set[str]] = None
+_LAB_FACULTY_IDS_CACHE_AT: float = 0.0
+_LAB_FACULTY_IDS_TTL_SECONDS = 300.0
 
 
 def get_lab_faculty_ids(db: Session) -> Set[str]:
-    """Cache and return all faculty IDs that either lead or belong to any research lab."""
-    global _LAB_FACULTY_IDS_CACHE
-    if _LAB_FACULTY_IDS_CACHE is None:
+    """Return all faculty IDs that lead or belong to a research lab (cached, refreshed every 5 min)."""
+    global _LAB_FACULTY_IDS_CACHE, _LAB_FACULTY_IDS_CACHE_AT
+    now = time.monotonic()
+    if _LAB_FACULTY_IDS_CACHE is not None and now - _LAB_FACULTY_IDS_CACHE_AT < _LAB_FACULTY_IDS_TTL_SECONDS:
+        return _LAB_FACULTY_IDS_CACHE
+    try:
         rows = db.query(ResearchLabDB.lead_advisor_id, ResearchLabDB.member_faculty_ids).all()
-        s: Set[str] = set()
-        for lead_id, members in rows:
-            if lead_id:
-                s.add(lead_id)
-            if members and isinstance(members, list):
-                s.update(m for m in members if m and isinstance(m, str))
-        _LAB_FACULTY_IDS_CACHE = s
-    return _LAB_FACULTY_IDS_CACHE
+    except Exception:
+        # Clear the aborted transaction; serve the stale cache (or empty) instead of a 500.
+        db.rollback()
+        return _LAB_FACULTY_IDS_CACHE or set()
+    s: Set[str] = set()
+    for lead_id, members in rows:
+        if lead_id:
+            s.add(lead_id)
+        if members and isinstance(members, list):
+            s.update(m for m in members if m and isinstance(m, str))
+    _LAB_FACULTY_IDS_CACHE = s
+    _LAB_FACULTY_IDS_CACHE_AT = now
+    return s
 
 # Egress budget: list/card payloads must skip heavy columns server-side so
 # Supabase never ships education / pubs / embedding_text for card rendering.

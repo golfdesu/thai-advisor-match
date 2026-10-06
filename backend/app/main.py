@@ -25,9 +25,21 @@ async def _lifespan(app: FastAPI):
     # does NOT block the asyncio event loop during startup.  The index build streams
     # ~29 k rows in 500-row batches; expect ~1–3 s on a warm local PostgreSQL.
     import asyncio
+    import logging
     from app.core.corpus_index import build_faculty_lexical_index
-    loop = asyncio.get_event_loop()
-    loop.run_in_executor(None, build_faculty_lexical_index, SessionLocal)
+    loop = asyncio.get_running_loop()
+    index_future = loop.run_in_executor(None, build_faculty_lexical_index, SessionLocal)
+
+    def _log_index_failure(fut: "asyncio.Future") -> None:
+        if fut.cancelled():
+            return
+        exc = fut.exception()
+        if exc is not None:
+            logging.getLogger(__name__).error(
+                "BM25 lexical index build failed; search is dense-only: %r", exc
+            )
+
+    index_future.add_done_callback(_log_index_failure)
     yield
 
 
