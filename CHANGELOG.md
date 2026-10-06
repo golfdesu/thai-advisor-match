@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-06 (Faculty data repair, round 2)
+- **Data repair (local Docker PostgreSQL only, not synced to Supabase; one transaction, backup at `backend/data/backups/faculty_repair2_20261006_232619.jsonl`, git-ignored):**
+  - 14 faculty: empty-string `image_url` and `scholar_url` set to NULL.
+  - `kku_cp_5e2516d7fb`: "Opinion Mining / Sentiment Analysis" split into two interests, following the `" / "` rule in `scripts/audits/apply_phase6_content_hygiene.py`.
+  - 2 non-institutional emails set to NULL: `lertsak@ine.co.th` (company domain) and `colette.einfeld@anu.edu.au` (another university's domain).
+  - 3 authorship rows: `co_author_count` set to `total - first`, following the `total > first + co` rule in `scripts/audits/reconcile_authorship_breakdown.py` (`kmutt_fibo_002` 18→19, `kmutt_fibo_warasinee_c` 23→24, `mahidoluni_facultyofp_narin_027` 0→1). Not re-verified against OpenAlex.
+- **Corrections to the round-1 entry below:** the phase14 failures were 2 rows, not 408 (the 408 count wrongly included `.edu` domains the test accepts). The phase6 slash rule matches the project's own hygiene script and is not too strict. phase9 failed on `scholar_url = ''`, not `image_url`.
+  - 36 courses: whitespace in `title_en` collapsed to single spaces and trimmed (backup `backend/data/backups/courses_title_en_spaces_20261006_233042.jsonl`; no title became empty).
+- **Verification (backend-tests, excluding Playwright):** 114 passed, 3 failed. phase6, phase9, phase12, phase14 and phase36 now pass.
+- **Still failing / not fixed:**
+  - `courses`: 408 courses lack `title_en` (362 empty strings, 46 NULL). No official source was used.
+  - 270 courses have Thai text in `title_en` (largest groups: `swu` 76, `rajamang` 47, `tsu` 44, `sut` 40, `up` 36). Some rows hold only the Thai title (e.g. `rajamang_acad__001`); others append a Thai suffix (e.g. `cmu_tqf_25610046000153`). Not changed.
+  - `test_wikiskill` (2 tests): `PermissionError` because of the read-only mount.
+
 ## 2026-10-06 (Bug sweep: frontend/backend fixes, test runner, local faculty data repair)
 - **Frontend:** Advisor list loaded without a query no longer shows a fabricated "85%" match; `SearchMatchResult.match_score` is optional and `AdvisorCard` hides the badge when absent.
 - **Backend:**
